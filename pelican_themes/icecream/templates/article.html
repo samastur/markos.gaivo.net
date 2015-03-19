@@ -32,15 +32,13 @@
             <ul>
                 <li class="by">Written by: <a href="/">Marko Samastur</a></li>
                 <li class="published">Published on: <time datetime="{{ article.date.isoformat() }}" pubdate>{{ article.locale_date }}</time></li>
+                {% if article.modified %}
+                <li class="modified">Modified on: <time datetime="{{ article.modified.isoformat() }}" pubdate>{{ article.locale_modified }}</time></li>
+                {% endif %}
                 <li class="categories">Category: {{ category }}
                 </li>
             </ul>
 
-            {% if article.modified %}
-            <abbr class="modified" title="{{ article.modified.isoformat() }}">
-              {{ article.locale_modified }}
-            </abbr>
-            {% endif %}
         </footer><!-- /.post-info -->
 
         <div class="post-text">
@@ -51,7 +49,7 @@
         <script type="text/javascript">
             /* * * CONFIGURATION VARIABLES * * */
             var disqus_shortname = 'markosgaivo';
-            
+
             /* * * DON'T EDIT BELOW THIS LINE * * */
             (function() {
                 var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
