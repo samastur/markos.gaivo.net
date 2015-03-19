@@ -1,0 +1,26 @@
+#header {
+	height: 100px;
+	background-color: #8c2537;
+	position: relative;
+}
+#text {
+	width: 44em;
+}
+#text UL {
+	margin: 20px 0 0 0;
+	padding: 0;
+}
+.block {
+	float: left;
+	margin-right: 30px;
+}
+IMG {
+	background-color: #fff;
+	border: 1px solid #777;
+	padding: 2px;
+}
+LI {
+	list-style-type: none;
+	padding: 0 0 5px 0;
+	margin: 0;
+}
