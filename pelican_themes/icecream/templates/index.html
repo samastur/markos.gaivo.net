@@ -1,26 +1,38 @@
 {% extends "base.html" %}
 {% block content %}
-<section id="content">
-{% block content_title %}
-<h2>All articles</h2>
-{% endblock %}
 
-<ol id="post-list">
+{% block content_title %}{% endblock %}
+
+<section class="envelope posts">
+    <header id="banner" class="body">
+        <h1><a href="{{ SITEURL }}/">{{ SITENAME }} <strong>{{ SITESUBTITLE }}</strong></a></h1>
+    </header><!-- /#banner -->
+
+    <nav class="colophon">
+        <h1>By Marko Samastur</h1>
+        <ul>
+            <li><a href="/">About me</a></li>
+            <li><a href="http://markos.gaivo.net/blog/?feed=atom">Subscribe</a></li>
+        </ul>
+    </nav>
+
 {% for article in articles_page.object_list %}
-        <li><article class="hentry">
-                <header> <h2 class="entry-title"><a href="{{ SITEURL }}/{{ article.url }}" rel="bookmark" title="Permalink to {{ article.title|striptags }}">{{ article.title }}</a></h2> </header>
-                <footer class="post-info">
-                    <abbr class="published" title="{{ article.date.isoformat() }}"> {{ article.locale_date }} </abbr>
-                    <address class="vcard author">By
-                    {% for author in article.authors %}
-                        <a class="url fn" href="{{ SITEURL }}/{{ author.url }}">{{ author }}</a>
-                    {% endfor %}
-                    </address>
-                </footer><!-- /.post-info -->
-                <div class="entry-content"> {{ article.summary }} </div><!-- /.entry-content -->
-        </article></li>
+        <article class="hentry">
+            <h1 class="entry-title storytitle"><a href="{{ SITEURL }}/{{ article.url }}" rel="bookmark" title="Permalink to {{ article.title|striptags }}">{{ article.title }}</a></h1>
+
+            <div class="entry-content post-text">
+                {{ article.content }}
+            </div><!-- /.entry-content -->
+
+            <footer class="post-metadata">
+                <ul>
+                    <li>Published on <time datetime="{{ article.date.isoformat() }}">{{ article.locale_date }}</time> </li>
+                    <li><a href="{{ SITEURL }}/{{ article.url }}">Add your comment</a></li>
+                </ul>
+            </footer>
+        </article>
 {% endfor %}
-</ol><!-- /#posts-list -->
+
 {% include 'pagination.html' %}
 </section><!-- /#content -->
 {% endblock content %}

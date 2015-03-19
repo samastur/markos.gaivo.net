@@ -16,33 +16,36 @@
 {% endblock %}
 
 {% block content %}
-<section id="content" class="body">
-  <header>
-    <h2 class="entry-title">
-      <a href="{{ SITEURL }}/{{ article.url }}" rel="bookmark"
-         title="Permalink to {{ article.title|striptags }}">{{ article.title }}</a></h2>
- {% import 'translations.html' as translations with context %}
- {{ translations.translations_for(article) }}
-  </header>
-  <footer class="post-info">
-    <abbr class="published" title="{{ article.date.isoformat() }}">
-      {{ article.locale_date }}
-    </abbr>
-	{% if article.modified %}
-    <abbr class="modified" title="{{ article.modified.isoformat() }}">
-      {{ article.locale_modified }}
-    </abbr>
-	{% endif %}
-    {% if article.authors %}
-    <address class="vcard author">
-      By {% for author in article.authors %}
-          <a class="url fn" href="{{ SITEURL }}/{{ author.url }}">{{ author }}</a>
-        {% endfor %}
-    </address>
-    {% endif %}
-  </footer><!-- /.post-info -->
-  <div class="entry-content">
-    {{ article.content }}
-  </div><!-- /.entry-content -->
+<header id="banner" class="body">
+    <h1><a href="{{ SITEURL }}/">{{ SITENAME }}</a> &raquo; {{ article.title }}</h1>
+</header><!-- /#banner -->
+
+<section class="envelope">
+    <article class="post">
+        <header class="entry-title">
+            <h1 class="entry-title">{{ article.title }}</h1>
+         {% import 'translations.html' as translations with context %}
+         {{ translations.translations_for(article) }}
+        </header>
+
+        <footer class="post-info">
+            <ul>
+                <li class="by">Written by: <a href="/">Marko Samastur</a></li>
+                <li class="published">Published on: <time datetime="{{ article.date.isoformat() }}" pubdate>{{ article.locale_date }}</time></li>
+                <li class="categories">Category: {{ category }}
+                </li>
+            </ul>
+
+            {% if article.modified %}
+            <abbr class="modified" title="{{ article.modified.isoformat() }}">
+              {{ article.locale_modified }}
+            </abbr>
+            {% endif %}
+        </footer><!-- /.post-info -->
+
+      <div class="post-text">
+        {{ article.content }}
+      </div><!-- /.entry-content -->
+    </article>
 </section>
 {% endblock %}
