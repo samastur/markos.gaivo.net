@@ -171,10 +171,10 @@ def wp2fields(xml, wp_custpost=False):
                 else:
                     kind = post_type
             yield (title, content, filename, date, author, categories, tags, status,
-                   kind, "wp-html")
+                   kind, "wp-html", post_id)
 
 
-def build_header(title, date, author, categories, tags, slug, status=None, attachments=None):
+def build_header(post_id, title, date, author, categories, tags, slug, status=None, attachments=None):
     from docutils.utils import column_width
 
     """Build a header from a list of fields"""
@@ -191,13 +191,14 @@ def build_header(title, date, author, categories, tags, slug, status=None, attac
         header += ':slug: %s\n' % slug
     if status:
         header += ':status: %s\n' % status
+    header += ':id: %s\n' % post_id
     if attachments:
         header += ':attachments: %s\n' % ', '.join(attachments)
     header += '\n'
     return header
 
 
-def build_markdown_header(title, date, author, categories, tags, slug, status=None,
+def build_markdown_header(post_id, title, date, author, categories, tags, slug, status=None,
                           attachments=None):
     """Build a header from a list of fields"""
     header = 'Title: %s\n' % title
@@ -213,6 +214,7 @@ def build_markdown_header(title, date, author, categories, tags, slug, status=No
         header += 'Slug: %s\n' % slug
     if status:
         header += 'Status: %s\n' % status
+    header += 'Id: %s\n' % post_id
     if attachments:
         header += 'Attachments: %s\n' % ', '.join(attachments)
     header += '\n'
@@ -344,7 +346,7 @@ def fields2pelican(fields, out_markup, output_path,
                    dirpage=False, filename_template=None, filter_author=None,
                    wp_custpost=False, wp_attach=False, attachments=None):
     for (title, content, filename, date, author, categories, tags, status,
-            kind, in_markup) in fields:
+            kind, in_markup, post_id) in fields:
         if filter_author and filter_author != author:
             continue
         slug = not disable_slugs and filename or None
@@ -360,11 +362,11 @@ def fields2pelican(fields, out_markup, output_path,
 
         ext = get_ext(out_markup, in_markup)
         if ext == '.md':
-            header = build_markdown_header(title, date, author, categories,
+            header = build_markdown_header(post_id, title, date, author, categories,
                                            tags, slug, status, attached_files)
         else:
             out_markup = "rst"
-            header = build_header(title, date, author, categories,
+            header = build_header(post_id, title, date, author, categories,
                                   tags, slug, status, attached_files)
 
         out_filename = get_out_filename(output_path, filename, ext,
