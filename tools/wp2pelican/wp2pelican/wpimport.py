@@ -341,15 +341,23 @@ def download_attachments(output_path, urls):
     return locations
 
 
+def dump_id_slugs(id_slugs, filename):
+    with open(filename, 'w') as f:
+        for pair in id_slugs:
+            f.write("{}\n".format("\t".join(pair)))
+
+
 def fields2pelican(fields, out_markup, output_path,
                    dircat=False, strip_raw=False, disable_slugs=False,
                    dirpage=False, filename_template=None, filter_author=None,
                    wp_custpost=False, wp_attach=False, attachments=None):
+    id_slugs = []
     for (title, content, filename, date, author, categories, tags, status,
             kind, in_markup, post_id) in fields:
         if filter_author and filter_author != author:
             continue
         slug = not disable_slugs and filename or None
+        id_slugs.append((post_id, slug))
 
         if wp_attach and attachments:
             try:
@@ -420,6 +428,9 @@ def fields2pelican(fields, out_markup, output_path,
     if wp_attach and attachments and None in attachments:
         print("downloading attachments that don't have a parent post")
         urls = attachments[None]
+
+    idslug_filename = os.path.join(output_path, 'id_slug.tsv')
+    dump_id_slugs(id_slugs, idslug_filename)
 
 
 def main():
