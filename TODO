@@ -1,0 +1,3 @@
+* popravi notranje povezave pri importu starih objav
+* skript za generiranje .htaccess redirect datoteke
+* skiprt za parsanje logov
