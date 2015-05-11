@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>A notch above a monkey &raquo; Catchall</title>
+	<meta charset="utf-8" />
+	
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" /> 
+
+	<link rel="shortcut icon" href="/img/markos.ico" />
+	
+	<meta name="generator" content="WordPress 3.0.5" /> <!-- leave this for stats please -->
+
+	<link href="http://fast.fonts.com/cssapi/aee9b60b-8e94-47f8-b586-3ecbfab51d1c.css" rel="stylesheet" type="text/css" />
+	<link rel="stylesheet" type="text/css" href="css/home.css" media="screen" title="Light theme" />
+	<link rel="alternate stylesheet" type="text/css" href="css/home_dark.css" media="screen" title="Dark theme" />
+	<link rel="stylesheet" href="css/ipad.css" media="only screen and (min-device-width : 768px) and (max-device-width : 1024px)">
+	<link rel="stylesheet" type="text/css" href="css/smallscreen.css" media="only screen and (max-width: 700px)" />
+
+	<link rel="alternate" type="application/rss+xml" title="RSS 2.0" href="http://markos.gaivo.net/blog/?feed=rss2" />
+	<link rel="alternate" type="application/atom+xml" title="Atom 1.0" href="http://markos.gaivo.net/blog/?feed=atom" />
+	<link rel='canonical' href='http://markos.gaivo.net/blog/?p=664' />
+
+	<link rel="pingback" href="http://markos.gaivo.net/blog/xmlrpc.php" />
+
+	<link rel="alternate" type="application/rss+xml" title="A notch above a monkey &raquo; Catchall Category Feed" href="http://markos.gaivo.net/blog/?feed=rss2&amp;cat=3" />
+<link rel="EditURI" type="application/rsd+xml" title="RSD" href="http://markos.gaivo.net/blog/xmlrpc.php?rsd" />
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="http://markos.gaivo.net/blog/wp-includes/wlwmanifest.xml" /> 
+<link rel='index' title='A notch above a monkey' href='http://markos.gaivo.net/blog' />
+<meta name="generator" content="WordPress 3.0.5" />
+
+	<!--[if lt IE 9]>
+	<script src="/js/html5.js"></script>
+	<![endif]-->
+</head>
+<body>
+	<section class="envelope posts">
+		<header>
+			<h1><a href="http://markos.gaivo.net/blog/">A notch above a monkey</a></h1>
+		</header>
+		<nav class="colophon">
+			<h1>By Marko Samastur</h1>
+			<ul>
+				<li><a href="/">About me</a></li>
+				<li><a href="http://markos.gaivo.net/blog/?feed=atom">Subscribe</a></li>
+			</ul>
+		</nav>
+
+	
+		<article>
+			<h1 class="storytitle"><a href="http://markos.gaivo.net/blog/?p=68" rel="bookmark">Amazing stupidity of comment spam</a></h1>
+
+			<div class="post-text">
+				<p>Ever since I created my first blog, comment spam was an ever present evil. I can imagine it must be really annoying on very popular blogs with lots of comments, but the variety I have is more puzzling than anything else.</p>
+<p>What&#8217;s the purpose of producing spam comments that can&#8217;t pass even a simple filter included in default installation of WordPress?</p>
+<p>I find it highly incredible that someone would be competent enough to write a spamming software and incompetent enough to avoid the only trap WordPress presents. Or is there a benefit to blog spam no one else but me sees?</p>
+<p>There are other problems with it that make it easy to recognize and handle it. I&#8217;m grateful, because I don&#8217;t have to annoy anyone with captchas or other comment preventing mechanisms.</p>
+			</div>
+
+			<footer class="post-metadata">
+				<ul>
+					<li>Published on <time datetime="2005-11-16T11:17:03+00:00">November 16, 2005</time></li>
+					<li><a href="http://markos.gaivo.net/blog/?p=68#comments" title="Comment on Amazing stupidity of comment spam">Add your comment</a> </li>
+				</ul>
+			</footer>
+		</article>
+	
+		<article>
+			<h1 class="storytitle"><a href="http://markos.gaivo.net/blog/?p=60" rel="bookmark">History lessons</a></h1>
+
+			<div class="post-text">
+				<p>It seems like ages ago, but it&#8217;s really been less than a decade since I was busy being a localization lead of <a href="http://www.lugos.si" title="Link to slovenian Linux user group">slovenian Linux user group</a>. There was a lot to be done and I had great plans how to achieve it with few of us working on it. If only we&#8217;d execute my plans timely and precisely, we could make a mini computer revolution in Slovenia.</p>
+<p><em>“A mind of a soldier and a heart of a poet.???</em></p>
+<p>I used to believe this old description of me from an Indonesian friend was simply a compliment. I haven&#8217;t recognize then how wonderfully he had praised and berated me at the same time. And rightfully so.</p>
+<p>What I hadn&#8217;t grasped then is that setting the rules, making plans and pushing people to do what you think is the right thing to do in general doesn&#8217;t achieve much. Lucky for me &#8212; and for others &#8212; I&#8217;ve left after I&#8217;ve done my part and hopefully before I prevented others to do theirs.</p>
+<p>I&#8217;ve learned through the years &#8212; and spending so much time designing things certainly helped me with that &#8212; how subtle changes can have big consequences.</p>
+<p><a href="http://news.bbc.co.uk/2/hi/europe/4416728.stm">France</a> is <a href="http://37signals.com/svn/archives2/france_at_night.php">burning</a>.</p>
+<p>I won&#8217;t pretend I know why and how to fix it. There are certainly wiser and more informed people than me trying to do that and little would be gained by me joining them. But ever since I&#8217;ve read <a href="http://www.randomhouse.com/features/cahill/index.html" title="Thomas Cahill's home page">Thomas Cahill&#8217;s</a> wonderful book <span style="font-family:Arial;"><a href="http://www.amazon.com/exec/obidos/tg/detail/-/0385418493/102-7284483-6199307?v=glance">How the Irish Saved Civilization</a></span>, one image has stuck in my mind.</p>
+<p>Thousands of hungry “barbarians??? waiting for Rhein to freeze so they could risk (and awfully many lose) their lives to enter Roman empire. Not to end it, which eventually they did or to become romans, as many tribes before them. They just didn&#8217;t want to be hungry anymore.</p>
+<p>And on the other side you had a nation too self-absorbed and still proud of their civility and achievements, unable to fathom the fragility of their great civilization,  unable to see imminent end to 12 centuries old empire and rule of law.</p>
+<p>It&#8217;s hard for me as european and history buff to not see similarities between then and now and it&#8217;s even harder to believe that problem can be solved by simply not letting people in. Like that was ever possible.</p>
+<p>What is really bad is not that some of us have too much, but that too many have too little. Or nothing.</p>
+<p>I remember when towers fell in New York. I remember my anger at USA, a country I&#8217;ve never been to, and the feeling of injustice, of not being heard or simply being ignored. I wish I didn&#8217;t and I&#8217;ll regret it for the rest of my life, but is this the anger painfully felt in France?</p>
+<p>We were cooking miso soup today, a dish my wife and I both love and I was thinking about Japan while doing it. I&#8217;ve always been fascinated by Japan and its culture and even though I&#8217;ve spent a great effort and a lot of time studying it, it was obvious today that my wife is a much better cook and that I haven&#8217;t got a clue about the land of rising sun.</p>
+<p>I tried to remember what I was taught in school about it. Or about any other place outside of Europe. It wasn&#8217;t nothing. In fact it was quite a lot, especially for time allotted to it. Time &#8212; that is &#8212; which wasn&#8217;t spent learning about history of Europe and even more of our nation in it.</p>
+<p>But it&#8217;s been clear where the focus was and I don&#8217;t think our history lessons are in approach much different from history lessons elsewhere. Simply by choosing the focus of lessons we subtly  or even not so subtly show what&#8217;s important and build patriots. So far a sense of a nation seems to be the only way of maintaining a state longer than a few decades.</p>
+<p>At the same time we guarantee and promote ignorance that clearly doesn&#8217;t help us and which leaves people like me with profound sadness and too many unanswered questions.</p>
+<p>When I started this blog, it was my intention to create a place, where I could share little knowledge that I have as a developer and I intend to continue doing this in the future. But it became obvious today that I&#8217;ll be able to do so only after I&#8217;ve written this post, no matter how unheard and insignificant it is. I at least have a way and opportunity to speak up.</p>
+			</div>
+
+			<footer class="post-metadata">
+				<ul>
+					<li>Published on <time datetime="2005-11-08T23:04:50+00:00">November 8, 2005</time></li>
+					<li><a href="http://markos.gaivo.net/blog/?p=60#comments" title="Comment on History lessons">Add your comment</a> </li>
+				</ul>
+			</footer>
+		</article>
+	
+		<article>
+			<h1 class="storytitle"><a href="http://markos.gaivo.net/blog/?p=54" rel="bookmark">Offline</a></h1>
+
+			<div class="post-text">
+				<p>I&#8217;ll be mostly offline at least until the middle of next week. Elektro Ljubljana was fixing something on Saturday and we only got our electricity back. ADSL is out and since Monday and Tuesday are holidays, I can only hope that Wednesday will bring good news.</p>
+<p>It&#8217;s a bit tricky to do Internet related development without, well, Internet.</p>
+			</div>
+
+			<footer class="post-metadata">
+				<ul>
+					<li>Published on <time datetime="2005-10-30T20:58:10+00:00">October 30, 2005</time></li>
+					<li><a href="http://markos.gaivo.net/blog/?p=54#comments" title="Comment on Offline">Add your comment</a> </li>
+				</ul>
+			</footer>
+		</article>
+		
+		<nav class="pagination">
+			<ul>
+				<li><a href="http://markos.gaivo.net/blog/?cat=3&#038;paged=26" >&laquo; Newer articles</a></li>
+				<li><a href="http://markos.gaivo.net/blog/?cat=3&#038;paged=28" >Older articles &raquo;</a></li>
+			</ul>
+		</nav>
+	</section>
+
+
+	<footer>
+		<ul>
+			<li>&copy; 2005-2015 Marko Samastur</li>
+			
+			<li><a href="http://markos.gaivo.net/blog/?feed=rss2">Entries feed</a></li>
+			<li><a href="http://markos.gaivo.net/blog/?feed=comments-rss2">Comments feed</a></li>
+		</ul>
+		<a href="/"><img src="/img/markos_light_small_bg.png" alt="logo" class="mini-logo" /></a>
+	</footer>
+	<script src="/js/jquery.js"></script>
+	<script src="/js/all.js"></script>
+	<!--script src="/mint/?js" type="text/javascript"></script-->
+
+	<!-- Google analytics -->
+	<script type="text/javascript">
+
+	  var _gaq = _gaq || [];
+	  _gaq.push(['_setAccount', 'UA-152438-1']);
+	  _gaq.push(['_trackPageview']);
+	</script>
+	<script src="/js/cookie.js"></script>
+</body>
+</html>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+		>
+<channel>
+	<title>Comments on: Flashy new old machine</title>
+	<atom:link href="http://markos.gaivo.net/blog/?feed=rss2&#038;p=238" rel="self" type="application/rss+xml" />
+	<link>http://markos.gaivo.net/blog/?p=238</link>
+	<description></description>
+	<lastBuildDate>Wed, 16 Jul 2014 16:04:38 +0000</lastBuildDate>
+	<sy:updatePeriod>hourly</sy:updatePeriod>
+	<sy:updateFrequency>1</sy:updateFrequency>
+	<generator>http://wordpress.org/?v=3.0.5</generator>
+	<item>
+		<title>By: snowman</title>
+		<link>http://markos.gaivo.net/blog/?p=238&#038;cpage=1#comment-75044</link>
+		<dc:creator>snowman</dc:creator>
+		<pubDate>Tue, 28 Aug 2007 10:10:55 +0000</pubDate>
+		<guid isPermaLink="false">http://markos.gaivo.net/blog/?p=238#comment-75044</guid>
+		<description>You might want to think about OpenLaszlo (http://www.openlaszlo.org/)... it&#039;s an open source framework that does basically everything in Flash or DHTML. I was quite surprised myself, when I saw, all that can be done in flash can also be done in DHTML (except for video playback and webcam capture). True, the web is not really that open, but we shouldn&#039;t give up hope just yet. ;) In reality, the demise of net neutrality will get to us sooner than a couple of flash sites :)</description>
+		<content:encoded><![CDATA[<p>You might want to think about OpenLaszlo (<a href="http://www.openlaszlo.org/">http://www.openlaszlo.org/</a>)&#8230; it&#8217;s an open source framework that does basically everything in Flash or DHTML. I was quite surprised myself, when I saw, all that can be done in flash can also be done in DHTML (except for video playback and webcam capture). True, the web is not really that open, but we shouldn&#8217;t give up hope just yet. <img src='http://markos.gaivo.net/blog/wp-includes/images/smilies/icon_wink.gif' alt=';)' class='wp-smiley' />  In reality, the demise of net neutrality will get to us sooner than a couple of flash sites <img src='http://markos.gaivo.net/blog/wp-includes/images/smilies/icon_smile.gif' alt=':)' class='wp-smiley' /> </p>
+]]></content:encoded>
+	</item>
+</channel>
+</rss>

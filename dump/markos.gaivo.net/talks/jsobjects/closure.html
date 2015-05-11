@@ -1,0 +1,50 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="sl" lang="sl">
+	<head>
+		<title>Javascript Objects</title>
+		
+		<link rel="stylesheet" type="text/css" media="screen, projection" href="style.css" />
+		<style type="text/css">
+#slide {
+	margin: -185px 0 0 -392px;
+	background: #fff;
+}
+		</style>
+		<script type="text/javascript">
+	function fade(id) { /* by Douglas Crockford */
+		var dom = document.getElementById(id),
+			level = 1;
+		function step() {
+			var h = level.toString(16);
+			dom.style.backgroundColor = "#FFFF"+h+h;
+			if (level < 15) {
+				level += 1;
+				window.setTimeout(step, 100);
+			}
+		}
+		window.setTimeout(step, 100);
+	}
+		</script>
+	</head>
+	<body>
+		<div id="slide">
+			<code>
+function fade(id) { /* by Douglas Crockford */
+	var dom = document.getElementById(id),
+		level = 1;
+	function step() {
+		var h = level.toString(16);
+		dom.style.backgroundColor = "#FFFF"+h+h;
+		if (level < 15) {
+			level += 1;
+			window.setTimeout(step, 100);
+		}
+	}
+	window.setTimeout(step, 100);
+}</code>
+		</div>
+		<div id="next">
+			<a href="closure2.html">></a>
+		</div>
+	</body>
+</html>

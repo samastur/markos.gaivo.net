@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>A notch above a monkey &raquo; Spletne urice</title>
+	<meta charset="utf-8" />
+	
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" /> 
+
+	<link rel="shortcut icon" href="/img/markos.ico" />
+	
+	<meta name="generator" content="WordPress 3.0.5" /> <!-- leave this for stats please -->
+
+	<link href="http://fast.fonts.com/cssapi/aee9b60b-8e94-47f8-b586-3ecbfab51d1c.css" rel="stylesheet" type="text/css" />
+	<link rel="stylesheet" type="text/css" href="css/home.css" media="screen" title="Light theme" />
+	<link rel="alternate stylesheet" type="text/css" href="css/home_dark.css" media="screen" title="Dark theme" />
+	<link rel="stylesheet" href="css/ipad.css" media="only screen and (min-device-width : 768px) and (max-device-width : 1024px)">
+	<link rel="stylesheet" type="text/css" href="css/smallscreen.css" media="only screen and (max-width: 700px)" />
+
+	<link rel="alternate" type="application/rss+xml" title="RSS 2.0" href="http://markos.gaivo.net/blog/?feed=rss2" />
+	<link rel="alternate" type="application/atom+xml" title="Atom 1.0" href="http://markos.gaivo.net/blog/?feed=atom" />
+	<link rel='canonical' href='http://markos.gaivo.net/blog/?p=664' />
+
+	<link rel="pingback" href="http://markos.gaivo.net/blog/xmlrpc.php" />
+
+	<link rel="alternate" type="application/rss+xml" title="A notch above a monkey &raquo; Spletne urice Category Feed" href="http://markos.gaivo.net/blog/?feed=rss2&amp;cat=8" />
+<link rel="EditURI" type="application/rsd+xml" title="RSD" href="http://markos.gaivo.net/blog/xmlrpc.php?rsd" />
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="http://markos.gaivo.net/blog/wp-includes/wlwmanifest.xml" /> 
+<link rel='index' title='A notch above a monkey' href='http://markos.gaivo.net/blog' />
+<meta name="generator" content="WordPress 3.0.5" />
+
+	<!--[if lt IE 9]>
+	<script src="/js/html5.js"></script>
+	<![endif]-->
+</head>
+<body>
+	<section class="envelope posts">
+		<header>
+			<h1><a href="http://markos.gaivo.net/blog/">A notch above a monkey</a></h1>
+		</header>
+		<nav class="colophon">
+			<h1>By Marko Samastur</h1>
+			<ul>
+				<li><a href="/">About me</a></li>
+				<li><a href="http://markos.gaivo.net/blog/?feed=atom">Subscribe</a></li>
+			</ul>
+		</nav>
+
+	
+		<article>
+			<h1 class="storytitle"><a href="http://markos.gaivo.net/blog/?p=158" rel="bookmark">AJAX Workshop: End of Act I</a></h1>
+
+			<div class="post-text">
+				<p>First part of AJAX workshop is behind me and I enjoyed it immensely. I hope our participants did as well or failing that, I hope we didn&#8217;t waste their time too much.</p>
+<p>Looking back I&#8217;m not satisfied with everything we did and I wish I&#8217;ve done my part better. I&#8217;m sure I wasn&#8217;t clear or coherent enough. Fry did much better, but I feel we could do better with examples.</p>
+<p>If we ever repeat this workshop, and we both would love to, we&#8217;ll have to make it longer, since there simply wasn&#8217;t enough time to talk about the details and quirks that can and usually do waste majority of your time.</p>
+<p>If you were there yesterday, then please drop me a line or two about your experience. I&#8217;d also love to hear what you want from second part of the workshop, since it&#8217;s not too late to change it to suit you better.</p>
+			</div>
+
+			<footer class="post-metadata">
+				<ul>
+					<li>Published on <time datetime="2006-04-27T11:06:20+00:00">April 27, 2006</time></li>
+					<li><a href="http://markos.gaivo.net/blog/?p=158#comments" title="Comment on AJAX Workshop: End of Act I">Add your comment</a> </li>
+				</ul>
+			</footer>
+		</article>
+	
+		<article>
+			<h1 class="storytitle"><a href="http://markos.gaivo.net/blog/?p=150" rel="bookmark">AJAX workshop</a></h1>
+
+			<div class="post-text">
+				<p>Fry <a href="http://friedcellcollective.net/outbreak/2006/04/12/ajax-workshop/">said</a>:</p>
+<blockquote><p>We’re preparing a workshop at Spletne urice (???Web hours??? in Slovenian, a weekly meeting of web enthusiasts) that will focus on AJAX, hosted by me and another Marko. Actually we’re preparing two of them. The first one will cover the basics of asynchronous transport and data, the second one will add some DOM scripting and review some AJAX frameworks.</p></blockquote>
+<p>Being the other Marko I can say this workshop will totally rock. It has to, because AJAX is cool, right? Instant fame, riches and all that.</p>
+<p>Seriously though, I do believe it will be a great experience for those who&#8217;ll attend. Everyone is welcome, but only first 10, sorry, 9 <a href="http://web.zen.si/archives/2006/04/ajax-workshop/">registered</a> will get this chance because of limits imposed on us by the choice of venue. It&#8217;s even free (not likely to happen again any time soon), so price can be hardly something to worry about.</p>
+<p>You can also help us make it better for you by contributing websites you&#8217;d like to see getting a makeover and telling us as much as you can about what you&#8217;d like to hear there (and what not).</p>
+<p><strong>Update: Workshop is full and registration is closed. I&#8217;m sorry not everyone will get a chance to participate, but we might do another one later this year.</strong></p>
+			</div>
+
+			<footer class="post-metadata">
+				<ul>
+					<li>Published on <time datetime="2006-04-13T10:31:48+00:00">April 13, 2006</time></li>
+					<li><a href="http://markos.gaivo.net/blog/?p=150#comments" title="Comment on AJAX workshop">Add your comment</a> </li>
+				</ul>
+			</footer>
+		</article>
+	
+		<article>
+			<h1 class="storytitle"><a href="http://markos.gaivo.net/blog/?p=134" rel="bookmark">The day after</a></h1>
+
+			<div class="post-text">
+				<p>Yesterday I gave my very first talk in English. Broken English, to be sure, but hopefully good enough to be understood. I&#8217;m grateful to everyone who came and I hope you didn&#8217;t feel like your time was wasted.</p>
+<p>In any case, if you can spare a moment or two, I&#8217;d love to hear your honest thoughts about it.</p>
+			</div>
+
+			<footer class="post-metadata">
+				<ul>
+					<li>Published on <time datetime="2006-03-09T12:28:18+00:00">March 9, 2006</time></li>
+					<li><a href="http://markos.gaivo.net/blog/?p=134#comments" title="Comment on The day after">Add your comment</a> </li>
+				</ul>
+			</footer>
+		</article>
+		
+		<nav class="pagination">
+			<ul>
+				<li><a href="http://markos.gaivo.net/blog/?cat=8" >&laquo; Newer articles</a></li>
+				<li><a href="http://markos.gaivo.net/blog/?cat=8&#038;paged=3" >Older articles &raquo;</a></li>
+			</ul>
+		</nav>
+	</section>
+
+
+	<footer>
+		<ul>
+			<li>&copy; 2005-2015 Marko Samastur</li>
+			
+			<li><a href="http://markos.gaivo.net/blog/?feed=rss2">Entries feed</a></li>
+			<li><a href="http://markos.gaivo.net/blog/?feed=comments-rss2">Comments feed</a></li>
+		</ul>
+		<a href="/"><img src="/img/markos_light_small_bg.png" alt="logo" class="mini-logo" /></a>
+	</footer>
+	<script src="/js/jquery.js"></script>
+	<script src="/js/all.js"></script>
+	<!--script src="/mint/?js" type="text/javascript"></script-->
+
+	<!-- Google analytics -->
+	<script type="text/javascript">
+
+	  var _gaq = _gaq || [];
+	  _gaq.push(['_setAccount', 'UA-152438-1']);
+	  _gaq.push(['_trackPageview']);
+	</script>
+	<script src="/js/cookie.js"></script>
+</body>
+</html>

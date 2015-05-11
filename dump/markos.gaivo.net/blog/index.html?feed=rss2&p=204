@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+		>
+<channel>
+	<title>Comments on: Marela widget III</title>
+	<atom:link href="http://markos.gaivo.net/blog/?feed=rss2&#038;p=204" rel="self" type="application/rss+xml" />
+	<link>http://markos.gaivo.net/blog/?p=204</link>
+	<description></description>
+	<lastBuildDate>Wed, 16 Jul 2014 16:04:38 +0000</lastBuildDate>
+	<sy:updatePeriod>hourly</sy:updatePeriod>
+	<sy:updateFrequency>1</sy:updateFrequency>
+	<generator>http://wordpress.org/?v=3.0.5</generator>
+	<item>
+		<title>By: markos</title>
+		<link>http://markos.gaivo.net/blog/?p=204&#038;cpage=1#comment-7996</link>
+		<dc:creator>markos</dc:creator>
+		<pubDate>Sun, 10 Sep 2006 20:29:44 +0000</pubDate>
+		<guid isPermaLink="false">http://markos.gaivo.net/blog/?p=204#comment-7996</guid>
+		<description>I think it should be fixed now in both versions.</description>
+		<content:encoded><![CDATA[<p>I think it should be fixed now in both versions.</p>
+]]></content:encoded>
+	</item>
+	<item>
+		<title>By: markos</title>
+		<link>http://markos.gaivo.net/blog/?p=204&#038;cpage=1#comment-7991</link>
+		<dc:creator>markos</dc:creator>
+		<pubDate>Sun, 10 Sep 2006 15:30:11 +0000</pubDate>
+		<guid isPermaLink="false">http://markos.gaivo.net/blog/?p=204#comment-7991</guid>
+		<description>Thanks, my mistake.
+
+Script tries to avoid loading same image twice and looks for another one until it can find it. Since you haven&#039;t uploaded at least 16 photos to Marela yet, it ends up searching ad infinitum instead of aborting.
+
+You can either upload a few more photos or wait for me to fix the script (which should be, if God willing, later tonight).</description>
+		<content:encoded><![CDATA[<p>Thanks, my mistake.</p>
+<p>Script tries to avoid loading same image twice and looks for another one until it can find it. Since you haven&#8217;t uploaded at least 16 photos to Marela yet, it ends up searching ad infinitum instead of aborting.</p>
+<p>You can either upload a few more photos or wait for me to fix the script (which should be, if God willing, later tonight).</p>
+]]></content:encoded>
+	</item>
+	<item>
+		<title>By: BigWhale</title>
+		<link>http://markos.gaivo.net/blog/?p=204&#038;cpage=1#comment-7952</link>
+		<dc:creator>BigWhale</dc:creator>
+		<pubDate>Sat, 09 Sep 2006 15:20:50 +0000</pubDate>
+		<guid isPermaLink="false">http://markos.gaivo.net/blog/?p=204#comment-7952</guid>
+		<description>However, using markos as a username works. Using something bogus for a username sort of work, script doesnt stop responding and page loads w/o trouble, just no image, which is ok.</description>
+		<content:encoded><![CDATA[<p>However, using markos as a username works. Using something bogus for a username sort of work, script doesnt stop responding and page loads w/o trouble, just no image, which is ok.</p>
+]]></content:encoded>
+	</item>
+	<item>
+		<title>By: BigWhale</title>
+		<link>http://markos.gaivo.net/blog/?p=204&#038;cpage=1#comment-7951</link>
+		<dc:creator>BigWhale</dc:creator>
+		<pubDate>Sat, 09 Sep 2006 15:07:30 +0000</pubDate>
+		<guid isPermaLink="false">http://markos.gaivo.net/blog/?p=204#comment-7951</guid>
+		<description>It&#039;s the problem with Firefox telling me that script on this page might be busy and if I should keep running it. It might be a problem with hmm. I have no idea what...</description>
+		<content:encoded><![CDATA[<p>It&#8217;s the problem with Firefox telling me that script on this page might be busy and if I should keep running it. It might be a problem with hmm. I have no idea what&#8230;</p>
+]]></content:encoded>
+	</item>
+	<item>
+		<title>By: markos</title>
+		<link>http://markos.gaivo.net/blog/?p=204&#038;cpage=1#comment-7847</link>
+		<dc:creator>markos</dc:creator>
+		<pubDate>Thu, 07 Sep 2006 15:46:41 +0000</pubDate>
+		<guid isPermaLink="false">http://markos.gaivo.net/blog/?p=204#comment-7847</guid>
+		<description>Maybe we should find you a better hosting.</description>
+		<content:encoded><![CDATA[<p>Maybe we should find you a better hosting.</p>
+]]></content:encoded>
+	</item>
+	<item>
+		<title>By: Hirkani</title>
+		<link>http://markos.gaivo.net/blog/?p=204&#038;cpage=1#comment-7846</link>
+		<dc:creator>Hirkani</dc:creator>
+		<pubDate>Thu, 07 Sep 2006 15:36:57 +0000</pubDate>
+		<guid isPermaLink="false">http://markos.gaivo.net/blog/?p=204#comment-7846</guid>
+		<description>I&#039;ve tried but Wordpress don&#039;t support Javasripts :(</description>
+		<content:encoded><![CDATA[<p>I&#8217;ve tried but WordPress don&#8217;t support Javasripts <img src='http://markos.gaivo.net/blog/wp-includes/images/smilies/icon_sad.gif' alt=':(' class='wp-smiley' /> </p>
+]]></content:encoded>
+	</item>
+	<item>
+		<title>By: markos</title>
+		<link>http://markos.gaivo.net/blog/?p=204&#038;cpage=1#comment-7759</link>
+		<dc:creator>markos</dc:creator>
+		<pubDate>Tue, 05 Sep 2006 14:13:36 +0000</pubDate>
+		<guid isPermaLink="false">http://markos.gaivo.net/blog/?p=204#comment-7759</guid>
+		<description>No, you don&#039;t have to tag them. The easiest way is to change random16.js into random16b.js (I haven&#039;t tested new version, but I&#039;m sure it&#039;s bug-free ;)).
+
+About ISP...still missing image problem?</description>
+		<content:encoded><![CDATA[<p>No, you don&#8217;t have to tag them. The easiest way is to change random16.js into random16b.js (I haven&#8217;t tested new version, but I&#8217;m sure it&#8217;s bug-free <img src='http://markos.gaivo.net/blog/wp-includes/images/smilies/icon_wink.gif' alt=';)' class='wp-smiley' /> ).</p>
+<p>About ISP&#8230;still missing image problem?</p>
+]]></content:encoded>
+	</item>
+	<item>
+		<title>By: BigWhale</title>
+		<link>http://markos.gaivo.net/blog/?p=204&#038;cpage=1#comment-7758</link>
+		<dc:creator>BigWhale</dc:creator>
+		<pubDate>Tue, 05 Sep 2006 13:59:12 +0000</pubDate>
+		<guid isPermaLink="false">http://markos.gaivo.net/blog/?p=204#comment-7758</guid>
+		<description>Hm, it appears that I&#039;m on the wrong ISP too... :)</description>
+		<content:encoded><![CDATA[<p>Hm, it appears that I&#8217;m on the wrong ISP too&#8230; <img src='http://markos.gaivo.net/blog/wp-includes/images/smilies/icon_smile.gif' alt=':)' class='wp-smiley' /> </p>
+]]></content:encoded>
+	</item>
+	<item>
+		<title>By: BigWhale</title>
+		<link>http://markos.gaivo.net/blog/?p=204&#038;cpage=1#comment-7756</link>
+		<dc:creator>BigWhale</dc:creator>
+		<pubDate>Tue, 05 Sep 2006 13:45:05 +0000</pubDate>
+		<guid isPermaLink="false">http://markos.gaivo.net/blog/?p=204#comment-7756</guid>
+		<description>Hm, how can I set selection on &#039;all my pictures&#039;? Tagging all pics?</description>
+		<content:encoded><![CDATA[<p>Hm, how can I set selection on &#8216;all my pictures&#8217;? Tagging all pics?</p>
+]]></content:encoded>
+	</item>
+	<item>
+		<title>By: Miha</title>
+		<link>http://markos.gaivo.net/blog/?p=204&#038;cpage=1#comment-7391</link>
+		<dc:creator>Miha</dc:creator>
+		<pubDate>Mon, 28 Aug 2006 20:48:17 +0000</pubDate>
+		<guid isPermaLink="false">http://markos.gaivo.net/blog/?p=204#comment-7391</guid>
+		<description>Wow, awesome! I think you got all the widgets for images down to pure science. Great work!</description>
+		<content:encoded><![CDATA[<p>Wow, awesome! I think you got all the widgets for images down to pure science. Great work!</p>
+]]></content:encoded>
+	</item>
+</channel>
+</rss>

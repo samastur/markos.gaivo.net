@@ -1,0 +1,31 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+      "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+	<head>
+		<title>js i18n demo</title>
+		<meta content="text/html; charset=utf-8" http-equiv="Content-type" />
+		<script type="text/javascript" src="translate.js"></script>
+		<script type="text/javascript" src="i18n.js"></script>
+		<script type="text/javascript" src="init.js"></script>
+	</head>
+	<body>
+		<p>
+			<input type="button" value="Display untranslated string" onclick="untrans();" />
+			<input type="button" value="Display translated string" onclick="trans()" />
+		</p>
+		<p>
+			<table>
+				<tr>
+					<td>Untranslated:</td>
+					<td> &#171; First   </td>
+					<td> Last &#187; </td>
+				</tr>
+				<tr>
+					<td>Translated:</td>
+					<td class="i18n"> &#171; First   </td>
+					<td class="i18n"> Last &#187; </td>
+				</tr>
+			</table>
+		</p>
+	</body>
+</html>

@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+		>
+<channel>
+	<title>Comments on: MochiKit</title>
+	<atom:link href="http://markos.gaivo.net/blog/?feed=rss2&#038;p=160" rel="self" type="application/rss+xml" />
+	<link>http://markos.gaivo.net/blog/?p=160</link>
+	<description></description>
+	<lastBuildDate>Wed, 16 Jul 2014 16:04:38 +0000</lastBuildDate>
+	<sy:updatePeriod>hourly</sy:updatePeriod>
+	<sy:updateFrequency>1</sy:updateFrequency>
+	<generator>http://wordpress.org/?v=3.0.5</generator>
+	<item>
+		<title>By: Jason</title>
+		<link>http://markos.gaivo.net/blog/?p=160&#038;cpage=1#comment-2073</link>
+		<dc:creator>Jason</dc:creator>
+		<pubDate>Fri, 19 May 2006 16:59:52 +0000</pubDate>
+		<guid isPermaLink="false">http://markos.gaivo.net/blog/?p=160#comment-2073</guid>
+		<description>I happened onto this page, incidentally while searching for a starting point to using Mochikit.  Bob Ippolito is obviously quite passionate about his work, and for good reason, he created what appears to be a great Javascript library.  Now if only I can figure out what the heck to do with it.  Of course, considering how quick his temper appears to be I wonder if I should even be commenting, Then again, this is not his blog.
+The library has a lot of great stuff for Python programmers and those with that mindset, and that&#039;s great for them.  But for someone like me who has quite a reasonably wide experience with programming, web development mostly, I can&#039;t seem to wrap my head around getting started with Mochikit.  Yes, there is the claim about great documentation and as far as API manuals go, Mochikit&#039;s docs are quite extensive, but there is this inherent assumption that you already know what the functions do.  
+My point is, the docs are great reference manuals, but don&#039;t help in anyway for someone who just happend to be looking for a way to get started with using it, making the learning curve unnecessarily steep.  And no the samples don&#039;t help much either. And I&#039;m not the only one with this issue.  In comparison with Prototype and libraries built off that, getting started by just reading the documented code was a snap.</description>
+		<content:encoded><![CDATA[<p>I happened onto this page, incidentally while searching for a starting point to using Mochikit.  Bob Ippolito is obviously quite passionate about his work, and for good reason, he created what appears to be a great Javascript library.  Now if only I can figure out what the heck to do with it.  Of course, considering how quick his temper appears to be I wonder if I should even be commenting, Then again, this is not his blog.<br />
+The library has a lot of great stuff for Python programmers and those with that mindset, and that&#8217;s great for them.  But for someone like me who has quite a reasonably wide experience with programming, web development mostly, I can&#8217;t seem to wrap my head around getting started with Mochikit.  Yes, there is the claim about great documentation and as far as API manuals go, Mochikit&#8217;s docs are quite extensive, but there is this inherent assumption that you already know what the functions do.<br />
+My point is, the docs are great reference manuals, but don&#8217;t help in anyway for someone who just happend to be looking for a way to get started with using it, making the learning curve unnecessarily steep.  And no the samples don&#8217;t help much either. And I&#8217;m not the only one with this issue.  In comparison with Prototype and libraries built off that, getting started by just reading the documented code was a snap.</p>
+]]></content:encoded>
+	</item>
+	<item>
+		<title>By: Bob Ippolito</title>
+		<link>http://markos.gaivo.net/blog/?p=160&#038;cpage=1#comment-1519</link>
+		<dc:creator>Bob Ippolito</dc:creator>
+		<pubDate>Sat, 06 May 2006 02:32:06 +0000</pubDate>
+		<guid isPermaLink="false">http://markos.gaivo.net/blog/?p=160#comment-1519</guid>
+		<description>I&#039;m not saying that taste is in any way universal or even that MochiKit is what you should be using.  However, you said there are &quot;things&quot; you don&#039;t like about it, but you only mentioned the (irrelevant) script loading.  You should report the other things you dislike.</description>
+		<content:encoded><![CDATA[<p>I&#8217;m not saying that taste is in any way universal or even that MochiKit is what you should be using.  However, you said there are &#8220;things&#8221; you don&#8217;t like about it, but you only mentioned the (irrelevant) script loading.  You should report the other things you dislike.</p>
+]]></content:encoded>
+	</item>
+	<item>
+		<title>By: markos</title>
+		<link>http://markos.gaivo.net/blog/?p=160&#038;cpage=1#comment-1488</link>
+		<dc:creator>markos</dc:creator>
+		<pubDate>Thu, 04 May 2006 15:24:15 +0000</pubDate>
+		<guid isPermaLink="false">http://markos.gaivo.net/blog/?p=160#comment-1488</guid>
+		<description>How about taking things a bit more lightly?  All I said is that my first impression was wrong and that MochiKit is a good library even if it doesn&#039;t fit my taste.
+
+It&#039;s hardly a criticism that I like something else better than MochiKit. If taste would be so universal, then there would be little reason to have MochiKit in the first place. You could save time spent developing your library and just use (and improve) some other existing one.
+
+And what should I report? You obviously know what the issue is, since you described it in comments of your code. I didn&#039;t find a bug and never implied it either. As I&#039;ve said, MochiKit doesn&#039;t suit my personal taste and I see little reason why this should be a problem.</description>
+		<content:encoded><![CDATA[<p>How about taking things a bit more lightly?  All I said is that my first impression was wrong and that MochiKit is a good library even if it doesn&#8217;t fit my taste.</p>
+<p>It&#8217;s hardly a criticism that I like something else better than MochiKit. If taste would be so universal, then there would be little reason to have MochiKit in the first place. You could save time spent developing your library and just use (and improve) some other existing one.</p>
+<p>And what should I report? You obviously know what the issue is, since you described it in comments of your code. I didn&#8217;t find a bug and never implied it either. As I&#8217;ve said, MochiKit doesn&#8217;t suit my personal taste and I see little reason why this should be a problem.</p>
+]]></content:encoded>
+	</item>
+	<item>
+		<title>By: Bob Ippolito</title>
+		<link>http://markos.gaivo.net/blog/?p=160&#038;cpage=1#comment-1487</link>
+		<dc:creator>Bob Ippolito</dc:creator>
+		<pubDate>Thu, 04 May 2006 14:29:07 +0000</pubDate>
+		<guid isPermaLink="false">http://markos.gaivo.net/blog/?p=160#comment-1487</guid>
+		<description>Well that&#039;s a really stupid thing to get hung up over...
+
+MochiKit&#039;s &quot;dependency loading&quot; is only practically used during development.  In production, you should be using a packed distribution.  Even when using unpacked scripts, if you don&#039;t like the loading mechanism just add a bunch of script tags yourself.
+
+Basically, using SCRIPT tags is the only way that leaves the JavaScript in a state where it&#039;s mostly debuggable in all browsers, and MochiKit currently isn&#039;t written in a way that is amenable to asynchronous loading.  It could be, but it wasn&#039;t worth refactoring all of the code in a (probably) backwards incompatible way just to satiate standards weenies in a scenario that nobody actually uses except during development.  I&#039;d imagine that Dojo does something like this if you ask it to debugAtAllCosts (or whatever that flag is called).
+
+Did you have any useful complaints about MochiKit?  How about filing some tickets in trac about the things you don&#039;t like?  Blogging about bugs is not the best way to get them fixed.</description>
+		<content:encoded><![CDATA[<p>Well that&#8217;s a really stupid thing to get hung up over&#8230;</p>
+<p>MochiKit&#8217;s &#8220;dependency loading&#8221; is only practically used during development.  In production, you should be using a packed distribution.  Even when using unpacked scripts, if you don&#8217;t like the loading mechanism just add a bunch of script tags yourself.</p>
+<p>Basically, using SCRIPT tags is the only way that leaves the JavaScript in a state where it&#8217;s mostly debuggable in all browsers, and MochiKit currently isn&#8217;t written in a way that is amenable to asynchronous loading.  It could be, but it wasn&#8217;t worth refactoring all of the code in a (probably) backwards incompatible way just to satiate standards weenies in a scenario that nobody actually uses except during development.  I&#8217;d imagine that Dojo does something like this if you ask it to debugAtAllCosts (or whatever that flag is called).</p>
+<p>Did you have any useful complaints about MochiKit?  How about filing some tickets in trac about the things you don&#8217;t like?  Blogging about bugs is not the best way to get them fixed.</p>
+]]></content:encoded>
+	</item>
+</channel>
+</rss>

@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>A notch above a monkey &raquo; MochiKit</title>
+	<meta charset="utf-8" />
+	
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" /> 
+
+	<link rel="shortcut icon" href="/img/markos.ico" />
+	
+	<meta name="generator" content="WordPress 3.0.5" /> <!-- leave this for stats please -->
+
+	<link href="http://fast.fonts.com/cssapi/aee9b60b-8e94-47f8-b586-3ecbfab51d1c.css" rel="stylesheet" type="text/css" />
+	<link rel="stylesheet" type="text/css" href="css/home.css" media="screen" title="Light theme" />
+	<link rel="alternate stylesheet" type="text/css" href="css/home_dark.css" media="screen" title="Dark theme" />
+	<link rel="stylesheet" href="css/ipad.css" media="only screen and (min-device-width : 768px) and (max-device-width : 1024px)">
+	<link rel="stylesheet" type="text/css" href="css/smallscreen.css" media="only screen and (max-width: 700px)" />
+
+	<link rel="alternate" type="application/rss+xml" title="RSS 2.0" href="http://markos.gaivo.net/blog/?feed=rss2" />
+	<link rel="alternate" type="application/atom+xml" title="Atom 1.0" href="http://markos.gaivo.net/blog/?feed=atom" />
+	<link rel='canonical' href='http://markos.gaivo.net/blog/?p=664' />
+
+	<link rel="pingback" href="http://markos.gaivo.net/blog/xmlrpc.php" />
+
+	<link rel="alternate" type="application/rss+xml" title="A notch above a monkey &raquo; MochiKit Comments Feed" href="http://markos.gaivo.net/blog/?feed=rss2&amp;p=160" />
+<link rel="EditURI" type="application/rsd+xml" title="RSD" href="http://markos.gaivo.net/blog/xmlrpc.php?rsd" />
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="http://markos.gaivo.net/blog/wp-includes/wlwmanifest.xml" /> 
+<link rel='index' title='A notch above a monkey' href='http://markos.gaivo.net/blog' />
+<link rel='start' title='First post' href='http://markos.gaivo.net/blog/?p=2' />
+<link rel='prev' title='Speed of development' href='http://markos.gaivo.net/blog/?p=159' />
+<link rel='next' title='Python&#8217;s most valued' href='http://markos.gaivo.net/blog/?p=161' />
+<meta name="generator" content="WordPress 3.0.5" />
+<link rel='canonical' href='http://markos.gaivo.net/blog/?p=160' />
+
+	<!--[if lt IE 9]>
+	<script src="/js/html5.js"></script>
+	<![endif]-->
+</head>
+<body>
+					<header>
+		<h1><a href="/blog/">A notch above a monkey</a> &raquo; MochiKit</h1>
+	</header>
+
+	<section class="envelope">
+		<article class="post">
+			<header>
+				<h1>MochiKit</h1>
+			</header>
+
+			<footer>
+				<ul>
+					<li class="by">Written by: <a href="/">Marko Samastur</a></li>
+					<li class="published">Published on: <time datetime="2006-05-04T10:31:05+00:00" pubdate>May 4, 2006</time></li>
+					<li class="categories">Categories: <a href="http://markos.gaivo.net/blog/?cat=1" title="View all posts in Javascript" rel="category">Javascript</a>, <a href="http://markos.gaivo.net/blog/?cat=2" title="View all posts in Python" rel="category">Python</a>, <a href="http://markos.gaivo.net/blog/?cat=4" title="View all posts in Web" rel="category">Web</a></li>
+					<li class="post-comments">Comments: <a href="http://markos.gaivo.net/blog/?p=160#comments" title="Comment on MochiKit">4</a></li>
+				</ul>
+			</footer>
+
+			<div class="post-text">
+				<p>Sometimes I&#8217;m really glad my brains don&#8217;t let my mouth shoot off as quickly as it would like.</p>
+<p>I was checking latest versions of <a href="http://prototype.conio.net/">Prototype</a>, <a href="http://www.dojotoolkit.org/">Dojo</a> and <a href="http://www.mochikit.com/">MochiKit</a> a couple of days ago and while I liked the first two, I had a much lower opinion of the third. In fact, I couldn&#8217;t understand why <a href="http://www.turbogears.org/">Turbogears</a> has chosen MochiKit as its AJAX library and was about to write a post questioning just that.</p>
+<p>I&#8217;m glad I didn&#8217;t. MochiKit still wouldn&#8217;t be my choice and probably won&#8217;t be when I&#8217;ll start using existing libraries instead of mine, but that doesn&#8217;t make it a bad choice. A lot of thought and effort has been put into its implementation and it shows.</p>
+<p>There are obviously things I dislike about it and the major one being the way it loads dependencies. I despise document.write and I disagree with argument made in comments (Safari&#8217;s use of defer on generated scripts). But I guess this is something reasonable minds can disagree on.</p>
+			</div>
+
+			<nav>
+				<p>If you liked this, you might want to visit:</p>
+				<ul>
+					<li>my previous article: <a href="http://markos.gaivo.net/blog/?p=159" rel="prev">Speed of development</a></li>					<li>my next article: <a href="http://markos.gaivo.net/blog/?p=161" rel="next">Python&#8217;s most valued</a></li>					<li><a href="/blog/">article list</a></li>
+				</ul>
+			</nav>
+
+			<h2 id="comments">Comments (4)
+			</h2>
+			<ol class="comments">
+		
+				<li id="comment-1487">
+					<article>
+						<p>Well that&#8217;s a really stupid thing to get hung up over&#8230;</p>
+<p>MochiKit&#8217;s &#8220;dependency loading&#8221; is only practically used during development.  In production, you should be using a packed distribution.  Even when using unpacked scripts, if you don&#8217;t like the loading mechanism just add a bunch of script tags yourself.</p>
+<p>Basically, using SCRIPT tags is the only way that leaves the JavaScript in a state where it&#8217;s mostly debuggable in all browsers, and MochiKit currently isn&#8217;t written in a way that is amenable to asynchronous loading.  It could be, but it wasn&#8217;t worth refactoring all of the code in a (probably) backwards incompatible way just to satiate standards weenies in a scenario that nobody actually uses except during development.  I&#8217;d imagine that Dojo does something like this if you ask it to debugAtAllCosts (or whatever that flag is called).</p>
+<p>Did you have any useful complaints about MochiKit?  How about filing some tickets in trac about the things you don&#8217;t like?  Blogging about bugs is not the best way to get them fixed.</p>
+						<footer>
+							<cite>Comment by <a href='http://bob.pythonmac.org/' rel='external nofollow' class='url'>Bob Ippolito</a> &#8212; <time datetime="2006-05-04T16:29:07+00:00">May 4, 2006 @ 4:29 pm</time> <a href="#comment-1487">#</a> </cite>
+						</footer>
+					</article>
+				</li>
+		
+				<li id="comment-1488">
+					<article>
+						<p>How about taking things a bit more lightly?  All I said is that my first impression was wrong and that MochiKit is a good library even if it doesn&#8217;t fit my taste.</p>
+<p>It&#8217;s hardly a criticism that I like something else better than MochiKit. If taste would be so universal, then there would be little reason to have MochiKit in the first place. You could save time spent developing your library and just use (and improve) some other existing one.</p>
+<p>And what should I report? You obviously know what the issue is, since you described it in comments of your code. I didn&#8217;t find a bug and never implied it either. As I&#8217;ve said, MochiKit doesn&#8217;t suit my personal taste and I see little reason why this should be a problem.</p>
+						<footer>
+							<cite>Comment by <a href='http://markos.gaivo.net' rel='external nofollow' class='url'>markos</a> &#8212; <time datetime="2006-05-04T17:24:15+00:00">May 4, 2006 @ 5:24 pm</time> <a href="#comment-1488">#</a> </cite>
+						</footer>
+					</article>
+				</li>
+		
+				<li id="comment-1519">
+					<article>
+						<p>I&#8217;m not saying that taste is in any way universal or even that MochiKit is what you should be using.  However, you said there are &#8220;things&#8221; you don&#8217;t like about it, but you only mentioned the (irrelevant) script loading.  You should report the other things you dislike.</p>
+						<footer>
+							<cite>Comment by <a href='http://bob.pythonmac.org/' rel='external nofollow' class='url'>Bob Ippolito</a> &#8212; <time datetime="2006-05-06T04:32:06+00:00">May 6, 2006 @ 4:32 am</time> <a href="#comment-1519">#</a> </cite>
+						</footer>
+					</article>
+				</li>
+		
+				<li id="comment-2073">
+					<article>
+						<p>I happened onto this page, incidentally while searching for a starting point to using Mochikit.  Bob Ippolito is obviously quite passionate about his work, and for good reason, he created what appears to be a great Javascript library.  Now if only I can figure out what the heck to do with it.  Of course, considering how quick his temper appears to be I wonder if I should even be commenting, Then again, this is not his blog.<br />
+The library has a lot of great stuff for Python programmers and those with that mindset, and that&#8217;s great for them.  But for someone like me who has quite a reasonably wide experience with programming, web development mostly, I can&#8217;t seem to wrap my head around getting started with Mochikit.  Yes, there is the claim about great documentation and as far as API manuals go, Mochikit&#8217;s docs are quite extensive, but there is this inherent assumption that you already know what the functions do.<br />
+My point is, the docs are great reference manuals, but don&#8217;t help in anyway for someone who just happend to be looking for a way to get started with using it, making the learning curve unnecessarily steep.  And no the samples don&#8217;t help much either. And I&#8217;m not the only one with this issue.  In comparison with Prototype and libraries built off that, getting started by just reading the documented code was a snap.</p>
+						<footer>
+							<cite>Comment by Jason &#8212; <time datetime="2006-05-19T18:59:52+00:00">May 19, 2006 @ 6:59 pm</time> <a href="#comment-2073">#</a> </cite>
+						</footer>
+					</article>
+				</li>
+		
+			</ol>
+
+
+		<p>Sorry, the comment form is closed at this time.</p>
+
+		</article>
+	</section>
+			<!-- All pages -->
+	
+
+	<footer>
+		<ul>
+			<li>&copy; 2005-2015 Marko Samastur</li>
+			
+			<li><a href="http://markos.gaivo.net/blog/?feed=rss2">Entries feed</a></li>
+			<li><a href="http://markos.gaivo.net/blog/?feed=comments-rss2">Comments feed</a></li>
+		</ul>
+		<a href="/"><img src="/img/markos_light_small_bg.png" alt="logo" class="mini-logo" /></a>
+	</footer>
+	<!-- Google analytics -->
+	<script type="text/javascript">
+	  var _gaq = _gaq || [];
+	  _gaq.push(['_setAccount', 'UA-152438-1']);
+	  _gaq.push(['_trackPageview']);
+	</script>
+	<script src="/js/cookie.js"></script>
+</body>
+</html>

@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>A notch above a monkey &raquo; Catchall</title>
+	<meta charset="utf-8" />
+	
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" /> 
+
+	<link rel="shortcut icon" href="/img/markos.ico" />
+	
+	<meta name="generator" content="WordPress 3.0.5" /> <!-- leave this for stats please -->
+
+	<link href="http://fast.fonts.com/cssapi/aee9b60b-8e94-47f8-b586-3ecbfab51d1c.css" rel="stylesheet" type="text/css" />
+	<link rel="stylesheet" type="text/css" href="css/home.css" media="screen" title="Light theme" />
+	<link rel="alternate stylesheet" type="text/css" href="css/home_dark.css" media="screen" title="Dark theme" />
+	<link rel="stylesheet" href="css/ipad.css" media="only screen and (min-device-width : 768px) and (max-device-width : 1024px)">
+	<link rel="stylesheet" type="text/css" href="css/smallscreen.css" media="only screen and (max-width: 700px)" />
+
+	<link rel="alternate" type="application/rss+xml" title="RSS 2.0" href="http://markos.gaivo.net/blog/?feed=rss2" />
+	<link rel="alternate" type="application/atom+xml" title="Atom 1.0" href="http://markos.gaivo.net/blog/?feed=atom" />
+	<link rel='canonical' href='http://markos.gaivo.net/blog/?p=664' />
+
+	<link rel="pingback" href="http://markos.gaivo.net/blog/xmlrpc.php" />
+
+	<link rel="alternate" type="application/rss+xml" title="A notch above a monkey &raquo; Catchall Category Feed" href="http://markos.gaivo.net/blog/?feed=rss2&amp;cat=3" />
+<link rel="EditURI" type="application/rsd+xml" title="RSD" href="http://markos.gaivo.net/blog/xmlrpc.php?rsd" />
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="http://markos.gaivo.net/blog/wp-includes/wlwmanifest.xml" /> 
+<link rel='index' title='A notch above a monkey' href='http://markos.gaivo.net/blog' />
+<meta name="generator" content="WordPress 3.0.5" />
+
+	<!--[if lt IE 9]>
+	<script src="/js/html5.js"></script>
+	<![endif]-->
+</head>
+<body>
+	<section class="envelope posts">
+		<header>
+			<h1><a href="http://markos.gaivo.net/blog/">A notch above a monkey</a></h1>
+		</header>
+		<nav class="colophon">
+			<h1>By Marko Samastur</h1>
+			<ul>
+				<li><a href="/">About me</a></li>
+				<li><a href="http://markos.gaivo.net/blog/?feed=atom">Subscribe</a></li>
+			</ul>
+		</nav>
+
+	
+		<article>
+			<h1 class="storytitle"><a href="http://markos.gaivo.net/blog/?p=36" rel="bookmark">Organizer&#8217;s dilemma</a></h1>
+
+			<div class="post-text">
+				<p>A while ago I agreed to organizing a series of talks about web and web technologies. They were and will be the cause for occasional outburst of Slovene on this blog. As Slovene speaking readers already know, the first one will be tomorrow at 19.00 in <a href="http://www.kiberpipa.org">Cyberpipe</a>, which is a rather cool place I almost never visit, because I&#8217;m weird and don&#8217;t like it all that much. But if you&#8217;re into net art, free wifi, cyber cafe and like meeting like-minded people, than it&#8217;s the place for you in Ljubljana.</p>
+<p>I agreed to a job with no salary, fame or groupies and I did it whorishly quickly, because I thought it would be really cool to get Slovenian web community be, well, more communal. A better thinker than me would certainly notice that I&#8217;m not actually necessary for this plan to work and so could leave this task to someone else. But I&#8217;m as much a sucker for leaving my mark and doing it my way as any dog out there. Or better a cat. Yes, definitely a cat. Tomcat that is.</p>
+<p>So, here we are, on the eve of first talk, which I&#8217;m certain will be a great (success) as all others will be and I&#8217;m working on November&#8217;s and December&#8217;s schedule, which are not coming together as easily as I&#8217;ve hoped. Series is aimed at experienced part of community and there are awfully lot of Wednesdays for something as small as <a href="http://en.wikipedia.org/wiki/Slovenia">Slovenia</a>. I mean 20 thousand square kilometers and 2 million people. If any smaller it wouldn&#8217;t be a country, it would be a city.</p>
+<p>Therefore I&#8217;m asking both of my readers which option is least annoying:</p>
+<ol>
+<li>Forget a regular schedule. Have a talk when you can, but let it be worthwhile.</li>
+<li>Have a regular schedule, but keep it regular with more basic talks (e.g. how to build your first web page).</li>
+<li>Have a regular schedule, but keep it regular by having regular speakers.</li>
+</ol>
+<p>I like variety, even in food, although between you and me, I could eat pasta every day. I&#8217;d prefer to have as many different speakers as possible, but I&#8217;d rather listen to the same lot (if good) then nobody or even worse, to talks I can&#8217;t care about anymore. How about you?</p>
+<p>P.S: If there&#8217;s anyone that would like to give a talk and is willing to come to Cyberpipe, please let me know. Reasonable costs of transportation can be reimbursed.</p>
+			</div>
+
+			<footer class="post-metadata">
+				<ul>
+					<li>Published on <time datetime="2005-10-04T18:45:37+00:00">October 4, 2005</time></li>
+					<li><a href="http://markos.gaivo.net/blog/?p=36#comments" title="Comment on Organizer&#8217;s dilemma">Add your comment</a> </li>
+				</ul>
+			</footer>
+		</article>
+	
+		<article>
+			<h1 class="storytitle"><a href="http://markos.gaivo.net/blog/?p=33" rel="bookmark">Tim Bray at OOoCon 2005</a></h1>
+
+			<div class="post-text">
+				<p>We&#8217;ve slept only a few hours today, to wake up early and drive in awful rain to Koper. <a href="http://www.tbray.org/ongoing/" alt="Tim's page">Tim Bray</a> was speaking at <a href="http://marketing.openoffice.org/ooocon2005/" alt="Conference's page">OOoCon 2005</a> and I didn&#8217;t want to miss it.</p>
+<p><img src="http://markos.gaivo.net/images/bray.jpg" alt="Tim Bray" width="150" height="160" class="imgleft" /></p>
+<p>I wasn&#8217;t disappointed. He&#8217;s an excellent speaker and even though I can&#8217;t say I&#8217;m a dedicated user of any office suite, I found his talk very engaging and thought provoking.</p>
+<p>As every WordPress user knows, blogging interfaces can be rather underwhelming.  And WordPress is just an example, as the same can be said about most of them. But users are certainly not getting help from current versions of suites. Sad state of Blogger plugin for Word only exemplifies that.</p>
+<p>Therefore OpenOffice of the future should recognize the rising popularity of blogs, wikis and personal voice on the web and do for them what yesterdays suites did for business communication (forgetting downsides for a moment). Making personal publishing less painful and more flexible.</p>
+<p>If I understood Tim correctly, he wants to go even beyond that and imagines a world where OpenDocument is a sort of an HTML of tomorrow. Meaning it&#8217;s an open container for our data, that would get used by a different applications in myriad of ways, but would never lock our data in.</p>
+<p>I&#8217;ve been looking at Atom and its publishing protocol lately and just thinking about it and about Tim&#8217;s talk, makes my head go dizzy from all the possibilities.</p>
+<p><em>Update: You can also find video and audio of keynote and other talks <a href="http://ooocon-ljudmila.kiberpipa.org/media/">here</a>.</em></p>
+			</div>
+
+			<footer class="post-metadata">
+				<ul>
+					<li>Published on <time datetime="2005-09-29T18:29:39+00:00">September 29, 2005</time></li>
+					<li><a href="http://markos.gaivo.net/blog/?p=33#comments" title="Comment on Tim Bray at OOoCon 2005">Add your comment</a> </li>
+				</ul>
+			</footer>
+		</article>
+	
+		<article>
+			<h1 class="storytitle"><a href="http://markos.gaivo.net/blog/?p=29" rel="bookmark">Fans</a></h1>
+
+			<div class="post-text">
+				<p>Why is it that we still celebrate national sport teams as demigods and cheer a bunch of guys (or gals) only because they come from the right part of a planet?</p>
+<p>Slovenia was caught in a basketball euphoria when it looked for a while that it might actually win a medal. Personally, I have no beef with people playing it. I haven&#8217;t done it in a while, but I used to enjoy it a lot. I don&#8217;t mind people watching basketball or any other sport either. I rarely do, but I do recognize inherent drama and sometimes amazing display of mastery.</p>
+<p>I also don&#8217;t mind cheering in general. We&#8217;ve all encountered individuals or teams, who exemplified rare qualities we admire and wished them best luck. I do find it a bit repulsive to cheer for a person or a team just because they come from the right town or a country.</p>
+<p>It seems rather primitive to pick a side mainly because of nationality or locality; as if our nationality is itself a quality worthy of admiration and pride. They are our lot, our tribe, and that makes them better? </p>
+<p>Is it then a wonder that after all this time and relative progress we still have so much troubles with each other? If intimate human relationships can&#8217;t survive feelings of personal superiority, how can it ever happen with nations?</p>
+<p>I&#8217;ve always been attached to this place where I grew up and culture that shaped me to who I am today and I can&#8217;t imagine giving it up. But long gone are days when I felt the same about my nationality and I&#8217;d be ashamed if they came back.</p>
+			</div>
+
+			<footer class="post-metadata">
+				<ul>
+					<li>Published on <time datetime="2005-09-24T21:13:06+00:00">September 24, 2005</time></li>
+					<li><a href="http://markos.gaivo.net/blog/?p=29#comments" title="Comment on Fans">Add your comment</a> </li>
+				</ul>
+			</footer>
+		</article>
+		
+		<nav class="pagination">
+			<ul>
+				<li><a href="http://markos.gaivo.net/blog/?cat=3&#038;paged=28" >&laquo; Newer articles</a></li>
+				<li><a href="http://markos.gaivo.net/blog/?cat=3&#038;paged=30" >Older articles &raquo;</a></li>
+			</ul>
+		</nav>
+	</section>
+
+
+	<footer>
+		<ul>
+			<li>&copy; 2005-2015 Marko Samastur</li>
+			
+			<li><a href="http://markos.gaivo.net/blog/?feed=rss2">Entries feed</a></li>
+			<li><a href="http://markos.gaivo.net/blog/?feed=comments-rss2">Comments feed</a></li>
+		</ul>
+		<a href="/"><img src="/img/markos_light_small_bg.png" alt="logo" class="mini-logo" /></a>
+	</footer>
+	<script src="/js/jquery.js"></script>
+	<script src="/js/all.js"></script>
+	<!--script src="/mint/?js" type="text/javascript"></script-->
+
+	<!-- Google analytics -->
+	<script type="text/javascript">
+
+	  var _gaq = _gaq || [];
+	  _gaq.push(['_setAccount', 'UA-152438-1']);
+	  _gaq.push(['_trackPageview']);
+	</script>
+	<script src="/js/cookie.js"></script>
+</body>
+</html>

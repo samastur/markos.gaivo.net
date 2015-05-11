@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+		>
+<channel>
+	<title>Comments on: Shrinking images with image-diet</title>
+	<atom:link href="http://markos.gaivo.net/blog/?feed=rss2&#038;p=1087" rel="self" type="application/rss+xml" />
+	<link>http://markos.gaivo.net/blog/?p=1087</link>
+	<description></description>
+	<lastBuildDate>Wed, 16 Jul 2014 16:04:38 +0000</lastBuildDate>
+	<sy:updatePeriod>hourly</sy:updatePeriod>
+	<sy:updateFrequency>1</sy:updateFrequency>
+	<generator>http://wordpress.org/?v=3.0.5</generator>
+	<item>
+		<title>By: markos</title>
+		<link>http://markos.gaivo.net/blog/?p=1087&#038;cpage=1#comment-284871</link>
+		<dc:creator>markos</dc:creator>
+		<pubDate>Sun, 10 Mar 2013 11:58:26 +0000</pubDate>
+		<guid isPermaLink="false">http://markos.gaivo.net/blog/?p=1087#comment-284871</guid>
+		<description>It is used, but not widely yet and certainly not on any high-traffic website.
+
+I haven&#039;t checked easy_thumbnails code closely enough to know if there are problems in multithreading environments, but I can&#039;t think of a problem that would actually be caused by image-diet.</description>
+		<content:encoded><![CDATA[<p>It is used, but not widely yet and certainly not on any high-traffic website.</p>
+<p>I haven&#8217;t checked easy_thumbnails code closely enough to know if there are problems in multithreading environments, but I can&#8217;t think of a problem that would actually be caused by image-diet.</p>
+]]></content:encoded>
+	</item>
+	<item>
+		<title>By: Tigors</title>
+		<link>http://markos.gaivo.net/blog/?p=1087&#038;cpage=1#comment-283676</link>
+		<dc:creator>Tigors</dc:creator>
+		<pubDate>Wed, 27 Feb 2013 13:31:08 +0000</pubDate>
+		<guid isPermaLink="false">http://markos.gaivo.net/blog/?p=1087#comment-283676</guid>
+		<description>Hi Marko,
+just bumped into the issue of squeezing image size by 50% according to google&#039;s speedpage and found your news about the image-diet!
+Thank you for your work, hope it&#039;s what I need. How about the app to be used in production?
+
+Thanks</description>
+		<content:encoded><![CDATA[<p>Hi Marko,<br />
+just bumped into the issue of squeezing image size by 50% according to google&#8217;s speedpage and found your news about the image-diet!<br />
+Thank you for your work, hope it&#8217;s what I need. How about the app to be used in production?</p>
+<p>Thanks</p>
+]]></content:encoded>
+	</item>
+</channel>
+</rss>

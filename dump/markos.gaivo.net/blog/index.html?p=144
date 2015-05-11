@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>A notch above a monkey &raquo; Updated sgmllib</title>
+	<meta charset="utf-8" />
+	
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" /> 
+
+	<link rel="shortcut icon" href="/img/markos.ico" />
+	
+	<meta name="generator" content="WordPress 3.0.5" /> <!-- leave this for stats please -->
+
+	<link href="http://fast.fonts.com/cssapi/aee9b60b-8e94-47f8-b586-3ecbfab51d1c.css" rel="stylesheet" type="text/css" />
+	<link rel="stylesheet" type="text/css" href="css/home.css" media="screen" title="Light theme" />
+	<link rel="alternate stylesheet" type="text/css" href="css/home_dark.css" media="screen" title="Dark theme" />
+	<link rel="stylesheet" href="css/ipad.css" media="only screen and (min-device-width : 768px) and (max-device-width : 1024px)">
+	<link rel="stylesheet" type="text/css" href="css/smallscreen.css" media="only screen and (max-width: 700px)" />
+
+	<link rel="alternate" type="application/rss+xml" title="RSS 2.0" href="http://markos.gaivo.net/blog/?feed=rss2" />
+	<link rel="alternate" type="application/atom+xml" title="Atom 1.0" href="http://markos.gaivo.net/blog/?feed=atom" />
+	<link rel='canonical' href='http://markos.gaivo.net/blog/?p=664' />
+
+	<link rel="pingback" href="http://markos.gaivo.net/blog/xmlrpc.php" />
+
+	<link rel="alternate" type="application/rss+xml" title="A notch above a monkey &raquo; Updated sgmllib Comments Feed" href="http://markos.gaivo.net/blog/?feed=rss2&amp;p=144" />
+<link rel="EditURI" type="application/rsd+xml" title="RSD" href="http://markos.gaivo.net/blog/xmlrpc.php?rsd" />
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="http://markos.gaivo.net/blog/wp-includes/wlwmanifest.xml" /> 
+<link rel='index' title='A notch above a monkey' href='http://markos.gaivo.net/blog' />
+<link rel='start' title='First post' href='http://markos.gaivo.net/blog/?p=2' />
+<link rel='prev' title='Outage' href='http://markos.gaivo.net/blog/?p=143' />
+<link rel='next' title='Mobile phones shopping' href='http://markos.gaivo.net/blog/?p=145' />
+<meta name="generator" content="WordPress 3.0.5" />
+<link rel='canonical' href='http://markos.gaivo.net/blog/?p=144' />
+
+	<!--[if lt IE 9]>
+	<script src="/js/html5.js"></script>
+	<![endif]-->
+</head>
+<body>
+					<header>
+		<h1><a href="/blog/">A notch above a monkey</a> &raquo; Updated sgmllib</h1>
+	</header>
+
+	<section class="envelope">
+		<article class="post">
+			<header>
+				<h1>Updated sgmllib</h1>
+			</header>
+
+			<footer>
+				<ul>
+					<li class="by">Written by: <a href="/">Marko Samastur</a></li>
+					<li class="published">Published on: <time datetime="2006-04-01T15:05:46+00:00" pubdate>April 1, 2006</time></li>
+					<li class="categories">Categories: <a href="http://markos.gaivo.net/blog/?cat=2" title="View all posts in Python" rel="category">Python</a></li>
+					<li class="post-comments">Comments: <a href="http://markos.gaivo.net/blog/?p=144#comments" title="Comment on Updated sgmllib">1</a></li>
+				</ul>
+			</footer>
+
+			<div class="post-text">
+				<p>I <a href="http://markos.gaivo.net/blog/?p=142">wrote</a> about a sgmllib problem a few days ago. I still may be a dolt and my code certainly needed fixing, but the bug remained nevertheless.</p>
+<p>Hence I&#8217;ve made some small changes to sgmllib that fix problems I&#8217;ve had. New version, which passes all unit tests included in Python distribution, can be found <a href="http://markos.gaivo.net/examples/sgmllib/sgmllib.py" title="fixed sgmllib.py">here</a> and I&#8217;d really appreciate if users of sgmllib could give it a go (that includes users of htmllib and BeautifulSoup).</p>
+<p><strong>Update:</strong> As suggested I&#8217;ve added an <a href="http://markos.gaivo.net/examples/sgmllib/test_sgmllib.py" title="Test cases for new library">updated version</a> of test_sgmllib.py, which includes an example where the old library fails and new one doesn&#8217;t.</p>
+<p><strong>Update 2</strong>: It <a href="http://markos.gaivo.net/blog/?p=142#comment-1120">seems</a> this is valid, even required SGML behavior.</p>
+			</div>
+
+			<nav>
+				<p>If you liked this, you might want to visit:</p>
+				<ul>
+					<li>my previous article: <a href="http://markos.gaivo.net/blog/?p=143" rel="prev">Outage</a></li>					<li>my next article: <a href="http://markos.gaivo.net/blog/?p=145" rel="next">Mobile phones shopping</a></li>					<li><a href="/blog/">article list</a></li>
+				</ul>
+			</nav>
+
+			<h2 id="comments">Comment (1)
+			</h2>
+			<ol class="comments">
+		
+				<li id="comment-1106">
+					<article>
+						<p>Perhaps you should also make a unittest which fails with the old and succeeds with your new version; so you could point out the flaws of the std lib.</p>
+						<footer>
+							<cite>Comment by <a href='http://uu.ggnore.net' rel='external nofollow' class='url'>JustinB</a> &#8212; <time datetime="2006-04-01T19:25:25+00:00">April 1, 2006 @ 7:25 pm</time> <a href="#comment-1106">#</a> </cite>
+						</footer>
+					</article>
+				</li>
+		
+			</ol>
+
+
+		<p>Sorry, the comment form is closed at this time.</p>
+
+		</article>
+	</section>
+			<!-- All pages -->
+	
+
+	<footer>
+		<ul>
+			<li>&copy; 2005-2015 Marko Samastur</li>
+			
+			<li><a href="http://markos.gaivo.net/blog/?feed=rss2">Entries feed</a></li>
+			<li><a href="http://markos.gaivo.net/blog/?feed=comments-rss2">Comments feed</a></li>
+		</ul>
+		<a href="/"><img src="/img/markos_light_small_bg.png" alt="logo" class="mini-logo" /></a>
+	</footer>
+	<!-- Google analytics -->
+	<script type="text/javascript">
+	  var _gaq = _gaq || [];
+	  _gaq.push(['_setAccount', 'UA-152438-1']);
+	  _gaq.push(['_trackPageview']);
+	</script>
+	<script src="/js/cookie.js"></script>
+</body>
+</html>

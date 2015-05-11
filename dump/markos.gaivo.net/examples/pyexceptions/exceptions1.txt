@@ -1,0 +1,27 @@
+errors = { 'AuthenticationNeeded': { 'value': 'Authentication needed.', 'status': 100 },
+		'Unauthorized': { 'value': 'Unauthorized.', 'status': 101 },
+		'PaymentRequired': { 'value': 'Payment required.', 'status': 102 },
+		'Forbidden': { 'value': 'Forbidden.', 'status': 103 },
+		'BadRequest' : { 'value' : 'Bad request.', 'status': 400 },
+		'UnknownMethod' : { 'value' : 'Unknown method.', 'status': 401 },
+		'ParameterMissing': { 'value': 'Parameter missing.', 'status': 402 },
+		'ExpectationFailed': { 'value': 'Expectation failed.', 'status': 403 },
+		'InternalServerError': { 'value': 'Internal server error.', 'status': 500 },
+		'SansImplemented': { 'value': 'Not implemented.', 'status': 501 },
+		'ServiceUnavailable': { 'value': 'Service unavailable.', 'status': 502 },
+		'VersionNotSupported': { 'value': 'Version not supported.', 'status': 503 }
+}
+
+# Create exception classes
+AuthenticationNeeded = type('AuthenticationNeeded', (Exception,), errors['AuthenticationNeeded'])
+Unauthorized = type('Unauthorized', (Exception,), errors['Unauthorized'])
+PaymentRequired = type('PaymentRequired', (Exception,), errors['PaymentRequired'])
+Forbidden = type('Forbidden', (Exception,), errors['Forbidden'])
+BadRequest = type('BadRequest', (Exception,), errors['BadRequest'])
+UnknownMethod = type('UnknownMethod', (Exception,), errors['UnknownMethod'])
+ParameterMissing = type('ParameterMissing', (Exception,), errors['ParameterMissing'])
+ExpectationFailed = type('ExpectationFailed', (Exception,), errors['ExpectationFailed'])
+InternalServerError = type('InternalServerError', (Exception,), errors['InternalServerError'])
+SansImplemented = type('SansImplemented', (Exception,), errors['SansImplemented'])
+ServiceUnavailable = type('ServiceUnavailable', (Exception,), errors['ServiceUnavailable'])
+VersionNotSupported = type('VersionNotSupported', (Exception,), errors['VersionNotSupported'])

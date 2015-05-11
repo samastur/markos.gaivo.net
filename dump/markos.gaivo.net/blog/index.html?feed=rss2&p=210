@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+		>
+<channel>
+	<title>Comments on: Handling 404</title>
+	<atom:link href="http://markos.gaivo.net/blog/?feed=rss2&#038;p=210" rel="self" type="application/rss+xml" />
+	<link>http://markos.gaivo.net/blog/?p=210</link>
+	<description></description>
+	<lastBuildDate>Wed, 16 Jul 2014 16:04:38 +0000</lastBuildDate>
+	<sy:updatePeriod>hourly</sy:updatePeriod>
+	<sy:updateFrequency>1</sy:updateFrequency>
+	<generator>http://wordpress.org/?v=3.0.5</generator>
+	<item>
+		<title>By: fry</title>
+		<link>http://markos.gaivo.net/blog/?p=210&#038;cpage=1#comment-12384</link>
+		<dc:creator>fry</dc:creator>
+		<pubDate>Wed, 08 Nov 2006 15:57:54 +0000</pubDate>
+		<guid isPermaLink="false">http://markos.gaivo.net/blog/?p=210#comment-12384</guid>
+		<description>I went about solving the 404 and 500 issue a while ago and I think the solution was a pretty good one. Unfortunately it never got implemented fully.
+
+Obviously the main idea would be to try to solve stuff automatically, if that doesn&#039;t work use the referrer or the URL to search for suggestions and if no matches are found refer the visitor to the home page, sitemap or something similar. In any case you should send an automatic email to the admin for internal broken links and maybe also for external broken links and links with no referrer. This info should then be used to manually add aliases that are passed into the first step of autosolving...</description>
+		<content:encoded><![CDATA[<p>I went about solving the 404 and 500 issue a while ago and I think the solution was a pretty good one. Unfortunately it never got implemented fully.</p>
+<p>Obviously the main idea would be to try to solve stuff automatically, if that doesn&#8217;t work use the referrer or the URL to search for suggestions and if no matches are found refer the visitor to the home page, sitemap or something similar. In any case you should send an automatic email to the admin for internal broken links and maybe also for external broken links and links with no referrer. This info should then be used to manually add aliases that are passed into the first step of autosolving&#8230;</p>
+]]></content:encoded>
+	</item>
+	<item>
+		<title>By: markos</title>
+		<link>http://markos.gaivo.net/blog/?p=210&#038;cpage=1#comment-12349</link>
+		<dc:creator>markos</dc:creator>
+		<pubDate>Wed, 08 Nov 2006 12:15:13 +0000</pubDate>
+		<guid isPermaLink="false">http://markos.gaivo.net/blog/?p=210#comment-12349</guid>
+		<description>OK, I&#039;m persuaded :)</description>
+		<content:encoded><![CDATA[<p>OK, I&#8217;m persuaded <img src='http://markos.gaivo.net/blog/wp-includes/images/smilies/icon_smile.gif' alt=':)' class='wp-smiley' /> </p>
+]]></content:encoded>
+	</item>
+	<item>
+		<title>By: Simon</title>
+		<link>http://markos.gaivo.net/blog/?p=210&#038;cpage=1#comment-12347</link>
+		<dc:creator>Simon</dc:creator>
+		<pubDate>Wed, 08 Nov 2006 12:04:14 +0000</pubDate>
+		<guid isPermaLink="false">http://markos.gaivo.net/blog/?p=210#comment-12347</guid>
+		<description>&lt;blockquote&gt;Spell checker does the same thing more or less using same algorithms&lt;/blockquote&gt;
+Yes and no. If it is any good it should do clever things like using weighted distances and processing the root separately from pre- and suffixes.
+
+&lt;blockquote&gt;can’t compare with what you have, which is the crux of the problem&lt;/blockquote&gt;
+This is trivially solvable by appropriately extending it&#039;s dictionary.</description>
+		<content:encoded><![CDATA[<blockquote><p>Spell checker does the same thing more or less using same algorithms</p></blockquote>
+<p>Yes and no. If it is any good it should do clever things like using weighted distances and processing the root separately from pre- and suffixes.</p>
+<blockquote><p>can’t compare with what you have, which is the crux of the problem</p></blockquote>
+<p>This is trivially solvable by appropriately extending it&#8217;s dictionary.</p>
+]]></content:encoded>
+	</item>
+	<item>
+		<title>By: markos</title>
+		<link>http://markos.gaivo.net/blog/?p=210&#038;cpage=1#comment-12345</link>
+		<dc:creator>markos</dc:creator>
+		<pubDate>Wed, 08 Nov 2006 11:51:32 +0000</pubDate>
+		<guid isPermaLink="false">http://markos.gaivo.net/blog/?p=210#comment-12345</guid>
+		<description>Spell checker does the same thing more or less using same algorithms, but not necessarily the right one. It can&#039;t spell words it doesn&#039;t know and it can&#039;t compare with what you have, which is the crux of the problem.
+
+You&#039;re correct that referrer information is mostly useless and certainly in all cases you&#039;ve mentioned. But it doesn&#039;t cost much to check and if your visitor came from a site using descriptive URLs or from a search engine, than you might gain some insight from it.
+
+It doesn&#039;t happen often that search engines would provide broken links, but I do stumble on broken links on other sites all the time.</description>
+		<content:encoded><![CDATA[<p>Spell checker does the same thing more or less using same algorithms, but not necessarily the right one. It can&#8217;t spell words it doesn&#8217;t know and it can&#8217;t compare with what you have, which is the crux of the problem.</p>
+<p>You&#8217;re correct that referrer information is mostly useless and certainly in all cases you&#8217;ve mentioned. But it doesn&#8217;t cost much to check and if your visitor came from a site using descriptive URLs or from a search engine, than you might gain some insight from it.</p>
+<p>It doesn&#8217;t happen often that search engines would provide broken links, but I do stumble on broken links on other sites all the time.</p>
+]]></content:encoded>
+	</item>
+	<item>
+		<title>By: Simon</title>
+		<link>http://markos.gaivo.net/blog/?p=210&#038;cpage=1#comment-12343</link>
+		<dc:creator>Simon</dc:creator>
+		<pubDate>Wed, 08 Nov 2006 11:32:14 +0000</pubDate>
+		<guid isPermaLink="false">http://markos.gaivo.net/blog/?p=210#comment-12343</guid>
+		<description>When undecidable one can always display a list of all possible candidates.
+
+Instead of just calculating the distance between words a spell checker could be used as well.
+
+I think you are overestimating referer information. There certainly will not be one when typing the address manually, I find it also quite far fetched that e-mails with broken links will have a usable referer. Or am I missing something.</description>
+		<content:encoded><![CDATA[<p>When undecidable one can always display a list of all possible candidates.</p>
+<p>Instead of just calculating the distance between words a spell checker could be used as well.</p>
+<p>I think you are overestimating referer information. There certainly will not be one when typing the address manually, I find it also quite far fetched that e-mails with broken links will have a usable referer. Or am I missing something.</p>
+]]></content:encoded>
+	</item>
+</channel>
+</rss>

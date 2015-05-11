@@ -1,0 +1,7 @@
+function average(arr) {
+	var n = arr.length, sum=0;
+	while (arr.length) {
+		sum += arr.pop()/n;
+	}
+	return sum;
+}

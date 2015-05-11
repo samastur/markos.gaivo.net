@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+		>
+<channel>
+	<title>Comments on: The callee is not available</title>
+	<atom:link href="http://markos.gaivo.net/blog/?feed=rss2&#038;p=173" rel="self" type="application/rss+xml" />
+	<link>http://markos.gaivo.net/blog/?p=173</link>
+	<description></description>
+	<lastBuildDate>Wed, 16 Jul 2014 16:04:38 +0000</lastBuildDate>
+	<sy:updatePeriod>hourly</sy:updatePeriod>
+	<sy:updateFrequency>1</sy:updateFrequency>
+	<generator>http://wordpress.org/?v=3.0.5</generator>
+	<item>
+		<title>By: 0&#215;80010007 RPC_E_SERVER_DIED: Causes and Solutions &#124; Brendon Robinson&#039;s Blog</title>
+		<link>http://markos.gaivo.net/blog/?p=173&#038;cpage=1#comment-230581</link>
+		<dc:creator>0&#215;80010007 RPC_E_SERVER_DIED: Causes and Solutions &#124; Brendon Robinson&#039;s Blog</dc:creator>
+		<pubDate>Fri, 29 Apr 2011 21:41:44 +0000</pubDate>
+		<guid isPermaLink="false">http://markos.gaivo.net/blog/?p=173#comment-230581</guid>
+		<description>[...] This error crops up in many different settings, from basic COM Interop in .NET applications, to event handling across a COM boundary, to Javascript code executing in Internet Explorer. In the latter case, the issue is generally accessing a Javascript object that corresponds to some COM object used by Internet Explorer that has been freed, most commonly a browser window that has been closed. [...]</description>
+		<content:encoded><![CDATA[<p>[...] This error crops up in many different settings, from basic COM Interop in .NET applications, to event handling across a COM boundary, to Javascript code executing in Internet Explorer. In the latter case, the issue is generally accessing a Javascript object that corresponds to some COM object used by Internet Explorer that has been freed, most commonly a browser window that has been closed. [...]</p>
+]]></content:encoded>
+	</item>
+</channel>
+</rss>

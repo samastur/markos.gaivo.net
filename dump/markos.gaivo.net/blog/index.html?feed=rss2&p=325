@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+		>
+<channel>
+	<title>Comments on: Game mechanics on web</title>
+	<atom:link href="http://markos.gaivo.net/blog/?feed=rss2&#038;p=325" rel="self" type="application/rss+xml" />
+	<link>http://markos.gaivo.net/blog/?p=325</link>
+	<description></description>
+	<lastBuildDate>Wed, 16 Jul 2014 16:04:38 +0000</lastBuildDate>
+	<sy:updatePeriod>hourly</sy:updatePeriod>
+	<sy:updateFrequency>1</sy:updateFrequency>
+	<generator>http://wordpress.org/?v=3.0.5</generator>
+	<item>
+		<title>By: Pietro Polsinelli</title>
+		<link>http://markos.gaivo.net/blog/?p=325&#038;cpage=1#comment-193186</link>
+		<dc:creator>Pietro Polsinelli</dc:creator>
+		<pubDate>Fri, 15 May 2009 08:37:18 +0000</pubDate>
+		<guid isPermaLink="false">http://markos.gaivo.net/blog/?p=325#comment-193186</guid>
+		<description>Here I posted a blog entry on some game mechanics ideas used for improving the usability of a web app (and its limits):
+
+http://blog.twproject.com/2009/05/13/usability-game-mechanics-teamwork/</description>
+		<content:encoded><![CDATA[<p>Here I posted a blog entry on some game mechanics ideas used for improving the usability of a web app (and its limits):</p>
+<p><a href="http://blog.twproject.com/2009/05/13/usability-game-mechanics-teamwork/">http://blog.twproject.com/2009/05/13/usability-game-mechanics-teamwork/</a></p>
+]]></content:encoded>
+	</item>
+</channel>
+</rss>

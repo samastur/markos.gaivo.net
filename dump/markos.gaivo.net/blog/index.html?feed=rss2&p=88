@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+		>
+<channel>
+	<title>Comments on: Places to use AJAX</title>
+	<atom:link href="http://markos.gaivo.net/blog/?feed=rss2&#038;p=88" rel="self" type="application/rss+xml" />
+	<link>http://markos.gaivo.net/blog/?p=88</link>
+	<description></description>
+	<lastBuildDate>Wed, 16 Jul 2014 16:04:38 +0000</lastBuildDate>
+	<sy:updatePeriod>hourly</sy:updatePeriod>
+	<sy:updateFrequency>1</sy:updateFrequency>
+	<generator>http://wordpress.org/?v=3.0.5</generator>
+	<item>
+		<title>By: markos</title>
+		<link>http://markos.gaivo.net/blog/?p=88&#038;cpage=1#comment-275</link>
+		<dc:creator>markos</dc:creator>
+		<pubDate>Thu, 08 Dec 2005 14:03:20 +0000</pubDate>
+		<guid isPermaLink="false">http://markos.gaivo.net/blog/?p=88#comment-275</guid>
+		<description>I guess I&#039;m wrong, since this is just a spoof article by Jacob. Mea culpa.</description>
+		<content:encoded><![CDATA[<p>I guess I&#8217;m wrong, since this is just a spoof article by Jacob. Mea culpa.</p>
+]]></content:encoded>
+	</item>
+	<item>
+		<title>By: markos</title>
+		<link>http://markos.gaivo.net/blog/?p=88&#038;cpage=1#comment-274</link>
+		<dc:creator>markos</dc:creator>
+		<pubDate>Wed, 07 Dec 2005 09:29:18 +0000</pubDate>
+		<guid isPermaLink="false">http://markos.gaivo.net/blog/?p=88#comment-274</guid>
+		<description>Well, he&#039;s just plain wrong. Wrong on statistics and wrong on facts.
+
+I don&#039;t think there&#039;s anything fundamentally wrong with AJAX. I do think a lot, if not most, of its use is flawed though. Maybe I should give a talk about user- and web-friendly use of this stuff?</description>
+		<content:encoded><![CDATA[<p>Well, he&#8217;s just plain wrong. Wrong on statistics and wrong on facts.</p>
+<p>I don&#8217;t think there&#8217;s anything fundamentally wrong with AJAX. I do think a lot, if not most, of its use is flawed though. Maybe I should give a talk about user- and web-friendly use of this stuff?</p>
+]]></content:encoded>
+	</item>
+	<item>
+		<title>By: fry</title>
+		<link>http://markos.gaivo.net/blog/?p=88&#038;cpage=1#comment-273</link>
+		<dc:creator>fry</dc:creator>
+		<pubDate>Wed, 07 Dec 2005 09:20:13 +0000</pubDate>
+		<guid isPermaLink="false">http://markos.gaivo.net/blog/?p=88#comment-273</guid>
+		<description>Jacob Nielsen still claims that &lt;a href=&quot;http://www.usabilityviews.com/ajaxsucks.html&quot; rel=&quot;nofollow&quot;&gt;Ajax sucks&lt;/a&gt;. Though I think he would probably have to agree with Alex.</description>
+		<content:encoded><![CDATA[<p>Jacob Nielsen still claims that <a href="http://www.usabilityviews.com/ajaxsucks.html">Ajax sucks</a>. Though I think he would probably have to agree with Alex.</p>
+]]></content:encoded>
+	</item>
+</channel>
+</rss>

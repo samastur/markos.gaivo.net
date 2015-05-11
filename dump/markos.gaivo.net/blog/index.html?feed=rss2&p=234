@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+		>
+<channel>
+	<title>Comments on: Flash inside of WYSIWYG HTML editor</title>
+	<atom:link href="http://markos.gaivo.net/blog/?feed=rss2&#038;p=234" rel="self" type="application/rss+xml" />
+	<link>http://markos.gaivo.net/blog/?p=234</link>
+	<description></description>
+	<lastBuildDate>Wed, 16 Jul 2014 16:04:38 +0000</lastBuildDate>
+	<sy:updatePeriod>hourly</sy:updatePeriod>
+	<sy:updateFrequency>1</sy:updateFrequency>
+	<generator>http://wordpress.org/?v=3.0.5</generator>
+	<item>
+		<title>By: Matt</title>
+		<link>http://markos.gaivo.net/blog/?p=234&#038;cpage=1#comment-90623</link>
+		<dc:creator>Matt</dc:creator>
+		<pubDate>Tue, 13 Nov 2007 23:02:23 +0000</pubDate>
+		<guid isPermaLink="false">http://markos.gaivo.net/blog/?p=234#comment-90623</guid>
+		<description>It&#039;s possible with XUL, Firefox only though.</description>
+		<content:encoded><![CDATA[<p>It&#8217;s possible with XUL, Firefox only though.</p>
+]]></content:encoded>
+	</item>
+	<item>
+		<title>By: markos</title>
+		<link>http://markos.gaivo.net/blog/?p=234&#038;cpage=1#comment-70002</link>
+		<dc:creator>markos</dc:creator>
+		<pubDate>Mon, 23 Jul 2007 09:09:10 +0000</pubDate>
+		<guid isPermaLink="false">http://markos.gaivo.net/blog/?p=234#comment-70002</guid>
+		<description>Not yet. I&#039;m not too hopeful either.</description>
+		<content:encoded><![CDATA[<p>Not yet. I&#8217;m not too hopeful either.</p>
+]]></content:encoded>
+	</item>
+	<item>
+		<title>By: Robi</title>
+		<link>http://markos.gaivo.net/blog/?p=234&#038;cpage=1#comment-70000</link>
+		<dc:creator>Robi</dc:creator>
+		<pubDate>Mon, 23 Jul 2007 09:01:45 +0000</pubDate>
+		<guid isPermaLink="false">http://markos.gaivo.net/blog/?p=234#comment-70000</guid>
+		<description>Have you found something useful?</description>
+		<content:encoded><![CDATA[<p>Have you found something useful?</p>
+]]></content:encoded>
+	</item>
+</channel>
+</rss>

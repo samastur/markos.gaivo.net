@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+		>
+<channel>
+	<title>Comments on: Gillette phone</title>
+	<atom:link href="http://markos.gaivo.net/blog/?feed=rss2&#038;p=166" rel="self" type="application/rss+xml" />
+	<link>http://markos.gaivo.net/blog/?p=166</link>
+	<description></description>
+	<lastBuildDate>Wed, 16 Jul 2014 16:04:38 +0000</lastBuildDate>
+	<sy:updatePeriod>hourly</sy:updatePeriod>
+	<sy:updateFrequency>1</sy:updateFrequency>
+	<generator>http://wordpress.org/?v=3.0.5</generator>
+	<item>
+		<title>By: markos</title>
+		<link>http://markos.gaivo.net/blog/?p=166&#038;cpage=1#comment-1675</link>
+		<dc:creator>markos</dc:creator>
+		<pubDate>Wed, 17 May 2006 08:28:39 +0000</pubDate>
+		<guid isPermaLink="false">http://markos.gaivo.net/blog/?p=166#comment-1675</guid>
+		<description>Simply because I can and am curious about the answer. I agree it&#039;s wasteful idea and I&#039;m glad that similar experiments have failed so far, but I don&#039;t think the question is preposterous enough to be meaningless.</description>
+		<content:encoded><![CDATA[<p>Simply because I can and am curious about the answer. I agree it&#8217;s wasteful idea and I&#8217;m glad that similar experiments have failed so far, but I don&#8217;t think the question is preposterous enough to be meaningless.</p>
+]]></content:encoded>
+	</item>
+	<item>
+		<title>By: David Frey</title>
+		<link>http://markos.gaivo.net/blog/?p=166&#038;cpage=1#comment-1670</link>
+		<dc:creator>David Frey</dc:creator>
+		<pubDate>Wed, 17 May 2006 05:39:49 +0000</pubDate>
+		<guid isPermaLink="false">http://markos.gaivo.net/blog/?p=166#comment-1670</guid>
+		<description>Why do you ask this question?  Is someone bringing this product to market.  It seems like a stupid, wasteful idea to me.
+
+Electronics break quickly enough as it is.</description>
+		<content:encoded><![CDATA[<p>Why do you ask this question?  Is someone bringing this product to market.  It seems like a stupid, wasteful idea to me.</p>
+<p>Electronics break quickly enough as it is.</p>
+]]></content:encoded>
+	</item>
+</channel>
+</rss>

@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>A notch above a monkey &raquo; Speeding up Levenshtein</title>
+	<meta charset="utf-8" />
+	
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" /> 
+
+	<link rel="shortcut icon" href="/img/markos.ico" />
+	
+	<meta name="generator" content="WordPress 3.0.5" /> <!-- leave this for stats please -->
+
+	<link href="http://fast.fonts.com/cssapi/aee9b60b-8e94-47f8-b586-3ecbfab51d1c.css" rel="stylesheet" type="text/css" />
+	<link rel="stylesheet" type="text/css" href="css/home.css" media="screen" title="Light theme" />
+	<link rel="alternate stylesheet" type="text/css" href="css/home_dark.css" media="screen" title="Dark theme" />
+	<link rel="stylesheet" href="css/ipad.css" media="only screen and (min-device-width : 768px) and (max-device-width : 1024px)">
+	<link rel="stylesheet" type="text/css" href="css/smallscreen.css" media="only screen and (max-width: 700px)" />
+
+	<link rel="alternate" type="application/rss+xml" title="RSS 2.0" href="http://markos.gaivo.net/blog/?feed=rss2" />
+	<link rel="alternate" type="application/atom+xml" title="Atom 1.0" href="http://markos.gaivo.net/blog/?feed=atom" />
+	<link rel='canonical' href='http://markos.gaivo.net/blog/?p=664' />
+
+	<link rel="pingback" href="http://markos.gaivo.net/blog/xmlrpc.php" />
+
+	<link rel="alternate" type="application/rss+xml" title="A notch above a monkey &raquo; Speeding up Levenshtein Comments Feed" href="http://markos.gaivo.net/blog/?feed=rss2&amp;p=211" />
+<link rel="EditURI" type="application/rsd+xml" title="RSD" href="http://markos.gaivo.net/blog/xmlrpc.php?rsd" />
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="http://markos.gaivo.net/blog/wp-includes/wlwmanifest.xml" /> 
+<link rel='index' title='A notch above a monkey' href='http://markos.gaivo.net/blog' />
+<link rel='start' title='First post' href='http://markos.gaivo.net/blog/?p=2' />
+<link rel='prev' title='Handling 404' href='http://markos.gaivo.net/blog/?p=210' />
+<link rel='next' title='Nokia 770 Internet Tablet' href='http://markos.gaivo.net/blog/?p=212' />
+<meta name="generator" content="WordPress 3.0.5" />
+<link rel='canonical' href='http://markos.gaivo.net/blog/?p=211' />
+
+	<!--[if lt IE 9]>
+	<script src="/js/html5.js"></script>
+	<![endif]-->
+</head>
+<body>
+					<header>
+		<h1><a href="/blog/">A notch above a monkey</a> &raquo; Speeding up Levenshtein</h1>
+	</header>
+
+	<section class="envelope">
+		<article class="post">
+			<header>
+				<h1>Speeding up Levenshtein</h1>
+			</header>
+
+			<footer>
+				<ul>
+					<li class="by">Written by: <a href="/">Marko Samastur</a></li>
+					<li class="published">Published on: <time datetime="2006-11-10T02:17:48+00:00" pubdate>November 10, 2006</time></li>
+					<li class="categories">Categories: <a href="http://markos.gaivo.net/blog/?cat=5" title="View all posts in General development" rel="category">General development</a>, <a href="http://markos.gaivo.net/blog/?cat=2" title="View all posts in Python" rel="category">Python</a>, <a href="http://markos.gaivo.net/blog/?cat=4" title="View all posts in Web" rel="category">Web</a></li>
+					<li class="post-comments">Comments: <a href="http://markos.gaivo.net/blog/?p=211#comments" title="Comment on Speeding up Levenshtein">13</a></li>
+				</ul>
+			</footer>
+
+			<div class="post-text">
+				<p><a href="http://markos.gaivo.net/blog/?p=210#postcomment">Simon</a> proposes using a dictionary to match mistyped URLs with real ones. I&#8217;d probably like the idea better if I actually understood it. Still using <a href="http://en.wikipedia.org/wiki/Levenshtein_distance" title="description of the algorithm">Levenshtein</a> can be a bit easier than using a spell checker responsively.</p>
+<p>Easier, but slow. I used existing <a href="http://hetland.org/python/distance.py" title="python implementation">implementation</a> by Magnus Lie Hetland and made a test with 245 blog titles using a simple <a href="http://markos.gaivo.net/examples/distance/test_distance" title="Link to test script">script</a>. 100 iterations on aging powerbook produced:</p>
+<p style="text-indent:20pt;">1.766s, 29.152s, 9.399s (min, max, avg)</p>
+<p>Average time to calculate distance between randomly chosen title and rest of them is 9.4 seconds, which is far too much to be useful. And there&#8217;s not even 250 of them.</p>
+<p>There are two obvious ways to speed things up. Since minimum distance is at least as much as a difference in length of both strings, there&#8217;s no point in calculating it when difference already exceeds a limit we chose.</p>
+<p>The other trick took into an account that Levenshtein&#8217;s algorithm of two strings of comparable length has complexity of O(n2) and that my blog titles are form quite sparse space. If strings are longer than a certain limit (I arbitrarily chose 10 letters), then first calculate edit distance on a small sparse substring and then calculate the real distance only if first one was close enough.</p>
+<p>When I made 1000 iterations of randomly chosen title using only first test, I got following results:</p>
+<p style="text-indent:20pt;">0.003s, 0.284s, 0.167s (min, max, avg)</p>
+<p>However, if I used both checks, the same 1000 iteration test got me:</p>
+<p style="text-indent:20pt;">0.003s, 0.162s, 0.027s (min, max, avg)</p>
+<p>So, <a href="http://markos.gaivo.net/examples/distance/distance.py" title="Extended distance functions">two simple checks</a> can speed up search up to 350 times. Not bad, but I&#8217;m not happy. This is certainly fast enough for a personal website or sites where site structure effectively divides searching to relatively small sets of possible hits, but there are plenty of sites where it would be too slow.</p>
+<p>I tried to simplify searching using distance to map strings to coordinate system, which was at least hopelessly naive if not downright dumb. A much better approach would be to read more, which is what I&#8217;m doing now.</p>
+<p>By the way, I&#8217;ve also tried to speed it up using Pyrex, but got pretty much same results, which means I either don&#8217;t know how to use Pyrex or Python optimizes well. Or both.</p>
+			</div>
+
+			<nav>
+				<p>If you liked this, you might want to visit:</p>
+				<ul>
+					<li>my previous article: <a href="http://markos.gaivo.net/blog/?p=210" rel="prev">Handling 404</a></li>					<li>my next article: <a href="http://markos.gaivo.net/blog/?p=212" rel="next">Nokia 770 Internet Tablet</a></li>					<li><a href="/blog/">article list</a></li>
+				</ul>
+			</nav>
+
+			<h2 id="comments">Comments (13)
+			</h2>
+			<ol class="comments">
+		
+				<li id="comment-12755">
+					<article>
+						<p>Have you tries using Levenshtein automata? The allow you to find all the words in a dictionary that are k changes or less from a source work. I used them to write a spell checker once.<br />
+<a href="http://en.wikipedia.org/wiki/Levenshtein_automata">http://en.wikipedia.org/wiki/Levenshtein_automata</a></p>
+						<footer>
+							<cite>Comment by Ben &#8212; <time datetime="2006-11-10T11:11:15+00:00">November 10, 2006 @ 11:11 am</time> <a href="#comment-12755">#</a> </cite>
+						</footer>
+					</article>
+				</li>
+		
+				<li id="comment-12767">
+					<article>
+						<p>Since Levenshtein distance can be used to define a metric space, it is possible to use a VP-Tree. This would hopefully give you O(log n) lookup time.</p>
+<p><a href="http://www.pnylab.com/pny/papers/vptree/vptree/">http://www.pnylab.com/pny/papers/vptree/vptree/</a></p>
+						<footer>
+							<cite>Comment by <a href='http://www.logarithmic.net/pfh/' rel='external nofollow' class='url'>Paul Harrison</a> &#8212; <time datetime="2006-11-10T11:46:32+00:00">November 10, 2006 @ 11:46 am</time> <a href="#comment-12767">#</a> </cite>
+						</footer>
+					</article>
+				</li>
+		
+				<li id="comment-12791">
+					<article>
+						<p>$ python test_distance.py<br />
+Time to compare 245 titles: 0.638s, 5.775s, 3.440s (min, max, avg)<br />
+$ jed test_distance.py<br />
+$ cat test_distance.py | head -3<br />
+#!/usr/bin/env python<br />
+import psyco<br />
+psyco.full()<br />
+$ python test_distance.py<br />
+Time to compare 245 titles: 0.403s, 1.811s, 0.969s (min, max, avg)<br />
+$ python -c &#8216;print 3.44/0.969&#8242;<br />
+3.55005159959</p>
+<p>That&#8217;s a 3.5 times improvement just using psyco (python 2.4)</p>
+						<footer>
+							<cite>Comment by <a href='http://www.peterbe.com' rel='external nofollow' class='url'>Peter Bengtsson</a> &#8212; <time datetime="2006-11-10T14:19:56+00:00">November 10, 2006 @ 2:19 pm</time> <a href="#comment-12791">#</a> </cite>
+						</footer>
+					</article>
+				</li>
+		
+				<li id="comment-12825">
+					<article>
+						<p>Thanks to all. I&#8217;ll definitely take a look at both algorithms and thanks to Peter for reminding me of psyco.</p>
+						<footer>
+							<cite>Comment by <a href='http://markos.gaivo.net' rel='external nofollow' class='url'>markos</a> &#8212; <time datetime="2006-11-10T19:16:12+00:00">November 10, 2006 @ 7:16 pm</time> <a href="#comment-12825">#</a> </cite>
+						</footer>
+					</article>
+				</li>
+		
+				<li id="comment-13509">
+					<article>
+						<p>Udi Manber has a version of Levenshtein which is faster than quadratic but which counts letter transpositions not as one error, as Levenshtein does, but as two (one deletion, one insertion). This is still good for typo correction. The algorithm is from 1991 or 1992, but I don&#8217;t remember off the top of my head which of his papers from that time it&#8217;s in.</p>
+						<footer>
+							<cite>Comment by david &#8212; <time datetime="2006-11-14T21:17:58+00:00">November 14, 2006 @ 9:17 pm</time> <a href="#comment-13509">#</a> </cite>
+						</footer>
+					</article>
+				</li>
+		
+				<li id="comment-13535">
+					<article>
+						<p>Is difflib.get_close_matches useful?</p>
+						<footer>
+							<cite>Comment by bearophile &#8212; <time datetime="2006-11-15T01:11:03+00:00">November 15, 2006 @ 1:11 am</time> <a href="#comment-13535">#</a> </cite>
+						</footer>
+					</article>
+				</li>
+		
+				<li id="comment-13540">
+					<article>
+						<p>I&#8217;ve been using this python module for a long time:</p>
+<p><a href="http://trific.ath.cx/resources/python/levenshtein/">http://trific.ath.cx/resources/python/levenshtein/</a></p>
+<p>It also includes quite a few more algorithms and is written in C. The performance is very good.</p>
+						<footer>
+							<cite>Comment by ajl &#8212; <time datetime="2006-11-15T01:33:49+00:00">November 15, 2006 @ 1:33 am</time> <a href="#comment-13540">#</a> </cite>
+						</footer>
+					</article>
+				</li>
+		
+				<li id="comment-14937">
+					<article>
+						<p>Markos,</p>
+<p>I&#8217;ve been trying to implement the Levenshtein algorithm for us and ran across your posting to help improve the performance of it.  I&#8217;m not sure I understand what you mean when you say in your second point</p>
+<p>first calculate edit distance on a small sparse substring and then calculate the real distance only if first one was close enough</p>
+<p>as far as the first point when you are exceeding maximum distance requirement and you disregard further calculations, how can you determine that you have already exceeded this without calculating it?</p>
+<p>I guess not being a python guru hurts me in this, but you seem to have some good advice.  Thanks and let me know when you can.</p>
+						<footer>
+							<cite>Comment by Josh &#8212; <time datetime="2006-11-22T21:28:53+00:00">November 22, 2006 @ 9:28 pm</time> <a href="#comment-14937">#</a> </cite>
+						</footer>
+					</article>
+				</li>
+		
+				<li id="comment-15028">
+					<article>
+						<p>Since Levenshtein&#8217;s distance is at least as much as difference between length of two strings, we can start with two strings that have approximately the same length of n.</p>
+<p>Levenshtein&#8217;s algorithm in this case takes roughly n*n operations to calculate the distance. So calculating the distance of two 6 letter strings (36 operations) is around 10 times faster than performing the same with 20 letter strings (400 operations).</p>
+<p>What I propose is to calculate partial distance when strings length exceed a certain threshold.</p>
+<p>Let&#8217;s take two titles from my blog as an example. &#8220;HyperScope and my blog&#8217;s evolution&#8221; and &#8220;IE7 will remain to be MIME challenged&#8221; have approximately the same length (34 and 37 each), so they would probably pass the first test.</p>
+<p>Calculating real distance would take 1258 iterations, but if I take just first 6 letters (&#8220;HyperS&#8221; and &#8220;IE7 wi&#8221;) and calculate the Levenshtein&#8217;s distance of those substrings (which in this case is 6), it takes me only 36 operations to get the idea that these two strings are most likely not the same.</p>
+<p>If I got something like 1 or 2, then I couldn&#8217;t judge from that number alone and I would need to calculate the real distance. In that case my first, partial, calculation would just slow me down a bit.</p>
+<p>That&#8217;s why in my script I calculate partial results only for strings that are at least 10 letters long. Since 10 letter long strings take around twice as much time to calculate the L distance, I get to the break even point if only every second comparison of two long strings can be shortened with partial calculation.</p>
+<p>If strings are on average sufficiently different (that is the space they occupy is mathematically sparse) as they are in my case, the number of useful partial calculations far exceeds the number of those which are not. And longer the strings are, less often do partial calculations need to be definite. That is they are cheaper for longer strings.</p>
+<p>&#8220;My&#8221; algorithm is a bit fuzzy, since you have to make all sorts of decisions. You have to decide how close is close enough and at which lengths you get the best trade-off between certainty in result and price of calculations. You also need to know a bit about your strings.</p>
+<p>If all strings started with &#8220;Report:&#8221;, then it wouldn&#8217;t make any sense to use first six letters for partial calculations. You need to know where there is enough variations to make it worthwhile. In my case I can rely as much on my taste that I won&#8217;t start all titles the same way.</p>
+						<footer>
+							<cite>Comment by <a href='http://markos.gaivo.net' rel='external nofollow' class='url'>markos</a> &#8212; <time datetime="2006-11-23T10:43:08+00:00">November 23, 2006 @ 10:43 am</time> <a href="#comment-15028">#</a> </cite>
+						</footer>
+					</article>
+				</li>
+		
+				<li id="comment-16045">
+					<article>
+						<p>I decided to implement that VP-tree thing, since I need it for other projects. Not quite as good as I hoped, but it does save a few comparisons.</p>
+<p><a href="http://www.logarithmic.net/pfh/blog/01164790008">http://www.logarithmic.net/pfh/blog/01164790008</a><br />
+<a href="http://www.logarithmic.net/pfh-files/blog/01164790008/VP_tree.py">http://www.logarithmic.net/pfh-files/blog/01164790008/VP_tree.py</a></p>
+						<footer>
+							<cite>Comment by <a href='http://www.logarithmic.net/pfh/' rel='external nofollow' class='url'>Paul Harrison</a> &#8212; <time datetime="2006-11-29T11:26:16+00:00">November 29, 2006 @ 11:26 am</time> <a href="#comment-16045">#</a> </cite>
+						</footer>
+					</article>
+				</li>
+		
+				<li id="comment-86240">
+					<article>
+						<p>BUMP!<br />
+I stumbled upon this site while looking for difflib info =) However my 2 cents worth: i also needed to search up similar strings, for much the similar reason as you. My solution consisted of processing ALL the candidate strings at the same time, in parallel. I did this by constructing a TRIE from the string list and during the search throwing away subtrees as soon as they were found to exceed the cutoff threshold.</p>
+<p>I believe my solution kind of subsumes yours, in the sense that it is more general and more or less independent of the string list size. The trouble here was that the static TRIE itself takes up *a lot* of memory, especially in python, so i had to optimize by merging non-branching node chains etc. In the end, the code was not nearly as elegant as my first 20 line attempt. Depending on the string list size (up to let&#8217;s say 1 million strings), the naive TRIE might well be enough.</p>
+<p>Oh and by the way, the answer to bearophile&#8217;s difflib question is: it&#8217;s very slow and highly unsuitable here =) Just look at the source code&#8230;</p>
+						<footer>
+							<cite>Comment by Radim &#8212; <time datetime="2007-10-24T01:52:53+00:00">October 24, 2007 @ 1:52 am</time> <a href="#comment-86240">#</a> </cite>
+						</footer>
+					</article>
+				</li>
+		
+				<li id="comment-86463">
+					<article>
+						<p>Hi,</p>
+<p>I have been playing with BK-Trees and VP-Trees as well. Here&#8217;s my implementation: <a href="http://well-adjusted.de/~jrschulz/mspace/mspace-pysrc.html">http://well-adjusted.de/~jrschulz/mspace/mspace-pysrc.html</a></p>
+<p>Its levenshtein implementation is probably not very efficient, but it&#8217;s easy to use the C implementation someone mentioned above instead of the built-in function. And if you have Psyco installed, it will be used automatically.</p>
+						<footer>
+							<cite>Comment by <a href='http://well-adjusted.de' rel='external nofollow' class='url'>Jochen</a> &#8212; <time datetime="2007-10-24T23:33:34+00:00">October 24, 2007 @ 11:33 pm</time> <a href="#comment-86463">#</a> </cite>
+						</footer>
+					</article>
+				</li>
+		
+				<li id="comment-237973">
+					<article>
+						<p>commons-lang has an optimized one. See <a href="http://www.merriampark.com/ldjava.htm">http://www.merriampark.com/ldjava.htm</a></p>
+						<footer>
+							<cite>Comment by nafg &#8212; <time datetime="2011-08-24T07:53:53+00:00">August 24, 2011 @ 7:53 am</time> <a href="#comment-237973">#</a> </cite>
+						</footer>
+					</article>
+				</li>
+		
+			</ol>
+
+
+		<p>Sorry, the comment form is closed at this time.</p>
+
+		</article>
+	</section>
+			<!-- All pages -->
+	
+
+	<footer>
+		<ul>
+			<li>&copy; 2005-2015 Marko Samastur</li>
+			
+			<li><a href="http://markos.gaivo.net/blog/?feed=rss2">Entries feed</a></li>
+			<li><a href="http://markos.gaivo.net/blog/?feed=comments-rss2">Comments feed</a></li>
+		</ul>
+		<a href="/"><img src="/img/markos_light_small_bg.png" alt="logo" class="mini-logo" /></a>
+	</footer>
+	<!-- Google analytics -->
+	<script type="text/javascript">
+	  var _gaq = _gaq || [];
+	  _gaq.push(['_setAccount', 'UA-152438-1']);
+	  _gaq.push(['_trackPageview']);
+	</script>
+	<script src="/js/cookie.js"></script>
+</body>
+</html>

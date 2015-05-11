@@ -1,0 +1,48 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+	<title>Link demo</title>
+	<style type="text/css" media="screen">
+		@import url( http://markos.gaivo.net/blog/wp-content/themes/winter/style.css );
+	</style>
+	<script type="text/javascript">
+(function () {
+
+function addLink(list) {
+	var l = list.length, i=0, a=null,
+		location = document.location.href;
+
+	for(;i<l;i++) {
+		if (list[i].nodeType == 1 && !list[i].getElementsByTagName("a").length) {
+			// This item doesn't have a link. Wrap it
+			a = document.createElement("a");
+			a.href = location;
+			a.innerHTML = list[i].innerHTML;
+			list[i].innerHTML = "";
+			list[i].appendChild(a);
+		}
+	}
+}
+
+window.onload = function () {
+	var ul = document.getElementsByTagName("ul")[0];
+	addLink(ul.childNodes);
+};
+})();
+	</script>
+</head>
+
+<body>
+<div id="page">
+	<div id="header">
+		<h1><a href="http://markos.gaivo.net/blog/">/devel</a></h1>
+		<ul>
+			<li>Home</li>
+			<li><a href="http://markos.gaivo.net/blog/?page_id=66">About</a></li>
+			<li><a href="http://markos.gaivo.net/blog/?page_id=65">Archive</a></li>
+		</ul>
+	</div>
+</div>
+</body>
+</html>

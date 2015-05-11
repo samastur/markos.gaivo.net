@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>A notch above a monkey &raquo; Python</title>
+	<meta charset="utf-8" />
+	
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" /> 
+
+	<link rel="shortcut icon" href="/img/markos.ico" />
+	
+	<meta name="generator" content="WordPress 3.0.5" /> <!-- leave this for stats please -->
+
+	<link href="http://fast.fonts.com/cssapi/aee9b60b-8e94-47f8-b586-3ecbfab51d1c.css" rel="stylesheet" type="text/css" />
+	<link rel="stylesheet" type="text/css" href="css/home.css" media="screen" title="Light theme" />
+	<link rel="alternate stylesheet" type="text/css" href="css/home_dark.css" media="screen" title="Dark theme" />
+	<link rel="stylesheet" href="css/ipad.css" media="only screen and (min-device-width : 768px) and (max-device-width : 1024px)">
+	<link rel="stylesheet" type="text/css" href="css/smallscreen.css" media="only screen and (max-width: 700px)" />
+
+	<link rel="alternate" type="application/rss+xml" title="RSS 2.0" href="http://markos.gaivo.net/blog/?feed=rss2" />
+	<link rel="alternate" type="application/atom+xml" title="Atom 1.0" href="http://markos.gaivo.net/blog/?feed=atom" />
+	<link rel='canonical' href='http://markos.gaivo.net/blog/?p=664' />
+
+	<link rel="pingback" href="http://markos.gaivo.net/blog/xmlrpc.php" />
+
+	<link rel="alternate" type="application/rss+xml" title="A notch above a monkey &raquo; Python Category Feed" href="http://markos.gaivo.net/blog/?feed=rss2&amp;cat=2" />
+<link rel="EditURI" type="application/rsd+xml" title="RSD" href="http://markos.gaivo.net/blog/xmlrpc.php?rsd" />
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="http://markos.gaivo.net/blog/wp-includes/wlwmanifest.xml" /> 
+<link rel='index' title='A notch above a monkey' href='http://markos.gaivo.net/blog' />
+<meta name="generator" content="WordPress 3.0.5" />
+
+	<!--[if lt IE 9]>
+	<script src="/js/html5.js"></script>
+	<![endif]-->
+</head>
+<body>
+	<section class="envelope posts">
+		<header>
+			<h1><a href="http://markos.gaivo.net/blog/">A notch above a monkey</a></h1>
+		</header>
+		<nav class="colophon">
+			<h1>By Marko Samastur</h1>
+			<ul>
+				<li><a href="/">About me</a></li>
+				<li><a href="http://markos.gaivo.net/blog/?feed=atom">Subscribe</a></li>
+			</ul>
+		</nav>
+
+	
+		<article>
+			<h1 class="storytitle"><a href="http://markos.gaivo.net/blog/?p=221" rel="bookmark">Error logging and failed authentication attempts</a></h1>
+
+			<div class="post-text">
+				<p>People make mistakes and that&#8217;s why we log every error that happens on <a href="http://www.marela.si" title="Photo-sharing website">Marela</a> pages or its API. I imagine most services that care about quality do more or less the same, since it is a great way to find yet undiscovered bugs.</p>
+<p>There&#8217;s an additional benefit when it comes to an API. You can also get an insight in what developers would like to do and how they go about doing it. With a bit of care you may even correct badly designed calls before they get too widely adopted.</p>
+<p>What may not be as obvious is that not all calls are equal and some of them probably need more careful reporting. A good example would be failed authentication attempts.</p>
+<p>Marela is one of services supported by <a href="https://addons.mozilla.org/en-US/firefox/addon/3945">Fotofox</a>, a popular photo sharing Firefox add-on, which is great. However support for multiple different services invariably leads to a problem, where users send their usernames and passwords to the wrong site. We weren&#8217;t prepared for this and our first reaction was to simply religiously delete all such reports from our logs to prevent any possibility of an abuse.</p>
+<p>I think this was wrong, so we changed it. Probably the best way is to record failed authentication attempts the way Unix systems do, by logging just username that was used in an attempt and its success, while ignoring provided password completely. This way we still obtain valuable information while protecting data that we clearly shouldn&#8217;t have access to.</p>
+<p>This is of course just an example. My main point is that a sufficiently large API will have calls with different privacy needs and API designers should think carefully about what needs to be recorded in service logs and what mustn&#8217;t.</p>
+			</div>
+
+			<footer class="post-metadata">
+				<ul>
+					<li>Published on <time datetime="2007-04-06T20:01:35+00:00">April 6, 2007</time></li>
+					<li><a href="http://markos.gaivo.net/blog/?p=221#comments" title="Comment on Error logging and failed authentication attempts">Add your comment</a> </li>
+				</ul>
+			</footer>
+		</article>
+	
+		<article>
+			<h1 class="storytitle"><a href="http://markos.gaivo.net/blog/?p=213" rel="bookmark">bisect and subpar modules</a></h1>
+
+			<div class="post-text">
+				<p>I was talking to a colleague yesterday, who&#8217;s a recent Python convert and he was explaining to me which parts of Python are not to his liking. Mostly he had reasonable objections.</p>
+<p>I can understand his wish for strong typing, but since lack of it is not a problem that affected me yet, I&#8217;m not bothered by it. I&#8217;ll take his word that objects pickled on Windows are not transferable to Linux and that certainly can suck. But it was probably the smallest problem that resonated the strongest with me, since it was something that has annoyed me previously.</p>
+<p>Bisect module doesn&#8217;t let you specify comparison function. It obviously doesn&#8217;t need to, since you can define your own comparison methods on your classes, but still, it would be nice if its documentation included a hint for those who won&#8217;t look at module&#8217;s code or think of simply trying. You know, people like me.</p>
+<p>It got me thinking that I don&#8217;t find all modules in standard library of the same quality and I suspect I&#8217;m not the only one. I don&#8217;t mean to or honestly can disparage anyone, since I haven&#8217;t seen any code in standard library that would be worse than mine.</p>
+<p>Still, which modules do you think would benefit from some work and how could an eager person, with some time on his hands, help them improve?</p>
+			</div>
+
+			<footer class="post-metadata">
+				<ul>
+					<li>Published on <time datetime="2006-12-07T23:36:34+00:00">December 7, 2006</time></li>
+					<li><a href="http://markos.gaivo.net/blog/?p=213#comments" title="Comment on bisect and subpar modules">Add your comment</a> </li>
+				</ul>
+			</footer>
+		</article>
+	
+		<article>
+			<h1 class="storytitle"><a href="http://markos.gaivo.net/blog/?p=212" rel="bookmark">Nokia 770 Internet Tablet</a></h1>
+
+			<div class="post-text">
+				<p>Dear LazyWeb,</p>
+<p>I&#8217;m looking for a shop that sells <a href="http://europe.nokia.com/770" title="Tablet's homepage">Nokia 770 Internet Tablet</a> and is willing to ship it for a reasonable fee to Slovenia. Our <a href="http://www.teleray.si/" title="Official Slovenian Nokia distributor">official Nokia distributor</a> has failed me miserably in this regard.</p>
+<p>Thank you.</p>
+<p><strong>Update (22.12.2006):</strong> Expansys managed to deliver navigation kit without the tablet. Hopefully this problem will be amicably resolved after holidays (since nobody could be reached yesterday afternoon).</p>
+<p><strong>Update (29.12.2006):</strong> Tablet arrived today and man, do I love this little machine already.</p>
+			</div>
+
+			<footer class="post-metadata">
+				<ul>
+					<li>Published on <time datetime="2006-12-04T13:06:04+00:00">December 4, 2006</time></li>
+					<li><a href="http://markos.gaivo.net/blog/?p=212#comments" title="Comment on Nokia 770 Internet Tablet">Add your comment</a> </li>
+				</ul>
+			</footer>
+		</article>
+		
+		<nav class="pagination">
+			<ul>
+				<li><a href="http://markos.gaivo.net/blog/?cat=2&#038;paged=4" >&laquo; Newer articles</a></li>
+				<li><a href="http://markos.gaivo.net/blog/?cat=2&#038;paged=6" >Older articles &raquo;</a></li>
+			</ul>
+		</nav>
+	</section>
+
+
+	<footer>
+		<ul>
+			<li>&copy; 2005-2015 Marko Samastur</li>
+			
+			<li><a href="http://markos.gaivo.net/blog/?feed=rss2">Entries feed</a></li>
+			<li><a href="http://markos.gaivo.net/blog/?feed=comments-rss2">Comments feed</a></li>
+		</ul>
+		<a href="/"><img src="/img/markos_light_small_bg.png" alt="logo" class="mini-logo" /></a>
+	</footer>
+	<script src="/js/jquery.js"></script>
+	<script src="/js/all.js"></script>
+	<!--script src="/mint/?js" type="text/javascript"></script-->
+
+	<!-- Google analytics -->
+	<script type="text/javascript">
+
+	  var _gaq = _gaq || [];
+	  _gaq.push(['_setAccount', 'UA-152438-1']);
+	  _gaq.push(['_trackPageview']);
+	</script>
+	<script src="/js/cookie.js"></script>
+</body>
+</html>

@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+		>
+<channel>
+	<title>Comments on: Javascript slider</title>
+	<atom:link href="http://markos.gaivo.net/blog/?feed=rss2&#038;p=38" rel="self" type="application/rss+xml" />
+	<link>http://markos.gaivo.net/blog/?p=38</link>
+	<description></description>
+	<lastBuildDate>Wed, 16 Jul 2014 16:04:38 +0000</lastBuildDate>
+	<sy:updatePeriod>hourly</sy:updatePeriod>
+	<sy:updateFrequency>1</sy:updateFrequency>
+	<generator>http://wordpress.org/?v=3.0.5</generator>
+	<item>
+		<title>By: markos</title>
+		<link>http://markos.gaivo.net/blog/?p=38&#038;cpage=1#comment-265513</link>
+		<dc:creator>markos</dc:creator>
+		<pubDate>Mon, 17 Sep 2012 20:52:58 +0000</pubDate>
+		<guid isPermaLink="false">http://markos.gaivo.net/blog/?p=38#comment-265513</guid>
+		<description>OK. Then it&#039;s in public domain or under MIT license, whichever suits you better (let me know if neither do).</description>
+		<content:encoded><![CDATA[<p>OK. Then it&#8217;s in public domain or under MIT license, whichever suits you better (let me know if neither do).</p>
+]]></content:encoded>
+	</item>
+	<item>
+		<title>By: axkibe</title>
+		<link>http://markos.gaivo.net/blog/?p=38&#038;cpage=1#comment-265243</link>
+		<dc:creator>axkibe</dc:creator>
+		<pubDate>Fri, 14 Sep 2012 11:39:38 +0000</pubDate>
+		<guid isPermaLink="false">http://markos.gaivo.net/blog/?p=38#comment-265243</guid>
+		<description>Nice work. Unfortunally you forgot to add any license, so its unusable for anybody who cares not to infringe copyrights. (And please don&#039;t write &quot;do whatever you want&quot;, since this isn&#039;t a valid allowness in some countries, please do pick and add an OpenSource license)</description>
+		<content:encoded><![CDATA[<p>Nice work. Unfortunally you forgot to add any license, so its unusable for anybody who cares not to infringe copyrights. (And please don&#8217;t write &#8220;do whatever you want&#8221;, since this isn&#8217;t a valid allowness in some countries, please do pick and add an OpenSource license)</p>
+]]></content:encoded>
+	</item>
+	<item>
+		<title>By: deutsche hotels</title>
+		<link>http://markos.gaivo.net/blog/?p=38&#038;cpage=1#comment-196828</link>
+		<dc:creator>deutsche hotels</dc:creator>
+		<pubDate>Mon, 29 Jun 2009 09:35:30 +0000</pubDate>
+		<guid isPermaLink="false">http://markos.gaivo.net/blog/?p=38#comment-196828</guid>
+		<description>While script is really nice, there is small issue with scale. If you set e.g. size in 5 and initial value will be 5 than after slider moved you will have only 4 as a maximum possible value.</description>
+		<content:encoded><![CDATA[<p>While script is really nice, there is small issue with scale. If you set e.g. size in 5 and initial value will be 5 than after slider moved you will have only 4 as a maximum possible value.</p>
+]]></content:encoded>
+	</item>
+	<item>
+		<title>By: joby p p</title>
+		<link>http://markos.gaivo.net/blog/?p=38&#038;cpage=1#comment-23884</link>
+		<dc:creator>joby p p</dc:creator>
+		<pubDate>Fri, 05 Jan 2007 06:30:28 +0000</pubDate>
+		<guid isPermaLink="false">http://markos.gaivo.net/blog/?p=38#comment-23884</guid>
+		<description>hi,its nice....but i want a two knob slider  with mouse up event..can anyone help me...</description>
+		<content:encoded><![CDATA[<p>hi,its nice&#8230;.but i want a two knob slider  with mouse up event..can anyone help me&#8230;</p>
+]]></content:encoded>
+	</item>
+</channel>
+</rss>

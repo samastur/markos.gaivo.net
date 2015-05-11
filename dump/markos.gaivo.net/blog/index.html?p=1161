@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>A notch above a monkey &raquo; DjangoCon Europe 2014?</title>
+	<meta charset="utf-8" />
+	
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" /> 
+
+	<link rel="shortcut icon" href="/img/markos.ico" />
+	
+	<meta name="generator" content="WordPress 3.0.5" /> <!-- leave this for stats please -->
+
+	<link href="http://fast.fonts.com/cssapi/aee9b60b-8e94-47f8-b586-3ecbfab51d1c.css" rel="stylesheet" type="text/css" />
+	<link rel="stylesheet" type="text/css" href="css/home.css" media="screen" title="Light theme" />
+	<link rel="alternate stylesheet" type="text/css" href="css/home_dark.css" media="screen" title="Dark theme" />
+	<link rel="stylesheet" href="css/ipad.css" media="only screen and (min-device-width : 768px) and (max-device-width : 1024px)">
+	<link rel="stylesheet" type="text/css" href="css/smallscreen.css" media="only screen and (max-width: 700px)" />
+
+	<link rel="alternate" type="application/rss+xml" title="RSS 2.0" href="http://markos.gaivo.net/blog/?feed=rss2" />
+	<link rel="alternate" type="application/atom+xml" title="Atom 1.0" href="http://markos.gaivo.net/blog/?feed=atom" />
+	<link rel='canonical' href='http://markos.gaivo.net/blog/?p=664' />
+
+	<link rel="pingback" href="http://markos.gaivo.net/blog/xmlrpc.php" />
+
+	<link rel="alternate" type="application/rss+xml" title="A notch above a monkey &raquo; DjangoCon Europe 2014? Comments Feed" href="http://markos.gaivo.net/blog/?feed=rss2&amp;p=1161" />
+<link rel="EditURI" type="application/rsd+xml" title="RSD" href="http://markos.gaivo.net/blog/xmlrpc.php?rsd" />
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="http://markos.gaivo.net/blog/wp-includes/wlwmanifest.xml" /> 
+<link rel='index' title='A notch above a monkey' href='http://markos.gaivo.net/blog' />
+<link rel='start' title='First post' href='http://markos.gaivo.net/blog/?p=2' />
+<link rel='prev' title='Comments closed' href='http://markos.gaivo.net/blog/?p=1150' />
+<link rel='next' title='Not being wrong' href='http://markos.gaivo.net/blog/?p=1175' />
+<meta name="generator" content="WordPress 3.0.5" />
+<link rel='canonical' href='http://markos.gaivo.net/blog/?p=1161' />
+
+	<!--[if lt IE 9]>
+	<script src="/js/html5.js"></script>
+	<![endif]-->
+</head>
+<body>
+					<header>
+		<h1><a href="/blog/">A notch above a monkey</a> &raquo; DjangoCon Europe 2014?</h1>
+	</header>
+
+	<section class="envelope">
+		<article class="post">
+			<header>
+				<h1>DjangoCon Europe 2014?</h1>
+			</header>
+
+			<footer>
+				<ul>
+					<li class="by">Written by: <a href="/">Marko Samastur</a></li>
+					<li class="published">Published on: <time datetime="2013-12-22T19:29:50+00:00" pubdate>December 22, 2013</time></li>
+					<li class="categories">Categories: <a href="http://markos.gaivo.net/blog/?cat=39" title="View all posts in Django" rel="category">Django</a>, <a href="http://markos.gaivo.net/blog/?cat=2" title="View all posts in Python" rel="category">Python</a></li>
+					<li class="post-comments">Comments: <a href="http://markos.gaivo.net/blog/?p=1161#comments" title="Comment on DjangoCon Europe 2014?">5</a></li>
+				</ul>
+			</footer>
+
+			<div class="post-text">
+				<p><strong>Update 2:</strong> Tickets are now <a href="http://www.weezevent.com/djangocon-europe">on sale</a> and it is safe to say that I am not going. The opening price (which will go up after 50 sold tickets) is already too high for me and it is exactly what I was originally afraid of.</p>
+<p><strong>Update</strong>: I am sorry, I overreacted. As http://2014.djangocon.eu//news/ makes clear tickets will cover everything except getting there and I have full confidence they will be reasonably priced. Listed transport options for those from my neighborhood are still valid (unless somebody has better data which would be great).</p>
+<p>I did not go to DjangoCon Europe in Warsaw this year, but I was certain I would go to the next one. Not anymore.</p>
+<p>There is no good way of contacting organizers<sup><a id="djangocon2014-1" href="#djangocon2014-note-1">[1]</a></sup> and not much travel information either on <a href="http://2014.djangocon.eu/">the DjangoCon&#8217;s website</a> or elsewhere. Most of what there is is in French which I don&#8217;t speak so my worries are hopefully unfounded, but what I found so far looks grim.</p>
+<p>First transport. It is not organizer&#8217;s fault I live where I do (Ljubljana, Slovenia), but my options are plane (500+€; travel time 6 and 17 hours), train (EUR ??; travel time 14-24h in each direction) or car which would take about 9 hours in one direction and cost around 600€ total per car (180 for tolls, ~400 for fuel with hopefully free parking there).</p>
+<p>It is really difficult to get a good idea of how much do hotels on the island cost, but judging by tripadvisor they are not cheap and in general cost 100+€ per day. Staying on the mainland can be done cheap<strong>er</strong>, but I think ferry costs at least 13€ per day so total cost will likely not be very low and you will not be around for any late events.</p>
+<p>No idea yet about how easy it is to find suitable food if you are a vegetarian or a vegan or how much does it cost. I assume it can be worked out.</p>
+<p>In total this looks significantly more than it did to attend EuroPython in Florence and that was FLORENCE!</p>
+<p>I dislike criticizing efforts of others, especially when I know that involves a lot of volunteering and when I am not privy to inside knowledge and dilemmas. However as a regular conference goer it does look to me that there has been a shift happening from egalitarian accessibility of making community conferences cheap and easy enough for anyone to attend to a more stratified approach where money (or time) poor will have to do with video recordings/broadcasts while the rest will get ever flashier experience.</p>
+<p>There is obviously a lot of value in meeting face to face (otherwise most of us would probably prefer to save the expense of it) which is why I would find this kind of development sad if it happened to major community gatherings like DjangoCon Europe. So I am hoping that it isn&#8217;t and it won&#8217;t.</p>
+<ol>
+<li id="djangocon2014-note-1">I know there&#8217;s a Twitter account. I don&#8217;t find it a good channel for the kind of communication I want, but that is a different discussion. <a href="#djangocon2014-1">↩</a></li>
+</ol>
+			</div>
+
+			<nav>
+				<p>If you liked this, you might want to visit:</p>
+				<ul>
+					<li>my previous article: <a href="http://markos.gaivo.net/blog/?p=1150" rel="prev">Comments closed</a></li>					<li>my next article: <a href="http://markos.gaivo.net/blog/?p=1175" rel="next">Not being wrong</a></li>					<li><a href="/blog/">article list</a></li>
+				</ul>
+			</nav>
+
+			<h2 id="comments">Comments (5)
+			</h2>
+			<ol class="comments">
+		
+				<li id="comment-324790">
+					<article>
+						<p>As I read the current page of DjangoCon Europe, the  accommodations will be included in the ticket, but that might be just my interpretation. Non the less the current page is not final, as there is no way of buying tickets, reading about the program or anything else than that the conference is going to be on an island. So slow your horses and see how it all will evolve <img src='http://markos.gaivo.net/blog/wp-includes/images/smilies/icon_smile.gif' alt=':)' class='wp-smiley' /> </p>
+<p>In essence I agree with your main point though. Conferences should not become something that is a luxury &#8211; it should be available for everyone!</p>
+						<footer>
+							<cite>Comment by Víðir Valberg Guðmundsson &#8212; <time datetime="2013-12-22T22:01:07+00:00">December 22, 2013 @ 10:01 pm</time> <a href="#comment-324790">#</a> </cite>
+						</footer>
+					</article>
+				</li>
+		
+				<li id="comment-324793">
+					<article>
+						<p>THIS IS A COMMON Organizational Anti-Pattern and key problem/challenge.</p>
+<p>Why?<br />
+This professional engineering organization is &#8216;stacked&#8217;<br />
+in favor of BIG CORP, sometimes &#8216;marketing evangelists&#8217;<br />
+and other &#8216;academics.&#8217;  Same with Software Orgs.</p>
+<p>1.)it is not easy running conferences and there are fewer<br />
+and fewer volunteers<br />
+2.)USA NYC despite HIGH EFFORT, even I found it difficult<br />
+and I almost ALWAYS resisted the temptation to &#8216;get friends<br />
+and company colleagues&#8217; to join the officers and volunteers.</p>
+<p>3.)THERE MUST BE &#8216;sliding scale&#8217;, accomodations and even<br />
+special &#8216;scholarships&#8217;, etc.  Sure, it is easy for me with<br />
+a standard job (at that time), plenty of interest and even<br />
+friends with empty, cheap apartments in New York City, NY<br />
+USA.  But it is hard for FOREIGNERS&#8230;</p>
+<p>4.)Why are not there more females?  Afraid of the BIG CITY<br />
+and crime?  Jobs pays a lot less than comparable males?  likely<br />
+true.  Afraid of social networking parties that have OPEN BAR<br />
+and just drinking and wildness?  Alas, somewhat true&#8230;</p>
+<p>5.)There must be higher emphasis on the NEW ERA of virtual<br />
+conferences and also on &#8216;small impromptu and agile meetings&#8217;<br />
+at local cities.</p>
+<p>6.)let us not get started about the AMERICAN english.. or<br />
+French Language, etc.  The only languages of importance are<br />
+SHELL, PYTHON and Haskell perhaps in that order&#8230;. IMHO in my<br />
+humble opinion &#8211; real math helps a lot, also.</p>
+<p>THANK YOU for helping with the discussion.</p>
+<p>7.)THERE ARE JUST TOO MANY conferences spread out with too<br />
+few participation.  Thus, perhaps there should be aggregation,<br />
+multiple conferences &#8211; in the same area. and even close timed<br />
+sequential conferences (big trade show&#8230; then overlapping<br />
+is the DJANGO, etc.</p>
+<p>8.)it is easy to pick out the IBM conferences (yes I have<br />
+been there and done that).  Luxury hotel. Orlando, FL, USA<br />
+with plenty of activities for &#8216;families &#8211; children, etc.&#8217;<br />
+Yes, I have gone to Disneyworld a long time ago&#8230;  Just like<br />
+the lawyers always meet in Hawaii, USA or ??? with plenty of<br />
+golf course activities&#8230;.</p>
+<p>9.)the conference is the HUMAN TOUCH so needed in todays<br />
+VIRTUAL REALITY WORLD. Where one spends an average of 11.5 hours<br />
+per day ON THE COMPUTER in the &#8216;MATRIX&#8217; &#8211; see the Matrix Trilogy<br />
+movie &#8211; ALL THE TIME&#8230;</p>
+<p>10.)Even soft soccer ball &#8211; football and &#8216;party games&#8217; and<br />
+even xkcd joke hour should and MUST BE part of the fabric of<br />
+conferences.  </p>
+<p>11.)sometimes the cheapest places are colleges and Universities.<br />
+REMEMBER, the middle age (over five years of REAL job experience<br />
+ARE THE KEY.</p>
+<p>Conclusion:  the time I spent on &#8216;organizing&#8217;, meeting with<br />
+fellow brothers and sisters GLOBALLY was time I did not spend<br />
+on the usual &#8216;wild parties&#8217;, drinking, gambling, big sports<br />
+American Football, endless hours playing biliards/pool&#8230;</p>
+<p>Oh, amazing.. I have enjoyed working on my car (as an amateur)<br />
+and it is amazing how many SOFTWARE GENIUSES and even WOMEN<br />
+know little or nothing about CARS.</p>
+<p>PPS. in the USA, the reason for many car accidents during the<br />
+ice and snow storms, is that &#8216;driver education is low.&#8217;  Yes,<br />
+I AM BORN IN THE USA.<br />
+In the airport parking lots and on the hills, spin the wheels<br />
+and create ice and well as burning out the transmission!<br />
+The heat creates ice ruts and dangerous driving conditions<br />
+IN THE CITIES of the USA.</p>
+<p>I have driven a &#8216;normal, old age car.&#8217;  Rear wheel, so I<br />
+carry 200 pounds of sand/kitty litter over the real wheels<br />
+and the sand can be used to cover ice. &#8230;</p>
+<p>THE SEGREGATION, emphasis on &#8216;commercialism&#8217;; overemphasis<br />
+on GLOBALISM. rise of CORPORATIZATION &#8211; sponsorship of conferences  (of course IBM sponsors LINUX&#8230;) and other<br />
+&#8216;closed door officer meetings &#8211; completely private) seem<br />
+to be</p>
+<p>TRENDS in the non-profit, organizations and &#8216;open association&#8217;<br />
+organizations</p>
+<p>PPS. presenting a paper or new findings, but not a FULL PROFESSOR?  Too bad you come from a small country like Tesla<br />
+or from ??? Greece.  IT IS HARD FOR YOU TO GO TO THE MEETINGS<br />
+IN PERSON.</p>
+<p>This is not a small thing&#8230;. As head or Chairman or director<br />
+or president? of small org&#8230; the newspaper or heavens forbid<br />
+even TV CHANNEL can call at any time.  Your obscure &#8216;blog&#8217;<br />
+will remain an &#8216;obscure&#8217; and lost in the noise of the internet<br />
+blog????</p>
+<p>Florida, USA citizen</p>
+						<footer>
+							<cite>Comment by not current &#8212; <time datetime="2013-12-23T06:17:56+00:00">December 23, 2013 @ 6:17 am</time> <a href="#comment-324793">#</a> </cite>
+						</footer>
+					</article>
+				</li>
+		
+				<li id="comment-324794">
+					<article>
+						<p>PS. for FEMALES that is the MAJORITY OF THE POPULATION.<br />
+I am male, USA citizen.<br />
+NEVER, almost NEVER go to the Birds of Feather meetings<br />
+at Javits Center, NYC, NY, USA during the big conventions?</p>
+<p>WHY??<br />
+it ends at 7:30 or 8pm IN THE DARK.  Hard to get a taxi.<br />
+Public Bus schedule sometimes is late (USA union driver?)</p>
+<p>For two guys walking together and familiar with BIG CITY CRIME,<br />
+maybe OK.<br />
+For a single female walking at least TEN CITY BLOCKS to &#8216;safety&#8217;<br />
+is a CHALLENGE.</p>
+<p>So, I take the American and drop him in Bulgaria for the<br />
+conference &#8212;  wearing wet cotton pants in the MINUS DEGREE<br />
+CENTIGRADE temperature?</p>
+<p>Supercomputer conference in Tampa, FL. Drinking at the open<br />
+bar sponsored by BIG NAME CORP. with the Danish, Sweden and<br />
+some british professor (definitely a bit drunk). but he was<br />
+older and maybe did not have to get to work tomorrow.</p>
+<p>I am the only one who knows the area and I have a strong<br />
+flashlight&#8230; as we stumble our way to the bright lights of<br />
+the big HOTEL.  This is NOT ORLANDO, FL or Miami, FL &#8211; getting<br />
+a taxi or limo IS THE PROBLEM. (and being the USA.. perhaps<br />
+avoiding seafood poisoning or food allergy items..)</p>
+						<footer>
+							<cite>Comment by not current &#8212; <time datetime="2013-12-23T06:29:38+00:00">December 23, 2013 @ 6:29 am</time> <a href="#comment-324794">#</a> </cite>
+						</footer>
+					</article>
+				</li>
+		
+				<li id="comment-324795">
+					<article>
+						<p>Hopefully everything will be in English.</p>
+<p>My experience with conferences in France has been that often things are very difficult if you don&#8217;t read and speak French.</p>
+						<footer>
+							<cite>Comment by want to go &#8212; <time datetime="2013-12-23T18:25:47+00:00">December 23, 2013 @ 6:25 pm</time> <a href="#comment-324795">#</a> </cite>
+						</footer>
+					</article>
+				</li>
+		
+				<li id="comment-324800">
+					<article>
+						<p>@Víðir You are correct. As <a href="http://2014.djangocon.eu//news/">http://2014.djangocon.eu//news/</a> makes clear everything will be included in the price of the ticket.</p>
+						<footer>
+							<cite>Comment by <a href='http://markos.gaivo.net' rel='external nofollow' class='url'>markos</a> &#8212; <time datetime="2013-12-27T22:40:42+00:00">December 27, 2013 @ 10:40 pm</time> <a href="#comment-324800">#</a> </cite>
+						</footer>
+					</article>
+				</li>
+		
+			</ol>
+
+
+		<p>Sorry, the comment form is closed at this time.</p>
+
+		</article>
+	</section>
+			<!-- All pages -->
+	
+
+	<footer>
+		<ul>
+			<li>&copy; 2005-2015 Marko Samastur</li>
+			
+			<li><a href="http://markos.gaivo.net/blog/?feed=rss2">Entries feed</a></li>
+			<li><a href="http://markos.gaivo.net/blog/?feed=comments-rss2">Comments feed</a></li>
+		</ul>
+		<a href="/"><img src="/img/markos_light_small_bg.png" alt="logo" class="mini-logo" /></a>
+	</footer>
+	<!-- Google analytics -->
+	<script type="text/javascript">
+	  var _gaq = _gaq || [];
+	  _gaq.push(['_setAccount', 'UA-152438-1']);
+	  _gaq.push(['_trackPageview']);
+	</script>
+	<script src="/js/cookie.js"></script>
+</body>
+</html>

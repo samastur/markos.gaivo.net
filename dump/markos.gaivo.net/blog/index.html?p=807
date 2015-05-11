@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>A notch above a monkey &raquo; 6th anniversary of wwwh</title>
+	<meta charset="utf-8" />
+	
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" /> 
+
+	<link rel="shortcut icon" href="/img/markos.ico" />
+	
+	<meta name="generator" content="WordPress 3.0.5" /> <!-- leave this for stats please -->
+
+	<link href="http://fast.fonts.com/cssapi/aee9b60b-8e94-47f8-b586-3ecbfab51d1c.css" rel="stylesheet" type="text/css" />
+	<link rel="stylesheet" type="text/css" href="css/home.css" media="screen" title="Light theme" />
+	<link rel="alternate stylesheet" type="text/css" href="css/home_dark.css" media="screen" title="Dark theme" />
+	<link rel="stylesheet" href="css/ipad.css" media="only screen and (min-device-width : 768px) and (max-device-width : 1024px)">
+	<link rel="stylesheet" type="text/css" href="css/smallscreen.css" media="only screen and (max-width: 700px)" />
+
+	<link rel="alternate" type="application/rss+xml" title="RSS 2.0" href="http://markos.gaivo.net/blog/?feed=rss2" />
+	<link rel="alternate" type="application/atom+xml" title="Atom 1.0" href="http://markos.gaivo.net/blog/?feed=atom" />
+	<link rel='canonical' href='http://markos.gaivo.net/blog/?p=664' />
+
+	<link rel="pingback" href="http://markos.gaivo.net/blog/xmlrpc.php" />
+
+	<link rel="alternate" type="application/rss+xml" title="A notch above a monkey &raquo; 6th anniversary of wwwh Comments Feed" href="http://markos.gaivo.net/blog/?feed=rss2&amp;p=807" />
+<link rel="EditURI" type="application/rsd+xml" title="RSD" href="http://markos.gaivo.net/blog/xmlrpc.php?rsd" />
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="http://markos.gaivo.net/blog/wp-includes/wlwmanifest.xml" /> 
+<link rel='index' title='A notch above a monkey' href='http://markos.gaivo.net/blog' />
+<link rel='start' title='First post' href='http://markos.gaivo.net/blog/?p=2' />
+<link rel='prev' title='My OpenData hackday experience' href='http://markos.gaivo.net/blog/?p=777' />
+<link rel='next' title='Android&#8217;s design reflections' href='http://markos.gaivo.net/blog/?p=818' />
+<meta name="generator" content="WordPress 3.0.5" />
+<link rel='canonical' href='http://markos.gaivo.net/blog/?p=807' />
+
+	<!--[if lt IE 9]>
+	<script src="/js/html5.js"></script>
+	<![endif]-->
+</head>
+<body>
+					<header>
+		<h1><a href="/blog/">A notch above a monkey</a> &raquo; 6th anniversary of wwwh</h1>
+	</header>
+
+	<section class="envelope">
+		<article class="post">
+			<header>
+				<h1>6th anniversary of wwwh</h1>
+			</header>
+
+			<footer>
+				<ul>
+					<li class="by">Written by: <a href="/">Marko Samastur</a></li>
+					<li class="published">Published on: <time datetime="2011-10-05T12:30:06+00:00" pubdate>October 5, 2011</time></li>
+					<li class="categories">Categories: <a href="http://markos.gaivo.net/blog/?cat=8" title="View all posts in Spletne urice" rel="category">Spletne urice</a></li>
+					<li class="post-comments">Comments: <a href="http://markos.gaivo.net/blog/?p=807#comments" title="Comment on 6th anniversary of wwwh">7</a></li>
+				</ul>
+			</footer>
+
+			<div class="post-text">
+				<p><a title="Events homepage" href="http://wwwh.si">Web Hours</a> (spletne urice) is a series of web related talks that is happening weekly here in Ljubljana and is free for everyone. <a title="Talk topic: reputation management" href="http://wwwh.si/spletne-urice-181-upravljanje-z-dobrim-imenom/">Today&#8217;s talk</a>, happening on sixth anniversary of <a title="Topic: PHP in time of terrorism" href="http://wwwh.si/spletne-urice-1-php-v-oasu-terorizma/">the first</a>, will be 181th. A lot of people shared a lot of knowledge and our community has grown from a handful coming to first few talks to few tens of regular attendees. We never made a really serious effort at counting, but I would be surprised if few talks haven&#8217;t drawn close to a hundred people. My congratulations and thanks to all who made it happen!</p>
+<p>I started Web Hours on <a title="Andraž's twitter page" href="http://twitter.com/andraz">Andraž&#8217;s</a> suggestion because I was not happy with  the quality of work done in Slovenia and I thought regular web talks could educate and help raise awareness. Looking back at the state of industry then and where we are now, it is obvious we came a long way and I&#8217;d like to think our talks played a part in it. I may be biased, but not that much because I stopped organizing them a long time ago so kudos really goes to <a title="Marko Mrdjenovič - Fry" href="http://friedcell.net/home">those who</a> <a title="Davorin Pavlica" href="http://twitter.com/DavorinPavlica">followed me</a>.</p>
+<p>It is still easy to find <a title="Look at page source if you dare" href="http://www.zrkv.si/">shoddy work</a>, but this will never change. You can find it in any field and there is no reason why web should be any different. There is always room for growth, but I am fairly satisfied with Slovenian web development community. These days there is no shortage of interesting events (meetups, hackdays, camps of various kinds) where you can meet kindred spirits, many of whom are doing interesting stuff. I wish there was more open web evangelism, but talks always were what we made them and it&#8217;s up to us open web advocates to go out there more often.</p>
+<p>On the other hand Slovenian UX community depresses me. It seems to be full of people with big egos, very limited knowledge and low self-esteem resulting in an environment where constructive criticism is avoided and learning remains personal and, as community, slow. There are exceptions to this, but right now it seems it is enough to read a couple of books and follow a few related blogs to justify a UX related title on your business card and profess expertise. Critical assessment of problems and approaches is largely missing. There is a difference between cutting corners and skipping all steps &#8212; being agile is not a justification for being lazy. Events are rare and online discussions feel limited to regurgitating blog opinions as facts and discussing eternal, but mostly answered questions (e.g. how much of underlying technology do non-developers need to know?).</p>
+<p>Then again I may be just an old grump. My feelings about UX community are not all that different to what I felt about web development community six years ago and that one turned out OK. Maybe I <em>am</em> just too quick to judge and things will turn out just fine soon enough. We&#8217;ll see. See you tonight in <a href="http://www.kiberpipa.org/">Kiberpipa</a>.</p>
+			</div>
+
+			<nav>
+				<p>If you liked this, you might want to visit:</p>
+				<ul>
+					<li>my previous article: <a href="http://markos.gaivo.net/blog/?p=777" rel="prev">My OpenData hackday experience</a></li>					<li>my next article: <a href="http://markos.gaivo.net/blog/?p=818" rel="next">Android&#8217;s design reflections</a></li>					<li><a href="/blog/">article list</a></li>
+				</ul>
+			</nav>
+
+			<h2 id="comments">Comments (7)
+			</h2>
+			<ol class="comments">
+		
+				<li id="comment-240653">
+					<article>
+						<p>You know that since 2006 we are sort of collecting visitor numbers for Web hours at Kiberpipa.</p>
+<p>Year #eventes #visitors<br />
+2009 	34 	721<br />
+2010 	36 	825<br />
+2011 	30 	623</p>
+<p>And since you used to have access to our event manager its not hard for you to get to full numbers.</p>
+						<footer>
+							<cite>Comment by Klemen Robnik &#8212; <time datetime="2011-10-05T18:33:04+00:00">October 5, 2011 @ 6:33 pm</time> <a href="#comment-240653">#</a> </cite>
+						</footer>
+					</article>
+				</li>
+		
+				<li id="comment-240658">
+					<article>
+						<p>I don&#8217;t remember knowing that but what I really had in mind was that we didn&#8217;t really force visitors to sign their name in logbook so counting those who did doesn&#8217;t provide reliable number.</p>
+<p>Still, great to hear that numbers exist and that they look quite positive.</p>
+						<footer>
+							<cite>Comment by <a href='http://markos.gaivo.net' rel='external nofollow' class='url'>markos</a> &#8212; <time datetime="2011-10-05T20:30:02+00:00">October 5, 2011 @ 8:30 pm</time> <a href="#comment-240658">#</a> </cite>
+						</footer>
+					</article>
+				</li>
+		
+				<li id="comment-240725">
+					<article>
+						<p>&#8220;I started Web Hours on Andraž’s suggestion&#8230;&#8221;. And we thank you for it.</p>
+						<footer>
+							<cite>Comment by <a href='http://briks.si' rel='external nofollow' class='url'>Brian King</a> &#8212; <time datetime="2011-10-06T20:56:12+00:00">October 6, 2011 @ 8:56 pm</time> <a href="#comment-240725">#</a> </cite>
+						</footer>
+					</article>
+				</li>
+		
+				<li id="comment-240752">
+					<article>
+						<p>6 years&#8230; how time flies.</p>
+<p>btw: what I remember was that an important part of getting wwwh off the ground was connecting you and Fry. So fry gets credits too as he played a role from very beginning. I am not quite sure, but I think you wanted someone to help you before you accepted the leading role. Have I mixed things up or is this right?</p>
+<p>Great things happen with good seeds <img src='http://markos.gaivo.net/blog/wp-includes/images/smilies/icon_smile.gif' alt=':)' class='wp-smiley' /> . But I wouldn&#8217;t mind reducing amount of beer and increasing the level of content at wwwh.</p>
+<p>Anyway, while we are at it&#8230; This year we are starting monthly lectures at FRI &#8220;Do gležnjev v blatu&#8221; where industry and start-ups will be presenting serious/deep technology to academic and student audience. Stuff that&#8217;s trendy and hopefully useful, but not really being studied and lectured currently in the Ljubljana CS studies.</p>
+						<footer>
+							<cite>Comment by <a href='http://www.zemanta.com' rel='external nofollow' class='url'>Andraž</a> &#8212; <time datetime="2011-10-07T06:37:09+00:00">October 7, 2011 @ 6:37 am</time> <a href="#comment-240752">#</a> </cite>
+						</footer>
+					</article>
+				</li>
+		
+				<li id="comment-240753">
+					<article>
+						<p>I&#8217;d say that is about right. We brainstormed ideas together and Fry also helped bring in a few presenters. Organizing talks was certainly easier with his help. But I don&#8217;t think I was exactly hogging credits. I thought that by linking to their pages I made it clear that Fry and Davorin are really the ones who deserve it.<br />
+wwwh today certainly is a different event than when it started. I certainly expected that because it was the reason why Fry took over. I simply felt that change of direction was needed for wwwh to succeed and that I was not the right person to do it. Other more specialized events give me much of what I sought, but wwwh is still a great place to get everyone together and I wish more would see it as such.<br />
+These new lectures sound interesting. Is there a place where we can find out more?</p>
+						<footer>
+							<cite>Comment by <a href='http://markos.gaivo.net' rel='external nofollow' class='url'>markos</a> &#8212; <time datetime="2011-10-07T07:41:29+00:00">October 7, 2011 @ 7:41 am</time> <a href="#comment-240753">#</a> </cite>
+						</footer>
+					</article>
+				</li>
+		
+				<li id="comment-247423">
+					<article>
+						<p>[...] 6th anniversary of wwwh (markos.gaivo.net) [...]</p>
+						<footer>
+							<cite>Pingback by <a href='http://swizec.com/blog/blogging-hats-stuff/swizec/3483' rel='external nofollow' class='url'>A geek with a hat &raquo; Blogging, hats, stuff</a> &#8212; <time datetime="2012-01-19T11:59:39+00:00">January 19, 2012 @ 11:59 am</time> <a href="#comment-247423">#</a> </cite>
+						</footer>
+					</article>
+				</li>
+		
+				<li id="comment-322072">
+					<article>
+						<p>[...] 6th anniversary of wwwh [...]</p>
+						<footer>
+							<cite>Pingback by <a href='http://andraz.wpengine.com/2013/09/do-you-want-kiberpipa-then-support-it/' rel='external nofollow' class='url'>Do you want Kiberpipa? Then support it! | Andraz Tori Blog</a> &#8212; <time datetime="2013-09-30T10:50:23+00:00">September 30, 2013 @ 10:50 am</time> <a href="#comment-322072">#</a> </cite>
+						</footer>
+					</article>
+				</li>
+		
+			</ol>
+
+
+		<p>Sorry, the comment form is closed at this time.</p>
+
+		</article>
+	</section>
+			<!-- All pages -->
+	
+
+	<footer>
+		<ul>
+			<li>&copy; 2005-2015 Marko Samastur</li>
+			
+			<li><a href="http://markos.gaivo.net/blog/?feed=rss2">Entries feed</a></li>
+			<li><a href="http://markos.gaivo.net/blog/?feed=comments-rss2">Comments feed</a></li>
+		</ul>
+		<a href="/"><img src="/img/markos_light_small_bg.png" alt="logo" class="mini-logo" /></a>
+	</footer>
+	<!-- Google analytics -->
+	<script type="text/javascript">
+	  var _gaq = _gaq || [];
+	  _gaq.push(['_setAccount', 'UA-152438-1']);
+	  _gaq.push(['_trackPageview']);
+	</script>
+	<script src="/js/cookie.js"></script>
+</body>
+</html>

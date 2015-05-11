@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>A notch above a monkey &raquo; Speed match: JSON vs. XML</title>
+	<meta charset="utf-8" />
+	
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" /> 
+
+	<link rel="shortcut icon" href="/img/markos.ico" />
+	
+	<meta name="generator" content="WordPress 3.0.5" /> <!-- leave this for stats please -->
+
+	<link href="http://fast.fonts.com/cssapi/aee9b60b-8e94-47f8-b586-3ecbfab51d1c.css" rel="stylesheet" type="text/css" />
+	<link rel="stylesheet" type="text/css" href="css/home.css" media="screen" title="Light theme" />
+	<link rel="alternate stylesheet" type="text/css" href="css/home_dark.css" media="screen" title="Dark theme" />
+	<link rel="stylesheet" href="css/ipad.css" media="only screen and (min-device-width : 768px) and (max-device-width : 1024px)">
+	<link rel="stylesheet" type="text/css" href="css/smallscreen.css" media="only screen and (max-width: 700px)" />
+
+	<link rel="alternate" type="application/rss+xml" title="RSS 2.0" href="http://markos.gaivo.net/blog/?feed=rss2" />
+	<link rel="alternate" type="application/atom+xml" title="Atom 1.0" href="http://markos.gaivo.net/blog/?feed=atom" />
+	<link rel='canonical' href='http://markos.gaivo.net/blog/?p=664' />
+
+	<link rel="pingback" href="http://markos.gaivo.net/blog/xmlrpc.php" />
+
+	<link rel="EditURI" type="application/rsd+xml" title="RSD" href="http://markos.gaivo.net/blog/xmlrpc.php?rsd" />
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="http://markos.gaivo.net/blog/wp-includes/wlwmanifest.xml" /> 
+<link rel='index' title='A notch above a monkey' href='http://markos.gaivo.net/blog' />
+<link rel='start' title='First post' href='http://markos.gaivo.net/blog/?p=2' />
+<link rel='prev' title='Invisible help' href='http://markos.gaivo.net/blog/?p=86' />
+<link rel='next' title='Places to use AJAX' href='http://markos.gaivo.net/blog/?p=88' />
+<meta name="generator" content="WordPress 3.0.5" />
+<link rel='canonical' href='http://markos.gaivo.net/blog/?p=87' />
+
+	<!--[if lt IE 9]>
+	<script src="/js/html5.js"></script>
+	<![endif]-->
+</head>
+<body>
+					<header>
+		<h1><a href="/blog/">A notch above a monkey</a> &raquo; Speed match: JSON vs. XML</h1>
+	</header>
+
+	<section class="envelope">
+		<article class="post">
+			<header>
+				<h1>Speed match: JSON vs. XML</h1>
+			</header>
+
+			<footer>
+				<ul>
+					<li class="by">Written by: <a href="/">Marko Samastur</a></li>
+					<li class="published">Published on: <time datetime="2005-12-05T19:41:55+00:00" pubdate>December 5, 2005</time></li>
+					<li class="categories">Categories: <a href="http://markos.gaivo.net/blog/?cat=1" title="View all posts in Javascript" rel="category">Javascript</a>, <a href="http://markos.gaivo.net/blog/?cat=4" title="View all posts in Web" rel="category">Web</a></li>
+					<li class="post-comments">Comments: <span>Comments Off</span></li>
+				</ul>
+			</footer>
+
+			<div class="post-text">
+				<p>I started playing with AJAX before it got its silly name and true to X I used XML in my application. At least at first.</p>
+<p>What I discovered is that flicker caused by processing data and simultaneously writing results to document can be completely removed if I do a Google and fetch javascript object instead (what later became <a href="http://www.crockford.com/JSON/index.html">JSON</a>) and use that. Difference was so vivid, I dropped XML almost completely.</p>
+<p>Fast forward to autumn. There&#8217;s a debate after our regular weekly talk and a question comes up. Why would Google or anyone else for that matter choose to use something else than XML?</p>
+<p>Relying on personal experience I offered speed as obvious and most important reason. I couldn&#8217;t back it up, but since I&#8217;ve seen it with my own eyes, I didn&#8217;t doubt it either. It wasn&#8217;t the sole reason. I find dabbling with javascript objects simply easier than handling XML and I&#8217;ll care about XSLT when javascript in Safari can access it.</p>
+<p>I got reminded of our discussion when I read <a href="http://www.xml.com/lpt/a/2005/11/30/tuning-ajax-performance.html">this article</a>. Read it, if you haven&#8217;t yet, because it&#8217;s well worth it. Anyhow, I decided to make a new test. I wrote a simple <a href="http://markos.gaivo.net/examples/jsbench/test.html">test page</a>, that fetches <a href="http://markos.gaivo.net/examples/jsbench/jssample.raw">sample json file</a> and basically equal <a href="http://markos.gaivo.net/examples/jsbench/xmlsample.xml">xml sample</a> and measures how much time it takes to fetch same data.</p>
+<p>Result?</p>
+<p>After 15 minutes of wild reloading in different browsers (Safari 1.3+, FF1.0, IE6) and different local and non-local servers, I can&#8217;t see a difference that couldn&#8217;t be attributed to latency. It seems browsers have moved on and there&#8217;s little reason to avoid using XML today.</p>
+<p>So use whatever you like most.</p>
+			</div>
+
+			<nav>
+				<p>If you liked this, you might want to visit:</p>
+				<ul>
+					<li>my previous article: <a href="http://markos.gaivo.net/blog/?p=86" rel="prev">Invisible help</a></li>					<li>my next article: <a href="http://markos.gaivo.net/blog/?p=88" rel="next">Places to use AJAX</a></li>					<li><a href="/blog/">article list</a></li>
+				</ul>
+			</nav>
+
+			<h2 id="comments">No Comments
+			</h2>
+			<p>No comments yet.</p>
+
+		<p>Sorry, the comment form is closed at this time.</p>
+
+		</article>
+	</section>
+			<!-- All pages -->
+	
+
+	<footer>
+		<ul>
+			<li>&copy; 2005-2015 Marko Samastur</li>
+			
+			<li><a href="http://markos.gaivo.net/blog/?feed=rss2">Entries feed</a></li>
+			<li><a href="http://markos.gaivo.net/blog/?feed=comments-rss2">Comments feed</a></li>
+		</ul>
+		<a href="/"><img src="/img/markos_light_small_bg.png" alt="logo" class="mini-logo" /></a>
+	</footer>
+	<!-- Google analytics -->
+	<script type="text/javascript">
+	  var _gaq = _gaq || [];
+	  _gaq.push(['_setAccount', 'UA-152438-1']);
+	  _gaq.push(['_trackPageview']);
+	</script>
+	<script src="/js/cookie.js"></script>
+</body>
+</html>

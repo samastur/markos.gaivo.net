@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+		>
+<channel>
+	<title>Comments on: N900 applications I miss</title>
+	<atom:link href="http://markos.gaivo.net/blog/?feed=rss2&#038;p=579" rel="self" type="application/rss+xml" />
+	<link>http://markos.gaivo.net/blog/?p=579</link>
+	<description></description>
+	<lastBuildDate>Wed, 16 Jul 2014 16:04:38 +0000</lastBuildDate>
+	<sy:updatePeriod>hourly</sy:updatePeriod>
+	<sy:updateFrequency>1</sy:updateFrequency>
+	<generator>http://wordpress.org/?v=3.0.5</generator>
+	<item>
+		<title>By: markos</title>
+		<link>http://markos.gaivo.net/blog/?p=579&#038;cpage=1#comment-208670</link>
+		<dc:creator>markos</dc:creator>
+		<pubDate>Tue, 09 Mar 2010 17:09:52 +0000</pubDate>
+		<guid isPermaLink="false">http://markos.gaivo.net/blog/?p=579#comment-208670</guid>
+		<description>Thanks for tips. I wasn&#039;t aware of those applications and most seem to fit my needs.
+
+I edited part with dictionary since it wasn&#039;t clear that while I am happy with QStarDict port, I wish it had a better interface.</description>
+		<content:encoded><![CDATA[<p>Thanks for tips. I wasn&#8217;t aware of those applications and most seem to fit my needs.</p>
+<p>I edited part with dictionary since it wasn&#8217;t clear that while I am happy with QStarDict port, I wish it had a better interface.</p>
+]]></content:encoded>
+	</item>
+	<item>
+		<title>By: Roberto Alsina</title>
+		<link>http://markos.gaivo.net/blog/?p=579&#038;cpage=1#comment-208668</link>
+		<dc:creator>Roberto Alsina</dc:creator>
+		<pubDate>Tue, 09 Mar 2010 16:31:11 +0000</pubDate>
+		<guid isPermaLink="false">http://markos.gaivo.net/blog/?p=579#comment-208668</guid>
+		<description>Offline wikipedia: such a thing exists for spanish: 
+
+http://python.org.ar/pyar/Proyectos/CDPedia</description>
+		<content:encoded><![CDATA[<p>Offline wikipedia: such a thing exists for spanish: </p>
+<p><a href="http://python.org.ar/pyar/Proyectos/CDPedia">http://python.org.ar/pyar/Proyectos/CDPedia</a></p>
+]]></content:encoded>
+	</item>
+	<item>
+		<title>By: Dalonso</title>
+		<link>http://markos.gaivo.net/blog/?p=579&#038;cpage=1#comment-208667</link>
+		<dc:creator>Dalonso</dc:creator>
+		<pubDate>Tue, 09 Mar 2010 16:21:44 +0000</pubDate>
+		<guid isPermaLink="false">http://markos.gaivo.net/blog/?p=579#comment-208667</guid>
+		<description>- Offline wikipedia --&gt; evopedia (http://my-maemo.com/software/applications.php?name=Evopedia&amp;fldAuto=1104&amp;faq=33)
+
+- QStardict is already available for N900 (http://maemo.org/downloads/product/Maemo5/qstardict/)
+
+- Caffeine --&gt; Silencer Timed profile changer (http://my-maemo.com/software/applications.php?name=Silencer&amp;fldAuto=1257&amp;faq=42)
+
+- Monitor unknown calls --&gt; maybe, but not to sure whether it matches your requirements, ECL Extended Call Log (http://symbianbriefs.blogspot.com/2010/01/maemo-5-n900-apps-extended-call-log.html)</description>
+		<content:encoded><![CDATA[<p>- Offline wikipedia &#8211;&gt; evopedia (<a href="http://my-maemo.com/software/applications.php?name=Evopedia&#038;fldAuto=1104&#038;faq=33">http://my-maemo.com/software/applications.php?name=Evopedia&#038;fldAuto=1104&#038;faq=33</a>)</p>
+<p>- QStardict is already available for N900 (<a href="http://maemo.org/downloads/product/Maemo5/qstardict/">http://maemo.org/downloads/product/Maemo5/qstardict/</a>)</p>
+<p>- Caffeine &#8211;&gt; Silencer Timed profile changer (<a href="http://my-maemo.com/software/applications.php?name=Silencer&#038;fldAuto=1257&#038;faq=42">http://my-maemo.com/software/applications.php?name=Silencer&#038;fldAuto=1257&#038;faq=42</a>)</p>
+<p>- Monitor unknown calls &#8211;&gt; maybe, but not to sure whether it matches your requirements, ECL Extended Call Log (<a href="http://symbianbriefs.blogspot.com/2010/01/maemo-5-n900-apps-extended-call-log.html">http://symbianbriefs.blogspot.com/2010/01/maemo-5-n900-apps-extended-call-log.html</a>)</p>
+]]></content:encoded>
+	</item>
+	<item>
+		<title>By: Ville</title>
+		<link>http://markos.gaivo.net/blog/?p=579&#038;cpage=1#comment-208658</link>
+		<dc:creator>Ville</dc:creator>
+		<pubDate>Tue, 09 Mar 2010 13:30:32 +0000</pubDate>
+		<guid isPermaLink="false">http://markos.gaivo.net/blog/?p=579#comment-208658</guid>
+		<description>Regarding &quot;Web platform for Maemo&quot;.
+
+You&#039;ll get the official, Qt based &quot;Common Web Runtime&quot; for your N900 soon enough. Don&#039;t bother working on it yourself ;-).</description>
+		<content:encoded><![CDATA[<p>Regarding &#8220;Web platform for Maemo&#8221;.</p>
+<p>You&#8217;ll get the official, Qt based &#8220;Common Web Runtime&#8221; for your N900 soon enough. Don&#8217;t bother working on it yourself <img src='http://markos.gaivo.net/blog/wp-includes/images/smilies/icon_wink.gif' alt=';-)' class='wp-smiley' /> .</p>
+]]></content:encoded>
+	</item>
+</channel>
+</rss>

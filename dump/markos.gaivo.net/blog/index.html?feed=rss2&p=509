@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+		>
+<channel>
+	<title>Comments on: Making peanut butter</title>
+	<atom:link href="http://markos.gaivo.net/blog/?feed=rss2&#038;p=509" rel="self" type="application/rss+xml" />
+	<link>http://markos.gaivo.net/blog/?p=509</link>
+	<description></description>
+	<lastBuildDate>Wed, 16 Jul 2014 16:04:38 +0000</lastBuildDate>
+	<sy:updatePeriod>hourly</sy:updatePeriod>
+	<sy:updateFrequency>1</sy:updateFrequency>
+	<generator>http://wordpress.org/?v=3.0.5</generator>
+	<item>
+		<title>By: uberVU - social comments</title>
+		<link>http://markos.gaivo.net/blog/?p=509&#038;cpage=1#comment-204300</link>
+		<dc:creator>uberVU - social comments</dc:creator>
+		<pubDate>Sun, 08 Nov 2009 22:00:30 +0000</pubDate>
+		<guid isPermaLink="false">http://markos.gaivo.net/blog/?p=509#comment-204300</guid>
+		<description>&lt;strong&gt;Social comments and analytics for this post...&lt;/strong&gt;
+
+This post was mentioned on Twitter by samastur: http://bit.ly/8JAcQ Long post on how I make peanut butter....</description>
+		<content:encoded><![CDATA[<p><strong>Social comments and analytics for this post&#8230;</strong></p>
+<p>This post was mentioned on Twitter by samastur: <a href="http://bit.ly/8JAcQ">http://bit.ly/8JAcQ</a> Long post on how I make peanut butter&#8230;.</p>
+]]></content:encoded>
+	</item>
+	<item>
+		<title>By: Tweets that mention /devel ? Making peanut butter -- Topsy.com</title>
+		<link>http://markos.gaivo.net/blog/?p=509&#038;cpage=1#comment-204295</link>
+		<dc:creator>Tweets that mention /devel ? Making peanut butter -- Topsy.com</dc:creator>
+		<pubDate>Sun, 08 Nov 2009 19:29:35 +0000</pubDate>
+		<guid isPermaLink="false">http://markos.gaivo.net/blog/?p=509#comment-204295</guid>
+		<description>[...] This post was mentioned on Twitter by Dragan Babic and Marko Samastur, rok. rok said: haaa, great post!! RT @samastur: http://bit.ly/8JAcQ Long post on how I make peanut butter. [...]</description>
+		<content:encoded><![CDATA[<p>[...] This post was mentioned on Twitter by Dragan Babic and Marko Samastur, rok. rok said: haaa, great post!! RT @samastur: <a href="http://bit.ly/8JAcQ">http://bit.ly/8JAcQ</a> Long post on how I make peanut butter. [...]</p>
+]]></content:encoded>
+	</item>
+</channel>
+</rss>

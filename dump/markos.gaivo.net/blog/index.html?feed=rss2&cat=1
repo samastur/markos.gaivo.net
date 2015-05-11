@@ -1,0 +1,361 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>A notch above a monkey &#187; Javascript</title>
+	<atom:link href="http://markos.gaivo.net/blog/?feed=rss2&#038;cat=1" rel="self" type="application/rss+xml" />
+	<link>http://markos.gaivo.net/blog</link>
+	<description></description>
+	<lastBuildDate>Mon, 26 Jan 2015 07:00:03 +0000</lastBuildDate>
+	<language>en</language>
+	<sy:updatePeriod>hourly</sy:updatePeriod>
+	<sy:updateFrequency>1</sy:updateFrequency>
+	<generator>http://wordpress.org/?v=3.0.5</generator>
+		<item>
+		<title>Laughable Javascript security</title>
+		<link>http://markos.gaivo.net/blog/?p=1119</link>
+		<comments>http://markos.gaivo.net/blog/?p=1119#comments</comments>
+		<pubDate>Thu, 11 Jul 2013 20:57:01 +0000</pubDate>
+		<dc:creator>markos</dc:creator>
+				<category><![CDATA[Django]]></category>
+		<category><![CDATA[Javascript]]></category>
+		<category><![CDATA[Web]]></category>
+		<category><![CDATA[cloaking]]></category>
+		<category><![CDATA[Security]]></category>
+
+		<guid isPermaLink="false">http://markos.gaivo.net/blog/?p=1119</guid>
+		<description><![CDATA[Building a secure web application is not easy, unless you also use 3rd party code such as Facebook&#8217;s Like widget in which case it is impossible. What you have is just an illusion of security, a door to abuse that you can&#8217;t even check if it is currently closed. Or that&#8217;s what I thought for [...]]]></description>
+			<content:encoded><![CDATA[<p>Building a secure web application is not easy, unless you also use 3rd party code such as Facebook&#8217;s Like widget in which case it is impossible. What you have is just an illusion of security, a door to abuse that you can&#8217;t even check if it is currently closed.</p>
+<p>Or that&#8217;s what I thought for years. A once substantiated belief that grew into an almost dogmatic certainty until I recently got a chance to revisit it when trying to design a secure Javascript-based web application living inside of a likely untrusted environment.</p>
+<p>There are obvious things you can do to protect your application such as delivery over secure connections and use of anonymous functions to sandbox your code from outside interference. However you will probably need to interact with external code at some point in which case is that <em>XMLHTTPRequest</em> object you are using really the built-in one or has it been replaced (cloaked) with an impostor object to perform <a href="https://en.wikipedia.org/wiki/Man-in-the-middle_attack">the man-in-the-middle attack</a>?</p>
+<p>I don&#8217;t know of a way to check if an object is untouched. What is sometimes used instead is a <em>.toString</em> method which on functions and methods returns their source unless they are native to browser in which case it returns a string saying so.</p>
+<p>Since you can replace any attribute and method on any object some <a href="http://stackoverflow.com/questions/6598945/detect-if-function-is-native-to-browser#comment8044242_6599105">go even further</a> in search of a certainty and use <em>.toString</em> from the <em>Function</em> object.</p>
+<p>At first thought that looked clever until I came up with:</p>
+<ol class="code">
+<li><code>&#60;!DOCTYPE HTML&#62;</code></li>
+<li><code>&#60;html lang=&#34;en&#34;&#62;</code></li>
+<li><code>&#60;head&#62;</code></li>
+<li class="tab1"><code>&#60;meta charset=&#34;UTF-8&#34;&#62;</code></li>
+<li class="tab1"><code>&#60;title&#62;Break check if function is native&#60;/title&#62;</code></li>
+<li><code>&#60;/head&#62;</code></li>
+<li><code>&#60;body&#62;</code></li>
+<li class="tab1"><code>&#60;script&#62;</code></li>
+<li><code>(function () {</code></li>
+<li class="tab1"><code>var toS = Function.prototype.toString,</code></li>
+<li class="tab2"><code>pM_str = window.postMessage.toString();</code></li>
+<li>&#160;</li>
+<li class="tab1"><code>Function.prototype.toString = function () {</code></li>
+<li class="tab2"><code>return this === window.postMessage ? pM_str : toS.call(this);</code></li>
+<li class="tab1"><code>}</code></li>
+<li class="tab1"><code>window.postMessage = function () { console.log('Fake'); };</code></li>
+<li><code>})();</code></li>
+<li class="tab1"><code>&#60;/script&#62;</code></li>
+<li><code>&#60;/body&#62;</code></li>
+<li><code>&#60;/html&#62;</code></li>
+<li>&#160;</li>
+<li class="download">Download this code: <a href="http://markos.gaivo.net/blog/code/nativecheck.txt" title="Download the above code as a text file">/code/nativecheck.txt</a></li>
+</ol>
+<p>The code above replaces <em>Function&#8217;s .toString</em> method with a one that lies when executed on an also cloaked <em>window.postMessage</em>. Instead of displaying source of the new <em>postMessage</em> it prints whatever browser would print for the original one.</p>
+<p>It simultaneously demonstrates how you can cloak native Javascript objects and hide that you are doing it. If you put malicious code into an anonymous function and remove <em>&lt;script&gt;</em> node that added it after it gets executed, then there is no way for scripts loading later to know that it happened. There will be no traces of crime.</p>
+<p>It might be difficult to cloak literals like {} and [], but you certainly can their methods so even if your code is wrapped in an anonymous function, it isn&#8217;t really secured from outside peeking and poking. Hence you even <strong>can&#8217;t trust your own code</strong>.</p>
+<p>Turns out that this particular dogma is also true. Depressing.</p>
+]]></content:encoded>
+			<wfw:commentRss>http://markos.gaivo.net/blog/?feed=rss2&#038;p=1119</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+		<item>
+		<title>Using canvas and Javascript to blur images</title>
+		<link>http://markos.gaivo.net/blog/?p=591</link>
+		<comments>http://markos.gaivo.net/blog/?p=591#comments</comments>
+		<pubDate>Thu, 01 Apr 2010 09:59:34 +0000</pubDate>
+		<dc:creator>markos</dc:creator>
+				<category><![CDATA[Javascript]]></category>
+		<category><![CDATA[Web]]></category>
+		<category><![CDATA[algorithm]]></category>
+		<category><![CDATA[blur]]></category>
+		<category><![CDATA[canvas]]></category>
+		<category><![CDATA[Firefox]]></category>
+		<category><![CDATA[function]]></category>
+		<category><![CDATA[image]]></category>
+
+		<guid isPermaLink="false">http://markos.gaivo.net/blog/?p=591</guid>
+		<description><![CDATA[I admire the look and feel of Mike Matas&#8217; new website. It is really well thought through. I was also intrigued by how he did it, especially after getting a pop-up on my first visit advising me to use a more modern browser than a recent version of Firefox. There is no point in speculating [...]]]></description>
+			<content:encoded><![CDATA[<p>I admire the look and feel of <a href="http://www.mikematas.com/">Mike Matas&#8217; new website</a>. It is really well thought through. I was also intrigued by how he did it, especially after getting a pop-up on my first visit advising me to use a more modern browser than a recent version of Firefox.</p>
+<p>There is no point in speculating why some of its features don&#8217;t work in more browsers. But I was surprised to see that blurred images are served that way and don&#8217;t get blurred in browser. I am playing with an idea of implementing a gallery inspired by Mike&#8217;s work, but I would like to reduce manual labor needed for maintaining it.</p>
+<p>So I wrote a function that blurs an image on canvas. You can <a title="Javascript blur demo page" href="http://markos.gaivo.net/examples/canvas_blur/">see it in action</a> or copy its code, if you find it useful.</p>
+<p>The algorithm used is described in <a title="Link to PDF version of paper" href="http://web.archive.org/web/20060718054020/http://www.acm.uiuc.edu/siggraph/workshops/wjarosz_convolution_2001.pdf">2001 paper</a> by Wojciech Jarosz. Page contains two implementations, second trading algorithm purity for in my opinion nicer code. Increase number of passes or run it few times over an image, if you need a blurrier result.? Please ask, if you need help with its use.</p>
+<p>I also measured its speed to see if it fits my needs. That brought a new surprise. Firefox 3.5.8? on my Linux powered VAIO with 1.2GHz processor blurs image twice as fast as same browser on a Mac with a 2.8Ghz processor. Numbers between runs may vary slightly, but never much. No idea why this is happening, since all functions do is some basic math over items in array that should be well optimized everywhere.</p>
+<p>I am sure somebody can optimize it further, but I find it good enough for my use. Image isn&#8217;t very blurred after one pass, but one pass over a small image is also a good way to measure how fast a particular computer-browser combination is. On fast combinations I might go for multiple passes over images in view, but fall back to a single pass or no pass on slower systems.</p>
+<div class="zemanta-pixie"><a class="zemanta-pixie-a" title="Reblog this post [with Zemanta]" href="http://reblog.zemanta.com/zemified/4b7c629c-fdbe-4190-ade4-e240b1b3755a/"><img class="zemanta-pixie-img" src="http://img.zemanta.com/reblog_e.png?x-id=4b7c629c-fdbe-4190-ade4-e240b1b3755a" alt="Reblog this post [with Zemanta]" /></a></div>
+]]></content:encoded>
+			<wfw:commentRss>http://markos.gaivo.net/blog/?feed=rss2&#038;p=591</wfw:commentRss>
+		<slash:comments>9</slash:comments>
+		</item>
+		<item>
+		<title>Dreaming about arithmetic mean</title>
+		<link>http://markos.gaivo.net/blog/?p=549</link>
+		<comments>http://markos.gaivo.net/blog/?p=549#comments</comments>
+		<pubDate>Sun, 24 Jan 2010 10:44:03 +0000</pubDate>
+		<dc:creator>markos</dc:creator>
+				<category><![CDATA[General development]]></category>
+		<category><![CDATA[Javascript]]></category>
+		<category><![CDATA[algorithm]]></category>
+		<category><![CDATA[Arithmetic mean]]></category>
+		<category><![CDATA[bug]]></category>
+		<category><![CDATA[Computer science]]></category>
+		<category><![CDATA[Programming]]></category>
+
+		<guid isPermaLink="false">http://markos.gaivo.net/blog/?p=549</guid>
+		<description><![CDATA[I had a crazy dream, where I was back at University, but this time studying computer science. We were writing a function to calculate an arithmetic mean of an array of numbers. A task obviously too simple for college course, but with dreams you get what you are given. Discussion started with this function: function [...]]]></description>
+			<content:encoded><![CDATA[<p>I had a crazy dream, where I was back at University, but this time studying computer science. We were writing a function to calculate an <a class="zem_slink" href="http://en.wikipedia.org/wiki/Arithmetic_mean" title="Arithmetic mean" rel="wikipedia">arithmetic mean</a> of an array of numbers. A task obviously too simple for college course, but with dreams you get what you are given.</p>
+<p>Discussion started with this function:</p>
+<ol class="code">
+<li><code>function average(arr) {</code></li>
+<li class="tab1"><code>var i, sum = 0;</code></li>
+<li class="tab1"><code>for(i=0;i&#60;arr.length;i++) {</code></li>
+<li class="tab2"><code>sum += arr[i];</code></li>
+<li class="tab1"><code>}</code></li>
+<li class="tab1"><code>return sum/i;</code></li>
+<li><code>}</code></li>
+<li>&#160;</li>
+<li class="download">Download this code: <a href="http://markos.gaivo.net/blog/code/dreamjs.txt" title="Download the above code as a text file">/code/dreamjs.txt</a></li>
+</ol>
+<p>Dream me, who by the way is significantly more bitchy than I ever am, wasn&#8217;t pleased and thought he could save few bytes by storing counter and sum inside of the array:</p>
+<ol class="code">
+<li><code>function average(arr) {</code></li>
+<li class="tab1 cmnt"><code>// Store counter in array[0] and sum in array[1]</code></li>
+<li class="tab1"><code>if (arr.length &#60; 3) {</code></li>
+<li class="tab2"><code>return arr.length == 2 ? arr[0]+arr[1] : arr[0];</code></li>
+<li class="tab1"><code>} else {</code></li>
+<li class="tab2"><code>arr[1] = arr[0]+arr[1];</code></li>
+<li class="tab2"><code>arr[0] = 2;</code></li>
+<li class="tab2"><code>for(;arr[0]&#60;arr.length;arr[0]++) {</code></li>
+<li class="tab3"><code>arr[1] += arr[arr[0]];</code></li>
+<li class="tab2"><code>}</code></li>
+<li class="tab1"><code>}</code></li>
+<li class="tab1"><code>return arr[1]/arr[0];</code></li>
+<li><code>}</code></li>
+<li>&#160;</li>
+<li class="download">Download this code: <a href="http://markos.gaivo.net/blog/code/dreamjs2.txt" title="Download the above code as a text file">/code/dreamjs2.txt</a></li>
+</ol>
+<p>This looked ugly, but what bothered him (me?) was more that it also had a bug. Integer in <a class="zem_slink" href="http://en.wikipedia.org/wiki/JavaScript" title="JavaScript" rel="wikipedia">Javascript</a> is limited to 2<sup>53</sup>, which is a lot, but sum can still <a class="zem_slink" href="http://en.wikipedia.org/wiki/Arithmetic_overflow" title="Arithmetic overflow" rel="wikipedia">overflow</a> or underflow it. Since mean can never be smaller than smallest or bigger than biggest number in a list, I could fix it by writing:</p>
+<ol class="code">
+<li><code>function average(arr) {</code></li>
+<li class="tab1"><code>var n = arr.length, sum=0;</code></li>
+<li class="tab1"><code>while (arr.length) {</code></li>
+<li class="tab2"><code>sum += arr.pop()/n;</code></li>
+<li class="tab1"><code>}</code></li>
+<li class="tab1"><code>return sum;</code></li>
+<li><code>}</code></li>
+<li>&#160;</li>
+<li class="download">Download this code: <a href="http://markos.gaivo.net/blog/code/dreamjs3.txt" title="Download the above code as a text file">/code/dreamjs3.txt</a></li>
+</ol>
+<p>End of dream. Everything edited for sanity and brevity.</p>
+<p>I don&#8217;t have much to say about second program except that I would never write something so ugly just to save 16 bytes in a function like this. I wouldn&#8217;t even use Javascript if memory was that important.</p>
+<p>I am more intrigued by third program. Bug in second is definitely there, even though few of us operate with numbers big enough to encounter it.</p>
+<p>It&#8217;s interesting, because if I was awake, I would probably never think of it. I used to worry about bugs like this all the time, when I was coding in C. It was an unavoidable consequence of the language.</p>
+<p>I guess what I am getting at is that it is nice to code in a high-level language and for the most part not think about implementation details like this, but only as long as you actually know them so your brain gets triggered when they matter. Speaking of details, I bet those divisions can cause rounding errors.</p>
+<div class="zemanta-pixie"><a class="zemanta-pixie-a" href="http://reblog.zemanta.com/zemified/7ab2d445-07ff-4ec6-bed9-f29a2797d7a3/" title="Reblog this post [with Zemanta]"><img class="zemanta-pixie-img" src="http://img.zemanta.com/reblog_e.png?x-id=7ab2d445-07ff-4ec6-bed9-f29a2797d7a3" alt="Reblog this post [with Zemanta]" /></a><span class="zem-script paragraph-reblog"><script type="text/javascript" src="http://static.zemanta.com/readside/loader.js" defer="defer"></script></span></div>
+]]></content:encoded>
+			<wfw:commentRss>http://markos.gaivo.net/blog/?feed=rss2&#038;p=549</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+		<item>
+		<title>Making peanut butter</title>
+		<link>http://markos.gaivo.net/blog/?p=509</link>
+		<comments>http://markos.gaivo.net/blog/?p=509#comments</comments>
+		<pubDate>Sun, 08 Nov 2009 19:00:08 +0000</pubDate>
+		<dc:creator>markos</dc:creator>
+				<category><![CDATA[Javascript]]></category>
+
+		<guid isPermaLink="false">http://markos.gaivo.net/blog/?p=509</guid>
+		<description><![CDATA[Rok requested a post about making peanut butter and since he does such a stellar job taking care of technical side of wwwh talks, I thought it would only be fair to grant his wish. My butter looks like this: If this doesn&#8217;t look to you like the best peanut butter ever, look again. And [...]]]></description>
+			<content:encoded><![CDATA[<p><a title="Rok's blog" href="http://sadrooftops.wordpress.com/">Rok</a> requested a post about making <a class="zem_slink" title="Peanut butter" rel="wikipedia" href="http://en.wikipedia.org/wiki/Peanut_butter">peanut butter</a> and since he does such a stellar job taking care of technical side of <a title="wwwh homepage" href="http://web.zen.si/">wwwh talks</a>, I thought it would only be fair to grant his wish. My butter looks like this:</p>
+<p><img class="image" src="http://static.marela.si/users0/markos/3/oJO6QdbUC6XJcZNqv-CJzcg1JlI.jpg" alt="Peanut butter on a slice of bread" width="400" height="266" /></p>
+<p>If this doesn&#8217;t look to you like the best peanut butter ever, look again. And again.</p>
+<p>Before I go on describing how I make peanut butter, let me spend a moment or two talking about why. After all it can be bought in practically any grocery store in Slovenia and visiting a few will even give you a limited selection. My first reason was to limit my intake. Peanut butter is incredibly delicious, but not exactly healthy and since I noticed that how much I eat is proportional to amount available, I wanted to avoid 350g jars that would be the death of me. My second reason was to have a better control of what goes in it. Like with sausages you can&#8217;t really tell what was used and in what condition it was. I certainly didn&#8217;t want to eat hydrogenated fat <a id="pbutter-1-back" class="reference" title="Link to first footnote" href="#pbutter-1"><sup>[1]</sup></a> added to your stock? peanut butter and were suspicious of a thick layer of oil on top of organic ones too. When I got better at making it, I also found out I really dislike bought ones.</p>
+<p>As it happens the only thing that is absolutely necessary to make peanut butter are peanuts themselves. However you will probably want to use some oil, a sweetener like sugar or <a class="zem_slink" title="Maple syrup" rel="wikipedia" href="http://en.wikipedia.org/wiki/Maple_syrup">maple syrup</a> and salt.</p>
+<p>I use roasted peanuts. You can buy already roasted (but unsalted) or roast them yourself. To do that you heat up your oven to 175? C and put them in until they are done to your liking. Turn them around every couple of minutes so they don&#8217;t get burned. Next step: chopping.</p>
+<p>But first a side note to all my American friends. Reports that Slovenians don&#8217;t eat peanut butter are simply false. We just hide it well. It&#8217;s kind of like masonry, but instead of discreet regalia and a secret handshake, we, peanut butter connoisseurs, recognize each other by a subtle nutty odor and small brownish stains in corners of lips. Slightly crazy and distracted look in presence of a peanut butter jar might also be a hint.</p>
+<p>So, chopping. For small amounts, 200g or less, I use a hand blender with chopper accessory. I also use it because it&#8217;s the only blender I own. It tends to overheat and since I melted its predecessor my chopping amounts to mostly waiting pierced with short chopping episodes. Bigger blenders are certainly more resilient, but they also tend to have their blades raised higher from the bottom which makes them unpractical for chopping small amounts of nuts. Spend enough time doing this and dust will turn into a fudge-like paste. Do it more and it will become more liquid. If you like to spread butter thick, it might be even liquid enough.</p>
+<p>I don&#8217;t so I add a bit of oil. I use <a class="zem_slink" title="Peanut oil" rel="wikipedia" href="http://en.wikipedia.org/wiki/Peanut_oil">peanut oil</a>, but any edible with neutral flavor will work fine, just don&#8217;t add too much. You can always add more if you find butter too thick, but it is difficult to correct too liquid one. I add about a tablespoon of oil for 200g of peanuts while they are still pulverized and rarely need to add more later.</p>
+<p>On recent vacation in Nepal I also tried their peanut butter. It tastes very much like ours at this stage; right taste but like most food in Nepal not salty enough for western taste.</p>
+<p>Salt is not the only thing missing. Peanut butter is like tomato sauce, it needs a bit of sugar to get a more well rounded flavor. I used powdered sugar with some success, but maple syrup recently won me over (a tip from <a title="Ale? ?peti? on twitter" href="http://twitter.com/alesspetic">Ale?</a> whose many culinary talents include baking <a title="Pumpkin cake" href="http://tweetphoto.com/cxyahdo1">great cakes</a>). How much salt and sugar to use is again down to personal preference. I use about 1-2 teaspoons of maple syrup and slowly salt while mixing until I am satisfied with result. Blender warms butter and spoils tasting somewhat, so I stop spicing butter when it is a bit less sweet and slightly more salted then I would prefer. This results in just the right taste when cooled.</p>
+<p>That&#8217;s it. You should now have peanut butter good enough for gods. A few tries, to find the right balance between ingredients and you will end up with one fit for you too. It took me longer because I also eat it with spoon, hence it&#8217;s easier to notice its mistakes and more difficult to balance different uses (I prefer more salty butter on bread).</p>
+<p>My next goal: cashews and cocoa spread.</p>
+<p><a id="pbutter-1" title="Jump back to reference" href="#pbutter-1-back">[1]</a> Hydrogenated fat is used for the same reason as oil, to make butter easier to spread. Added oil doesn&#8217;t actually react with peanuts and if you leave your butter long enough, it will eventually separate and form that unwanted oily layer on top. <a class="zem_slink" title="Hydrogenation" rel="wikipedia" href="http://en.wikipedia.org/wiki/Hydrogenation">Hydrogenation</a> solidifes fat and prevents that from happening. Downside is that you can&#8217;t tell how much additional fat was added unless it is specified in ingredients list and it&#8217;s even more unhealthy.</p>
+<div class="zemanta-pixie"><a class="zemanta-pixie-a" title="Reblog this post [with Zemanta]" href="http://reblog.zemanta.com/zemified/56473c29-9ebd-4f4f-809b-b65d0684bc36/"><img class="zemanta-pixie-img" src="http://img.zemanta.com/reblog_e.png?x-id=56473c29-9ebd-4f4f-809b-b65d0684bc36" alt="Reblog this post [with Zemanta]" /></a><span class="zem-script paragraph-reblog"><script src="http://static.zemanta.com/readside/loader.js" type="text/javascript"></script></span></div>
+]]></content:encoded>
+			<wfw:commentRss>http://markos.gaivo.net/blog/?feed=rss2&#038;p=509</wfw:commentRss>
+		<slash:comments>2</slash:comments>
+		</item>
+		<item>
+		<title>Pseudorandom thoughts of overworked developer</title>
+		<link>http://markos.gaivo.net/blog/?p=360</link>
+		<comments>http://markos.gaivo.net/blog/?p=360#comments</comments>
+		<pubDate>Sat, 22 Aug 2009 07:25:29 +0000</pubDate>
+		<dc:creator>markos</dc:creator>
+				<category><![CDATA[Javascript]]></category>
+		<category><![CDATA[democracy]]></category>
+		<category><![CDATA[Facebook]]></category>
+		<category><![CDATA[html5]]></category>
+		<category><![CDATA[Nokia]]></category>
+		<category><![CDATA[Privacy]]></category>
+		<category><![CDATA[Spam]]></category>
+		<category><![CDATA[tablet]]></category>
+		<category><![CDATA[Twitter]]></category>
+		<category><![CDATA[web development]]></category>
+
+		<guid isPermaLink="false">http://markos.gaivo.net/blog/?p=360</guid>
+		<description><![CDATA[I&#8217;ve been too busy lately and many things suffered as a consequence, writing being one of them. This is not a complaint, since I mostly had fun doing what I did, but it is becoming obvious that too much fun can kill you too. Anyhow, this is not a post discussing woes many would love [...]]]></description>
+			<content:encoded><![CDATA[<p>I&#8217;ve been too busy lately and many things suffered as a consequence, writing being one of them. This is not a complaint, since I mostly had fun doing what I did, but it is becoming obvious that too much fun can kill you too. Anyhow, this is not a post discussing woes many would love to have. It&#8217;s a short list of ideas and thoughts that occurred to me recently, which I don&#8217;t have time to really think through or didn&#8217;t want to commit to <a class="zem_slink" title="Twitter" rel="homepage" href="http://twitter.com">Twitter</a>&#8216;s transient stream:</p>
+<ul>
+<li>I got a spam comment offering to kill a competitor&#8217;s website for 70$ per day of downtime. It looked genuine enough to be a truly depressing comment on web&#8217;s fragility.</li>
+<li>&#8220;Does he have a <a class="zem_slink" title="Facebook" rel="homepage" href="http://facebook.com">Facebook</a> account?&#8221; seems to be the most succinct way of learning person&#8217;s outlook on privacy issues.</li>
+<li>Democracy is a terrible way of solving important problems fast. Or solving them at all. However it does provide us with our share of blame.</li>
+<li>I can&#8217;t wait to see what <a title="Early review of RX51/N900" href="http://www.mobile-review.com/review/nokia-rx51-n900-en.shtml">Nokia RX-51/N900</a> will really bring. <a href="http://linux.slashdot.org/comments.pl?sid=1343481&amp;cid=29147349">Here is</a> one reason why. Building on a closed platform is investing in a lottery ticket.</li>
+<li>Alex Russel&#8217;s <a href="http://alex.dojotoolkit.org/2009/08/some-orthodox-heresies/">Some Orthodox Heresies</a> sums my view of HTML5 better than I ever could. Hard to disagree with his other points too.</li>
+</ul>
+<div class="zemanta-pixie"><a class="zemanta-pixie-a" title="Reblog this post [with Zemanta]" href="http://reblog.zemanta.com/zemified/b6a94c12-b1f3-4338-8d38-f8e18d7a958d/"><img class="zemanta-pixie-img" style="border: medium none; float: right;" src="http://img.zemanta.com/reblog_e.png?x-id=b6a94c12-b1f3-4338-8d38-f8e18d7a958d" alt="Reblog this post [with Zemanta]" /></a><span class="zem-script paragraph-reblog"><script src="http://static.zemanta.com/readside/loader.js" type="text/javascript"></script></span></div>
+]]></content:encoded>
+			<wfw:commentRss>http://markos.gaivo.net/blog/?feed=rss2&#038;p=360</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+		<item>
+		<title>Javascript: The Good Parts and string.split problem</title>
+		<link>http://markos.gaivo.net/blog/?p=322</link>
+		<comments>http://markos.gaivo.net/blog/?p=322#comments</comments>
+		<pubDate>Sun, 29 Mar 2009 10:15:09 +0000</pubDate>
+		<dc:creator>markos</dc:creator>
+				<category><![CDATA[Javascript]]></category>
+		<category><![CDATA[Web]]></category>
+		<category><![CDATA[bug]]></category>
+		<category><![CDATA[Douglas Crockford]]></category>
+		<category><![CDATA[ie]]></category>
+		<category><![CDATA[JavaScript: The Good Parts]]></category>
+		<category><![CDATA[Programming]]></category>
+		<category><![CDATA[Regular expression]]></category>
+
+		<guid isPermaLink="false">http://markos.gaivo.net/blog/?p=322</guid>
+		<description><![CDATA[I just read Douglas Crockford&#8216;s book JavaScript: The Good Parts. It&#8217;s what a technical book should be. Concise yet full of useful information as a result of clear scope and sticking to it. If my experience is anything to go by, then there are not many Javascript programmers who wouldn&#8217;t benefit from it. I did [...]]]></description>
+			<content:encoded><![CDATA[<p>I just read <a class="zem_slink" title="Douglas Crockford" rel="homepage" href="http://crockford.com/">Douglas Crockford</a>&#8216;s book <a href="http://www.amazon.com/gp/product/0596517742?ie=UTF8&amp;tag=devel-20&amp;linkCode=as2&amp;camp=1789&amp;creative=390957&amp;creativeASIN=0596517742">JavaScript: The Good Parts</a><img style="border:none !important; margin:0px !important;" src="http://www.assoc-amazon.com/e/ir?t=devel-20&amp;l=as2&amp;o=1&amp;a=0596517742" border="0" alt="" width="1" height="1" />. It&#8217;s what a technical book should be. Concise yet full of useful information as a result of clear scope and sticking to it. If my experience is anything to go by, then there are not many Javascript programmers who wouldn&#8217;t benefit from it.</p>
+<p>I did found one bit that wasn&#8217;t quite right. On pages 91-92 Douglas discusses <em>string.split</em> method, which can take a regular expression as a separator with which to split string. Douglas rightly points out that if regular expression includes capturing group (stuff between paranthesis like <em>b(mmm)c</em>), then strings matching those groups will be included in the split.</p>
+<p>However Douglas is not completely correct when he says that some implementations drop empty strings in the output array when separator is regular expression. If you run <a href="http://markos.gaivo.net/examples/jssplit/index.html">this demo</a> in <a class="zem_slink" title="Mozilla Firefox 3" rel="homepage" href="http://www.firefox.com/">Firefox3</a> and IE7, you&#8217;ll see that IE7 drops even non-empty strings from capturing groups, while Firefox3 includes them.</p>
+<p>Still, I would find a bug in my code faster this week if I read his book sooner.</p>
+<div class="zemanta-pixie"><a class="zemanta-pixie-a" title="Zemified by Zemanta" href="http://reblog.zemanta.com/zemified/098a0fec-e31c-40fe-a1d4-701ecad46969/"><img class="zemanta-pixie-img" src="http://img.zemanta.com/reblog_e.png?x-id=098a0fec-e31c-40fe-a1d4-701ecad46969" alt="Reblog this post [with Zemanta]" /></a><span class="zem-script more-related"><script src="http://static.zemanta.com/readside/loader.js" type="text/javascript"></script></span></div>
+]]></content:encoded>
+			<wfw:commentRss>http://markos.gaivo.net/blog/?feed=rss2&#038;p=322</wfw:commentRss>
+		<slash:comments>1</slash:comments>
+		</item>
+		<item>
+		<title>Simplifying registration forms</title>
+		<link>http://markos.gaivo.net/blog/?p=312</link>
+		<comments>http://markos.gaivo.net/blog/?p=312#comments</comments>
+		<pubDate>Mon, 29 Dec 2008 05:30:46 +0000</pubDate>
+		<dc:creator>markos</dc:creator>
+				<category><![CDATA[Javascript]]></category>
+		<category><![CDATA[forms]]></category>
+		<category><![CDATA[Password]]></category>
+		<category><![CDATA[UI]]></category>
+		<category><![CDATA[Web]]></category>
+
+		<guid isPermaLink="false">http://markos.gaivo.net/blog/?p=312</guid>
+		<description><![CDATA[As I am leaving on a short vacation that will probably take me off grid for few days, there is still a time for a hopefully short, but definitely last post of this year. I don&#8217;t like how registration forms ask me twice for password and I think I can offer a better way. Most [...]]]></description>
+			<content:encoded><![CDATA[<p>As I am leaving on a short vacation that will probably take me off grid for few days, there is still a time for a hopefully short, but definitely last post of this year. I don&#8217;t like how registration forms ask me twice for password and I think I can offer a better way.</p>
+<p>Most registration forms these days still want you to type password of your choice twice. They probably do it to reduce risk of mistyping it. I deeply dislike Facebook, but I think this is one thing it <a title="Registration form on Facebook's homepage" href="http://www.facebook.com/">got right</a>. You only have to do it once. Those with FB accounts can see this in action if they log out for a moment and visit front page.</p>
+<p>There are several reasons why once is enough. First one is that every decent page provides a way to reset password in case you have forgotten it. So even if password was mistyped, it&#8217;s easy to reset it again to a different value. Second reason is that by now it&#8217;s quite well known that most people use a low single-digit number of passwords and don&#8217;t come up with a new one each time they are asked to do so. Hence it&#8217;s quite unlikely they&#8217;ll make an error now after so much practice.</p>
+<p>Third reason is that in most cases you can <a title="Demonstration of show password switch" href="http://markos.gaivo.net/examples/html_pattern/onepass.html">help them</a><a style="font-size: 29.25px; line-height: 42.75px;" title="Demonstration of show password switch" href="http://markos.gaivo.net/examples/html_pattern/onepass.html"></a>.</p>
+<p>When registration forms first appeared internet access was rare and expensive enough that most common environment in which it was used was work or school. It was therefore likely that when you were registering for a service, you weren&#8217;t alone and entered password had to be hidden from people around you. Today it&#8217;s probably opposite. Most of the time I am quite private and could see what I type with no additional security risk.</p>
+<p>So as in demo we could offer a switch that let visitors see what they are typing if they choose to do so. It should still be hidden by default, since we can&#8217;t really tell the environment visitor is in or if Javascript is available. It is always better to err on side of safety.</p>
+<p>As a side note for those who might have peaked at implementation. I&#8217;m replacing password input field because of Internet Explorer, which doesn&#8217;t tolerate type attribute change on input fields. Every other browser tested (FF, Opera, Safari and Chrome) would work perfectly fine by just switching field type from password to text.</p>
+<p>Anyhow, that&#8217;s it for this year. If you leave a comment, which I hope you will, and I don&#8217;t answer, it&#8217;s because I lack Internet access.</p>
+<div class="zemanta-pixie"><a class="zemanta-pixie-a" title="Zemified by Zemanta" href="http://reblog.zemanta.com/zemified/29adbe87-65ae-4456-b653-87682c4081e3/"><img class="zemanta-pixie-img" src="http://img.zemanta.com/reblog_e.png?x-id=29adbe87-65ae-4456-b653-87682c4081e3" alt="Reblog this post [with Zemanta]" /></a></div>
+]]></content:encoded>
+			<wfw:commentRss>http://markos.gaivo.net/blog/?feed=rss2&#038;p=312</wfw:commentRss>
+		<slash:comments>1</slash:comments>
+		</item>
+		<item>
+		<title>Self-referencing page links</title>
+		<link>http://markos.gaivo.net/blog/?p=311</link>
+		<comments>http://markos.gaivo.net/blog/?p=311#comments</comments>
+		<pubDate>Sat, 27 Dec 2008 16:23:46 +0000</pubDate>
+		<dc:creator>markos</dc:creator>
+				<category><![CDATA[Javascript]]></category>
+		<category><![CDATA[UI]]></category>
+		<category><![CDATA[Web]]></category>
+		<category><![CDATA[bug]]></category>
+		<category><![CDATA[HTML]]></category>
+		<category><![CDATA[pattern]]></category>
+		<category><![CDATA[unobtrusive enhancement]]></category>
+
+		<guid isPermaLink="false">http://markos.gaivo.net/blog/?p=311</guid>
+		<description><![CDATA[There&#8217;s an HTML pattern that has been bugging me for a while even though I&#8217;m guilty of using it too. It&#8217;s even present on page you are reading right now. Almost every page has a navigation bar and chances are that strip is presented as some kind of a list of links. Just as it [...]]]></description>
+			<content:encoded><![CDATA[<p>There&#8217;s an HTML pattern that has been bugging me for a while even though I&#8217;m guilty of using it too. It&#8217;s even present on page you are reading right now.</p>
+<p>Almost every page has a navigation bar and chances are that strip is presented as some kind of a list of links. Just as it should be. What bothers me is that when you actually are on page listed in navigation, its navigation item will <a title="An example of this pattern" href="http://www.alistapart.com/articles/">still contain</a> a link to it.</p>
+<p>This reference to itself is like having a door in a room which leads you back in. Not very useful and certainly misleading.</p>
+<p>Better approach is to simply not have a link when that link would point to page itself. Such HTML is also more semantic, since it&#8217;s clear which item was selected and where we are even without a style sheet.</p>
+<p>When discussing this observation it was pointed out to me that with proliferation of Javascript and AJAX you might want to give your visitors a way to bring a page to a known state by reloading it. I think this is more than adequately solved by reload button that every browser has and most users know, but if you find having a link a better solution, why not try a compromise. Just add the missing link with Javascript in spirit of <a href="http://markos.gaivo.net/examples/html_pattern/link.html">this demo</a>.</p>
+<p>This way you won&#8217;t polute content markup with behavior that should sit on top of it.</p>
+]]></content:encoded>
+			<wfw:commentRss>http://markos.gaivo.net/blog/?feed=rss2&#038;p=311</wfw:commentRss>
+		<slash:comments>4</slash:comments>
+		</item>
+		<item>
+		<title>Hiding everything but editor on WordPress with Greasemonkey</title>
+		<link>http://markos.gaivo.net/blog/?p=286</link>
+		<comments>http://markos.gaivo.net/blog/?p=286#comments</comments>
+		<pubDate>Sat, 23 Aug 2008 21:08:30 +0000</pubDate>
+		<dc:creator>markos</dc:creator>
+				<category><![CDATA[Catchall]]></category>
+		<category><![CDATA[Javascript]]></category>
+		<category><![CDATA[Add-on]]></category>
+		<category><![CDATA[Blog]]></category>
+		<category><![CDATA[Firefox]]></category>
+		<category><![CDATA[greasemonkey]]></category>
+		<category><![CDATA[WordPress]]></category>
+
+		<guid isPermaLink="false">http://markos.gaivo.net/blog/?p=286</guid>
+		<description><![CDATA[Fry published few neat Greasemonkey scripts recently and since I am also a fan of this Firefox extension, I thought I might share one myself. It&#8217;s a script I am using right now, while I am typing this post. Script hides everything but editor on &#8220;Create New Post&#8221; page in WordPress. It also adds a [...]]]></description>
+			<content:encoded><![CDATA[<p>Fry <a title="Link to mentione post" href="http://friedcellcollective.net/outbreak/2008/08/15/discovering-greasemonkey-again/">published</a> few neat <a title="Greasemonkey home" href="https://addons.mozilla.org/en-US/firefox/addon/748">Greasemonkey</a> scripts recently and since I am also a fan of this Firefox <a class="zem_slink" title="Add-on (Mozilla)" rel="wikipedia" href="http://en.wikipedia.org/wiki/Add-on_%28Mozilla%29">extension</a>, I thought I might share one myself. It&#8217;s a script I am using right now, while I am typing this post.</p>
+<p>Script hides everything but editor on &#8220;Create New Post&#8221; page in <a class="zem_slink" title="WordPress" rel="homepage" href="http://wordpress.org/">WordPress</a>. It also adds a toggle to the right which you can use to control visibility of hidden parts.</p>
+<p>I did this because I don&#8217;t want to be distracted when I am writing and close-to-empty page helps me stay focused. If you&#8217;re like me, then please <a href="markos.gaivo.net/examples/lovelywp.user.js">download</a> the script.</p>
+<div class="zemanta-pixie" style="margin-top: 10px; height: 15px;"><a class="zemanta-pixie-a" title="Zemified by Zemanta" href="http://reblog.zemanta.com/zemified/b7b787a7-f998-4afb-b5ef-528707fff346/"><img class="zemanta-pixie-img" style="border: medium none; float: right;" src="http://img.zemanta.com/reblog_e.png?x-id=b7b787a7-f998-4afb-b5ef-528707fff346" alt="Reblog this post [with Zemanta]" /></a></div>
+]]></content:encoded>
+			<wfw:commentRss>http://markos.gaivo.net/blog/?feed=rss2&#038;p=286</wfw:commentRss>
+		<slash:comments>2</slash:comments>
+		</item>
+		<item>
+		<title>Google Doctype</title>
+		<link>http://markos.gaivo.net/blog/?p=256</link>
+		<comments>http://markos.gaivo.net/blog/?p=256#comments</comments>
+		<pubDate>Sat, 17 May 2008 15:05:54 +0000</pubDate>
+		<dc:creator>markos</dc:creator>
+				<category><![CDATA[General development]]></category>
+		<category><![CDATA[Javascript]]></category>
+		<category><![CDATA[Web]]></category>
+		<category><![CDATA[Google]]></category>
+		<category><![CDATA[Tools]]></category>
+
+		<guid isPermaLink="false">http://markos.gaivo.net/blog/?p=256</guid>
+		<description><![CDATA[While I was busy this week Google released Doctype. The good thing about being late to a web party is that someone somewhere is bound to save you work of expressing yourself by presenting same impressions in a way you couldn&#8217;t. John Resig did it for me this time. Related articles Google Doctype, an Encyclopedia [...]]]></description>
+			<content:encoded><![CDATA[<p>While I was busy this week Google released <a title="Link to Google Doctype website" href="http://code.google.com/doctype/">Doctype</a>. The good thing about being late to a web party is that someone somewhere is bound to save you work of expressing yourself by presenting same impressions in a way you couldn&#8217;t. John Resig <a href="http://ejohn.org/blog/google-doctype/">did it</a> for me this time.</p>
+<fieldset class="zemanta-related" style="margin: 0.5em 0pt 1em; padding: 0pt;">
+<legend class="zemanta-title">Related articles</legend>
+<ul class="zemanta-article-ul" style="margin: 1em 0pt 1.5em; padding: 0pt;">
+<li class="zemanta-article" style="margin: 0.5em 2em;"><a title="Open in new window" href="http://googlesystem.blogspot.com/2008/05/google-doctype-encyclopedia-for-web.html" target="_blank">Google Doctype, an Encyclopedia for Web Developers</a> [via Zemanta]</li>
+</ul>
+</fieldset>
+<div id="zemanta-pixie" style="margin: 5px 0pt; width: 100%;"><a id="zemanta-pixie-a" title="Zemified by Zemanta" href="http://www.zemanta.com/"><img id="zemanta-pixie-img" style="border: medium none; float: right;" src="http://img.zemanta.com/pixie.png?x-id=fc53c40f-b4c6-4225-b5ad-83fd86e14e94" alt="" /></a></div>
+]]></content:encoded>
+			<wfw:commentRss>http://markos.gaivo.net/blog/?feed=rss2&#038;p=256</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+	</channel>
+</rss>

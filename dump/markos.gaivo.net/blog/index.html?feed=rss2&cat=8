@@ -1,0 +1,234 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>A notch above a monkey &#187; Spletne urice</title>
+	<atom:link href="http://markos.gaivo.net/blog/?feed=rss2&#038;cat=8" rel="self" type="application/rss+xml" />
+	<link>http://markos.gaivo.net/blog</link>
+	<description></description>
+	<lastBuildDate>Mon, 26 Jan 2015 07:00:03 +0000</lastBuildDate>
+	<language>en</language>
+	<sy:updatePeriod>hourly</sy:updatePeriod>
+	<sy:updateFrequency>1</sy:updateFrequency>
+	<generator>http://wordpress.org/?v=3.0.5</generator>
+		<item>
+		<title>6th anniversary of wwwh</title>
+		<link>http://markos.gaivo.net/blog/?p=807</link>
+		<comments>http://markos.gaivo.net/blog/?p=807#comments</comments>
+		<pubDate>Wed, 05 Oct 2011 11:30:06 +0000</pubDate>
+		<dc:creator>markos</dc:creator>
+				<category><![CDATA[Spletne urice]]></category>
+		<category><![CDATA[spletne urice]]></category>
+		<category><![CDATA[talks]]></category>
+		<category><![CDATA[wwwh]]></category>
+
+		<guid isPermaLink="false">http://markos.gaivo.net/blog/?p=807</guid>
+		<description><![CDATA[Web Hours (spletne urice) is a series of web related talks that is happening weekly here in Ljubljana and is free for everyone. Today&#8217;s talk, happening on sixth anniversary of the first, will be 181th. A lot of people shared a lot of knowledge and our community has grown from a handful coming to first [...]]]></description>
+			<content:encoded><![CDATA[<p><a title="Events homepage" href="http://wwwh.si">Web Hours</a> (spletne urice) is a series of web related talks that is happening weekly here in Ljubljana and is free for everyone. <a title="Talk topic: reputation management" href="http://wwwh.si/spletne-urice-181-upravljanje-z-dobrim-imenom/">Today&#8217;s talk</a>, happening on sixth anniversary of <a title="Topic: PHP in time of terrorism" href="http://wwwh.si/spletne-urice-1-php-v-oasu-terorizma/">the first</a>, will be 181th. A lot of people shared a lot of knowledge and our community has grown from a handful coming to first few talks to few tens of regular attendees. We never made a really serious effort at counting, but I would be surprised if few talks haven&#8217;t drawn close to a hundred people. My congratulations and thanks to all who made it happen!</p>
+<p>I started Web Hours on <a title="Andraž's twitter page" href="http://twitter.com/andraz">Andraž&#8217;s</a> suggestion because I was not happy with  the quality of work done in Slovenia and I thought regular web talks could educate and help raise awareness. Looking back at the state of industry then and where we are now, it is obvious we came a long way and I&#8217;d like to think our talks played a part in it. I may be biased, but not that much because I stopped organizing them a long time ago so kudos really goes to <a title="Marko Mrdjenovič - Fry" href="http://friedcell.net/home">those who</a> <a title="Davorin Pavlica" href="http://twitter.com/DavorinPavlica">followed me</a>.</p>
+<p>It is still easy to find <a title="Look at page source if you dare" href="http://www.zrkv.si/">shoddy work</a>, but this will never change. You can find it in any field and there is no reason why web should be any different. There is always room for growth, but I am fairly satisfied with Slovenian web development community. These days there is no shortage of interesting events (meetups, hackdays, camps of various kinds) where you can meet kindred spirits, many of whom are doing interesting stuff. I wish there was more open web evangelism, but talks always were what we made them and it&#8217;s up to us open web advocates to go out there more often.</p>
+<p>On the other hand Slovenian UX community depresses me. It seems to be full of people with big egos, very limited knowledge and low self-esteem resulting in an environment where constructive criticism is avoided and learning remains personal and, as community, slow. There are exceptions to this, but right now it seems it is enough to read a couple of books and follow a few related blogs to justify a UX related title on your business card and profess expertise. Critical assessment of problems and approaches is largely missing. There is a difference between cutting corners and skipping all steps &#8212; being agile is not a justification for being lazy. Events are rare and online discussions feel limited to regurgitating blog opinions as facts and discussing eternal, but mostly answered questions (e.g. how much of underlying technology do non-developers need to know?).</p>
+<p>Then again I may be just an old grump. My feelings about UX community are not all that different to what I felt about web development community six years ago and that one turned out OK. Maybe I <em>am</em> just too quick to judge and things will turn out just fine soon enough. We&#8217;ll see. See you tonight in <a href="http://www.kiberpipa.org/">Kiberpipa</a>.</p>
+]]></content:encoded>
+			<wfw:commentRss>http://markos.gaivo.net/blog/?feed=rss2&#038;p=807</wfw:commentRss>
+		<slash:comments>7</slash:comments>
+		</item>
+		<item>
+		<title>Javascript events &#8211; drugi??</title>
+		<link>http://markos.gaivo.net/blog/?p=249</link>
+		<comments>http://markos.gaivo.net/blog/?p=249#comments</comments>
+		<pubDate>Wed, 05 Mar 2008 09:12:05 +0000</pubDate>
+		<dc:creator>markos</dc:creator>
+				<category><![CDATA[Javascript]]></category>
+		<category><![CDATA[Spletne urice]]></category>
+
+		<guid isPermaLink="false">http://markos.gaivo.net/blog/?p=249</guid>
+		<description><![CDATA[Moje predavanje o Javascript events, ki je odpadlo pred dvema tednoma, bo na sporedu danes. Isti kraj in ??as &#8212; ob 19h v Kiberpipi. Bralcem se opravi??ujem za pozno sporo??ilo, ki vsaj upam vseeno ni prepozno.]]></description>
+			<content:encoded><![CDATA[<p><a href="http://markos.gaivo.net/blog/?p=248" title="Prejšnja najava">Moje predavanje</a> o Javascript events, ki je odpadlo pred dvema tednoma, bo na sporedu danes. Isti kraj in ??as &#8212; ob 19h v Kiberpipi.</p>
+<p>Bralcem se opravi??ujem za pozno sporo??ilo, ki vsaj upam vseeno ni prepozno.</p>
+]]></content:encoded>
+			<wfw:commentRss>http://markos.gaivo.net/blog/?feed=rss2&#038;p=249</wfw:commentRss>
+		<slash:comments>1</slash:comments>
+		</item>
+		<item>
+		<title>Javascript events</title>
+		<link>http://markos.gaivo.net/blog/?p=248</link>
+		<comments>http://markos.gaivo.net/blog/?p=248#comments</comments>
+		<pubDate>Fri, 15 Feb 2008 17:23:31 +0000</pubDate>
+		<dc:creator>markos</dc:creator>
+				<category><![CDATA[Javascript]]></category>
+		<category><![CDATA[Spletne urice]]></category>
+
+		<guid isPermaLink="false">http://markos.gaivo.net/blog/?p=248</guid>
+		<description><![CDATA[V sredo, 20.2., bom imel na Spletnih uricah drugi del predavanja o Javascriptu. Tema tokratnega predavanja bodo dogodki v brskalniku znani tudi kot Javascript events. Tudi tokrat je vsebina preobsežna, da bi lahko pokril prav vse, mislim pa, da bo z malo sre??e in spretnosti možno obiskati vse pomembnejše vidike. Predavanje tudi tokrat še ni [...]]]></description>
+			<content:encoded><![CDATA[<p>V sredo, 20.2., bom imel na <a href="http://web.zen.si/">Spletnih uricah</a> drugi del predavanja o Javascriptu. Tema tokratnega predavanja bodo dogodki v brskalniku znani tudi kot <em>Javascript events</em>. Tudi tokrat je vsebina preobsežna, da bi lahko pokril prav vse, mislim pa, da bo z malo sre??e in spretnosti možno obiskati vse pomembnejše vidike. Predavanje tudi tokrat še ni kon??ano in zato z veseljem sprejemam inpute vseh vrst, ki bi pripomogli k temu, da bo ??im boljše.</p>
+<p>Kraj dogodka bo seveda <a href="http://www.kiberpipa.org/">Kiberpipa</a>. Vsi bralci ste seveda vljudno vabljeni.</p>
+<p><strong>Obvestilo: Predavanje je zaradi vnetega grla prestavljeno na kasnejši ??as. Podrobnosti o današnjem nadomestnem predavanju pa naj bi bile objavljene na strani Spletnih uric.</strong></p>
+]]></content:encoded>
+			<wfw:commentRss>http://markos.gaivo.net/blog/?feed=rss2&#038;p=248</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+		<item>
+		<title>AJAX Workshop: End of Act I</title>
+		<link>http://markos.gaivo.net/blog/?p=158</link>
+		<comments>http://markos.gaivo.net/blog/?p=158#comments</comments>
+		<pubDate>Thu, 27 Apr 2006 09:06:20 +0000</pubDate>
+		<dc:creator>markos</dc:creator>
+				<category><![CDATA[Spletne urice]]></category>
+
+		<guid isPermaLink="false">http://markos.gaivo.net/blog/?p=158</guid>
+		<description><![CDATA[First part of AJAX workshop is behind me and I enjoyed it immensely. I hope our participants did as well or failing that, I hope we didn&#8217;t waste their time too much. Looking back I&#8217;m not satisfied with everything we did and I wish I&#8217;ve done my part better. I&#8217;m sure I wasn&#8217;t clear or [...]]]></description>
+			<content:encoded><![CDATA[<p>First part of AJAX workshop is behind me and I enjoyed it immensely. I hope our participants did as well or failing that, I hope we didn&#8217;t waste their time too much.</p>
+<p>Looking back I&#8217;m not satisfied with everything we did and I wish I&#8217;ve done my part better. I&#8217;m sure I wasn&#8217;t clear or coherent enough. Fry did much better, but I feel we could do better with examples.</p>
+<p>If we ever repeat this workshop, and we both would love to, we&#8217;ll have to make it longer, since there simply wasn&#8217;t enough time to talk about the details and quirks that can and usually do waste majority of your time.</p>
+<p>If you were there yesterday, then please drop me a line or two about your experience. I&#8217;d also love to hear what you want from second part of the workshop, since it&#8217;s not too late to change it to suit you better.</p>
+]]></content:encoded>
+			<wfw:commentRss>http://markos.gaivo.net/blog/?feed=rss2&#038;p=158</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+		<item>
+		<title>AJAX workshop</title>
+		<link>http://markos.gaivo.net/blog/?p=150</link>
+		<comments>http://markos.gaivo.net/blog/?p=150#comments</comments>
+		<pubDate>Thu, 13 Apr 2006 08:31:48 +0000</pubDate>
+		<dc:creator>markos</dc:creator>
+				<category><![CDATA[Javascript]]></category>
+		<category><![CDATA[Spletne urice]]></category>
+		<category><![CDATA[Web]]></category>
+
+		<guid isPermaLink="false">http://markos.gaivo.net/blog/?p=150</guid>
+		<description><![CDATA[Fry said: We’re preparing a workshop at Spletne urice (???Web hours??? in Slovenian, a weekly meeting of web enthusiasts) that will focus on AJAX, hosted by me and another Marko. Actually we’re preparing two of them. The first one will cover the basics of asynchronous transport and data, the second one will add some DOM [...]]]></description>
+			<content:encoded><![CDATA[<p>Fry <a href="http://friedcellcollective.net/outbreak/2006/04/12/ajax-workshop/">said</a>:</p>
+<blockquote><p>We’re preparing a workshop at Spletne urice (???Web hours??? in Slovenian, a weekly meeting of web enthusiasts) that will focus on AJAX, hosted by me and another Marko. Actually we’re preparing two of them. The first one will cover the basics of asynchronous transport and data, the second one will add some DOM scripting and review some AJAX frameworks.</p></blockquote>
+<p>Being the other Marko I can say this workshop will totally rock. It has to, because AJAX is cool, right? Instant fame, riches and all that.</p>
+<p>Seriously though, I do believe it will be a great experience for those who&#8217;ll attend. Everyone is welcome, but only first 10, sorry, 9 <a href="http://web.zen.si/archives/2006/04/ajax-workshop/">registered</a> will get this chance because of limits imposed on us by the choice of venue. It&#8217;s even free (not likely to happen again any time soon), so price can be hardly something to worry about.</p>
+<p>You can also help us make it better for you by contributing websites you&#8217;d like to see getting a makeover and telling us as much as you can about what you&#8217;d like to hear there (and what not).</p>
+<p><strong>Update: Workshop is full and registration is closed. I&#8217;m sorry not everyone will get a chance to participate, but we might do another one later this year.</strong></p>
+]]></content:encoded>
+			<wfw:commentRss>http://markos.gaivo.net/blog/?feed=rss2&#038;p=150</wfw:commentRss>
+		<slash:comments>2</slash:comments>
+		</item>
+		<item>
+		<title>The day after</title>
+		<link>http://markos.gaivo.net/blog/?p=134</link>
+		<comments>http://markos.gaivo.net/blog/?p=134#comments</comments>
+		<pubDate>Thu, 09 Mar 2006 11:28:18 +0000</pubDate>
+		<dc:creator>markos</dc:creator>
+				<category><![CDATA[Spletne urice]]></category>
+
+		<guid isPermaLink="false">http://markos.gaivo.net/blog/?p=134</guid>
+		<description><![CDATA[Yesterday I gave my very first talk in English. Broken English, to be sure, but hopefully good enough to be understood. I&#8217;m grateful to everyone who came and I hope you didn&#8217;t feel like your time was wasted. In any case, if you can spare a moment or two, I&#8217;d love to hear your honest [...]]]></description>
+			<content:encoded><![CDATA[<p>Yesterday I gave my very first talk in English. Broken English, to be sure, but hopefully good enough to be understood. I&#8217;m grateful to everyone who came and I hope you didn&#8217;t feel like your time was wasted.</p>
+<p>In any case, if you can spare a moment or two, I&#8217;d love to hear your honest thoughts about it.</p>
+]]></content:encoded>
+			<wfw:commentRss>http://markos.gaivo.net/blog/?feed=rss2&#038;p=134</wfw:commentRss>
+		<slash:comments>2</slash:comments>
+		</item>
+		<item>
+		<title>iPod talk this Wednesday</title>
+		<link>http://markos.gaivo.net/blog/?p=133</link>
+		<comments>http://markos.gaivo.net/blog/?p=133#comments</comments>
+		<pubDate>Sun, 05 Mar 2006 15:23:40 +0000</pubDate>
+		<dc:creator>markos</dc:creator>
+				<category><![CDATA[Spletne urice]]></category>
+		<category><![CDATA[UI]]></category>
+		<category><![CDATA[Web]]></category>
+
+		<guid isPermaLink="false">http://markos.gaivo.net/blog/?p=133</guid>
+		<description><![CDATA[I&#8217;ll be giving a talk this Wednesday at 19:00 in Kiberpipa as promised some time ago. The theme of the talk will be lessons learned from iPod about (web) design and everyone is welcome to attend. I&#8217;m buying a drink for everyone, who&#8217;ll manage to stay through my rather short talk and won&#8217;t flee the [...]]]></description>
+			<content:encoded><![CDATA[<p>I&#8217;ll be giving a talk this Wednesday at 19:00 in <a href="http://www.kiberpipa.org/index.php?module=ContentExpress&amp;file=index&amp;func=display&amp;ceid=6&amp;meid=25">Kiberpipa</a> as <a href="http://markos.gaivo.net/blog/?p=113">promised</a> some time ago. The theme of the talk will be lessons learned from iPod about (web) design and everyone is welcome to attend.</p>
+<p>I&#8217;m buying a drink for everyone, who&#8217;ll manage to stay through my rather short talk and won&#8217;t flee the scene immediately afterwards. The talk will probably be given in English.</p>
+]]></content:encoded>
+			<wfw:commentRss>http://markos.gaivo.net/blog/?feed=rss2&#038;p=133</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+		<item>
+		<title>Whitespace whining</title>
+		<link>http://markos.gaivo.net/blog/?p=126</link>
+		<comments>http://markos.gaivo.net/blog/?p=126#comments</comments>
+		<pubDate>Thu, 16 Feb 2006 18:07:46 +0000</pubDate>
+		<dc:creator>markos</dc:creator>
+				<category><![CDATA[Python]]></category>
+		<category><![CDATA[Spletne urice]]></category>
+
+		<guid isPermaLink="false">http://markos.gaivo.net/blog/?p=126</guid>
+		<description><![CDATA[Ian Bicking&#8217;s wrote a list of python wishes. There&#8217;s stuff I agree with, some with which I don&#8217;t and stuff I simply don&#8217;t understand. But what caught my eye was: Things I wouldn&#8217;t do: Put up with any significant-whitespace whining. Here 99% of the Python community is with me. I think there is a meme [...]]]></description>
+			<content:encoded><![CDATA[<p>Ian Bicking&#8217;s wrote <a href="http://blog.ianbicking.org/my-python-4k.html">a list</a> of python wishes. There&#8217;s stuff I agree with, some with which I don&#8217;t and stuff I simply don&#8217;t understand. But what caught my eye was:</p>
+<blockquote><p>Things I wouldn&#8217;t do:<br />
+Put up with any significant-whitespace whining. Here 99% of the Python community is with me. I think there is a meme that Python people are close-minded to suggestions for changes in the language. I think there is significant truth to that. But sometimes everyone else is just completely wrong. I want nothing to do with any programmer who would mis-indent their code. If you want to mis-indent your code you are an idiot. If you want idiotic code to be an option you are being absurd.</p></blockquote>
+<p>Precisely. Yesterday was our regular <a href="http://web.zen.si/">web talk evening</a>, which is often followed by a lively debate. As usual we covered all sorts of topics, one of which was Python. To paraphrase a part of it:</p>
+<blockquote><p>A: I don&#8217;t like Python because of significant whitespace.<br />
+B: Do you indent your code?<br />
+A: Yes, of course.<br />
+B: And the problem is?</p></blockquote>
+<p>I can&#8217;t understand how this complaint doesn&#8217;t die. I can understand that some other language can tickle their fancy. People have different tastes and if some people like it rough, who am I to judge. But why in the world would you wish for a feature you&#8217;d never be stupid enough to use?</p>
+]]></content:encoded>
+			<wfw:commentRss>http://markos.gaivo.net/blog/?feed=rss2&#038;p=126</wfw:commentRss>
+		<slash:comments>16</slash:comments>
+		</item>
+		<item>
+		<title>Hiding form buttons as text</title>
+		<link>http://markos.gaivo.net/blog/?p=84</link>
+		<comments>http://markos.gaivo.net/blog/?p=84#comments</comments>
+		<pubDate>Fri, 02 Dec 2005 14:49:23 +0000</pubDate>
+		<dc:creator>markos</dc:creator>
+				<category><![CDATA[Spletne urice]]></category>
+		<category><![CDATA[UI]]></category>
+		<category><![CDATA[Web]]></category>
+
+		<guid isPermaLink="false">http://markos.gaivo.net/blog/?p=84</guid>
+		<description><![CDATA[I love going to our weekly web talks not so much for the talks themselves (although they are great), but conversations you get to have there. A part of a recent one rendered from memory and shortened for readers pleasure: Fry: Those delete strings of yours should really be post requests. GA&#8217;s pre-fetching might destroy [...]]]></description>
+			<content:encoded><![CDATA[<p>I love going to our weekly web talks not so much for the talks themselves (although they are great), but conversations you get to have there. A part of a recent one rendered from memory and shortened for readers pleasure:</p>
+<blockquote><p><strong>Fry: </strong>Those delete strings of yours should really be post requests. <a href="http://webaccelerator.google.com/" title="Link to web accelerator that shouldn't be used">GA&#8217;s</a> pre-fetching might destroy user&#8217;s data.<br />
+<strong>Me:</strong> &lt;beeeeep&gt; Google. RFC says should not must.<br />
+<strong>Fry:</strong> Well, since it also says multiple GET requests should yield same result, it really is a must for delete.<br />
+<strong>Me</strong> (not ready to give up): True, but so many form buttons will look like crap.<br />
+<strong>Fry:</strong> Well, you can hide them by removing border, setting background-color to background and fixing font size to 1 em.<br />
+<strong>Me:</strong> Uhm, this might work, but probably doesn&#8217;t, because browsers use controls from operating system.<br />
+<strong>Fry:</strong> Well, try it.</p></blockquote>
+<p>I may be stubborn, but I&#8217;m not a complete moron. So I did and here&#8217;s <a href="http://markos.gaivo.net/examples/hidebutton.html" title="Demo">the result</a>.</p>
+<p>As can be seen, it works beautifully in Firefox (1.0+) and Opera 8 (I share my visitors indifference to earlier versions). It doesn&#8217;t work in Safari at all, but since its buttons are not obnoxiously ugly, I can live with that.</p>
+<p>However, it has unseemly big padding in Internet Explorer, which is the real deal-breaker for now.</p>
+<p>I think demo&#8217;s style sheet is pretty self explanatory, but here&#8217;s what I did by mostly following Fry&#8217;s instructions:</p>
+<ul>
+<li>set border to 0</li>
+<li>same for padding and margin</li>
+<li>set background-color of the button to the same value as background of the document</li>
+<li>did the same for color of text</li>
+<li>set the size of button text to 1 em so it&#8217;s displayed in right size in every browser</li>
+<li>set cursor to pointer, since it&#8217;s not done automatically for buttons</li>
+</ul>
+<p><a href="http://www.friedcellcollective.net/" title="Fry's web home">Fry</a> was also correct that bold and italics work and underline doesn&#8217;t, but you can simulate later with border-bottom. Except in IE of course, on account of padding.</p>
+<p>There&#8217;s another shortcoming to consider. If background is an image or a color gradient instead of a solid color, this trick won&#8217;t work.</p>
+<p>So, any ideas about what to do with IE?</p>
+]]></content:encoded>
+			<wfw:commentRss>http://markos.gaivo.net/blog/?feed=rss2&#038;p=84</wfw:commentRss>
+		<slash:comments>3</slash:comments>
+		</item>
+		<item>
+		<title>Nevsiljiv Javascript &#8211; aftermath</title>
+		<link>http://markos.gaivo.net/blog/?p=83</link>
+		<comments>http://markos.gaivo.net/blog/?p=83#comments</comments>
+		<pubDate>Thu, 01 Dec 2005 08:09:24 +0000</pubDate>
+		<dc:creator>markos</dc:creator>
+				<category><![CDATA[Javascript]]></category>
+		<category><![CDATA[Spletne urice]]></category>
+
+		<guid isPermaLink="false">http://markos.gaivo.net/blog/?p=83</guid>
+		<description><![CDATA[Talk is behind me and I&#8217;d like to thank all who came and especially to those, who stayed through the whole thing. Looking back, there are certainly things I&#8217;d do differently, if I got the chance, but at least it wasn&#8217;t a horrendous experience for me and the audience like my last talk a few [...]]]></description>
+			<content:encoded><![CDATA[<p>Talk is behind me and I&#8217;d like to thank all who came and especially to those, who stayed through the whole thing.</p>
+<p>Looking back, there are certainly things I&#8217;d do differently, if I got the chance, but at least it wasn&#8217;t a horrendous experience for me and the audience like my last talk a few years ago was.</p>
+<p>I&#8217;ll post my slides of dubious value later today or tomorrow at the <a href="http://web.zen.si">usual place</a> and I&#8217;ll try to prepare a Lessig-like webcast over the weekend. I hope to see everyone next week on Tuesday. Boštjan Ber??i?? will talk about responsibility of publishers on web, a talk that everyone who publishes on the web in Slovenia should probably hear.</p>
+]]></content:encoded>
+			<wfw:commentRss>http://markos.gaivo.net/blog/?feed=rss2&#038;p=83</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+	</channel>
+</rss>

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+		>
+<channel>
+	<title>Comments on: First look at upcoming WordPress 2.0</title>
+	<atom:link href="http://markos.gaivo.net/blog/?feed=rss2&#038;p=101" rel="self" type="application/rss+xml" />
+	<link>http://markos.gaivo.net/blog/?p=101</link>
+	<description></description>
+	<lastBuildDate>Wed, 16 Jul 2014 16:04:38 +0000</lastBuildDate>
+	<sy:updatePeriod>hourly</sy:updatePeriod>
+	<sy:updateFrequency>1</sy:updateFrequency>
+	<generator>http://wordpress.org/?v=3.0.5</generator>
+	<item>
+		<title>By: markos</title>
+		<link>http://markos.gaivo.net/blog/?p=101&#038;cpage=1#comment-406</link>
+		<dc:creator>markos</dc:creator>
+		<pubDate>Thu, 22 Dec 2005 14:02:31 +0000</pubDate>
+		<guid isPermaLink="false">http://markos.gaivo.net/blog/?p=101#comment-406</guid>
+		<description>Thanks for the tip, Brian. I&#039;ll take a look at it, when I install FF1.5.</description>
+		<content:encoded><![CDATA[<p>Thanks for the tip, Brian. I&#8217;ll take a look at it, when I install FF1.5.</p>
+]]></content:encoded>
+	</item>
+	<item>
+		<title>By: Brian King</title>
+		<link>http://markos.gaivo.net/blog/?p=101&#038;cpage=1#comment-358</link>
+		<dc:creator>Brian King</dc:creator>
+		<pubDate>Wed, 21 Dec 2005 14:07:15 +0000</pubDate>
+		<guid isPermaLink="false">http://markos.gaivo.net/blog/?p=101#comment-358</guid>
+		<description>If you use Firefox, here is a new and nifty extension for creating blog posts. Wordpress is supported.
+
+http://performancing.com/firefox
+
+Review:
+http://www.solutionwatch.com/301/blog-from-firefox-with-performancing-for-firefox/
+
+Like WP itself, it has a few rough edges. But it is great for quick entries, and makes necessary trips to the WP admin panel less frequent.</description>
+		<content:encoded><![CDATA[<p>If you use Firefox, here is a new and nifty extension for creating blog posts. WordPress is supported.</p>
+<p><a href="http://performancing.com/firefox">http://performancing.com/firefox</a></p>
+<p>Review:<br />
+<a href="http://www.solutionwatch.com/301/blog-from-firefox-with-performancing-for-firefox/">http://www.solutionwatch.com/301/blog-from-firefox-with-performancing-for-firefox/</a></p>
+<p>Like WP itself, it has a few rough edges. But it is great for quick entries, and makes necessary trips to the WP admin panel less frequent.</p>
+]]></content:encoded>
+	</item>
+</channel>
+</rss>

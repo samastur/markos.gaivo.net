@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+		>
+<channel>
+	<title>Comments on: Looking for Adobe RGB to sRGB conversion tool</title>
+	<atom:link href="http://markos.gaivo.net/blog/?feed=rss2&#038;p=235" rel="self" type="application/rss+xml" />
+	<link>http://markos.gaivo.net/blog/?p=235</link>
+	<description></description>
+	<lastBuildDate>Wed, 16 Jul 2014 16:04:38 +0000</lastBuildDate>
+	<sy:updatePeriod>hourly</sy:updatePeriod>
+	<sy:updateFrequency>1</sy:updateFrequency>
+	<generator>http://wordpress.org/?v=3.0.5</generator>
+	<item>
+		<title>By: Mark</title>
+		<link>http://markos.gaivo.net/blog/?p=235&#038;cpage=1#comment-217585</link>
+		<dc:creator>Mark</dc:creator>
+		<pubDate>Thu, 23 Sep 2010 13:45:20 +0000</pubDate>
+		<guid isPermaLink="false">http://markos.gaivo.net/blog/?p=235#comment-217585</guid>
+		<description>You can find a simple tool to assign different color profiles at http://www.color-converter.com 
+The programme CC File Converter lets you take any PNG, GIF or JPEG file and change its color profile.
+If you need something that can be called from the command line, feel free to contact me at http://qurl.tk/du</description>
+		<content:encoded><![CDATA[<p>You can find a simple tool to assign different color profiles at <a href="http://www.color-converter.com">http://www.color-converter.com</a><br />
+The programme CC File Converter lets you take any PNG, GIF or JPEG file and change its color profile.<br />
+If you need something that can be called from the command line, feel free to contact me at <a href="http://qurl.tk/du">http://qurl.tk/du</a></p>
+]]></content:encoded>
+	</item>
+	<item>
+		<title>By: markos</title>
+		<link>http://markos.gaivo.net/blog/?p=235&#038;cpage=1#comment-70743</link>
+		<dc:creator>markos</dc:creator>
+		<pubDate>Thu, 26 Jul 2007 19:30:39 +0000</pubDate>
+		<guid isPermaLink="false">http://markos.gaivo.net/blog/?p=235#comment-70743</guid>
+		<description>Thanks to all for great info :)</description>
+		<content:encoded><![CDATA[<p>Thanks to all for great info <img src='http://markos.gaivo.net/blog/wp-includes/images/smilies/icon_smile.gif' alt=':)' class='wp-smiley' /> </p>
+]]></content:encoded>
+	</item>
+	<item>
+		<title>By: Ants Aasma</title>
+		<link>http://markos.gaivo.net/blog/?p=235&#038;cpage=1#comment-70546</link>
+		<dc:creator>Ants Aasma</dc:creator>
+		<pubDate>Wed, 25 Jul 2007 19:47:22 +0000</pubDate>
+		<guid isPermaLink="false">http://markos.gaivo.net/blog/?p=235#comment-70546</guid>
+		<description>You can use PIL for this, just feed the Adobe RGB to sRGB matrix to the image.convert function.</description>
+		<content:encoded><![CDATA[<p>You can use PIL for this, just feed the Adobe RGB to sRGB matrix to the image.convert function.</p>
+]]></content:encoded>
+	</item>
+	<item>
+		<title>By: Arnar Birgisson</title>
+		<link>http://markos.gaivo.net/blog/?p=235&#038;cpage=1#comment-70257</link>
+		<dc:creator>Arnar Birgisson</dc:creator>
+		<pubDate>Tue, 24 Jul 2007 15:16:29 +0000</pubDate>
+		<guid isPermaLink="false">http://markos.gaivo.net/blog/?p=235#comment-70257</guid>
+		<description>I wrote a simple C program in few lines to encapsulate the lcms (little color management system) library. It converts from cmyk to rgb given input and output profiles, but it could be easily modified for rgb-rgb conversion.
+
+Send me an email if you&#039;re interested and I&#039;ll send you the source (or even a linux binary if you dare).</description>
+		<content:encoded><![CDATA[<p>I wrote a simple C program in few lines to encapsulate the lcms (little color management system) library. It converts from cmyk to rgb given input and output profiles, but it could be easily modified for rgb-rgb conversion.</p>
+<p>Send me an email if you&#8217;re interested and I&#8217;ll send you the source (or even a linux binary if you dare).</p>
+]]></content:encoded>
+	</item>
+	<item>
+		<title>By: David Smith</title>
+		<link>http://markos.gaivo.net/blog/?p=235&#038;cpage=1#comment-70246</link>
+		<dc:creator>David Smith</dc:creator>
+		<pubDate>Tue, 24 Jul 2007 13:27:37 +0000</pubDate>
+		<guid isPermaLink="false">http://markos.gaivo.net/blog/?p=235#comment-70246</guid>
+		<description>If I am not mistaken you can do it with little cms&#039;s utilities:
+http://www.littlecms.com/newutils.htm
+Check out the jpegicc and tifficc commands. I always use digikam or ufraw to apply color spaces, so I am not a hundred percent sure this will work.
+In fact I saw this info in an article in Linux Journal (http://www.linuxjournal.com/article/6635). This article has a ton of good info.
+Maybe that will point you in a descent direction.</description>
+		<content:encoded><![CDATA[<p>If I am not mistaken you can do it with little cms&#8217;s utilities:<br />
+<a href="http://www.littlecms.com/newutils.htm">http://www.littlecms.com/newutils.htm</a><br />
+Check out the jpegicc and tifficc commands. I always use digikam or ufraw to apply color spaces, so I am not a hundred percent sure this will work.<br />
+In fact I saw this info in an article in Linux Journal (<a href="http://www.linuxjournal.com/article/6635">http://www.linuxjournal.com/article/6635</a>). This article has a ton of good info.<br />
+Maybe that will point you in a descent direction.</p>
+]]></content:encoded>
+	</item>
+</channel>
+</rss>

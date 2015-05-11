@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>A notch above a monkey &raquo; News at seven &#8211; javascript i18n that almost doesn&#8217;t suck</title>
+	<meta charset="utf-8" />
+	
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" /> 
+
+	<link rel="shortcut icon" href="/img/markos.ico" />
+	
+	<meta name="generator" content="WordPress 3.0.5" /> <!-- leave this for stats please -->
+
+	<link href="http://fast.fonts.com/cssapi/aee9b60b-8e94-47f8-b586-3ecbfab51d1c.css" rel="stylesheet" type="text/css" />
+	<link rel="stylesheet" type="text/css" href="css/home.css" media="screen" title="Light theme" />
+	<link rel="alternate stylesheet" type="text/css" href="css/home_dark.css" media="screen" title="Dark theme" />
+	<link rel="stylesheet" href="css/ipad.css" media="only screen and (min-device-width : 768px) and (max-device-width : 1024px)">
+	<link rel="stylesheet" type="text/css" href="css/smallscreen.css" media="only screen and (max-width: 700px)" />
+
+	<link rel="alternate" type="application/rss+xml" title="RSS 2.0" href="http://markos.gaivo.net/blog/?feed=rss2" />
+	<link rel="alternate" type="application/atom+xml" title="Atom 1.0" href="http://markos.gaivo.net/blog/?feed=atom" />
+	<link rel='canonical' href='http://markos.gaivo.net/blog/?p=664' />
+
+	<link rel="pingback" href="http://markos.gaivo.net/blog/xmlrpc.php" />
+
+	<link rel="alternate" type="application/rss+xml" title="A notch above a monkey &raquo; News at seven &#8211; javascript i18n that almost doesn&#8217;t suck Comments Feed" href="http://markos.gaivo.net/blog/?feed=rss2&amp;p=100" />
+<link rel="EditURI" type="application/rsd+xml" title="RSD" href="http://markos.gaivo.net/blog/xmlrpc.php?rsd" />
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="http://markos.gaivo.net/blog/wp-includes/wlwmanifest.xml" /> 
+<link rel='index' title='A notch above a monkey' href='http://markos.gaivo.net/blog' />
+<link rel='start' title='First post' href='http://markos.gaivo.net/blog/?p=2' />
+<link rel='prev' title='In defense of a regular user' href='http://markos.gaivo.net/blog/?p=99' />
+<link rel='next' title='First look at upcoming WordPress 2.0' href='http://markos.gaivo.net/blog/?p=101' />
+<meta name="generator" content="WordPress 3.0.5" />
+<link rel='canonical' href='http://markos.gaivo.net/blog/?p=100' />
+
+	<!--[if lt IE 9]>
+	<script src="/js/html5.js"></script>
+	<![endif]-->
+</head>
+<body>
+					<header>
+		<h1><a href="/blog/">A notch above a monkey</a> &raquo; News at seven &#8211; javascript i18n that almost doesn&#8217;t suck</h1>
+	</header>
+
+	<section class="envelope">
+		<article class="post">
+			<header>
+				<h1>News at seven &#8211; javascript i18n that almost doesn&#8217;t suck</h1>
+			</header>
+
+			<footer>
+				<ul>
+					<li class="by">Written by: <a href="/">Marko Samastur</a></li>
+					<li class="published">Published on: <time datetime="2005-12-19T19:36:32+00:00" pubdate>December 19, 2005</time></li>
+					<li class="categories">Categories: <a href="http://markos.gaivo.net/blog/?cat=1" title="View all posts in Javascript" rel="category">Javascript</a>, <a href="http://markos.gaivo.net/blog/?cat=7" title="View all posts in UI" rel="category">UI</a>, <a href="http://markos.gaivo.net/blog/?cat=4" title="View all posts in Web" rel="category">Web</a></li>
+					<li class="post-comments">Comments: <a href="http://markos.gaivo.net/blog/?p=100#comments" title="Comment on News at seven &#8211; javascript i18n that almost doesn&#8217;t suck">6</a></li>
+				</ul>
+			</footer>
+
+			<div class="post-text">
+				<p>Holidays are closer with each day and it&#8217;s getting harder and harder to concentrate on work, when your mind is occupied with loot coming your way.</p>
+<p>It&#8217;s also a time of the year when web sites are filled with various summations of year left behind and always present guesses about the future. I certainly am not above that and I&#8217;ll probably add a line or two of my own in next few days, but I also wanted to finish my little javascript i18n library before the year ends. I don&#8217;t want it to turn into a pumpkin at midnight like some girl&#8217;s ride back home.</p>
+<p>You know, sort of a present for everyone as it befits this holiday.</p>
+<p>Alas, it&#8217;s taking longer then planned. So many things to do and so little time. Since trip to Stockholm is just around the corner, I decided to release what I believe by now to be practically usable piece of localization code. If you&#8217;re interested just in the goods, then you can see new javascript file <a href="http://markos.gaivo.net/examples/js_i18n/3/translate.js" title="Javascript i18n library">here</a> and demo <a href="http://markos.gaivo.net/examples/js_i18n/3/index.html" title="Javascript i18n demo">here</a>.</p>
+<p>There have been few changes since <a href="http://markos.gaivo.net/blog/?p=93" title="Previous post on this topic">last time</a>. The whole thing has been objectified, but I kept  few functions (<em>stripStr</em>, <em>stripStrML</em> and new one <em>printf</em>) outside of a class, since they&#8217;re too general to belong there. Nice thing about new class is that instead of looking for globally defined translation dictionary, it&#8217;s initialized with one. This also means you can use more than one translation object or translation dictionary per page, which sounds cool even if not all that useful.</p>
+<p>I made a small correction to method <em>toEntity</em>. A bug was pointed out to me by <a href="http://www.opera.com">Opera browser</a>, which is a great browser for testing against standards, if not common sense. I might think it&#8217;s OK to fetch a character out of a string with their index value, as you would fetch an element from a list or an object, but I would be wrong. That&#8217;s why a string method <em>charAt</em> was defined and if working everywhere except in Opera is not good enough for you, then you must use this method. So, I did.</p>
+<p>I also renamed the function <em>_</em>. It&#8217;s a nifty name widely used in other languages, but it doesn&#8217;t work quite like that when it&#8217;s a method in an object. <em>init.js</em> demonstrates how you can still use it by defining an anonymous function.</p>
+<p>This is it for now. I think the library is actually usable, but it&#8217;s also lacking few things. <em>printf</em> provides now a method of easily stitching  stings together and even using parameters in translations. However, it does require that those parameters are listed in same order as in original text. Better than previously, but still often awkward.</p>
+<p>What&#8217;s missing is also a tool to translate between javascript dictionary/object and a widely used translation format like <em>GNU&#8217;s gettext</em>. I&#8217;m currently working on this and I hope to have something usable ready in next few days.</p>
+<p>Last but not least, it needs a useful documentation on how to use it and work with it. It will get it.</p>
+<p><em>Update: It turns out my code might be usable, but it&#8217;s certainly not good. Some issues were listed in </em><em><a href="http://markos.gaivo.net/blog/?p=130">later</a></em><em> post and some I discovered just recently. For instance it won&#8217;t work if you&#8217;re trying to translate text on buttons or if text to be translated includes HTML tags (case of tags is not preserved in DOM tree, which wouldn&#8217;t be a problem if Firefox and IE defaulted to the same one).</em></p>
+			</div>
+
+			<nav>
+				<p>If you liked this, you might want to visit:</p>
+				<ul>
+					<li>my previous article: <a href="http://markos.gaivo.net/blog/?p=99" rel="prev">In defense of a regular user</a></li>					<li>my next article: <a href="http://markos.gaivo.net/blog/?p=101" rel="next">First look at upcoming WordPress 2.0</a></li>					<li><a href="/blog/">article list</a></li>
+				</ul>
+			</nav>
+
+			<h2 id="comments">Comments (6)
+			</h2>
+			<ol class="comments">
+		
+				<li id="comment-357">
+					<article>
+						<p>Did you checkout django? They also got this solved some time ago.</p>
+						<footer>
+							<cite>Comment by Jure &#8212; <time datetime="2005-12-21T13:24:08+00:00">December 21, 2005 @ 1:24 pm</time> <a href="#comment-357">#</a> </cite>
+						</footer>
+					</article>
+				</li>
+		
+				<li id="comment-405">
+					<article>
+						<p>Nope, I didn&#8217;t know they did. I took a look and it seems interesting, although not directly applicable to my needs. However, I&#8217;ll definitely check if I can use some of their code.</p>
+						<footer>
+							<cite>Comment by <a href='http://markos.gaivo.net' rel='external nofollow' class='url'>markos</a> &#8212; <time datetime="2005-12-22T09:41:04+00:00">December 22, 2005 @ 9:41 am</time> <a href="#comment-405">#</a> </cite>
+						</footer>
+					</article>
+				</li>
+		
+				<li id="comment-94141">
+					<article>
+						<p>Hello Marko, I just integrated your translate script with my project DAVAdmin. It&#8217;s now usable with a GNU gettext and PHP combination. I hope to finish my first fully internationalizable version of the project in the next few days and your script was a big help to achieve this goal.</p>
+<p>Thank you very much.</p>
+						<footer>
+							<cite>Comment by <a href='http://www.dittberner.info/projects/davadmin' rel='external nofollow' class='url'>Jan Dittberner</a> &#8212; <time datetime="2007-12-02T01:17:47+00:00">December 2, 2007 @ 1:17 am</time> <a href="#comment-94141">#</a> </cite>
+						</footer>
+					</article>
+				</li>
+		
+				<li id="comment-114724">
+					<article>
+						<p>[...] tion on the client-side using JavaScript, and wrote this plugin to do it (based heavily on javascript i18n that almost doesn&amp;# [...]</p>
+						<footer>
+							<cite>Pingback by <a href='http://recurser.com/articles/2008/02/20/jquery-i18n-translation-plugin/' rel='external nofollow' class='url'>jQuery i18n Translation Plugin  -  recurser</a> &#8212; <time datetime="2008-02-21T06:14:06+00:00">February 21, 2008 @ 6:14 am</time> <a href="#comment-114724">#</a> </cite>
+						</footer>
+					</article>
+				</li>
+		
+				<li id="comment-151756">
+					<article>
+						<p>Would you be interested in exchanging blogrolls links with my site? Please email me if you are interested or you can add my link at your blogrolls and Notice me by email kaiyure#gmail.com(replace # as @), I will add your link later, thanks.</p>
+						<footer>
+							<cite>Comment by <a href='http://www.ilovebeautys.info/' rel='external nofollow' class='url'>Beauty Salon</a> &#8212; <time datetime="2008-08-05T16:59:58+00:00">August 5, 2008 @ 4:59 pm</time> <a href="#comment-151756">#</a> </cite>
+						</footer>
+					</article>
+				</li>
+		
+				<li id="comment-222658">
+					<article>
+						<p>[...] Anyone have anything to say about them? Or know of others?jQuery LocalisationjQuery i18n pluginJavascript i18n the almost doesn&#8217;t suckjQuery Localize  [...]</p>
+						<footer>
+							<cite>Pingback by <a href='http://questionlounge.com/internationalization-and-localization-in-an-ajax-application/' rel='external nofollow' class='url'>Internationalization and localization in an AJAX application - Question Lounge</a> &#8212; <time datetime="2010-12-31T10:25:55+00:00">December 31, 2010 @ 10:25 am</time> <a href="#comment-222658">#</a> </cite>
+						</footer>
+					</article>
+				</li>
+		
+			</ol>
+
+
+		<p>Sorry, the comment form is closed at this time.</p>
+
+		</article>
+	</section>
+			<!-- All pages -->
+	
+
+	<footer>
+		<ul>
+			<li>&copy; 2005-2015 Marko Samastur</li>
+			
+			<li><a href="http://markos.gaivo.net/blog/?feed=rss2">Entries feed</a></li>
+			<li><a href="http://markos.gaivo.net/blog/?feed=comments-rss2">Comments feed</a></li>
+		</ul>
+		<a href="/"><img src="/img/markos_light_small_bg.png" alt="logo" class="mini-logo" /></a>
+	</footer>
+	<!-- Google analytics -->
+	<script type="text/javascript">
+	  var _gaq = _gaq || [];
+	  _gaq.push(['_setAccount', 'UA-152438-1']);
+	  _gaq.push(['_trackPageview']);
+	</script>
+	<script src="/js/cookie.js"></script>
+</body>
+</html>

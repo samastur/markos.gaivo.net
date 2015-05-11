@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+		>
+<channel>
+	<title>Comments on: Going home</title>
+	<atom:link href="http://markos.gaivo.net/blog/?feed=rss2&#038;p=280" rel="self" type="application/rss+xml" />
+	<link>http://markos.gaivo.net/blog/?p=280</link>
+	<description></description>
+	<lastBuildDate>Wed, 16 Jul 2014 16:04:38 +0000</lastBuildDate>
+	<sy:updatePeriod>hourly</sy:updatePeriod>
+	<sy:updateFrequency>1</sy:updateFrequency>
+	<generator>http://wordpress.org/?v=3.0.5</generator>
+	<item>
+		<title>By: Sriraam G V</title>
+		<link>http://markos.gaivo.net/blog/?p=280&#038;cpage=1#comment-144611</link>
+		<dc:creator>Sriraam G V</dc:creator>
+		<pubDate>Thu, 10 Jul 2008 09:03:51 +0000</pubDate>
+		<guid isPermaLink="false">http://markos.gaivo.net/blog/?p=280#comment-144611</guid>
+		<description>Oops , did I just miss the boat ?</description>
+		<content:encoded><![CDATA[<p>Oops , did I just miss the boat ?</p>
+]]></content:encoded>
+	</item>
+	<item>
+		<title>By: Jeff Lucas</title>
+		<link>http://markos.gaivo.net/blog/?p=280&#038;cpage=1#comment-144603</link>
+		<dc:creator>Jeff Lucas</dc:creator>
+		<pubDate>Thu, 10 Jul 2008 08:23:52 +0000</pubDate>
+		<guid isPermaLink="false">http://markos.gaivo.net/blog/?p=280#comment-144603</guid>
+		<description>If I&#039;m not too late, I&#039;d like to take you up on your generous offer of the Wing IDE license. Contact me if you need any additional details. Thanks!</description>
+		<content:encoded><![CDATA[<p>If I&#8217;m not too late, I&#8217;d like to take you up on your generous offer of the Wing IDE license. Contact me if you need any additional details. Thanks!</p>
+]]></content:encoded>
+	</item>
+</channel>
+</rss>

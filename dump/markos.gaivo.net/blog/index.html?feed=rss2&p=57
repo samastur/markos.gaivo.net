@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+		>
+<channel>
+	<title>Comments on: Speed test of PyRSS2Gen, kid and atomixlib</title>
+	<atom:link href="http://markos.gaivo.net/blog/?feed=rss2&#038;p=57" rel="self" type="application/rss+xml" />
+	<link>http://markos.gaivo.net/blog/?p=57</link>
+	<description></description>
+	<lastBuildDate>Wed, 16 Jul 2014 16:04:38 +0000</lastBuildDate>
+	<sy:updatePeriod>hourly</sy:updatePeriod>
+	<sy:updateFrequency>1</sy:updateFrequency>
+	<generator>http://wordpress.org/?v=3.0.5</generator>
+	<item>
+		<title>By: markos</title>
+		<link>http://markos.gaivo.net/blog/?p=57&#038;cpage=1#comment-162</link>
+		<dc:creator>markos</dc:creator>
+		<pubDate>Tue, 08 Nov 2005 19:52:52 +0000</pubDate>
+		<guid isPermaLink="false">http://markos.gaivo.net/blog/?p=57#comment-162</guid>
+		<description>I can&#039;t speak for Uche or anybody else for that matter apart myself, but I think main problem with stiching is not so much in getting feed structure wrong although that can happen too. Probably bigger and at least in my experience more often problem is getting the payload wrong.
+
+It&#039;s simply too easy to break XML and that&#039;s something that XML toolkits can help you immensely with.
+
+I&#039;m also sure as an XML lightweight that I&#039;m missing other, possibly more subtle problems.</description>
+		<content:encoded><![CDATA[<p>I can&#8217;t speak for Uche or anybody else for that matter apart myself, but I think main problem with stiching is not so much in getting feed structure wrong although that can happen too. Probably bigger and at least in my experience more often problem is getting the payload wrong.</p>
+<p>It&#8217;s simply too easy to break XML and that&#8217;s something that XML toolkits can help you immensely with.</p>
+<p>I&#8217;m also sure as an XML lightweight that I&#8217;m missing other, possibly more subtle problems.</p>
+]]></content:encoded>
+	</item>
+	<item>
+		<title>By: Mike Watkins</title>
+		<link>http://markos.gaivo.net/blog/?p=57&#038;cpage=1#comment-161</link>
+		<dc:creator>Mike Watkins</dc:creator>
+		<pubDate>Tue, 08 Nov 2005 15:38:56 +0000</pubDate>
+		<guid isPermaLink="false">http://markos.gaivo.net/blog/?p=57#comment-161</guid>
+		<description>re &#039;stiching strings&#039; - I wonder if Uche or others would comment on what they see are the biggest dangers with that approach... in particular Uche&#039;s comment &lt;em&gt;I just worry that if you take the stich-strings-together route, it’s really hard to ensure well-formed and valid Atom. Using a toolkit is much safer, and I’d love to see less broken Atom in the world&lt;/em&gt;  caught my eye - perhaps here on in a column or on his blog he could give some real world examples of the sorts of gotyas people are likely to run into.</description>
+		<content:encoded><![CDATA[<p>re &#8216;stiching strings&#8217; &#8211; I wonder if Uche or others would comment on what they see are the biggest dangers with that approach&#8230; in particular Uche&#8217;s comment <em>I just worry that if you take the stich-strings-together route, it’s really hard to ensure well-formed and valid Atom. Using a toolkit is much safer, and I’d love to see less broken Atom in the world</em>  caught my eye &#8211; perhaps here on in a column or on his blog he could give some real world examples of the sorts of gotyas people are likely to run into.</p>
+]]></content:encoded>
+	</item>
+	<item>
+		<title>By: Uche</title>
+		<link>http://markos.gaivo.net/blog/?p=57&#038;cpage=1#comment-160</link>
+		<dc:creator>Uche</dc:creator>
+		<pubDate>Mon, 07 Nov 2005 01:49:13 +0000</pubDate>
+		<guid isPermaLink="false">http://markos.gaivo.net/blog/?p=57#comment-160</guid>
+		<description>Marko, We&#039;re wondering whether your build problem may be an endianness problem with some of our customizations of expat.  If so, it&#039;s a pretty serious matter, and we&#039;ll investigate, get to the bottom of it, and release a 4Suite update if need be.  Again, your patient investigation is proving very useful.  I&#039;ll keep you posted.</description>
+		<content:encoded><![CDATA[<p>Marko, We&#8217;re wondering whether your build problem may be an endianness problem with some of our customizations of expat.  If so, it&#8217;s a pretty serious matter, and we&#8217;ll investigate, get to the bottom of it, and release a 4Suite update if need be.  Again, your patient investigation is proving very useful.  I&#8217;ll keep you posted.</p>
+]]></content:encoded>
+	</item>
+	<item>
+		<title>By: markos</title>
+		<link>http://markos.gaivo.net/blog/?p=57&#038;cpage=1#comment-158</link>
+		<dc:creator>markos</dc:creator>
+		<pubDate>Sun, 06 Nov 2005 09:45:14 +0000</pubDate>
+		<guid isPermaLink="false">http://markos.gaivo.net/blog/?p=57#comment-158</guid>
+		<description>I&#039;ve noticed a speed-up, but slightly less than you. My test code for atomixlib is pretty much Sylvain&#039;s example, but changed so it creates 10 entries and with addition of a few time.time functions.
+
+So, pretty basic really.
+
+I&#039;ll definitely test all of them today on a more modern hardware, since your results are much better and are in fact where I&#039;d consider them fast enough for our needs.
+
+I also agree about stiching strings together. It&#039;s probably not worth risking broken feeds and caching them should be simple enough.
+
+Thanks.</description>
+		<content:encoded><![CDATA[<p>I&#8217;ve noticed a speed-up, but slightly less than you. My test code for atomixlib is pretty much Sylvain&#8217;s example, but changed so it creates 10 entries and with addition of a few time.time functions.</p>
+<p>So, pretty basic really.</p>
+<p>I&#8217;ll definitely test all of them today on a more modern hardware, since your results are much better and are in fact where I&#8217;d consider them fast enough for our needs.</p>
+<p>I also agree about stiching strings together. It&#8217;s probably not worth risking broken feeds and caching them should be simple enough.</p>
+<p>Thanks.</p>
+]]></content:encoded>
+	</item>
+	<item>
+		<title>By: Uche</title>
+		<link>http://markos.gaivo.net/blog/?p=57&#038;cpage=1#comment-157</link>
+		<dc:creator>Uche</dc:creator>
+		<pubDate>Sun, 06 Nov 2005 05:05:23 +0000</pubDate>
+		<guid isPermaLink="false">http://markos.gaivo.net/blog/?p=57#comment-157</guid>
+		<description>Forgot to give an atomixlib 0.3.0 link:
+
+http://www.defuze.org/oss/blog/entry/2005/11/05/atomixlib-0.3</description>
+		<content:encoded><![CDATA[<p>Forgot to give an atomixlib 0.3.0 link:</p>
+<p><a href="http://www.defuze.org/oss/blog/entry/2005/11/05/atomixlib-0.3">http://www.defuze.org/oss/blog/entry/2005/11/05/atomixlib-0.3</a></p>
+]]></content:encoded>
+	</item>
+	<item>
+		<title>By: Uche</title>
+		<link>http://markos.gaivo.net/blog/?p=57&#038;cpage=1#comment-156</link>
+		<dc:creator>Uche</dc:creator>
+		<pubDate>Sun, 06 Nov 2005 05:03:55 +0000</pubDate>
+		<guid isPermaLink="false">http://markos.gaivo.net/blog/?p=57#comment-156</guid>
+		<description>Thanks for this analysis Marko.  Out of curiosity I took a closer look at the atomixlib code and ended up giving Sylvain performance pointers.  Seems he worked pretty quickly on those because he&#039;s now released atomixlib 0.3.0.  According to my timings it is almost three times faster than 0.2.0, which is the version you tried.  I used a derivative of timeit.py and it posted the following summary for 0.2.0:
+
+10 loops, best of 3: 32.1 msec
+
+and for 0.3.0:
+
+10 loops, best of 3: 13.2 msec
+
+I&#039;d be curious to see whether you notice a similar speed-up.
+
+It seems that you need *much* more speed, however, than even the new atomixlib or Kid would provide, which makes me wonder what the characteristics are of the atom feeds you are creating.  Maybe, as you suggest, there are portions of the problem in which you can  use caching.  I just worry that if you take the stich-strings-together route, it&#039;s really hard to ensure well-formed and valid Atom.  Using a toolkit is much safer, and I&#039;d love to see less broken Atom in the world :-)
+
+Anyways, keep us posted in this analysis.  This is the sort of thing I&#039;m covering in my new XML.com column[1], so I&#039;m very interested in what practitioners like you are up to.
+
+Thanks.
+
+[1] http://www.xml.com/pub/at/39</description>
+		<content:encoded><![CDATA[<p>Thanks for this analysis Marko.  Out of curiosity I took a closer look at the atomixlib code and ended up giving Sylvain performance pointers.  Seems he worked pretty quickly on those because he&#8217;s now released atomixlib 0.3.0.  According to my timings it is almost three times faster than 0.2.0, which is the version you tried.  I used a derivative of timeit.py and it posted the following summary for 0.2.0:</p>
+<p>10 loops, best of 3: 32.1 msec</p>
+<p>and for 0.3.0:</p>
+<p>10 loops, best of 3: 13.2 msec</p>
+<p>I&#8217;d be curious to see whether you notice a similar speed-up.</p>
+<p>It seems that you need *much* more speed, however, than even the new atomixlib or Kid would provide, which makes me wonder what the characteristics are of the atom feeds you are creating.  Maybe, as you suggest, there are portions of the problem in which you can  use caching.  I just worry that if you take the stich-strings-together route, it&#8217;s really hard to ensure well-formed and valid Atom.  Using a toolkit is much safer, and I&#8217;d love to see less broken Atom in the world <img src='http://markos.gaivo.net/blog/wp-includes/images/smilies/icon_smile.gif' alt=':-)' class='wp-smiley' /> </p>
+<p>Anyways, keep us posted in this analysis.  This is the sort of thing I&#8217;m covering in my new XML.com column[1], so I&#8217;m very interested in what practitioners like you are up to.</p>
+<p>Thanks.</p>
+<p>[1] <a href="http://www.xml.com/pub/at/39">http://www.xml.com/pub/at/39</a></p>
+]]></content:encoded>
+	</item>
+	<item>
+		<title>By: Ryan Tomayko</title>
+		<link>http://markos.gaivo.net/blog/?p=57&#038;cpage=1#comment-155</link>
+		<dc:creator>Ryan Tomayko</dc:creator>
+		<pubDate>Sat, 05 Nov 2005 09:29:33 +0000</pubDate>
+		<guid isPermaLink="false">http://markos.gaivo.net/blog/?p=57#comment-155</guid>
+		<description>Rock!</description>
+		<content:encoded><![CDATA[<p>Rock!</p>
+]]></content:encoded>
+	</item>
+	<item>
+		<title>By: Sylvain Hellegouarch</title>
+		<link>http://markos.gaivo.net/blog/?p=57&#038;cpage=1#comment-154</link>
+		<dc:creator>Sylvain Hellegouarch</dc:creator>
+		<pubDate>Sat, 05 Nov 2005 08:07:40 +0000</pubDate>
+		<guid isPermaLink="false">http://markos.gaivo.net/blog/?p=57#comment-154</guid>
+		<description>Hello Marko,
+
+Interesting. I had never really tested atomixlib performance wise but being 2 or 3 times slower is somehow significant enough for me to have a look at it and try to improve a bit the picture.
+
+Two things could help me out:
+
+1. Which version of atomixlib have you used?
+2. What was the code of your test?
+
+Would you mind sending me those details via email please?
+
+Thanks :)
+- Sylvain</description>
+		<content:encoded><![CDATA[<p>Hello Marko,</p>
+<p>Interesting. I had never really tested atomixlib performance wise but being 2 or 3 times slower is somehow significant enough for me to have a look at it and try to improve a bit the picture.</p>
+<p>Two things could help me out:</p>
+<p>1. Which version of atomixlib have you used?<br />
+2. What was the code of your test?</p>
+<p>Would you mind sending me those details via email please?</p>
+<p>Thanks <img src='http://markos.gaivo.net/blog/wp-includes/images/smilies/icon_smile.gif' alt=':)' class='wp-smiley' /><br />
+- Sylvain</p>
+]]></content:encoded>
+	</item>
+</channel>
+</rss>

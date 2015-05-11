@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+		>
+<channel>
+	<title>Comments on: A month with Nokia N900</title>
+	<atom:link href="http://markos.gaivo.net/blog/?feed=rss2&#038;p=563" rel="self" type="application/rss+xml" />
+	<link>http://markos.gaivo.net/blog/?p=563</link>
+	<description></description>
+	<lastBuildDate>Wed, 16 Jul 2014 16:04:38 +0000</lastBuildDate>
+	<sy:updatePeriod>hourly</sy:updatePeriod>
+	<sy:updateFrequency>1</sy:updateFrequency>
+	<generator>http://wordpress.org/?v=3.0.5</generator>
+	<item>
+		<title>By: markos</title>
+		<link>http://markos.gaivo.net/blog/?p=563&#038;cpage=1#comment-207739</link>
+		<dc:creator>markos</dc:creator>
+		<pubDate>Thu, 11 Feb 2010 10:36:30 +0000</pubDate>
+		<guid isPermaLink="false">http://markos.gaivo.net/blog/?p=563#comment-207739</guid>
+		<description>MMS isn&#039;t officially supported yet, but there is a package called fMMS (http://wiki.maemo.org/FMMS) which seems to work fine. I haven&#039;t tested it personally.
+
+As to Levenshetein...I don&#039;t think there is a solution that solves all cases and I am fine with that. Better to pick no folder than to stuff messages into wrong one.
+
+When you set up N900, you pick where you are. You also get to pick language of interface, which is a more limited choice (e.g. region lists Slovenia, but there is no Slovenian interface). This gives you a strong hint which languages to check.
+
+There are 3 interesting type of folders: sent mail, drafts and trash. For each type and language you could have a list of common names (Sent, Sent messages, Sent msg...) that you check with Levenshtein with IMAP folders. If the best match is close enough (say has a distance less than 2), then you pick it and or leave defaults otherwise.
+
+This is not the speediest way to do this, but probably good enough since number of IMAP folders is usually relatively small, names relatively short, Levenshtein fast and you need to do it rarely or just once.</description>
+		<content:encoded><![CDATA[<p>MMS isn&#8217;t officially supported yet, but there is a package called fMMS (<a href="http://wiki.maemo.org/FMMS">http://wiki.maemo.org/FMMS</a>) which seems to work fine. I haven&#8217;t tested it personally.</p>
+<p>As to Levenshetein&#8230;I don&#8217;t think there is a solution that solves all cases and I am fine with that. Better to pick no folder than to stuff messages into wrong one.</p>
+<p>When you set up N900, you pick where you are. You also get to pick language of interface, which is a more limited choice (e.g. region lists Slovenia, but there is no Slovenian interface). This gives you a strong hint which languages to check.</p>
+<p>There are 3 interesting type of folders: sent mail, drafts and trash. For each type and language you could have a list of common names (Sent, Sent messages, Sent msg&#8230;) that you check with Levenshtein with IMAP folders. If the best match is close enough (say has a distance less than 2), then you pick it and or leave defaults otherwise.</p>
+<p>This is not the speediest way to do this, but probably good enough since number of IMAP folders is usually relatively small, names relatively short, Levenshtein fast and you need to do it rarely or just once.</p>
+]]></content:encoded>
+	</item>
+	<item>
+		<title>By: Bostjan</title>
+		<link>http://markos.gaivo.net/blog/?p=563&#038;cpage=1#comment-207736</link>
+		<dc:creator>Bostjan</dc:creator>
+		<pubDate>Thu, 11 Feb 2010 09:55:41 +0000</pubDate>
+		<guid isPermaLink="false">http://markos.gaivo.net/blog/?p=563#comment-207736</guid>
+		<description>First, thank you for this review. I&#039;m thinking about getting mine in a month or so (I still need to do a &quot;hands-on&quot; review).
+
+What&#039;s with the MMS support? As far as I know, there isn&#039;t any.
+
+And something a bit more technical, how would you resolve localization and word permutation problems using Levenshtein&#039;s distance?
+
+B</description>
+		<content:encoded><![CDATA[<p>First, thank you for this review. I&#8217;m thinking about getting mine in a month or so (I still need to do a &#8220;hands-on&#8221; review).</p>
+<p>What&#8217;s with the MMS support? As far as I know, there isn&#8217;t any.</p>
+<p>And something a bit more technical, how would you resolve localization and word permutation problems using Levenshtein&#8217;s distance?</p>
+<p>B</p>
+]]></content:encoded>
+	</item>
+	<item>
+		<title>By: markos</title>
+		<link>http://markos.gaivo.net/blog/?p=563&#038;cpage=1#comment-207644</link>
+		<dc:creator>markos</dc:creator>
+		<pubDate>Mon, 08 Feb 2010 08:35:19 +0000</pubDate>
+		<guid isPermaLink="false">http://markos.gaivo.net/blog/?p=563#comment-207644</guid>
+		<description>Thanks for the tip. I&#039;ll definitely check it out.</description>
+		<content:encoded><![CDATA[<p>Thanks for the tip. I&#8217;ll definitely check it out.</p>
+]]></content:encoded>
+	</item>
+	<item>
+		<title>By: Tim Knapp</title>
+		<link>http://markos.gaivo.net/blog/?p=563&#038;cpage=1#comment-207633</link>
+		<dc:creator>Tim Knapp</dc:creator>
+		<pubDate>Mon, 08 Feb 2010 00:10:03 +0000</pubDate>
+		<guid isPermaLink="false">http://markos.gaivo.net/blog/?p=563#comment-207633</guid>
+		<description>Great, thanks for the prompt response. Re. your XChat issues, the guys I spoke to who had an N900 said they use irssi for IRC.</description>
+		<content:encoded><![CDATA[<p>Great, thanks for the prompt response. Re. your XChat issues, the guys I spoke to who had an N900 said they use irssi for IRC.</p>
+]]></content:encoded>
+	</item>
+	<item>
+		<title>By: markos</title>
+		<link>http://markos.gaivo.net/blog/?p=563&#038;cpage=1#comment-207628</link>
+		<dc:creator>markos</dc:creator>
+		<pubDate>Sun, 07 Feb 2010 20:44:02 +0000</pubDate>
+		<guid isPermaLink="false">http://markos.gaivo.net/blog/?p=563#comment-207628</guid>
+		<description>I&#039;m sorry for not being clear enough. Last firmware completely removed unwanted reboots. As a computer it is now rock solid.
+
+I did continue experiencing some other problems like repeated requests to enter SIM card&#039;s PIN code, which disappeared only after I turned PIN checking off completely. This is a security trade off not everyone is willing to make.
+
+I also noticed that Xchat fairly reliably kills my GSM connection, but I need to investigate this a bit further before filling a bug report.
+
+I think at this point it is a great secondary device, but I would hesitate to recommend it as the only cell phone to own. Not the least because I don&#039;t use it as such and can&#039;t give a reasonable judgement.</description>
+		<content:encoded><![CDATA[<p>I&#8217;m sorry for not being clear enough. Last firmware completely removed unwanted reboots. As a computer it is now rock solid.</p>
+<p>I did continue experiencing some other problems like repeated requests to enter SIM card&#8217;s PIN code, which disappeared only after I turned PIN checking off completely. This is a security trade off not everyone is willing to make.</p>
+<p>I also noticed that Xchat fairly reliably kills my GSM connection, but I need to investigate this a bit further before filling a bug report.</p>
+<p>I think at this point it is a great secondary device, but I would hesitate to recommend it as the only cell phone to own. Not the least because I don&#8217;t use it as such and can&#8217;t give a reasonable judgement.</p>
+]]></content:encoded>
+	</item>
+	<item>
+		<title>By: Tim Knapp</title>
+		<link>http://markos.gaivo.net/blog/?p=563&#038;cpage=1#comment-207609</link>
+		<dc:creator>Tim Knapp</dc:creator>
+		<pubDate>Sun, 07 Feb 2010 09:29:41 +0000</pubDate>
+		<guid isPermaLink="false">http://markos.gaivo.net/blog/?p=563#comment-207609</guid>
+		<description>Hi,
+I&#039;m really keen on getting a N900 too and was able to see a few in action at LCA2010. Your comment re. the constant reboots is a worry, though, and all the N900 owners I spoke to at LCA didn&#039;t indicate any issues like this. Are you sure this hasn&#039;t been resolved in the recent firmware updates?
+
+Thanks,
+Tim</description>
+		<content:encoded><![CDATA[<p>Hi,<br />
+I&#8217;m really keen on getting a N900 too and was able to see a few in action at LCA2010. Your comment re. the constant reboots is a worry, though, and all the N900 owners I spoke to at LCA didn&#8217;t indicate any issues like this. Are you sure this hasn&#8217;t been resolved in the recent firmware updates?</p>
+<p>Thanks,<br />
+Tim</p>
+]]></content:encoded>
+	</item>
+	<item>
+		<title>By: markos</title>
+		<link>http://markos.gaivo.net/blog/?p=563&#038;cpage=1#comment-207587</link>
+		<dc:creator>markos</dc:creator>
+		<pubDate>Sat, 06 Feb 2010 20:02:18 +0000</pubDate>
+		<guid isPermaLink="false">http://markos.gaivo.net/blog/?p=563#comment-207587</guid>
+		<description>Hard to say since it is very dependant on what you installed and how you use it.
+
+Mine is always online, often both through wifi and gsm, but I never use it as a phone. I mostly use it for browsing and communication through skype IM and jabber.
+
+Battery easily lasts through day unless I use it a lot. However I doubt it would last whole weekend.</description>
+		<content:encoded><![CDATA[<p>Hard to say since it is very dependant on what you installed and how you use it.</p>
+<p>Mine is always online, often both through wifi and gsm, but I never use it as a phone. I mostly use it for browsing and communication through skype IM and jabber.</p>
+<p>Battery easily lasts through day unless I use it a lot. However I doubt it would last whole weekend.</p>
+]]></content:encoded>
+	</item>
+	<item>
+		<title>By: GK</title>
+		<link>http://markos.gaivo.net/blog/?p=563&#038;cpage=1#comment-207583</link>
+		<dc:creator>GK</dc:creator>
+		<pubDate>Sat, 06 Feb 2010 13:50:27 +0000</pubDate>
+		<guid isPermaLink="false">http://markos.gaivo.net/blog/?p=563#comment-207583</guid>
+		<description>How is the battery life? How long does it last?</description>
+		<content:encoded><![CDATA[<p>How is the battery life? How long does it last?</p>
+]]></content:encoded>
+	</item>
+	<item>
+		<title>By: Review: CT25664AC667 Crucial 2GB, Perfect for Asus Eee PC.. &#124; myRatings.info</title>
+		<link>http://markos.gaivo.net/blog/?p=563&#038;cpage=1#comment-207554</link>
+		<dc:creator>Review: CT25664AC667 Crucial 2GB, Perfect for Asus Eee PC.. &#124; myRatings.info</dc:creator>
+		<pubDate>Fri, 05 Feb 2010 13:20:13 +0000</pubDate>
+		<guid isPermaLink="false">http://markos.gaivo.net/blog/?p=563#comment-207554</guid>
+		<description>[...] /devel ? A month with Nokia N900 [...]</description>
+		<content:encoded><![CDATA[<p>[...] /devel ? A month with Nokia N900 [...]</p>
+]]></content:encoded>
+	</item>
+</channel>
+</rss>

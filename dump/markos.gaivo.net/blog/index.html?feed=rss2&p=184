@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+		>
+<channel>
+	<title>Comments on: First anniversary</title>
+	<atom:link href="http://markos.gaivo.net/blog/?feed=rss2&#038;p=184" rel="self" type="application/rss+xml" />
+	<link>http://markos.gaivo.net/blog/?p=184</link>
+	<description></description>
+	<lastBuildDate>Wed, 16 Jul 2014 16:04:38 +0000</lastBuildDate>
+	<sy:updatePeriod>hourly</sy:updatePeriod>
+	<sy:updateFrequency>1</sy:updateFrequency>
+	<generator>http://wordpress.org/?v=3.0.5</generator>
+	<item>
+		<title>By: markos</title>
+		<link>http://markos.gaivo.net/blog/?p=184&#038;cpage=1#comment-3323</link>
+		<dc:creator>markos</dc:creator>
+		<pubDate>Fri, 16 Jun 2006 17:47:29 +0000</pubDate>
+		<guid isPermaLink="false">http://markos.gaivo.net/blog/?p=184#comment-3323</guid>
+		<description>Thanks to all.</description>
+		<content:encoded><![CDATA[<p>Thanks to all.</p>
+]]></content:encoded>
+	</item>
+	<item>
+		<title>By: Jan</title>
+		<link>http://markos.gaivo.net/blog/?p=184&#038;cpage=1#comment-3322</link>
+		<dc:creator>Jan</dc:creator>
+		<pubDate>Fri, 16 Jun 2006 16:50:19 +0000</pubDate>
+		<guid isPermaLink="false">http://markos.gaivo.net/blog/?p=184#comment-3322</guid>
+		<description>Congrats!</description>
+		<content:encoded><![CDATA[<p>Congrats!</p>
+]]></content:encoded>
+	</item>
+	<item>
+		<title>By: Brian King</title>
+		<link>http://markos.gaivo.net/blog/?p=184&#038;cpage=1#comment-3317</link>
+		<dc:creator>Brian King</dc:creator>
+		<pubDate>Fri, 16 Jun 2006 13:47:46 +0000</pubDate>
+		<guid isPermaLink="false">http://markos.gaivo.net/blog/?p=184#comment-3317</guid>
+		<description>Happy Anniversary! Prolific posting indeed.</description>
+		<content:encoded><![CDATA[<p>Happy Anniversary! Prolific posting indeed.</p>
+]]></content:encoded>
+	</item>
+	<item>
+		<title>By: david</title>
+		<link>http://markos.gaivo.net/blog/?p=184&#038;cpage=1#comment-3257</link>
+		<dc:creator>david</dc:creator>
+		<pubDate>Tue, 13 Jun 2006 17:46:02 +0000</pubDate>
+		<guid isPermaLink="false">http://markos.gaivo.net/blog/?p=184#comment-3257</guid>
+		<description>congratulations :)</description>
+		<content:encoded><![CDATA[<p>congratulations <img src='http://markos.gaivo.net/blog/wp-includes/images/smilies/icon_smile.gif' alt=':)' class='wp-smiley' /> </p>
+]]></content:encoded>
+	</item>
+</channel>
+</rss>

@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+		>
+<channel>
+	<title>Comments on: sgmllib.py parser woes</title>
+	<atom:link href="http://markos.gaivo.net/blog/?feed=rss2&#038;p=142" rel="self" type="application/rss+xml" />
+	<link>http://markos.gaivo.net/blog/?p=142</link>
+	<description></description>
+	<lastBuildDate>Wed, 16 Jul 2014 16:04:38 +0000</lastBuildDate>
+	<sy:updatePeriod>hourly</sy:updatePeriod>
+	<sy:updateFrequency>1</sy:updateFrequency>
+	<generator>http://wordpress.org/?v=3.0.5</generator>
+	<item>
+		<title>By: markos</title>
+		<link>http://markos.gaivo.net/blog/?p=142&#038;cpage=1#comment-1124</link>
+		<dc:creator>markos</dc:creator>
+		<pubDate>Tue, 04 Apr 2006 07:54:22 +0000</pubDate>
+		<guid isPermaLink="false">http://markos.gaivo.net/blog/?p=142#comment-1124</guid>
+		<description>Interesting, I didn&#039;t know this.
+
+Just a nitpick, it should stay as it is, if this is an SGML requierement (as HTML specification implies), not an HTML one.</description>
+		<content:encoded><![CDATA[<p>Interesting, I didn&#8217;t know this.</p>
+<p>Just a nitpick, it should stay as it is, if this is an SGML requierement (as HTML specification implies), not an HTML one.</p>
+]]></content:encoded>
+	</item>
+	<item>
+		<title>By: empii</title>
+		<link>http://markos.gaivo.net/blog/?p=142&#038;cpage=1#comment-1120</link>
+		<dc:creator>empii</dc:creator>
+		<pubDate>Mon, 03 Apr 2006 19:47:18 +0000</pubDate>
+		<guid isPermaLink="false">http://markos.gaivo.net/blog/?p=142#comment-1120</guid>
+		<description>I think sgmllib works correctly. From htlm 4.01 spec (http://www.w3.org/TR/1999/REC-html401-19991224/appendix/notes.html#notes-specifying-data):
+&lt;blockquote&gt;
+When script or style data is the content of an element (SCRIPT and STYLE), the data begins immediately after the element start tag and ends at the first ETAGO (&quot;&lt;/&quot;) delimiter followed by a name start character ([a-zA-Z]); note that this may not be the element&#039;s end tag. Authors should therefore escape &quot;&lt;/&quot; within the content. Escape mechanisms are specific to each scripting or style sheet language.
+&lt;/blockquote&gt;
+
+(the text then goes on explaining that &quot;&lt;/&quot; should be written
+as &quot;&lt;\/&quot; in embedded javascript.)
+
+So, sgmllib is not broken and I think it should 
+do the parsing by the spec, as it does now.
+Maybe BeautifulSoup could be fixed to handle also this piece of broken html?</description>
+		<content:encoded><![CDATA[<p>I think sgmllib works correctly. From htlm 4.01 spec (<a href="http://www.w3.org/TR/1999/REC-html401-19991224/appendix/notes.html#notes-specifying-data">http://www.w3.org/TR/1999/REC-html401-19991224/appendix/notes.html#notes-specifying-data</a>):</p>
+<blockquote><p>
+When script or style data is the content of an element (SCRIPT and STYLE), the data begins immediately after the element start tag and ends at the first ETAGO (&#8220;&lt;/&#8221;) delimiter followed by a name start character ([a-zA-Z]); note that this may not be the element&#8217;s end tag. Authors should therefore escape &#8220;&lt;/&#8221; within the content. Escape mechanisms are specific to each scripting or style sheet language.
+</p></blockquote>
+<p>(the text then goes on explaining that &#8220;&lt;/&#8221; should be written<br />
+as &#8220;&lt;\/&#8221; in embedded javascript.)</p>
+<p>So, sgmllib is not broken and I think it should<br />
+do the parsing by the spec, as it does now.<br />
+Maybe BeautifulSoup could be fixed to handle also this piece of broken html?</p>
+]]></content:encoded>
+	</item>
+	<item>
+		<title>By: markos</title>
+		<link>http://markos.gaivo.net/blog/?p=142&#038;cpage=1#comment-1102</link>
+		<dc:creator>markos</dc:creator>
+		<pubDate>Sat, 01 Apr 2006 16:07:26 +0000</pubDate>
+		<guid isPermaLink="false">http://markos.gaivo.net/blog/?p=142#comment-1102</guid>
+		<description>No, I haven&#039;t. But I did &lt;a href=&quot;http://markos.gaivo.net/blog/?p=144&quot; rel=&quot;nofollow&quot;&gt;fix&lt;/a&gt; the problem in sgmllib. Or at least I think I did :)</description>
+		<content:encoded><![CDATA[<p>No, I haven&#8217;t. But I did <a href="http://markos.gaivo.net/blog/?p=144">fix</a> the problem in sgmllib. Or at least I think I did <img src='http://markos.gaivo.net/blog/wp-includes/images/smilies/icon_smile.gif' alt=':)' class='wp-smiley' /> </p>
+]]></content:encoded>
+	</item>
+	<item>
+		<title>By: Chris Withers</title>
+		<link>http://markos.gaivo.net/blog/?p=142&#038;cpage=1#comment-1100</link>
+		<dc:creator>Chris Withers</dc:creator>
+		<pubDate>Wed, 29 Mar 2006 20:05:01 +0000</pubDate>
+		<guid isPermaLink="false">http://markos.gaivo.net/blog/?p=142#comment-1100</guid>
+		<description>Have you tried using the HTMLParser module in the standard lib? It&#039;s much more forgiving.
+
+I seem to remember pleading with Guido to put HTMLParser in the standard library after I hit similar problems with sgmllib and found HTMLParser.py solved them, even though I had to (at the time) use Zope&#039;s ZPT package to get hold of it ;-)</description>
+		<content:encoded><![CDATA[<p>Have you tried using the HTMLParser module in the standard lib? It&#8217;s much more forgiving.</p>
+<p>I seem to remember pleading with Guido to put HTMLParser in the standard library after I hit similar problems with sgmllib and found HTMLParser.py solved them, even though I had to (at the time) use Zope&#8217;s ZPT package to get hold of it <img src='http://markos.gaivo.net/blog/wp-includes/images/smilies/icon_wink.gif' alt=';-)' class='wp-smiley' /> </p>
+]]></content:encoded>
+	</item>
+	<item>
+		<title>By: Graham</title>
+		<link>http://markos.gaivo.net/blog/?p=142&#038;cpage=1#comment-1098</link>
+		<dc:creator>Graham</dc:creator>
+		<pubDate>Wed, 29 Mar 2006 13:57:17 +0000</pubDate>
+		<guid isPermaLink="false">http://markos.gaivo.net/blog/?p=142#comment-1098</guid>
+		<description>So, what about elementtidy? Or, pass the HTML through Tidy first, then use BeautifulSoup?</description>
+		<content:encoded><![CDATA[<p>So, what about elementtidy? Or, pass the HTML through Tidy first, then use BeautifulSoup?</p>
+]]></content:encoded>
+	</item>
+	<item>
+		<title>By: markos</title>
+		<link>http://markos.gaivo.net/blog/?p=142&#038;cpage=1#comment-1097</link>
+		<dc:creator>markos</dc:creator>
+		<pubDate>Wed, 29 Mar 2006 13:35:59 +0000</pubDate>
+		<guid isPermaLink="false">http://markos.gaivo.net/blog/?p=142#comment-1097</guid>
+		<description>Yes, but not in my case. I found about the problem WHILE I was using BeautifulSoup. Digging for the cause just ended in sgmllib.</description>
+		<content:encoded><![CDATA[<p>Yes, but not in my case. I found about the problem WHILE I was using BeautifulSoup. Digging for the cause just ended in sgmllib.</p>
+]]></content:encoded>
+	</item>
+	<item>
+		<title>By: Henning</title>
+		<link>http://markos.gaivo.net/blog/?p=142&#038;cpage=1#comment-1096</link>
+		<dc:creator>Henning</dc:creator>
+		<pubDate>Wed, 29 Mar 2006 13:28:43 +0000</pubDate>
+		<guid isPermaLink="false">http://markos.gaivo.net/blog/?p=142#comment-1096</guid>
+		<description>But BeautifulSoup modifies sgmllib to make parsing html more fault-tolerant. It really makes a difference.</description>
+		<content:encoded><![CDATA[<p>But BeautifulSoup modifies sgmllib to make parsing html more fault-tolerant. It really makes a difference.</p>
+]]></content:encoded>
+	</item>
+	<item>
+		<title>By: Titus Brown</title>
+		<link>http://markos.gaivo.net/blog/?p=142&#038;cpage=1#comment-1093</link>
+		<dc:creator>Titus Brown</dc:creator>
+		<pubDate>Tue, 28 Mar 2006 23:55:16 +0000</pubDate>
+		<guid isPermaLink="false">http://markos.gaivo.net/blog/?p=142#comment-1093</guid>
+		<description>Oh.  Right.
+
+No help for ya, sorry ;).</description>
+		<content:encoded><![CDATA[<p>Oh.  Right.</p>
+<p>No help for ya, sorry <img src='http://markos.gaivo.net/blog/wp-includes/images/smilies/icon_wink.gif' alt=';)' class='wp-smiley' /> .</p>
+]]></content:encoded>
+	</item>
+	<item>
+		<title>By: markos</title>
+		<link>http://markos.gaivo.net/blog/?p=142&#038;cpage=1#comment-1089</link>
+		<dc:creator>markos</dc:creator>
+		<pubDate>Tue, 28 Mar 2006 22:11:18 +0000</pubDate>
+		<guid isPermaLink="false">http://markos.gaivo.net/blog/?p=142#comment-1089</guid>
+		<description>There&#039;s just one problem with this. BeautifulSoup uses sgmllib for parsing ;)
+
+That&#039;s how I found the problem.</description>
+		<content:encoded><![CDATA[<p>There&#8217;s just one problem with this. BeautifulSoup uses sgmllib for parsing <img src='http://markos.gaivo.net/blog/wp-includes/images/smilies/icon_wink.gif' alt=';)' class='wp-smiley' /> </p>
+<p>That&#8217;s how I found the problem.</p>
+]]></content:encoded>
+	</item>
+	<item>
+		<title>By: Titus Brown</title>
+		<link>http://markos.gaivo.net/blog/?p=142&#038;cpage=1#comment-1088</link>
+		<dc:creator>Titus Brown</dc:creator>
+		<pubDate>Tue, 28 Mar 2006 21:14:08 +0000</pubDate>
+		<guid isPermaLink="false">http://markos.gaivo.net/blog/?p=142#comment-1088</guid>
+		<description>I hate to say this... but your best bet is to avoid using sgmllib and try to use BeautifulSoup to parse html.
+
+I hate to say this even more... but unless you file a bug report with a fix, you&#039;re unlikely to gain any traction in the std lib ;(.
+
+--titus</description>
+		<content:encoded><![CDATA[<p>I hate to say this&#8230; but your best bet is to avoid using sgmllib and try to use BeautifulSoup to parse html.</p>
+<p>I hate to say this even more&#8230; but unless you file a bug report with a fix, you&#8217;re unlikely to gain any traction in the std lib ;(.</p>
+<p>&#8211;titus</p>
+]]></content:encoded>
+	</item>
+</channel>
+</rss>

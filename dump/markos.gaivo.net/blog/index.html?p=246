@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>A notch above a monkey &raquo; G1G1 is in the house</title>
+	<meta charset="utf-8" />
+	
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" /> 
+
+	<link rel="shortcut icon" href="/img/markos.ico" />
+	
+	<meta name="generator" content="WordPress 3.0.5" /> <!-- leave this for stats please -->
+
+	<link href="http://fast.fonts.com/cssapi/aee9b60b-8e94-47f8-b586-3ecbfab51d1c.css" rel="stylesheet" type="text/css" />
+	<link rel="stylesheet" type="text/css" href="css/home.css" media="screen" title="Light theme" />
+	<link rel="alternate stylesheet" type="text/css" href="css/home_dark.css" media="screen" title="Dark theme" />
+	<link rel="stylesheet" href="css/ipad.css" media="only screen and (min-device-width : 768px) and (max-device-width : 1024px)">
+	<link rel="stylesheet" type="text/css" href="css/smallscreen.css" media="only screen and (max-width: 700px)" />
+
+	<link rel="alternate" type="application/rss+xml" title="RSS 2.0" href="http://markos.gaivo.net/blog/?feed=rss2" />
+	<link rel="alternate" type="application/atom+xml" title="Atom 1.0" href="http://markos.gaivo.net/blog/?feed=atom" />
+	<link rel='canonical' href='http://markos.gaivo.net/blog/?p=664' />
+
+	<link rel="pingback" href="http://markos.gaivo.net/blog/xmlrpc.php" />
+
+	<link rel="EditURI" type="application/rsd+xml" title="RSD" href="http://markos.gaivo.net/blog/xmlrpc.php?rsd" />
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="http://markos.gaivo.net/blog/wp-includes/wlwmanifest.xml" /> 
+<link rel='index' title='A notch above a monkey' href='http://markos.gaivo.net/blog' />
+<link rel='start' title='First post' href='http://markos.gaivo.net/blog/?p=2' />
+<link rel='prev' title='Suing myself' href='http://markos.gaivo.net/blog/?p=245' />
+<link rel='next' title='Javascript objekti' href='http://markos.gaivo.net/blog/?p=247' />
+<meta name="generator" content="WordPress 3.0.5" />
+<link rel='canonical' href='http://markos.gaivo.net/blog/?p=246' />
+
+	<!--[if lt IE 9]>
+	<script src="/js/html5.js"></script>
+	<![endif]-->
+</head>
+<body>
+					<header>
+		<h1><a href="/blog/">A notch above a monkey</a> &raquo; G1G1 is in the house</h1>
+	</header>
+
+	<section class="envelope">
+		<article class="post">
+			<header>
+				<h1>G1G1 is in the house</h1>
+			</header>
+
+			<footer>
+				<ul>
+					<li class="by">Written by: <a href="/">Marko Samastur</a></li>
+					<li class="published">Published on: <time datetime="2008-01-07T23:22:26+00:00" pubdate>January 7, 2008</time></li>
+					<li class="categories">Categories: <a href="http://markos.gaivo.net/blog/?cat=2" title="View all posts in Python" rel="category">Python</a></li>
+					<li class="post-comments">Comments: <span>Comments Off</span></li>
+				</ul>
+			</footer>
+
+			<div class="post-text">
+				<p>It&#8217;s here. After months of hoping and weeks of waiting, little white-green computer is finally here, on my desk:<br />
+<a href="http://www.marela.si/photos/20257" class="imageL"><img src="http://static.marela.si/users0/markos/2/c6yTQyOe_QdCrt4q55QsRpZBUO0.jpg" alt="XO" /></a><a href="http://www.marela.si/photos/20256" class="imageL"><img src="http://static.marela.si/users0/markos/2/1L7zJkVx0em0P8PaV3Y_-cNX788.jpg" alt="XO with Powerbook G4" /></a></p>
+<p style="clear:left">It&#8217;s too early for anything but first impressions, but unlike some people mine are completely positive. This doesn&#8217;t mean everything works. It doesn&#8217;t like WPA-enabled wifi in our flat. Some parts are a bit flaky or unfinished. But on the whole I haven&#8217;t found problems yet that weren&#8217;t already documented on project&#8217;s wiki and in general it certainly works better than I expected.</p>
+<p>Time will tell if this infatuation will last, although I don&#8217;t see why not, since it offers everything I hoped for my projects. As a side note, if you live in Slovenia and someone sends you G1G1, be prepared to pay VAT also for the one that was bought abroad and shipped elsewhere. Yet another thing beyond my comprehension.</p>
+			</div>
+
+			<nav>
+				<p>If you liked this, you might want to visit:</p>
+				<ul>
+					<li>my previous article: <a href="http://markos.gaivo.net/blog/?p=245" rel="prev">Suing myself</a></li>					<li>my next article: <a href="http://markos.gaivo.net/blog/?p=247" rel="next">Javascript objekti</a></li>					<li><a href="/blog/">article list</a></li>
+				</ul>
+			</nav>
+
+			<h2 id="comments">No Comments
+			</h2>
+			<p>No comments yet.</p>
+
+		<p>Sorry, the comment form is closed at this time.</p>
+
+		</article>
+	</section>
+			<!-- All pages -->
+	
+
+	<footer>
+		<ul>
+			<li>&copy; 2005-2015 Marko Samastur</li>
+			
+			<li><a href="http://markos.gaivo.net/blog/?feed=rss2">Entries feed</a></li>
+			<li><a href="http://markos.gaivo.net/blog/?feed=comments-rss2">Comments feed</a></li>
+		</ul>
+		<a href="/"><img src="/img/markos_light_small_bg.png" alt="logo" class="mini-logo" /></a>
+	</footer>
+	<!-- Google analytics -->
+	<script type="text/javascript">
+	  var _gaq = _gaq || [];
+	  _gaq.push(['_setAccount', 'UA-152438-1']);
+	  _gaq.push(['_trackPageview']);
+	</script>
+	<script src="/js/cookie.js"></script>
+</body>
+</html>

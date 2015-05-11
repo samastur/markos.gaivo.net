@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>A notch above a monkey &raquo; In defense of a regular user</title>
+	<meta charset="utf-8" />
+	
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" /> 
+
+	<link rel="shortcut icon" href="/img/markos.ico" />
+	
+	<meta name="generator" content="WordPress 3.0.5" /> <!-- leave this for stats please -->
+
+	<link href="http://fast.fonts.com/cssapi/aee9b60b-8e94-47f8-b586-3ecbfab51d1c.css" rel="stylesheet" type="text/css" />
+	<link rel="stylesheet" type="text/css" href="css/home.css" media="screen" title="Light theme" />
+	<link rel="alternate stylesheet" type="text/css" href="css/home_dark.css" media="screen" title="Dark theme" />
+	<link rel="stylesheet" href="css/ipad.css" media="only screen and (min-device-width : 768px) and (max-device-width : 1024px)">
+	<link rel="stylesheet" type="text/css" href="css/smallscreen.css" media="only screen and (max-width: 700px)" />
+
+	<link rel="alternate" type="application/rss+xml" title="RSS 2.0" href="http://markos.gaivo.net/blog/?feed=rss2" />
+	<link rel="alternate" type="application/atom+xml" title="Atom 1.0" href="http://markos.gaivo.net/blog/?feed=atom" />
+	<link rel='canonical' href='http://markos.gaivo.net/blog/?p=664' />
+
+	<link rel="pingback" href="http://markos.gaivo.net/blog/xmlrpc.php" />
+
+	<link rel="EditURI" type="application/rsd+xml" title="RSD" href="http://markos.gaivo.net/blog/xmlrpc.php?rsd" />
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="http://markos.gaivo.net/blog/wp-includes/wlwmanifest.xml" /> 
+<link rel='index' title='A notch above a monkey' href='http://markos.gaivo.net/blog' />
+<link rel='start' title='First post' href='http://markos.gaivo.net/blog/?p=2' />
+<link rel='prev' title='Beloved python filter' href='http://markos.gaivo.net/blog/?p=98' />
+<link rel='next' title='News at seven &#8211; javascript i18n that almost doesn&#8217;t suck' href='http://markos.gaivo.net/blog/?p=100' />
+<meta name="generator" content="WordPress 3.0.5" />
+<link rel='canonical' href='http://markos.gaivo.net/blog/?p=99' />
+
+	<!--[if lt IE 9]>
+	<script src="/js/html5.js"></script>
+	<![endif]-->
+</head>
+<body>
+					<header>
+		<h1><a href="/blog/">A notch above a monkey</a> &raquo; In defense of a regular user</h1>
+	</header>
+
+	<section class="envelope">
+		<article class="post">
+			<header>
+				<h1>In defense of a regular user</h1>
+			</header>
+
+			<footer>
+				<ul>
+					<li class="by">Written by: <a href="/">Marko Samastur</a></li>
+					<li class="published">Published on: <time datetime="2005-12-18T20:14:00+00:00" pubdate>December 18, 2005</time></li>
+					<li class="categories">Categories: <a href="http://markos.gaivo.net/blog/?cat=3" title="View all posts in Catchall" rel="category">Catchall</a>, <a href="http://markos.gaivo.net/blog/?cat=9" title="View all posts in Company" rel="category">Company</a></li>
+					<li class="post-comments">Comments: <span>Comments Off</span></li>
+				</ul>
+			</footer>
+
+			<div class="post-text">
+				<p>I used to be a part-time system administrator and have a few colleagues who still are. So I&#8217;m fairly used to regular complaints about (l)users and a delusional sense of self-importance. Yet, it&#8217;s still a rare week in which I&#8217;d read a bunch of articles (with comments) like <a href="http://www.misterorange.com/2005/12/flipside-8-end-user-troubleshooting.html">this one</a>  and had so many discussions about what and how should our users behave.</p>
+<p>I think most comments were simply rubbish. You have no reason to complain as long as they are polite and not intentionally obstructive.</p>
+<p>The thing I always admired about <a href="http://www.mobitel.si">Mobitel</a> is the way they treat their customers. It doesn&#8217;t matter how little do they know about phones, phone plans or even their own needs and desires, you can be sure that Mobitel&#8217;s personnel will take the time and energy necessary to explain, show and resolve whatever is needed. They certainly don&#8217;t expect me to come loaded with information and spend more of my time to save theirs.</p>
+<p>I know next to nothing about plumbing and I&#8217;m sure it&#8217;s a fact well known and obvious to every plumber I&#8217;ve met. But did they ever treat me like an idiot? No, because it&#8217;s understood that they have to know so I don&#8217;t have to. I simply can&#8217;t know everything and wouldn&#8217;t want to, because there are other, more important things that I should be doing. I might help with my answers to their questions, but it&#8217;s not really expected of me to do anything more than to show the problem.</p>
+<p>I understand frustrations when dealing with too many problems and too little time. I also know that there&#8217;s always a small percentage of users who simply are assholes. I don&#8217;t believe it&#8217;s ever acceptable to be impolite, but I understand it sometimes happens.</p>
+<p>Life can be hard, but it doesn&#8217;t change the fact that our task is to provide a service, to serve our users and not the other way around. And if we have a problem doing this, it&#8217;s us who must resolve it not them. In fact, without them  &#8220;pests&#8221; there&#8217;s little need for what we provide. After all a perfectly configured and RFC compliant mail server is just a box of toxic waste without someone sending emails through it.</p>
+<p>Some professions get this. As Woody Allen rightly pointed out, it really is a bitch to get a plumber (on Sunday).</p>
+			</div>
+
+			<nav>
+				<p>If you liked this, you might want to visit:</p>
+				<ul>
+					<li>my previous article: <a href="http://markos.gaivo.net/blog/?p=98" rel="prev">Beloved python filter</a></li>					<li>my next article: <a href="http://markos.gaivo.net/blog/?p=100" rel="next">News at seven &#8211; javascript i18n that almost doesn&#8217;t suck</a></li>					<li><a href="/blog/">article list</a></li>
+				</ul>
+			</nav>
+
+			<h2 id="comments">No Comments
+			</h2>
+			<p>No comments yet.</p>
+
+		<p>Sorry, the comment form is closed at this time.</p>
+
+		</article>
+	</section>
+			<!-- All pages -->
+	
+
+	<footer>
+		<ul>
+			<li>&copy; 2005-2015 Marko Samastur</li>
+			
+			<li><a href="http://markos.gaivo.net/blog/?feed=rss2">Entries feed</a></li>
+			<li><a href="http://markos.gaivo.net/blog/?feed=comments-rss2">Comments feed</a></li>
+		</ul>
+		<a href="/"><img src="/img/markos_light_small_bg.png" alt="logo" class="mini-logo" /></a>
+	</footer>
+	<!-- Google analytics -->
+	<script type="text/javascript">
+	  var _gaq = _gaq || [];
+	  _gaq.push(['_setAccount', 'UA-152438-1']);
+	  _gaq.push(['_trackPageview']);
+	</script>
+	<script src="/js/cookie.js"></script>
+</body>
+</html>

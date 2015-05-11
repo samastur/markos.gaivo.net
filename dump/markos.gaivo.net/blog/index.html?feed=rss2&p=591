@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+		>
+<channel>
+	<title>Comments on: Using canvas and Javascript to blur images</title>
+	<atom:link href="http://markos.gaivo.net/blog/?feed=rss2&#038;p=591" rel="self" type="application/rss+xml" />
+	<link>http://markos.gaivo.net/blog/?p=591</link>
+	<description></description>
+	<lastBuildDate>Wed, 16 Jul 2014 16:04:38 +0000</lastBuildDate>
+	<sy:updatePeriod>hourly</sy:updatePeriod>
+	<sy:updateFrequency>1</sy:updateFrequency>
+	<generator>http://wordpress.org/?v=3.0.5</generator>
+	<item>
+		<title>By: What web technologies is mikematas.com built with? - Quora</title>
+		<link>http://markos.gaivo.net/blog/?p=591&#038;cpage=1#comment-223239</link>
+		<dc:creator>What web technologies is mikematas.com built with? - Quora</dc:creator>
+		<pubDate>Fri, 07 Jan 2011 20:57:02 +0000</pubDate>
+		<guid isPermaLink="false">http://markos.gaivo.net/blog/?p=591#comment-223239</guid>
+		<description>[...] though it could also be done in JavaScript using a canvas tag and getImageData(), for example: http://markos.gaivo.net/blog/?p=591Insert a dynamic date hereCannot add comment at this [...]</description>
+		<content:encoded><![CDATA[<p>[...] though it could also be done in JavaScript using a canvas tag and getImageData(), for example: <a href="http://markos.gaivo.net/blog/?p=591Insert">http://markos.gaivo.net/blog/?p=591Insert</a> a dynamic date hereCannot add comment at this [...]</p>
+]]></content:encoded>
+	</item>
+	<item>
+		<title>By: Avinash</title>
+		<link>http://markos.gaivo.net/blog/?p=591&#038;cpage=1#comment-220335</link>
+		<dc:creator>Avinash</dc:creator>
+		<pubDate>Mon, 22 Nov 2010 07:27:57 +0000</pubDate>
+		<guid isPermaLink="false">http://markos.gaivo.net/blog/?p=591#comment-220335</guid>
+		<description>Thanks for sharing !</description>
+		<content:encoded><![CDATA[<p>Thanks for sharing !</p>
+]]></content:encoded>
+	</item>
+	<item>
+		<title>By: bob</title>
+		<link>http://markos.gaivo.net/blog/?p=591&#038;cpage=1#comment-219404</link>
+		<dc:creator>bob</dc:creator>
+		<pubDate>Mon, 01 Nov 2010 01:09:19 +0000</pubDate>
+		<guid isPermaLink="false">http://markos.gaivo.net/blog/?p=591#comment-219404</guid>
+		<description>on my following script, it always does one pass. i am using it in a loop, so i saw it unnecessary.</description>
+		<content:encoded><![CDATA[<p>on my following script, it always does one pass. i am using it in a loop, so i saw it unnecessary.</p>
+]]></content:encoded>
+	</item>
+	<item>
+		<title>By: bob</title>
+		<link>http://markos.gaivo.net/blog/?p=591&#038;cpage=1#comment-219402</link>
+		<dc:creator>bob</dc:creator>
+		<pubDate>Mon, 01 Nov 2010 01:03:14 +0000</pubDate>
+		<guid isPermaLink="false">http://markos.gaivo.net/blog/?p=591#comment-219402</guid>
+		<description>I have optimized it, and made a new version that takes about 6/10 as long un minified, and about 1/2 as long minified (using google Closure Compiler)
+
+here it is unminified:
+
+function blur (img, passes) {
+	var i, j, k, w = img.width, h = img.height, im = img.data, m=2, temp, pos, poss, step, jump, inner, outer, arr;
+
+		while(m--) {
+			if (m) {
+				outer = w; inner = h;
+				step = w&lt;&lt;2;
+			} else {
+				outer = h; inner = w;
+				step = 4;
+			}
+			i=outer;
+			while(i--) {
+				jump = m===0 ? i*w&lt;&lt;2 : i&lt;&gt;2)&#124;0;
+					im[poss+step] =((arr += im[poss+step*3])/5)&#124;0;
+					for (j = 3; j 0?temp:0)/5)&#124;0;
+					}
+					im[pos+j*step] = ((arr -= im[pos+(j-2)*step])&gt;&gt;2)&#124;0;
+					im[pos+(j+1)*step] =((arr -= im[pos+(j-1)*step])/3)&#124;0;
+				}
+			}
+                }
+	return img;
+}
+Minified:
+function blur(g){;for(var e,a,i,h=g.width,l=g.height,b=g.data,j=2,m,d,c,n,k,f;j--;){if(j){e=h;k=l;c=h&lt;&lt;2}else{e=l;k=h;c=4}for(e=e;e--;){n=j===0?e*h&lt;&lt;2:e&lt;&gt;2&#124;0;b[a+c]=(f+=b[a+c*3])/5&#124;0;for(a=3;a0?m:0)/5&#124;0;b[d+a*c]=(f-=b[d+(a-2)*c])&gt;&gt;2&#124;0;b[d+(a+1)*c]=(f-b[d+(a-1)*c])/3&#124;0}}};return g};</description>
+		<content:encoded><![CDATA[<p>I have optimized it, and made a new version that takes about 6/10 as long un minified, and about 1/2 as long minified (using google Closure Compiler)</p>
+<p>here it is unminified:</p>
+<p>function blur (img, passes) {<br />
+	var i, j, k, w = img.width, h = img.height, im = img.data, m=2, temp, pos, poss, step, jump, inner, outer, arr;</p>
+<p>		while(m&#8211;) {<br />
+			if (m) {<br />
+				outer = w; inner = h;<br />
+				step = w&lt;&lt;2;<br />
+			} else {<br />
+				outer = h; inner = w;<br />
+				step = 4;<br />
+			}<br />
+			i=outer;<br />
+			while(i&#8211;) {<br />
+				jump = m===0 ? i*w&lt;&lt;2 : i&lt;&gt;2)|0;<br />
+					im[poss+step] =((arr += im[poss+step*3])/5)|0;<br />
+					for (j = 3; j 0?temp:0)/5)|0;<br />
+					}<br />
+					im[pos+j*step] = ((arr -= im[pos+(j-2)*step])&gt;&gt;2)|0;<br />
+					im[pos+(j+1)*step] =((arr -= im[pos+(j-1)*step])/3)|0;<br />
+				}<br />
+			}<br />
+                }<br />
+	return img;<br />
+}<br />
+Minified:<br />
+function blur(g){;for(var e,a,i,h=g.width,l=g.height,b=g.data,j=2,m,d,c,n,k,f;j&#8211;;){if(j){e=h;k=l;c=h&lt;&lt;2}else{e=l;k=h;c=4}for(e=e;e&#8211;;){n=j===0?e*h&lt;&lt;2:e&lt;&gt;2|0;b[a+c]=(f+=b[a+c*3])/5|0;for(a=3;a0?m:0)/5|0;b[d+a*c]=(f-=b[d+(a-2)*c])&gt;&gt;2|0;b[d+(a+1)*c]=(f-b[d+(a-1)*c])/3|0}}};return g};</p>
+]]></content:encoded>
+	</item>
+	<item>
+		<title>By: markos</title>
+		<link>http://markos.gaivo.net/blog/?p=591&#038;cpage=1#comment-217127</link>
+		<dc:creator>markos</dc:creator>
+		<pubDate>Fri, 10 Sep 2010 17:48:22 +0000</pubDate>
+		<guid isPermaLink="false">http://markos.gaivo.net/blog/?p=591#comment-217127</guid>
+		<description>May be, but problem with Mike&#039;s site isn&#039;t blur or even Javascript itself. I am still building my gallery, but it seems to handle couple of hundred images quite well.
+
+I tried to look at your link on my iPad, but couldn&#039;t see anything :P Seriously though, Flash is (for now) indispensable tool for some tasks, but there are fewer of them each day.</description>
+		<content:encoded><![CDATA[<p>May be, but problem with Mike&#8217;s site isn&#8217;t blur or even Javascript itself. I am still building my gallery, but it seems to handle couple of hundred images quite well.</p>
+<p>I tried to look at your link on my iPad, but couldn&#8217;t see anything <img src='http://markos.gaivo.net/blog/wp-includes/images/smilies/icon_razz.gif' alt=':P' class='wp-smiley' />  Seriously though, Flash is (for now) indispensable tool for some tasks, but there are fewer of them each day.</p>
+]]></content:encoded>
+	</item>
+	<item>
+		<title>By: bfred.it</title>
+		<link>http://markos.gaivo.net/blog/?p=591&#038;cpage=1#comment-216752</link>
+		<dc:creator>bfred.it</dc:creator>
+		<pubDate>Wed, 01 Sep 2010 02:09:20 +0000</pubDate>
+		<guid isPermaLink="false">http://markos.gaivo.net/blog/?p=591#comment-216752</guid>
+		<description>Too bad it isn&#039;t probably ready for prime time. Browsers aren&#039;t optimized enough. Mike&#039;s website was not smooth enough to be functional on Chrome 5 on a 2.8Ghz Mac, which should perform better than 80% (made-up) of the other machines around the world, so unless these hardware-accelerated engines see the light I doubt we can use this while providing an optimal experience.
+
+I mean, have you seen this? (Flash)
+http://www.adobe.com/jp/events/cs3_web_edition_tour/swfs/perform.swf
+
+That&#039;s &quot;fast enough&quot;</description>
+		<content:encoded><![CDATA[<p>Too bad it isn&#8217;t probably ready for prime time. Browsers aren&#8217;t optimized enough. Mike&#8217;s website was not smooth enough to be functional on Chrome 5 on a 2.8Ghz Mac, which should perform better than 80% (made-up) of the other machines around the world, so unless these hardware-accelerated engines see the light I doubt we can use this while providing an optimal experience.</p>
+<p>I mean, have you seen this? (Flash)<br />
+<a href="http://www.adobe.com/jp/events/cs3_web_edition_tour/swfs/perform.swf">http://www.adobe.com/jp/events/cs3_web_edition_tour/swfs/perform.swf</a></p>
+<p>That&#8217;s &#8220;fast enough&#8221;</p>
+]]></content:encoded>
+	</item>
+	<item>
+		<title>By: markos</title>
+		<link>http://markos.gaivo.net/blog/?p=591&#038;cpage=1#comment-214808</link>
+		<dc:creator>markos</dc:creator>
+		<pubDate>Thu, 22 Jul 2010 09:55:59 +0000</pubDate>
+		<guid isPermaLink="false">http://markos.gaivo.net/blog/?p=591#comment-214808</guid>
+		<description>Depends on page, but probably easiest would be to create a canvas for each image and blur image on it.</description>
+		<content:encoded><![CDATA[<p>Depends on page, but probably easiest would be to create a canvas for each image and blur image on it.</p>
+]]></content:encoded>
+	</item>
+	<item>
+		<title>By: Dan</title>
+		<link>http://markos.gaivo.net/blog/?p=591&#038;cpage=1#comment-214790</link>
+		<dc:creator>Dan</dc:creator>
+		<pubDate>Wed, 21 Jul 2010 23:48:47 +0000</pubDate>
+		<guid isPermaLink="false">http://markos.gaivo.net/blog/?p=591#comment-214790</guid>
+		<description>What would it take to do this automatically for several images on a page load?
+This is a really interesting effect.</description>
+		<content:encoded><![CDATA[<p>What would it take to do this automatically for several images on a page load?<br />
+This is a really interesting effect.</p>
+]]></content:encoded>
+	</item>
+	<item>
+		<title>By: xrado</title>
+		<link>http://markos.gaivo.net/blog/?p=591&#038;cpage=1#comment-209898</link>
+		<dc:creator>xrado</dc:creator>
+		<pubDate>Fri, 02 Apr 2010 08:42:26 +0000</pubDate>
+		<guid isPermaLink="false">http://markos.gaivo.net/blog/?p=591#comment-209898</guid>
+		<description>cool and useful</description>
+		<content:encoded><![CDATA[<p>cool and useful</p>
+]]></content:encoded>
+	</item>
+</channel>
+</rss>

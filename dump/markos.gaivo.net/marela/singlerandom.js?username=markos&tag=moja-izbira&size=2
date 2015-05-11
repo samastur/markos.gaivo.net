@@ -1,0 +1,125 @@
+var gaivo = {
+	URL : "http://markos.gaivo.net/marela/singlerandom.js",
+
+	MarelaRandomImage : function () {
+		this.ID = "";
+		this.parameters = { username : "markos",
+					limit : 100,
+					tag : "moja-izbira" };
+		this.me;
+		var rpc = this;
+
+		this.getParameters = function() {
+			var i; var item;
+			var scripts = document.getElementsByTagName("script");
+			var shortURL;
+
+			var parts = gaivo.URL.split("/");
+			var shortURL = parts[parts.length-1];
+
+			// Find me by my URL
+			for(i=0;i<scripts.length;i++) {
+				parts = scripts[i].src.split("/");
+				var curscript = parts[parts.length-1].split("?")[0];
+				if (curscript == shortURL) {
+					rpc.me = scripts[i];
+					break;
+				}
+			}
+
+			if (rpc.me) {
+				// Parse parameters, if there are any
+				var params = rpc.me.src.split("?");
+				if (params.length == 2) {
+					try {
+						items = params[1].split("&");
+						for(i=0; i<items.length; i++) {
+							item = items[i].split("=");
+							rpc.parameters[item[0]] = item[1];
+						}
+					} catch(e) {
+						alert("Parametri v vrstici niso prave oblike.");
+					}
+				}
+			}
+		}
+
+		this.call = function (method) {
+				var url = "http://www.marela.si/as/rest/?rtype=json";
+				var multi = false;
+				var callURL;
+
+				callURL = url + "&method="+method;
+
+				var scr = document.createElement('script');
+				scr.type = 'text/javascript';
+
+				// Find non-used ID
+				var tmpId;
+				do {
+					tmpId = "rpc"+Math.round(Math.random()*10000);
+					// Check that there's no element or function using this ID
+				} while (document.getElementById(tmpId) || window["fn"+tmpId]);
+				scr.id = tmpId;
+
+				// Use this ID also for callback function name
+				callURL += "&json_func=fn"+tmpId+"(%s)";
+				window["fn"+tmpId] = this._handle;
+
+				for (key in rpc.parameters) {
+					// In multi-method call check that parameters are of correct form
+					if (multi && rpc.parameters[key].search(".")<=0) {
+						alert("Syntax error: Malformed parameters in multi-method call");
+						return;
+					}
+					callURL += "&"+key+"="+rpc.parameters[key];
+				}
+				scr.src = callURL;
+				document.getElementsByTagName('head')[0].appendChild(scr);
+
+				this.ID = scr.id;
+			}
+
+		this.callback = function (result) {
+			var photos = result["portal.getObjectsByTag"];
+			var size = "2/";
+
+			if (typeof rpc.parameters["size"] != "undefined")
+				size = rpc.parameters["size"]+"/";
+
+			if (photos.length) {
+				// Pick a random photo
+				var num = Math.floor(Math.random()*photos.length);
+				var imgURL = photos[num][2].replace("%s", size);
+				if (!imgURL)
+					imgURL = photos[0][2].replace("%s", size);
+
+				// Add image
+				var img = document.createElement("img");
+				img.src = imgURL;
+
+				rpc.me.parentNode.insertBefore(img, rpc.me);
+			}
+		}
+
+		this._handle = function (result) {
+			// We can delete superfluous script element and function
+			var node = document.getElementById(rpc.ID);
+			if (node)
+				node.parentNode.removeChild(node);
+
+			rpc.callback(result);
+
+			// Some browsers (IE) don't like this
+			try {
+				delete windows["fn"+tmpId];
+			} catch(e) {};
+		}
+
+		this.getParameters();
+
+		this.call("portal.getObjectsByTag");
+	}
+};
+
+gaivo.MarelaRandomImage();

@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>A notch above a monkey &raquo; Company</title>
+	<meta charset="utf-8" />
+	
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" /> 
+
+	<link rel="shortcut icon" href="/img/markos.ico" />
+	
+	<meta name="generator" content="WordPress 3.0.5" /> <!-- leave this for stats please -->
+
+	<link href="http://fast.fonts.com/cssapi/aee9b60b-8e94-47f8-b586-3ecbfab51d1c.css" rel="stylesheet" type="text/css" />
+	<link rel="stylesheet" type="text/css" href="css/home.css" media="screen" title="Light theme" />
+	<link rel="alternate stylesheet" type="text/css" href="css/home_dark.css" media="screen" title="Dark theme" />
+	<link rel="stylesheet" href="css/ipad.css" media="only screen and (min-device-width : 768px) and (max-device-width : 1024px)">
+	<link rel="stylesheet" type="text/css" href="css/smallscreen.css" media="only screen and (max-width: 700px)" />
+
+	<link rel="alternate" type="application/rss+xml" title="RSS 2.0" href="http://markos.gaivo.net/blog/?feed=rss2" />
+	<link rel="alternate" type="application/atom+xml" title="Atom 1.0" href="http://markos.gaivo.net/blog/?feed=atom" />
+	<link rel='canonical' href='http://markos.gaivo.net/blog/?p=664' />
+
+	<link rel="pingback" href="http://markos.gaivo.net/blog/xmlrpc.php" />
+
+	<link rel="alternate" type="application/rss+xml" title="A notch above a monkey &raquo; Company Category Feed" href="http://markos.gaivo.net/blog/?feed=rss2&amp;cat=9" />
+<link rel="EditURI" type="application/rsd+xml" title="RSD" href="http://markos.gaivo.net/blog/xmlrpc.php?rsd" />
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="http://markos.gaivo.net/blog/wp-includes/wlwmanifest.xml" /> 
+<link rel='index' title='A notch above a monkey' href='http://markos.gaivo.net/blog' />
+<meta name="generator" content="WordPress 3.0.5" />
+
+	<!--[if lt IE 9]>
+	<script src="/js/html5.js"></script>
+	<![endif]-->
+</head>
+<body>
+	<section class="envelope posts">
+		<header>
+			<h1><a href="http://markos.gaivo.net/blog/">A notch above a monkey</a></h1>
+		</header>
+		<nav class="colophon">
+			<h1>By Marko Samastur</h1>
+			<ul>
+				<li><a href="/">About me</a></li>
+				<li><a href="http://markos.gaivo.net/blog/?feed=atom">Subscribe</a></li>
+			</ul>
+		</nav>
+
+	
+		<article>
+			<h1 class="storytitle"><a href="http://markos.gaivo.net/blog/?p=177" rel="bookmark">Update on my series60 Marela uploader</a></h1>
+
+			<div class="post-text">
+				<p>I thought it would be nice to give a quick update on status of my Marela uploader for series 60 mobile phones. I have a working version, which is about two annoying bugs and a missing installer away from first release.</p>
+<p>My prognosis of a good day or so development left has so far been correct. I&#8217;ve spent a bit more than a day working on it since then and I don&#8217;t see bigger obstacles in front of me. Could be wrong, but I doubt it.</p>
+<p>I&#8217;m also quite satisfied with its speed. There are few rough edges where API is lacking, but in general it&#8217;s fast enough and not visibly slower than your average mobile Java application.</p>
+<p>I&#8217;ll be busy with work for next couple of days, so I expect to release it (together with source) somewhere in the middle of next week. And Python for series 60 phones definitely rules.</p>
+			</div>
+
+			<footer class="post-metadata">
+				<ul>
+					<li>Published on <time datetime="2006-05-28T14:43:18+00:00">May 28, 2006</time></li>
+					<li><a href="http://markos.gaivo.net/blog/?p=177#comments" title="Comment on Update on my series60 Marela uploader">Add your comment</a> </li>
+				</ul>
+			</footer>
+		</article>
+	
+		<article>
+			<h1 class="storytitle"><a href="http://markos.gaivo.net/blog/?p=169" rel="bookmark">PS3 &#8211; cheap or expensive?</a></h1>
+
+			<div class="post-text">
+				<p>I normally don&#8217;t care much about games and write about them even less. But I get really annoyed when I see the same idiotic argument repeated again and again. As Eurogamer via TheRegister <a href="http://www.reghardware.co.uk/2006/05/18/sony_reveals_uk_ps3_pricing//">reports</a>:</p>
+<blockquote><p>SCE UK Managing Director Rat Maguire said: &#8220;I don&#8217;t think it&#8217;s an expensive machine &#8211; I think actually, it&#8217;s probably a cheap machine. If you think a Blu-Ray player by itself might be £600-700, and we&#8217;re coming in at just £425, it&#8217;s a bargain.&#8221;</p></blockquote>
+<p>Cheaper than (outrageously) expensive is not necessarily cheap, it might be just less expensive. Personally, if people were screaming at me that 425 quid is too much as much as they do at Sony lately, I&#8217;d rather worry if 600 pounds price will simply be a disaster.</p>
+			</div>
+
+			<footer class="post-metadata">
+				<ul>
+					<li>Published on <time datetime="2006-05-20T00:08:34+00:00">May 20, 2006</time></li>
+					<li><a href="http://markos.gaivo.net/blog/?p=169#comments" title="Comment on PS3 &#8211; cheap or expensive?">Add your comment</a> </li>
+				</ul>
+			</footer>
+		</article>
+	
+		<article>
+			<h1 class="storytitle"><a href="http://markos.gaivo.net/blog/?p=168" rel="bookmark">Mobile user interfaces</a></h1>
+
+			<div class="post-text">
+				<p>I&#8217;ve been working on Marela uploader for series60 phones (those with Python support) and have had a great fun discovering the world of user interfaces on mobile devices.</p>
+<p>If you think there&#8217;s not enough space on your average web page, you really should try designing an interface for a device with stamp size screen with a resolution of <a href="http://www.c64.com/">Commodore 64</a> in full color mode (but luckily with far more colors) and input device that only kids could love. On top of that there&#8217;s a limited selection of existing UI controls to chose from and text can&#8217;t be too small to remain legible.</p>
+<p>Still, I think the major problems have been solved and I&#8217;m maybe a day or so of development and a decent camera phone away from first working version. I&#8217;m hoping to get it done by this weekend, but realist in me keeps screaming: &#8220;Maybe next week!&#8221;</p>
+			</div>
+
+			<footer class="post-metadata">
+				<ul>
+					<li>Published on <time datetime="2006-05-17T17:51:40+00:00">May 17, 2006</time></li>
+					<li><a href="http://markos.gaivo.net/blog/?p=168#comments" title="Comment on Mobile user interfaces">Add your comment</a> </li>
+				</ul>
+			</footer>
+		</article>
+		
+		<nav class="pagination">
+			<ul>
+				<li><a href="http://markos.gaivo.net/blog/?cat=9&#038;paged=6" >&laquo; Newer articles</a></li>
+				<li><a href="http://markos.gaivo.net/blog/?cat=9&#038;paged=8" >Older articles &raquo;</a></li>
+			</ul>
+		</nav>
+	</section>
+
+
+	<footer>
+		<ul>
+			<li>&copy; 2005-2015 Marko Samastur</li>
+			
+			<li><a href="http://markos.gaivo.net/blog/?feed=rss2">Entries feed</a></li>
+			<li><a href="http://markos.gaivo.net/blog/?feed=comments-rss2">Comments feed</a></li>
+		</ul>
+		<a href="/"><img src="/img/markos_light_small_bg.png" alt="logo" class="mini-logo" /></a>
+	</footer>
+	<script src="/js/jquery.js"></script>
+	<script src="/js/all.js"></script>
+	<!--script src="/mint/?js" type="text/javascript"></script-->
+
+	<!-- Google analytics -->
+	<script type="text/javascript">
+
+	  var _gaq = _gaq || [];
+	  _gaq.push(['_setAccount', 'UA-152438-1']);
+	  _gaq.push(['_trackPageview']);
+	</script>
+	<script src="/js/cookie.js"></script>
+</body>
+</html>

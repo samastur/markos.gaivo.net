@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+		>
+<channel>
+	<title>Comments on: Intellectual property and society benefits</title>
+	<atom:link href="http://markos.gaivo.net/blog/?feed=rss2&#038;p=72" rel="self" type="application/rss+xml" />
+	<link>http://markos.gaivo.net/blog/?p=72</link>
+	<description></description>
+	<lastBuildDate>Wed, 16 Jul 2014 16:04:38 +0000</lastBuildDate>
+	<sy:updatePeriod>hourly</sy:updatePeriod>
+	<sy:updateFrequency>1</sy:updateFrequency>
+	<generator>http://wordpress.org/?v=3.0.5</generator>
+	<item>
+		<title>By: markos</title>
+		<link>http://markos.gaivo.net/blog/?p=72&#038;cpage=1#comment-260</link>
+		<dc:creator>markos</dc:creator>
+		<pubDate>Mon, 21 Nov 2005 15:35:07 +0000</pubDate>
+		<guid isPermaLink="false">http://markos.gaivo.net/blog/?p=72#comment-260</guid>
+		<description>Yes, I know, although I didn&#039;t mention it. I guess bias comes from my background, which is software development.
+
+I haven&#039;t yet seen a patent, which is both non-obvious and revealing.  It seems wast majority is either one or the other.
+
+But the question is still, is making these ideas public worth 28 years of monopoly? Would we really have to wait at least that long before we could reproduce it ourselves otherwise?
+
+I&#039;d say no, judging by the speed at which software industry developed before software patents even existed.</description>
+		<content:encoded><![CDATA[<p>Yes, I know, although I didn&#8217;t mention it. I guess bias comes from my background, which is software development.</p>
+<p>I haven&#8217;t yet seen a patent, which is both non-obvious and revealing.  It seems wast majority is either one or the other.</p>
+<p>But the question is still, is making these ideas public worth 28 years of monopoly? Would we really have to wait at least that long before we could reproduce it ourselves otherwise?</p>
+<p>I&#8217;d say no, judging by the speed at which software industry developed before software patents even existed.</p>
+]]></content:encoded>
+	</item>
+	<item>
+		<title>By: JustinB</title>
+		<link>http://markos.gaivo.net/blog/?p=72&#038;cpage=1#comment-259</link>
+		<dc:creator>JustinB</dc:creator>
+		<pubDate>Mon, 21 Nov 2005 14:48:32 +0000</pubDate>
+		<guid isPermaLink="false">http://markos.gaivo.net/blog/?p=72#comment-259</guid>
+		<description>There is another reason for patents.
+
+Patents encourage people to publish their ideas and to not keep them for themselves, e.G. not making corporate secrets from good ideas; because in the process of patenting you have to reveal the techniques etc.
+
+This does, of course, not apply to things like internet advertisement - the technique is obvious at first sight.</description>
+		<content:encoded><![CDATA[<p>There is another reason for patents.</p>
+<p>Patents encourage people to publish their ideas and to not keep them for themselves, e.G. not making corporate secrets from good ideas; because in the process of patenting you have to reveal the techniques etc.</p>
+<p>This does, of course, not apply to things like internet advertisement &#8211; the technique is obvious at first sight.</p>
+]]></content:encoded>
+	</item>
+</channel>
+</rss>

@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>A notch above a monkey &raquo; Hiding form buttons as text</title>
+	<meta charset="utf-8" />
+	
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" /> 
+
+	<link rel="shortcut icon" href="/img/markos.ico" />
+	
+	<meta name="generator" content="WordPress 3.0.5" /> <!-- leave this for stats please -->
+
+	<link href="http://fast.fonts.com/cssapi/aee9b60b-8e94-47f8-b586-3ecbfab51d1c.css" rel="stylesheet" type="text/css" />
+	<link rel="stylesheet" type="text/css" href="css/home.css" media="screen" title="Light theme" />
+	<link rel="alternate stylesheet" type="text/css" href="css/home_dark.css" media="screen" title="Dark theme" />
+	<link rel="stylesheet" href="css/ipad.css" media="only screen and (min-device-width : 768px) and (max-device-width : 1024px)">
+	<link rel="stylesheet" type="text/css" href="css/smallscreen.css" media="only screen and (max-width: 700px)" />
+
+	<link rel="alternate" type="application/rss+xml" title="RSS 2.0" href="http://markos.gaivo.net/blog/?feed=rss2" />
+	<link rel="alternate" type="application/atom+xml" title="Atom 1.0" href="http://markos.gaivo.net/blog/?feed=atom" />
+	<link rel='canonical' href='http://markos.gaivo.net/blog/?p=664' />
+
+	<link rel="pingback" href="http://markos.gaivo.net/blog/xmlrpc.php" />
+
+	<link rel="alternate" type="application/rss+xml" title="A notch above a monkey &raquo; Hiding form buttons as text Comments Feed" href="http://markos.gaivo.net/blog/?feed=rss2&amp;p=84" />
+<link rel="EditURI" type="application/rsd+xml" title="RSD" href="http://markos.gaivo.net/blog/xmlrpc.php?rsd" />
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="http://markos.gaivo.net/blog/wp-includes/wlwmanifest.xml" /> 
+<link rel='index' title='A notch above a monkey' href='http://markos.gaivo.net/blog' />
+<link rel='start' title='First post' href='http://markos.gaivo.net/blog/?p=2' />
+<link rel='prev' title='Nevsiljiv Javascript &#8211; aftermath' href='http://markos.gaivo.net/blog/?p=83' />
+<link rel='next' title='What&#8217;s in a name?' href='http://markos.gaivo.net/blog/?p=85' />
+<meta name="generator" content="WordPress 3.0.5" />
+<link rel='canonical' href='http://markos.gaivo.net/blog/?p=84' />
+
+	<!--[if lt IE 9]>
+	<script src="/js/html5.js"></script>
+	<![endif]-->
+</head>
+<body>
+					<header>
+		<h1><a href="/blog/">A notch above a monkey</a> &raquo; Hiding form buttons as text</h1>
+	</header>
+
+	<section class="envelope">
+		<article class="post">
+			<header>
+				<h1>Hiding form buttons as text</h1>
+			</header>
+
+			<footer>
+				<ul>
+					<li class="by">Written by: <a href="/">Marko Samastur</a></li>
+					<li class="published">Published on: <time datetime="2005-12-02T15:49:23+00:00" pubdate>December 2, 2005</time></li>
+					<li class="categories">Categories: <a href="http://markos.gaivo.net/blog/?cat=8" title="View all posts in Spletne urice" rel="category">Spletne urice</a>, <a href="http://markos.gaivo.net/blog/?cat=7" title="View all posts in UI" rel="category">UI</a>, <a href="http://markos.gaivo.net/blog/?cat=4" title="View all posts in Web" rel="category">Web</a></li>
+					<li class="post-comments">Comments: <a href="http://markos.gaivo.net/blog/?p=84#comments" title="Comment on Hiding form buttons as text">3</a></li>
+				</ul>
+			</footer>
+
+			<div class="post-text">
+				<p>I love going to our weekly web talks not so much for the talks themselves (although they are great), but conversations you get to have there. A part of a recent one rendered from memory and shortened for readers pleasure:</p>
+<blockquote><p><strong>Fry: </strong>Those delete strings of yours should really be post requests. <a href="http://webaccelerator.google.com/" title="Link to web accelerator that shouldn't be used">GA&#8217;s</a> pre-fetching might destroy user&#8217;s data.<br />
+<strong>Me:</strong> &lt;beeeeep&gt; Google. RFC says should not must.<br />
+<strong>Fry:</strong> Well, since it also says multiple GET requests should yield same result, it really is a must for delete.<br />
+<strong>Me</strong> (not ready to give up): True, but so many form buttons will look like crap.<br />
+<strong>Fry:</strong> Well, you can hide them by removing border, setting background-color to background and fixing font size to 1 em.<br />
+<strong>Me:</strong> Uhm, this might work, but probably doesn&#8217;t, because browsers use controls from operating system.<br />
+<strong>Fry:</strong> Well, try it.</p></blockquote>
+<p>I may be stubborn, but I&#8217;m not a complete moron. So I did and here&#8217;s <a href="http://markos.gaivo.net/examples/hidebutton.html" title="Demo">the result</a>.</p>
+<p>As can be seen, it works beautifully in Firefox (1.0+) and Opera 8 (I share my visitors indifference to earlier versions). It doesn&#8217;t work in Safari at all, but since its buttons are not obnoxiously ugly, I can live with that.</p>
+<p>However, it has unseemly big padding in Internet Explorer, which is the real deal-breaker for now.</p>
+<p>I think demo&#8217;s style sheet is pretty self explanatory, but here&#8217;s what I did by mostly following Fry&#8217;s instructions:</p>
+<ul>
+<li>set border to 0</li>
+<li>same for padding and margin</li>
+<li>set background-color of the button to the same value as background of the document</li>
+<li>did the same for color of text</li>
+<li>set the size of button text to 1 em so it&#8217;s displayed in right size in every browser</li>
+<li>set cursor to pointer, since it&#8217;s not done automatically for buttons</li>
+</ul>
+<p><a href="http://www.friedcellcollective.net/" title="Fry's web home">Fry</a> was also correct that bold and italics work and underline doesn&#8217;t, but you can simulate later with border-bottom. Except in IE of course, on account of padding.</p>
+<p>There&#8217;s another shortcoming to consider. If background is an image or a color gradient instead of a solid color, this trick won&#8217;t work.</p>
+<p>So, any ideas about what to do with IE?</p>
+			</div>
+
+			<nav>
+				<p>If you liked this, you might want to visit:</p>
+				<ul>
+					<li>my previous article: <a href="http://markos.gaivo.net/blog/?p=83" rel="prev">Nevsiljiv Javascript &#8211; aftermath</a></li>					<li>my next article: <a href="http://markos.gaivo.net/blog/?p=85" rel="next">What&#8217;s in a name?</a></li>					<li><a href="/blog/">article list</a></li>
+				</ul>
+			</nav>
+
+			<h2 id="comments">Comments (3)
+			</h2>
+			<ol class="comments">
+		
+				<li id="comment-270">
+					<article>
+						<p>Doesn&#8217;t work with Konqueror either.</p>
+						<footer>
+							<cite>Comment by <a href='http://www.kiberpipa.org/~hruske/blog/' rel='external nofollow' class='url'>hruske</a> &#8212; <time datetime="2005-12-05T10:10:38+00:00">December 5, 2005 @ 10:10 am</time> <a href="#comment-270">#</a> </cite>
+						</footer>
+					</article>
+				</li>
+		
+				<li id="comment-271">
+					<article>
+						<p>i didn&#8217;t have problems with padding on the side because all my buttons were very small. IE obviously creates a padding of ~25% of the text size and with small buttons that&#8217;s ~5px.</p>
+<p>the solution would be to add a width in ems for IE (width:16.5em; and width:10em; for the example) &#8211; the button resizes with the font almost perfectly. the background issue is solved by using background-color:transparent; (tested on win2k: moz175,ffx1,ffx15,opera8,ie5,ie55,ie6)</p>
+						<footer>
+							<cite>Comment by <a href='http://www.friedcellcollective.net' rel='external nofollow' class='url'>fry</a> &#8212; <time datetime="2005-12-05T12:16:04+00:00">December 5, 2005 @ 12:16 pm</time> <a href="#comment-271">#</a> </cite>
+						</footer>
+					</article>
+				</li>
+		
+				<li id="comment-272">
+					<article>
+						<p>Interesting.</p>
+<p>Problem with setting width is that you have to do it manually for every text that appears on buttons. And it doesn&#8217;t work all that great for me. It looks good on IE, but it cuts text off on FF1.0/Mac.</p>
+						<footer>
+							<cite>Comment by <a href='http://markos.gaivo.net' rel='external nofollow' class='url'>markos</a> &#8212; <time datetime="2005-12-05T16:51:07+00:00">December 5, 2005 @ 4:51 pm</time> <a href="#comment-272">#</a> </cite>
+						</footer>
+					</article>
+				</li>
+		
+			</ol>
+
+
+		<p>Sorry, the comment form is closed at this time.</p>
+
+		</article>
+	</section>
+			<!-- All pages -->
+	
+
+	<footer>
+		<ul>
+			<li>&copy; 2005-2015 Marko Samastur</li>
+			
+			<li><a href="http://markos.gaivo.net/blog/?feed=rss2">Entries feed</a></li>
+			<li><a href="http://markos.gaivo.net/blog/?feed=comments-rss2">Comments feed</a></li>
+		</ul>
+		<a href="/"><img src="/img/markos_light_small_bg.png" alt="logo" class="mini-logo" /></a>
+	</footer>
+	<!-- Google analytics -->
+	<script type="text/javascript">
+	  var _gaq = _gaq || [];
+	  _gaq.push(['_setAccount', 'UA-152438-1']);
+	  _gaq.push(['_trackPageview']);
+	</script>
+	<script src="/js/cookie.js"></script>
+</body>
+</html>

@@ -1,0 +1,5 @@
+BODY { line-height: 1.3em; font-size: 0.9em; background: #ddd;}
+DL { overflow: hidden; background: #eee; width: 400px;}
+DT {font-weight: bold; font-size: 0.9em;}
+DD {margin: 0 1em 0.5em; }
+.noshow {display: none; }

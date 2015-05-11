@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+		>
+<channel>
+	<title>Comments on: Code misery</title>
+	<atom:link href="http://markos.gaivo.net/blog/?feed=rss2&#038;p=203" rel="self" type="application/rss+xml" />
+	<link>http://markos.gaivo.net/blog/?p=203</link>
+	<description></description>
+	<lastBuildDate>Wed, 16 Jul 2014 16:04:38 +0000</lastBuildDate>
+	<sy:updatePeriod>hourly</sy:updatePeriod>
+	<sy:updateFrequency>1</sy:updateFrequency>
+	<generator>http://wordpress.org/?v=3.0.5</generator>
+	<item>
+		<title>By: rudi</title>
+		<link>http://markos.gaivo.net/blog/?p=203&#038;cpage=1#comment-7278</link>
+		<dc:creator>rudi</dc:creator>
+		<pubDate>Sun, 27 Aug 2006 19:26:37 +0000</pubDate>
+		<guid isPermaLink="false">http://markos.gaivo.net/blog/?p=203#comment-7278</guid>
+		<description>Email.si: system admins who can&#039;t handle network administration, programmers who don&#039;t know anything about graphics design and marketing department is a mail alias. Hello!
+
+We had a designer for the first redesign, what... 5 years ago. The other &quot;designer&quot; just quit. I think that he designed a New Years greeting card and that was it. Heh.
+
+Marko, obviously I&#039;m well aware of the current shortcomings of the design, but sometimes things just need to get done and &quot;clean Web 2.0&quot; way isn&#039;t a timely option for me. Yeah, it&#039;s just me, no one else.
+
+I&#039;ll have to blog about our current status. But mostly: it sucks and we, programmers and admins, are trying to do something about it.</description>
+		<content:encoded><![CDATA[<p>Email.si: system admins who can&#8217;t handle network administration, programmers who don&#8217;t know anything about graphics design and marketing department is a mail alias. Hello!</p>
+<p>We had a designer for the first redesign, what&#8230; 5 years ago. The other &#8220;designer&#8221; just quit. I think that he designed a New Years greeting card and that was it. Heh.</p>
+<p>Marko, obviously I&#8217;m well aware of the current shortcomings of the design, but sometimes things just need to get done and &#8220;clean Web 2.0&#8243; way isn&#8217;t a timely option for me. Yeah, it&#8217;s just me, no one else.</p>
+<p>I&#8217;ll have to blog about our current status. But mostly: it sucks and we, programmers and admins, are trying to do something about it.</p>
+]]></content:encoded>
+	</item>
+	<item>
+		<title>By: markos</title>
+		<link>http://markos.gaivo.net/blog/?p=203&#038;cpage=1#comment-7274</link>
+		<dc:creator>markos</dc:creator>
+		<pubDate>Sun, 27 Aug 2006 18:01:47 +0000</pubDate>
+		<guid isPermaLink="false">http://markos.gaivo.net/blog/?p=203#comment-7274</guid>
+		<description>Well, I have no doubts about your backend prowess, but the same can&#039;t be said about frontend stuff.
+
+True, it&#039;s not as bad as above example or many other pages on slovenian web, but it&#039;s not good either. Nonsemantic use of tags, table-based layout, presentation not separated from content and so on are just a few of blemishes on them.
+
+You should come to our meetings more often ;-)</description>
+		<content:encoded><![CDATA[<p>Well, I have no doubts about your backend prowess, but the same can&#8217;t be said about frontend stuff.</p>
+<p>True, it&#8217;s not as bad as above example or many other pages on slovenian web, but it&#8217;s not good either. Nonsemantic use of tags, table-based layout, presentation not separated from content and so on are just a few of blemishes on them.</p>
+<p>You should come to our meetings more often <img src='http://markos.gaivo.net/blog/wp-includes/images/smilies/icon_wink.gif' alt=';-)' class='wp-smiley' /> </p>
+]]></content:encoded>
+	</item>
+	<item>
+		<title>By: fry</title>
+		<link>http://markos.gaivo.net/blog/?p=203&#038;cpage=1#comment-7273</link>
+		<dc:creator>fry</dc:creator>
+		<pubDate>Sun, 27 Aug 2006 17:56:15 +0000</pubDate>
+		<guid isPermaLink="false">http://markos.gaivo.net/blog/?p=203#comment-7273</guid>
+		<description>No offense rudi, but you should hire a (new) designer...</description>
+		<content:encoded><![CDATA[<p>No offense rudi, but you should hire a (new) designer&#8230;</p>
+]]></content:encoded>
+	</item>
+	<item>
+		<title>By: rudi</title>
+		<link>http://markos.gaivo.net/blog/?p=203&#038;cpage=1#comment-7260</link>
+		<dc:creator>rudi</dc:creator>
+		<pubDate>Sun, 27 Aug 2006 12:38:06 +0000</pubDate>
+		<guid isPermaLink="false">http://markos.gaivo.net/blog/?p=203#comment-7260</guid>
+		<description>I&#039;d say that we at email.si have enough web programming sanity. :)</description>
+		<content:encoded><![CDATA[<p>I&#8217;d say that we at email.si have enough web programming sanity. <img src='http://markos.gaivo.net/blog/wp-includes/images/smilies/icon_smile.gif' alt=':)' class='wp-smiley' /> </p>
+]]></content:encoded>
+	</item>
+</channel>
+</rss>

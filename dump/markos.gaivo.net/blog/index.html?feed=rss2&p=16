@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+		>
+<channel>
+	<title>Comments on: Uhm, I don&#8217;t like the colors</title>
+	<atom:link href="http://markos.gaivo.net/blog/?feed=rss2&#038;p=16" rel="self" type="application/rss+xml" />
+	<link>http://markos.gaivo.net/blog/?p=16</link>
+	<description></description>
+	<lastBuildDate>Wed, 16 Jul 2014 16:04:38 +0000</lastBuildDate>
+	<sy:updatePeriod>hourly</sy:updatePeriod>
+	<sy:updateFrequency>1</sy:updateFrequency>
+	<generator>http://wordpress.org/?v=3.0.5</generator>
+	<item>
+		<title>By: Dinja G.</title>
+		<link>http://markos.gaivo.net/blog/?p=16&#038;cpage=1#comment-8</link>
+		<dc:creator>Dinja G.</dc:creator>
+		<pubDate>Sun, 04 Sep 2005 07:26:24 +0000</pubDate>
+		<guid isPermaLink="false">http://markos.gaivo.net/blog/?p=16#comment-8</guid>
+		<description>For designers it would also be &quot;make the logo bigger&quot;...</description>
+		<content:encoded><![CDATA[<p>For designers it would also be &#8220;make the logo bigger&#8221;&#8230;</p>
+]]></content:encoded>
+	</item>
+	<item>
+		<title>By: Izmet Fekali</title>
+		<link>http://markos.gaivo.net/blog/?p=16&#038;cpage=1#comment-7</link>
+		<dc:creator>Izmet Fekali</dc:creator>
+		<pubDate>Sat, 03 Sep 2005 22:48:49 +0000</pubDate>
+		<guid isPermaLink="false">http://markos.gaivo.net/blog/?p=16#comment-7</guid>
+		<description>Imaš kaj ??asa?</description>
+		<content:encoded><![CDATA[<p>Imaš kaj ??asa?</p>
+]]></content:encoded>
+	</item>
+	<item>
+		<title>By: Sebastjan</title>
+		<link>http://markos.gaivo.net/blog/?p=16&#038;cpage=1#comment-6</link>
+		<dc:creator>Sebastjan</dc:creator>
+		<pubDate>Sat, 03 Sep 2005 16:15:32 +0000</pubDate>
+		<guid isPermaLink="false">http://markos.gaivo.net/blog/?p=16#comment-6</guid>
+		<description>A common complaint for programmers could be &quot;It&#039;s slow&quot; :)</description>
+		<content:encoded><![CDATA[<p>A common complaint for programmers could be &#8220;It&#8217;s slow&#8221; <img src='http://markos.gaivo.net/blog/wp-includes/images/smilies/icon_smile.gif' alt=':)' class='wp-smiley' /> </p>
+]]></content:encoded>
+	</item>
+</channel>
+</rss>

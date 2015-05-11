@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>A notch above a monkey &raquo; Company</title>
+	<meta charset="utf-8" />
+	
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" /> 
+
+	<link rel="shortcut icon" href="/img/markos.ico" />
+	
+	<meta name="generator" content="WordPress 3.0.5" /> <!-- leave this for stats please -->
+
+	<link href="http://fast.fonts.com/cssapi/aee9b60b-8e94-47f8-b586-3ecbfab51d1c.css" rel="stylesheet" type="text/css" />
+	<link rel="stylesheet" type="text/css" href="css/home.css" media="screen" title="Light theme" />
+	<link rel="alternate stylesheet" type="text/css" href="css/home_dark.css" media="screen" title="Dark theme" />
+	<link rel="stylesheet" href="css/ipad.css" media="only screen and (min-device-width : 768px) and (max-device-width : 1024px)">
+	<link rel="stylesheet" type="text/css" href="css/smallscreen.css" media="only screen and (max-width: 700px)" />
+
+	<link rel="alternate" type="application/rss+xml" title="RSS 2.0" href="http://markos.gaivo.net/blog/?feed=rss2" />
+	<link rel="alternate" type="application/atom+xml" title="Atom 1.0" href="http://markos.gaivo.net/blog/?feed=atom" />
+	<link rel='canonical' href='http://markos.gaivo.net/blog/?p=664' />
+
+	<link rel="pingback" href="http://markos.gaivo.net/blog/xmlrpc.php" />
+
+	<link rel="alternate" type="application/rss+xml" title="A notch above a monkey &raquo; Company Category Feed" href="http://markos.gaivo.net/blog/?feed=rss2&amp;cat=9" />
+<link rel="EditURI" type="application/rsd+xml" title="RSD" href="http://markos.gaivo.net/blog/xmlrpc.php?rsd" />
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="http://markos.gaivo.net/blog/wp-includes/wlwmanifest.xml" /> 
+<link rel='index' title='A notch above a monkey' href='http://markos.gaivo.net/blog' />
+<meta name="generator" content="WordPress 3.0.5" />
+
+	<!--[if lt IE 9]>
+	<script src="/js/html5.js"></script>
+	<![endif]-->
+</head>
+<body>
+	<section class="envelope posts">
+		<header>
+			<h1><a href="http://markos.gaivo.net/blog/">A notch above a monkey</a></h1>
+		</header>
+		<nav class="colophon">
+			<h1>By Marko Samastur</h1>
+			<ul>
+				<li><a href="/">About me</a></li>
+				<li><a href="http://markos.gaivo.net/blog/?feed=atom">Subscribe</a></li>
+			</ul>
+		</nav>
+
+	
+		<article>
+			<h1 class="storytitle"><a href="http://markos.gaivo.net/blog/?p=115" rel="bookmark">Undiscovered talent</a></h1>
+
+			<div class="post-text">
+				<p>We recently bowed to pressure from our members and changed the way image navigation works. For those familiar with Flickr, let&#8217;s say you&#8217;ve searched for images with a given tag and selected an image from results page. When you view it, you get thumbnails of its neighbors from author&#8217;s photo-stream and not from results one. That&#8217;s how Marela used to work, but doesn&#8217;t anymore. Previous and next are now context dependent.</p>
+<p>Our change has been universally well received among our test users and it seems the only unhappy person is me. There are several reasons for this, but in this post I&#8217;ll concentrate on just one.</p>
+<p>How does unknown new talent get discovered on the web?</p>
+<p>If you are a creator, how do you get your work known? I believe, like <a href="http://www.itconversations.com/shows/detail820.html" title="Podcast from Web 2.0">Barry Diller</a>, that there&#8217;s a limited amount of talent in the world, but unlike him I don&#8217;t think it will necessarily get discovered. I&#8217;m not afraid of post-mortem discoveries, although it sucked to be Van Gogh. I&#8217;m afraid of talent not being noticed at all.</p>
+<p>A friend&#8217;s wife is studying old greek texts written on papyrus. I thought these things were rare and therefore have all been read, but I was wrong. As it happens, Britain has tons of this stuff and not only haven&#8217;t they read all of them, it&#8217;s not likely they&#8217;ll do it any time soon.</p>
+<p>So, if 10 million pages are added to web every day (and with rise of blogs I&#8217;d say this number is probably low), how big will this task be in the future? Even worse, if nobody knows of it, who&#8217;ll be diligent enough to store and preserve it?</p>
+<p>You&#8217;re probably reading this words on my blog and there&#8217;s a good chance you came here because Google offered this link as a match to your search request. There&#8217;s a significantly smaller chance you came from one of the aggregators that follow blog&#8217;s feed or even more unlikely, you&#8217;re a regular reader who at some point belonged to first or second group of visitors.</p>
+<p>In effect, I&#8217;ve been discovered by you (until I get forgotten), but there were several factors working in my favor. First, I write on topics which these days are fairly fashionable in certain circles. Second, because I mostly write about technological issues, my posts often feature keywords that people might reasonably use while searching and which are related to each other. It&#8217;s therefore possible to extract an idea of what I&#8217;m writing about even with rather crude tools available now and for Google to rank my page highly.</p>
+<p>What if I didn&#8217;t? If I was a writer of short stories?</p>
+<p>With little or no related keywords and texts without a common theme, it would be very difficult for Googles of this world to understand my writings and even less how valuable it might be to someone else. Algorithms to extract the theme of a text exist, but we are practically completely naked when it comes to evaluating quality and talent. So pages like that will never crawl out of the depths of Google index.</p>
+<p>Since computers can&#8217;t do it, we usually rely on humans. If you like this, then you might like something liked by others, who also liked this. The problem however remains. Such scheme can only promote works that somebody else already liked and to be liked, it has to be seen first.</p>
+<p>There&#8217;s another, more fundamental reason, why search engines and searching can&#8217;t solve this. Motivations are wrong. Unlike browsing you know what you&#8217;re looking for and need to have at least a vague idea how to describe it to be successful. That description and intent alone limits what you can find. The other problem is that search engines don&#8217;t care about variety, they care about best fit. Neither do we, users, at least most of the time.</p>
+<p>If we want to discover, we first have to be willing to get lost.</p>
+<p>Most people plan their vacations and so do we. There&#8217;s nothing wrong with this and I&#8217;m sure we&#8217;d enjoy them less if we didn&#8217;t. However, some of my most vivid and precious memories are of things we didn&#8217;t plan at all, which just happened against our plan.</p>
+<p>This is what I was trying to do. I tried to create a small alley, where you could end up by accident and discover something completely new, but from which it would be very easy to get to the main street and also very obvious. It even worked, but our members didn&#8217;t like the experience.</p>
+<p>I have no illusion that my dropped feature alone wouldn&#8217;t solve this problem, but I can&#8217;t help feeling we might have made a step in wrong direction. Maybe I tried to solve a problem which doesn&#8217;t exist, but isn&#8217;t this akin to saying we have enough culture and shouldn&#8217;t produce more?</p>
+			</div>
+
+			<footer class="post-metadata">
+				<ul>
+					<li>Published on <time datetime="2006-01-29T22:43:11+00:00">January 29, 2006</time></li>
+					<li><a href="http://markos.gaivo.net/blog/?p=115#comments" title="Comment on Undiscovered talent">Add your comment</a> </li>
+				</ul>
+			</footer>
+		</article>
+	
+		<article>
+			<h1 class="storytitle"><a href="http://markos.gaivo.net/blog/?p=111" rel="bookmark">New EU initiative for unified patent system</a></h1>
+
+			<div class="post-text">
+				<p>The European Commission launched <a href="http://europa.eu.int/rapid/pressReleasesAction.do?reference=IP/06/38&amp;format=HTML&amp;aged=0&amp;language=EN&amp;guiLanguage=fr">a new patent initiative</a> that <a href="http://www.groklaw.net/article.php?story=20060116105000582">hasn&#8217;t received</a> a universally warm welcome. I can hardly blame them, since I too remember how unscrupulous Commission was when pushing for software patents.</p>
+<p>I wrote <a href="http://markos.gaivo.net/blog/?p=72">my thoughts</a> on patents a while ago and they haven&#8217;t changed much since. But if we are going to have a patent system in Europe, and I honestly can&#8217;t see it going away anytime soon, then it&#8217;s probably better to have a common, unified one.</p>
+<p>Which is what this initiative was supposed to be about and since they are <a href="http://europa.eu.int/comm/internal_market/indprop/patent/consultation_en.htm">asking</a> for comments, it&#8217;s a great opportunity to present them your view. Don&#8217;t miss the deadline, which is 31 March 2006!</p>
+<p><em>Update: It seems there are </em><em><a href="http://www.heise.de/english/newsticker/news/68626">good reasons</a></em><em> to be concerned.</em></p>
+			</div>
+
+			<footer class="post-metadata">
+				<ul>
+					<li>Published on <time datetime="2006-01-21T20:52:12+00:00">January 21, 2006</time></li>
+					<li><a href="http://markos.gaivo.net/blog/?p=111#comments" title="Comment on New EU initiative for unified patent system">Add your comment</a> </li>
+				</ul>
+			</footer>
+		</article>
+	
+		<article>
+			<h1 class="storytitle"><a href="http://markos.gaivo.net/blog/?p=104" rel="bookmark">Buying a light bulb</a></h1>
+
+			<div class="post-text">
+				<p>A light bulb in our hall died a while ago and it has taken me ages to unscrew it. To my defense, this is not your normal light bulb and the procedure involved a variety of tools, a ladder, few missteps and a couple of moments of fear. You tend to become a bit of a chicken as you get older.</p>
+<p>So today we were shopping for a replacement. Not the best day in year to do so, but since we were already out and near the store, it just made sense to fetch it. Experience has certainly been educational.</p>
+<p>We visited a store close to our home near the center of Ljubljana, which has been hit hard by newer stores that opened in suburbs. Easier parking, bigger choice and at least competitive if not cheaper prices do that to you and it&#8217;s doubtful, if you can survive something like this in the long run. It seems to me the only possible competitive advantage left is having a superior customer experience.</p>
+<p>However it&#8217;s hard to imagine that this would mean getting a shop assistant to print out a receipt that you need to carry to the only cash register in the store where you&#8217;re served by an unbelievably rude clerk who loudly lets everyone know that she&#8217;ll be gone in ten minutes if there&#8217;s her replacement or not.</p>
+<p>I can&#8217;t see myself going back again. But I was reminded of a problem observed many times before. Company problems lead to demoralized workers, which lead to work done poorly and that to even more problems for the company. It&#8217;s a vicious self-destructing cycle that is not easy to break and just as hard times can&#8217;t be completely avoided.</p>
+<p>But you&#8217;ll be gone if your customers suffer too much and it&#8217;s absolutely amazing that so often they still don&#8217;t get much more than a lip service. It&#8217;s about meeting their needs and nothing else. Good customer experience is the cheapest advertisement there is. It&#8217;s also the most effective one.</p>
+<p>Now I only need to replace the light bulb.</p>
+			</div>
+
+			<footer class="post-metadata">
+				<ul>
+					<li>Published on <time datetime="2005-12-24T00:28:44+00:00">December 24, 2005</time></li>
+					<li><a href="http://markos.gaivo.net/blog/?p=104#comments" title="Comment on Buying a light bulb">Add your comment</a> </li>
+				</ul>
+			</footer>
+		</article>
+		
+		<nav class="pagination">
+			<ul>
+				<li><a href="http://markos.gaivo.net/blog/?cat=9&#038;paged=10" >&laquo; Newer articles</a></li>
+				<li><a href="http://markos.gaivo.net/blog/?cat=9&#038;paged=12" >Older articles &raquo;</a></li>
+			</ul>
+		</nav>
+	</section>
+
+
+	<footer>
+		<ul>
+			<li>&copy; 2005-2015 Marko Samastur</li>
+			
+			<li><a href="http://markos.gaivo.net/blog/?feed=rss2">Entries feed</a></li>
+			<li><a href="http://markos.gaivo.net/blog/?feed=comments-rss2">Comments feed</a></li>
+		</ul>
+		<a href="/"><img src="/img/markos_light_small_bg.png" alt="logo" class="mini-logo" /></a>
+	</footer>
+	<script src="/js/jquery.js"></script>
+	<script src="/js/all.js"></script>
+	<!--script src="/mint/?js" type="text/javascript"></script-->
+
+	<!-- Google analytics -->
+	<script type="text/javascript">
+
+	  var _gaq = _gaq || [];
+	  _gaq.push(['_setAccount', 'UA-152438-1']);
+	  _gaq.push(['_trackPageview']);
+	</script>
+	<script src="/js/cookie.js"></script>
+</body>
+</html>

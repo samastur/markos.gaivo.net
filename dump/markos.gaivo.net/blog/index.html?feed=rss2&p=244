@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+		>
+<channel>
+	<title>Comments on: Javascript events on tablet</title>
+	<atom:link href="http://markos.gaivo.net/blog/?feed=rss2&#038;p=244" rel="self" type="application/rss+xml" />
+	<link>http://markos.gaivo.net/blog/?p=244</link>
+	<description></description>
+	<lastBuildDate>Wed, 16 Jul 2014 16:04:38 +0000</lastBuildDate>
+	<sy:updatePeriod>hourly</sy:updatePeriod>
+	<sy:updateFrequency>1</sy:updateFrequency>
+	<generator>http://wordpress.org/?v=3.0.5</generator>
+	<item>
+		<title>By: fry</title>
+		<link>http://markos.gaivo.net/blog/?p=244&#038;cpage=1#comment-98561</link>
+		<dc:creator>fry</dc:creator>
+		<pubDate>Fri, 21 Dec 2007 21:25:10 +0000</pubDate>
+		<guid isPermaLink="false">http://markos.gaivo.net/blog/?p=244#comment-98561</guid>
+		<description>Yep, the results are the same - still using the Opera 8 browser though. Will report after I upgrade to Firefox and the new OS incarnation. The thing is that &#039;drag&#039; doesn&#039;t actually move the cursor it snaps the page to the cursor and moves the viewport. In a way this also explains the lack of mousedown/click/mouseup events...</description>
+		<content:encoded><![CDATA[<p>Yep, the results are the same &#8211; still using the Opera 8 browser though. Will report after I upgrade to Firefox and the new OS incarnation. The thing is that &#8216;drag&#8217; doesn&#8217;t actually move the cursor it snaps the page to the cursor and moves the viewport. In a way this also explains the lack of mousedown/click/mouseup events&#8230;</p>
+]]></content:encoded>
+	</item>
+</channel>
+</rss>

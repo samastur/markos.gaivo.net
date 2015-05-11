@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>A notch above a monkey &raquo; On ubiquitousness of 3D printing</title>
+	<meta charset="utf-8" />
+	
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" /> 
+
+	<link rel="shortcut icon" href="/img/markos.ico" />
+	
+	<meta name="generator" content="WordPress 3.0.5" /> <!-- leave this for stats please -->
+
+	<link href="http://fast.fonts.com/cssapi/aee9b60b-8e94-47f8-b586-3ecbfab51d1c.css" rel="stylesheet" type="text/css" />
+	<link rel="stylesheet" type="text/css" href="css/home.css" media="screen" title="Light theme" />
+	<link rel="alternate stylesheet" type="text/css" href="css/home_dark.css" media="screen" title="Dark theme" />
+	<link rel="stylesheet" href="css/ipad.css" media="only screen and (min-device-width : 768px) and (max-device-width : 1024px)">
+	<link rel="stylesheet" type="text/css" href="css/smallscreen.css" media="only screen and (max-width: 700px)" />
+
+	<link rel="alternate" type="application/rss+xml" title="RSS 2.0" href="http://markos.gaivo.net/blog/?feed=rss2" />
+	<link rel="alternate" type="application/atom+xml" title="Atom 1.0" href="http://markos.gaivo.net/blog/?feed=atom" />
+	<link rel='canonical' href='http://markos.gaivo.net/blog/?p=664' />
+
+	<link rel="pingback" href="http://markos.gaivo.net/blog/xmlrpc.php" />
+
+	<link rel="EditURI" type="application/rsd+xml" title="RSD" href="http://markos.gaivo.net/blog/xmlrpc.php?rsd" />
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="http://markos.gaivo.net/blog/wp-includes/wlwmanifest.xml" /> 
+<link rel='index' title='A notch above a monkey' href='http://markos.gaivo.net/blog' />
+<link rel='start' title='First post' href='http://markos.gaivo.net/blog/?p=2' />
+<link rel='prev' title='Subtracting sets to get non-referenced rows in table.' href='http://markos.gaivo.net/blog/?p=1014' />
+<link rel='next' title='Ownership' href='http://markos.gaivo.net/blog/?p=1048' />
+<meta name="generator" content="WordPress 3.0.5" />
+<link rel='canonical' href='http://markos.gaivo.net/blog/?p=1022' />
+
+	<!--[if lt IE 9]>
+	<script src="/js/html5.js"></script>
+	<![endif]-->
+</head>
+<body>
+					<header>
+		<h1><a href="/blog/">A notch above a monkey</a> &raquo; On ubiquitousness of 3D printing</h1>
+	</header>
+
+	<section class="envelope">
+		<article class="post">
+			<header>
+				<h1>On ubiquitousness of 3D printing</h1>
+			</header>
+
+			<footer>
+				<ul>
+					<li class="by">Written by: <a href="/">Marko Samastur</a></li>
+					<li class="published">Published on: <time datetime="2012-11-18T15:14:59+00:00" pubdate>November 18, 2012</time></li>
+					<li class="categories">Categories: <a href="http://markos.gaivo.net/blog/?cat=3" title="View all posts in Catchall" rel="category">Catchall</a></li>
+					<li class="post-comments">Comments: <span>Comments Off</span></li>
+				</ul>
+			</footer>
+
+			<div class="post-text">
+				<p>As a proponent of a view that 3D printing will radically change our society I read with great interest <a title=" The Future of 3D Printing: Mere Misnomer or Something More?" href="http://www.core77.com/blog/digital_fabrication/the_future_of_3d_printing_mere_misnomer_or_something_more_23835.asp">a bunch</a> <a title="3D Printers Are Not Like 2D Printers: A Rant" href="http://techcrunch.com/2012/11/03/one-of-these-things-is-not-like-the-other/">of articles</a> <a title="3D Printing — Then, Now and in the Future" href="http://www.prsnlz.me/blogs/guestblog/3d-printing-then-now-and-in-the-future/">with a less </a><a title="erspective on 3D printers from a mechanical designer" href="http://graehamdouglas.wordpress.com/2012/11/06/3d-printers-are-not-the-future-of-manufacturing/">enthusiastic outlook</a> written by people who obviously have more relevant experience and knowledge than me. They don&#8217;t quite reach a consensus, but have a fairly uniform sentiment I would like to address. While I do agree with most of their arguments and conclusions, I don&#8217;t with all and more importantly I think they are kind of missing the point.</p>
+<p>The above linked articles are really worth reading, but hopefully I won&#8217;t do them too much of disservice if I sum them up with: 3D printing will be too costly, too difficult, not useful enough and of too low general quality to have the same pattern of adoption as 2D printers which means they won&#8217;t end up in every home (with some type of computer).</p>
+<p>Each of these points is true right now. It costs more to print an otherwise mass produced item (especially if you need to also buy a 3D printer). Of course this becomes less relevant if you want to create things that are not mass produced (<a title="My 3D print fix for a design problem" href="http://markos.gaivo.net/blog/?p=827">or at all</a>), but even then you would be better off using an existing printing service (as I did). However cost of printers and materials have come down tremendously in last few years and it&#8217;s not difficult for me to imagine that at some point they will become accessible enough to become an impulsive buy. If we only bought stuff we need when it makes rational economic sense, we would own far fewer things than we do. Often they just have to become cheap enough and as cars attest that doesn&#8217;t even mean cheap.</p>
+<p>It is also true that preparing models for printing is not easy. However it is much easier than it used to be and I don&#8217;t see why it wouldn&#8217;t become even more so in the same way as have tools for other once specialist tasks (like photo editing). I am old enough to remember word processing of mid 80-ies and as much as  incanting commands was unappealing then, you don&#8217;t see many people needing to struggle with this today. And there could be even more help in form of existing downloadable designs or 3D scanners which could reduce burden of design from scratch to making small corrections instead.</p>
+<p>Will we need printers often enough? No idea. I print on paper only before traveling and would likely use 3D printer more often, but I suspect I represent mostly me. I don&#8217;t know why anyone would still need a printer, but enough of them do that there is no shortage of models aimed at home owners. I did notice how my brush with 3D printing changed the way I perceive plasticity of my environment and while it is hard to tell how my view and use would be shaped if printing was even more accessible (I expect more things would get fixed instead of replaced), it is even harder to imagine that they wouldn&#8217;t. I am sure this would be even more true for kids growing in environment which is more pliable than today&#8217;s.</p>
+<p>An often repeated argument is that quality of printed stuff is not high enough. This may well be in most cases, but I expect will be less so over time. I don&#8217;t expect cheap printers or materials to catch up with expensive brethren or other options anytime soon if ever, but they may not need to. <a title="Description on Wikipedia" href="http://en.wikipedia.org/wiki/Illuminated_manuscript">Illuminated manuscripts</a> were supplanted by printed books even though they <strong>never</strong> achieved their quality. Books simply became good enough. As millions of Instagram photos prove deficiencies can also lead to its own esthetic (but I wouldn&#8217;t count on this).</p>
+<p>It is difficult if not foolish to predict future of a particular technology, but when I do attempt it, I try to do two things. One is to list all its current limitations and try to imagine a future without them. If technology is not interesting enough without them, then it&#8217;s really hopeless. The other thing I do is to look at development so far and try to extrapolate what will happen to those limitations and how soon from technological and wider social context stand point.</p>
+<p>I don&#8217;t expect 3D printing to follow an adoption curve of some other technology as this rarely happens. There is indeed a fundamental difference best captured by <a title="Check fourth paragraph" href="http://techcrunch.com/2012/11/03/one-of-these-things-is-not-like-the-other/">Jon Evans&#8217; observation</a> that we print on paper to convey information and use 3D printers to produce stuff. I do believe home 3D printers will eventually be at least as prevalent as paper printers if for no other reason because our appetite for stuff won&#8217;t go away as much as our need to use paper as a transport medium. However I also expect them to be present in houses void of geeks.</p>
+<p>But my real point is that this doesn&#8217;t really matter. It seems there is an agreement that this technology together with others will radically transform our society and that bespoke manufacturing for individuals will again become more prevalent. Unless your business model absolutely depends on pushing millions of these printers in every home, does it really matter if I will print my designs on my printer or at a nearby corner shop?</p>
+<p>I don&#8217;t think it does as I don&#8217;t care if additive approach of printers wins over subtractive one of mills (however I find grinding inherently less appealing). In any case I do expect personal manufacturing to influence but not eradicate manufacturing industry and it will be interesting to see how much of it will see it as a threat needed to be countered.</p>
+			</div>
+
+			<nav>
+				<p>If you liked this, you might want to visit:</p>
+				<ul>
+					<li>my previous article: <a href="http://markos.gaivo.net/blog/?p=1014" rel="prev">Subtracting sets to get non-referenced rows in table.</a></li>					<li>my next article: <a href="http://markos.gaivo.net/blog/?p=1048" rel="next">Ownership</a></li>					<li><a href="/blog/">article list</a></li>
+				</ul>
+			</nav>
+
+			<h2 id="comments">No Comments
+			</h2>
+			<p>No comments yet.</p>
+
+		<p>Sorry, the comment form is closed at this time.</p>
+
+		</article>
+	</section>
+			<!-- All pages -->
+	
+
+	<footer>
+		<ul>
+			<li>&copy; 2005-2015 Marko Samastur</li>
+			
+			<li><a href="http://markos.gaivo.net/blog/?feed=rss2">Entries feed</a></li>
+			<li><a href="http://markos.gaivo.net/blog/?feed=comments-rss2">Comments feed</a></li>
+		</ul>
+		<a href="/"><img src="/img/markos_light_small_bg.png" alt="logo" class="mini-logo" /></a>
+	</footer>
+	<!-- Google analytics -->
+	<script type="text/javascript">
+	  var _gaq = _gaq || [];
+	  _gaq.push(['_setAccount', 'UA-152438-1']);
+	  _gaq.push(['_trackPageview']);
+	</script>
+	<script src="/js/cookie.js"></script>
+</body>
+</html>

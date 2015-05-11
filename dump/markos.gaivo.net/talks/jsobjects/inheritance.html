@@ -1,0 +1,60 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="sl" lang="sl">
+	<head>
+		<title>Javascript Objects</title>
+		
+		<link rel="stylesheet" type="text/css" media="screen, projection" href="style.css" />
+		<style type="text/css">
+#slide {
+	margin: -216px 0 0 -294px;
+}
+		</style>
+		<script type="text/javascript">
+	function Person(name) {
+		this.name = name;
+	}
+
+	Person.prototype.getName = function () {
+		return this.name;
+	};
+
+	function User(name, password) {
+		this.name = name;
+		this.password = password;
+	}
+
+	User.prototype = new Person();
+
+	User.prototype.getPassword = function () {
+		return this.password;
+	};
+		</script>
+	</head>
+	<body>
+		<div id="slide">
+			<code>
+function Person(name) {
+	this.name = name;
+}
+
+Person.prototype.getName = function () {
+	return this.name;
+};
+
+function User(name, password) {
+	this.name = name;
+	this.password = password;
+}
+
+User.prototype = new Person();
+
+User.prototype.getPassword = function () {
+	return this.password;
+};
+			</code>
+		</div>
+		<div id="next">
+			<a href="invocation.html">></a>
+		</div>
+	</body>
+</html>

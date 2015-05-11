@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>A notch above a monkey &raquo; UI</title>
+	<meta charset="utf-8" />
+	
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" /> 
+
+	<link rel="shortcut icon" href="/img/markos.ico" />
+	
+	<meta name="generator" content="WordPress 3.0.5" /> <!-- leave this for stats please -->
+
+	<link href="http://fast.fonts.com/cssapi/aee9b60b-8e94-47f8-b586-3ecbfab51d1c.css" rel="stylesheet" type="text/css" />
+	<link rel="stylesheet" type="text/css" href="css/home.css" media="screen" title="Light theme" />
+	<link rel="alternate stylesheet" type="text/css" href="css/home_dark.css" media="screen" title="Dark theme" />
+	<link rel="stylesheet" href="css/ipad.css" media="only screen and (min-device-width : 768px) and (max-device-width : 1024px)">
+	<link rel="stylesheet" type="text/css" href="css/smallscreen.css" media="only screen and (max-width: 700px)" />
+
+	<link rel="alternate" type="application/rss+xml" title="RSS 2.0" href="http://markos.gaivo.net/blog/?feed=rss2" />
+	<link rel="alternate" type="application/atom+xml" title="Atom 1.0" href="http://markos.gaivo.net/blog/?feed=atom" />
+	<link rel='canonical' href='http://markos.gaivo.net/blog/?p=664' />
+
+	<link rel="pingback" href="http://markos.gaivo.net/blog/xmlrpc.php" />
+
+	<link rel="alternate" type="application/rss+xml" title="A notch above a monkey &raquo; UI Category Feed" href="http://markos.gaivo.net/blog/?feed=rss2&amp;cat=7" />
+<link rel="EditURI" type="application/rsd+xml" title="RSD" href="http://markos.gaivo.net/blog/xmlrpc.php?rsd" />
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="http://markos.gaivo.net/blog/wp-includes/wlwmanifest.xml" /> 
+<link rel='index' title='A notch above a monkey' href='http://markos.gaivo.net/blog' />
+<meta name="generator" content="WordPress 3.0.5" />
+
+	<!--[if lt IE 9]>
+	<script src="/js/html5.js"></script>
+	<![endif]-->
+</head>
+<body>
+	<section class="envelope posts">
+		<header>
+			<h1><a href="http://markos.gaivo.net/blog/">A notch above a monkey</a></h1>
+		</header>
+		<nav class="colophon">
+			<h1>By Marko Samastur</h1>
+			<ul>
+				<li><a href="/">About me</a></li>
+				<li><a href="http://markos.gaivo.net/blog/?feed=atom">Subscribe</a></li>
+			</ul>
+		</nav>
+
+	
+		<article>
+			<h1 class="storytitle"><a href="http://markos.gaivo.net/blog/?p=155" rel="bookmark">Clear labeling of expiration date</a></h1>
+
+			<div class="post-text">
+				<p>Another piece of chicken fillet went into the trash bin, because I didn&#8217;t check its expiration date when I bought it a few days ago and hence didn&#8217;t see it expired on the same day.</p>
+<p>Would it be really that hard to clearly label food that is going to expire in a couple of days?</p>
+<p>As a customer I&#8217;d appreciate this greatly as it would allow me to plan a little bit better by when to use what. Either no one has thought of something so obvious or <a href="http://www.mercator.si" rel="nofollow">Mercator</a> finds it worthwhile to aggravate me for few dollars. Lucky for them their competition isn&#8217;t any better so this might not even cost them a customer.</p>
+			</div>
+
+			<footer class="post-metadata">
+				<ul>
+					<li>Published on <time datetime="2006-04-23T19:27:12+00:00">April 23, 2006</time></li>
+					<li><a href="http://markos.gaivo.net/blog/?p=155#comments" title="Comment on Clear labeling of expiration date">Add your comment</a> </li>
+				</ul>
+			</footer>
+		</article>
+	
+		<article>
+			<h1 class="storytitle"><a href="http://markos.gaivo.net/blog/?p=154" rel="bookmark">Two button movie player interface</a></h1>
+
+			<div class="post-text">
+				<p>A colleague of mine told me a story couple of days ago, how he sat up a linux box for a friend so he could watch movies on his TV. By itself nothing surprising, since I&#8217;m sure we all know plenty of people who do just this or something very similar.</p>
+<p>However, what did surprise me was the user interface my colleague built (as requested) for his friend. It has two buttons. First one starts playing first movie on the alphabetically ordered list. Second one deletes the first movie on the list.</p>
+<p>It&#8217;s as simple as it could possibly get, but it forces you to adapt your behavior to it. Mind you that&#8217;s true for all interfaces, it&#8217;s just that this one makes it more obvious. Like in cinema you have to see the movie in one go or start from beginning and watch parts already seen. To see movie down the list you either need to see all before or chose not to see them at all. In a way, I&#8217;d say it&#8217;s an interface of a true movie buff. You watch all movies and when you do, you do it without compromising.</p>
+<p>I find it highly fascinating even though I don&#8217;t know why. Is it the strange interface, the fact that someone wanted it or something else? I&#8217;m not sure. I&#8217;m intrigued at how easy it has become to build your own interface and I&#8217;m sure it will get even easier. Yet this is not what fascinates me. But for some reason I just can&#8217;t get his story out of my head.</p>
+			</div>
+
+			<footer class="post-metadata">
+				<ul>
+					<li>Published on <time datetime="2006-04-21T11:39:25+00:00">April 21, 2006</time></li>
+					<li><a href="http://markos.gaivo.net/blog/?p=154#comments" title="Comment on Two button movie player interface">Add your comment</a> </li>
+				</ul>
+			</footer>
+		</article>
+	
+		<article>
+			<h1 class="storytitle"><a href="http://markos.gaivo.net/blog/?p=151" rel="bookmark">Robot Exclusion Profile</a></h1>
+
+			<div class="post-text">
+				<p><strong>Error:</strong> No such file found! Please make sure <code>http://markos.gaivo.net/blog/code/robots-exclusion.txt</code> exists.</p>

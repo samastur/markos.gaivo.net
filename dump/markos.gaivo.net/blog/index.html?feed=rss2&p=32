@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+		>
+<channel>
+	<title>Comments on: Best tool for the job</title>
+	<atom:link href="http://markos.gaivo.net/blog/?feed=rss2&#038;p=32" rel="self" type="application/rss+xml" />
+	<link>http://markos.gaivo.net/blog/?p=32</link>
+	<description></description>
+	<lastBuildDate>Wed, 16 Jul 2014 16:04:38 +0000</lastBuildDate>
+	<sy:updatePeriod>hourly</sy:updatePeriod>
+	<sy:updateFrequency>1</sy:updateFrequency>
+	<generator>http://wordpress.org/?v=3.0.5</generator>
+	<item>
+		<title>By: Mike Watkins</title>
+		<link>http://markos.gaivo.net/blog/?p=32&#038;cpage=1#comment-49</link>
+		<dc:creator>Mike Watkins</dc:creator>
+		<pubDate>Thu, 29 Sep 2005 18:32:32 +0000</pubDate>
+		<guid isPermaLink="false">http://markos.gaivo.net/blog/?p=32#comment-49</guid>
+		<description>I left some simple benchmarking of a Quixote app over at jkx&#039;s site: http://www.larsen-b.com/Article/217.html and included a Medusa benchmark.
+
+Quixote is not designed for multiple threads of execution and uses fork process model. A simple single process server delivers about the same performance. SCGI and Apache or SCGI/lighttpd are about the fastest platform for Quixote apps and allow the web server to deliver truly static content.
+
+I originally went the Quixote route some years ago now because it is light and quite fast applications can be developed, quickly, using modest hardware. For my mix of not for profit and business apps it was a good choice... really did not want to master multiple frameworks.</description>
+		<content:encoded><![CDATA[<p>I left some simple benchmarking of a Quixote app over at jkx&#8217;s site: <a href="http://www.larsen-b.com/Article/217.html">http://www.larsen-b.com/Article/217.html</a> and included a Medusa benchmark.</p>
+<p>Quixote is not designed for multiple threads of execution and uses fork process model. A simple single process server delivers about the same performance. SCGI and Apache or SCGI/lighttpd are about the fastest platform for Quixote apps and allow the web server to deliver truly static content.</p>
+<p>I originally went the Quixote route some years ago now because it is light and quite fast applications can be developed, quickly, using modest hardware. For my mix of not for profit and business apps it was a good choice&#8230; really did not want to master multiple frameworks.</p>
+]]></content:encoded>
+	</item>
+	<item>
+		<title>By: Anthony</title>
+		<link>http://markos.gaivo.net/blog/?p=32&#038;cpage=1#comment-48</link>
+		<dc:creator>Anthony</dc:creator>
+		<pubDate>Thu, 29 Sep 2005 13:28:27 +0000</pubDate>
+		<guid isPermaLink="false">http://markos.gaivo.net/blog/?p=32#comment-48</guid>
+		<description>I benchmarked Plone, mod_python, php, websphere and Lotus Domino (just a simple report presentation)
+
+Plone followed by domino were the worst performers. mod_python was the fastest of the bunch.</description>
+		<content:encoded><![CDATA[<p>I benchmarked Plone, mod_python, php, websphere and Lotus Domino (just a simple report presentation)</p>
+<p>Plone followed by domino were the worst performers. mod_python was the fastest of the bunch.</p>
+]]></content:encoded>
+	</item>
+	<item>
+		<title>By: markos</title>
+		<link>http://markos.gaivo.net/blog/?p=32&#038;cpage=1#comment-42</link>
+		<dc:creator>markos</dc:creator>
+		<pubDate>Wed, 28 Sep 2005 23:39:31 +0000</pubDate>
+		<guid isPermaLink="false">http://markos.gaivo.net/blog/?p=32#comment-42</guid>
+		<description>As it happens I did back then. I was curious why Zope couldn&#039;t handle more when neither processor or disk IO were fully utilized. I don&#039;t remember what I did or didn&#039;t find though.
+
+I know about Medusa and quite like it, but I didn&#039;t know about allegra and thank you for letting me know. I&#039;ll certainly take a look at it.
+
+These days I normally work with mod_python, since it gives me the performance I need and I don&#039;t really need Zope-like features.</description>
+		<content:encoded><![CDATA[<p>As it happens I did back then. I was curious why Zope couldn&#8217;t handle more when neither processor or disk IO were fully utilized. I don&#8217;t remember what I did or didn&#8217;t find though.</p>
+<p>I know about Medusa and quite like it, but I didn&#8217;t know about allegra and thank you for letting me know. I&#8217;ll certainly take a look at it.</p>
+<p>These days I normally work with mod_python, since it gives me the performance I need and I don&#8217;t really need Zope-like features.</p>
+]]></content:encoded>
+	</item>
+	<item>
+		<title>By: Laurent Szyster</title>
+		<link>http://markos.gaivo.net/blog/?p=32&#038;cpage=1#comment-41</link>
+		<dc:creator>Laurent Szyster</dc:creator>
+		<pubDate>Wed, 28 Sep 2005 23:31:48 +0000</pubDate>
+		<guid isPermaLink="false">http://markos.gaivo.net/blog/?p=32#comment-41</guid>
+		<description>If you had actually read the sources of Zope first, you would probably have noticed that it is a &quot;synchronized&quot; version of Medusa, a Python library for asynchronous high-performance multiprotocol server written by Sam Rushing.
+
+Zope can&#039;t handle a fraction of what Medusa manages because every request to an object is met with a thread. In Zope 1 and 2, only static content is served asynchronously. Zope 3 re-introduced asynchronous programming but it is at odd with the rest of the &quot;installed base&quot;, the running code, products, applications, etc.
+
+So, have a look at the original Medusa:
+
+  http://nightmare.com/medusa/index.html
+
+or the version maintained by Andrew Kuchking:
+
+  http://www.amk.ca/python/code/medusa.html
+
+or my own fork of it:
+
+  http://svn.berlios.de/wsvn/allegra
+
+It&#039;s never too late to do good.</description>
+		<content:encoded><![CDATA[<p>If you had actually read the sources of Zope first, you would probably have noticed that it is a &#8220;synchronized&#8221; version of Medusa, a Python library for asynchronous high-performance multiprotocol server written by Sam Rushing.</p>
+<p>Zope can&#8217;t handle a fraction of what Medusa manages because every request to an object is met with a thread. In Zope 1 and 2, only static content is served asynchronously. Zope 3 re-introduced asynchronous programming but it is at odd with the rest of the &#8220;installed base&#8221;, the running code, products, applications, etc.</p>
+<p>So, have a look at the original Medusa:</p>
+<p>  <a href="http://nightmare.com/medusa/index.html">http://nightmare.com/medusa/index.html</a></p>
+<p>or the version maintained by Andrew Kuchking:</p>
+<p>  <a href="http://www.amk.ca/python/code/medusa.html">http://www.amk.ca/python/code/medusa.html</a></p>
+<p>or my own fork of it:</p>
+<p>  <a href="http://svn.berlios.de/wsvn/allegra">http://svn.berlios.de/wsvn/allegra</a></p>
+<p>It&#8217;s never too late to do good.</p>
+]]></content:encoded>
+	</item>
+	<item>
+		<title>By: Florian</title>
+		<link>http://markos.gaivo.net/blog/?p=32&#038;cpage=1#comment-40</link>
+		<dc:creator>Florian</dc:creator>
+		<pubDate>Wed, 28 Sep 2005 21:02:42 +0000</pubDate>
+		<guid isPermaLink="false">http://markos.gaivo.net/blog/?p=32#comment-40</guid>
+		<description>Of course sometimes you DO build applications that will serve a lot of requests simultaneously, and zope just doesn&#039;t cut it.</description>
+		<content:encoded><![CDATA[<p>Of course sometimes you DO build applications that will serve a lot of requests simultaneously, and zope just doesn&#8217;t cut it.</p>
+]]></content:encoded>
+	</item>
+</channel>
+</rss>

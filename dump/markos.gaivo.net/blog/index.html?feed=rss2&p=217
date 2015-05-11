@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+		>
+<channel>
+	<title>Comments on: Meeting expectations</title>
+	<atom:link href="http://markos.gaivo.net/blog/?feed=rss2&#038;p=217" rel="self" type="application/rss+xml" />
+	<link>http://markos.gaivo.net/blog/?p=217</link>
+	<description></description>
+	<lastBuildDate>Wed, 16 Jul 2014 16:04:38 +0000</lastBuildDate>
+	<sy:updatePeriod>hourly</sy:updatePeriod>
+	<sy:updateFrequency>1</sy:updateFrequency>
+	<generator>http://wordpress.org/?v=3.0.5</generator>
+	<item>
+		<title>By: Jure Pe??ar</title>
+		<link>http://markos.gaivo.net/blog/?p=217&#038;cpage=1#comment-30422</link>
+		<dc:creator>Jure Pe??ar</dc:creator>
+		<pubDate>Tue, 13 Feb 2007 10:54:45 +0000</pubDate>
+		<guid isPermaLink="false">http://markos.gaivo.net/blog/?p=217#comment-30422</guid>
+		<description>The new and improved model: http://arstechnica.com/reviews/hardware/n800.ars</description>
+		<content:encoded><![CDATA[<p>The new and improved model: <a href="http://arstechnica.com/reviews/hardware/n800.ars">http://arstechnica.com/reviews/hardware/n800.ars</a></p>
+]]></content:encoded>
+	</item>
+</channel>
+</rss>

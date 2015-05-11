@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>A notch above a monkey &raquo; Tags</title>
+	<meta charset="utf-8" />
+	
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" /> 
+
+	<link rel="shortcut icon" href="/img/markos.ico" />
+	
+	<meta name="generator" content="WordPress 3.0.5" /> <!-- leave this for stats please -->
+
+	<link href="http://fast.fonts.com/cssapi/aee9b60b-8e94-47f8-b586-3ecbfab51d1c.css" rel="stylesheet" type="text/css" />
+	<link rel="stylesheet" type="text/css" href="css/home.css" media="screen" title="Light theme" />
+	<link rel="alternate stylesheet" type="text/css" href="css/home_dark.css" media="screen" title="Dark theme" />
+	<link rel="stylesheet" href="css/ipad.css" media="only screen and (min-device-width : 768px) and (max-device-width : 1024px)">
+	<link rel="stylesheet" type="text/css" href="css/smallscreen.css" media="only screen and (max-width: 700px)" />
+
+	<link rel="alternate" type="application/rss+xml" title="RSS 2.0" href="http://markos.gaivo.net/blog/?feed=rss2" />
+	<link rel="alternate" type="application/atom+xml" title="Atom 1.0" href="http://markos.gaivo.net/blog/?feed=atom" />
+	<link rel='canonical' href='http://markos.gaivo.net/blog/?p=664' />
+
+	<link rel="pingback" href="http://markos.gaivo.net/blog/xmlrpc.php" />
+
+	<link rel="EditURI" type="application/rsd+xml" title="RSD" href="http://markos.gaivo.net/blog/xmlrpc.php?rsd" />
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="http://markos.gaivo.net/blog/wp-includes/wlwmanifest.xml" /> 
+<link rel='index' title='A notch above a monkey' href='http://markos.gaivo.net/blog' />
+<link rel='start' title='First post' href='http://markos.gaivo.net/blog/?p=2' />
+<link rel='prev' title='When to give in?' href='http://markos.gaivo.net/blog/?p=119' />
+<link rel='next' title='Tag frequency ratio' href='http://markos.gaivo.net/blog/?p=121' />
+<meta name="generator" content="WordPress 3.0.5" />
+<link rel='canonical' href='http://markos.gaivo.net/blog/?p=120' />
+
+	<!--[if lt IE 9]>
+	<script src="/js/html5.js"></script>
+	<![endif]-->
+</head>
+<body>
+					<header>
+		<h1><a href="/blog/">A notch above a monkey</a> &raquo; Tags</h1>
+	</header>
+
+	<section class="envelope">
+		<article class="post">
+			<header>
+				<h1>Tags</h1>
+			</header>
+
+			<footer>
+				<ul>
+					<li class="by">Written by: <a href="/">Marko Samastur</a></li>
+					<li class="published">Published on: <time datetime="2006-02-08T18:01:06+00:00" pubdate>February 8, 2006</time></li>
+					<li class="categories">Categories: <a href="http://markos.gaivo.net/blog/?cat=5" title="View all posts in General development" rel="category">General development</a>, <a href="http://markos.gaivo.net/blog/?cat=7" title="View all posts in UI" rel="category">UI</a>, <a href="http://markos.gaivo.net/blog/?cat=4" title="View all posts in Web" rel="category">Web</a></li>
+					<li class="post-comments">Comments: <span>Comments Off</span></li>
+				</ul>
+			</footer>
+
+			<div class="post-text">
+				<p>Tags are increasingly popular and rightfully so. I&#8217;ve built my share of applications with their own taxonomies and I&#8217;m certain they simply don&#8217;t work. They sort of work if they were built for specialized needs and are used only by trained, disciplined people with excellent organizational skills.</p>
+<p>Which means almost never.</p>
+<p>Tags (aka folksonomies) are messy. There&#8217;s no real system, any bozo can attach whatever it wants and you&#8217;d be a fool to blindly trust any specific tag. They are the worst possible system apart from everything else we tried so far.</p>
+<p>That&#8217;s why we decided to implement them in Marela. Language used on Marela is Slovene and that led to slightly different design that commonly found elsewhere.</p>
+<p>We decided to treat multiple words separated with spaces as one tag and use commas as a delimiters between different tags. First reason for this is that tagging something like <em>New Zealand</em> becomes more natural. The other was that in Slovene compound words like handbag are very often separate words. For example, handbag would be <em>ro??na torbica</em>.</p>
+<p>Another problem, which we haven&#8217;t tackled yet, but probably will have to, is that Slovene is <a href="http://en.wikipedia.org/wiki/Slovene_grammar" title="Short description on Wikipedia">a complicated language</a> in ways that make tagging a nasty problem. There are six cases, but nominative is usually used. Still three different grammatical numbers (singular, dual and plural) together with three different genders (masculine, feminine and neutral) leave multiple options for the same thing. If you were looking for <em>blue</em> objects, you&#8217;d need to search at least for tags <em>modra</em>, <em>modro</em>, <em>modri</em> and <em>modre</em>. Right now you have to do this manually.</p>
+<p>And then there are problems that plaque other tagging systems as well. Most common of them are misspelled words, like <em>Wein</em> instead of <em>Wien</em> for Vienna.</p>
+<p>All these lead to a fairly flat tag space with a ratio of 5.6 between all tags and unique ones. I&#8217;m not sure how it would change if we treated spaces differently or even what is a common ratio for other languages and other applications. I&#8217;m guessing it wouldn&#8217;t change the ratio too much because of noun cases, but it remains to be investigated.</p>
+<p>So, why does it matter?</p>
+<p>Well, that&#8217;s a matter for another post, which I&#8217;ll probably write tomorrow.</p>
+			</div>
+
+			<nav>
+				<p>If you liked this, you might want to visit:</p>
+				<ul>
+					<li>my previous article: <a href="http://markos.gaivo.net/blog/?p=119" rel="prev">When to give in?</a></li>					<li>my next article: <a href="http://markos.gaivo.net/blog/?p=121" rel="next">Tag frequency ratio</a></li>					<li><a href="/blog/">article list</a></li>
+				</ul>
+			</nav>
+
+			<h2 id="comments">No Comments
+			</h2>
+			<p>No comments yet.</p>
+
+		<p>Sorry, the comment form is closed at this time.</p>
+
+		</article>
+	</section>
+			<!-- All pages -->
+	
+
+	<footer>
+		<ul>
+			<li>&copy; 2005-2015 Marko Samastur</li>
+			
+			<li><a href="http://markos.gaivo.net/blog/?feed=rss2">Entries feed</a></li>
+			<li><a href="http://markos.gaivo.net/blog/?feed=comments-rss2">Comments feed</a></li>
+		</ul>
+		<a href="/"><img src="/img/markos_light_small_bg.png" alt="logo" class="mini-logo" /></a>
+	</footer>
+	<!-- Google analytics -->
+	<script type="text/javascript">
+	  var _gaq = _gaq || [];
+	  _gaq.push(['_setAccount', 'UA-152438-1']);
+	  _gaq.push(['_trackPageview']);
+	</script>
+	<script src="/js/cookie.js"></script>
+</body>
+</html>

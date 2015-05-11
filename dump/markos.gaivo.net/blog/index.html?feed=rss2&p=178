@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+		>
+<channel>
+	<title>Comments on: Firefox extensions Javascript conflicts</title>
+	<atom:link href="http://markos.gaivo.net/blog/?feed=rss2&#038;p=178" rel="self" type="application/rss+xml" />
+	<link>http://markos.gaivo.net/blog/?p=178</link>
+	<description></description>
+	<lastBuildDate>Wed, 16 Jul 2014 16:04:38 +0000</lastBuildDate>
+	<sy:updatePeriod>hourly</sy:updatePeriod>
+	<sy:updateFrequency>1</sy:updateFrequency>
+	<generator>http://wordpress.org/?v=3.0.5</generator>
+	<item>
+		<title>By: fry</title>
+		<link>http://markos.gaivo.net/blog/?p=178&#038;cpage=1#comment-2885</link>
+		<dc:creator>fry</dc:creator>
+		<pubDate>Mon, 29 May 2006 12:13:22 +0000</pubDate>
+		<guid isPermaLink="false">http://markos.gaivo.net/blog/?p=178#comment-2885</guid>
+		<description>I guess:
+- send a bug report to the extension developer (if it&#039;s a bug)
+- add alert to users using firefox
+
+I don&#039;t see any other feasible options. I had some users complain that some site wasn&#039;t working well. They had a banner blocking extension that removed images in certain folders by default. You just can&#039;t find every one of them and rename all your image folders...</description>
+		<content:encoded><![CDATA[<p>I guess:<br />
+- send a bug report to the extension developer (if it&#8217;s a bug)<br />
+- add alert to users using firefox</p>
+<p>I don&#8217;t see any other feasible options. I had some users complain that some site wasn&#8217;t working well. They had a banner blocking extension that removed images in certain folders by default. You just can&#8217;t find every one of them and rename all your image folders&#8230;</p>
+]]></content:encoded>
+	</item>
+</channel>
+</rss>

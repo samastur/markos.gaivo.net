@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>A notch above a monkey &raquo; Tweaking pages</title>
+	<meta charset="utf-8" />
+	
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" /> 
+
+	<link rel="shortcut icon" href="/img/markos.ico" />
+	
+	<meta name="generator" content="WordPress 3.0.5" /> <!-- leave this for stats please -->
+
+	<link href="http://fast.fonts.com/cssapi/aee9b60b-8e94-47f8-b586-3ecbfab51d1c.css" rel="stylesheet" type="text/css" />
+	<link rel="stylesheet" type="text/css" href="css/home.css" media="screen" title="Light theme" />
+	<link rel="alternate stylesheet" type="text/css" href="css/home_dark.css" media="screen" title="Dark theme" />
+	<link rel="stylesheet" href="css/ipad.css" media="only screen and (min-device-width : 768px) and (max-device-width : 1024px)">
+	<link rel="stylesheet" type="text/css" href="css/smallscreen.css" media="only screen and (max-width: 700px)" />
+
+	<link rel="alternate" type="application/rss+xml" title="RSS 2.0" href="http://markos.gaivo.net/blog/?feed=rss2" />
+	<link rel="alternate" type="application/atom+xml" title="Atom 1.0" href="http://markos.gaivo.net/blog/?feed=atom" />
+	<link rel='canonical' href='http://markos.gaivo.net/blog/?p=664' />
+
+	<link rel="pingback" href="http://markos.gaivo.net/blog/xmlrpc.php" />
+
+	<link rel="alternate" type="application/rss+xml" title="A notch above a monkey &raquo; Tweaking pages Comments Feed" href="http://markos.gaivo.net/blog/?feed=rss2&amp;p=296" />
+<link rel="EditURI" type="application/rsd+xml" title="RSD" href="http://markos.gaivo.net/blog/xmlrpc.php?rsd" />
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="http://markos.gaivo.net/blog/wp-includes/wlwmanifest.xml" /> 
+<link rel='index' title='A notch above a monkey' href='http://markos.gaivo.net/blog' />
+<link rel='start' title='First post' href='http://markos.gaivo.net/blog/?p=2' />
+<link rel='prev' title='Namibia' href='http://markos.gaivo.net/blog/?p=288' />
+<link rel='next' title='WTF?' href='http://markos.gaivo.net/blog/?p=300' />
+<meta name="generator" content="WordPress 3.0.5" />
+<link rel='canonical' href='http://markos.gaivo.net/blog/?p=296' />
+
+	<!--[if lt IE 9]>
+	<script src="/js/html5.js"></script>
+	<![endif]-->
+</head>
+<body>
+					<header>
+		<h1><a href="/blog/">A notch above a monkey</a> &raquo; Tweaking pages</h1>
+	</header>
+
+	<section class="envelope">
+		<article class="post">
+			<header>
+				<h1>Tweaking pages</h1>
+			</header>
+
+			<footer>
+				<ul>
+					<li class="by">Written by: <a href="/">Marko Samastur</a></li>
+					<li class="published">Published on: <time datetime="2008-10-28T08:59:53+00:00" pubdate>October 28, 2008</time></li>
+					<li class="categories">Categories: <a href="http://markos.gaivo.net/blog/?cat=7" title="View all posts in UI" rel="category">UI</a>, <a href="http://markos.gaivo.net/blog/?cat=4" title="View all posts in Web" rel="category">Web</a></li>
+					<li class="post-comments">Comments: <a href="http://markos.gaivo.net/blog/?p=296#comments" title="Comment on Tweaking pages">2</a></li>
+				</ul>
+			</footer>
+
+			<div class="post-text">
+				<p>I recently came back from Berlin, where I publicly asked <a title="John's homepage" href="http://john.jubjubs.net/">John Lily</a> why haven&#8217;t they integrated <a class="zem_slink" title="Greasemonkey" rel="homepage" href="http://www.greasespot.net/">Greasemonkey</a> into <a class="zem_slink" title="Firefox" rel="homepage" href="http://www.mozilla.com/en-US/firefox/">Firefox</a>. Wrong question can hardly lead to right answer. What I really wanted to know was:</p>
+<p><em>&#8220;Why doesn&#8217;t <a class="zem_slink" title="Mozilla" rel="homepage" href="http://mozilla.com">Mozilla</a> integrate Greasemonkey-LIKE functionality in a browser?&#8221;</em></p>
+<p>Browser is at the farthest reach of web creators. It&#8217;s them who decide how a page will look like when it gets loaded and what visitors will be able to do with it. User actions that were not anticipated by page designers are limited to printing a page, tweaking its display a bit with user style sheets, seeing its source and copying text elsewhere.</p>
+<p>Browser is also an application that is loaded on someone&#8217;s computer and belongs to him, as much as software can belong to somebody in EULA-infested world. Not every browser is equal, but pretty much all of them limit what you can do with page (beyond its creators intentions)  to above actions. The real question than for me becomes:</p>
+<p><em>&#8220;To whom does a browser belong to?&#8221;</em></p>
+<p>One reason why I love Greasemonkey is that it enabled me to fix and change pages that I find lacking. Not every page has navigation where it should be and lots of them display parts of text in illegibly small letters. It can also help me plug different services together. It is indeed geeky, as Brady Forrest observed, but useful implementation doesn&#8217;t need to be. I find <a href="http://platypus.mozdev.org/">Platypus extension</a> a good first step to how a browser could further empower its users in customizing pages even further to their needs.</p>
+<p>I thought about downsides to this since Thursday and I&#8217;m failing to find anything substantial.</p>
+<div class="zemanta-pixie"><a class="zemanta-pixie-a" title="Zemified by Zemanta" href="http://reblog.zemanta.com/zemified/371a642d-6da1-4089-8b93-ef701f1cdb08/"><img class="zemanta-pixie-img" src="http://img.zemanta.com/reblog_e.png?x-id=371a642d-6da1-4089-8b93-ef701f1cdb08" alt="Reblog this post [with Zemanta]" /></a></div>
+			</div>
+
+			<nav>
+				<p>If you liked this, you might want to visit:</p>
+				<ul>
+					<li>my previous article: <a href="http://markos.gaivo.net/blog/?p=288" rel="prev">Namibia</a></li>					<li>my next article: <a href="http://markos.gaivo.net/blog/?p=300" rel="next">WTF?</a></li>					<li><a href="/blog/">article list</a></li>
+				</ul>
+			</nav>
+
+			<h2 id="comments">Comments (2)
+			</h2>
+			<ol class="comments">
+		
+				<li id="comment-169765">
+					<article>
+						<p>one thing i would like in greasemonkey is ability to auto-update scripts much like new versions of add-ons in FFox are done with.</p>
+<p>i found some hell-knows-where in Internet and probably there are new versions around, but i lack the time to seek-and-install them&#8230;</p>
+						<footer>
+							<cite>Comment by <a href='http://j.aufbix.org' rel='external nofollow' class='url'>j</a> &#8212; <time datetime="2008-10-29T22:39:12+00:00">October 29, 2008 @ 10:39 pm</time> <a href="#comment-169765">#</a> </cite>
+						</footer>
+					</article>
+				</li>
+		
+				<li id="comment-175553">
+					<article>
+						<p><a href="http://mac.softpedia.com/get/Internet-Utilities/Greasefire.shtml">http://mac.softpedia.com/get/Internet-Utilities/Greasefire.shtml</a></p>
+<p>Automatically find Greasemonkey scripts on Userscripts.org (requires Greasemonkey).</p>
+<p>The Greasemonkey will highlight in case you visit a web page that has compatible user scripts on Userscripts.org.</p>
+						<footer>
+							<cite>Comment by j &#8212; <time datetime="2008-12-15T13:13:52+00:00">December 15, 2008 @ 1:13 pm</time> <a href="#comment-175553">#</a> </cite>
+						</footer>
+					</article>
+				</li>
+		
+			</ol>
+
+
+		<p>Sorry, the comment form is closed at this time.</p>
+
+		</article>
+	</section>
+			<!-- All pages -->
+	
+
+	<footer>
+		<ul>
+			<li>&copy; 2005-2015 Marko Samastur</li>
+			
+			<li><a href="http://markos.gaivo.net/blog/?feed=rss2">Entries feed</a></li>
+			<li><a href="http://markos.gaivo.net/blog/?feed=comments-rss2">Comments feed</a></li>
+		</ul>
+		<a href="/"><img src="/img/markos_light_small_bg.png" alt="logo" class="mini-logo" /></a>
+	</footer>
+	<!-- Google analytics -->
+	<script type="text/javascript">
+	  var _gaq = _gaq || [];
+	  _gaq.push(['_setAccount', 'UA-152438-1']);
+	  _gaq.push(['_trackPageview']);
+	</script>
+	<script src="/js/cookie.js"></script>
+</body>
+</html>

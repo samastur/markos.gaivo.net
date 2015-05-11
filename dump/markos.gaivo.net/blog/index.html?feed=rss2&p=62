@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+		>
+<channel>
+	<title>Comments on: When to use AJAX</title>
+	<atom:link href="http://markos.gaivo.net/blog/?feed=rss2&#038;p=62" rel="self" type="application/rss+xml" />
+	<link>http://markos.gaivo.net/blog/?p=62</link>
+	<description></description>
+	<lastBuildDate>Wed, 16 Jul 2014 16:04:38 +0000</lastBuildDate>
+	<sy:updatePeriod>hourly</sy:updatePeriod>
+	<sy:updateFrequency>1</sy:updateFrequency>
+	<generator>http://wordpress.org/?v=3.0.5</generator>
+	<item>
+		<title>By: rhodus</title>
+		<link>http://markos.gaivo.net/blog/?p=62&#038;cpage=1#comment-261</link>
+		<dc:creator>rhodus</dc:creator>
+		<pubDate>Tue, 22 Nov 2005 03:55:00 +0000</pubDate>
+		<guid isPermaLink="false">http://markos.gaivo.net/blog/?p=62#comment-261</guid>
+		<description>Interesting article. I wonder how long it will take for complaints such as &quot;He built this site entirely out of JavaScript!&quot; or &quot;She wrote this site using HTML3!&quot; to turn into &quot;He built this site entirely out of AJAX!&quot;. Just a thought...</description>
+		<content:encoded><![CDATA[<p>Interesting article. I wonder how long it will take for complaints such as &#8220;He built this site entirely out of JavaScript!&#8221; or &#8220;She wrote this site using HTML3!&#8221; to turn into &#8220;He built this site entirely out of AJAX!&#8221;. Just a thought&#8230;</p>
+]]></content:encoded>
+	</item>
+</channel>
+</rss>

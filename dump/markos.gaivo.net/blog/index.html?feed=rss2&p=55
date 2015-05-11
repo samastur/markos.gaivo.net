@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+		>
+<channel>
+	<title>Comments on: Searching for an Atom feed generator</title>
+	<atom:link href="http://markos.gaivo.net/blog/?feed=rss2&#038;p=55" rel="self" type="application/rss+xml" />
+	<link>http://markos.gaivo.net/blog/?p=55</link>
+	<description></description>
+	<lastBuildDate>Wed, 16 Jul 2014 16:04:38 +0000</lastBuildDate>
+	<sy:updatePeriod>hourly</sy:updatePeriod>
+	<sy:updateFrequency>1</sy:updateFrequency>
+	<generator>http://wordpress.org/?v=3.0.5</generator>
+	<item>
+		<title>By: Uche</title>
+		<link>http://markos.gaivo.net/blog/?p=55&#038;cpage=1#comment-137</link>
+		<dc:creator>Uche</dc:creator>
+		<pubDate>Tue, 01 Nov 2005 22:47:05 +0000</pubDate>
+		<guid isPermaLink="false">http://markos.gaivo.net/blog/?p=55#comment-137</guid>
+		<description>http://www.defuze.org/oss/blog/entry/2005/10/16/atomixlib-0.2</description>
+		<content:encoded><![CDATA[<p><a href="http://www.defuze.org/oss/blog/entry/2005/10/16/atomixlib-0.2">http://www.defuze.org/oss/blog/entry/2005/10/16/atomixlib-0.2</a></p>
+]]></content:encoded>
+	</item>
+	<item>
+		<title>By: markos</title>
+		<link>http://markos.gaivo.net/blog/?p=55&#038;cpage=1#comment-134</link>
+		<dc:creator>markos</dc:creator>
+		<pubDate>Tue, 01 Nov 2005 11:49:00 +0000</pubDate>
+		<guid isPermaLink="false">http://markos.gaivo.net/blog/?p=55#comment-134</guid>
+		<description>Nope, but I&#039;ll definitely take a look at it. Thank you for tip.</description>
+		<content:encoded><![CDATA[<p>Nope, but I&#8217;ll definitely take a look at it. Thank you for tip.</p>
+]]></content:encoded>
+	</item>
+	<item>
+		<title>By: klaut</title>
+		<link>http://markos.gaivo.net/blog/?p=55&#038;cpage=1#comment-133</link>
+		<dc:creator>klaut</dc:creator>
+		<pubDate>Tue, 01 Nov 2005 11:18:53 +0000</pubDate>
+		<guid isPermaLink="false">http://markos.gaivo.net/blog/?p=55#comment-133</guid>
+		<description>Have you tried Kid? ( http://kid.lesscode.org/index.html )
+It is more of a generic XML generation (template based) tool, though.
+Haven&#039;t tested it thoroughly, yet .. but it can be used to generate atom feeds (in this case from django) very easy ( http://blogs.translucentcode.org/mick/2005/09/29/using_kid_with_django/ )</description>
+		<content:encoded><![CDATA[<p>Have you tried Kid? ( <a href="http://kid.lesscode.org/index.html">http://kid.lesscode.org/index.html</a> )<br />
+It is more of a generic XML generation (template based) tool, though.<br />
+Haven&#8217;t tested it thoroughly, yet .. but it can be used to generate atom feeds (in this case from django) very easy ( <a href="http://blogs.translucentcode.org/mick/2005/09/29/using_kid_with_django/">http://blogs.translucentcode.org/mick/2005/09/29/using_kid_with_django/</a> )</p>
+]]></content:encoded>
+	</item>
+</channel>
+</rss>

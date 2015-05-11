@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>A notch above a monkey &raquo; Open federation for Google Talk</title>
+	<meta charset="utf-8" />
+	
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" /> 
+
+	<link rel="shortcut icon" href="/img/markos.ico" />
+	
+	<meta name="generator" content="WordPress 3.0.5" /> <!-- leave this for stats please -->
+
+	<link href="http://fast.fonts.com/cssapi/aee9b60b-8e94-47f8-b586-3ecbfab51d1c.css" rel="stylesheet" type="text/css" />
+	<link rel="stylesheet" type="text/css" href="css/home.css" media="screen" title="Light theme" />
+	<link rel="alternate stylesheet" type="text/css" href="css/home_dark.css" media="screen" title="Dark theme" />
+	<link rel="stylesheet" href="css/ipad.css" media="only screen and (min-device-width : 768px) and (max-device-width : 1024px)">
+	<link rel="stylesheet" type="text/css" href="css/smallscreen.css" media="only screen and (max-width: 700px)" />
+
+	<link rel="alternate" type="application/rss+xml" title="RSS 2.0" href="http://markos.gaivo.net/blog/?feed=rss2" />
+	<link rel="alternate" type="application/atom+xml" title="Atom 1.0" href="http://markos.gaivo.net/blog/?feed=atom" />
+	<link rel='canonical' href='http://markos.gaivo.net/blog/?p=664' />
+
+	<link rel="pingback" href="http://markos.gaivo.net/blog/xmlrpc.php" />
+
+	<link rel="alternate" type="application/rss+xml" title="A notch above a monkey &raquo; Open federation for Google Talk Comments Feed" href="http://markos.gaivo.net/blog/?feed=rss2&amp;p=110" />
+<link rel="EditURI" type="application/rsd+xml" title="RSD" href="http://markos.gaivo.net/blog/xmlrpc.php?rsd" />
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="http://markos.gaivo.net/blog/wp-includes/wlwmanifest.xml" /> 
+<link rel='index' title='A notch above a monkey' href='http://markos.gaivo.net/blog' />
+<link rel='start' title='First post' href='http://markos.gaivo.net/blog/?p=2' />
+<link rel='prev' title='XMLHttpRequest and status 0' href='http://markos.gaivo.net/blog/?p=109' />
+<link rel='next' title='New EU initiative for unified patent system' href='http://markos.gaivo.net/blog/?p=111' />
+<meta name="generator" content="WordPress 3.0.5" />
+<link rel='canonical' href='http://markos.gaivo.net/blog/?p=110' />
+
+	<!--[if lt IE 9]>
+	<script src="/js/html5.js"></script>
+	<![endif]-->
+</head>
+<body>
+					<header>
+		<h1><a href="/blog/">A notch above a monkey</a> &raquo; Open federation for Google Talk</h1>
+	</header>
+
+	<section class="envelope">
+		<article class="post">
+			<header>
+				<h1>Open federation for Google Talk</h1>
+			</header>
+
+			<footer>
+				<ul>
+					<li class="by">Written by: <a href="/">Marko Samastur</a></li>
+					<li class="published">Published on: <time datetime="2006-01-20T16:58:39+00:00" pubdate>January 20, 2006</time></li>
+					<li class="categories">Categories: <a href="http://markos.gaivo.net/blog/?cat=4" title="View all posts in Web" rel="category">Web</a></li>
+					<li class="post-comments">Comments: <a href="http://markos.gaivo.net/blog/?p=110#comments" title="Comment on Open federation for Google Talk">2</a></li>
+				</ul>
+			</footer>
+
+			<div class="post-text">
+				<p>Quite a lot has happened during time when I was away from this blog and I&#8217;ll probably talk about some of it in next few days, but I&#8217;d like to start with news from Google.</p>
+<p>I wrote a <a href="http://markos.gaivo.net/blog/?p=14">badly written post</a> when Google Talk was unveiled. What bothered me most was the fact that it didn&#8217;t communicate with anybody and was in fact another walled garden.</p>
+<p>Well, they <a href="http://googleblog.blogspot.com/2006/01/open-federation-for-google-talk.html" title="Open federation announcement">fixed it</a> and Google Talk now actually talks to other jabber servers including ours.</p>
+<p>There are some problems with presence notification, but it&#8217;s hard to say yet who&#8217;s fault it is and I wouldn&#8217;t be surprised if it was ours. Sad thing about jabber is that there are few if any open source server implementations that wouldn&#8217;t be just a notch above suck.</p>
+<p>In short run this won&#8217;t change much. Most people will still be on competing services and it might be difficult to get them off. But as a newborn optimist I see a promise of an open, working IM, where you&#8217;re not tied to wishes and development of one company even when that company is mine. And that can only be good.</p>
+			</div>
+
+			<nav>
+				<p>If you liked this, you might want to visit:</p>
+				<ul>
+					<li>my previous article: <a href="http://markos.gaivo.net/blog/?p=109" rel="prev">XMLHttpRequest and status 0</a></li>					<li>my next article: <a href="http://markos.gaivo.net/blog/?p=111" rel="next">New EU initiative for unified patent system</a></li>					<li><a href="/blog/">article list</a></li>
+				</ul>
+			</nav>
+
+			<h2 id="comments">Comments (2)
+			</h2>
+			<ol class="comments">
+		
+				<li id="comment-635">
+					<article>
+						<p>i don,t know if this the right foremat but itis all i can find,so here goes.i just read in the arizona republic thsy stated that Google<br />
+refused to turn over to the federal goverment stuff from e-mail,i really don,t know to much about what the gov wants,but kudos and good for you,you get my vote as the best site on the everthing web.i think we need some one to stand up against the feds.i am just into this computer stuff while i don,t think i do any thing wrong why should the feds be snooping on my machine,again keep up the good fight.<br />
+   the best to you all&#8230;&#8230;thanks&#8230;&#8230;&#8230;&#8230;jdd</p>
+						<footer>
+							<cite>Comment by john dryden &#8212; <time datetime="2006-01-20T19:22:32+00:00">January 20, 2006 @ 7:22 pm</time> <a href="#comment-635">#</a> </cite>
+						</footer>
+					</article>
+				</li>
+		
+				<li id="comment-650">
+					<article>
+						<p>now all we must do is to get all those mor^H^H^H^users to move to jabber enabled clients.</p>
+<p>(gaim gaim gaim gaim!)</p>
+						<footer>
+							<cite>Comment by j &#8212; <time datetime="2006-01-20T21:11:04+00:00">January 20, 2006 @ 9:11 pm</time> <a href="#comment-650">#</a> </cite>
+						</footer>
+					</article>
+				</li>
+		
+			</ol>
+
+
+		<p>Sorry, the comment form is closed at this time.</p>
+
+		</article>
+	</section>
+			<!-- All pages -->
+	
+
+	<footer>
+		<ul>
+			<li>&copy; 2005-2015 Marko Samastur</li>
+			
+			<li><a href="http://markos.gaivo.net/blog/?feed=rss2">Entries feed</a></li>
+			<li><a href="http://markos.gaivo.net/blog/?feed=comments-rss2">Comments feed</a></li>
+		</ul>
+		<a href="/"><img src="/img/markos_light_small_bg.png" alt="logo" class="mini-logo" /></a>
+	</footer>
+	<!-- Google analytics -->
+	<script type="text/javascript">
+	  var _gaq = _gaq || [];
+	  _gaq.push(['_setAccount', 'UA-152438-1']);
+	  _gaq.push(['_trackPageview']);
+	</script>
+	<script src="/js/cookie.js"></script>
+</body>
+</html>

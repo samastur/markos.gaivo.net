@@ -1,0 +1,219 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+		>
+<channel>
+	<title>Comments for A notch above a monkey</title>
+	<atom:link href="http://markos.gaivo.net/blog/?feed=comments-rss2" rel="self" type="application/rss+xml" />
+	<link>http://markos.gaivo.net/blog</link>
+	<description></description>
+	<lastBuildDate>Wed, 16 Jul 2014 16:04:38 +0000</lastBuildDate>
+	<sy:updatePeriod>hourly</sy:updatePeriod>
+	<sy:updateFrequency>1</sy:updateFrequency>
+	<generator>http://wordpress.org/?v=3.0.5</generator>
+	<item>
+		<title>Comment on Chirp, Squawk, Cackle, or Honk* by markos</title>
+		<link>http://markos.gaivo.net/blog/?p=1203&#038;cpage=1#comment-325200</link>
+		<dc:creator>markos</dc:creator>
+		<pubDate>Wed, 16 Jul 2014 16:04:38 +0000</pubDate>
+		<guid isPermaLink="false">http://markos.gaivo.net/blog/?p=1203#comment-325200</guid>
+		<description>Thank you, Tomaž, for your comment.
+
+I agree with you that compared to others Twitter does not stand out in what it does and to what end. However what I think is different is Twitter&#039;s scale and hence its impact on society. A website with few thousand users is unlikely to have the same influence. Scale matters.
+
+I also agree that it is useful for certain purposes. So are off-road vehicles, but I doubt that abundance of SUVs on our roads is net positive for everyone involved.
+
+In a way you provide a perfect example of the problem. Most bug reports I deal with can&#039;t be adequately describe in 140 characters so why suggest that number? You could promote brevity equally well with 500 or 1000 which is still less than is often needed. It is difficult to imagine that Github would come up with that exact suggestion without Twitter&#039;s influence.
+
+I think SMS and messaging in general is a good example of something that is in mostly short and immediate, but which does not handicap communication in the same way.
+
+I would be happier if service like this was de-centralized because it would provide an opportunity to fix and change the most obnoxious parts of it.</description>
+		<content:encoded><![CDATA[<p>Thank you, Tomaž, for your comment.</p>
+<p>I agree with you that compared to others Twitter does not stand out in what it does and to what end. However what I think is different is Twitter&#8217;s scale and hence its impact on society. A website with few thousand users is unlikely to have the same influence. Scale matters.</p>
+<p>I also agree that it is useful for certain purposes. So are off-road vehicles, but I doubt that abundance of SUVs on our roads is net positive for everyone involved.</p>
+<p>In a way you provide a perfect example of the problem. Most bug reports I deal with can&#8217;t be adequately describe in 140 characters so why suggest that number? You could promote brevity equally well with 500 or 1000 which is still less than is often needed. It is difficult to imagine that Github would come up with that exact suggestion without Twitter&#8217;s influence.</p>
+<p>I think SMS and messaging in general is a good example of something that is in mostly short and immediate, but which does not handicap communication in the same way.</p>
+<p>I would be happier if service like this was de-centralized because it would provide an opportunity to fix and change the most obnoxious parts of it.</p>
+]]></content:encoded>
+	</item>
+	<item>
+		<title>Comment on Chirp, Squawk, Cackle, or Honk* by Tomaž</title>
+		<link>http://markos.gaivo.net/blog/?p=1203&#038;cpage=1#comment-325193</link>
+		<dc:creator>Tomaž</dc:creator>
+		<pubDate>Sun, 13 Jul 2014 11:08:25 +0000</pubDate>
+		<guid isPermaLink="false">http://markos.gaivo.net/blog/?p=1203#comment-325193</guid>
+		<description>Hi Markos,
+
+I certainly agree with what you say about Twitter encouraging instant gratification and short attention spans. But unfortunately that seems to be the general direction most of the popular communication on the web is heading for. These days almost everyone worries about getting imaginary internet points as well, whether they are likes, shares, upvotes or retweets. I don&#039;t see Twitter as special in this regard.
+
+I&#039;ve recently reported a bug to GitHub. Their form encourages you to condense your report to 140 characters. My first reaction was to dismiss it as an unnecessary way to mimic Twitter, but now I think it&#039;s a valid way to make people think about brevity and skip the unnecessary fluff. Like it or not, there is so much communication going on these days that being able to compress your message to essentials is a valuable skill.
+
+I don&#039;t think that Twitter can (or should) replace longer texts, but I think it serves a purpose. Similar to how SMS still lives in parallel to e-mail. Even historically, there was a place for very short texts like haikus and aphorisms.
+
+A lot of what you are talking about here is specific to Twitter as a company, centralized service and their user interface. In our original discussion I was thinking more about the form of communication itself. Regarding that, I couldn&#039;t agree more with you. I would be much happier if Twitter would be replaced with StatusNet or some other de-centralized technology.</description>
+		<content:encoded><![CDATA[<p>Hi Markos,</p>
+<p>I certainly agree with what you say about Twitter encouraging instant gratification and short attention spans. But unfortunately that seems to be the general direction most of the popular communication on the web is heading for. These days almost everyone worries about getting imaginary internet points as well, whether they are likes, shares, upvotes or retweets. I don&#8217;t see Twitter as special in this regard.</p>
+<p>I&#8217;ve recently reported a bug to GitHub. Their form encourages you to condense your report to 140 characters. My first reaction was to dismiss it as an unnecessary way to mimic Twitter, but now I think it&#8217;s a valid way to make people think about brevity and skip the unnecessary fluff. Like it or not, there is so much communication going on these days that being able to compress your message to essentials is a valuable skill.</p>
+<p>I don&#8217;t think that Twitter can (or should) replace longer texts, but I think it serves a purpose. Similar to how SMS still lives in parallel to e-mail. Even historically, there was a place for very short texts like haikus and aphorisms.</p>
+<p>A lot of what you are talking about here is specific to Twitter as a company, centralized service and their user interface. In our original discussion I was thinking more about the form of communication itself. Regarding that, I couldn&#8217;t agree more with you. I would be much happier if Twitter would be replaced with StatusNet or some other de-centralized technology.</p>
+]]></content:encoded>
+	</item>
+	<item>
+		<title>Comment on 2013 review by Jochen</title>
+		<link>http://markos.gaivo.net/blog/?p=1186&#038;cpage=1#comment-324828</link>
+		<dc:creator>Jochen</dc:creator>
+		<pubDate>Thu, 02 Jan 2014 12:37:35 +0000</pubDate>
+		<guid isPermaLink="false">http://markos.gaivo.net/blog/?p=1186#comment-324828</guid>
+		<description>Thanks!</description>
+		<content:encoded><![CDATA[<p>Thanks!</p>
+]]></content:encoded>
+	</item>
+	<item>
+		<title>Comment on 2013 review by markos</title>
+		<link>http://markos.gaivo.net/blog/?p=1186&#038;cpage=1#comment-324827</link>
+		<dc:creator>markos</dc:creator>
+		<pubDate>Thu, 02 Jan 2014 11:52:40 +0000</pubDate>
+		<guid isPermaLink="false">http://markos.gaivo.net/blog/?p=1186#comment-324827</guid>
+		<description>@rok Glad to hear it, but I am only an email away and my address is not a secret ;)</description>
+		<content:encoded><![CDATA[<p>@rok Glad to hear it, but I am only an email away and my address is not a secret <img src='http://markos.gaivo.net/blog/wp-includes/images/smilies/icon_wink.gif' alt=';)' class='wp-smiley' /> </p>
+]]></content:encoded>
+	</item>
+	<item>
+		<title>Comment on 2013 review by markos</title>
+		<link>http://markos.gaivo.net/blog/?p=1186&#038;cpage=1#comment-324826</link>
+		<dc:creator>markos</dc:creator>
+		<pubDate>Thu, 02 Jan 2014 11:51:52 +0000</pubDate>
+		<guid isPermaLink="false">http://markos.gaivo.net/blog/?p=1186#comment-324826</guid>
+		<description>Hi Jochen. No special app, just a text document that can be easily replicated if needed. What I want from to-do list is to have a general overview of what needs to be done, approximate order in which to do it and a clear idea of what can or should be done next.
+
+In practice this means I have a long list of things to do, more or less ordered by priority. In general I don&#039;t spend too much time expanding items lower on the list unless I want to record something I fear I would later forget (potential gotcha; novel ideas...)
+
+I do expand first few items into parts ideally small enough that they can be done in half an hour (which to me is about the smallest reasonable time for meaningful development work). I prepare more than one so I have some choice in case I don&#039;t feel like working on particular problem or simply am not able to. This way I am never without something I can productively do.
+
+I don&#039;t work on list further below because it changes too often. Things get re-prioritized or dropped, new items are added. The usual stuff.
+
+If list feels too long, then I might break it into smaller parts (in the same document) so then the first list would contain tasks needed for next release and second (never had more than two yet) would contain the rest (basically iteration candidates and backlog).
+
+Of course each project gets its own document. I work on the list when I&#039;m running out of developed stories or when I don&#039;t have enough time or energy to do actual development.</description>
+		<content:encoded><![CDATA[<p>Hi Jochen. No special app, just a text document that can be easily replicated if needed. What I want from to-do list is to have a general overview of what needs to be done, approximate order in which to do it and a clear idea of what can or should be done next.</p>
+<p>In practice this means I have a long list of things to do, more or less ordered by priority. In general I don&#8217;t spend too much time expanding items lower on the list unless I want to record something I fear I would later forget (potential gotcha; novel ideas&#8230;)</p>
+<p>I do expand first few items into parts ideally small enough that they can be done in half an hour (which to me is about the smallest reasonable time for meaningful development work). I prepare more than one so I have some choice in case I don&#8217;t feel like working on particular problem or simply am not able to. This way I am never without something I can productively do.</p>
+<p>I don&#8217;t work on list further below because it changes too often. Things get re-prioritized or dropped, new items are added. The usual stuff.</p>
+<p>If list feels too long, then I might break it into smaller parts (in the same document) so then the first list would contain tasks needed for next release and second (never had more than two yet) would contain the rest (basically iteration candidates and backlog).</p>
+<p>Of course each project gets its own document. I work on the list when I&#8217;m running out of developed stories or when I don&#8217;t have enough time or energy to do actual development.</p>
+]]></content:encoded>
+	</item>
+	<item>
+		<title>Comment on 2013 review by rok</title>
+		<link>http://markos.gaivo.net/blog/?p=1186&#038;cpage=1#comment-324818</link>
+		<dc:creator>rok</dc:creator>
+		<pubDate>Wed, 01 Jan 2014 22:53:41 +0000</pubDate>
+		<guid isPermaLink="false">http://markos.gaivo.net/blog/?p=1186#comment-324818</guid>
+		<description>Glad to have you write these reports to at least know what your life is like once a year, hehe.</description>
+		<content:encoded><![CDATA[<p>Glad to have you write these reports to at least know what your life is like once a year, hehe.</p>
+]]></content:encoded>
+	</item>
+	<item>
+		<title>Comment on 2013 review by Jochen</title>
+		<link>http://markos.gaivo.net/blog/?p=1186&#038;cpage=1#comment-324817</link>
+		<dc:creator>Jochen</dc:creator>
+		<pubDate>Wed, 01 Jan 2014 21:49:11 +0000</pubDate>
+		<guid isPermaLink="false">http://markos.gaivo.net/blog/?p=1186#comment-324817</guid>
+		<description>Hi Markos,
+
+thank you this personal insight. Would you mind elaborating on your &quot;good to-to list&quot;? Is this a special app(lication) you are using, or a specific system?
+
+Thanks,
+Jochen.</description>
+		<content:encoded><![CDATA[<p>Hi Markos,</p>
+<p>thank you this personal insight. Would you mind elaborating on your &#8220;good to-to list&#8221;? Is this a special app(lication) you are using, or a specific system?</p>
+<p>Thanks,<br />
+Jochen.</p>
+]]></content:encoded>
+	</item>
+	<item>
+		<title>Comment on DjangoCon Europe 2014? by markos</title>
+		<link>http://markos.gaivo.net/blog/?p=1161&#038;cpage=1#comment-324800</link>
+		<dc:creator>markos</dc:creator>
+		<pubDate>Fri, 27 Dec 2013 20:40:42 +0000</pubDate>
+		<guid isPermaLink="false">http://markos.gaivo.net/blog/?p=1161#comment-324800</guid>
+		<description>@Víðir You are correct. As http://2014.djangocon.eu//news/ makes clear everything will be included in the price of the ticket.</description>
+		<content:encoded><![CDATA[<p>@Víðir You are correct. As <a href="http://2014.djangocon.eu//news/">http://2014.djangocon.eu//news/</a> makes clear everything will be included in the price of the ticket.</p>
+]]></content:encoded>
+	</item>
+	<item>
+		<title>Comment on DjangoCon Europe 2014? by want to go</title>
+		<link>http://markos.gaivo.net/blog/?p=1161&#038;cpage=1#comment-324795</link>
+		<dc:creator>want to go</dc:creator>
+		<pubDate>Mon, 23 Dec 2013 16:25:47 +0000</pubDate>
+		<guid isPermaLink="false">http://markos.gaivo.net/blog/?p=1161#comment-324795</guid>
+		<description>Hopefully everything will be in English.
+
+My experience with conferences in France has been that often things are very difficult if you don&#039;t read and speak French.</description>
+		<content:encoded><![CDATA[<p>Hopefully everything will be in English.</p>
+<p>My experience with conferences in France has been that often things are very difficult if you don&#8217;t read and speak French.</p>
+]]></content:encoded>
+	</item>
+	<item>
+		<title>Comment on DjangoCon Europe 2014? by not current</title>
+		<link>http://markos.gaivo.net/blog/?p=1161&#038;cpage=1#comment-324794</link>
+		<dc:creator>not current</dc:creator>
+		<pubDate>Mon, 23 Dec 2013 04:29:38 +0000</pubDate>
+		<guid isPermaLink="false">http://markos.gaivo.net/blog/?p=1161#comment-324794</guid>
+		<description>PS. for FEMALES that is the MAJORITY OF THE POPULATION.
+I am male, USA citizen.
+NEVER, almost NEVER go to the Birds of Feather meetings
+at Javits Center, NYC, NY, USA during the big conventions?
+
+WHY??
+it ends at 7:30 or 8pm IN THE DARK.  Hard to get a taxi.
+Public Bus schedule sometimes is late (USA union driver?)
+
+For two guys walking together and familiar with BIG CITY CRIME,
+maybe OK.
+For a single female walking at least TEN CITY BLOCKS to &#039;safety&#039;
+is a CHALLENGE.
+
+So, I take the American and drop him in Bulgaria for the
+conference ---  wearing wet cotton pants in the MINUS DEGREE
+CENTIGRADE temperature?
+
+Supercomputer conference in Tampa, FL. Drinking at the open
+bar sponsored by BIG NAME CORP. with the Danish, Sweden and
+some british professor (definitely a bit drunk). but he was
+older and maybe did not have to get to work tomorrow.
+
+I am the only one who knows the area and I have a strong
+flashlight... as we stumble our way to the bright lights of
+the big HOTEL.  This is NOT ORLANDO, FL or Miami, FL - getting
+a taxi or limo IS THE PROBLEM. (and being the USA.. perhaps
+avoiding seafood poisoning or food allergy items..)</description>
+		<content:encoded><![CDATA[<p>PS. for FEMALES that is the MAJORITY OF THE POPULATION.<br />
+I am male, USA citizen.<br />
+NEVER, almost NEVER go to the Birds of Feather meetings<br />
+at Javits Center, NYC, NY, USA during the big conventions?</p>
+<p>WHY??<br />
+it ends at 7:30 or 8pm IN THE DARK.  Hard to get a taxi.<br />
+Public Bus schedule sometimes is late (USA union driver?)</p>
+<p>For two guys walking together and familiar with BIG CITY CRIME,<br />
+maybe OK.<br />
+For a single female walking at least TEN CITY BLOCKS to &#8216;safety&#8217;<br />
+is a CHALLENGE.</p>
+<p>So, I take the American and drop him in Bulgaria for the<br />
+conference &#8212;  wearing wet cotton pants in the MINUS DEGREE<br />
+CENTIGRADE temperature?</p>
+<p>Supercomputer conference in Tampa, FL. Drinking at the open<br />
+bar sponsored by BIG NAME CORP. with the Danish, Sweden and<br />
+some british professor (definitely a bit drunk). but he was<br />
+older and maybe did not have to get to work tomorrow.</p>
+<p>I am the only one who knows the area and I have a strong<br />
+flashlight&#8230; as we stumble our way to the bright lights of<br />
+the big HOTEL.  This is NOT ORLANDO, FL or Miami, FL &#8211; getting<br />
+a taxi or limo IS THE PROBLEM. (and being the USA.. perhaps<br />
+avoiding seafood poisoning or food allergy items..)</p>
+]]></content:encoded>
+	</item>
+</channel>
+</rss>

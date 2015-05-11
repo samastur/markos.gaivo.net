@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>A notch above a monkey &#187; Django</title>
+	<atom:link href="http://markos.gaivo.net/blog/?feed=rss2&#038;cat=39" rel="self" type="application/rss+xml" />
+	<link>http://markos.gaivo.net/blog</link>
+	<description></description>
+	<lastBuildDate>Mon, 26 Jan 2015 07:00:03 +0000</lastBuildDate>
+	<language>en</language>
+	<sy:updatePeriod>hourly</sy:updatePeriod>
+	<sy:updateFrequency>1</sy:updateFrequency>
+	<generator>http://wordpress.org/?v=3.0.5</generator>
+		<item>
+		<title>DjangoCon Europe 2014?</title>
+		<link>http://markos.gaivo.net/blog/?p=1161</link>
+		<comments>http://markos.gaivo.net/blog/?p=1161#comments</comments>
+		<pubDate>Sun, 22 Dec 2013 17:29:50 +0000</pubDate>
+		<dc:creator>markos</dc:creator>
+				<category><![CDATA[Django]]></category>
+		<category><![CDATA[Python]]></category>
+		<category><![CDATA[conference]]></category>
+		<category><![CDATA[DjangoCon]]></category>
+
+		<guid isPermaLink="false">http://markos.gaivo.net/blog/?p=1161</guid>
+		<description><![CDATA[Update 2: Tickets are now on sale and it is safe to say that I am not going. The opening price (which will go up after 50 sold tickets) is already too high for me and it is exactly what I was originally afraid of. Update: I am sorry, I overreacted. As http://2014.djangocon.eu//news/ makes clear [...]]]></description>
+			<content:encoded><![CDATA[<p><strong>Update 2:</strong> Tickets are now <a href="http://www.weezevent.com/djangocon-europe">on sale</a> and it is safe to say that I am not going. The opening price (which will go up after 50 sold tickets) is already too high for me and it is exactly what I was originally afraid of.</p>
+<p><strong>Update</strong>: I am sorry, I overreacted. As http://2014.djangocon.eu//news/ makes clear tickets will cover everything except getting there and I have full confidence they will be reasonably priced. Listed transport options for those from my neighborhood are still valid (unless somebody has better data which would be great).</p>
+<p>I did not go to DjangoCon Europe in Warsaw this year, but I was certain I would go to the next one. Not anymore.</p>
+<p>There is no good way of contacting organizers<sup><a id="djangocon2014-1" href="#djangocon2014-note-1">[1]</a></sup> and not much travel information either on <a href="http://2014.djangocon.eu/">the DjangoCon&#8217;s website</a> or elsewhere. Most of what there is is in French which I don&#8217;t speak so my worries are hopefully unfounded, but what I found so far looks grim.</p>
+<p>First transport. It is not organizer&#8217;s fault I live where I do (Ljubljana, Slovenia), but my options are plane (500+€; travel time 6 and 17 hours), train (EUR ??; travel time 14-24h in each direction) or car which would take about 9 hours in one direction and cost around 600€ total per car (180 for tolls, ~400 for fuel with hopefully free parking there).</p>
+<p>It is really difficult to get a good idea of how much do hotels on the island cost, but judging by tripadvisor they are not cheap and in general cost 100+€ per day. Staying on the mainland can be done cheap<strong>er</strong>, but I think ferry costs at least 13€ per day so total cost will likely not be very low and you will not be around for any late events.</p>
+<p>No idea yet about how easy it is to find suitable food if you are a vegetarian or a vegan or how much does it cost. I assume it can be worked out.</p>
+<p>In total this looks significantly more than it did to attend EuroPython in Florence and that was FLORENCE!</p>
+<p>I dislike criticizing efforts of others, especially when I know that involves a lot of volunteering and when I am not privy to inside knowledge and dilemmas. However as a regular conference goer it does look to me that there has been a shift happening from egalitarian accessibility of making community conferences cheap and easy enough for anyone to attend to a more stratified approach where money (or time) poor will have to do with video recordings/broadcasts while the rest will get ever flashier experience.</p>
+<p>There is obviously a lot of value in meeting face to face (otherwise most of us would probably prefer to save the expense of it) which is why I would find this kind of development sad if it happened to major community gatherings like DjangoCon Europe. So I am hoping that it isn&#8217;t and it won&#8217;t.</p>
+<ol>
+<li id="djangocon2014-note-1">I know there&#8217;s a Twitter account. I don&#8217;t find it a good channel for the kind of communication I want, but that is a different discussion. <a href="#djangocon2014-1">↩</a></li>
+</ol>
+]]></content:encoded>
+			<wfw:commentRss>http://markos.gaivo.net/blog/?feed=rss2&#038;p=1161</wfw:commentRss>
+		<slash:comments>5</slash:comments>
+		</item>
+		<item>
+		<title>Laughable Javascript security</title>
+		<link>http://markos.gaivo.net/blog/?p=1119</link>
+		<comments>http://markos.gaivo.net/blog/?p=1119#comments</comments>
+		<pubDate>Thu, 11 Jul 2013 20:57:01 +0000</pubDate>
+		<dc:creator>markos</dc:creator>
+				<category><![CDATA[Django]]></category>
+		<category><![CDATA[Javascript]]></category>
+		<category><![CDATA[Web]]></category>
+		<category><![CDATA[cloaking]]></category>
+		<category><![CDATA[Security]]></category>
+
+		<guid isPermaLink="false">http://markos.gaivo.net/blog/?p=1119</guid>
+		<description><![CDATA[Building a secure web application is not easy, unless you also use 3rd party code such as Facebook&#8217;s Like widget in which case it is impossible. What you have is just an illusion of security, a door to abuse that you can&#8217;t even check if it is currently closed. Or that&#8217;s what I thought for [...]]]></description>
+			<content:encoded><![CDATA[<p>Building a secure web application is not easy, unless you also use 3rd party code such as Facebook&#8217;s Like widget in which case it is impossible. What you have is just an illusion of security, a door to abuse that you can&#8217;t even check if it is currently closed.</p>
+<p>Or that&#8217;s what I thought for years. A once substantiated belief that grew into an almost dogmatic certainty until I recently got a chance to revisit it when trying to design a secure Javascript-based web application living inside of a likely untrusted environment.</p>
+<p>There are obvious things you can do to protect your application such as delivery over secure connections and use of anonymous functions to sandbox your code from outside interference. However you will probably need to interact with external code at some point in which case is that <em>XMLHTTPRequest</em> object you are using really the built-in one or has it been replaced (cloaked) with an impostor object to perform <a href="https://en.wikipedia.org/wiki/Man-in-the-middle_attack">the man-in-the-middle attack</a>?</p>
+<p>I don&#8217;t know of a way to check if an object is untouched. What is sometimes used instead is a <em>.toString</em> method which on functions and methods returns their source unless they are native to browser in which case it returns a string saying so.</p>
+<p>Since you can replace any attribute and method on any object some <a href="http://stackoverflow.com/questions/6598945/detect-if-function-is-native-to-browser#comment8044242_6599105">go even further</a> in search of a certainty and use <em>.toString</em> from the <em>Function</em> object.</p>
+<p>At first thought that looked clever until I came up with:</p>
+<ol class="code">
+<li><code>&#60;!DOCTYPE HTML&#62;</code></li>
+<li><code>&#60;html lang=&#34;en&#34;&#62;</code></li>
+<li><code>&#60;head&#62;</code></li>
+<li class="tab1"><code>&#60;meta charset=&#34;UTF-8&#34;&#62;</code></li>
+<li class="tab1"><code>&#60;title&#62;Break check if function is native&#60;/title&#62;</code></li>
+<li><code>&#60;/head&#62;</code></li>
+<li><code>&#60;body&#62;</code></li>
+<li class="tab1"><code>&#60;script&#62;</code></li>
+<li><code>(function () {</code></li>
+<li class="tab1"><code>var toS = Function.prototype.toString,</code></li>
+<li class="tab2"><code>pM_str = window.postMessage.toString();</code></li>
+<li>&#160;</li>
+<li class="tab1"><code>Function.prototype.toString = function () {</code></li>
+<li class="tab2"><code>return this === window.postMessage ? pM_str : toS.call(this);</code></li>
+<li class="tab1"><code>}</code></li>
+<li class="tab1"><code>window.postMessage = function () { console.log('Fake'); };</code></li>
+<li><code>})();</code></li>
+<li class="tab1"><code>&#60;/script&#62;</code></li>
+<li><code>&#60;/body&#62;</code></li>
+<li><code>&#60;/html&#62;</code></li>
+<li>&#160;</li>
+<li class="download">Download this code: <a href="http://markos.gaivo.net/blog/code/nativecheck.txt" title="Download the above code as a text file">/code/nativecheck.txt</a></li>
+</ol>
+<p>The code above replaces <em>Function&#8217;s .toString</em> method with a one that lies when executed on an also cloaked <em>window.postMessage</em>. Instead of displaying source of the new <em>postMessage</em> it prints whatever browser would print for the original one.</p>
+<p>It simultaneously demonstrates how you can cloak native Javascript objects and hide that you are doing it. If you put malicious code into an anonymous function and remove <em>&lt;script&gt;</em> node that added it after it gets executed, then there is no way for scripts loading later to know that it happened. There will be no traces of crime.</p>
+<p>It might be difficult to cloak literals like {} and [], but you certainly can their methods so even if your code is wrapped in an anonymous function, it isn&#8217;t really secured from outside peeking and poking. Hence you even <strong>can&#8217;t trust your own code</strong>.</p>
+<p>Turns out that this particular dogma is also true. Depressing.</p>
+]]></content:encoded>
+			<wfw:commentRss>http://markos.gaivo.net/blog/?feed=rss2&#038;p=1119</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+		<item>
+		<title>Shrinking images with image-diet</title>
+		<link>http://markos.gaivo.net/blog/?p=1087</link>
+		<comments>http://markos.gaivo.net/blog/?p=1087#comments</comments>
+		<pubDate>Sun, 20 Jan 2013 22:53:16 +0000</pubDate>
+		<dc:creator>markos</dc:creator>
+				<category><![CDATA[Django]]></category>
+		<category><![CDATA[Python]]></category>
+		<category><![CDATA[Web]]></category>
+		<category><![CDATA[images]]></category>
+		<category><![CDATA[low-bandwidth]]></category>
+		<category><![CDATA[page size]]></category>
+		<category><![CDATA[shrink]]></category>
+		<category><![CDATA[speed]]></category>
+
+		<guid isPermaLink="false">http://markos.gaivo.net/blog/?p=1087</guid>
+		<description><![CDATA[I like easy-thumbnails and use it often in my Django projects, but I wished for a long time that its PIL generated thumbnails would be smaller. That&#8217;s why I wrote image-diet, a drop-in extension for those easy-thumbnails users who use file system for storing images. Images remain visually the same, but can be significantly smaller [...]]]></description>
+			<content:encoded><![CDATA[<p>I like <a href="https://github.com/SmileyChris/easy-thumbnails">easy-thumbnails</a> and use it often in my Django projects, but I wished for a long time that its <a href="http://www.pythonware.com/products/pil/">PIL</a> generated thumbnails would be smaller. That&#8217;s why I wrote <a href="https://github.com/samastur/image-diet">image-diet</a>, a drop-in extension for those easy-thumbnails users who use file system for storing images. Images remain visually the same, but can be significantly smaller (mine by more than 50% but your mileage my vary).</p>
+<p>This matters because images are together with Javascript main cause for ever larger page sizes which leads to slower websites, especially in low-bandwidth environments. But really, don&#8217;t we all want our websites to be as fast as possible?</p>
+<p><a href="https://github.com/samastur/image-diet">image-diet</a> was inspired by <a href="http://imageoptim.com/">ImageOptim</a> and <a href="https://github.com/Kilian/Trimage">Trimage</a> and I&#8217;m grateful to authors of both. It uses jpegtran, Jpegoptim, Gifsicle, OptiPNG, AdvanceCOM PNG and Pngcrush to do the heavy work of squeezing redundant bytes. Getting them should be easy as they are part of Ubuntu distribution and can be installed on Mac with brew. For more information please check documentation or ask.</p>
+<p>I would love to hear any comments and ideas you may have, even more so if you try it.</p>
+]]></content:encoded>
+			<wfw:commentRss>http://markos.gaivo.net/blog/?feed=rss2&#038;p=1087</wfw:commentRss>
+		<slash:comments>2</slash:comments>
+		</item>
+		<item>
+		<title>Impostor for Django</title>
+		<link>http://markos.gaivo.net/blog/?p=649</link>
+		<comments>http://markos.gaivo.net/blog/?p=649#comments</comments>
+		<pubDate>Tue, 22 Feb 2011 19:11:32 +0000</pubDate>
+		<dc:creator>markos</dc:creator>
+				<category><![CDATA[Django]]></category>
+		<category><![CDATA[Python]]></category>
+		<category><![CDATA[Web]]></category>
+		<category><![CDATA[Impostor]]></category>
+		<category><![CDATA[Password]]></category>
+		<category><![CDATA[Security]]></category>
+
+		<guid isPermaLink="false">http://markos.gaivo.net/blog/?p=649</guid>
+		<description><![CDATA[A class of bugs I really dislike debugging are those that depend on specific data and affect only a very small subset or just one user. Things could sometimes be fixed so much faster if you could just log in as him to see what is happening. Sometimes this is exactly what we do with [...]]]></description>
+			<content:encoded><![CDATA[<p>A class of bugs I really dislike debugging are those that depend on specific data and affect only a very small subset or just one user. Things could sometimes be fixed so much faster if you could just log in as him to see what is happening. Sometimes this is exactly what we do <strong>with his explicit permission</strong>, but I really dislike asking for passwords.</p>
+<p>First it inconveniences user. He has to come up with either a new good password or go through two password changes. Second it implicitly teaches wrong behavior. Passwords simply should never be revealed.</p>
+<p>That is why I wrote <a title="Impostor's home at GitHub" href="https://github.com/samastur/Impostor">Impostor</a>, a Django app that allows staff members (and only them) to login with their own credentials as a different user. Idea is not mine (kudos goes to <a title="Ned's post where idea comes from" href="http://nedbatchelder.com/blog/201008/django_superuser_login_trapdoor.html">Ned Batchelder</a>), but I like it. To discourage abuse every such authentication is recorded and can be seen in Django admin interface, but can not be altered from there.</p>
+<p>So how does it work in practice?</p>
+<p>Lets say that I would need to log in as user <em>fry</em>. To do this I would enter as my username <em>markos as fry,</em> provide my password and voila, I&#8217;m him. This has been recorded so anyone with access to ImpostorLog part in admin can see all such cases, mine included.</p>
+<p>Impostor may also ease your development by removing need to remember different passwords for testing. This is usually not a problem unless you happen to develop with fake data but real accounts. Like me.</p>
+<p>And again for morally challenged out there: <strong>you should never login as somebody else without his explicit permission</strong>.</p>
+<p><strong>Update</strong>: Thanks Ross for reminding me where idea came from. I updated text accordingly.</p>
+<div class="zemanta-pixie"><a class="zemanta-pixie-a" title="Enhanced by Zemanta" href="http://www.zemanta.com/"><img class="zemanta-pixie-img" src="http://img.zemanta.com/zemified_e.png?x-id=db7c9f53-423e-4b56-bbe3-b717fde54c16" alt="Enhanced by Zemanta" /></a></div>
+]]></content:encoded>
+			<wfw:commentRss>http://markos.gaivo.net/blog/?feed=rss2&#038;p=649</wfw:commentRss>
+		<slash:comments>3</slash:comments>
+		</item>
+	</channel>
+</rss>

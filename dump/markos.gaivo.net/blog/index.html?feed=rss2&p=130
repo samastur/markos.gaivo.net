@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+		>
+<channel>
+	<title>Comments on: Revisiting javascript i18n</title>
+	<atom:link href="http://markos.gaivo.net/blog/?feed=rss2&#038;p=130" rel="self" type="application/rss+xml" />
+	<link>http://markos.gaivo.net/blog/?p=130</link>
+	<description></description>
+	<lastBuildDate>Wed, 16 Jul 2014 16:04:38 +0000</lastBuildDate>
+	<sy:updatePeriod>hourly</sy:updatePeriod>
+	<sy:updateFrequency>1</sy:updateFrequency>
+	<generator>http://wordpress.org/?v=3.0.5</generator>
+	<item>
+		<title>By: markos</title>
+		<link>http://markos.gaivo.net/blog/?p=130&#038;cpage=1#comment-955</link>
+		<dc:creator>markos</dc:creator>
+		<pubDate>Fri, 03 Mar 2006 08:14:34 +0000</pubDate>
+		<guid isPermaLink="false">http://markos.gaivo.net/blog/?p=130#comment-955</guid>
+		<description>Thanks, I wasn&#039;t aware of this.</description>
+		<content:encoded><![CDATA[<p>Thanks, I wasn&#8217;t aware of this.</p>
+]]></content:encoded>
+	</item>
+	<item>
+		<title>By: Guido Wesdorp</title>
+		<link>http://markos.gaivo.net/blog/?p=130&#038;cpage=1#comment-952</link>
+		<dc:creator>Guido Wesdorp</dc:creator>
+		<pubDate>Thu, 02 Mar 2006 08:13:05 +0000</pubDate>
+		<guid isPermaLink="false">http://markos.gaivo.net/blog/?p=130#comment-952</guid>
+		<description>I played around with finding out the locale from JavaScript, but it seems to be quite flawed: at least in Mozilla I could only get to the &#039;build language&#039; of the browser, not to the locale set by the user (so on English Mozilla builds that had de_DE as preferred language, asking for the locale would return en_US). This made the information rather useless, therefore at that point I decided to use information from the server instead, or have the locale set by the user in the web application seperately (in one app, a &#039;client-side CMS&#039; using WebDAV (http://johnnydebris.net:8080/projects/cmc/cmc.html, not complete and abandoned, but still pretty cool ;) I used cookies to store the info).
+
+I&#039;m not sure how to properly deal with this problem...
+
+Anyway, about the i18n lib, not sure whether it wouldn&#039;t make sense to join forces somehow? Perhaps you can send patches or whatnot, or I could even give you SVN checkin rights so we can work on the lib together? I wouldn&#039;t mind improving it, as long as the API doesn&#039;t change too drastically (it&#039;s currently in use by Kupu, meaning there&#039;s quite a bit of people that have it installed already)... If you&#039;re interested, send an email to johnny@johnnydebris.net.</description>
+		<content:encoded><![CDATA[<p>I played around with finding out the locale from JavaScript, but it seems to be quite flawed: at least in Mozilla I could only get to the &#8216;build language&#8217; of the browser, not to the locale set by the user (so on English Mozilla builds that had de_DE as preferred language, asking for the locale would return en_US). This made the information rather useless, therefore at that point I decided to use information from the server instead, or have the locale set by the user in the web application seperately (in one app, a &#8216;client-side CMS&#8217; using WebDAV (<a href="http://johnnydebris.net:8080/projects/cmc/cmc.html">http://johnnydebris.net:8080/projects/cmc/cmc.html</a>, not complete and abandoned, but still pretty cool <img src='http://markos.gaivo.net/blog/wp-includes/images/smilies/icon_wink.gif' alt=';)' class='wp-smiley' />  I used cookies to store the info).</p>
+<p>I&#8217;m not sure how to properly deal with this problem&#8230;</p>
+<p>Anyway, about the i18n lib, not sure whether it wouldn&#8217;t make sense to join forces somehow? Perhaps you can send patches or whatnot, or I could even give you SVN checkin rights so we can work on the lib together? I wouldn&#8217;t mind improving it, as long as the API doesn&#8217;t change too drastically (it&#8217;s currently in use by Kupu, meaning there&#8217;s quite a bit of people that have it installed already)&#8230; If you&#8217;re interested, send an email to <a href="mailto:johnny@johnnydebris.net">johnny@johnnydebris.net</a>.</p>
+]]></content:encoded>
+	</item>
+</channel>
+</rss>

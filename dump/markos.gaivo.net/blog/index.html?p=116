@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>A notch above a monkey &raquo; Lessons from navigation design</title>
+	<meta charset="utf-8" />
+	
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" /> 
+
+	<link rel="shortcut icon" href="/img/markos.ico" />
+	
+	<meta name="generator" content="WordPress 3.0.5" /> <!-- leave this for stats please -->
+
+	<link href="http://fast.fonts.com/cssapi/aee9b60b-8e94-47f8-b586-3ecbfab51d1c.css" rel="stylesheet" type="text/css" />
+	<link rel="stylesheet" type="text/css" href="css/home.css" media="screen" title="Light theme" />
+	<link rel="alternate stylesheet" type="text/css" href="css/home_dark.css" media="screen" title="Dark theme" />
+	<link rel="stylesheet" href="css/ipad.css" media="only screen and (min-device-width : 768px) and (max-device-width : 1024px)">
+	<link rel="stylesheet" type="text/css" href="css/smallscreen.css" media="only screen and (max-width: 700px)" />
+
+	<link rel="alternate" type="application/rss+xml" title="RSS 2.0" href="http://markos.gaivo.net/blog/?feed=rss2" />
+	<link rel="alternate" type="application/atom+xml" title="Atom 1.0" href="http://markos.gaivo.net/blog/?feed=atom" />
+	<link rel='canonical' href='http://markos.gaivo.net/blog/?p=664' />
+
+	<link rel="pingback" href="http://markos.gaivo.net/blog/xmlrpc.php" />
+
+	<link rel="EditURI" type="application/rsd+xml" title="RSD" href="http://markos.gaivo.net/blog/xmlrpc.php?rsd" />
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="http://markos.gaivo.net/blog/wp-includes/wlwmanifest.xml" /> 
+<link rel='index' title='A notch above a monkey' href='http://markos.gaivo.net/blog' />
+<link rel='start' title='First post' href='http://markos.gaivo.net/blog/?p=2' />
+<link rel='prev' title='Undiscovered talent' href='http://markos.gaivo.net/blog/?p=115' />
+<link rel='next' title='The End of Internet?' href='http://markos.gaivo.net/blog/?p=117' />
+<meta name="generator" content="WordPress 3.0.5" />
+<link rel='canonical' href='http://markos.gaivo.net/blog/?p=116' />
+
+	<!--[if lt IE 9]>
+	<script src="/js/html5.js"></script>
+	<![endif]-->
+</head>
+<body>
+					<header>
+		<h1><a href="/blog/">A notch above a monkey</a> &raquo; Lessons from navigation design</h1>
+	</header>
+
+	<section class="envelope">
+		<article class="post">
+			<header>
+				<h1>Lessons from navigation design</h1>
+			</header>
+
+			<footer>
+				<ul>
+					<li class="by">Written by: <a href="/">Marko Samastur</a></li>
+					<li class="published">Published on: <time datetime="2006-01-31T23:20:41+00:00" pubdate>January 31, 2006</time></li>
+					<li class="categories">Categories: <a href="http://markos.gaivo.net/blog/?cat=5" title="View all posts in General development" rel="category">General development</a>, <a href="http://markos.gaivo.net/blog/?cat=7" title="View all posts in UI" rel="category">UI</a>, <a href="http://markos.gaivo.net/blog/?cat=4" title="View all posts in Web" rel="category">Web</a></li>
+					<li class="post-comments">Comments: <span>Comments Off</span></li>
+				</ul>
+			</footer>
+
+			<div class="post-text">
+				<p>As noted in my previous post, we changed the way image navigation works on Marela. I already described &#8220;philosophical&#8221; reason for previous behavior and in this post I intend to visit other reasons and lessons learned.</p>
+<p>I liked the old behavior because it made every page recognizable and there were no side effects, no special cases that would require different handling and make interface bigger. It made under-developed mathematician in me feel all fuzzy and warm.</p>
+<p>What I mean by recognizable is that you could quickly tell where on Marela you are just by looking at the displayed page. Hence it should be easy to know how to proceed and what you can do. Very predictable.</p>
+<p>Except it didn&#8217;t matter and nobody cared.</p>
+<p>New behavior brought special cases and I&#8217;m quite certain we haven&#8217;t met all of them yet. Example of one would be navigating through set of images grouped by a tag and deleting that tag from the current image. Where does that put you?</p>
+<p>The picture obviously can&#8217;t be a part of that set anymore so its neighbors can&#8217;t be from the set either. That&#8217;s why you fall back to photo-stream of the author. Except that most people still expect to be inside of the tag-stream. There wouldn&#8217;t be much change if we stayed there, only side-effects would be different. We could only select how to confuse users, not if.</p>
+<p>As it happens, it&#8217;s not a big deal either. It&#8217;s confusing at first, but not for very long, so nobody cares.</p>
+<p>What I relearned is that a tight mathematical model without side-effects, is not necessarily intuitive to human mind. In a way, we compensate for any small idiosyncrasies in a story our brains write from what we do. As with any good writing, we have guidelines that make us write better stories, but at the end it&#8217;s not they which matter, but the story itself.</p>
+<p>Interface should only help telling it.</p>
+			</div>
+
+			<nav>
+				<p>If you liked this, you might want to visit:</p>
+				<ul>
+					<li>my previous article: <a href="http://markos.gaivo.net/blog/?p=115" rel="prev">Undiscovered talent</a></li>					<li>my next article: <a href="http://markos.gaivo.net/blog/?p=117" rel="next">The End of Internet?</a></li>					<li><a href="/blog/">article list</a></li>
+				</ul>
+			</nav>
+
+			<h2 id="comments">No Comments
+			</h2>
+			<p>No comments yet.</p>
+
+		<p>Sorry, the comment form is closed at this time.</p>
+
+		</article>
+	</section>
+			<!-- All pages -->
+	
+
+	<footer>
+		<ul>
+			<li>&copy; 2005-2015 Marko Samastur</li>
+			
+			<li><a href="http://markos.gaivo.net/blog/?feed=rss2">Entries feed</a></li>
+			<li><a href="http://markos.gaivo.net/blog/?feed=comments-rss2">Comments feed</a></li>
+		</ul>
+		<a href="/"><img src="/img/markos_light_small_bg.png" alt="logo" class="mini-logo" /></a>
+	</footer>
+	<!-- Google analytics -->
+	<script type="text/javascript">
+	  var _gaq = _gaq || [];
+	  _gaq.push(['_setAccount', 'UA-152438-1']);
+	  _gaq.push(['_trackPageview']);
+	</script>
+	<script src="/js/cookie.js"></script>
+</body>
+</html>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+		>
+<channel>
+	<title>Comments on: 2009 review</title>
+	<atom:link href="http://markos.gaivo.net/blog/?feed=rss2&#038;p=534" rel="self" type="application/rss+xml" />
+	<link>http://markos.gaivo.net/blog/?p=534</link>
+	<description></description>
+	<lastBuildDate>Wed, 16 Jul 2014 16:04:38 +0000</lastBuildDate>
+	<sy:updatePeriod>hourly</sy:updatePeriod>
+	<sy:updateFrequency>1</sy:updateFrequency>
+	<generator>http://wordpress.org/?v=3.0.5</generator>
+	<item>
+		<title>By: /devel &#187; 2010 review</title>
+		<link>http://markos.gaivo.net/blog/?p=534&#038;cpage=1#comment-222148</link>
+		<dc:creator>/devel &#187; 2010 review</dc:creator>
+		<pubDate>Sat, 25 Dec 2010 10:46:55 +0000</pubDate>
+		<guid isPermaLink="false">http://markos.gaivo.net/blog/?p=534#comment-222148</guid>
+		<description>[...] this is not a travel post. A year ago I wrote my yearly review and it&#8217;s time to write a new one. Looking back at this year I feel disappointed. It [...]</description>
+		<content:encoded><![CDATA[<p>[...] this is not a travel post. A year ago I wrote my yearly review and it&#8217;s time to write a new one. Looking back at this year I feel disappointed. It [...]</p>
+]]></content:encoded>
+	</item>
+</channel>
+</rss>

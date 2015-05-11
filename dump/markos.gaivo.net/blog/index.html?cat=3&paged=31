@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>A notch above a monkey &raquo; Catchall</title>
+	<meta charset="utf-8" />
+	
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" /> 
+
+	<link rel="shortcut icon" href="/img/markos.ico" />
+	
+	<meta name="generator" content="WordPress 3.0.5" /> <!-- leave this for stats please -->
+
+	<link href="http://fast.fonts.com/cssapi/aee9b60b-8e94-47f8-b586-3ecbfab51d1c.css" rel="stylesheet" type="text/css" />
+	<link rel="stylesheet" type="text/css" href="css/home.css" media="screen" title="Light theme" />
+	<link rel="alternate stylesheet" type="text/css" href="css/home_dark.css" media="screen" title="Dark theme" />
+	<link rel="stylesheet" href="css/ipad.css" media="only screen and (min-device-width : 768px) and (max-device-width : 1024px)">
+	<link rel="stylesheet" type="text/css" href="css/smallscreen.css" media="only screen and (max-width: 700px)" />
+
+	<link rel="alternate" type="application/rss+xml" title="RSS 2.0" href="http://markos.gaivo.net/blog/?feed=rss2" />
+	<link rel="alternate" type="application/atom+xml" title="Atom 1.0" href="http://markos.gaivo.net/blog/?feed=atom" />
+	<link rel='canonical' href='http://markos.gaivo.net/blog/?p=664' />
+
+	<link rel="pingback" href="http://markos.gaivo.net/blog/xmlrpc.php" />
+
+	<link rel="alternate" type="application/rss+xml" title="A notch above a monkey &raquo; Catchall Category Feed" href="http://markos.gaivo.net/blog/?feed=rss2&amp;cat=3" />
+<link rel="EditURI" type="application/rsd+xml" title="RSD" href="http://markos.gaivo.net/blog/xmlrpc.php?rsd" />
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="http://markos.gaivo.net/blog/wp-includes/wlwmanifest.xml" /> 
+<link rel='index' title='A notch above a monkey' href='http://markos.gaivo.net/blog' />
+<meta name="generator" content="WordPress 3.0.5" />
+
+	<!--[if lt IE 9]>
+	<script src="/js/html5.js"></script>
+	<![endif]-->
+</head>
+<body>
+	<section class="envelope posts">
+		<header>
+			<h1><a href="http://markos.gaivo.net/blog/">A notch above a monkey</a></h1>
+		</header>
+		<nav class="colophon">
+			<h1>By Marko Samastur</h1>
+			<ul>
+				<li><a href="/">About me</a></li>
+				<li><a href="http://markos.gaivo.net/blog/?feed=atom">Subscribe</a></li>
+			</ul>
+		</nav>
+
+	
+		<article>
+			<h1 class="storytitle"><a href="http://markos.gaivo.net/blog/?p=16" rel="bookmark">Uhm, I don&#8217;t like the colors</a></h1>
+
+			<div class="post-text">
+				<p>We&#8217;ve been working with a talented group of designers, whose work I admired for a long time, on a design for our new service. Initial concept was exactly what we were looking for and the only changes that needed to be made, were consequences of our bad choices earlier on. In fact, everything was great except one thing.</p>
+<p>We didn&#8217;t like proposed color schemes.</p>
+<p>Every time I work with a designer, I&#8217;m afraid I&#8217;ll have to say that. It&#8217;s probably the most common complaint they hear and I really hate to join this particular crowd. Sure, they&#8217;ve always been graceful (at least the good designers), but I&#8217;m certain they wouldn&#8217;t mind spiking a voodoo doll of me, given a chance.</p>
+<p>That got me thinking, is there a specific, but very common complaint for every trade out there? I couldn&#8217;t recall one for programmers, but that doesn&#8217;t mean there isn&#8217;t one. I certainly would love to hear your experiences.</p>
+			</div>
+
+			<footer class="post-metadata">
+				<ul>
+					<li>Published on <time datetime="2005-09-03T14:10:45+00:00">September 3, 2005</time></li>
+					<li><a href="http://markos.gaivo.net/blog/?p=16#comments" title="Comment on Uhm, I don&#8217;t like the colors">Add your comment</a> </li>
+				</ul>
+			</footer>
+		</article>
+	
+		<article>
+			<h1 class="storytitle"><a href="http://markos.gaivo.net/blog/?p=14" rel="bookmark">Do a lesser evil</a></h1>
+
+			<div class="post-text">
+				<p>So, Google <a href="http://www.google.com/talk">has an IM</a> now. Nice that they are using Jabber, but it would be even nicer if their server talked to others too. Otherwise this is just another walled garden.</p>
+<p>True, there&#8217;s an offer to federate with others, but this makes as much sense as having connection agreements between email servers. If they want a really open IM, then they should let their server work as Jabber was designed. Everyone can play and set up their own server.</p>
+<p>On a different note, does anyone know of a good open source Jabber server that can actually handle 10k simultaneous connections and doesn&#8217;t go crazy every now and then?</p>
+<p><em>Update: According to <a href="http://www.eightypercent.net/Archive/2005/08/23.html#a249">Joe Beda</a> there are 3 reasons for staying close:</p>
+<ul>
+<li>Missing code needed for interoperability.</li>
+<li>They want to develop abuse/spam countermeasures.</li>
+<li>They want to ensure everybody really talks to everybody.</li>
+</ul>
+<p>I can certainly sympathize with first reason, if true (and I have no reason to doubt it). But it&#8217;s harder to agree with other two.</p>
+<p>You already have a contact authorization to limit such behavior. If this is not enough, the correct way would be to be as open as a lot of Jabber servers are and switch on protective measures after you&#8217;ve developed them together with Jabber community.</p>
+<p>It also shouldn&#8217;t be up to Google to dictate how open other providers should be. That decision should be left with administrators of Jabber servers and they shouldn&#8217;t be coerced into Google&#8217;s policy. Basically they should keep the same freedom email server administrators enjoy right now.<br />
+</em></p>
+			</div>
+
+			<footer class="post-metadata">
+				<ul>
+					<li>Published on <time datetime="2005-08-25T00:19:25+00:00">August 25, 2005</time></li>
+					<li><a href="http://markos.gaivo.net/blog/?p=14#comments" title="Comment on Do a lesser evil">Add your comment</a> </li>
+				</ul>
+			</footer>
+		</article>
+	
+		<article>
+			<h1 class="storytitle"><a href="http://markos.gaivo.net/blog/?p=9" rel="bookmark">When to release your product?</a></h1>
+
+			<div class="post-text">
+				<p>I&#8217;m usually quite fond of weekends. There&#8217;s never a good reason for it, since they&#8217;ve looked like normal working days for quite some months now. But the feeling of a time off still lingers and I&#8217;m usually happy when it&#8217;s Friday.</p>
+<p>I&#8217;m also quite happy that there are only few more hours of this hellish weekend, when nothing went right. Among other things, I got so exhausted  that I slept straight for almost 12 hours (personal record) and I got acquainted really well with spinning wheel on my Powerbook. Probable cause: dying disk at time when that&#8217;s least needed. One more thing made by Apple (beside iMac and iPod) that I need to take to service when I get around to it.</p>
+<p>So, not much work has been done in last few days and I won&#8217;t be able to finish even what I promised to do.  This never fails to annoy me.</p>
+<p>I have been thinking, while strolling around lake,  about when to reveal our very buzzword compliant service to the greater public. Is the right time when it&#8217;s finally useful, but still obviously inspired by other services found on web or is it better to wait half a year or so,  when it will gain the really interesting parts?</p>
+<p>I still think the right time is this autumn, even though this will lead to accusations of plagiarism. At this point they won&#8217;t be really unfounded even if I believe we are just borrowing ideas from others to build something interesting and different (hopefully somebody will someday return the compliment). </p>
+<p>However, it would be good  to see how others react to what we build and to fix things now  when this can be done more easily then if we wait longer. I also learned the importance of releasing things to keep developers motivated and at least somewhat happy. Nobody likes to be completely irrelevant.  At last, there&#8217;s also the ever present problem of money.</p>
+<p>If anybody actually gets around to reading this, I&#8217;d love to hear your thoughts on this subject. What do you prefer, big bang revelation or evolution of service?</p>
+			</div>
+
+			<footer class="post-metadata">
+				<ul>
+					<li>Published on <time datetime="2005-08-14T22:21:17+00:00">August 14, 2005</time></li>
+					<li><a href="http://markos.gaivo.net/blog/?p=9#comments" title="Comment on When to release your product?">Add your comment</a> </li>
+				</ul>
+			</footer>
+		</article>
+		
+		<nav class="pagination">
+			<ul>
+				<li><a href="http://markos.gaivo.net/blog/?cat=3&#038;paged=30" >&laquo; Newer articles</a></li>
+				<li><a href="http://markos.gaivo.net/blog/?cat=3&#038;paged=32" >Older articles &raquo;</a></li>
+			</ul>
+		</nav>
+	</section>
+
+
+	<footer>
+		<ul>
+			<li>&copy; 2005-2015 Marko Samastur</li>
+			
+			<li><a href="http://markos.gaivo.net/blog/?feed=rss2">Entries feed</a></li>
+			<li><a href="http://markos.gaivo.net/blog/?feed=comments-rss2">Comments feed</a></li>
+		</ul>
+		<a href="/"><img src="/img/markos_light_small_bg.png" alt="logo" class="mini-logo" /></a>
+	</footer>
+	<script src="/js/jquery.js"></script>
+	<script src="/js/all.js"></script>
+	<!--script src="/mint/?js" type="text/javascript"></script-->
+
+	<!-- Google analytics -->
+	<script type="text/javascript">
+
+	  var _gaq = _gaq || [];
+	  _gaq.push(['_setAccount', 'UA-152438-1']);
+	  _gaq.push(['_trackPageview']);
+	</script>
+	<script src="/js/cookie.js"></script>
+</body>
+</html>

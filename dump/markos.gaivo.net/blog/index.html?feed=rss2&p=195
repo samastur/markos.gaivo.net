@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+		>
+<channel>
+	<title>Comments on: AJAX talk at NEST</title>
+	<atom:link href="http://markos.gaivo.net/blog/?feed=rss2&#038;p=195" rel="self" type="application/rss+xml" />
+	<link>http://markos.gaivo.net/blog/?p=195</link>
+	<description></description>
+	<lastBuildDate>Wed, 16 Jul 2014 16:04:38 +0000</lastBuildDate>
+	<sy:updatePeriod>hourly</sy:updatePeriod>
+	<sy:updateFrequency>1</sy:updateFrequency>
+	<generator>http://wordpress.org/?v=3.0.5</generator>
+	<item>
+		<title>By: markos</title>
+		<link>http://markos.gaivo.net/blog/?p=195&#038;cpage=1#comment-4384</link>
+		<dc:creator>markos</dc:creator>
+		<pubDate>Thu, 20 Jul 2006 16:57:19 +0000</pubDate>
+		<guid isPermaLink="false">http://markos.gaivo.net/blog/?p=195#comment-4384</guid>
+		<description>It is, all the way to the coast. It&#039;s very &lt;a href=&quot;http://it.geocities.com/hrvatini/images/Zemljevid-Hrvatini.gif&quot; rel=&quot;nofollow&quot;&gt;close&lt;/a&gt; to the italian border.</description>
+		<content:encoded><![CDATA[<p>It is, all the way to the coast. It&#8217;s very <a href="http://it.geocities.com/hrvatini/images/Zemljevid-Hrvatini.gif">close</a> to the italian border.</p>
+]]></content:encoded>
+	</item>
+	<item>
+		<title>By: Brian King</title>
+		<link>http://markos.gaivo.net/blog/?p=195&#038;cpage=1#comment-4383</link>
+		<dc:creator>Brian King</dc:creator>
+		<pubDate>Thu, 20 Jul 2006 16:52:40 +0000</pubDate>
+		<guid isPermaLink="false">http://markos.gaivo.net/blog/?p=195#comment-4383</guid>
+		<description>Where is Osnovna šola Hrvatini? Looks like it is west of Ljubljana.</description>
+		<content:encoded><![CDATA[<p>Where is Osnovna šola Hrvatini? Looks like it is west of Ljubljana.</p>
+]]></content:encoded>
+	</item>
+</channel>
+</rss>

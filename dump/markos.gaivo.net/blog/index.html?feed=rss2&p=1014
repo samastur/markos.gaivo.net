@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+		>
+<channel>
+	<title>Comments on: Subtracting sets to get non-referenced rows in table.</title>
+	<atom:link href="http://markos.gaivo.net/blog/?feed=rss2&#038;p=1014" rel="self" type="application/rss+xml" />
+	<link>http://markos.gaivo.net/blog/?p=1014</link>
+	<description></description>
+	<lastBuildDate>Wed, 16 Jul 2014 16:04:38 +0000</lastBuildDate>
+	<sy:updatePeriod>hourly</sy:updatePeriod>
+	<sy:updateFrequency>1</sy:updateFrequency>
+	<generator>http://wordpress.org/?v=3.0.5</generator>
+	<item>
+		<title>By: Marco</title>
+		<link>http://markos.gaivo.net/blog/?p=1014&#038;cpage=1#comment-271219</link>
+		<dc:creator>Marco</dc:creator>
+		<pubDate>Thu, 08 Nov 2012 13:58:55 +0000</pubDate>
+		<guid isPermaLink="false">http://markos.gaivo.net/blog/?p=1014#comment-271219</guid>
+		<description>SELECT TBL2.ID 
+FROM TBL1 
+RIGHT JOIN TBL2 
+ON TBL1.tbl2_ID = TBL2.ID -- THIS IS FKey Between 2 tables
+WHERE TBL1.ID IS NULL
+
+Regards
+Marco</description>
+		<content:encoded><![CDATA[<p>SELECT TBL2.ID<br />
+FROM TBL1<br />
+RIGHT JOIN TBL2<br />
+ON TBL1.tbl2_ID = TBL2.ID &#8212; THIS IS FKey Between 2 tables<br />
+WHERE TBL1.ID IS NULL</p>
+<p>Regards<br />
+Marco</p>
+]]></content:encoded>
+	</item>
+	<item>
+		<title>By: markos</title>
+		<link>http://markos.gaivo.net/blog/?p=1014&#038;cpage=1#comment-267052</link>
+		<dc:creator>markos</dc:creator>
+		<pubDate>Tue, 02 Oct 2012 06:16:34 +0000</pubDate>
+		<guid isPermaLink="false">http://markos.gaivo.net/blog/?p=1014#comment-267052</guid>
+		<description>Thanks, I wasn&#039;t aware of it. I guess it doesn&#039;t matter in this particular case, but comm does provide a bit more flexibility.</description>
+		<content:encoded><![CDATA[<p>Thanks, I wasn&#8217;t aware of it. I guess it doesn&#8217;t matter in this particular case, but comm does provide a bit more flexibility.</p>
+]]></content:encoded>
+	</item>
+	<item>
+		<title>By: Jochen Spieker</title>
+		<link>http://markos.gaivo.net/blog/?p=1014&#038;cpage=1#comment-267047</link>
+		<dc:creator>Jochen Spieker</dc:creator>
+		<pubDate>Tue, 02 Oct 2012 05:45:21 +0000</pubDate>
+		<guid isPermaLink="false">http://markos.gaivo.net/blog/?p=1014#comment-267047</guid>
+		<description>comm(1) is one of the standard tools on Unix/Linux that too few people know about. :) But it assumes sorted files, so you probably wouldn&#039;t win a lot of time.</description>
+		<content:encoded><![CDATA[<p>comm(1) is one of the standard tools on Unix/Linux that too few people know about. <img src='http://markos.gaivo.net/blog/wp-includes/images/smilies/icon_smile.gif' alt=':)' class='wp-smiley' />  But it assumes sorted files, so you probably wouldn&#8217;t win a lot of time.</p>
+]]></content:encoded>
+	</item>
+</channel>
+</rss>

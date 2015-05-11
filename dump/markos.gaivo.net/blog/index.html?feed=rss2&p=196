@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+		>
+<channel>
+	<title>Comments on: Remembering parts of a page</title>
+	<atom:link href="http://markos.gaivo.net/blog/?feed=rss2&#038;p=196" rel="self" type="application/rss+xml" />
+	<link>http://markos.gaivo.net/blog/?p=196</link>
+	<description></description>
+	<lastBuildDate>Wed, 16 Jul 2014 16:04:38 +0000</lastBuildDate>
+	<sy:updatePeriod>hourly</sy:updatePeriod>
+	<sy:updateFrequency>1</sy:updateFrequency>
+	<generator>http://wordpress.org/?v=3.0.5</generator>
+	<item>
+		<title>By: fry</title>
+		<link>http://markos.gaivo.net/blog/?p=196&#038;cpage=1#comment-4660</link>
+		<dc:creator>fry</dc:creator>
+		<pubDate>Mon, 24 Jul 2006 07:47:40 +0000</pubDate>
+		<guid isPermaLink="false">http://markos.gaivo.net/blog/?p=196#comment-4660</guid>
+		<description>If you really wanted to complicate your life you could just store the whole node throught Flash - I think dojo uses this as storage. But I think that would be overdoing it...</description>
+		<content:encoded><![CDATA[<p>If you really wanted to complicate your life you could just store the whole node throught Flash &#8211; I think dojo uses this as storage. But I think that would be overdoing it&#8230;</p>
+]]></content:encoded>
+	</item>
+</channel>
+</rss>

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+		>
+<channel>
+	<title>Comments on: Favorite python blog</title>
+	<atom:link href="http://markos.gaivo.net/blog/?feed=rss2&#038;p=103" rel="self" type="application/rss+xml" />
+	<link>http://markos.gaivo.net/blog/?p=103</link>
+	<description></description>
+	<lastBuildDate>Wed, 16 Jul 2014 16:04:38 +0000</lastBuildDate>
+	<sy:updatePeriod>hourly</sy:updatePeriod>
+	<sy:updateFrequency>1</sy:updateFrequency>
+	<generator>http://wordpress.org/?v=3.0.5</generator>
+	<item>
+		<title>By: PyArticles</title>
+		<link>http://markos.gaivo.net/blog/?p=103&#038;cpage=1#comment-53477</link>
+		<dc:creator>PyArticles</dc:creator>
+		<pubDate>Thu, 17 May 2007 04:07:09 +0000</pubDate>
+		<guid isPermaLink="false">http://markos.gaivo.net/blog/?p=103#comment-53477</guid>
+		<description>This is my favourite &lt;a href=&quot;http://pyarticles.blogspot.com/&quot; rel=&quot;nofollow&quot;&gt;Python Articles&lt;/a&gt;</description>
+		<content:encoded><![CDATA[<p>This is my favourite <a href="http://pyarticles.blogspot.com/">Python Articles</a></p>
+]]></content:encoded>
+	</item>
+	<item>
+		<title>By: RaymonWazerri</title>
+		<link>http://markos.gaivo.net/blog/?p=103&#038;cpage=1#comment-45832</link>
+		<dc:creator>RaymonWazerri</dc:creator>
+		<pubDate>Fri, 20 Apr 2007 23:41:30 +0000</pubDate>
+		<guid isPermaLink="false">http://markos.gaivo.net/blog/?p=103#comment-45832</guid>
+		<description>Hey, 
+I love what you&#039;e doing! 
+Don&#039;t ever change and best of luck. 
+ 
+Raymon W.</description>
+		<content:encoded><![CDATA[<p>Hey,<br />
+I love what you&#8217;e doing!<br />
+Don&#8217;t ever change and best of luck. </p>
+<p>Raymon W.</p>
+]]></content:encoded>
+	</item>
+</channel>
+</rss>

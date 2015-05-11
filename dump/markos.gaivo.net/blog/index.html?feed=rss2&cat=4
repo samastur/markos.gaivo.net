@@ -1,0 +1,354 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>A notch above a monkey &#187; Web</title>
+	<atom:link href="http://markos.gaivo.net/blog/?feed=rss2&#038;cat=4" rel="self" type="application/rss+xml" />
+	<link>http://markos.gaivo.net/blog</link>
+	<description></description>
+	<lastBuildDate>Mon, 26 Jan 2015 07:00:03 +0000</lastBuildDate>
+	<language>en</language>
+	<sy:updatePeriod>hourly</sy:updatePeriod>
+	<sy:updateFrequency>1</sy:updateFrequency>
+	<generator>http://wordpress.org/?v=3.0.5</generator>
+		<item>
+		<title>Chirp, Squawk, Cackle, or Honk*</title>
+		<link>http://markos.gaivo.net/blog/?p=1203</link>
+		<comments>http://markos.gaivo.net/blog/?p=1203#comments</comments>
+		<pubDate>Thu, 10 Jul 2014 15:01:09 +0000</pubDate>
+		<dc:creator>markos</dc:creator>
+				<category><![CDATA[Web]]></category>
+		<category><![CDATA[critique]]></category>
+		<category><![CDATA[culture]]></category>
+		<category><![CDATA[media]]></category>
+		<category><![CDATA[society]]></category>
+		<category><![CDATA[toxic]]></category>
+		<category><![CDATA[Twitter]]></category>
+
+		<guid isPermaLink="false">http://markos.gaivo.net/blog/?p=1203</guid>
+		<description><![CDATA[Disappointed I stopped using Twitter at the end of 2011 and have since visited it mostly to follow up specific references. As a medium I found it lacking but ignorable until recently. While I was reading about the aptly named Jacobinghazi affair I felt the urge to tweet and pronounce Twitter as possibly more toxic [...]]]></description>
+			<content:encoded><![CDATA[<p>Disappointed I stopped using Twitter at the end of 2011 and have since visited it mostly to follow up specific references. As a medium I found it lacking but ignorable until recently. While I was reading about the aptly named <a href="http://imgur.com/a/nUX1A">Jacobinghazi affair</a> I felt the urge to tweet and pronounce Twitter as possibly <a href="https://twitter.com/samastur/status/476707986006880256">more toxic than Facebook</a>.</p>
+<p>This article has been provoked by <a href="http://www.tablix.org/~avian/blog/">Tomaž&#8217;s</a> polite disagreement and is my late attempt to explain what I couldn’t on Twitter.</p>
+<h2>My objections</h2>
+<p>Leon Wieseltier recently described Twitter as <a href="http://www.newrepublic.com/article/118125/leon-wieseltier-responds-alain-de-bottons-attack-twitter">a place of infinite discharge of emotion and promotion</a> where nothing intellectually or linguistically substantial can be accomplished. It is a great and true enough description of Twitter.</p>
+<p>Over the years a number of articles have discussed effects of new media on society in its largest sense. While I am interested in those my comment was mainly about Twitter’s role in shaping how individuals and communities think, communicate and behave.</p>
+<p>In blogging heyday I thoroughly disliked celebration of rapid exchange of half-baked ideas. Making them smaller and exchange more rapid is not an improvement. Ideas have always been cheap and plentiful when untested and inspiring to the unwitting. Twitter is vast and there may be much worth reading, but chances are most of what you will read will be soon forgotten fluff. Creating on a medium like Twitter is hard since most things worth saying can’t be clearly expressed in 140 characters, nuance is valued even less than continuity and every good tweet can be buried in a pile of inane responses.</p>
+<p>One of the reasons why I originally stopped using Twitter was realisation that I found tweets from a fair number of otherwise congenial and intelligent people regularly off-putting. Twitter did not suddenly found their previously hidden depravity, instead its forced brevity of semi-public discourse made a great deal of it sound like movie informants wearing a wire. It is a great demonstration of how dialogue changes when we think others are listening and an insidious tool for normalising blanket snooping, much of it our own.</p>
+<p>Research has shown that our brains keep adapting to their use and improving one skill often leads to deterioration of another or as McLuhan put it: “Every extension is also an amputation.” I lost count of people describing their difficulty with reading longer, more slowly developing articles after an expectation of instant gratification has been built by a steady diet of short ones. It doesn’t get more instant than a tweet and Twitter’s interface is optimised for non-discriminative reading of a never ending stream of tweets.<sup><a id="twitter-toxic-1" href="#twitter-toxic-1-note">[1]</a></sup> Can this really be good for a thinking person?</p>
+<p>My tweet which led to this piece was provoked by an absolutely absurd argument closely matching Alan Jacob’s description of <a href="http://text-patterns.thenewatlantis.com/2013/12/twitter-at-its-worst.html">Twitter at its worst</a>. Maybe worst, but certainly not rare. Of course arguments with all the negative baggage are not exclusive to Twitter, but Twitter does seem a more emotive medium than most of them. Discussions on Twitter are commonly a sad sight because it isn’t built for dialog. It is a marketing machine and works best when used as such.<sup><a id="twitter-toxic-2" href="#twitter-toxic-2-note">[2]</a></sup> Unsurprisingly millions of its users conform to its design hints by sharing content or less obviously with signalling group membership by snarking and sloganeering at sometimes only imagined opposition.</p>
+<p>Ian Danskin’s <a href="https://www.youtube.com/watch?v=PmTUW-owa2w">“This is Phil Fish”</a> video essay<sup><a id="twitter-toxic-3" href="#twitter-toxic-3-note">[3]</a></sup> about the nature of online fame recently made rounds and I can’t recommend it enough. Fame can appear without being sought and the longer it lasts, the more likely it is that the famous will become a stand-in for a concept to which public often responds negatively. This is especially unpleasant and difficult to deal with when the negative concept is tied not to what you did, but who you are or are perceived to be.</p>
+<p>On Twitter (as previously noted) tweets may be written with a recipient in mind, but can be seen by anyone so all of them contribute to our public image without it being in our control.<sup><a id="twitter-toxic-4" href="#twitter-toxic-4-note">[4]</a></sup> Controlling tweets comprehension and propagation by relying on cultural norms to differentiate audiences does not work because those norms may not be well known and are certainly not accepted by everyone.</p>
+<p>We speak when we want to pass on an idea. Amplifying ideas of others can be worthy, but we are more enriched when new ideas are created and explored. The really interesting ones can be controversial, rough and in need of a nurturing environment in which to develop. Twitter is not that place.</p>
+<p>Mobbing and repression of unpopular opinion happens almost everywhere where opinions can be expressed, but the immediacy, ease of response and pay-off make Twitter particularly popular with trolls, sociopaths and anybody willing to goad their followers into collective sectarian hysteria. There will always be enough of them willing to tweet before thinking to pummel into silence everyone but the most determined. Only ideas at first protected by obscurity can develop and flourish in environment without boundaries.</p>
+<h2>Three pillars of Twitter design</h2>
+<p>Twitter earns money by showing ads. There’s another reason to be careful with any ad-based business beyond worrying about their usually insatiable hunger for our privacy. Its value is proportional to the amount of our time it captures.<sup><a id="twitter-toxic-5" href="#twitter-toxic-5-note">[5]</a></sup> Seeing ads on a site you frequent should trigger an examination of how much time you are willing to spend there.</p>
+<p>I disliked Twitter’s design until I realised that its main purposes are spreading messages and increasing its use. It does those two things splendidly and kudos to Twitter’s designers.</p>
+<p>I am obviously not privy to any internal information, but to me the foundation of Twitter’s design are three main values: terseness, immediacy and broadcasting.</p>
+<p>Terseness is of course the well known restriction of 140 characters per tweet because of a technical limitation which does not really exist any more. Its effect on writing however remains because writing thoughts longer than 140 characters is awkward and will in newest-tweets-first Twitter applications always result in a broken reading experience. It is ill-suited for human dialogue because we don’t express ourselves at tweet lengths and we don’t hear responses first. Life is not <a href="http://en.wikipedia.org/wiki/Jeopardy!">Jeopardy!</a> and it is not a coincidence that most messaging applications put newest messages at the bottom.</p>
+<p>So why doesn’t Twitter raise the limit? I can only speculate, but I believe there are other benefits to Twitter beyond the limit’s role in Twitter’s brand. Longer text simply requires more effort from writer and readers and makes the platform less engaging thus hurting both of the stated Twitter’s goals.</p>
+<p>Twitter does not use time much as a design tool beyond a core belief that real time is the right time to deliver a message and that delivered messages should be displayed in the opposite order they were sent which at some point will practically guarantee broken narratives and constant change of topic.</p>
+<p>Most of us can’t effectively multitask because we can’t quickly switch contexts. We cognitively suffer when we try and reading tweets from unconnected authors in order in which they came is really just multitasking at high speed. There is no reason to believe that we listen as well and care as much as we would if our focus would not be constantly drawn to the next thing. Ability to listen fully and steadily is a difficult skill to develop, but quick to atrophy on Twitter.</p>
+<p>Twitter may tolerate a moderate use of its platform, but certainly does not want it. It will keep suggesting new people to follow no matter how many you already do to keep the stream of tweets from ever drying up. Without them you don’t have a reason to constantly check your phone for new tweets and fewer reasons to post your own.</p>
+<p>The other face of broadcasting is building up your audience which is how you’ll eventually see your followers once you get enough of them to not know many. And ever so helpful Twitter is here to get you to this point as quickly as possible.</p>
+<p>First it provides a crude privacy model in which either everything is private or nothing is (ignoring direct messages that are irrelevant for this article). This not so gentle nudge to make output public is further supported by ubiquitous leader boards tracking followers, retweets and favourites, constantly reminding us of everyone’s standing and relying on our vanity to improve it. None of these would need to be so prominent if what really mattered was sharing and chatting with your friends. Putting a scorecard on our every utterance makes sense only if its most important feature is their popularity.</p>
+<p>Hoarding followers and followees has another negative effect beside making already described ones worse. For historical reasons and because of web app limitations twitterers often use just one account, so subscribing to it conflates all author&#8217;s interests into one stream and while not merging different communities, it certainly exposes them more without them having much say in it. This, together with stilted expression, reduced comprehension and empathy, on a platform that promotes making an instant idiot of yourself in pursuit of recognition is, in my opinion, an important contributing factor to many heated arguments.</p>
+<h2>In closing</h2>
+<p>This is not an exhaustive list of issues I have with Twitter, not even important ones (e.g. obtuseness of relying on any one source for important information). Much of what I said is not unique to this service but a lot of it feels more excessive here. What makes it different is the platform&#8217;s growing presence and influence in our society by its successful co-opting of promoters in us. Doubtless there is a lot of good that happens on Twitter or because of it, but the platform is also bringing out the worst in us and I find its damaging effects more substantial.</p>
+<p>Writing this article reminded me of a larger point I have not made before or not often enough. Technology is not morally neutral or unipolar let alone inherently positive and it frustrates me that discussions often try to cast it thus. As a practising technologist I am obviously not a Luddite, but neither do I assume that everything I am able to make is good even when made with best intentions. Our creations shape what we do, how we do it and even who we are and should therefore be critically examined for what they do for and to us.</p>
+<p>As tools transform us and our societies I find pining for previous times unproductive, but I do not subscribe to technological determinism. We used freons for decades, but were perfectly capable of finding suitable replacements when we realised that our fridges would eventually fry us. But we did have to first realise and accept that.</p>
+<p>* The title of this post was borrowed from the already linked article written by Leon Wieseltier.</p>
+<ol>
+<li id="twitter-toxic-1-note">I know there are other clients. Well, mostly were. Twitter has been very open with their intention of eventually replacing all of them with theirs which already is the only one that matters.<a href="#twitter-toxic-1">↩</a></li>
+<li id="twitter-toxic-2-note">Another thing Twitter is not trying to hide. <a href="https://analytics.twitter.com/about">Twitter analytics</a> could hardly sound more marketing oriented and Twitter’s homepage is all about following, not creating.<a href="#twitter-toxic-2">↩</a></li>
+<li id="twitter-toxic-3-note">There’s <a href="http://innuendostudios.tumblr.com/post/89201006992/this-is-phil-fish-transcript">a transcript</a> and while I usually prefer written word, in this case I would recommend to invest 20 minutes into watching the original video.<a href="#twitter-toxic-3">↩</a></li>
+<li id="twitter-toxic-4-note">Since we can’t control which tweets will be seen by whom and which won’t, it is impossible in the long term to really shape their overall perception unless they are sufficiently dehumanised or we consistently act out only one persona.<a href="#twitter-toxic-4">↩</a></li>
+<li id="twitter-toxic-5-note">Corollary of this is that it makes no sense to rely on a purportedly time-saving services whose revenue mostly comes from advertising.<a href="#twitter-toxic-5">↩</a></li>
+</ol>
+]]></content:encoded>
+			<wfw:commentRss>http://markos.gaivo.net/blog/?feed=rss2&#038;p=1203</wfw:commentRss>
+		<slash:comments>2</slash:comments>
+		</item>
+		<item>
+		<title>Laughable Javascript security</title>
+		<link>http://markos.gaivo.net/blog/?p=1119</link>
+		<comments>http://markos.gaivo.net/blog/?p=1119#comments</comments>
+		<pubDate>Thu, 11 Jul 2013 20:57:01 +0000</pubDate>
+		<dc:creator>markos</dc:creator>
+				<category><![CDATA[Django]]></category>
+		<category><![CDATA[Javascript]]></category>
+		<category><![CDATA[Web]]></category>
+		<category><![CDATA[cloaking]]></category>
+		<category><![CDATA[Security]]></category>
+
+		<guid isPermaLink="false">http://markos.gaivo.net/blog/?p=1119</guid>
+		<description><![CDATA[Building a secure web application is not easy, unless you also use 3rd party code such as Facebook&#8217;s Like widget in which case it is impossible. What you have is just an illusion of security, a door to abuse that you can&#8217;t even check if it is currently closed. Or that&#8217;s what I thought for [...]]]></description>
+			<content:encoded><![CDATA[<p>Building a secure web application is not easy, unless you also use 3rd party code such as Facebook&#8217;s Like widget in which case it is impossible. What you have is just an illusion of security, a door to abuse that you can&#8217;t even check if it is currently closed.</p>
+<p>Or that&#8217;s what I thought for years. A once substantiated belief that grew into an almost dogmatic certainty until I recently got a chance to revisit it when trying to design a secure Javascript-based web application living inside of a likely untrusted environment.</p>
+<p>There are obvious things you can do to protect your application such as delivery over secure connections and use of anonymous functions to sandbox your code from outside interference. However you will probably need to interact with external code at some point in which case is that <em>XMLHTTPRequest</em> object you are using really the built-in one or has it been replaced (cloaked) with an impostor object to perform <a href="https://en.wikipedia.org/wiki/Man-in-the-middle_attack">the man-in-the-middle attack</a>?</p>
+<p>I don&#8217;t know of a way to check if an object is untouched. What is sometimes used instead is a <em>.toString</em> method which on functions and methods returns their source unless they are native to browser in which case it returns a string saying so.</p>
+<p>Since you can replace any attribute and method on any object some <a href="http://stackoverflow.com/questions/6598945/detect-if-function-is-native-to-browser#comment8044242_6599105">go even further</a> in search of a certainty and use <em>.toString</em> from the <em>Function</em> object.</p>
+<p>At first thought that looked clever until I came up with:</p>
+<ol class="code">
+<li><code>&#60;!DOCTYPE HTML&#62;</code></li>
+<li><code>&#60;html lang=&#34;en&#34;&#62;</code></li>
+<li><code>&#60;head&#62;</code></li>
+<li class="tab1"><code>&#60;meta charset=&#34;UTF-8&#34;&#62;</code></li>
+<li class="tab1"><code>&#60;title&#62;Break check if function is native&#60;/title&#62;</code></li>
+<li><code>&#60;/head&#62;</code></li>
+<li><code>&#60;body&#62;</code></li>
+<li class="tab1"><code>&#60;script&#62;</code></li>
+<li><code>(function () {</code></li>
+<li class="tab1"><code>var toS = Function.prototype.toString,</code></li>
+<li class="tab2"><code>pM_str = window.postMessage.toString();</code></li>
+<li>&#160;</li>
+<li class="tab1"><code>Function.prototype.toString = function () {</code></li>
+<li class="tab2"><code>return this === window.postMessage ? pM_str : toS.call(this);</code></li>
+<li class="tab1"><code>}</code></li>
+<li class="tab1"><code>window.postMessage = function () { console.log('Fake'); };</code></li>
+<li><code>})();</code></li>
+<li class="tab1"><code>&#60;/script&#62;</code></li>
+<li><code>&#60;/body&#62;</code></li>
+<li><code>&#60;/html&#62;</code></li>
+<li>&#160;</li>
+<li class="download">Download this code: <a href="http://markos.gaivo.net/blog/code/nativecheck.txt" title="Download the above code as a text file">/code/nativecheck.txt</a></li>
+</ol>
+<p>The code above replaces <em>Function&#8217;s .toString</em> method with a one that lies when executed on an also cloaked <em>window.postMessage</em>. Instead of displaying source of the new <em>postMessage</em> it prints whatever browser would print for the original one.</p>
+<p>It simultaneously demonstrates how you can cloak native Javascript objects and hide that you are doing it. If you put malicious code into an anonymous function and remove <em>&lt;script&gt;</em> node that added it after it gets executed, then there is no way for scripts loading later to know that it happened. There will be no traces of crime.</p>
+<p>It might be difficult to cloak literals like {} and [], but you certainly can their methods so even if your code is wrapped in an anonymous function, it isn&#8217;t really secured from outside peeking and poking. Hence you even <strong>can&#8217;t trust your own code</strong>.</p>
+<p>Turns out that this particular dogma is also true. Depressing.</p>
+]]></content:encoded>
+			<wfw:commentRss>http://markos.gaivo.net/blog/?feed=rss2&#038;p=1119</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+		<item>
+		<title>Prism</title>
+		<link>http://markos.gaivo.net/blog/?p=1103</link>
+		<comments>http://markos.gaivo.net/blog/?p=1103#comments</comments>
+		<pubDate>Sun, 09 Jun 2013 22:11:38 +0000</pubDate>
+		<dc:creator>markos</dc:creator>
+				<category><![CDATA[Catchall]]></category>
+		<category><![CDATA[Web]]></category>
+		<category><![CDATA[freedom]]></category>
+		<category><![CDATA[fucknsa]]></category>
+		<category><![CDATA[internet]]></category>
+		<category><![CDATA[prism]]></category>
+		<category><![CDATA[Privacy]]></category>
+		<category><![CDATA[Security]]></category>
+
+		<guid isPermaLink="false">http://markos.gaivo.net/blog/?p=1103</guid>
+		<description><![CDATA[Only brains twisted in a pretzel can be completely fine with sweeping lightly-overseen secret surveillance of society, but feel personal freedoms are tyrannically trampled when soda cups are limited to sizes smaller than a bucket or when city bikes are introduced. Whoever thinks losing privacy is fine because he has nothing to hide, is either [...]]]></description>
+			<content:encoded><![CDATA[<p>Only brains twisted in a pretzel can be completely fine with sweeping lightly-overseen secret surveillance of society, but feel personal freedoms are tyrannically trampled when soda cups are limited to sizes smaller than a bucket or when city bikes are introduced.</p>
+<p>Whoever thinks losing privacy is fine because he has nothing to hide, is either seriously lacking imagination, an idiot or both.</p>
+]]></content:encoded>
+			<wfw:commentRss>http://markos.gaivo.net/blog/?feed=rss2&#038;p=1103</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+		<item>
+		<title>Shrinking images with image-diet</title>
+		<link>http://markos.gaivo.net/blog/?p=1087</link>
+		<comments>http://markos.gaivo.net/blog/?p=1087#comments</comments>
+		<pubDate>Sun, 20 Jan 2013 22:53:16 +0000</pubDate>
+		<dc:creator>markos</dc:creator>
+				<category><![CDATA[Django]]></category>
+		<category><![CDATA[Python]]></category>
+		<category><![CDATA[Web]]></category>
+		<category><![CDATA[images]]></category>
+		<category><![CDATA[low-bandwidth]]></category>
+		<category><![CDATA[page size]]></category>
+		<category><![CDATA[shrink]]></category>
+		<category><![CDATA[speed]]></category>
+
+		<guid isPermaLink="false">http://markos.gaivo.net/blog/?p=1087</guid>
+		<description><![CDATA[I like easy-thumbnails and use it often in my Django projects, but I wished for a long time that its PIL generated thumbnails would be smaller. That&#8217;s why I wrote image-diet, a drop-in extension for those easy-thumbnails users who use file system for storing images. Images remain visually the same, but can be significantly smaller [...]]]></description>
+			<content:encoded><![CDATA[<p>I like <a href="https://github.com/SmileyChris/easy-thumbnails">easy-thumbnails</a> and use it often in my Django projects, but I wished for a long time that its <a href="http://www.pythonware.com/products/pil/">PIL</a> generated thumbnails would be smaller. That&#8217;s why I wrote <a href="https://github.com/samastur/image-diet">image-diet</a>, a drop-in extension for those easy-thumbnails users who use file system for storing images. Images remain visually the same, but can be significantly smaller (mine by more than 50% but your mileage my vary).</p>
+<p>This matters because images are together with Javascript main cause for ever larger page sizes which leads to slower websites, especially in low-bandwidth environments. But really, don&#8217;t we all want our websites to be as fast as possible?</p>
+<p><a href="https://github.com/samastur/image-diet">image-diet</a> was inspired by <a href="http://imageoptim.com/">ImageOptim</a> and <a href="https://github.com/Kilian/Trimage">Trimage</a> and I&#8217;m grateful to authors of both. It uses jpegtran, Jpegoptim, Gifsicle, OptiPNG, AdvanceCOM PNG and Pngcrush to do the heavy work of squeezing redundant bytes. Getting them should be easy as they are part of Ubuntu distribution and can be installed on Mac with brew. For more information please check documentation or ask.</p>
+<p>I would love to hear any comments and ideas you may have, even more so if you try it.</p>
+]]></content:encoded>
+			<wfw:commentRss>http://markos.gaivo.net/blog/?feed=rss2&#038;p=1087</wfw:commentRss>
+		<slash:comments>2</slash:comments>
+		</item>
+		<item>
+		<title>Ownership</title>
+		<link>http://markos.gaivo.net/blog/?p=1048</link>
+		<comments>http://markos.gaivo.net/blog/?p=1048#comments</comments>
+		<pubDate>Wed, 26 Dec 2012 13:40:24 +0000</pubDate>
+		<dc:creator>markos</dc:creator>
+				<category><![CDATA[Catchall]]></category>
+		<category><![CDATA[Web]]></category>
+		<category><![CDATA[gadgets]]></category>
+		<category><![CDATA[hardware]]></category>
+		<category><![CDATA[ownership]]></category>
+		<category><![CDATA[Privacy]]></category>
+		<category><![CDATA[rights]]></category>
+
+		<guid isPermaLink="false">http://markos.gaivo.net/blog/?p=1048</guid>
+		<description><![CDATA[As a person with a somewhat unusual fondness for measuring and modelling my own behavior I should be a happy buyer of gadgets for collecting data about myself and my environment. Yet so far I bought none, because they don&#8217;t seem to work well without (occasional) data sync with producer&#8217;s servers. I really shouldn&#8217;t have [...]]]></description>
+			<content:encoded><![CDATA[<p>As a person with a somewhat unusual fondness for measuring and modelling my own behavior I should be a happy buyer of <a title="Jawbone's UP" href="https://jawbone.com/up">gadgets</a> for <a title="Fitbit" href="http://www.fitbit.com/one">collecting data</a> about myself and my environment. Yet so far I bought none, because they don&#8217;t seem to work <em>well</em> without (occasional) data sync with producer&#8217;s servers.</p>
+<p>I really shouldn&#8217;t have to explain privacy standpoint of this. Describing my life and immediate environment in detail to a bunch of people I have never met, some of whom don&#8217;t even work for the company yet and trusting all of them that they will not compromise it for as long as they will keep it is to me self-evidently moronic.</p>
+<p>But I also avoid such hardware even when data in question might not be particularly sensitive. If I am paying for something to be manufactured, then I expect to own it. If a gadget depends on an external service to be useful, then I am really only leasing it. Services disappear for many reasons and it doesn&#8217;t make much sense to rely on their availability unless you can host them yourself. I loath ads, but paying for a service is not a guarantee for its continuing presence either.</p>
+<p>I am not against functionality that reasonably requires at least occasional connection to grid. Most social features probably do. Products like phones don&#8217;t even make sense without network. Web interfaces certainly do make these devices cheaper and more quickly evolving. So there are certainly good reasons beyond roping you in to make them partially off-loaded on web.</p>
+<p>However I don&#8217;t want to use those features and I certainly don&#8217;t want to give up data I care about for features I don&#8217;t. What I expect from devices I buy is my control of data and purchased functionality without others meddling or peeking over my shoulders.</p>
+]]></content:encoded>
+			<wfw:commentRss>http://markos.gaivo.net/blog/?feed=rss2&#038;p=1048</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+		<item>
+		<title>Save bandwidth switch</title>
+		<link>http://markos.gaivo.net/blog/?p=936</link>
+		<comments>http://markos.gaivo.net/blog/?p=936#comments</comments>
+		<pubDate>Thu, 15 Mar 2012 07:52:06 +0000</pubDate>
+		<dc:creator>markos</dc:creator>
+				<category><![CDATA[General development]]></category>
+		<category><![CDATA[Web]]></category>
+
+		<guid isPermaLink="false">http://markos.gaivo.net/blog/?p=936</guid>
+		<description><![CDATA[Michal Migurski recently posted an article about download sizes of popular websites. I couldn&#8217;t replicate his results[1], but it is obvious that gist of Michal&#8217;s article is correct, websites have indeed ballooned significantly in last few years. This blog&#8217;s homepage has a footprint of around 250KB-270KB[2]. About 90% of its size are fonts and jQuery [...]]]></description>
+			<content:encoded><![CDATA[<p>Michal Migurski recently posted <a href="http://mike.teczno.com/notes/bandwidth.html">an article</a> about download sizes of popular websites. I couldn&#8217;t replicate his results<sup><a id="save-bandwidth-1" href="#save-bandwidth-note-1">[1]</a></sup>, but it is obvious that gist of Michal&#8217;s article is correct, websites have indeed ballooned significantly in last few years.</p>
+<p>This blog&#8217;s homepage has a footprint of around 250KB-270KB<sup><a id="save-bandwidth-2" href="#save-bandwidth-note-2">[2]</a></sup>. About 90% of its size are fonts and <a href="http://jquery.com/">jQuery</a> which is a big penalty for making it look and behave a bit nicer. So should I remove those parts?</p>
+<p>Well, for most visitors to this website that difference doesn&#8217;t matter. Pages for them are neither slow nor expensive to load. Unless of course they are doing it over your average hotel Wi-Fi or a slow mobile network where speed around 56Kb/s is not unheard of. On such connection it would take about half a minute to load this blog. It can also cost more than 10 euro cents to load it when roaming in Europe.</p>
+<p>It would be great if I could offer a choice of serving bigger and nicer or smaller and faster version depending on visitors needs.</p>
+<p>Measuring speed is not easy, but certainly doable as Gmail has demonstrated. You could start a timer immediately in page header, measure how much time it takes to load a smaller version of a website and if that happened quickly enough upgrade it to full bling. Android browser also added support for <a href="http://dvcs.w3.org/hg/dap/raw-file/tip/network-api/index.html">navigator.connection</a> Javascript property which, where it exists, probably has more details than you would need.</p>
+<p>However there is no way to measure price of a visit. Even if I could, how would I decide what is too expensive for an anonymous reader and should I make such decisions at all? I think not.</p>
+<p>Gmail&#8217;s approach is really just a band-aid over what should be a visitor&#8217;s decision. I use same laptop and browser at home and while I travel, experiencing all combinations of connection speed and pricing. I never know how much it will cost me to visit a page, but I always learn quickly if I would prefer something small or full-featured. There is just no way I can communicate that preference.</p>
+<p>It would be great if my browser had a switch for this purpose, like Firefox&#8217;s &#8220;Work Offline&#8221; toggle. So if I switched to bandwidth saving mode, then every subsequent request to web server would communicate my preference with a HTTP header field like:</p>
+<blockquote><p>X-Bandwidth: save</p></blockquote>
+<p>In principle you could have multiple levels of bandwidth consumption, but that would likely be an overkill. Common practice suggests that at most two levels would really get used, one aimed at mobile devices and other at desktop.</p>
+<p>Header like that might be enough, but even better would be if Javascript environment got another property describing current state of user&#8217;s preference (like say <em>navigator.bandwidth</em>). Coupled with a bandwidth event triggered on change you could really optimize every modern web page, even those with more complicated loading of resources and execution paths.</p>
+<p>Right now such functionality doesn&#8217;t exist or at least I couldn&#8217;t find it (I even searched Mozilla&#8217;s bug database for any future plans). I think my proposal is both user and developer friendly and workable. If you can think of a reason why it would be problematic, then I would really like to hear it.</p>
+<ol>
+<li id="save-bandwidth-note-1">Pages are often personalized for visitor. Developer tools of different browsers also don&#8217;t report same sizes. They also report amount of data transferred not the size of that data once unpacked. Almost 2M of Twitter&#8217;s Javascript is thus reduced into page of &#8220;only&#8221; about 1MB of data transferred. And that to display couple of sentences.<a href="#save-bandwidth-1">↩</a></li>
+<li id="save-bandwidth-note-2">Depends on browser used. Variation in sizes is probably due different formats of fonts used by browsers. It also changed once I published this post.<a href="#save-bandwidth-2">↩</a></li>
+</ol>
+]]></content:encoded>
+			<wfw:commentRss>http://markos.gaivo.net/blog/?feed=rss2&#038;p=936</wfw:commentRss>
+		<slash:comments>1</slash:comments>
+		</item>
+		<item>
+		<title>-beta- prefix algorithm for CSS</title>
+		<link>http://markos.gaivo.net/blog/?p=929</link>
+		<comments>http://markos.gaivo.net/blog/?p=929#comments</comments>
+		<pubDate>Fri, 10 Feb 2012 17:21:08 +0000</pubDate>
+		<dc:creator>markos</dc:creator>
+				<category><![CDATA[General development]]></category>
+		<category><![CDATA[Web]]></category>
+		<category><![CDATA[agony]]></category>
+		<category><![CDATA[css]]></category>
+		<category><![CDATA[mobile]]></category>
+		<category><![CDATA[prefix]]></category>
+		<category><![CDATA[webkit]]></category>
+
+		<guid isPermaLink="false">http://markos.gaivo.net/blog/?p=929</guid>
+		<description><![CDATA[These have been eventful couple of days for web developers. CSS Working Group chair called on everyone to use all (most?) vendor prefixes and stop making websites for WebKit which is becoming a new (mobile) IE6. Responses have been numerous, including ppk who in his usual obnoxious manner [1] made some good points. Testing on [...]]]></description>
+			<content:encoded><![CDATA[<p>These have been eventful couple of days for web developers. CSS Working Group chair <a href="http://www.glazman.org/weblog/dotclear/index.php?post/2012/02/09/CALL-FOR-ACTION%3A-THE-OPEN-WEB-NEEDS-YOU-NOW">called on everyone </a>to use all (most?) vendor prefixes and stop making websites for WebKit which is becoming a new (mobile) IE6. Responses have been numerous, <a title="PPK's first article about prefixes" href="http://www.quirksmode.org/blog/archives/2012/02/the_vendor_pref.html">including</a> <a title="PPK's follow up to first article" href="http://www.quirksmode.org/blog/archives/2012/02/alpha_and_beta.html">ppk</a> who in his usual obnoxious manner <sup><a id="beta-prefix-1" href="#beta-prefix-note-1">[1]</a></sup> made some good points. Testing on mobile devices is an unsolved problem (who wants or can afford to buy so many almost immediately obsolete gadgets?) and introducing -beta- (maybe also -alpha-) prefix would simplify our lives while keeping most benefits of vendor prefixes.</p>
+<p>I like -beta- idea and I think adding -alpha- might be even better. There&#8217;s still a problem of resolving syntax conflicts between different implementation which I think has a simple solution that closely mimics what browsers already do:</p>
+<p><em>When parsing CSS browsers </em><em>should apply the last matching -beta-/-alpha- directive they fully understand.</em></p>
+<p>Browsers already ignore directives they don&#8217;t understand and they apply last directive found when there are multiple candidates for a DOM node.</p>
+<p>Such behavior would give us less CSS code to write and maintain, have predictable behavior and keep browser experimentation without favoring one. I have troubles finding negative sides of this approach, but do let me know if you can think of one.</p>
+<ol>
+<li id="beta-prefix-note-1">I deeply dislike his complaining about simplistic view of others while himself generalizing and name-calling (the lazy and stupid lot of us). Alas it&#8217;s not good to read only people you like and agree with.<a href="#beta-prefix-1">↩</a></li>
+<li>Almost everything I write on this blog has an intended  audience of one:  me (no, really!). Why I sometimes write posts like  this, which don&#8217;t, is a mistery  since their expected and actual effect on anyone  is&#8230;none.</li>
+</ol>
+]]></content:encoded>
+			<wfw:commentRss>http://markos.gaivo.net/blog/?feed=rss2&#038;p=929</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+		<item>
+		<title>On Tumblr</title>
+		<link>http://markos.gaivo.net/blog/?p=918</link>
+		<comments>http://markos.gaivo.net/blog/?p=918#comments</comments>
+		<pubDate>Fri, 10 Feb 2012 12:02:41 +0000</pubDate>
+		<dc:creator>markos</dc:creator>
+				<category><![CDATA[Catchall]]></category>
+		<category><![CDATA[Web]]></category>
+		<category><![CDATA[design]]></category>
+		<category><![CDATA[emotions]]></category>
+		<category><![CDATA[tumblr]]></category>
+		<category><![CDATA[WordPress]]></category>
+
+		<guid isPermaLink="false">http://markos.gaivo.net/blog/?p=918</guid>
+		<description><![CDATA[Warning: this whole post is not much else than a series of speculations and amateur psychoanalysis. If you can’t find fun in that, well, then start reading something else. I started using IRC almost two decades ago, soon after I came on Internet. I still do, but it’s now a very different experience mainly because [...]]]></description>
+			<content:encoded><![CDATA[<p><strong>Warning: </strong>this whole post is not much else than a series of speculations and amateur psychoanalysis. If you can’t find fun in that, well, then start reading something else.</p>
+<p>I started using <a title="Description of IRC" href="http://en.wikipedia.org/wiki/Internet_Relay_Chat">IRC</a> almost two decades ago, soon after I came on Internet. I still do, but it’s now a very different experience mainly because today almost everyone is connected. When everyone is around, you tend to hang out largely with people you already know. Back then I chatted with faceless handles and what I found especially interesting were strong feelings and a sense of familiarity that developed between people who would never meet.</p>
+<p>I thought of this recently again while discussing appeal of <a href="https://www.tumblr.com/">Tumblr</a> and a <a title="Definition of neologism" href="http://www.merriam-webster.com/dictionary/neologism">neologism</a> that I like — tumblrcrush. It wasn’t explained, but I understand it as having a crush like feeling provoked by a Tumblr blog.</p>
+<p>I never heard of something like that related to <a href="http://wordpress.org/">WordPress</a> although I am sure it happens. But I feel safe in hypothesizing that such visceral affection for a blog and by proxy for its creator happens more often on Tumblr.</p>
+<p>Now, this is surprising on surface because so many Tumblr blogs look like nothing more than collages of other people’s stuff whereas old school blogs often have more what is disgustingly called original content and are more verbose — just like this one. It wouldn’t be unreasonable to expect that writing at length about things that interest me would reveal more about who I am then things I collect. After all I am more likely to divulge facts about me through my own writing than through other people’s work.</p>
+<p>However when I write, it’s not really me who does it. Writing, even when trying to avoid self-censorship (unsuccessfully), engages a different part of a brain than responding to an image or a passage of text. I write so I can think, but even when not, I don’t just type a <a title="Ulysses - an example of such work" href="http://en.wikipedia.org/wiki/Ulysses_%28novel%29">Joyce-like stream of consciousness</a>. I form sentences I would prefer to utter, but usually don’t.</p>
+<p>The genius of Tumblr (even with some serious interface screw-ups) is that it makes it easy to republish found stuff <em>and</em> really inviting to do it. Those pieces shared and reshared are revealing exactly because they were created by others. They never had time to be distilled and redacted closer to our self-image because they weren’t selected to represent us. Instead they are mostly curated by finder’s emotional response and its those emotions, part of finder’s subconscious (soul), that sometimes touches us.</p>
+<p>Because what does it really mean to know someone? We may admire intellect, but we relate to the person. We don’t know a person until we empathize with her and those small shared bits are conduits for feelings, not information.</p>
+<p>This doesn’t mean that you can’t write long, elaborate posts on Tumblr. Many indeed do. Just like many use WordPress to post stuff they found in some web back-alley. But it is Tumblr’s whole fun (and) social experience — unlike a serious, CMS-like sterility of WordPress — that nudges you into a different behavior. In creating we are guided by our tools with what they suggest, not what they make possible.</p>
+]]></content:encoded>
+			<wfw:commentRss>http://markos.gaivo.net/blog/?feed=rss2&#038;p=918</wfw:commentRss>
+		<slash:comments>1</slash:comments>
+		</item>
+		<item>
+		<title>Cookies, localStorage and shared state</title>
+		<link>http://markos.gaivo.net/blog/?p=898</link>
+		<comments>http://markos.gaivo.net/blog/?p=898#comments</comments>
+		<pubDate>Mon, 19 Dec 2011 16:05:48 +0000</pubDate>
+		<dc:creator>markos</dc:creator>
+				<category><![CDATA[General development]]></category>
+		<category><![CDATA[Web]]></category>
+		<category><![CDATA[browser]]></category>
+		<category><![CDATA[chrome]]></category>
+		<category><![CDATA[cookies]]></category>
+		<category><![CDATA[css]]></category>
+		<category><![CDATA[Firefox]]></category>
+		<category><![CDATA[html5]]></category>
+		<category><![CDATA[http]]></category>
+		<category><![CDATA[localstorage]]></category>
+		<category><![CDATA[shared state]]></category>
+		<category><![CDATA[stylesheet]]></category>
+
+		<guid isPermaLink="false">http://markos.gaivo.net/blog/?p=898</guid>
+		<description><![CDATA[I&#8217;ve been fiddling with my website again, changing theme switching from somewhat dumb class based system to a more proper one using alternate style sheets. I learned that picking a style sheet in browser applies those changes only to currently open page, so for style sheet selection to persevere it needs a bit of Javascript [...]]]></description>
+			<content:encoded><![CDATA[<p>I&#8217;ve been fiddling with my website again, changing theme switching from somewhat dumb class based system to a more proper one using alternate style sheets. I learned that picking a style sheet in browser applies those changes only to currently open page, so for style sheet selection to persevere it needs a bit of Javascript support from website owner. Personally I find this just stupid.</p>
+<p>The easiest way to remember visitor&#8217;s preference is to store it in his browser. Cookies used to be popular before they were deemed evil, but they have other limitations as well. Hence popular switch to HTML5 in-browser storage technologies like <a href="http://www.w3.org/TR/webstorage/">localStorage</a>.</p>
+<p>I think there is one important difference between cookies and tools like localStorage that is often overlooked and it&#8217;s not the size of data that can be stored. Cookies are sent with <em>each page request</em> while data stored elsewhere isn&#8217;t. Changing them on any side will automatically share state with the other. I use localStorage in my theme switcher because I think server doesn&#8217;t need and should not know which theme is used. But for storing shared data, especially one that expires, cookies remain a reasonable if not best choice.</p>
+<p>None of this is exactly new, but I think it is worth remembering. In other news I dislike interface limitations of Chrome more and more (exceptions are Developer Tools and extensions framework).</p>
+]]></content:encoded>
+			<wfw:commentRss>http://markos.gaivo.net/blog/?feed=rss2&#038;p=898</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+		<item>
+		<title>Reading sources</title>
+		<link>http://markos.gaivo.net/blog/?p=865</link>
+		<comments>http://markos.gaivo.net/blog/?p=865#comments</comments>
+		<pubDate>Mon, 21 Nov 2011 10:37:06 +0000</pubDate>
+		<dc:creator>markos</dc:creator>
+				<category><![CDATA[General development]]></category>
+		<category><![CDATA[Web]]></category>
+		<category><![CDATA[google reader]]></category>
+		<category><![CDATA[information]]></category>
+		<category><![CDATA[knowledge]]></category>
+		<category><![CDATA[social news]]></category>
+		<category><![CDATA[sources]]></category>
+
+		<guid isPermaLink="false">http://markos.gaivo.net/blog/?p=865</guid>
+		<description><![CDATA[Google Reader was redesigned lately and I&#8217;ve been annoyed ever since. I had a dubious privilege of cutting and changing product features people loved in pursuit of higher different goals, so I try to be understanding when others do the same. I mostly found clumsy workarounds for removed features, but I do wish I could [...]]]></description>
+			<content:encoded><![CDATA[<p>Google Reader was redesigned lately and I&#8217;ve been annoyed ever since. I had a dubious privilege of cutting and changing product features people loved in pursuit of <del>higher</del> different goals, so I try to be understanding when others do the same. I mostly found clumsy workarounds for removed features, but I do wish I could at least still trust that list of unread items actually has <em>all of them</em>. On a positive note I can save some electricity now because copious amounts of &#8220;helpfully&#8221; white whitespace illuminate this room brightly enough that you wouldn&#8217;t sit naked in-front of your computer even with lights turned off. That is if you are the sort of person who likes doing that but stops short of flashing your neighbors.</p>
+<p>I still strongly dislike changes made, but I continue using Google Reader, because crack-heads don&#8217;t give up dope just because it was cut too thinly. I cherish my list of reading sources and like a gardener I have been cultivating it through years because I believe they make me better informed than I would be if I relied only on links shared by others. This may be elitist, but it is also true.</p>
+<p>We are biased when choosing friends and communities we belong to. At the very least we enjoy our life more when surrounded with like minded people which is really a lighter shade of group think. We share to tell stories as much about what is shared as we do about who we are. Even when not self-censoring or trying to project an image we still are horribly bad at evaluating what influences us and how. Sharing everything, as <a href="http://techcrunch.com/2011/11/19/curation-through-unsharing/">this idiotic article</a> suggests, doesn&#8217;t fix this <sup><a id="reading-sources-1" href="#reading-sources-note-1">[1]</a></sup>. It&#8217;s still content from same people only more of it.</p>
+<p>Then there are social new sites, which are in essence news organizations with bigger editorial board. Their focus might not be the same and their world view less obvious (or not) as of traditional boards, but the end result really isn&#8217;t all that different. I don&#8217;t dread waking up in a world without <a title="Apple's homepage" href="http://www.apple.com">Apple</a> as I do in one without  fish, but it is not articles about all things piscatorial that keep popping up on regular basis.</p>
+<p>This doesn&#8217;t make socially filtered news useless, just limited and best suited for finding out what is popular at this moment. They should be a side dish not the whole diet. Getting some of your information diet from social sources may improve it, but relying only on them is just stupid. I wouldn&#8217;t fret so much if I didn&#8217;t worry about development trends &#8212; latest Reader changes being one example of them.</p>
+<p>Reader had two methods of sharing. Obvious one was button Share which was adequately replaced with sharing to <a href="http://plus.google.com">Google+</a> circles. The other one, which was the one I actually relied on, was to create public feeds for articles marked with certain tags. The most important difference is that in first case you grouped by intended audience and in second by actual content <sup><a id="reading-sources-2" href="#reading-sources-note-2">[2]</a></sup>. Instead of following me, you could just follow my selection on particular topic which in most cases would probably be closer to what you want.</p>
+<p>By itself stripping a feature like that doesn&#8217;t mean much. However when I also judge other changes such as aforementioned abundance of whitespace, removal of &#8220;Note to reader&#8221; and  new reading unfriendly theme, it&#8217;s easy to come to conclusion that all roads now lead to Google+. Reader&#8217;s role is at best to feed its younger brother with stuff to socialize around.</p>
+<p>It would be wrong to attribute these changes simply to competition with Facebook since they are a part of a larger trend to social curation. I find this trend just a normal consequence of a web ecosystem where most product innovation happens in VC funded startups. How companies were funded was always a part of their DNA and economics of today&#8217;s VC environment for companies that will probably be acquired at some point (and let&#8217;s be honest, who REALLY believes most news experiments won&#8217;t be?) almost demands a quick and high growth. It&#8217;s not impossible to achieve this with sources-based product, but it&#8217;s certainly harder and less obvious than creating another twist on social news.</p>
+<p>If my first and main point was a personal appeal to seek insight also in your own, personally picked sources, then my second is to question if shaping web and world with it should really be left only to industry and academia. It really doesn&#8217;t have to be this way.</p>
+<ol>
+<li id="reading-sources-note-1">Browser&#8217;s history is a great place to see just how much of what we visit is unimportant, unrepresentative and often unsharable. A small friction necessary for a deliberate act of sharing is actually a feature that gives at least a modicum of reflection on content&#8217;s share-worthiness.<a href="#reading-sources-1">↩</a></li>
+<li id="reading-sources-note-2">Feeds enable that and are one of crucial building blocks for what I started to call <em>social software for introverts</em>.  It is software which is better when used by many, but is good even when  you are its only user. <a title="Tool for saving pages to read them later" href="http://www.instapaper.com/">Instapaper</a> would be a perfect example of such an application and <a title="Evil empire" href="http://www.facebook.com/">Facebook</a> is a counter-example.<a href="#reading-sources-2">↩</a></li>
+</ol>
+]]></content:encoded>
+			<wfw:commentRss>http://markos.gaivo.net/blog/?feed=rss2&#038;p=865</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+	</channel>
+</rss>

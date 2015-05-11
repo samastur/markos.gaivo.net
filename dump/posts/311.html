@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>A notch above a monkey &raquo; Self-referencing page links</title>
+	<meta charset="utf-8" />
+	
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" /> 
+
+	<link rel="shortcut icon" href="/img/markos.ico" />
+	
+	<meta name="generator" content="WordPress 3.0.5" /> <!-- leave this for stats please -->
+
+	<link href="http://fast.fonts.com/cssapi/aee9b60b-8e94-47f8-b586-3ecbfab51d1c.css" rel="stylesheet" type="text/css" />
+	<link rel="stylesheet" type="text/css" href="css/home.css" media="screen" title="Light theme" />
+	<link rel="alternate stylesheet" type="text/css" href="css/home_dark.css" media="screen" title="Dark theme" />
+	<link rel="stylesheet" href="css/ipad.css" media="only screen and (min-device-width : 768px) and (max-device-width : 1024px)">
+	<link rel="stylesheet" type="text/css" href="css/smallscreen.css" media="only screen and (max-width: 700px)" />
+
+	<link rel="alternate" type="application/rss+xml" title="RSS 2.0" href="http://markos.gaivo.net/blog/?feed=rss2" />
+	<link rel="alternate" type="application/atom+xml" title="Atom 1.0" href="http://markos.gaivo.net/blog/?feed=atom" />
+	<link rel='canonical' href='http://markos.gaivo.net/blog/?p=664' />
+
+	<link rel="pingback" href="http://markos.gaivo.net/blog/xmlrpc.php" />
+
+	<link rel="alternate" type="application/rss+xml" title="A notch above a monkey &raquo; Self-referencing page links Comments Feed" href="http://markos.gaivo.net/blog/?feed=rss2&amp;p=311" />
+<link rel="EditURI" type="application/rsd+xml" title="RSD" href="http://markos.gaivo.net/blog/xmlrpc.php?rsd" />
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="http://markos.gaivo.net/blog/wp-includes/wlwmanifest.xml" /> 
+<link rel='index' title='A notch above a monkey' href='http://markos.gaivo.net/blog' />
+<link rel='start' title='First post' href='http://markos.gaivo.net/blog/?p=2' />
+<link rel='prev' title='Dancing on Titanic' href='http://markos.gaivo.net/blog/?p=310' />
+<link rel='next' title='Simplifying registration forms' href='http://markos.gaivo.net/blog/?p=312' />
+<meta name="generator" content="WordPress 3.0.5" />
+<link rel='canonical' href='http://markos.gaivo.net/blog/?p=311' />
+
+	<!--[if lt IE 9]>
+	<script src="/js/html5.js"></script>
+	<![endif]-->
+</head>
+<body>
+					<header>
+		<h1><a href="/blog/">A notch above a monkey</a> &raquo; Self-referencing page links</h1>
+	</header>
+
+	<section class="envelope">
+		<article class="post">
+			<header>
+				<h1>Self-referencing page links</h1>
+			</header>
+
+			<footer>
+				<ul>
+					<li class="by">Written by: <a href="/">Marko Samastur</a></li>
+					<li class="published">Published on: <time datetime="2008-12-27T18:23:46+00:00" pubdate>December 27, 2008</time></li>
+					<li class="categories">Categories: <a href="http://markos.gaivo.net/blog/?cat=1" title="View all posts in Javascript" rel="category">Javascript</a>, <a href="http://markos.gaivo.net/blog/?cat=7" title="View all posts in UI" rel="category">UI</a>, <a href="http://markos.gaivo.net/blog/?cat=4" title="View all posts in Web" rel="category">Web</a></li>
+					<li class="post-comments">Comments: <a href="http://markos.gaivo.net/blog/?p=311#comments" title="Comment on Self-referencing page links">4</a></li>
+				</ul>
+			</footer>
+
+			<div class="post-text">
+				<p>There&#8217;s an HTML pattern that has been bugging me for a while even though I&#8217;m guilty of using it too. It&#8217;s even present on page you are reading right now.</p>
+<p>Almost every page has a navigation bar and chances are that strip is presented as some kind of a list of links. Just as it should be. What bothers me is that when you actually are on page listed in navigation, its navigation item will <a title="An example of this pattern" href="http://www.alistapart.com/articles/">still contain</a> a link to it.</p>
+<p>This reference to itself is like having a door in a room which leads you back in. Not very useful and certainly misleading.</p>
+<p>Better approach is to simply not have a link when that link would point to page itself. Such HTML is also more semantic, since it&#8217;s clear which item was selected and where we are even without a style sheet.</p>
+<p>When discussing this observation it was pointed out to me that with proliferation of Javascript and AJAX you might want to give your visitors a way to bring a page to a known state by reloading it. I think this is more than adequately solved by reload button that every browser has and most users know, but if you find having a link a better solution, why not try a compromise. Just add the missing link with Javascript in spirit of <a href="http://markos.gaivo.net/examples/html_pattern/link.html">this demo</a>.</p>
+<p>This way you won&#8217;t polute content markup with behavior that should sit on top of it.</p>
+			</div>
+
+			<nav>
+				<p>If you liked this, you might want to visit:</p>
+				<ul>
+					<li>my previous article: <a href="http://markos.gaivo.net/blog/?p=310" rel="prev">Dancing on Titanic</a></li>					<li>my next article: <a href="http://markos.gaivo.net/blog/?p=312" rel="next">Simplifying registration forms</a></li>					<li><a href="/blog/">article list</a></li>
+				</ul>
+			</nav>
+
+			<h2 id="comments">Comments (4)
+			</h2>
+			<ol class="comments">
+		
+				<li id="comment-177327">
+					<article>
+						<p>While I agree with you, my experience teaches me otherwise, and the reason is similar to what you pointed out above — people simply like to click a link, rather than click a reload button or focus the URI input field and hit return/enter. </p>
+<p>Your demo provides an excellent solution to this issue though.</p>
+						<footer>
+							<cite>Comment by <a href='http://dnevnikeklektika.com/' rel='external nofollow' class='url'>Dragan Babi?</a> &#8212; <time datetime="2008-12-27T20:44:53+00:00">December 27, 2008 @ 8:44 pm</time> <a href="#comment-177327">#</a> </cite>
+						</footer>
+					</article>
+				</li>
+		
+				<li id="comment-177328">
+					<article>
+						<p>I forgot to ask in the previous comment, so sorry for double-posting — where do you stand on the issue of permanent links in blog posts then? What I&#8217;m referring to here is titles linked to posts themselves, also hash signs that have become more-less a standard for pointing out permanent links to blog posts.</p>
+						<footer>
+							<cite>Comment by <a href='http://dnevnikeklektika.com/' rel='external nofollow' class='url'>Dragan Babi?</a> &#8212; <time datetime="2008-12-27T20:48:00+00:00">December 27, 2008 @ 8:48 pm</time> <a href="#comment-177328">#</a> </cite>
+						</footer>
+					</article>
+				</li>
+		
+				<li id="comment-177367">
+					<article>
+						<p>Better two comments than none.</p>
+<p>I wonder why people do that. Obviously there&#8217;s a disconnect between page they are reading and place they think they are at. I&#8217;m not sure if there is a good way to connect this, but CSS animations might be a new venue to explore. Sort of here-you-are one-time animation.</p>
+<p>Permalinks are another thing very badly solved on this blog. In ideal world permalink would be same thing as a link, but web limitations being what they are, that is probably not reasonable.</p>
+<p>I think of hash signs about the same as of feeds. Good idea that hasn&#8217;t quite penetrated general public&#8217;s conscious yet. It would be great if it did, since it would enrich and simplify communication.</p>
+<p>I would prefer if we picked a different sign, since # already has a (different) role with links and it might be a bit confusing, but I don&#8217;t have an obviously better candidate (I liked Pi that was used for paragraph-detail permalinks).</p>
+<p>The other problem with hash is that it is a fairly small target to aim at. I&#8217;m not too clumsy, but even I can get annoyed targeting one-letter signs using a touchpad.</p>
+<p>Titles have an advantage of being far more descriptive. Or they can be when they are meaningful. They also express better what you are dealing with. With hash, every apple is an orange, but titles can tell you a bit more.</p>
+<p>Still, I don&#8217;t feel very strongly enough one way or the other, so I can probably be persuaded that either approach is better <img src='http://markos.gaivo.net/blog/wp-includes/images/smilies/icon_wink.gif' alt=';)' class='wp-smiley' /> </p>
+						<footer>
+							<cite>Comment by <a href='http://markos.gaivo.net' rel='external nofollow' class='url'>markos</a> &#8212; <time datetime="2008-12-28T11:41:34+00:00">December 28, 2008 @ 11:41 am</time> <a href="#comment-177367">#</a> </cite>
+						</footer>
+					</article>
+				</li>
+		
+				<li id="comment-184939">
+					<article>
+						<p>[...] Self-referencing page links (markos.gaivo.net)   ? [...]</p>
+						<footer>
+							<cite>Pingback by <a href='http://webdevelopment4u.com/?p=13' rel='external nofollow' class='url'>Web Development - UK Understand DIV Tag for HTML</a> &#8212; <time datetime="2009-02-26T12:22:46+00:00">February 26, 2009 @ 12:22 pm</time> <a href="#comment-184939">#</a> </cite>
+						</footer>
+					</article>
+				</li>
+		
+			</ol>
+
+
+		<p>Sorry, the comment form is closed at this time.</p>
+
+		</article>
+	</section>
+			<!-- All pages -->
+	
+
+	<footer>
+		<ul>
+			<li>&copy; 2005-2015 Marko Samastur</li>
+			
+			<li><a href="http://markos.gaivo.net/blog/?feed=rss2">Entries feed</a></li>
+			<li><a href="http://markos.gaivo.net/blog/?feed=comments-rss2">Comments feed</a></li>
+		</ul>
+		<a href="/"><img src="/img/markos_light_small_bg.png" alt="logo" class="mini-logo" /></a>
+	</footer>
+	<!-- Google analytics -->
+	<script type="text/javascript">
+	  var _gaq = _gaq || [];
+	  _gaq.push(['_setAccount', 'UA-152438-1']);
+	  _gaq.push(['_trackPageview']);
+	</script>
+	<script src="/js/cookie.js"></script>
+</body>
+</html>

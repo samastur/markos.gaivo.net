@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+		>
+<channel>
+	<title>Comments on: Beloved python filter</title>
+	<atom:link href="http://markos.gaivo.net/blog/?feed=rss2&#038;p=98" rel="self" type="application/rss+xml" />
+	<link>http://markos.gaivo.net/blog/?p=98</link>
+	<description></description>
+	<lastBuildDate>Wed, 16 Jul 2014 16:04:38 +0000</lastBuildDate>
+	<sy:updatePeriod>hourly</sy:updatePeriod>
+	<sy:updateFrequency>1</sy:updateFrequency>
+	<generator>http://wordpress.org/?v=3.0.5</generator>
+	<item>
+		<title>By: David</title>
+		<link>http://markos.gaivo.net/blog/?p=98&#038;cpage=1#comment-454</link>
+		<dc:creator>David</dc:creator>
+		<pubDate>Sat, 24 Dec 2005 21:43:47 +0000</pubDate>
+		<guid isPermaLink="false">http://markos.gaivo.net/blog/?p=98#comment-454</guid>
+		<description>I use list comprehensions so much these days I&#039;ve generally dropped using map() and filter(), and I always have to check the docs when using reduce(). I find the syntax natural and a bit easier to read on returning to the code sometime later than the associated filter( lambda x: ... , y ).</description>
+		<content:encoded><![CDATA[<p>I use list comprehensions so much these days I&#8217;ve generally dropped using map() and filter(), and I always have to check the docs when using reduce(). I find the syntax natural and a bit easier to read on returning to the code sometime later than the associated filter( lambda x: &#8230; , y ).</p>
+]]></content:encoded>
+	</item>
+	<item>
+		<title>By: arkanes</title>
+		<link>http://markos.gaivo.net/blog/?p=98&#038;cpage=1#comment-451</link>
+		<dc:creator>arkanes</dc:creator>
+		<pubDate>Fri, 23 Dec 2005 16:23:49 +0000</pubDate>
+		<guid isPermaLink="false">http://markos.gaivo.net/blog/?p=98#comment-451</guid>
+		<description>I never really liked map/filter and friends, and I use list comprehensions extensively when I need to do that. List comprehensions are written almost the way I say it (in English) in my head, as opposed to the functional style where there&#039;s an additional conceptual hurdle to jump.</description>
+		<content:encoded><![CDATA[<p>I never really liked map/filter and friends, and I use list comprehensions extensively when I need to do that. List comprehensions are written almost the way I say it (in English) in my head, as opposed to the functional style where there&#8217;s an additional conceptual hurdle to jump.</p>
+]]></content:encoded>
+	</item>
+	<item>
+		<title>By: mb</title>
+		<link>http://markos.gaivo.net/blog/?p=98&#038;cpage=1#comment-356</link>
+		<dc:creator>mb</dc:creator>
+		<pubDate>Wed, 21 Dec 2005 06:41:06 +0000</pubDate>
+		<guid isPermaLink="false">http://markos.gaivo.net/blog/?p=98#comment-356</guid>
+		<description>filter is using simple concept which you already know: function. List comprehencions is a special syntax for a case which can be combination of a functions. I think it would be better to use terser syntax to lambdas instead of list comprehensions foe example in C# 3.0
+(http://www.interact-sw.co.uk/iangblog/2005/09/30/expressiontrees)
+lambda x:x==0 
+will be  
+x=&gt;x==0 
+and so filter(lambda x:x.weignt&gt;=20, someSequence) 
+will be 
+filter(x=&gt;x.weight, someSequence)
+or even
+dogs.where(dog=&gt;dog.weight&gt;=20)</description>
+		<content:encoded><![CDATA[<p>filter is using simple concept which you already know: function. List comprehencions is a special syntax for a case which can be combination of a functions. I think it would be better to use terser syntax to lambdas instead of list comprehensions foe example in C# 3.0<br />
+(<a href="http://www.interact-sw.co.uk/iangblog/2005/09/30/expressiontrees">http://www.interact-sw.co.uk/iangblog/2005/09/30/expressiontrees</a>)<br />
+lambda x:x==0<br />
+will be<br />
+x=&gt;x==0<br />
+and so filter(lambda x:x.weignt&gt;=20, someSequence)<br />
+will be<br />
+filter(x=&gt;x.weight, someSequence)<br />
+or even<br />
+dogs.where(dog=&gt;dog.weight&gt;=20)</p>
+]]></content:encoded>
+	</item>
+	<item>
+		<title>By: Simon</title>
+		<link>http://markos.gaivo.net/blog/?p=98&#038;cpage=1#comment-355</link>
+		<dc:creator>Simon</dc:creator>
+		<pubDate>Tue, 20 Dec 2005 22:36:27 +0000</pubDate>
+		<guid isPermaLink="false">http://markos.gaivo.net/blog/?p=98#comment-355</guid>
+		<description>Well, it&#039;s not going away. You will still be able to use ifilter, imap and friends.</description>
+		<content:encoded><![CDATA[<p>Well, it&#8217;s not going away. You will still be able to use ifilter, imap and friends.</p>
+]]></content:encoded>
+	</item>
+	<item>
+		<title>By: wolf</title>
+		<link>http://markos.gaivo.net/blog/?p=98&#038;cpage=1#comment-303</link>
+		<dc:creator>wolf</dc:creator>
+		<pubDate>Tue, 20 Dec 2005 16:12:30 +0000</pubDate>
+		<guid isPermaLink="false">http://markos.gaivo.net/blog/?p=98#comment-303</guid>
+		<description>I often use filter. But, always with the lambda construct:
+filter(lambda x: len(x),elmlist)
+I am acustomed to it and, therefore, it is easy for me to use it.</description>
+		<content:encoded><![CDATA[<p>I often use filter. But, always with the lambda construct:<br />
+filter(lambda x: len(x),elmlist)<br />
+I am acustomed to it and, therefore, it is easy for me to use it.</p>
+]]></content:encoded>
+	</item>
+	<item>
+		<title>By: mkc</title>
+		<link>http://markos.gaivo.net/blog/?p=98&#038;cpage=1#comment-302</link>
+		<dc:creator>mkc</dc:creator>
+		<pubDate>Tue, 20 Dec 2005 15:56:02 +0000</pubDate>
+		<guid isPermaLink="false">http://markos.gaivo.net/blog/?p=98#comment-302</guid>
+		<description>I think it just comes with familiarity.  I don&#039;t want &#039;filter&#039; to go away, but I usually prefer comprehensions these days.  (even though I like lisp)</description>
+		<content:encoded><![CDATA[<p>I think it just comes with familiarity.  I don&#8217;t want &#8216;filter&#8217; to go away, but I usually prefer comprehensions these days.  (even though I like lisp)</p>
+]]></content:encoded>
+	</item>
+	<item>
+		<title>By: Simon Belak</title>
+		<link>http://markos.gaivo.net/blog/?p=98&#038;cpage=1#comment-300</link>
+		<dc:creator>Simon Belak</dc:creator>
+		<pubDate>Tue, 20 Dec 2005 09:40:31 +0000</pubDate>
+		<guid isPermaLink="false">http://markos.gaivo.net/blog/?p=98#comment-300</guid>
+		<description>Another plus for listcomps is that you can use them to construct generators not just lists.</description>
+		<content:encoded><![CDATA[<p>Another plus for listcomps is that you can use them to construct generators not just lists.</p>
+]]></content:encoded>
+	</item>
+	<item>
+		<title>By: jk</title>
+		<link>http://markos.gaivo.net/blog/?p=98&#038;cpage=1#comment-299</link>
+		<dc:creator>jk</dc:creator>
+		<pubDate>Tue, 20 Dec 2005 08:49:51 +0000</pubDate>
+		<guid isPermaLink="false">http://markos.gaivo.net/blog/?p=98#comment-299</guid>
+		<description>map/filter are easier when you &lt;em&gt;already&lt;/em&gt; have a function ready to use; but if you must build a lambda, then list comprehension is easier.</description>
+		<content:encoded><![CDATA[<p>map/filter are easier when you <em>already</em> have a function ready to use; but if you must build a lambda, then list comprehension is easier.</p>
+]]></content:encoded>
+	</item>
+	<item>
+		<title>By: markos</title>
+		<link>http://markos.gaivo.net/blog/?p=98&#038;cpage=1#comment-294</link>
+		<dc:creator>markos</dc:creator>
+		<pubDate>Sun, 18 Dec 2005 19:21:49 +0000</pubDate>
+		<guid isPermaLink="false">http://markos.gaivo.net/blog/?p=98#comment-294</guid>
+		<description>Heh, the bad part of posting your code online is feeling stupid when someone shows you how you could do it better.
+
+Luckily that&#039;s also the good part. Thanks to all for insightful comments.</description>
+		<content:encoded><![CDATA[<p>Heh, the bad part of posting your code online is feeling stupid when someone shows you how you could do it better.</p>
+<p>Luckily that&#8217;s also the good part. Thanks to all for insightful comments.</p>
+]]></content:encoded>
+	</item>
+	<item>
+		<title>By: Huw</title>
+		<link>http://markos.gaivo.net/blog/?p=98&#038;cpage=1#comment-293</link>
+		<dc:creator>Huw</dc:creator>
+		<pubDate>Sun, 18 Dec 2005 05:44:32 +0000</pubDate>
+		<guid isPermaLink="false">http://markos.gaivo.net/blog/?p=98#comment-293</guid>
+		<description>It&#039;s going to be unfortunate if Python does lose its functional features; I often find myself using them and in many places where the list comprehension forms don&#039;t work (passing the functional functions around as arguments, for example). Having to define a bunch of use-once wrapper functions in my code isn&#039;t something that would enhance its readability or quality.</description>
+		<content:encoded><![CDATA[<p>It&#8217;s going to be unfortunate if Python does lose its functional features; I often find myself using them and in many places where the list comprehension forms don&#8217;t work (passing the functional functions around as arguments, for example). Having to define a bunch of use-once wrapper functions in my code isn&#8217;t something that would enhance its readability or quality.</p>
+]]></content:encoded>
+	</item>
+</channel>
+</rss>

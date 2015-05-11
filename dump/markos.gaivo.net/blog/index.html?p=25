@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>A notch above a monkey &raquo; Javascript timing conflicts</title>
+	<meta charset="utf-8" />
+	
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" /> 
+
+	<link rel="shortcut icon" href="/img/markos.ico" />
+	
+	<meta name="generator" content="WordPress 3.0.5" /> <!-- leave this for stats please -->
+
+	<link href="http://fast.fonts.com/cssapi/aee9b60b-8e94-47f8-b586-3ecbfab51d1c.css" rel="stylesheet" type="text/css" />
+	<link rel="stylesheet" type="text/css" href="css/home.css" media="screen" title="Light theme" />
+	<link rel="alternate stylesheet" type="text/css" href="css/home_dark.css" media="screen" title="Dark theme" />
+	<link rel="stylesheet" href="css/ipad.css" media="only screen and (min-device-width : 768px) and (max-device-width : 1024px)">
+	<link rel="stylesheet" type="text/css" href="css/smallscreen.css" media="only screen and (max-width: 700px)" />
+
+	<link rel="alternate" type="application/rss+xml" title="RSS 2.0" href="http://markos.gaivo.net/blog/?feed=rss2" />
+	<link rel="alternate" type="application/atom+xml" title="Atom 1.0" href="http://markos.gaivo.net/blog/?feed=atom" />
+	<link rel='canonical' href='http://markos.gaivo.net/blog/?p=664' />
+
+	<link rel="pingback" href="http://markos.gaivo.net/blog/xmlrpc.php" />
+
+	<link rel="EditURI" type="application/rsd+xml" title="RSD" href="http://markos.gaivo.net/blog/xmlrpc.php?rsd" />
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="http://markos.gaivo.net/blog/wp-includes/wlwmanifest.xml" /> 
+<link rel='index' title='A notch above a monkey' href='http://markos.gaivo.net/blog' />
+<link rel='start' title='First post' href='http://markos.gaivo.net/blog/?p=2' />
+<link rel='prev' title='Latency, bandwidth and speed of applications &#8211; part II' href='http://markos.gaivo.net/blog/?p=24' />
+<link rel='next' title='Don&#8217;t take my word for it' href='http://markos.gaivo.net/blog/?p=26' />
+<meta name="generator" content="WordPress 3.0.5" />
+<link rel='canonical' href='http://markos.gaivo.net/blog/?p=25' />
+
+	<!--[if lt IE 9]>
+	<script src="/js/html5.js"></script>
+	<![endif]-->
+</head>
+<body>
+					<header>
+		<h1><a href="/blog/">A notch above a monkey</a> &raquo; Javascript timing conflicts</h1>
+	</header>
+
+	<section class="envelope">
+		<article class="post">
+			<header>
+				<h1>Javascript timing conflicts</h1>
+			</header>
+
+			<footer>
+				<ul>
+					<li class="by">Written by: <a href="/">Marko Samastur</a></li>
+					<li class="published">Published on: <time datetime="2005-09-17T19:01:04+00:00" pubdate>September 17, 2005</time></li>
+					<li class="categories">Categories: <a href="http://markos.gaivo.net/blog/?cat=1" title="View all posts in Javascript" rel="category">Javascript</a></li>
+					<li class="post-comments">Comments: <span>Comments Off</span></li>
+				</ul>
+			</footer>
+
+			<div class="post-text">
+				<p>Play with fire and you&#8217;ll get burned.</p>
+<p>I&#8217;ve just spent two days hunting a bug that just didn&#8217;t make sense. No matter what I did, there was at least one browser, which didn&#8217;t want to behave properly and it was driving me nuts.</p>
+<p>Finally I gave up and decided there&#8217;s nothing wrong with my code and the fault must be with the browser. And so it was, up to a point. Or not, depending on your point of view.</p>
+<p>The problem was a timing conflict resulting from a use of <a href="http://markos.gaivo.net/blog/?p=12" title="Description of technique">framestack technique</a> and the way modern browsers work. Browsers don&#8217;t wait for the whole page with its data to load, before they display it to users. They display as reasonable presentation of received data as possible while they are trying to load the rest. For example, onload handler set to body tag is triggered when body of HTML document has loaded, but possibly before images and other external resources have. When they do, page layout might change somewhat and if your script is reading and using layout data in the meantime, it&#8217;s quite likely it&#8217;ll end up using wrong values.</p>
+<p>The easiest (and right) way to fix this is to start javascript with <em>window.onload</em>, which is triggered when everything has loaded. This might be a problem, if you&#8217;re using something like framestack to avoid reloading page on subsequent visits, but at least in my case I&#8217;ve decided that the cleanest and easiest solution was to use window.onload and just force reload of problematic page on each visit.</p>
+<p>It&#8217;s also possible to get in similar timing conflicts by using <em>innerHTML</em> method. If you try to stuck a large piece of HTML inside a page using innerHTML call, you may encounter an unwelcome surprise. Reason for this is that at least some browsers don&#8217;t wait to parse and insert data in DOM before they proceed to the next statement. Injection delay is usually barely noticeable, but big enough for statements that manipulate inserted data to fail, if they are in close proximity to innerHTML call.</p>
+<p>You can&#8217;t necessarily avoid innerHTML problems with window.onload, but you can by using (more cumbersome) DOM methods.</p>
+<p>It still annoys me though that I knew all of this and wasted two days just because I didn&#8217;t think of it.</p>
+			</div>
+
+			<nav>
+				<p>If you liked this, you might want to visit:</p>
+				<ul>
+					<li>my previous article: <a href="http://markos.gaivo.net/blog/?p=24" rel="prev">Latency, bandwidth and speed of applications &#8211; part II</a></li>					<li>my next article: <a href="http://markos.gaivo.net/blog/?p=26" rel="next">Don&#8217;t take my word for it</a></li>					<li><a href="/blog/">article list</a></li>
+				</ul>
+			</nav>
+
+			<h2 id="comments">No Comments
+			</h2>
+			<p>No comments yet.</p>
+
+		<p>Sorry, the comment form is closed at this time.</p>
+
+		</article>
+	</section>
+			<!-- All pages -->
+	
+
+	<footer>
+		<ul>
+			<li>&copy; 2005-2015 Marko Samastur</li>
+			
+			<li><a href="http://markos.gaivo.net/blog/?feed=rss2">Entries feed</a></li>
+			<li><a href="http://markos.gaivo.net/blog/?feed=comments-rss2">Comments feed</a></li>
+		</ul>
+		<a href="/"><img src="/img/markos_light_small_bg.png" alt="logo" class="mini-logo" /></a>
+	</footer>
+	<!-- Google analytics -->
+	<script type="text/javascript">
+	  var _gaq = _gaq || [];
+	  _gaq.push(['_setAccount', 'UA-152438-1']);
+	  _gaq.push(['_trackPageview']);
+	</script>
+	<script src="/js/cookie.js"></script>
+</body>
+</html>

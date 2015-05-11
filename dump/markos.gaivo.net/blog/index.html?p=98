@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>A notch above a monkey &raquo; Beloved python filter</title>
+	<meta charset="utf-8" />
+	
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" /> 
+
+	<link rel="shortcut icon" href="/img/markos.ico" />
+	
+	<meta name="generator" content="WordPress 3.0.5" /> <!-- leave this for stats please -->
+
+	<link href="http://fast.fonts.com/cssapi/aee9b60b-8e94-47f8-b586-3ecbfab51d1c.css" rel="stylesheet" type="text/css" />
+	<link rel="stylesheet" type="text/css" href="css/home.css" media="screen" title="Light theme" />
+	<link rel="alternate stylesheet" type="text/css" href="css/home_dark.css" media="screen" title="Dark theme" />
+	<link rel="stylesheet" href="css/ipad.css" media="only screen and (min-device-width : 768px) and (max-device-width : 1024px)">
+	<link rel="stylesheet" type="text/css" href="css/smallscreen.css" media="only screen and (max-width: 700px)" />
+
+	<link rel="alternate" type="application/rss+xml" title="RSS 2.0" href="http://markos.gaivo.net/blog/?feed=rss2" />
+	<link rel="alternate" type="application/atom+xml" title="Atom 1.0" href="http://markos.gaivo.net/blog/?feed=atom" />
+	<link rel='canonical' href='http://markos.gaivo.net/blog/?p=664' />
+
+	<link rel="pingback" href="http://markos.gaivo.net/blog/xmlrpc.php" />
+
+	<link rel="alternate" type="application/rss+xml" title="A notch above a monkey &raquo; Beloved python filter Comments Feed" href="http://markos.gaivo.net/blog/?feed=rss2&amp;p=98" />
+<link rel="EditURI" type="application/rsd+xml" title="RSD" href="http://markos.gaivo.net/blog/xmlrpc.php?rsd" />
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="http://markos.gaivo.net/blog/wp-includes/wlwmanifest.xml" /> 
+<link rel='index' title='A notch above a monkey' href='http://markos.gaivo.net/blog' />
+<link rel='start' title='First post' href='http://markos.gaivo.net/blog/?p=2' />
+<link rel='prev' title='Plone and Dojo' href='http://markos.gaivo.net/blog/?p=97' />
+<link rel='next' title='In defense of a regular user' href='http://markos.gaivo.net/blog/?p=99' />
+<meta name="generator" content="WordPress 3.0.5" />
+<link rel='canonical' href='http://markos.gaivo.net/blog/?p=98' />
+
+	<!--[if lt IE 9]>
+	<script src="/js/html5.js"></script>
+	<![endif]-->
+</head>
+<body>
+					<header>
+		<h1><a href="/blog/">A notch above a monkey</a> &raquo; Beloved python filter</h1>
+	</header>
+
+	<section class="envelope">
+		<article class="post">
+			<header>
+				<h1>Beloved python filter</h1>
+			</header>
+
+			<footer>
+				<ul>
+					<li class="by">Written by: <a href="/">Marko Samastur</a></li>
+					<li class="published">Published on: <time datetime="2005-12-17T23:07:36+00:00" pubdate>December 17, 2005</time></li>
+					<li class="categories">Categories: <a href="http://markos.gaivo.net/blog/?cat=2" title="View all posts in Python" rel="category">Python</a></li>
+					<li class="post-comments">Comments: <a href="http://markos.gaivo.net/blog/?p=98#comments" title="Comment on Beloved python filter">12</a></li>
+				</ul>
+			</footer>
+
+			<div class="post-text">
+				<p>Is it just me or does anybody else find it easier to write:</p>
+<p><code>elmList = filter( len, elmList )</code></p>
+<p>then</p>
+<p><code>elmList = [ x for x in elmList if len(x) ]</code></p>
+<p>I don&#8217;t know why, but if I want to use the second form, I always have to look it up <a href="http://www.artima.com/weblogs/viewpost.jsp?thread=98196">somewhere</a>. I know <em>filter</em> and friends are frowned upon, but I can&#8217;t stop liking them.</p>
+			</div>
+
+			<nav>
+				<p>If you liked this, you might want to visit:</p>
+				<ul>
+					<li>my previous article: <a href="http://markos.gaivo.net/blog/?p=97" rel="prev">Plone and Dojo</a></li>					<li>my next article: <a href="http://markos.gaivo.net/blog/?p=99" rel="next">In defense of a regular user</a></li>					<li><a href="/blog/">article list</a></li>
+				</ul>
+			</nav>
+
+			<h2 id="comments">Comments (12)
+			</h2>
+			<ol class="comments">
+		
+				<li id="comment-291">
+					<article>
+						<p>Even simpler:  filter(None, elmList)</p>
+<p>Using None as the filter function will use an item&#8217;s boolean value to construct the output.</p>
+<p>I personally like using map() and filter() for simple things, especially if the function is a builtin (or None in the case of filter()).  They&#8217;re also faster than listcomps in a lot of situations.</p>
+						<footer>
+							<cite>Comment by <a href='http://dirtsimple.org/' rel='external nofollow' class='url'>Phillip J. Eby</a> &#8212; <time datetime="2005-12-18T00:56:34+00:00">December 18, 2005 @ 12:56 am</time> <a href="#comment-291">#</a> </cite>
+						</footer>
+					</article>
+				</li>
+		
+				<li id="comment-292">
+					<article>
+						<p>I also find listcomps a bit difficult when I&#8217;m not using them a lot.</p>
+<p>There just seems to be a little bit extra I need to remember compared to map, zip and filter.</p>
+<p>An interesting thing with map&#8230; I coded a python version using a for loop which ran quite a bit quicker than the built in map with psyco enabled.  Doing so I learnt all of the special cases which map and friends have.  Up until then I didn&#8217;t realise them all.  For example, using None as the function.  Interestingly I just tried it with python2.4, and the for loop sped up by psyco is now two times faster than the built in python map.</p>
+<p>I consider for loops in python like if {} else {} in C like syntax.  Where putting in the block {} markers is optional.  If you don&#8217;t put them in it is quicker to write then.  However if you put {} in the statement becomes easier to read, and to modify the if/else statement.  </p>
+<p>For these two reasons, I tend to use the basic for loop.  Even though it uses a few more lines, and is currently a little slower.  It is easier for people to read, and understand, easier to modify, and in the future will be just as fast(as is shown by the psyco speeding it up to be faster than map).</p>
+<p>Here are the python map implementations and tests if you are interested:<br />
+<a href="http://www.madecollective.com/~rene/maps/maps.py">http://www.madecollective.com/~rene/maps/maps.py</a><br />
+<a href="http://www.madecollective.com/~rene/maps/map_unittests.py">http://www.madecollective.com/~rene/maps/map_unittests.py</a></p>
+<p>I also made a map function which used threads to process each element.  This was a very easy way to use threads.  As you can be pretty sure that each element of the sequence passed in can be separate from the rest.  Good for quick and dirty thread usage.  </p>
+<p>eg for downloading a whole bunch of urls:<br />
+  downloaded_urls = map_threaded(get_url, url_list)</p>
+<p>Pretty simple usage of threads eh?</p>
+						<footer>
+							<cite>Comment by <a href='http://www.madecollective.com/' rel='external nofollow' class='url'>Rene Dudfield</a> &#8212; <time datetime="2005-12-18T02:52:57+00:00">December 18, 2005 @ 2:52 am</time> <a href="#comment-292">#</a> </cite>
+						</footer>
+					</article>
+				</li>
+		
+				<li id="comment-293">
+					<article>
+						<p>It&#8217;s going to be unfortunate if Python does lose its functional features; I often find myself using them and in many places where the list comprehension forms don&#8217;t work (passing the functional functions around as arguments, for example). Having to define a bunch of use-once wrapper functions in my code isn&#8217;t something that would enhance its readability or quality.</p>
+						<footer>
+							<cite>Comment by <a href='http://robotines.co.nz/' rel='external nofollow' class='url'>Huw</a> &#8212; <time datetime="2005-12-18T06:44:32+00:00">December 18, 2005 @ 6:44 am</time> <a href="#comment-293">#</a> </cite>
+						</footer>
+					</article>
+				</li>
+		
+				<li id="comment-294">
+					<article>
+						<p>Heh, the bad part of posting your code online is feeling stupid when someone shows you how you could do it better.</p>
+<p>Luckily that&#8217;s also the good part. Thanks to all for insightful comments.</p>
+						<footer>
+							<cite>Comment by <a href='http://markos.gaivo.net' rel='external nofollow' class='url'>markos</a> &#8212; <time datetime="2005-12-18T20:21:49+00:00">December 18, 2005 @ 8:21 pm</time> <a href="#comment-294">#</a> </cite>
+						</footer>
+					</article>
+				</li>
+		
+				<li id="comment-299">
+					<article>
+						<p>map/filter are easier when you <em>already</em> have a function ready to use; but if you must build a lambda, then list comprehension is easier.</p>
+						<footer>
+							<cite>Comment by jk &#8212; <time datetime="2005-12-20T09:49:51+00:00">December 20, 2005 @ 9:49 am</time> <a href="#comment-299">#</a> </cite>
+						</footer>
+					</article>
+				</li>
+		
+				<li id="comment-300">
+					<article>
+						<p>Another plus for listcomps is that you can use them to construct generators not just lists.</p>
+						<footer>
+							<cite>Comment by Simon Belak &#8212; <time datetime="2005-12-20T10:40:31+00:00">December 20, 2005 @ 10:40 am</time> <a href="#comment-300">#</a> </cite>
+						</footer>
+					</article>
+				</li>
+		
+				<li id="comment-302">
+					<article>
+						<p>I think it just comes with familiarity.  I don&#8217;t want &#8216;filter&#8217; to go away, but I usually prefer comprehensions these days.  (even though I like lisp)</p>
+						<footer>
+							<cite>Comment by mkc &#8212; <time datetime="2005-12-20T16:56:02+00:00">December 20, 2005 @ 4:56 pm</time> <a href="#comment-302">#</a> </cite>
+						</footer>
+					</article>
+				</li>
+		
+				<li id="comment-303">
+					<article>
+						<p>I often use filter. But, always with the lambda construct:<br />
+filter(lambda x: len(x),elmlist)<br />
+I am acustomed to it and, therefore, it is easy for me to use it.</p>
+						<footer>
+							<cite>Comment by wolf &#8212; <time datetime="2005-12-20T17:12:30+00:00">December 20, 2005 @ 5:12 pm</time> <a href="#comment-303">#</a> </cite>
+						</footer>
+					</article>
+				</li>
+		
+				<li id="comment-355">
+					<article>
+						<p>Well, it&#8217;s not going away. You will still be able to use ifilter, imap and friends.</p>
+						<footer>
+							<cite>Comment by Simon &#8212; <time datetime="2005-12-20T23:36:27+00:00">December 20, 2005 @ 11:36 pm</time> <a href="#comment-355">#</a> </cite>
+						</footer>
+					</article>
+				</li>
+		
+				<li id="comment-356">
+					<article>
+						<p>filter is using simple concept which you already know: function. List comprehencions is a special syntax for a case which can be combination of a functions. I think it would be better to use terser syntax to lambdas instead of list comprehensions foe example in C# 3.0<br />
+(<a href="http://www.interact-sw.co.uk/iangblog/2005/09/30/expressiontrees">http://www.interact-sw.co.uk/iangblog/2005/09/30/expressiontrees</a>)<br />
+lambda x:x==0<br />
+will be<br />
+x=&gt;x==0<br />
+and so filter(lambda x:x.weignt&gt;=20, someSequence)<br />
+will be<br />
+filter(x=&gt;x.weight, someSequence)<br />
+or even<br />
+dogs.where(dog=&gt;dog.weight&gt;=20)</p>
+						<footer>
+							<cite>Comment by <a href='http://belugin.info' rel='external nofollow' class='url'>mb</a> &#8212; <time datetime="2005-12-21T07:41:06+00:00">December 21, 2005 @ 7:41 am</time> <a href="#comment-356">#</a> </cite>
+						</footer>
+					</article>
+				</li>
+		
+				<li id="comment-451">
+					<article>
+						<p>I never really liked map/filter and friends, and I use list comprehensions extensively when I need to do that. List comprehensions are written almost the way I say it (in English) in my head, as opposed to the functional style where there&#8217;s an additional conceptual hurdle to jump.</p>
+						<footer>
+							<cite>Comment by arkanes &#8212; <time datetime="2005-12-23T17:23:49+00:00">December 23, 2005 @ 5:23 pm</time> <a href="#comment-451">#</a> </cite>
+						</footer>
+					</article>
+				</li>
+		
+				<li id="comment-454">
+					<article>
+						<p>I use list comprehensions so much these days I&#8217;ve generally dropped using map() and filter(), and I always have to check the docs when using reduce(). I find the syntax natural and a bit easier to read on returning to the code sometime later than the associated filter( lambda x: &#8230; , y ).</p>
+						<footer>
+							<cite>Comment by <a href='http://www.zachary.com' rel='external nofollow' class='url'>David</a> &#8212; <time datetime="2005-12-24T22:43:47+00:00">December 24, 2005 @ 10:43 pm</time> <a href="#comment-454">#</a> </cite>
+						</footer>
+					</article>
+				</li>
+		
+			</ol>
+
+
+		<p>Sorry, the comment form is closed at this time.</p>
+
+		</article>
+	</section>
+			<!-- All pages -->
+	
+
+	<footer>
+		<ul>
+			<li>&copy; 2005-2015 Marko Samastur</li>
+			
+			<li><a href="http://markos.gaivo.net/blog/?feed=rss2">Entries feed</a></li>
+			<li><a href="http://markos.gaivo.net/blog/?feed=comments-rss2">Comments feed</a></li>
+		</ul>
+		<a href="/"><img src="/img/markos_light_small_bg.png" alt="logo" class="mini-logo" /></a>
+	</footer>
+	<!-- Google analytics -->
+	<script type="text/javascript">
+	  var _gaq = _gaq || [];
+	  _gaq.push(['_setAccount', 'UA-152438-1']);
+	  _gaq.push(['_trackPageview']);
+	</script>
+	<script src="/js/cookie.js"></script>
+</body>
+</html>

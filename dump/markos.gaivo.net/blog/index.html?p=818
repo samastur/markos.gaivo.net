@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>A notch above a monkey &raquo; Android&#8217;s design reflections</title>
+	<meta charset="utf-8" />
+	
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" /> 
+
+	<link rel="shortcut icon" href="/img/markos.ico" />
+	
+	<meta name="generator" content="WordPress 3.0.5" /> <!-- leave this for stats please -->
+
+	<link href="http://fast.fonts.com/cssapi/aee9b60b-8e94-47f8-b586-3ecbfab51d1c.css" rel="stylesheet" type="text/css" />
+	<link rel="stylesheet" type="text/css" href="css/home.css" media="screen" title="Light theme" />
+	<link rel="alternate stylesheet" type="text/css" href="css/home_dark.css" media="screen" title="Dark theme" />
+	<link rel="stylesheet" href="css/ipad.css" media="only screen and (min-device-width : 768px) and (max-device-width : 1024px)">
+	<link rel="stylesheet" type="text/css" href="css/smallscreen.css" media="only screen and (max-width: 700px)" />
+
+	<link rel="alternate" type="application/rss+xml" title="RSS 2.0" href="http://markos.gaivo.net/blog/?feed=rss2" />
+	<link rel="alternate" type="application/atom+xml" title="Atom 1.0" href="http://markos.gaivo.net/blog/?feed=atom" />
+	<link rel='canonical' href='http://markos.gaivo.net/blog/?p=664' />
+
+	<link rel="pingback" href="http://markos.gaivo.net/blog/xmlrpc.php" />
+
+	<link rel="alternate" type="application/rss+xml" title="A notch above a monkey &raquo; Android&#8217;s design reflections Comments Feed" href="http://markos.gaivo.net/blog/?feed=rss2&amp;p=818" />
+<link rel="EditURI" type="application/rsd+xml" title="RSD" href="http://markos.gaivo.net/blog/xmlrpc.php?rsd" />
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="http://markos.gaivo.net/blog/wp-includes/wlwmanifest.xml" /> 
+<link rel='index' title='A notch above a monkey' href='http://markos.gaivo.net/blog' />
+<link rel='start' title='First post' href='http://markos.gaivo.net/blog/?p=2' />
+<link rel='prev' title='6th anniversary of wwwh' href='http://markos.gaivo.net/blog/?p=807' />
+<link rel='next' title='Pimping my notebook' href='http://markos.gaivo.net/blog/?p=827' />
+<meta name="generator" content="WordPress 3.0.5" />
+<link rel='canonical' href='http://markos.gaivo.net/blog/?p=818' />
+
+	<!--[if lt IE 9]>
+	<script src="/js/html5.js"></script>
+	<![endif]-->
+</head>
+<body>
+					<header>
+		<h1><a href="/blog/">A notch above a monkey</a> &raquo; Android&#8217;s design reflections</h1>
+	</header>
+
+	<section class="envelope">
+		<article class="post">
+			<header>
+				<h1>Android&#8217;s design reflections</h1>
+			</header>
+
+			<footer>
+				<ul>
+					<li class="by">Written by: <a href="/">Marko Samastur</a></li>
+					<li class="published">Published on: <time datetime="2011-10-30T16:40:45+00:00" pubdate>October 30, 2011</time></li>
+					<li class="categories">Categories: <a href="http://markos.gaivo.net/blog/?cat=3" title="View all posts in Catchall" rel="category">Catchall</a></li>
+					<li class="post-comments">Comments: <a href="http://markos.gaivo.net/blog/?p=818#comments" title="Comment on Android&#8217;s design reflections">1</a></li>
+				</ul>
+			</footer>
+
+			<div class="post-text">
+				<p>I bought a Samsung Nexus phone in September after almost 4 years of being a happy <a class="zem_slink" title="Nokia E65" rel="wikipedia" href="http://en.wikipedia.org/wiki/Nokia_E65">Nokia E65</a> user. I switched because I didn&#8217;t have an Android phone to test websites against and it would be stupid to buy something expensive just to lay on my table waiting for an occasional test.</p>
+<p>A month of use is enough to get a solid impression, but not enough to really know a modern phone. Which is alright, since I don&#8217;t want to write a pro-cons review of Android. Better ones have already been written. I am more intrigued by what design hints about its creators and their environment. Hints, not tells, because I know Android&#8217;s authors even less than I do my phone, which is to say I don&#8217;t know them at all and could well be wrong. Enough of disclaimers and let&#8217;s proceed with this Sherlock-like conjecture.</p>
+<p>Data roaming is something that ought to be common, but is usually an obscenely expensive luxury and it&#8217;s nice that Android lets you turn it off to prevent unexpected expenses. However home network may not be cheap or unlimited either and what I really liked about an otherwise severely limited email client on <a class="zem_slink" title="Nokia N900" rel="wikipedia" href="http://en.wikipedia.org/wiki/Nokia_N900">Nokia N900</a> is that you could set automatic email retrieval to proceed only when connected to WiFi. Alas there are no connection based settings for data syncing. So this feature was designed for countries where cheap-enough data connection is available to most or in expectation that this will soon be so.</p>
+<p>Notifications are an important part of Android&#8217;s experience and are done well enough to inspire iPhone&#8217;s. They are also less important to me than Android believes they should be. Pull-down notification system was obviously built for a steady stream of messages and as such would benefit from a few more options. Like K9 mail&#8217;s quiet time during which it would not check for new messages (or just be silent if it gets them). I&#8217;d also love to be able to set a different volume based on type of messages. I care about (rare) text messages, but don&#8217;t want to be bothered with Twitter&#8217;s deluge. However if I wanted to be notified about everything as soon as it happens, then I would just love what I got. I know many social media users who surely do.</p>
+<p>The under-appreciated side of Nokia has always been company&#8217;s understanding that mobile users around world are not same. Android however doesn&#8217;t care about subtleties. E.g. selecting language of your interface will also select when week starts (is it Monday or Sunday?). This would be a great shortcut for setting locale in one swoop, but is incredibly annoying when you want/need to override it.</p>
+<p>None of my examples is actually a bug or even necessary a bad (business) decision. I talked about Android, but most of what I said also applies to iPhones. While I do think smartphones will eventually end up in hands of practically all phone users, I do not believe that economies of scale or environment will work equally for all. I am not sure if designing mostly for affluent is wrong, but I do think it&#8217;s sad.</p>
+			</div>
+
+			<nav>
+				<p>If you liked this, you might want to visit:</p>
+				<ul>
+					<li>my previous article: <a href="http://markos.gaivo.net/blog/?p=807" rel="prev">6th anniversary of wwwh</a></li>					<li>my next article: <a href="http://markos.gaivo.net/blog/?p=827" rel="next">Pimping my notebook</a></li>					<li><a href="/blog/">article list</a></li>
+				</ul>
+			</nav>
+
+			<h2 id="comments">Comment (1)
+			</h2>
+			<ol class="comments">
+		
+				<li id="comment-268102">
+					<article>
+						<p>[...] Android&#039;s design reflections [...]</p>
+						<footer>
+							<cite>Pingback by <a href='http://smsglee.com/mobile/nokia-e65/' rel='external nofollow' class='url'>Nokia E65 | SmsGlee Mobile Corner</a> &#8212; <time datetime="2012-10-13T18:19:04+00:00">October 13, 2012 @ 6:19 pm</time> <a href="#comment-268102">#</a> </cite>
+						</footer>
+					</article>
+				</li>
+		
+			</ol>
+
+
+		<p>Sorry, the comment form is closed at this time.</p>
+
+		</article>
+	</section>
+			<!-- All pages -->
+	
+
+	<footer>
+		<ul>
+			<li>&copy; 2005-2015 Marko Samastur</li>
+			
+			<li><a href="http://markos.gaivo.net/blog/?feed=rss2">Entries feed</a></li>
+			<li><a href="http://markos.gaivo.net/blog/?feed=comments-rss2">Comments feed</a></li>
+		</ul>
+		<a href="/"><img src="/img/markos_light_small_bg.png" alt="logo" class="mini-logo" /></a>
+	</footer>
+	<!-- Google analytics -->
+	<script type="text/javascript">
+	  var _gaq = _gaq || [];
+	  _gaq.push(['_setAccount', 'UA-152438-1']);
+	  _gaq.push(['_trackPageview']);
+	</script>
+	<script src="/js/cookie.js"></script>
+</body>
+</html>

@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>A notch above a monkey &raquo; I like SSE</title>
+	<meta charset="utf-8" />
+	
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" /> 
+
+	<link rel="shortcut icon" href="/img/markos.ico" />
+	
+	<meta name="generator" content="WordPress 3.0.5" /> <!-- leave this for stats please -->
+
+	<link href="http://fast.fonts.com/cssapi/aee9b60b-8e94-47f8-b586-3ecbfab51d1c.css" rel="stylesheet" type="text/css" />
+	<link rel="stylesheet" type="text/css" href="css/home.css" media="screen" title="Light theme" />
+	<link rel="alternate stylesheet" type="text/css" href="css/home_dark.css" media="screen" title="Dark theme" />
+	<link rel="stylesheet" href="css/ipad.css" media="only screen and (min-device-width : 768px) and (max-device-width : 1024px)">
+	<link rel="stylesheet" type="text/css" href="css/smallscreen.css" media="only screen and (max-width: 700px)" />
+
+	<link rel="alternate" type="application/rss+xml" title="RSS 2.0" href="http://markos.gaivo.net/blog/?feed=rss2" />
+	<link rel="alternate" type="application/atom+xml" title="Atom 1.0" href="http://markos.gaivo.net/blog/?feed=atom" />
+	<link rel='canonical' href='http://markos.gaivo.net/blog/?p=664' />
+
+	<link rel="pingback" href="http://markos.gaivo.net/blog/xmlrpc.php" />
+
+	<link rel="EditURI" type="application/rsd+xml" title="RSD" href="http://markos.gaivo.net/blog/xmlrpc.php?rsd" />
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="http://markos.gaivo.net/blog/wp-includes/wlwmanifest.xml" /> 
+<link rel='index' title='A notch above a monkey' href='http://markos.gaivo.net/blog' />
+<link rel='start' title='First post' href='http://markos.gaivo.net/blog/?p=2' />
+<link rel='prev' title='Ajax Workshop' href='http://markos.gaivo.net/blog/?p=77' />
+<link rel='next' title='First snow' href='http://markos.gaivo.net/blog/?p=79' />
+<meta name="generator" content="WordPress 3.0.5" />
+<link rel='canonical' href='http://markos.gaivo.net/blog/?p=78' />
+
+	<!--[if lt IE 9]>
+	<script src="/js/html5.js"></script>
+	<![endif]-->
+</head>
+<body>
+					<header>
+		<h1><a href="/blog/">A notch above a monkey</a> &raquo; I like SSE</h1>
+	</header>
+
+	<section class="envelope">
+		<article class="post">
+			<header>
+				<h1>I like SSE</h1>
+			</header>
+
+			<footer>
+				<ul>
+					<li class="by">Written by: <a href="/">Marko Samastur</a></li>
+					<li class="published">Published on: <time datetime="2005-11-24T22:33:04+00:00" pubdate>November 24, 2005</time></li>
+					<li class="categories">Categories: <a href="http://markos.gaivo.net/blog/?cat=5" title="View all posts in General development" rel="category">General development</a>, <a href="http://markos.gaivo.net/blog/?cat=4" title="View all posts in Web" rel="category">Web</a></li>
+					<li class="post-comments">Comments: <span>Comments Off</span></li>
+				</ul>
+			</footer>
+
+			<div class="post-text">
+				<p>I&#8217;ve been a netizen since &#8217;93 and I saw web for the first time in &#8217;94, when a friend showed me <a href="http://www.yahoo.com">Yahoo</a>. I felt dizzy just thinking about possibilities.</p>
+<p>I had no idea what was coming, but even though web came a long way since then, I never felt so excited again up until now. It&#8217;s hard to predict future and I avoid revealing my stupidity if possible, but it really looks like a no-brainer predicting a vastly different, more open and collaborative web in few years time than we have now.</p>
+<p>Feeds were a big step forward. It wasn&#8217;t necessary to scrap pages to reuse information anymore. Even more importantly, feeds changed the attitude so sharing and reusing content is now again a normal and good thing.</p>
+<p>It seems <a href="http://www.ietf.org/html.charters/atompub-charter.html">atom publishing protocol</a> will soon be ratified and with it a standard way of editing web resources. In fact making sharing a two-way street. The final piece was provided by <a href="http://spaces.msn.com/members/rayozzie/PersonalSpace.aspx?_c01_blogpart=blogmgmt&amp;_c=blogpart" title="Ozzie's blog">Ray Ozzie</a> and guys at Microsoft. A synchronization protocol for RSS feeds called <a href="http://msdn.microsoft.com/xml/rss/sse/" title="Protocol specification">SSE</a> published under creative commons license that should be really useful for synchronizing calendars, contacts etc.</p>
+<p>I&#8217;ve read it a couple of days ago and I couldn&#8217;t find an obvious defect in it (apart from a small error in the example at point 2.2.2, which I&#8217;m sure has been spotted since). Truth be told, I didn&#8217;t expect it to.</p>
+<p>It&#8217;s a simple, easy to understand specification. I wish people would stop using date-time values conforming to RFC 822, but nevertheless SSE shouldn&#8217;t be difficult to implement.</p>
+<p>It probably really is the easiest thing that could work and it&#8217;s up to programmers to show if it might be too easy. There&#8217;s always a tension between things you specify and things you leave to implementation. Freedom given can and usually is a point of misunderstandings and until there are enough implementations in the wild, it&#8217;s hard to judge the quality of compromise.</p>
+<p>I won&#8217;t be surprised though if final specification version won&#8217;t be significantly different than current one. I&#8217;ll try to make our implementation as soon as possible and hopefully by that time there will be others to test it with.</p>
+			</div>
+
+			<nav>
+				<p>If you liked this, you might want to visit:</p>
+				<ul>
+					<li>my previous article: <a href="http://markos.gaivo.net/blog/?p=77" rel="prev">Ajax Workshop</a></li>					<li>my next article: <a href="http://markos.gaivo.net/blog/?p=79" rel="next">First snow</a></li>					<li><a href="/blog/">article list</a></li>
+				</ul>
+			</nav>
+
+			<h2 id="comments">No Comments
+			</h2>
+			<p>No comments yet.</p>
+
+		<p>Sorry, the comment form is closed at this time.</p>
+
+		</article>
+	</section>
+			<!-- All pages -->
+	
+
+	<footer>
+		<ul>
+			<li>&copy; 2005-2015 Marko Samastur</li>
+			
+			<li><a href="http://markos.gaivo.net/blog/?feed=rss2">Entries feed</a></li>
+			<li><a href="http://markos.gaivo.net/blog/?feed=comments-rss2">Comments feed</a></li>
+		</ul>
+		<a href="/"><img src="/img/markos_light_small_bg.png" alt="logo" class="mini-logo" /></a>
+	</footer>
+	<!-- Google analytics -->
+	<script type="text/javascript">
+	  var _gaq = _gaq || [];
+	  _gaq.push(['_setAccount', 'UA-152438-1']);
+	  _gaq.push(['_trackPageview']);
+	</script>
+	<script src="/js/cookie.js"></script>
+</body>
+</html>

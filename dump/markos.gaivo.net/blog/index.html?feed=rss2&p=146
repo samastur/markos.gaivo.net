@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+		>
+<channel>
+	<title>Comments on: Javascript enabled spiders</title>
+	<atom:link href="http://markos.gaivo.net/blog/?feed=rss2&#038;p=146" rel="self" type="application/rss+xml" />
+	<link>http://markos.gaivo.net/blog/?p=146</link>
+	<description></description>
+	<lastBuildDate>Wed, 16 Jul 2014 16:04:38 +0000</lastBuildDate>
+	<sy:updatePeriod>hourly</sy:updatePeriod>
+	<sy:updateFrequency>1</sy:updateFrequency>
+	<generator>http://wordpress.org/?v=3.0.5</generator>
+	<item>
+		<title>By: Eric S</title>
+		<link>http://markos.gaivo.net/blog/?p=146&#038;cpage=1#comment-1508</link>
+		<dc:creator>Eric S</dc:creator>
+		<pubDate>Fri, 05 May 2006 17:09:31 +0000</pubDate>
+		<guid isPermaLink="false">http://markos.gaivo.net/blog/?p=146#comment-1508</guid>
+		<description>My two cents, just give up. Just like junk mail, spam is inevitable, and unfortunately a part of life :(
+
+If you want to make things more difficult though, you could have a contact page, and a very easy machine-human test in order to get to the page with your email aggress, something like &quot;Click the green square to send me a message&quot; which could link to a perl script to either redirect to a mailto: link or a &quot;Try again&quot; page. If this were done with an old-school img map, the robot would need to hit the correct coordinates to spider the contact page... Just thoughts.</description>
+		<content:encoded><![CDATA[<p>My two cents, just give up. Just like junk mail, spam is inevitable, and unfortunately a part of life <img src='http://markos.gaivo.net/blog/wp-includes/images/smilies/icon_sad.gif' alt=':(' class='wp-smiley' /> </p>
+<p>If you want to make things more difficult though, you could have a contact page, and a very easy machine-human test in order to get to the page with your email aggress, something like &#8220;Click the green square to send me a message&#8221; which could link to a perl script to either redirect to a mailto: link or a &#8220;Try again&#8221; page. If this were done with an old-school img map, the robot would need to hit the correct coordinates to spider the contact page&#8230; Just thoughts.</p>
+]]></content:encoded>
+	</item>
+	<item>
+		<title>By: markos</title>
+		<link>http://markos.gaivo.net/blog/?p=146&#038;cpage=1#comment-1172</link>
+		<dc:creator>markos</dc:creator>
+		<pubDate>Sun, 09 Apr 2006 09:27:44 +0000</pubDate>
+		<guid isPermaLink="false">http://markos.gaivo.net/blog/?p=146#comment-1172</guid>
+		<description>Separate contacts page isn&#039;t always a solution and even when it is, it&#039;s not really a nice one, since at best it means nothing will get indexed.
+
+You can see a weird, but readable representation of my email address (on my homepage) if you turn off Javascript. I use Javascript because the difficulty of emailing someone is inversely proportional to the number of people who&#039;ll do so.</description>
+		<content:encoded><![CDATA[<p>Separate contacts page isn&#8217;t always a solution and even when it is, it&#8217;s not really a nice one, since at best it means nothing will get indexed.</p>
+<p>You can see a weird, but readable representation of my email address (on my homepage) if you turn off Javascript. I use Javascript because the difficulty of emailing someone is inversely proportional to the number of people who&#8217;ll do so.</p>
+]]></content:encoded>
+	</item>
+	<item>
+		<title>By: j</title>
+		<link>http://markos.gaivo.net/blog/?p=146&#038;cpage=1#comment-1162</link>
+		<dc:creator>j</dc:creator>
+		<pubDate>Sat, 08 Apr 2006 15:12:32 +0000</pubDate>
+		<guid isPermaLink="false">http://markos.gaivo.net/blog/?p=146#comment-1162</guid>
+		<description>separate contacts page seems to be THE solution, but there are many spiders who don&#039;t use (ignore) robots.txt.
+
+You could appeal to human intelligence and wrote your email in some weird way still readable to human willing to contact you:
+
+your.name # domaain tld
+or
+your DOT name AT NOSPAM DOT domain DOT tld...</description>
+		<content:encoded><![CDATA[<p>separate contacts page seems to be THE solution, but there are many spiders who don&#8217;t use (ignore) robots.txt.</p>
+<p>You could appeal to human intelligence and wrote your email in some weird way still readable to human willing to contact you:</p>
+<p>your.name # domaain tld<br />
+or<br />
+your DOT name AT NOSPAM DOT domain DOT tld&#8230;</p>
+]]></content:encoded>
+	</item>
+</channel>
+</rss>

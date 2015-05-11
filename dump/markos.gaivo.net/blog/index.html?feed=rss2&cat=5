@@ -1,0 +1,310 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>A notch above a monkey &#187; General development</title>
+	<atom:link href="http://markos.gaivo.net/blog/?feed=rss2&#038;cat=5" rel="self" type="application/rss+xml" />
+	<link>http://markos.gaivo.net/blog</link>
+	<description></description>
+	<lastBuildDate>Mon, 26 Jan 2015 07:00:03 +0000</lastBuildDate>
+	<language>en</language>
+	<sy:updatePeriod>hourly</sy:updatePeriod>
+	<sy:updateFrequency>1</sy:updateFrequency>
+	<generator>http://wordpress.org/?v=3.0.5</generator>
+		<item>
+		<title>Subtracting sets to get non-referenced rows in table.</title>
+		<link>http://markos.gaivo.net/blog/?p=1014</link>
+		<comments>http://markos.gaivo.net/blog/?p=1014#comments</comments>
+		<pubDate>Mon, 01 Oct 2012 23:07:18 +0000</pubDate>
+		<dc:creator>markos</dc:creator>
+				<category><![CDATA[General development]]></category>
+		<category><![CDATA[algorithm]]></category>
+		<category><![CDATA[shell]]></category>
+		<category><![CDATA[sql]]></category>
+
+		<guid isPermaLink="false">http://markos.gaivo.net/blog/?p=1014</guid>
+		<description><![CDATA[I had a problem today. Given two database tables with first having a foreign key pointing to second, find those rows in second table, which are not pointed to from first. Well, it was slightly more complicated than this, but this was the tricky part. I tried to solve my problem using SQL, but I [...]]]></description>
+			<content:encoded><![CDATA[<p>I had a problem today. Given two database tables with first having a foreign key pointing to second, find those rows in second table, which are not pointed to from first. Well, it was slightly more complicated than this, but this was the tricky part.</p>
+<p>I tried to solve my problem using <a title="SQL description on Wikipedia" href="http://en.wikipedia.org/wiki/SQL">SQL</a>, but I could not. I am not saying it can&#8217;t be done, but with my limited knowledge of SQL I could not produce a query that would not perform horribly. Working on production database under heavy use made this a real no-go.</p>
+<p>After trying to come up with pure solution I finally gave up and decided to solve this problem pragmatically with some scripting. Turns out that too was more complicated than necessary. Unix shell tools are all you actually need, provided your dataset is not too big for your computer limitations (mostly memory).</p>
+<p>Instead of searching for those rows directly, I changed my plan to create two sets of rows, first containing all possible candidates and second containing those from first set which are pointed to from first table. Subtracting second set from first would therefore give me exactly those rows which aren&#8217;t pointed to.</p>
+<p>If file <em>all</em> contains a row-per-line list of all candidates and <em>linked</em> a similar list of those that are linked to, then you can get non-linked by running following command:</p>
+<p><code>cat all linked | sort | uniq -u &gt; non_linked</code></p>
+<p>What this does is following. <em>Sort</em> will put duplicated rows together and <em>-u</em> option of <em>uniq</em> will display only unique lines which are those that can be found only in <em>all</em>. Problem solved.</p>
+]]></content:encoded>
+			<wfw:commentRss>http://markos.gaivo.net/blog/?feed=rss2&#038;p=1014</wfw:commentRss>
+		<slash:comments>3</slash:comments>
+		</item>
+		<item>
+		<title>Passion</title>
+		<link>http://markos.gaivo.net/blog/?p=1005</link>
+		<comments>http://markos.gaivo.net/blog/?p=1005#comments</comments>
+		<pubDate>Mon, 17 Sep 2012 22:23:46 +0000</pubDate>
+		<dc:creator>markos</dc:creator>
+				<category><![CDATA[General development]]></category>
+		<category><![CDATA[development]]></category>
+		<category><![CDATA[dogma]]></category>
+		<category><![CDATA[insight]]></category>
+		<category><![CDATA[mental framework]]></category>
+		<category><![CDATA[passion]]></category>
+
+		<guid isPermaLink="false">http://markos.gaivo.net/blog/?p=1005</guid>
+		<description><![CDATA[Hearing something often enough can really change my perspective even on things I agreed with completely beforehand. It happened again after reading for umpteenth time that passion for programming/company vision is the quality every new hire should have. Passion is a symptom, not a diagnosis. I know a great developer with whom I would love [...]]]></description>
+			<content:encoded><![CDATA[<p>Hearing something often enough can really change my perspective even on things I agreed with completely beforehand. It happened again after reading for umpteenth time that passion for programming/company vision is the quality every new hire should have.</p>
+<p><em>Passion is a symptom, not a diagnosis.</em></p>
+<p>I know a great developer with whom I would love to work again who is passionate about electronics. I am sure he likes programming and does it a lot, but it&#8217;s not where his heart truly lies. Which is alright because his other qualities more than make up for any passion deficiencies.</p>
+<p>Passion in complementary direction is doubtless a positive signal, but I simply do not believe that <em>only</em> people working on something they care deeply about are able to do it well. We can and do regularly care, with some degree of autonomy, about more than one thing (or person).</p>
+<p>In more general sense my feeling is obviously a reaction to the end result of a process in which a useful guideline calcifies into dogma. Ideally I could get to this point sooner, but it seems unlikely. If I regularly reconsidered and doubted every piece of my mental framework, then it would mostly be mental and not much of a framework.</p>
+]]></content:encoded>
+			<wfw:commentRss>http://markos.gaivo.net/blog/?feed=rss2&#038;p=1005</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+		<item>
+		<title>Save bandwidth switch</title>
+		<link>http://markos.gaivo.net/blog/?p=936</link>
+		<comments>http://markos.gaivo.net/blog/?p=936#comments</comments>
+		<pubDate>Thu, 15 Mar 2012 07:52:06 +0000</pubDate>
+		<dc:creator>markos</dc:creator>
+				<category><![CDATA[General development]]></category>
+		<category><![CDATA[Web]]></category>
+
+		<guid isPermaLink="false">http://markos.gaivo.net/blog/?p=936</guid>
+		<description><![CDATA[Michal Migurski recently posted an article about download sizes of popular websites. I couldn&#8217;t replicate his results[1], but it is obvious that gist of Michal&#8217;s article is correct, websites have indeed ballooned significantly in last few years. This blog&#8217;s homepage has a footprint of around 250KB-270KB[2]. About 90% of its size are fonts and jQuery [...]]]></description>
+			<content:encoded><![CDATA[<p>Michal Migurski recently posted <a href="http://mike.teczno.com/notes/bandwidth.html">an article</a> about download sizes of popular websites. I couldn&#8217;t replicate his results<sup><a id="save-bandwidth-1" href="#save-bandwidth-note-1">[1]</a></sup>, but it is obvious that gist of Michal&#8217;s article is correct, websites have indeed ballooned significantly in last few years.</p>
+<p>This blog&#8217;s homepage has a footprint of around 250KB-270KB<sup><a id="save-bandwidth-2" href="#save-bandwidth-note-2">[2]</a></sup>. About 90% of its size are fonts and <a href="http://jquery.com/">jQuery</a> which is a big penalty for making it look and behave a bit nicer. So should I remove those parts?</p>
+<p>Well, for most visitors to this website that difference doesn&#8217;t matter. Pages for them are neither slow nor expensive to load. Unless of course they are doing it over your average hotel Wi-Fi or a slow mobile network where speed around 56Kb/s is not unheard of. On such connection it would take about half a minute to load this blog. It can also cost more than 10 euro cents to load it when roaming in Europe.</p>
+<p>It would be great if I could offer a choice of serving bigger and nicer or smaller and faster version depending on visitors needs.</p>
+<p>Measuring speed is not easy, but certainly doable as Gmail has demonstrated. You could start a timer immediately in page header, measure how much time it takes to load a smaller version of a website and if that happened quickly enough upgrade it to full bling. Android browser also added support for <a href="http://dvcs.w3.org/hg/dap/raw-file/tip/network-api/index.html">navigator.connection</a> Javascript property which, where it exists, probably has more details than you would need.</p>
+<p>However there is no way to measure price of a visit. Even if I could, how would I decide what is too expensive for an anonymous reader and should I make such decisions at all? I think not.</p>
+<p>Gmail&#8217;s approach is really just a band-aid over what should be a visitor&#8217;s decision. I use same laptop and browser at home and while I travel, experiencing all combinations of connection speed and pricing. I never know how much it will cost me to visit a page, but I always learn quickly if I would prefer something small or full-featured. There is just no way I can communicate that preference.</p>
+<p>It would be great if my browser had a switch for this purpose, like Firefox&#8217;s &#8220;Work Offline&#8221; toggle. So if I switched to bandwidth saving mode, then every subsequent request to web server would communicate my preference with a HTTP header field like:</p>
+<blockquote><p>X-Bandwidth: save</p></blockquote>
+<p>In principle you could have multiple levels of bandwidth consumption, but that would likely be an overkill. Common practice suggests that at most two levels would really get used, one aimed at mobile devices and other at desktop.</p>
+<p>Header like that might be enough, but even better would be if Javascript environment got another property describing current state of user&#8217;s preference (like say <em>navigator.bandwidth</em>). Coupled with a bandwidth event triggered on change you could really optimize every modern web page, even those with more complicated loading of resources and execution paths.</p>
+<p>Right now such functionality doesn&#8217;t exist or at least I couldn&#8217;t find it (I even searched Mozilla&#8217;s bug database for any future plans). I think my proposal is both user and developer friendly and workable. If you can think of a reason why it would be problematic, then I would really like to hear it.</p>
+<ol>
+<li id="save-bandwidth-note-1">Pages are often personalized for visitor. Developer tools of different browsers also don&#8217;t report same sizes. They also report amount of data transferred not the size of that data once unpacked. Almost 2M of Twitter&#8217;s Javascript is thus reduced into page of &#8220;only&#8221; about 1MB of data transferred. And that to display couple of sentences.<a href="#save-bandwidth-1">↩</a></li>
+<li id="save-bandwidth-note-2">Depends on browser used. Variation in sizes is probably due different formats of fonts used by browsers. It also changed once I published this post.<a href="#save-bandwidth-2">↩</a></li>
+</ol>
+]]></content:encoded>
+			<wfw:commentRss>http://markos.gaivo.net/blog/?feed=rss2&#038;p=936</wfw:commentRss>
+		<slash:comments>1</slash:comments>
+		</item>
+		<item>
+		<title>-beta- prefix algorithm for CSS</title>
+		<link>http://markos.gaivo.net/blog/?p=929</link>
+		<comments>http://markos.gaivo.net/blog/?p=929#comments</comments>
+		<pubDate>Fri, 10 Feb 2012 17:21:08 +0000</pubDate>
+		<dc:creator>markos</dc:creator>
+				<category><![CDATA[General development]]></category>
+		<category><![CDATA[Web]]></category>
+		<category><![CDATA[agony]]></category>
+		<category><![CDATA[css]]></category>
+		<category><![CDATA[mobile]]></category>
+		<category><![CDATA[prefix]]></category>
+		<category><![CDATA[webkit]]></category>
+
+		<guid isPermaLink="false">http://markos.gaivo.net/blog/?p=929</guid>
+		<description><![CDATA[These have been eventful couple of days for web developers. CSS Working Group chair called on everyone to use all (most?) vendor prefixes and stop making websites for WebKit which is becoming a new (mobile) IE6. Responses have been numerous, including ppk who in his usual obnoxious manner [1] made some good points. Testing on [...]]]></description>
+			<content:encoded><![CDATA[<p>These have been eventful couple of days for web developers. CSS Working Group chair <a href="http://www.glazman.org/weblog/dotclear/index.php?post/2012/02/09/CALL-FOR-ACTION%3A-THE-OPEN-WEB-NEEDS-YOU-NOW">called on everyone </a>to use all (most?) vendor prefixes and stop making websites for WebKit which is becoming a new (mobile) IE6. Responses have been numerous, <a title="PPK's first article about prefixes" href="http://www.quirksmode.org/blog/archives/2012/02/the_vendor_pref.html">including</a> <a title="PPK's follow up to first article" href="http://www.quirksmode.org/blog/archives/2012/02/alpha_and_beta.html">ppk</a> who in his usual obnoxious manner <sup><a id="beta-prefix-1" href="#beta-prefix-note-1">[1]</a></sup> made some good points. Testing on mobile devices is an unsolved problem (who wants or can afford to buy so many almost immediately obsolete gadgets?) and introducing -beta- (maybe also -alpha-) prefix would simplify our lives while keeping most benefits of vendor prefixes.</p>
+<p>I like -beta- idea and I think adding -alpha- might be even better. There&#8217;s still a problem of resolving syntax conflicts between different implementation which I think has a simple solution that closely mimics what browsers already do:</p>
+<p><em>When parsing CSS browsers </em><em>should apply the last matching -beta-/-alpha- directive they fully understand.</em></p>
+<p>Browsers already ignore directives they don&#8217;t understand and they apply last directive found when there are multiple candidates for a DOM node.</p>
+<p>Such behavior would give us less CSS code to write and maintain, have predictable behavior and keep browser experimentation without favoring one. I have troubles finding negative sides of this approach, but do let me know if you can think of one.</p>
+<ol>
+<li id="beta-prefix-note-1">I deeply dislike his complaining about simplistic view of others while himself generalizing and name-calling (the lazy and stupid lot of us). Alas it&#8217;s not good to read only people you like and agree with.<a href="#beta-prefix-1">↩</a></li>
+<li>Almost everything I write on this blog has an intended  audience of one:  me (no, really!). Why I sometimes write posts like  this, which don&#8217;t, is a mistery  since their expected and actual effect on anyone  is&#8230;none.</li>
+</ol>
+]]></content:encoded>
+			<wfw:commentRss>http://markos.gaivo.net/blog/?feed=rss2&#038;p=929</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+		<item>
+		<title>Cookies, localStorage and shared state</title>
+		<link>http://markos.gaivo.net/blog/?p=898</link>
+		<comments>http://markos.gaivo.net/blog/?p=898#comments</comments>
+		<pubDate>Mon, 19 Dec 2011 16:05:48 +0000</pubDate>
+		<dc:creator>markos</dc:creator>
+				<category><![CDATA[General development]]></category>
+		<category><![CDATA[Web]]></category>
+		<category><![CDATA[browser]]></category>
+		<category><![CDATA[chrome]]></category>
+		<category><![CDATA[cookies]]></category>
+		<category><![CDATA[css]]></category>
+		<category><![CDATA[Firefox]]></category>
+		<category><![CDATA[html5]]></category>
+		<category><![CDATA[http]]></category>
+		<category><![CDATA[localstorage]]></category>
+		<category><![CDATA[shared state]]></category>
+		<category><![CDATA[stylesheet]]></category>
+
+		<guid isPermaLink="false">http://markos.gaivo.net/blog/?p=898</guid>
+		<description><![CDATA[I&#8217;ve been fiddling with my website again, changing theme switching from somewhat dumb class based system to a more proper one using alternate style sheets. I learned that picking a style sheet in browser applies those changes only to currently open page, so for style sheet selection to persevere it needs a bit of Javascript [...]]]></description>
+			<content:encoded><![CDATA[<p>I&#8217;ve been fiddling with my website again, changing theme switching from somewhat dumb class based system to a more proper one using alternate style sheets. I learned that picking a style sheet in browser applies those changes only to currently open page, so for style sheet selection to persevere it needs a bit of Javascript support from website owner. Personally I find this just stupid.</p>
+<p>The easiest way to remember visitor&#8217;s preference is to store it in his browser. Cookies used to be popular before they were deemed evil, but they have other limitations as well. Hence popular switch to HTML5 in-browser storage technologies like <a href="http://www.w3.org/TR/webstorage/">localStorage</a>.</p>
+<p>I think there is one important difference between cookies and tools like localStorage that is often overlooked and it&#8217;s not the size of data that can be stored. Cookies are sent with <em>each page request</em> while data stored elsewhere isn&#8217;t. Changing them on any side will automatically share state with the other. I use localStorage in my theme switcher because I think server doesn&#8217;t need and should not know which theme is used. But for storing shared data, especially one that expires, cookies remain a reasonable if not best choice.</p>
+<p>None of this is exactly new, but I think it is worth remembering. In other news I dislike interface limitations of Chrome more and more (exceptions are Developer Tools and extensions framework).</p>
+]]></content:encoded>
+			<wfw:commentRss>http://markos.gaivo.net/blog/?feed=rss2&#038;p=898</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+		<item>
+		<title>Reading sources</title>
+		<link>http://markos.gaivo.net/blog/?p=865</link>
+		<comments>http://markos.gaivo.net/blog/?p=865#comments</comments>
+		<pubDate>Mon, 21 Nov 2011 10:37:06 +0000</pubDate>
+		<dc:creator>markos</dc:creator>
+				<category><![CDATA[General development]]></category>
+		<category><![CDATA[Web]]></category>
+		<category><![CDATA[google reader]]></category>
+		<category><![CDATA[information]]></category>
+		<category><![CDATA[knowledge]]></category>
+		<category><![CDATA[social news]]></category>
+		<category><![CDATA[sources]]></category>
+
+		<guid isPermaLink="false">http://markos.gaivo.net/blog/?p=865</guid>
+		<description><![CDATA[Google Reader was redesigned lately and I&#8217;ve been annoyed ever since. I had a dubious privilege of cutting and changing product features people loved in pursuit of higher different goals, so I try to be understanding when others do the same. I mostly found clumsy workarounds for removed features, but I do wish I could [...]]]></description>
+			<content:encoded><![CDATA[<p>Google Reader was redesigned lately and I&#8217;ve been annoyed ever since. I had a dubious privilege of cutting and changing product features people loved in pursuit of <del>higher</del> different goals, so I try to be understanding when others do the same. I mostly found clumsy workarounds for removed features, but I do wish I could at least still trust that list of unread items actually has <em>all of them</em>. On a positive note I can save some electricity now because copious amounts of &#8220;helpfully&#8221; white whitespace illuminate this room brightly enough that you wouldn&#8217;t sit naked in-front of your computer even with lights turned off. That is if you are the sort of person who likes doing that but stops short of flashing your neighbors.</p>
+<p>I still strongly dislike changes made, but I continue using Google Reader, because crack-heads don&#8217;t give up dope just because it was cut too thinly. I cherish my list of reading sources and like a gardener I have been cultivating it through years because I believe they make me better informed than I would be if I relied only on links shared by others. This may be elitist, but it is also true.</p>
+<p>We are biased when choosing friends and communities we belong to. At the very least we enjoy our life more when surrounded with like minded people which is really a lighter shade of group think. We share to tell stories as much about what is shared as we do about who we are. Even when not self-censoring or trying to project an image we still are horribly bad at evaluating what influences us and how. Sharing everything, as <a href="http://techcrunch.com/2011/11/19/curation-through-unsharing/">this idiotic article</a> suggests, doesn&#8217;t fix this <sup><a id="reading-sources-1" href="#reading-sources-note-1">[1]</a></sup>. It&#8217;s still content from same people only more of it.</p>
+<p>Then there are social new sites, which are in essence news organizations with bigger editorial board. Their focus might not be the same and their world view less obvious (or not) as of traditional boards, but the end result really isn&#8217;t all that different. I don&#8217;t dread waking up in a world without <a title="Apple's homepage" href="http://www.apple.com">Apple</a> as I do in one without  fish, but it is not articles about all things piscatorial that keep popping up on regular basis.</p>
+<p>This doesn&#8217;t make socially filtered news useless, just limited and best suited for finding out what is popular at this moment. They should be a side dish not the whole diet. Getting some of your information diet from social sources may improve it, but relying only on them is just stupid. I wouldn&#8217;t fret so much if I didn&#8217;t worry about development trends &#8212; latest Reader changes being one example of them.</p>
+<p>Reader had two methods of sharing. Obvious one was button Share which was adequately replaced with sharing to <a href="http://plus.google.com">Google+</a> circles. The other one, which was the one I actually relied on, was to create public feeds for articles marked with certain tags. The most important difference is that in first case you grouped by intended audience and in second by actual content <sup><a id="reading-sources-2" href="#reading-sources-note-2">[2]</a></sup>. Instead of following me, you could just follow my selection on particular topic which in most cases would probably be closer to what you want.</p>
+<p>By itself stripping a feature like that doesn&#8217;t mean much. However when I also judge other changes such as aforementioned abundance of whitespace, removal of &#8220;Note to reader&#8221; and  new reading unfriendly theme, it&#8217;s easy to come to conclusion that all roads now lead to Google+. Reader&#8217;s role is at best to feed its younger brother with stuff to socialize around.</p>
+<p>It would be wrong to attribute these changes simply to competition with Facebook since they are a part of a larger trend to social curation. I find this trend just a normal consequence of a web ecosystem where most product innovation happens in VC funded startups. How companies were funded was always a part of their DNA and economics of today&#8217;s VC environment for companies that will probably be acquired at some point (and let&#8217;s be honest, who REALLY believes most news experiments won&#8217;t be?) almost demands a quick and high growth. It&#8217;s not impossible to achieve this with sources-based product, but it&#8217;s certainly harder and less obvious than creating another twist on social news.</p>
+<p>If my first and main point was a personal appeal to seek insight also in your own, personally picked sources, then my second is to question if shaping web and world with it should really be left only to industry and academia. It really doesn&#8217;t have to be this way.</p>
+<ol>
+<li id="reading-sources-note-1">Browser&#8217;s history is a great place to see just how much of what we visit is unimportant, unrepresentative and often unsharable. A small friction necessary for a deliberate act of sharing is actually a feature that gives at least a modicum of reflection on content&#8217;s share-worthiness.<a href="#reading-sources-1">↩</a></li>
+<li id="reading-sources-note-2">Feeds enable that and are one of crucial building blocks for what I started to call <em>social software for introverts</em>.  It is software which is better when used by many, but is good even when  you are its only user. <a title="Tool for saving pages to read them later" href="http://www.instapaper.com/">Instapaper</a> would be a perfect example of such an application and <a title="Evil empire" href="http://www.facebook.com/">Facebook</a> is a counter-example.<a href="#reading-sources-2">↩</a></li>
+</ol>
+]]></content:encoded>
+			<wfw:commentRss>http://markos.gaivo.net/blog/?feed=rss2&#038;p=865</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+		<item>
+		<title>Salary and geography</title>
+		<link>http://markos.gaivo.net/blog/?p=766</link>
+		<comments>http://markos.gaivo.net/blog/?p=766#comments</comments>
+		<pubDate>Wed, 21 Sep 2011 10:43:18 +0000</pubDate>
+		<dc:creator>markos</dc:creator>
+				<category><![CDATA[Company]]></category>
+		<category><![CDATA[General development]]></category>
+		<category><![CDATA[Balsamiq]]></category>
+		<category><![CDATA[Compensation]]></category>
+		<category><![CDATA[Compensation & Benefits]]></category>
+		<category><![CDATA[Employment]]></category>
+
+		<guid isPermaLink="false">http://markos.gaivo.net/blog/?p=766</guid>
+		<description><![CDATA[I recently read a couple of articles about employee compensation at Balsamiq. It is obvious that they really thought through this problem and came to what is an undoubtedly a generous package. It would be great to hear more about how they use OECD Consumer Price to calculate relative cost of living (since I fail [...]]]></description>
+			<content:encoded><![CDATA[<p>I recently read <a title="Link to article about salary" href="http://blogs.balsamiq.com/team/2011/09/12/salary/">a couple</a> <a title="Link to article about profit sharing" href="http://blogs.balsamiq.com/team/2011/09/12/profitsharing/">of articles</a> about employee compensation at <a class="zem_slink" title="Balsamiq" rel="homepage" href="http://www.balsamiq.com/">Balsamiq</a>. It is obvious that they really thought through this problem and came to what is an undoubtedly a generous package. It would be great to hear more about how they use OECD Consumer Price to calculate relative cost of living (since I fail to see how), but what really bothered me was a stated fairness of:</p>
+<blockquote cite="http://blogs.balsamiq.com/team/2011/09/12/salary/"><p>You are paid a little better than someone with your same job in your geographical area.</p></blockquote>
+<p>I am amazed at how often this view comes up in discussions I have about geographically distributed teams  and I still don&#8217;t find it fair. The only argument for it is the free market one. You are paid as little as company can get away with which in general is around average salary. Obviously this approach works only for those who can&#8217;t or won&#8217;t telecommute to somewhere with a higher salary or can&#8217;t find a more appealing environment with about same compensation. At least in our industry this certainly loses you a good chunk of top talent.</p>
+<p>A fair compensation should reflect value added by the employee. Two people doing same work and providing same value deserve to be paid equally no matter where they happen to live. It is somewhat hypocritical to price your service based on value provided and fail to do so with service provided to you by your employees.</p>
+<p>In essence it is also a judgement on what kind of living standard an employee deserves &#8211; about the same as peers around him. Probably alright if you happen to live somewhere like Stockholm and far less impressive in less developed parts of our planet, but fundamentally it is a judgement that shouldn&#8217;t be made by employers.</p>
+<p>For those paid enough to meet existential needs compensation isn&#8217;t the most important part of a job or at least it shouldn&#8217;t be. It certainly isn&#8217;t for me and I doubt Balsamiq employees are unhappy with theirs. I also don&#8217;t have a problem working for an organization with such a policy, but I still think it is wrong.</p>
+<p>A side note: have you noticed how every author describing their company practices says they are paying slightly above average? Either only people from above average companies write these kind of articles or some of them have to be delusional.</p>
+<div class="zemanta-pixie"><img class="zemanta-pixie-img" src="http://img.zemanta.com/pixy.gif?x-id=5d180352-0346-4276-be3b-2b4bf818c65a" alt="" /></div>
+]]></content:encoded>
+			<wfw:commentRss>http://markos.gaivo.net/blog/?feed=rss2&#038;p=766</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+		<item>
+		<title>Missing refer(r)ers</title>
+		<link>http://markos.gaivo.net/blog/?p=754</link>
+		<comments>http://markos.gaivo.net/blog/?p=754#comments</comments>
+		<pubDate>Tue, 20 Sep 2011 17:29:28 +0000</pubDate>
+		<dc:creator>markos</dc:creator>
+				<category><![CDATA[General development]]></category>
+		<category><![CDATA[Web]]></category>
+		<category><![CDATA[Flickr]]></category>
+		<category><![CDATA[HTTP referrer]]></category>
+		<category><![CDATA[Hypertext Transfer Protocol]]></category>
+		<category><![CDATA[Uniform Resource Identifier]]></category>
+
+		<guid isPermaLink="false">http://markos.gaivo.net/blog/?p=754</guid>
+		<description><![CDATA[I was talking to my wife today about why an &#8220;Unknown Source&#8221; is becoming the most common source of visits on Flickr. My guess is that it is almost certainly because a Referer header field is missing in page requests and Flickr is only relying on presence of this piece of data to discern sources. [...]]]></description>
+			<content:encoded><![CDATA[<p>I was talking to my wife today about why an &#8220;Unknown Source&#8221; is becoming the most common source of visits on <a class="zem_slink" title="Flickr" rel="homepage" href="http://flickr.com">Flickr</a>. My guess is that it is almost certainly because a <a class="zem_slink" title="HTTP referrer" rel="wikipedia" href="http://en.wikipedia.org/wiki/HTTP_referrer"><em>Referer</em></a> header field is missing in page requests and Flickr is only relying on presence of this piece of data to discern sources. This might have made sense when browsers ruled the web, but we don&#8217;t live then anymore.</p>
+<p>Simply put referrer field <a title="Link to Referer field definition" href="http://tools.ietf.org/html/rfc2616#section-14.36">can be added</a> to request only when request was triggered from source which also has an <a class="zem_slink" title="Uniform Resource Identifier" rel="wikipedia" href="http://en.wikipedia.org/wiki/Uniform_Resource_Identifier">URI</a> address. Every web page has it since its address is also an URI, but most programs don&#8217;t.</p>
+<p>That&#8217;s why referrers aren&#8217;t missing only from visitors using paranoid browsers or security software that stripped it out of requests, but also when page is visited from a link embedded in emails or instant messages.</p>
+<p>Requests without referrers used to present a small enough subset of visits that most of us didn&#8217;t care. I first noticed this changing when Twitter clients became popular and now there are tons of apps behaving like this. With <a title="Link to specification" href="http://www.w3.org/TR/XMLHttpRequest2/">XMLHttpRequest Level 2</a>﻿ even web developers will get a choice of making anonymous requests which won&#8217;t include potentially private data like referrers.</p>
+<p>That&#8217;s nice. I have certainly visited places which I wouldn&#8217;t want to share with strangers. But I suspect this is not the common case and most of the time we don&#8217;t care telling which page or application sent us there.</p>
+<p>Nobody can precisely predict future so specifications can never be perfect. But I am always amazed when reading core web specs like HTTP&#8217;s how insightful their authors were. That most programs don&#8217;t have a URI does not mean that they couldn&#8217;t. Practically anything can and definitely more things should.</p>
+<p>In principle it is possible for each program to have its own address which could be used as referrer <em>when a better option doesn&#8217;t exist</em>. I suspect this would be against the spirit of specification, but likely not against its text.</p>
+<p>However better options often do exist. Lets take <a class="zem_slink" title="Twitter" rel="homepage" href="http://twitter.com">Twitter</a> as a popular example. Every link that triggers a visit from Twitter was included in at least one tweet and every tweet is also published on web. It might not be accessible to everyone, but it does have an address. I see no reason why that address could not be used as referrer by Twitter clients.</p>
+<p>It is originating content or its address that interest me, but really, almost anything truthful beats an unknown source. Just knowing name of the service (like Twitter) or app used (e.g. Tweetdeck) would be better than nothing. By the way there is another header field that could provide such insight: <em>User-Agent</em>. Sadly it is notoriously unreliable and often missing as well, but that&#8217;s another long story.</p>
+<p>So, if I come back to Flickr. I can&#8217;t really tell how much Flickr can or could know. I suspect more than it tells, but I would be astonished if they are not mostly in the dark too. Web was largely built by people too busy (and often too lazy) not to cut corners. Meaning: learning and doing as little as possible to get something to work and sometimes we pay price for our ignorance. But it&#8217;s a small price compared to waiting for <a title="Description of project Xanadu on Wikipedia" href="http://en.wikipedia.org/wiki/Project_Xanadu">Xanadu</a>.</p>
+<div class="zemanta-pixie"><img class="zemanta-pixie-img" src="http://img.zemanta.com/pixy.gif?x-id=860d2c48-a1dc-49c5-85d1-277e4734d096" alt="" /></div>
+]]></content:encoded>
+			<wfw:commentRss>http://markos.gaivo.net/blog/?feed=rss2&#038;p=754</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+		<item>
+		<title>&lt;address&gt;</title>
+		<link>http://markos.gaivo.net/blog/?p=734</link>
+		<comments>http://markos.gaivo.net/blog/?p=734#comments</comments>
+		<pubDate>Fri, 26 Aug 2011 16:26:36 +0000</pubDate>
+		<dc:creator>markos</dc:creator>
+				<category><![CDATA[General development]]></category>
+		<category><![CDATA[Web]]></category>
+		<category><![CDATA[Data Formats]]></category>
+		<category><![CDATA[HTML]]></category>
+		<category><![CDATA[HTML element]]></category>
+		<category><![CDATA[Ian Hickson]]></category>
+		<category><![CDATA[Markup Languages]]></category>
+
+		<guid isPermaLink="false">http://markos.gaivo.net/blog/?p=734</guid>
+		<description><![CDATA[After years of personal embarrassment I finally managed to update look and code of my website. This actually happened last week and I wanted to write this post sooner, but other things came in-between. There are still bugs I need to fix (iPad footer is better than it was, but not fine), but﻿ overall I&#8217;m pretty happy with [...]]]></description>
+			<content:encoded><![CDATA[<p>After years of personal embarrassment I finally managed to update look and code of my website. This actually happened last week and I wanted to write this post sooner, but <a title="Supervizor" href="http://supervizor.kpk-rs.si">other things</a> came in-between. There are still bugs I need to fix (iPad footer is better than it was, but not fine), but﻿ overall I&#8217;m pretty happy with how it turned out.</p>
+<p>This was a second site I built using <a class="zem_slink" title="media queries" rel="homepage" href="http://www.w3.org/TR/css3-mediaqueries/">media queries</a> and I learned lots. When I learn a bit more about mobile web, I might write a post about few gotchas for new developers, but this is not that post. This post is about <code>&lt;address&gt;</code> tag because it bugged me when I made that first design and I spent a remarkable amount of time on it again.</p>
+<p>My problem with it came down to its definition. <code>&lt;address&gt;</code> can be used only to mark up contact information about content&#8217;s author. In HTML 4 this was limited to authorship of whole page. For HTML5 it <a title="Definition of &lt;address&gt; in HTML5 specification" href="http://dev.w3.org/html5/spec/sections.html#the-address-element">was &#8220;widened&#8221;</a> to authorship of sectioning element like <code>&lt;article&gt;</code> (so if you have more than one article on page, each can contain its own, different, address for its author). You can&#8217;t however mark any address with it and after lots of searching I found <a title="Ian's message from February 2008" href="http://lists.whatwg.org/htdig.cgi/whatwg-whatwg.org/2008-February/014023.html">this old message</a> from <a class="zem_slink" title="Ian Hickson" rel="wikipedia" href="http://en.wikipedia.org/wiki/Ian_Hickson">Ian Hickson</a> which explains why (I&#8217;m not aware of any later clarifications).</p>
+<p>I don&#8217;t agree with everything said. Mostly correct use is not necessarily a proof of well-designed element. My bet would be that <code>&lt;address&gt;</code> was a rather unknown tag exactly because of its limited use and was thus used mostly by those that dig deeper into standards, which sound also like people who care  how things are used as expected.</p>
+<p>Still most points are valid. Loosening definition would make it less meaningful. <a title="Specification of hCard microformat" href="http://microformats.org/wiki/hcard">There</a> <a title="Specification of adr microformat" href="http://microformats.org/wiki/adr">are</a> microformats that you can use instead and most annoying problems (allowing only inline content) have been fixed. We also have better tools for parsing HTML so  it really doesn&#8217;t matter much if its definition feels completely right or not. It&#8217;s good enough.</p>
+<p>At the end I still decided to mark my contact information on <a href="http://markos.gaivo.net">my homepage</a> with <code>&lt;address&gt;</code> anyhow (augmented with <a class="zem_slink" title="HCard" rel="wikipedia" href="http://en.wikipedia.org/wiki/HCard">hCard</a>), because I am after all the sole author of this website.</p>
+<div class="zemanta-pixie"><img class="zemanta-pixie-img" src="http://img.zemanta.com/pixy.gif?x-id=9e03fdb6-c5dc-4878-b734-7bec34cd9ced" alt="" /></div>
+]]></content:encoded>
+			<wfw:commentRss>http://markos.gaivo.net/blog/?feed=rss2&#038;p=734</wfw:commentRss>
+		<slash:comments>2</slash:comments>
+		</item>
+		<item>
+		<title>Gamification of book reading</title>
+		<link>http://markos.gaivo.net/blog/?p=664</link>
+		<comments>http://markos.gaivo.net/blog/?p=664#comments</comments>
+		<pubDate>Wed, 11 May 2011 16:15:30 +0000</pubDate>
+		<dc:creator>markos</dc:creator>
+				<category><![CDATA[General development]]></category>
+		<category><![CDATA[Web]]></category>
+		<category><![CDATA[Books]]></category>
+		<category><![CDATA[gamemechanics]]></category>
+		<category><![CDATA[Gamification]]></category>
+		<category><![CDATA[Kathy Sierra]]></category>
+		<category><![CDATA[Reading]]></category>
+
+		<guid isPermaLink="false">http://markos.gaivo.net/blog/?p=664</guid>
+		<description><![CDATA[I&#8217;ve been following subjects of gamification and game mechanics for a couple of years now, but I&#8217;ve only recently spotted how they apply to me. I conceitedly thought that they have little influence on me, but reality is as always more nuanced. I still seem to be unmoved by most attempts. I don&#8217;t care that [...]]]></description>
+			<content:encoded><![CDATA[<p>I&#8217;ve been following subjects of <a class="zem_slink" title="Gamification" rel="wikipedia" href="http://en.wikipedia.org/wiki/Gamification">gamification</a> and <a class="zem_slink" title="Game mechanics" rel="wikipedia" href="http://en.wikipedia.org/wiki/Game_mechanics">game mechanics</a> for a couple of years now, but I&#8217;ve only recently spotted how they apply to me. I conceitedly thought that they have little influence on me, but reality is as always more nuanced.</p>
+<p>I still seem to be unmoved by most attempts. I don&#8217;t care that my <a class="zem_slink" title="LinkedIn" rel="homepage" href="http://www.linkedin.com">LinkedIn</a> profile is not complete and no fake mayorship will get me to use <a class="zem_slink" title="Foursquare" rel="homepage" href="http://www.foursquare.com/">Foursquare</a> until I see some other tangible benefit. On the other hand keeping a list of books and having a goal on how many to read has indeed influenced my behavior.</p>
+<p>So why did this last example work? Because I actually care about reading books. It&#8217;s something I enjoy and want to do more, so &#8220;achievements&#8221; actually mean something to me.</p>
+<p>I started to track books I read because I wanted to know how many I actually read, in what order and does that say something about me. I also thought setting an annual goal would provide a good incentive to keep reading, which it did, but not exactly in a way I expected.</p>
+<p>Having a goal certainly helped me with additional motivation to read books when otherwise I might not have for one reason or another, but it also  gave me a nudge against dropping books I didn&#8217;t like since doing so would mean time invested in them would not get counted to achieving my goal.</p>
+<p>It also pushed me to thinner books. Less pages mean on average quicker completion. But there are books where six or eight hundred pages doesn&#8217;t feel too long and they shouldn&#8217;t be postponed just because it might take me more than a couple of weeks to read them.</p>
+<p>Time pressure also leads to more cursory reading. I&#8217;ve never been able to read as deeply as I thought I should, but having a goal definitely changed my reading for the worse. Again, properly engaging a book takes more time and hence makes it harder to achieve the goal.</p>
+<p>I didn&#8217;t notice any downsides from having a list itself which has indeed provided me with insights about me I probably could have if I wrote a diary. Which I don&#8217;t, so I&#8217;m left to piecing my long term memories mostly from circumstantial evidence.</p>
+<p>That&#8217;s why I&#8217;m keeping a list, but ditching my goal. Upside is simply not worth the downsides.</p>
+<p>I see my experience as providing a lesson. It&#8217;s relatively easy to go through different gaming mechanisms and find a combination that you think will give you results you want. However, incentives are a bitch and I think it&#8217;s practically impossible to reliably predict what will actually happen in use.</p>
+<p>That&#8217;s why complex modern games take so much time to create, because getting things right takes time and is not something you can reason through.</p>
+<p>I&#8217;m with <a class="zem_slink" title="Kathy Sierra" rel="homepage" href="http://headrush.typepad.com">Kathy Sierra</a> on this and you really ought to read <a title="Kathy Sierra's comments" href="http://radar.oreilly.com/2011/04/gamification-purpose-marketing.html#comment-7250008">her comments</a>. I&#8217;m skeptical of general awe around gamification, but I do think game mechanics will have an important role to play in our future. Still I would prefer if we cautiously applied new tools where they can&#8217;t hurt much before we plaster badges of suck everywhere.</p>
+<p>For a while now I&#8217;ve been annoyed by how every gamification talk has about 20 minutes of gushing of its virtues and about 20 seconds on possible ethics problems, but my experience has reminded me of the deeper problem, which is that it is simply much easier to inflict damage to your users and your product (brand) than getting it right.</p>
+<div class="zemanta-pixie"><a class="zemanta-pixie-a" title="Enhanced by Zemanta" href="http://www.zemanta.com/"><img class="zemanta-pixie-img" src="http://img.zemanta.com/zemified_e.png?x-id=20efb278-1d20-46ec-aeec-c311b50837c7" alt="Enhanced by Zemanta" /></a></div>
+]]></content:encoded>
+			<wfw:commentRss>http://markos.gaivo.net/blog/?feed=rss2&#038;p=664</wfw:commentRss>
+		<slash:comments>6</slash:comments>
+		</item>
+	</channel>
+</rss>

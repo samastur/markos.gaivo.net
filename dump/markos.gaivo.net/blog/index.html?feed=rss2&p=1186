@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+		>
+<channel>
+	<title>Comments on: 2013 review</title>
+	<atom:link href="http://markos.gaivo.net/blog/?feed=rss2&#038;p=1186" rel="self" type="application/rss+xml" />
+	<link>http://markos.gaivo.net/blog/?p=1186</link>
+	<description></description>
+	<lastBuildDate>Wed, 16 Jul 2014 16:04:38 +0000</lastBuildDate>
+	<sy:updatePeriod>hourly</sy:updatePeriod>
+	<sy:updateFrequency>1</sy:updateFrequency>
+	<generator>http://wordpress.org/?v=3.0.5</generator>
+	<item>
+		<title>By: Jochen</title>
+		<link>http://markos.gaivo.net/blog/?p=1186&#038;cpage=1#comment-324828</link>
+		<dc:creator>Jochen</dc:creator>
+		<pubDate>Thu, 02 Jan 2014 12:37:35 +0000</pubDate>
+		<guid isPermaLink="false">http://markos.gaivo.net/blog/?p=1186#comment-324828</guid>
+		<description>Thanks!</description>
+		<content:encoded><![CDATA[<p>Thanks!</p>
+]]></content:encoded>
+	</item>
+	<item>
+		<title>By: markos</title>
+		<link>http://markos.gaivo.net/blog/?p=1186&#038;cpage=1#comment-324827</link>
+		<dc:creator>markos</dc:creator>
+		<pubDate>Thu, 02 Jan 2014 11:52:40 +0000</pubDate>
+		<guid isPermaLink="false">http://markos.gaivo.net/blog/?p=1186#comment-324827</guid>
+		<description>@rok Glad to hear it, but I am only an email away and my address is not a secret ;)</description>
+		<content:encoded><![CDATA[<p>@rok Glad to hear it, but I am only an email away and my address is not a secret <img src='http://markos.gaivo.net/blog/wp-includes/images/smilies/icon_wink.gif' alt=';)' class='wp-smiley' /> </p>
+]]></content:encoded>
+	</item>
+	<item>
+		<title>By: markos</title>
+		<link>http://markos.gaivo.net/blog/?p=1186&#038;cpage=1#comment-324826</link>
+		<dc:creator>markos</dc:creator>
+		<pubDate>Thu, 02 Jan 2014 11:51:52 +0000</pubDate>
+		<guid isPermaLink="false">http://markos.gaivo.net/blog/?p=1186#comment-324826</guid>
+		<description>Hi Jochen. No special app, just a text document that can be easily replicated if needed. What I want from to-do list is to have a general overview of what needs to be done, approximate order in which to do it and a clear idea of what can or should be done next.
+
+In practice this means I have a long list of things to do, more or less ordered by priority. In general I don&#039;t spend too much time expanding items lower on the list unless I want to record something I fear I would later forget (potential gotcha; novel ideas...)
+
+I do expand first few items into parts ideally small enough that they can be done in half an hour (which to me is about the smallest reasonable time for meaningful development work). I prepare more than one so I have some choice in case I don&#039;t feel like working on particular problem or simply am not able to. This way I am never without something I can productively do.
+
+I don&#039;t work on list further below because it changes too often. Things get re-prioritized or dropped, new items are added. The usual stuff.
+
+If list feels too long, then I might break it into smaller parts (in the same document) so then the first list would contain tasks needed for next release and second (never had more than two yet) would contain the rest (basically iteration candidates and backlog).
+
+Of course each project gets its own document. I work on the list when I&#039;m running out of developed stories or when I don&#039;t have enough time or energy to do actual development.</description>
+		<content:encoded><![CDATA[<p>Hi Jochen. No special app, just a text document that can be easily replicated if needed. What I want from to-do list is to have a general overview of what needs to be done, approximate order in which to do it and a clear idea of what can or should be done next.</p>
+<p>In practice this means I have a long list of things to do, more or less ordered by priority. In general I don&#8217;t spend too much time expanding items lower on the list unless I want to record something I fear I would later forget (potential gotcha; novel ideas&#8230;)</p>
+<p>I do expand first few items into parts ideally small enough that they can be done in half an hour (which to me is about the smallest reasonable time for meaningful development work). I prepare more than one so I have some choice in case I don&#8217;t feel like working on particular problem or simply am not able to. This way I am never without something I can productively do.</p>
+<p>I don&#8217;t work on list further below because it changes too often. Things get re-prioritized or dropped, new items are added. The usual stuff.</p>
+<p>If list feels too long, then I might break it into smaller parts (in the same document) so then the first list would contain tasks needed for next release and second (never had more than two yet) would contain the rest (basically iteration candidates and backlog).</p>
+<p>Of course each project gets its own document. I work on the list when I&#8217;m running out of developed stories or when I don&#8217;t have enough time or energy to do actual development.</p>
+]]></content:encoded>
+	</item>
+	<item>
+		<title>By: rok</title>
+		<link>http://markos.gaivo.net/blog/?p=1186&#038;cpage=1#comment-324818</link>
+		<dc:creator>rok</dc:creator>
+		<pubDate>Wed, 01 Jan 2014 22:53:41 +0000</pubDate>
+		<guid isPermaLink="false">http://markos.gaivo.net/blog/?p=1186#comment-324818</guid>
+		<description>Glad to have you write these reports to at least know what your life is like once a year, hehe.</description>
+		<content:encoded><![CDATA[<p>Glad to have you write these reports to at least know what your life is like once a year, hehe.</p>
+]]></content:encoded>
+	</item>
+	<item>
+		<title>By: Jochen</title>
+		<link>http://markos.gaivo.net/blog/?p=1186&#038;cpage=1#comment-324817</link>
+		<dc:creator>Jochen</dc:creator>
+		<pubDate>Wed, 01 Jan 2014 21:49:11 +0000</pubDate>
+		<guid isPermaLink="false">http://markos.gaivo.net/blog/?p=1186#comment-324817</guid>
+		<description>Hi Markos,
+
+thank you this personal insight. Would you mind elaborating on your &quot;good to-to list&quot;? Is this a special app(lication) you are using, or a specific system?
+
+Thanks,
+Jochen.</description>
+		<content:encoded><![CDATA[<p>Hi Markos,</p>
+<p>thank you this personal insight. Would you mind elaborating on your &#8220;good to-to list&#8221;? Is this a special app(lication) you are using, or a specific system?</p>
+<p>Thanks,<br />
+Jochen.</p>
+]]></content:encoded>
+	</item>
+</channel>
+</rss>

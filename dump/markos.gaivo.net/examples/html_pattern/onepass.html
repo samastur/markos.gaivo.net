@@ -1,0 +1,42 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+    "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+  <title>Onepass demo</title>
+  <style type="text/css">
+html, body {width:100%;height:100%;padding:0;margin:0;}
+body {background:#333;}
+ul {list-style-type:none;position:absolute;left:50%;top:50%;margin:-5em 0 0 -11em;padding:0 0 0 1em;background:#fdfdfd;}
+li {line-height: 1.5em;padding:.5em 0;width:22em;}
+label {display:inline-block;width:6em;}
+label.em {display:inline;font-size:.9em;width:10em;}
+span {padding:0 0 0 6.5em;}
+#register {margin:0 0 0 7.5em;}
+  </style>
+
+  <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.2.6/jquery.min.js"></script>
+  <script type="text/javascript">
+(function () {
+	$(document).ready(function () {
+		$("#id_password").after('<br /><span><input type="checkbox" id="show_password" /><label for="show_password" class="em"> I am alone in this room</label></span>');
+
+		$("#show_password").click(function () {
+			var value = $("#id_password").val(),
+				type = (this.checked) ? "text" : "password";
+			$("#id_password").replaceWith('<input type="'+type+'" id="id_password" value="'+value+'" />');
+		});
+	});
+})();
+  </script>
+</head>
+<body>
+	<form action="#" method="post">
+		<ul>
+			<li><label for="id_email">Email:</label> <input type="text" name="email" id="id_email" /></li>
+			<li><label for="id_password">Password:</label> <input type="password" name="password" id="id_password" /></li>
+			<li><input type="submit" id="register" value="Register" /></li>
+		</ul>
+	</form>
+</body>
+</html>

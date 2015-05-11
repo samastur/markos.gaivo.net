@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+		>
+<channel>
+	<title>Comments on: Javascript events &#8211; drugi??</title>
+	<atom:link href="http://markos.gaivo.net/blog/?feed=rss2&#038;p=249" rel="self" type="application/rss+xml" />
+	<link>http://markos.gaivo.net/blog/?p=249</link>
+	<description></description>
+	<lastBuildDate>Wed, 16 Jul 2014 16:04:38 +0000</lastBuildDate>
+	<sy:updatePeriod>hourly</sy:updatePeriod>
+	<sy:updateFrequency>1</sy:updateFrequency>
+	<generator>http://wordpress.org/?v=3.0.5</generator>
+	<item>
+		<title>By: markos</title>
+		<link>http://markos.gaivo.net/blog/?p=249&#038;cpage=1#comment-118991</link>
+		<dc:creator>markos</dc:creator>
+		<pubDate>Sat, 08 Mar 2008 20:26:30 +0000</pubDate>
+		<guid isPermaLink="false">http://markos.gaivo.net/blog/?p=249#comment-118991</guid>
+		<description>Popravljene prosojnice si lahko &lt;a href=&quot;http://markos.gaivo.net/talks/jsevents/&quot; rel=&quot;nofollow&quot;&gt;ogledate&lt;/a&gt; ali pa preto??ite &lt;a href=&quot;http://markos.gaivo.net/talks/jsevents.zip&quot; rel=&quot;nofollow&quot;&gt;zip datoteko&lt;/a&gt;.</description>
+		<content:encoded><![CDATA[<p>Popravljene prosojnice si lahko <a href="http://markos.gaivo.net/talks/jsevents/">ogledate</a> ali pa preto??ite <a href="http://markos.gaivo.net/talks/jsevents.zip">zip datoteko</a>.</p>
+]]></content:encoded>
+	</item>
+</channel>
+</rss>

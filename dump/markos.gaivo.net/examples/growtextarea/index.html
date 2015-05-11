@@ -1,0 +1,49 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+	<head>
+		<title>Textarea autogrow test</title>
+		<meta content="text/html; charset=utf-8" http-equiv="Content-type" />
+		<style type="text/css">
+#hidden {
+	display: none;
+}
+TEXTAREA {
+	width: 500px;
+	border: 1px solid #999;
+	font-family: Geneva;
+}
+		</style>
+		<script type="text/javascript">
+function grow() {
+	// Opera isn't just broken. It's really twisted.
+	if (this.scrollHeight > this.clientHeight && !window.opera)
+		this.rows += 1;
+}
+
+function showValues() {
+	var d = document.getElementById("vals");
+	var t = document.getElementById("test");
+	d.innerHTML = "";
+
+	for(k in t)
+		if(typeof t[k] != "function" && typeof t[k] != "object" && typeof t[k] != "string")
+			d.innerHTML = d.innerHTML+"<br />"+k+" : "+t[k];
+}
+
+function init() {
+	if (!document.getElementById)
+		return;
+
+	document.getElementById("test").rows=7;
+	document.getElementById("test").onkeypress = grow;
+	document.getElementById("test").onmouseover = showValues;
+}
+
+window.onload = init;
+	</script>
+	</head>
+	<body>
+		<textarea id="test"></textarea>
+	<body>
+	<div id="vals"></div>
+</html>

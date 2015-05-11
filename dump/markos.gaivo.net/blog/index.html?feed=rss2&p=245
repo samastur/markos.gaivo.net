@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+		>
+<channel>
+	<title>Comments on: Suing myself</title>
+	<atom:link href="http://markos.gaivo.net/blog/?feed=rss2&#038;p=245" rel="self" type="application/rss+xml" />
+	<link>http://markos.gaivo.net/blog/?p=245</link>
+	<description></description>
+	<lastBuildDate>Wed, 16 Jul 2014 16:04:38 +0000</lastBuildDate>
+	<sy:updatePeriod>hourly</sy:updatePeriod>
+	<sy:updateFrequency>1</sy:updateFrequency>
+	<generator>http://wordpress.org/?v=3.0.5</generator>
+	<item>
+		<title>By: Marko</title>
+		<link>http://markos.gaivo.net/blog/?p=245&#038;cpage=1#comment-102261</link>
+		<dc:creator>Marko</dc:creator>
+		<pubDate>Thu, 03 Jan 2008 10:34:39 +0000</pubDate>
+		<guid isPermaLink="false">http://markos.gaivo.net/blog/?p=245#comment-102261</guid>
+		<description>True, but it&#039;s probably too wide if it covers whole field(s).</description>
+		<content:encoded><![CDATA[<p>True, but it&#8217;s probably too wide if it covers whole field(s).</p>
+]]></content:encoded>
+	</item>
+	<item>
+		<title>By: Brad Neuberg</title>
+		<link>http://markos.gaivo.net/blog/?p=245&#038;cpage=1#comment-100475</link>
+		<dc:creator>Brad Neuberg</dc:creator>
+		<pubDate>Fri, 28 Dec 2007 00:14:43 +0000</pubDate>
+		<guid isPermaLink="false">http://markos.gaivo.net/blog/?p=245#comment-100475</guid>
+		<description>Hi Markos, who said that your personal research agenda has to be focused? Much of the idea behind it is to have vague, overarching goals that can help orient yourself and guide you.
+
+Best,
+  Brad</description>
+		<content:encoded><![CDATA[<p>Hi Markos, who said that your personal research agenda has to be focused? Much of the idea behind it is to have vague, overarching goals that can help orient yourself and guide you.</p>
+<p>Best,<br />
+  Brad</p>
+]]></content:encoded>
+	</item>
+</channel>
+</rss>

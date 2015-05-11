@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+		>
+<channel>
+	<title>Comments on: XMLHttpRequest and status 0</title>
+	<atom:link href="http://markos.gaivo.net/blog/?feed=rss2&#038;p=109" rel="self" type="application/rss+xml" />
+	<link>http://markos.gaivo.net/blog/?p=109</link>
+	<description></description>
+	<lastBuildDate>Wed, 16 Jul 2014 16:04:38 +0000</lastBuildDate>
+	<sy:updatePeriod>hourly</sy:updatePeriod>
+	<sy:updateFrequency>1</sy:updateFrequency>
+	<generator>http://wordpress.org/?v=3.0.5</generator>
+	<item>
+		<title>By: Kendra</title>
+		<link>http://markos.gaivo.net/blog/?p=109&#038;cpage=1#comment-300993</link>
+		<dc:creator>Kendra</dc:creator>
+		<pubDate>Fri, 03 May 2013 05:15:28 +0000</pubDate>
+		<guid isPermaLink="false">http://markos.gaivo.net/blog/?p=109#comment-300993</guid>
+		<description>Good post! We will be linking to this particularly great post on our site.
+Keep up the good writing.</description>
+		<content:encoded><![CDATA[<p>Good post! We will be linking to this particularly great post on our site.<br />
+Keep up the good writing.</p>
+]]></content:encoded>
+	</item>
+	<item>
+		<title>By: Rene</title>
+		<link>http://markos.gaivo.net/blog/?p=109&#038;cpage=1#comment-259143</link>
+		<dc:creator>Rene</dc:creator>
+		<pubDate>Tue, 17 Jul 2012 22:40:00 +0000</pubDate>
+		<guid isPermaLink="false">http://markos.gaivo.net/blog/?p=109#comment-259143</guid>
+		<description>I used button type button instead of submit and now it works. Little different, but thanks! Without this blog, I wouldn&#039;t have looked at this at all!</description>
+		<content:encoded><![CDATA[<p>I used button type button instead of submit and now it works. Little different, but thanks! Without this blog, I wouldn&#8217;t have looked at this at all!</p>
+]]></content:encoded>
+	</item>
+	<item>
+		<title>By: Wesley Hilebrand</title>
+		<link>http://markos.gaivo.net/blog/?p=109&#038;cpage=1#comment-253787</link>
+		<dc:creator>Wesley Hilebrand</dc:creator>
+		<pubDate>Mon, 30 Apr 2012 15:40:08 +0000</pubDate>
+		<guid isPermaLink="false">http://markos.gaivo.net/blog/?p=109#comment-253787</guid>
+		<description>Thank you. I spent several hours on it verifying hard-code, and the problem was simpler.</description>
+		<content:encoded><![CDATA[<p>Thank you. I spent several hours on it verifying hard-code, and the problem was simpler.</p>
+]]></content:encoded>
+	</item>
+	<item>
+		<title>By: Shailendra Sajwan</title>
+		<link>http://markos.gaivo.net/blog/?p=109&#038;cpage=1#comment-249084</link>
+		<dc:creator>Shailendra Sajwan</dc:creator>
+		<pubDate>Mon, 13 Feb 2012 10:25:47 +0000</pubDate>
+		<guid isPermaLink="false">http://markos.gaivo.net/blog/?p=109#comment-249084</guid>
+		<description>me also facing the problem in xmlhttp.status=0 in firefox and chrome..although its working in IE...
+and so that xmlhttp.responseText is empty in firefox and chrome..</description>
+		<content:encoded><![CDATA[<p>me also facing the problem in xmlhttp.status=0 in firefox and chrome..although its working in IE&#8230;<br />
+and so that xmlhttp.responseText is empty in firefox and chrome..</p>
+]]></content:encoded>
+	</item>
+	<item>
+		<title>By: Tim</title>
+		<link>http://markos.gaivo.net/blog/?p=109&#038;cpage=1#comment-232981</link>
+		<dc:creator>Tim</dc:creator>
+		<pubDate>Fri, 03 Jun 2011 07:19:10 +0000</pubDate>
+		<guid isPermaLink="false">http://markos.gaivo.net/blog/?p=109#comment-232981</guid>
+		<description>I have an issue at this lines: Does anyone know why isn&#039;t this command correct and where i&#039;m wrong ? cause i&#039;m facing the following error:
+
+&quot;Could not open http protocol&quot;
+
+http.open(&#039;GET&#039;, &#039;try.xml&#039;, true);
+http.onreadystatechange = handleHttpResponse;</description>
+		<content:encoded><![CDATA[<p>I have an issue at this lines: Does anyone know why isn&#8217;t this command correct and where i&#8217;m wrong ? cause i&#8217;m facing the following error:</p>
+<p>&#8220;Could not open http protocol&#8221;</p>
+<p>http.open(&#8216;GET&#8217;, &#8216;try.xml&#8217;, true);<br />
+http.onreadystatechange = handleHttpResponse;</p>
+]]></content:encoded>
+	</item>
+	<item>
+		<title>By: Jacky Liu</title>
+		<link>http://markos.gaivo.net/blog/?p=109&#038;cpage=1#comment-224119</link>
+		<dc:creator>Jacky Liu</dc:creator>
+		<pubDate>Fri, 21 Jan 2011 16:59:16 +0000</pubDate>
+		<guid isPermaLink="false">http://markos.gaivo.net/blog/?p=109#comment-224119</guid>
+		<description>I was try to use AJAX to check connection to another page. It returned failed. I found that?
+open(&quot;GET&quot;, &quot;www.google.ca&quot;,true)   //status return 0
+open(&quot;GET&quot;, &quot;http://www.google.ca&quot;,true)  //status return 404.
+
+So I think the problem maybe in this URL.</description>
+		<content:encoded><![CDATA[<p>I was try to use AJAX to check connection to another page. It returned failed. I found that?<br />
+open(&#8220;GET&#8221;, &#8220;www.google.ca&#8221;,true)   //status return 0<br />
+open(&#8220;GET&#8221;, &#8220;http://www.google.ca&#8221;,true)  //status return 404.</p>
+<p>So I think the problem maybe in this URL.</p>
+]]></content:encoded>
+	</item>
+	<item>
+		<title>By: mozandy</title>
+		<link>http://markos.gaivo.net/blog/?p=109&#038;cpage=1#comment-223978</link>
+		<dc:creator>mozandy</dc:creator>
+		<pubDate>Wed, 19 Jan 2011 14:34:18 +0000</pubDate>
+		<guid isPermaLink="false">http://markos.gaivo.net/blog/?p=109#comment-223978</guid>
+		<description>The answer to this problem is that the servlet that you are calling needs to set the Access-Control-Allow-Origin in the header, like this:
+
+response.setHeader(&quot;Access-Control-Allow-Origin&quot;,&quot;*&quot;);
+
+For some reason, even in the same domain, anything based on Gecko, including Firefox, Chrome, etc. looks for this in the header from the servlet and if it doees not see this it aborts the connection prior to getting the xml from the servlet.</description>
+		<content:encoded><![CDATA[<p>The answer to this problem is that the servlet that you are calling needs to set the Access-Control-Allow-Origin in the header, like this:</p>
+<p>response.setHeader(&#8220;Access-Control-Allow-Origin&#8221;,&#8221;*&#8221;);</p>
+<p>For some reason, even in the same domain, anything based on Gecko, including Firefox, Chrome, etc. looks for this in the header from the servlet and if it doees not see this it aborts the connection prior to getting the xml from the servlet.</p>
+]]></content:encoded>
+	</item>
+	<item>
+		<title>By: Manjesh</title>
+		<link>http://markos.gaivo.net/blog/?p=109&#038;cpage=1#comment-222351</link>
+		<dc:creator>Manjesh</dc:creator>
+		<pubDate>Mon, 27 Dec 2010 13:56:36 +0000</pubDate>
+		<guid isPermaLink="false">http://markos.gaivo.net/blog/?p=109#comment-222351</guid>
+		<description>hi,
+your clue about  status code &#039;0&#039;  was very useful,it saved my time
+thanks lot.
+Manjesh
+from India</description>
+		<content:encoded><![CDATA[<p>hi,<br />
+your clue about  status code &#8217;0&#8242;  was very useful,it saved my time<br />
+thanks lot.<br />
+Manjesh<br />
+from India</p>
+]]></content:encoded>
+	</item>
+	<item>
+		<title>By: Igor G.</title>
+		<link>http://markos.gaivo.net/blog/?p=109&#038;cpage=1#comment-218701</link>
+		<dc:creator>Igor G.</dc:creator>
+		<pubDate>Wed, 20 Oct 2010 20:57:11 +0000</pubDate>
+		<guid isPermaLink="false">http://markos.gaivo.net/blog/?p=109#comment-218701</guid>
+		<description>Dude, you are a lifesaver!  Could&#039;ve been banging my head for many more hours if I hadn&#039;t come across your post.</description>
+		<content:encoded><![CDATA[<p>Dude, you are a lifesaver!  Could&#8217;ve been banging my head for many more hours if I hadn&#8217;t come across your post.</p>
+]]></content:encoded>
+	</item>
+	<item>
+		<title>By: udham</title>
+		<link>http://markos.gaivo.net/blog/?p=109&#038;cpage=1#comment-209331</link>
+		<dc:creator>udham</dc:creator>
+		<pubDate>Sat, 20 Mar 2010 11:07:36 +0000</pubDate>
+		<guid isPermaLink="false">http://markos.gaivo.net/blog/?p=109#comment-209331</guid>
+		<description>hai friend, you are rocking. I had a problem for more than a week, within a minutes I did it.</description>
+		<content:encoded><![CDATA[<p>hai friend, you are rocking. I had a problem for more than a week, within a minutes I did it.</p>
+]]></content:encoded>
+	</item>
+</channel>
+</rss>

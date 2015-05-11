@@ -1,0 +1,50 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+	<head>
+		<title>Textarea autogrow test</title>
+		<meta content="text/html; charset=utf-8" http-equiv="Content-type" />
+		<style type="text/css">
+#hidden {
+	display: none;
+}
+TEXTAREA {
+	width: 500px;
+	border: 1px solid #999;
+	font-family: Geneva;
+}
+		</style>
+		<script type="text/javascript">
+function grow(limit) {
+	if (!limit) limit = 5;
+
+	return function (e) {
+		if (!e) e = window.event;
+		var code = e.keyCode ? e.keyCode : 0;
+
+		if (code === 8 || code === 46) {
+			// Deletion
+			while (this.scrollHeight <= this.clientHeight && this.rows > limit) {
+				this.rows -= 1;
+			}
+		}
+		while (this.scrollHeight > this.clientHeight) {
+			this.rows += 1;
+		}
+	};
+}
+
+function init() {
+	if (!document.getElementById)
+		return;
+
+	document.getElementById("test").rows=7;
+	document.getElementById("test").onkeyup = grow(8);
+}
+
+window.onload = init;
+	</script>
+	</head>
+	<body>
+		<textarea id="test"></textarea>
+	<body>
+</html>

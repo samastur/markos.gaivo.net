@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+		>
+<channel>
+	<title>Comments on: Hide email address from spammers with Javascript</title>
+	<atom:link href="http://markos.gaivo.net/blog/?feed=rss2&#038;p=22" rel="self" type="application/rss+xml" />
+	<link>http://markos.gaivo.net/blog/?p=22</link>
+	<description></description>
+	<lastBuildDate>Wed, 16 Jul 2014 16:04:38 +0000</lastBuildDate>
+	<sy:updatePeriod>hourly</sy:updatePeriod>
+	<sy:updateFrequency>1</sy:updateFrequency>
+	<generator>http://wordpress.org/?v=3.0.5</generator>
+	<item>
+		<title>By: sandrar</title>
+		<link>http://markos.gaivo.net/blog/?p=22&#038;cpage=1#comment-201759</link>
+		<dc:creator>sandrar</dc:creator>
+		<pubDate>Thu, 10 Sep 2009 19:23:45 +0000</pubDate>
+		<guid isPermaLink="false">http://markos.gaivo.net/blog/?p=22#comment-201759</guid>
+		<description>Hi! I was surfing and found your blog post... nice! I love your blog.  :) Cheers! Sandra. R.</description>
+		<content:encoded><![CDATA[<p>Hi! I was surfing and found your blog post&#8230; nice! I love your blog.  <img src='http://markos.gaivo.net/blog/wp-includes/images/smilies/icon_smile.gif' alt=':)' class='wp-smiley' />  Cheers! Sandra. R.</p>
+]]></content:encoded>
+	</item>
+	<item>
+		<title>By: miguel</title>
+		<link>http://markos.gaivo.net/blog/?p=22&#038;cpage=1#comment-181338</link>
+		<dc:creator>miguel</dc:creator>
+		<pubDate>Sun, 01 Feb 2009 12:55:00 +0000</pubDate>
+		<guid isPermaLink="false">http://markos.gaivo.net/blog/?p=22#comment-181338</guid>
+		<description>Hello,
+there is a webpage, www.emailhide.org, that encrypts your email address in a secure manner. All you nedd to do is type in your email address and is returned html code with a link with your encrypted email. I&#039;ve tried and now i use it everytime. There&#039;s also a automatic gen for webmasters. Check it out.</description>
+		<content:encoded><![CDATA[<p>Hello,<br />
+there is a webpage, <a href="http://www.emailhide.org">http://www.emailhide.org</a>, that encrypts your email address in a secure manner. All you nedd to do is type in your email address and is returned html code with a link with your encrypted email. I&#8217;ve tried and now i use it everytime. There&#8217;s also a automatic gen for webmasters. Check it out.</p>
+]]></content:encoded>
+	</item>
+	<item>
+		<title>By: Jane</title>
+		<link>http://markos.gaivo.net/blog/?p=22&#038;cpage=1#comment-154254</link>
+		<dc:creator>Jane</dc:creator>
+		<pubDate>Sat, 16 Aug 2008 14:16:12 +0000</pubDate>
+		<guid isPermaLink="false">http://markos.gaivo.net/blog/?p=22#comment-154254</guid>
+		<description>Hi,
+I am using 
+&lt;a href=&quot;http://www.mobilefish.com/services/hideemail/hideemail.php&quot; rel=&quot;nofollow&quot;&gt;http://www.mobilefish.com/services/hideemail/hideemail.php&lt;/a&gt; to protect my email address against spam bots.
+This site also contains other useful tools.</description>
+		<content:encoded><![CDATA[<p>Hi,<br />
+I am using<br />
+<a href="http://www.mobilefish.com/services/hideemail/hideemail.php">http://www.mobilefish.com/services/hideemail/hideemail.php</a> to protect my email address against spam bots.<br />
+This site also contains other useful tools.</p>
+]]></content:encoded>
+	</item>
+	<item>
+		<title>By: markos</title>
+		<link>http://markos.gaivo.net/blog/?p=22&#038;cpage=1#comment-63523</link>
+		<dc:creator>markos</dc:creator>
+		<pubDate>Thu, 21 Jun 2007 20:22:57 +0000</pubDate>
+		<guid isPermaLink="false">http://markos.gaivo.net/blog/?p=22#comment-63523</guid>
+		<description>It shouldn&#039;t change the color of anything. Can you please send me an example, so I can see what the problem is?</description>
+		<content:encoded><![CDATA[<p>It shouldn&#8217;t change the color of anything. Can you please send me an example, so I can see what the problem is?</p>
+]]></content:encoded>
+	</item>
+	<item>
+		<title>By: leif</title>
+		<link>http://markos.gaivo.net/blog/?p=22&#038;cpage=1#comment-63347</link>
+		<dc:creator>leif</dc:creator>
+		<pubDate>Thu, 21 Jun 2007 10:30:14 +0000</pubDate>
+		<guid isPermaLink="false">http://markos.gaivo.net/blog/?p=22#comment-63347</guid>
+		<description>A problem is that it changes the textcolor to black.
+I want white text on black background, and what ever I do, style the entire table, the cell, or the &quot;change&quot; class, I only briefly see the unmunged adress in white, then the munged adress is in black;unreadable until I mark (as in &#039;select for cut/paste) the area with the cursor.
+
+#10: your adress is already harvested, and you will continue to receive spam for a very long time. You should change emailadress after munging works, but then your customers probably won&#039;t find you...
+
+Leif</description>
+		<content:encoded><![CDATA[<p>A problem is that it changes the textcolor to black.<br />
+I want white text on black background, and what ever I do, style the entire table, the cell, or the &#8220;change&#8221; class, I only briefly see the unmunged adress in white, then the munged adress is in black;unreadable until I mark (as in &#8216;select for cut/paste) the area with the cursor.</p>
+<p>#10: your adress is already harvested, and you will continue to receive spam for a very long time. You should change emailadress after munging works, but then your customers probably won&#8217;t find you&#8230;</p>
+<p>Leif</p>
+]]></content:encoded>
+	</item>
+	<item>
+		<title>By: Edith</title>
+		<link>http://markos.gaivo.net/blog/?p=22&#038;cpage=1#comment-22125</link>
+		<dc:creator>Edith</dc:creator>
+		<pubDate>Sat, 30 Dec 2006 19:34:43 +0000</pubDate>
+		<guid isPermaLink="false">http://markos.gaivo.net/blog/?p=22#comment-22125</guid>
+		<description>I am having a horrible problem with spamers, and desperately need to stop them for emailing over 500 email per day into my inboxes. 
+
+I don&#039;t know JavaScript at all...did I mention I know nothing. I am a self taught coder due to the inability of a new business to be able to afford an expert.
+
+1st. Is there a way for you to paste the code that goes into the head of the document on this page for copying. I can&#039;t open the file extention.
+2nd. Is there a way to hightlight or bold the sections I would need to change in order to put my email addresses into the pages? (know what I&#039;m talking about?)
+3rd. Is there a specific place within the page that I need to put certain code and if so what code?</description>
+		<content:encoded><![CDATA[<p>I am having a horrible problem with spamers, and desperately need to stop them for emailing over 500 email per day into my inboxes. </p>
+<p>I don&#8217;t know JavaScript at all&#8230;did I mention I know nothing. I am a self taught coder due to the inability of a new business to be able to afford an expert.</p>
+<p>1st. Is there a way for you to paste the code that goes into the head of the document on this page for copying. I can&#8217;t open the file extention.<br />
+2nd. Is there a way to hightlight or bold the sections I would need to change in order to put my email addresses into the pages? (know what I&#8217;m talking about?)<br />
+3rd. Is there a specific place within the page that I need to put certain code and if so what code?</p>
+]]></content:encoded>
+	</item>
+	<item>
+		<title>By: markos</title>
+		<link>http://markos.gaivo.net/blog/?p=22&#038;cpage=1#comment-13311</link>
+		<dc:creator>markos</dc:creator>
+		<pubDate>Mon, 13 Nov 2006 09:43:58 +0000</pubDate>
+		<guid isPermaLink="false">http://markos.gaivo.net/blog/?p=22#comment-13311</guid>
+		<description>I did. There&#039;s a link to an updated version of the script right at the start of the post.</description>
+		<content:encoded><![CDATA[<p>I did. There&#8217;s a link to an updated version of the script right at the start of the post.</p>
+]]></content:encoded>
+	</item>
+	<item>
+		<title>By: Jeroen Haan</title>
+		<link>http://markos.gaivo.net/blog/?p=22&#038;cpage=1#comment-13245</link>
+		<dc:creator>Jeroen Haan</dc:creator>
+		<pubDate>Sun, 12 Nov 2006 23:03:21 +0000</pubDate>
+		<guid isPermaLink="false">http://markos.gaivo.net/blog/?p=22#comment-13245</guid>
+		<description>&lt;a id=&quot;mailto&quot; onmouseover=&quot;mailto()&quot; href=&quot;#&quot;&gt;jeroen ad haan dot net&lt;/a&gt;</description>
+		<content:encoded><![CDATA[<p>&lt;a id=&#8221;mailto&#8221; onmouseover=&#8221;mailto()&#8221; href=&#8221;#&#8221;&gt;jeroen ad haan dot net&lt;/a&gt;</p>
+]]></content:encoded>
+	</item>
+	<item>
+		<title>By: Jeroen Haan</title>
+		<link>http://markos.gaivo.net/blog/?p=22&#038;cpage=1#comment-13244</link>
+		<dc:creator>Jeroen Haan</dc:creator>
+		<pubDate>Sun, 12 Nov 2006 22:59:59 +0000</pubDate>
+		<guid isPermaLink="false">http://markos.gaivo.net/blog/?p=22#comment-13244</guid>
+		<description>Why not do something with user interaction?
+
+
+function mailto()
+{
+	document.getElementById(&#039;mailto&#039;).href = &#039;mailto:jeroen@haan.net&#039;;
+}
+
+
+&lt;a href=&quot;#&quot; rel=&quot;nofollow&quot;&gt;jeroen ad haan dot net&lt;/a&gt;</description>
+		<content:encoded><![CDATA[<p>Why not do something with user interaction?</p>
+<p>function mailto()<br />
+{<br />
+	document.getElementById(&#8216;mailto&#8217;).href = &#8216;mailto:jeroen@haan.net&#8217;;<br />
+}</p>
+<p><a href="#">jeroen ad haan dot net</a></p>
+]]></content:encoded>
+	</item>
+	<item>
+		<title>By: markos</title>
+		<link>http://markos.gaivo.net/blog/?p=22&#038;cpage=1#comment-509</link>
+		<dc:creator>markos</dc:creator>
+		<pubDate>Fri, 30 Dec 2005 21:44:59 +0000</pubDate>
+		<guid isPermaLink="false">http://markos.gaivo.net/blog/?p=22#comment-509</guid>
+		<description>Certainly an interesting idea. The only problem I have with it is that it&#039;s difficult to read email address for visually impaired people.</description>
+		<content:encoded><![CDATA[<p>Certainly an interesting idea. The only problem I have with it is that it&#8217;s difficult to read email address for visually impaired people.</p>
+]]></content:encoded>
+	</item>
+</channel>
+</rss>

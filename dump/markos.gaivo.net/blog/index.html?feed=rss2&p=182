@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+		>
+<channel>
+	<title>Comments on: Marela uploader for series 60 phones &#8211; first public version</title>
+	<atom:link href="http://markos.gaivo.net/blog/?feed=rss2&#038;p=182" rel="self" type="application/rss+xml" />
+	<link>http://markos.gaivo.net/blog/?p=182</link>
+	<description></description>
+	<lastBuildDate>Wed, 16 Jul 2014 16:04:38 +0000</lastBuildDate>
+	<sy:updatePeriod>hourly</sy:updatePeriod>
+	<sy:updateFrequency>1</sy:updateFrequency>
+	<generator>http://wordpress.org/?v=3.0.5</generator>
+	<item>
+		<title>By: Steve Holden</title>
+		<link>http://markos.gaivo.net/blog/?p=182&#038;cpage=1#comment-3103</link>
+		<dc:creator>Steve Holden</dc:creator>
+		<pubDate>Wed, 07 Jun 2006 16:36:39 +0000</pubDate>
+		<guid isPermaLink="false">http://markos.gaivo.net/blog/?p=182#comment-3103</guid>
+		<description>The point of &quot;release early, release often&quot; is to have a set of tests. You only release code that passes all the tests, which means you don&#039;t need to worry about releasing code you &quot;know is faulty&quot; - though early releases frequently do contain errors that cause you to refine the tests!</description>
+		<content:encoded><![CDATA[<p>The point of &#8220;release early, release often&#8221; is to have a set of tests. You only release code that passes all the tests, which means you don&#8217;t need to worry about releasing code you &#8220;know is faulty&#8221; &#8211; though early releases frequently do contain errors that cause you to refine the tests!</p>
+]]></content:encoded>
+	</item>
+</channel>
+</rss>

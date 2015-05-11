@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+		>
+<channel>
+	<title>Comments on: PyCon</title>
+	<atom:link href="http://markos.gaivo.net/blog/?feed=rss2&#038;p=129" rel="self" type="application/rss+xml" />
+	<link>http://markos.gaivo.net/blog/?p=129</link>
+	<description></description>
+	<lastBuildDate>Wed, 16 Jul 2014 16:04:38 +0000</lastBuildDate>
+	<sy:updatePeriod>hourly</sy:updatePeriod>
+	<sy:updateFrequency>1</sy:updateFrequency>
+	<generator>http://wordpress.org/?v=3.0.5</generator>
+	<item>
+		<title>By: projecktzero</title>
+		<link>http://markos.gaivo.net/blog/?p=129&#038;cpage=1#comment-942</link>
+		<dc:creator>projecktzero</dc:creator>
+		<pubDate>Mon, 27 Feb 2006 17:58:37 +0000</pubDate>
+		<guid isPermaLink="false">http://markos.gaivo.net/blog/?p=129#comment-942</guid>
+		<description>Join the club. I&#039;ve been waiting to hear a response from my employer on my travel request to attend PyCon. I followed up a couple of times until the week before the conference, and then I gave up asking. In true Dilbert fashion, I expect to hear that it&#039;s been approved. Then I&#039;ll put in a request for a Time Machine to go back in time and attend the conference. =)</description>
+		<content:encoded><![CDATA[<p>Join the club. I&#8217;ve been waiting to hear a response from my employer on my travel request to attend PyCon. I followed up a couple of times until the week before the conference, and then I gave up asking. In true Dilbert fashion, I expect to hear that it&#8217;s been approved. Then I&#8217;ll put in a request for a Time Machine to go back in time and attend the conference. =)</p>
+]]></content:encoded>
+	</item>
+</channel>
+</rss>

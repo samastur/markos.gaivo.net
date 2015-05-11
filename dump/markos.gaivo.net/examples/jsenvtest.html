@@ -1,0 +1,68 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+     "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
+<head>
+	<title>JS events test</title>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<style type="text/css">
+HTML, BODY {
+	height: 100%;
+	background: #dcdcdc;
+}
+UL {
+	float: right;
+	width: 200px;
+	border: 1px solid #ccc;
+}
+LI {
+	list-style-type: none;
+}
+	</style>
+	<script type="text/javascript" language="javascript">
+function addMessage(txt) {
+	var ul = document.getElementsByTagName("ul")[0];
+	var li = document.createElement("li");
+	li.innerHTML = txt;
+	ul.insertBefore(li, ul.firstChild);
+}
+
+function click (e) {
+	addMessage("left button clicked");
+}
+
+function move() {
+	addMessage("mouse moved");
+}
+
+function moveout() {
+	addMessage("mouse out");
+}
+
+function moveover() {
+	addMessage("mouse over");
+}
+
+function mousedown(e) {
+	addMessage("button down");
+}
+
+function mouseup(e) {
+	addMessage("button up");
+}
+
+window.onload = function () {
+	var body = document.getElementsByTagName("body")[0];
+	body.addEventListener("click", click, false);
+	body.addEventListener("mousemove", move, false);
+	body.addEventListener("mouseout", moveout, false);
+	body.addEventListener("mouseover", moveover, false);
+	body.addEventListener("mousedown", mousedown, false);
+	body.addEventListener("mouseup", mouseup, false);
+}
+	</script>
+</head>
+<body>
+<ul>
+</ul>
+</body>
+</html>

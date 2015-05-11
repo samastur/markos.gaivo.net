@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+		>
+<channel>
+	<title>Comments on: Single post trackback spam</title>
+	<atom:link href="http://markos.gaivo.net/blog/?feed=rss2&#038;p=141" rel="self" type="application/rss+xml" />
+	<link>http://markos.gaivo.net/blog/?p=141</link>
+	<description></description>
+	<lastBuildDate>Wed, 16 Jul 2014 16:04:38 +0000</lastBuildDate>
+	<sy:updatePeriod>hourly</sy:updatePeriod>
+	<sy:updateFrequency>1</sy:updateFrequency>
+	<generator>http://wordpress.org/?v=3.0.5</generator>
+	<item>
+		<title>By: Brian King</title>
+		<link>http://markos.gaivo.net/blog/?p=141&#038;cpage=1#comment-1077</link>
+		<dc:creator>Brian King</dc:creator>
+		<pubDate>Mon, 27 Mar 2006 11:43:32 +0000</pubDate>
+		<guid isPermaLink="false">http://markos.gaivo.net/blog/?p=141#comment-1077</guid>
+		<description>I use Spam Karma, and am very happy with it. Only about 1 spam every couple of months gets through. And no false positives.
+
+http://unknowngenius.com/blog/wordpress/spam-karma/
+
+As for the particular feature you are looking for, turning trackback off on a particular post, I am not sure if it has that. But on the features page it lists something that might help:
+
+&quot;Filter settings may be applied on one or all comment spams and you can test, play, and adjust the to your personal needs. Most filters are the same as SK1, with better code and default settings. Only noticeable addition is a Trackback referrer check. It imposes the same condition on Trackbacks and Pingbacks, which is perhaps harsher that it should, but possibly better than disabling completely.&quot;
+
+http://www.wp-plugins.net/wiki/index.php?title=SK2_User_Guide</description>
+		<content:encoded><![CDATA[<p>I use Spam Karma, and am very happy with it. Only about 1 spam every couple of months gets through. And no false positives.</p>
+<p><a href="http://unknowngenius.com/blog/wordpress/spam-karma/">http://unknowngenius.com/blog/wordpress/spam-karma/</a></p>
+<p>As for the particular feature you are looking for, turning trackback off on a particular post, I am not sure if it has that. But on the features page it lists something that might help:</p>
+<p>&#8220;Filter settings may be applied on one or all comment spams and you can test, play, and adjust the to your personal needs. Most filters are the same as SK1, with better code and default settings. Only noticeable addition is a Trackback referrer check. It imposes the same condition on Trackbacks and Pingbacks, which is perhaps harsher that it should, but possibly better than disabling completely.&#8221;</p>
+<p><a href="http://www.wp-plugins.net/wiki/index.php?title=SK2_User_Guide">http://www.wp-plugins.net/wiki/index.php?title=SK2_User_Guide</a></p>
+]]></content:encoded>
+	</item>
+</channel>
+</rss>

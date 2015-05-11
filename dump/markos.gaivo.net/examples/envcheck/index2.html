@@ -1,0 +1,103 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+	<head>
+		<title>Detecting actual media type from JS</title>
+		<meta content="text/html; charset=utf-8" http-equiv="Content-type" />
+		<link rel="stylesheet" type="text/css" media="screen, projection" href="screen.css" />
+		<link rel="stylesheet" type="text/css" media="handheld" href="mobile.css" />
+		<script type="text/javascript">
+function findMediaType(mtype) {
+	var i;
+	var s = []; var m = {}; var elm;
+	var f;
+	var media = []; var d;
+	var sheets = document.styleSheets;
+	var remove = false;
+
+	// We do this here so there are (hopefully) no timing issues in Safari
+	(mtype) ? elm = mtype : elm = "mediatype";
+	if (!document.getElementById(elm)) {
+		d = document.createElement("div");
+		d.id = elm;
+		d.style.visibility = "hidden"; // Display property can confuse browsers
+		document.getElementsByTagName("body")[0].appendChild(d);
+		remove = true;
+	}
+
+	// Find possibly active sheets (those which aren't disabled)
+	for(i=0; i<sheets.length; i++)
+		if(!sheets[i].disabled) { // Check only enabled style sheets
+			var mlist = [];
+			if (typeof(sheets[i].media) == "string") // Explorer
+				mlist = sheets[i].media.split(",");
+			else    // More or less everybody else
+				mlist = sheets[i].media.mediaText.split(",");
+			s[s.length] = [sheets[i],mlist];
+		}
+
+	try {
+		f = document.defaultView.getComputedStyle(d, null).fontSize;
+	} catch (e) {
+		// IE
+		if (d.currentStyle)
+			f = d.currentStyle.fontSize;
+		else
+			return "";
+	}
+
+	if (remove)
+		document.getElementsByTagName("body")[0].removeChild(d); // Superfluous
+
+	// Search for match(es)
+	for(i=0;i<s.length;i++) {
+		var srule = "";
+		if (s[i][0].rules)
+			srule = s[i][0].rules[0].style.fontSize;
+		else if (s[i][0].cssRules)
+			srule = s[i][0].cssRules[0].style.fontSize;
+		if(srule == f) {
+			// Match => add missing types
+			for(var j=0;j<s[i][1].length;j++) {
+				if(s[i][1][j]==" " || s[i][1][j]=="") continue; // Stupid Safari
+
+				m[s[i][1][j]] = 1;
+			}
+		}
+	}
+	for(t in m) media[media.length] = t;
+
+	return media;
+}
+
+function init() {
+	var size = "";
+	var mediatype = findMediaType('mediatype').join(",");
+	var h1 = document.getElementById("title");
+	try {
+		size = document.defaultView.getComputedStyle(h1, null).fontSize;
+	} catch (e) {
+		// IE
+		if (h1.currentStyle)
+			size = h1.currentStyle.fontSize;
+	}
+	var scr = document.createElement("script");
+	scr.type = "text/javascript";
+
+	(mediatype.search("handheld")>=0)? scr.src = "mobile.js" : scr.src = "screen.js";
+
+	document.getElementsByTagName("head")[0].appendChild(scr);
+}
+
+window.onload = init;
+	</script>
+	</head>
+	<body>
+		<h1 id="title">Title</h1>
+		<p>
+			Almost empty paragraph
+		<p>
+		<p class="info">
+			Scripts are executed only on page (re)load.
+		</p>
+	</body>
+</html>

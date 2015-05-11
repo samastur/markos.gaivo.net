@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+		>
+<channel>
+	<title>Comments on: Magic Ink</title>
+	<atom:link href="http://markos.gaivo.net/blog/?feed=rss2&#038;p=224" rel="self" type="application/rss+xml" />
+	<link>http://markos.gaivo.net/blog/?p=224</link>
+	<description></description>
+	<lastBuildDate>Wed, 16 Jul 2014 16:04:38 +0000</lastBuildDate>
+	<sy:updatePeriod>hourly</sy:updatePeriod>
+	<sy:updateFrequency>1</sy:updateFrequency>
+	<generator>http://wordpress.org/?v=3.0.5</generator>
+	<item>
+		<title>By: minmax</title>
+		<link>http://markos.gaivo.net/blog/?p=224&#038;cpage=1#comment-46136</link>
+		<dc:creator>minmax</dc:creator>
+		<pubDate>Sat, 21 Apr 2007 21:49:46 +0000</pubDate>
+		<guid isPermaLink="false">http://markos.gaivo.net/blog/?p=224#comment-46136</guid>
+		<description>for some time now I am breeding the idea that users really want _less_ interaction with programs and would like to let the computer do all the work it can as automatically as possible and the fix up what computer has done wrong afterwards. Using software not in interactive manner, but through batches.</description>
+		<content:encoded><![CDATA[<p>for some time now I am breeding the idea that users really want _less_ interaction with programs and would like to let the computer do all the work it can as automatically as possible and the fix up what computer has done wrong afterwards. Using software not in interactive manner, but through batches.</p>
+]]></content:encoded>
+	</item>
+</channel>
+</rss>

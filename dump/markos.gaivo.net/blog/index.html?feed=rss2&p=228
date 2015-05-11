@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+		>
+<channel>
+	<title>Comments on: Students, wikipedia and adsense</title>
+	<atom:link href="http://markos.gaivo.net/blog/?feed=rss2&#038;p=228" rel="self" type="application/rss+xml" />
+	<link>http://markos.gaivo.net/blog/?p=228</link>
+	<description></description>
+	<lastBuildDate>Wed, 16 Jul 2014 16:04:38 +0000</lastBuildDate>
+	<sy:updatePeriod>hourly</sy:updatePeriod>
+	<sy:updateFrequency>1</sy:updateFrequency>
+	<generator>http://wordpress.org/?v=3.0.5</generator>
+	<item>
+		<title>By: fett</title>
+		<link>http://markos.gaivo.net/blog/?p=228&#038;cpage=1#comment-70413</link>
+		<dc:creator>fett</dc:creator>
+		<pubDate>Wed, 25 Jul 2007 08:32:55 +0000</pubDate>
+		<guid isPermaLink="false">http://markos.gaivo.net/blog/?p=228#comment-70413</guid>
+		<description>I like the idea of students writing wikipedia articles. The only drawback is that the quality would almost certainly drop, since these students would actually be training their skills on a public encyclopaedia instead of in the privacy of their own classroom where errors are hidden from our eyes. :)</description>
+		<content:encoded><![CDATA[<p>I like the idea of students writing wikipedia articles. The only drawback is that the quality would almost certainly drop, since these students would actually be training their skills on a public encyclopaedia instead of in the privacy of their own classroom where errors are hidden from our eyes. <img src='http://markos.gaivo.net/blog/wp-includes/images/smilies/icon_smile.gif' alt=':)' class='wp-smiley' /> </p>
+]]></content:encoded>
+	</item>
+</channel>
+</rss>

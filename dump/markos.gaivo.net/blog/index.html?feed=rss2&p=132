@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+		>
+<channel>
+	<title>Comments on: Firefox and defer=&#8221;defer&#8221;</title>
+	<atom:link href="http://markos.gaivo.net/blog/?feed=rss2&#038;p=132" rel="self" type="application/rss+xml" />
+	<link>http://markos.gaivo.net/blog/?p=132</link>
+	<description></description>
+	<lastBuildDate>Wed, 16 Jul 2014 16:04:38 +0000</lastBuildDate>
+	<sy:updatePeriod>hourly</sy:updatePeriod>
+	<sy:updateFrequency>1</sy:updateFrequency>
+	<generator>http://wordpress.org/?v=3.0.5</generator>
+	<item>
+		<title>By: Brian  King</title>
+		<link>http://markos.gaivo.net/blog/?p=132&#038;cpage=1#comment-989</link>
+		<dc:creator>Brian  King</dc:creator>
+		<pubDate>Thu, 09 Mar 2006 10:26:48 +0000</pubDate>
+		<guid isPermaLink="false">http://markos.gaivo.net/blog/?p=132#comment-989</guid>
+		<description>This Google Analytics (GA blackout seems to be happening quite often. It just happened to me today for about half an hour. Yes it does suck, from a user point of view as well as a webmaster.
+
+One a related note, I found a Firefox extension called CustomizeGoogle, and one of its features is to block GA cookies. For the paranoid, if you don&#039;t want sites compiling data about your visit.
+
+http://www.customizegoogle.com/block-google-analytics-cookies.html</description>
+		<content:encoded><![CDATA[<p>This Google Analytics (GA blackout seems to be happening quite often. It just happened to me today for about half an hour. Yes it does suck, from a user point of view as well as a webmaster.</p>
+<p>One a related note, I found a Firefox extension called CustomizeGoogle, and one of its features is to block GA cookies. For the paranoid, if you don&#8217;t want sites compiling data about your visit.</p>
+<p><a href="http://www.customizegoogle.com/block-google-analytics-cookies.html">http://www.customizegoogle.com/block-google-analytics-cookies.html</a></p>
+]]></content:encoded>
+	</item>
+</channel>
+</rss>

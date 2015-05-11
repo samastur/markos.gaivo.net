@@ -1,0 +1,276 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>A notch above a monkey &#187; UI</title>
+	<atom:link href="http://markos.gaivo.net/blog/?feed=rss2&#038;cat=7" rel="self" type="application/rss+xml" />
+	<link>http://markos.gaivo.net/blog</link>
+	<description></description>
+	<lastBuildDate>Mon, 26 Jan 2015 07:00:03 +0000</lastBuildDate>
+	<language>en</language>
+	<sy:updatePeriod>hourly</sy:updatePeriod>
+	<sy:updateFrequency>1</sy:updateFrequency>
+	<generator>http://wordpress.org/?v=3.0.5</generator>
+		<item>
+		<title>Sign-up, Facebook Connect and ownership</title>
+		<link>http://markos.gaivo.net/blog/?p=598</link>
+		<comments>http://markos.gaivo.net/blog/?p=598#comments</comments>
+		<pubDate>Tue, 08 Jun 2010 19:35:52 +0000</pubDate>
+		<dc:creator>markos</dc:creator>
+				<category><![CDATA[General development]]></category>
+		<category><![CDATA[UI]]></category>
+		<category><![CDATA[Web]]></category>
+		<category><![CDATA[Facebook]]></category>
+		<category><![CDATA[Facebook Connect]]></category>
+		<category><![CDATA[Joshua Porter]]></category>
+		<category><![CDATA[relationship]]></category>
+		<category><![CDATA[sign-up]]></category>
+		<category><![CDATA[ux]]></category>
+
+		<guid isPermaLink="false">http://markos.gaivo.net/blog/?p=598</guid>
+		<description><![CDATA[Joshua Porter&#8217;s workshop at recent UX London conference was great and a must see if you can, but there is something that&#8217;s been bugging me since. In discussion about difficulties of getting people to sign-up for service, Joshua mentioned how some companies see connecting with Facebook Connect as Facebook &#8220;owning&#8221; their users. They are right, [...]]]></description>
+			<content:encoded><![CDATA[<p><a class="zem_slink" title="Joshua Porter" rel="blog" href="http://bokardo.com">Joshua Porter&#8217;s</a> workshop at recent UX London conference was great and a must see if you can, but there is something that&#8217;s been bugging me since. In discussion about difficulties of getting people to sign-up for service, Joshua mentioned how some companies see connecting with <a class="zem_slink" title="Facebook Connect" rel="homepage" href="http://developers.facebook.com/connect.php">Facebook Connect</a> as Facebook &#8220;owning&#8221; their users.</p>
+<p>They are right, but it doesn&#8217;t matter much. Relying on Facebook for authentication certainly makes Facebook sort of a gatekeeper. This does not matter because it can and should be a transitional phase in an evolving relationship.</p>
+<p>My view is based on assumption that company wants to build a long lasting relationship with a customer. This may not be true, but then there really is no point in having a sign-up at all. Avoid friction of one, make a trade and move on.</p>
+<p>I think most user lifecycle strategies look like trying to get laid by the end of evening while hoping to start a long-term relationship. It might work, but how likely?</p>
+<p>There are two things relationships need. Continuing benefit to parties involved and mutual trust. And trust is built through actions over time.</p>
+<p>Traditional UX life cycle can be seen as:</p>
+<blockquote><p>Awareness -&gt; Sign-up -&gt; First-time use -&gt; Engagement -&gt; Referral</p></blockquote>
+<p>Each step has to offer more benefits to person taking it as it requires more trust. Moving sign-up after first-time use changes dynamic by making service prove itself before asking same of its user.</p>
+<p>Using Facebook Connect (or <a class="zem_slink" title="OAuth" rel="homepage" href="http://oauth.net">OAuth</a>, <a class="zem_slink" title="OpenID Foundation" rel="homepage" href="http://openid.net">OpenID</a>&#8230;) is just going further in mimicking natural relationship building. It&#8217;s asking of a smaller commitment at a fragile stage of relationship. You can ask for a bigger commitment with your own authentication later on, when you have already proven your worth and gain enough trust. You could even offer something available only to &#8220;full&#8221; members to make such commitment more enticing.</p>
+<p>If you are building years long relationship like I have with Amazon, does it really matter if you get me to fully sign-up after third month instead of first?</p>
+<p>Hence sign-up should be thought of as a gradual process taken over time instead of one-time obstacle.</p>
+<p>All this is just speculation at this point, but I hope to test it on two projects this year. If I do, I&#8217;ll let you know how it went.</p>
+<div class="zemanta-pixie"><a class="zemanta-pixie-a" title="Reblog this post [with Zemanta]" href="http://reblog.zemanta.com/zemified/ef945133-8712-4aa1-9413-aa52f5f6c2c5/"><img class="zemanta-pixie-img" src="http://img.zemanta.com/reblog_e.png?x-id=ef945133-8712-4aa1-9413-aa52f5f6c2c5" alt="Reblog this post [with Zemanta]" /></a></div>
+]]></content:encoded>
+			<wfw:commentRss>http://markos.gaivo.net/blog/?feed=rss2&#038;p=598</wfw:commentRss>
+		<slash:comments>7</slash:comments>
+		</item>
+		<item>
+		<title>My prototypes on YouTube</title>
+		<link>http://markos.gaivo.net/blog/?p=588</link>
+		<comments>http://markos.gaivo.net/blog/?p=588#comments</comments>
+		<pubDate>Fri, 26 Mar 2010 11:22:17 +0000</pubDate>
+		<dc:creator>markos</dc:creator>
+				<category><![CDATA[Company]]></category>
+		<category><![CDATA[UI]]></category>
+		<category><![CDATA[interactions]]></category>
+		<category><![CDATA[job]]></category>
+		<category><![CDATA[prototype]]></category>
+		<category><![CDATA[prototypes]]></category>
+		<category><![CDATA[Zemanta]]></category>
+
+		<guid isPermaLink="false">http://markos.gaivo.net/blog/?p=588</guid>
+		<description><![CDATA[I am not much of a YouTube user, but I have recently started to upload some of my work there. You might find them interesting if you are into interactions prototypes for products that may never be (especially if you are a Zemanta user). I want to stress that while we use prototypes to learn [...]]]></description>
+			<content:encoded><![CDATA[<p>I am not much of a <a title="My YouTube channel" href="http://www.youtube.com/user/msamastur">YouTube user</a>, but I have recently started to upload some of my work <a title="my demos on youtube" href="http://www.youtube.com/user/msamastur">there</a>. You might find them interesting if you are into interactions prototypes for products that may never be (especially if you are a <a class="zem_slink" title="Zemanta" rel="homepage" href="http://www.zemanta.com">Zemanta</a> user).</p>
+<p>I want to stress that while we use prototypes to learn what to implement and how, there is no guarantee that any particular feature shown will be actually included in our products. We do make an effort of listening to our users so please tell us what you think.</p>
+<p>This is also a good time to mention that I don&#8217;t lead front-end team at Zemanta anymore. My new title is Chief Product Officer which is a fancy way of saying that it is my task to care about our products and our users more deeply than anybody else.</p>
+<h6 class="zemanta-related-title">Related articles by Zemanta</h6>
+<ul class="zemanta-article-ul">
+<li class="zemanta-article-ul-li"><a href="http://www.zemanta.com/blog/zemanta-hackday-spring-2010/">Zemanta Hackday Spring 2010</a> (zemanta.com)</li>
+</ul>
+<div class="zemanta-pixie"><a class="zemanta-pixie-a" title="Reblog this post [with Zemanta]" href="http://reblog.zemanta.com/zemified/4c4d711e-ab3a-4cf8-80df-8db0aab43dc3/"><img class="zemanta-pixie-img" src="http://img.zemanta.com/reblog_e.png?x-id=4c4d711e-ab3a-4cf8-80df-8db0aab43dc3" alt="Reblog this post [with Zemanta]" /></a></div>
+]]></content:encoded>
+			<wfw:commentRss>http://markos.gaivo.net/blog/?feed=rss2&#038;p=588</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+		<item>
+		<title>Self-referencing page links</title>
+		<link>http://markos.gaivo.net/blog/?p=311</link>
+		<comments>http://markos.gaivo.net/blog/?p=311#comments</comments>
+		<pubDate>Sat, 27 Dec 2008 16:23:46 +0000</pubDate>
+		<dc:creator>markos</dc:creator>
+				<category><![CDATA[Javascript]]></category>
+		<category><![CDATA[UI]]></category>
+		<category><![CDATA[Web]]></category>
+		<category><![CDATA[bug]]></category>
+		<category><![CDATA[HTML]]></category>
+		<category><![CDATA[pattern]]></category>
+		<category><![CDATA[unobtrusive enhancement]]></category>
+
+		<guid isPermaLink="false">http://markos.gaivo.net/blog/?p=311</guid>
+		<description><![CDATA[There&#8217;s an HTML pattern that has been bugging me for a while even though I&#8217;m guilty of using it too. It&#8217;s even present on page you are reading right now. Almost every page has a navigation bar and chances are that strip is presented as some kind of a list of links. Just as it [...]]]></description>
+			<content:encoded><![CDATA[<p>There&#8217;s an HTML pattern that has been bugging me for a while even though I&#8217;m guilty of using it too. It&#8217;s even present on page you are reading right now.</p>
+<p>Almost every page has a navigation bar and chances are that strip is presented as some kind of a list of links. Just as it should be. What bothers me is that when you actually are on page listed in navigation, its navigation item will <a title="An example of this pattern" href="http://www.alistapart.com/articles/">still contain</a> a link to it.</p>
+<p>This reference to itself is like having a door in a room which leads you back in. Not very useful and certainly misleading.</p>
+<p>Better approach is to simply not have a link when that link would point to page itself. Such HTML is also more semantic, since it&#8217;s clear which item was selected and where we are even without a style sheet.</p>
+<p>When discussing this observation it was pointed out to me that with proliferation of Javascript and AJAX you might want to give your visitors a way to bring a page to a known state by reloading it. I think this is more than adequately solved by reload button that every browser has and most users know, but if you find having a link a better solution, why not try a compromise. Just add the missing link with Javascript in spirit of <a href="http://markos.gaivo.net/examples/html_pattern/link.html">this demo</a>.</p>
+<p>This way you won&#8217;t polute content markup with behavior that should sit on top of it.</p>
+]]></content:encoded>
+			<wfw:commentRss>http://markos.gaivo.net/blog/?feed=rss2&#038;p=311</wfw:commentRss>
+		<slash:comments>4</slash:comments>
+		</item>
+		<item>
+		<title>Tweaking pages</title>
+		<link>http://markos.gaivo.net/blog/?p=296</link>
+		<comments>http://markos.gaivo.net/blog/?p=296#comments</comments>
+		<pubDate>Tue, 28 Oct 2008 06:59:53 +0000</pubDate>
+		<dc:creator>markos</dc:creator>
+				<category><![CDATA[UI]]></category>
+		<category><![CDATA[Web]]></category>
+		<category><![CDATA[browser]]></category>
+		<category><![CDATA[Firefox]]></category>
+		<category><![CDATA[greasemonkey]]></category>
+		<category><![CDATA[Mozilla]]></category>
+		<category><![CDATA[Web page]]></category>
+
+		<guid isPermaLink="false">http://markos.gaivo.net/blog/?p=296</guid>
+		<description><![CDATA[I recently came back from Berlin, where I publicly asked John Lily why haven&#8217;t they integrated Greasemonkey into Firefox. Wrong question can hardly lead to right answer. What I really wanted to know was: &#8220;Why doesn&#8217;t Mozilla integrate Greasemonkey-LIKE functionality in a browser?&#8221; Browser is at the farthest reach of web creators. It&#8217;s them who [...]]]></description>
+			<content:encoded><![CDATA[<p>I recently came back from Berlin, where I publicly asked <a title="John's homepage" href="http://john.jubjubs.net/">John Lily</a> why haven&#8217;t they integrated <a class="zem_slink" title="Greasemonkey" rel="homepage" href="http://www.greasespot.net/">Greasemonkey</a> into <a class="zem_slink" title="Firefox" rel="homepage" href="http://www.mozilla.com/en-US/firefox/">Firefox</a>. Wrong question can hardly lead to right answer. What I really wanted to know was:</p>
+<p><em>&#8220;Why doesn&#8217;t <a class="zem_slink" title="Mozilla" rel="homepage" href="http://mozilla.com">Mozilla</a> integrate Greasemonkey-LIKE functionality in a browser?&#8221;</em></p>
+<p>Browser is at the farthest reach of web creators. It&#8217;s them who decide how a page will look like when it gets loaded and what visitors will be able to do with it. User actions that were not anticipated by page designers are limited to printing a page, tweaking its display a bit with user style sheets, seeing its source and copying text elsewhere.</p>
+<p>Browser is also an application that is loaded on someone&#8217;s computer and belongs to him, as much as software can belong to somebody in EULA-infested world. Not every browser is equal, but pretty much all of them limit what you can do with page (beyond its creators intentions)  to above actions. The real question than for me becomes:</p>
+<p><em>&#8220;To whom does a browser belong to?&#8221;</em></p>
+<p>One reason why I love Greasemonkey is that it enabled me to fix and change pages that I find lacking. Not every page has navigation where it should be and lots of them display parts of text in illegibly small letters. It can also help me plug different services together. It is indeed geeky, as Brady Forrest observed, but useful implementation doesn&#8217;t need to be. I find <a href="http://platypus.mozdev.org/">Platypus extension</a> a good first step to how a browser could further empower its users in customizing pages even further to their needs.</p>
+<p>I thought about downsides to this since Thursday and I&#8217;m failing to find anything substantial.</p>
+<div class="zemanta-pixie"><a class="zemanta-pixie-a" title="Zemified by Zemanta" href="http://reblog.zemanta.com/zemified/371a642d-6da1-4089-8b93-ef701f1cdb08/"><img class="zemanta-pixie-img" src="http://img.zemanta.com/reblog_e.png?x-id=371a642d-6da1-4089-8b93-ef701f1cdb08" alt="Reblog this post [with Zemanta]" /></a></div>
+]]></content:encoded>
+			<wfw:commentRss>http://markos.gaivo.net/blog/?feed=rss2&#038;p=296</wfw:commentRss>
+		<slash:comments>2</slash:comments>
+		</item>
+		<item>
+		<title>HyperScope and my blog&#8217;s evolution</title>
+		<link>http://markos.gaivo.net/blog/?p=207</link>
+		<comments>http://markos.gaivo.net/blog/?p=207#comments</comments>
+		<pubDate>Thu, 07 Sep 2006 12:07:37 +0000</pubDate>
+		<dc:creator>markos</dc:creator>
+				<category><![CDATA[General development]]></category>
+		<category><![CDATA[UI]]></category>
+		<category><![CDATA[Web]]></category>
+
+		<guid isPermaLink="false">http://markos.gaivo.net/blog/?p=207</guid>
+		<description><![CDATA[I&#8217;ve been writing less lately, which had little to do with summer laziness and more with me thinking about publishing on the web. Many have said that Internet (or Web) is not a television, but neither is it a magazine or a book. Yet I find myself again and again leaning on preconceptions picked up [...]]]></description>
+			<content:encoded><![CDATA[<p>I&#8217;ve been writing less lately, which had little to do with summer laziness and more with me thinking about publishing on the web.</p>
+<p>Many have said that Internet (or Web) is not a television, but neither is it a magazine or a book. Yet I find myself again and again leaning on preconceptions picked up from my favorite medium. So this summer has been spent exploring my preconceived notions and trying to find out which of them still make sense on the web and how to tackle those which don&#8217;t.</p>
+<p>And the result of this exploration? I still don&#8217;t like WordPress, so I might go about writing my own publishing platform which would offer me an opportunity to test some of newfound ideas. Or I won&#8217;t, recognizing vast amount of time needed and I&#8217;ll end up only writing an article or two. But what I&#8217;m certain I will do is write less.</p>
+<p>In a world where every monkey can publish so almost every one of us eventually does restraint is a virtue. There were too many posts that neither benefited me nor those who came across them. Maybe I won&#8217;t change the signal-noise ratio, but I will put less crap out there in absolute terms.</p>
+<p>Related to all these thinking is a recent announcement of <a href="http://hyperscope.org/">HyperScope</a>. Doug Engelbart&#8217;s vision of <a href="http://hyperscope.org/hyperscope/src/demos/augment-132082.opml">Open Hyperdocument System</a> (link may not work in every browser) has been a source of many ideas this summer and it&#8217;s certainly nice to finally have available a system to test at least some of them.</p>
+]]></content:encoded>
+			<wfw:commentRss>http://markos.gaivo.net/blog/?feed=rss2&#038;p=207</wfw:commentRss>
+		<slash:comments>1</slash:comments>
+		</item>
+		<item>
+		<title>Auto-grow TEXTAREA</title>
+		<link>http://markos.gaivo.net/blog/?p=198</link>
+		<comments>http://markos.gaivo.net/blog/?p=198#comments</comments>
+		<pubDate>Mon, 31 Jul 2006 11:58:05 +0000</pubDate>
+		<dc:creator>markos</dc:creator>
+				<category><![CDATA[Javascript]]></category>
+		<category><![CDATA[UI]]></category>
+		<category><![CDATA[Web]]></category>
+
+		<guid isPermaLink="false">http://markos.gaivo.net/blog/?p=198</guid>
+		<description><![CDATA[Update 6.8.2009: This post is old and somewhat obsolete, but has been kept alive by commentators. Hence I posted an updated version of the script in comments. Fry recently mentioned a TEXTAREA improvement he found. As you type your text in the box, it grows in length as needed to avoid having to deal with [...]]]></description>
+			<content:encoded><![CDATA[<p><em><strong>Update 6.8.2009:</strong> This post is old and somewhat obsolete, but has been kept alive by commentators. Hence I posted an updated version of the script in comments.</em></p>
+<p><a href="http://friedcellcollective.net/outbreak/">Fry</a> recently mentioned a TEXTAREA improvement he found. As you type your text in the box, it grows in length as needed to avoid having to deal with scroll bars.</p>
+<p>I liked the idea and went to create my own version. Making it work in Internet Explorer and Firefox was literally a matter of seconds. All you really need to do is compare elements <em>clientHeight</em> with its <em>scrollHeight</em> on key presses and increment <em>rows</em> attribute when former is smaller than later.</p>
+<p>But supporting Opera and Safari has proven to be an insurmountable task for now. They simply don&#8217;t seem to update any property that could reliably be used for measuring the height of the text (but would love to be proven wrong).</p>
+<p>You can try a <a href="http://markos.gaivo.net/examples/growtextarea/index.html">demo</a>, which also doubles as a test environment for reading interesting attributes on the fly (updates are done with mouse over input box).</p>
+<p>Random bits of observation:</p>
+<ul>
+<li><em>scrollHeight</em> is always bigger than <em>clientHeight</em> in Opera. Hence the need to ignore it using its unique fingerprint.</li>
+<li>I didn&#8217;t try to work out the length of the text by trying to count the number of lines (using <em>\n</em>) and the length of each of them. Proportional fonts prevent any such reasonable guess.</li>
+<li>I didn&#8217;t try to limit the growth of the box to the boundaries of the screen. I find page scroll bars the least annoying when scroll bars can&#8217;t be avoided. It&#8217;s a personal choice though.</li>
+</ul>
+]]></content:encoded>
+			<wfw:commentRss>http://markos.gaivo.net/blog/?feed=rss2&#038;p=198</wfw:commentRss>
+		<slash:comments>21</slash:comments>
+		</item>
+		<item>
+		<title>Accessible DHTML and other bits</title>
+		<link>http://markos.gaivo.net/blog/?p=197</link>
+		<comments>http://markos.gaivo.net/blog/?p=197#comments</comments>
+		<pubDate>Sun, 30 Jul 2006 22:11:16 +0000</pubDate>
+		<dc:creator>markos</dc:creator>
+				<category><![CDATA[Javascript]]></category>
+		<category><![CDATA[UI]]></category>
+		<category><![CDATA[Web]]></category>
+
+		<guid isPermaLink="false">http://markos.gaivo.net/blog/?p=197</guid>
+		<description><![CDATA[I&#8217;ve been neglecting my blog recently. There was no shortage of news, but somehow I didn&#8217;t feel like writing. My mind is preoccupied with other things and where the hell is the cold and wet summer everyone promised? Google announced accessible web search for the visually impaired. I see it as a great step in [...]]]></description>
+			<content:encoded><![CDATA[<p>I&#8217;ve been neglecting my blog recently. There was no shortage of news, but somehow I didn&#8217;t feel like writing. My mind is preoccupied with other things and where the hell is the cold and wet summer everyone promised?</p>
+<p>Google announced <a href="http://labs.google.com/accessible/">accessible web search</a> for the visually impaired. I see it as a great step in creating an accessible web search for everyone.</p>
+<p>Najdi.si is <a href="http://zemljevid.najdi.si/?q=" title="Link to map service">testing</a> a slovenian version of Google maps, which obviously can&#8217;t be more accurate than its source data, but works very well nevertheless.</p>
+<p>But I&#8217;ve been most pleased to discover something else. I gave <a href="http://markos.gaivo.net/blog/?p=195" title="Link to talk announcement">a talk</a> recently and we spent quite some time discussing AJAX and Javascript accessibility issues. I wish I knew back then about <a href="http://developer.mozilla.org/en/docs/Accessible_DHTML" title="Link to accessible DHTML implementation in Firefox 1.5">this</a>.</p>
+<p>Not only is there a draft of a specification for making widgets accessible, we even got a test environment with Firefox 1.5. I&#8217;ve only had the time to scan through specification, so my view should be taken with a big pinch of salt, but my first impression is definitely positive. We&#8217;ll see how it develops after I had time to digest it and make a few tests.</p>
+]]></content:encoded>
+			<wfw:commentRss>http://markos.gaivo.net/blog/?feed=rss2&#038;p=197</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+		<item>
+		<title>FlashAid</title>
+		<link>http://markos.gaivo.net/blog/?p=191</link>
+		<comments>http://markos.gaivo.net/blog/?p=191#comments</comments>
+		<pubDate>Tue, 04 Jul 2006 09:21:15 +0000</pubDate>
+		<dc:creator>markos</dc:creator>
+				<category><![CDATA[Javascript]]></category>
+		<category><![CDATA[UI]]></category>
+		<category><![CDATA[Web]]></category>
+
+		<guid isPermaLink="false">http://markos.gaivo.net/blog/?p=191</guid>
+		<description><![CDATA[Ever since I listened to Andy Clarke&#8217;s talk at @media, I&#8217;ve been convinced that what we&#8217;re missing is a simple way to distinguish between visitors which need accessible version of the site and those who would prefer to use a non-accessible version. I still think that by and large sites should be made accessible to [...]]]></description>
+			<content:encoded><![CDATA[<p>Ever since I listened to Andy Clarke&#8217;s talk at @media, I&#8217;ve been convinced that what we&#8217;re missing is a simple way to distinguish between visitors which need accessible version of the site and those who would prefer to use a non-accessible version.</p>
+<p>I still think that by and large sites should be made accessible to everyone and done so completely. But just as Braille signs are used only by those who need them, there&#8217;s no reason why everyone should be using the same user interface when not doing so can be beneficial.</p>
+<p>Those who&#8217;ve been dabbling with Javascript and AJAX for a while have probably noticed that it can be very difficult if often not impossible to make every piece of interface accessible. A common approach was to add javascript as a layer on top of an accessible website, which could be turned off when necessary. I find this a rather blunt instrument, since all or nothing approach removes even pieces that may be useful and accessible. Yet, there didn&#8217;t seem to be a better way.</p>
+<p>Accessibility preference would ideally be provided by a browser in a way that can be picked up with Javascript (environment variable?), but lacking that, I was looking for a way to signal such preference through user defined CSS. My idea was to define a syntactically valid, but normally not used combination of a page element, CSS property and its value that could be interpreted as a switch for accessible version of the site.</p>
+<p>Well, now <a href="http://osflash.org/flashaid">there&#8217;s</a> another way to learn if screen reader is used (<a href="http://domscripting.com/blog/display/77#comment-container">via</a> Jeremy Keith), which uses Flash 8 and its JS-Flash bridge to read if such a device is present. Obviously its use is not universal, but it covers scenario that troubles me most.</p>
+<p>Still a real fix would be a better support from user agents. It doesn&#8217;t seem to be that hard to add an environment variable and a preference switch, so is there some other reason why it hasn&#8217;t happened yet?</p>
+]]></content:encoded>
+			<wfw:commentRss>http://markos.gaivo.net/blog/?feed=rss2&#038;p=191</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+		<item>
+		<title>Snooping on customization</title>
+		<link>http://markos.gaivo.net/blog/?p=190</link>
+		<comments>http://markos.gaivo.net/blog/?p=190#comments</comments>
+		<pubDate>Fri, 30 Jun 2006 20:35:39 +0000</pubDate>
+		<dc:creator>markos</dc:creator>
+				<category><![CDATA[UI]]></category>
+
+		<guid isPermaLink="false">http://markos.gaivo.net/blog/?p=190</guid>
+		<description><![CDATA[You know you have a busy week when you don&#8217;t get around to posting a couple of sentences short note. It&#8217;s been great seeing that Microsoft proved what I&#8217;ve been saying all along. Customization can be a problem especially when it benefits few on account of many. On the other hand, does anyone wonder HOW [...]]]></description>
+			<content:encoded><![CDATA[<p>You know you have a busy week when you don&#8217;t get around to posting a couple of sentences short note.</p>
+<p>It&#8217;s been great seeing that Microsoft <a href="http://blogs.msdn.com/jensenh/archive/2006/06/27/648269.aspx">proved</a> what I&#8217;ve been saying all along. Customization can be a problem especially when it benefits few on account of many.</p>
+<p>On the other hand, does anyone wonder HOW do they know all that?</p>
+]]></content:encoded>
+			<wfw:commentRss>http://markos.gaivo.net/blog/?feed=rss2&#038;p=190</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+		<item>
+		<title>Plivadon&#8217;s accessibility</title>
+		<link>http://markos.gaivo.net/blog/?p=181</link>
+		<comments>http://markos.gaivo.net/blog/?p=181#comments</comments>
+		<pubDate>Mon, 05 Jun 2006 10:45:04 +0000</pubDate>
+		<dc:creator>markos</dc:creator>
+				<category><![CDATA[General development]]></category>
+		<category><![CDATA[UI]]></category>
+
+		<guid isPermaLink="false">http://markos.gaivo.net/blog/?p=181</guid>
+		<description><![CDATA[I really dislike headaches and although I don&#8217;t get them as often as I used to, they are usually not as easy to shake of. That&#8217;s why we have several different pills in our home to battle this nuisance. I recently noticed that one of them, Plivadon, has its name stamped in Braille on the [...]]]></description>
+			<content:encoded><![CDATA[<p>I really dislike headaches and although I don&#8217;t get them as often as I used to, they are usually not as easy to shake of. That&#8217;s why we have several different pills in our home to battle this nuisance. I recently noticed that one of them, Plivadon, has its name stamped in Braille on the box (click for a bigger picture):</p>
+<p><a href="http://www.marela.si/photos/6581/?original" title="Full size picture" class="imageL"><img src="http://static.marela.si/users0/markos/2/ndkvtPUIDCSxe-m9hlVPA8rI8xc.jpg" alt="A box of Plivadon pill's" /></a><br />
+It&#8217;s great that <a href="http://www.pliva.com/">Pliva</a> (Plivadon&#8217;s maker) makes its product more accessible to blind people. At the same time, this is also a good example of how difficult good accessibility is.</p>
+<p>It&#8217;s a common misconception that all blind people either know how to read Braille or can learn how to. In fact, a large part if not majority of them don&#8217;t and can&#8217;t. The reason for this is that you can learn Braille only if tips of your fingers are sensitive enough and that&#8217;s usually the case only for those who were born blind or became blind in their youth.</p>
+<p>But blindness can be caused by an accident later in life or by various diseases like diabetes, which means it&#8217;s far more common among older people, who through years of working with hands lost the necessary sensitivity in their fingers. They are in such cases forced to cope with their usual methods such as being very organized about where they put things.</p>
+<p>Pliva (and other companies) could help them more. They could make the shape and size of the box more unique. They could stamp an easily recognizable pattern on parts of the box, just like they did with Braille. Anything that can make the tactile feedback more unique would probably help.<sup><a href="#pliva-2006-06-05">1</a><a name="pliva1-2006-06-06"></a></sup></p>
+<p>Alas they, as more often than not we, don&#8217;t do what they easily could.</p>
+<div class="notes">
+<p>Notes:</p>
+<ol>
+<li><a name="pliva-2006-06-05"></a>Braille sign on Plivadon&#8217;s box is distinguishing enough mark for as long as there isn&#8217;t a similarly sized box and a sign at the approximately same position. <a href="#pliva1-2006-06-06">&uarr;</a>
+    </li>
+</ol>
+</div>
+]]></content:encoded>
+			<wfw:commentRss>http://markos.gaivo.net/blog/?feed=rss2&#038;p=181</wfw:commentRss>
+		<slash:comments>1</slash:comments>
+		</item>
+	</channel>
+</rss>

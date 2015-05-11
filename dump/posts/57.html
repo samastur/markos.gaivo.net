@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>A notch above a monkey &raquo; Speed test of PyRSS2Gen, kid and atomixlib</title>
+	<meta charset="utf-8" />
+	
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" /> 
+
+	<link rel="shortcut icon" href="/img/markos.ico" />
+	
+	<meta name="generator" content="WordPress 3.0.5" /> <!-- leave this for stats please -->
+
+	<link href="http://fast.fonts.com/cssapi/aee9b60b-8e94-47f8-b586-3ecbfab51d1c.css" rel="stylesheet" type="text/css" />
+	<link rel="stylesheet" type="text/css" href="css/home.css" media="screen" title="Light theme" />
+	<link rel="alternate stylesheet" type="text/css" href="css/home_dark.css" media="screen" title="Dark theme" />
+	<link rel="stylesheet" href="css/ipad.css" media="only screen and (min-device-width : 768px) and (max-device-width : 1024px)">
+	<link rel="stylesheet" type="text/css" href="css/smallscreen.css" media="only screen and (max-width: 700px)" />
+
+	<link rel="alternate" type="application/rss+xml" title="RSS 2.0" href="http://markos.gaivo.net/blog/?feed=rss2" />
+	<link rel="alternate" type="application/atom+xml" title="Atom 1.0" href="http://markos.gaivo.net/blog/?feed=atom" />
+	<link rel='canonical' href='http://markos.gaivo.net/blog/?p=664' />
+
+	<link rel="pingback" href="http://markos.gaivo.net/blog/xmlrpc.php" />
+
+	<link rel="alternate" type="application/rss+xml" title="A notch above a monkey &raquo; Speed test of PyRSS2Gen, kid and atomixlib Comments Feed" href="http://markos.gaivo.net/blog/?feed=rss2&amp;p=57" />
+<link rel="EditURI" type="application/rsd+xml" title="RSD" href="http://markos.gaivo.net/blog/xmlrpc.php?rsd" />
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="http://markos.gaivo.net/blog/wp-includes/wlwmanifest.xml" /> 
+<link rel='index' title='A notch above a monkey' href='http://markos.gaivo.net/blog' />
+<link rel='start' title='First post' href='http://markos.gaivo.net/blog/?p=2' />
+<link rel='prev' title='Community development' href='http://markos.gaivo.net/blog/?p=56' />
+<link rel='next' title='Javascript and i18n' href='http://markos.gaivo.net/blog/?p=58' />
+<meta name="generator" content="WordPress 3.0.5" />
+<link rel='canonical' href='http://markos.gaivo.net/blog/?p=57' />
+
+	<!--[if lt IE 9]>
+	<script src="/js/html5.js"></script>
+	<![endif]-->
+</head>
+<body>
+					<header>
+		<h1><a href="/blog/">A notch above a monkey</a> &raquo; Speed test of PyRSS2Gen, kid and atomixlib</h1>
+	</header>
+
+	<section class="envelope">
+		<article class="post">
+			<header>
+				<h1>Speed test of PyRSS2Gen, kid and atomixlib</h1>
+			</header>
+
+			<footer>
+				<ul>
+					<li class="by">Written by: <a href="/">Marko Samastur</a></li>
+					<li class="published">Published on: <time datetime="2005-11-05T02:04:33+00:00" pubdate>November 5, 2005</time></li>
+					<li class="categories">Categories: <a href="http://markos.gaivo.net/blog/?cat=2" title="View all posts in Python" rel="category">Python</a>, <a href="http://markos.gaivo.net/blog/?cat=4" title="View all posts in Web" rel="category">Web</a></li>
+					<li class="post-comments">Comments: <a href="http://markos.gaivo.net/blog/?p=57#comments" title="Comment on Speed test of PyRSS2Gen, kid and atomixlib">8</a></li>
+				</ul>
+			</footer>
+
+			<div class="post-text">
+				<p>I&#8217;ve spent this evening building RSS2 and Atom feeds with <a href="http://www.dalkescientific.com/Python/PyRSS2Gen.html">PyRSS2Gen</a>, <a href="http://kid.lesscode.org/index.html">kid</a> and <a href="http://www.defuze.org/oss/atomixlib/">atomixlib</a>, as <a href="http://markos.gaivo.net/blog/?p=55">proposed</a> by helpful people few days ago.</p>
+<p>We&#8217;d like to add feeds promiscuously to our service (right now we have exactly one). But before we can decide how to tackle this, we need to know how fast we can generate a feed on average.</p>
+<p><strong>DISCLAIMER: I tried to generate feeds with same data using what seemed a reasonable python code to do so, but I didn&#8217;t try to save every millisecond as I only cared about crude speed approximations. I have no problem believing that someone else might get completely different results. No serious statistical analysis has been made and rigorous scientific approach has been almost completely absent. Better make your own tests, if speed (or anything else really) is important to you. But if dubious numbers delight you, then please continue.</strong></p>
+<p>So, here are my results. Time to generate a feed with 10 entries on 1GHz G4 Powerbook:</p>
+<ul>
+<li>with PyRSS2Gen somewhere around 70ms</li>
+<li>with atomixlib around 120-140ms</li>
+<li>and with kid around 30-35ms</li>
+</ul>
+<p>In other words, you can generate between 8 and 30 feeds per second on my notebook and (I guess) 2-3x as many on a modern server. This is more than enough for most cases, but I&#8217;m afraid it probably won&#8217;t be enough for us. Which means either producing feeds by gluing strings together or having a more intelligent approach than building a new one on every request.</p>
+<p>As a side note, I found all three packages easy to work with.<br />
+<em><br />
+Update: Sylvain has released atomixlib 0.3 which makes it even easier to create atom feeds and brings also significant speed improvements. On my computer it takes now around 60-65ms to build a feed.</p>
+<p>Another update: I made a couple of quick tests with mixed results on fairly new Opteron server. PyRSS2Gen was actually slower with 80-85ms and I have no idea why. kid was blazing fast with times between 8 and 9ms.  Definitely good enough.</p>
+<p>But I couldn&#8217;t get atomixlib to work, because 4Suite failed to build, so it will have to wait until I can figure out why it chokes on a perfectly legitimate XSLT.</p>
+<p>Update 3: 4Suite has been promptly fixed (thanks!) and atomixlib 0.3 takes now 18-19ms. I believe this is an excellent time.</em></p>
+			</div>
+
+			<nav>
+				<p>If you liked this, you might want to visit:</p>
+				<ul>
+					<li>my previous article: <a href="http://markos.gaivo.net/blog/?p=56" rel="prev">Community development</a></li>					<li>my next article: <a href="http://markos.gaivo.net/blog/?p=58" rel="next">Javascript and i18n</a></li>					<li><a href="/blog/">article list</a></li>
+				</ul>
+			</nav>
+
+			<h2 id="comments">Comments (8)
+			</h2>
+			<ol class="comments">
+		
+				<li id="comment-154">
+					<article>
+						<p>Hello Marko,</p>
+<p>Interesting. I had never really tested atomixlib performance wise but being 2 or 3 times slower is somehow significant enough for me to have a look at it and try to improve a bit the picture.</p>
+<p>Two things could help me out:</p>
+<p>1. Which version of atomixlib have you used?<br />
+2. What was the code of your test?</p>
+<p>Would you mind sending me those details via email please?</p>
+<p>Thanks <img src='http://markos.gaivo.net/blog/wp-includes/images/smilies/icon_smile.gif' alt=':)' class='wp-smiley' /><br />
+- Sylvain</p>
+						<footer>
+							<cite>Comment by <a href='http://www.defuze.org/oss/blog/' rel='external nofollow' class='url'>Sylvain Hellegouarch</a> &#8212; <time datetime="2005-11-05T10:07:40+00:00">November 5, 2005 @ 10:07 am</time> <a href="#comment-154">#</a> </cite>
+						</footer>
+					</article>
+				</li>
+		
+				<li id="comment-155">
+					<article>
+						<p>Rock!</p>
+						<footer>
+							<cite>Comment by <a href='http://naeblis.cx/rtomayko/' rel='external nofollow' class='url'>Ryan Tomayko</a> &#8212; <time datetime="2005-11-05T11:29:33+00:00">November 5, 2005 @ 11:29 am</time> <a href="#comment-155">#</a> </cite>
+						</footer>
+					</article>
+				</li>
+		
+				<li id="comment-156">
+					<article>
+						<p>Thanks for this analysis Marko.  Out of curiosity I took a closer look at the atomixlib code and ended up giving Sylvain performance pointers.  Seems he worked pretty quickly on those because he&#8217;s now released atomixlib 0.3.0.  According to my timings it is almost three times faster than 0.2.0, which is the version you tried.  I used a derivative of timeit.py and it posted the following summary for 0.2.0:</p>
+<p>10 loops, best of 3: 32.1 msec</p>
+<p>and for 0.3.0:</p>
+<p>10 loops, best of 3: 13.2 msec</p>
+<p>I&#8217;d be curious to see whether you notice a similar speed-up.</p>
+<p>It seems that you need *much* more speed, however, than even the new atomixlib or Kid would provide, which makes me wonder what the characteristics are of the atom feeds you are creating.  Maybe, as you suggest, there are portions of the problem in which you can  use caching.  I just worry that if you take the stich-strings-together route, it&#8217;s really hard to ensure well-formed and valid Atom.  Using a toolkit is much safer, and I&#8217;d love to see less broken Atom in the world <img src='http://markos.gaivo.net/blog/wp-includes/images/smilies/icon_smile.gif' alt=':-)' class='wp-smiley' /> </p>
+<p>Anyways, keep us posted in this analysis.  This is the sort of thing I&#8217;m covering in my new XML.com column[1], so I&#8217;m very interested in what practitioners like you are up to.</p>
+<p>Thanks.</p>
+<p>[1] <a href="http://www.xml.com/pub/at/39">http://www.xml.com/pub/at/39</a></p>
+						<footer>
+							<cite>Comment by <a href='http://copia.ogbuji.net' rel='external nofollow' class='url'>Uche</a> &#8212; <time datetime="2005-11-06T07:03:55+00:00">November 6, 2005 @ 7:03 am</time> <a href="#comment-156">#</a> </cite>
+						</footer>
+					</article>
+				</li>
+		
+				<li id="comment-157">
+					<article>
+						<p>Forgot to give an atomixlib 0.3.0 link:</p>
+<p><a href="http://www.defuze.org/oss/blog/entry/2005/11/05/atomixlib-0.3">http://www.defuze.org/oss/blog/entry/2005/11/05/atomixlib-0.3</a></p>
+						<footer>
+							<cite>Comment by <a href='http://copia.ogbuji.net' rel='external nofollow' class='url'>Uche</a> &#8212; <time datetime="2005-11-06T07:05:23+00:00">November 6, 2005 @ 7:05 am</time> <a href="#comment-157">#</a> </cite>
+						</footer>
+					</article>
+				</li>
+		
+				<li id="comment-158">
+					<article>
+						<p>I&#8217;ve noticed a speed-up, but slightly less than you. My test code for atomixlib is pretty much Sylvain&#8217;s example, but changed so it creates 10 entries and with addition of a few time.time functions.</p>
+<p>So, pretty basic really.</p>
+<p>I&#8217;ll definitely test all of them today on a more modern hardware, since your results are much better and are in fact where I&#8217;d consider them fast enough for our needs.</p>
+<p>I also agree about stiching strings together. It&#8217;s probably not worth risking broken feeds and caching them should be simple enough.</p>
+<p>Thanks.</p>
+						<footer>
+							<cite>Comment by <a href='http://markos.gaivo.net' rel='external nofollow' class='url'>markos</a> &#8212; <time datetime="2005-11-06T11:45:14+00:00">November 6, 2005 @ 11:45 am</time> <a href="#comment-158">#</a> </cite>
+						</footer>
+					</article>
+				</li>
+		
+				<li id="comment-160">
+					<article>
+						<p>Marko, We&#8217;re wondering whether your build problem may be an endianness problem with some of our customizations of expat.  If so, it&#8217;s a pretty serious matter, and we&#8217;ll investigate, get to the bottom of it, and release a 4Suite update if need be.  Again, your patient investigation is proving very useful.  I&#8217;ll keep you posted.</p>
+						<footer>
+							<cite>Comment by <a href='http://copia.ogbuji.net' rel='external nofollow' class='url'>Uche</a> &#8212; <time datetime="2005-11-07T02:49:13+00:00">November 7, 2005 @ 2:49 am</time> <a href="#comment-160">#</a> </cite>
+						</footer>
+					</article>
+				</li>
+		
+				<li id="comment-161">
+					<article>
+						<p>re &#8216;stiching strings&#8217; &#8211; I wonder if Uche or others would comment on what they see are the biggest dangers with that approach&#8230; in particular Uche&#8217;s comment <em>I just worry that if you take the stich-strings-together route, it’s really hard to ensure well-formed and valid Atom. Using a toolkit is much safer, and I’d love to see less broken Atom in the world</em>  caught my eye &#8211; perhaps here on in a column or on his blog he could give some real world examples of the sorts of gotyas people are likely to run into.</p>
+						<footer>
+							<cite>Comment by <a href='http://mikewatkins.net/' rel='external nofollow' class='url'>Mike Watkins</a> &#8212; <time datetime="2005-11-08T16:38:56+00:00">November 8, 2005 @ 4:38 pm</time> <a href="#comment-161">#</a> </cite>
+						</footer>
+					</article>
+				</li>
+		
+				<li id="comment-162">
+					<article>
+						<p>I can&#8217;t speak for Uche or anybody else for that matter apart myself, but I think main problem with stiching is not so much in getting feed structure wrong although that can happen too. Probably bigger and at least in my experience more often problem is getting the payload wrong.</p>
+<p>It&#8217;s simply too easy to break XML and that&#8217;s something that XML toolkits can help you immensely with.</p>
+<p>I&#8217;m also sure as an XML lightweight that I&#8217;m missing other, possibly more subtle problems.</p>
+						<footer>
+							<cite>Comment by <a href='http://markos.gaivo.net' rel='external nofollow' class='url'>markos</a> &#8212; <time datetime="2005-11-08T20:52:52+00:00">November 8, 2005 @ 8:52 pm</time> <a href="#comment-162">#</a> </cite>
+						</footer>
+					</article>
+				</li>
+		
+			</ol>
+
+
+		<p>Sorry, the comment form is closed at this time.</p>
+
+		</article>
+	</section>
+			<!-- All pages -->
+	
+
+	<footer>
+		<ul>
+			<li>&copy; 2005-2015 Marko Samastur</li>
+			
+			<li><a href="http://markos.gaivo.net/blog/?feed=rss2">Entries feed</a></li>
+			<li><a href="http://markos.gaivo.net/blog/?feed=comments-rss2">Comments feed</a></li>
+		</ul>
+		<a href="/"><img src="/img/markos_light_small_bg.png" alt="logo" class="mini-logo" /></a>
+	</footer>
+	<!-- Google analytics -->
+	<script type="text/javascript">
+	  var _gaq = _gaq || [];
+	  _gaq.push(['_setAccount', 'UA-152438-1']);
+	  _gaq.push(['_trackPageview']);
+	</script>
+	<script src="/js/cookie.js"></script>
+</body>
+</html>

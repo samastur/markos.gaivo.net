@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>A notch above a monkey &raquo; No language feature is optional</title>
+	<meta charset="utf-8" />
+	
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" /> 
+
+	<link rel="shortcut icon" href="/img/markos.ico" />
+	
+	<meta name="generator" content="WordPress 3.0.5" /> <!-- leave this for stats please -->
+
+	<link href="http://fast.fonts.com/cssapi/aee9b60b-8e94-47f8-b586-3ecbfab51d1c.css" rel="stylesheet" type="text/css" />
+	<link rel="stylesheet" type="text/css" href="css/home.css" media="screen" title="Light theme" />
+	<link rel="alternate stylesheet" type="text/css" href="css/home_dark.css" media="screen" title="Dark theme" />
+	<link rel="stylesheet" href="css/ipad.css" media="only screen and (min-device-width : 768px) and (max-device-width : 1024px)">
+	<link rel="stylesheet" type="text/css" href="css/smallscreen.css" media="only screen and (max-width: 700px)" />
+
+	<link rel="alternate" type="application/rss+xml" title="RSS 2.0" href="http://markos.gaivo.net/blog/?feed=rss2" />
+	<link rel="alternate" type="application/atom+xml" title="Atom 1.0" href="http://markos.gaivo.net/blog/?feed=atom" />
+	<link rel='canonical' href='http://markos.gaivo.net/blog/?p=664' />
+
+	<link rel="pingback" href="http://markos.gaivo.net/blog/xmlrpc.php" />
+
+	<link rel="alternate" type="application/rss+xml" title="A notch above a monkey &raquo; No language feature is optional Comments Feed" href="http://markos.gaivo.net/blog/?feed=rss2&amp;p=27" />
+<link rel="EditURI" type="application/rsd+xml" title="RSD" href="http://markos.gaivo.net/blog/xmlrpc.php?rsd" />
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="http://markos.gaivo.net/blog/wp-includes/wlwmanifest.xml" /> 
+<link rel='index' title='A notch above a monkey' href='http://markos.gaivo.net/blog' />
+<link rel='start' title='First post' href='http://markos.gaivo.net/blog/?p=2' />
+<link rel='prev' title='Don&#8217;t take my word for it' href='http://markos.gaivo.net/blog/?p=26' />
+<link rel='next' title='Proper way of email quoting' href='http://markos.gaivo.net/blog/?p=28' />
+<meta name="generator" content="WordPress 3.0.5" />
+<link rel='canonical' href='http://markos.gaivo.net/blog/?p=27' />
+
+	<!--[if lt IE 9]>
+	<script src="/js/html5.js"></script>
+	<![endif]-->
+</head>
+<body>
+					<header>
+		<h1><a href="/blog/">A notch above a monkey</a> &raquo; No language feature is optional</h1>
+	</header>
+
+	<section class="envelope">
+		<article class="post">
+			<header>
+				<h1>No language feature is optional</h1>
+			</header>
+
+			<footer>
+				<ul>
+					<li class="by">Written by: <a href="/">Marko Samastur</a></li>
+					<li class="published">Published on: <time datetime="2005-09-21T11:58:06+00:00" pubdate>September 21, 2005</time></li>
+					<li class="categories">Categories: <a href="http://markos.gaivo.net/blog/?cat=2" title="View all posts in Python" rel="category">Python</a></li>
+					<li class="post-comments">Comments: <a href="http://markos.gaivo.net/blog/?p=27#comments" title="Comment on No language feature is optional">10</a></li>
+				</ul>
+			</footer>
+
+			<div class="post-text">
+				<p>Until recently I&#8217;ve been using Python 2.3.x almost exclusively and I thought it was about time I get more familiar with what 2.4 series has to offer. I&#8217;ve skimmed the list of new features when point zero version came out and found some things that I like (e.g sets) and some that I disliked (e.g. decorators).</p>
+<p>So, this time I invested a bit more time to actually read and understand what was on offer and how these features came about. I still haven&#8217;t found a need or a sympathy for decorators, although I can see why some people want them. Personally, I believe they&#8217;ll more likely be a cause for less readable and harder to understand Python code than they prove to be useful.</p>
+<p>I still think Python is a wonderful language, but gone are the days when I was looking forward to each release and goodness it brought. These days I&#8217;m afraid to look and discover another feature that helps more with keeping habits from other languages than adding something new and genuinely useful.</p>
+<p>I like minimalism in all things and therefore see every new feature as a burden that should be more than offset by its usefulness. I&#8217;m not a language designer and hence can&#8217;t really say or tell if Python is going down the wrong track, but there is something that I find most annoying.</p>
+<p>I&#8217;ve been thinking about languages quite a lot recently; how we use and abuse them and what impact our language proficiency has on our communications. There&#8217;s one thing I find very different with programming languages than those used for normal human interaction.</p>
+<p>There&#8217;s very little optional about them.</p>
+<p>It really gets my goat when a language feature is defended as being optional. You may have a choice in using a feature, but you certainly don&#8217;t get a choice in learning and understanding its use. Even if you don&#8217;t use it yourself, you&#8217;ll quite likely have to interact with somebody else&#8217;s code, which does and unlike with English, it&#8217;s not enough to just get a sense of meaning from its context. You actually have to really understand what it does and hence need to be familiar with feature itself.</p>
+<p>It might still be worthwhile to add it, but let&#8217;s not pretend when we do that it&#8217;s completely optional.</p>
+<p>P.S: Isn&#8217;t it amazing that after all these years, we still have a global interpreter lock? Wouldn&#8217;t it be better if we worked on removing that disgrace?</p>
+			</div>
+
+			<nav>
+				<p>If you liked this, you might want to visit:</p>
+				<ul>
+					<li>my previous article: <a href="http://markos.gaivo.net/blog/?p=26" rel="prev">Don&#8217;t take my word for it</a></li>					<li>my next article: <a href="http://markos.gaivo.net/blog/?p=28" rel="next">Proper way of email quoting</a></li>					<li><a href="/blog/">article list</a></li>
+				</ul>
+			</nav>
+
+			<h2 id="comments">Comments (10)
+			</h2>
+			<ol class="comments">
+		
+				<li id="comment-14">
+					<article>
+						<p>I&#8217;m a Python-head myself (since 2 years or so) and I tend to agree with your observations. Also keep in mind that for Python 3 some cruft will be removed, I&#8217;m very happy about that.</p>
+<p>Recently I&#8217;ve started to read more about Smalltalk and if you are looking for language minimalism and extensibility and the same time take a look at it. The smalltalkers write statements like ifS and whileS with methods and blocks. </p>
+<p>&#8221;Isn’t it amazing that after all these years, we still have a global interpreter lock? Wouldn’t it be better if we worked on removing that disgrace?&#8221;</p>
+<p>They are talking *again* about the GIL right now on python-dev list. </p>
+<p>&#8211; deelan</p>
+						<footer>
+							<cite>Comment by <a href='http://www.deelan.com' rel='external nofollow' class='url'>deelan</a> &#8212; <time datetime="2005-09-21T14:24:12+00:00">September 21, 2005 @ 2:24 pm</time> <a href="#comment-14">#</a> </cite>
+						</footer>
+					</article>
+				</li>
+		
+				<li id="comment-15">
+					<article>
+						<p>markos,<br />
+Check out the motivation (<a href="http://www.python.org/peps/pep-0318.html#motivation">http://www.python.org/peps/pep-0318.html#motivation</a>) for decorators if you haven&#8217;t already.  That might help see how they can improve readability.  </p>
+<p>I hear you about simplicity and concern of where Python is heading.  A good example is the use of anonymous code blocks in Ruby compared to their use in Python.  Ruby has a general syntax that can be applied to solve different problems, Python has a different syntax for each problem set.  Think list comprehension syntax vs. the proposed &#8216;with EXPR as VAR: BLOCK&#8217; syntax for automatic resource cleanup.</p>
+						<footer>
+							<cite>Comment by <a href='http://www.dynamictyping.org' rel='external nofollow' class='url'>mrevelle</a> &#8212; <time datetime="2005-09-21T14:29:39+00:00">September 21, 2005 @ 2:29 pm</time> <a href="#comment-15">#</a> </cite>
+						</footer>
+					</article>
+				</li>
+		
+				<li id="comment-16">
+					<article>
+						<p>I agree with you in some sense, but I think Guido is stemming the tide of convenience features, and is starting to add things that are genuinely useful, like PEP&#8217;s 342 and 343.</p>
+<p>Why are you complaining about the GIL?  Is the convenience of writing extension modules too much for you?  Would you like to make it much more complex?  Are you enamored by threads?</p>
+<p>I posted about this just the other day: <a href="http://cleverdevil.org/computing/30">http://cleverdevil.org/computing/30</a></p>
+						<footer>
+							<cite>Comment by <a href='http://cleverdevil.org' rel='external nofollow' class='url'>Jonathan LaCour</a> &#8212; <time datetime="2005-09-21T16:03:01+00:00">September 21, 2005 @ 4:03 pm</time> <a href="#comment-16">#</a> </cite>
+						</footer>
+					</article>
+				</li>
+		
+				<li id="comment-17">
+					<article>
+						<p>&#8220;&#8221;"Wouldn’t it be better if we worked on removing that disgrace?&#8221;"&#8221;</p>
+<p>Sure.  You first.  <img src='http://markos.gaivo.net/blog/wp-includes/images/smilies/icon_smile.gif' alt=':)' class='wp-smiley' />   Or, as Guido recently said on Python-Dev:</p>
+<p>&#8220;&#8221;"Talk is cheap; instead of arguing my<br />
+points (all of which can be argued ad infinitum), come back when<br />
+you&#8217;ve got a working GIL-free Python. Doesn&#8217;t have to be CPython-based<br />
+&#8211; C# would be fine too.&#8221;"&#8221;</p>
+						<footer>
+							<cite>Comment by <a href='http://dirtsimple.org/' rel='external nofollow' class='url'>Phillip J. Eby</a> &#8212; <time datetime="2005-09-21T17:44:57+00:00">September 21, 2005 @ 5:44 pm</time> <a href="#comment-17">#</a> </cite>
+						</footer>
+					</article>
+				</li>
+		
+				<li id="comment-18">
+					<article>
+						<p>Boy, I&#8217;ve never imagined that my post would provoke such a response.</p>
+<p>I&#8217;ve certainly been ignorant when it comes to GIL&#8217;s role in development of extension modules. From that perspective GIL might not be so bad, although I think it made more sense when multiproc multicore machines weren&#8217;t so cheap and widely used.</p>
+<p>I&#8217;m not a threads fan, but I do recognize that they are used, sometimes even with obvious speed advantage (apache) and Python integration with such codebase often leaves something to be desired.</p>
+<p>Also true is that I&#8217;m not the right person to complain since I haven&#8217;t provided a patch to fix GIL or anything of the sort, but then again, I thought my post was mainly about optionality of features.</p>
+<p>P.S: Thanks for links. They&#8217;ve certainly expanded my horizons.</p>
+						<footer>
+							<cite>Comment by <a href='http://markos.gaivo.net' rel='external nofollow' class='url'>markos</a> &#8212; <time datetime="2005-09-21T18:01:16+00:00">September 21, 2005 @ 6:01 pm</time> <a href="#comment-18">#</a> </cite>
+						</footer>
+					</article>
+				</li>
+		
+				<li id="comment-19">
+					<article>
+						<p>I actually think Python development really follows this principle (no optional features) more than others (e.g., Ruby, Perl, PHP).  It&#8217;s not to say that some people say &#8220;if you don&#8217;t like it, don&#8217;t use it&#8221;, but that&#8217;s not something Guido says, and I don&#8217;t believe that&#8217;s a sentiment that takes place when the design is really happening.  And, for example, if-else conditions were kept out largely because &#8212; though they could sometimes be nice, and some people liked them &#8212; they didn&#8217;t seem right for everyone all the time.</p>
+<p>I could go on at length about the benefit of decorators, though I&#8217;ll admit in some ways the mechanics overshadow the concept itself &#8212; but really the mechanics are pleasantly simple enough that it&#8217;s okay.  But I think we shouldn&#8217;t go overboard and worship the altar of simplicity &#8212; people have been obsessing lately over what we can remove from __builtins__, and for what?  Some Schemy aesthetic that says small is beautiful.  Big isn&#8217;t beautiful, but beauty is a little more subtle than size.</p>
+						<footer>
+							<cite>Comment by <a href='http://blog.ianbicking.org' rel='external nofollow' class='url'>Ian Bicking</a> &#8212; <time datetime="2005-09-21T19:14:42+00:00">September 21, 2005 @ 7:14 pm</time> <a href="#comment-19">#</a> </cite>
+						</footer>
+					</article>
+				</li>
+		
+				<li id="comment-20">
+					<article>
+						<p>If you have speed critical bits which run in C you can tell the GIL not to lock for your speed critical bit in C.</p>
+<p>Multiple processes are also good for multiple processors, and multiple cores to get high CPU usage.  Async, and events are usually better performant for IO compared to threads too.</p>
+<p>So in practice the GIL doesn&#8217;t really matter for performance, and makes our lives safer, and simpler.</p>
+<p>ps. Did you know that threads in linux are just processes?  Check out the clone man page.</p>
+						<footer>
+							<cite>Comment by <a href='http://www.madecollective.com/' rel='external nofollow' class='url'>Rene Dudfield</a> &#8212; <time datetime="2005-09-22T09:15:58+00:00">September 22, 2005 @ 9:15 am</time> <a href="#comment-20">#</a> </cite>
+						</footer>
+					</article>
+				</li>
+		
+				<li id="comment-21">
+					<article>
+						<p>One of the few things that bothers me about Python: community excuses for Python weaknesses.</p>
+<p>The Free Lunch Is Over: A Fundamental Turn Toward Concurrency in Software<br />
+<a href="http://www.gotw.ca/publications/concurrency-ddj.htm">http://www.gotw.ca/publications/concurrency-ddj.htm</a></p>
+						<footer>
+							<cite>Comment by is not BDFL &#8212; <time datetime="2005-09-22T20:06:53+00:00">September 22, 2005 @ 8:06 pm</time> <a href="#comment-21">#</a> </cite>
+						</footer>
+					</article>
+				</li>
+		
+				<li id="comment-22">
+					<article>
+						<p>Ian, I would agree with you, if it weren&#8217;t that Guido and a lot of other people keep trumpeting the *optional* nature of upcoming typechecking. About every third word in the posts on the topic, including Guido&#8217;s, seems to be optional, presumably to deflect the ire and attention of people like myself who between type checking and interfaces are wondering why we stopped using Java as our primary language.</p>
+						<footer>
+							<cite>Comment by John Withers &#8212; <time datetime="2005-09-22T21:30:37+00:00">September 22, 2005 @ 9:30 pm</time> <a href="#comment-22">#</a> </cite>
+						</footer>
+					</article>
+				</li>
+		
+				<li id="comment-26">
+					<article>
+						<p>About multicores and processes &#8211; I think that at least for intel&#8217;s hyperthreads technology the multicore only works for threads. That&#8217;s because all the cores share the same virtual memory page table &#8211; which processes do not share while threads do.</p>
+						<footer>
+							<cite>Comment by Yair &#8212; <time datetime="2005-09-24T22:30:07+00:00">September 24, 2005 @ 10:30 pm</time> <a href="#comment-26">#</a> </cite>
+						</footer>
+					</article>
+				</li>
+		
+			</ol>
+
+
+		<p>Sorry, the comment form is closed at this time.</p>
+
+		</article>
+	</section>
+			<!-- All pages -->
+	
+
+	<footer>
+		<ul>
+			<li>&copy; 2005-2015 Marko Samastur</li>
+			
+			<li><a href="http://markos.gaivo.net/blog/?feed=rss2">Entries feed</a></li>
+			<li><a href="http://markos.gaivo.net/blog/?feed=comments-rss2">Comments feed</a></li>
+		</ul>
+		<a href="/"><img src="/img/markos_light_small_bg.png" alt="logo" class="mini-logo" /></a>
+	</footer>
+	<!-- Google analytics -->
+	<script type="text/javascript">
+	  var _gaq = _gaq || [];
+	  _gaq.push(['_setAccount', 'UA-152438-1']);
+	  _gaq.push(['_trackPageview']);
+	</script>
+	<script src="/js/cookie.js"></script>
+</body>
+</html>

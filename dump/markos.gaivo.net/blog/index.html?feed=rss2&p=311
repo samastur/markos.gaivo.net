@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+		>
+<channel>
+	<title>Comments on: Self-referencing page links</title>
+	<atom:link href="http://markos.gaivo.net/blog/?feed=rss2&#038;p=311" rel="self" type="application/rss+xml" />
+	<link>http://markos.gaivo.net/blog/?p=311</link>
+	<description></description>
+	<lastBuildDate>Wed, 16 Jul 2014 16:04:38 +0000</lastBuildDate>
+	<sy:updatePeriod>hourly</sy:updatePeriod>
+	<sy:updateFrequency>1</sy:updateFrequency>
+	<generator>http://wordpress.org/?v=3.0.5</generator>
+	<item>
+		<title>By: Web Development - UK Understand DIV Tag for HTML</title>
+		<link>http://markos.gaivo.net/blog/?p=311&#038;cpage=1#comment-184939</link>
+		<dc:creator>Web Development - UK Understand DIV Tag for HTML</dc:creator>
+		<pubDate>Thu, 26 Feb 2009 11:22:46 +0000</pubDate>
+		<guid isPermaLink="false">http://markos.gaivo.net/blog/?p=311#comment-184939</guid>
+		<description>[...] Self-referencing page links (markos.gaivo.net)   ? [...]</description>
+		<content:encoded><![CDATA[<p>[...] Self-referencing page links (markos.gaivo.net)   ? [...]</p>
+]]></content:encoded>
+	</item>
+	<item>
+		<title>By: markos</title>
+		<link>http://markos.gaivo.net/blog/?p=311&#038;cpage=1#comment-177367</link>
+		<dc:creator>markos</dc:creator>
+		<pubDate>Sun, 28 Dec 2008 09:41:34 +0000</pubDate>
+		<guid isPermaLink="false">http://markos.gaivo.net/blog/?p=311#comment-177367</guid>
+		<description>Better two comments than none.
+
+I wonder why people do that. Obviously there&#039;s a disconnect between page they are reading and place they think they are at. I&#039;m not sure if there is a good way to connect this, but CSS animations might be a new venue to explore. Sort of here-you-are one-time animation.
+
+Permalinks are another thing very badly solved on this blog. In ideal world permalink would be same thing as a link, but web limitations being what they are, that is probably not reasonable.
+
+I think of hash signs about the same as of feeds. Good idea that hasn&#039;t quite penetrated general public&#039;s conscious yet. It would be great if it did, since it would enrich and simplify communication.
+
+I would prefer if we picked a different sign, since # already has a (different) role with links and it might be a bit confusing, but I don&#039;t have an obviously better candidate (I liked Pi that was used for paragraph-detail permalinks).
+
+The other problem with hash is that it is a fairly small target to aim at. I&#039;m not too clumsy, but even I can get annoyed targeting one-letter signs using a touchpad.
+
+Titles have an advantage of being far more descriptive. Or they can be when they are meaningful. They also express better what you are dealing with. With hash, every apple is an orange, but titles can tell you a bit more.
+
+Still, I don&#039;t feel very strongly enough one way or the other, so I can probably be persuaded that either approach is better ;)</description>
+		<content:encoded><![CDATA[<p>Better two comments than none.</p>
+<p>I wonder why people do that. Obviously there&#8217;s a disconnect between page they are reading and place they think they are at. I&#8217;m not sure if there is a good way to connect this, but CSS animations might be a new venue to explore. Sort of here-you-are one-time animation.</p>
+<p>Permalinks are another thing very badly solved on this blog. In ideal world permalink would be same thing as a link, but web limitations being what they are, that is probably not reasonable.</p>
+<p>I think of hash signs about the same as of feeds. Good idea that hasn&#8217;t quite penetrated general public&#8217;s conscious yet. It would be great if it did, since it would enrich and simplify communication.</p>
+<p>I would prefer if we picked a different sign, since # already has a (different) role with links and it might be a bit confusing, but I don&#8217;t have an obviously better candidate (I liked Pi that was used for paragraph-detail permalinks).</p>
+<p>The other problem with hash is that it is a fairly small target to aim at. I&#8217;m not too clumsy, but even I can get annoyed targeting one-letter signs using a touchpad.</p>
+<p>Titles have an advantage of being far more descriptive. Or they can be when they are meaningful. They also express better what you are dealing with. With hash, every apple is an orange, but titles can tell you a bit more.</p>
+<p>Still, I don&#8217;t feel very strongly enough one way or the other, so I can probably be persuaded that either approach is better <img src='http://markos.gaivo.net/blog/wp-includes/images/smilies/icon_wink.gif' alt=';)' class='wp-smiley' /> </p>
+]]></content:encoded>
+	</item>
+	<item>
+		<title>By: Dragan Babi?</title>
+		<link>http://markos.gaivo.net/blog/?p=311&#038;cpage=1#comment-177328</link>
+		<dc:creator>Dragan Babi?</dc:creator>
+		<pubDate>Sat, 27 Dec 2008 18:48:00 +0000</pubDate>
+		<guid isPermaLink="false">http://markos.gaivo.net/blog/?p=311#comment-177328</guid>
+		<description>I forgot to ask in the previous comment, so sorry for double-posting — where do you stand on the issue of permanent links in blog posts then? What I&#039;m referring to here is titles linked to posts themselves, also hash signs that have become more-less a standard for pointing out permanent links to blog posts.</description>
+		<content:encoded><![CDATA[<p>I forgot to ask in the previous comment, so sorry for double-posting — where do you stand on the issue of permanent links in blog posts then? What I&#8217;m referring to here is titles linked to posts themselves, also hash signs that have become more-less a standard for pointing out permanent links to blog posts.</p>
+]]></content:encoded>
+	</item>
+	<item>
+		<title>By: Dragan Babi?</title>
+		<link>http://markos.gaivo.net/blog/?p=311&#038;cpage=1#comment-177327</link>
+		<dc:creator>Dragan Babi?</dc:creator>
+		<pubDate>Sat, 27 Dec 2008 18:44:53 +0000</pubDate>
+		<guid isPermaLink="false">http://markos.gaivo.net/blog/?p=311#comment-177327</guid>
+		<description>While I agree with you, my experience teaches me otherwise, and the reason is similar to what you pointed out above — people simply like to click a link, rather than click a reload button or focus the URI input field and hit return/enter. 
+
+Your demo provides an excellent solution to this issue though.</description>
+		<content:encoded><![CDATA[<p>While I agree with you, my experience teaches me otherwise, and the reason is similar to what you pointed out above — people simply like to click a link, rather than click a reload button or focus the URI input field and hit return/enter. </p>
+<p>Your demo provides an excellent solution to this issue though.</p>
+]]></content:encoded>
+	</item>
+</channel>
+</rss>

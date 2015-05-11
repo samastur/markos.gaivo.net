@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+		>
+<channel>
+	<title>Comments on: Python&#8217;s most valued</title>
+	<atom:link href="http://markos.gaivo.net/blog/?feed=rss2&#038;p=161" rel="self" type="application/rss+xml" />
+	<link>http://markos.gaivo.net/blog/?p=161</link>
+	<description></description>
+	<lastBuildDate>Wed, 16 Jul 2014 16:04:38 +0000</lastBuildDate>
+	<sy:updatePeriod>hourly</sy:updatePeriod>
+	<sy:updateFrequency>1</sy:updateFrequency>
+	<generator>http://wordpress.org/?v=3.0.5</generator>
+	<item>
+		<title>By: JanC</title>
+		<link>http://markos.gaivo.net/blog/?p=161&#038;cpage=1#comment-3170</link>
+		<dc:creator>JanC</dc:creator>
+		<pubDate>Fri, 09 Jun 2006 19:24:11 +0000</pubDate>
+		<guid isPermaLink="false">http://markos.gaivo.net/blog/?p=161#comment-3170</guid>
+		<description>timbot, effbot, martellibot, ...
+
+Hm, why are they all *bots?  ;-)
+
+
+And GvR of course...</description>
+		<content:encoded><![CDATA[<p>timbot, effbot, martellibot, &#8230;</p>
+<p>Hm, why are they all *bots?  <img src='http://markos.gaivo.net/blog/wp-includes/images/smilies/icon_wink.gif' alt=';-)' class='wp-smiley' /> </p>
+<p>And GvR of course&#8230;</p>
+]]></content:encoded>
+	</item>
+	<item>
+		<title>By: Baczek</title>
+		<link>http://markos.gaivo.net/blog/?p=161&#038;cpage=1#comment-1511</link>
+		<dc:creator>Baczek</dc:creator>
+		<pubDate>Fri, 05 May 2006 21:12:45 +0000</pubDate>
+		<guid isPermaLink="false">http://markos.gaivo.net/blog/?p=161#comment-1511</guid>
+		<description>PJE, AMK, Ian Bicking, Tim Peters... the list could go on and on. There&#039;s a lot of them :)</description>
+		<content:encoded><![CDATA[<p>PJE, AMK, Ian Bicking, Tim Peters&#8230; the list could go on and on. There&#8217;s a lot of them <img src='http://markos.gaivo.net/blog/wp-includes/images/smilies/icon_smile.gif' alt=':)' class='wp-smiley' /> </p>
+]]></content:encoded>
+	</item>
+	<item>
+		<title>By: owca</title>
+		<link>http://markos.gaivo.net/blog/?p=161&#038;cpage=1#comment-1485</link>
+		<dc:creator>owca</dc:creator>
+		<pubDate>Thu, 04 May 2006 12:38:56 +0000</pubDate>
+		<guid isPermaLink="false">http://markos.gaivo.net/blog/?p=161#comment-1485</guid>
+		<description>No doubt about it, PJE.</description>
+		<content:encoded><![CDATA[<p>No doubt about it, PJE.</p>
+]]></content:encoded>
+	</item>
+</channel>
+</rss>

@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+		>
+<channel>
+	<title>Comments on: Knowledge</title>
+	<atom:link href="http://markos.gaivo.net/blog/?feed=rss2&#038;p=202" rel="self" type="application/rss+xml" />
+	<link>http://markos.gaivo.net/blog/?p=202</link>
+	<description></description>
+	<lastBuildDate>Wed, 16 Jul 2014 16:04:38 +0000</lastBuildDate>
+	<sy:updatePeriod>hourly</sy:updatePeriod>
+	<sy:updateFrequency>1</sy:updateFrequency>
+	<generator>http://wordpress.org/?v=3.0.5</generator>
+	<item>
+		<title>By: markos</title>
+		<link>http://markos.gaivo.net/blog/?p=202&#038;cpage=1#comment-7217</link>
+		<dc:creator>markos</dc:creator>
+		<pubDate>Sat, 26 Aug 2006 18:55:43 +0000</pubDate>
+		<guid isPermaLink="false">http://markos.gaivo.net/blog/?p=202#comment-7217</guid>
+		<description>Thanks. I follow majority of them, but some are definitely new discoveries for me.</description>
+		<content:encoded><![CDATA[<p>Thanks. I follow majority of them, but some are definitely new discoveries for me.</p>
+]]></content:encoded>
+	</item>
+	<item>
+		<title>By: Miha</title>
+		<link>http://markos.gaivo.net/blog/?p=202&#038;cpage=1#comment-7195</link>
+		<dc:creator>Miha</dc:creator>
+		<pubDate>Sat, 26 Aug 2006 10:12:57 +0000</pubDate>
+		<guid isPermaLink="false">http://markos.gaivo.net/blog/?p=202#comment-7195</guid>
+		<description>Hm, it&#039;s tought to recomend something. Everybody has his/her own perspective on things. So instead of giving you any advice on which sites you should check, I&#039;m going to list a few of my favourite RSS feeds and hope you find something interesting.
+
+    * artypapers
+    * ShaunInman.com
+    * 456 Berea Street
+    * The Web&#039;s Bollocks
+    * snook.ca
+    * Joshuaink
+    * Web Standards with Imagination
+    * Veerle&#039;s blog
+    * Andy Budd
+    * CollyLogic
+    * hicksdesign
+    * Authentic Boredom
+    * Jeffrey Zeldman Presents
+    * DOM Scripting Blog
+    * SimpleBits
+    * Matt Brett
+    * kottke.org
+    * The Web Standards Project
+
+Sorry for not including the links, it&#039;s a long list :) Hope you find anything you could be interested in.</description>
+		<content:encoded><![CDATA[<p>Hm, it&#8217;s tought to recomend something. Everybody has his/her own perspective on things. So instead of giving you any advice on which sites you should check, I&#8217;m going to list a few of my favourite RSS feeds and hope you find something interesting.</p>
+<p>    * artypapers<br />
+    * ShaunInman.com<br />
+    * 456 Berea Street<br />
+    * The Web&#8217;s Bollocks<br />
+    * snook.ca<br />
+    * Joshuaink<br />
+    * Web Standards with Imagination<br />
+    * Veerle&#8217;s blog<br />
+    * Andy Budd<br />
+    * CollyLogic<br />
+    * hicksdesign<br />
+    * Authentic Boredom<br />
+    * Jeffrey Zeldman Presents<br />
+    * DOM Scripting Blog<br />
+    * SimpleBits<br />
+    * Matt Brett<br />
+    * kottke.org<br />
+    * The Web Standards Project</p>
+<p>Sorry for not including the links, it&#8217;s a long list <img src='http://markos.gaivo.net/blog/wp-includes/images/smilies/icon_smile.gif' alt=':)' class='wp-smiley' />  Hope you find anything you could be interested in.</p>
+]]></content:encoded>
+	</item>
+</channel>
+</rss>

@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>A notch above a monkey &raquo; Personal Data Protection</title>
+	<meta charset="utf-8" />
+	
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" /> 
+
+	<link rel="shortcut icon" href="/img/markos.ico" />
+	
+	<meta name="generator" content="WordPress 3.0.5" /> <!-- leave this for stats please -->
+
+	<link href="http://fast.fonts.com/cssapi/aee9b60b-8e94-47f8-b586-3ecbfab51d1c.css" rel="stylesheet" type="text/css" />
+	<link rel="stylesheet" type="text/css" href="css/home.css" media="screen" title="Light theme" />
+	<link rel="alternate stylesheet" type="text/css" href="css/home_dark.css" media="screen" title="Dark theme" />
+	<link rel="stylesheet" href="css/ipad.css" media="only screen and (min-device-width : 768px) and (max-device-width : 1024px)">
+	<link rel="stylesheet" type="text/css" href="css/smallscreen.css" media="only screen and (max-width: 700px)" />
+
+	<link rel="alternate" type="application/rss+xml" title="RSS 2.0" href="http://markos.gaivo.net/blog/?feed=rss2" />
+	<link rel="alternate" type="application/atom+xml" title="Atom 1.0" href="http://markos.gaivo.net/blog/?feed=atom" />
+	<link rel='canonical' href='http://markos.gaivo.net/blog/?p=664' />
+
+	<link rel="pingback" href="http://markos.gaivo.net/blog/xmlrpc.php" />
+
+	<link rel="EditURI" type="application/rsd+xml" title="RSD" href="http://markos.gaivo.net/blog/xmlrpc.php?rsd" />
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="http://markos.gaivo.net/blog/wp-includes/wlwmanifest.xml" /> 
+<link rel='index' title='A notch above a monkey' href='http://markos.gaivo.net/blog' />
+<link rel='start' title='First post' href='http://markos.gaivo.net/blog/?p=2' />
+<link rel='prev' title='History lessons' href='http://markos.gaivo.net/blog/?p=60' />
+<link rel='next' title='When to use AJAX' href='http://markos.gaivo.net/blog/?p=62' />
+<meta name="generator" content="WordPress 3.0.5" />
+<link rel='canonical' href='http://markos.gaivo.net/blog/?p=61' />
+
+	<!--[if lt IE 9]>
+	<script src="/js/html5.js"></script>
+	<![endif]-->
+</head>
+<body>
+					<header>
+		<h1><a href="/blog/">A notch above a monkey</a> &raquo; Personal Data Protection</h1>
+	</header>
+
+	<section class="envelope">
+		<article class="post">
+			<header>
+				<h1>Personal Data Protection</h1>
+			</header>
+
+			<footer>
+				<ul>
+					<li class="by">Written by: <a href="/">Marko Samastur</a></li>
+					<li class="published">Published on: <time datetime="2005-11-10T10:44:18+00:00" pubdate>November 10, 2005</time></li>
+					<li class="categories">Categories: <a href="http://markos.gaivo.net/blog/?cat=9" title="View all posts in Company" rel="category">Company</a></li>
+					<li class="post-comments">Comments: <span>Comments Off</span></li>
+				</ul>
+			</footer>
+
+			<div class="post-text">
+				<p>One of the downsides of running your own company is that you have to get familiar with things you could never care for and amazingly often make sense only to really twisted bureaucratic minds.</p>
+<p>In Slovenia, if you collect personal information of any kind, you have to register such database 15 days before its first use with <a href="http://www.mp.gov.si/index.php?id=2243&amp;L=1">Inspectorate for Personal Data Protection</a>. I&#8217;m all in favor of laws protecting personal information and in general I think Slovenian laws are not too bad in that regard. But if inspectorate by their <a href="http://www.mp.gov.si/fileadmin/mp.gov.si/pageuploads/2005/PDF/porocila/poroc_ivop_2004.pdf">own words</a> rarely inspects cases that weren&#8217;t reported to them and all such inspections seem to be limited to state institutions, what good is such register than anyway? How does it protect anyone?</p>
+<p>You can read online <a href="http://www2.gov.si/mp/katalogz.nsf/(wwwUpravljavci)?OpenView&amp;Count=30" title="Online register">a list</a> of companies that registered their databases together with a short summary of what kind of data they collect and what for. I&#8217;ve checked a company where I administered such database for two and a half years (never experienced an inspection of any kind) and it&#8217;s quite clear that no one actually checks if provided information is true or complete.</p>
+<p>What you&#8217;re left with is another meaningless obligation you have to fulfill. Preferably by sending them email with data AND a printed form (email only is not allowed). Nice. You can do more work so they don&#8217;t have to.</p>
+<p>E-government Slovenian style.</p>
+			</div>
+
+			<nav>
+				<p>If you liked this, you might want to visit:</p>
+				<ul>
+					<li>my previous article: <a href="http://markos.gaivo.net/blog/?p=60" rel="prev">History lessons</a></li>					<li>my next article: <a href="http://markos.gaivo.net/blog/?p=62" rel="next">When to use AJAX</a></li>					<li><a href="/blog/">article list</a></li>
+				</ul>
+			</nav>
+
+			<h2 id="comments">No Comments
+			</h2>
+			<p>No comments yet.</p>
+
+		<p>Sorry, the comment form is closed at this time.</p>
+
+		</article>
+	</section>
+			<!-- All pages -->
+	
+
+	<footer>
+		<ul>
+			<li>&copy; 2005-2015 Marko Samastur</li>
+			
+			<li><a href="http://markos.gaivo.net/blog/?feed=rss2">Entries feed</a></li>
+			<li><a href="http://markos.gaivo.net/blog/?feed=comments-rss2">Comments feed</a></li>
+		</ul>
+		<a href="/"><img src="/img/markos_light_small_bg.png" alt="logo" class="mini-logo" /></a>
+	</footer>
+	<!-- Google analytics -->
+	<script type="text/javascript">
+	  var _gaq = _gaq || [];
+	  _gaq.push(['_setAccount', 'UA-152438-1']);
+	  _gaq.push(['_trackPageview']);
+	</script>
+	<script src="/js/cookie.js"></script>
+</body>
+</html>

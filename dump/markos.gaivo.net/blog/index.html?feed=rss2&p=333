@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+		>
+<channel>
+	<title>Comments on: The Four Steps to Epiphany</title>
+	<atom:link href="http://markos.gaivo.net/blog/?feed=rss2&#038;p=333" rel="self" type="application/rss+xml" />
+	<link>http://markos.gaivo.net/blog/?p=333</link>
+	<description></description>
+	<lastBuildDate>Wed, 16 Jul 2014 16:04:38 +0000</lastBuildDate>
+	<sy:updatePeriod>hourly</sy:updatePeriod>
+	<sy:updateFrequency>1</sy:updateFrequency>
+	<generator>http://wordpress.org/?v=3.0.5</generator>
+	<item>
+		<title>By: markos</title>
+		<link>http://markos.gaivo.net/blog/?p=333&#038;cpage=1#comment-196042</link>
+		<dc:creator>markos</dc:creator>
+		<pubDate>Fri, 19 Jun 2009 14:34:00 +0000</pubDate>
+		<guid isPermaLink="false">http://markos.gaivo.net/blog/?p=333#comment-196042</guid>
+		<description>Lahko, ampak ne za predolgo, ker jo redno prebiram :)</description>
+		<content:encoded><![CDATA[<p>Lahko, ampak ne za predolgo, ker jo redno prebiram <img src='http://markos.gaivo.net/blog/wp-includes/images/smilies/icon_smile.gif' alt=':)' class='wp-smiley' /> </p>
+]]></content:encoded>
+	</item>
+	<item>
+		<title>By: Si. R.</title>
+		<link>http://markos.gaivo.net/blog/?p=333&#038;cpage=1#comment-196033</link>
+		<dc:creator>Si. R.</dc:creator>
+		<pubDate>Fri, 19 Jun 2009 13:09:33 +0000</pubDate>
+		<guid isPermaLink="false">http://markos.gaivo.net/blog/?p=333#comment-196033</guid>
+		<description>Posodi?? :-)</description>
+		<content:encoded><![CDATA[<p>Posodi?? <img src='http://markos.gaivo.net/blog/wp-includes/images/smilies/icon_smile.gif' alt=':-)' class='wp-smiley' /> </p>
+]]></content:encoded>
+	</item>
+</channel>
+</rss>

@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+		>
+<channel>
+	<title>Comments on: Firefox adds ping attribute</title>
+	<atom:link href="http://markos.gaivo.net/blog/?feed=rss2&#038;p=112" rel="self" type="application/rss+xml" />
+	<link>http://markos.gaivo.net/blog/?p=112</link>
+	<description></description>
+	<lastBuildDate>Wed, 16 Jul 2014 16:04:38 +0000</lastBuildDate>
+	<sy:updatePeriod>hourly</sy:updatePeriod>
+	<sy:updateFrequency>1</sy:updateFrequency>
+	<generator>http://wordpress.org/?v=3.0.5</generator>
+	<item>
+		<title>By: markos</title>
+		<link>http://markos.gaivo.net/blog/?p=112&#038;cpage=1#comment-685</link>
+		<dc:creator>markos</dc:creator>
+		<pubDate>Sun, 22 Jan 2006 19:52:55 +0000</pubDate>
+		<guid isPermaLink="false">http://markos.gaivo.net/blog/?p=112#comment-685</guid>
+		<description>I doubt it will be, since there would be no point to it then. Who would turn something like that on?
+
+Please, track me ;)</description>
+		<content:encoded><![CDATA[<p>I doubt it will be, since there would be no point to it then. Who would turn something like that on?</p>
+<p>Please, track me <img src='http://markos.gaivo.net/blog/wp-includes/images/smilies/icon_wink.gif' alt=';)' class='wp-smiley' /> </p>
+]]></content:encoded>
+	</item>
+	<item>
+		<title>By: j</title>
+		<link>http://markos.gaivo.net/blog/?p=112&#038;cpage=1#comment-684</link>
+		<dc:creator>j</dc:creator>
+		<pubDate>Sun, 22 Jan 2006 19:49:03 +0000</pubDate>
+		<guid isPermaLink="false">http://markos.gaivo.net/blog/?p=112#comment-684</guid>
+		<description>my first thought was - `one can build a nice ddos icmp ping tool with this` just to discover that someone &quot;forgot&quot; to mention that ping in this case is just some kind of &quot;preload&quot; and not ping from tcp/ip protocol...
+
+what have they been smokin&#039;
+
+and i hope this feature will be off by default.</description>
+		<content:encoded><![CDATA[<p>my first thought was &#8211; `one can build a nice ddos icmp ping tool with this` just to discover that someone &#8220;forgot&#8221; to mention that ping in this case is just some kind of &#8220;preload&#8221; and not ping from tcp/ip protocol&#8230;</p>
+<p>what have they been smokin&#8217;</p>
+<p>and i hope this feature will be off by default.</p>
+]]></content:encoded>
+	</item>
+</channel>
+</rss>

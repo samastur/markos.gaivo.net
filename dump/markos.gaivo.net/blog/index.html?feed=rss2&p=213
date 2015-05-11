@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+		>
+<channel>
+	<title>Comments on: bisect and subpar modules</title>
+	<atom:link href="http://markos.gaivo.net/blog/?feed=rss2&#038;p=213" rel="self" type="application/rss+xml" />
+	<link>http://markos.gaivo.net/blog/?p=213</link>
+	<description></description>
+	<lastBuildDate>Wed, 16 Jul 2014 16:04:38 +0000</lastBuildDate>
+	<sy:updatePeriod>hourly</sy:updatePeriod>
+	<sy:updateFrequency>1</sy:updateFrequency>
+	<generator>http://wordpress.org/?v=3.0.5</generator>
+	<item>
+		<title>By: jml</title>
+		<link>http://markos.gaivo.net/blog/?p=213&#038;cpage=1#comment-18020</link>
+		<dc:creator>jml</dc:creator>
+		<pubDate>Sat, 09 Dec 2006 18:48:12 +0000</pubDate>
+		<guid isPermaLink="false">http://markos.gaivo.net/blog/?p=213#comment-18020</guid>
+		<description>I think a more precise term would be static binding, since it&#039;s the variable name that you want to be statically checked. Python&#039;s dynamic binding doesn&#039;t make it easy to do this unfortunately, especially across modules. Restricting dynamic binding would make static type analysis a lot more reliable.
+
+For now, a simple solution might be something like pylint/pychecker -- although I don&#039;t know if they&#039;re still updated. Those types of tools can be a lot stricter than standard Python, since you also have more control. At least for catching typos.
+
+Edit-and-continue would be pretty nice too.</description>
+		<content:encoded><![CDATA[<p>I think a more precise term would be static binding, since it&#8217;s the variable name that you want to be statically checked. Python&#8217;s dynamic binding doesn&#8217;t make it easy to do this unfortunately, especially across modules. Restricting dynamic binding would make static type analysis a lot more reliable.</p>
+<p>For now, a simple solution might be something like pylint/pychecker &#8212; although I don&#8217;t know if they&#8217;re still updated. Those types of tools can be a lot stricter than standard Python, since you also have more control. At least for catching typos.</p>
+<p>Edit-and-continue would be pretty nice too.</p>
+]]></content:encoded>
+	</item>
+	<item>
+		<title>By: minmax</title>
+		<link>http://markos.gaivo.net/blog/?p=213&#038;cpage=1#comment-17994</link>
+		<dc:creator>minmax</dc:creator>
+		<pubDate>Sat, 09 Dec 2006 14:06:20 +0000</pubDate>
+		<guid isPermaLink="false">http://markos.gaivo.net/blog/?p=213#comment-17994</guid>
+		<description>Marko misunderstood me about pickling. It is not pickling itself that is problematic, it is th &quot;b&quot; parameter of opening a file for reading/writing. 
+
+If someone produces a file under windows without &quot;b&quot; parameter, that pickle file can not be read on Linux. The file becomes useless. At least some kind of &quot;emulation&quot; for reading files produced by windows would be needed - or maybe raising an exception under windows when using file opened like that for pickling. And problem should be documented inside pickle module, where it is not.
+
+The problem about bisection is bigger than marko understands it. If you have a class and you want to use one of the fields for bisection, you need to overload __cmp__, but if you do that you basically cannot compare two objects &quot;normally&quot; anymore. This has led me me to go for really stupid workarounds. A key or cmp parameter is needed for bisection to get around that. 
+
+Another low quality module is heapq. There is no merge operation to merge two heaps. And there are other things missing - like poping the biggest element from heap (not trivally doable, but if you have nlargest, you should also have that!)
+
+Yes, i was talking about static typing (though i mixed it up while talking to marko). My problem is that after 20 minutes of computation, python reports that i mistyped the name of the parameter when i tried to output the result. I fix it, and start computation again, and afer 20 minutes python merrily tells me that I also mistyped some other variable. Total nightmare when working with software that takes a lot of computational time. This type of typing comes into play even without typing of classes...
+
+There are other possible solutions to this last problem - for example &quot;Edit and continue&quot; paradigm of Visual Studio that would spare A LOT of time lost because of typing mistakes. I am now doing this manually using pickles... but it just takes time (and pickling of large object collections is really slow...).</description>
+		<content:encoded><![CDATA[<p>Marko misunderstood me about pickling. It is not pickling itself that is problematic, it is th &#8220;b&#8221; parameter of opening a file for reading/writing. </p>
+<p>If someone produces a file under windows without &#8220;b&#8221; parameter, that pickle file can not be read on Linux. The file becomes useless. At least some kind of &#8220;emulation&#8221; for reading files produced by windows would be needed &#8211; or maybe raising an exception under windows when using file opened like that for pickling. And problem should be documented inside pickle module, where it is not.</p>
+<p>The problem about bisection is bigger than marko understands it. If you have a class and you want to use one of the fields for bisection, you need to overload __cmp__, but if you do that you basically cannot compare two objects &#8220;normally&#8221; anymore. This has led me me to go for really stupid workarounds. A key or cmp parameter is needed for bisection to get around that. </p>
+<p>Another low quality module is heapq. There is no merge operation to merge two heaps. And there are other things missing &#8211; like poping the biggest element from heap (not trivally doable, but if you have nlargest, you should also have that!)</p>
+<p>Yes, i was talking about static typing (though i mixed it up while talking to marko). My problem is that after 20 minutes of computation, python reports that i mistyped the name of the parameter when i tried to output the result. I fix it, and start computation again, and afer 20 minutes python merrily tells me that I also mistyped some other variable. Total nightmare when working with software that takes a lot of computational time. This type of typing comes into play even without typing of classes&#8230;</p>
+<p>There are other possible solutions to this last problem &#8211; for example &#8220;Edit and continue&#8221; paradigm of Visual Studio that would spare A LOT of time lost because of typing mistakes. I am now doing this manually using pickles&#8230; but it just takes time (and pickling of large object collections is really slow&#8230;).</p>
+]]></content:encoded>
+	</item>
+	<item>
+		<title>By: jml</title>
+		<link>http://markos.gaivo.net/blog/?p=213&#038;cpage=1#comment-17839</link>
+		<dc:creator>jml</dc:creator>
+		<pubDate>Fri, 08 Dec 2006 04:57:48 +0000</pubDate>
+		<guid isPermaLink="false">http://markos.gaivo.net/blog/?p=213#comment-17839</guid>
+		<description>The pickle docs show no indication that any of the protocols are OS-dependent. They are Python-version dependent though. If it&#039;s true that the highest level is OS-dependent (although I&#039;ve never had any problems), then the docs need to be updated.
+
+A comparison function for bisect would be useful where you can&#039;t modify the object&#039;s class, such as if you have a list of numbers in reverse order. Granted, for performance reasons you may be better off using some trick involving tuples.</description>
+		<content:encoded><![CDATA[<p>The pickle docs show no indication that any of the protocols are OS-dependent. They are Python-version dependent though. If it&#8217;s true that the highest level is OS-dependent (although I&#8217;ve never had any problems), then the docs need to be updated.</p>
+<p>A comparison function for bisect would be useful where you can&#8217;t modify the object&#8217;s class, such as if you have a list of numbers in reverse order. Granted, for performance reasons you may be better off using some trick involving tuples.</p>
+]]></content:encoded>
+	</item>
+	<item>
+		<title>By: Doug Napoleone</title>
+		<link>http://markos.gaivo.net/blog/?p=213&#038;cpage=1#comment-17687</link>
+		<dc:creator>Doug Napoleone</dc:creator>
+		<pubDate>Thu, 07 Dec 2006 23:42:34 +0000</pubDate>
+		<guid isPermaLink="false">http://markos.gaivo.net/blog/?p=213#comment-17687</guid>
+		<description>There are ways to add forms of static typing to python, which involve decorators and meta classes. Python allows for this type of extension.
+
+Zope Interfaces (a sub-package which can be down loaded seperatly from the rest of Zope) give you all teh code you need to implement static typing on function and method API&#039;s. 
+
+Django, SQLAlchemy and other DB ORM&#039;s contain static typing examples on class attributes.
+
+We use similar systems at work which give us full type safty in python for our result objects and API&#039;s which are implemented 100% in python. There is an overhead involved, so it is only used when -O is not supplied (i.e. debug python). We do this because these classes and functions are entrypoint wrappers or return objects from out C/API. It is cheaper and easier to implement the type safty on the python side. We also disable pickling and the ability to assign any variable name (because some of the information is ram stateful, etc).
+
+On pickling, look at the optional pickle level. It defaults to he highest, most compressed form which is OS dependent. Other PICKLE levels are NOT OS dependent! (but they are slower and take up more disk.</description>
+		<content:encoded><![CDATA[<p>There are ways to add forms of static typing to python, which involve decorators and meta classes. Python allows for this type of extension.</p>
+<p>Zope Interfaces (a sub-package which can be down loaded seperatly from the rest of Zope) give you all teh code you need to implement static typing on function and method API&#8217;s. </p>
+<p>Django, SQLAlchemy and other DB ORM&#8217;s contain static typing examples on class attributes.</p>
+<p>We use similar systems at work which give us full type safty in python for our result objects and API&#8217;s which are implemented 100% in python. There is an overhead involved, so it is only used when -O is not supplied (i.e. debug python). We do this because these classes and functions are entrypoint wrappers or return objects from out C/API. It is cheaper and easier to implement the type safty on the python side. We also disable pickling and the ability to assign any variable name (because some of the information is ram stateful, etc).</p>
+<p>On pickling, look at the optional pickle level. It defaults to he highest, most compressed form which is OS dependent. Other PICKLE levels are NOT OS dependent! (but they are slower and take up more disk.</p>
+]]></content:encoded>
+	</item>
+	<item>
+		<title>By: Jay P</title>
+		<link>http://markos.gaivo.net/blog/?p=213&#038;cpage=1#comment-17674</link>
+		<dc:creator>Jay P</dc:creator>
+		<pubDate>Thu, 07 Dec 2006 23:16:26 +0000</pubDate>
+		<guid isPermaLink="false">http://markos.gaivo.net/blog/?p=213#comment-17674</guid>
+		<description>I think it&#039;s important to point out that the general consensus is that Python *is* strongly typed, it&#039;s just not statically typed. Major difference between the two.</description>
+		<content:encoded><![CDATA[<p>I think it&#8217;s important to point out that the general consensus is that Python *is* strongly typed, it&#8217;s just not statically typed. Major difference between the two.</p>
+]]></content:encoded>
+	</item>
+</channel>
+</rss>

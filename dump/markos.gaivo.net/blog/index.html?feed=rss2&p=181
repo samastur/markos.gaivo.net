@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+		>
+<channel>
+	<title>Comments on: Plivadon&#8217;s accessibility</title>
+	<atom:link href="http://markos.gaivo.net/blog/?feed=rss2&#038;p=181" rel="self" type="application/rss+xml" />
+	<link>http://markos.gaivo.net/blog/?p=181</link>
+	<description></description>
+	<lastBuildDate>Wed, 16 Jul 2014 16:04:38 +0000</lastBuildDate>
+	<sy:updatePeriod>hourly</sy:updatePeriod>
+	<sy:updateFrequency>1</sy:updateFrequency>
+	<generator>http://wordpress.org/?v=3.0.5</generator>
+	<item>
+		<title>By: David Frey</title>
+		<link>http://markos.gaivo.net/blog/?p=181&#038;cpage=1#comment-3133</link>
+		<dc:creator>David Frey</dc:creator>
+		<pubDate>Thu, 08 Jun 2006 14:21:36 +0000</pubDate>
+		<guid isPermaLink="false">http://markos.gaivo.net/blog/?p=181#comment-3133</guid>
+		<description>I think blind people are going to require help when they buy drugs.  What happens if you&#039;re trying to buy the above product and instead you buy laxatives?
+
+I think a more useful tool would be scanning allowing blind people to scan RFID tags attached to each product and then using text-to-speech technology for identification.
+
+This would be a fairly expensive system to implement, but there is already motivation for the stores to use RFID tags.  Custom boxes would probably be seen as an unnecessary expense.</description>
+		<content:encoded><![CDATA[<p>I think blind people are going to require help when they buy drugs.  What happens if you&#8217;re trying to buy the above product and instead you buy laxatives?</p>
+<p>I think a more useful tool would be scanning allowing blind people to scan RFID tags attached to each product and then using text-to-speech technology for identification.</p>
+<p>This would be a fairly expensive system to implement, but there is already motivation for the stores to use RFID tags.  Custom boxes would probably be seen as an unnecessary expense.</p>
+]]></content:encoded>
+	</item>
+</channel>
+</rss>

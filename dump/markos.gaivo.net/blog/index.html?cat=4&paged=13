@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>A notch above a monkey &raquo; Web</title>
+	<meta charset="utf-8" />
+	
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" /> 
+
+	<link rel="shortcut icon" href="/img/markos.ico" />
+	
+	<meta name="generator" content="WordPress 3.0.5" /> <!-- leave this for stats please -->
+
+	<link href="http://fast.fonts.com/cssapi/aee9b60b-8e94-47f8-b586-3ecbfab51d1c.css" rel="stylesheet" type="text/css" />
+	<link rel="stylesheet" type="text/css" href="css/home.css" media="screen" title="Light theme" />
+	<link rel="alternate stylesheet" type="text/css" href="css/home_dark.css" media="screen" title="Dark theme" />
+	<link rel="stylesheet" href="css/ipad.css" media="only screen and (min-device-width : 768px) and (max-device-width : 1024px)">
+	<link rel="stylesheet" type="text/css" href="css/smallscreen.css" media="only screen and (max-width: 700px)" />
+
+	<link rel="alternate" type="application/rss+xml" title="RSS 2.0" href="http://markos.gaivo.net/blog/?feed=rss2" />
+	<link rel="alternate" type="application/atom+xml" title="Atom 1.0" href="http://markos.gaivo.net/blog/?feed=atom" />
+	<link rel='canonical' href='http://markos.gaivo.net/blog/?p=664' />
+
+	<link rel="pingback" href="http://markos.gaivo.net/blog/xmlrpc.php" />
+
+	<link rel="alternate" type="application/rss+xml" title="A notch above a monkey &raquo; Web Category Feed" href="http://markos.gaivo.net/blog/?feed=rss2&amp;cat=4" />
+<link rel="EditURI" type="application/rsd+xml" title="RSD" href="http://markos.gaivo.net/blog/xmlrpc.php?rsd" />
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="http://markos.gaivo.net/blog/wp-includes/wlwmanifest.xml" /> 
+<link rel='index' title='A notch above a monkey' href='http://markos.gaivo.net/blog' />
+<meta name="generator" content="WordPress 3.0.5" />
+
+	<!--[if lt IE 9]>
+	<script src="/js/html5.js"></script>
+	<![endif]-->
+</head>
+<body>
+	<section class="envelope posts">
+		<header>
+			<h1><a href="http://markos.gaivo.net/blog/">A notch above a monkey</a></h1>
+		</header>
+		<nav class="colophon">
+			<h1>By Marko Samastur</h1>
+			<ul>
+				<li><a href="/">About me</a></li>
+				<li><a href="http://markos.gaivo.net/blog/?feed=atom">Subscribe</a></li>
+			</ul>
+		</nav>
+
+	
+		<article>
+			<h1 class="storytitle"><a href="http://markos.gaivo.net/blog/?p=241" rel="bookmark">Really open social network</a></h1>
+
+			<div class="post-text">
+				<p>I&#8217;ve recently read couple of posts that left an impression on me. First one was Brad Neuberg&#8217;s about <a href="http://codinginparadise.org/weblog/2007/08/creating-personal-research-agenda.html">personal research agenda</a>. I haven&#8217;t completed list of my problems yet, but I came far enough to know I&#8217;m not working on any of them.</p>
+<p>The other one was about <a href="http://www.entrepreneur2be.com/2007/08/26/idea-blog-socialnetworking-blog20/">Blog 2.0</a>. I&#8217;m more interested in content manipulation than social interactions as Pownce and Marela are only two social networking applications I use. Still, ideas contained are intriguing and couple of days before <a href="http://datasharingsummit.com/">Data Sharing Summit</a> is the right time to shamelessly pimp my views.</p>
+<p>Build a social application and you will likely, sooner or later, encounter a dilemma in what your members will be building. Are their creations mainly personal, an expression of their creativity, or are they more of a place where people meet and engage?</p>
+<p>Most websites don&#8217;t fall squarely into one or the other. My blog feels personal not only because I picked the look and topics, but also because my voice is elevated above others. I doubt I would feel the same if comments could look like my posts. I like my place and freedom it offers me.</p>
+<p>That&#8217;s why I don&#8217;t care all that much about most networks and degrees of their openness. Really open social network would be interwoven into the fabric of web. I already have my page, I don&#8217;t need yet another one. If buddy list is desired, I can use FOAF. Sharing of my stuff? Feeds. Same answer for getting other people&#8217;s stuff. Starting a new network would mean creating a widget or a few that can be easily integrated in our sites, maybe some sort of a pinging service if expediency is important and offering a space for personal page for those, who don&#8217;t have it yet.</p>
+<p>It&#8217;s amazing how little would need to be changed to implement ideas in Blog 2.0. Basic technology is already here, it&#8217;s just not used widely enough yet. Sure there are a few issues that need to be thought through, mainly to do with handling privacy correctly, but they are neither big nor really technological. And price for all this?</p>
+<p>Maybe a bit less expediency in content propagation and a bit more work for network operators, who might need to learn to live with the same limitations that search engine developers do already. And I&#8217;m not even sure that is really necessary.</p>
+<p><em>Update: </em>Thinking a bit more about this I would be happy enough if social network were just more inclusive. It&#8217;s fine that you can create an account and be busy on their platform, but it would be better if you could join and interact with a social network with your own node for as long as that met your needs.</p>
+			</div>
+
+			<footer class="post-metadata">
+				<ul>
+					<li>Published on <time datetime="2007-09-05T21:45:57+00:00">September 5, 2007</time></li>
+					<li><a href="http://markos.gaivo.net/blog/?p=241#comments" title="Comment on Really open social network">Add your comment</a> </li>
+				</ul>
+			</footer>
+		</article>
+	
+		<article>
+			<h1 class="storytitle"><a href="http://markos.gaivo.net/blog/?p=238" rel="bookmark">Flashy new old machine</a></h1>
+
+			<div class="post-text">
+				<p>It&#8217;s been a week with a lot of novelty. I got a new monitor, a nice 21&#8243; LCD and it seemed appropriate to install a more recent, so to speak new, Linux distribution to go with it. I decided for Kubuntu and so far I quite like it.</p>
+<p>I&#8217;ve been a Linux user for more than a decade, but for last few years I haven&#8217;t really used my machine for everyday browsing. One reason were bookmarks accumulated in my powerbook and the other absence of Flash plugin for x86-64 platform. Flash plugin is still missing, but clever folks contrived a way to use the i386 one. Basically you install compatibility libraries and another, 32 bit version of Firefox.</p>
+<p>Still, I mostly use the one without a plugin and so far it has certainly been an eye opening experience. Once upon a time sites fell in two categories, those made more or less completely with Flash and others, which didn&#8217;t use it at all. I have no idea when this changed, but it&#8217;s certainly not true anymore. These days most sites seem to be combination of both approaches.</p>
+<p>As with Javascript it can work quite nicely when used sensibly and in an unobtrusive way. However, there are lots of sites like <a href="http://www.cbs.com/primetime/csi/">this</a>, which you simply can&#8217;t use without Flash. With proliferation of video and widgets, that play ever more important roles, I feel that web is becoming less open with every day.</p>
+<p>I probably wouldn&#8217;t mind that much if Flash player itself was open (I don&#8217;t really care about development tools). Well, when all else fails,  you can always hope.</p>
+			</div>
+
+			<footer class="post-metadata">
+				<ul>
+					<li>Published on <time datetime="2007-08-24T21:49:34+00:00">August 24, 2007</time></li>
+					<li><a href="http://markos.gaivo.net/blog/?p=238#comments" title="Comment on Flashy new old machine">Add your comment</a> </li>
+				</ul>
+			</footer>
+		</article>
+	
+		<article>
+			<h1 class="storytitle"><a href="http://markos.gaivo.net/blog/?p=237" rel="bookmark">Public social graph</a></h1>
+
+			<div class="post-text">
+				<p>I&#8217;ve been following sporadically discussions about opening and sharing social networks&#8217; social graphs. It&#8217;s hard to be a user of web services these days and not wish it was easier to recreate network of friends on new ones. Following sporadically means my opinion on subject may be more firm than right. I guess that makes it a perfect blogging material.</p>
+<p>Latest article I&#8217;ve read on the subject <a href="http://bradfitz.com/social-graph-problem/">comes</a> from Brad Fitzpatrick, someone always worth listening to. It&#8217;s an interesting post and Brad has obviously thought about privacy issues, but there&#8217;s one conceptual problem I still don&#8217;t see resolved.</p>
+<p>It sounds paradoxical, but I don&#8217;t think public and private data have an empty intersection. If for some reason you want to have a pseudonymous account on social network cooperating in this scheme, how can you reliably avoid being discovered? If you, for example, use same email address as with other services, then anyone using social graph data can find you out by matching hash values.</p>
+<p>The only solution I can think of is to use a different email address, but this is neither particularly scalable and you have to decide upfront about how you intent to use the service. It also won&#8217;t work for sites, where you are already registered. There you can only hope you&#8217;ll be asked for consent before that data is given out.</p>
+<p>Still, I&#8217;m more or less convinced that sharing will happen. Current situation is simply to painful for everyone involved (apart from biggest players) to persevere. I just don&#8217;t know what the downsides will be to which I&#8217;ll have to adapt.</p>
+<p><em>Update: More on the subject from </em><em><a href="http://www.dehora.net/journal/2007/08/buddycrap.html">Bill de hÓra</a></em><em>. He says exactly what I hope I would be thinking, if I was actually doing the thinking.</em></p>
+			</div>
+
+			<footer class="post-metadata">
+				<ul>
+					<li>Published on <time datetime="2007-08-19T00:00:27+00:00">August 19, 2007</time></li>
+					<li><a href="http://markos.gaivo.net/blog/?p=237#comments" title="Comment on Public social graph">Add your comment</a> </li>
+				</ul>
+			</footer>
+		</article>
+		
+		<nav class="pagination">
+			<ul>
+				<li><a href="http://markos.gaivo.net/blog/?cat=4&#038;paged=12" >&laquo; Newer articles</a></li>
+				<li><a href="http://markos.gaivo.net/blog/?cat=4&#038;paged=14" >Older articles &raquo;</a></li>
+			</ul>
+		</nav>
+	</section>
+
+
+	<footer>
+		<ul>
+			<li>&copy; 2005-2015 Marko Samastur</li>
+			
+			<li><a href="http://markos.gaivo.net/blog/?feed=rss2">Entries feed</a></li>
+			<li><a href="http://markos.gaivo.net/blog/?feed=comments-rss2">Comments feed</a></li>
+		</ul>
+		<a href="/"><img src="/img/markos_light_small_bg.png" alt="logo" class="mini-logo" /></a>
+	</footer>
+	<script src="/js/jquery.js"></script>
+	<script src="/js/all.js"></script>
+	<!--script src="/mint/?js" type="text/javascript"></script-->
+
+	<!-- Google analytics -->
+	<script type="text/javascript">
+
+	  var _gaq = _gaq || [];
+	  _gaq.push(['_setAccount', 'UA-152438-1']);
+	  _gaq.push(['_trackPageview']);
+	</script>
+	<script src="/js/cookie.js"></script>
+</body>
+</html>

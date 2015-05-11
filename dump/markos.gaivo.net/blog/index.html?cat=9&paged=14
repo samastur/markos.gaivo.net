@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>A notch above a monkey &raquo; Company</title>
+	<meta charset="utf-8" />
+	
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" /> 
+
+	<link rel="shortcut icon" href="/img/markos.ico" />
+	
+	<meta name="generator" content="WordPress 3.0.5" /> <!-- leave this for stats please -->
+
+	<link href="http://fast.fonts.com/cssapi/aee9b60b-8e94-47f8-b586-3ecbfab51d1c.css" rel="stylesheet" type="text/css" />
+	<link rel="stylesheet" type="text/css" href="css/home.css" media="screen" title="Light theme" />
+	<link rel="alternate stylesheet" type="text/css" href="css/home_dark.css" media="screen" title="Dark theme" />
+	<link rel="stylesheet" href="css/ipad.css" media="only screen and (min-device-width : 768px) and (max-device-width : 1024px)">
+	<link rel="stylesheet" type="text/css" href="css/smallscreen.css" media="only screen and (max-width: 700px)" />
+
+	<link rel="alternate" type="application/rss+xml" title="RSS 2.0" href="http://markos.gaivo.net/blog/?feed=rss2" />
+	<link rel="alternate" type="application/atom+xml" title="Atom 1.0" href="http://markos.gaivo.net/blog/?feed=atom" />
+	<link rel='canonical' href='http://markos.gaivo.net/blog/?p=664' />
+
+	<link rel="pingback" href="http://markos.gaivo.net/blog/xmlrpc.php" />
+
+	<link rel="alternate" type="application/rss+xml" title="A notch above a monkey &raquo; Company Category Feed" href="http://markos.gaivo.net/blog/?feed=rss2&amp;cat=9" />
+<link rel="EditURI" type="application/rsd+xml" title="RSD" href="http://markos.gaivo.net/blog/xmlrpc.php?rsd" />
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="http://markos.gaivo.net/blog/wp-includes/wlwmanifest.xml" /> 
+<link rel='index' title='A notch above a monkey' href='http://markos.gaivo.net/blog' />
+<meta name="generator" content="WordPress 3.0.5" />
+
+	<!--[if lt IE 9]>
+	<script src="/js/html5.js"></script>
+	<![endif]-->
+</head>
+<body>
+	<section class="envelope posts">
+		<header>
+			<h1><a href="http://markos.gaivo.net/blog/">A notch above a monkey</a></h1>
+		</header>
+		<nav class="colophon">
+			<h1>By Marko Samastur</h1>
+			<ul>
+				<li><a href="/">About me</a></li>
+				<li><a href="http://markos.gaivo.net/blog/?feed=atom">Subscribe</a></li>
+			</ul>
+		</nav>
+
+	
+		<article>
+			<h1 class="storytitle"><a href="http://markos.gaivo.net/blog/?p=75" rel="bookmark">Building FAQ from wiki pages</a></h1>
+
+			<div class="post-text">
+				<p>We use <a href="http://moinmoin.wikiwikiweb.de/" title="MoinMoin's homepage">MoinMoin</a> for all our documentation needs, since it simplifies almost all related tasks. It&#8217;s nice when everything is available at one place through a familiar and easy to use interface.</p>
+<p>This is why I also wanted to use it to build a FAQ for our site, which is more needed with each day. There&#8217;s an abundance of software for building and managing such documents, but I haven&#8217;t found anything that would match our needs. Apart from using wiki pages as the source of wisdom, I also wanted:</p>
+<ol>
+<li>A good and fairly easy integration with our site (but not automatic).</li>
+<li>A very malleable solution, where it would be easy to change FAQ organization as requirements change.</li>
+</ol>
+<p>At the end I decided to build our own thing using <a href="http://www.crummy.com/software/BeautifulSoup/index.html">Beautiful Soup</a>, a python package I raved about a while ago. Since we wanted each question to have a permanent link that could be bookmarked, we had to give them an identifier that wouldn&#8217;t change even if we rephrased the question or changed the answer. The simplest way was to assign a unique number to each question as it can be seen on a <a href="http://markos.gaivo.net/examples/samplefaq/faq.html">sample FAQ page</a>. This way it&#8217;s easy to add and remove questions as long as you can count.</p>
+<p>MoinMoin produces very sensible HTML that is easy to work with. <a href="http://markos.gaivo.net/examples/samplefaq/faq.py">Here&#8217;s</a> a proof of concept module that extracts information from a page like the sample one and packs it in a dictionary with identifiers as keys and a list  <em>[ question, answer ]</em>  as value.</p>
+<p>It&#8217;s not something very useful on its own, but I think it&#8217;s a nice example of what can be done quickly with existing tools like MoinMoin and BeautifulSoup.</p>
+<p>Notes: In principle there&#8217;s no need to use MoinMoin as long as produced HTML fits following assumptions:</p>
+<ol>
+<li>FAQ is stored inside a <em>div</em> element with <em>id</em> set to <em>content</em>.</li>
+<li>Questions are inside a heading element which also acts as a delimiter between them.</li>
+<li>Identifiers are integers.</li>
+</ol>
+<p>If it doesn&#8217;t, you&#8217;ll need to change code a bit.</p>
+			</div>
+
+			<footer class="post-metadata">
+				<ul>
+					<li>Published on <time datetime="2005-11-22T17:17:42+00:00">November 22, 2005</time></li>
+					<li><a href="http://markos.gaivo.net/blog/?p=75#comments" title="Comment on Building FAQ from wiki pages">Add your comment</a> </li>
+				</ul>
+			</footer>
+		</article>
+	
+		<article>
+			<h1 class="storytitle"><a href="http://markos.gaivo.net/blog/?p=74" rel="bookmark">The most annoying business habit</a></h1>
+
+			<div class="post-text">
+				<p>To me the most annoying business habit is calling someone when it&#8217;s not urgent, even though you have his email address and it should be obvious from your relationship that he prefers email to other means of communication.</p>
+<p>I hated phones since I was a wee lad, but I dislike them even more now, because:</p>
+<ol>
+<li>They break my concentration; rarely for a good reason.</li>
+<li>They are invasive and inconsiderate. Just because it suits you to call me now, it doesn&#8217;t mean it suits me.</li>
+<li>Whatever is said on the phone can be denied later and sometimes is.</li>
+</ol>
+<p>Leave a trail or fuck off.</p>
+			</div>
+
+			<footer class="post-metadata">
+				<ul>
+					<li>Published on <time datetime="2005-11-22T11:55:11+00:00">November 22, 2005</time></li>
+					<li><a href="http://markos.gaivo.net/blog/?p=74#comments" title="Comment on The most annoying business habit">Add your comment</a> </li>
+				</ul>
+			</footer>
+		</article>
+	
+		<article>
+			<h1 class="storytitle"><a href="http://markos.gaivo.net/blog/?p=72" rel="bookmark">Intellectual property and society benefits</a></h1>
+
+			<div class="post-text">
+				<blockquote><p>&#8220;Considering the exclusive right to invention as given not of natural right, but for the benefit of society, I know well the difficulty of drawing a line between the things which are worth to the public the embarrassment of an exclusive patent, and those which are not.&#8221;</p>
+<p><a href="http://press-pubs.uchicago.edu/founders/documents/a1_8_8s12.html" title="A letter to Isaac McPherson">Thomas Jefferson, 1813</a></p></blockquote>
+<p>Guardian published a well written <a href="http://www.guardian.co.uk/comment/story/0,3604,1646125,00.html">article</a> about intellectual property and ownership of ideas. I&#8217;ve been thinking a lot about this lately, as I&#8217;m certain other entrepreneurs often do. Especially those with companies where assets are mainly good people you work with and intangible stuff like software. And ideas, which many think should be owned and protected.</p>
+<p>I&#8217;ve never been one of them, but I understand that patents are a complex enough subject which is difficult to explore and where policy has been based mainly on personal beliefs of people involved in creating it.</p>
+<p>As Jefferson has already said, exclusive right to invention is not a natural right, but a right given for the benefit of society. So, are patents still benefiting society at large? Would we stop innovating without patents, as some suggest?</p>
+<p>I don&#8217;t want to repeat ideas and arguments stated so many times by people more eloquent than me. However, I&#8217;d like to make a simple reasoning on what patents mean and what we could expect if there weren&#8217;t any.</p>
+<p>I believe there&#8217;s an agreement from all sides that a patent was supposed to protect an invention from competitors for a limited amount of time. It should prevent others from profiting on it and therefore makes it easier to do so for inventor. This means a patent&#8217;s exclusivity reduces pressure from competition and therefore somewhat reduces competitiveness of environment for the inventor.</p>
+<p>Thus abolishing all patents would lead to an extremely competitive environment. How would companies and any would-be entrepreneurs react to a world like this?</p>
+<p>In a world, where there&#8217;s no shortage of people willing and able to manufacture products at costs far below of those achievable in Europe or USA, it&#8217;s inevitable to keep producing new ideas if you want to differentiate yourself. Not inventing is simply not an option as long as you&#8217;re willing to compete.</p>
+<p>There always were and always will be those willing to compete, if window of opportunity between invention and its replication by competitors is large enough to recoup investment and making a profit. A canonical example of industry like this is a software industry, where it&#8217;s fairly cheap to develop new stuff. No need for patents there.</p>
+<p>However, in industries where that window is too small, there simply won&#8217;t be an industry if it&#8217;s either not made bigger or the investment made cheaper. Canonical example for this is pharmaceutical industry, where window is enlarged with patents and investments are cheapened by governmental grants.</p>
+<p>Hence question evolves to what kind of future is coming. Will most new stuff require long and expensive development cycle or will it keep getting shorter and cheaper?</p>
+<p>My bet is on cheaper and shorter. Not only because we can see this already happening, but also because there&#8217;s every reason to believe this trend will continue for foreseeable future. Hardware is getting more generic and differentiation is moving to embedded software exactly because it&#8217;s faster and cheaper to develop. This is true for every product that has at least one button on it (mobiles, cars etc.) and even for a lot of those, that don&#8217;t (popular example being a modern hotel doorknob).</p>
+<p>If this is how future will look like, then legislation should reflect that and patents should be limited only to design patents and to industries that genuinely need them or abolished completely and in certain cases replaced with already existing grants.</p>
+<p>There&#8217;s a plethora of reasons I haven&#8217;t even touched, why modern intellectual property laws (and patent laws in particular) are hurting our society already. But I think what makes it even worse is that we are stubbornly marching in the wrong direction.</p>
+<p>Benefit of society, not personal or corporate gain is what this was supposed to be all about.</p>
+			</div>
+
+			<footer class="post-metadata">
+				<ul>
+					<li>Published on <time datetime="2005-11-20T21:17:52+00:00">November 20, 2005</time></li>
+					<li><a href="http://markos.gaivo.net/blog/?p=72#comments" title="Comment on Intellectual property and society benefits">Add your comment</a> </li>
+				</ul>
+			</footer>
+		</article>
+		
+		<nav class="pagination">
+			<ul>
+				<li><a href="http://markos.gaivo.net/blog/?cat=9&#038;paged=13" >&laquo; Newer articles</a></li>
+				<li><a href="http://markos.gaivo.net/blog/?cat=9&#038;paged=15" >Older articles &raquo;</a></li>
+			</ul>
+		</nav>
+	</section>
+
+
+	<footer>
+		<ul>
+			<li>&copy; 2005-2015 Marko Samastur</li>
+			
+			<li><a href="http://markos.gaivo.net/blog/?feed=rss2">Entries feed</a></li>
+			<li><a href="http://markos.gaivo.net/blog/?feed=comments-rss2">Comments feed</a></li>
+		</ul>
+		<a href="/"><img src="/img/markos_light_small_bg.png" alt="logo" class="mini-logo" /></a>
+	</footer>
+	<script src="/js/jquery.js"></script>
+	<script src="/js/all.js"></script>
+	<!--script src="/mint/?js" type="text/javascript"></script-->
+
+	<!-- Google analytics -->
+	<script type="text/javascript">
+
+	  var _gaq = _gaq || [];
+	  _gaq.push(['_setAccount', 'UA-152438-1']);
+	  _gaq.push(['_trackPageview']);
+	</script>
+	<script src="/js/cookie.js"></script>
+</body>
+</html>

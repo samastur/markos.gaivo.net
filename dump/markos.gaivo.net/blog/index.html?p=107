@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>A notch above a monkey &raquo; Happy holidays</title>
+	<meta charset="utf-8" />
+	
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" /> 
+
+	<link rel="shortcut icon" href="/img/markos.ico" />
+	
+	<meta name="generator" content="WordPress 3.0.5" /> <!-- leave this for stats please -->
+
+	<link href="http://fast.fonts.com/cssapi/aee9b60b-8e94-47f8-b586-3ecbfab51d1c.css" rel="stylesheet" type="text/css" />
+	<link rel="stylesheet" type="text/css" href="css/home.css" media="screen" title="Light theme" />
+	<link rel="alternate stylesheet" type="text/css" href="css/home_dark.css" media="screen" title="Dark theme" />
+	<link rel="stylesheet" href="css/ipad.css" media="only screen and (min-device-width : 768px) and (max-device-width : 1024px)">
+	<link rel="stylesheet" type="text/css" href="css/smallscreen.css" media="only screen and (max-width: 700px)" />
+
+	<link rel="alternate" type="application/rss+xml" title="RSS 2.0" href="http://markos.gaivo.net/blog/?feed=rss2" />
+	<link rel="alternate" type="application/atom+xml" title="Atom 1.0" href="http://markos.gaivo.net/blog/?feed=atom" />
+	<link rel='canonical' href='http://markos.gaivo.net/blog/?p=664' />
+
+	<link rel="pingback" href="http://markos.gaivo.net/blog/xmlrpc.php" />
+
+	<link rel="alternate" type="application/rss+xml" title="A notch above a monkey &raquo; Happy holidays Comments Feed" href="http://markos.gaivo.net/blog/?feed=rss2&amp;p=107" />
+<link rel="EditURI" type="application/rsd+xml" title="RSD" href="http://markos.gaivo.net/blog/xmlrpc.php?rsd" />
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="http://markos.gaivo.net/blog/wp-includes/wlwmanifest.xml" /> 
+<link rel='index' title='A notch above a monkey' href='http://markos.gaivo.net/blog' />
+<link rel='start' title='First post' href='http://markos.gaivo.net/blog/?p=2' />
+<link rel='prev' title='Which famous dutch painter was also a diplomat?' href='http://markos.gaivo.net/blog/?p=106' />
+<link rel='next' title='@media 2006' href='http://markos.gaivo.net/blog/?p=108' />
+<meta name="generator" content="WordPress 3.0.5" />
+<link rel='canonical' href='http://markos.gaivo.net/blog/?p=107' />
+
+	<!--[if lt IE 9]>
+	<script src="/js/html5.js"></script>
+	<![endif]-->
+</head>
+<body>
+					<header>
+		<h1><a href="/blog/">A notch above a monkey</a> &raquo; Happy holidays</h1>
+	</header>
+
+	<section class="envelope">
+		<article class="post">
+			<header>
+				<h1>Happy holidays</h1>
+			</header>
+
+			<footer>
+				<ul>
+					<li class="by">Written by: <a href="/">Marko Samastur</a></li>
+					<li class="published">Published on: <time datetime="2005-12-27T08:24:11+00:00" pubdate>December 27, 2005</time></li>
+					<li class="categories">Categories: <a href="http://markos.gaivo.net/blog/?cat=3" title="View all posts in Catchall" rel="category">Catchall</a>, <a href="http://markos.gaivo.net/blog/?cat=4" title="View all posts in Web" rel="category">Web</a></li>
+					<li class="post-comments">Comments: <a href="http://markos.gaivo.net/blog/?p=107#comments" title="Comment on Happy holidays">3</a></li>
+				</ul>
+			</footer>
+
+			<div class="post-text">
+				<p>In a few hours I&#8217;ll be going on a trip to Stockholm, so this is probably the last post of this year. It also happens to be the 100th post since it was started six months ago, making it a perfect place to recapitulate this year and this blog.</p>
+<p>It has become a custom by now to flood web with such articles at this time of the year, so I&#8217;ve decided to limit mine to a much less talked topic, a state of web in Slovenia.</p>
+<p>It&#8217;s certainly been an interesting year. We&#8217;ve experienced a rise of web standards <a href="http://www.siol.net/">based</a> <a href="http://www.bof.si/main.cp2">designs</a> and even got <a href="http://rkg.gov.si/GERK/">first slovenian AJAX application</a> intended for wide use. Truth be told, I don&#8217;t really know when it was launched, since I more or less stumbled upon it, but it seems that until this year, most of my colleagues weren&#8217;t aware of it either. Also it&#8217;s the year when feeds started to appear on prominent websites (with most of the public blissfully ignorant of them).</p>
+<p>Sadly, it&#8217;s still safe to say that most new designs were done with table-based layouts and many table-less left much to be desired. Most of them are abusing or flatly ignoring semantic part of HTML tags and drowning in superfluous div&#8217;s. Little thought is spent on usability and even less on accessibility of new sites.</p>
+<p>As customary by now, we seem to be lagging at least a couple of years behind the world. Slovenian web of 2005 is still very much the web of closed gardens. Feeds may have appeared, but their shy use is limited and there are few if any public APIs for developers to use.</p>
+<p>I expect this will change in new year with public launch of <a href="http://www.marela.si">Marela</a> and hopefully other new services. Still, we&#8217;re not pioneers and it seems we don&#8217;t want to be.</p>
+<p>On a personal front, it&#8217;s been a very busy, but also a very good year for me. Our service is about to go from a closed beta to more open one and first signs from our users are very positive. We started <a href="http://web.zen.si">a series</a> of web related talks through which I met many, from whom I&#8217;ve learned a lot. There&#8217;s more talent out there than I was aware of and it certainly gave me hope for the future.</p>
+<p>I discovered the fun of writing and had a good fortune of having insightful readers who helped me tame my ignorance at least a bit. There were more of you reading this blog than I probably deserve and certainly many more than I&#8217;ve ever expected. I&#8217;m grateful to you all.</p>
+<p>So to end this all, what are my blog resolutions for the new year?</p>
+<p>I wrote more frequently than I first expected and probably should. In new year I&#8217;ll try to reduce the number of posts in favor of more useful content and prose that doesn&#8217;t feel like chewing cardboard.</p>
+<p>I&#8217;ll try to write shorter posts except when content actually demands a longer one. I&#8217;d also like to hear what my readers would like to see more or less of so if you can spare a moment or two, please drop me a line in the comments.</p>
+<p>I wish everyone all the best in new year.</p>
+			</div>
+
+			<nav>
+				<p>If you liked this, you might want to visit:</p>
+				<ul>
+					<li>my previous article: <a href="http://markos.gaivo.net/blog/?p=106" rel="prev">Which famous dutch painter was also a diplomat?</a></li>					<li>my next article: <a href="http://markos.gaivo.net/blog/?p=108" rel="next">@media 2006</a></li>					<li><a href="/blog/">article list</a></li>
+				</ul>
+			</nav>
+
+			<h2 id="comments">Comments (3)
+			</h2>
+			<ol class="comments">
+		
+				<li id="comment-490">
+					<article>
+						<p>I think your posting frequency was just fine, so I think you should just keep writing like you did in 2005 <img src='http://markos.gaivo.net/blog/wp-includes/images/smilies/icon_smile.gif' alt=':)' class='wp-smiley' /> </p>
+						<footer>
+							<cite>Comment by <a href='http://seba.antiwisdom.com' rel='external nofollow' class='url'>Sebastjan</a> &#8212; <time datetime="2005-12-27T13:46:13+00:00">December 27, 2005 @ 1:46 pm</time> <a href="#comment-490">#</a> </cite>
+						</footer>
+					</article>
+				</li>
+		
+				<li id="comment-537">
+					<article>
+						<p>What would readers like to see? Hm &#8230; I thought that blogging is about writing about things you feel necessary to write about &#8230; and then readers deceide if they&#8217;re interesting to them or not. If you write your &#8220;blog&#8221; to please your readers, is it still a blog?</p>
+						<footer>
+							<cite>Comment by pegasus &#8212; <time datetime="2006-01-02T14:53:42+00:00">January 2, 2006 @ 2:53 pm</time> <a href="#comment-537">#</a> </cite>
+						</footer>
+					</article>
+				</li>
+		
+				<li id="comment-546">
+					<article>
+						<p>Sure it is.</p>
+<p>It might be less angst-ridden than most and hopefully there are not all that many posts that fit look-at-stupid-people-who-don&#8217;t-think-like-me category, but it&#8217;s still a blog.</p>
+<p>This blog is not literature that it would somehow have to stay &#8220;real&#8221;. It&#8217;s a place where I try to share what I know and express what I think and it won&#8217;t stop being that even if I listen to what others have to say about it and change a thing or two. I&#8217;d ascribe it to personal growth.</p>
+<p>Thank you both for your comments.</p>
+						<footer>
+							<cite>Comment by <a href='http://markos.gaivo.net' rel='external nofollow' class='url'>markos</a> &#8212; <time datetime="2006-01-04T15:18:43+00:00">January 4, 2006 @ 3:18 pm</time> <a href="#comment-546">#</a> </cite>
+						</footer>
+					</article>
+				</li>
+		
+			</ol>
+
+
+		<p>Sorry, the comment form is closed at this time.</p>
+
+		</article>
+	</section>
+			<!-- All pages -->
+	
+
+	<footer>
+		<ul>
+			<li>&copy; 2005-2015 Marko Samastur</li>
+			
+			<li><a href="http://markos.gaivo.net/blog/?feed=rss2">Entries feed</a></li>
+			<li><a href="http://markos.gaivo.net/blog/?feed=comments-rss2">Comments feed</a></li>
+		</ul>
+		<a href="/"><img src="/img/markos_light_small_bg.png" alt="logo" class="mini-logo" /></a>
+	</footer>
+	<!-- Google analytics -->
+	<script type="text/javascript">
+	  var _gaq = _gaq || [];
+	  _gaq.push(['_setAccount', 'UA-152438-1']);
+	  _gaq.push(['_trackPageview']);
+	</script>
+	<script src="/js/cookie.js"></script>
+</body>
+</html>

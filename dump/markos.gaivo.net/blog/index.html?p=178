@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>A notch above a monkey &raquo; Firefox extensions Javascript conflicts</title>
+	<meta charset="utf-8" />
+	
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" /> 
+
+	<link rel="shortcut icon" href="/img/markos.ico" />
+	
+	<meta name="generator" content="WordPress 3.0.5" /> <!-- leave this for stats please -->
+
+	<link href="http://fast.fonts.com/cssapi/aee9b60b-8e94-47f8-b586-3ecbfab51d1c.css" rel="stylesheet" type="text/css" />
+	<link rel="stylesheet" type="text/css" href="css/home.css" media="screen" title="Light theme" />
+	<link rel="alternate stylesheet" type="text/css" href="css/home_dark.css" media="screen" title="Dark theme" />
+	<link rel="stylesheet" href="css/ipad.css" media="only screen and (min-device-width : 768px) and (max-device-width : 1024px)">
+	<link rel="stylesheet" type="text/css" href="css/smallscreen.css" media="only screen and (max-width: 700px)" />
+
+	<link rel="alternate" type="application/rss+xml" title="RSS 2.0" href="http://markos.gaivo.net/blog/?feed=rss2" />
+	<link rel="alternate" type="application/atom+xml" title="Atom 1.0" href="http://markos.gaivo.net/blog/?feed=atom" />
+	<link rel='canonical' href='http://markos.gaivo.net/blog/?p=664' />
+
+	<link rel="pingback" href="http://markos.gaivo.net/blog/xmlrpc.php" />
+
+	<link rel="alternate" type="application/rss+xml" title="A notch above a monkey &raquo; Firefox extensions Javascript conflicts Comments Feed" href="http://markos.gaivo.net/blog/?feed=rss2&amp;p=178" />
+<link rel="EditURI" type="application/rsd+xml" title="RSD" href="http://markos.gaivo.net/blog/xmlrpc.php?rsd" />
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="http://markos.gaivo.net/blog/wp-includes/wlwmanifest.xml" /> 
+<link rel='index' title='A notch above a monkey' href='http://markos.gaivo.net/blog' />
+<link rel='start' title='First post' href='http://markos.gaivo.net/blog/?p=2' />
+<link rel='prev' title='Update on my series60 Marela uploader' href='http://markos.gaivo.net/blog/?p=177' />
+<link rel='next' title='Looking for monitor' href='http://markos.gaivo.net/blog/?p=179' />
+<meta name="generator" content="WordPress 3.0.5" />
+<link rel='canonical' href='http://markos.gaivo.net/blog/?p=178' />
+
+	<!--[if lt IE 9]>
+	<script src="/js/html5.js"></script>
+	<![endif]-->
+</head>
+<body>
+					<header>
+		<h1><a href="/blog/">A notch above a monkey</a> &raquo; Firefox extensions Javascript conflicts</h1>
+	</header>
+
+	<section class="envelope">
+		<article class="post">
+			<header>
+				<h1>Firefox extensions Javascript conflicts</h1>
+			</header>
+
+			<footer>
+				<ul>
+					<li class="by">Written by: <a href="/">Marko Samastur</a></li>
+					<li class="published">Published on: <time datetime="2006-05-29T12:23:09+00:00" pubdate>May 29, 2006</time></li>
+					<li class="categories">Categories: <a href="http://markos.gaivo.net/blog/?cat=1" title="View all posts in Javascript" rel="category">Javascript</a>, <a href="http://markos.gaivo.net/blog/?cat=4" title="View all posts in Web" rel="category">Web</a></li>
+					<li class="post-comments">Comments: <a href="http://markos.gaivo.net/blog/?p=178#comments" title="Comment on Firefox extensions Javascript conflicts">1</a></li>
+				</ul>
+			</footer>
+
+			<div class="post-text">
+				<p>I like Firefox extensions and use a few myself. Web development without <a href="http://chrispederick.com/work/webdeveloper/">Web Developer toolbar</a> and <a href="http://livehttpheaders.mozdev.org/">LiveHTTPHeaders</a> extension would be pretty gruesome. However, there&#8217;s a downside to their use that is slowly starting to bother me.</p>
+<p>They often influence the way Javascript on page gets executed and can produce weird errors.</p>
+<p>I first noticed this while using Web Developer toolbar. Every now and then I got a strange exception, but I didn&#8217;t worry too much. After all, it wasn&#8217;t really surprising coming from an extension that by its very nature dabbled with the way browser interprets and displays a page and it didn&#8217;t really stop the script from working. Not pretty, but you learn to live with it.</p>
+<p>Comes this weekend and I get a report that file upload doesn&#8217;t work in latest Firefox. I suspected extension conflicts and further examination proved the point. Page worked just fine in the same environment sans extensions.</p>
+<p>So what can you do, when you stumble on a problem like that?</p>
+<p>Testing your site in various browsers can be troublesome enough. Testing all combinations of extensions even for one browser would simply be impossible. You can&#8217;t exactly expect your users to uninstall their extensions just for you, but making workarounds for them doesn&#8217;t seem feasible either.</p>
+<p>So far I don&#8217;t see a good solution. Any ideas?</p>
+			</div>
+
+			<nav>
+				<p>If you liked this, you might want to visit:</p>
+				<ul>
+					<li>my previous article: <a href="http://markos.gaivo.net/blog/?p=177" rel="prev">Update on my series60 Marela uploader</a></li>					<li>my next article: <a href="http://markos.gaivo.net/blog/?p=179" rel="next">Looking for monitor</a></li>					<li><a href="/blog/">article list</a></li>
+				</ul>
+			</nav>
+
+			<h2 id="comments">Comment (1)
+			</h2>
+			<ol class="comments">
+		
+				<li id="comment-2885">
+					<article>
+						<p>I guess:<br />
+- send a bug report to the extension developer (if it&#8217;s a bug)<br />
+- add alert to users using firefox</p>
+<p>I don&#8217;t see any other feasible options. I had some users complain that some site wasn&#8217;t working well. They had a banner blocking extension that removed images in certain folders by default. You just can&#8217;t find every one of them and rename all your image folders&#8230;</p>
+						<footer>
+							<cite>Comment by <a href='http://friedcellcollective.net' rel='external nofollow' class='url'>fry</a> &#8212; <time datetime="2006-05-29T14:13:22+00:00">May 29, 2006 @ 2:13 pm</time> <a href="#comment-2885">#</a> </cite>
+						</footer>
+					</article>
+				</li>
+		
+			</ol>
+
+
+		<p>Sorry, the comment form is closed at this time.</p>
+
+		</article>
+	</section>
+			<!-- All pages -->
+	
+
+	<footer>
+		<ul>
+			<li>&copy; 2005-2015 Marko Samastur</li>
+			
+			<li><a href="http://markos.gaivo.net/blog/?feed=rss2">Entries feed</a></li>
+			<li><a href="http://markos.gaivo.net/blog/?feed=comments-rss2">Comments feed</a></li>
+		</ul>
+		<a href="/"><img src="/img/markos_light_small_bg.png" alt="logo" class="mini-logo" /></a>
+	</footer>
+	<!-- Google analytics -->
+	<script type="text/javascript">
+	  var _gaq = _gaq || [];
+	  _gaq.push(['_setAccount', 'UA-152438-1']);
+	  _gaq.push(['_trackPageview']);
+	</script>
+	<script src="/js/cookie.js"></script>
+</body>
+</html>

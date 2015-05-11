@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>A notch above a monkey &raquo; Javascript events on tablet</title>
+	<meta charset="utf-8" />
+	
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" /> 
+
+	<link rel="shortcut icon" href="/img/markos.ico" />
+	
+	<meta name="generator" content="WordPress 3.0.5" /> <!-- leave this for stats please -->
+
+	<link href="http://fast.fonts.com/cssapi/aee9b60b-8e94-47f8-b586-3ecbfab51d1c.css" rel="stylesheet" type="text/css" />
+	<link rel="stylesheet" type="text/css" href="css/home.css" media="screen" title="Light theme" />
+	<link rel="alternate stylesheet" type="text/css" href="css/home_dark.css" media="screen" title="Dark theme" />
+	<link rel="stylesheet" href="css/ipad.css" media="only screen and (min-device-width : 768px) and (max-device-width : 1024px)">
+	<link rel="stylesheet" type="text/css" href="css/smallscreen.css" media="only screen and (max-width: 700px)" />
+
+	<link rel="alternate" type="application/rss+xml" title="RSS 2.0" href="http://markos.gaivo.net/blog/?feed=rss2" />
+	<link rel="alternate" type="application/atom+xml" title="Atom 1.0" href="http://markos.gaivo.net/blog/?feed=atom" />
+	<link rel='canonical' href='http://markos.gaivo.net/blog/?p=664' />
+
+	<link rel="pingback" href="http://markos.gaivo.net/blog/xmlrpc.php" />
+
+	<link rel="alternate" type="application/rss+xml" title="A notch above a monkey &raquo; Javascript events on tablet Comments Feed" href="http://markos.gaivo.net/blog/?feed=rss2&amp;p=244" />
+<link rel="EditURI" type="application/rsd+xml" title="RSD" href="http://markos.gaivo.net/blog/xmlrpc.php?rsd" />
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="http://markos.gaivo.net/blog/wp-includes/wlwmanifest.xml" /> 
+<link rel='index' title='A notch above a monkey' href='http://markos.gaivo.net/blog' />
+<link rel='start' title='First post' href='http://markos.gaivo.net/blog/?p=2' />
+<link rel='prev' title='Dynamically controlling behavior and size of a page' href='http://markos.gaivo.net/blog/?p=243' />
+<link rel='next' title='Suing myself' href='http://markos.gaivo.net/blog/?p=245' />
+<meta name="generator" content="WordPress 3.0.5" />
+<link rel='canonical' href='http://markos.gaivo.net/blog/?p=244' />
+
+	<!--[if lt IE 9]>
+	<script src="/js/html5.js"></script>
+	<![endif]-->
+</head>
+<body>
+					<header>
+		<h1><a href="/blog/">A notch above a monkey</a> &raquo; Javascript events on tablet</h1>
+	</header>
+
+	<section class="envelope">
+		<article class="post">
+			<header>
+				<h1>Javascript events on tablet</h1>
+			</header>
+
+			<footer>
+				<ul>
+					<li class="by">Written by: <a href="/">Marko Samastur</a></li>
+					<li class="published">Published on: <time datetime="2007-12-16T18:14:19+00:00" pubdate>December 16, 2007</time></li>
+					<li class="categories">Categories: <a href="http://markos.gaivo.net/blog/?cat=1" title="View all posts in Javascript" rel="category">Javascript</a>, <a href="http://markos.gaivo.net/blog/?cat=4" title="View all posts in Web" rel="category">Web</a></li>
+					<li class="post-comments">Comments: <a href="http://markos.gaivo.net/blog/?p=244#comments" title="Comment on Javascript events on tablet">1</a></li>
+				</ul>
+			</footer>
+
+			<div class="post-text">
+				<p>I&#8217;ve been curious about interface possibilities and limitations of non-desktop environments like my Nokia tablet for a while, especially as they pertain to web. Pen on a touchscreen obviously doesn&#8217;t have to leave a &#8220;trail&#8221; of traversal like a mouse does. You also don&#8217;t have several mouse buttons at your disposal.</p>
+<p>So I made a simple <a href="http://markos.gaivo.net/examples/jsenvtest.html">test page</a> to see how some of more interesting events get caught.</p>
+<p>The result on my 770 was quite disappointing while also expected. I&#8217;ll summarize it for those who don&#8217;t have a tablet. Touching a screen generates <em>mousemove</em> event and sometimes <em>mouseover</em>, but you never get a <em>mouseout</em> event. If touched briefly enough, it&#8217;ll also generate <em>mousedown</em>, <em>mouseup</em> and <em>click</em> event in this order.</p>
+<p>You won&#8217;t get a <em>mousedown</em> and <em>mouseup</em> events until <em>click</em>. If you keep pressing the screen without moving, you&#8217;ll  get a context menu, but I found no way to get to <em>mousedown</em> on its own. This means it&#8217;s impossible to create a &#8220;natural&#8221; drag and drop, which isn&#8217;t surprising, since same movement is already taken by browser for scrolling.</p>
+<p>My test was limited to Nokia 770 tablet, but I doubt results would be much different elsewhere (Fry, can you check your tablet?). It would also be interesting to see what iPhone does, but since I don&#8217;t have it either, I can&#8217;t tell.</p>
+<p>Still I&#8217;ll need to rethink a widget for website I&#8217;m working on and keep this in mind for my next year project.</p>
+			</div>
+
+			<nav>
+				<p>If you liked this, you might want to visit:</p>
+				<ul>
+					<li>my previous article: <a href="http://markos.gaivo.net/blog/?p=243" rel="prev">Dynamically controlling behavior and size of a page</a></li>					<li>my next article: <a href="http://markos.gaivo.net/blog/?p=245" rel="next">Suing myself</a></li>					<li><a href="/blog/">article list</a></li>
+				</ul>
+			</nav>
+
+			<h2 id="comments">Comment (1)
+			</h2>
+			<ol class="comments">
+		
+				<li id="comment-98561">
+					<article>
+						<p>Yep, the results are the same &#8211; still using the Opera 8 browser though. Will report after I upgrade to Firefox and the new OS incarnation. The thing is that &#8216;drag&#8217; doesn&#8217;t actually move the cursor it snaps the page to the cursor and moves the viewport. In a way this also explains the lack of mousedown/click/mouseup events&#8230;</p>
+						<footer>
+							<cite>Comment by <a href='http://friedcellcollective.net/outbreak' rel='external nofollow' class='url'>fry</a> &#8212; <time datetime="2007-12-21T22:25:10+00:00">December 21, 2007 @ 10:25 pm</time> <a href="#comment-98561">#</a> </cite>
+						</footer>
+					</article>
+				</li>
+		
+			</ol>
+
+
+		<p>Sorry, the comment form is closed at this time.</p>
+
+		</article>
+	</section>
+			<!-- All pages -->
+	
+
+	<footer>
+		<ul>
+			<li>&copy; 2005-2015 Marko Samastur</li>
+			
+			<li><a href="http://markos.gaivo.net/blog/?feed=rss2">Entries feed</a></li>
+			<li><a href="http://markos.gaivo.net/blog/?feed=comments-rss2">Comments feed</a></li>
+		</ul>
+		<a href="/"><img src="/img/markos_light_small_bg.png" alt="logo" class="mini-logo" /></a>
+	</footer>
+	<!-- Google analytics -->
+	<script type="text/javascript">
+	  var _gaq = _gaq || [];
+	  _gaq.push(['_setAccount', 'UA-152438-1']);
+	  _gaq.push(['_trackPageview']);
+	</script>
+	<script src="/js/cookie.js"></script>
+</body>
+</html>

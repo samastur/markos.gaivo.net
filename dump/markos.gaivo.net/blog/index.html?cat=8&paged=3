@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>A notch above a monkey &raquo; Spletne urice</title>
+	<meta charset="utf-8" />
+	
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" /> 
+
+	<link rel="shortcut icon" href="/img/markos.ico" />
+	
+	<meta name="generator" content="WordPress 3.0.5" /> <!-- leave this for stats please -->
+
+	<link href="http://fast.fonts.com/cssapi/aee9b60b-8e94-47f8-b586-3ecbfab51d1c.css" rel="stylesheet" type="text/css" />
+	<link rel="stylesheet" type="text/css" href="css/home.css" media="screen" title="Light theme" />
+	<link rel="alternate stylesheet" type="text/css" href="css/home_dark.css" media="screen" title="Dark theme" />
+	<link rel="stylesheet" href="css/ipad.css" media="only screen and (min-device-width : 768px) and (max-device-width : 1024px)">
+	<link rel="stylesheet" type="text/css" href="css/smallscreen.css" media="only screen and (max-width: 700px)" />
+
+	<link rel="alternate" type="application/rss+xml" title="RSS 2.0" href="http://markos.gaivo.net/blog/?feed=rss2" />
+	<link rel="alternate" type="application/atom+xml" title="Atom 1.0" href="http://markos.gaivo.net/blog/?feed=atom" />
+	<link rel='canonical' href='http://markos.gaivo.net/blog/?p=664' />
+
+	<link rel="pingback" href="http://markos.gaivo.net/blog/xmlrpc.php" />
+
+	<link rel="alternate" type="application/rss+xml" title="A notch above a monkey &raquo; Spletne urice Category Feed" href="http://markos.gaivo.net/blog/?feed=rss2&amp;cat=8" />
+<link rel="EditURI" type="application/rsd+xml" title="RSD" href="http://markos.gaivo.net/blog/xmlrpc.php?rsd" />
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="http://markos.gaivo.net/blog/wp-includes/wlwmanifest.xml" /> 
+<link rel='index' title='A notch above a monkey' href='http://markos.gaivo.net/blog' />
+<meta name="generator" content="WordPress 3.0.5" />
+
+	<!--[if lt IE 9]>
+	<script src="/js/html5.js"></script>
+	<![endif]-->
+</head>
+<body>
+	<section class="envelope posts">
+		<header>
+			<h1><a href="http://markos.gaivo.net/blog/">A notch above a monkey</a></h1>
+		</header>
+		<nav class="colophon">
+			<h1>By Marko Samastur</h1>
+			<ul>
+				<li><a href="/">About me</a></li>
+				<li><a href="http://markos.gaivo.net/blog/?feed=atom">Subscribe</a></li>
+			</ul>
+		</nav>
+
+	
+		<article>
+			<h1 class="storytitle"><a href="http://markos.gaivo.net/blog/?p=133" rel="bookmark">iPod talk this Wednesday</a></h1>
+
+			<div class="post-text">
+				<p>I&#8217;ll be giving a talk this Wednesday at 19:00 in <a href="http://www.kiberpipa.org/index.php?module=ContentExpress&amp;file=index&amp;func=display&amp;ceid=6&amp;meid=25">Kiberpipa</a> as <a href="http://markos.gaivo.net/blog/?p=113">promised</a> some time ago. The theme of the talk will be lessons learned from iPod about (web) design and everyone is welcome to attend.</p>
+<p>I&#8217;m buying a drink for everyone, who&#8217;ll manage to stay through my rather short talk and won&#8217;t flee the scene immediately afterwards. The talk will probably be given in English.</p>
+			</div>
+
+			<footer class="post-metadata">
+				<ul>
+					<li>Published on <time datetime="2006-03-05T16:23:40+00:00">March 5, 2006</time></li>
+					<li><a href="http://markos.gaivo.net/blog/?p=133#comments" title="Comment on iPod talk this Wednesday">Add your comment</a> </li>
+				</ul>
+			</footer>
+		</article>
+	
+		<article>
+			<h1 class="storytitle"><a href="http://markos.gaivo.net/blog/?p=126" rel="bookmark">Whitespace whining</a></h1>
+
+			<div class="post-text">
+				<p>Ian Bicking&#8217;s wrote <a href="http://blog.ianbicking.org/my-python-4k.html">a list</a> of python wishes. There&#8217;s stuff I agree with, some with which I don&#8217;t and stuff I simply don&#8217;t understand. But what caught my eye was:</p>
+<blockquote><p>Things I wouldn&#8217;t do:<br />
+Put up with any significant-whitespace whining. Here 99% of the Python community is with me. I think there is a meme that Python people are close-minded to suggestions for changes in the language. I think there is significant truth to that. But sometimes everyone else is just completely wrong. I want nothing to do with any programmer who would mis-indent their code. If you want to mis-indent your code you are an idiot. If you want idiotic code to be an option you are being absurd.</p></blockquote>
+<p>Precisely. Yesterday was our regular <a href="http://web.zen.si/">web talk evening</a>, which is often followed by a lively debate. As usual we covered all sorts of topics, one of which was Python. To paraphrase a part of it:</p>
+<blockquote><p>A: I don&#8217;t like Python because of significant whitespace.<br />
+B: Do you indent your code?<br />
+A: Yes, of course.<br />
+B: And the problem is?</p></blockquote>
+<p>I can&#8217;t understand how this complaint doesn&#8217;t die. I can understand that some other language can tickle their fancy. People have different tastes and if some people like it rough, who am I to judge. But why in the world would you wish for a feature you&#8217;d never be stupid enough to use?</p>
+			</div>
+
+			<footer class="post-metadata">
+				<ul>
+					<li>Published on <time datetime="2006-02-16T19:07:46+00:00">February 16, 2006</time></li>
+					<li><a href="http://markos.gaivo.net/blog/?p=126#comments" title="Comment on Whitespace whining">Add your comment</a> </li>
+				</ul>
+			</footer>
+		</article>
+	
+		<article>
+			<h1 class="storytitle"><a href="http://markos.gaivo.net/blog/?p=84" rel="bookmark">Hiding form buttons as text</a></h1>
+
+			<div class="post-text">
+				<p>I love going to our weekly web talks not so much for the talks themselves (although they are great), but conversations you get to have there. A part of a recent one rendered from memory and shortened for readers pleasure:</p>
+<blockquote><p><strong>Fry: </strong>Those delete strings of yours should really be post requests. <a href="http://webaccelerator.google.com/" title="Link to web accelerator that shouldn't be used">GA&#8217;s</a> pre-fetching might destroy user&#8217;s data.<br />
+<strong>Me:</strong> &lt;beeeeep&gt; Google. RFC says should not must.<br />
+<strong>Fry:</strong> Well, since it also says multiple GET requests should yield same result, it really is a must for delete.<br />
+<strong>Me</strong> (not ready to give up): True, but so many form buttons will look like crap.<br />
+<strong>Fry:</strong> Well, you can hide them by removing border, setting background-color to background and fixing font size to 1 em.<br />
+<strong>Me:</strong> Uhm, this might work, but probably doesn&#8217;t, because browsers use controls from operating system.<br />
+<strong>Fry:</strong> Well, try it.</p></blockquote>
+<p>I may be stubborn, but I&#8217;m not a complete moron. So I did and here&#8217;s <a href="http://markos.gaivo.net/examples/hidebutton.html" title="Demo">the result</a>.</p>
+<p>As can be seen, it works beautifully in Firefox (1.0+) and Opera 8 (I share my visitors indifference to earlier versions). It doesn&#8217;t work in Safari at all, but since its buttons are not obnoxiously ugly, I can live with that.</p>
+<p>However, it has unseemly big padding in Internet Explorer, which is the real deal-breaker for now.</p>
+<p>I think demo&#8217;s style sheet is pretty self explanatory, but here&#8217;s what I did by mostly following Fry&#8217;s instructions:</p>
+<ul>
+<li>set border to 0</li>
+<li>same for padding and margin</li>
+<li>set background-color of the button to the same value as background of the document</li>
+<li>did the same for color of text</li>
+<li>set the size of button text to 1 em so it&#8217;s displayed in right size in every browser</li>
+<li>set cursor to pointer, since it&#8217;s not done automatically for buttons</li>
+</ul>
+<p><a href="http://www.friedcellcollective.net/" title="Fry's web home">Fry</a> was also correct that bold and italics work and underline doesn&#8217;t, but you can simulate later with border-bottom. Except in IE of course, on account of padding.</p>
+<p>There&#8217;s another shortcoming to consider. If background is an image or a color gradient instead of a solid color, this trick won&#8217;t work.</p>
+<p>So, any ideas about what to do with IE?</p>
+			</div>
+
+			<footer class="post-metadata">
+				<ul>
+					<li>Published on <time datetime="2005-12-02T15:49:23+00:00">December 2, 2005</time></li>
+					<li><a href="http://markos.gaivo.net/blog/?p=84#comments" title="Comment on Hiding form buttons as text">Add your comment</a> </li>
+				</ul>
+			</footer>
+		</article>
+		
+		<nav class="pagination">
+			<ul>
+				<li><a href="http://markos.gaivo.net/blog/?cat=8&#038;paged=2" >&laquo; Newer articles</a></li>
+				<li><a href="http://markos.gaivo.net/blog/?cat=8&#038;paged=4" >Older articles &raquo;</a></li>
+			</ul>
+		</nav>
+	</section>
+
+
+	<footer>
+		<ul>
+			<li>&copy; 2005-2015 Marko Samastur</li>
+			
+			<li><a href="http://markos.gaivo.net/blog/?feed=rss2">Entries feed</a></li>
+			<li><a href="http://markos.gaivo.net/blog/?feed=comments-rss2">Comments feed</a></li>
+		</ul>
+		<a href="/"><img src="/img/markos_light_small_bg.png" alt="logo" class="mini-logo" /></a>
+	</footer>
+	<script src="/js/jquery.js"></script>
+	<script src="/js/all.js"></script>
+	<!--script src="/mint/?js" type="text/javascript"></script-->
+
+	<!-- Google analytics -->
+	<script type="text/javascript">
+
+	  var _gaq = _gaq || [];
+	  _gaq.push(['_setAccount', 'UA-152438-1']);
+	  _gaq.push(['_trackPageview']);
+	</script>
+	<script src="/js/cookie.js"></script>
+</body>
+</html>

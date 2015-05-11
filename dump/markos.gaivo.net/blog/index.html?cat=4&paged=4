@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>A notch above a monkey &raquo; Web</title>
+	<meta charset="utf-8" />
+	
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" /> 
+
+	<link rel="shortcut icon" href="/img/markos.ico" />
+	
+	<meta name="generator" content="WordPress 3.0.5" /> <!-- leave this for stats please -->
+
+	<link href="http://fast.fonts.com/cssapi/aee9b60b-8e94-47f8-b586-3ecbfab51d1c.css" rel="stylesheet" type="text/css" />
+	<link rel="stylesheet" type="text/css" href="css/home.css" media="screen" title="Light theme" />
+	<link rel="alternate stylesheet" type="text/css" href="css/home_dark.css" media="screen" title="Dark theme" />
+	<link rel="stylesheet" href="css/ipad.css" media="only screen and (min-device-width : 768px) and (max-device-width : 1024px)">
+	<link rel="stylesheet" type="text/css" href="css/smallscreen.css" media="only screen and (max-width: 700px)" />
+
+	<link rel="alternate" type="application/rss+xml" title="RSS 2.0" href="http://markos.gaivo.net/blog/?feed=rss2" />
+	<link rel="alternate" type="application/atom+xml" title="Atom 1.0" href="http://markos.gaivo.net/blog/?feed=atom" />
+	<link rel='canonical' href='http://markos.gaivo.net/blog/?p=664' />
+
+	<link rel="pingback" href="http://markos.gaivo.net/blog/xmlrpc.php" />
+
+	<link rel="alternate" type="application/rss+xml" title="A notch above a monkey &raquo; Web Category Feed" href="http://markos.gaivo.net/blog/?feed=rss2&amp;cat=4" />
+<link rel="EditURI" type="application/rsd+xml" title="RSD" href="http://markos.gaivo.net/blog/xmlrpc.php?rsd" />
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="http://markos.gaivo.net/blog/wp-includes/wlwmanifest.xml" /> 
+<link rel='index' title='A notch above a monkey' href='http://markos.gaivo.net/blog' />
+<meta name="generator" content="WordPress 3.0.5" />
+
+	<!--[if lt IE 9]>
+	<script src="/js/html5.js"></script>
+	<![endif]-->
+</head>
+<body>
+	<section class="envelope posts">
+		<header>
+			<h1><a href="http://markos.gaivo.net/blog/">A notch above a monkey</a></h1>
+		</header>
+		<nav class="colophon">
+			<h1>By Marko Samastur</h1>
+			<ul>
+				<li><a href="/">About me</a></li>
+				<li><a href="http://markos.gaivo.net/blog/?feed=atom">Subscribe</a></li>
+			</ul>
+		</nav>
+
+	
+		<article>
+			<h1 class="storytitle"><a href="http://markos.gaivo.net/blog/?p=865" rel="bookmark">Reading sources</a></h1>
+
+			<div class="post-text">
+				<p>Google Reader was redesigned lately and I&#8217;ve been annoyed ever since. I had a dubious privilege of cutting and changing product features people loved in pursuit of <del>higher</del> different goals, so I try to be understanding when others do the same. I mostly found clumsy workarounds for removed features, but I do wish I could at least still trust that list of unread items actually has <em>all of them</em>. On a positive note I can save some electricity now because copious amounts of &#8220;helpfully&#8221; white whitespace illuminate this room brightly enough that you wouldn&#8217;t sit naked in-front of your computer even with lights turned off. That is if you are the sort of person who likes doing that but stops short of flashing your neighbors.</p>
+<p>I still strongly dislike changes made, but I continue using Google Reader, because crack-heads don&#8217;t give up dope just because it was cut too thinly. I cherish my list of reading sources and like a gardener I have been cultivating it through years because I believe they make me better informed than I would be if I relied only on links shared by others. This may be elitist, but it is also true.</p>
+<p>We are biased when choosing friends and communities we belong to. At the very least we enjoy our life more when surrounded with like minded people which is really a lighter shade of group think. We share to tell stories as much about what is shared as we do about who we are. Even when not self-censoring or trying to project an image we still are horribly bad at evaluating what influences us and how. Sharing everything, as <a href="http://techcrunch.com/2011/11/19/curation-through-unsharing/">this idiotic article</a> suggests, doesn&#8217;t fix this <sup><a id="reading-sources-1" href="#reading-sources-note-1">[1]</a></sup>. It&#8217;s still content from same people only more of it.</p>
+<p>Then there are social new sites, which are in essence news organizations with bigger editorial board. Their focus might not be the same and their world view less obvious (or not) as of traditional boards, but the end result really isn&#8217;t all that different. I don&#8217;t dread waking up in a world without <a title="Apple's homepage" href="http://www.apple.com">Apple</a> as I do in one without  fish, but it is not articles about all things piscatorial that keep popping up on regular basis.</p>
+<p>This doesn&#8217;t make socially filtered news useless, just limited and best suited for finding out what is popular at this moment. They should be a side dish not the whole diet. Getting some of your information diet from social sources may improve it, but relying only on them is just stupid. I wouldn&#8217;t fret so much if I didn&#8217;t worry about development trends &#8212; latest Reader changes being one example of them.</p>
+<p>Reader had two methods of sharing. Obvious one was button Share which was adequately replaced with sharing to <a href="http://plus.google.com">Google+</a> circles. The other one, which was the one I actually relied on, was to create public feeds for articles marked with certain tags. The most important difference is that in first case you grouped by intended audience and in second by actual content <sup><a id="reading-sources-2" href="#reading-sources-note-2">[2]</a></sup>. Instead of following me, you could just follow my selection on particular topic which in most cases would probably be closer to what you want.</p>
+<p>By itself stripping a feature like that doesn&#8217;t mean much. However when I also judge other changes such as aforementioned abundance of whitespace, removal of &#8220;Note to reader&#8221; and  new reading unfriendly theme, it&#8217;s easy to come to conclusion that all roads now lead to Google+. Reader&#8217;s role is at best to feed its younger brother with stuff to socialize around.</p>
+<p>It would be wrong to attribute these changes simply to competition with Facebook since they are a part of a larger trend to social curation. I find this trend just a normal consequence of a web ecosystem where most product innovation happens in VC funded startups. How companies were funded was always a part of their DNA and economics of today&#8217;s VC environment for companies that will probably be acquired at some point (and let&#8217;s be honest, who REALLY believes most news experiments won&#8217;t be?) almost demands a quick and high growth. It&#8217;s not impossible to achieve this with sources-based product, but it&#8217;s certainly harder and less obvious than creating another twist on social news.</p>
+<p>If my first and main point was a personal appeal to seek insight also in your own, personally picked sources, then my second is to question if shaping web and world with it should really be left only to industry and academia. It really doesn&#8217;t have to be this way.</p>
+<ol>
+<li id="reading-sources-note-1">Browser&#8217;s history is a great place to see just how much of what we visit is unimportant, unrepresentative and often unsharable. A small friction necessary for a deliberate act of sharing is actually a feature that gives at least a modicum of reflection on content&#8217;s share-worthiness.<a href="#reading-sources-1">↩</a></li>
+<li id="reading-sources-note-2">Feeds enable that and are one of crucial building blocks for what I started to call <em>social software for introverts</em>.  It is software which is better when used by many, but is good even when  you are its only user. <a title="Tool for saving pages to read them later" href="http://www.instapaper.com/">Instapaper</a> would be a perfect example of such an application and <a title="Evil empire" href="http://www.facebook.com/">Facebook</a> is a counter-example.<a href="#reading-sources-2">↩</a></li>
+</ol>
+			</div>
+
+			<footer class="post-metadata">
+				<ul>
+					<li>Published on <time datetime="2011-11-21T11:37:06+00:00">November 21, 2011</time></li>
+					<li><a href="http://markos.gaivo.net/blog/?p=865#comments" title="Comment on Reading sources">Add your comment</a> </li>
+				</ul>
+			</footer>
+		</article>
+	
+		<article>
+			<h1 class="storytitle"><a href="http://markos.gaivo.net/blog/?p=777" rel="bookmark">My OpenData hackday experience</a></h1>
+
+			<div class="post-text">
+				<p>I attended OpenData hackday previous weekend where we tried to create a website inspired by <a href="http://www.theyworkforyou.com/">theyworkforyou.com</a>. We didn&#8217;t quite achieve our goal, but a lot was done by everyone and we had fun. At least I did and I am certain we will release the first version soon (before the end of October, mark my words).</p>
+<p>Not releasing our website still bothered me and I&#8217;ve been thinking about it since, contemplating what we did right and what I did wrong.﻿ I hope this rumination can be of use to others who may be thinking about organizing or attending such an event. If you already have and have some tips to share or simply disagree with something I said, then please leave a comment at the bottom.</p>
+<h2>Planning</h2>
+<p>It is <a title="IKEA effect" href="http://neoacademic.com/2011/09/22/unfolding-the-ikea-effect-why-we-love-the-things-we-build/">important to finish</a> something. Having something at least a bit useful or fun gives everyone involved a sense of achievement and provides a better motivation for further work. To avoid problems with too many ideas started and none finished, we suggested to work only on ideas that have at least 3 volunteers. We also created a wiki where everyone could add their idea and volunteer for projects they liked.</p>
+<p>I think strongly suggesting at least 3 volunteers per project idea had an effect of ending up with just one idea. Not our intention, nor necessarily a problem, but it&#8217;s worth keeping in mind. We all tend to take the path of least resistance when not really committed to an idea and joining is easier than finding an idea AND people to help.</p>
+<p>However if you do come up with an idea, then here are a few things you might keep in mind:</p>
+<p><strong>Self-sustaining projects win.</strong> Even with best intentions you will probably run out of time for your project eventually. So projects that can be finished or which can be run by a community with few development and administration resources are less likely to end in failure.</p>
+<p><strong>Strip it to bare essentials</strong>, but keep a list of things you&#8217;d like to add if you had more time or help. I knew that we couldn&#8217;t build theyworkforyou in a day, but my planned version was still too grandiose. I should stop only when removing anything would reduce it to useless. Another reason for this is that I also often overestimate my free time &#8212; important for projects that will continue after hackday.</p>
+<p><strong>Check if you have data you need</strong>. First check for completeness, since missing parts might significantly affect feasibility of your project (especially if they are needed for a stripped down version). If you plan to scrap data from a public source (instead of using API or something you already have), then scrape it well before the event. Site may not be available when you need it or, as it was our experience, it can be frustratingly slow. Perception of speed is relative, but downloads can always go slower than even the pessimist in you would make you believe. I learned on hackday that I was planning to use a non-existing data.</p>
+<p><strong>Check the quality of your data,</strong> don&#8217;t only glance at it. Spend some time getting to know it and think about how you will clean it up. I knew our data was in an atrocious state, but I was still widely optimistic. Luckily <a title="Tomaž's blog" href="http://www.tablix.org/~avian/blog/">Tomaž</a> is a seasoned data wrangler that can deal with crap input.</p>
+<p><strong>Have a detailed TODO list</strong>. Not only will it give you a better picture of scope, it also makes it easier to divide work to unexpected volunteers. Mark what is necessary and what would be nice to have. Also pay attention to skills needed for finishing each task. <a title="Gašper's blog" href="http://www.kiberpipa.org/~hruske/blog/">Gašper</a> put a lot of effort into our to-do list and I haven&#8217;t. We could certainly achieve more if it was clearer what needs to be done and if I could delegate better.</p>
+<p><strong>Have a &#8220;roadmap&#8221;</strong>. Not every task can be done in parallel so identify and mark task dependencies. It may also be quicker if multiple developers extract different information from the same piece of data then for everyone to wait on one person to extract all.</p>
+<p><strong>Prepare hosting beforehand.</strong> If you plan to host a website, then set up <em>and test</em> at least essential parts before the event. Day passes too quickly even if you don&#8217;t waste time setting up the environment.</p>
+<p><strong>Ditto for development environment.</strong> How many people do you think will or can work on project(s)? Are they all familiar with tools you intend to use? Do you have adequate resources?</p>
+<p>I expected time constraints to prevent us from auditing code for exploits, so we opted for bitbucket which gives you private repositories for free. But we had to juggle around its limitation of 5 developers per repository and choice of mercurial as DVCS. Having them private turned out to be unimportant.</p>
+<p>So pick tools most are comfortable with and set up your own server (before the event of course) if publicly available options might not be good enough. You want everyone to start contributing as soon and as easily as possible.</p>
+<h2>Running event</h2>
+<p>Our hackday was as open as it gets. We used <a href="http://www.eventbrite.com/">Eventbrite</a> for registration, but didn&#8217;t enforce it so everyone who came was welcome no matter how long they stayed. It&#8217;s fantastic when people show up offering free help and it would be plain crazy to turn them away. There is always something they can do no matter what their skill set.</p>
+<p>Here are a few tips I wish I followed:</p>
+<p><strong>Lead.</strong> Self-organization is great, but the likelihood of misunderstandings and duplication of effort quickly increases with the size of a group. If you have dependencies in your project roadmap, then it&#8217;s also important that showstopper tasks are done before those that rely on them. That&#8217;s why someone usually has to lead development and if a project doesn&#8217;t have that someone, you either have to find or be him.</p>
+<p><strong>Talk to everyone.</strong> Find out what they are doing or what they would like to do. Find out also how long they intend to stay, since that might limit the choice of suitable tasks. Talking is pretty much the only reliable way to find these things out.</p>
+<p>Even better might be to have short group meetings throughout the day for everyone to catch up and I regret I didn&#8217;t think of this then. This however doesn&#8217;t absolve you from talking, especially if contributors are free to come and go whenever they please as they might have not been around yet the last time you were catching up.</p>
+<p><strong>Delegate.</strong> As much as possible to as many as possible. Don&#8217;t play a hero trying to do too much. You can always pick another task later or help someone with theirs if you finish too soon.</p>
+<p>In fact it&#8217;s probably better to help less experienced members with their tasks than doing whatever you are doing. Having a healthy contributing community is what makes or breaks voluntary projects so nurturing one is even more important than finishing the first version. This goes even more so for projects that can&#8217;t ever be really finished.</p>
+<h2>Morning after</h2>
+<p>Hackday is over and everyone has gone for a beer. Hopefully everyone is happy with results, but ambitious projects almost by definition can&#8217;t be finished in a day and the next morning it was amazing to see people continuing hacking where they left off the day before.</p>
+<p>Not every hacking community is as engaged as ours. However we all have more or less the same needs. It&#8217;s nice to hear our work was appreciated and even better that it mattered. We like to help if we are not alone and if it is clear how. Thus I found email sent by Gašper a few days later a pitch perfect post-hackday message. He first thanked everyone involved, then listed what each and all together achieved and ended by what he intends to do next.</p>
+<p>So, this is it. A long, but not exhaustive run through my experience of our last hackday which also took way longer to write than I expected. It&#8217;s time to go back to hacking!</p>
+			</div>
+
+			<footer class="post-metadata">
+				<ul>
+					<li>Published on <time datetime="2011-10-02T20:48:30+00:00">October 2, 2011</time></li>
+					<li><a href="http://markos.gaivo.net/blog/?p=777#comments" title="Comment on My OpenData hackday experience">Add your comment</a> </li>
+				</ul>
+			</footer>
+		</article>
+	
+		<article>
+			<h1 class="storytitle"><a href="http://markos.gaivo.net/blog/?p=754" rel="bookmark">Missing refer(r)ers</a></h1>
+
+			<div class="post-text">
+				<p>I was talking to my wife today about why an &#8220;Unknown Source&#8221; is becoming the most common source of visits on <a class="zem_slink" title="Flickr" rel="homepage" href="http://flickr.com">Flickr</a>. My guess is that it is almost certainly because a <a class="zem_slink" title="HTTP referrer" rel="wikipedia" href="http://en.wikipedia.org/wiki/HTTP_referrer"><em>Referer</em></a> header field is missing in page requests and Flickr is only relying on presence of this piece of data to discern sources. This might have made sense when browsers ruled the web, but we don&#8217;t live then anymore.</p>
+<p>Simply put referrer field <a title="Link to Referer field definition" href="http://tools.ietf.org/html/rfc2616#section-14.36">can be added</a> to request only when request was triggered from source which also has an <a class="zem_slink" title="Uniform Resource Identifier" rel="wikipedia" href="http://en.wikipedia.org/wiki/Uniform_Resource_Identifier">URI</a> address. Every web page has it since its address is also an URI, but most programs don&#8217;t.</p>
+<p>That&#8217;s why referrers aren&#8217;t missing only from visitors using paranoid browsers or security software that stripped it out of requests, but also when page is visited from a link embedded in emails or instant messages.</p>
+<p>Requests without referrers used to present a small enough subset of visits that most of us didn&#8217;t care. I first noticed this changing when Twitter clients became popular and now there are tons of apps behaving like this. With <a title="Link to specification" href="http://www.w3.org/TR/XMLHttpRequest2/">XMLHttpRequest Level 2</a>﻿ even web developers will get a choice of making anonymous requests which won&#8217;t include potentially private data like referrers.</p>
+<p>That&#8217;s nice. I have certainly visited places which I wouldn&#8217;t want to share with strangers. But I suspect this is not the common case and most of the time we don&#8217;t care telling which page or application sent us there.</p>
+<p>Nobody can precisely predict future so specifications can never be perfect. But I am always amazed when reading core web specs like HTTP&#8217;s how insightful their authors were. That most programs don&#8217;t have a URI does not mean that they couldn&#8217;t. Practically anything can and definitely more things should.</p>
+<p>In principle it is possible for each program to have its own address which could be used as referrer <em>when a better option doesn&#8217;t exist</em>. I suspect this would be against the spirit of specification, but likely not against its text.</p>
+<p>However better options often do exist. Lets take <a class="zem_slink" title="Twitter" rel="homepage" href="http://twitter.com">Twitter</a> as a popular example. Every link that triggers a visit from Twitter was included in at least one tweet and every tweet is also published on web. It might not be accessible to everyone, but it does have an address. I see no reason why that address could not be used as referrer by Twitter clients.</p>
+<p>It is originating content or its address that interest me, but really, almost anything truthful beats an unknown source. Just knowing name of the service (like Twitter) or app used (e.g. Tweetdeck) would be better than nothing. By the way there is another header field that could provide such insight: <em>User-Agent</em>. Sadly it is notoriously unreliable and often missing as well, but that&#8217;s another long story.</p>
+<p>So, if I come back to Flickr. I can&#8217;t really tell how much Flickr can or could know. I suspect more than it tells, but I would be astonished if they are not mostly in the dark too. Web was largely built by people too busy (and often too lazy) not to cut corners. Meaning: learning and doing as little as possible to get something to work and sometimes we pay price for our ignorance. But it&#8217;s a small price compared to waiting for <a title="Description of project Xanadu on Wikipedia" href="http://en.wikipedia.org/wiki/Project_Xanadu">Xanadu</a>.</p>
+<div class="zemanta-pixie"><img class="zemanta-pixie-img" src="http://img.zemanta.com/pixy.gif?x-id=860d2c48-a1dc-49c5-85d1-277e4734d096" alt="" /></div>
+			</div>
+
+			<footer class="post-metadata">
+				<ul>
+					<li>Published on <time datetime="2011-09-20T18:29:28+00:00">September 20, 2011</time></li>
+					<li><a href="http://markos.gaivo.net/blog/?p=754#comments" title="Comment on Missing refer(r)ers">Add your comment</a> </li>
+				</ul>
+			</footer>
+		</article>
+		
+		<nav class="pagination">
+			<ul>
+				<li><a href="http://markos.gaivo.net/blog/?cat=4&#038;paged=3" >&laquo; Newer articles</a></li>
+				<li><a href="http://markos.gaivo.net/blog/?cat=4&#038;paged=5" >Older articles &raquo;</a></li>
+			</ul>
+		</nav>
+	</section>
+
+
+	<footer>
+		<ul>
+			<li>&copy; 2005-2015 Marko Samastur</li>
+			
+			<li><a href="http://markos.gaivo.net/blog/?feed=rss2">Entries feed</a></li>
+			<li><a href="http://markos.gaivo.net/blog/?feed=comments-rss2">Comments feed</a></li>
+		</ul>
+		<a href="/"><img src="/img/markos_light_small_bg.png" alt="logo" class="mini-logo" /></a>
+	</footer>
+	<script src="/js/jquery.js"></script>
+	<script src="/js/all.js"></script>
+	<!--script src="/mint/?js" type="text/javascript"></script-->
+
+	<!-- Google analytics -->
+	<script type="text/javascript">
+
+	  var _gaq = _gaq || [];
+	  _gaq.push(['_setAccount', 'UA-152438-1']);
+	  _gaq.push(['_trackPageview']);
+	</script>
+	<script src="/js/cookie.js"></script>
+</body>
+</html>

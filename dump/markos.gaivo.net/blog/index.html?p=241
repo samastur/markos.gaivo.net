@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>A notch above a monkey &raquo; Really open social network</title>
+	<meta charset="utf-8" />
+	
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" /> 
+
+	<link rel="shortcut icon" href="/img/markos.ico" />
+	
+	<meta name="generator" content="WordPress 3.0.5" /> <!-- leave this for stats please -->
+
+	<link href="http://fast.fonts.com/cssapi/aee9b60b-8e94-47f8-b586-3ecbfab51d1c.css" rel="stylesheet" type="text/css" />
+	<link rel="stylesheet" type="text/css" href="css/home.css" media="screen" title="Light theme" />
+	<link rel="alternate stylesheet" type="text/css" href="css/home_dark.css" media="screen" title="Dark theme" />
+	<link rel="stylesheet" href="css/ipad.css" media="only screen and (min-device-width : 768px) and (max-device-width : 1024px)">
+	<link rel="stylesheet" type="text/css" href="css/smallscreen.css" media="only screen and (max-width: 700px)" />
+
+	<link rel="alternate" type="application/rss+xml" title="RSS 2.0" href="http://markos.gaivo.net/blog/?feed=rss2" />
+	<link rel="alternate" type="application/atom+xml" title="Atom 1.0" href="http://markos.gaivo.net/blog/?feed=atom" />
+	<link rel='canonical' href='http://markos.gaivo.net/blog/?p=664' />
+
+	<link rel="pingback" href="http://markos.gaivo.net/blog/xmlrpc.php" />
+
+	<link rel="EditURI" type="application/rsd+xml" title="RSD" href="http://markos.gaivo.net/blog/xmlrpc.php?rsd" />
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="http://markos.gaivo.net/blog/wp-includes/wlwmanifest.xml" /> 
+<link rel='index' title='A notch above a monkey' href='http://markos.gaivo.net/blog' />
+<link rel='start' title='First post' href='http://markos.gaivo.net/blog/?p=2' />
+<link rel='prev' title='Job satisfaction' href='http://markos.gaivo.net/blog/?p=240' />
+<link rel='next' title='One web for all, but with different lanes' href='http://markos.gaivo.net/blog/?p=242' />
+<meta name="generator" content="WordPress 3.0.5" />
+<link rel='canonical' href='http://markos.gaivo.net/blog/?p=241' />
+
+	<!--[if lt IE 9]>
+	<script src="/js/html5.js"></script>
+	<![endif]-->
+</head>
+<body>
+					<header>
+		<h1><a href="/blog/">A notch above a monkey</a> &raquo; Really open social network</h1>
+	</header>
+
+	<section class="envelope">
+		<article class="post">
+			<header>
+				<h1>Really open social network</h1>
+			</header>
+
+			<footer>
+				<ul>
+					<li class="by">Written by: <a href="/">Marko Samastur</a></li>
+					<li class="published">Published on: <time datetime="2007-09-05T21:45:57+00:00" pubdate>September 5, 2007</time></li>
+					<li class="categories">Categories: <a href="http://markos.gaivo.net/blog/?cat=4" title="View all posts in Web" rel="category">Web</a></li>
+					<li class="post-comments">Comments: <span>Comments Off</span></li>
+				</ul>
+			</footer>
+
+			<div class="post-text">
+				<p>I&#8217;ve recently read couple of posts that left an impression on me. First one was Brad Neuberg&#8217;s about <a href="http://codinginparadise.org/weblog/2007/08/creating-personal-research-agenda.html">personal research agenda</a>. I haven&#8217;t completed list of my problems yet, but I came far enough to know I&#8217;m not working on any of them.</p>
+<p>The other one was about <a href="http://www.entrepreneur2be.com/2007/08/26/idea-blog-socialnetworking-blog20/">Blog 2.0</a>. I&#8217;m more interested in content manipulation than social interactions as Pownce and Marela are only two social networking applications I use. Still, ideas contained are intriguing and couple of days before <a href="http://datasharingsummit.com/">Data Sharing Summit</a> is the right time to shamelessly pimp my views.</p>
+<p>Build a social application and you will likely, sooner or later, encounter a dilemma in what your members will be building. Are their creations mainly personal, an expression of their creativity, or are they more of a place where people meet and engage?</p>
+<p>Most websites don&#8217;t fall squarely into one or the other. My blog feels personal not only because I picked the look and topics, but also because my voice is elevated above others. I doubt I would feel the same if comments could look like my posts. I like my place and freedom it offers me.</p>
+<p>That&#8217;s why I don&#8217;t care all that much about most networks and degrees of their openness. Really open social network would be interwoven into the fabric of web. I already have my page, I don&#8217;t need yet another one. If buddy list is desired, I can use FOAF. Sharing of my stuff? Feeds. Same answer for getting other people&#8217;s stuff. Starting a new network would mean creating a widget or a few that can be easily integrated in our sites, maybe some sort of a pinging service if expediency is important and offering a space for personal page for those, who don&#8217;t have it yet.</p>
+<p>It&#8217;s amazing how little would need to be changed to implement ideas in Blog 2.0. Basic technology is already here, it&#8217;s just not used widely enough yet. Sure there are a few issues that need to be thought through, mainly to do with handling privacy correctly, but they are neither big nor really technological. And price for all this?</p>
+<p>Maybe a bit less expediency in content propagation and a bit more work for network operators, who might need to learn to live with the same limitations that search engine developers do already. And I&#8217;m not even sure that is really necessary.</p>
+<p><em>Update: </em>Thinking a bit more about this I would be happy enough if social network were just more inclusive. It&#8217;s fine that you can create an account and be busy on their platform, but it would be better if you could join and interact with a social network with your own node for as long as that met your needs.</p>
+			</div>
+
+			<nav>
+				<p>If you liked this, you might want to visit:</p>
+				<ul>
+					<li>my previous article: <a href="http://markos.gaivo.net/blog/?p=240" rel="prev">Job satisfaction</a></li>					<li>my next article: <a href="http://markos.gaivo.net/blog/?p=242" rel="next">One web for all, but with different lanes</a></li>					<li><a href="/blog/">article list</a></li>
+				</ul>
+			</nav>
+
+			<h2 id="comments">No Comments
+			</h2>
+			<p>No comments yet.</p>
+
+		<p>Sorry, the comment form is closed at this time.</p>
+
+		</article>
+	</section>
+			<!-- All pages -->
+	
+
+	<footer>
+		<ul>
+			<li>&copy; 2005-2015 Marko Samastur</li>
+			
+			<li><a href="http://markos.gaivo.net/blog/?feed=rss2">Entries feed</a></li>
+			<li><a href="http://markos.gaivo.net/blog/?feed=comments-rss2">Comments feed</a></li>
+		</ul>
+		<a href="/"><img src="/img/markos_light_small_bg.png" alt="logo" class="mini-logo" /></a>
+	</footer>
+	<!-- Google analytics -->
+	<script type="text/javascript">
+	  var _gaq = _gaq || [];
+	  _gaq.push(['_setAccount', 'UA-152438-1']);
+	  _gaq.push(['_trackPageview']);
+	</script>
+	<script src="/js/cookie.js"></script>
+</body>
+</html>

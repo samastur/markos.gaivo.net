@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>A notch above a monkey &raquo; Places to use AJAX</title>
+	<meta charset="utf-8" />
+	
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" /> 
+
+	<link rel="shortcut icon" href="/img/markos.ico" />
+	
+	<meta name="generator" content="WordPress 3.0.5" /> <!-- leave this for stats please -->
+
+	<link href="http://fast.fonts.com/cssapi/aee9b60b-8e94-47f8-b586-3ecbfab51d1c.css" rel="stylesheet" type="text/css" />
+	<link rel="stylesheet" type="text/css" href="css/home.css" media="screen" title="Light theme" />
+	<link rel="alternate stylesheet" type="text/css" href="css/home_dark.css" media="screen" title="Dark theme" />
+	<link rel="stylesheet" href="css/ipad.css" media="only screen and (min-device-width : 768px) and (max-device-width : 1024px)">
+	<link rel="stylesheet" type="text/css" href="css/smallscreen.css" media="only screen and (max-width: 700px)" />
+
+	<link rel="alternate" type="application/rss+xml" title="RSS 2.0" href="http://markos.gaivo.net/blog/?feed=rss2" />
+	<link rel="alternate" type="application/atom+xml" title="Atom 1.0" href="http://markos.gaivo.net/blog/?feed=atom" />
+	<link rel='canonical' href='http://markos.gaivo.net/blog/?p=664' />
+
+	<link rel="pingback" href="http://markos.gaivo.net/blog/xmlrpc.php" />
+
+	<link rel="alternate" type="application/rss+xml" title="A notch above a monkey &raquo; Places to use AJAX Comments Feed" href="http://markos.gaivo.net/blog/?feed=rss2&amp;p=88" />
+<link rel="EditURI" type="application/rsd+xml" title="RSD" href="http://markos.gaivo.net/blog/xmlrpc.php?rsd" />
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="http://markos.gaivo.net/blog/wp-includes/wlwmanifest.xml" /> 
+<link rel='index' title='A notch above a monkey' href='http://markos.gaivo.net/blog' />
+<link rel='start' title='First post' href='http://markos.gaivo.net/blog/?p=2' />
+<link rel='prev' title='Speed match: JSON vs. XML' href='http://markos.gaivo.net/blog/?p=87' />
+<link rel='next' title='IE7 will remain to be MIME challenged' href='http://markos.gaivo.net/blog/?p=89' />
+<meta name="generator" content="WordPress 3.0.5" />
+<link rel='canonical' href='http://markos.gaivo.net/blog/?p=88' />
+
+	<!--[if lt IE 9]>
+	<script src="/js/html5.js"></script>
+	<![endif]-->
+</head>
+<body>
+					<header>
+		<h1><a href="/blog/">A notch above a monkey</a> &raquo; Places to use AJAX</h1>
+	</header>
+
+	<section class="envelope">
+		<article class="post">
+			<header>
+				<h1>Places to use AJAX</h1>
+			</header>
+
+			<footer>
+				<ul>
+					<li class="by">Written by: <a href="/">Marko Samastur</a></li>
+					<li class="published">Published on: <time datetime="2005-12-06T10:05:36+00:00" pubdate>December 6, 2005</time></li>
+					<li class="categories">Categories: <a href="http://markos.gaivo.net/blog/?cat=1" title="View all posts in Javascript" rel="category">Javascript</a>, <a href="http://markos.gaivo.net/blog/?cat=7" title="View all posts in UI" rel="category">UI</a>, <a href="http://markos.gaivo.net/blog/?cat=4" title="View all posts in Web" rel="category">Web</a></li>
+					<li class="post-comments">Comments: <a href="http://markos.gaivo.net/blog/?p=88#comments" title="Comment on Places to use AJAX">3</a></li>
+				</ul>
+			</footer>
+
+			<div class="post-text">
+				<p>Alex Bosworth wrote a great <a href="http://www.sourcelabs.com/blogs/ajb/2005/12/10_places_you_must_use_ajax.html" title="Alex's post about applicability of AJAX">post</a> about when to use AJAX and when not to.</p>
+			</div>
+
+			<nav>
+				<p>If you liked this, you might want to visit:</p>
+				<ul>
+					<li>my previous article: <a href="http://markos.gaivo.net/blog/?p=87" rel="prev">Speed match: JSON vs. XML</a></li>					<li>my next article: <a href="http://markos.gaivo.net/blog/?p=89" rel="next">IE7 will remain to be MIME challenged</a></li>					<li><a href="/blog/">article list</a></li>
+				</ul>
+			</nav>
+
+			<h2 id="comments">Comments (3)
+			</h2>
+			<ol class="comments">
+		
+				<li id="comment-273">
+					<article>
+						<p>Jacob Nielsen still claims that <a href="http://www.usabilityviews.com/ajaxsucks.html">Ajax sucks</a>. Though I think he would probably have to agree with Alex.</p>
+						<footer>
+							<cite>Comment by <a href='http://www.friedcellcollective.net' rel='external nofollow' class='url'>fry</a> &#8212; <time datetime="2005-12-07T10:20:13+00:00">December 7, 2005 @ 10:20 am</time> <a href="#comment-273">#</a> </cite>
+						</footer>
+					</article>
+				</li>
+		
+				<li id="comment-274">
+					<article>
+						<p>Well, he&#8217;s just plain wrong. Wrong on statistics and wrong on facts.</p>
+<p>I don&#8217;t think there&#8217;s anything fundamentally wrong with AJAX. I do think a lot, if not most, of its use is flawed though. Maybe I should give a talk about user- and web-friendly use of this stuff?</p>
+						<footer>
+							<cite>Comment by <a href='http://markos.gaivo.net' rel='external nofollow' class='url'>markos</a> &#8212; <time datetime="2005-12-07T10:29:18+00:00">December 7, 2005 @ 10:29 am</time> <a href="#comment-274">#</a> </cite>
+						</footer>
+					</article>
+				</li>
+		
+				<li id="comment-275">
+					<article>
+						<p>I guess I&#8217;m wrong, since this is just a spoof article by Jacob. Mea culpa.</p>
+						<footer>
+							<cite>Comment by <a href='http://markos.gaivo.net' rel='external nofollow' class='url'>markos</a> &#8212; <time datetime="2005-12-08T15:03:20+00:00">December 8, 2005 @ 3:03 pm</time> <a href="#comment-275">#</a> </cite>
+						</footer>
+					</article>
+				</li>
+		
+			</ol>
+
+
+		<p>Sorry, the comment form is closed at this time.</p>
+
+		</article>
+	</section>
+			<!-- All pages -->
+	
+
+	<footer>
+		<ul>
+			<li>&copy; 2005-2015 Marko Samastur</li>
+			
+			<li><a href="http://markos.gaivo.net/blog/?feed=rss2">Entries feed</a></li>
+			<li><a href="http://markos.gaivo.net/blog/?feed=comments-rss2">Comments feed</a></li>
+		</ul>
+		<a href="/"><img src="/img/markos_light_small_bg.png" alt="logo" class="mini-logo" /></a>
+	</footer>
+	<!-- Google analytics -->
+	<script type="text/javascript">
+	  var _gaq = _gaq || [];
+	  _gaq.push(['_setAccount', 'UA-152438-1']);
+	  _gaq.push(['_trackPageview']);
+	</script>
+	<script src="/js/cookie.js"></script>
+</body>
+</html>

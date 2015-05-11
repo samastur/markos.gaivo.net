@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>A notch above a monkey &raquo; Customizable interfaces</title>
+	<meta charset="utf-8" />
+	
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" /> 
+
+	<link rel="shortcut icon" href="/img/markos.ico" />
+	
+	<meta name="generator" content="WordPress 3.0.5" /> <!-- leave this for stats please -->
+
+	<link href="http://fast.fonts.com/cssapi/aee9b60b-8e94-47f8-b586-3ecbfab51d1c.css" rel="stylesheet" type="text/css" />
+	<link rel="stylesheet" type="text/css" href="css/home.css" media="screen" title="Light theme" />
+	<link rel="alternate stylesheet" type="text/css" href="css/home_dark.css" media="screen" title="Dark theme" />
+	<link rel="stylesheet" href="css/ipad.css" media="only screen and (min-device-width : 768px) and (max-device-width : 1024px)">
+	<link rel="stylesheet" type="text/css" href="css/smallscreen.css" media="only screen and (max-width: 700px)" />
+
+	<link rel="alternate" type="application/rss+xml" title="RSS 2.0" href="http://markos.gaivo.net/blog/?feed=rss2" />
+	<link rel="alternate" type="application/atom+xml" title="Atom 1.0" href="http://markos.gaivo.net/blog/?feed=atom" />
+	<link rel='canonical' href='http://markos.gaivo.net/blog/?p=664' />
+
+	<link rel="pingback" href="http://markos.gaivo.net/blog/xmlrpc.php" />
+
+	<link rel="alternate" type="application/rss+xml" title="A notch above a monkey &raquo; Customizable interfaces Comments Feed" href="http://markos.gaivo.net/blog/?feed=rss2&amp;p=139" />
+<link rel="EditURI" type="application/rsd+xml" title="RSD" href="http://markos.gaivo.net/blog/xmlrpc.php?rsd" />
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="http://markos.gaivo.net/blog/wp-includes/wlwmanifest.xml" /> 
+<link rel='index' title='A notch above a monkey' href='http://markos.gaivo.net/blog' />
+<link rel='start' title='First post' href='http://markos.gaivo.net/blog/?p=2' />
+<link rel='prev' title='Universal Encoding Detector' href='http://markos.gaivo.net/blog/?p=138' />
+<link rel='next' title='Localized interfaces in globalized world' href='http://markos.gaivo.net/blog/?p=140' />
+<meta name="generator" content="WordPress 3.0.5" />
+<link rel='canonical' href='http://markos.gaivo.net/blog/?p=139' />
+
+	<!--[if lt IE 9]>
+	<script src="/js/html5.js"></script>
+	<![endif]-->
+</head>
+<body>
+					<header>
+		<h1><a href="/blog/">A notch above a monkey</a> &raquo; Customizable interfaces</h1>
+	</header>
+
+	<section class="envelope">
+		<article class="post">
+			<header>
+				<h1>Customizable interfaces</h1>
+			</header>
+
+			<footer>
+				<ul>
+					<li class="by">Written by: <a href="/">Marko Samastur</a></li>
+					<li class="published">Published on: <time datetime="2006-03-23T20:32:33+00:00" pubdate>March 23, 2006</time></li>
+					<li class="categories">Categories: <a href="http://markos.gaivo.net/blog/?cat=1" title="View all posts in Javascript" rel="category">Javascript</a>, <a href="http://markos.gaivo.net/blog/?cat=7" title="View all posts in UI" rel="category">UI</a>, <a href="http://markos.gaivo.net/blog/?cat=4" title="View all posts in Web" rel="category">Web</a></li>
+					<li class="post-comments">Comments: <a href="http://markos.gaivo.net/blog/?p=139#comments" title="Comment on Customizable interfaces">1</a></li>
+				</ul>
+			</footer>
+
+			<div class="post-text">
+				<p>There&#8217;s a vast number of potential Marela features that we are able, but not willing to implement, since they are detrimental to our design goals. There are also many, which we are willing and will implement, but it doesn&#8217;t change the fact that there will always be parts where we won&#8217;t compromise.</p>
+<p>Still, even though it seems natural that benefits to many should be more important than benefits to few, I never got quite comfortable with this. That&#8217;s why we also want to make Marela as open as possible to let our members customize it without affecting other people.</p>
+<p>First, there are public APIs. They tend to work well for building new tools or interfaces, but offer little help in customizing existing ones. Which is what our users want most of the time.</p>
+<p>Every modern browser lets users define a custom style sheet to change the presentation of websites. That&#8217;s why we recently added ID to body element, which lets users more <a href="http://archivist.incutio.com/viewlist/css-discuss/13291">easily customize</a> the look of Marela alone.</p>
+<p>Then there are tools like <a href="http://greasemonkey.mozdev.org/">Greasemonkey</a>, which let proficient users using Mozilla based browsers customizing existing interfaces. Greasemonkey works quite well, if you&#8217;re proficient in Javascript.</p>
+<p>I think the biggest problem with Greasemonkey (and custom CSS for that matter) is that it&#8217;s tied to a browser and a computer. If you change either of them, your customization won&#8217;t work anymore without significant effort on your part. Sometimes, in restricted environments, it&#8217;s not even possible to make it work. It&#8217;s a bit easier to make and transfer CSS customizations, but you&#8217;re still forced to carry your file around.</p>
+<p>I&#8217;m not too bothered with CSS. I simply don&#8217;t see much need for it beyond what Marela&#8217;s design and modern browsers already offer and I&#8217;m still biased against skin-deep themes offered by some programs. In any case a possible solution for it would be practically the same as what I have in mind for a case that does trouble me.</p>
+<p>Idea is pretty simple. Define javascript hooks that get called after window.onload event when they exist. If there&#8217;s an easy way to add your javascript file to a page (say, by uploading it to our server), then you can create a simple, but cross-browser and cross-computer Greasemonkey.</p>
+<p>Question that remains is, is this appealing enough for you to use it?</p>
+			</div>
+
+			<nav>
+				<p>If you liked this, you might want to visit:</p>
+				<ul>
+					<li>my previous article: <a href="http://markos.gaivo.net/blog/?p=138" rel="prev">Universal Encoding Detector</a></li>					<li>my next article: <a href="http://markos.gaivo.net/blog/?p=140" rel="next">Localized interfaces in globalized world</a></li>					<li><a href="/blog/">article list</a></li>
+				</ul>
+			</nav>
+
+			<h2 id="comments">Comment (1)
+			</h2>
+			<ol class="comments">
+		
+				<li id="comment-1121">
+					<article>
+						<p>I think the point of greasemonkey (and it&#8217;s power) is that it is expressly for hacking.  Real production solutions need to be architected to solve problems from the start.  Simple, last-mile type problems tho, can be handled while real patches/solutions are assembled.  Greasemonkey isn&#8217;t a production solution by design.  It&#8217;s a final output parser that allows for the ultimate in customization.  At it&#8217;s heart, it&#8217;s still screen-scraping and therefore, brittle by design.</p>
+						<footer>
+							<cite>Comment by Pat Farrell &#8212; <time datetime="2006-04-03T22:02:46+00:00">April 3, 2006 @ 10:02 pm</time> <a href="#comment-1121">#</a> </cite>
+						</footer>
+					</article>
+				</li>
+		
+			</ol>
+
+
+		<p>Sorry, the comment form is closed at this time.</p>
+
+		</article>
+	</section>
+			<!-- All pages -->
+	
+
+	<footer>
+		<ul>
+			<li>&copy; 2005-2015 Marko Samastur</li>
+			
+			<li><a href="http://markos.gaivo.net/blog/?feed=rss2">Entries feed</a></li>
+			<li><a href="http://markos.gaivo.net/blog/?feed=comments-rss2">Comments feed</a></li>
+		</ul>
+		<a href="/"><img src="/img/markos_light_small_bg.png" alt="logo" class="mini-logo" /></a>
+	</footer>
+	<!-- Google analytics -->
+	<script type="text/javascript">
+	  var _gaq = _gaq || [];
+	  _gaq.push(['_setAccount', 'UA-152438-1']);
+	  _gaq.push(['_trackPageview']);
+	</script>
+	<script src="/js/cookie.js"></script>
+</body>
+</html>

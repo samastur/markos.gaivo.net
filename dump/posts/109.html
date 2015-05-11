@@ -1,0 +1,480 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>A notch above a monkey &raquo; XMLHttpRequest and status 0</title>
+	<meta charset="utf-8" />
+	
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" /> 
+
+	<link rel="shortcut icon" href="/img/markos.ico" />
+	
+	<meta name="generator" content="WordPress 3.0.5" /> <!-- leave this for stats please -->
+
+	<link href="http://fast.fonts.com/cssapi/aee9b60b-8e94-47f8-b586-3ecbfab51d1c.css" rel="stylesheet" type="text/css" />
+	<link rel="stylesheet" type="text/css" href="css/home.css" media="screen" title="Light theme" />
+	<link rel="alternate stylesheet" type="text/css" href="css/home_dark.css" media="screen" title="Dark theme" />
+	<link rel="stylesheet" href="css/ipad.css" media="only screen and (min-device-width : 768px) and (max-device-width : 1024px)">
+	<link rel="stylesheet" type="text/css" href="css/smallscreen.css" media="only screen and (max-width: 700px)" />
+
+	<link rel="alternate" type="application/rss+xml" title="RSS 2.0" href="http://markos.gaivo.net/blog/?feed=rss2" />
+	<link rel="alternate" type="application/atom+xml" title="Atom 1.0" href="http://markos.gaivo.net/blog/?feed=atom" />
+	<link rel='canonical' href='http://markos.gaivo.net/blog/?p=664' />
+
+	<link rel="pingback" href="http://markos.gaivo.net/blog/xmlrpc.php" />
+
+	<link rel="alternate" type="application/rss+xml" title="A notch above a monkey &raquo; XMLHttpRequest and status 0 Comments Feed" href="http://markos.gaivo.net/blog/?feed=rss2&amp;p=109" />
+<link rel="EditURI" type="application/rsd+xml" title="RSD" href="http://markos.gaivo.net/blog/xmlrpc.php?rsd" />
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="http://markos.gaivo.net/blog/wp-includes/wlwmanifest.xml" /> 
+<link rel='index' title='A notch above a monkey' href='http://markos.gaivo.net/blog' />
+<link rel='start' title='First post' href='http://markos.gaivo.net/blog/?p=2' />
+<link rel='prev' title='@media 2006' href='http://markos.gaivo.net/blog/?p=108' />
+<link rel='next' title='Open federation for Google Talk' href='http://markos.gaivo.net/blog/?p=110' />
+<meta name="generator" content="WordPress 3.0.5" />
+<link rel='canonical' href='http://markos.gaivo.net/blog/?p=109' />
+
+	<!--[if lt IE 9]>
+	<script src="/js/html5.js"></script>
+	<![endif]-->
+</head>
+<body>
+					<header>
+		<h1><a href="/blog/">A notch above a monkey</a> &raquo; XMLHttpRequest and status 0</h1>
+	</header>
+
+	<section class="envelope">
+		<article class="post">
+			<header>
+				<h1>XMLHttpRequest and status 0</h1>
+			</header>
+
+			<footer>
+				<ul>
+					<li class="by">Written by: <a href="/">Marko Samastur</a></li>
+					<li class="published">Published on: <time datetime="2006-01-19T19:23:46+00:00" pubdate>January 19, 2006</time></li>
+					<li class="categories">Categories: <a href="http://markos.gaivo.net/blog/?cat=1" title="View all posts in Javascript" rel="category">Javascript</a></li>
+					<li class="post-comments">Comments: <a href="http://markos.gaivo.net/blog/?p=109#comments" title="Comment on XMLHttpRequest and status 0">32</a></li>
+				</ul>
+			</footer>
+
+			<div class="post-text">
+				<p>Have you ever encountered a problem with XMLHttpRequest (XHR), where its handler couldn&#8217;t read request status or the status was set to 0?</p>
+<p>Well, I did, a few days ago.</p>
+<p>It took me a while to find the cause of this problem and in my case it was form submission. It&#8217;s stupid to use AJAX to submit a form, but nevertheless it&#8217;s what I&#8217;m doing for dubious reasons that I&#8217;ll probably be ashamed of in a few months or years. And it used to work fine, until I changed submit buttons from <em>type=&#8221;button&#8221;</em> to <em>type=&#8221;image&#8221;</em>.</p>
+<p>First type needs javascript to do anything worthwhile, while second type submits form when pressed, which I somehow missed. So, when I thought I was sending only a normal XHR request, I was actually also submitting my form which lead to described strange behavior.</p>
+<p>I have no idea why, since XHR state change handler shouldn&#8217;t be triggered by other requests, but it was and it was fixed by simply canceling form submission in image button <em>onclick</em> handler.</p>
+<p>If you ever encounter this problem, check your forms and their submit buttons. It&#8217;s very likely that solution is hiding there.</p>
+			</div>
+
+			<nav>
+				<p>If you liked this, you might want to visit:</p>
+				<ul>
+					<li>my previous article: <a href="http://markos.gaivo.net/blog/?p=108" rel="prev">@media 2006</a></li>					<li>my next article: <a href="http://markos.gaivo.net/blog/?p=110" rel="next">Open federation for Google Talk</a></li>					<li><a href="/blog/">article list</a></li>
+				</ul>
+			</nav>
+
+			<h2 id="comments">Comments (32)
+			</h2>
+			<ol class="comments">
+		
+				<li id="comment-737">
+					<article>
+						<p>[...] ng&#8221; rel=&#8221;tag&#8221; title=&#8221;View the technorati tag: Programming&#8221;&gt;         	Jeremy Keith (via Marko Samastur) writes of a Hijax, a specific technique for graceful degradation: 	 I wrote some time back ab [...]</p>
+						<footer>
+							<cite>Pingback by <a href='http://ajaxian.com/?p=777' rel='external nofollow' class='url'>Ajaxian &raquo; Hijax: Graceful Degration</a> &#8212; <time datetime="2006-01-25T17:07:35+00:00">January 25, 2006 @ 5:07 pm</time> <a href="#comment-737">#</a> </cite>
+						</footer>
+					</article>
+				</li>
+		
+				<li id="comment-757">
+					<article>
+						<p>[...] jo have the code they do. To make it work. 	Marko Samastur wrote about a little quirk, and the magic of status code 0. 	 Have you ever encountered a problem with XMLHttpRequest (XHR), where its handle [...]</p>
+						<footer>
+							<cite>Pingback by <a href='http://ajaxian.com/archives/xmlhttprequest-and-status-code-0' rel='external nofollow' class='url'>Ajaxian &raquo; XMLHttpRequest and status code: 0</a> &#8212; <time datetime="2006-01-26T14:06:00+00:00">January 26, 2006 @ 2:06 pm</time> <a href="#comment-757">#</a> </cite>
+						</footer>
+					</article>
+				</li>
+		
+				<li id="comment-758">
+					<article>
+						<p>[...] pt						 		 			 				So looks like someone needs to play a bit more with their form inputs. Marko reports that when he changed his form from: 	     	to: 	     	His forms started getting submitted autom [...]</p>
+						<footer>
+							<cite>Pingback by <a href='http://pessoal.org/blog/?p=42' rel='external nofollow' class='url'>João Prado Maia&#8217;s Weblog &raquo; Form inputs and their behaviors</a> &#8212; <time datetime="2006-01-26T16:05:49+00:00">January 26, 2006 @ 4:05 pm</time> <a href="#comment-758">#</a> </cite>
+						</footer>
+					</article>
+				</li>
+		
+				<li id="comment-759">
+					<article>
+						<p>Assuming I read correctly here:</p>
+<p>You could also use an &#8220;onsubmit=return false&#8221; in the form element, preventing it from submitting at all. Also a convenient place to hook an XHR call for submitting, if you wanted.</p>
+						<footer>
+							<cite>Comment by <a href='http://www.schillmania.com/' rel='external nofollow' class='url'>Scott Schiller</a> &#8212; <time datetime="2006-01-26T16:49:47+00:00">January 26, 2006 @ 4:49 pm</time> <a href="#comment-759">#</a> </cite>
+						</footer>
+					</article>
+				</li>
+		
+				<li id="comment-760">
+					<article>
+						<p>instead of putting the call to AJAX on the button did you try putting it on the form?</p>
+						<footer>
+							<cite>Comment by redmyse &#8212; <time datetime="2006-01-26T18:03:26+00:00">January 26, 2006 @ 6:03 pm</time> <a href="#comment-760">#</a> </cite>
+						</footer>
+					</article>
+				</li>
+		
+				<li id="comment-761">
+					<article>
+						<p>&lt;form onsubmit=&#8221;XHR(); return false;&#8221;&gt;</p>
+						<footer>
+							<cite>Comment by redmyse &#8212; <time datetime="2006-01-26T18:04:26+00:00">January 26, 2006 @ 6:04 pm</time> <a href="#comment-761">#</a> </cite>
+						</footer>
+					</article>
+				</li>
+		
+				<li id="comment-762">
+					<article>
+						<p>Thanks for comments and I&#8217;m sorry I wasn&#8217;t clear enough.</p>
+<p>The problem isn&#8217;t fixing this, when you know what you did wrong. As you all showed it&#8217;s quite easy and can be done in different ways.</p>
+<p>I wrote this post to help any misfortunate soul, who might make the same mistake I did and get puzzled by a strange error.</p>
+						<footer>
+							<cite>Comment by <a href='http://markos.gaivo.net' rel='external nofollow' class='url'>markos</a> &#8212; <time datetime="2006-01-26T18:25:45+00:00">January 26, 2006 @ 6:25 pm</time> <a href="#comment-762">#</a> </cite>
+						</footer>
+					</article>
+				</li>
+		
+				<li id="comment-773">
+					<article>
+						<p>Marko Samastur, nel suo blog, affronta un particolare problema inerente all&#8217;oggetto XHR, ovvero quando lo statuscode è = 0 oppure lo status della request non viene correttamente letto dall&#8217;handler.</p>
+						<footer>
+							<cite>Comment by <a href='http://www.ajaxcity.it' rel='external nofollow' class='url'>Giorgio Suighi</a> &#8212; <time datetime="2006-01-28T08:06:09+00:00">January 28, 2006 @ 8:06 am</time> <a href="#comment-773">#</a> </cite>
+						</footer>
+					</article>
+				</li>
+		
+				<li id="comment-901">
+					<article>
+						<p>I&#8217;ve tried to use XMLHttpRequest on Firefox vers 1.0.7 but it returns the status code set to 0. Here is my sample code:</p>
+<p>var isWorking = false;</p>
+<p>function handleHttpResponse() {<br />
+  if (http.readyState == 4) {<br />
+    if(http.status == 200) {<br />
+      var xmlDoc = http.responseXML;<br />
+	  alert(xmlDoc.getElementsByTagName(&#8220;email&#8221;)[0].childNodes[0].nodeValue);<br />
+      isWorking = false;<br />
+    } else {<br />
+      alert(&#8220;There was an error while retrieving the URL &#8211; status: &#8221; + http.status);<br />
+    }<br />
+  }<br />
+}</p>
+<p>function tryxml() {<br />
+  if (!isWorking &amp;&amp; http) {<br />
+    http.open(&#8220;GET&#8221;, &#8220;try.xml&#8221;, true);<br />
+    http.onreadystatechange = handleHttpResponse;<br />
+    isWorking = true;<br />
+    http.send(null);<br />
+  }<br />
+  return false;<br />
+}</p>
+<p>function getHTTPObject() {<br />
+   var xmlhttp; </p>
+<p>   if (!xmlhttp &amp;&amp; typeof XMLHttpRequest != &#8216;undefined&#8217;) {<br />
+     try {<br />
+       xmlhttp = new XMLHttpRequest();<br />
+     } catch (e) {<br />
+       xmlhttp = false;<br />
+     }<br />
+   } </p>
+<p>   return xmlhttp;<br />
+} </p>
+<p>var http = getHTTPObject(); // We create the HTTP Object 	</p>
+<p><a href="void(0);">tryxml</a></p>
+<p>And the try.xml file contains:</p>
+<p>       John Smith<br />
+       <a href="mailto:john@smith.com">john@smith.com</a></p>
+<p>Could you give me some hint?<br />
+Thanks.</p>
+						<footer>
+							<cite>Comment by simona &#8212; <time datetime="2006-02-21T13:41:02+00:00">February 21, 2006 @ 1:41 pm</time> <a href="#comment-901">#</a> </cite>
+						</footer>
+					</article>
+				</li>
+		
+				<li id="comment-902">
+					<article>
+						<p>I see WordPress has stripped javascript again. Anyhow, it&#8217;s more or less the same problem.</p>
+<p>You have to prevent the default action of a link element. It doesn&#8217;t matter if it doesn&#8217;t do anything (void(0)). It simply mustn&#8217;t be executed.</p>
+<p>The simplest way to do so is to end your onclick handler with &#8220;return false&#8221;.</p>
+						<footer>
+							<cite>Comment by <a href='http://markos.gaivo.net' rel='external nofollow' class='url'>markos</a> &#8212; <time datetime="2006-02-21T15:42:33+00:00">February 21, 2006 @ 3:42 pm</time> <a href="#comment-902">#</a> </cite>
+						</footer>
+					</article>
+				</li>
+		
+				<li id="comment-1297">
+					<article>
+						<p>Hi,<br />
+I&#8217;m facing a strange problem.  When the link is a fixed URL (eg.: <a href="http://vidhan.blogspot.com)">http://vidhan.blogspot.com)</a>, status is 200.  Good.<br />
+But when the link is a relative URL (eg.: home.html), status is returned as 0.  Any ideas?<br />
+I&#8217;m testing AJAX on my local hard-drive files.  So the HTML file with AJAX script is index.html which wants another file &#8216;home.html&#8217;, but for the above problem.<br />
+Thanks<br />
+Vidhan</p>
+						<footer>
+							<cite>Comment by <a href='http://www.geocities.com/vidhansinghai' rel='external nofollow' class='url'>Vidhan</a> &#8212; <time datetime="2006-04-21T15:07:27+00:00">April 21, 2006 @ 3:07 pm</time> <a href="#comment-1297">#</a> </cite>
+						</footer>
+					</article>
+				</li>
+		
+				<li id="comment-1567">
+					<article>
+						<p>Hi all!<br />
+the status code = 0 is due you are trying to make an ajax request in your local drive files (ie: file:///C:/MyTests/etc) but you should execute ajax in your local internet server (ie: <a href="http://local/MyTests/etc)">http://local/MyTests/etc)</a>.</p>
+<p>Bye!</p>
+						<footer>
+							<cite>Comment by jorgebg &#8212; <time datetime="2006-05-10T11:18:20+00:00">May 10, 2006 @ 11:18 am</time> <a href="#comment-1567">#</a> </cite>
+						</footer>
+					</article>
+				</li>
+		
+				<li id="comment-1630">
+					<article>
+						<p>I am facing the same the same problem, I have the following HTML<br />
+[form onsubmit="return false;"]<br />
+  [input type="button" id="btnCopyUsersID" value="Copy All" onclick="copy(); return false;"]<br />
+  [input type="button" id="btnCopySelectedUserID" disabled="true" value="Copy Selected" onclick="copy(true);return false;"]<br />
+[form]<br />
+the copy method in javascript simply creates an AJAX request and submit a GET with other parameters. but I am still getting a status of 0 and empty responseText. This is working on other installations of IE and not working in other installations of IE, and there is no obvious difference in these installations. any ideas?</p>
+						<footer>
+							<cite>Comment by tinashe &#8212; <time datetime="2006-05-15T06:26:52+00:00">May 15, 2006 @ 6:26 am</time> <a href="#comment-1630">#</a> </cite>
+						</footer>
+					</article>
+				</li>
+		
+				<li id="comment-7245">
+					<article>
+						<p>Hi,<br />
+If you all read first the W3C XMLHttpRequest activex doc. it sas clearly:<br />
+&#8221; uri  of type DOMString<br />
+    A URI, which MUST be resolved to an absolute URI using the cached base URI.&#8221;</p>
+<p>The URI&#8217;s path should be always ABSOLUTE!</p>
+<p>letsroka</p>
+						<footer>
+							<cite>Comment by Lolek &#8212; <time datetime="2006-08-27T08:51:16+00:00">August 27, 2006 @ 8:51 am</time> <a href="#comment-7245">#</a> </cite>
+						</footer>
+					</article>
+				</li>
+		
+				<li id="comment-10675">
+					<article>
+						<p>Here is an article on <a href="http://www.pearweb.com/javascript/XMLHttpRequest.html">why XMLHttpRequest.status = 0, and XMLHttpRequest.statusText occur</a>:<br />
+<a href="http://www.pearweb.com/javascript/XMLHttpRequest.html">http://www.pearweb.com/javascript/XMLHttpRequest.html</a></p>
+						<footer>
+							<cite>Comment by <a href='http://www.pearweb.com' rel='external nofollow' class='url'>Colin Pear</a> &#8212; <time datetime="2006-10-26T17:25:12+00:00">October 26, 2006 @ 5:25 pm</time> <a href="#comment-10675">#</a> </cite>
+						</footer>
+					</article>
+				</li>
+		
+				<li id="comment-35233">
+					<article>
+						<p>Hi,</p>
+<p>I took a brief look in the XMLHTTPResponse Object specification. If you access certain elements of the XMLHTTPRequest object before readyState is in the proper state (for instance, if you try to access request.responseText before readyState is 3 or 4) an INVALID_STATE_ERR will be thrown. I think this the &#8217;0&#8242; in request.state.</p>
+<p>I do not know how this factors in to your problem, but it is something to think about when stepping through your code. I having the problem all over the place and have not quite isolated the error. Even more maddening is the fact that it seems to come and go. I&#8217;ll bounce back if I find anything.</p>
+<p><a href="http://bear-webtech.blogspot.com/">http://bear-webtech.blogspot.com/</a></p>
+						<footer>
+							<cite>Comment by <a href='http://bear-webtech.blogspot.com/' rel='external nofollow' class='url'>Mike</a> &#8212; <time datetime="2007-03-10T14:57:01+00:00">March 10, 2007 @ 2:57 pm</time> <a href="#comment-35233">#</a> </cite>
+						</footer>
+					</article>
+				</li>
+		
+				<li id="comment-36251">
+					<article>
+						<p>After reading further, I don&#8217;t think the INVALID_STATE_ERR and status code 0 are the same. I fought with this problem for a while, even copying code into my web app from other, working web apps. I finally switched from Apache 5.5 to Glassfish v1, and the problem disappeared.</p>
+						<footer>
+							<cite>Comment by <a href='http://bear-webtech.blogspot.com/' rel='external nofollow' class='url'>Mike</a> &#8212; <time datetime="2007-03-16T12:48:56+00:00">March 16, 2007 @ 12:48 pm</time> <a href="#comment-36251">#</a> </cite>
+						</footer>
+					</article>
+				</li>
+		
+				<li id="comment-66179">
+					<article>
+						<p>From Mozilla Developer Center:<br />
+<a href="http://developer.mozilla.org/en/docs/XMLHttpRequest">http://developer.mozilla.org/en/docs/XMLHttpRequest</a></p>
+<p>Note: file:/// and ftp:// do not return HTTP status, which is why they return zero for status and an empty string for statusText. Refer to bug 331610 for more insight.</p>
+						<footer>
+							<cite>Comment by <a href='http://www.speich.net' rel='external nofollow' class='url'>Simon</a> &#8212; <time datetime="2007-07-02T09:36:31+00:00">July 2, 2007 @ 9:36 am</time> <a href="#comment-66179">#</a> </cite>
+						</footer>
+					</article>
+				</li>
+		
+				<li id="comment-185755">
+					<article>
+						<p>Hello webmaster<br />
+I would like to share with you a link to your site<br />
+write me here <a href="mailto:preonrelt@mail.ru">preonrelt@mail.ru</a></p>
+						<footer>
+							<cite>Comment by Alexwebmaster &#8212; <time datetime="2009-03-03T13:30:20+00:00">March 3, 2009 @ 1:30 pm</time> <a href="#comment-185755">#</a> </cite>
+						</footer>
+					</article>
+				</li>
+		
+				<li id="comment-194529">
+					<article>
+						<p>Thank you a lot for this post. It was helpful to me.</p>
+						<footer>
+							<cite>Comment by <a href='http://keykeeper86.livejournal.com' rel='external nofollow' class='url'>Igor Soloydenko</a> &#8212; <time datetime="2009-06-03T23:01:51+00:00">June 3, 2009 @ 11:01 pm</time> <a href="#comment-194529">#</a> </cite>
+						</footer>
+					</article>
+				</li>
+		
+				<li id="comment-200014">
+					<article>
+						<p>Thank you. This helped me in fixing an issue.</p>
+						<footer>
+							<cite>Comment by Harish &#8212; <time datetime="2009-08-10T20:56:20+00:00">August 10, 2009 @ 8:56 pm</time> <a href="#comment-200014">#</a> </cite>
+						</footer>
+					</article>
+				</li>
+		
+				<li id="comment-208407">
+					<article>
+						<p>Another reason for a status code of 0 is because of a cross domain conflict.  I took your advice and disabled form submission with a return false, but I still got a status code of 0.  I had a web page on my local drive and I was trying to send an XHR to a servlet running Tomcat at localhost but I got a status code of 0.  </p>
+<p>The issue was resolved by allowing tomcat to host the web page.  When they say that an XHR can only be made to the server from the same orgin as the web page, they mean it.</p>
+<p>See also: </p>
+<p><a href="http://stackoverflow.com/questions/916357/why-is-this-xmlhttprequest-sample-from-mozilla-is-not-working-in-firefox-3">http://stackoverflow.com/questions/916357/why-is-this-xmlhttprequest-sample-from-mozilla-is-not-working-in-firefox-3</a></p>
+						<footer>
+							<cite>Comment by Jack Robinson &#8212; <time datetime="2010-03-04T19:21:02+00:00">March 4, 2010 @ 7:21 pm</time> <a href="#comment-208407">#</a> </cite>
+						</footer>
+					</article>
+				</li>
+		
+				<li id="comment-209331">
+					<article>
+						<p>hai friend, you are rocking. I had a problem for more than a week, within a minutes I did it.</p>
+						<footer>
+							<cite>Comment by udham &#8212; <time datetime="2010-03-20T12:07:36+00:00">March 20, 2010 @ 12:07 pm</time> <a href="#comment-209331">#</a> </cite>
+						</footer>
+					</article>
+				</li>
+		
+				<li id="comment-218701">
+					<article>
+						<p>Dude, you are a lifesaver!  Could&#8217;ve been banging my head for many more hours if I hadn&#8217;t come across your post.</p>
+						<footer>
+							<cite>Comment by Igor G. &#8212; <time datetime="2010-10-20T21:57:11+00:00">October 20, 2010 @ 9:57 pm</time> <a href="#comment-218701">#</a> </cite>
+						</footer>
+					</article>
+				</li>
+		
+				<li id="comment-222351">
+					<article>
+						<p>hi,<br />
+your clue about  status code &#8217;0&#8242;  was very useful,it saved my time<br />
+thanks lot.<br />
+Manjesh<br />
+from India</p>
+						<footer>
+							<cite>Comment by Manjesh &#8212; <time datetime="2010-12-27T14:56:36+00:00">December 27, 2010 @ 2:56 pm</time> <a href="#comment-222351">#</a> </cite>
+						</footer>
+					</article>
+				</li>
+		
+				<li id="comment-223978">
+					<article>
+						<p>The answer to this problem is that the servlet that you are calling needs to set the Access-Control-Allow-Origin in the header, like this:</p>
+<p>response.setHeader(&#8220;Access-Control-Allow-Origin&#8221;,&#8221;*&#8221;);</p>
+<p>For some reason, even in the same domain, anything based on Gecko, including Firefox, Chrome, etc. looks for this in the header from the servlet and if it doees not see this it aborts the connection prior to getting the xml from the servlet.</p>
+						<footer>
+							<cite>Comment by <a href='http://www.wolflake.com' rel='external nofollow' class='url'>mozandy</a> &#8212; <time datetime="2011-01-19T15:34:18+00:00">January 19, 2011 @ 3:34 pm</time> <a href="#comment-223978">#</a> </cite>
+						</footer>
+					</article>
+				</li>
+		
+				<li id="comment-224119">
+					<article>
+						<p>I was try to use AJAX to check connection to another page. It returned failed. I found that?<br />
+open(&#8220;GET&#8221;, &#8220;www.google.ca&#8221;,true)   //status return 0<br />
+open(&#8220;GET&#8221;, &#8220;http://www.google.ca&#8221;,true)  //status return 404.</p>
+<p>So I think the problem maybe in this URL.</p>
+						<footer>
+							<cite>Comment by Jacky Liu &#8212; <time datetime="2011-01-21T17:59:16+00:00">January 21, 2011 @ 5:59 pm</time> <a href="#comment-224119">#</a> </cite>
+						</footer>
+					</article>
+				</li>
+		
+				<li id="comment-232981">
+					<article>
+						<p>I have an issue at this lines: Does anyone know why isn&#8217;t this command correct and where i&#8217;m wrong ? cause i&#8217;m facing the following error:</p>
+<p>&#8220;Could not open http protocol&#8221;</p>
+<p>http.open(&#8216;GET&#8217;, &#8216;try.xml&#8217;, true);<br />
+http.onreadystatechange = handleHttpResponse;</p>
+						<footer>
+							<cite>Comment by <a href='http://www.comforthost.net/' rel='external nofollow' class='url'>Tim</a> &#8212; <time datetime="2011-06-03T08:19:10+00:00">June 3, 2011 @ 8:19 am</time> <a href="#comment-232981">#</a> </cite>
+						</footer>
+					</article>
+				</li>
+		
+				<li id="comment-249084">
+					<article>
+						<p>me also facing the problem in xmlhttp.status=0 in firefox and chrome..although its working in IE&#8230;<br />
+and so that xmlhttp.responseText is empty in firefox and chrome..</p>
+						<footer>
+							<cite>Comment by Shailendra Sajwan &#8212; <time datetime="2012-02-13T11:25:47+00:00">February 13, 2012 @ 11:25 am</time> <a href="#comment-249084">#</a> </cite>
+						</footer>
+					</article>
+				</li>
+		
+				<li id="comment-253787">
+					<article>
+						<p>Thank you. I spent several hours on it verifying hard-code, and the problem was simpler.</p>
+						<footer>
+							<cite>Comment by Wesley Hilebrand &#8212; <time datetime="2012-04-30T16:40:08+00:00">April 30, 2012 @ 4:40 pm</time> <a href="#comment-253787">#</a> </cite>
+						</footer>
+					</article>
+				</li>
+		
+				<li id="comment-259143">
+					<article>
+						<p>I used button type button instead of submit and now it works. Little different, but thanks! Without this blog, I wouldn&#8217;t have looked at this at all!</p>
+						<footer>
+							<cite>Comment by Rene &#8212; <time datetime="2012-07-17T23:40:00+00:00">July 17, 2012 @ 11:40 pm</time> <a href="#comment-259143">#</a> </cite>
+						</footer>
+					</article>
+				</li>
+		
+				<li id="comment-300993">
+					<article>
+						<p>Good post! We will be linking to this particularly great post on our site.<br />
+Keep up the good writing.</p>
+						<footer>
+							<cite>Comment by <a href='http://%URL%' rel='external nofollow' class='url'>Kendra</a> &#8212; <time datetime="2013-05-03T06:15:28+00:00">May 3, 2013 @ 6:15 am</time> <a href="#comment-300993">#</a> </cite>
+						</footer>
+					</article>
+				</li>
+		
+			</ol>
+
+
+		<p>Sorry, the comment form is closed at this time.</p>
+
+		</article>
+	</section>
+			<!-- All pages -->
+	
+
+	<footer>
+		<ul>
+			<li>&copy; 2005-2015 Marko Samastur</li>
+			
+			<li><a href="http://markos.gaivo.net/blog/?feed=rss2">Entries feed</a></li>
+			<li><a href="http://markos.gaivo.net/blog/?feed=comments-rss2">Comments feed</a></li>
+		</ul>
+		<a href="/"><img src="/img/markos_light_small_bg.png" alt="logo" class="mini-logo" /></a>
+	</footer>
+	<!-- Google analytics -->
+	<script type="text/javascript">
+	  var _gaq = _gaq || [];
+	  _gaq.push(['_setAccount', 'UA-152438-1']);
+	  _gaq.push(['_trackPageview']);
+	</script>
+	<script src="/js/cookie.js"></script>
+</body>
+</html>

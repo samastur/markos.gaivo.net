@@ -1,0 +1,285 @@
+var gaivo16 = {
+	URL : "http://markos.gaivo.net/marela/random16.js",
+
+	Time : 1000,
+
+	Images : [],
+
+	Direction : [],
+
+	animate : function(w) {
+		w += 1;
+		var move;
+
+		var d = document.getElementById("marela-sixteen-img");
+		var img = d.lastChild.firstChild;
+
+		switch (gaivo16.Direction[1]) {
+			case 0:
+				break;
+			case 1:
+				gaivo16.Direction[2][0] += 1;
+				d.lastChild.style.left = gaivo16.Direction[2][0]+"px";
+				break;
+			case 2:
+				gaivo16.Direction[2][1] += 1;
+				d.lastChild.style.top = gaivo16.Direction[2][1]+"px";
+				break;
+			case 3:
+				gaivo16.Direction[2][0] += 1;
+				gaivo16.Direction[2][1] += 1;
+				d.lastChild.style.left = gaivo16.Direction[2][0]+"px";
+				d.lastChild.style.top = gaivo16.Direction[2][1]+"px";
+				break;
+		}
+
+		img.style.width = (75-w)+"px";
+		img.style.height = (75-w)+"px";
+
+		if (w<38)
+			window.setTimeout("gaivo16.animate("+w+")", 50-w);
+		else {
+			var imgs = [[0,1,4,5], [2,3,6,7], [8,9,16,13], [10,11,14,15], [5,6,9,10]];
+			var imgURL = d.lastChild.firstChild.src;
+			var q = gaivo16.Direction[0];
+			var qi = gaivo16.Direction[1];
+
+			d.childNodes[imgs[q][qi]].firstChild.src = imgURL;
+			d.childNodes[imgs[q][qi]].href = d.lastChild.href;
+
+			d.removeChild(d.lastChild);
+			window.setTimeout("gaivo16.changePhoto()", gaivo16.Time);
+		}
+	},
+
+	pickPhoto : function(elm) {
+				var img; var num; var i;
+				var d;
+				var imgURL = "";
+
+				if (elm) d = elm;
+				else d = document.getElementById("marela-sixteen-img");
+
+				do {
+					num = Math.floor(Math.random()*gaivo16.Images.length);
+					imgURL = gaivo16.Images[num][2].replace("%s", "1/");
+
+					if(d && gaivo16.Images.length>16)
+						for(i=0;i<d.childNodes.length;i++)
+							if(d.childNodes[i].firstChild.src == imgURL) {
+								imgURL = "";
+								break;
+							}
+				} while (!imgURL);
+
+				return [imgURL, gaivo16.Images[num][0]];
+	},
+
+	changePhoto : function () {
+		var d = document.getElementById("marela-sixteen-img");
+		var q = Math.floor(Math.random()*5); // Select quadrant
+		var qi = Math.floor(Math.random()*4); // Select image in quadrant
+		var x; var y;
+
+		switch(q) {
+			case 0:
+				x = 1; y= 1;
+				break;
+			case 1:
+				x = 77; y = 1;
+				break;
+			case 2:
+				x = 1; y= 77;
+				break;
+			case 3:
+				x = 77; y= 77;
+				break;
+			case 4:
+				x = 39; y= 39;
+				break;
+		}
+
+		if (d) {
+			var imgData = gaivo16.pickPhoto();
+
+			var a = document.createElement("a");
+			var img = document.createElement("img");
+
+			img.src = imgData[0];
+			img.onload = function () {
+				window.setTimeout("gaivo16.animate(0)", 350);
+			};
+			img.style.width = "75px";
+			img.style.height = "75px";
+			img.style.border = "0";
+
+			a.href = "http://www.marela.si/photos/"+imgData[1];
+			a.style.position = "absolute";
+			a.style.left = x+"px";
+			a.style.top = y+"px";
+			a.appendChild(img);
+
+			d.appendChild(a);
+
+			gaivo16.Direction = [q, qi, [x,y]];
+		}
+	},
+
+	Marela2Slideshow : function () {
+		this.ID = "";
+		this.parameters = { username : "markos",
+					time : 3,
+					limit : 200,
+					tag : "moja-izbira" };
+		this.me;
+		var rpc = this;
+
+		this.getParameters = function() {
+			var i; var item;
+			var scripts = document.getElementsByTagName("script");
+			var shortURL;
+
+			var parts = gaivo16.URL.split("/");
+			var shortURL = parts[parts.length-1];
+
+			// Find me by my URL
+			for(i=0;i<scripts.length;i++) {
+				parts = scripts[i].src.split("/");
+				var curscript = parts[parts.length-1].split("?")[0];
+				if (curscript == shortURL) {
+					rpc.me = scripts[i];
+					break;
+				}
+			}
+
+			if (rpc.me) {
+				// Parse parameters, if there are any
+				var params = rpc.me.src.split("?");
+				if (params.length == 2) {
+					try {
+						items = params[1].split("&");
+						for(i=0; i<items.length; i++) {
+							item = items[i].split("=");
+							rpc.parameters[item[0]] = item[1];
+						}
+					} catch(e) {
+						alert("Parametri v vrstici niso prave oblike.");
+					}
+				}
+				gaivo16.Time = rpc.parameters["time"]*1000;
+			}
+		}
+
+		this.buildBox = function() {
+			var a; var img;
+			var div = document.createElement("div");
+			div.style.position = "relative";
+			div.style.width = "153px";
+			div.style.height = "173px";
+			div.style.backgroundColor = "#fff";
+			div.style.border = "1px solid #999";
+			div.id = "marela-sixteen-img";
+
+			for(var j=0;j<4;j++)
+				for(var i=0;i<4;i++) {
+					a = document.createElement("a");
+					img = gaivo16.pickPhoto(div);
+					a.appendChild(document.createElement("img"));
+					a.firstChild.src = img[0];
+					a.firstChild.alt = "Slika z Marele";
+					a.firstChild.style.border = "0";
+					a.firstChild.style.width = "37px";
+					a.firstChild.style.height = "37px";
+					a.href = "http://www.marela.si/photos/"+img[1];
+					a.style.position = "absolute";
+					a.style.top = (j*38+1)+"px";
+					a.style.left = (i*38+1)+"px";
+
+					div.appendChild(a);
+				}
+
+			var p = document.createElement("p");
+			p.appendChild(document.createElement("a"));
+			p.firstChild.appendChild(document.createElement("img"));
+			p.firstChild.href = "http://www.marela.si/users/"+rpc.parameters["username"];
+			p.firstChild.firstChild.src = "http://markos.gaivo.net/marela/marela.gif";
+			p.firstChild.firstChild.style.border = "0";
+			p.style.textAlign = "center";
+			p.style.position = "absolute";
+			p.style.bottom = "0";
+			p.style.width = "154px";
+			p.style.padding = "0";
+			p.style.margin = "0";
+
+			div.appendChild(p);
+
+			window.setTimeout("gaivo16.changePhoto()", gaivo16.Time);
+
+			return div;
+		}
+
+		this.call = function (method) {
+				var url = "http://www.marela.si/as/rest/?rtype=json";
+				var multi = false;
+				var callURL;
+
+				callURL = url + "&method="+method;
+
+				var scr = document.createElement('script');
+				scr.type = 'text/javascript';
+
+				// Find non-used ID
+				var tmpId;
+				do {
+					tmpId = "rpc"+Math.round(Math.random()*10000);
+					// Check that there's no element or function using this ID
+				} while (document.getElementById(tmpId) || window["fn"+tmpId]);
+				scr.id = tmpId;
+
+				// Use this ID also for callback function name
+				callURL += "&json_func=fn"+tmpId+"(%s)";
+				window["fn"+tmpId] = this._handle;
+
+				for (key in rpc.parameters) {
+					// In multi-method call check that parameters are of correct form
+					if (multi && rpc.parameters[key].search(".")<=0) {
+						alert("Syntax error: Malformed parameters in multi-method call");
+						return;
+					}
+					callURL += "&"+key+"="+rpc.parameters[key];
+				}
+				scr.src = callURL;
+				document.getElementsByTagName('head')[0].appendChild(scr);
+
+				this.ID = scr.id;
+			}
+
+		this.callback = function (result) {
+			gaivo16.Images = result["portal.getObjectsByTag"];
+
+			if (gaivo16.Images.length) {
+				rpc.me.parentNode.insertBefore(rpc.buildBox(), rpc.me);
+			}
+		}
+
+		this._handle = function (result) {
+			// We can delete superfluous script element and function
+			var node = document.getElementById(rpc.ID);
+			if (node)
+				node.parentNode.removeChild(node);
+
+			rpc.callback(result);
+
+			// Some browsers (IE) don't like this
+			try {
+				delete windows["fn"+tmpId];
+			} catch(e) {};
+		}
+
+		this.getParameters();
+
+		this.call("portal.getObjectsByTag");
+	}
+};
+
+gaivo16.Marela2Slideshow();

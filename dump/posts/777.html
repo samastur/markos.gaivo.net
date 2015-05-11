@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>A notch above a monkey &raquo; My OpenData hackday experience</title>
+	<meta charset="utf-8" />
+	
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" /> 
+
+	<link rel="shortcut icon" href="/img/markos.ico" />
+	
+	<meta name="generator" content="WordPress 3.0.5" /> <!-- leave this for stats please -->
+
+	<link href="http://fast.fonts.com/cssapi/aee9b60b-8e94-47f8-b586-3ecbfab51d1c.css" rel="stylesheet" type="text/css" />
+	<link rel="stylesheet" type="text/css" href="css/home.css" media="screen" title="Light theme" />
+	<link rel="alternate stylesheet" type="text/css" href="css/home_dark.css" media="screen" title="Dark theme" />
+	<link rel="stylesheet" href="css/ipad.css" media="only screen and (min-device-width : 768px) and (max-device-width : 1024px)">
+	<link rel="stylesheet" type="text/css" href="css/smallscreen.css" media="only screen and (max-width: 700px)" />
+
+	<link rel="alternate" type="application/rss+xml" title="RSS 2.0" href="http://markos.gaivo.net/blog/?feed=rss2" />
+	<link rel="alternate" type="application/atom+xml" title="Atom 1.0" href="http://markos.gaivo.net/blog/?feed=atom" />
+	<link rel='canonical' href='http://markos.gaivo.net/blog/?p=664' />
+
+	<link rel="pingback" href="http://markos.gaivo.net/blog/xmlrpc.php" />
+
+	<link rel="EditURI" type="application/rsd+xml" title="RSD" href="http://markos.gaivo.net/blog/xmlrpc.php?rsd" />
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="http://markos.gaivo.net/blog/wp-includes/wlwmanifest.xml" /> 
+<link rel='index' title='A notch above a monkey' href='http://markos.gaivo.net/blog' />
+<link rel='start' title='First post' href='http://markos.gaivo.net/blog/?p=2' />
+<link rel='prev' title='Salary and geography' href='http://markos.gaivo.net/blog/?p=766' />
+<link rel='next' title='6th anniversary of wwwh' href='http://markos.gaivo.net/blog/?p=807' />
+<meta name="generator" content="WordPress 3.0.5" />
+<link rel='canonical' href='http://markos.gaivo.net/blog/?p=777' />
+
+	<!--[if lt IE 9]>
+	<script src="/js/html5.js"></script>
+	<![endif]-->
+</head>
+<body>
+					<header>
+		<h1><a href="/blog/">A notch above a monkey</a> &raquo; My OpenData hackday experience</h1>
+	</header>
+
+	<section class="envelope">
+		<article class="post">
+			<header>
+				<h1>My OpenData hackday experience</h1>
+			</header>
+
+			<footer>
+				<ul>
+					<li class="by">Written by: <a href="/">Marko Samastur</a></li>
+					<li class="published">Published on: <time datetime="2011-10-02T20:48:30+00:00" pubdate>October 2, 2011</time></li>
+					<li class="categories">Categories: <a href="http://markos.gaivo.net/blog/?cat=170" title="View all posts in OpenData" rel="category">OpenData</a>, <a href="http://markos.gaivo.net/blog/?cat=4" title="View all posts in Web" rel="category">Web</a></li>
+					<li class="post-comments">Comments: <span>Comments Off</span></li>
+				</ul>
+			</footer>
+
+			<div class="post-text">
+				<p>I attended OpenData hackday previous weekend where we tried to create a website inspired by <a href="http://www.theyworkforyou.com/">theyworkforyou.com</a>. We didn&#8217;t quite achieve our goal, but a lot was done by everyone and we had fun. At least I did and I am certain we will release the first version soon (before the end of October, mark my words).</p>
+<p>Not releasing our website still bothered me and I&#8217;ve been thinking about it since, contemplating what we did right and what I did wrong.﻿ I hope this rumination can be of use to others who may be thinking about organizing or attending such an event. If you already have and have some tips to share or simply disagree with something I said, then please leave a comment at the bottom.</p>
+<h2>Planning</h2>
+<p>It is <a title="IKEA effect" href="http://neoacademic.com/2011/09/22/unfolding-the-ikea-effect-why-we-love-the-things-we-build/">important to finish</a> something. Having something at least a bit useful or fun gives everyone involved a sense of achievement and provides a better motivation for further work. To avoid problems with too many ideas started and none finished, we suggested to work only on ideas that have at least 3 volunteers. We also created a wiki where everyone could add their idea and volunteer for projects they liked.</p>
+<p>I think strongly suggesting at least 3 volunteers per project idea had an effect of ending up with just one idea. Not our intention, nor necessarily a problem, but it&#8217;s worth keeping in mind. We all tend to take the path of least resistance when not really committed to an idea and joining is easier than finding an idea AND people to help.</p>
+<p>However if you do come up with an idea, then here are a few things you might keep in mind:</p>
+<p><strong>Self-sustaining projects win.</strong> Even with best intentions you will probably run out of time for your project eventually. So projects that can be finished or which can be run by a community with few development and administration resources are less likely to end in failure.</p>
+<p><strong>Strip it to bare essentials</strong>, but keep a list of things you&#8217;d like to add if you had more time or help. I knew that we couldn&#8217;t build theyworkforyou in a day, but my planned version was still too grandiose. I should stop only when removing anything would reduce it to useless. Another reason for this is that I also often overestimate my free time &#8212; important for projects that will continue after hackday.</p>
+<p><strong>Check if you have data you need</strong>. First check for completeness, since missing parts might significantly affect feasibility of your project (especially if they are needed for a stripped down version). If you plan to scrap data from a public source (instead of using API or something you already have), then scrape it well before the event. Site may not be available when you need it or, as it was our experience, it can be frustratingly slow. Perception of speed is relative, but downloads can always go slower than even the pessimist in you would make you believe. I learned on hackday that I was planning to use a non-existing data.</p>
+<p><strong>Check the quality of your data,</strong> don&#8217;t only glance at it. Spend some time getting to know it and think about how you will clean it up. I knew our data was in an atrocious state, but I was still widely optimistic. Luckily <a title="Tomaž's blog" href="http://www.tablix.org/~avian/blog/">Tomaž</a> is a seasoned data wrangler that can deal with crap input.</p>
+<p><strong>Have a detailed TODO list</strong>. Not only will it give you a better picture of scope, it also makes it easier to divide work to unexpected volunteers. Mark what is necessary and what would be nice to have. Also pay attention to skills needed for finishing each task. <a title="Gašper's blog" href="http://www.kiberpipa.org/~hruske/blog/">Gašper</a> put a lot of effort into our to-do list and I haven&#8217;t. We could certainly achieve more if it was clearer what needs to be done and if I could delegate better.</p>
+<p><strong>Have a &#8220;roadmap&#8221;</strong>. Not every task can be done in parallel so identify and mark task dependencies. It may also be quicker if multiple developers extract different information from the same piece of data then for everyone to wait on one person to extract all.</p>
+<p><strong>Prepare hosting beforehand.</strong> If you plan to host a website, then set up <em>and test</em> at least essential parts before the event. Day passes too quickly even if you don&#8217;t waste time setting up the environment.</p>
+<p><strong>Ditto for development environment.</strong> How many people do you think will or can work on project(s)? Are they all familiar with tools you intend to use? Do you have adequate resources?</p>
+<p>I expected time constraints to prevent us from auditing code for exploits, so we opted for bitbucket which gives you private repositories for free. But we had to juggle around its limitation of 5 developers per repository and choice of mercurial as DVCS. Having them private turned out to be unimportant.</p>
+<p>So pick tools most are comfortable with and set up your own server (before the event of course) if publicly available options might not be good enough. You want everyone to start contributing as soon and as easily as possible.</p>
+<h2>Running event</h2>
+<p>Our hackday was as open as it gets. We used <a href="http://www.eventbrite.com/">Eventbrite</a> for registration, but didn&#8217;t enforce it so everyone who came was welcome no matter how long they stayed. It&#8217;s fantastic when people show up offering free help and it would be plain crazy to turn them away. There is always something they can do no matter what their skill set.</p>
+<p>Here are a few tips I wish I followed:</p>
+<p><strong>Lead.</strong> Self-organization is great, but the likelihood of misunderstandings and duplication of effort quickly increases with the size of a group. If you have dependencies in your project roadmap, then it&#8217;s also important that showstopper tasks are done before those that rely on them. That&#8217;s why someone usually has to lead development and if a project doesn&#8217;t have that someone, you either have to find or be him.</p>
+<p><strong>Talk to everyone.</strong> Find out what they are doing or what they would like to do. Find out also how long they intend to stay, since that might limit the choice of suitable tasks. Talking is pretty much the only reliable way to find these things out.</p>
+<p>Even better might be to have short group meetings throughout the day for everyone to catch up and I regret I didn&#8217;t think of this then. This however doesn&#8217;t absolve you from talking, especially if contributors are free to come and go whenever they please as they might have not been around yet the last time you were catching up.</p>
+<p><strong>Delegate.</strong> As much as possible to as many as possible. Don&#8217;t play a hero trying to do too much. You can always pick another task later or help someone with theirs if you finish too soon.</p>
+<p>In fact it&#8217;s probably better to help less experienced members with their tasks than doing whatever you are doing. Having a healthy contributing community is what makes or breaks voluntary projects so nurturing one is even more important than finishing the first version. This goes even more so for projects that can&#8217;t ever be really finished.</p>
+<h2>Morning after</h2>
+<p>Hackday is over and everyone has gone for a beer. Hopefully everyone is happy with results, but ambitious projects almost by definition can&#8217;t be finished in a day and the next morning it was amazing to see people continuing hacking where they left off the day before.</p>
+<p>Not every hacking community is as engaged as ours. However we all have more or less the same needs. It&#8217;s nice to hear our work was appreciated and even better that it mattered. We like to help if we are not alone and if it is clear how. Thus I found email sent by Gašper a few days later a pitch perfect post-hackday message. He first thanked everyone involved, then listed what each and all together achieved and ended by what he intends to do next.</p>
+<p>So, this is it. A long, but not exhaustive run through my experience of our last hackday which also took way longer to write than I expected. It&#8217;s time to go back to hacking!</p>
+			</div>
+
+			<nav>
+				<p>If you liked this, you might want to visit:</p>
+				<ul>
+					<li>my previous article: <a href="http://markos.gaivo.net/blog/?p=766" rel="prev">Salary and geography</a></li>					<li>my next article: <a href="http://markos.gaivo.net/blog/?p=807" rel="next">6th anniversary of wwwh</a></li>					<li><a href="/blog/">article list</a></li>
+				</ul>
+			</nav>
+
+			<h2 id="comments">No Comments
+			</h2>
+			<p>No comments yet.</p>
+
+		<p>Sorry, the comment form is closed at this time.</p>
+
+		</article>
+	</section>
+			<!-- All pages -->
+	
+
+	<footer>
+		<ul>
+			<li>&copy; 2005-2015 Marko Samastur</li>
+			
+			<li><a href="http://markos.gaivo.net/blog/?feed=rss2">Entries feed</a></li>
+			<li><a href="http://markos.gaivo.net/blog/?feed=comments-rss2">Comments feed</a></li>
+		</ul>
+		<a href="/"><img src="/img/markos_light_small_bg.png" alt="logo" class="mini-logo" /></a>
+	</footer>
+	<!-- Google analytics -->
+	<script type="text/javascript">
+	  var _gaq = _gaq || [];
+	  _gaq.push(['_setAccount', 'UA-152438-1']);
+	  _gaq.push(['_trackPageview']);
+	</script>
+	<script src="/js/cookie.js"></script>
+</body>
+</html>

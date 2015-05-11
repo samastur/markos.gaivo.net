@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+		>
+<channel>
+	<title>Comments on: Impostor for Django</title>
+	<atom:link href="http://markos.gaivo.net/blog/?feed=rss2&#038;p=649" rel="self" type="application/rss+xml" />
+	<link>http://markos.gaivo.net/blog/?p=649</link>
+	<description></description>
+	<lastBuildDate>Wed, 16 Jul 2014 16:04:38 +0000</lastBuildDate>
+	<sy:updatePeriod>hourly</sy:updatePeriod>
+	<sy:updateFrequency>1</sy:updateFrequency>
+	<generator>http://wordpress.org/?v=3.0.5</generator>
+	<item>
+		<title>By: Michael Fletcher</title>
+		<link>http://markos.gaivo.net/blog/?p=649&#038;cpage=1#comment-226704</link>
+		<dc:creator>Michael Fletcher</dc:creator>
+		<pubDate>Tue, 22 Feb 2011 23:07:18 +0000</pubDate>
+		<guid isPermaLink="false">http://markos.gaivo.net/blog/?p=649#comment-226704</guid>
+		<description>I had a feature similar to this a highly secure application.  The variation of what you describe was that the audit logs would display the original logged in user.</description>
+		<content:encoded><![CDATA[<p>I had a feature similar to this a highly secure application.  The variation of what you describe was that the audit logs would display the original logged in user.</p>
+]]></content:encoded>
+	</item>
+	<item>
+		<title>By: Tweets that mention /devel ? Impostor for Django -- Topsy.com</title>
+		<link>http://markos.gaivo.net/blog/?p=649&#038;cpage=1#comment-226701</link>
+		<dc:creator>Tweets that mention /devel ? Impostor for Django -- Topsy.com</dc:creator>
+		<pubDate>Tue, 22 Feb 2011 22:37:25 +0000</pubDate>
+		<guid isPermaLink="false">http://markos.gaivo.net/blog/?p=649#comment-226701</guid>
+		<description>[...] This post was mentioned on Twitter by Planet Python, Django Ireland. Django Ireland said: /devel ? Impostor for Django http://bit.ly/gG4kNY [...]</description>
+		<content:encoded><![CDATA[<p>[...] This post was mentioned on Twitter by Planet Python, Django Ireland. Django Ireland said: /devel ? Impostor for Django <a href="http://bit.ly/gG4kNY">http://bit.ly/gG4kNY</a> [...]</p>
+]]></content:encoded>
+	</item>
+	<item>
+		<title>By: Ross</title>
+		<link>http://markos.gaivo.net/blog/?p=649&#038;cpage=1#comment-226697</link>
+		<dc:creator>Ross</dc:creator>
+		<pubDate>Tue, 22 Feb 2011 20:19:38 +0000</pubDate>
+		<guid isPermaLink="false">http://markos.gaivo.net/blog/?p=649#comment-226697</guid>
+		<description>Sounds similar to Ned Batchelder&#039;s superuser trapdoor: http://nedbatchelder.com/blog/201008/django_superuser_login_trapdoor.html</description>
+		<content:encoded><![CDATA[<p>Sounds similar to Ned Batchelder&#8217;s superuser trapdoor: <a href="http://nedbatchelder.com/blog/201008/django_superuser_login_trapdoor.html">http://nedbatchelder.com/blog/201008/django_superuser_login_trapdoor.html</a></p>
+]]></content:encoded>
+	</item>
+</channel>
+</rss>

@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+		>
+<channel>
+	<title>Comments on: Python on series 60</title>
+	<atom:link href="http://markos.gaivo.net/blog/?feed=rss2&#038;p=153" rel="self" type="application/rss+xml" />
+	<link>http://markos.gaivo.net/blog/?p=153</link>
+	<description></description>
+	<lastBuildDate>Wed, 16 Jul 2014 16:04:38 +0000</lastBuildDate>
+	<sy:updatePeriod>hourly</sy:updatePeriod>
+	<sy:updateFrequency>1</sy:updateFrequency>
+	<generator>http://wordpress.org/?v=3.0.5</generator>
+	<item>
+		<title>By: Laurent Szyster</title>
+		<link>http://markos.gaivo.net/blog/?p=153&#038;cpage=1#comment-1304</link>
+		<dc:creator>Laurent Szyster</dc:creator>
+		<pubDate>Sat, 22 Apr 2006 02:43:49 +0000</pubDate>
+		<guid isPermaLink="false">http://markos.gaivo.net/blog/?p=153#comment-1304</guid>
+		<description>Thanks for the reply and the input about the S60.
+
+&quot;My first objection would be that mobile network access is fairly expensive and even worse, latency is a bitch, which means you really need to have a local dictionary.&quot;
+
+That&#039;s right. But the purpose of making it small is to fit the metabase peer everywhere, including in the phone, as a local peer listening on the loopback device.
+
+&quot;My second objection would be that shared dictionary doesn’t help you build personalized dictionaries.&quot;
+
+Well, then how come that some of my words are also in your text? 
+
+We do share dictionnary *and* we each have our own diverging vocabulary, languages, jargons and slangs. They may be close to each other or complete strangers, yet you should be able to share their content if you want to exchange, publish or search your many digital dictionnaries to come.
+
+Voila.
+
+I wish you good luck for your project. If you publish code make sure to blog about it. I would surely read it, because I believe that network peers are the new frontier computer applications.
+
+
+Kind Regards,</description>
+		<content:encoded><![CDATA[<p>Thanks for the reply and the input about the S60.</p>
+<p>&#8220;My first objection would be that mobile network access is fairly expensive and even worse, latency is a bitch, which means you really need to have a local dictionary.&#8221;</p>
+<p>That&#8217;s right. But the purpose of making it small is to fit the metabase peer everywhere, including in the phone, as a local peer listening on the loopback device.</p>
+<p>&#8220;My second objection would be that shared dictionary doesn’t help you build personalized dictionaries.&#8221;</p>
+<p>Well, then how come that some of my words are also in your text? </p>
+<p>We do share dictionnary *and* we each have our own diverging vocabulary, languages, jargons and slangs. They may be close to each other or complete strangers, yet you should be able to share their content if you want to exchange, publish or search your many digital dictionnaries to come.</p>
+<p>Voila.</p>
+<p>I wish you good luck for your project. If you publish code make sure to blog about it. I would surely read it, because I believe that network peers are the new frontier computer applications.</p>
+<p>Kind Regards,</p>
+]]></content:encoded>
+	</item>
+	<item>
+		<title>By: markos</title>
+		<link>http://markos.gaivo.net/blog/?p=153&#038;cpage=1#comment-1284</link>
+		<dc:creator>markos</dc:creator>
+		<pubDate>Thu, 20 Apr 2006 17:10:40 +0000</pubDate>
+		<guid isPermaLink="false">http://markos.gaivo.net/blog/?p=153#comment-1284</guid>
+		<description>Allega looks interesting and I&#039;ll certainly take a look at it in the future, but it&#039;s not what I had in mind. My first objection would be that mobile network access is fairly expensive and even worse, latency is a bitch, which means you really need to have a local dictionary. My second objection would be that shared dictionary doesn&#039;t help you build personalized dictionaries.
+
+I know py2exe, but I&#039;d like something similiar for mobile phones and py2exe doesn&#039;t fit the bill.
+
+I&#039;m also aware of bt console, but the problem is not development. The problem is using those application on the go. If typing on my notebook would be an option, then there would be no need for application to run on mobile either.</description>
+		<content:encoded><![CDATA[<p>Allega looks interesting and I&#8217;ll certainly take a look at it in the future, but it&#8217;s not what I had in mind. My first objection would be that mobile network access is fairly expensive and even worse, latency is a bitch, which means you really need to have a local dictionary. My second objection would be that shared dictionary doesn&#8217;t help you build personalized dictionaries.</p>
+<p>I know py2exe, but I&#8217;d like something similiar for mobile phones and py2exe doesn&#8217;t fit the bill.</p>
+<p>I&#8217;m also aware of bt console, but the problem is not development. The problem is using those application on the go. If typing on my notebook would be an option, then there would be no need for application to run on mobile either.</p>
+]]></content:encoded>
+	</item>
+	<item>
+		<title>By: voxvirus</title>
+		<link>http://markos.gaivo.net/blog/?p=153&#038;cpage=1#comment-1283</link>
+		<dc:creator>voxvirus</dc:creator>
+		<pubDate>Thu, 20 Apr 2006 16:38:31 +0000</pubDate>
+		<guid isPermaLink="false">http://markos.gaivo.net/blog/?p=153#comment-1283</guid>
+		<description>&quot;I do wish it was possible to build stand-alone applications&quot; it is, there&#039;s a tool similar to py2exe out there.
+&quot;It’s a pain in the ass to type anything substantial on mobile phone&quot; only if you do it _on_ the phone ;)
+use the bt console or a dev env like miso or a bt keyboard if you have deep pockets =)</description>
+		<content:encoded><![CDATA[<p>&#8220;I do wish it was possible to build stand-alone applications&#8221; it is, there&#8217;s a tool similar to py2exe out there.<br />
+&#8220;It’s a pain in the ass to type anything substantial on mobile phone&#8221; only if you do it _on_ the phone <img src='http://markos.gaivo.net/blog/wp-includes/images/smilies/icon_wink.gif' alt=';)' class='wp-smiley' /><br />
+use the bt console or a dev env like miso or a bt keyboard if you have deep pockets =)</p>
+]]></content:encoded>
+	</item>
+	<item>
+		<title>By: Laurent Szyster</title>
+		<link>http://markos.gaivo.net/blog/?p=153&#038;cpage=1#comment-1278</link>
+		<dc:creator>Laurent Szyster</dc:creator>
+		<pubDate>Thu, 20 Apr 2006 09:52:50 +0000</pubDate>
+		<guid isPermaLink="false">http://markos.gaivo.net/blog/?p=153#comment-1278</guid>
+		<description>You said &quot;What would make it even better is if such dictionary would be standardized so any application could use it&quot;. But then you also need to provide a dictionnary server for many applications, with a simple API.
+
+Preferrably a network API, possibly a web one.
+
+Sooner or later you&#039;ll end-up with something strange, between a database server and an RDF store. I know, because I built one:
+
+  http://laurentszyster.be/blog/allegra
+
+I called that thing a metabase peer and if you dream of crazy peer search applications that can run in a cell phone, you should definitively have a look at Allegra (aka Python on Peers). 
+
+Regards,</description>
+		<content:encoded><![CDATA[<p>You said &#8220;What would make it even better is if such dictionary would be standardized so any application could use it&#8221;. But then you also need to provide a dictionnary server for many applications, with a simple API.</p>
+<p>Preferrably a network API, possibly a web one.</p>
+<p>Sooner or later you&#8217;ll end-up with something strange, between a database server and an RDF store. I know, because I built one:</p>
+<p>  <a href="http://laurentszyster.be/blog/allegra">http://laurentszyster.be/blog/allegra</a></p>
+<p>I called that thing a metabase peer and if you dream of crazy peer search applications that can run in a cell phone, you should definitively have a look at Allegra (aka Python on Peers). </p>
+<p>Regards,</p>
+]]></content:encoded>
+	</item>
+</channel>
+</rss>

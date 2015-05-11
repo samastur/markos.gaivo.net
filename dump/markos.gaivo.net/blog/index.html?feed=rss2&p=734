@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+		>
+<channel>
+	<title>Comments on: &lt;address&gt;</title>
+	<atom:link href="http://markos.gaivo.net/blog/?feed=rss2&#038;p=734" rel="self" type="application/rss+xml" />
+	<link>http://markos.gaivo.net/blog/?p=734</link>
+	<description></description>
+	<lastBuildDate>Wed, 16 Jul 2014 16:04:38 +0000</lastBuildDate>
+	<sy:updatePeriod>hourly</sy:updatePeriod>
+	<sy:updateFrequency>1</sy:updateFrequency>
+	<generator>http://wordpress.org/?v=3.0.5</generator>
+	<item>
+		<title>By: markos</title>
+		<link>http://markos.gaivo.net/blog/?p=734&#038;cpage=1#comment-239650</link>
+		<dc:creator>markos</dc:creator>
+		<pubDate>Sun, 18 Sep 2011 08:59:41 +0000</pubDate>
+		<guid isPermaLink="false">http://markos.gaivo.net/blog/?p=734#comment-239650</guid>
+		<description>Thanks. True, links are a bit low on contrast. I tried darker, but it&#039;s not really orange anymore and I&#039;ve yet to find a solution I like.</description>
+		<content:encoded><![CDATA[<p>Thanks. True, links are a bit low on contrast. I tried darker, but it&#8217;s not really orange anymore and I&#8217;ve yet to find a solution I like.</p>
+]]></content:encoded>
+	</item>
+	<item>
+		<title>By: Sebastjan</title>
+		<link>http://markos.gaivo.net/blog/?p=734&#038;cpage=1#comment-239618</link>
+		<dc:creator>Sebastjan</dc:creator>
+		<pubDate>Sat, 17 Sep 2011 18:31:57 +0000</pubDate>
+		<guid isPermaLink="false">http://markos.gaivo.net/blog/?p=734#comment-239618</guid>
+		<description>Really like the new look, with maybe a dash darker color for links ;)</description>
+		<content:encoded><![CDATA[<p>Really like the new look, with maybe a dash darker color for links <img src='http://markos.gaivo.net/blog/wp-includes/images/smilies/icon_wink.gif' alt=';)' class='wp-smiley' /> </p>
+]]></content:encoded>
+	</item>
+</channel>
+</rss>

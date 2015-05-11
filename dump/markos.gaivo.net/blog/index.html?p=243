@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>A notch above a monkey &raquo; Dynamically controlling behavior and size of a page</title>
+	<meta charset="utf-8" />
+	
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" /> 
+
+	<link rel="shortcut icon" href="/img/markos.ico" />
+	
+	<meta name="generator" content="WordPress 3.0.5" /> <!-- leave this for stats please -->
+
+	<link href="http://fast.fonts.com/cssapi/aee9b60b-8e94-47f8-b586-3ecbfab51d1c.css" rel="stylesheet" type="text/css" />
+	<link rel="stylesheet" type="text/css" href="css/home.css" media="screen" title="Light theme" />
+	<link rel="alternate stylesheet" type="text/css" href="css/home_dark.css" media="screen" title="Dark theme" />
+	<link rel="stylesheet" href="css/ipad.css" media="only screen and (min-device-width : 768px) and (max-device-width : 1024px)">
+	<link rel="stylesheet" type="text/css" href="css/smallscreen.css" media="only screen and (max-width: 700px)" />
+
+	<link rel="alternate" type="application/rss+xml" title="RSS 2.0" href="http://markos.gaivo.net/blog/?feed=rss2" />
+	<link rel="alternate" type="application/atom+xml" title="Atom 1.0" href="http://markos.gaivo.net/blog/?feed=atom" />
+	<link rel='canonical' href='http://markos.gaivo.net/blog/?p=664' />
+
+	<link rel="pingback" href="http://markos.gaivo.net/blog/xmlrpc.php" />
+
+	<link rel="EditURI" type="application/rsd+xml" title="RSD" href="http://markos.gaivo.net/blog/xmlrpc.php?rsd" />
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="http://markos.gaivo.net/blog/wp-includes/wlwmanifest.xml" /> 
+<link rel='index' title='A notch above a monkey' href='http://markos.gaivo.net/blog' />
+<link rel='start' title='First post' href='http://markos.gaivo.net/blog/?p=2' />
+<link rel='prev' title='One web for all, but with different lanes' href='http://markos.gaivo.net/blog/?p=242' />
+<link rel='next' title='Javascript events on tablet' href='http://markos.gaivo.net/blog/?p=244' />
+<meta name="generator" content="WordPress 3.0.5" />
+<link rel='canonical' href='http://markos.gaivo.net/blog/?p=243' />
+
+	<!--[if lt IE 9]>
+	<script src="/js/html5.js"></script>
+	<![endif]-->
+</head>
+<body>
+					<header>
+		<h1><a href="/blog/">A notch above a monkey</a> &raquo; Dynamically controlling behavior and size of a page</h1>
+	</header>
+
+	<section class="envelope">
+		<article class="post">
+			<header>
+				<h1>Dynamically controlling behavior and size of a page</h1>
+			</header>
+
+			<footer>
+				<ul>
+					<li class="by">Written by: <a href="/">Marko Samastur</a></li>
+					<li class="published">Published on: <time datetime="2007-12-12T20:37:53+00:00" pubdate>December 12, 2007</time></li>
+					<li class="categories">Categories: <a href="http://markos.gaivo.net/blog/?cat=1" title="View all posts in Javascript" rel="category">Javascript</a>, <a href="http://markos.gaivo.net/blog/?cat=4" title="View all posts in Web" rel="category">Web</a></li>
+					<li class="post-comments">Comments: <span>Comments Off</span></li>
+				</ul>
+			</footer>
+
+			<div class="post-text">
+				<p>It&#8217;s not a secret that Javascript is interpreted and not statically compiled. Personally I find this an advantage that is not used often enough. If you look around the Web you can find plenty of cases to prove this, but I&#8217;d like to add another example.</p>
+<p>A few months ago I was developing a library which had a goal of providing an improved Javascript experience for standardized components without requiring any knowledge of the language to use. I also wanted to support different load scenarios so library could be smaller when needed.</p>
+<p>Sadly I ran out of time before I ended my work to my satisfaction. Still, I&#8217;d like to discuss one approach that also demonstrates aspects that I&#8217;d like to see used more in the wild.</p>
+<p>Let&#8217;s start with a demo. I created two almost identical pages. Can you spot the difference between <a href="http://markos.gaivo.net/examples/richswitch/index.html" title="First demo">first</a> and <a href="http://markos.gaivo.net/examples/richswitch/index2.html" title="Second demo">second</a>?</p>
+<p>First one simply toggles visibility of the text, while second one does the same with a bit more style. If you look at files, you&#8217;ll notice that the only difference is that first calls <em><a href="http://markos.gaivo.net/examples/richswitch/switch.js">switch.js</a></em> and second uses <em><a href="http://markos.gaivo.net/examples/richswitch/rswitch.js">rswitch.js</a></em>. Both files look the same because they are. In fact, it&#8217;s really just one file. Hard link to the rescue for us, Unixheads.</p>
+<p>But first a small warning. This code is not production ready. I simplified it to keep example clear and concise. In that capacity I think it will do.</p>
+<p>Javascript basically consists of two functions. A <em>window.onload</em> handler that&#8217;s triggered when page is loaded and an animation function attached to button. A <em>window.onload</em> handler is a one trick pony. Its main idea is to find Javascript file in DOM and based on the name with which it was loaded set up the execution environment. This is just a fancy name (to make me look smart) for setting a global variable that is private to this name space and possibly loading a few additional resources, like YUI animation support in our case. It is also the first case where not being static helps. We can decide at run time what&#8217;s necessary and load only what we need.</p>
+<p>However, I find <em>toggleVisible</em> a tad bit more interesting and the reason is its <em>if</em> statement. What happens when we include <em>switch.js</em> in a page?</p>
+<p>Well, variable <em>rich</em> remains set to <em>false</em> and YUI components don&#8217;t get loaded. This means <em>YAHOO.util</em> and its descendants aren&#8217;t defined. Yet as we&#8217;ve seen from first demo page script works just fine. Reason for this is that <em>if</em> statement in <em>toggleVisible</em> evaluates to <em>false</em> and those undefined statements never get reached. This wouldn&#8217;t work in a language like Java, which would notice a call to undefined methods at compile time and refuse to finish compile, but it works perfectly fine in Javascript.</p>
+<p>Of course if rich was set true, then we load YUI files. It might happen with this code that we press button before they get loaded, which is one of the reasons why this isn&#8217;t a production quality code, but if we assume for a moment that they did, then those same lines in <em>toggleVisible</em> are perfectly fine and it works as hopefully seen on second page.</p>
+<p>We therefore have a page where we control its behavior and size only by the way we call javascript file. There&#8217;s literally only one letter of difference. With dynamic loading of resources and cordoning potentially nonexistent methods we could fairly easily create a spectrum of possibilities where our users could choose their own compromise between functionality and its price in terms of page size and speed or better handle differences between mobile and desktop browsers.</p>
+			</div>
+
+			<nav>
+				<p>If you liked this, you might want to visit:</p>
+				<ul>
+					<li>my previous article: <a href="http://markos.gaivo.net/blog/?p=242" rel="prev">One web for all, but with different lanes</a></li>					<li>my next article: <a href="http://markos.gaivo.net/blog/?p=244" rel="next">Javascript events on tablet</a></li>					<li><a href="/blog/">article list</a></li>
+				</ul>
+			</nav>
+
+			<h2 id="comments">No Comments
+			</h2>
+			<p>No comments yet.</p>
+
+		<p>Sorry, the comment form is closed at this time.</p>
+
+		</article>
+	</section>
+			<!-- All pages -->
+	
+
+	<footer>
+		<ul>
+			<li>&copy; 2005-2015 Marko Samastur</li>
+			
+			<li><a href="http://markos.gaivo.net/blog/?feed=rss2">Entries feed</a></li>
+			<li><a href="http://markos.gaivo.net/blog/?feed=comments-rss2">Comments feed</a></li>
+		</ul>
+		<a href="/"><img src="/img/markos_light_small_bg.png" alt="logo" class="mini-logo" /></a>
+	</footer>
+	<!-- Google analytics -->
+	<script type="text/javascript">
+	  var _gaq = _gaq || [];
+	  _gaq.push(['_setAccount', 'UA-152438-1']);
+	  _gaq.push(['_trackPageview']);
+	</script>
+	<script src="/js/cookie.js"></script>
+</body>
+</html>

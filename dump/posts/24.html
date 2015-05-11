@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>A notch above a monkey &raquo; Latency, bandwidth and speed of applications &#8211; part II</title>
+	<meta charset="utf-8" />
+	
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" /> 
+
+	<link rel="shortcut icon" href="/img/markos.ico" />
+	
+	<meta name="generator" content="WordPress 3.0.5" /> <!-- leave this for stats please -->
+
+	<link href="http://fast.fonts.com/cssapi/aee9b60b-8e94-47f8-b586-3ecbfab51d1c.css" rel="stylesheet" type="text/css" />
+	<link rel="stylesheet" type="text/css" href="css/home.css" media="screen" title="Light theme" />
+	<link rel="alternate stylesheet" type="text/css" href="css/home_dark.css" media="screen" title="Dark theme" />
+	<link rel="stylesheet" href="css/ipad.css" media="only screen and (min-device-width : 768px) and (max-device-width : 1024px)">
+	<link rel="stylesheet" type="text/css" href="css/smallscreen.css" media="only screen and (max-width: 700px)" />
+
+	<link rel="alternate" type="application/rss+xml" title="RSS 2.0" href="http://markos.gaivo.net/blog/?feed=rss2" />
+	<link rel="alternate" type="application/atom+xml" title="Atom 1.0" href="http://markos.gaivo.net/blog/?feed=atom" />
+	<link rel='canonical' href='http://markos.gaivo.net/blog/?p=664' />
+
+	<link rel="pingback" href="http://markos.gaivo.net/blog/xmlrpc.php" />
+
+	<link rel="EditURI" type="application/rsd+xml" title="RSD" href="http://markos.gaivo.net/blog/xmlrpc.php?rsd" />
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="http://markos.gaivo.net/blog/wp-includes/wlwmanifest.xml" /> 
+<link rel='index' title='A notch above a monkey' href='http://markos.gaivo.net/blog' />
+<link rel='start' title='First post' href='http://markos.gaivo.net/blog/?p=2' />
+<link rel='prev' title='Latency, bandwidth and speed of applications &#8211; part I' href='http://markos.gaivo.net/blog/?p=23' />
+<link rel='next' title='Javascript timing conflicts' href='http://markos.gaivo.net/blog/?p=25' />
+<meta name="generator" content="WordPress 3.0.5" />
+<link rel='canonical' href='http://markos.gaivo.net/blog/?p=24' />
+
+	<!--[if lt IE 9]>
+	<script src="/js/html5.js"></script>
+	<![endif]-->
+</head>
+<body>
+					<header>
+		<h1><a href="/blog/">A notch above a monkey</a> &raquo; Latency, bandwidth and speed of applications &#8211; part II</h1>
+	</header>
+
+	<section class="envelope">
+		<article class="post">
+			<header>
+				<h1>Latency, bandwidth and speed of applications &#8211; part II</h1>
+			</header>
+
+			<footer>
+				<ul>
+					<li class="by">Written by: <a href="/">Marko Samastur</a></li>
+					<li class="published">Published on: <time datetime="2005-09-16T00:03:34+00:00" pubdate>September 16, 2005</time></li>
+					<li class="categories">Categories: <a href="http://markos.gaivo.net/blog/?cat=5" title="View all posts in General development" rel="category">General development</a>, <a href="http://markos.gaivo.net/blog/?cat=1" title="View all posts in Javascript" rel="category">Javascript</a>, <a href="http://markos.gaivo.net/blog/?cat=2" title="View all posts in Python" rel="category">Python</a></li>
+					<li class="post-comments">Comments: <span>Comments Off</span></li>
+				</ul>
+			</footer>
+
+			<div class="post-text">
+				<p>This is the second post on this subject. You can find the first part <a href="http://markos.gaivo.net/blog/?p=23" title="First par of this article">here</a>.</p>
+<p>So, how do latency and bandwidth relate to the speed of execution?</p>
+<p>As mentioned, latency is time needed for any amount of information to travel a certain distance and bandwidth is the amount of data that can flow through it at the same time.</p>
+<p>Let me give you a real-life example. If you imagine people walking down the corridor, then latency is amount of time one person needs to walk from start to its end and bandwidth is number of people who can do this at the same time.</p>
+<p>You can measure latency quite easily with ping, a tool available on every major OS, which will give you a round-trip time from client to server (2+5 from our original 7 intervals). The only problem is that it will tell you just your personal latency at that time, which can vary significantly for people on different networks and even for you at different times. There are similar tools for measuring bandwidth and they have more or less the same problems.</p>
+<p>However, sometimes you can tell a bit about what you can expect. For example, if you&#8217;re building an application aimed at mobile users using GPRS, then it&#8217;s quite reasonable to assume that bandwidth will be scarce and latency will be high. On local networks it&#8217;s usually the opposite of that.</p>
+<p>In general, latency rises with distance between server and client and bandwidth can&#8217;t be wider than the narrowest bandwidth on the way and the question is how do we react to our situation?</p>
+<p>Basic rules are:</p>
+<ul>
+<li>if latency is high, then we should make as few round-trips to server as possible</li>
+<li>if bandwidth is wide, then we can transfer more data at each trip</li>
+</ul>
+<p>In practice we should always try for the most balanced approach between this two factors. If latency is fairly high, but bandwidth is not severely limited, then we might transfer also data we don&#8217;t need immediately, if it might spare us another request later on. If latency is low and bandwidth is narrow, then it might make more sense to transfer only what&#8217;s needed, but make those requests more often.</p>
+<p>Another way we can sometimes cut down response time, when bandwidth is not the limiting factor, is to multiplex connections, which is a bit fancy way of saying to simultaneously open multiple connections from client to server. It&#8217;s nice to keep in mind that some browsers like Internet Explorer will limit number of simultaneous connections for HTTP protocol to 4 (as specified by its standard), but you are more free to do what you want, if you write your own program. It&#8217;s also nice to keep in mind that if order in which responses are coming is important, you&#8217;ll have to handle that yourself.</p>
+<p>A different approach is to simulate multiplex connections over one connection. In this case client sends multiple commands inside of one network request and receives answers to all of them at once. It&#8217;s easier to handle order, since you get all data at the same time, but you give up possibly faster response for some of the data.</p>
+<p>There are other factors that can influence our decisions, such as possibly increased load on server from more requests. Or the speed with which we can generate a request and process reply, if we need to pack and unpack more data. But this are issues worth exploring in some other post, if interest justifies it.</p>
+			</div>
+
+			<nav>
+				<p>If you liked this, you might want to visit:</p>
+				<ul>
+					<li>my previous article: <a href="http://markos.gaivo.net/blog/?p=23" rel="prev">Latency, bandwidth and speed of applications &#8211; part I</a></li>					<li>my next article: <a href="http://markos.gaivo.net/blog/?p=25" rel="next">Javascript timing conflicts</a></li>					<li><a href="/blog/">article list</a></li>
+				</ul>
+			</nav>
+
+			<h2 id="comments">No Comments
+			</h2>
+			<p>No comments yet.</p>
+
+		<p>Sorry, the comment form is closed at this time.</p>
+
+		</article>
+	</section>
+			<!-- All pages -->
+	
+
+	<footer>
+		<ul>
+			<li>&copy; 2005-2015 Marko Samastur</li>
+			
+			<li><a href="http://markos.gaivo.net/blog/?feed=rss2">Entries feed</a></li>
+			<li><a href="http://markos.gaivo.net/blog/?feed=comments-rss2">Comments feed</a></li>
+		</ul>
+		<a href="/"><img src="/img/markos_light_small_bg.png" alt="logo" class="mini-logo" /></a>
+	</footer>
+	<!-- Google analytics -->
+	<script type="text/javascript">
+	  var _gaq = _gaq || [];
+	  _gaq.push(['_setAccount', 'UA-152438-1']);
+	  _gaq.push(['_trackPageview']);
+	</script>
+	<script src="/js/cookie.js"></script>
+</body>
+</html>

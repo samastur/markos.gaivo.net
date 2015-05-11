@@ -1,0 +1,46 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="sl" lang="sl">
+	<head>
+		<title>Javascript Objects</title>
+		
+		<link rel="stylesheet" type="text/css" media="screen, projection" href="style.css" />
+		<style type="text/css">
+#slide {
+	margin: -158px 0 0 -231px;
+}
+		</style>
+		<script type="text/javascript">
+	var MYLIB = (function () {
+		// moje zasebne stvari
+		function _myfunc() {}
+		function _myprivfunc() {}
+		var _myobj = {};
+
+		return {
+			myobj : _myobj,
+			myfunc : _myfunc
+		};
+	})();
+		</script>
+	</head>
+	<body>
+		<div id="slide">
+			<code>
+var MYLIB = (function () {
+	// moje zasebne stvari
+	function _myfunc() {}
+	function _myprivfunc() {}
+	var _myobj = {};
+
+	return {
+		myobj : _myobj,
+		myfunc : _myfunc
+	};
+})();
+			</code>
+		</div>
+		<div id="next">
+			<a href="sources.html">></a>
+		</div>
+	</body>
+</html>

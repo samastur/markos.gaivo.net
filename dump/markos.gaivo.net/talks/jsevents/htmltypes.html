@@ -1,0 +1,175 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="sl" lang="sl">
+	<head>
+		<title>Javascript Events</title>
+		
+		<link rel="stylesheet" type="text/css" media="screen, projection" href="style.css" />
+		<style type="text/css">
+#slide {
+	margin: -326px 0 0 -450px;
+}
+TABLE {
+	width: 900px;
+	font-size: 0.8em;
+}
+		</style>
+		<script type="text/javascript">
+		</script>
+	</head>
+	<body>
+		<div id="slide">
+<table width="100%" cellspacing="0">
+<thead>
+<tr>
+<th align="left" class="docTableCell thead" style=
+"text-align: left;" scope="col">Handler</th>
+<th align="left" class="docTableCell thead" style=
+"text-align: left;" scope="col">Triggered when</th>
+<th align="left" class="docTableCell thead" style=
+"text-align: left;" scope="col">Supported by</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="left" class="docTableCell"><tt>onabort</tt></td>
+<td align="left" class="docTableCell">Image loading
+interrupted.</td>
+<td align="left" class="docTableCell"><tt>&lt;img&gt;</tt></td>
+</tr>
+<tr>
+<td align="left" class="docTableCell"><tt>onblur</tt></td>
+<td align="left" class="docTableCell">Element loses input
+focus.</td>
+<td align="left" class="docTableCell"><tt>&lt;button&gt;</tt>,
+<tt>&lt;input&gt;</tt>, <tt>&lt;label&gt;</tt>,
+<tt>&lt;select&gt;</tt>, <tt>&lt;textarea&gt;</tt>,
+<tt>&lt;body&gt;</tt></td>
+</tr>
+<tr>
+<td align="left" class="docTableCell"><tt>onchange</tt></td>
+<td align="left" class="docTableCell">Selection in a
+<tt>&lt;select&gt;</tt><a name="form element"> element or other
+form element loses focus, and its value has changed since it gained
+focus.</td>
+<td align="left" class="docTableCell"><tt>&lt;input&gt;</tt>,
+<tt>&lt;select&gt;</tt>, <tt>&lt;textarea&gt;</tt></td>
+</tr>
+<tr>
+<td align="left" class="docTableCell"><tt>onclick</tt></td>
+<td align="left" class="docTableCell"><a name="Return" id=
+"Return">Mouse press and release; follows mouseup event. </td>
+<td align="left" class="docTableCell">Most elements</td>
+</tr>
+<tr>
+<td align="left" class="docTableCell"><tt>ondblclick</tt></td>
+<td align="left" class="docTableCell">Double-click.</td>
+<td align="left" class="docTableCell">Most elements</td>
+</tr>
+<tr>
+<td align="left" class="docTableCell"><tt>onerror</tt></td>
+<td align="left" class="docTableCell">Error when loading
+image.</td>
+<td align="left" class="docTableCell"><tt>&lt;img&gt;</tt></td>
+</tr>
+<tr>
+<td align="left" class="docTableCell"><tt>onfocus</tt></td>
+<td align="left" class="docTableCell">Element gains input
+focus.</td>
+<td align="left" class="docTableCell"><tt>&lt;button&gt;</tt>,
+<tt>&lt;input&gt;</tt>, <tt>&lt;label&gt;</tt>,
+<tt>&lt;select&gt;</tt>, <tt>&lt;textarea&gt;</tt>,
+<tt>&lt;body&gt;</tt></td>
+</tr>
+<tr>
+<td align="left" class="docTableCell"><tt>onkeydown</tt></td>
+<td align="left" class="docTableCell">Key pressed down. Return
+<tt>false</tt> to cancel.</td>
+<td align="left" class="docTableCell">Form elements and
+<tt>&lt;body&gt;</tt></td>
+</tr>
+<tr>
+<td align="left" class="docTableCell"><tt>onkeypress</tt></td>
+<td align="left" class="docTableCell">Key pressed; follows keydown.
+Return <tt>false</tt> to cancel.</td>
+<td align="left" class="docTableCell">Form elements and
+<tt>&lt;body&gt;</tt></td>
+</tr>
+<tr>
+<td align="left" class="docTableCell"><tt>onkeyup</tt></td>
+<td align="left" class="docTableCell">Key released; follows
+keypress.</td>
+<td align="left" class="docTableCell">Form elements and
+<tt>&lt;body&gt;</tt></td>
+</tr>
+<tr>
+<td align="left" class="docTableCell"><tt>onload</tt></td>
+<td align="left" class="docTableCell">Document load complete.</td>
+<td align="left" class="docTableCell"><tt>&lt;body&gt;</tt>,
+<tt>&lt;frameset&gt;</tt>, <tt>&lt;img&gt;</tt></td>
+</tr>
+<tr>
+<td align="left" class="docTableCell"><tt>onmousedown</tt></td>
+<td align="left" class="docTableCell">Mouse button pressed.</td>
+<td align="left" class="docTableCell">Most elements</td>
+</tr>
+<tr>
+<td align="left" class="docTableCell"><tt>onmousemove</tt></td>
+<td align="left" class="docTableCell">Mouse moved.</td>
+<td align="left" class="docTableCell">Most elements</td>
+</tr>
+<tr>
+<td align="left" class="docTableCell"><tt>onmouseout</tt></td>
+<td align="left" class="docTableCell">Mouse moves off element.</td>
+<td align="left" class="docTableCell">Most elements</td>
+</tr>
+<tr>
+<td align="left" class="docTableCell"><tt>onmouseover</tt></td>
+<td align="left" class="docTableCell">Mouse moves over
+element.</td>
+<td align="left" class="docTableCell">Most elements</td>
+</tr>
+<tr>
+<td align="left" class="docTableCell"><tt>onmouseup</tt></td>
+<td align="left" class="docTableCell">Mouse button released.</td>
+<td align="left" class="docTableCell">Most elements</td>
+</tr>
+<tr>
+<td align="left" class="docTableCell"><tt>onreset</tt></td>
+<td align="left" class="docTableCell">Form reset requested. Return
+<tt>false</tt> to prevent reset.</td>
+<td align="left" class="docTableCell">
+<tt>&lt;form&lt;&lt;/tt&gt;</tt></td>
+</tr>
+<tr>
+<td align="left" class="docTableCell"><tt>onresize</tt></td>
+<td align="left" class="docTableCell">Window size changes.</td>
+<td align="left" class="docTableCell"><tt>&lt;body&gt;</tt>,
+<tt>&lt;frameset&gt;</tt></td>
+</tr>
+<tr>
+<td align="left" class="docTableCell"><tt>onselect</tt></td>
+<td align="left" class="docTableCell">Text selected.</td>
+<td align="left" class="docTableCell"><tt>&lt;input&gt;</tt>,
+<tt>&lt;textarea&gt;</tt></td>
+</tr>
+<tr>
+<td align="left" class="docTableCell"><tt>onsubmit</tt></td>
+<td align="left" class="docTableCell">Form submission requested.
+Return <tt>false</tt> to prevent submission.</td>
+<td align="left" class="docTableCell"><tt>&lt;form&gt;</tt></td>
+</tr>
+<tr>
+<td align="left" class="docTableCell"><tt>onunload</tt></td>
+<td align="left" class="docTableCell">Document or frameset
+unloaded.</td>
+<td align="left" class="docTableCell"><tt>&lt;body&gt;</tt>,
+<tt>&lt;frameset&gt;</tt></td>
+</tr>
+</tbody>
+</table>
+		</div>
+		<div id="next">
+			<a href="dom0property.html">></a>
+		</div>
+	</body>
+</html>

@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+		>
+<channel>
+	<title>Comments on: Transient nature of OpenID identities</title>
+	<atom:link href="http://markos.gaivo.net/blog/?feed=rss2&#038;p=223" rel="self" type="application/rss+xml" />
+	<link>http://markos.gaivo.net/blog/?p=223</link>
+	<description></description>
+	<lastBuildDate>Wed, 16 Jul 2014 16:04:38 +0000</lastBuildDate>
+	<sy:updatePeriod>hourly</sy:updatePeriod>
+	<sy:updateFrequency>1</sy:updateFrequency>
+	<generator>http://wordpress.org/?v=3.0.5</generator>
+	<item>
+		<title>By: Tara Kelly</title>
+		<link>http://markos.gaivo.net/blog/?p=223&#038;cpage=1#comment-45287</link>
+		<dc:creator>Tara Kelly</dc:creator>
+		<pubDate>Tue, 17 Apr 2007 20:27:29 +0000</pubDate>
+		<guid isPermaLink="false">http://markos.gaivo.net/blog/?p=223#comment-45287</guid>
+		<description>@Marcos: Thanks. I agree, it&#039;s the same problem with emails - every time a client registers a domain or starts a business, they have to try and lock down that name at the various freemail providers. That&#039;s my point, now they&#039;ll have to run through the motions for the free OpenID providers too.</description>
+		<content:encoded><![CDATA[<p>@Marcos: Thanks. I agree, it&#8217;s the same problem with emails &#8211; every time a client registers a domain or starts a business, they have to try and lock down that name at the various freemail providers. That&#8217;s my point, now they&#8217;ll have to run through the motions for the free OpenID providers too.</p>
+]]></content:encoded>
+	</item>
+	<item>
+		<title>By: Sebastjan</title>
+		<link>http://markos.gaivo.net/blog/?p=223&#038;cpage=1#comment-45144</link>
+		<dc:creator>Sebastjan</dc:creator>
+		<pubDate>Mon, 16 Apr 2007 22:22:05 +0000</pubDate>
+		<guid isPermaLink="false">http://markos.gaivo.net/blog/?p=223#comment-45144</guid>
+		<description>XRI will be supported by OpenID 2.0 specs which should solve the problem with the domains..</description>
+		<content:encoded><![CDATA[<p>XRI will be supported by OpenID 2.0 specs which should solve the problem with the domains..</p>
+]]></content:encoded>
+	</item>
+	<item>
+		<title>By: markos</title>
+		<link>http://markos.gaivo.net/blog/?p=223&#038;cpage=1#comment-45056</link>
+		<dc:creator>markos</dc:creator>
+		<pubDate>Mon, 16 Apr 2007 09:50:47 +0000</pubDate>
+		<guid isPermaLink="false">http://markos.gaivo.net/blog/?p=223#comment-45056</guid>
+		<description>@Johannes: Thanks, I wasn&#039;t aware of LID. I believe XDI may have a similar idea in having i-name number, a permanent your only identifier and i-name name, which can be transferred, that points to the number.
+
+I don&#039;t think cost per time prevents identifier hoarding and I&#039;m also sceptical that XRI&#039;s flexibility will do it. I&#039;m doubtful that problem is reall solvable until namescape is not more or less uniformaly (un)appealing.
+
+@Tara: You don&#039;t really need to do this. You can use client&#039;s URL as their OpenID and delegate real authentication to whichever provider you best like (at the moment). True, people are still free to do create OpenIDs with your name on other providers, but the same is true for email right now as well.</description>
+		<content:encoded><![CDATA[<p>@Johannes: Thanks, I wasn&#8217;t aware of LID. I believe XDI may have a similar idea in having i-name number, a permanent your only identifier and i-name name, which can be transferred, that points to the number.</p>
+<p>I don&#8217;t think cost per time prevents identifier hoarding and I&#8217;m also sceptical that XRI&#8217;s flexibility will do it. I&#8217;m doubtful that problem is reall solvable until namescape is not more or less uniformaly (un)appealing.</p>
+<p>@Tara: You don&#8217;t really need to do this. You can use client&#8217;s URL as their OpenID and delegate real authentication to whichever provider you best like (at the moment). True, people are still free to do create OpenIDs with your name on other providers, but the same is true for email right now as well.</p>
+]]></content:encoded>
+	</item>
+	<item>
+		<title>By: Tara Kelly</title>
+		<link>http://markos.gaivo.net/blog/?p=223&#038;cpage=1#comment-44977</link>
+		<dc:creator>Tara Kelly</dc:creator>
+		<pubDate>Sun, 15 Apr 2007 21:24:57 +0000</pubDate>
+		<guid isPermaLink="false">http://markos.gaivo.net/blog/?p=223#comment-44977</guid>
+		<description>OpenID hoarding is an interesting problem. I don&#039;t actually use OpenID, but the idea that someone else might use my name in their identifier doesn&#039;t thrill me. I can see how this would lead to a proliferation of sign-up-just-to-get-the-name.
+
+I work in web development, every time a client wants to start an online business, I make sure they get all the domains plus the standard company@gmail, hotmail, yahoo etc.
+
+Now we need to add OpenID identifiers to that list too.</description>
+		<content:encoded><![CDATA[<p>OpenID hoarding is an interesting problem. I don&#8217;t actually use OpenID, but the idea that someone else might use my name in their identifier doesn&#8217;t thrill me. I can see how this would lead to a proliferation of sign-up-just-to-get-the-name.</p>
+<p>I work in web development, every time a client wants to start an online business, I make sure they get all the domains plus the standard company@gmail, hotmail, yahoo etc.</p>
+<p>Now we need to add OpenID identifiers to that list too.</p>
+]]></content:encoded>
+	</item>
+	<item>
+		<title>By: Johannes Ernst</title>
+		<link>http://markos.gaivo.net/blog/?p=223&#038;cpage=1#comment-44966</link>
+		<dc:creator>Johannes Ernst</dc:creator>
+		<pubDate>Sun, 15 Apr 2007 20:27:29 +0000</pubDate>
+		<guid isPermaLink="false">http://markos.gaivo.net/blog/?p=223#comment-44966</guid>
+		<description>I would think that unless identifiers have a cost per time associated with it (as it is for DNS domains), it would lead to extreme identifier hoarding, and thus a system built on such identifiers would be infeasible in practice because all &quot;good&quot; identifiers would be owned and unused. (Unless identifiers were non-human-readable, which would have other problems). That would apply to all identifier-based systems (OpenID URLs, XRI/i-names and all current and future alternatives.)
+
+In the longer term, I think people will get around to the idea we pioneered in &lt;a href=&quot;http://lid.netmesh.org/&quot; rel=&quot;nofollow&quot;&gt;LID&lt;/a&gt; to associate a public key with each identifier which could be taken to a new identifier. That public key could be your less fleeting identifier.</description>
+		<content:encoded><![CDATA[<p>I would think that unless identifiers have a cost per time associated with it (as it is for DNS domains), it would lead to extreme identifier hoarding, and thus a system built on such identifiers would be infeasible in practice because all &#8220;good&#8221; identifiers would be owned and unused. (Unless identifiers were non-human-readable, which would have other problems). That would apply to all identifier-based systems (OpenID URLs, XRI/i-names and all current and future alternatives.)</p>
+<p>In the longer term, I think people will get around to the idea we pioneered in <a href="http://lid.netmesh.org/">LID</a> to associate a public key with each identifier which could be taken to a new identifier. That public key could be your less fleeting identifier.</p>
+]]></content:encoded>
+	</item>
+</channel>
+</rss>

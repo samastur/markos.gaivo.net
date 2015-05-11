@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+		>
+<channel>
+	<title>Comments on: Sabbatical</title>
+	<atom:link href="http://markos.gaivo.net/blog/?feed=rss2&#038;p=608" rel="self" type="application/rss+xml" />
+	<link>http://markos.gaivo.net/blog/?p=608</link>
+	<description></description>
+	<lastBuildDate>Wed, 16 Jul 2014 16:04:38 +0000</lastBuildDate>
+	<sy:updatePeriod>hourly</sy:updatePeriod>
+	<sy:updateFrequency>1</sy:updateFrequency>
+	<generator>http://wordpress.org/?v=3.0.5</generator>
+	<item>
+		<title>By: Clara54 Takes A Sabbatical! &#171; Clara54&#039;s Weblog</title>
+		<link>http://markos.gaivo.net/blog/?p=608&#038;cpage=1#comment-229534</link>
+		<dc:creator>Clara54 Takes A Sabbatical! &#171; Clara54&#039;s Weblog</dc:creator>
+		<pubDate>Sun, 10 Apr 2011 16:06:34 +0000</pubDate>
+		<guid isPermaLink="false">http://markos.gaivo.net/blog/?p=608#comment-229534</guid>
+		<description>[...] Sabbatical (markos.gaivo.net) [...]</description>
+		<content:encoded><![CDATA[<p>[...] Sabbatical (markos.gaivo.net) [...]</p>
+]]></content:encoded>
+	</item>
+	<item>
+		<title>By: /devel &#187; Reading and travels</title>
+		<link>http://markos.gaivo.net/blog/?p=608&#038;cpage=1#comment-218085</link>
+		<dc:creator>/devel &#187; Reading and travels</dc:creator>
+		<pubDate>Wed, 06 Oct 2010 11:39:20 +0000</pubDate>
+		<guid isPermaLink="false">http://markos.gaivo.net/blog/?p=608#comment-218085</guid>
+		<description>[...] Archive        &#171; Sabbatical [...]</description>
+		<content:encoded><![CDATA[<p>[...] Archive        &laquo; Sabbatical [...]</p>
+]]></content:encoded>
+	</item>
+</channel>
+</rss>

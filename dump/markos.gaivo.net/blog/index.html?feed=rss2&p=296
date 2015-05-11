@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+		>
+<channel>
+	<title>Comments on: Tweaking pages</title>
+	<atom:link href="http://markos.gaivo.net/blog/?feed=rss2&#038;p=296" rel="self" type="application/rss+xml" />
+	<link>http://markos.gaivo.net/blog/?p=296</link>
+	<description></description>
+	<lastBuildDate>Wed, 16 Jul 2014 16:04:38 +0000</lastBuildDate>
+	<sy:updatePeriod>hourly</sy:updatePeriod>
+	<sy:updateFrequency>1</sy:updateFrequency>
+	<generator>http://wordpress.org/?v=3.0.5</generator>
+	<item>
+		<title>By: j</title>
+		<link>http://markos.gaivo.net/blog/?p=296&#038;cpage=1#comment-175553</link>
+		<dc:creator>j</dc:creator>
+		<pubDate>Mon, 15 Dec 2008 11:13:52 +0000</pubDate>
+		<guid isPermaLink="false">http://markos.gaivo.net/blog/?p=296#comment-175553</guid>
+		<description>http://mac.softpedia.com/get/Internet-Utilities/Greasefire.shtml
+
+Automatically find Greasemonkey scripts on Userscripts.org (requires Greasemonkey).
+
+The Greasemonkey will highlight in case you visit a web page that has compatible user scripts on Userscripts.org.</description>
+		<content:encoded><![CDATA[<p><a href="http://mac.softpedia.com/get/Internet-Utilities/Greasefire.shtml">http://mac.softpedia.com/get/Internet-Utilities/Greasefire.shtml</a></p>
+<p>Automatically find Greasemonkey scripts on Userscripts.org (requires Greasemonkey).</p>
+<p>The Greasemonkey will highlight in case you visit a web page that has compatible user scripts on Userscripts.org.</p>
+]]></content:encoded>
+	</item>
+	<item>
+		<title>By: j</title>
+		<link>http://markos.gaivo.net/blog/?p=296&#038;cpage=1#comment-169765</link>
+		<dc:creator>j</dc:creator>
+		<pubDate>Wed, 29 Oct 2008 20:39:12 +0000</pubDate>
+		<guid isPermaLink="false">http://markos.gaivo.net/blog/?p=296#comment-169765</guid>
+		<description>one thing i would like in greasemonkey is ability to auto-update scripts much like new versions of add-ons in FFox are done with.
+
+i found some hell-knows-where in Internet and probably there are new versions around, but i lack the time to seek-and-install them...</description>
+		<content:encoded><![CDATA[<p>one thing i would like in greasemonkey is ability to auto-update scripts much like new versions of add-ons in FFox are done with.</p>
+<p>i found some hell-knows-where in Internet and probably there are new versions around, but i lack the time to seek-and-install them&#8230;</p>
+]]></content:encoded>
+	</item>
+</channel>
+</rss>

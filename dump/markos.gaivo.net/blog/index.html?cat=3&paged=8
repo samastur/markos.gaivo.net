@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>A notch above a monkey &raquo; Catchall</title>
+	<meta charset="utf-8" />
+	
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" /> 
+
+	<link rel="shortcut icon" href="/img/markos.ico" />
+	
+	<meta name="generator" content="WordPress 3.0.5" /> <!-- leave this for stats please -->
+
+	<link href="http://fast.fonts.com/cssapi/aee9b60b-8e94-47f8-b586-3ecbfab51d1c.css" rel="stylesheet" type="text/css" />
+	<link rel="stylesheet" type="text/css" href="css/home.css" media="screen" title="Light theme" />
+	<link rel="alternate stylesheet" type="text/css" href="css/home_dark.css" media="screen" title="Dark theme" />
+	<link rel="stylesheet" href="css/ipad.css" media="only screen and (min-device-width : 768px) and (max-device-width : 1024px)">
+	<link rel="stylesheet" type="text/css" href="css/smallscreen.css" media="only screen and (max-width: 700px)" />
+
+	<link rel="alternate" type="application/rss+xml" title="RSS 2.0" href="http://markos.gaivo.net/blog/?feed=rss2" />
+	<link rel="alternate" type="application/atom+xml" title="Atom 1.0" href="http://markos.gaivo.net/blog/?feed=atom" />
+	<link rel='canonical' href='http://markos.gaivo.net/blog/?p=664' />
+
+	<link rel="pingback" href="http://markos.gaivo.net/blog/xmlrpc.php" />
+
+	<link rel="alternate" type="application/rss+xml" title="A notch above a monkey &raquo; Catchall Category Feed" href="http://markos.gaivo.net/blog/?feed=rss2&amp;cat=3" />
+<link rel="EditURI" type="application/rsd+xml" title="RSD" href="http://markos.gaivo.net/blog/xmlrpc.php?rsd" />
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="http://markos.gaivo.net/blog/wp-includes/wlwmanifest.xml" /> 
+<link rel='index' title='A notch above a monkey' href='http://markos.gaivo.net/blog' />
+<meta name="generator" content="WordPress 3.0.5" />
+
+	<!--[if lt IE 9]>
+	<script src="/js/html5.js"></script>
+	<![endif]-->
+</head>
+<body>
+	<section class="envelope posts">
+		<header>
+			<h1><a href="http://markos.gaivo.net/blog/">A notch above a monkey</a></h1>
+		</header>
+		<nav class="colophon">
+			<h1>By Marko Samastur</h1>
+			<ul>
+				<li><a href="/">About me</a></li>
+				<li><a href="http://markos.gaivo.net/blog/?feed=atom">Subscribe</a></li>
+			</ul>
+		</nav>
+
+	
+		<article>
+			<h1 class="storytitle"><a href="http://markos.gaivo.net/blog/?p=818" rel="bookmark">Android&#8217;s design reflections</a></h1>
+
+			<div class="post-text">
+				<p>I bought a Samsung Nexus phone in September after almost 4 years of being a happy <a class="zem_slink" title="Nokia E65" rel="wikipedia" href="http://en.wikipedia.org/wiki/Nokia_E65">Nokia E65</a> user. I switched because I didn&#8217;t have an Android phone to test websites against and it would be stupid to buy something expensive just to lay on my table waiting for an occasional test.</p>
+<p>A month of use is enough to get a solid impression, but not enough to really know a modern phone. Which is alright, since I don&#8217;t want to write a pro-cons review of Android. Better ones have already been written. I am more intrigued by what design hints about its creators and their environment. Hints, not tells, because I know Android&#8217;s authors even less than I do my phone, which is to say I don&#8217;t know them at all and could well be wrong. Enough of disclaimers and let&#8217;s proceed with this Sherlock-like conjecture.</p>
+<p>Data roaming is something that ought to be common, but is usually an obscenely expensive luxury and it&#8217;s nice that Android lets you turn it off to prevent unexpected expenses. However home network may not be cheap or unlimited either and what I really liked about an otherwise severely limited email client on <a class="zem_slink" title="Nokia N900" rel="wikipedia" href="http://en.wikipedia.org/wiki/Nokia_N900">Nokia N900</a> is that you could set automatic email retrieval to proceed only when connected to WiFi. Alas there are no connection based settings for data syncing. So this feature was designed for countries where cheap-enough data connection is available to most or in expectation that this will soon be so.</p>
+<p>Notifications are an important part of Android&#8217;s experience and are done well enough to inspire iPhone&#8217;s. They are also less important to me than Android believes they should be. Pull-down notification system was obviously built for a steady stream of messages and as such would benefit from a few more options. Like K9 mail&#8217;s quiet time during which it would not check for new messages (or just be silent if it gets them). I&#8217;d also love to be able to set a different volume based on type of messages. I care about (rare) text messages, but don&#8217;t want to be bothered with Twitter&#8217;s deluge. However if I wanted to be notified about everything as soon as it happens, then I would just love what I got. I know many social media users who surely do.</p>
+<p>The under-appreciated side of Nokia has always been company&#8217;s understanding that mobile users around world are not same. Android however doesn&#8217;t care about subtleties. E.g. selecting language of your interface will also select when week starts (is it Monday or Sunday?). This would be a great shortcut for setting locale in one swoop, but is incredibly annoying when you want/need to override it.</p>
+<p>None of my examples is actually a bug or even necessary a bad (business) decision. I talked about Android, but most of what I said also applies to iPhones. While I do think smartphones will eventually end up in hands of practically all phone users, I do not believe that economies of scale or environment will work equally for all. I am not sure if designing mostly for affluent is wrong, but I do think it&#8217;s sad.</p>
+			</div>
+
+			<footer class="post-metadata">
+				<ul>
+					<li>Published on <time datetime="2011-10-30T16:40:45+00:00">October 30, 2011</time></li>
+					<li><a href="http://markos.gaivo.net/blog/?p=818#comments" title="Comment on Android&#8217;s design reflections">Add your comment</a> </li>
+				</ul>
+			</footer>
+		</article>
+	
+		<article>
+			<h1 class="storytitle"><a href="http://markos.gaivo.net/blog/?p=660" rel="bookmark">Typeface snobbism</a></h1>
+
+			<div class="post-text">
+				<p>We came from <a class="zem_slink" title="Corsica" rel="homepage" href="http://www.corse.fr/">Corsica</a> vacation recently and one place we visited was Bonifiacio, a picturesque town in the south of the island. It&#8217;s a great place to visit, but if you do, try to rent an apartment in the old town itself &#8211; you might feel as a part of it.</p>
+<p>We stayed in an apartment recently completely renovated by owners and very tastefully designed. Phillipe, our impeccably dressed host, who lived in equally tasteful apartment above us, also provided us with a page full of suggestions on what to do, where to eat and so on.</p>
+<p>Typeface used for suggestions was <a class="zem_slink" title="Comic Sans" rel="wikipedia" href="http://en.wikipedia.org/wiki/Comic_Sans">Comic Sans</a>.</p>
+<p>I admit I was amused at first. Here was this older gentleman showing more taste than me in everything who nevertheless used one of more despised and ridiculed <a class="zem_slink" title="Typeface" rel="wikipedia" href="http://en.wikipedia.org/wiki/Typeface">typefaces</a> around. My unconfirmed guess is that he picked it because it looks friendlier than others.</p>
+<p>Which got me thinking how bad is Comic Sans really?</p>
+<p>It obviously doesn&#8217;t leave people untouched, since they keep on using it when there are many choices even on most typefaces starved computers. I&#8217;ve also yet to meet a person who would hate it and was not interested in type.</p>
+<p>Popularity does not mean it is a good typeface (whatever that actually means) just as it doesn&#8217;t make Madonna a good singer. It does however speak to people unlike so many typefaces which leave most of us simply unmoved.</p>
+<p>Not to be contrarian, but I find it a completely reasonable choice for children party invitations. It may look ludicrous when used on warning signs, but then again every typeface gets misused for texts it wasn&#8217;t designed for.</p>
+<p>If it happens more often to Comic Sans, it&#8217;s probably more because it is less general, less bland than, say, <a class="zem_slink" title="Times Roman" rel="wikipedia" href="http://en.wikipedia.org/wiki/Times_Roman">Times Roman</a>.</p>
+<p>In the end I have to admit I don&#8217;t have a bigger point than simple admission I&#8217;m not affronted by it anymore. I can&#8217;t muster a will to protest or even feel annoyed. To me it has become a pop icon, something I wish to see less and in context better suited for it, but at the end harmless.</p>
+<div class="zemanta-pixie"><a class="zemanta-pixie-a" title="Enhanced by Zemanta" href="http://www.zemanta.com/"><img class="zemanta-pixie-img" src="http://img.zemanta.com/zemified_e.png?x-id=1b6b6aac-6518-42c7-9261-d3708c5b26f2" alt="Enhanced by Zemanta" /></a></div>
+			</div>
+
+			<footer class="post-metadata">
+				<ul>
+					<li>Published on <time datetime="2011-05-08T10:06:44+00:00">May 8, 2011</time></li>
+					<li><a href="http://markos.gaivo.net/blog/?p=660#comments" title="Comment on Typeface snobbism">Add your comment</a> </li>
+				</ul>
+			</footer>
+		</article>
+	
+		<article>
+			<h1 class="storytitle"><a href="http://markos.gaivo.net/blog/?p=639" rel="bookmark">Books I read in 2010</a></h1>
+
+			<div class="post-text">
+				<p>This is why you should never promise a delivery date. Days promised in my previous post stretched to few weeks because of unexpected work. ?Still, here it is, a list of books I read last year together with my thoughts on them. Since this is the second time I am doing this, I can say it is an annual event that you can, but won&#8217;t, look forward to.</p>
+<p>I was wrong thinking my plan was to read 30 books. I actually planned to read 25 and while I did this, it is obvious I haven&#8217;t actually met my goal. I expected a low count on account of thick books I planned to read and yet a cursory glance over my list shows that A LOT of them were very short (which mind you doesn&#8217;t mean short on value).</p>
+<p>Like last year I linked every book I liked and bolded those I heartily recommend. Alas bold is nowhere to be seen. Changing typeface of my blog robbed me of its bold font (for now). So do buy <em>The Suspicions of Mr. Whicher, The Crusades through Arab Eyes, The Absence of War, Too Loud a Solitude</em> and <em>The Pursuit of Glory</em>. Your soul will thank you for this.</p>
+<p>Last year&#8217;s disclaimer is also still valid. Most links point to Amazon and include my affiliate ID meaning if you buy them after following these links, I get few cents that might eventually lead to purchase of another book.</p>
+<ol>
+<li><a href="http://www.amazon.com/Coders-at-Work-Peter-Seibel/dp/1430219483">Coders At Work</a> by Peter Seibel. Fascinating look into titans of programming, but you probably have to be a programmer to enjoy reading it.</li>
+<li><strong><a href="http://www.amazon.com/gp/product/0802715354?ie=UTF8&amp;tag=devel-20&amp;linkCode=as2&amp;camp=1789&amp;creative=390957&amp;creativeASIN=0802715354">The Suspicions of Mr. Whicher</a> by Kate Summerscale</strong>. Amazing book. An intriguing never solved crime gets well researched to the point where it can present a plausible explanation of what happened. Also well written, so it&#8217;s hard to imagine being bored.</li>
+<li><a href="http://www.amazon.com/gp/product/0714838128?ie=UTF8&amp;tag=devel-20&amp;linkCode=as2&amp;camp=1789&amp;creative=390957&amp;creativeASIN=0714838128">A Smile in the Mind</a> by Beryl McAlhone, David Stuart. A compendium of different ways in which design can delight us. It&#8217;s a topic that can&#8217;t be distilled in a how-to, but it does come close.</li>
+<li>Fixed to Flexible: Four Simple Lessons about Cost, Price, Margin and The Options Available to The 21st Century Business by Todd Sattersten. An ebook I forgotten and hence can&#8217;t judge.</li>
+<li><a href="http://www.amazon.com/Rocket-Surgery-Made-Easy-Yourself/dp/0321657292">Rocket Surgery Made Easy: The Do-It-Yourself Guide to Finding and Fixing Usability Problems</a> by Steve Krug. His first book is legendary. Second probably won&#8217;t be, but it&#8217;s still a very good (and quick) read if you want to learn effective usability testing on cheap.</li>
+<li><a href="http://www.amazon.com/gp/product/0907259235?ie=UTF8&amp;tag=devel-20&amp;linkCode=as2&amp;camp=1789&amp;creative=390957&amp;creativeASIN=0907259235">Designing books: practice and theory</a> by Jost Hochuli, Robin Kinross. A book about book design from a long time practitioner. Great read for us who are into that sort of thing and don&#8217;t disdain swiss design, but it&#8217;s likely boring to everyone else.</li>
+<li><a href="http://www.amazon.com/gp/product/0321643380?ie=UTF8&amp;tag=devel-20&amp;linkCode=as2&amp;camp=1789&amp;creative=390957&amp;creativeASIN=0321643380">Handcrafted CSS: More Bulletproof Web Design</a> by Dan Cederholm. Dan shows how you can use CSS3 today to progressively improve pages. Not quite the same approach as Andy Clarke&#8217;s (missing because I read it this year), but they both persuasively teach you to do more today.</li>
+<li><strong><a href="http://www.amazon.com/gp/product/0805208984?ie=UTF8&amp;tag=devel-20&amp;linkCode=as2&amp;camp=1789&amp;creative=390957&amp;creativeASIN=0805208984">The Crusades through Arab Eyes</a> by Amin Maalouf</strong>. Title really says all. I started reading this one together with comprehensive tome from western PoV (which I plan to finish in 2011). I can recommend it even to those, who don&#8217;t have a particular interest in crusades.</li>
+<li><a href="http://www.amazon.com/gp/product/0596518579?ie=UTF8&amp;tag=devel-20&amp;linkCode=as2&amp;camp=1789&amp;creative=390957&amp;creativeASIN=0596518579">The Art of Capacity Planning: Scaling Web Resources</a> by John Allspaw. A great first step into domain of capacity planning. Get it even if you only suspect you might need this knowledge.</li>
+<li><a href="http://www.amazon.com/gp/product/0571197515?ie=UTF8&amp;tag=devel-20&amp;linkCode=as2&amp;camp=1789&amp;creative=390957&amp;creativeASIN=0571197515">Arcadia</a> by <a class="zem_slink" title="Tom Stoppard" rel="myspaceeverything" href="http://www.myspace.com/everything/tom-stoppard">Tom Stoppard</a>. This and next 4 plays were actually in one book and I&#8217;ve seen a few of them on stage. Loved every one of them, each of them being a delight for mind.</li>
+<li><a href="http://www.amazon.com/gp/product/0571197515?ie=UTF8&amp;tag=devel-20&amp;linkCode=as2&amp;camp=1789&amp;creative=390957&amp;creativeASIN=0571197515">The Right Thing</a> by Tom Stoppard</li>
+<li><a href="http://www.amazon.com/gp/product/0571197515?ie=UTF8&amp;tag=devel-20&amp;linkCode=as2&amp;camp=1789&amp;creative=390957&amp;creativeASIN=0571197515">Night &amp; Day</a> by Tom Stoppard</li>
+<li><a href="http://www.amazon.com/gp/product/0571197515?ie=UTF8&amp;tag=devel-20&amp;linkCode=as2&amp;camp=1789&amp;creative=390957&amp;creativeASIN=0571197515">Indian Ink</a> by Tom Stoppard</li>
+<li><a href="http://www.amazon.com/gp/product/0571197515?ie=UTF8&amp;tag=devel-20&amp;linkCode=as2&amp;camp=1789&amp;creative=390957&amp;creativeASIN=0571197515">Hapgood</a> by Tom Stoppard</li>
+<li><a href="http://www.amazon.com/gp/product/059680279X?ie=UTF8&amp;tag=devel-20&amp;linkCode=as2&amp;camp=1789&amp;creative=390957&amp;creativeASIN=059680279X">High Performance Javascript</a> by Nicholas C. Zakas. A book for every Javascript developer, especially those who think they know it all. If you learn nothing, then I salute you.</li>
+<li><a href="http://www.amazon.com/gp/product/1846942411?ie=UTF8&amp;tag=devel-20&amp;linkCode=as2&amp;camp=1789&amp;creative=390957&amp;creativeASIN=1846942411">One Dimensional Woman</a> by Nina Power. I liked it, but have forgotten more or less everything. I&#8217;m not sure if this tells me something.</li>
+<li><a href="http://ocw.mit.edu/courses/mathematics/18-098-street-fighting-mathematics-january-iap-2008/readings/sf_math.pdf">Street Fighting Mathematics</a> by Sanjoy Mahajan. More involved, but also more general approaches to getting fairly accurate estimates than in Mind Performance Hacks</li>
+<li>Kitchen by Banana Yoshimoto. Don&#8217;t know what to think of it, except that translation seems dubious.</li>
+<li><strong><a href="http://www.amazon.com/gp/product/0571170714?ie=UTF8&amp;tag=devel-20&amp;linkCode=as2&amp;camp=1789&amp;creative=390957&amp;creativeASIN=0571170714">The Absence of War</a> by David Hare</strong>. Great political drama that is still relevant.</li>
+<li><a href="http://www.amazon.com/gp/product/1594483299?ie=UTF8&amp;tag=devel-20&amp;linkCode=as2&amp;camp=1789&amp;creative=390957&amp;creativeASIN=1594483299">The Brief Wondrous Life of Oscar Wao</a> by Junot Diaz. Liked it a lot, but still having a feeling that I missed a lot by not understanding untranslated Spanish parts.</li>
+<li><a href="http://www.amazon.com/gp/product/0061433047?ie=UTF8&amp;tag=devel-20&amp;linkCode=as2&amp;camp=1789&amp;creative=390957&amp;creativeASIN=0061433047">I Shall Wear Midnight</a> by Terry Pratchett. Liked it, but I might have liked it more (or less) if I wasn&#8217;t a fan who read almost everything written by Terry.</li>
+<li><strong><a href="http://www.amazon.com/gp/product/0156904586?ie=UTF8&amp;tag=devel-20&amp;linkCode=as2&amp;camp=1789&amp;creative=390957&amp;creativeASIN=0156904586">Too Loud a Solitude</a> by Bohumil Hrabal</strong>. Everything reviewers said: short, eccentric, playful and&#8230;a must read.</li>
+<li><a href="http://www.amazon.com/gp/product/0307387356?ie=UTF8&amp;tag=devel-20&amp;linkCode=as2&amp;camp=1789&amp;creative=390957&amp;creativeASIN=0307387356">Master of Shadows: The Secret Diplomatic Career of the Painter Peter Paul Rubens</a> by Mark Lamster. Insightful and often surprising even for us who knew about his second career.</li>
+<li><strong><a href="http://www.amazon.com/gp/product/B001LF4APO?ie=UTF8&amp;tag=devel-20&amp;linkCode=as2&amp;camp=1789&amp;creative=390957&amp;creativeASIN=B001LF4APO">The Pursuit of Glory</a> by Tim Blanning</strong>. Could be the best history book I&#8217;ve ever read and its lingering effect on me might make it also one of most?influential.</li>
+<li><a href="http://www.amazon.com/gp/product/1883513006?ie=UTF8&amp;tag=devel-20&amp;linkCode=as2&amp;camp=1789&amp;creative=390957&amp;creativeASIN=1883513006">Costa Rica: A Traveler&#8217;s Literary Companion</a> edited by Barbara Ras. I planned to read this while we travelled around Costa Rica, but failed. I read most of it during our last days on the trip and on our way home. Uneven, with some stories quite good while others resulting in &#8220;huh?&#8221;, but you do see country differently and I would recommend it to all who plan to travel there.</li>
+</ol>
+<p>I also discovered <a href="http://www.granta.com/">Granta</a>, a really great literary magazine through which you can discover new authors or simply authors you don&#8217;t know yet.</p>
+<p>At the end I would like to mention a book I read this year, so it&#8217;s not on the list, but which I find too important to ignore for a year. It&#8217;s <a href="http://www.amazon.com/gp/product/0316069884?ie=UTF8&amp;tag=devel-20&amp;linkCode=as2&amp;camp=1789&amp;creative=390957&amp;creativeASIN=0316069884">Eating Animals</a> by Jonathan Safran Foer. If you care what you eat and especially if that involves meat, you ought to read it. It&#8217;s well researched and even better written book that will inform you what &#8220;western&#8221; meat production means these days. I don&#8217;t think I can recommend it enough.</p>
+<h6 class="zemanta-related-title">Related articles</h6>
+<ul class="zemanta-article-ul">
+<li class="zemanta-article-ul-li"><a href="http://markos.gaivo.net/blog/?p=540">Books I read in 2009</a> (markos.gaivo.net)</li>
+</ul>
+<div class="zemanta-pixie"><a class="zemanta-pixie-a" title="Enhanced by Zemanta" href="http://www.zemanta.com/"><img class="zemanta-pixie-img" src="http://img.zemanta.com/zemified_e.png?x-id=e138a118-5a43-45ee-b7b3-eac67ee0d584" alt="Enhanced by Zemanta" /></a></div>
+			</div>
+
+			<footer class="post-metadata">
+				<ul>
+					<li>Published on <time datetime="2011-01-23T18:45:17+00:00">January 23, 2011</time></li>
+					<li><a href="http://markos.gaivo.net/blog/?p=639#comments" title="Comment on Books I read in 2010">Add your comment</a> </li>
+				</ul>
+			</footer>
+		</article>
+		
+		<nav class="pagination">
+			<ul>
+				<li><a href="http://markos.gaivo.net/blog/?cat=3&#038;paged=7" >&laquo; Newer articles</a></li>
+				<li><a href="http://markos.gaivo.net/blog/?cat=3&#038;paged=9" >Older articles &raquo;</a></li>
+			</ul>
+		</nav>
+	</section>
+
+
+	<footer>
+		<ul>
+			<li>&copy; 2005-2015 Marko Samastur</li>
+			
+			<li><a href="http://markos.gaivo.net/blog/?feed=rss2">Entries feed</a></li>
+			<li><a href="http://markos.gaivo.net/blog/?feed=comments-rss2">Comments feed</a></li>
+		</ul>
+		<a href="/"><img src="/img/markos_light_small_bg.png" alt="logo" class="mini-logo" /></a>
+	</footer>
+	<script src="/js/jquery.js"></script>
+	<script src="/js/all.js"></script>
+	<!--script src="/mint/?js" type="text/javascript"></script-->
+
+	<!-- Google analytics -->
+	<script type="text/javascript">
+
+	  var _gaq = _gaq || [];
+	  _gaq.push(['_setAccount', 'UA-152438-1']);
+	  _gaq.push(['_trackPageview']);
+	</script>
+	<script src="/js/cookie.js"></script>
+</body>
+</html>

@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+		>
+<channel>
+	<title>Comments on: Reusability of css based designs &#8211; a myth?</title>
+	<atom:link href="http://markos.gaivo.net/blog/?feed=rss2&#038;p=136" rel="self" type="application/rss+xml" />
+	<link>http://markos.gaivo.net/blog/?p=136</link>
+	<description></description>
+	<lastBuildDate>Wed, 16 Jul 2014 16:04:38 +0000</lastBuildDate>
+	<sy:updatePeriod>hourly</sy:updatePeriod>
+	<sy:updateFrequency>1</sy:updateFrequency>
+	<generator>http://wordpress.org/?v=3.0.5</generator>
+	<item>
+		<title>By: outbreak &#187; Changing the way we change websites&#8230; (written on May 5th, 2006 by Marko Mrdjenovic)</title>
+		<link>http://markos.gaivo.net/blog/?p=136&#038;cpage=1#comment-1503</link>
+		<dc:creator>outbreak &#187; Changing the way we change websites&#8230; (written on May 5th, 2006 by Marko Mrdjenovic)</dc:creator>
+		<pubDate>Fri, 05 May 2006 09:43:56 +0000</pubDate>
+		<guid isPermaLink="false">http://markos.gaivo.net/blog/?p=136#comment-1503</guid>
+		<description>[...] ipt, html, css, redesign by ego on May 5th, 2006  									  A while ago Marko wrote about reusability of css based designs. I didn&#8217;t agree with him fully but had no idea how to explain/prove it [...]</description>
+		<content:encoded><![CDATA[<p>[...] ipt, html, css, redesign by ego on May 5th, 2006  									  A while ago Marko wrote about reusability of css based designs. I didn&#8217;t agree with him fully but had no idea how to explain/prove it [...]</p>
+]]></content:encoded>
+	</item>
+	<item>
+		<title>By: markos</title>
+		<link>http://markos.gaivo.net/blog/?p=136&#038;cpage=1#comment-1023</link>
+		<dc:creator>markos</dc:creator>
+		<pubDate>Wed, 15 Mar 2006 10:38:59 +0000</pubDate>
+		<guid isPermaLink="false">http://markos.gaivo.net/blog/?p=136#comment-1023</guid>
+		<description>Fair enough. And do you actually do that or do you derive templates directly from design?</description>
+		<content:encoded><![CDATA[<p>Fair enough. And do you actually do that or do you derive templates directly from design?</p>
+]]></content:encoded>
+	</item>
+	<item>
+		<title>By: fry</title>
+		<link>http://markos.gaivo.net/blog/?p=136&#038;cpage=1#comment-1022</link>
+		<dc:creator>fry</dc:creator>
+		<pubDate>Wed, 15 Mar 2006 10:15:41 +0000</pubDate>
+		<guid isPermaLink="false">http://markos.gaivo.net/blog/?p=136#comment-1022</guid>
+		<description>i think the point is not to reuse the whole shebang, but to resuse 80% of the pregenerated xhtml. if the assets stay the same usually all you have to do is throw some things around and you&#039;re ok..</description>
+		<content:encoded><![CDATA[<p>i think the point is not to reuse the whole shebang, but to resuse 80% of the pregenerated xhtml. if the assets stay the same usually all you have to do is throw some things around and you&#8217;re ok..</p>
+]]></content:encoded>
+	</item>
+</channel>
+</rss>

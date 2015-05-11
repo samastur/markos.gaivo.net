@@ -1,0 +1,20 @@
+<!DOCTYPE HTML>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Break check if function is native</title>
+</head>
+<body>
+	<script>
+(function () {
+	var toS = Function.prototype.toString,
+		pM_str = window.postMessage.toString();
+
+	Function.prototype.toString = function () {
+		return this === window.postMessage ? pM_str : toS.call(this);
+	}
+	window.postMessage = function () { console.log('Fake'); };
+})();
+	</script>
+</body>
+</html>

@@ -1,0 +1,308 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>A notch above a monkey &#187; Python</title>
+	<atom:link href="http://markos.gaivo.net/blog/?feed=rss2&#038;cat=2" rel="self" type="application/rss+xml" />
+	<link>http://markos.gaivo.net/blog</link>
+	<description></description>
+	<lastBuildDate>Mon, 26 Jan 2015 07:00:03 +0000</lastBuildDate>
+	<language>en</language>
+	<sy:updatePeriod>hourly</sy:updatePeriod>
+	<sy:updateFrequency>1</sy:updateFrequency>
+	<generator>http://wordpress.org/?v=3.0.5</generator>
+		<item>
+		<title>DjangoCon Europe 2014?</title>
+		<link>http://markos.gaivo.net/blog/?p=1161</link>
+		<comments>http://markos.gaivo.net/blog/?p=1161#comments</comments>
+		<pubDate>Sun, 22 Dec 2013 17:29:50 +0000</pubDate>
+		<dc:creator>markos</dc:creator>
+				<category><![CDATA[Django]]></category>
+		<category><![CDATA[Python]]></category>
+		<category><![CDATA[conference]]></category>
+		<category><![CDATA[DjangoCon]]></category>
+
+		<guid isPermaLink="false">http://markos.gaivo.net/blog/?p=1161</guid>
+		<description><![CDATA[Update 2: Tickets are now on sale and it is safe to say that I am not going. The opening price (which will go up after 50 sold tickets) is already too high for me and it is exactly what I was originally afraid of. Update: I am sorry, I overreacted. As http://2014.djangocon.eu//news/ makes clear [...]]]></description>
+			<content:encoded><![CDATA[<p><strong>Update 2:</strong> Tickets are now <a href="http://www.weezevent.com/djangocon-europe">on sale</a> and it is safe to say that I am not going. The opening price (which will go up after 50 sold tickets) is already too high for me and it is exactly what I was originally afraid of.</p>
+<p><strong>Update</strong>: I am sorry, I overreacted. As http://2014.djangocon.eu//news/ makes clear tickets will cover everything except getting there and I have full confidence they will be reasonably priced. Listed transport options for those from my neighborhood are still valid (unless somebody has better data which would be great).</p>
+<p>I did not go to DjangoCon Europe in Warsaw this year, but I was certain I would go to the next one. Not anymore.</p>
+<p>There is no good way of contacting organizers<sup><a id="djangocon2014-1" href="#djangocon2014-note-1">[1]</a></sup> and not much travel information either on <a href="http://2014.djangocon.eu/">the DjangoCon&#8217;s website</a> or elsewhere. Most of what there is is in French which I don&#8217;t speak so my worries are hopefully unfounded, but what I found so far looks grim.</p>
+<p>First transport. It is not organizer&#8217;s fault I live where I do (Ljubljana, Slovenia), but my options are plane (500+€; travel time 6 and 17 hours), train (EUR ??; travel time 14-24h in each direction) or car which would take about 9 hours in one direction and cost around 600€ total per car (180 for tolls, ~400 for fuel with hopefully free parking there).</p>
+<p>It is really difficult to get a good idea of how much do hotels on the island cost, but judging by tripadvisor they are not cheap and in general cost 100+€ per day. Staying on the mainland can be done cheap<strong>er</strong>, but I think ferry costs at least 13€ per day so total cost will likely not be very low and you will not be around for any late events.</p>
+<p>No idea yet about how easy it is to find suitable food if you are a vegetarian or a vegan or how much does it cost. I assume it can be worked out.</p>
+<p>In total this looks significantly more than it did to attend EuroPython in Florence and that was FLORENCE!</p>
+<p>I dislike criticizing efforts of others, especially when I know that involves a lot of volunteering and when I am not privy to inside knowledge and dilemmas. However as a regular conference goer it does look to me that there has been a shift happening from egalitarian accessibility of making community conferences cheap and easy enough for anyone to attend to a more stratified approach where money (or time) poor will have to do with video recordings/broadcasts while the rest will get ever flashier experience.</p>
+<p>There is obviously a lot of value in meeting face to face (otherwise most of us would probably prefer to save the expense of it) which is why I would find this kind of development sad if it happened to major community gatherings like DjangoCon Europe. So I am hoping that it isn&#8217;t and it won&#8217;t.</p>
+<ol>
+<li id="djangocon2014-note-1">I know there&#8217;s a Twitter account. I don&#8217;t find it a good channel for the kind of communication I want, but that is a different discussion. <a href="#djangocon2014-1">↩</a></li>
+</ol>
+]]></content:encoded>
+			<wfw:commentRss>http://markos.gaivo.net/blog/?feed=rss2&#038;p=1161</wfw:commentRss>
+		<slash:comments>5</slash:comments>
+		</item>
+		<item>
+		<title>Exporting tagged articles from Google Reader</title>
+		<link>http://markos.gaivo.net/blog/?p=1097</link>
+		<comments>http://markos.gaivo.net/blog/?p=1097#comments</comments>
+		<pubDate>Sun, 24 Mar 2013 18:48:43 +0000</pubDate>
+		<dc:creator>markos</dc:creator>
+				<category><![CDATA[Python]]></category>
+		<category><![CDATA[backup]]></category>
+		<category><![CDATA[export]]></category>
+		<category><![CDATA[Google]]></category>
+		<category><![CDATA[openweb]]></category>
+		<category><![CDATA[reader]]></category>
+		<category><![CDATA[script]]></category>
+
+		<guid isPermaLink="false">http://markos.gaivo.net/blog/?p=1097</guid>
+		<description><![CDATA[Google Reader for me was never just a way to plow through a large number of feeds, but also a database of important articles that I lovingly annotated with tags and notes when they still existed. Apparently I was in minority, judging by Reader clients and more importantly its own exporting tools which lets you [...]]]></description>
+			<content:encoded><![CDATA[<p>Google Reader for me was never just a way to plow through a large number of feeds, but also a database of important articles that I lovingly annotated with tags and notes when they still existed. Apparently I was in minority, judging by Reader clients and more importantly its own exporting tools which lets you take away most of your stuff, but not tagged items themselves.</p>
+<p>Hence I wrote a quick and dirty Python script which allows you to do just that using <a href="https://pypi.python.org/pypi/libgreader">libgreader</a>. You can find <a href="https://github.com/samastur/GReader-hoover">it on Github</a> and it has few other features like exporting all feed articles. Who knows how long Feedburner will be around so next step will be resolving those links.</p>
+<p>My current backup amounts to almost 500MB so script is obviously useful to me. Hopefully it is also to others.  If you find bugs or data that is not exported, but should be, please do let me know.</p>
+<p>I am also looking for a good alternative that is <strong>not hosted only</strong> service, supports archiving and can process most feeds. Currently I am biased to modifying Newsblur to support tagging and running my own instance, but I would definitely prefer to avoid this work if possible.</p>
+]]></content:encoded>
+			<wfw:commentRss>http://markos.gaivo.net/blog/?feed=rss2&#038;p=1097</wfw:commentRss>
+		<slash:comments>21</slash:comments>
+		</item>
+		<item>
+		<title>Shrinking images with image-diet</title>
+		<link>http://markos.gaivo.net/blog/?p=1087</link>
+		<comments>http://markos.gaivo.net/blog/?p=1087#comments</comments>
+		<pubDate>Sun, 20 Jan 2013 22:53:16 +0000</pubDate>
+		<dc:creator>markos</dc:creator>
+				<category><![CDATA[Django]]></category>
+		<category><![CDATA[Python]]></category>
+		<category><![CDATA[Web]]></category>
+		<category><![CDATA[images]]></category>
+		<category><![CDATA[low-bandwidth]]></category>
+		<category><![CDATA[page size]]></category>
+		<category><![CDATA[shrink]]></category>
+		<category><![CDATA[speed]]></category>
+
+		<guid isPermaLink="false">http://markos.gaivo.net/blog/?p=1087</guid>
+		<description><![CDATA[I like easy-thumbnails and use it often in my Django projects, but I wished for a long time that its PIL generated thumbnails would be smaller. That&#8217;s why I wrote image-diet, a drop-in extension for those easy-thumbnails users who use file system for storing images. Images remain visually the same, but can be significantly smaller [...]]]></description>
+			<content:encoded><![CDATA[<p>I like <a href="https://github.com/SmileyChris/easy-thumbnails">easy-thumbnails</a> and use it often in my Django projects, but I wished for a long time that its <a href="http://www.pythonware.com/products/pil/">PIL</a> generated thumbnails would be smaller. That&#8217;s why I wrote <a href="https://github.com/samastur/image-diet">image-diet</a>, a drop-in extension for those easy-thumbnails users who use file system for storing images. Images remain visually the same, but can be significantly smaller (mine by more than 50% but your mileage my vary).</p>
+<p>This matters because images are together with Javascript main cause for ever larger page sizes which leads to slower websites, especially in low-bandwidth environments. But really, don&#8217;t we all want our websites to be as fast as possible?</p>
+<p><a href="https://github.com/samastur/image-diet">image-diet</a> was inspired by <a href="http://imageoptim.com/">ImageOptim</a> and <a href="https://github.com/Kilian/Trimage">Trimage</a> and I&#8217;m grateful to authors of both. It uses jpegtran, Jpegoptim, Gifsicle, OptiPNG, AdvanceCOM PNG and Pngcrush to do the heavy work of squeezing redundant bytes. Getting them should be easy as they are part of Ubuntu distribution and can be installed on Mac with brew. For more information please check documentation or ask.</p>
+<p>I would love to hear any comments and ideas you may have, even more so if you try it.</p>
+]]></content:encoded>
+			<wfw:commentRss>http://markos.gaivo.net/blog/?feed=rss2&#038;p=1087</wfw:commentRss>
+		<slash:comments>2</slash:comments>
+		</item>
+		<item>
+		<title>Impostor for Django</title>
+		<link>http://markos.gaivo.net/blog/?p=649</link>
+		<comments>http://markos.gaivo.net/blog/?p=649#comments</comments>
+		<pubDate>Tue, 22 Feb 2011 19:11:32 +0000</pubDate>
+		<dc:creator>markos</dc:creator>
+				<category><![CDATA[Django]]></category>
+		<category><![CDATA[Python]]></category>
+		<category><![CDATA[Web]]></category>
+		<category><![CDATA[Impostor]]></category>
+		<category><![CDATA[Password]]></category>
+		<category><![CDATA[Security]]></category>
+
+		<guid isPermaLink="false">http://markos.gaivo.net/blog/?p=649</guid>
+		<description><![CDATA[A class of bugs I really dislike debugging are those that depend on specific data and affect only a very small subset or just one user. Things could sometimes be fixed so much faster if you could just log in as him to see what is happening. Sometimes this is exactly what we do with [...]]]></description>
+			<content:encoded><![CDATA[<p>A class of bugs I really dislike debugging are those that depend on specific data and affect only a very small subset or just one user. Things could sometimes be fixed so much faster if you could just log in as him to see what is happening. Sometimes this is exactly what we do <strong>with his explicit permission</strong>, but I really dislike asking for passwords.</p>
+<p>First it inconveniences user. He has to come up with either a new good password or go through two password changes. Second it implicitly teaches wrong behavior. Passwords simply should never be revealed.</p>
+<p>That is why I wrote <a title="Impostor's home at GitHub" href="https://github.com/samastur/Impostor">Impostor</a>, a Django app that allows staff members (and only them) to login with their own credentials as a different user. Idea is not mine (kudos goes to <a title="Ned's post where idea comes from" href="http://nedbatchelder.com/blog/201008/django_superuser_login_trapdoor.html">Ned Batchelder</a>), but I like it. To discourage abuse every such authentication is recorded and can be seen in Django admin interface, but can not be altered from there.</p>
+<p>So how does it work in practice?</p>
+<p>Lets say that I would need to log in as user <em>fry</em>. To do this I would enter as my username <em>markos as fry,</em> provide my password and voila, I&#8217;m him. This has been recorded so anyone with access to ImpostorLog part in admin can see all such cases, mine included.</p>
+<p>Impostor may also ease your development by removing need to remember different passwords for testing. This is usually not a problem unless you happen to develop with fake data but real accounts. Like me.</p>
+<p>And again for morally challenged out there: <strong>you should never login as somebody else without his explicit permission</strong>.</p>
+<p><strong>Update</strong>: Thanks Ross for reminding me where idea came from. I updated text accordingly.</p>
+<div class="zemanta-pixie"><a class="zemanta-pixie-a" title="Enhanced by Zemanta" href="http://www.zemanta.com/"><img class="zemanta-pixie-img" src="http://img.zemanta.com/zemified_e.png?x-id=db7c9f53-423e-4b56-bbe3-b717fde54c16" alt="Enhanced by Zemanta" /></a></div>
+]]></content:encoded>
+			<wfw:commentRss>http://markos.gaivo.net/blog/?feed=rss2&#038;p=649</wfw:commentRss>
+		<slash:comments>3</slash:comments>
+		</item>
+		<item>
+		<title>EuroPython submission deadline is around the corner</title>
+		<link>http://markos.gaivo.net/blog/?p=596</link>
+		<comments>http://markos.gaivo.net/blog/?p=596#comments</comments>
+		<pubDate>Mon, 26 Apr 2010 19:28:41 +0000</pubDate>
+		<dc:creator>markos</dc:creator>
+				<category><![CDATA[Python]]></category>
+		<category><![CDATA[conference]]></category>
+		<category><![CDATA[promotion]]></category>
+
+		<guid isPermaLink="false">http://markos.gaivo.net/blog/?p=596</guid>
+		<description><![CDATA[April is about to end and with it also the deadline to submit your EuroPython talk. I thought about submitting a proposal, but realized it would be nuts to do so with my current workload. It would also be nuts not to go and if you are a European (or not) Python developer you owe [...]]]></description>
+			<content:encoded><![CDATA[<p>April is about to end and with it also the deadline to <a href="http://www.europython.eu/talks/cfp/">submit your EuroPython talk</a>. I thought about submitting a proposal, but realized it would be nuts to do so with my current workload.</p>
+<p>It would also be nuts not to go and if you are a European (or not) Python developer you owe it to yourself to come.</p>
+<p>I go to a few conferences every year and each has its own personality. It is sometimes hard to point at what makes them (feel) different, but they just are. I like many, but only EuroPython, which I regretfully had to miss last year, feels like home.</p>
+<p>That&#8217;s why I decided to volunteer this year. It&#8217;s a way to give a little bit back, like cleaning dishes when you visit mom.</p>
+<p>So do submit your talk and come. It won&#8217;t be the same without you.</p>
+<div class="zemanta-pixie"><a class="zemanta-pixie-a" title="Reblog this post [with Zemanta]" href="http://reblog.zemanta.com/zemified/3f88ab5e-3d0f-410e-957f-6828cee4d640/"><img class="zemanta-pixie-img" src="http://img.zemanta.com/reblog_e.png?x-id=3f88ab5e-3d0f-410e-957f-6828cee4d640" alt="Reblog this post [with Zemanta]" /></a></div>
+]]></content:encoded>
+			<wfw:commentRss>http://markos.gaivo.net/blog/?feed=rss2&#038;p=596</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+		<item>
+		<title>N900 applications I miss</title>
+		<link>http://markos.gaivo.net/blog/?p=579</link>
+		<comments>http://markos.gaivo.net/blog/?p=579#comments</comments>
+		<pubDate>Tue, 09 Mar 2010 12:24:23 +0000</pubDate>
+		<dc:creator>markos</dc:creator>
+				<category><![CDATA[Catchall]]></category>
+		<category><![CDATA[General development]]></category>
+		<category><![CDATA[Python]]></category>
+		<category><![CDATA[Web]]></category>
+		<category><![CDATA[application]]></category>
+		<category><![CDATA[Maemo]]></category>
+		<category><![CDATA[N900]]></category>
+		<category><![CDATA[Nokia]]></category>
+		<category><![CDATA[Nokia N900]]></category>
+		<category><![CDATA[webplatform]]></category>
+		<category><![CDATA[Wikipedia]]></category>
+
+		<guid isPermaLink="false">http://markos.gaivo.net/blog/?p=579</guid>
+		<description><![CDATA[I love using N900, but there are applications or features I miss. This post is a reminder to me on what I might do if I find more time. Since list is too long for me to do everything (unless I suddenly win lottery), feel free to pick an idea you like and run with [...]]]></description>
+			<content:encoded><![CDATA[<p>I love using <a class="zem_slink" title="N900" rel="homepage" href="http://maemo.nokia.com/n900/">N900</a>, but there are applications or features I miss. This post is a reminder to me on what I might do if I find more time. Since list is too long for me to do everything (unless I suddenly win lottery), feel free to pick an idea you like and run with it. Just let me know afterwards where I can see results of your work or participate in development.</p>
+<p><strong>Offline Wikipedia.</strong> When I am not behind a computer or reading, I like to be outdoors and even though cheap always available Internet was supposed to be here any day now, I regularly find myself information hungry in places with a very slow or no Internet connection. N900 with SD card could pretty much store everything I wanted and building an app that process and display information from <a title="Wikipedia dumps starting page" href="http://download.wikimedia.org/">Wikipedia dumps</a> doesn&#8217;t look like a too difficult task.</p>
+<p><strong>Better dictionary for Maemo. </strong>QStarDict port<strong> </strong> is great and it has become one of my favorite applications. However its user interface suffers from being a direct port of a desktop version one and could be improved with one that wastes less space and is orientation aware. Reading dictionary is one of few things I wish I could do in portrait mode.</p>
+<p><strong>Web platform for Maemo.</strong> Wouldn&#8217;t it be great if you could build Maemo applications with web technologies? <a title="Link to QtWebKit documentation" href="http://qt.nokia.com/doc/4.6/qtwebkit.html">QtWebKit</a> is a great place to start and I am certain I could expose new functionality through <em>addToJavascriptWindowObject</em> of <a title="Link to QWebFrame documentation" href="http://qt.nokia.com/doc/4.6/qwebframe.html">QWebFrame</a> class. Beside exposing this stuff I would also like to create tools and interfaces for developers and users alike with which they can easily package a web application as a standalone Maemo application or in case of users, turn a website into an application (I know you can add a bookmark to a website but it is not quite the same thing).</p>
+<p><strong><a title="Caffeine for Mac" href="http://lightheadsw.com/caffeine/">Caffeine</a> for N900.</strong> I would like to pick <em>&#8220;Switch profile to silent for &lt;x time&gt;&#8221;</em> and know N900 will turn back normal profile when that time period expires. I always forget to turn ringing back on after I leave cinema.</p>
+<p><strong>Monitor unknown calls.</strong> I don&#8217;t want to pollute my address book with every phone number under the sun, but I would appreciate if I could get a hint if I ever talked or called the number in question. Bonus points for using public phone books to fetch name for given number and parsing number for clues (which country or part of it is call coming from).</p>
+<p>This is not a complete list of things I want, but rest are mostly feature requests (except email client which currently really kind of sucks). For example I wish calendar had support for <a class="zem_slink" title="CalDAV" rel="wikipedia" href="http://en.wikipedia.org/wiki/CalDAV">CalDAV</a> or PDF viewer for screen rotate, search and fit to width.</p>
+<p>I am aware that Maemo should be called MeeGo now, but a habit of years can&#8217;t be changed in few weeks. I searched for above applications and didn&#8217;t find them, but if you know of any I missed, then please let me know.</p>
+<div class="zemanta-pixie"><a class="zemanta-pixie-a" title="Reblog this post [with Zemanta]" href="http://reblog.zemanta.com/zemified/8a3f246d-6a49-416b-b38b-3c79f3c30764/"><img class="zemanta-pixie-img" src="http://img.zemanta.com/reblog_e.png?x-id=8a3f246d-6a49-416b-b38b-3c79f3c30764" alt="Reblog this post [with Zemanta]" /></a></div>
+]]></content:encoded>
+			<wfw:commentRss>http://markos.gaivo.net/blog/?feed=rss2&#038;p=579</wfw:commentRss>
+		<slash:comments>4</slash:comments>
+		</item>
+		<item>
+		<title>A month with Nokia N900</title>
+		<link>http://markos.gaivo.net/blog/?p=563</link>
+		<comments>http://markos.gaivo.net/blog/?p=563#comments</comments>
+		<pubDate>Fri, 05 Feb 2010 09:36:33 +0000</pubDate>
+		<dc:creator>markos</dc:creator>
+				<category><![CDATA[Catchall]]></category>
+		<category><![CDATA[General development]]></category>
+		<category><![CDATA[Linux]]></category>
+		<category><![CDATA[Python]]></category>
+		<category><![CDATA[Web]]></category>
+		<category><![CDATA[GSM]]></category>
+		<category><![CDATA[IPod Touch]]></category>
+		<category><![CDATA[Nokia]]></category>
+		<category><![CDATA[Nokia N900]]></category>
+
+		<guid isPermaLink="false">http://markos.gaivo.net/blog/?p=563</guid>
+		<description><![CDATA[Title says it. A month is enough time to get a better understanding of the device and to get asked repeatedly about my impressions. Many have wrote theirs, so I doubt I will be telling anything really new. Before I go on, a short disclaimer, since my writings on this blog stay around longer than [...]]]></description>
+			<content:encoded><![CDATA[<p>Title says it. A month is enough time to get a better understanding of the device and to get asked repeatedly about my impressions. Many have wrote theirs, so I doubt I will be telling anything really new. Before I go on, a short disclaimer, since my writings on this blog stay around longer than might be sensible.</p>
+<p>I wrote this post at the start of February 2010. I believe everything I write about technology to be hopelessly out of date after 6 months, but I expect this article will be obsolete even sooner. So by the time you got around reading this, most of my gripes might not even be true anymore.</p>
+<p><a class="zem_slink" title="Nokia N900" rel="wikipedia" href="http://en.wikipedia.org/wiki/Nokia_N900">Nokia N900</a> is an uncut diamond. A wonderful thing made by talented designers that has quite a few rough edges, not all of them in device. I wouldn&#8217;t recommend it to most people, but to some of you it might become your favorite computer. It goes with me almost anywhere.</p>
+<p>If you want a rock solid phone, then this device is not for you. I was unlucky to be in minority of people who experienced constant reboots. By constant I mean few times every hour.? My <a class="zem_slink" title="Nokia" rel="homepage" href="http://nokia.com">Nokia</a> also lacked a 2GB partition, which meant I was constantly running out of space in which to install applications. Both of this problems have since been fixed. I still have a problem with <a class="zem_slink" title="GSM" rel="wikipedia" href="http://en.wikipedia.org/wiki/GSM">GSM</a> connection occasionally completely dying, which I can fix only by manual reboot. I&#8217;m personally not bothered since I don&#8217;t use it as phone.</p>
+<p>On the other hand updates to software are regular, with one major firmware update already, that fixed some of my problems (reboot). Annoyances of today might literally be gone by tomorrow and thus my disclaimer.</p>
+<p>I know how much effort goes in good software and don&#8217;t want to be too negative, but email really does suck for IMAP users. Not only doesn&#8217;t it cache headers, so if you have a slow connection and a big Inbox, get used to waiting. You also can&#8217;t set sent mail, drafts or trash folders which makes it useless to me for anything but reading email. Even worse, it creates its own folders (like <a class="zem_slink" title="IPod Touch" rel="wikipedia" href="http://en.wikipedia.org/wiki/IPod_Touch">iPod touch</a>) to make a mess in your account. I am all for simplicity and avoiding needless configuration options, but it could at least get a list of folders and compare Levenshtein&#8217;s distance to common names (Sent, Sent mail&#8230;).</p>
+<p>Gecko (Mozilla) based browser though is great, in my opinion much better than iPod&#8217;s and I completely switched my mobile browsing to N900. I am biased since unlike many I never was fond of constant zooming in and out (with pinching). My opinion might have been different if my eye-sight was poorer and I needed to zoom more.</p>
+<p>If you are a Linux user or appreciate freedom, then it&#8217;s difficult to find a better mobile device. N900 is a Linux machine which happens to also be a phone and you have complete access to everything. There is a store (Ovi) and app manager, but you can install and run anything willing to run without permission from anybody. Terminal is loaded by default together with tools needed to prod into the system and root is one package installation away.</p>
+<p>I dislike fixed space of iPod. N900 is only slightly better. You can expand it with SD cards, but you have to open battery cover. It looks so fragile that I don&#8217;t intend to actually do this unless absolutely necessary. Speaking of storage, as a programmer I can understand why applications can use only 2GB of it, but as user it simply looks daft.</p>
+<p>Pair of contact and conversations applications is absolutely brilliant. Instant messaging, Skype and SMS are superbly integrated and they also feed contact application with information about your buddies found on those networks.? Install Hermes and you can update it with data from Twitter and Facebook.</p>
+<p>Screen has higher resolution than iPod&#8217;s, but physically same (small) size, which means I&#8217;ll keep reading PDFs on my 770. Since it&#8217;s resistive instead of capacitive, it needs more pressure than iPod&#8217;s, but works better at -12 degrees centigrade (<a title="French Alps - photo taken by N900" href="http://www.flickr.com/photos/markos/4268784785/">this picture</a> was taken with my gloves on).</p>
+<p>Maemo has a very active and generally supportive community, but some members can also be <a href="https://bugs.maemo.org/show_bug.cgi?id=6334#c19">needlessly unfriendly</a>. Just because you know where everything is and have seen certain faux pas 100 times before, it doesn&#8217;t mean either is true for a new N900 owner with a problem.</p>
+<p>N900 RUNS PYTHON, which was my main reason for preferring it over an <a class="zem_slink" title="Android" rel="homepage" href="http://code.google.com/android/">Android</a> phone. Documentation is a bit all over the place, not always current and I still haven&#8217;t found information about how to control built in cameras, but I am an optimist that this will be sorted out soon and that documentation will improve as well.</p>
+<p>I compared N900 with diamond, but maybe a better comparison would be a sports car. If you want a polished, sedated experience then N900 is certainly not for you (yet). But if you are a tinkerer who doesn&#8217;t mind rough edges in exchange for freedom to make it do almost anything, then you should give it a spin.</p>
+<p>There is so much more that could be said, but big picture wouldn&#8217;t change much. I haven&#8217;t talked much about UI since I simply couldn&#8217;t do it justice in few sentences. On the whole it works fine and multitasking is really great even though I think iPhone/iPad&#8217;s switch-to-where-you-were model is in my experience rarely a problem and wouldn&#8217;t be surprised if it was here to stay.</p>
+<p>If there is anything about it you would like to know, then please ask and I&#8217;ll try to respond to it promptly.</p>
+<div class="zemanta-pixie"><a class="zemanta-pixie-a" title="Reblog this post [with Zemanta]" href="http://reblog.zemanta.com/zemified/975ad83f-5fe4-4116-9522-d28c345d36b9/"><img class="zemanta-pixie-img" src="http://img.zemanta.com/reblog_e.png?x-id=975ad83f-5fe4-4116-9522-d28c345d36b9" alt="Reblog this post [with Zemanta]" /></a><span class="zem-script paragraph-reblog"><script src="http://static.zemanta.com/readside/loader.js" type="text/javascript"></script></span></div>
+]]></content:encoded>
+			<wfw:commentRss>http://markos.gaivo.net/blog/?feed=rss2&#038;p=563</wfw:commentRss>
+		<slash:comments>9</slash:comments>
+		</item>
+		<item>
+		<title>Leaving App Engine &#8211; for now</title>
+		<link>http://markos.gaivo.net/blog/?p=287</link>
+		<comments>http://markos.gaivo.net/blog/?p=287#comments</comments>
+		<pubDate>Sat, 30 Aug 2008 19:50:59 +0000</pubDate>
+		<dc:creator>markos</dc:creator>
+				<category><![CDATA[Python]]></category>
+		<category><![CDATA[Web]]></category>
+		<category><![CDATA[App Engine]]></category>
+		<category><![CDATA[Django]]></category>
+		<category><![CDATA[Google]]></category>
+		<category><![CDATA[Google App Engine]]></category>
+
+		<guid isPermaLink="false">http://markos.gaivo.net/blog/?p=287</guid>
+		<description><![CDATA[Jonathan wrote his thoughts about App Engine. They are well worth a read if you are thinking about using it, but haven&#8217;t so far. I used App Engine sporadically for a couple of months on a project of mine, but I finally gave up and ended porting my code to pure Django, which admittedly wasn&#8217;t [...]]]></description>
+			<content:encoded><![CDATA[<p>Jonathan <a href="http://spyced.blogspot.com/2008/08/app-engine-conclusions.html#">wrote</a> his thoughts about <a class="zem_slink" title="Google App Engine" rel="homepage" href="http://appengine.google.com">App Engine</a>. They are well worth a read if you are thinking about using it, but haven&#8217;t so far. I used App Engine sporadically for a couple of months on a project of mine, but I finally gave up and ended porting my code to pure <a class="zem_slink" title="Django (web framework)" rel="homepage" href="http://www.djangoproject.com">Django</a>, which admittedly wasn&#8217;t too hard to do at this point in time.</p>
+<p>Some of my reasons match Jonathan&#8217;s. There were too many rough edges to feel really productive and too much time was wasted on trying to find out if problem lies in poor documentation, incomplete implementation or stupid programmer. I probably will never get answers to questions like how can a simple Django view that doesn&#8217;t do anything beside rendering a static template, consume above expected amount of CPU and risk triggering quota blockage, but right now I really don&#8217;t care anymore.</p>
+<p>Integrating <a class="zem_slink" title="Google" rel="crunchbase" href="http://www.crunchbase.com/company/google">Google</a> accounts is indeed easy, but it is also very shallow to the point of being practically useless.  You basically can only rely on fact that reference to a particular user won&#8217;t change. Anything else you may think you know (like an email address), can&#8217;t be relied upon. You can&#8217;t create an account and you can&#8217;t even control login form of your service. In essence you don&#8217;t have your own users, you can just offer a service to Google&#8217;s.</p>
+<p>For me this was one of two major reasons for my decision. Every person who would need an account to use what I am building would need to agree to Google&#8217;s <a class="zem_slink" title="Terms of service" rel="wikipedia" href="http://en.wikipedia.org/wiki/Terms_of_service">TOS</a> agreement which defines many things, among others the highest level of privacy I can offer.</p>
+<p>The other reason was that current limitations of App Engine really lead you to rely heavily on provided APIs, which may be similar to stuff out there (like Django), but aren&#8217;t anywhere close to being a drop-in replacement. This can be &#8212; depending on application you&#8217;re writing &#8212; a heavy investement in a platform you don&#8217;t control a bit.</p>
+<p>Put more profanely, you are a Google&#8217;s bitch.</p>
+<p>Having said all this, I do think App Engine is a very valuable service. If you want to write a mini-app, a web tool like <a title="Simon's homepage" href="http://simonwillison.net/">Simon</a> <a title="Post about json-head service" href="http://simonwillison.net/2008/Jul/29/jsonhead/">does</a>, then App Engine is brilliant. You can do this easily with little deployment and zero administration hassle. In fact I can&#8217;t think of any other service better suited to this task.</p>
+<p>I&#8217;m sure this is not the only scenario in which App Engine makes sense and there are others I haven&#8217;t named or thought of. Issues, like accounts, can with some effort be solved now. But App Engine also isn&#8217;t (yet) what some of us were hoping for and it&#8217;s prudent to really think through what you want, what you need and what App Engine actually offers.</p>
+<div class="zemanta-pixie"><a class="zemanta-pixie-a" title="Zemified by Zemanta" href="http://reblog.zemanta.com/zemified/28ddae75-72ba-4a45-892e-7841f893395b/"><img class="zemanta-pixie-img" style="border: medium none; float: right;" src="http://img.zemanta.com/reblog_e.png?x-id=28ddae75-72ba-4a45-892e-7841f893395b" alt="Reblog this post [with Zemanta]" /></a></div>
+]]></content:encoded>
+			<wfw:commentRss>http://markos.gaivo.net/blog/?feed=rss2&#038;p=287</wfw:commentRss>
+		<slash:comments>3</slash:comments>
+		</item>
+		<item>
+		<title>Generating Python Exceptions Classes</title>
+		<link>http://markos.gaivo.net/blog/?p=281</link>
+		<comments>http://markos.gaivo.net/blog/?p=281#comments</comments>
+		<pubDate>Tue, 22 Jul 2008 07:39:53 +0000</pubDate>
+		<dc:creator>markos</dc:creator>
+				<category><![CDATA[General development]]></category>
+		<category><![CDATA[Python]]></category>
+		<category><![CDATA[Class]]></category>
+		<category><![CDATA[Exceptions]]></category>
+		<category><![CDATA[Languages]]></category>
+		<category><![CDATA[Programming]]></category>
+
+		<guid isPermaLink="false">http://markos.gaivo.net/blog/?p=281</guid>
+		<description><![CDATA[It&#8217;s been a while since I used Python for anything larger than scripts few tens lines long, so it feels really great to do it again. I did discover however that I became a bit rusty. Not so much in not being able to achieve what I want as not being sure that I do [...]]]></description>
+			<content:encoded><![CDATA[<p>It&#8217;s been a while since I used <a class="zem_slink" title="Python (programming language)" rel="homepage" href="http://www.python.org/">Python</a> for anything larger than scripts few tens lines long, so it feels really great to do it again. I did discover however that I became a bit rusty. Not so much in not being able to achieve what I want as not being sure that I do it in a sensible and pythonic way.</p>
+<p>I&#8217;ve been working on a private project where I came to a following problem. <a class="zem_slink" title="Application programming interface" rel="wikipedia" href="http://en.wikipedia.org/wiki/Application_programming_interface">API</a> calls can trigger various responses, somewhat like <a class="zem_slink" title="Hypertext Transfer Protocol" rel="wikipedia" href="http://en.wikipedia.org/wiki/Hypertext_Transfer_Protocol">HTTP</a>, containing status codes together with a short description. Every faulty response should trigger its own exception, which led me to my first implementation:</p>
+<pre><code>
+class Unauthorized(Exception):
+    status = 101
+    value = "Unauthorized."
+</code></pre>
+<p>I didn&#8217;t like it even though it looks and behaves like it should. What I wanted was a better overlook of possible responses in a way where I have to make any possible changes easily and only at one place.</p>
+<p>My <a title="Example" href="http://markos.gaivo.net/examples/pyexceptions/exceptions1.txt">second attempt</a> was auto-generating exception classes using type. Since class definition took only a line instead of three, it certainly achieved better transparency, but I still had to make changes at two places.</p>
+<p><a href="http://markos.gaivo.net/examples/pyexceptions/exceptions2.txt">Final step</a> was to auto-generate classes in a loop. To do this I attached them to module namespace using globals() dictionary. Actually I used __builtin__ one at first, but it obviously didn&#8217;t work that great.</p>
+<p>So this is what I have now. It works and achieves my goals. I only need to change dictionary to add a new response or change existing one and it could hardly be more readable.</p>
+<p>But is it pythonic enough? If not, what would be, apart from traditional way described in first step?</p>
+<div class="zemanta-pixie" style="margin-top: 10px; height: 15px;"><a class="zemanta-pixie-a" title="Zemified by Zemanta" href="http://reblog.zemanta.com/zemified/67741c44-cb65-4003-8f66-f8ceb221a025/"><img class="zemanta-pixie-img" style="border: medium none; float: right;" src="http://img.zemanta.com/reblog_e.png?x-id=67741c44-cb65-4003-8f66-f8ceb221a025" alt="Zemanta Pixie" /></a></div>
+]]></content:encoded>
+			<wfw:commentRss>http://markos.gaivo.net/blog/?feed=rss2&#038;p=281</wfw:commentRss>
+		<slash:comments>4</slash:comments>
+		</item>
+		<item>
+		<title>Going home</title>
+		<link>http://markos.gaivo.net/blog/?p=280</link>
+		<comments>http://markos.gaivo.net/blog/?p=280#comments</comments>
+		<pubDate>Thu, 10 Jul 2008 08:02:42 +0000</pubDate>
+		<dc:creator>markos</dc:creator>
+				<category><![CDATA[Python]]></category>
+		<category><![CDATA[europython]]></category>
+		<category><![CDATA[europython2008]]></category>
+		<category><![CDATA[Languages]]></category>
+		<category><![CDATA[Open source]]></category>
+		<category><![CDATA[Programming]]></category>
+
+		<guid isPermaLink="false">http://markos.gaivo.net/blog/?p=280</guid>
+		<description><![CDATA[EuroPython 2008 is over. I packed and now I am waiting to leave for the airport to catch afternoon flight back home. Sadly I don&#8217;t have time to attend sprints and since I only recently started to write python again, I probably wouldn&#8217;t be of much use anyhow. Conference itself was great. Smaller than web [...]]]></description>
+			<content:encoded><![CDATA[<p>EuroPython 2008 is over. I packed and now I am waiting to leave for the airport to catch afternoon flight back home. Sadly I don&#8217;t have time to attend sprints and since I only recently started to write python again, I probably wouldn&#8217;t be of much use anyhow.</p>
+<p>Conference itself was great. Smaller than web conferences I usually attend with a more friendly, homey feeling, but with plenty of excellent talks where I learned a lot. I also met a bunch of friendly interesting people and had in general a wonderful time.</p>
+<p>It was also interesting to compare the whole experience with other conferences I go to. Apple is popular, but there are fewer <a class="zem_slink" title="Macintosh" rel="wikipedia" href="http://en.wikipedia.org/wiki/Macintosh">Macs</a> than at web events. <a class="zem_slink" title="Ubuntu (operating system)" rel="homepage" href="http://www.ubuntu.com/">Ubuntu</a> seems to completely dominate <a class="zem_slink" title="Linux" rel="wikipedia" href="http://en.wikipedia.org/wiki/Linux">Linux</a> crowd (me included), since it was the only distribution I actually have seen and Windows is in minority. Everyone is much more willing to participate to the point, where sadly not all who wanted to present a Lightning talk on last day had the opportunity to do so.</p>
+<p>I certainly hope to attend EuroPython 2009, which will be in Birmingham around this time next year. At the end I also have a present. Yesterday I got a license for <a class="zem_slink" title="Wing IDE" rel="homepage" href="http://www.wingware.com">Wing IDE</a> Professional and since I don&#8217;t need one, I&#8217;ll give it to the first person who expresses a wish to have it in comments and leaves his/her email address in relevant part of comment form.</p>
+<p><strong>Update</strong>: License is gone, sent to a new owner.</p>
+<div class="zemanta-pixie" style="margin-top: 10px; height: 15px;"><a class="zemanta-pixie-a" title="Zemified by Zemanta" href="http://reblog.zemanta.com/zemified/a6262891-3f96-4b97-8bf6-949cb83cba0e/"><img class="zemanta-pixie-img" style="border: medium none; float: right;" src="http://img.zemanta.com/reblog_e.png?x-id=a6262891-3f96-4b97-8bf6-949cb83cba0e" alt="Zemanta Pixie" /></a></div>
+]]></content:encoded>
+			<wfw:commentRss>http://markos.gaivo.net/blog/?feed=rss2&#038;p=280</wfw:commentRss>
+		<slash:comments>2</slash:comments>
+		</item>
+	</channel>
+</rss>

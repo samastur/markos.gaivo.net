@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+		>
+<channel>
+	<title>Comments on: Solving javascript i18n as work in progress</title>
+	<atom:link href="http://markos.gaivo.net/blog/?feed=rss2&#038;p=90" rel="self" type="application/rss+xml" />
+	<link>http://markos.gaivo.net/blog/?p=90</link>
+	<description></description>
+	<lastBuildDate>Wed, 16 Jul 2014 16:04:38 +0000</lastBuildDate>
+	<sy:updatePeriod>hourly</sy:updatePeriod>
+	<sy:updateFrequency>1</sy:updateFrequency>
+	<generator>http://wordpress.org/?v=3.0.5</generator>
+	<item>
+		<title>By: Avi Deitcher</title>
+		<link>http://markos.gaivo.net/blog/?p=90&#038;cpage=1#comment-132008</link>
+		<dc:creator>Avi Deitcher</dc:creator>
+		<pubDate>Tue, 13 May 2008 04:55:13 +0000</pubDate>
+		<guid isPermaLink="false">http://markos.gaivo.net/blog/?p=90#comment-132008</guid>
+		<description>I struggled with the same problem, so I developed an i18n library for JavaScript, covering language packs (like Java ResourceBundles), currencies and calendars. It is GPL released. Check it out at http://jsorm.com.</description>
+		<content:encoded><![CDATA[<p>I struggled with the same problem, so I developed an i18n library for JavaScript, covering language packs (like Java ResourceBundles), currencies and calendars. It is GPL released. Check it out at <a href="http://jsorm.com">http://jsorm.com</a>.</p>
+]]></content:encoded>
+	</item>
+</channel>
+</rss>

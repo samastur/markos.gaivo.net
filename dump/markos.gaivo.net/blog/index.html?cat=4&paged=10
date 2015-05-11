@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>A notch above a monkey &raquo; Web</title>
+	<meta charset="utf-8" />
+	
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" /> 
+
+	<link rel="shortcut icon" href="/img/markos.ico" />
+	
+	<meta name="generator" content="WordPress 3.0.5" /> <!-- leave this for stats please -->
+
+	<link href="http://fast.fonts.com/cssapi/aee9b60b-8e94-47f8-b586-3ecbfab51d1c.css" rel="stylesheet" type="text/css" />
+	<link rel="stylesheet" type="text/css" href="css/home.css" media="screen" title="Light theme" />
+	<link rel="alternate stylesheet" type="text/css" href="css/home_dark.css" media="screen" title="Dark theme" />
+	<link rel="stylesheet" href="css/ipad.css" media="only screen and (min-device-width : 768px) and (max-device-width : 1024px)">
+	<link rel="stylesheet" type="text/css" href="css/smallscreen.css" media="only screen and (max-width: 700px)" />
+
+	<link rel="alternate" type="application/rss+xml" title="RSS 2.0" href="http://markos.gaivo.net/blog/?feed=rss2" />
+	<link rel="alternate" type="application/atom+xml" title="Atom 1.0" href="http://markos.gaivo.net/blog/?feed=atom" />
+	<link rel='canonical' href='http://markos.gaivo.net/blog/?p=664' />
+
+	<link rel="pingback" href="http://markos.gaivo.net/blog/xmlrpc.php" />
+
+	<link rel="alternate" type="application/rss+xml" title="A notch above a monkey &raquo; Web Category Feed" href="http://markos.gaivo.net/blog/?feed=rss2&amp;cat=4" />
+<link rel="EditURI" type="application/rsd+xml" title="RSD" href="http://markos.gaivo.net/blog/xmlrpc.php?rsd" />
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="http://markos.gaivo.net/blog/wp-includes/wlwmanifest.xml" /> 
+<link rel='index' title='A notch above a monkey' href='http://markos.gaivo.net/blog' />
+<meta name="generator" content="WordPress 3.0.5" />
+
+	<!--[if lt IE 9]>
+	<script src="/js/html5.js"></script>
+	<![endif]-->
+</head>
+<body>
+	<section class="envelope posts">
+		<header>
+			<h1><a href="http://markos.gaivo.net/blog/">A notch above a monkey</a></h1>
+		</header>
+		<nav class="colophon">
+			<h1>By Marko Samastur</h1>
+			<ul>
+				<li><a href="/">About me</a></li>
+				<li><a href="http://markos.gaivo.net/blog/?feed=atom">Subscribe</a></li>
+			</ul>
+		</nav>
+
+	
+		<article>
+			<h1 class="storytitle"><a href="http://markos.gaivo.net/blog/?p=287" rel="bookmark">Leaving App Engine &#8211; for now</a></h1>
+
+			<div class="post-text">
+				<p>Jonathan <a href="http://spyced.blogspot.com/2008/08/app-engine-conclusions.html#">wrote</a> his thoughts about <a class="zem_slink" title="Google App Engine" rel="homepage" href="http://appengine.google.com">App Engine</a>. They are well worth a read if you are thinking about using it, but haven&#8217;t so far. I used App Engine sporadically for a couple of months on a project of mine, but I finally gave up and ended porting my code to pure <a class="zem_slink" title="Django (web framework)" rel="homepage" href="http://www.djangoproject.com">Django</a>, which admittedly wasn&#8217;t too hard to do at this point in time.</p>
+<p>Some of my reasons match Jonathan&#8217;s. There were too many rough edges to feel really productive and too much time was wasted on trying to find out if problem lies in poor documentation, incomplete implementation or stupid programmer. I probably will never get answers to questions like how can a simple Django view that doesn&#8217;t do anything beside rendering a static template, consume above expected amount of CPU and risk triggering quota blockage, but right now I really don&#8217;t care anymore.</p>
+<p>Integrating <a class="zem_slink" title="Google" rel="crunchbase" href="http://www.crunchbase.com/company/google">Google</a> accounts is indeed easy, but it is also very shallow to the point of being practically useless.  You basically can only rely on fact that reference to a particular user won&#8217;t change. Anything else you may think you know (like an email address), can&#8217;t be relied upon. You can&#8217;t create an account and you can&#8217;t even control login form of your service. In essence you don&#8217;t have your own users, you can just offer a service to Google&#8217;s.</p>
+<p>For me this was one of two major reasons for my decision. Every person who would need an account to use what I am building would need to agree to Google&#8217;s <a class="zem_slink" title="Terms of service" rel="wikipedia" href="http://en.wikipedia.org/wiki/Terms_of_service">TOS</a> agreement which defines many things, among others the highest level of privacy I can offer.</p>
+<p>The other reason was that current limitations of App Engine really lead you to rely heavily on provided APIs, which may be similar to stuff out there (like Django), but aren&#8217;t anywhere close to being a drop-in replacement. This can be &#8212; depending on application you&#8217;re writing &#8212; a heavy investement in a platform you don&#8217;t control a bit.</p>
+<p>Put more profanely, you are a Google&#8217;s bitch.</p>
+<p>Having said all this, I do think App Engine is a very valuable service. If you want to write a mini-app, a web tool like <a title="Simon's homepage" href="http://simonwillison.net/">Simon</a> <a title="Post about json-head service" href="http://simonwillison.net/2008/Jul/29/jsonhead/">does</a>, then App Engine is brilliant. You can do this easily with little deployment and zero administration hassle. In fact I can&#8217;t think of any other service better suited to this task.</p>
+<p>I&#8217;m sure this is not the only scenario in which App Engine makes sense and there are others I haven&#8217;t named or thought of. Issues, like accounts, can with some effort be solved now. But App Engine also isn&#8217;t (yet) what some of us were hoping for and it&#8217;s prudent to really think through what you want, what you need and what App Engine actually offers.</p>
+<div class="zemanta-pixie"><a class="zemanta-pixie-a" title="Zemified by Zemanta" href="http://reblog.zemanta.com/zemified/28ddae75-72ba-4a45-892e-7841f893395b/"><img class="zemanta-pixie-img" style="border: medium none; float: right;" src="http://img.zemanta.com/reblog_e.png?x-id=28ddae75-72ba-4a45-892e-7841f893395b" alt="Reblog this post [with Zemanta]" /></a></div>
+			</div>
+
+			<footer class="post-metadata">
+				<ul>
+					<li>Published on <time datetime="2008-08-30T21:50:59+00:00">August 30, 2008</time></li>
+					<li><a href="http://markos.gaivo.net/blog/?p=287#comments" title="Comment on Leaving App Engine &#8211; for now">Add your comment</a> </li>
+				</ul>
+			</footer>
+		</article>
+	
+		<article>
+			<h1 class="storytitle"><a href="http://markos.gaivo.net/blog/?p=267" rel="bookmark">Firefox 3 Release Party</a></h1>
+
+			<div class="post-text">
+				<p><a class="zem_slink" title="Mozilla Firefox" rel="homepage" href="http://www.firefox.com/">Firefox 3</a> was released last week and tomorrow, a week after its release, we&#8217;ll have <a href="http://www.kiberpipa.org/firefox/">a release party</a> at Kiberpipa. Everybody is welcome, but you have to register first.</p>
+<p>Part of the event will be <a href="http://www.kiberpipa.org/firefox/schedule">a series of talks</a>, one of which will be mine, a short talk titled Easy deployment of site-extensions with a <a class="zem_slink" title="Plugin" rel="wikipedia" href="http://en.wikipedia.org/wiki/Plugin">browser plugin</a>.</p>
+<p>I hope to see you there.</p>
+<div class="zemanta-pixie" style="margin-top: 10px; height: 15px;"><a class="zemanta-pixie-a" title="Zemified by Zemanta" href="http://reblog.zemanta.com/zemified/6aa8e696-91f0-45b4-a4dd-42968486c1a5/"><img class="zemanta-pixie-img" style="border: medium none; float: right;" src="http://img.zemanta.com/reblog_a.png?x-id=6aa8e696-91f0-45b4-a4dd-42968486c1a5" alt="Zemanta Pixie" /></a></div>
+			</div>
+
+			<footer class="post-metadata">
+				<ul>
+					<li>Published on <time datetime="2008-06-23T10:35:42+00:00">June 23, 2008</time></li>
+					<li><a href="http://markos.gaivo.net/blog/?p=267#comments" title="Comment on Firefox 3 Release Party">Add your comment</a> </li>
+				</ul>
+			</footer>
+		</article>
+	
+		<article>
+			<h1 class="storytitle"><a href="http://markos.gaivo.net/blog/?p=266" rel="bookmark">Switched&#8230;to Firefox 3</a></h1>
+
+			<div class="post-text">
+				<p>Today I switched to <a class="zem_slink" title="Mozilla Firefox" rel="homepage" href="http://www.firefox.com/">Firefox 3</a> as my main browser. I didn&#8217;t want to, because as a policy I try to use most common version as default, but I made a mistake of opening version 3 and since then none of my old add-ons seem to work on previous version anymore.</p>
+<p>If I was still a young pup, I would probably dive into config files, search <a class="zem_slink" title="World Wide Web" rel="wikipedia" href="http://en.wikipedia.org/wiki/World_Wide_Web">the web</a> for answers and try to fix it. But when you get to 34, time becomes too precious to muck about needlessly and you just want to focus on things you need or better yet want to do.</p>
+<p>So version three it is. This has got me thinking about something else. It&#8217;s remarkable how difficult or simply an annoyance it still is to have two version of a browser installed. Clearly this should be possible and is in interest of everyone involved.</p>
+<p>Anyway, enough of ranting. Time to get back to cutting cake&#8230;</p>
+<div class="zemanta-pixie" style="margin-top: 10px; height: 15px;"><a class="zemanta-pixie-a" title="Zemified by Zemanta" href="http://reblog.zemanta.com/zemified/79c05cbe-847f-4fa0-8dc3-878f8e79208f/"><img class="zemanta-pixie-img" style="border: medium none; float: right;" src="http://img.zemanta.com/reblog_a.png?x-id=79c05cbe-847f-4fa0-8dc3-878f8e79208f" alt="Zemanta Pixie" /></a></div>
+			</div>
+
+			<footer class="post-metadata">
+				<ul>
+					<li>Published on <time datetime="2008-06-22T15:04:45+00:00">June 22, 2008</time></li>
+					<li><a href="http://markos.gaivo.net/blog/?p=266#comments" title="Comment on Switched&#8230;to Firefox 3">Add your comment</a> </li>
+				</ul>
+			</footer>
+		</article>
+		
+		<nav class="pagination">
+			<ul>
+				<li><a href="http://markos.gaivo.net/blog/?cat=4&#038;paged=9" >&laquo; Newer articles</a></li>
+				<li><a href="http://markos.gaivo.net/blog/?cat=4&#038;paged=11" >Older articles &raquo;</a></li>
+			</ul>
+		</nav>
+	</section>
+
+
+	<footer>
+		<ul>
+			<li>&copy; 2005-2015 Marko Samastur</li>
+			
+			<li><a href="http://markos.gaivo.net/blog/?feed=rss2">Entries feed</a></li>
+			<li><a href="http://markos.gaivo.net/blog/?feed=comments-rss2">Comments feed</a></li>
+		</ul>
+		<a href="/"><img src="/img/markos_light_small_bg.png" alt="logo" class="mini-logo" /></a>
+	</footer>
+	<script src="/js/jquery.js"></script>
+	<script src="/js/all.js"></script>
+	<!--script src="/mint/?js" type="text/javascript"></script-->
+
+	<!-- Google analytics -->
+	<script type="text/javascript">
+
+	  var _gaq = _gaq || [];
+	  _gaq.push(['_setAccount', 'UA-152438-1']);
+	  _gaq.push(['_trackPageview']);
+	</script>
+	<script src="/js/cookie.js"></script>
+</body>
+</html>

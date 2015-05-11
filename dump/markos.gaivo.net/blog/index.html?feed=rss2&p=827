@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+		>
+<channel>
+	<title>Comments on: Pimping my notebook</title>
+	<atom:link href="http://markos.gaivo.net/blog/?feed=rss2&#038;p=827" rel="self" type="application/rss+xml" />
+	<link>http://markos.gaivo.net/blog/?p=827</link>
+	<description></description>
+	<lastBuildDate>Wed, 16 Jul 2014 16:04:38 +0000</lastBuildDate>
+	<sy:updatePeriod>hourly</sy:updatePeriod>
+	<sy:updateFrequency>1</sy:updateFrequency>
+	<generator>http://wordpress.org/?v=3.0.5</generator>
+	<item>
+		<title>By: Just a notch above a monkey &#187; On ubiquitousness of 3D printing</title>
+		<link>http://markos.gaivo.net/blog/?p=827&#038;cpage=1#comment-272677</link>
+		<dc:creator>Just a notch above a monkey &#187; On ubiquitousness of 3D printing</dc:creator>
+		<pubDate>Sun, 18 Nov 2012 14:15:22 +0000</pubDate>
+		<guid isPermaLink="false">http://markos.gaivo.net/blog/?p=827#comment-272677</guid>
+		<description>[...] Of course this becomes less relevant if you want to create things that are not mass produced (or at all), but even then you would be better off by using an existing printing service (as I did). However [...]</description>
+		<content:encoded><![CDATA[<p>[...] Of course this becomes less relevant if you want to create things that are not mass produced (or at all), but even then you would be better off by using an existing printing service (as I did). However [...]</p>
+]]></content:encoded>
+	</item>
+	<item>
+		<title>By: Tomaž</title>
+		<link>http://markos.gaivo.net/blog/?p=827&#038;cpage=1#comment-242869</link>
+		<dc:creator>Tomaž</dc:creator>
+		<pubDate>Mon, 07 Nov 2011 07:21:05 +0000</pubDate>
+		<guid isPermaLink="false">http://markos.gaivo.net/blog/?p=827#comment-242869</guid>
+		<description>About the motivation for putting stickers on laptops: I usually put one or two on the lid. It makes the laptop visually unique and the idea is that detters theft of opportunity at conferences. It also makes it less likely someone simply mistakes your laptop for his own.</description>
+		<content:encoded><![CDATA[<p>About the motivation for putting stickers on laptops: I usually put one or two on the lid. It makes the laptop visually unique and the idea is that detters theft of opportunity at conferences. It also makes it less likely someone simply mistakes your laptop for his own.</p>
+]]></content:encoded>
+	</item>
+</channel>
+</rss>

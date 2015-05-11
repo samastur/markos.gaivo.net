@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+		>
+<channel>
+	<title>Comments on: Change</title>
+	<atom:link href="http://markos.gaivo.net/blog/?feed=rss2&#038;p=214" rel="self" type="application/rss+xml" />
+	<link>http://markos.gaivo.net/blog/?p=214</link>
+	<description></description>
+	<lastBuildDate>Wed, 16 Jul 2014 16:04:38 +0000</lastBuildDate>
+	<sy:updatePeriod>hourly</sy:updatePeriod>
+	<sy:updateFrequency>1</sy:updateFrequency>
+	<generator>http://wordpress.org/?v=3.0.5</generator>
+	<item>
+		<title>By: Igre</title>
+		<link>http://markos.gaivo.net/blog/?p=214&#038;cpage=1#comment-214855</link>
+		<dc:creator>Igre</dc:creator>
+		<pubDate>Fri, 23 Jul 2010 15:07:38 +0000</pubDate>
+		<guid isPermaLink="false">http://markos.gaivo.net/blog/?p=214#comment-214855</guid>
+		<description>Yea, and few years later, everthing is pretty much same!</description>
+		<content:encoded><![CDATA[<p>Yea, and few years later, everthing is pretty much same!</p>
+]]></content:encoded>
+	</item>
+	<item>
+		<title>By: Simon</title>
+		<link>http://markos.gaivo.net/blog/?p=214&#038;cpage=1#comment-20194</link>
+		<dc:creator>Simon</dc:creator>
+		<pubDate>Thu, 21 Dec 2006 16:57:58 +0000</pubDate>
+		<guid isPermaLink="false">http://markos.gaivo.net/blog/?p=214#comment-20194</guid>
+		<description>Now it&#039;s going to be even harder finding non-Parsek people for Spletne Urice. ;)
+
+On a trifle more serious note, good luck and make sure you evangelise Python.</description>
+		<content:encoded><![CDATA[<p>Now it&#8217;s going to be even harder finding non-Parsek people for Spletne Urice. <img src='http://markos.gaivo.net/blog/wp-includes/images/smilies/icon_wink.gif' alt=';)' class='wp-smiley' /> </p>
+<p>On a trifle more serious note, good luck and make sure you evangelise Python.</p>
+]]></content:encoded>
+	</item>
+</channel>
+</rss>

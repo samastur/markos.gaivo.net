@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+		>
+<channel>
+	<title>Comments on: Exporting tagged articles from Google Reader</title>
+	<atom:link href="http://markos.gaivo.net/blog/?feed=rss2&#038;p=1097" rel="self" type="application/rss+xml" />
+	<link>http://markos.gaivo.net/blog/?p=1097</link>
+	<description></description>
+	<lastBuildDate>Wed, 16 Jul 2014 16:04:38 +0000</lastBuildDate>
+	<sy:updatePeriod>hourly</sy:updatePeriod>
+	<sy:updateFrequency>1</sy:updateFrequency>
+	<generator>http://wordpress.org/?v=3.0.5</generator>
+	<item>
+		<title>By: knarf</title>
+		<link>http://markos.gaivo.net/blog/?p=1097&#038;cpage=1#comment-315597</link>
+		<dc:creator>knarf</dc:creator>
+		<pubDate>Mon, 17 Jun 2013 01:28:13 +0000</pubDate>
+		<guid isPermaLink="false">http://markos.gaivo.net/blog/?p=1097#comment-315597</guid>
+		<description>Stumbled on this, worked for me.  If you can process .xml it may suffice.
+
+http://productforums.google.com/forum/#!msg/reader/BO3H81Nb68M/NLNwY2tJ1PMJ</description>
+		<content:encoded><![CDATA[<p>Stumbled on this, worked for me.  If you can process .xml it may suffice.</p>
+<p><a href="http://productforums.google.com/forum/#">http://productforums.google.com/forum/#</a>!msg/reader/BO3H81Nb68M/NLNwY2tJ1PMJ</p>
+]]></content:encoded>
+	</item>
+	<item>
+		<title>By: Knarf</title>
+		<link>http://markos.gaivo.net/blog/?p=1097&#038;cpage=1#comment-315581</link>
+		<dc:creator>Knarf</dc:creator>
+		<pubDate>Sun, 16 Jun 2013 23:51:50 +0000</pubDate>
+		<guid isPermaLink="false">http://markos.gaivo.net/blog/?p=1097#comment-315581</guid>
+		<description>My own personal solution has now evolved to be Tiny Tiny RSS for the frontend and gmail for tagging and archival storage.  If I like an article I click the share button and send it to a gmail account for review at a later point.  Gmail supports tagging and also will probably not disappear anytime soon.</description>
+		<content:encoded><![CDATA[<p>My own personal solution has now evolved to be Tiny Tiny RSS for the frontend and gmail for tagging and archival storage.  If I like an article I click the share button and send it to a gmail account for review at a later point.  Gmail supports tagging and also will probably not disappear anytime soon.</p>
+]]></content:encoded>
+	</item>
+	<item>
+		<title>By: clay</title>
+		<link>http://markos.gaivo.net/blog/?p=1097&#038;cpage=1#comment-315311</link>
+		<dc:creator>clay</dc:creator>
+		<pubDate>Sun, 16 Jun 2013 01:36:37 +0000</pubDate>
+		<guid isPermaLink="false">http://markos.gaivo.net/blog/?p=1097#comment-315311</guid>
+		<description>Which reader would I like to see supported?  A reader that tags articles like Google Reader  ... does. not. exist.
+
+I envision a bifurcated solution: articleReader for reading and articleTagger for tagging.
+
+articleReader: like newsblur, feedly, ttr ...
+articleTagger: something like pinboard for tagged articles ...
+
+Until then, will be importing json tagged articles into firefox/chrome bookmarks.</description>
+		<content:encoded><![CDATA[<p>Which reader would I like to see supported?  A reader that tags articles like Google Reader  &#8230; does. not. exist.</p>
+<p>I envision a bifurcated solution: articleReader for reading and articleTagger for tagging.</p>
+<p>articleReader: like newsblur, feedly, ttr &#8230;<br />
+articleTagger: something like pinboard for tagged articles &#8230;</p>
+<p>Until then, will be importing json tagged articles into firefox/chrome bookmarks.</p>
+]]></content:encoded>
+	</item>
+	<item>
+		<title>By: markos</title>
+		<link>http://markos.gaivo.net/blog/?p=1097&#038;cpage=1#comment-315160</link>
+		<dc:creator>markos</dc:creator>
+		<pubDate>Sat, 15 Jun 2013 13:55:36 +0000</pubDate>
+		<guid isPermaLink="false">http://markos.gaivo.net/blog/?p=1097#comment-315160</guid>
+		<description>No, did not get around to it yet. I since switched to Tiny Tiny RSS which seems to have support for importing articles, but still need to write a script that will translate my JSON to tt-rss. I started work on resolving feedburner links in case that also disappears.
+
+Which reader would you like to see supported?
+
+I&#039;ve been also thinking about creating also HTML export which could make export more useful also to those who won&#039;t or can&#039;t import articles elsewhere.</description>
+		<content:encoded><![CDATA[<p>No, did not get around to it yet. I since switched to Tiny Tiny RSS which seems to have support for importing articles, but still need to write a script that will translate my JSON to tt-rss. I started work on resolving feedburner links in case that also disappears.</p>
+<p>Which reader would you like to see supported?</p>
+<p>I&#8217;ve been also thinking about creating also HTML export which could make export more useful also to those who won&#8217;t or can&#8217;t import articles elsewhere.</p>
+]]></content:encoded>
+	</item>
+	<item>
+		<title>By: clay</title>
+		<link>http://markos.gaivo.net/blog/?p=1097&#038;cpage=1#comment-314982</link>
+		<dc:creator>clay</dc:creator>
+		<pubDate>Fri, 14 Jun 2013 20:34:56 +0000</pubDate>
+		<guid isPermaLink="false">http://markos.gaivo.net/blog/?p=1097#comment-314982</guid>
+		<description>Marko, 
+
+Thank you for a great python script.  Our tagged articles are saved in JSON.  Now what ... have you been able to upload the tagged articles into any other RSS reader?  
+
+Thanks, Clay</description>
+		<content:encoded><![CDATA[<p>Marko, </p>
+<p>Thank you for a great python script.  Our tagged articles are saved in JSON.  Now what &#8230; have you been able to upload the tagged articles into any other RSS reader?  </p>
+<p>Thanks, Clay</p>
+]]></content:encoded>
+	</item>
+	<item>
+		<title>By: Amir Emami</title>
+		<link>http://markos.gaivo.net/blog/?p=1097&#038;cpage=1#comment-312201</link>
+		<dc:creator>Amir Emami</dc:creator>
+		<pubDate>Wed, 05 Jun 2013 19:05:33 +0000</pubDate>
+		<guid isPermaLink="false">http://markos.gaivo.net/blog/?p=1097#comment-312201</guid>
+		<description>Hello guyz
+the best way to back up tagged articles till now:
+1- make tag public in greader
+2- use this link
+http://www.google.com/reader/public/atom/user%2F01597317633809385927%2Flabel%2FArt?n=1000 (replace ur greader id with 01597317633809385927 and ur tag name with Art)
+3- download newzcrawler
+4- add the link to channel newsfeed and turn automatic update off
+this is the best way i figured out.</description>
+		<content:encoded><![CDATA[<p>Hello guyz<br />
+the best way to back up tagged articles till now:<br />
+1- make tag public in greader<br />
+2- use this link<br />
+<a href="http://www.google.com/reader/public/atom/user%2F01597317633809385927%2Flabel%2FArt?n=1000">http://www.google.com/reader/public/atom/user%2F01597317633809385927%2Flabel%2FArt?n=1000</a> (replace ur greader id with 01597317633809385927 and ur tag name with Art)<br />
+3- download newzcrawler<br />
+4- add the link to channel newsfeed and turn automatic update off<br />
+this is the best way i figured out.</p>
+]]></content:encoded>
+	</item>
+	<item>
+		<title>By: AnnM</title>
+		<link>http://markos.gaivo.net/blog/?p=1097&#038;cpage=1#comment-312112</link>
+		<dc:creator>AnnM</dc:creator>
+		<pubDate>Wed, 05 Jun 2013 11:56:42 +0000</pubDate>
+		<guid isPermaLink="false">http://markos.gaivo.net/blog/?p=1097#comment-312112</guid>
+		<description>Thank you, thank you for sharing this information.  I have been walking around in a fog since the news about GReader&#039;s impending decommission.  With the hopes that you&#039;ll be able to work out any sticking points with a Windows install, I look forward to learning more.  I would love to get the instruction by email or however you decide to post it.  Bless you for sharing!   :)</description>
+		<content:encoded><![CDATA[<p>Thank you, thank you for sharing this information.  I have been walking around in a fog since the news about GReader&#8217;s impending decommission.  With the hopes that you&#8217;ll be able to work out any sticking points with a Windows install, I look forward to learning more.  I would love to get the instruction by email or however you decide to post it.  Bless you for sharing!   <img src='http://markos.gaivo.net/blog/wp-includes/images/smilies/icon_smile.gif' alt=':)' class='wp-smiley' /> </p>
+]]></content:encoded>
+	</item>
+	<item>
+		<title>By: markos</title>
+		<link>http://markos.gaivo.net/blog/?p=1097&#038;cpage=1#comment-310748</link>
+		<dc:creator>markos</dc:creator>
+		<pubDate>Fri, 31 May 2013 09:55:59 +0000</pubDate>
+		<guid isPermaLink="false">http://markos.gaivo.net/blog/?p=1097#comment-310748</guid>
+		<description>Instructions are definitely lacking and together with Amir we found a few issues with installing them on Windows.
+
+I am finally back from my business trip so I expect to have some time this weekend to resolve these issues and provide an easier and better documented way of installing and running my script.
+
+Thanks for the patience.</description>
+		<content:encoded><![CDATA[<p>Instructions are definitely lacking and together with Amir we found a few issues with installing them on Windows.</p>
+<p>I am finally back from my business trip so I expect to have some time this weekend to resolve these issues and provide an easier and better documented way of installing and running my script.</p>
+<p>Thanks for the patience.</p>
+]]></content:encoded>
+	</item>
+	<item>
+		<title>By: Tia</title>
+		<link>http://markos.gaivo.net/blog/?p=1097&#038;cpage=1#comment-310146</link>
+		<dc:creator>Tia</dc:creator>
+		<pubDate>Wed, 29 May 2013 10:58:45 +0000</pubDate>
+		<guid isPermaLink="false">http://markos.gaivo.net/blog/?p=1097#comment-310146</guid>
+		<description>Thank you! It&#039;s so annoying that Google didn&#039;t think of the people like us who actually used the features they put in Reader.
+
+I&#039;m in the same boat as the Amir and Nomen - I&#039;m not so tech-savvy as to know exactly how to use the script. Instructions would be helpful!</description>
+		<content:encoded><![CDATA[<p>Thank you! It&#8217;s so annoying that Google didn&#8217;t think of the people like us who actually used the features they put in Reader.</p>
+<p>I&#8217;m in the same boat as the Amir and Nomen &#8211; I&#8217;m not so tech-savvy as to know exactly how to use the script. Instructions would be helpful!</p>
+]]></content:encoded>
+	</item>
+	<item>
+		<title>By: NomenNescia</title>
+		<link>http://markos.gaivo.net/blog/?p=1097&#038;cpage=1#comment-308867</link>
+		<dc:creator>NomenNescia</dc:creator>
+		<pubDate>Sat, 25 May 2013 15:24:50 +0000</pubDate>
+		<guid isPermaLink="false">http://markos.gaivo.net/blog/?p=1097#comment-308867</guid>
+		<description>Hey Markos, thanks for this script..keep wondering why there is nothing else that would extract the tags from reader but luckily we have you. Same problem as Amir though. Can you forward the mail you send him :D</description>
+		<content:encoded><![CDATA[<p>Hey Markos, thanks for this script..keep wondering why there is nothing else that would extract the tags from reader but luckily we have you. Same problem as Amir though. Can you forward the mail you send him <img src='http://markos.gaivo.net/blog/wp-includes/images/smilies/icon_biggrin.gif' alt=':D' class='wp-smiley' /> </p>
+]]></content:encoded>
+	</item>
+</channel>
+</rss>

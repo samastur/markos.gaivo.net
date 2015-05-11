@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+		>
+<channel>
+	<title>Comments on: Sense and sensibility of javascript libraries</title>
+	<atom:link href="http://markos.gaivo.net/blog/?feed=rss2&#038;p=186" rel="self" type="application/rss+xml" />
+	<link>http://markos.gaivo.net/blog/?p=186</link>
+	<description></description>
+	<lastBuildDate>Wed, 16 Jul 2014 16:04:38 +0000</lastBuildDate>
+	<sy:updatePeriod>hourly</sy:updatePeriod>
+	<sy:updateFrequency>1</sy:updateFrequency>
+	<generator>http://wordpress.org/?v=3.0.5</generator>
+	<item>
+		<title>By: markos</title>
+		<link>http://markos.gaivo.net/blog/?p=186&#038;cpage=1#comment-3620</link>
+		<dc:creator>markos</dc:creator>
+		<pubDate>Mon, 26 Jun 2006 18:27:36 +0000</pubDate>
+		<guid isPermaLink="false">http://markos.gaivo.net/blog/?p=186#comment-3620</guid>
+		<description>My mistake then, I misunderstood you.</description>
+		<content:encoded><![CDATA[<p>My mistake then, I misunderstood you.</p>
+]]></content:encoded>
+	</item>
+	<item>
+		<title>By: Simon Willison</title>
+		<link>http://markos.gaivo.net/blog/?p=186&#038;cpage=1#comment-3619</link>
+		<dc:creator>Simon Willison</dc:creator>
+		<pubDate>Mon, 26 Jun 2006 18:08:13 +0000</pubDate>
+		<guid isPermaLink="false">http://markos.gaivo.net/blog/?p=186#comment-3619</guid>
+		<description>I think we&#039;re in agreement on the libraries-made-obsolete by browsers point. The question I was answering (at least as I interpreted it) was &quot;what would you like to see with libraries in the future&quot; - my ideal world would be for libraries not to be necessary because the browser-provided API does everything you need it to, but I know full well that that&#039;s an unatainable dream. I guess I was really just trying to emphasize the point that libraries patch over the gaps in the browser-provided APIs (better support for animation, drag-n-drop, fixed event model etc).</description>
+		<content:encoded><![CDATA[<p>I think we&#8217;re in agreement on the libraries-made-obsolete by browsers point. The question I was answering (at least as I interpreted it) was &#8220;what would you like to see with libraries in the future&#8221; &#8211; my ideal world would be for libraries not to be necessary because the browser-provided API does everything you need it to, but I know full well that that&#8217;s an unatainable dream. I guess I was really just trying to emphasize the point that libraries patch over the gaps in the browser-provided APIs (better support for animation, drag-n-drop, fixed event model etc).</p>
+]]></content:encoded>
+	</item>
+</channel>
+</rss>

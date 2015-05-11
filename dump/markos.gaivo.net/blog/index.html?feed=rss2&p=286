@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+		>
+<channel>
+	<title>Comments on: Hiding everything but editor on WordPress with Greasemonkey</title>
+	<atom:link href="http://markos.gaivo.net/blog/?feed=rss2&#038;p=286" rel="self" type="application/rss+xml" />
+	<link>http://markos.gaivo.net/blog/?p=286</link>
+	<description></description>
+	<lastBuildDate>Wed, 16 Jul 2014 16:04:38 +0000</lastBuildDate>
+	<sy:updatePeriod>hourly</sy:updatePeriod>
+	<sy:updateFrequency>1</sy:updateFrequency>
+	<generator>http://wordpress.org/?v=3.0.5</generator>
+	<item>
+		<title>By: markos</title>
+		<link>http://markos.gaivo.net/blog/?p=286&#038;cpage=1#comment-156217</link>
+		<dc:creator>markos</dc:creator>
+		<pubDate>Sun, 24 Aug 2008 08:49:18 +0000</pubDate>
+		<guid isPermaLink="false">http://markos.gaivo.net/blog/?p=286#comment-156217</guid>
+		<description>Well, I mostly am. I hide everything apart from links at the bottom, because that would complicate code a bit and I don&#039;t see that part anyhow as I stretch editor to take whole height of the screen.
+
+I do use Zemanta to add links after I finished writing. But I have to display hidden parts first to do so.</description>
+		<content:encoded><![CDATA[<p>Well, I mostly am. I hide everything apart from links at the bottom, because that would complicate code a bit and I don&#8217;t see that part anyhow as I stretch editor to take whole height of the screen.</p>
+<p>I do use Zemanta to add links after I finished writing. But I have to display hidden parts first to do so.</p>
+]]></content:encoded>
+	</item>
+	<item>
+		<title>By: Brian King</title>
+		<link>http://markos.gaivo.net/blog/?p=286&#038;cpage=1#comment-156116</link>
+		<dc:creator>Brian King</dc:creator>
+		<pubDate>Sat, 23 Aug 2008 21:51:09 +0000</pubDate>
+		<guid isPermaLink="false">http://markos.gaivo.net/blog/?p=286#comment-156116</guid>
+		<description>Looks like you are not hiding Zemanta ;)</description>
+		<content:encoded><![CDATA[<p>Looks like you are not hiding Zemanta <img src='http://markos.gaivo.net/blog/wp-includes/images/smilies/icon_wink.gif' alt=';)' class='wp-smiley' /> </p>
+]]></content:encoded>
+	</item>
+</channel>
+</rss>

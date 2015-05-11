@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>A notch above a monkey &raquo; Python on series 60</title>
+	<meta charset="utf-8" />
+	
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" /> 
+
+	<link rel="shortcut icon" href="/img/markos.ico" />
+	
+	<meta name="generator" content="WordPress 3.0.5" /> <!-- leave this for stats please -->
+
+	<link href="http://fast.fonts.com/cssapi/aee9b60b-8e94-47f8-b586-3ecbfab51d1c.css" rel="stylesheet" type="text/css" />
+	<link rel="stylesheet" type="text/css" href="css/home.css" media="screen" title="Light theme" />
+	<link rel="alternate stylesheet" type="text/css" href="css/home_dark.css" media="screen" title="Dark theme" />
+	<link rel="stylesheet" href="css/ipad.css" media="only screen and (min-device-width : 768px) and (max-device-width : 1024px)">
+	<link rel="stylesheet" type="text/css" href="css/smallscreen.css" media="only screen and (max-width: 700px)" />
+
+	<link rel="alternate" type="application/rss+xml" title="RSS 2.0" href="http://markos.gaivo.net/blog/?feed=rss2" />
+	<link rel="alternate" type="application/atom+xml" title="Atom 1.0" href="http://markos.gaivo.net/blog/?feed=atom" />
+	<link rel='canonical' href='http://markos.gaivo.net/blog/?p=664' />
+
+	<link rel="pingback" href="http://markos.gaivo.net/blog/xmlrpc.php" />
+
+	<link rel="alternate" type="application/rss+xml" title="A notch above a monkey &raquo; Python on series 60 Comments Feed" href="http://markos.gaivo.net/blog/?feed=rss2&amp;p=153" />
+<link rel="EditURI" type="application/rsd+xml" title="RSD" href="http://markos.gaivo.net/blog/xmlrpc.php?rsd" />
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="http://markos.gaivo.net/blog/wp-includes/wlwmanifest.xml" /> 
+<link rel='index' title='A notch above a monkey' href='http://markos.gaivo.net/blog' />
+<link rel='start' title='First post' href='http://markos.gaivo.net/blog/?p=2' />
+<link rel='prev' title='Role of graphic design' href='http://markos.gaivo.net/blog/?p=152' />
+<link rel='next' title='Two button movie player interface' href='http://markos.gaivo.net/blog/?p=154' />
+<meta name="generator" content="WordPress 3.0.5" />
+<link rel='canonical' href='http://markos.gaivo.net/blog/?p=153' />
+
+	<!--[if lt IE 9]>
+	<script src="/js/html5.js"></script>
+	<![endif]-->
+</head>
+<body>
+					<header>
+		<h1><a href="/blog/">A notch above a monkey</a> &raquo; Python on series 60</h1>
+	</header>
+
+	<section class="envelope">
+		<article class="post">
+			<header>
+				<h1>Python on series 60</h1>
+			</header>
+
+			<footer>
+				<ul>
+					<li class="by">Written by: <a href="/">Marko Samastur</a></li>
+					<li class="published">Published on: <time datetime="2006-04-20T10:24:58+00:00" pubdate>April 20, 2006</time></li>
+					<li class="categories">Categories: <a href="http://markos.gaivo.net/blog/?cat=2" title="View all posts in Python" rel="category">Python</a></li>
+					<li class="post-comments">Comments: <a href="http://markos.gaivo.net/blog/?p=153#comments" title="Comment on Python on series 60">4</a></li>
+				</ul>
+			</footer>
+
+			<div class="post-text">
+				<p>I knew it exists, but I haven&#8217;t looked into <a href="http://www.forum.nokia.com/python">Python on series 60</a> until yesterday and I wish I did so sooner. My mind is just flooded with ideas of what to do and I can easily see myself wasting lots of time playing with it. I do wish it was possible to build stand-alone applications, which wouldn&#8217;t require a separate installation of Python. As such I believe series 60 Python is more or less limited to prototyping and personal use.</p>
+<p>There&#8217;s one thing that is a problem for an old goat like me (over 30 and loving it). It&#8217;s a pain in the ass to type anything substantial on mobile phone and although some new phones (like Nokia N70) have predictive dictionary for my language, lots of them including mine don&#8217;t.</p>
+<p>I do have an idea on how to tackle this problem. Most of us have a vocabulary of few thousand words (unlike Shakespeare, who I&#8217;m told used 36 thousand of them), but we only use few hundred of them in our everyday life. Therefore if my text input heavy applications would continuously build a dictionary of words typed by user, they would fairly soon get a usable predictive dictionary for this particular user.</p>
+<p>There are downsides. You start with nothing and there&#8217;s a problem of how to build  a dictionary without annoying. You could tackle this by staying in learn-only mode until your dictionary-hit ratio rises above some threshold (80-90%?).</p>
+<p>There are also pluses. You get a dictionary that&#8217;s much better fitted to your user than a generic one, since it actually has words he uses. That is if I&#8217;m not underestimating dictionaries used in modern mobiles.</p>
+<p>What would make it even better is if such dictionary would be standardized so any application could use it.</p>
+<p><strong>Update: I was wrong, you </strong><strong><a href="http://www.mobilenin.com/pys60/info_standalone_application.htm">can</a></strong><strong> make a completely stand-alone application in Python. Sweet.<br />
+</strong></p>
+			</div>
+
+			<nav>
+				<p>If you liked this, you might want to visit:</p>
+				<ul>
+					<li>my previous article: <a href="http://markos.gaivo.net/blog/?p=152" rel="prev">Role of graphic design</a></li>					<li>my next article: <a href="http://markos.gaivo.net/blog/?p=154" rel="next">Two button movie player interface</a></li>					<li><a href="/blog/">article list</a></li>
+				</ul>
+			</nav>
+
+			<h2 id="comments">Comments (4)
+			</h2>
+			<ol class="comments">
+		
+				<li id="comment-1278">
+					<article>
+						<p>You said &#8220;What would make it even better is if such dictionary would be standardized so any application could use it&#8221;. But then you also need to provide a dictionnary server for many applications, with a simple API.</p>
+<p>Preferrably a network API, possibly a web one.</p>
+<p>Sooner or later you&#8217;ll end-up with something strange, between a database server and an RDF store. I know, because I built one:</p>
+<p>  <a href="http://laurentszyster.be/blog/allegra">http://laurentszyster.be/blog/allegra</a></p>
+<p>I called that thing a metabase peer and if you dream of crazy peer search applications that can run in a cell phone, you should definitively have a look at Allegra (aka Python on Peers). </p>
+<p>Regards,</p>
+						<footer>
+							<cite>Comment by <a href='http://laurentszyster.be/blog/' rel='external nofollow' class='url'>Laurent Szyster</a> &#8212; <time datetime="2006-04-20T11:52:50+00:00">April 20, 2006 @ 11:52 am</time> <a href="#comment-1278">#</a> </cite>
+						</footer>
+					</article>
+				</li>
+		
+				<li id="comment-1283">
+					<article>
+						<p>&#8220;I do wish it was possible to build stand-alone applications&#8221; it is, there&#8217;s a tool similar to py2exe out there.<br />
+&#8220;It’s a pain in the ass to type anything substantial on mobile phone&#8221; only if you do it _on_ the phone <img src='http://markos.gaivo.net/blog/wp-includes/images/smilies/icon_wink.gif' alt=';)' class='wp-smiley' /><br />
+use the bt console or a dev env like miso or a bt keyboard if you have deep pockets =)</p>
+						<footer>
+							<cite>Comment by voxvirus &#8212; <time datetime="2006-04-20T18:38:31+00:00">April 20, 2006 @ 6:38 pm</time> <a href="#comment-1283">#</a> </cite>
+						</footer>
+					</article>
+				</li>
+		
+				<li id="comment-1284">
+					<article>
+						<p>Allega looks interesting and I&#8217;ll certainly take a look at it in the future, but it&#8217;s not what I had in mind. My first objection would be that mobile network access is fairly expensive and even worse, latency is a bitch, which means you really need to have a local dictionary. My second objection would be that shared dictionary doesn&#8217;t help you build personalized dictionaries.</p>
+<p>I know py2exe, but I&#8217;d like something similiar for mobile phones and py2exe doesn&#8217;t fit the bill.</p>
+<p>I&#8217;m also aware of bt console, but the problem is not development. The problem is using those application on the go. If typing on my notebook would be an option, then there would be no need for application to run on mobile either.</p>
+						<footer>
+							<cite>Comment by <a href='http://markos.gaivo.net' rel='external nofollow' class='url'>markos</a> &#8212; <time datetime="2006-04-20T19:10:40+00:00">April 20, 2006 @ 7:10 pm</time> <a href="#comment-1284">#</a> </cite>
+						</footer>
+					</article>
+				</li>
+		
+				<li id="comment-1304">
+					<article>
+						<p>Thanks for the reply and the input about the S60.</p>
+<p>&#8220;My first objection would be that mobile network access is fairly expensive and even worse, latency is a bitch, which means you really need to have a local dictionary.&#8221;</p>
+<p>That&#8217;s right. But the purpose of making it small is to fit the metabase peer everywhere, including in the phone, as a local peer listening on the loopback device.</p>
+<p>&#8220;My second objection would be that shared dictionary doesn’t help you build personalized dictionaries.&#8221;</p>
+<p>Well, then how come that some of my words are also in your text? </p>
+<p>We do share dictionnary *and* we each have our own diverging vocabulary, languages, jargons and slangs. They may be close to each other or complete strangers, yet you should be able to share their content if you want to exchange, publish or search your many digital dictionnaries to come.</p>
+<p>Voila.</p>
+<p>I wish you good luck for your project. If you publish code make sure to blog about it. I would surely read it, because I believe that network peers are the new frontier computer applications.</p>
+<p>Kind Regards,</p>
+						<footer>
+							<cite>Comment by <a href='http://laurentszyster.be/blog/' rel='external nofollow' class='url'>Laurent Szyster</a> &#8212; <time datetime="2006-04-22T04:43:49+00:00">April 22, 2006 @ 4:43 am</time> <a href="#comment-1304">#</a> </cite>
+						</footer>
+					</article>
+				</li>
+		
+			</ol>
+
+
+		<p>Sorry, the comment form is closed at this time.</p>
+
+		</article>
+	</section>
+			<!-- All pages -->
+	
+
+	<footer>
+		<ul>
+			<li>&copy; 2005-2015 Marko Samastur</li>
+			
+			<li><a href="http://markos.gaivo.net/blog/?feed=rss2">Entries feed</a></li>
+			<li><a href="http://markos.gaivo.net/blog/?feed=comments-rss2">Comments feed</a></li>
+		</ul>
+		<a href="/"><img src="/img/markos_light_small_bg.png" alt="logo" class="mini-logo" /></a>
+	</footer>
+	<!-- Google analytics -->
+	<script type="text/javascript">
+	  var _gaq = _gaq || [];
+	  _gaq.push(['_setAccount', 'UA-152438-1']);
+	  _gaq.push(['_trackPageview']);
+	</script>
+	<script src="/js/cookie.js"></script>
+</body>
+</html>

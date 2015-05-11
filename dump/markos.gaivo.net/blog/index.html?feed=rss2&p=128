@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+		>
+<channel>
+	<title>Comments on: Google Page Creator (now together with screenshots)</title>
+	<atom:link href="http://markos.gaivo.net/blog/?feed=rss2&#038;p=128" rel="self" type="application/rss+xml" />
+	<link>http://markos.gaivo.net/blog/?p=128</link>
+	<description></description>
+	<lastBuildDate>Wed, 16 Jul 2014 16:04:38 +0000</lastBuildDate>
+	<sy:updatePeriod>hourly</sy:updatePeriod>
+	<sy:updateFrequency>1</sy:updateFrequency>
+	<generator>http://wordpress.org/?v=3.0.5</generator>
+	<item>
+		<title>By: markos</title>
+		<link>http://markos.gaivo.net/blog/?p=128&#038;cpage=1#comment-921</link>
+		<dc:creator>markos</dc:creator>
+		<pubDate>Fri, 24 Feb 2006 13:34:36 +0000</pubDate>
+		<guid isPermaLink="false">http://markos.gaivo.net/blog/?p=128#comment-921</guid>
+		<description>Fair enough. I wasn&#039;t aware that access was limited. I&#039;ll post an update soon.</description>
+		<content:encoded><![CDATA[<p>Fair enough. I wasn&#8217;t aware that access was limited. I&#8217;ll post an update soon.</p>
+]]></content:encoded>
+	</item>
+	<item>
+		<title>By: Eforus</title>
+		<link>http://markos.gaivo.net/blog/?p=128&#038;cpage=1#comment-920</link>
+		<dc:creator>Eforus</dc:creator>
+		<pubDate>Fri, 24 Feb 2006 13:32:35 +0000</pubDate>
+		<guid isPermaLink="false">http://markos.gaivo.net/blog/?p=128#comment-920</guid>
+		<description>Perhaps you are right, but if you do not already have an account it is not possible to see in what way it is &quot;very poor execution&quot;... maybe you can describe what you mean with &quot;but very poor execution&quot;?</description>
+		<content:encoded><![CDATA[<p>Perhaps you are right, but if you do not already have an account it is not possible to see in what way it is &#8220;very poor execution&#8221;&#8230; maybe you can describe what you mean with &#8220;but very poor execution&#8221;?</p>
+]]></content:encoded>
+	</item>
+</channel>
+</rss>

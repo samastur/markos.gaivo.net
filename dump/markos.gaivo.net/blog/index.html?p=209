@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>A notch above a monkey &raquo; Preventing download of javascript on mobile web</title>
+	<meta charset="utf-8" />
+	
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" /> 
+
+	<link rel="shortcut icon" href="/img/markos.ico" />
+	
+	<meta name="generator" content="WordPress 3.0.5" /> <!-- leave this for stats please -->
+
+	<link href="http://fast.fonts.com/cssapi/aee9b60b-8e94-47f8-b586-3ecbfab51d1c.css" rel="stylesheet" type="text/css" />
+	<link rel="stylesheet" type="text/css" href="css/home.css" media="screen" title="Light theme" />
+	<link rel="alternate stylesheet" type="text/css" href="css/home_dark.css" media="screen" title="Dark theme" />
+	<link rel="stylesheet" href="css/ipad.css" media="only screen and (min-device-width : 768px) and (max-device-width : 1024px)">
+	<link rel="stylesheet" type="text/css" href="css/smallscreen.css" media="only screen and (max-width: 700px)" />
+
+	<link rel="alternate" type="application/rss+xml" title="RSS 2.0" href="http://markos.gaivo.net/blog/?feed=rss2" />
+	<link rel="alternate" type="application/atom+xml" title="Atom 1.0" href="http://markos.gaivo.net/blog/?feed=atom" />
+	<link rel='canonical' href='http://markos.gaivo.net/blog/?p=664' />
+
+	<link rel="pingback" href="http://markos.gaivo.net/blog/xmlrpc.php" />
+
+	<link rel="alternate" type="application/rss+xml" title="A notch above a monkey &raquo; Preventing download of javascript on mobile web Comments Feed" href="http://markos.gaivo.net/blog/?feed=rss2&amp;p=209" />
+<link rel="EditURI" type="application/rsd+xml" title="RSD" href="http://markos.gaivo.net/blog/xmlrpc.php?rsd" />
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="http://markos.gaivo.net/blog/wp-includes/wlwmanifest.xml" /> 
+<link rel='index' title='A notch above a monkey' href='http://markos.gaivo.net/blog' />
+<link rel='start' title='First post' href='http://markos.gaivo.net/blog/?p=2' />
+<link rel='prev' title='Back' href='http://markos.gaivo.net/blog/?p=208' />
+<link rel='next' title='Handling 404' href='http://markos.gaivo.net/blog/?p=210' />
+<meta name="generator" content="WordPress 3.0.5" />
+<link rel='canonical' href='http://markos.gaivo.net/blog/?p=209' />
+
+	<!--[if lt IE 9]>
+	<script src="/js/html5.js"></script>
+	<![endif]-->
+</head>
+<body>
+					<header>
+		<h1><a href="/blog/">A notch above a monkey</a> &raquo; Preventing download of javascript on mobile web</h1>
+	</header>
+
+	<section class="envelope">
+		<article class="post">
+			<header>
+				<h1>Preventing download of javascript on mobile web</h1>
+			</header>
+
+			<footer>
+				<ul>
+					<li class="by">Written by: <a href="/">Marko Samastur</a></li>
+					<li class="published">Published on: <time datetime="2006-10-29T21:55:26+00:00" pubdate>October 29, 2006</time></li>
+					<li class="categories">Categories: <a href="http://markos.gaivo.net/blog/?cat=1" title="View all posts in Javascript" rel="category">Javascript</a>, <a href="http://markos.gaivo.net/blog/?cat=4" title="View all posts in Web" rel="category">Web</a></li>
+					<li class="post-comments">Comments: <a href="http://markos.gaivo.net/blog/?p=209#comments" title="Comment on Preventing download of javascript on mobile web">9</a></li>
+				</ul>
+			</footer>
+
+			<div class="post-text">
+				<p>Every year I spend a few weeks somewhere where internet connection is either slow or metered and expensive. Usually it&#8217;s both which makes me rather twitchy when it comes to big web page sizes. Yet I&#8217;m also certain that my new web home, however it may turn out at the end, will have a significant chunk of it written in Javascript. None of it necessary for working, but more than I&#8217;d probably like to download over flimsy mobile phone connection.</p>
+<p>The problem are not really old mobile browsers which don&#8217;t support Javascript. They won&#8217;t download any of it anyway. The question is how to prevent eager browsers, who would, from downloading this stuff when you don&#8217;t want them to. My first, rather primitive attempt was <a href="http://markos.gaivo.net/examples/envcheck/index.html" title="Demo of javascript ondemand loading depending on media">this demonstration</a>, which only works in Opera 9, Safari and Firefox, but most certainly doesn&#8217;t work in all browsers.</p>
+<p>What it does is check font size of a title and based on its value resolves which media style sheet was used. If it was <em>mobile.css</em>, which is used only when media is set to <em>handheld</em>, then it was probably done from a mobile environment, so it includes the mobile version of a Javascript or it could, if I wanted, none at all.</p>
+<p>There are several problems with this approach. First one is that it doesn&#8217;t recognize notebook users connecting over a  cellphone. It can&#8217;t really, since browser environment is literally the same, unless it would try to measure latency and bandwidth of page elements and guess from those results, which is neither easy nor reliable. 3G networks can be rather fast and have a better latency than a wired connection from somewhere like Tanzania.</p>
+<p>But let&#8217;s say we don&#8217;t care about this case. We can always turn Javascript off in Firefox if it&#8217;s important enough to us, which leads us to the next problem. Support for handheld media type is still rather spotty. If browser doesn&#8217;t support it, it may load the wrong style sheet if any at all and the wrong CSS value results in wrong turn in Javascript. However <em>handheld media</em> support is getting better. Since I decided from the start that my personal page is a good place where leading edge can also be a bit of bleeding one, that is good enough. On a different site this probably wouldn&#8217;t be true.</p>
+<p>So it sort of works in principle, but it is crude and error prone. Javascript check is not self-contained and I could easily break it by changing font size value of a title in CSS files while forgetting to do a corresponding correction in code. What would be much better is to learn from the browser which media types style sheets were actually used and act accordingly. Now that would be grand.</p>
+<p>There are two ways you could go about this. My first go was finding style nodes in DOM and looking at their <em>disabled</em> property, which is commonly used in style sheet switchers for turning sheets on and off. It doesn&#8217;t work, since &#8216;wrong&#8217; media types in Firefox are ignored, not disabled. Their <em>disabled</em> value is still set to <em>false</em>.</p>
+<p>A proper way of doing it would be using DOM Style Sheets methods. Basic idea is to compare actual values as set in the page with values read from style sheets and resolving which ones were used. While not exactly trivial, by little forethought it can be made to work fine in Opera and Firefox. It can also work in Explorer using its own methods, but it&#8217;s a pain to make it  work in Safari, which in this case is not only an incompetent liar, it&#8217;s also lying in some weird accent. If you&#8217;d like to learn more about it, then there&#8217;s a <a href="http://www.howtocreate.co.uk/tutorials/javascript/domstylesheets" title="Problems with DOM Style Sheets use">great</a> page describing current state but the gist of it is that you can&#8217;t rely on methods being there and even when they are, in some form or another, they might not work reliably (Safari) or might produce weird results (yup, Safari again).</p>
+<p>Well, it could still work, but would require an unreasonable amount of code. Hence I made a different tradeoff, which can be seen <a href="http://markos.gaivo.net/examples/envcheck/index2.html" title="Second attempt">here</a>. A bit less automation for a lot less code. It keeps the idea of first demo with a small twist. First rule of every media style sheet targets the same element that gets created by Javascript if necessary and compares its font size value with those found in style sheets. It returns media types of all sheets where this value was found.</p>
+<p>The end result certainly isn&#8217;t perfect or pretty, but it keeps amount of bookkeeping to minimum and limited to CSS files. Even using a &#8220;safe&#8221; property like font size can lead to problems (e.g. 0.9em is sometimes interpreted as 0.90em), but nothing difficult to overcome.</p>
+<p>It might not be of production quality, but it will work as good starting point for further exploration.</p>
+			</div>
+
+			<nav>
+				<p>If you liked this, you might want to visit:</p>
+				<ul>
+					<li>my previous article: <a href="http://markos.gaivo.net/blog/?p=208" rel="prev">Back</a></li>					<li>my next article: <a href="http://markos.gaivo.net/blog/?p=210" rel="next">Handling 404</a></li>					<li><a href="/blog/">article list</a></li>
+				</ul>
+			</nav>
+
+			<h2 id="comments">Comments (9)
+			</h2>
+			<ol class="comments">
+		
+				<li id="comment-133083">
+					<article>
+						<p>thank you sir for creating this website i must say sincerely it is good</p>
+						<footer>
+							<cite>Comment by mudassir &#8212; <time datetime="2008-05-18T12:31:53+00:00">May 18, 2008 @ 12:31 pm</time> <a href="#comment-133083">#</a> </cite>
+						</footer>
+					</article>
+				</li>
+		
+				<li id="comment-182894">
+					<article>
+						<p>Im currently living in Tanzania and yes its expensive and really slow! I tried reading what you wrote three times but still didn&#8217;t understand anything.Could you please get back to me and maybe explain more briefly how i could use this information to make it easier for me.Thanks</p>
+						<footer>
+							<cite>Comment by Huda &#8212; <time datetime="2009-02-11T12:49:06+00:00">February 11, 2009 @ 12:49 pm</time> <a href="#comment-182894">#</a> </cite>
+						</footer>
+					</article>
+				</li>
+		
+				<li id="comment-183852">
+					<article>
+						<p>I have a motorola VE240 is there any way to download<br />
+javascript to it?</p>
+						<footer>
+							<cite>Comment by Rey &#8212; <time datetime="2009-02-17T18:15:09+00:00">February 17, 2009 @ 6:15 pm</time> <a href="#comment-183852">#</a> </cite>
+						</footer>
+					</article>
+				</li>
+		
+				<li id="comment-184161">
+					<article>
+						<p>@Rey I don&#8217;t know, because I don&#8217;t have a motorola.</p>
+						<footer>
+							<cite>Comment by <a href='http://markos.gaivo.net' rel='external nofollow' class='url'>markos</a> &#8212; <time datetime="2009-02-19T10:00:05+00:00">February 19, 2009 @ 10:00 am</time> <a href="#comment-184161">#</a> </cite>
+						</footer>
+					</article>
+				</li>
+		
+				<li id="comment-195719">
+					<article>
+						<p>i need java scripts for mobile</p>
+						<footer>
+							<cite>Comment by BArzah &#8212; <time datetime="2009-06-16T11:41:51+00:00">June 16, 2009 @ 11:41 am</time> <a href="#comment-195719">#</a> </cite>
+						</footer>
+					</article>
+				</li>
+		
+				<li id="comment-197355">
+					<article>
+						<p>Nu stiu engleza</p>
+						<footer>
+							<cite>Comment by Radulescu carmen &#8212; <time datetime="2009-07-06T18:26:09+00:00">July 6, 2009 @ 6:26 pm</time> <a href="#comment-197355">#</a> </cite>
+						</footer>
+					</article>
+				</li>
+		
+				<li id="comment-197356">
+					<article>
+						<p>Y need java script.help</p>
+						<footer>
+							<cite>Comment by Radulescu carmen &#8212; <time datetime="2009-07-06T18:28:14+00:00">July 6, 2009 @ 6:28 pm</time> <a href="#comment-197356">#</a> </cite>
+						</footer>
+					</article>
+				</li>
+		
+				<li id="comment-197976">
+					<article>
+						<p>my mobile set is 6300 NOKIA , i want to download the javascript tomy mobile number +91 9652215181. how to download? please send e-mail details.</p>
+						<footer>
+							<cite>Comment by <a href='http://javascript' rel='external nofollow' class='url'>radhakrishnan_R</a> &#8212; <time datetime="2009-07-13T11:29:58+00:00">July 13, 2009 @ 11:29 am</time> <a href="#comment-197976">#</a> </cite>
+						</footer>
+					</article>
+				</li>
+		
+				<li id="comment-214457">
+					<article>
+						<p>Mobile browsers are still kind of crude if you compare it to the desktop browsers we use on PC.::~</p>
+						<footer>
+							<cite>Comment by <a href='http://www.cafefurniture.org' rel='external nofollow' class='url'>Charlotte Wright</a> &#8212; <time datetime="2010-07-09T16:56:01+00:00">July 9, 2010 @ 4:56 pm</time> <a href="#comment-214457">#</a> </cite>
+						</footer>
+					</article>
+				</li>
+		
+			</ol>
+
+
+		<p>Sorry, the comment form is closed at this time.</p>
+
+		</article>
+	</section>
+			<!-- All pages -->
+	
+
+	<footer>
+		<ul>
+			<li>&copy; 2005-2015 Marko Samastur</li>
+			
+			<li><a href="http://markos.gaivo.net/blog/?feed=rss2">Entries feed</a></li>
+			<li><a href="http://markos.gaivo.net/blog/?feed=comments-rss2">Comments feed</a></li>
+		</ul>
+		<a href="/"><img src="/img/markos_light_small_bg.png" alt="logo" class="mini-logo" /></a>
+	</footer>
+	<!-- Google analytics -->
+	<script type="text/javascript">
+	  var _gaq = _gaq || [];
+	  _gaq.push(['_setAccount', 'UA-152438-1']);
+	  _gaq.push(['_trackPageview']);
+	</script>
+	<script src="/js/cookie.js"></script>
+</body>
+</html>

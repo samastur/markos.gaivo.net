@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+		>
+<channel>
+	<title>Comments on: Updated sgmllib</title>
+	<atom:link href="http://markos.gaivo.net/blog/?feed=rss2&#038;p=144" rel="self" type="application/rss+xml" />
+	<link>http://markos.gaivo.net/blog/?p=144</link>
+	<description></description>
+	<lastBuildDate>Wed, 16 Jul 2014 16:04:38 +0000</lastBuildDate>
+	<sy:updatePeriod>hourly</sy:updatePeriod>
+	<sy:updateFrequency>1</sy:updateFrequency>
+	<generator>http://wordpress.org/?v=3.0.5</generator>
+	<item>
+		<title>By: JustinB</title>
+		<link>http://markos.gaivo.net/blog/?p=144&#038;cpage=1#comment-1106</link>
+		<dc:creator>JustinB</dc:creator>
+		<pubDate>Sat, 01 Apr 2006 18:25:25 +0000</pubDate>
+		<guid isPermaLink="false">http://markos.gaivo.net/blog/?p=144#comment-1106</guid>
+		<description>Perhaps you should also make a unittest which fails with the old and succeeds with your new version; so you could point out the flaws of the std lib.</description>
+		<content:encoded><![CDATA[<p>Perhaps you should also make a unittest which fails with the old and succeeds with your new version; so you could point out the flaws of the std lib.</p>
+]]></content:encoded>
+	</item>
+</channel>
+</rss>

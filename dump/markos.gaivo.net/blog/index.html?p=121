@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>A notch above a monkey &raquo; Tag frequency ratio</title>
+	<meta charset="utf-8" />
+	
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" /> 
+
+	<link rel="shortcut icon" href="/img/markos.ico" />
+	
+	<meta name="generator" content="WordPress 3.0.5" /> <!-- leave this for stats please -->
+
+	<link href="http://fast.fonts.com/cssapi/aee9b60b-8e94-47f8-b586-3ecbfab51d1c.css" rel="stylesheet" type="text/css" />
+	<link rel="stylesheet" type="text/css" href="css/home.css" media="screen" title="Light theme" />
+	<link rel="alternate stylesheet" type="text/css" href="css/home_dark.css" media="screen" title="Dark theme" />
+	<link rel="stylesheet" href="css/ipad.css" media="only screen and (min-device-width : 768px) and (max-device-width : 1024px)">
+	<link rel="stylesheet" type="text/css" href="css/smallscreen.css" media="only screen and (max-width: 700px)" />
+
+	<link rel="alternate" type="application/rss+xml" title="RSS 2.0" href="http://markos.gaivo.net/blog/?feed=rss2" />
+	<link rel="alternate" type="application/atom+xml" title="Atom 1.0" href="http://markos.gaivo.net/blog/?feed=atom" />
+	<link rel='canonical' href='http://markos.gaivo.net/blog/?p=664' />
+
+	<link rel="pingback" href="http://markos.gaivo.net/blog/xmlrpc.php" />
+
+	<link rel="EditURI" type="application/rsd+xml" title="RSD" href="http://markos.gaivo.net/blog/xmlrpc.php?rsd" />
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="http://markos.gaivo.net/blog/wp-includes/wlwmanifest.xml" /> 
+<link rel='index' title='A notch above a monkey' href='http://markos.gaivo.net/blog' />
+<link rel='start' title='First post' href='http://markos.gaivo.net/blog/?p=2' />
+<link rel='prev' title='Tags' href='http://markos.gaivo.net/blog/?p=120' />
+<link rel='next' title='CSS margin collapse' href='http://markos.gaivo.net/blog/?p=122' />
+<meta name="generator" content="WordPress 3.0.5" />
+<link rel='canonical' href='http://markos.gaivo.net/blog/?p=121' />
+
+	<!--[if lt IE 9]>
+	<script src="/js/html5.js"></script>
+	<![endif]-->
+</head>
+<body>
+					<header>
+		<h1><a href="/blog/">A notch above a monkey</a> &raquo; Tag frequency ratio</h1>
+	</header>
+
+	<section class="envelope">
+		<article class="post">
+			<header>
+				<h1>Tag frequency ratio</h1>
+			</header>
+
+			<footer>
+				<ul>
+					<li class="by">Written by: <a href="/">Marko Samastur</a></li>
+					<li class="published">Published on: <time datetime="2006-02-09T14:43:13+00:00" pubdate>February 9, 2006</time></li>
+					<li class="categories">Categories: <a href="http://markos.gaivo.net/blog/?cat=5" title="View all posts in General development" rel="category">General development</a>, <a href="http://markos.gaivo.net/blog/?cat=7" title="View all posts in UI" rel="category">UI</a>, <a href="http://markos.gaivo.net/blog/?cat=4" title="View all posts in Web" rel="category">Web</a></li>
+					<li class="post-comments">Comments: <span>Comments Off</span></li>
+				</ul>
+			</footer>
+
+			<div class="post-text">
+				<p>Yesterday I talked about influence of language and tag design on ratio between the number of unique and all tags. I haven&#8217;t discussed why this number would be interesting and what would it tell us.</p>
+<p>Let&#8217;s start with a simple graph:</p>
+<p><img src="http://markos.gaivo.net/images/tag-graph.jpg" alt="Tag space" class="image" /></p>
+<p>Blue circles represent objects. Connections represent tags and rectangulars are pages with hits for a specific unique tag. As we can see, all images but one have two tags (number of connections from a circle) and the most popular tag is attached to 4 images (number of connections from a rectangular). </p>
+<p>What ratio tells us is an average frequency of a given tag (how many connections does a typical rectangular have). The higher it is, more hits will be returned by search.</p>
+<p>However, tag connections and rectangulars also form a path between objects. Therefore higher ratio also means a better connected graph with (again on average) shorter paths between different objects. For example if we look at the red path on example graph then left top object is at least two clicks away from the top one and at least four clicks away from the bottom right one.</p>
+<p>If tag browsing and searching are main methods of exploration, then a loner like the most right circle is practically unreachable and more tags an object has, the better chances it has to be discovered.</p>
+<p>Now, I presented a very simplified graph with a fairly even distribution of tags. Normally you wouldn&#8217;t have this. A word like cat is far more likely to be used as a tag than something like hippopotamus resulting in creation of super-nodes with far more connections to objects than system&#8217;s tag frequency ratio.</p>
+<p>With time you&#8217;d also expect this ratio to grow. Vocabulary, especially of commonly used words, is far more limited than number of pictures people can take and with time it becomes harder to create a unique tag. Flickr has tens or even hundred millions of tags, but certainly far less unique ones.</p>
+<p>Graph topography and things like super-nodes not only skew the picture, they can also change the perception and application use. I&#8217;ll write more about how in few months, when there will be more knowing and less guessing.</p>
+			</div>
+
+			<nav>
+				<p>If you liked this, you might want to visit:</p>
+				<ul>
+					<li>my previous article: <a href="http://markos.gaivo.net/blog/?p=120" rel="prev">Tags</a></li>					<li>my next article: <a href="http://markos.gaivo.net/blog/?p=122" rel="next">CSS margin collapse</a></li>					<li><a href="/blog/">article list</a></li>
+				</ul>
+			</nav>
+
+			<h2 id="comments">No Comments
+			</h2>
+			<p>No comments yet.</p>
+
+		<p>Sorry, the comment form is closed at this time.</p>
+
+		</article>
+	</section>
+			<!-- All pages -->
+	
+
+	<footer>
+		<ul>
+			<li>&copy; 2005-2015 Marko Samastur</li>
+			
+			<li><a href="http://markos.gaivo.net/blog/?feed=rss2">Entries feed</a></li>
+			<li><a href="http://markos.gaivo.net/blog/?feed=comments-rss2">Comments feed</a></li>
+		</ul>
+		<a href="/"><img src="/img/markos_light_small_bg.png" alt="logo" class="mini-logo" /></a>
+	</footer>
+	<!-- Google analytics -->
+	<script type="text/javascript">
+	  var _gaq = _gaq || [];
+	  _gaq.push(['_setAccount', 'UA-152438-1']);
+	  _gaq.push(['_trackPageview']);
+	</script>
+	<script src="/js/cookie.js"></script>
+</body>
+</html>

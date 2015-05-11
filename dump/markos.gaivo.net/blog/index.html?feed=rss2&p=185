@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+		>
+<channel>
+	<title>Comments on: @media 2006 is over</title>
+	<atom:link href="http://markos.gaivo.net/blog/?feed=rss2&#038;p=185" rel="self" type="application/rss+xml" />
+	<link>http://markos.gaivo.net/blog/?p=185</link>
+	<description></description>
+	<lastBuildDate>Wed, 16 Jul 2014 16:04:38 +0000</lastBuildDate>
+	<sy:updatePeriod>hourly</sy:updatePeriod>
+	<sy:updateFrequency>1</sy:updateFrequency>
+	<generator>http://wordpress.org/?v=3.0.5</generator>
+	<item>
+		<title>By: &#187; My &#8220;Yahoo! vs. Yahoo!&#8221; @media 2006 Slides Nate Koechley&#8217;s Blog</title>
+		<link>http://markos.gaivo.net/blog/?p=185&#038;cpage=1#comment-4055</link>
+		<dc:creator>&#187; My &#8220;Yahoo! vs. Yahoo!&#8221; @media 2006 Slides Nate Koechley&#8217;s Blog</dc:creator>
+		<pubDate>Thu, 13 Jul 2006 00:54:15 +0000</pubDate>
+		<guid isPermaLink="false">http://markos.gaivo.net/blog/?p=185#comment-4055</guid>
+		<description>[...] eeky stuff.&#8221;  IT Bytes in @Media 2006  &#8220;Rating, 8/10&#8243;  Marko Samastur in @media 2006 is over  &#8220;[@media] was great and I specially enjoyed presentations given by Nate Koechley a [...]</description>
+		<content:encoded><![CDATA[<p>[...] eeky stuff.&#8221;  IT Bytes in @Media 2006  &#8220;Rating, 8/10&#8243;  Marko Samastur in @media 2006 is over  &#8220;[@media] was great and I specially enjoyed presentations given by Nate Koechley a [...]</p>
+]]></content:encoded>
+	</item>
+	<item>
+		<title>By: Malarkey</title>
+		<link>http://markos.gaivo.net/blog/?p=185&#038;cpage=1#comment-3384</link>
+		<dc:creator>Malarkey</dc:creator>
+		<pubDate>Mon, 19 Jun 2006 01:23:53 +0000</pubDate>
+		<guid isPermaLink="false">http://markos.gaivo.net/blog/?p=185#comment-3384</guid>
+		<description>Many thanks for your kind words. I&#039;m very pleased that you enjoyed my presentation.
+
+Many kind regards,
+
+Andy</description>
+		<content:encoded><![CDATA[<p>Many thanks for your kind words. I&#8217;m very pleased that you enjoyed my presentation.</p>
+<p>Many kind regards,</p>
+<p>Andy</p>
+]]></content:encoded>
+	</item>
+</channel>
+</rss>

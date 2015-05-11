@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+		>
+<channel>
+	<title>Comments on: Generating Python Exceptions Classes</title>
+	<atom:link href="http://markos.gaivo.net/blog/?feed=rss2&#038;p=281" rel="self" type="application/rss+xml" />
+	<link>http://markos.gaivo.net/blog/?p=281</link>
+	<description></description>
+	<lastBuildDate>Wed, 16 Jul 2014 16:04:38 +0000</lastBuildDate>
+	<sy:updatePeriod>hourly</sy:updatePeriod>
+	<sy:updateFrequency>1</sy:updateFrequency>
+	<generator>http://wordpress.org/?v=3.0.5</generator>
+	<item>
+		<title>By: markos</title>
+		<link>http://markos.gaivo.net/blog/?p=281&#038;cpage=1#comment-148561</link>
+		<dc:creator>markos</dc:creator>
+		<pubDate>Thu, 24 Jul 2008 05:46:20 +0000</pubDate>
+		<guid isPermaLink="false">http://markos.gaivo.net/blog/?p=281#comment-148561</guid>
+		<description>Thanks for all suggestions. Subclassing is certainly the way to go.</description>
+		<content:encoded><![CDATA[<p>Thanks for all suggestions. Subclassing is certainly the way to go.</p>
+]]></content:encoded>
+	</item>
+	<item>
+		<title>By: Jochen</title>
+		<link>http://markos.gaivo.net/blog/?p=281&#038;cpage=1#comment-148296</link>
+		<dc:creator>Jochen</dc:creator>
+		<pubDate>Wed, 23 Jul 2008 19:30:51 +0000</pubDate>
+		<guid isPermaLink="false">http://markos.gaivo.net/blog/?p=281#comment-148296</guid>
+		<description>I really like your third approach for its maintainability. You could even move your &quot;protocol specification&quot; out of the source code and parse it whenever you want to create the necessary exceptions.
+
+But I see a few problems with it as well. Documentation tools may not find these dynamically created classes which makes their integration into a larger library a little bit ugly. And since this is a little bit unusual, you will have to take measures your intention is clear on first sight. It would probably a good idea to put this into a separate source file.
+
+In the end, it&#039;s a really sexy usage of Python&#039;s dynamical nature. But I am not sure whether this clever idea is worth deviating from what everyone would intuitively do (and except).</description>
+		<content:encoded><![CDATA[<p>I really like your third approach for its maintainability. You could even move your &#8220;protocol specification&#8221; out of the source code and parse it whenever you want to create the necessary exceptions.</p>
+<p>But I see a few problems with it as well. Documentation tools may not find these dynamically created classes which makes their integration into a larger library a little bit ugly. And since this is a little bit unusual, you will have to take measures your intention is clear on first sight. It would probably a good idea to put this into a separate source file.</p>
+<p>In the end, it&#8217;s a really sexy usage of Python&#8217;s dynamical nature. But I am not sure whether this clever idea is worth deviating from what everyone would intuitively do (and except).</p>
+]]></content:encoded>
+	</item>
+	<item>
+		<title>By: Matt Wilson</title>
+		<link>http://markos.gaivo.net/blog/?p=281&#038;cpage=1#comment-148232</link>
+		<dc:creator>Matt Wilson</dc:creator>
+		<pubDate>Wed, 23 Jul 2008 15:02:09 +0000</pubDate>
+		<guid isPermaLink="false">http://markos.gaivo.net/blog/?p=281#comment-148232</guid>
+		<description>First of all, dynamic or not, your exceptions should probably inherit from a customer StatusCodeException, like Lorenzo said.  Maybe even think about using several layers of subclasses to cluster groups of exceptions.  I use exception subclasses to control which cleanup code to execute.  Instances of the same type of exception can hold varying attributes.
+
+Second, I love doing tricks like dynamically making classes because it shows how powerful python is.  It&#039;s fun to show off to java people.  But I keep Occam&#039;s razor in mind also (simplest solution is often the best).
+
+What about making an exception_factory function that accepts a tuple of args and returns the newly defined exception class, vaguely like this:
+
+def exception_factory():
+    class CodeStatusException99(Exception):
+        &quot;Just some good ol&#039; boys...&quot;
+    return CodeStatusException99
+
+CodeStatusException99 = exception_factory()
+
+Of course, you would need to use parameters to tweak the exception created inside.
+
+This approach seems more gentle that writing into the global dictionary. Some functional-programming people might get fussy about that.</description>
+		<content:encoded><![CDATA[<p>First of all, dynamic or not, your exceptions should probably inherit from a customer StatusCodeException, like Lorenzo said.  Maybe even think about using several layers of subclasses to cluster groups of exceptions.  I use exception subclasses to control which cleanup code to execute.  Instances of the same type of exception can hold varying attributes.</p>
+<p>Second, I love doing tricks like dynamically making classes because it shows how powerful python is.  It&#8217;s fun to show off to java people.  But I keep Occam&#8217;s razor in mind also (simplest solution is often the best).</p>
+<p>What about making an exception_factory function that accepts a tuple of args and returns the newly defined exception class, vaguely like this:</p>
+<p>def exception_factory():<br />
+    class CodeStatusException99(Exception):<br />
+        &#8220;Just some good ol&#8217; boys&#8230;&#8221;<br />
+    return CodeStatusException99</p>
+<p>CodeStatusException99 = exception_factory()</p>
+<p>Of course, you would need to use parameters to tweak the exception created inside.</p>
+<p>This approach seems more gentle that writing into the global dictionary. Some functional-programming people might get fussy about that.</p>
+]]></content:encoded>
+	</item>
+	<item>
+		<title>By: Lorenzo Gatti</title>
+		<link>http://markos.gaivo.net/blog/?p=281&#038;cpage=1#comment-148152</link>
+		<dc:creator>Lorenzo Gatti</dc:creator>
+		<pubDate>Wed, 23 Jul 2008 12:21:04 +0000</pubDate>
+		<guid isPermaLink="false">http://markos.gaivo.net/blog/?p=281#comment-148152</guid>
+		<description>If the raise statement needs classes, this is the way to create classes.
+But in this specific case I would create subclasses of a custom StatusCodeException class, allowing me to write &quot;except StatusCodeException&quot; and process all status codes uniformly and to share methods involving the &quot;status&quot; and &quot;value&quot; fields (at some point these outcomes should be treated like the less bad status codes that don&#039;t start their life as exceptions).</description>
+		<content:encoded><![CDATA[<p>If the raise statement needs classes, this is the way to create classes.<br />
+But in this specific case I would create subclasses of a custom StatusCodeException class, allowing me to write &#8220;except StatusCodeException&#8221; and process all status codes uniformly and to share methods involving the &#8220;status&#8221; and &#8220;value&#8221; fields (at some point these outcomes should be treated like the less bad status codes that don&#8217;t start their life as exceptions).</p>
+]]></content:encoded>
+	</item>
+</channel>
+</rss>

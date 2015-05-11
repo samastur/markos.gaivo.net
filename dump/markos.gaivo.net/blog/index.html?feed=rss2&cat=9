@@ -1,0 +1,300 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>A notch above a monkey &#187; Company</title>
+	<atom:link href="http://markos.gaivo.net/blog/?feed=rss2&#038;cat=9" rel="self" type="application/rss+xml" />
+	<link>http://markos.gaivo.net/blog</link>
+	<description></description>
+	<lastBuildDate>Mon, 26 Jan 2015 07:00:03 +0000</lastBuildDate>
+	<language>en</language>
+	<sy:updatePeriod>hourly</sy:updatePeriod>
+	<sy:updateFrequency>1</sy:updateFrequency>
+	<generator>http://wordpress.org/?v=3.0.5</generator>
+		<item>
+		<title>Salary and geography</title>
+		<link>http://markos.gaivo.net/blog/?p=766</link>
+		<comments>http://markos.gaivo.net/blog/?p=766#comments</comments>
+		<pubDate>Wed, 21 Sep 2011 10:43:18 +0000</pubDate>
+		<dc:creator>markos</dc:creator>
+				<category><![CDATA[Company]]></category>
+		<category><![CDATA[General development]]></category>
+		<category><![CDATA[Balsamiq]]></category>
+		<category><![CDATA[Compensation]]></category>
+		<category><![CDATA[Compensation & Benefits]]></category>
+		<category><![CDATA[Employment]]></category>
+
+		<guid isPermaLink="false">http://markos.gaivo.net/blog/?p=766</guid>
+		<description><![CDATA[I recently read a couple of articles about employee compensation at Balsamiq. It is obvious that they really thought through this problem and came to what is an undoubtedly a generous package. It would be great to hear more about how they use OECD Consumer Price to calculate relative cost of living (since I fail [...]]]></description>
+			<content:encoded><![CDATA[<p>I recently read <a title="Link to article about salary" href="http://blogs.balsamiq.com/team/2011/09/12/salary/">a couple</a> <a title="Link to article about profit sharing" href="http://blogs.balsamiq.com/team/2011/09/12/profitsharing/">of articles</a> about employee compensation at <a class="zem_slink" title="Balsamiq" rel="homepage" href="http://www.balsamiq.com/">Balsamiq</a>. It is obvious that they really thought through this problem and came to what is an undoubtedly a generous package. It would be great to hear more about how they use OECD Consumer Price to calculate relative cost of living (since I fail to see how), but what really bothered me was a stated fairness of:</p>
+<blockquote cite="http://blogs.balsamiq.com/team/2011/09/12/salary/"><p>You are paid a little better than someone with your same job in your geographical area.</p></blockquote>
+<p>I am amazed at how often this view comes up in discussions I have about geographically distributed teams  and I still don&#8217;t find it fair. The only argument for it is the free market one. You are paid as little as company can get away with which in general is around average salary. Obviously this approach works only for those who can&#8217;t or won&#8217;t telecommute to somewhere with a higher salary or can&#8217;t find a more appealing environment with about same compensation. At least in our industry this certainly loses you a good chunk of top talent.</p>
+<p>A fair compensation should reflect value added by the employee. Two people doing same work and providing same value deserve to be paid equally no matter where they happen to live. It is somewhat hypocritical to price your service based on value provided and fail to do so with service provided to you by your employees.</p>
+<p>In essence it is also a judgement on what kind of living standard an employee deserves &#8211; about the same as peers around him. Probably alright if you happen to live somewhere like Stockholm and far less impressive in less developed parts of our planet, but fundamentally it is a judgement that shouldn&#8217;t be made by employers.</p>
+<p>For those paid enough to meet existential needs compensation isn&#8217;t the most important part of a job or at least it shouldn&#8217;t be. It certainly isn&#8217;t for me and I doubt Balsamiq employees are unhappy with theirs. I also don&#8217;t have a problem working for an organization with such a policy, but I still think it is wrong.</p>
+<p>A side note: have you noticed how every author describing their company practices says they are paying slightly above average? Either only people from above average companies write these kind of articles or some of them have to be delusional.</p>
+<div class="zemanta-pixie"><img class="zemanta-pixie-img" src="http://img.zemanta.com/pixy.gif?x-id=5d180352-0346-4276-be3b-2b4bf818c65a" alt="" /></div>
+]]></content:encoded>
+			<wfw:commentRss>http://markos.gaivo.net/blog/?feed=rss2&#038;p=766</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+		<item>
+		<title>My prototypes on YouTube</title>
+		<link>http://markos.gaivo.net/blog/?p=588</link>
+		<comments>http://markos.gaivo.net/blog/?p=588#comments</comments>
+		<pubDate>Fri, 26 Mar 2010 11:22:17 +0000</pubDate>
+		<dc:creator>markos</dc:creator>
+				<category><![CDATA[Company]]></category>
+		<category><![CDATA[UI]]></category>
+		<category><![CDATA[interactions]]></category>
+		<category><![CDATA[job]]></category>
+		<category><![CDATA[prototype]]></category>
+		<category><![CDATA[prototypes]]></category>
+		<category><![CDATA[Zemanta]]></category>
+
+		<guid isPermaLink="false">http://markos.gaivo.net/blog/?p=588</guid>
+		<description><![CDATA[I am not much of a YouTube user, but I have recently started to upload some of my work there. You might find them interesting if you are into interactions prototypes for products that may never be (especially if you are a Zemanta user). I want to stress that while we use prototypes to learn [...]]]></description>
+			<content:encoded><![CDATA[<p>I am not much of a <a title="My YouTube channel" href="http://www.youtube.com/user/msamastur">YouTube user</a>, but I have recently started to upload some of my work <a title="my demos on youtube" href="http://www.youtube.com/user/msamastur">there</a>. You might find them interesting if you are into interactions prototypes for products that may never be (especially if you are a <a class="zem_slink" title="Zemanta" rel="homepage" href="http://www.zemanta.com">Zemanta</a> user).</p>
+<p>I want to stress that while we use prototypes to learn what to implement and how, there is no guarantee that any particular feature shown will be actually included in our products. We do make an effort of listening to our users so please tell us what you think.</p>
+<p>This is also a good time to mention that I don&#8217;t lead front-end team at Zemanta anymore. My new title is Chief Product Officer which is a fancy way of saying that it is my task to care about our products and our users more deeply than anybody else.</p>
+<h6 class="zemanta-related-title">Related articles by Zemanta</h6>
+<ul class="zemanta-article-ul">
+<li class="zemanta-article-ul-li"><a href="http://www.zemanta.com/blog/zemanta-hackday-spring-2010/">Zemanta Hackday Spring 2010</a> (zemanta.com)</li>
+</ul>
+<div class="zemanta-pixie"><a class="zemanta-pixie-a" title="Reblog this post [with Zemanta]" href="http://reblog.zemanta.com/zemified/4c4d711e-ab3a-4cf8-80df-8db0aab43dc3/"><img class="zemanta-pixie-img" src="http://img.zemanta.com/reblog_e.png?x-id=4c4d711e-ab3a-4cf8-80df-8db0aab43dc3" alt="Reblog this post [with Zemanta]" /></a></div>
+]]></content:encoded>
+			<wfw:commentRss>http://markos.gaivo.net/blog/?feed=rss2&#038;p=588</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+		<item>
+		<title>Appeal for a better support of authors widgets</title>
+		<link>http://markos.gaivo.net/blog/?p=572</link>
+		<comments>http://markos.gaivo.net/blog/?p=572#comments</comments>
+		<pubDate>Wed, 03 Mar 2010 17:06:14 +0000</pubDate>
+		<dc:creator>markos</dc:creator>
+				<category><![CDATA[Company]]></category>
+		<category><![CDATA[General development]]></category>
+		<category><![CDATA[Web]]></category>
+		<category><![CDATA[blogging]]></category>
+		<category><![CDATA[browser]]></category>
+		<category><![CDATA[editors]]></category>
+		<category><![CDATA[future]]></category>
+		<category><![CDATA[platforms]]></category>
+		<category><![CDATA[widgets]]></category>
+
+		<guid isPermaLink="false">http://markos.gaivo.net/blog/?p=572</guid>
+		<description><![CDATA[Goal of Zemanta widget has always been to present contextually relevant information to text being written and to enable writers to add that information easily in places of their choice. We want to do this in as unobtrusive manner as possible, which means that act of writing should not be impeded by us and that [...]]]></description>
+			<content:encoded><![CDATA[<p>Goal of <a class="zem_slink" title="Zemanta" rel="homepage" href="http://www.zemanta.com">Zemanta</a> widget has always been to present contextually relevant information to text being written and to enable writers to add that information easily in places of their choice. We want to do this in as unobtrusive manner as possible, which means that act of writing should not be impeded by us and that published text should only have as little markup added as it is necessary to add items picked by user  (images, links&#8230;).</p>
+<p>Zemanta widget in various incarnations today works in all major browsers (<a class="zem_slink" title="Firefox" rel="homepage" href="http://www.mozilla.com/en-US/firefox/">Firefox</a>, <a class="zem_slink" title="Internet Explorer" rel="wikipedia" href="http://en.wikipedia.org/wiki/Internet_Explorer">Internet Explorer</a>, <a class="zem_slink" title="Google Chrome" rel="homepage" href="http://www.google.com/chrome">Chrome</a>, <a class="zem_slink" title="Safari" rel="homepage" href="http://www.apple.com/safari">Safari</a> and <a class="zem_slink" title="Opera Software" rel="homepage" href="http://www.opera.com">Opera</a>) and on all major blogging platforms. This wide support is presenting ever bigger challenge to us  and to anyone who wants to follow our path.</p>
+<p>Most blogging platforms today support enhancement of blogs with widgets. I think it is time for them to add support for widgets on content creation side and go beyond current one-interface-fits-all state of affairs.</p>
+<p>Open platform would enable tool makers like us to build specialized tools that might cater to specific niches and empower writers to customize their workflow to their needs .</p>
+<p>Such platforms should at minimum have a common shared feature set, but I hope for at least partially shared  <a class="zem_slink" title="Application programming interface" rel="wikipedia" href="http://en.wikipedia.org/wiki/Application_programming_interface">API</a>.</p>
+<p><strong>Current state</strong></p>
+<p>Some platforms like <a class="zem_slink" title="WordPress" rel="homepage" href="http://wordpress.org">WordPress</a> already have a plug-ins API which can be used to customize parts of creation process. However it is usually very low level, highly platform specific and available only to self-hosted users.</p>
+<p>Creators of rich text editors have also recognized a need to let outside developers extend writing experience. Most major editors have an API that admittedly we might not be using enough. But this is not true of all editors so we end up with common development problems like not enough feature overlap and missing,  undocumented or poorly documented interfaces.</p>
+<p>There is a lot of activity, but the end result is still a very fragmented landscape that in my opinion limits developers creativity. You either add wanted functionality to your favorite platform or if you are more ambitious, you end up seeking the right balance between ironing out  platform peculiarities and building features users actually care about.</p>
+<p>And since blogging environment that most people use lets them little control over it, we develop browser extensions that are really just a patch for this problem. The only reason why we bloat browsers (a little bit) with an extension that most of the time does nothing is because we have to. Extensions are great, but they also present a risk and in this case one that should not be necessary.</p>
+<p><strong>My vision of future</strong></p>
+<p>What I would like to do as a developer can best be explained with examples translated from code to English (well, approximation of it anyhow).</p>
+<p>I would like to write: ?Take image at this address, upload it to writer?s image repository and return me its new address.?</p>
+<p>I would like to write: ?When DOM node is added to text (or removed from it), run this function.?</p>
+<p>I would like to write: ?Before text is published, run it through this filter function and save its result.?</p>
+<p>I would like to write: ?Store this information and let me retrieve when I need it.?</p>
+<p>I would like our users to add our widget with only a few clicks. Maybe a click on our side to trigger installation and a confirmation on blogging platform with a list of permissions sought (like <a class="zem_slink" title="OAuth" rel="homepage" href="http://oauth.net">OAuth</a>).</p>
+<p>When user interface needs to be shown, I would want it to be well integrated. So if elements of interface can be rearranged, hidden or otherwise handled, then our widget would behave as expected.</p>
+<p><strong>In conclusion</strong></p>
+<p>Creating and supporting a tool like Zemanta is difficult. Front end development is challenging enough when you are against few browsers on your platform, but it is far worse when you try to deliver the same high level of experience on multiple platforms none of which you actually control.</p>
+<p>You keep hitting at browser quirks and unexpected platform changes and ironically it keeps getting worse as other people?s code gets better. For example, wrapping your Javascript code in anonymous namespace is good practice, but it often removes hooks on which you relied and you need to come up with a new solution.</p>
+<p>My work often feels like war of attrition, which is odd because there is no enemy. We work to complement blogging platforms, not replace them.</p>
+<p>Surely it is time we do better.</p>
+<div class="zemanta-pixie"><a class="zemanta-pixie-a" title="Reblog this post [with Zemanta]" href="http://reblog.zemanta.com/zemified/eee141d5-950f-450e-b42e-71fd1adf6365/"><img class="zemanta-pixie-img" src="http://img.zemanta.com/reblog_e.png?x-id=eee141d5-950f-450e-b42e-71fd1adf6365" alt="Reblog this post [with Zemanta]" /></a><span class="zem-script "><script src="http://static.zemanta.com/readside/loader.js" type="text/javascript"></script></span></div>
+]]></content:encoded>
+			<wfw:commentRss>http://markos.gaivo.net/blog/?feed=rss2&#038;p=572</wfw:commentRss>
+		<slash:comments>1</slash:comments>
+		</item>
+		<item>
+		<title>Dos and Don&#8217;ts of Job Interviews</title>
+		<link>http://markos.gaivo.net/blog/?p=479</link>
+		<comments>http://markos.gaivo.net/blog/?p=479#comments</comments>
+		<pubDate>Sun, 13 Sep 2009 18:16:16 +0000</pubDate>
+		<dc:creator>markos</dc:creator>
+				<category><![CDATA[Company]]></category>
+		<category><![CDATA[Business]]></category>
+		<category><![CDATA[Employment]]></category>
+		<category><![CDATA[interview]]></category>
+		<category><![CDATA[Job Search]]></category>
+		<category><![CDATA[resume]]></category>
+		<category><![CDATA[Zemanta]]></category>
+
+		<guid isPermaLink="false">http://markos.gaivo.net/blog/?p=479</guid>
+		<description><![CDATA[Dear job seeker, A job opening is an odd thing, because everyone involved is a buyer and a seller. You are trying to sell yourself to my company while at the same time I am trying to sell us to you and others we might regrettably have to turn down this time. Two months spent [...]]]></description>
+			<content:encoded><![CDATA[<p>Dear job seeker,</p>
+<p>A job opening is an odd thing, because everyone involved is a buyer and a seller. You are trying to sell yourself to my company while at the same time I am trying to sell us to you and others we might regrettably have to turn down this time.</p>
+<p>Two months spent actively searching for a new member of our team (we found him this week) made me reflect on the whole process. I am <a href="http://friedcellcollective.net/outbreak/2009/08/14/hiring-developers-king-of-the-hill-effect/">not the only one</a> and I sympathize <a href="http://www.worldlandtrust.org/news/2009/07/how-not-to-apply-for-conservation-job.htm">with everyone</a> going through this. In last few years I have read tens if not a hundred of job applications and interviewed tens of applicants for different Slovenian IT companies, mainly startups. Not enough to be an expert, but enough to provide me with a firm opinion that most applications sent sucked.</p>
+<p>That doesn&#8217;t mean that you personally suck, but I feel comfortable saying that most of you do not know how to present yourselves well. Mind you most companies are failing at this too, but this post will be long enough even as I limit myself to just one side of the story. My intent is to provide a maximum amount of help with a minimum amount of venting.</p>
+<p>I think it is a safe assumption that you sent an application because you wanted this job. It should also be obvious that we were looking for someone that we think we&#8217;ll be able to entrust with challenging tasks and has a personality that won&#8217;t turn our jobs into a punishment.</p>
+<p>So the question you should pose yourself is: &#8220;<strong>What kind of person is the company looking for and how do I best show to be him?</strong>&#8221; (or her)</p>
+<p>If you don&#8217;t know, then look for information until you do. Ask if necessary, since any company worth working for doesn&#8217;t mind answering them. But knowing this is absolutely crucial if you want to be persuasive and at the same time not needlessly wasting your time on a company that doesn&#8217;t fit you. If you still think our company is right place for you, and I hope you do, then you should make sure that everything you do when communicating with us tells us that you are THE person we want to hire.</p>
+<p>First and foremost, <strong>read and follow job ad instructions</strong>. Seriously, you would not believe how many applications fail to follow even most basic requests. Ask a friend to double check after you if necessary so you won&#8217;t miss anything. <a class="zem_slink" title="Zemanta" rel="homepage" href="http://www.zemanta.com">Zemanta</a> is an international company and much of our communication has to be in English and yet, when we asked for applications to be sent in English, majority of them weren&#8217;t.</p>
+<p><strong>If something is unclear, ask for clarification</strong>. Responding to a job ad is the first test of your ability to receive a task, gather missing information and perform it to expected (agreed) level. Ignoring requirements or reinterpreting instructions on your own will make us doubt you.</p>
+<p>Send resume when asked for, but don&#8217;t think it can substitute things that were asked for. It is amazing how many people just send their resume, when ad explicitly said we would like to see examples of work above everything.</p>
+<p>Having said that, resume (<a class="zem_slink freebase/guid/9202a8c04000641f80000000001eddc2" title="R?sum?" rel="wikipedia" href="http://en.wikipedia.org/wiki/R%C3%A9sum%C3%A9">CV</a>) is definitely an asset when trying to sell yourself. When you write, keep in mind that its purpose is to sell you to a company. Put yourself into my shoes and think what should you write there, that is truthful and will make me want to hire you.</p>
+<p><strong>Europass resume is something only a bureaucrat could love</strong>. We won&#8217;t hold it against you, since somebody probably misinformed you of its usefulness, but it does tell us almost nothing about you. Even if I knew all listed companies, I couldn&#8217;t tell from a job title what you actually did there.</p>
+<p>Much better is to explain in couple of sentences under every job list item what you achieved there and if necessary why I should care about this (e.g. <em>At company ACME I introduced automated testing of Javascript code that reduced bugs reported by 30%</em>)</p>
+<p>In a fast moving industry like IT there is probably little reason to go into details about what you did in 1999, unless you are certain it is still relevant today. I started my career in 1997 porting backup agents to new UNIX platforms, but nobody would hire me for such work today (and probably shouldn&#8217;t then either). Old job listings are mainly used as a signal for steadfastness.</p>
+<p><strong>Don&#8217;t embellish resume too much</strong>. It is impossible to impartially judge your skills and most reviewers expect resumes to be, well, somewhat too rosy. Still, keep things at least defensible. Think what would happen if you were invited to an interview and found out that a part of it is a lie. How much weight do you think the rest of your resume would carry afterwards? Would you trust integrity of such person?</p>
+<p>Considering what I said so far about poor quality of most applications, you might think it is easy to get to interview, but it is not necessarily so. There can be external factors that might work against you so sometimes even otherwise promising candidates have to be turned down (e.g., it is easier to teach people who live near by).</p>
+<p>Let&#8217;s say now that you were interesting enough that we want to conduct an interview with you. I think following tips should work well for you on most occasions. If they don&#8217;t, count yourself lucky not to work there. I am not joking.</p>
+<p><strong>Don&#8217;t bluff.</strong> It&#8217;s reasonable to assume that I wouldn&#8217;t ask you a question I didn&#8217;t know the answer to so it&#8217;s unlikely it would work. Good questions can&#8217;t be tersely answered so you can&#8217;t really hide anyway.</p>
+<p><strong>Admit when you don&#8217;t know the answer.</strong> True, knowing it would be better, but at least you are not wasting my time. It&#8217;s especially important in small companies that problems are found out as soon as possible and it is a positive sign that you are a person that we can trust to let us know about them when there is still time to do something.</p>
+<p><strong>Don&#8217;t just give up.</strong> We all encounter problems that we can&#8217;t solve and interview questions we don&#8217;t know answers to. Show initiative and think out loud how you see the problem and what solutions might be. Give us a chance to see how you think and persuade us that you are a tenacious problem solver that won&#8217;t unnecessarily seek help of others.</p>
+<p><strong>Speak to the point</strong> and <strong>be active</strong>. From my experience this is a problem more prevalent in Slovenia. It quickly becomes annoying and tiresome trying to get a direct answer to a question from a person who doesn&#8217;t want to give you one. Making me feel like I have to work to keep interview moving is probably not the best way to leave a good impression.</p>
+<p><strong>Skills are&#8230;needed.</strong> We all want to hire people who fit our needs perfectly. We rarely can. What happens next depends on company and people involved, but judging by my experience, we value person over his skill. If choice comes between a flaky or otherwise non-solid person with better skills and someone that couples ability to solve problems and thirst for knowledge with personal integrity and maturity, then it is likely that latter will be chosen.</p>
+<p><strong>Ask questions.</strong> Inquisitiveness is always a turn on, but interview is also a chance for you to find more about us. Most companies expect from you an investment of 8 hours of your life daily and if you are like me, then it should be important to you what kind of company and people are you dealing with, what work entails and how do we go about it. Personally I don&#8217;t mind questions about salary and benefits, but I do find it odd if interview starts with them.</p>
+<p>Regretfully interview is a last stop for some candidates and we have to turn them down. I know some companies have a bad habit of turning people down without letting them know and if that happens to you, well, count yourself lucky. At Zemanta we find such behavior rude and we notify everyone. What happens afterwards is usually&#8230;.nothing. No reply.</p>
+<p>My advice to you would be to respond with a note thanking for the opportunity. It probably won&#8217;t make a difference in a short run, but it does leave a good impression. We are all more inclined to recommend (or hire in next round) people we like.</p>
+<p>Good luck!</p>
+<div class="zemanta-pixie"><a class="zemanta-pixie-a" title="Reblog this post [with Zemanta]" href="http://reblog.zemanta.com/zemified/37e4a7b1-bb28-45a9-a90c-c3b75ed89041/"><img class="zemanta-pixie-img" src="http://img.zemanta.com/reblog_e.png?x-id=37e4a7b1-bb28-45a9-a90c-c3b75ed89041" alt="Reblog this post [with Zemanta]" /></a><span class="zem-script paragraph-reblog"><script src="http://static.zemanta.com/readside/loader.js" type="text/javascript"></script></span></div>
+]]></content:encoded>
+			<wfw:commentRss>http://markos.gaivo.net/blog/?feed=rss2&#038;p=479</wfw:commentRss>
+		<slash:comments>4</slash:comments>
+		</item>
+		<item>
+		<title>One small step</title>
+		<link>http://markos.gaivo.net/blog/?p=353</link>
+		<comments>http://markos.gaivo.net/blog/?p=353#comments</comments>
+		<pubDate>Mon, 20 Jul 2009 20:46:25 +0000</pubDate>
+		<dc:creator>markos</dc:creator>
+				<category><![CDATA[Company]]></category>
+		<category><![CDATA[ad]]></category>
+		<category><![CDATA[Javascript]]></category>
+		<category><![CDATA[job]]></category>
+		<category><![CDATA[landing on moon]]></category>
+		<category><![CDATA[Zemanta]]></category>
+
+		<guid isPermaLink="false">http://markos.gaivo.net/blog/?p=353</guid>
+		<description><![CDATA[Today? or tomorrow, depending on where you happen to live, is 40 years since Neil Armstrong became first among few who stepped on moon. When I was a kid, there was nothing I wanted more than becoming an astronaut. Closest I ever got to this dream was having fun at Euro Space Center. I don&#8217;t [...]]]></description>
+			<content:encoded><![CDATA[<p>Today? or tomorrow, depending on where you happen to live, is 40 years since <a class="zem_slink" title="Neil Armstrong" rel="wikipedia" href="http://en.wikipedia.org/wiki/Neil_Armstrong">Neil Armstrong</a> became first among few who stepped on moon. When I was a kid, there was nothing I wanted more than becoming an astronaut. Closest I ever got to this dream was having fun at <a class="zem_slink" title="Euro Space Center" rel="homepage" href="http://www.eurospacecenter.be/envisit.htm">Euro Space Center</a>.</p>
+<p>I don&#8217;t regret this, because I have a great job. It still feels a privilege to work at <a class="zem_slink" title="Zemanta" rel="homepage" href="http://www.zemanta.com">Zemanta</a> and that is why I&#8217;m happy to say that <a title="Job ad" href="http://www.zemanta.com/jobs/">we are looking for a frontend developer</a> to strengthen our team.</p>
+<p>We are searching for someone well versed with Javascript in modern browsers that wants to learn and we can learn from. Working in startup requires ability in having fun with unexpected challenges, but does not mean you will be overworked. We believe that rested developers are more creative and productive and practice what we believe in. In exchange we&#8217;ll try to be as flexible as possible to meet your (other) needs.</p>
+<p>So, if you are a developer with even an inkling of a wish to work in a company like ours, please consider <a title="Job ad" href="http://www.zemanta.com/jobs/">applying</a>. You can also leave any question you might have in comments and I&#8217;ll try to answer it to the best of my abilities.</p>
+<div class="zemanta-pixie" style="margin-top: 10px; height: 15px;"><a class="zemanta-pixie-a" title="Reblog this post [with Zemanta]" href="http://reblog.zemanta.com/zemified/776f1526-aafa-4206-9966-4658717c9e0e/"><img class="zemanta-pixie-img" style="border: medium none; float: right;" src="http://img.zemanta.com/reblog_e.png?x-id=776f1526-aafa-4206-9966-4658717c9e0e" alt="Reblog this post [with Zemanta]" /></a></div>
+]]></content:encoded>
+			<wfw:commentRss>http://markos.gaivo.net/blog/?feed=rss2&#038;p=353</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+		<item>
+		<title>The Four Steps to Epiphany</title>
+		<link>http://markos.gaivo.net/blog/?p=333</link>
+		<comments>http://markos.gaivo.net/blog/?p=333#comments</comments>
+		<pubDate>Mon, 01 Jun 2009 05:57:10 +0000</pubDate>
+		<dc:creator>markos</dc:creator>
+				<category><![CDATA[Company]]></category>
+		<category><![CDATA[book]]></category>
+		<category><![CDATA[Books]]></category>
+		<category><![CDATA[Business]]></category>
+		<category><![CDATA[customer development]]></category>
+		<category><![CDATA[Steven Gary Blank]]></category>
+
+		<guid isPermaLink="false">http://markos.gaivo.net/blog/?p=333</guid>
+		<description><![CDATA[I seem to have mentioned books I&#8217;ve been reading a lot in last few posts, but this is the first time I am writing a post solely dedicated to a book. The Four Steps to the Epiphany by Steven Gary Blank is a book I heard recommended a few times before Eric Ries recommendation during [...]]]></description>
+			<content:encoded><![CDATA[<p>I seem to have mentioned books I&#8217;ve been reading a lot in last few posts, but this is the first time I am writing a post solely dedicated to a book. <a href="http://www.amazon.com/gp/product/0976470705?ie=UTF8&amp;tag=devel-20&amp;linkCode=as2&amp;camp=1789&amp;creative=390957&amp;creativeASIN=0976470705">The Four Steps to the Epiphany</a><img style="border:none !important; margin:0px !important;" src="http://www.assoc-amazon.com/e/ir?t=devel-20&amp;l=as2&amp;o=1&amp;a=0976470705" border="0" alt="" width="1" height="1" /> by Steven Gary Blank is a book I heard recommended a few times before <a title="Eric's blog" href="http://startuplessonslearned.blogspot.com/">Eric Ries</a> recommendation during his talk persuaded me, but I bought it mainly because it bothered me that most projects I was involved with relied heavily on intuition and it just seemed that there has to be a better way to expose and test assumptions made during project lifetime.</p>
+<p>To a typography nut like me this book looks, well, horrible. I suspect Cafepress&#8217; print-on-demand system has also something to do with it, but this is not its only fault. There are plenty of typos and glitches such as whole chapter 4 carrying a footer of chapter 3. Occasionally you can find grammar errors even someone like me can be sure of. In short, the book also looks like it wasn&#8217;t made by experienced publisher.</p>
+<p>Having said all that, if you are thinking of starting a business venture or really any project where you and people precisely like you are not the only target market, you should BUY AND READ THIS BOOK. It costs 40$ on Amazon, but I wouldn&#8217;t hesitate recommending it even if it cost ten times as much. For those who might doubt veracity of recommendation on account of my Amazon Affiliate link, <a title="Non-affiliated link to book" href="http://www.amazon.com/Four-Steps-Epiphany-Steven-Blank/dp/0976470705">here is</a> also a non-affiliated link that gains me nothing. Or you can save some more by following link on <a href="http://steveblank.com/">Steve&#8217;s blog</a> (which is a good read too).</p>
+<p>Unlike most business books I read or browsed, it isn&#8217;t a 2-300 hundred page long discourse about a couple of ideas that could be adequately explained and argued in tenth of its length. It&#8217;s a textbook about Customer Development, a different way of organizing and building a company from startup to established company. This is done methodically, each step building on previous where every assumption is tested while it is still relatively cheap to do so. First 200 pages might occasionally contain a short story that proves a point, but are otherwise filled with very concrete advice on what needs to be done and how you can or should go about it. If that wasn&#8217;t enough, you also get a Custom Development Checklist (taking a quarter of the book) which you can use to check that nothing was left out.</p>
+<p>I suspect not many startups follow every step as prescribed, but even if you don&#8217;t or disagree with most of it, I can&#8217;t imagine how you wouldn&#8217;t profit from reading it. So just go and buy it. You won&#8217;t be able to make notes in borrowed copy.</p>
+<div class="zemanta-pixie" style="margin-top: 10px; height: 15px;"><a class="zemanta-pixie-a" title="Reblog this post [with Zemanta]" href="http://reblog.zemanta.com/zemified/131a9fc7-4816-4c2b-b470-b81efdf2264c/"><img class="zemanta-pixie-img" style="border: medium none; float: right;" src="http://img.zemanta.com/reblog_e.png?x-id=131a9fc7-4816-4c2b-b470-b81efdf2264c" alt="Reblog this post [with Zemanta]" /></a><span class="zem-script more-related pretty-attribution"><script src="http://static.zemanta.com/readside/loader.js" type="text/javascript"></script></span></div>
+]]></content:encoded>
+			<wfw:commentRss>http://markos.gaivo.net/blog/?feed=rss2&#038;p=333</wfw:commentRss>
+		<slash:comments>2</slash:comments>
+		</item>
+		<item>
+		<title>Reblog and clean HTML</title>
+		<link>http://markos.gaivo.net/blog/?p=261</link>
+		<comments>http://markos.gaivo.net/blog/?p=261#comments</comments>
+		<pubDate>Sat, 07 Jun 2008 12:09:11 +0000</pubDate>
+		<dc:creator>markos</dc:creator>
+				<category><![CDATA[Company]]></category>
+		<category><![CDATA[HTML]]></category>
+		<category><![CDATA[Markup Languages]]></category>
+		<category><![CDATA[Zemanta]]></category>
+
+		<guid isPermaLink="false">http://markos.gaivo.net/blog/?p=261</guid>
+		<description><![CDATA[It has been a busy week. We had a new release at Zemanta, first big one that I was a part of. While things didn&#8217;t go as smoothly as we would hope, I think it has been a big success. I would like to thank all involved for their huge contribution and especially to my [...]]]></description>
+			<content:encoded><![CDATA[<p>It has been a busy week. We had a new release at <a class="zem_slink" title="Zemanta ltd." rel="homepage" href="http://www.zemanta.com/">Zemanta</a>, first big one that I was a part of. While things didn&#8217;t go as smoothly as we would hope, I think it has been a big success. I would like to thank all involved for their huge contribution and especially to my team, which never stops astonishing me. It&#8217;s a pleasure and a privilege to work with you all.</p>
+<p>We also made a small blunder with cursor moving while typing your post. Emptying your browser cache should remedy this. Please let me know if it doesn&#8217;t. Even though we are still in alpha, we don&#8217;t see this as an excuse for poor performance.</p>
+<p>It has been a release full of features, but two of them are especially dear to me even though I haven&#8217;t contributed much to either.</p>
+<p><strong>clean HTML</strong></p>
+<p>We heard numerous, quite correct complaints that HTML we insert in posts is not valid or nice enough. We did this partly because of honest mistakes on our part (e.g. putting IDs on elements that can appear more than once per page) or because it is really difficult to insert an HTML fragment that will look OK everywhere, no matter the blogging platform or visual template used.</p>
+<p>At the end we came to conclusion that it is not feasible for us to do this, so we now offer you a choice. If you do nothing, you will still get the same styled HTML for related articles. But if you chose a clean xHTML option in preferences, which can be find below articles list, you will get a clean, unstyled xHTML which you can style to your liking. We still haven&#8217;t settled on final HTML for it, so any <a title="Zemanta support forum" href="http://getsatisfaction.com/zemanta">feedback</a> would be more than welcome.</p>
+<p><strong>Reblog</strong></p>
+<p>The other feature I am really fond of is <a title="Reblog's homepage" href="http://www.zemanta.com/reblog/">reblog</a>. Using Zemanta added a little orange image at the end of the post. It was basically a small ad for us, which we really appreciated. This ad has been replaced with new image that offers your visitors an easy way to continue discussion on their blogs by choosing a paragraph from your story to quote and adding their thoughts before publishing it.</p>
+<p>You can see an example on this very post. Just press reblog button at the end. We are continuously discovering and fixing quirks in parsing HTML text out there, but if you find a new one, please let us know.</p>
+<p>So these were my favorite features. What were yours?</p>
+<div class="zemanta-pixie" style="margin-top: 10px; height: 15px;"><a class="zemanta-pixie-a" title="Zemified by Zemanta" href="http://reblog.zemanta.com/zemified/06dcfd9a-19cd-488c-a265-57084a83da54/"><img class="zemanta-pixie-img" style="border: medium none; float: right;" src="http://img.zemanta.com/reblog_a.png?x-id=06dcfd9a-19cd-488c-a265-57084a83da54" alt="Zemanta Pixie" /></a></div>
+]]></content:encoded>
+			<wfw:commentRss>http://markos.gaivo.net/blog/?feed=rss2&#038;p=261</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+		<item>
+		<title>Zemanta</title>
+		<link>http://markos.gaivo.net/blog/?p=251</link>
+		<comments>http://markos.gaivo.net/blog/?p=251#comments</comments>
+		<pubDate>Tue, 08 Apr 2008 12:16:32 +0000</pubDate>
+		<dc:creator>markos</dc:creator>
+				<category><![CDATA[Catchall]]></category>
+		<category><![CDATA[Company]]></category>
+
+		<guid isPermaLink="false">http://markos.gaivo.net/blog/?p=251</guid>
+		<description><![CDATA[Yesterday was my last working day at my current job. I will start working at Zemanta next Friday, where I will take over from Jure as a head of front-end development. I really admire what Jure and his team have done so far and it will be a real challenge to keep up with his [...]]]></description>
+			<content:encoded><![CDATA[<p>Yesterday was my last working day at my <a href="http://www.noovo.com/">current job</a>. I will start working at <a href="http://www.zemanta.com/">Zemanta</a> next Friday, where I will take over from <a href="http://www.jurecuhalev.com/blog/" title="Jure's blog">Jure</a> as a head of front-end development. I really admire what Jure and his team have done so far and it will be a real challenge to keep up with his tempo. I&#8217;m also looking forward to solving problems that will make our extension, which I&#8217;m sure you already have, even more friendly and useful. Hopefully some of those problems will result in content on this blog that is worth reading.</p>
+<p>In the meantime I have few days of vacation that will hopefully be spent on resting and cleaning up various tasks that pilled up in last few months.</p>
+]]></content:encoded>
+			<wfw:commentRss>http://markos.gaivo.net/blog/?feed=rss2&#038;p=251</wfw:commentRss>
+		<slash:comments>3</slash:comments>
+		</item>
+		<item>
+		<title>Job satisfaction</title>
+		<link>http://markos.gaivo.net/blog/?p=240</link>
+		<comments>http://markos.gaivo.net/blog/?p=240#comments</comments>
+		<pubDate>Sun, 26 Aug 2007 09:20:32 +0000</pubDate>
+		<dc:creator>markos</dc:creator>
+				<category><![CDATA[Catchall]]></category>
+		<category><![CDATA[Company]]></category>
+
+		<guid isPermaLink="false">http://markos.gaivo.net/blog/?p=240</guid>
+		<description><![CDATA[My long term observation: &#8220;If you&#8217;re looking forward to weekends, then your job might not be right for you.&#8221;]]></description>
+			<content:encoded><![CDATA[<p>My long term observation: &#8220;If you&#8217;re looking forward to weekends, then your job might not be right for you.&#8221;</p>
+]]></content:encoded>
+			<wfw:commentRss>http://markos.gaivo.net/blog/?feed=rss2&#038;p=240</wfw:commentRss>
+		<slash:comments>3</slash:comments>
+		</item>
+		<item>
+		<title>Change</title>
+		<link>http://markos.gaivo.net/blog/?p=214</link>
+		<comments>http://markos.gaivo.net/blog/?p=214#comments</comments>
+		<pubDate>Thu, 21 Dec 2006 16:42:39 +0000</pubDate>
+		<dc:creator>markos</dc:creator>
+				<category><![CDATA[Catchall]]></category>
+		<category><![CDATA[Company]]></category>
+
+		<guid isPermaLink="false">http://markos.gaivo.net/blog/?p=214</guid>
+		<description><![CDATA[I left my last job more than two years ago to start working in my own company and I never regretted this decision. In fact, I have had so much fun I couldn&#8217;t imagine to go and work for some other company ever again. Well, as saying goes, never say never. I got an excellent [...]]]></description>
+			<content:encoded><![CDATA[<p>I left my last job more than two years ago to start working in my own <a href="http://www.neko.si/" title="Neko d.o.o.">company</a> and I never regretted this decision. In fact, I have had so much fun I couldn&#8217;t imagine to go and work for some other company ever again.</p>
+<p>Well, as saying goes, never say never.</p>
+<p>I got an excellent opportunity from like-minded people to further my goals of improving the state of Slovenian web, so from 4th of December I split my time between <a href="http://www.neko.si/">Neko</a> and <a href="http://www.parsek.si">Parsek</a>, where as their head of development I&#8217;ll have an opportunity to raise the bar on what can and should be expected from a modern website.</p>
+<p>This also means I&#8217;ll have less time to work on other things, so if you are not a charity or we haven&#8217;t talked yet, then I probably won&#8217;t have time to work on your project.</p>
+<p>As year is coming to an end I&#8217;d also like to use this opportunity to wish happy holidays to all of you and all the best in new year.</p>
+]]></content:encoded>
+			<wfw:commentRss>http://markos.gaivo.net/blog/?feed=rss2&#038;p=214</wfw:commentRss>
+		<slash:comments>2</slash:comments>
+		</item>
+	</channel>
+</rss>

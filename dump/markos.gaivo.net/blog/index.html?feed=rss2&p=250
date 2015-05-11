@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+		>
+<channel>
+	<title>Comments on: Triggering a server request on onunload event</title>
+	<atom:link href="http://markos.gaivo.net/blog/?feed=rss2&#038;p=250" rel="self" type="application/rss+xml" />
+	<link>http://markos.gaivo.net/blog/?p=250</link>
+	<description></description>
+	<lastBuildDate>Wed, 16 Jul 2014 16:04:38 +0000</lastBuildDate>
+	<sy:updatePeriod>hourly</sy:updatePeriod>
+	<sy:updateFrequency>1</sy:updateFrequency>
+	<generator>http://wordpress.org/?v=3.0.5</generator>
+	<item>
+		<title>By: Simon B.</title>
+		<link>http://markos.gaivo.net/blog/?p=250&#038;cpage=1#comment-125307</link>
+		<dc:creator>Simon B.</dc:creator>
+		<pubDate>Wed, 09 Apr 2008 19:07:41 +0000</pubDate>
+		<guid isPermaLink="false">http://markos.gaivo.net/blog/?p=250#comment-125307</guid>
+		<description>&lt;form onsubmit=&quot;internalLink();&quot;&gt;
+...
+&lt;/form&gt;</description>
+		<content:encoded><![CDATA[<p>&lt;form onsubmit=&#8221;internalLink();&#8221;&gt;<br />
+&#8230;<br />
+&lt;/form&gt;</p>
+]]></content:encoded>
+	</item>
+	<item>
+		<title>By: Simon B.</title>
+		<link>http://markos.gaivo.net/blog/?p=250&#038;cpage=1#comment-125306</link>
+		<dc:creator>Simon B.</dc:creator>
+		<pubDate>Wed, 09 Apr 2008 19:04:42 +0000</pubDate>
+		<guid isPermaLink="false">http://markos.gaivo.net/blog/?p=250#comment-125306</guid>
+		<description>Maybe useful:
+
+
+...
+
+
+
+
+var leave_freshness = 0;
+function internalLink() { var d = new Date(); leave_freshness = d.getTime(); }
+function isFreshLeave() { var d = new Date(); return (d.getTime()-leave_freshness) 
+function internalLink(){}
+
+</description>
+		<content:encoded><![CDATA[<p>Maybe useful:</p>
+<p>&#8230;</p>
+<p>var leave_freshness = 0;<br />
+function internalLink() { var d = new Date(); leave_freshness = d.getTime(); }<br />
+function isFreshLeave() { var d = new Date(); return (d.getTime()-leave_freshness)<br />
+function internalLink(){}</p>
+]]></content:encoded>
+	</item>
+</channel>
+</rss>

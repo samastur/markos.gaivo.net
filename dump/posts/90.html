@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>A notch above a monkey &raquo; Solving javascript i18n as work in progress</title>
+	<meta charset="utf-8" />
+	
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" /> 
+
+	<link rel="shortcut icon" href="/img/markos.ico" />
+	
+	<meta name="generator" content="WordPress 3.0.5" /> <!-- leave this for stats please -->
+
+	<link href="http://fast.fonts.com/cssapi/aee9b60b-8e94-47f8-b586-3ecbfab51d1c.css" rel="stylesheet" type="text/css" />
+	<link rel="stylesheet" type="text/css" href="css/home.css" media="screen" title="Light theme" />
+	<link rel="alternate stylesheet" type="text/css" href="css/home_dark.css" media="screen" title="Dark theme" />
+	<link rel="stylesheet" href="css/ipad.css" media="only screen and (min-device-width : 768px) and (max-device-width : 1024px)">
+	<link rel="stylesheet" type="text/css" href="css/smallscreen.css" media="only screen and (max-width: 700px)" />
+
+	<link rel="alternate" type="application/rss+xml" title="RSS 2.0" href="http://markos.gaivo.net/blog/?feed=rss2" />
+	<link rel="alternate" type="application/atom+xml" title="Atom 1.0" href="http://markos.gaivo.net/blog/?feed=atom" />
+	<link rel='canonical' href='http://markos.gaivo.net/blog/?p=664' />
+
+	<link rel="pingback" href="http://markos.gaivo.net/blog/xmlrpc.php" />
+
+	<link rel="alternate" type="application/rss+xml" title="A notch above a monkey &raquo; Solving javascript i18n as work in progress Comments Feed" href="http://markos.gaivo.net/blog/?feed=rss2&amp;p=90" />
+<link rel="EditURI" type="application/rsd+xml" title="RSD" href="http://markos.gaivo.net/blog/xmlrpc.php?rsd" />
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="http://markos.gaivo.net/blog/wp-includes/wlwmanifest.xml" /> 
+<link rel='index' title='A notch above a monkey' href='http://markos.gaivo.net/blog' />
+<link rel='start' title='First post' href='http://markos.gaivo.net/blog/?p=2' />
+<link rel='prev' title='IE7 will remain to be MIME challenged' href='http://markos.gaivo.net/blog/?p=89' />
+<link rel='next' title='Words matter' href='http://markos.gaivo.net/blog/?p=91' />
+<meta name="generator" content="WordPress 3.0.5" />
+<link rel='canonical' href='http://markos.gaivo.net/blog/?p=90' />
+
+	<!--[if lt IE 9]>
+	<script src="/js/html5.js"></script>
+	<![endif]-->
+</head>
+<body>
+					<header>
+		<h1><a href="/blog/">A notch above a monkey</a> &raquo; Solving javascript i18n as work in progress</h1>
+	</header>
+
+	<section class="envelope">
+		<article class="post">
+			<header>
+				<h1>Solving javascript i18n as work in progress</h1>
+			</header>
+
+			<footer>
+				<ul>
+					<li class="by">Written by: <a href="/">Marko Samastur</a></li>
+					<li class="published">Published on: <time datetime="2005-12-08T14:11:06+00:00" pubdate>December 8, 2005</time></li>
+					<li class="categories">Categories: <a href="http://markos.gaivo.net/blog/?cat=1" title="View all posts in Javascript" rel="category">Javascript</a>, <a href="http://markos.gaivo.net/blog/?cat=4" title="View all posts in Web" rel="category">Web</a></li>
+					<li class="post-comments">Comments: <a href="http://markos.gaivo.net/blog/?p=90#comments" title="Comment on Solving javascript i18n as work in progress">1</a></li>
+				</ul>
+			</footer>
+
+			<div class="post-text">
+				<p>A while ago I was moaning about a sad state of javascript i18n tools. When I finally started working on it, I faced a dilemma.</p>
+<p>Should I wait until it&#8217;s finished and then reveal it like Moses to chosen people? Look guys what I etched with a toothpick during my lunch time break! You know, I was waiting for my Crème Brûlée and had to kill those few pesky minutes.</p>
+<p>Or should I choose a more honest approach, showing steps and missteps between embarrassing first version and hopefully usable last?</p>
+<p>Well, there&#8217;s nothing better than public humiliation to instill some humility so let&#8217;s see what is behind the door number two.</p>
+<p>The goal is still the same. Develop a short and relatively fast library that allows you to translate javascript code and HTML content and to do so with as little fuss as possible and with a clear separation between HTML, javascript and translations, but without breaking pages in case translation doesn&#8217;t exist yet.</p>
+<p>And <a href="http://markos.gaivo.net/examples/js_i18n/1/translate.js" title="Translation functions">here&#8217;s</a> my humble start together with a <a href="http://markos.gaivo.net/examples/js_i18n/1/index.html" title="Link to demonstration page">simple demo</a>. Three functions, two of them a support needed later on. stripStr and stripStrML just strip whitespace at the start and end of string with stripStrML doing it on every line of a given string. We&#8217;ll need this later on so we can find strings to translate even if they are enclosed in whitespace to make source display more pretty.</p>
+<p>Then there&#8217;s a function called _, which takes a string and translates it if javascript object i18nDict exists and has this string as an attribute with a non empty value. Otherwise it just returns the same string, so it doesn&#8217;t break page even if translation doesn&#8217;t exist in <a href="http://markos.gaivo.net/examples/js_i18n/1/i18n.js" title="Translation dictionary">translation object</a>. It&#8217;s what is usually called a proof of concept prototype.</p>
+<p>That&#8217;s it for today. I&#8217;ll try to post updates every couple of days or so, if progress warrants it.</p>
+<p>Update: Follow up <a href="http://markos.gaivo.net/blog/?p=93">here</a> and <a href="http://markos.gaivo.net/blog/?p=100">here</a>.</p>
+			</div>
+
+			<nav>
+				<p>If you liked this, you might want to visit:</p>
+				<ul>
+					<li>my previous article: <a href="http://markos.gaivo.net/blog/?p=89" rel="prev">IE7 will remain to be MIME challenged</a></li>					<li>my next article: <a href="http://markos.gaivo.net/blog/?p=91" rel="next">Words matter</a></li>					<li><a href="/blog/">article list</a></li>
+				</ul>
+			</nav>
+
+			<h2 id="comments">Comment (1)
+			</h2>
+			<ol class="comments">
+		
+				<li id="comment-132008">
+					<article>
+						<p>I struggled with the same problem, so I developed an i18n library for JavaScript, covering language packs (like Java ResourceBundles), currencies and calendars. It is GPL released. Check it out at <a href="http://jsorm.com">http://jsorm.com</a>.</p>
+						<footer>
+							<cite>Comment by <a href='http://jsorm.com' rel='external nofollow' class='url'>Avi Deitcher</a> &#8212; <time datetime="2008-05-13T06:55:13+00:00">May 13, 2008 @ 6:55 am</time> <a href="#comment-132008">#</a> </cite>
+						</footer>
+					</article>
+				</li>
+		
+			</ol>
+
+
+		<p>Sorry, the comment form is closed at this time.</p>
+
+		</article>
+	</section>
+			<!-- All pages -->
+	
+
+	<footer>
+		<ul>
+			<li>&copy; 2005-2015 Marko Samastur</li>
+			
+			<li><a href="http://markos.gaivo.net/blog/?feed=rss2">Entries feed</a></li>
+			<li><a href="http://markos.gaivo.net/blog/?feed=comments-rss2">Comments feed</a></li>
+		</ul>
+		<a href="/"><img src="/img/markos_light_small_bg.png" alt="logo" class="mini-logo" /></a>
+	</footer>
+	<!-- Google analytics -->
+	<script type="text/javascript">
+	  var _gaq = _gaq || [];
+	  _gaq.push(['_setAccount', 'UA-152438-1']);
+	  _gaq.push(['_trackPageview']);
+	</script>
+	<script src="/js/cookie.js"></script>
+</body>
+</html>

@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+		>
+<channel>
+	<title>Comments on: Speeding up Levenshtein</title>
+	<atom:link href="http://markos.gaivo.net/blog/?feed=rss2&#038;p=211" rel="self" type="application/rss+xml" />
+	<link>http://markos.gaivo.net/blog/?p=211</link>
+	<description></description>
+	<lastBuildDate>Wed, 16 Jul 2014 16:04:38 +0000</lastBuildDate>
+	<sy:updatePeriod>hourly</sy:updatePeriod>
+	<sy:updateFrequency>1</sy:updateFrequency>
+	<generator>http://wordpress.org/?v=3.0.5</generator>
+	<item>
+		<title>By: nafg</title>
+		<link>http://markos.gaivo.net/blog/?p=211&#038;cpage=1#comment-237973</link>
+		<dc:creator>nafg</dc:creator>
+		<pubDate>Wed, 24 Aug 2011 06:53:53 +0000</pubDate>
+		<guid isPermaLink="false">http://markos.gaivo.net/blog/?p=211#comment-237973</guid>
+		<description>commons-lang has an optimized one. See http://www.merriampark.com/ldjava.htm</description>
+		<content:encoded><![CDATA[<p>commons-lang has an optimized one. See <a href="http://www.merriampark.com/ldjava.htm">http://www.merriampark.com/ldjava.htm</a></p>
+]]></content:encoded>
+	</item>
+	<item>
+		<title>By: Jochen</title>
+		<link>http://markos.gaivo.net/blog/?p=211&#038;cpage=1#comment-86463</link>
+		<dc:creator>Jochen</dc:creator>
+		<pubDate>Wed, 24 Oct 2007 21:33:34 +0000</pubDate>
+		<guid isPermaLink="false">http://markos.gaivo.net/blog/?p=211#comment-86463</guid>
+		<description>Hi,
+
+I have been playing with BK-Trees and VP-Trees as well. Here&#039;s my implementation: http://well-adjusted.de/~jrschulz/mspace/mspace-pysrc.html
+
+Its levenshtein implementation is probably not very efficient, but it&#039;s easy to use the C implementation someone mentioned above instead of the built-in function. And if you have Psyco installed, it will be used automatically.</description>
+		<content:encoded><![CDATA[<p>Hi,</p>
+<p>I have been playing with BK-Trees and VP-Trees as well. Here&#8217;s my implementation: <a href="http://well-adjusted.de/~jrschulz/mspace/mspace-pysrc.html">http://well-adjusted.de/~jrschulz/mspace/mspace-pysrc.html</a></p>
+<p>Its levenshtein implementation is probably not very efficient, but it&#8217;s easy to use the C implementation someone mentioned above instead of the built-in function. And if you have Psyco installed, it will be used automatically.</p>
+]]></content:encoded>
+	</item>
+	<item>
+		<title>By: Radim</title>
+		<link>http://markos.gaivo.net/blog/?p=211&#038;cpage=1#comment-86240</link>
+		<dc:creator>Radim</dc:creator>
+		<pubDate>Tue, 23 Oct 2007 23:52:53 +0000</pubDate>
+		<guid isPermaLink="false">http://markos.gaivo.net/blog/?p=211#comment-86240</guid>
+		<description>BUMP!
+I stumbled upon this site while looking for difflib info =) However my 2 cents worth: i also needed to search up similar strings, for much the similar reason as you. My solution consisted of processing ALL the candidate strings at the same time, in parallel. I did this by constructing a TRIE from the string list and during the search throwing away subtrees as soon as they were found to exceed the cutoff threshold.
+
+I believe my solution kind of subsumes yours, in the sense that it is more general and more or less independent of the string list size. The trouble here was that the static TRIE itself takes up *a lot* of memory, especially in python, so i had to optimize by merging non-branching node chains etc. In the end, the code was not nearly as elegant as my first 20 line attempt. Depending on the string list size (up to let&#039;s say 1 million strings), the naive TRIE might well be enough.
+
+Oh and by the way, the answer to bearophile&#039;s difflib question is: it&#039;s very slow and highly unsuitable here =) Just look at the source code...</description>
+		<content:encoded><![CDATA[<p>BUMP!<br />
+I stumbled upon this site while looking for difflib info =) However my 2 cents worth: i also needed to search up similar strings, for much the similar reason as you. My solution consisted of processing ALL the candidate strings at the same time, in parallel. I did this by constructing a TRIE from the string list and during the search throwing away subtrees as soon as they were found to exceed the cutoff threshold.</p>
+<p>I believe my solution kind of subsumes yours, in the sense that it is more general and more or less independent of the string list size. The trouble here was that the static TRIE itself takes up *a lot* of memory, especially in python, so i had to optimize by merging non-branching node chains etc. In the end, the code was not nearly as elegant as my first 20 line attempt. Depending on the string list size (up to let&#8217;s say 1 million strings), the naive TRIE might well be enough.</p>
+<p>Oh and by the way, the answer to bearophile&#8217;s difflib question is: it&#8217;s very slow and highly unsuitable here =) Just look at the source code&#8230;</p>
+]]></content:encoded>
+	</item>
+	<item>
+		<title>By: Paul Harrison</title>
+		<link>http://markos.gaivo.net/blog/?p=211&#038;cpage=1#comment-16045</link>
+		<dc:creator>Paul Harrison</dc:creator>
+		<pubDate>Wed, 29 Nov 2006 09:26:16 +0000</pubDate>
+		<guid isPermaLink="false">http://markos.gaivo.net/blog/?p=211#comment-16045</guid>
+		<description>I decided to implement that VP-tree thing, since I need it for other projects. Not quite as good as I hoped, but it does save a few comparisons.
+
+http://www.logarithmic.net/pfh/blog/01164790008
+http://www.logarithmic.net/pfh-files/blog/01164790008/VP_tree.py</description>
+		<content:encoded><![CDATA[<p>I decided to implement that VP-tree thing, since I need it for other projects. Not quite as good as I hoped, but it does save a few comparisons.</p>
+<p><a href="http://www.logarithmic.net/pfh/blog/01164790008">http://www.logarithmic.net/pfh/blog/01164790008</a><br />
+<a href="http://www.logarithmic.net/pfh-files/blog/01164790008/VP_tree.py">http://www.logarithmic.net/pfh-files/blog/01164790008/VP_tree.py</a></p>
+]]></content:encoded>
+	</item>
+	<item>
+		<title>By: markos</title>
+		<link>http://markos.gaivo.net/blog/?p=211&#038;cpage=1#comment-15028</link>
+		<dc:creator>markos</dc:creator>
+		<pubDate>Thu, 23 Nov 2006 08:43:08 +0000</pubDate>
+		<guid isPermaLink="false">http://markos.gaivo.net/blog/?p=211#comment-15028</guid>
+		<description>Since Levenshtein&#039;s distance is at least as much as difference between length of two strings, we can start with two strings that have approximately the same length of n.
+
+Levenshtein&#039;s algorithm in this case takes roughly n*n operations to calculate the distance. So calculating the distance of two 6 letter strings (36 operations) is around 10 times faster than performing the same with 20 letter strings (400 operations).
+
+What I propose is to calculate partial distance when strings length exceed a certain threshold.
+
+Let&#039;s take two titles from my blog as an example. &quot;HyperScope and my blog&#039;s evolution&quot; and &quot;IE7 will remain to be MIME challenged&quot; have approximately the same length (34 and 37 each), so they would probably pass the first test.
+
+Calculating real distance would take 1258 iterations, but if I take just first 6 letters (&quot;HyperS&quot; and &quot;IE7 wi&quot;) and calculate the Levenshtein&#039;s distance of those substrings (which in this case is 6), it takes me only 36 operations to get the idea that these two strings are most likely not the same.
+
+If I got something like 1 or 2, then I couldn&#039;t judge from that number alone and I would need to calculate the real distance. In that case my first, partial, calculation would just slow me down a bit.
+
+That&#039;s why in my script I calculate partial results only for strings that are at least 10 letters long. Since 10 letter long strings take around twice as much time to calculate the L distance, I get to the break even point if only every second comparison of two long strings can be shortened with partial calculation.
+
+If strings are on average sufficiently different (that is the space they occupy is mathematically sparse) as they are in my case, the number of useful partial calculations far exceeds the number of those which are not. And longer the strings are, less often do partial calculations need to be definite. That is they are cheaper for longer strings.
+
+&quot;My&quot; algorithm is a bit fuzzy, since you have to make all sorts of decisions. You have to decide how close is close enough and at which lengths you get the best trade-off between certainty in result and price of calculations. You also need to know a bit about your strings.
+
+If all strings started with &quot;Report:&quot;, then it wouldn&#039;t make any sense to use first six letters for partial calculations. You need to know where there is enough variations to make it worthwhile. In my case I can rely as much on my taste that I won&#039;t start all titles the same way.</description>
+		<content:encoded><![CDATA[<p>Since Levenshtein&#8217;s distance is at least as much as difference between length of two strings, we can start with two strings that have approximately the same length of n.</p>
+<p>Levenshtein&#8217;s algorithm in this case takes roughly n*n operations to calculate the distance. So calculating the distance of two 6 letter strings (36 operations) is around 10 times faster than performing the same with 20 letter strings (400 operations).</p>
+<p>What I propose is to calculate partial distance when strings length exceed a certain threshold.</p>
+<p>Let&#8217;s take two titles from my blog as an example. &#8220;HyperScope and my blog&#8217;s evolution&#8221; and &#8220;IE7 will remain to be MIME challenged&#8221; have approximately the same length (34 and 37 each), so they would probably pass the first test.</p>
+<p>Calculating real distance would take 1258 iterations, but if I take just first 6 letters (&#8220;HyperS&#8221; and &#8220;IE7 wi&#8221;) and calculate the Levenshtein&#8217;s distance of those substrings (which in this case is 6), it takes me only 36 operations to get the idea that these two strings are most likely not the same.</p>
+<p>If I got something like 1 or 2, then I couldn&#8217;t judge from that number alone and I would need to calculate the real distance. In that case my first, partial, calculation would just slow me down a bit.</p>
+<p>That&#8217;s why in my script I calculate partial results only for strings that are at least 10 letters long. Since 10 letter long strings take around twice as much time to calculate the L distance, I get to the break even point if only every second comparison of two long strings can be shortened with partial calculation.</p>
+<p>If strings are on average sufficiently different (that is the space they occupy is mathematically sparse) as they are in my case, the number of useful partial calculations far exceeds the number of those which are not. And longer the strings are, less often do partial calculations need to be definite. That is they are cheaper for longer strings.</p>
+<p>&#8220;My&#8221; algorithm is a bit fuzzy, since you have to make all sorts of decisions. You have to decide how close is close enough and at which lengths you get the best trade-off between certainty in result and price of calculations. You also need to know a bit about your strings.</p>
+<p>If all strings started with &#8220;Report:&#8221;, then it wouldn&#8217;t make any sense to use first six letters for partial calculations. You need to know where there is enough variations to make it worthwhile. In my case I can rely as much on my taste that I won&#8217;t start all titles the same way.</p>
+]]></content:encoded>
+	</item>
+	<item>
+		<title>By: Josh</title>
+		<link>http://markos.gaivo.net/blog/?p=211&#038;cpage=1#comment-14937</link>
+		<dc:creator>Josh</dc:creator>
+		<pubDate>Wed, 22 Nov 2006 19:28:53 +0000</pubDate>
+		<guid isPermaLink="false">http://markos.gaivo.net/blog/?p=211#comment-14937</guid>
+		<description>Markos,
+
+I&#039;ve been trying to implement the Levenshtein algorithm for us and ran across your posting to help improve the performance of it.  I&#039;m not sure I understand what you mean when you say in your second point
+
+first calculate edit distance on a small sparse substring and then calculate the real distance only if first one was close enough
+
+as far as the first point when you are exceeding maximum distance requirement and you disregard further calculations, how can you determine that you have already exceeded this without calculating it?
+
+I guess not being a python guru hurts me in this, but you seem to have some good advice.  Thanks and let me know when you can.</description>
+		<content:encoded><![CDATA[<p>Markos,</p>
+<p>I&#8217;ve been trying to implement the Levenshtein algorithm for us and ran across your posting to help improve the performance of it.  I&#8217;m not sure I understand what you mean when you say in your second point</p>
+<p>first calculate edit distance on a small sparse substring and then calculate the real distance only if first one was close enough</p>
+<p>as far as the first point when you are exceeding maximum distance requirement and you disregard further calculations, how can you determine that you have already exceeded this without calculating it?</p>
+<p>I guess not being a python guru hurts me in this, but you seem to have some good advice.  Thanks and let me know when you can.</p>
+]]></content:encoded>
+	</item>
+	<item>
+		<title>By: ajl</title>
+		<link>http://markos.gaivo.net/blog/?p=211&#038;cpage=1#comment-13540</link>
+		<dc:creator>ajl</dc:creator>
+		<pubDate>Tue, 14 Nov 2006 23:33:49 +0000</pubDate>
+		<guid isPermaLink="false">http://markos.gaivo.net/blog/?p=211#comment-13540</guid>
+		<description>I&#039;ve been using this python module for a long time:
+
+http://trific.ath.cx/resources/python/levenshtein/
+
+It also includes quite a few more algorithms and is written in C. The performance is very good.</description>
+		<content:encoded><![CDATA[<p>I&#8217;ve been using this python module for a long time:</p>
+<p><a href="http://trific.ath.cx/resources/python/levenshtein/">http://trific.ath.cx/resources/python/levenshtein/</a></p>
+<p>It also includes quite a few more algorithms and is written in C. The performance is very good.</p>
+]]></content:encoded>
+	</item>
+	<item>
+		<title>By: bearophile</title>
+		<link>http://markos.gaivo.net/blog/?p=211&#038;cpage=1#comment-13535</link>
+		<dc:creator>bearophile</dc:creator>
+		<pubDate>Tue, 14 Nov 2006 23:11:03 +0000</pubDate>
+		<guid isPermaLink="false">http://markos.gaivo.net/blog/?p=211#comment-13535</guid>
+		<description>Is difflib.get_close_matches useful?</description>
+		<content:encoded><![CDATA[<p>Is difflib.get_close_matches useful?</p>
+]]></content:encoded>
+	</item>
+	<item>
+		<title>By: david</title>
+		<link>http://markos.gaivo.net/blog/?p=211&#038;cpage=1#comment-13509</link>
+		<dc:creator>david</dc:creator>
+		<pubDate>Tue, 14 Nov 2006 19:17:58 +0000</pubDate>
+		<guid isPermaLink="false">http://markos.gaivo.net/blog/?p=211#comment-13509</guid>
+		<description>Udi Manber has a version of Levenshtein which is faster than quadratic but which counts letter transpositions not as one error, as Levenshtein does, but as two (one deletion, one insertion). This is still good for typo correction. The algorithm is from 1991 or 1992, but I don&#039;t remember off the top of my head which of his papers from that time it&#039;s in.</description>
+		<content:encoded><![CDATA[<p>Udi Manber has a version of Levenshtein which is faster than quadratic but which counts letter transpositions not as one error, as Levenshtein does, but as two (one deletion, one insertion). This is still good for typo correction. The algorithm is from 1991 or 1992, but I don&#8217;t remember off the top of my head which of his papers from that time it&#8217;s in.</p>
+]]></content:encoded>
+	</item>
+	<item>
+		<title>By: markos</title>
+		<link>http://markos.gaivo.net/blog/?p=211&#038;cpage=1#comment-12825</link>
+		<dc:creator>markos</dc:creator>
+		<pubDate>Fri, 10 Nov 2006 17:16:12 +0000</pubDate>
+		<guid isPermaLink="false">http://markos.gaivo.net/blog/?p=211#comment-12825</guid>
+		<description>Thanks to all. I&#039;ll definitely take a look at both algorithms and thanks to Peter for reminding me of psyco.</description>
+		<content:encoded><![CDATA[<p>Thanks to all. I&#8217;ll definitely take a look at both algorithms and thanks to Peter for reminding me of psyco.</p>
+]]></content:encoded>
+	</item>
+</channel>
+</rss>

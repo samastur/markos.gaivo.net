@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+		>
+<channel>
+	<title>Comments on: First post</title>
+	<atom:link href="http://markos.gaivo.net/blog/?feed=rss2&#038;p=2" rel="self" type="application/rss+xml" />
+	<link>http://markos.gaivo.net/blog/?p=2</link>
+	<description></description>
+	<lastBuildDate>Wed, 16 Jul 2014 16:04:38 +0000</lastBuildDate>
+	<sy:updatePeriod>hourly</sy:updatePeriod>
+	<sy:updateFrequency>1</sy:updateFrequency>
+	<generator>http://wordpress.org/?v=3.0.5</generator>
+	<item>
+		<title>By: testing</title>
+		<link>http://markos.gaivo.net/blog/?p=2&#038;cpage=1#comment-20600</link>
+		<dc:creator>testing</dc:creator>
+		<pubDate>Sat, 23 Dec 2006 15:16:17 +0000</pubDate>
+		<guid isPermaLink="false">http://markos.gaivo.net/blog/?p=2#comment-20600</guid>
+		<description>Hello!Just a testing :)</description>
+		<content:encoded><![CDATA[<p>Hello!Just a testing <img src='http://markos.gaivo.net/blog/wp-includes/images/smilies/icon_smile.gif' alt=':)' class='wp-smiley' /> </p>
+]]></content:encoded>
+	</item>
+	<item>
+		<title>By: markos</title>
+		<link>http://markos.gaivo.net/blog/?p=2&#038;cpage=1#comment-3</link>
+		<dc:creator>markos</dc:creator>
+		<pubDate>Tue, 14 Jun 2005 10:37:51 +0000</pubDate>
+		<guid isPermaLink="false">http://markos.gaivo.net/blog/?p=2#comment-3</guid>
+		<description>Thanks. I&#039;m still learning to use Wordpress, but hopefully will have time to add a few things later this week related to what we talked at Javascript get-together.</description>
+		<content:encoded><![CDATA[<p>Thanks. I&#8217;m still learning to use WordPress, but hopefully will have time to add a few things later this week related to what we talked at Javascript get-together.</p>
+]]></content:encoded>
+	</item>
+	<item>
+		<title>By: Andy Budd</title>
+		<link>http://markos.gaivo.net/blog/?p=2&#038;cpage=1#comment-2</link>
+		<dc:creator>Andy Budd</dc:creator>
+		<pubDate>Tue, 14 Jun 2005 00:08:04 +0000</pubDate>
+		<guid isPermaLink="false">http://markos.gaivo.net/blog/?p=2#comment-2</guid>
+		<description>Good move. Hope the new blog goes well.</description>
+		<content:encoded><![CDATA[<p>Good move. Hope the new blog goes well.</p>
+]]></content:encoded>
+	</item>
+</channel>
+</rss>

@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>A notch above a monkey &raquo; Javascript enabled spiders</title>
+	<meta charset="utf-8" />
+	
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" /> 
+
+	<link rel="shortcut icon" href="/img/markos.ico" />
+	
+	<meta name="generator" content="WordPress 3.0.5" /> <!-- leave this for stats please -->
+
+	<link href="http://fast.fonts.com/cssapi/aee9b60b-8e94-47f8-b586-3ecbfab51d1c.css" rel="stylesheet" type="text/css" />
+	<link rel="stylesheet" type="text/css" href="css/home.css" media="screen" title="Light theme" />
+	<link rel="alternate stylesheet" type="text/css" href="css/home_dark.css" media="screen" title="Dark theme" />
+	<link rel="stylesheet" href="css/ipad.css" media="only screen and (min-device-width : 768px) and (max-device-width : 1024px)">
+	<link rel="stylesheet" type="text/css" href="css/smallscreen.css" media="only screen and (max-width: 700px)" />
+
+	<link rel="alternate" type="application/rss+xml" title="RSS 2.0" href="http://markos.gaivo.net/blog/?feed=rss2" />
+	<link rel="alternate" type="application/atom+xml" title="Atom 1.0" href="http://markos.gaivo.net/blog/?feed=atom" />
+	<link rel='canonical' href='http://markos.gaivo.net/blog/?p=664' />
+
+	<link rel="pingback" href="http://markos.gaivo.net/blog/xmlrpc.php" />
+
+	<link rel="alternate" type="application/rss+xml" title="A notch above a monkey &raquo; Javascript enabled spiders Comments Feed" href="http://markos.gaivo.net/blog/?feed=rss2&amp;p=146" />
+<link rel="EditURI" type="application/rsd+xml" title="RSD" href="http://markos.gaivo.net/blog/xmlrpc.php?rsd" />
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="http://markos.gaivo.net/blog/wp-includes/wlwmanifest.xml" /> 
+<link rel='index' title='A notch above a monkey' href='http://markos.gaivo.net/blog' />
+<link rel='start' title='First post' href='http://markos.gaivo.net/blog/?p=2' />
+<link rel='prev' title='Mobile phones shopping' href='http://markos.gaivo.net/blog/?p=145' />
+<link rel='next' title='Simple List Extensions' href='http://markos.gaivo.net/blog/?p=147' />
+<meta name="generator" content="WordPress 3.0.5" />
+<link rel='canonical' href='http://markos.gaivo.net/blog/?p=146' />
+
+	<!--[if lt IE 9]>
+	<script src="/js/html5.js"></script>
+	<![endif]-->
+</head>
+<body>
+					<header>
+		<h1><a href="/blog/">A notch above a monkey</a> &raquo; Javascript enabled spiders</h1>
+	</header>
+
+	<section class="envelope">
+		<article class="post">
+			<header>
+				<h1>Javascript enabled spiders</h1>
+			</header>
+
+			<footer>
+				<ul>
+					<li class="by">Written by: <a href="/">Marko Samastur</a></li>
+					<li class="published">Published on: <time datetime="2006-04-07T17:23:51+00:00" pubdate>April 7, 2006</time></li>
+					<li class="categories">Categories: <a href="http://markos.gaivo.net/blog/?cat=1" title="View all posts in Javascript" rel="category">Javascript</a>, <a href="http://markos.gaivo.net/blog/?cat=4" title="View all posts in Web" rel="category">Web</a></li>
+					<li class="post-comments">Comments: <a href="http://markos.gaivo.net/blog/?p=146#comments" title="Comment on Javascript enabled spiders">3</a></li>
+				</ul>
+			</footer>
+
+			<div class="post-text">
+				<p>One of more popular javascript scripts I&#8217;ve written is a simple function that hides an email address from spiders by constructing a mailto link on page load. So far it has worked quite well.</p>
+<p>Lately I started to have my doubts about this approach though. There was <a href="http://www.google.com/search?hl=en&amp;q=mozilla+google+spider&amp;btnG=Google+Search">a series of articles</a> a while ago about Google&#8217;s new Mozilla-based spider that I didn&#8217;t take too seriously at the time. However, even if not true then, it&#8217;s still only a matter of time before a spider like this will show up. The new found popularity of AJAX/Javascript simply guarantees that, since search engines can&#8217;t and won&#8217;t give up indexing content hidden behind fancy scripts.</p>
+<p>Which means that my script will stop working in not so distant future as will all email obfuscating scripts out there. If it can be seen by a human, then it will be seen by a spider. So is there a way to publish my email address without it becoming public through search engines indexes, which is where most spammers seem to get our emails?</p>
+<p>I could write a robots.txt file, which would exempt my contact page from being indexed at all. But this is a rather crude approach, since it means nothing on that page will get indexed. I could move email information to a separate page to let other contact data get indexed, but this is hardly any nicer.</p>
+<p>What I&#8217;d really want is to be able to tell to search engines that only a part of my document is off limits. I don&#8217;t think there&#8217;s currently a way to do this, but if anyone has an idea how to do it, I&#8217;d really like to hear it.</p>
+<p><strong>Update: </strong>I think all efforts, including mine, to prevent spammers from collecting published addresses are ultimately doomed. The basic premise of all such approaches is to cloak an address in a way that spider can&#8217;t see it or can&#8217;t recognize it if it does. By basing spider on something like Mozilla, there won&#8217;t be any difference between what spider sees and what user does. There&#8217;s a similar problem with recognition. As spiders gets smarter, as they invariably do, you&#8217;ll be getting ever growing overlap between smartest spiders and stupidest users until it&#8217;s big enough to be unacceptable.</p>
+<p>So we&#8217;ll either put up contact forms or I hope move to defending our inboxes with smart spam filters (those who haven&#8217;t yet).</p>
+			</div>
+
+			<nav>
+				<p>If you liked this, you might want to visit:</p>
+				<ul>
+					<li>my previous article: <a href="http://markos.gaivo.net/blog/?p=145" rel="prev">Mobile phones shopping</a></li>					<li>my next article: <a href="http://markos.gaivo.net/blog/?p=147" rel="next">Simple List Extensions</a></li>					<li><a href="/blog/">article list</a></li>
+				</ul>
+			</nav>
+
+			<h2 id="comments">Comments (3)
+			</h2>
+			<ol class="comments">
+		
+				<li id="comment-1162">
+					<article>
+						<p>separate contacts page seems to be THE solution, but there are many spiders who don&#8217;t use (ignore) robots.txt.</p>
+<p>You could appeal to human intelligence and wrote your email in some weird way still readable to human willing to contact you:</p>
+<p>your.name # domaain tld<br />
+or<br />
+your DOT name AT NOSPAM DOT domain DOT tld&#8230;</p>
+						<footer>
+							<cite>Comment by j &#8212; <time datetime="2006-04-08T16:12:32+00:00">April 8, 2006 @ 4:12 pm</time> <a href="#comment-1162">#</a> </cite>
+						</footer>
+					</article>
+				</li>
+		
+				<li id="comment-1172">
+					<article>
+						<p>Separate contacts page isn&#8217;t always a solution and even when it is, it&#8217;s not really a nice one, since at best it means nothing will get indexed.</p>
+<p>You can see a weird, but readable representation of my email address (on my homepage) if you turn off Javascript. I use Javascript because the difficulty of emailing someone is inversely proportional to the number of people who&#8217;ll do so.</p>
+						<footer>
+							<cite>Comment by <a href='http://markos.gaivo.net' rel='external nofollow' class='url'>markos</a> &#8212; <time datetime="2006-04-09T10:27:44+00:00">April 9, 2006 @ 10:27 am</time> <a href="#comment-1172">#</a> </cite>
+						</footer>
+					</article>
+				</li>
+		
+				<li id="comment-1508">
+					<article>
+						<p>My two cents, just give up. Just like junk mail, spam is inevitable, and unfortunately a part of life <img src='http://markos.gaivo.net/blog/wp-includes/images/smilies/icon_sad.gif' alt=':(' class='wp-smiley' /> </p>
+<p>If you want to make things more difficult though, you could have a contact page, and a very easy machine-human test in order to get to the page with your email aggress, something like &#8220;Click the green square to send me a message&#8221; which could link to a perl script to either redirect to a mailto: link or a &#8220;Try again&#8221; page. If this were done with an old-school img map, the robot would need to hit the correct coordinates to spider the contact page&#8230; Just thoughts.</p>
+						<footer>
+							<cite>Comment by <a href='http://freepresaleinfo.blogspot.com/' rel='external nofollow' class='url'>Eric S</a> &#8212; <time datetime="2006-05-05T19:09:31+00:00">May 5, 2006 @ 7:09 pm</time> <a href="#comment-1508">#</a> </cite>
+						</footer>
+					</article>
+				</li>
+		
+			</ol>
+
+
+		<p>Sorry, the comment form is closed at this time.</p>
+
+		</article>
+	</section>
+			<!-- All pages -->
+	
+
+	<footer>
+		<ul>
+			<li>&copy; 2005-2015 Marko Samastur</li>
+			
+			<li><a href="http://markos.gaivo.net/blog/?feed=rss2">Entries feed</a></li>
+			<li><a href="http://markos.gaivo.net/blog/?feed=comments-rss2">Comments feed</a></li>
+		</ul>
+		<a href="/"><img src="/img/markos_light_small_bg.png" alt="logo" class="mini-logo" /></a>
+	</footer>
+	<!-- Google analytics -->
+	<script type="text/javascript">
+	  var _gaq = _gaq || [];
+	  _gaq.push(['_setAccount', 'UA-152438-1']);
+	  _gaq.push(['_trackPageview']);
+	</script>
+	<script src="/js/cookie.js"></script>
+</body>
+</html>

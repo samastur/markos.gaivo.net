@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+		>
+<channel>
+	<title>Comments on: Opera mini and file uploads</title>
+	<atom:link href="http://markos.gaivo.net/blog/?feed=rss2&#038;p=172" rel="self" type="application/rss+xml" />
+	<link>http://markos.gaivo.net/blog/?p=172</link>
+	<description></description>
+	<lastBuildDate>Wed, 16 Jul 2014 16:04:38 +0000</lastBuildDate>
+	<sy:updatePeriod>hourly</sy:updatePeriod>
+	<sy:updateFrequency>1</sy:updateFrequency>
+	<generator>http://wordpress.org/?v=3.0.5</generator>
+	<item>
+		<title>By: Hemant</title>
+		<link>http://markos.gaivo.net/blog/?p=172&#038;cpage=1#comment-193775</link>
+		<dc:creator>Hemant</dc:creator>
+		<pubDate>Thu, 21 May 2009 11:34:57 +0000</pubDate>
+		<guid isPermaLink="false">http://markos.gaivo.net/blog/?p=172#comment-193775</guid>
+		<description>I bought nokia E63,i downloaded opera mini 4 and tried to upload file via yahoo mail but could not upload since there was no option availabal so I uninstalled same and tried opera 3 but same problem uccured.
+Any one there to help me?</description>
+		<content:encoded><![CDATA[<p>I bought nokia E63,i downloaded opera mini 4 and tried to upload file via yahoo mail but could not upload since there was no option availabal so I uninstalled same and tried opera 3 but same problem uccured.<br />
+Any one there to help me?</p>
+]]></content:encoded>
+	</item>
+	<item>
+		<title>By: markos</title>
+		<link>http://markos.gaivo.net/blog/?p=172&#038;cpage=1#comment-2804</link>
+		<dc:creator>markos</dc:creator>
+		<pubDate>Wed, 24 May 2006 18:12:06 +0000</pubDate>
+		<guid isPermaLink="false">http://markos.gaivo.net/blog/?p=172#comment-2804</guid>
+		<description>Well, if you have a series60 Nokia phone or you&#039;re about to get one, then you&#039;re lucky. I&#039;m fairly certain I&#039;ll have a first version of Marela uploader by the end of this weekend.
+
+Otherwise somebody will have to write one or you need to use some other mobile browser which doesn&#039;t have such limitations.</description>
+		<content:encoded><![CDATA[<p>Well, if you have a series60 Nokia phone or you&#8217;re about to get one, then you&#8217;re lucky. I&#8217;m fairly certain I&#8217;ll have a first version of Marela uploader by the end of this weekend.</p>
+<p>Otherwise somebody will have to write one or you need to use some other mobile browser which doesn&#8217;t have such limitations.</p>
+]]></content:encoded>
+	</item>
+	<item>
+		<title>By: Jure</title>
+		<link>http://markos.gaivo.net/blog/?p=172&#038;cpage=1#comment-2803</link>
+		<dc:creator>Jure</dc:creator>
+		<pubDate>Wed, 24 May 2006 17:59:23 +0000</pubDate>
+		<guid isPermaLink="false">http://markos.gaivo.net/blog/?p=172#comment-2803</guid>
+		<description>So, how do I upload from my mobile phone then? :)</description>
+		<content:encoded><![CDATA[<p>So, how do I upload from my mobile phone then? <img src='http://markos.gaivo.net/blog/wp-includes/images/smilies/icon_smile.gif' alt=':)' class='wp-smiley' /> </p>
+]]></content:encoded>
+	</item>
+</channel>
+</rss>

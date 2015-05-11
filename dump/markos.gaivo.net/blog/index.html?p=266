@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>A notch above a monkey &raquo; Switched&#8230;to Firefox 3</title>
+	<meta charset="utf-8" />
+	
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" /> 
+
+	<link rel="shortcut icon" href="/img/markos.ico" />
+	
+	<meta name="generator" content="WordPress 3.0.5" /> <!-- leave this for stats please -->
+
+	<link href="http://fast.fonts.com/cssapi/aee9b60b-8e94-47f8-b586-3ecbfab51d1c.css" rel="stylesheet" type="text/css" />
+	<link rel="stylesheet" type="text/css" href="css/home.css" media="screen" title="Light theme" />
+	<link rel="alternate stylesheet" type="text/css" href="css/home_dark.css" media="screen" title="Dark theme" />
+	<link rel="stylesheet" href="css/ipad.css" media="only screen and (min-device-width : 768px) and (max-device-width : 1024px)">
+	<link rel="stylesheet" type="text/css" href="css/smallscreen.css" media="only screen and (max-width: 700px)" />
+
+	<link rel="alternate" type="application/rss+xml" title="RSS 2.0" href="http://markos.gaivo.net/blog/?feed=rss2" />
+	<link rel="alternate" type="application/atom+xml" title="Atom 1.0" href="http://markos.gaivo.net/blog/?feed=atom" />
+	<link rel='canonical' href='http://markos.gaivo.net/blog/?p=664' />
+
+	<link rel="pingback" href="http://markos.gaivo.net/blog/xmlrpc.php" />
+
+	<link rel="alternate" type="application/rss+xml" title="A notch above a monkey &raquo; Switched&#8230;to Firefox 3 Comments Feed" href="http://markos.gaivo.net/blog/?feed=rss2&amp;p=266" />
+<link rel="EditURI" type="application/rsd+xml" title="RSD" href="http://markos.gaivo.net/blog/xmlrpc.php?rsd" />
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="http://markos.gaivo.net/blog/wp-includes/wlwmanifest.xml" /> 
+<link rel='index' title='A notch above a monkey' href='http://markos.gaivo.net/blog' />
+<link rel='start' title='First post' href='http://markos.gaivo.net/blog/?p=2' />
+<link rel='prev' title='Reblog and clean HTML' href='http://markos.gaivo.net/blog/?p=261' />
+<link rel='next' title='Firefox 3 Release Party' href='http://markos.gaivo.net/blog/?p=267' />
+<meta name="generator" content="WordPress 3.0.5" />
+<link rel='canonical' href='http://markos.gaivo.net/blog/?p=266' />
+
+	<!--[if lt IE 9]>
+	<script src="/js/html5.js"></script>
+	<![endif]-->
+</head>
+<body>
+					<header>
+		<h1><a href="/blog/">A notch above a monkey</a> &raquo; Switched&#8230;to Firefox 3</h1>
+	</header>
+
+	<section class="envelope">
+		<article class="post">
+			<header>
+				<h1>Switched&#8230;to Firefox 3</h1>
+			</header>
+
+			<footer>
+				<ul>
+					<li class="by">Written by: <a href="/">Marko Samastur</a></li>
+					<li class="published">Published on: <time datetime="2008-06-22T15:04:45+00:00" pubdate>June 22, 2008</time></li>
+					<li class="categories">Categories: <a href="http://markos.gaivo.net/blog/?cat=5" title="View all posts in General development" rel="category">General development</a>, <a href="http://markos.gaivo.net/blog/?cat=4" title="View all posts in Web" rel="category">Web</a></li>
+					<li class="post-comments">Comments: <a href="http://markos.gaivo.net/blog/?p=266#comments" title="Comment on Switched&#8230;to Firefox 3">3</a></li>
+				</ul>
+			</footer>
+
+			<div class="post-text">
+				<p>Today I switched to <a class="zem_slink" title="Mozilla Firefox" rel="homepage" href="http://www.firefox.com/">Firefox 3</a> as my main browser. I didn&#8217;t want to, because as a policy I try to use most common version as default, but I made a mistake of opening version 3 and since then none of my old add-ons seem to work on previous version anymore.</p>
+<p>If I was still a young pup, I would probably dive into config files, search <a class="zem_slink" title="World Wide Web" rel="wikipedia" href="http://en.wikipedia.org/wiki/World_Wide_Web">the web</a> for answers and try to fix it. But when you get to 34, time becomes too precious to muck about needlessly and you just want to focus on things you need or better yet want to do.</p>
+<p>So version three it is. This has got me thinking about something else. It&#8217;s remarkable how difficult or simply an annoyance it still is to have two version of a browser installed. Clearly this should be possible and is in interest of everyone involved.</p>
+<p>Anyway, enough of ranting. Time to get back to cutting cake&#8230;</p>
+<div class="zemanta-pixie" style="margin-top: 10px; height: 15px;"><a class="zemanta-pixie-a" title="Zemified by Zemanta" href="http://reblog.zemanta.com/zemified/79c05cbe-847f-4fa0-8dc3-878f8e79208f/"><img class="zemanta-pixie-img" style="border: medium none; float: right;" src="http://img.zemanta.com/reblog_a.png?x-id=79c05cbe-847f-4fa0-8dc3-878f8e79208f" alt="Zemanta Pixie" /></a></div>
+			</div>
+
+			<nav>
+				<p>If you liked this, you might want to visit:</p>
+				<ul>
+					<li>my previous article: <a href="http://markos.gaivo.net/blog/?p=261" rel="prev">Reblog and clean HTML</a></li>					<li>my next article: <a href="http://markos.gaivo.net/blog/?p=267" rel="next">Firefox 3 Release Party</a></li>					<li><a href="/blog/">article list</a></li>
+				</ul>
+			</nav>
+
+			<h2 id="comments">Comments (3)
+			</h2>
+			<ol class="comments">
+		
+				<li id="comment-140508">
+					<article>
+						<p>well, I generally agree with your rant about multiple versions installed simultaneously, but if you only searched the web before installing you&#8217;d find out that the trick is easy: install F3 into a different directory, run profile manager to create a new profile, edit shortcuts to run the desired version with the corresponding profile. Works on windows and linux.</p>
+<p>I&#8217;d switch to F3, but for the next few months I&#8217;ll still have to develop for both. The browser test group just got another new member.</p>
+						<footer>
+							<cite>Comment by <a href='http://fatg.sopca.com' rel='external nofollow' class='url'>gasper_k</a> &#8212; <time datetime="2008-06-22T20:18:32+00:00">June 22, 2008 @ 8:18 pm</time> <a href="#comment-140508">#</a> </cite>
+						</footer>
+					</article>
+				</li>
+		
+				<li id="comment-140631">
+					<article>
+						<p>As it happens, I know I can do this, but I don&#8217;t find this easy. And I hate profile manager with a passion.</p>
+<p>You know what I would find easy? Having both versions installed and each used only parts of configuration or add-ons it can understand and leave rest the fuck alone, if it absolutely has to use the same configuration files. You know, like how browsers were supposed to handle HTML.</p>
+<p>If you take a look at configuration files, as I did when I moved to FF3, it&#8217;s quite obvious that developers themselves can&#8217;t decide. E.g. signons.txt is different for each major version of Firefox, but other files in general aren&#8217;t.</p>
+						<footer>
+							<cite>Comment by <a href='http://markos.gaivo.net' rel='external nofollow' class='url'>markos</a> &#8212; <time datetime="2008-06-23T09:06:41+00:00">June 23, 2008 @ 9:06 am</time> <a href="#comment-140631">#</a> </cite>
+						</footer>
+					</article>
+				</li>
+		
+				<li id="comment-140871">
+					<article>
+						<p>On Windows, you can even have isolated Firefox Portable instances with separate configurations. There&#8217;s, I think, an extension that then enables you to sync configuration between multiple instances.</p>
+<p>While you can&#8217;t run FF2 and FF3 simultaneously (Portable version nags about the running instance of FF3 before starting), you can run them separately, at least. Much less fuss than running a VM for the sole sake of testing on IE6.</p>
+<p>Problem is that with the new version, the plugin code needed to be ported, something that doesn&#8217;t happen often for some of the less popular extensions. It&#8217;s a two-edged sword &#8211; the same thing you&#8217;re dealing with MS needs to deal with too for their IE8 &lt;meta&gt; tags. Sadly, there&#8217;s no good single answer to any of these issues, and almost all of the solutions require a tradeoff the end user has to pay.</p>
+						<footer>
+							<cite>Comment by <a href='http://animalija.sopca.com' rel='external nofollow' class='url'>Krof Drakula</a> &#8212; <time datetime="2008-06-24T10:01:15+00:00">June 24, 2008 @ 10:01 am</time> <a href="#comment-140871">#</a> </cite>
+						</footer>
+					</article>
+				</li>
+		
+			</ol>
+
+
+		<p>Sorry, the comment form is closed at this time.</p>
+
+		</article>
+	</section>
+			<!-- All pages -->
+	
+
+	<footer>
+		<ul>
+			<li>&copy; 2005-2015 Marko Samastur</li>
+			
+			<li><a href="http://markos.gaivo.net/blog/?feed=rss2">Entries feed</a></li>
+			<li><a href="http://markos.gaivo.net/blog/?feed=comments-rss2">Comments feed</a></li>
+		</ul>
+		<a href="/"><img src="/img/markos_light_small_bg.png" alt="logo" class="mini-logo" /></a>
+	</footer>
+	<!-- Google analytics -->
+	<script type="text/javascript">
+	  var _gaq = _gaq || [];
+	  _gaq.push(['_setAccount', 'UA-152438-1']);
+	  _gaq.push(['_trackPageview']);
+	</script>
+	<script src="/js/cookie.js"></script>
+</body>
+</html>

@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>A notch above a monkey &raquo; Look ma&#8217;, HTML too</title>
+	<meta charset="utf-8" />
+	
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" /> 
+
+	<link rel="shortcut icon" href="/img/markos.ico" />
+	
+	<meta name="generator" content="WordPress 3.0.5" /> <!-- leave this for stats please -->
+
+	<link href="http://fast.fonts.com/cssapi/aee9b60b-8e94-47f8-b586-3ecbfab51d1c.css" rel="stylesheet" type="text/css" />
+	<link rel="stylesheet" type="text/css" href="css/home.css" media="screen" title="Light theme" />
+	<link rel="alternate stylesheet" type="text/css" href="css/home_dark.css" media="screen" title="Dark theme" />
+	<link rel="stylesheet" href="css/ipad.css" media="only screen and (min-device-width : 768px) and (max-device-width : 1024px)">
+	<link rel="stylesheet" type="text/css" href="css/smallscreen.css" media="only screen and (max-width: 700px)" />
+
+	<link rel="alternate" type="application/rss+xml" title="RSS 2.0" href="http://markos.gaivo.net/blog/?feed=rss2" />
+	<link rel="alternate" type="application/atom+xml" title="Atom 1.0" href="http://markos.gaivo.net/blog/?feed=atom" />
+	<link rel='canonical' href='http://markos.gaivo.net/blog/?p=664' />
+
+	<link rel="pingback" href="http://markos.gaivo.net/blog/xmlrpc.php" />
+
+	<link rel="alternate" type="application/rss+xml" title="A notch above a monkey &raquo; Look ma&#8217;, HTML too Comments Feed" href="http://markos.gaivo.net/blog/?feed=rss2&amp;p=93" />
+<link rel="EditURI" type="application/rsd+xml" title="RSD" href="http://markos.gaivo.net/blog/xmlrpc.php?rsd" />
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="http://markos.gaivo.net/blog/wp-includes/wlwmanifest.xml" /> 
+<link rel='index' title='A notch above a monkey' href='http://markos.gaivo.net/blog' />
+<link rel='start' title='First post' href='http://markos.gaivo.net/blog/?p=2' />
+<link rel='prev' title='Google&#8217;s bias' href='http://markos.gaivo.net/blog/?p=92' />
+<link rel='next' title='Telemarketing scum' href='http://markos.gaivo.net/blog/?p=94' />
+<meta name="generator" content="WordPress 3.0.5" />
+<link rel='canonical' href='http://markos.gaivo.net/blog/?p=93' />
+
+	<!--[if lt IE 9]>
+	<script src="/js/html5.js"></script>
+	<![endif]-->
+</head>
+<body>
+					<header>
+		<h1><a href="/blog/">A notch above a monkey</a> &raquo; Look ma&#8217;, HTML too</h1>
+	</header>
+
+	<section class="envelope">
+		<article class="post">
+			<header>
+				<h1>Look ma&#8217;, HTML too</h1>
+			</header>
+
+			<footer>
+				<ul>
+					<li class="by">Written by: <a href="/">Marko Samastur</a></li>
+					<li class="published">Published on: <time datetime="2005-12-11T23:08:10+00:00" pubdate>December 11, 2005</time></li>
+					<li class="categories">Categories: <a href="http://markos.gaivo.net/blog/?cat=1" title="View all posts in Javascript" rel="category">Javascript</a>, <a href="http://markos.gaivo.net/blog/?cat=7" title="View all posts in UI" rel="category">UI</a>, <a href="http://markos.gaivo.net/blog/?cat=4" title="View all posts in Web" rel="category">Web</a></li>
+					<li class="post-comments">Comments: <a href="http://markos.gaivo.net/blog/?p=93#comments" title="Comment on Look ma&#8217;, HTML too">10</a></li>
+				</ul>
+			</footer>
+
+			<div class="post-text">
+				<p>This is a second post in hopefully a very short series dedicated to javascript internationalization. If you want, you can read the first one <a href="http://markos.gaivo.net/blog/?p=90">here</a>.</p>
+<p>We left off with two supporting functions for striping whitespace and a simple function for translation lookup. Today I added another two functions, one for translating HTML elements and the other for resolving a problem with HTML entities. You can find new javascript <a href="http://markos.gaivo.net/examples/js_i18n/2/translate.js">here</a> and a demo <a href="http://markos.gaivo.net/examples/js_i18n/2/index.html">here</a>.</p>
+<p><em>translateNodes</em> searches for elements with class name i18n, picks up their text content and translates it, if it can find it in translation dictionary. Sometimes it can&#8217;t, because what javascript actually sees is a real utf-8 encoded string, where X/HTML entities have been replaced with characters they represent. If this is not true also for source string in dictionary, then there&#8217;s a mismatch.</p>
+<p>That&#8217;s why there&#8217;s <em>toEntity</em> function which translates all non-ASCII characters in given string to their entity representation. When <em>translateNodes</em> fails to find translation, it uses <em>toEntity</em> to get a possibly different representation and tries again.</p>
+<p>This way you can use entities, which are the only real cross-browser way to describe non-ASCII chars and translations still work. There&#8217;s a downside though. Your translation source string must either have all non-ASII characters represented as HTML entities or none of them. Otherwise translation will fail for obvious reasons.</p>
+<p>There are planned limitations (like building a system that handles only utf-8 text) and unplanned ones. I still don&#8217;t do anything special for strings with significant whitespace (like content of a <em>pre</em> tag) and probably should.</p>
+<p>Do nothing = I break it.</p>
+<p>It would be nice, if I started to pack this functionality in a more sensible form and build tools that make handling of the whole thing easier.</p>
+<p>Next week, which starts in an hour or so, seems perfect time for that.</p>
+<p>Update: Follow up <a href="http://markos.gaivo.net/blog/?p=100">here</a>.</p>
+			</div>
+
+			<nav>
+				<p>If you liked this, you might want to visit:</p>
+				<ul>
+					<li>my previous article: <a href="http://markos.gaivo.net/blog/?p=92" rel="prev">Google&#8217;s bias</a></li>					<li>my next article: <a href="http://markos.gaivo.net/blog/?p=94" rel="next">Telemarketing scum</a></li>					<li><a href="/blog/">article list</a></li>
+				</ul>
+			</nav>
+
+			<h2 id="comments">Comments (10)
+			</h2>
+			<ol class="comments">
+		
+				<li id="comment-278">
+					<article>
+						<p>I took an approach to i18n more based on the code than the HTML,<br />
+perharps you would like to check it out<br />
+<a href="http://www.zwetan.com/blog/buRRRn/core2/Easy-internationalization-of-resources.html">http://www.zwetan.com/blog/buRRRn/core2/Easy-internationalization-of-resources.html</a></p>
+<p>You can check also the core2 library, the String.format can be usefull to format complex strings.<br />
+<a href="http://www.buRRRn.com/projects/core2.html">http://www.buRRRn.com/projects/core2.html</a></p>
+<p>And just quick thought about applying i18n to X/HTML</p>
+<p>why not use a class AND an id</p>
+<p>like that if you got your resource strings organized</p>
+<p>strings = {};<br />
+strings.en = {};<br />
+strings.fr = {};</p>
+<p>strings.en.hello = &#8220;Hello&#8221;;<br />
+strings.en.bye   = &#8220;Good bye&#8221;;</p>
+<p>strings.fr.hello = &#8220;Bonjour&#8221;;<br />
+strings.fr.bye   = &#8220;Aurevoir&#8221;;</p>
+<p>you could simply have the function looking for class &#8220;i18n&#8221;<br />
+replacing the node content with the &#8220;id&#8221; local value.</p>
+<p>I didn&#8217;t tested, but I&#8217;m alsmot sure it can be done this way <img src='http://markos.gaivo.net/blog/wp-includes/images/smilies/icon_smile.gif' alt=':)' class='wp-smiley' /> .</p>
+						<footer>
+							<cite>Comment by <a href='http://www.zwetan.com' rel='external nofollow' class='url'>zwetan</a> &#8212; <time datetime="2005-12-12T08:43:53+00:00">December 12, 2005 @ 8:43 am</time> <a href="#comment-278">#</a> </cite>
+						</footer>
+					</article>
+				</li>
+		
+				<li id="comment-279">
+					<article>
+						<p>I see you&#8217;re using String.charCodeAt which is (like Array.splice you don&#8217;t like) also a <a href="http://msdn.microsoft.com/library/default.asp?url=/library/en-us/jscript7/html/jsmthcharCodeAt.asp">IE55+ method</a>&#8230;</p>
+						<footer>
+							<cite>Comment by <a href='http://www.friedcellcollective.net' rel='external nofollow' class='url'>fry</a> &#8212; <time datetime="2005-12-12T11:29:18+00:00">December 12, 2005 @ 11:29 am</time> <a href="#comment-279">#</a> </cite>
+						</footer>
+					</article>
+				</li>
+		
+				<li id="comment-280">
+					<article>
+						<p>After closer inspection I also think that the html tag translation method should be changed. How will you translate &#8216;code&#8217; with innerHTML when it could also be a normal and valid tag? Since DOM is not slow anymore I think what you should do is a recursive method to find and translate only text nodes.</p>
+						<footer>
+							<cite>Comment by <a href='http://www.friedcellcollective.net' rel='external nofollow' class='url'>fry</a> &#8212; <time datetime="2005-12-12T12:05:58+00:00">December 12, 2005 @ 12:05 pm</time> <a href="#comment-280">#</a> </cite>
+						</footer>
+					</article>
+				</li>
+		
+				<li id="comment-283">
+					<article>
+						<p>Thanks for comments. I&#8217;ll tackle the easiest one first.</p>
+<p>I didn&#8217;t know charCodeAt is IE5.5+ only method and I can&#8217;t say I care all too much now. 5.0 seems to be definitely dead, but I will try to make a workaround anyway if it&#8217;s not too hard or long.</p>
+<p>I can also be persuaded that DOM way is the one to go, but I definitely think translating only text nodes is a bad idea. String &#8220;Please <strong>don&#8217;t</strong> do that.&#8221; should require one translation, not three. And that&#8217;s ignoring the fact that translations often choose a different emphasis because of cultural differences and stuff like that.</p>
+<p>I also took a quick look at zwetan&#8217;s links. I have few objections. First one is that I like to have as few classes and ID&#8217;s in my documents as possible, because it makes name collisions much less likely.</p>
+<p>Second reason is that every ID must be unique to page. Which means you can&#8217;t use the same translation more than once per page. You have to duplicate it in translation object as many times as needed.</p>
+<p>Third reason is completely personal. Coming from opensource background gives me a natural inclination to GNU gettext form and tools. Your proposal looks like Java way of handling it and although the approach seems to be preferred at some places (Dojo developers for instance are thinking in your direction), I can&#8217;t say I share the enthusiasm.</p>
+<p>I do appreciate your comments and they gave me stuff to think about. I have to read more about core2, but it seems like it solves few thing I overlooked. Thanks.</p>
+						<footer>
+							<cite>Comment by <a href='http://markos.gaivo.net' rel='external nofollow' class='url'>markos</a> &#8212; <time datetime="2005-12-12T22:29:23+00:00">December 12, 2005 @ 10:29 pm</time> <a href="#comment-283">#</a> </cite>
+						</footer>
+					</article>
+				</li>
+		
+				<li id="comment-284">
+					<article>
+						<p>I understand your position, and seeing that you prefer the DOM way, did you try to look at solution using XML + XSL / XSLT / XSL-FO ?</p>
+<p>Just an idea like that, I&#8217;m curious to see what solution you will obtain  <img src='http://markos.gaivo.net/blog/wp-includes/images/smilies/icon_smile.gif' alt=':)' class='wp-smiley' /> </p>
+						<footer>
+							<cite>Comment by <a href='http://www.zwetan.com' rel='external nofollow' class='url'>zwetan</a> &#8212; <time datetime="2005-12-13T01:00:03+00:00">December 13, 2005 @ 1:00 am</time> <a href="#comment-284">#</a> </cite>
+						</footer>
+					</article>
+				</li>
+		
+				<li id="comment-285">
+					<article>
+						<p>I did briefly until I discovered that Safari&#8217;s javascript has no support for this stuff.</p>
+<p>I imagine that javascript support is not really necessary so I probably didn&#8217;t look hard enough.</p>
+						<footer>
+							<cite>Comment by <a href='http://markos.gaivo.net' rel='external nofollow' class='url'>markos</a> &#8212; <time datetime="2005-12-13T08:15:35+00:00">December 13, 2005 @ 8:15 am</time> <a href="#comment-285">#</a> </cite>
+						</footer>
+					</article>
+				</li>
+		
+				<li id="comment-288">
+					<article>
+						<p>I saw this article<br />
+<a href="http://24ways.org/advent/putting-the-world-into-world-wide-web">http://24ways.org/advent/putting-the-world-into-world-wide-web</a></p>
+<p>perharps it can help</p>
+						<footer>
+							<cite>Comment by <a href='http://www.zwetan.com' rel='external nofollow' class='url'>zwetan</a> &#8212; <time datetime="2005-12-14T22:01:47+00:00">December 14, 2005 @ 10:01 pm</time> <a href="#comment-288">#</a> </cite>
+						</footer>
+					</article>
+				</li>
+		
+				<li id="comment-289">
+					<article>
+						<p>Interesting article. Thanks for the link.</p>
+						<footer>
+							<cite>Comment by <a href='http://markos.gaivo.net' rel='external nofollow' class='url'>markos</a> &#8212; <time datetime="2005-12-15T20:10:35+00:00">December 15, 2005 @ 8:10 pm</time> <a href="#comment-289">#</a> </cite>
+						</footer>
+					</article>
+				</li>
+		
+				<li id="comment-295">
+					<article>
+						<p>Great follow up.</p>
+						<footer>
+							<cite>Comment by <a href='http://www.arcsin.se' rel='external nofollow' class='url'>Viktor</a> &#8212; <time datetime="2005-12-19T18:01:07+00:00">December 19, 2005 @ 6:01 pm</time> <a href="#comment-295">#</a> </cite>
+						</footer>
+					</article>
+				</li>
+		
+				<li id="comment-297">
+					<article>
+						<p>Thanks. There&#8217;s a new <a href="http://markos.gaivo.net/blog/?p=100">post</a> on this topic, but I hope to update it with a &#8220;final&#8221; version soon.</p>
+						<footer>
+							<cite>Comment by <a href='http://markos.gaivo.net' rel='external nofollow' class='url'>markos</a> &#8212; <time datetime="2005-12-19T19:41:52+00:00">December 19, 2005 @ 7:41 pm</time> <a href="#comment-297">#</a> </cite>
+						</footer>
+					</article>
+				</li>
+		
+			</ol>
+
+
+		<p>Sorry, the comment form is closed at this time.</p>
+
+		</article>
+	</section>
+			<!-- All pages -->
+	
+
+	<footer>
+		<ul>
+			<li>&copy; 2005-2015 Marko Samastur</li>
+			
+			<li><a href="http://markos.gaivo.net/blog/?feed=rss2">Entries feed</a></li>
+			<li><a href="http://markos.gaivo.net/blog/?feed=comments-rss2">Comments feed</a></li>
+		</ul>
+		<a href="/"><img src="/img/markos_light_small_bg.png" alt="logo" class="mini-logo" /></a>
+	</footer>
+	<!-- Google analytics -->
+	<script type="text/javascript">
+	  var _gaq = _gaq || [];
+	  _gaq.push(['_setAccount', 'UA-152438-1']);
+	  _gaq.push(['_trackPageview']);
+	</script>
+	<script src="/js/cookie.js"></script>
+</body>
+</html>

@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>A notch above a monkey &raquo; UI</title>
+	<meta charset="utf-8" />
+	
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" /> 
+
+	<link rel="shortcut icon" href="/img/markos.ico" />
+	
+	<meta name="generator" content="WordPress 3.0.5" /> <!-- leave this for stats please -->
+
+	<link href="http://fast.fonts.com/cssapi/aee9b60b-8e94-47f8-b586-3ecbfab51d1c.css" rel="stylesheet" type="text/css" />
+	<link rel="stylesheet" type="text/css" href="css/home.css" media="screen" title="Light theme" />
+	<link rel="alternate stylesheet" type="text/css" href="css/home_dark.css" media="screen" title="Dark theme" />
+	<link rel="stylesheet" href="css/ipad.css" media="only screen and (min-device-width : 768px) and (max-device-width : 1024px)">
+	<link rel="stylesheet" type="text/css" href="css/smallscreen.css" media="only screen and (max-width: 700px)" />
+
+	<link rel="alternate" type="application/rss+xml" title="RSS 2.0" href="http://markos.gaivo.net/blog/?feed=rss2" />
+	<link rel="alternate" type="application/atom+xml" title="Atom 1.0" href="http://markos.gaivo.net/blog/?feed=atom" />
+	<link rel='canonical' href='http://markos.gaivo.net/blog/?p=664' />
+
+	<link rel="pingback" href="http://markos.gaivo.net/blog/xmlrpc.php" />
+
+	<link rel="alternate" type="application/rss+xml" title="A notch above a monkey &raquo; UI Category Feed" href="http://markos.gaivo.net/blog/?feed=rss2&amp;cat=7" />
+<link rel="EditURI" type="application/rsd+xml" title="RSD" href="http://markos.gaivo.net/blog/xmlrpc.php?rsd" />
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="http://markos.gaivo.net/blog/wp-includes/wlwmanifest.xml" /> 
+<link rel='index' title='A notch above a monkey' href='http://markos.gaivo.net/blog' />
+<meta name="generator" content="WordPress 3.0.5" />
+
+	<!--[if lt IE 9]>
+	<script src="/js/html5.js"></script>
+	<![endif]-->
+</head>
+<body>
+	<section class="envelope posts">
+		<header>
+			<h1><a href="http://markos.gaivo.net/blog/">A notch above a monkey</a></h1>
+		</header>
+		<nav class="colophon">
+			<h1>By Marko Samastur</h1>
+			<ul>
+				<li><a href="/">About me</a></li>
+				<li><a href="http://markos.gaivo.net/blog/?feed=atom">Subscribe</a></li>
+			</ul>
+		</nav>
+
+	
+		<article>
+			<h1 class="storytitle"><a href="http://markos.gaivo.net/blog/?p=181" rel="bookmark">Plivadon&#8217;s accessibility</a></h1>
+
+			<div class="post-text">
+				<p>I really dislike headaches and although I don&#8217;t get them as often as I used to, they are usually not as easy to shake of. That&#8217;s why we have several different pills in our home to battle this nuisance. I recently noticed that one of them, Plivadon, has its name stamped in Braille on the box (click for a bigger picture):</p>
+<p><a href="http://www.marela.si/photos/6581/?original" title="Full size picture" class="imageL"><img src="http://static.marela.si/users0/markos/2/ndkvtPUIDCSxe-m9hlVPA8rI8xc.jpg" alt="A box of Plivadon pill's" /></a><br />
+It&#8217;s great that <a href="http://www.pliva.com/">Pliva</a> (Plivadon&#8217;s maker) makes its product more accessible to blind people. At the same time, this is also a good example of how difficult good accessibility is.</p>
+<p>It&#8217;s a common misconception that all blind people either know how to read Braille or can learn how to. In fact, a large part if not majority of them don&#8217;t and can&#8217;t. The reason for this is that you can learn Braille only if tips of your fingers are sensitive enough and that&#8217;s usually the case only for those who were born blind or became blind in their youth.</p>
+<p>But blindness can be caused by an accident later in life or by various diseases like diabetes, which means it&#8217;s far more common among older people, who through years of working with hands lost the necessary sensitivity in their fingers. They are in such cases forced to cope with their usual methods such as being very organized about where they put things.</p>
+<p>Pliva (and other companies) could help them more. They could make the shape and size of the box more unique. They could stamp an easily recognizable pattern on parts of the box, just like they did with Braille. Anything that can make the tactile feedback more unique would probably help.<sup><a href="#pliva-2006-06-05">1</a><a name="pliva1-2006-06-06"></a></sup></p>
+<p>Alas they, as more often than not we, don&#8217;t do what they easily could.</p>
+<div class="notes">
+<p>Notes:</p>
+<ol>
+<li><a name="pliva-2006-06-05"></a>Braille sign on Plivadon&#8217;s box is distinguishing enough mark for as long as there isn&#8217;t a similarly sized box and a sign at the approximately same position. <a href="#pliva1-2006-06-06">&uarr;</a>
+    </li>
+</ol>
+</div>
+			</div>
+
+			<footer class="post-metadata">
+				<ul>
+					<li>Published on <time datetime="2006-06-05T12:45:04+00:00">June 5, 2006</time></li>
+					<li><a href="http://markos.gaivo.net/blog/?p=181#comments" title="Comment on Plivadon&#8217;s accessibility">Add your comment</a> </li>
+				</ul>
+			</footer>
+		</article>
+	
+		<article>
+			<h1 class="storytitle"><a href="http://markos.gaivo.net/blog/?p=170" rel="bookmark">Missing tab icons on series 60 Python</a></h1>
+
+			<div class="post-text">
+				<p>It&#8217;s nice to have friends, especially the generous kind who buy a new <a href="http://www.europe.nokia.com/n80">Nokia N80</a> and lend it to you even before they had a chance to use it themselves. I&#8217;m not sure if N80 is the best mobile in the world, but it is by far the best phone I&#8217;ve had in my hands. I&#8217;m left with few excuses from finishing my uploader and provided that other obligations don&#8217;t tax me too much, it should be finished in next week or so.</p>
+<p>I&#8217;ve stumbled on two small problems. I&#8217;d like to automatically tag images with phone model on which they were taken, but I don&#8217;t know how to read it. Is this possible at all?</p>
+<p>The other problem seems to be a limitation of PyS60 API or its documentation. You are limited to use of text as tab titles, which are too small for this to be useful. That&#8217;s why you see developers displaying tab title in place of application title. Is there a workaround for this?</p>
+<p><strong>Update:</strong> As advised by <a href="http://cyke64.googlepages.com/" title="cyke64's homepage">cyke64</a> I found <a href="http://discussion.forum.nokia.com/forum/showthread.php?t=75744&amp;highlight=phone+model">how to read</a> phone model on Nokia&#8217;s forums. My project has been hit with a setback, since I also discovered there&#8217;s no version of Python for N80 yet.</p>
+			</div>
+
+			<footer class="post-metadata">
+				<ul>
+					<li>Published on <time datetime="2006-05-21T12:32:58+00:00">May 21, 2006</time></li>
+					<li><a href="http://markos.gaivo.net/blog/?p=170#comments" title="Comment on Missing tab icons on series 60 Python">Add your comment</a> </li>
+				</ul>
+			</footer>
+		</article>
+	
+		<article>
+			<h1 class="storytitle"><a href="http://markos.gaivo.net/blog/?p=157" rel="bookmark">Another voice against CAPTCHA</a></h1>
+
+			<div class="post-text">
+				<p>I tried to leave a comment on <a href="http://www.digg.com/">Digg</a> recently and had trouble deciphering its <a href="http://en.wikipedia.org/wiki/Captcha">CAPTCHA</a>. I was eventually successful, but only after I got annoyed. Simply put, CAPTCHAs are evil.</p>
+<p>There&#8217;s no need to rehash why, since <a href="http://www.google.com/search?q=captcha+accessibility">plenty</a> has been said so far. They <a href="http://www.w3.org/TR/turingtest/">don&#8217;t</a> really work and they <a href="http://en.wikipedia.org/wiki/Captcha#Accessibility">exclude</a> lots of people even if you do use an alternative audio check. As a left-handed person, who curses every time he picks up an &#8220;ergonomically&#8221; designed scissors, I kind of imagine how it is when things are designed for a majority you don&#8217;t belong to.</p>
+<p>However, even if you could make them completely accessible (doubtful) and would somehow be able to resolve the overlap between smartest programs and, well, less-gifted humans (impossible), I&#8217;d still dislike them. What they say to your readers is: &#8220;I&#8217;ll make you work so I don&#8217;t have to.&#8221;</p>
+<p>Is this the message you want to communicate?</p>
+<p>P.S: WordPress users, you really ought to take a look at <a href="http://akismet.com/">Akismet</a>, if you haven&#8217;t done so.</p>
+			</div>
+
+			<footer class="post-metadata">
+				<ul>
+					<li>Published on <time datetime="2006-04-24T16:01:59+00:00">April 24, 2006</time></li>
+					<li><a href="http://markos.gaivo.net/blog/?p=157#comments" title="Comment on Another voice against CAPTCHA">Add your comment</a> </li>
+				</ul>
+			</footer>
+		</article>
+		
+		<nav class="pagination">
+			<ul>
+				<li><a href="http://markos.gaivo.net/blog/?cat=7&#038;paged=3" >&laquo; Newer articles</a></li>
+				<li><a href="http://markos.gaivo.net/blog/?cat=7&#038;paged=5" >Older articles &raquo;</a></li>
+			</ul>
+		</nav>
+	</section>
+
+
+	<footer>
+		<ul>
+			<li>&copy; 2005-2015 Marko Samastur</li>
+			
+			<li><a href="http://markos.gaivo.net/blog/?feed=rss2">Entries feed</a></li>
+			<li><a href="http://markos.gaivo.net/blog/?feed=comments-rss2">Comments feed</a></li>
+		</ul>
+		<a href="/"><img src="/img/markos_light_small_bg.png" alt="logo" class="mini-logo" /></a>
+	</footer>
+	<script src="/js/jquery.js"></script>
+	<script src="/js/all.js"></script>
+	<!--script src="/mint/?js" type="text/javascript"></script-->
+
+	<!-- Google analytics -->
+	<script type="text/javascript">
+
+	  var _gaq = _gaq || [];
+	  _gaq.push(['_setAccount', 'UA-152438-1']);
+	  _gaq.push(['_trackPageview']);
+	</script>
+	<script src="/js/cookie.js"></script>
+</body>
+</html>

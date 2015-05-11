@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+		>
+<channel>
+	<title>Comments on: Faking body.onload</title>
+	<atom:link href="http://markos.gaivo.net/blog/?feed=rss2&#038;p=127" rel="self" type="application/rss+xml" />
+	<link>http://markos.gaivo.net/blog/?p=127</link>
+	<description></description>
+	<lastBuildDate>Wed, 16 Jul 2014 16:04:38 +0000</lastBuildDate>
+	<sy:updatePeriod>hourly</sy:updatePeriod>
+	<sy:updateFrequency>1</sy:updateFrequency>
+	<generator>http://wordpress.org/?v=3.0.5</generator>
+	<item>
+		<title>By: markos</title>
+		<link>http://markos.gaivo.net/blog/?p=127&#038;cpage=1#comment-904</link>
+		<dc:creator>markos</dc:creator>
+		<pubDate>Tue, 21 Feb 2006 22:00:32 +0000</pubDate>
+		<guid isPermaLink="false">http://markos.gaivo.net/blog/?p=127#comment-904</guid>
+		<description>Thanks. Yeah, I know. But since every now and then I meet people who don&#039;t know it, I decided to publish it.
+
+Personally I don&#039;t see a problem looking for a node 10 times in a second. In computer terms it&#039;s almost like never, but I guess your mileage may vary.</description>
+		<content:encoded><![CDATA[<p>Thanks. Yeah, I know. But since every now and then I meet people who don&#8217;t know it, I decided to publish it.</p>
+<p>Personally I don&#8217;t see a problem looking for a node 10 times in a second. In computer terms it&#8217;s almost like never, but I guess your mileage may vary.</p>
+]]></content:encoded>
+	</item>
+	<item>
+		<title>By: dr. friss</title>
+		<link>http://markos.gaivo.net/blog/?p=127&#038;cpage=1#comment-903</link>
+		<dc:creator>dr. friss</dc:creator>
+		<pubDate>Tue, 21 Feb 2006 21:49:14 +0000</pubDate>
+		<guid isPermaLink="false">http://markos.gaivo.net/blog/?p=127#comment-903</guid>
+		<description>hi, the above concept isn&#039;t to new... what i don&#039;t like about it and many others likely scripts is the idea of hammering until the DOM is avail.. anyways, nice site</description>
+		<content:encoded><![CDATA[<p>hi, the above concept isn&#8217;t to new&#8230; what i don&#8217;t like about it and many others likely scripts is the idea of hammering until the DOM is avail.. anyways, nice site</p>
+]]></content:encoded>
+	</item>
+</channel>
+</rss>

@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+		>
+<channel>
+	<title>Comments on: Hiding form buttons as text</title>
+	<atom:link href="http://markos.gaivo.net/blog/?feed=rss2&#038;p=84" rel="self" type="application/rss+xml" />
+	<link>http://markos.gaivo.net/blog/?p=84</link>
+	<description></description>
+	<lastBuildDate>Wed, 16 Jul 2014 16:04:38 +0000</lastBuildDate>
+	<sy:updatePeriod>hourly</sy:updatePeriod>
+	<sy:updateFrequency>1</sy:updateFrequency>
+	<generator>http://wordpress.org/?v=3.0.5</generator>
+	<item>
+		<title>By: markos</title>
+		<link>http://markos.gaivo.net/blog/?p=84&#038;cpage=1#comment-272</link>
+		<dc:creator>markos</dc:creator>
+		<pubDate>Mon, 05 Dec 2005 15:51:07 +0000</pubDate>
+		<guid isPermaLink="false">http://markos.gaivo.net/blog/?p=84#comment-272</guid>
+		<description>Interesting.
+
+Problem with setting width is that you have to do it manually for every text that appears on buttons. And it doesn&#039;t work all that great for me. It looks good on IE, but it cuts text off on FF1.0/Mac.</description>
+		<content:encoded><![CDATA[<p>Interesting.</p>
+<p>Problem with setting width is that you have to do it manually for every text that appears on buttons. And it doesn&#8217;t work all that great for me. It looks good on IE, but it cuts text off on FF1.0/Mac.</p>
+]]></content:encoded>
+	</item>
+	<item>
+		<title>By: fry</title>
+		<link>http://markos.gaivo.net/blog/?p=84&#038;cpage=1#comment-271</link>
+		<dc:creator>fry</dc:creator>
+		<pubDate>Mon, 05 Dec 2005 11:16:04 +0000</pubDate>
+		<guid isPermaLink="false">http://markos.gaivo.net/blog/?p=84#comment-271</guid>
+		<description>i didn&#039;t have problems with padding on the side because all my buttons were very small. IE obviously creates a padding of ~25% of the text size and with small buttons that&#039;s ~5px.
+
+the solution would be to add a width in ems for IE (width:16.5em; and width:10em; for the example) - the button resizes with the font almost perfectly. the background issue is solved by using background-color:transparent; (tested on win2k: moz175,ffx1,ffx15,opera8,ie5,ie55,ie6)</description>
+		<content:encoded><![CDATA[<p>i didn&#8217;t have problems with padding on the side because all my buttons were very small. IE obviously creates a padding of ~25% of the text size and with small buttons that&#8217;s ~5px.</p>
+<p>the solution would be to add a width in ems for IE (width:16.5em; and width:10em; for the example) &#8211; the button resizes with the font almost perfectly. the background issue is solved by using background-color:transparent; (tested on win2k: moz175,ffx1,ffx15,opera8,ie5,ie55,ie6)</p>
+]]></content:encoded>
+	</item>
+	<item>
+		<title>By: hruske</title>
+		<link>http://markos.gaivo.net/blog/?p=84&#038;cpage=1#comment-270</link>
+		<dc:creator>hruske</dc:creator>
+		<pubDate>Mon, 05 Dec 2005 09:10:38 +0000</pubDate>
+		<guid isPermaLink="false">http://markos.gaivo.net/blog/?p=84#comment-270</guid>
+		<description>Doesn&#039;t work with Konqueror either.</description>
+		<content:encoded><![CDATA[<p>Doesn&#8217;t work with Konqueror either.</p>
+]]></content:encoded>
+	</item>
+</channel>
+</rss>

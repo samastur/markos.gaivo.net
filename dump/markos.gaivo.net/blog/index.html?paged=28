@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>A notch above a monkey</title>
+	<meta charset="utf-8" />
+	
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" /> 
+
+	<link rel="shortcut icon" href="/img/markos.ico" />
+	
+	<meta name="generator" content="WordPress 3.0.5" /> <!-- leave this for stats please -->
+
+	<link href="http://fast.fonts.com/cssapi/aee9b60b-8e94-47f8-b586-3ecbfab51d1c.css" rel="stylesheet" type="text/css" />
+	<link rel="stylesheet" type="text/css" href="css/home.css" media="screen" title="Light theme" />
+	<link rel="alternate stylesheet" type="text/css" href="css/home_dark.css" media="screen" title="Dark theme" />
+	<link rel="stylesheet" href="css/ipad.css" media="only screen and (min-device-width : 768px) and (max-device-width : 1024px)">
+	<link rel="stylesheet" type="text/css" href="css/smallscreen.css" media="only screen and (max-width: 700px)" />
+
+	<link rel="alternate" type="application/rss+xml" title="RSS 2.0" href="http://markos.gaivo.net/blog/?feed=rss2" />
+	<link rel="alternate" type="application/atom+xml" title="Atom 1.0" href="http://markos.gaivo.net/blog/?feed=atom" />
+	<link rel='canonical' href='http://markos.gaivo.net/blog/?p=664' />
+
+	<link rel="pingback" href="http://markos.gaivo.net/blog/xmlrpc.php" />
+
+	<link rel="EditURI" type="application/rsd+xml" title="RSD" href="http://markos.gaivo.net/blog/xmlrpc.php?rsd" />
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="http://markos.gaivo.net/blog/wp-includes/wlwmanifest.xml" /> 
+<link rel='index' title='A notch above a monkey' href='http://markos.gaivo.net/blog' />
+<meta name="generator" content="WordPress 3.0.5" />
+
+	<!--[if lt IE 9]>
+	<script src="/js/html5.js"></script>
+	<![endif]-->
+</head>
+<body>
+	<section class="envelope posts">
+		<header>
+			<h1><a href="http://markos.gaivo.net/blog/">A notch above a monkey</a></h1>
+		</header>
+		<nav class="colophon">
+			<h1>By Marko Samastur</h1>
+			<ul>
+				<li><a href="/">About me</a></li>
+				<li><a href="http://markos.gaivo.net/blog/?feed=atom">Subscribe</a></li>
+			</ul>
+		</nav>
+
+	
+		<article>
+			<h1 class="storytitle"><a href="http://markos.gaivo.net/blog/?p=280" rel="bookmark">Going home</a></h1>
+
+			<div class="post-text">
+				<p>EuroPython 2008 is over. I packed and now I am waiting to leave for the airport to catch afternoon flight back home. Sadly I don&#8217;t have time to attend sprints and since I only recently started to write python again, I probably wouldn&#8217;t be of much use anyhow.</p>
+<p>Conference itself was great. Smaller than web conferences I usually attend with a more friendly, homey feeling, but with plenty of excellent talks where I learned a lot. I also met a bunch of friendly interesting people and had in general a wonderful time.</p>
+<p>It was also interesting to compare the whole experience with other conferences I go to. Apple is popular, but there are fewer <a class="zem_slink" title="Macintosh" rel="wikipedia" href="http://en.wikipedia.org/wiki/Macintosh">Macs</a> than at web events. <a class="zem_slink" title="Ubuntu (operating system)" rel="homepage" href="http://www.ubuntu.com/">Ubuntu</a> seems to completely dominate <a class="zem_slink" title="Linux" rel="wikipedia" href="http://en.wikipedia.org/wiki/Linux">Linux</a> crowd (me included), since it was the only distribution I actually have seen and Windows is in minority. Everyone is much more willing to participate to the point, where sadly not all who wanted to present a Lightning talk on last day had the opportunity to do so.</p>
+<p>I certainly hope to attend EuroPython 2009, which will be in Birmingham around this time next year. At the end I also have a present. Yesterday I got a license for <a class="zem_slink" title="Wing IDE" rel="homepage" href="http://www.wingware.com">Wing IDE</a> Professional and since I don&#8217;t need one, I&#8217;ll give it to the first person who expresses a wish to have it in comments and leaves his/her email address in relevant part of comment form.</p>
+<p><strong>Update</strong>: License is gone, sent to a new owner.</p>
+<div class="zemanta-pixie" style="margin-top: 10px; height: 15px;"><a class="zemanta-pixie-a" title="Zemified by Zemanta" href="http://reblog.zemanta.com/zemified/a6262891-3f96-4b97-8bf6-949cb83cba0e/"><img class="zemanta-pixie-img" style="border: medium none; float: right;" src="http://img.zemanta.com/reblog_e.png?x-id=a6262891-3f96-4b97-8bf6-949cb83cba0e" alt="Zemanta Pixie" /></a></div>
+			</div>
+
+			<footer class="post-metadata">
+				<ul>
+					<li>Published on <time datetime="2008-07-10T10:02:42+00:00">July 10, 2008</time></li>
+					<li><a href="http://markos.gaivo.net/blog/?p=280#comments" title="Comment on Going home">Add your comment</a> </li>
+				</ul>
+			</footer>
+		</article>
+	
+		<article>
+			<h1 class="storytitle"><a href="http://markos.gaivo.net/blog/?p=267" rel="bookmark">Firefox 3 Release Party</a></h1>
+
+			<div class="post-text">
+				<p><a class="zem_slink" title="Mozilla Firefox" rel="homepage" href="http://www.firefox.com/">Firefox 3</a> was released last week and tomorrow, a week after its release, we&#8217;ll have <a href="http://www.kiberpipa.org/firefox/">a release party</a> at Kiberpipa. Everybody is welcome, but you have to register first.</p>
+<p>Part of the event will be <a href="http://www.kiberpipa.org/firefox/schedule">a series of talks</a>, one of which will be mine, a short talk titled Easy deployment of site-extensions with a <a class="zem_slink" title="Plugin" rel="wikipedia" href="http://en.wikipedia.org/wiki/Plugin">browser plugin</a>.</p>
+<p>I hope to see you there.</p>
+<div class="zemanta-pixie" style="margin-top: 10px; height: 15px;"><a class="zemanta-pixie-a" title="Zemified by Zemanta" href="http://reblog.zemanta.com/zemified/6aa8e696-91f0-45b4-a4dd-42968486c1a5/"><img class="zemanta-pixie-img" style="border: medium none; float: right;" src="http://img.zemanta.com/reblog_a.png?x-id=6aa8e696-91f0-45b4-a4dd-42968486c1a5" alt="Zemanta Pixie" /></a></div>
+			</div>
+
+			<footer class="post-metadata">
+				<ul>
+					<li>Published on <time datetime="2008-06-23T10:35:42+00:00">June 23, 2008</time></li>
+					<li><a href="http://markos.gaivo.net/blog/?p=267#comments" title="Comment on Firefox 3 Release Party">Add your comment</a> </li>
+				</ul>
+			</footer>
+		</article>
+	
+		<article>
+			<h1 class="storytitle"><a href="http://markos.gaivo.net/blog/?p=266" rel="bookmark">Switched&#8230;to Firefox 3</a></h1>
+
+			<div class="post-text">
+				<p>Today I switched to <a class="zem_slink" title="Mozilla Firefox" rel="homepage" href="http://www.firefox.com/">Firefox 3</a> as my main browser. I didn&#8217;t want to, because as a policy I try to use most common version as default, but I made a mistake of opening version 3 and since then none of my old add-ons seem to work on previous version anymore.</p>
+<p>If I was still a young pup, I would probably dive into config files, search <a class="zem_slink" title="World Wide Web" rel="wikipedia" href="http://en.wikipedia.org/wiki/World_Wide_Web">the web</a> for answers and try to fix it. But when you get to 34, time becomes too precious to muck about needlessly and you just want to focus on things you need or better yet want to do.</p>
+<p>So version three it is. This has got me thinking about something else. It&#8217;s remarkable how difficult or simply an annoyance it still is to have two version of a browser installed. Clearly this should be possible and is in interest of everyone involved.</p>
+<p>Anyway, enough of ranting. Time to get back to cutting cake&#8230;</p>
+<div class="zemanta-pixie" style="margin-top: 10px; height: 15px;"><a class="zemanta-pixie-a" title="Zemified by Zemanta" href="http://reblog.zemanta.com/zemified/79c05cbe-847f-4fa0-8dc3-878f8e79208f/"><img class="zemanta-pixie-img" style="border: medium none; float: right;" src="http://img.zemanta.com/reblog_a.png?x-id=79c05cbe-847f-4fa0-8dc3-878f8e79208f" alt="Zemanta Pixie" /></a></div>
+			</div>
+
+			<footer class="post-metadata">
+				<ul>
+					<li>Published on <time datetime="2008-06-22T15:04:45+00:00">June 22, 2008</time></li>
+					<li><a href="http://markos.gaivo.net/blog/?p=266#comments" title="Comment on Switched&#8230;to Firefox 3">Add your comment</a> </li>
+				</ul>
+			</footer>
+		</article>
+		
+		<nav class="pagination">
+			<ul>
+				<li><a href="http://markos.gaivo.net/blog/?paged=27" >&laquo; Newer articles</a></li>
+				<li><a href="http://markos.gaivo.net/blog/?paged=29" >Older articles &raquo;</a></li>
+			</ul>
+		</nav>
+	</section>
+
+
+	<footer>
+		<ul>
+			<li>&copy; 2005-2015 Marko Samastur</li>
+			
+			<li><a href="http://markos.gaivo.net/blog/?feed=rss2">Entries feed</a></li>
+			<li><a href="http://markos.gaivo.net/blog/?feed=comments-rss2">Comments feed</a></li>
+		</ul>
+		<a href="/"><img src="/img/markos_light_small_bg.png" alt="logo" class="mini-logo" /></a>
+	</footer>
+	<script src="/js/jquery.js"></script>
+	<script src="/js/all.js"></script>
+	<!--script src="/mint/?js" type="text/javascript"></script-->
+
+	<!-- Google analytics -->
+	<script type="text/javascript">
+
+	  var _gaq = _gaq || [];
+	  _gaq.push(['_setAccount', 'UA-152438-1']);
+	  _gaq.push(['_trackPageview']);
+	</script>
+	<script src="/js/cookie.js"></script>
+</body>
+</html>

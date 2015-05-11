@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>A notch above a monkey &raquo; Firefox adds ping attribute</title>
+	<meta charset="utf-8" />
+	
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" /> 
+
+	<link rel="shortcut icon" href="/img/markos.ico" />
+	
+	<meta name="generator" content="WordPress 3.0.5" /> <!-- leave this for stats please -->
+
+	<link href="http://fast.fonts.com/cssapi/aee9b60b-8e94-47f8-b586-3ecbfab51d1c.css" rel="stylesheet" type="text/css" />
+	<link rel="stylesheet" type="text/css" href="css/home.css" media="screen" title="Light theme" />
+	<link rel="alternate stylesheet" type="text/css" href="css/home_dark.css" media="screen" title="Dark theme" />
+	<link rel="stylesheet" href="css/ipad.css" media="only screen and (min-device-width : 768px) and (max-device-width : 1024px)">
+	<link rel="stylesheet" type="text/css" href="css/smallscreen.css" media="only screen and (max-width: 700px)" />
+
+	<link rel="alternate" type="application/rss+xml" title="RSS 2.0" href="http://markos.gaivo.net/blog/?feed=rss2" />
+	<link rel="alternate" type="application/atom+xml" title="Atom 1.0" href="http://markos.gaivo.net/blog/?feed=atom" />
+	<link rel='canonical' href='http://markos.gaivo.net/blog/?p=664' />
+
+	<link rel="pingback" href="http://markos.gaivo.net/blog/xmlrpc.php" />
+
+	<link rel="alternate" type="application/rss+xml" title="A notch above a monkey &raquo; Firefox adds ping attribute Comments Feed" href="http://markos.gaivo.net/blog/?feed=rss2&amp;p=112" />
+<link rel="EditURI" type="application/rsd+xml" title="RSD" href="http://markos.gaivo.net/blog/xmlrpc.php?rsd" />
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="http://markos.gaivo.net/blog/wp-includes/wlwmanifest.xml" /> 
+<link rel='index' title='A notch above a monkey' href='http://markos.gaivo.net/blog' />
+<link rel='start' title='First post' href='http://markos.gaivo.net/blog/?p=2' />
+<link rel='prev' title='New EU initiative for unified patent system' href='http://markos.gaivo.net/blog/?p=111' />
+<link rel='next' title='What iPod teaches us about modern (web) design' href='http://markos.gaivo.net/blog/?p=113' />
+<meta name="generator" content="WordPress 3.0.5" />
+<link rel='canonical' href='http://markos.gaivo.net/blog/?p=112' />
+
+	<!--[if lt IE 9]>
+	<script src="/js/html5.js"></script>
+	<![endif]-->
+</head>
+<body>
+					<header>
+		<h1><a href="/blog/">A notch above a monkey</a> &raquo; Firefox adds ping attribute</h1>
+	</header>
+
+	<section class="envelope">
+		<article class="post">
+			<header>
+				<h1>Firefox adds ping attribute</h1>
+			</header>
+
+			<footer>
+				<ul>
+					<li class="by">Written by: <a href="/">Marko Samastur</a></li>
+					<li class="published">Published on: <time datetime="2006-01-22T19:29:46+00:00" pubdate>January 22, 2006</time></li>
+					<li class="categories">Categories: <a href="http://markos.gaivo.net/blog/?cat=4" title="View all posts in Web" rel="category">Web</a></li>
+					<li class="post-comments">Comments: <a href="http://markos.gaivo.net/blog/?p=112#comments" title="Comment on Firefox adds ping attribute">2</a></li>
+				</ul>
+			</footer>
+
+			<div class="post-text">
+				<p>This is another news that I missed while I was busy elsewhere. Developers have added <a href="http://weblogs.mozillazine.org/darin/archives/009594.html">a ping attribute</a> to link elements in the latest builds of Firefox.</p>
+<p>Ping attribute allows website producers to specify URLs that will get pinged when user clicks on a link with this attribute. Meaning, it makes user tracking easier.</p>
+<p>Argument being that tracking was already going on using redirects and that this feature will allow users to control this and makes browsing faster (by avoiding redirects).</p>
+<p>I can see the logic, but I&#8217;m not sure I agree with developer&#8217;s conclusion. Redirects were at least visible to a user and he had a choice of continuing to use such web site or going elsewhere. Pings can be turned off by those, who know this option exists, but tracking will certainly be less transparent to everybody else.</p>
+<p>I&#8217;m still on the fence about this one. How about you?</p>
+			</div>
+
+			<nav>
+				<p>If you liked this, you might want to visit:</p>
+				<ul>
+					<li>my previous article: <a href="http://markos.gaivo.net/blog/?p=111" rel="prev">New EU initiative for unified patent system</a></li>					<li>my next article: <a href="http://markos.gaivo.net/blog/?p=113" rel="next">What iPod teaches us about modern (web) design</a></li>					<li><a href="/blog/">article list</a></li>
+				</ul>
+			</nav>
+
+			<h2 id="comments">Comments (2)
+			</h2>
+			<ol class="comments">
+		
+				<li id="comment-684">
+					<article>
+						<p>my first thought was &#8211; `one can build a nice ddos icmp ping tool with this` just to discover that someone &#8220;forgot&#8221; to mention that ping in this case is just some kind of &#8220;preload&#8221; and not ping from tcp/ip protocol&#8230;</p>
+<p>what have they been smokin&#8217;</p>
+<p>and i hope this feature will be off by default.</p>
+						<footer>
+							<cite>Comment by j &#8212; <time datetime="2006-01-22T20:49:03+00:00">January 22, 2006 @ 8:49 pm</time> <a href="#comment-684">#</a> </cite>
+						</footer>
+					</article>
+				</li>
+		
+				<li id="comment-685">
+					<article>
+						<p>I doubt it will be, since there would be no point to it then. Who would turn something like that on?</p>
+<p>Please, track me <img src='http://markos.gaivo.net/blog/wp-includes/images/smilies/icon_wink.gif' alt=';)' class='wp-smiley' /> </p>
+						<footer>
+							<cite>Comment by <a href='http://markos.gaivo.net' rel='external nofollow' class='url'>markos</a> &#8212; <time datetime="2006-01-22T20:52:55+00:00">January 22, 2006 @ 8:52 pm</time> <a href="#comment-685">#</a> </cite>
+						</footer>
+					</article>
+				</li>
+		
+			</ol>
+
+
+		<p>Sorry, the comment form is closed at this time.</p>
+
+		</article>
+	</section>
+			<!-- All pages -->
+	
+
+	<footer>
+		<ul>
+			<li>&copy; 2005-2015 Marko Samastur</li>
+			
+			<li><a href="http://markos.gaivo.net/blog/?feed=rss2">Entries feed</a></li>
+			<li><a href="http://markos.gaivo.net/blog/?feed=comments-rss2">Comments feed</a></li>
+		</ul>
+		<a href="/"><img src="/img/markos_light_small_bg.png" alt="logo" class="mini-logo" /></a>
+	</footer>
+	<!-- Google analytics -->
+	<script type="text/javascript">
+	  var _gaq = _gaq || [];
+	  _gaq.push(['_setAccount', 'UA-152438-1']);
+	  _gaq.push(['_trackPageview']);
+	</script>
+	<script src="/js/cookie.js"></script>
+</body>
+</html>

@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+		>
+<channel>
+	<title>Comments on: Switched&#8230;to Firefox 3</title>
+	<atom:link href="http://markos.gaivo.net/blog/?feed=rss2&#038;p=266" rel="self" type="application/rss+xml" />
+	<link>http://markos.gaivo.net/blog/?p=266</link>
+	<description></description>
+	<lastBuildDate>Wed, 16 Jul 2014 16:04:38 +0000</lastBuildDate>
+	<sy:updatePeriod>hourly</sy:updatePeriod>
+	<sy:updateFrequency>1</sy:updateFrequency>
+	<generator>http://wordpress.org/?v=3.0.5</generator>
+	<item>
+		<title>By: Krof Drakula</title>
+		<link>http://markos.gaivo.net/blog/?p=266&#038;cpage=1#comment-140871</link>
+		<dc:creator>Krof Drakula</dc:creator>
+		<pubDate>Tue, 24 Jun 2008 08:01:15 +0000</pubDate>
+		<guid isPermaLink="false">http://markos.gaivo.net/blog/?p=266#comment-140871</guid>
+		<description>On Windows, you can even have isolated Firefox Portable instances with separate configurations. There&#039;s, I think, an extension that then enables you to sync configuration between multiple instances.
+
+While you can&#039;t run FF2 and FF3 simultaneously (Portable version nags about the running instance of FF3 before starting), you can run them separately, at least. Much less fuss than running a VM for the sole sake of testing on IE6.
+
+Problem is that with the new version, the plugin code needed to be ported, something that doesn&#039;t happen often for some of the less popular extensions. It&#039;s a two-edged sword - the same thing you&#039;re dealing with MS needs to deal with too for their IE8 &lt;meta&gt; tags. Sadly, there&#039;s no good single answer to any of these issues, and almost all of the solutions require a tradeoff the end user has to pay.</description>
+		<content:encoded><![CDATA[<p>On Windows, you can even have isolated Firefox Portable instances with separate configurations. There&#8217;s, I think, an extension that then enables you to sync configuration between multiple instances.</p>
+<p>While you can&#8217;t run FF2 and FF3 simultaneously (Portable version nags about the running instance of FF3 before starting), you can run them separately, at least. Much less fuss than running a VM for the sole sake of testing on IE6.</p>
+<p>Problem is that with the new version, the plugin code needed to be ported, something that doesn&#8217;t happen often for some of the less popular extensions. It&#8217;s a two-edged sword &#8211; the same thing you&#8217;re dealing with MS needs to deal with too for their IE8 &lt;meta&gt; tags. Sadly, there&#8217;s no good single answer to any of these issues, and almost all of the solutions require a tradeoff the end user has to pay.</p>
+]]></content:encoded>
+	</item>
+	<item>
+		<title>By: markos</title>
+		<link>http://markos.gaivo.net/blog/?p=266&#038;cpage=1#comment-140631</link>
+		<dc:creator>markos</dc:creator>
+		<pubDate>Mon, 23 Jun 2008 07:06:41 +0000</pubDate>
+		<guid isPermaLink="false">http://markos.gaivo.net/blog/?p=266#comment-140631</guid>
+		<description>As it happens, I know I can do this, but I don&#039;t find this easy. And I hate profile manager with a passion.
+
+You know what I would find easy? Having both versions installed and each used only parts of configuration or add-ons it can understand and leave rest the fuck alone, if it absolutely has to use the same configuration files. You know, like how browsers were supposed to handle HTML.
+
+If you take a look at configuration files, as I did when I moved to FF3, it&#039;s quite obvious that developers themselves can&#039;t decide. E.g. signons.txt is different for each major version of Firefox, but other files in general aren&#039;t.</description>
+		<content:encoded><![CDATA[<p>As it happens, I know I can do this, but I don&#8217;t find this easy. And I hate profile manager with a passion.</p>
+<p>You know what I would find easy? Having both versions installed and each used only parts of configuration or add-ons it can understand and leave rest the fuck alone, if it absolutely has to use the same configuration files. You know, like how browsers were supposed to handle HTML.</p>
+<p>If you take a look at configuration files, as I did when I moved to FF3, it&#8217;s quite obvious that developers themselves can&#8217;t decide. E.g. signons.txt is different for each major version of Firefox, but other files in general aren&#8217;t.</p>
+]]></content:encoded>
+	</item>
+	<item>
+		<title>By: gasper_k</title>
+		<link>http://markos.gaivo.net/blog/?p=266&#038;cpage=1#comment-140508</link>
+		<dc:creator>gasper_k</dc:creator>
+		<pubDate>Sun, 22 Jun 2008 18:18:32 +0000</pubDate>
+		<guid isPermaLink="false">http://markos.gaivo.net/blog/?p=266#comment-140508</guid>
+		<description>well, I generally agree with your rant about multiple versions installed simultaneously, but if you only searched the web before installing you&#039;d find out that the trick is easy: install F3 into a different directory, run profile manager to create a new profile, edit shortcuts to run the desired version with the corresponding profile. Works on windows and linux.
+
+I&#039;d switch to F3, but for the next few months I&#039;ll still have to develop for both. The browser test group just got another new member.</description>
+		<content:encoded><![CDATA[<p>well, I generally agree with your rant about multiple versions installed simultaneously, but if you only searched the web before installing you&#8217;d find out that the trick is easy: install F3 into a different directory, run profile manager to create a new profile, edit shortcuts to run the desired version with the corresponding profile. Works on windows and linux.</p>
+<p>I&#8217;d switch to F3, but for the next few months I&#8217;ll still have to develop for both. The browser test group just got another new member.</p>
+]]></content:encoded>
+	</item>
+</channel>
+</rss>

@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>A notch above a monkey &raquo; Web</title>
+	<meta charset="utf-8" />
+	
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" /> 
+
+	<link rel="shortcut icon" href="/img/markos.ico" />
+	
+	<meta name="generator" content="WordPress 3.0.5" /> <!-- leave this for stats please -->
+
+	<link href="http://fast.fonts.com/cssapi/aee9b60b-8e94-47f8-b586-3ecbfab51d1c.css" rel="stylesheet" type="text/css" />
+	<link rel="stylesheet" type="text/css" href="css/home.css" media="screen" title="Light theme" />
+	<link rel="alternate stylesheet" type="text/css" href="css/home_dark.css" media="screen" title="Dark theme" />
+	<link rel="stylesheet" href="css/ipad.css" media="only screen and (min-device-width : 768px) and (max-device-width : 1024px)">
+	<link rel="stylesheet" type="text/css" href="css/smallscreen.css" media="only screen and (max-width: 700px)" />
+
+	<link rel="alternate" type="application/rss+xml" title="RSS 2.0" href="http://markos.gaivo.net/blog/?feed=rss2" />
+	<link rel="alternate" type="application/atom+xml" title="Atom 1.0" href="http://markos.gaivo.net/blog/?feed=atom" />
+	<link rel='canonical' href='http://markos.gaivo.net/blog/?p=664' />
+
+	<link rel="pingback" href="http://markos.gaivo.net/blog/xmlrpc.php" />
+
+	<link rel="alternate" type="application/rss+xml" title="A notch above a monkey &raquo; Web Category Feed" href="http://markos.gaivo.net/blog/?feed=rss2&amp;cat=4" />
+<link rel="EditURI" type="application/rsd+xml" title="RSD" href="http://markos.gaivo.net/blog/xmlrpc.php?rsd" />
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="http://markos.gaivo.net/blog/wp-includes/wlwmanifest.xml" /> 
+<link rel='index' title='A notch above a monkey' href='http://markos.gaivo.net/blog' />
+<meta name="generator" content="WordPress 3.0.5" />
+
+	<!--[if lt IE 9]>
+	<script src="/js/html5.js"></script>
+	<![endif]-->
+</head>
+<body>
+	<section class="envelope posts">
+		<header>
+			<h1><a href="http://markos.gaivo.net/blog/">A notch above a monkey</a></h1>
+		</header>
+		<nav class="colophon">
+			<h1>By Marko Samastur</h1>
+			<ul>
+				<li><a href="/">About me</a></li>
+				<li><a href="http://markos.gaivo.net/blog/?feed=atom">Subscribe</a></li>
+			</ul>
+		</nav>
+
+	
+		<article>
+			<h1 class="storytitle"><a href="http://markos.gaivo.net/blog/?p=598" rel="bookmark">Sign-up, Facebook Connect and ownership</a></h1>
+
+			<div class="post-text">
+				<p><a class="zem_slink" title="Joshua Porter" rel="blog" href="http://bokardo.com">Joshua Porter&#8217;s</a> workshop at recent UX London conference was great and a must see if you can, but there is something that&#8217;s been bugging me since. In discussion about difficulties of getting people to sign-up for service, Joshua mentioned how some companies see connecting with <a class="zem_slink" title="Facebook Connect" rel="homepage" href="http://developers.facebook.com/connect.php">Facebook Connect</a> as Facebook &#8220;owning&#8221; their users.</p>
+<p>They are right, but it doesn&#8217;t matter much. Relying on Facebook for authentication certainly makes Facebook sort of a gatekeeper. This does not matter because it can and should be a transitional phase in an evolving relationship.</p>
+<p>My view is based on assumption that company wants to build a long lasting relationship with a customer. This may not be true, but then there really is no point in having a sign-up at all. Avoid friction of one, make a trade and move on.</p>
+<p>I think most user lifecycle strategies look like trying to get laid by the end of evening while hoping to start a long-term relationship. It might work, but how likely?</p>
+<p>There are two things relationships need. Continuing benefit to parties involved and mutual trust. And trust is built through actions over time.</p>
+<p>Traditional UX life cycle can be seen as:</p>
+<blockquote><p>Awareness -&gt; Sign-up -&gt; First-time use -&gt; Engagement -&gt; Referral</p></blockquote>
+<p>Each step has to offer more benefits to person taking it as it requires more trust. Moving sign-up after first-time use changes dynamic by making service prove itself before asking same of its user.</p>
+<p>Using Facebook Connect (or <a class="zem_slink" title="OAuth" rel="homepage" href="http://oauth.net">OAuth</a>, <a class="zem_slink" title="OpenID Foundation" rel="homepage" href="http://openid.net">OpenID</a>&#8230;) is just going further in mimicking natural relationship building. It&#8217;s asking of a smaller commitment at a fragile stage of relationship. You can ask for a bigger commitment with your own authentication later on, when you have already proven your worth and gain enough trust. You could even offer something available only to &#8220;full&#8221; members to make such commitment more enticing.</p>
+<p>If you are building years long relationship like I have with Amazon, does it really matter if you get me to fully sign-up after third month instead of first?</p>
+<p>Hence sign-up should be thought of as a gradual process taken over time instead of one-time obstacle.</p>
+<p>All this is just speculation at this point, but I hope to test it on two projects this year. If I do, I&#8217;ll let you know how it went.</p>
+<div class="zemanta-pixie"><a class="zemanta-pixie-a" title="Reblog this post [with Zemanta]" href="http://reblog.zemanta.com/zemified/ef945133-8712-4aa1-9413-aa52f5f6c2c5/"><img class="zemanta-pixie-img" src="http://img.zemanta.com/reblog_e.png?x-id=ef945133-8712-4aa1-9413-aa52f5f6c2c5" alt="Reblog this post [with Zemanta]" /></a></div>
+			</div>
+
+			<footer class="post-metadata">
+				<ul>
+					<li>Published on <time datetime="2010-06-08T20:35:52+00:00">June 8, 2010</time></li>
+					<li><a href="http://markos.gaivo.net/blog/?p=598#comments" title="Comment on Sign-up, Facebook Connect and ownership">Add your comment</a> </li>
+				</ul>
+			</footer>
+		</article>
+	
+		<article>
+			<h1 class="storytitle"><a href="http://markos.gaivo.net/blog/?p=591" rel="bookmark">Using canvas and Javascript to blur images</a></h1>
+
+			<div class="post-text">
+				<p>I admire the look and feel of <a href="http://www.mikematas.com/">Mike Matas&#8217; new website</a>. It is really well thought through. I was also intrigued by how he did it, especially after getting a pop-up on my first visit advising me to use a more modern browser than a recent version of Firefox.</p>
+<p>There is no point in speculating why some of its features don&#8217;t work in more browsers. But I was surprised to see that blurred images are served that way and don&#8217;t get blurred in browser. I am playing with an idea of implementing a gallery inspired by Mike&#8217;s work, but I would like to reduce manual labor needed for maintaining it.</p>
+<p>So I wrote a function that blurs an image on canvas. You can <a title="Javascript blur demo page" href="http://markos.gaivo.net/examples/canvas_blur/">see it in action</a> or copy its code, if you find it useful.</p>
+<p>The algorithm used is described in <a title="Link to PDF version of paper" href="http://web.archive.org/web/20060718054020/http://www.acm.uiuc.edu/siggraph/workshops/wjarosz_convolution_2001.pdf">2001 paper</a> by Wojciech Jarosz. Page contains two implementations, second trading algorithm purity for in my opinion nicer code. Increase number of passes or run it few times over an image, if you need a blurrier result.? Please ask, if you need help with its use.</p>
+<p>I also measured its speed to see if it fits my needs. That brought a new surprise. Firefox 3.5.8? on my Linux powered VAIO with 1.2GHz processor blurs image twice as fast as same browser on a Mac with a 2.8Ghz processor. Numbers between runs may vary slightly, but never much. No idea why this is happening, since all functions do is some basic math over items in array that should be well optimized everywhere.</p>
+<p>I am sure somebody can optimize it further, but I find it good enough for my use. Image isn&#8217;t very blurred after one pass, but one pass over a small image is also a good way to measure how fast a particular computer-browser combination is. On fast combinations I might go for multiple passes over images in view, but fall back to a single pass or no pass on slower systems.</p>
+<div class="zemanta-pixie"><a class="zemanta-pixie-a" title="Reblog this post [with Zemanta]" href="http://reblog.zemanta.com/zemified/4b7c629c-fdbe-4190-ade4-e240b1b3755a/"><img class="zemanta-pixie-img" src="http://img.zemanta.com/reblog_e.png?x-id=4b7c629c-fdbe-4190-ade4-e240b1b3755a" alt="Reblog this post [with Zemanta]" /></a></div>
+			</div>
+
+			<footer class="post-metadata">
+				<ul>
+					<li>Published on <time datetime="2010-04-01T10:59:34+00:00">April 1, 2010</time></li>
+					<li><a href="http://markos.gaivo.net/blog/?p=591#comments" title="Comment on Using canvas and Javascript to blur images">Add your comment</a> </li>
+				</ul>
+			</footer>
+		</article>
+	
+		<article>
+			<h1 class="storytitle"><a href="http://markos.gaivo.net/blog/?p=579" rel="bookmark">N900 applications I miss</a></h1>
+
+			<div class="post-text">
+				<p>I love using <a class="zem_slink" title="N900" rel="homepage" href="http://maemo.nokia.com/n900/">N900</a>, but there are applications or features I miss. This post is a reminder to me on what I might do if I find more time. Since list is too long for me to do everything (unless I suddenly win lottery), feel free to pick an idea you like and run with it. Just let me know afterwards where I can see results of your work or participate in development.</p>
+<p><strong>Offline Wikipedia.</strong> When I am not behind a computer or reading, I like to be outdoors and even though cheap always available Internet was supposed to be here any day now, I regularly find myself information hungry in places with a very slow or no Internet connection. N900 with SD card could pretty much store everything I wanted and building an app that process and display information from <a title="Wikipedia dumps starting page" href="http://download.wikimedia.org/">Wikipedia dumps</a> doesn&#8217;t look like a too difficult task.</p>
+<p><strong>Better dictionary for Maemo. </strong>QStarDict port<strong> </strong> is great and it has become one of my favorite applications. However its user interface suffers from being a direct port of a desktop version one and could be improved with one that wastes less space and is orientation aware. Reading dictionary is one of few things I wish I could do in portrait mode.</p>
+<p><strong>Web platform for Maemo.</strong> Wouldn&#8217;t it be great if you could build Maemo applications with web technologies? <a title="Link to QtWebKit documentation" href="http://qt.nokia.com/doc/4.6/qtwebkit.html">QtWebKit</a> is a great place to start and I am certain I could expose new functionality through <em>addToJavascriptWindowObject</em> of <a title="Link to QWebFrame documentation" href="http://qt.nokia.com/doc/4.6/qwebframe.html">QWebFrame</a> class. Beside exposing this stuff I would also like to create tools and interfaces for developers and users alike with which they can easily package a web application as a standalone Maemo application or in case of users, turn a website into an application (I know you can add a bookmark to a website but it is not quite the same thing).</p>
+<p><strong><a title="Caffeine for Mac" href="http://lightheadsw.com/caffeine/">Caffeine</a> for N900.</strong> I would like to pick <em>&#8220;Switch profile to silent for &lt;x time&gt;&#8221;</em> and know N900 will turn back normal profile when that time period expires. I always forget to turn ringing back on after I leave cinema.</p>
+<p><strong>Monitor unknown calls.</strong> I don&#8217;t want to pollute my address book with every phone number under the sun, but I would appreciate if I could get a hint if I ever talked or called the number in question. Bonus points for using public phone books to fetch name for given number and parsing number for clues (which country or part of it is call coming from).</p>
+<p>This is not a complete list of things I want, but rest are mostly feature requests (except email client which currently really kind of sucks). For example I wish calendar had support for <a class="zem_slink" title="CalDAV" rel="wikipedia" href="http://en.wikipedia.org/wiki/CalDAV">CalDAV</a> or PDF viewer for screen rotate, search and fit to width.</p>
+<p>I am aware that Maemo should be called MeeGo now, but a habit of years can&#8217;t be changed in few weeks. I searched for above applications and didn&#8217;t find them, but if you know of any I missed, then please let me know.</p>
+<div class="zemanta-pixie"><a class="zemanta-pixie-a" title="Reblog this post [with Zemanta]" href="http://reblog.zemanta.com/zemified/8a3f246d-6a49-416b-b38b-3c79f3c30764/"><img class="zemanta-pixie-img" src="http://img.zemanta.com/reblog_e.png?x-id=8a3f246d-6a49-416b-b38b-3c79f3c30764" alt="Reblog this post [with Zemanta]" /></a></div>
+			</div>
+
+			<footer class="post-metadata">
+				<ul>
+					<li>Published on <time datetime="2010-03-09T13:24:23+00:00">March 9, 2010</time></li>
+					<li><a href="http://markos.gaivo.net/blog/?p=579#comments" title="Comment on N900 applications I miss">Add your comment</a> </li>
+				</ul>
+			</footer>
+		</article>
+		
+		<nav class="pagination">
+			<ul>
+				<li><a href="http://markos.gaivo.net/blog/?cat=4&#038;paged=5" >&laquo; Newer articles</a></li>
+				<li><a href="http://markos.gaivo.net/blog/?cat=4&#038;paged=7" >Older articles &raquo;</a></li>
+			</ul>
+		</nav>
+	</section>
+
+
+	<footer>
+		<ul>
+			<li>&copy; 2005-2015 Marko Samastur</li>
+			
+			<li><a href="http://markos.gaivo.net/blog/?feed=rss2">Entries feed</a></li>
+			<li><a href="http://markos.gaivo.net/blog/?feed=comments-rss2">Comments feed</a></li>
+		</ul>
+		<a href="/"><img src="/img/markos_light_small_bg.png" alt="logo" class="mini-logo" /></a>
+	</footer>
+	<script src="/js/jquery.js"></script>
+	<script src="/js/all.js"></script>
+	<!--script src="/mint/?js" type="text/javascript"></script-->
+
+	<!-- Google analytics -->
+	<script type="text/javascript">
+
+	  var _gaq = _gaq || [];
+	  _gaq.push(['_setAccount', 'UA-152438-1']);
+	  _gaq.push(['_trackPageview']);
+	</script>
+	<script src="/js/cookie.js"></script>
+</body>
+</html>

@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>A notch above a monkey &raquo; Generating Python Exceptions Classes</title>
+	<meta charset="utf-8" />
+	
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" /> 
+
+	<link rel="shortcut icon" href="/img/markos.ico" />
+	
+	<meta name="generator" content="WordPress 3.0.5" /> <!-- leave this for stats please -->
+
+	<link href="http://fast.fonts.com/cssapi/aee9b60b-8e94-47f8-b586-3ecbfab51d1c.css" rel="stylesheet" type="text/css" />
+	<link rel="stylesheet" type="text/css" href="css/home.css" media="screen" title="Light theme" />
+	<link rel="alternate stylesheet" type="text/css" href="css/home_dark.css" media="screen" title="Dark theme" />
+	<link rel="stylesheet" href="css/ipad.css" media="only screen and (min-device-width : 768px) and (max-device-width : 1024px)">
+	<link rel="stylesheet" type="text/css" href="css/smallscreen.css" media="only screen and (max-width: 700px)" />
+
+	<link rel="alternate" type="application/rss+xml" title="RSS 2.0" href="http://markos.gaivo.net/blog/?feed=rss2" />
+	<link rel="alternate" type="application/atom+xml" title="Atom 1.0" href="http://markos.gaivo.net/blog/?feed=atom" />
+	<link rel='canonical' href='http://markos.gaivo.net/blog/?p=664' />
+
+	<link rel="pingback" href="http://markos.gaivo.net/blog/xmlrpc.php" />
+
+	<link rel="alternate" type="application/rss+xml" title="A notch above a monkey &raquo; Generating Python Exceptions Classes Comments Feed" href="http://markos.gaivo.net/blog/?feed=rss2&amp;p=281" />
+<link rel="EditURI" type="application/rsd+xml" title="RSD" href="http://markos.gaivo.net/blog/xmlrpc.php?rsd" />
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="http://markos.gaivo.net/blog/wp-includes/wlwmanifest.xml" /> 
+<link rel='index' title='A notch above a monkey' href='http://markos.gaivo.net/blog' />
+<link rel='start' title='First post' href='http://markos.gaivo.net/blog/?p=2' />
+<link rel='prev' title='Going home' href='http://markos.gaivo.net/blog/?p=280' />
+<link rel='next' title='Hiding everything but editor on WordPress with Greasemonkey' href='http://markos.gaivo.net/blog/?p=286' />
+<meta name="generator" content="WordPress 3.0.5" />
+<link rel='canonical' href='http://markos.gaivo.net/blog/?p=281' />
+
+	<!--[if lt IE 9]>
+	<script src="/js/html5.js"></script>
+	<![endif]-->
+</head>
+<body>
+					<header>
+		<h1><a href="/blog/">A notch above a monkey</a> &raquo; Generating Python Exceptions Classes</h1>
+	</header>
+
+	<section class="envelope">
+		<article class="post">
+			<header>
+				<h1>Generating Python Exceptions Classes</h1>
+			</header>
+
+			<footer>
+				<ul>
+					<li class="by">Written by: <a href="/">Marko Samastur</a></li>
+					<li class="published">Published on: <time datetime="2008-07-22T09:39:53+00:00" pubdate>July 22, 2008</time></li>
+					<li class="categories">Categories: <a href="http://markos.gaivo.net/blog/?cat=5" title="View all posts in General development" rel="category">General development</a>, <a href="http://markos.gaivo.net/blog/?cat=2" title="View all posts in Python" rel="category">Python</a></li>
+					<li class="post-comments">Comments: <a href="http://markos.gaivo.net/blog/?p=281#comments" title="Comment on Generating Python Exceptions Classes">4</a></li>
+				</ul>
+			</footer>
+
+			<div class="post-text">
+				<p>It&#8217;s been a while since I used <a class="zem_slink" title="Python (programming language)" rel="homepage" href="http://www.python.org/">Python</a> for anything larger than scripts few tens lines long, so it feels really great to do it again. I did discover however that I became a bit rusty. Not so much in not being able to achieve what I want as not being sure that I do it in a sensible and pythonic way.</p>
+<p>I&#8217;ve been working on a private project where I came to a following problem. <a class="zem_slink" title="Application programming interface" rel="wikipedia" href="http://en.wikipedia.org/wiki/Application_programming_interface">API</a> calls can trigger various responses, somewhat like <a class="zem_slink" title="Hypertext Transfer Protocol" rel="wikipedia" href="http://en.wikipedia.org/wiki/Hypertext_Transfer_Protocol">HTTP</a>, containing status codes together with a short description. Every faulty response should trigger its own exception, which led me to my first implementation:</p>
+<pre><code>
+class Unauthorized(Exception):
+    status = 101
+    value = "Unauthorized."
+</code></pre>
+<p>I didn&#8217;t like it even though it looks and behaves like it should. What I wanted was a better overlook of possible responses in a way where I have to make any possible changes easily and only at one place.</p>
+<p>My <a title="Example" href="http://markos.gaivo.net/examples/pyexceptions/exceptions1.txt">second attempt</a> was auto-generating exception classes using type. Since class definition took only a line instead of three, it certainly achieved better transparency, but I still had to make changes at two places.</p>
+<p><a href="http://markos.gaivo.net/examples/pyexceptions/exceptions2.txt">Final step</a> was to auto-generate classes in a loop. To do this I attached them to module namespace using globals() dictionary. Actually I used __builtin__ one at first, but it obviously didn&#8217;t work that great.</p>
+<p>So this is what I have now. It works and achieves my goals. I only need to change dictionary to add a new response or change existing one and it could hardly be more readable.</p>
+<p>But is it pythonic enough? If not, what would be, apart from traditional way described in first step?</p>
+<div class="zemanta-pixie" style="margin-top: 10px; height: 15px;"><a class="zemanta-pixie-a" title="Zemified by Zemanta" href="http://reblog.zemanta.com/zemified/67741c44-cb65-4003-8f66-f8ceb221a025/"><img class="zemanta-pixie-img" style="border: medium none; float: right;" src="http://img.zemanta.com/reblog_e.png?x-id=67741c44-cb65-4003-8f66-f8ceb221a025" alt="Zemanta Pixie" /></a></div>
+			</div>
+
+			<nav>
+				<p>If you liked this, you might want to visit:</p>
+				<ul>
+					<li>my previous article: <a href="http://markos.gaivo.net/blog/?p=280" rel="prev">Going home</a></li>					<li>my next article: <a href="http://markos.gaivo.net/blog/?p=286" rel="next">Hiding everything but editor on WordPress with Greasemonkey</a></li>					<li><a href="/blog/">article list</a></li>
+				</ul>
+			</nav>
+
+			<h2 id="comments">Comments (4)
+			</h2>
+			<ol class="comments">
+		
+				<li id="comment-148152">
+					<article>
+						<p>If the raise statement needs classes, this is the way to create classes.<br />
+But in this specific case I would create subclasses of a custom StatusCodeException class, allowing me to write &#8220;except StatusCodeException&#8221; and process all status codes uniformly and to share methods involving the &#8220;status&#8221; and &#8220;value&#8221; fields (at some point these outcomes should be treated like the less bad status codes that don&#8217;t start their life as exceptions).</p>
+						<footer>
+							<cite>Comment by Lorenzo Gatti &#8212; <time datetime="2008-07-23T14:21:04+00:00">July 23, 2008 @ 2:21 pm</time> <a href="#comment-148152">#</a> </cite>
+						</footer>
+					</article>
+				</li>
+		
+				<li id="comment-148232">
+					<article>
+						<p>First of all, dynamic or not, your exceptions should probably inherit from a customer StatusCodeException, like Lorenzo said.  Maybe even think about using several layers of subclasses to cluster groups of exceptions.  I use exception subclasses to control which cleanup code to execute.  Instances of the same type of exception can hold varying attributes.</p>
+<p>Second, I love doing tricks like dynamically making classes because it shows how powerful python is.  It&#8217;s fun to show off to java people.  But I keep Occam&#8217;s razor in mind also (simplest solution is often the best).</p>
+<p>What about making an exception_factory function that accepts a tuple of args and returns the newly defined exception class, vaguely like this:</p>
+<p>def exception_factory():<br />
+    class CodeStatusException99(Exception):<br />
+        &#8220;Just some good ol&#8217; boys&#8230;&#8221;<br />
+    return CodeStatusException99</p>
+<p>CodeStatusException99 = exception_factory()</p>
+<p>Of course, you would need to use parameters to tweak the exception created inside.</p>
+<p>This approach seems more gentle that writing into the global dictionary. Some functional-programming people might get fussy about that.</p>
+						<footer>
+							<cite>Comment by <a href='http://blog.tplus1.com' rel='external nofollow' class='url'>Matt Wilson</a> &#8212; <time datetime="2008-07-23T17:02:09+00:00">July 23, 2008 @ 5:02 pm</time> <a href="#comment-148232">#</a> </cite>
+						</footer>
+					</article>
+				</li>
+		
+				<li id="comment-148296">
+					<article>
+						<p>I really like your third approach for its maintainability. You could even move your &#8220;protocol specification&#8221; out of the source code and parse it whenever you want to create the necessary exceptions.</p>
+<p>But I see a few problems with it as well. Documentation tools may not find these dynamically created classes which makes their integration into a larger library a little bit ugly. And since this is a little bit unusual, you will have to take measures your intention is clear on first sight. It would probably a good idea to put this into a separate source file.</p>
+<p>In the end, it&#8217;s a really sexy usage of Python&#8217;s dynamical nature. But I am not sure whether this clever idea is worth deviating from what everyone would intuitively do (and except).</p>
+						<footer>
+							<cite>Comment by <a href='http://well-adjusted.de' rel='external nofollow' class='url'>Jochen</a> &#8212; <time datetime="2008-07-23T21:30:51+00:00">July 23, 2008 @ 9:30 pm</time> <a href="#comment-148296">#</a> </cite>
+						</footer>
+					</article>
+				</li>
+		
+				<li id="comment-148561">
+					<article>
+						<p>Thanks for all suggestions. Subclassing is certainly the way to go.</p>
+						<footer>
+							<cite>Comment by <a href='http://markos.gaivo.net' rel='external nofollow' class='url'>markos</a> &#8212; <time datetime="2008-07-24T07:46:20+00:00">July 24, 2008 @ 7:46 am</time> <a href="#comment-148561">#</a> </cite>
+						</footer>
+					</article>
+				</li>
+		
+			</ol>
+
+
+		<p>Sorry, the comment form is closed at this time.</p>
+
+		</article>
+	</section>
+			<!-- All pages -->
+	
+
+	<footer>
+		<ul>
+			<li>&copy; 2005-2015 Marko Samastur</li>
+			
+			<li><a href="http://markos.gaivo.net/blog/?feed=rss2">Entries feed</a></li>
+			<li><a href="http://markos.gaivo.net/blog/?feed=comments-rss2">Comments feed</a></li>
+		</ul>
+		<a href="/"><img src="/img/markos_light_small_bg.png" alt="logo" class="mini-logo" /></a>
+	</footer>
+	<!-- Google analytics -->
+	<script type="text/javascript">
+	  var _gaq = _gaq || [];
+	  _gaq.push(['_setAccount', 'UA-152438-1']);
+	  _gaq.push(['_trackPageview']);
+	</script>
+	<script src="/js/cookie.js"></script>
+</body>
+</html>

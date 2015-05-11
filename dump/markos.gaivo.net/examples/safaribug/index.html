@@ -1,0 +1,85 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<title>Demo</title>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+<style type="text/css">
+* {
+	margin: 0;
+	padding: 0;
+	}
+body {
+	font: x-small Verdana, Arial, Helvetica, sans-serif;
+	background-color: #eee;
+	text-align: center;
+	padding: 10px;
+	}
+h2,p {
+	margin-bottom: 10px;
+	}
+
+#p2 {
+	background-color: #E6F4FF;
+}
+#container {
+	margin: 0 auto;
+	text-align: left;
+	width: 640px;
+	}
+span {
+	font-weight: bold;
+}
+</style>
+<script type="text/javascript">
+var Safari = {
+	make_hex : function (r,g,b) 
+	{
+		r = r.toString(16); if (r.length == 1) r = '0' + r;
+		g = g.toString(16); if (g.length == 1) g = '0' + g;
+		b = b.toString(16); if (b.length == 1) b = '0' + b;
+		return "#" + r + g + b;
+	},
+	get_colors : function () {
+		var p = ["p1", "p2"];
+		for(var i=0; i<p.length; i++) {
+			var color = this.get_bgcolor(p[i]);
+			document.getElementById("reported-"+p[i]).innerHTML = color;
+		}
+	},
+	get_bgcolor : function (id)
+	{
+		var o = document.getElementById(id);
+		var c="";
+		if (o.currentStyle) c = o.currentStyle.backgroundColor;
+		if (document.defaultView) c = document.defaultView.getComputedStyle(o, null).getPropertyValue("background-color");
+
+		var rgb = c.match(/rgb\s*\(\s*(\d{1,3})\s*,\s*(\d{1,3})\s*,\s*(\d{1,3})\s*\)/);
+		if (rgb) c = this.make_hex(parseInt(rgb[1]),parseInt(rgb[2]),parseInt(rgb[3]));
+		return c;
+	}
+}
+
+window.onload = function () {
+	Safari.get_colors();
+}
+</script>
+</head>
+
+<body>
+<div id="container">
+	<h2>Demonstration</h2>
+	<div class="row">
+	<h3>Example 1: background color set implicitly</h3>
+	<p id="p1">
+		Real background color: <strong>#eee</strong><br />
+		Reported background color: <span id="reported-p1"></span>
+	</p>
+	<h3>Example 2: background color set explicitly</h3>
+    <p id="p2">
+		Real background color: <strong>#e6f4ff</strong><br />
+		Reported background color: <span id="reported-p2"></span>
+	</p>
+    </div>
+</div>
+</body>
+</html>

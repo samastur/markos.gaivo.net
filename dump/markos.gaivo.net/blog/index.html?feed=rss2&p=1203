@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+		>
+<channel>
+	<title>Comments on: Chirp, Squawk, Cackle, or Honk*</title>
+	<atom:link href="http://markos.gaivo.net/blog/?feed=rss2&#038;p=1203" rel="self" type="application/rss+xml" />
+	<link>http://markos.gaivo.net/blog/?p=1203</link>
+	<description></description>
+	<lastBuildDate>Wed, 16 Jul 2014 16:04:38 +0000</lastBuildDate>
+	<sy:updatePeriod>hourly</sy:updatePeriod>
+	<sy:updateFrequency>1</sy:updateFrequency>
+	<generator>http://wordpress.org/?v=3.0.5</generator>
+	<item>
+		<title>By: markos</title>
+		<link>http://markos.gaivo.net/blog/?p=1203&#038;cpage=1#comment-325200</link>
+		<dc:creator>markos</dc:creator>
+		<pubDate>Wed, 16 Jul 2014 16:04:38 +0000</pubDate>
+		<guid isPermaLink="false">http://markos.gaivo.net/blog/?p=1203#comment-325200</guid>
+		<description>Thank you, Tomaž, for your comment.
+
+I agree with you that compared to others Twitter does not stand out in what it does and to what end. However what I think is different is Twitter&#039;s scale and hence its impact on society. A website with few thousand users is unlikely to have the same influence. Scale matters.
+
+I also agree that it is useful for certain purposes. So are off-road vehicles, but I doubt that abundance of SUVs on our roads is net positive for everyone involved.
+
+In a way you provide a perfect example of the problem. Most bug reports I deal with can&#039;t be adequately describe in 140 characters so why suggest that number? You could promote brevity equally well with 500 or 1000 which is still less than is often needed. It is difficult to imagine that Github would come up with that exact suggestion without Twitter&#039;s influence.
+
+I think SMS and messaging in general is a good example of something that is in mostly short and immediate, but which does not handicap communication in the same way.
+
+I would be happier if service like this was de-centralized because it would provide an opportunity to fix and change the most obnoxious parts of it.</description>
+		<content:encoded><![CDATA[<p>Thank you, Tomaž, for your comment.</p>
+<p>I agree with you that compared to others Twitter does not stand out in what it does and to what end. However what I think is different is Twitter&#8217;s scale and hence its impact on society. A website with few thousand users is unlikely to have the same influence. Scale matters.</p>
+<p>I also agree that it is useful for certain purposes. So are off-road vehicles, but I doubt that abundance of SUVs on our roads is net positive for everyone involved.</p>
+<p>In a way you provide a perfect example of the problem. Most bug reports I deal with can&#8217;t be adequately describe in 140 characters so why suggest that number? You could promote brevity equally well with 500 or 1000 which is still less than is often needed. It is difficult to imagine that Github would come up with that exact suggestion without Twitter&#8217;s influence.</p>
+<p>I think SMS and messaging in general is a good example of something that is in mostly short and immediate, but which does not handicap communication in the same way.</p>
+<p>I would be happier if service like this was de-centralized because it would provide an opportunity to fix and change the most obnoxious parts of it.</p>
+]]></content:encoded>
+	</item>
+	<item>
+		<title>By: Tomaž</title>
+		<link>http://markos.gaivo.net/blog/?p=1203&#038;cpage=1#comment-325193</link>
+		<dc:creator>Tomaž</dc:creator>
+		<pubDate>Sun, 13 Jul 2014 11:08:25 +0000</pubDate>
+		<guid isPermaLink="false">http://markos.gaivo.net/blog/?p=1203#comment-325193</guid>
+		<description>Hi Markos,
+
+I certainly agree with what you say about Twitter encouraging instant gratification and short attention spans. But unfortunately that seems to be the general direction most of the popular communication on the web is heading for. These days almost everyone worries about getting imaginary internet points as well, whether they are likes, shares, upvotes or retweets. I don&#039;t see Twitter as special in this regard.
+
+I&#039;ve recently reported a bug to GitHub. Their form encourages you to condense your report to 140 characters. My first reaction was to dismiss it as an unnecessary way to mimic Twitter, but now I think it&#039;s a valid way to make people think about brevity and skip the unnecessary fluff. Like it or not, there is so much communication going on these days that being able to compress your message to essentials is a valuable skill.
+
+I don&#039;t think that Twitter can (or should) replace longer texts, but I think it serves a purpose. Similar to how SMS still lives in parallel to e-mail. Even historically, there was a place for very short texts like haikus and aphorisms.
+
+A lot of what you are talking about here is specific to Twitter as a company, centralized service and their user interface. In our original discussion I was thinking more about the form of communication itself. Regarding that, I couldn&#039;t agree more with you. I would be much happier if Twitter would be replaced with StatusNet or some other de-centralized technology.</description>
+		<content:encoded><![CDATA[<p>Hi Markos,</p>
+<p>I certainly agree with what you say about Twitter encouraging instant gratification and short attention spans. But unfortunately that seems to be the general direction most of the popular communication on the web is heading for. These days almost everyone worries about getting imaginary internet points as well, whether they are likes, shares, upvotes or retweets. I don&#8217;t see Twitter as special in this regard.</p>
+<p>I&#8217;ve recently reported a bug to GitHub. Their form encourages you to condense your report to 140 characters. My first reaction was to dismiss it as an unnecessary way to mimic Twitter, but now I think it&#8217;s a valid way to make people think about brevity and skip the unnecessary fluff. Like it or not, there is so much communication going on these days that being able to compress your message to essentials is a valuable skill.</p>
+<p>I don&#8217;t think that Twitter can (or should) replace longer texts, but I think it serves a purpose. Similar to how SMS still lives in parallel to e-mail. Even historically, there was a place for very short texts like haikus and aphorisms.</p>
+<p>A lot of what you are talking about here is specific to Twitter as a company, centralized service and their user interface. In our original discussion I was thinking more about the form of communication itself. Regarding that, I couldn&#8217;t agree more with you. I would be much happier if Twitter would be replaced with StatusNet or some other de-centralized technology.</p>
+]]></content:encoded>
+	</item>
+</channel>
+</rss>

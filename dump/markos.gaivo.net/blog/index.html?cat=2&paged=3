@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>A notch above a monkey &raquo; Python</title>
+	<meta charset="utf-8" />
+	
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" /> 
+
+	<link rel="shortcut icon" href="/img/markos.ico" />
+	
+	<meta name="generator" content="WordPress 3.0.5" /> <!-- leave this for stats please -->
+
+	<link href="http://fast.fonts.com/cssapi/aee9b60b-8e94-47f8-b586-3ecbfab51d1c.css" rel="stylesheet" type="text/css" />
+	<link rel="stylesheet" type="text/css" href="css/home.css" media="screen" title="Light theme" />
+	<link rel="alternate stylesheet" type="text/css" href="css/home_dark.css" media="screen" title="Dark theme" />
+	<link rel="stylesheet" href="css/ipad.css" media="only screen and (min-device-width : 768px) and (max-device-width : 1024px)">
+	<link rel="stylesheet" type="text/css" href="css/smallscreen.css" media="only screen and (max-width: 700px)" />
+
+	<link rel="alternate" type="application/rss+xml" title="RSS 2.0" href="http://markos.gaivo.net/blog/?feed=rss2" />
+	<link rel="alternate" type="application/atom+xml" title="Atom 1.0" href="http://markos.gaivo.net/blog/?feed=atom" />
+	<link rel='canonical' href='http://markos.gaivo.net/blog/?p=664' />
+
+	<link rel="pingback" href="http://markos.gaivo.net/blog/xmlrpc.php" />
+
+	<link rel="alternate" type="application/rss+xml" title="A notch above a monkey &raquo; Python Category Feed" href="http://markos.gaivo.net/blog/?feed=rss2&amp;cat=2" />
+<link rel="EditURI" type="application/rsd+xml" title="RSD" href="http://markos.gaivo.net/blog/xmlrpc.php?rsd" />
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="http://markos.gaivo.net/blog/wp-includes/wlwmanifest.xml" /> 
+<link rel='index' title='A notch above a monkey' href='http://markos.gaivo.net/blog' />
+<meta name="generator" content="WordPress 3.0.5" />
+
+	<!--[if lt IE 9]>
+	<script src="/js/html5.js"></script>
+	<![endif]-->
+</head>
+<body>
+	<section class="envelope posts">
+		<header>
+			<h1><a href="http://markos.gaivo.net/blog/">A notch above a monkey</a></h1>
+		</header>
+		<nav class="colophon">
+			<h1>By Marko Samastur</h1>
+			<ul>
+				<li><a href="/">About me</a></li>
+				<li><a href="http://markos.gaivo.net/blog/?feed=atom">Subscribe</a></li>
+			</ul>
+		</nav>
+
+	
+		<article>
+			<h1 class="storytitle"><a href="http://markos.gaivo.net/blog/?p=563" rel="bookmark">A month with Nokia N900</a></h1>
+
+			<div class="post-text">
+				<p>Title says it. A month is enough time to get a better understanding of the device and to get asked repeatedly about my impressions. Many have wrote theirs, so I doubt I will be telling anything really new. Before I go on, a short disclaimer, since my writings on this blog stay around longer than might be sensible.</p>
+<p>I wrote this post at the start of February 2010. I believe everything I write about technology to be hopelessly out of date after 6 months, but I expect this article will be obsolete even sooner. So by the time you got around reading this, most of my gripes might not even be true anymore.</p>
+<p><a class="zem_slink" title="Nokia N900" rel="wikipedia" href="http://en.wikipedia.org/wiki/Nokia_N900">Nokia N900</a> is an uncut diamond. A wonderful thing made by talented designers that has quite a few rough edges, not all of them in device. I wouldn&#8217;t recommend it to most people, but to some of you it might become your favorite computer. It goes with me almost anywhere.</p>
+<p>If you want a rock solid phone, then this device is not for you. I was unlucky to be in minority of people who experienced constant reboots. By constant I mean few times every hour.? My <a class="zem_slink" title="Nokia" rel="homepage" href="http://nokia.com">Nokia</a> also lacked a 2GB partition, which meant I was constantly running out of space in which to install applications. Both of this problems have since been fixed. I still have a problem with <a class="zem_slink" title="GSM" rel="wikipedia" href="http://en.wikipedia.org/wiki/GSM">GSM</a> connection occasionally completely dying, which I can fix only by manual reboot. I&#8217;m personally not bothered since I don&#8217;t use it as phone.</p>
+<p>On the other hand updates to software are regular, with one major firmware update already, that fixed some of my problems (reboot). Annoyances of today might literally be gone by tomorrow and thus my disclaimer.</p>
+<p>I know how much effort goes in good software and don&#8217;t want to be too negative, but email really does suck for IMAP users. Not only doesn&#8217;t it cache headers, so if you have a slow connection and a big Inbox, get used to waiting. You also can&#8217;t set sent mail, drafts or trash folders which makes it useless to me for anything but reading email. Even worse, it creates its own folders (like <a class="zem_slink" title="IPod Touch" rel="wikipedia" href="http://en.wikipedia.org/wiki/IPod_Touch">iPod touch</a>) to make a mess in your account. I am all for simplicity and avoiding needless configuration options, but it could at least get a list of folders and compare Levenshtein&#8217;s distance to common names (Sent, Sent mail&#8230;).</p>
+<p>Gecko (Mozilla) based browser though is great, in my opinion much better than iPod&#8217;s and I completely switched my mobile browsing to N900. I am biased since unlike many I never was fond of constant zooming in and out (with pinching). My opinion might have been different if my eye-sight was poorer and I needed to zoom more.</p>
+<p>If you are a Linux user or appreciate freedom, then it&#8217;s difficult to find a better mobile device. N900 is a Linux machine which happens to also be a phone and you have complete access to everything. There is a store (Ovi) and app manager, but you can install and run anything willing to run without permission from anybody. Terminal is loaded by default together with tools needed to prod into the system and root is one package installation away.</p>
+<p>I dislike fixed space of iPod. N900 is only slightly better. You can expand it with SD cards, but you have to open battery cover. It looks so fragile that I don&#8217;t intend to actually do this unless absolutely necessary. Speaking of storage, as a programmer I can understand why applications can use only 2GB of it, but as user it simply looks daft.</p>
+<p>Pair of contact and conversations applications is absolutely brilliant. Instant messaging, Skype and SMS are superbly integrated and they also feed contact application with information about your buddies found on those networks.? Install Hermes and you can update it with data from Twitter and Facebook.</p>
+<p>Screen has higher resolution than iPod&#8217;s, but physically same (small) size, which means I&#8217;ll keep reading PDFs on my 770. Since it&#8217;s resistive instead of capacitive, it needs more pressure than iPod&#8217;s, but works better at -12 degrees centigrade (<a title="French Alps - photo taken by N900" href="http://www.flickr.com/photos/markos/4268784785/">this picture</a> was taken with my gloves on).</p>
+<p>Maemo has a very active and generally supportive community, but some members can also be <a href="https://bugs.maemo.org/show_bug.cgi?id=6334#c19">needlessly unfriendly</a>. Just because you know where everything is and have seen certain faux pas 100 times before, it doesn&#8217;t mean either is true for a new N900 owner with a problem.</p>
+<p>N900 RUNS PYTHON, which was my main reason for preferring it over an <a class="zem_slink" title="Android" rel="homepage" href="http://code.google.com/android/">Android</a> phone. Documentation is a bit all over the place, not always current and I still haven&#8217;t found information about how to control built in cameras, but I am an optimist that this will be sorted out soon and that documentation will improve as well.</p>
+<p>I compared N900 with diamond, but maybe a better comparison would be a sports car. If you want a polished, sedated experience then N900 is certainly not for you (yet). But if you are a tinkerer who doesn&#8217;t mind rough edges in exchange for freedom to make it do almost anything, then you should give it a spin.</p>
+<p>There is so much more that could be said, but big picture wouldn&#8217;t change much. I haven&#8217;t talked much about UI since I simply couldn&#8217;t do it justice in few sentences. On the whole it works fine and multitasking is really great even though I think iPhone/iPad&#8217;s switch-to-where-you-were model is in my experience rarely a problem and wouldn&#8217;t be surprised if it was here to stay.</p>
+<p>If there is anything about it you would like to know, then please ask and I&#8217;ll try to respond to it promptly.</p>
+<div class="zemanta-pixie"><a class="zemanta-pixie-a" title="Reblog this post [with Zemanta]" href="http://reblog.zemanta.com/zemified/975ad83f-5fe4-4116-9522-d28c345d36b9/"><img class="zemanta-pixie-img" src="http://img.zemanta.com/reblog_e.png?x-id=975ad83f-5fe4-4116-9522-d28c345d36b9" alt="Reblog this post [with Zemanta]" /></a><span class="zem-script paragraph-reblog"><script src="http://static.zemanta.com/readside/loader.js" type="text/javascript"></script></span></div>
+			</div>
+
+			<footer class="post-metadata">
+				<ul>
+					<li>Published on <time datetime="2010-02-05T10:36:33+00:00">February 5, 2010</time></li>
+					<li><a href="http://markos.gaivo.net/blog/?p=563#comments" title="Comment on A month with Nokia N900">Add your comment</a> </li>
+				</ul>
+			</footer>
+		</article>
+	
+		<article>
+			<h1 class="storytitle"><a href="http://markos.gaivo.net/blog/?p=287" rel="bookmark">Leaving App Engine &#8211; for now</a></h1>
+
+			<div class="post-text">
+				<p>Jonathan <a href="http://spyced.blogspot.com/2008/08/app-engine-conclusions.html#">wrote</a> his thoughts about <a class="zem_slink" title="Google App Engine" rel="homepage" href="http://appengine.google.com">App Engine</a>. They are well worth a read if you are thinking about using it, but haven&#8217;t so far. I used App Engine sporadically for a couple of months on a project of mine, but I finally gave up and ended porting my code to pure <a class="zem_slink" title="Django (web framework)" rel="homepage" href="http://www.djangoproject.com">Django</a>, which admittedly wasn&#8217;t too hard to do at this point in time.</p>
+<p>Some of my reasons match Jonathan&#8217;s. There were too many rough edges to feel really productive and too much time was wasted on trying to find out if problem lies in poor documentation, incomplete implementation or stupid programmer. I probably will never get answers to questions like how can a simple Django view that doesn&#8217;t do anything beside rendering a static template, consume above expected amount of CPU and risk triggering quota blockage, but right now I really don&#8217;t care anymore.</p>
+<p>Integrating <a class="zem_slink" title="Google" rel="crunchbase" href="http://www.crunchbase.com/company/google">Google</a> accounts is indeed easy, but it is also very shallow to the point of being practically useless.  You basically can only rely on fact that reference to a particular user won&#8217;t change. Anything else you may think you know (like an email address), can&#8217;t be relied upon. You can&#8217;t create an account and you can&#8217;t even control login form of your service. In essence you don&#8217;t have your own users, you can just offer a service to Google&#8217;s.</p>
+<p>For me this was one of two major reasons for my decision. Every person who would need an account to use what I am building would need to agree to Google&#8217;s <a class="zem_slink" title="Terms of service" rel="wikipedia" href="http://en.wikipedia.org/wiki/Terms_of_service">TOS</a> agreement which defines many things, among others the highest level of privacy I can offer.</p>
+<p>The other reason was that current limitations of App Engine really lead you to rely heavily on provided APIs, which may be similar to stuff out there (like Django), but aren&#8217;t anywhere close to being a drop-in replacement. This can be &#8212; depending on application you&#8217;re writing &#8212; a heavy investement in a platform you don&#8217;t control a bit.</p>
+<p>Put more profanely, you are a Google&#8217;s bitch.</p>
+<p>Having said all this, I do think App Engine is a very valuable service. If you want to write a mini-app, a web tool like <a title="Simon's homepage" href="http://simonwillison.net/">Simon</a> <a title="Post about json-head service" href="http://simonwillison.net/2008/Jul/29/jsonhead/">does</a>, then App Engine is brilliant. You can do this easily with little deployment and zero administration hassle. In fact I can&#8217;t think of any other service better suited to this task.</p>
+<p>I&#8217;m sure this is not the only scenario in which App Engine makes sense and there are others I haven&#8217;t named or thought of. Issues, like accounts, can with some effort be solved now. But App Engine also isn&#8217;t (yet) what some of us were hoping for and it&#8217;s prudent to really think through what you want, what you need and what App Engine actually offers.</p>
+<div class="zemanta-pixie"><a class="zemanta-pixie-a" title="Zemified by Zemanta" href="http://reblog.zemanta.com/zemified/28ddae75-72ba-4a45-892e-7841f893395b/"><img class="zemanta-pixie-img" style="border: medium none; float: right;" src="http://img.zemanta.com/reblog_e.png?x-id=28ddae75-72ba-4a45-892e-7841f893395b" alt="Reblog this post [with Zemanta]" /></a></div>
+			</div>
+
+			<footer class="post-metadata">
+				<ul>
+					<li>Published on <time datetime="2008-08-30T21:50:59+00:00">August 30, 2008</time></li>
+					<li><a href="http://markos.gaivo.net/blog/?p=287#comments" title="Comment on Leaving App Engine &#8211; for now">Add your comment</a> </li>
+				</ul>
+			</footer>
+		</article>
+	
+		<article>
+			<h1 class="storytitle"><a href="http://markos.gaivo.net/blog/?p=281" rel="bookmark">Generating Python Exceptions Classes</a></h1>
+
+			<div class="post-text">
+				<p>It&#8217;s been a while since I used <a class="zem_slink" title="Python (programming language)" rel="homepage" href="http://www.python.org/">Python</a> for anything larger than scripts few tens lines long, so it feels really great to do it again. I did discover however that I became a bit rusty. Not so much in not being able to achieve what I want as not being sure that I do it in a sensible and pythonic way.</p>
+<p>I&#8217;ve been working on a private project where I came to a following problem. <a class="zem_slink" title="Application programming interface" rel="wikipedia" href="http://en.wikipedia.org/wiki/Application_programming_interface">API</a> calls can trigger various responses, somewhat like <a class="zem_slink" title="Hypertext Transfer Protocol" rel="wikipedia" href="http://en.wikipedia.org/wiki/Hypertext_Transfer_Protocol">HTTP</a>, containing status codes together with a short description. Every faulty response should trigger its own exception, which led me to my first implementation:</p>
+<pre><code>
+class Unauthorized(Exception):
+    status = 101
+    value = "Unauthorized."
+</code></pre>
+<p>I didn&#8217;t like it even though it looks and behaves like it should. What I wanted was a better overlook of possible responses in a way where I have to make any possible changes easily and only at one place.</p>
+<p>My <a title="Example" href="http://markos.gaivo.net/examples/pyexceptions/exceptions1.txt">second attempt</a> was auto-generating exception classes using type. Since class definition took only a line instead of three, it certainly achieved better transparency, but I still had to make changes at two places.</p>
+<p><a href="http://markos.gaivo.net/examples/pyexceptions/exceptions2.txt">Final step</a> was to auto-generate classes in a loop. To do this I attached them to module namespace using globals() dictionary. Actually I used __builtin__ one at first, but it obviously didn&#8217;t work that great.</p>
+<p>So this is what I have now. It works and achieves my goals. I only need to change dictionary to add a new response or change existing one and it could hardly be more readable.</p>
+<p>But is it pythonic enough? If not, what would be, apart from traditional way described in first step?</p>
+<div class="zemanta-pixie" style="margin-top: 10px; height: 15px;"><a class="zemanta-pixie-a" title="Zemified by Zemanta" href="http://reblog.zemanta.com/zemified/67741c44-cb65-4003-8f66-f8ceb221a025/"><img class="zemanta-pixie-img" style="border: medium none; float: right;" src="http://img.zemanta.com/reblog_e.png?x-id=67741c44-cb65-4003-8f66-f8ceb221a025" alt="Zemanta Pixie" /></a></div>
+			</div>
+
+			<footer class="post-metadata">
+				<ul>
+					<li>Published on <time datetime="2008-07-22T09:39:53+00:00">July 22, 2008</time></li>
+					<li><a href="http://markos.gaivo.net/blog/?p=281#comments" title="Comment on Generating Python Exceptions Classes">Add your comment</a> </li>
+				</ul>
+			</footer>
+		</article>
+		
+		<nav class="pagination">
+			<ul>
+				<li><a href="http://markos.gaivo.net/blog/?cat=2&#038;paged=2" >&laquo; Newer articles</a></li>
+				<li><a href="http://markos.gaivo.net/blog/?cat=2&#038;paged=4" >Older articles &raquo;</a></li>
+			</ul>
+		</nav>
+	</section>
+
+
+	<footer>
+		<ul>
+			<li>&copy; 2005-2015 Marko Samastur</li>
+			
+			<li><a href="http://markos.gaivo.net/blog/?feed=rss2">Entries feed</a></li>
+			<li><a href="http://markos.gaivo.net/blog/?feed=comments-rss2">Comments feed</a></li>
+		</ul>
+		<a href="/"><img src="/img/markos_light_small_bg.png" alt="logo" class="mini-logo" /></a>
+	</footer>
+	<script src="/js/jquery.js"></script>
+	<script src="/js/all.js"></script>
+	<!--script src="/mint/?js" type="text/javascript"></script-->
+
+	<!-- Google analytics -->
+	<script type="text/javascript">
+
+	  var _gaq = _gaq || [];
+	  _gaq.push(['_setAccount', 'UA-152438-1']);
+	  _gaq.push(['_trackPageview']);
+	</script>
+	<script src="/js/cookie.js"></script>
+</body>
+</html>

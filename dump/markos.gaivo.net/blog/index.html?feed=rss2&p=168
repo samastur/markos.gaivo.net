@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+		>
+<channel>
+	<title>Comments on: Mobile user interfaces</title>
+	<atom:link href="http://markos.gaivo.net/blog/?feed=rss2&#038;p=168" rel="self" type="application/rss+xml" />
+	<link>http://markos.gaivo.net/blog/?p=168</link>
+	<description></description>
+	<lastBuildDate>Wed, 16 Jul 2014 16:04:38 +0000</lastBuildDate>
+	<sy:updatePeriod>hourly</sy:updatePeriod>
+	<sy:updateFrequency>1</sy:updateFrequency>
+	<generator>http://wordpress.org/?v=3.0.5</generator>
+	<item>
+		<title>By: markos</title>
+		<link>http://markos.gaivo.net/blog/?p=168&#038;cpage=1#comment-1758</link>
+		<dc:creator>markos</dc:creator>
+		<pubDate>Thu, 18 May 2006 06:11:17 +0000</pubDate>
+		<guid isPermaLink="false">http://markos.gaivo.net/blog/?p=168#comment-1758</guid>
+		<description>Sure, but I think Python version should make a decent first prototype. Judging solely by API documentation I should be able to use in-built camera with Python and you definitely have access to stuff like sockets.
+
+If it doesn&#039;t work well, I can always get my hands dirty with C. Although I&#039;m still hoping it won&#039;t be necessary.</description>
+		<content:encoded><![CDATA[<p>Sure, but I think Python version should make a decent first prototype. Judging solely by API documentation I should be able to use in-built camera with Python and you definitely have access to stuff like sockets.</p>
+<p>If it doesn&#8217;t work well, I can always get my hands dirty with C. Although I&#8217;m still hoping it won&#8217;t be necessary.</p>
+]]></content:encoded>
+	</item>
+	<item>
+		<title>By: Peter Bengtsson</title>
+		<link>http://markos.gaivo.net/blog/?p=168&#038;cpage=1#comment-1722</link>
+		<dc:creator>Peter Bengtsson</dc:creator>
+		<pubDate>Wed, 17 May 2006 22:08:04 +0000</pubDate>
+		<guid isPermaLink="false">http://markos.gaivo.net/blog/?p=168#comment-1722</guid>
+		<description>Did you consider using the native Symbian C or whatever it&#039;s called there? 
+I&#039;ve been thinking of writing a symbian app and fear that the python api is going to feel to bolt-on, ie. you can&#039;t get full control with camera, icons and sockets and stuff.</description>
+		<content:encoded><![CDATA[<p>Did you consider using the native Symbian C or whatever it&#8217;s called there?<br />
+I&#8217;ve been thinking of writing a symbian app and fear that the python api is going to feel to bolt-on, ie. you can&#8217;t get full control with camera, icons and sockets and stuff.</p>
+]]></content:encoded>
+	</item>
+	<item>
+		<title>By: Jan</title>
+		<link>http://markos.gaivo.net/blog/?p=168&#038;cpage=1#comment-1714</link>
+		<dc:creator>Jan</dc:creator>
+		<pubDate>Wed, 17 May 2006 17:48:22 +0000</pubDate>
+		<guid isPermaLink="false">http://markos.gaivo.net/blog/?p=168#comment-1714</guid>
+		<description>Or a month as it usually turns out :)</description>
+		<content:encoded><![CDATA[<p>Or a month as it usually turns out <img src='http://markos.gaivo.net/blog/wp-includes/images/smilies/icon_smile.gif' alt=':)' class='wp-smiley' /> </p>
+]]></content:encoded>
+	</item>
+</channel>
+</rss>

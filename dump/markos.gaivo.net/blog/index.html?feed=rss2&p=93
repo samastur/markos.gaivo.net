@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+		>
+<channel>
+	<title>Comments on: Look ma&#8217;, HTML too</title>
+	<atom:link href="http://markos.gaivo.net/blog/?feed=rss2&#038;p=93" rel="self" type="application/rss+xml" />
+	<link>http://markos.gaivo.net/blog/?p=93</link>
+	<description></description>
+	<lastBuildDate>Wed, 16 Jul 2014 16:04:38 +0000</lastBuildDate>
+	<sy:updatePeriod>hourly</sy:updatePeriod>
+	<sy:updateFrequency>1</sy:updateFrequency>
+	<generator>http://wordpress.org/?v=3.0.5</generator>
+	<item>
+		<title>By: markos</title>
+		<link>http://markos.gaivo.net/blog/?p=93&#038;cpage=1#comment-297</link>
+		<dc:creator>markos</dc:creator>
+		<pubDate>Mon, 19 Dec 2005 18:41:52 +0000</pubDate>
+		<guid isPermaLink="false">http://markos.gaivo.net/blog/?p=93#comment-297</guid>
+		<description>Thanks. There&#039;s a new &lt;a href=&quot;http://markos.gaivo.net/blog/?p=100&quot; rel=&quot;nofollow&quot;&gt;post&lt;/a&gt; on this topic, but I hope to update it with a &quot;final&quot; version soon.</description>
+		<content:encoded><![CDATA[<p>Thanks. There&#8217;s a new <a href="http://markos.gaivo.net/blog/?p=100">post</a> on this topic, but I hope to update it with a &#8220;final&#8221; version soon.</p>
+]]></content:encoded>
+	</item>
+	<item>
+		<title>By: Viktor</title>
+		<link>http://markos.gaivo.net/blog/?p=93&#038;cpage=1#comment-295</link>
+		<dc:creator>Viktor</dc:creator>
+		<pubDate>Mon, 19 Dec 2005 17:01:07 +0000</pubDate>
+		<guid isPermaLink="false">http://markos.gaivo.net/blog/?p=93#comment-295</guid>
+		<description>Great follow up.</description>
+		<content:encoded><![CDATA[<p>Great follow up.</p>
+]]></content:encoded>
+	</item>
+	<item>
+		<title>By: markos</title>
+		<link>http://markos.gaivo.net/blog/?p=93&#038;cpage=1#comment-289</link>
+		<dc:creator>markos</dc:creator>
+		<pubDate>Thu, 15 Dec 2005 19:10:35 +0000</pubDate>
+		<guid isPermaLink="false">http://markos.gaivo.net/blog/?p=93#comment-289</guid>
+		<description>Interesting article. Thanks for the link.</description>
+		<content:encoded><![CDATA[<p>Interesting article. Thanks for the link.</p>
+]]></content:encoded>
+	</item>
+	<item>
+		<title>By: zwetan</title>
+		<link>http://markos.gaivo.net/blog/?p=93&#038;cpage=1#comment-288</link>
+		<dc:creator>zwetan</dc:creator>
+		<pubDate>Wed, 14 Dec 2005 21:01:47 +0000</pubDate>
+		<guid isPermaLink="false">http://markos.gaivo.net/blog/?p=93#comment-288</guid>
+		<description>I saw this article
+http://24ways.org/advent/putting-the-world-into-world-wide-web
+
+perharps it can help</description>
+		<content:encoded><![CDATA[<p>I saw this article<br />
+<a href="http://24ways.org/advent/putting-the-world-into-world-wide-web">http://24ways.org/advent/putting-the-world-into-world-wide-web</a></p>
+<p>perharps it can help</p>
+]]></content:encoded>
+	</item>
+	<item>
+		<title>By: markos</title>
+		<link>http://markos.gaivo.net/blog/?p=93&#038;cpage=1#comment-285</link>
+		<dc:creator>markos</dc:creator>
+		<pubDate>Tue, 13 Dec 2005 07:15:35 +0000</pubDate>
+		<guid isPermaLink="false">http://markos.gaivo.net/blog/?p=93#comment-285</guid>
+		<description>I did briefly until I discovered that Safari&#039;s javascript has no support for this stuff.
+
+I imagine that javascript support is not really necessary so I probably didn&#039;t look hard enough.</description>
+		<content:encoded><![CDATA[<p>I did briefly until I discovered that Safari&#8217;s javascript has no support for this stuff.</p>
+<p>I imagine that javascript support is not really necessary so I probably didn&#8217;t look hard enough.</p>
+]]></content:encoded>
+	</item>
+	<item>
+		<title>By: zwetan</title>
+		<link>http://markos.gaivo.net/blog/?p=93&#038;cpage=1#comment-284</link>
+		<dc:creator>zwetan</dc:creator>
+		<pubDate>Tue, 13 Dec 2005 00:00:03 +0000</pubDate>
+		<guid isPermaLink="false">http://markos.gaivo.net/blog/?p=93#comment-284</guid>
+		<description>I understand your position, and seeing that you prefer the DOM way, did you try to look at solution using XML + XSL / XSLT / XSL-FO ?
+
+Just an idea like that, I&#039;m curious to see what solution you will obtain  :)</description>
+		<content:encoded><![CDATA[<p>I understand your position, and seeing that you prefer the DOM way, did you try to look at solution using XML + XSL / XSLT / XSL-FO ?</p>
+<p>Just an idea like that, I&#8217;m curious to see what solution you will obtain  <img src='http://markos.gaivo.net/blog/wp-includes/images/smilies/icon_smile.gif' alt=':)' class='wp-smiley' /> </p>
+]]></content:encoded>
+	</item>
+	<item>
+		<title>By: markos</title>
+		<link>http://markos.gaivo.net/blog/?p=93&#038;cpage=1#comment-283</link>
+		<dc:creator>markos</dc:creator>
+		<pubDate>Mon, 12 Dec 2005 21:29:23 +0000</pubDate>
+		<guid isPermaLink="false">http://markos.gaivo.net/blog/?p=93#comment-283</guid>
+		<description>Thanks for comments. I&#039;ll tackle the easiest one first.
+
+I didn&#039;t know charCodeAt is IE5.5+ only method and I can&#039;t say I care all too much now. 5.0 seems to be definitely dead, but I will try to make a workaround anyway if it&#039;s not too hard or long.
+
+I can also be persuaded that DOM way is the one to go, but I definitely think translating only text nodes is a bad idea. String &quot;Please &lt;strong&gt;don&#039;t&lt;/strong&gt; do that.&quot; should require one translation, not three. And that&#039;s ignoring the fact that translations often choose a different emphasis because of cultural differences and stuff like that.
+
+I also took a quick look at zwetan&#039;s links. I have few objections. First one is that I like to have as few classes and ID&#039;s in my documents as possible, because it makes name collisions much less likely.
+
+Second reason is that every ID must be unique to page. Which means you can&#039;t use the same translation more than once per page. You have to duplicate it in translation object as many times as needed.
+
+Third reason is completely personal. Coming from opensource background gives me a natural inclination to GNU gettext form and tools. Your proposal looks like Java way of handling it and although the approach seems to be preferred at some places (Dojo developers for instance are thinking in your direction), I can&#039;t say I share the enthusiasm.
+
+I do appreciate your comments and they gave me stuff to think about. I have to read more about core2, but it seems like it solves few thing I overlooked. Thanks.</description>
+		<content:encoded><![CDATA[<p>Thanks for comments. I&#8217;ll tackle the easiest one first.</p>
+<p>I didn&#8217;t know charCodeAt is IE5.5+ only method and I can&#8217;t say I care all too much now. 5.0 seems to be definitely dead, but I will try to make a workaround anyway if it&#8217;s not too hard or long.</p>
+<p>I can also be persuaded that DOM way is the one to go, but I definitely think translating only text nodes is a bad idea. String &#8220;Please <strong>don&#8217;t</strong> do that.&#8221; should require one translation, not three. And that&#8217;s ignoring the fact that translations often choose a different emphasis because of cultural differences and stuff like that.</p>
+<p>I also took a quick look at zwetan&#8217;s links. I have few objections. First one is that I like to have as few classes and ID&#8217;s in my documents as possible, because it makes name collisions much less likely.</p>
+<p>Second reason is that every ID must be unique to page. Which means you can&#8217;t use the same translation more than once per page. You have to duplicate it in translation object as many times as needed.</p>
+<p>Third reason is completely personal. Coming from opensource background gives me a natural inclination to GNU gettext form and tools. Your proposal looks like Java way of handling it and although the approach seems to be preferred at some places (Dojo developers for instance are thinking in your direction), I can&#8217;t say I share the enthusiasm.</p>
+<p>I do appreciate your comments and they gave me stuff to think about. I have to read more about core2, but it seems like it solves few thing I overlooked. Thanks.</p>
+]]></content:encoded>
+	</item>
+	<item>
+		<title>By: fry</title>
+		<link>http://markos.gaivo.net/blog/?p=93&#038;cpage=1#comment-280</link>
+		<dc:creator>fry</dc:creator>
+		<pubDate>Mon, 12 Dec 2005 11:05:58 +0000</pubDate>
+		<guid isPermaLink="false">http://markos.gaivo.net/blog/?p=93#comment-280</guid>
+		<description>After closer inspection I also think that the html tag translation method should be changed. How will you translate &#039;code&#039; with innerHTML when it could also be a normal and valid tag? Since DOM is not slow anymore I think what you should do is a recursive method to find and translate only text nodes.</description>
+		<content:encoded><![CDATA[<p>After closer inspection I also think that the html tag translation method should be changed. How will you translate &#8216;code&#8217; with innerHTML when it could also be a normal and valid tag? Since DOM is not slow anymore I think what you should do is a recursive method to find and translate only text nodes.</p>
+]]></content:encoded>
+	</item>
+	<item>
+		<title>By: fry</title>
+		<link>http://markos.gaivo.net/blog/?p=93&#038;cpage=1#comment-279</link>
+		<dc:creator>fry</dc:creator>
+		<pubDate>Mon, 12 Dec 2005 10:29:18 +0000</pubDate>
+		<guid isPermaLink="false">http://markos.gaivo.net/blog/?p=93#comment-279</guid>
+		<description>I see you&#039;re using String.charCodeAt which is (like Array.splice you don&#039;t like) also a &lt;a href=&quot;http://msdn.microsoft.com/library/default.asp?url=/library/en-us/jscript7/html/jsmthcharCodeAt.asp&quot; rel=&quot;nofollow&quot;&gt;IE55+ method&lt;/a&gt;...</description>
+		<content:encoded><![CDATA[<p>I see you&#8217;re using String.charCodeAt which is (like Array.splice you don&#8217;t like) also a <a href="http://msdn.microsoft.com/library/default.asp?url=/library/en-us/jscript7/html/jsmthcharCodeAt.asp">IE55+ method</a>&#8230;</p>
+]]></content:encoded>
+	</item>
+	<item>
+		<title>By: zwetan</title>
+		<link>http://markos.gaivo.net/blog/?p=93&#038;cpage=1#comment-278</link>
+		<dc:creator>zwetan</dc:creator>
+		<pubDate>Mon, 12 Dec 2005 07:43:53 +0000</pubDate>
+		<guid isPermaLink="false">http://markos.gaivo.net/blog/?p=93#comment-278</guid>
+		<description>I took an approach to i18n more based on the code than the HTML,
+perharps you would like to check it out
+http://www.zwetan.com/blog/buRRRn/core2/Easy-internationalization-of-resources.html
+
+You can check also the core2 library, the String.format can be usefull to format complex strings.
+http://www.buRRRn.com/projects/core2.html
+
+And just quick thought about applying i18n to X/HTML
+
+why not use a class AND an id
+
+
+
+like that if you got your resource strings organized
+
+strings = {};
+strings.en = {};
+strings.fr = {};
+
+strings.en.hello = &quot;Hello&quot;;
+strings.en.bye   = &quot;Good bye&quot;;
+
+strings.fr.hello = &quot;Bonjour&quot;;
+strings.fr.bye   = &quot;Aurevoir&quot;;
+
+you could simply have the function looking for class &quot;i18n&quot;
+replacing the node content with the &quot;id&quot; local value.
+
+I didn&#039;t tested, but I&#039;m alsmot sure it can be done this way :).</description>
+		<content:encoded><![CDATA[<p>I took an approach to i18n more based on the code than the HTML,<br />
+perharps you would like to check it out<br />
+<a href="http://www.zwetan.com/blog/buRRRn/core2/Easy-internationalization-of-resources.html">http://www.zwetan.com/blog/buRRRn/core2/Easy-internationalization-of-resources.html</a></p>
+<p>You can check also the core2 library, the String.format can be usefull to format complex strings.<br />
+<a href="http://www.buRRRn.com/projects/core2.html">http://www.buRRRn.com/projects/core2.html</a></p>
+<p>And just quick thought about applying i18n to X/HTML</p>
+<p>why not use a class AND an id</p>
+<p>like that if you got your resource strings organized</p>
+<p>strings = {};<br />
+strings.en = {};<br />
+strings.fr = {};</p>
+<p>strings.en.hello = &#8220;Hello&#8221;;<br />
+strings.en.bye   = &#8220;Good bye&#8221;;</p>
+<p>strings.fr.hello = &#8220;Bonjour&#8221;;<br />
+strings.fr.bye   = &#8220;Aurevoir&#8221;;</p>
+<p>you could simply have the function looking for class &#8220;i18n&#8221;<br />
+replacing the node content with the &#8220;id&#8221; local value.</p>
+<p>I didn&#8217;t tested, but I&#8217;m alsmot sure it can be done this way <img src='http://markos.gaivo.net/blog/wp-includes/images/smilies/icon_smile.gif' alt=':)' class='wp-smiley' /> .</p>
+]]></content:encoded>
+	</item>
+</channel>
+</rss>

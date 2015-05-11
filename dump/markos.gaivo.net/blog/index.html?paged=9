@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>A notch above a monkey</title>
+	<meta charset="utf-8" />
+	
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" /> 
+
+	<link rel="shortcut icon" href="/img/markos.ico" />
+	
+	<meta name="generator" content="WordPress 3.0.5" /> <!-- leave this for stats please -->
+
+	<link href="http://fast.fonts.com/cssapi/aee9b60b-8e94-47f8-b586-3ecbfab51d1c.css" rel="stylesheet" type="text/css" />
+	<link rel="stylesheet" type="text/css" href="css/home.css" media="screen" title="Light theme" />
+	<link rel="alternate stylesheet" type="text/css" href="css/home_dark.css" media="screen" title="Dark theme" />
+	<link rel="stylesheet" href="css/ipad.css" media="only screen and (min-device-width : 768px) and (max-device-width : 1024px)">
+	<link rel="stylesheet" type="text/css" href="css/smallscreen.css" media="only screen and (max-width: 700px)" />
+
+	<link rel="alternate" type="application/rss+xml" title="RSS 2.0" href="http://markos.gaivo.net/blog/?feed=rss2" />
+	<link rel="alternate" type="application/atom+xml" title="Atom 1.0" href="http://markos.gaivo.net/blog/?feed=atom" />
+	<link rel='canonical' href='http://markos.gaivo.net/blog/?p=664' />
+
+	<link rel="pingback" href="http://markos.gaivo.net/blog/xmlrpc.php" />
+
+	<link rel="EditURI" type="application/rsd+xml" title="RSD" href="http://markos.gaivo.net/blog/xmlrpc.php?rsd" />
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="http://markos.gaivo.net/blog/wp-includes/wlwmanifest.xml" /> 
+<link rel='index' title='A notch above a monkey' href='http://markos.gaivo.net/blog' />
+<meta name="generator" content="WordPress 3.0.5" />
+
+	<!--[if lt IE 9]>
+	<script src="/js/html5.js"></script>
+	<![endif]-->
+</head>
+<body>
+	<section class="envelope posts">
+		<header>
+			<h1><a href="http://markos.gaivo.net/blog/">A notch above a monkey</a></h1>
+		</header>
+		<nav class="colophon">
+			<h1>By Marko Samastur</h1>
+			<ul>
+				<li><a href="/">About me</a></li>
+				<li><a href="http://markos.gaivo.net/blog/?feed=atom">Subscribe</a></li>
+			</ul>
+		</nav>
+
+	
+		<article>
+			<h1 class="storytitle"><a href="http://markos.gaivo.net/blog/?p=936" rel="bookmark">Save bandwidth switch</a></h1>
+
+			<div class="post-text">
+				<p>Michal Migurski recently posted <a href="http://mike.teczno.com/notes/bandwidth.html">an article</a> about download sizes of popular websites. I couldn&#8217;t replicate his results<sup><a id="save-bandwidth-1" href="#save-bandwidth-note-1">[1]</a></sup>, but it is obvious that gist of Michal&#8217;s article is correct, websites have indeed ballooned significantly in last few years.</p>
+<p>This blog&#8217;s homepage has a footprint of around 250KB-270KB<sup><a id="save-bandwidth-2" href="#save-bandwidth-note-2">[2]</a></sup>. About 90% of its size are fonts and <a href="http://jquery.com/">jQuery</a> which is a big penalty for making it look and behave a bit nicer. So should I remove those parts?</p>
+<p>Well, for most visitors to this website that difference doesn&#8217;t matter. Pages for them are neither slow nor expensive to load. Unless of course they are doing it over your average hotel Wi-Fi or a slow mobile network where speed around 56Kb/s is not unheard of. On such connection it would take about half a minute to load this blog. It can also cost more than 10 euro cents to load it when roaming in Europe.</p>
+<p>It would be great if I could offer a choice of serving bigger and nicer or smaller and faster version depending on visitors needs.</p>
+<p>Measuring speed is not easy, but certainly doable as Gmail has demonstrated. You could start a timer immediately in page header, measure how much time it takes to load a smaller version of a website and if that happened quickly enough upgrade it to full bling. Android browser also added support for <a href="http://dvcs.w3.org/hg/dap/raw-file/tip/network-api/index.html">navigator.connection</a> Javascript property which, where it exists, probably has more details than you would need.</p>
+<p>However there is no way to measure price of a visit. Even if I could, how would I decide what is too expensive for an anonymous reader and should I make such decisions at all? I think not.</p>
+<p>Gmail&#8217;s approach is really just a band-aid over what should be a visitor&#8217;s decision. I use same laptop and browser at home and while I travel, experiencing all combinations of connection speed and pricing. I never know how much it will cost me to visit a page, but I always learn quickly if I would prefer something small or full-featured. There is just no way I can communicate that preference.</p>
+<p>It would be great if my browser had a switch for this purpose, like Firefox&#8217;s &#8220;Work Offline&#8221; toggle. So if I switched to bandwidth saving mode, then every subsequent request to web server would communicate my preference with a HTTP header field like:</p>
+<blockquote><p>X-Bandwidth: save</p></blockquote>
+<p>In principle you could have multiple levels of bandwidth consumption, but that would likely be an overkill. Common practice suggests that at most two levels would really get used, one aimed at mobile devices and other at desktop.</p>
+<p>Header like that might be enough, but even better would be if Javascript environment got another property describing current state of user&#8217;s preference (like say <em>navigator.bandwidth</em>). Coupled with a bandwidth event triggered on change you could really optimize every modern web page, even those with more complicated loading of resources and execution paths.</p>
+<p>Right now such functionality doesn&#8217;t exist or at least I couldn&#8217;t find it (I even searched Mozilla&#8217;s bug database for any future plans). I think my proposal is both user and developer friendly and workable. If you can think of a reason why it would be problematic, then I would really like to hear it.</p>
+<ol>
+<li id="save-bandwidth-note-1">Pages are often personalized for visitor. Developer tools of different browsers also don&#8217;t report same sizes. They also report amount of data transferred not the size of that data once unpacked. Almost 2M of Twitter&#8217;s Javascript is thus reduced into page of &#8220;only&#8221; about 1MB of data transferred. And that to display couple of sentences.<a href="#save-bandwidth-1">↩</a></li>
+<li id="save-bandwidth-note-2">Depends on browser used. Variation in sizes is probably due different formats of fonts used by browsers. It also changed once I published this post.<a href="#save-bandwidth-2">↩</a></li>
+</ol>
+			</div>
+
+			<footer class="post-metadata">
+				<ul>
+					<li>Published on <time datetime="2012-03-15T08:52:06+00:00">March 15, 2012</time></li>
+					<li><a href="http://markos.gaivo.net/blog/?p=936#comments" title="Comment on Save bandwidth switch">Add your comment</a> </li>
+				</ul>
+			</footer>
+		</article>
+	
+		<article>
+			<h1 class="storytitle"><a href="http://markos.gaivo.net/blog/?p=929" rel="bookmark">-beta- prefix algorithm for CSS</a></h1>
+
+			<div class="post-text">
+				<p>These have been eventful couple of days for web developers. CSS Working Group chair <a href="http://www.glazman.org/weblog/dotclear/index.php?post/2012/02/09/CALL-FOR-ACTION%3A-THE-OPEN-WEB-NEEDS-YOU-NOW">called on everyone </a>to use all (most?) vendor prefixes and stop making websites for WebKit which is becoming a new (mobile) IE6. Responses have been numerous, <a title="PPK's first article about prefixes" href="http://www.quirksmode.org/blog/archives/2012/02/the_vendor_pref.html">including</a> <a title="PPK's follow up to first article" href="http://www.quirksmode.org/blog/archives/2012/02/alpha_and_beta.html">ppk</a> who in his usual obnoxious manner <sup><a id="beta-prefix-1" href="#beta-prefix-note-1">[1]</a></sup> made some good points. Testing on mobile devices is an unsolved problem (who wants or can afford to buy so many almost immediately obsolete gadgets?) and introducing -beta- (maybe also -alpha-) prefix would simplify our lives while keeping most benefits of vendor prefixes.</p>
+<p>I like -beta- idea and I think adding -alpha- might be even better. There&#8217;s still a problem of resolving syntax conflicts between different implementation which I think has a simple solution that closely mimics what browsers already do:</p>
+<p><em>When parsing CSS browsers </em><em>should apply the last matching -beta-/-alpha- directive they fully understand.</em></p>
+<p>Browsers already ignore directives they don&#8217;t understand and they apply last directive found when there are multiple candidates for a DOM node.</p>
+<p>Such behavior would give us less CSS code to write and maintain, have predictable behavior and keep browser experimentation without favoring one. I have troubles finding negative sides of this approach, but do let me know if you can think of one.</p>
+<ol>
+<li id="beta-prefix-note-1">I deeply dislike his complaining about simplistic view of others while himself generalizing and name-calling (the lazy and stupid lot of us). Alas it&#8217;s not good to read only people you like and agree with.<a href="#beta-prefix-1">↩</a></li>
+<li>Almost everything I write on this blog has an intended  audience of one:  me (no, really!). Why I sometimes write posts like  this, which don&#8217;t, is a mistery  since their expected and actual effect on anyone  is&#8230;none.</li>
+</ol>
+			</div>
+
+			<footer class="post-metadata">
+				<ul>
+					<li>Published on <time datetime="2012-02-10T18:21:08+00:00">February 10, 2012</time></li>
+					<li><a href="http://markos.gaivo.net/blog/?p=929#comments" title="Comment on -beta- prefix algorithm for CSS">Add your comment</a> </li>
+				</ul>
+			</footer>
+		</article>
+	
+		<article>
+			<h1 class="storytitle"><a href="http://markos.gaivo.net/blog/?p=918" rel="bookmark">On Tumblr</a></h1>
+
+			<div class="post-text">
+				<p><strong>Warning: </strong>this whole post is not much else than a series of speculations and amateur psychoanalysis. If you can’t find fun in that, well, then start reading something else.</p>
+<p>I started using <a title="Description of IRC" href="http://en.wikipedia.org/wiki/Internet_Relay_Chat">IRC</a> almost two decades ago, soon after I came on Internet. I still do, but it’s now a very different experience mainly because today almost everyone is connected. When everyone is around, you tend to hang out largely with people you already know. Back then I chatted with faceless handles and what I found especially interesting were strong feelings and a sense of familiarity that developed between people who would never meet.</p>
+<p>I thought of this recently again while discussing appeal of <a href="https://www.tumblr.com/">Tumblr</a> and a <a title="Definition of neologism" href="http://www.merriam-webster.com/dictionary/neologism">neologism</a> that I like — tumblrcrush. It wasn’t explained, but I understand it as having a crush like feeling provoked by a Tumblr blog.</p>
+<p>I never heard of something like that related to <a href="http://wordpress.org/">WordPress</a> although I am sure it happens. But I feel safe in hypothesizing that such visceral affection for a blog and by proxy for its creator happens more often on Tumblr.</p>
+<p>Now, this is surprising on surface because so many Tumblr blogs look like nothing more than collages of other people’s stuff whereas old school blogs often have more what is disgustingly called original content and are more verbose — just like this one. It wouldn’t be unreasonable to expect that writing at length about things that interest me would reveal more about who I am then things I collect. After all I am more likely to divulge facts about me through my own writing than through other people’s work.</p>
+<p>However when I write, it’s not really me who does it. Writing, even when trying to avoid self-censorship (unsuccessfully), engages a different part of a brain than responding to an image or a passage of text. I write so I can think, but even when not, I don’t just type a <a title="Ulysses - an example of such work" href="http://en.wikipedia.org/wiki/Ulysses_%28novel%29">Joyce-like stream of consciousness</a>. I form sentences I would prefer to utter, but usually don’t.</p>
+<p>The genius of Tumblr (even with some serious interface screw-ups) is that it makes it easy to republish found stuff <em>and</em> really inviting to do it. Those pieces shared and reshared are revealing exactly because they were created by others. They never had time to be distilled and redacted closer to our self-image because they weren’t selected to represent us. Instead they are mostly curated by finder’s emotional response and its those emotions, part of finder’s subconscious (soul), that sometimes touches us.</p>
+<p>Because what does it really mean to know someone? We may admire intellect, but we relate to the person. We don’t know a person until we empathize with her and those small shared bits are conduits for feelings, not information.</p>
+<p>This doesn’t mean that you can’t write long, elaborate posts on Tumblr. Many indeed do. Just like many use WordPress to post stuff they found in some web back-alley. But it is Tumblr’s whole fun (and) social experience — unlike a serious, CMS-like sterility of WordPress — that nudges you into a different behavior. In creating we are guided by our tools with what they suggest, not what they make possible.</p>
+			</div>
+
+			<footer class="post-metadata">
+				<ul>
+					<li>Published on <time datetime="2012-02-10T13:02:41+00:00">February 10, 2012</time></li>
+					<li><a href="http://markos.gaivo.net/blog/?p=918#comments" title="Comment on On Tumblr">Add your comment</a> </li>
+				</ul>
+			</footer>
+		</article>
+		
+		<nav class="pagination">
+			<ul>
+				<li><a href="http://markos.gaivo.net/blog/?paged=8" >&laquo; Newer articles</a></li>
+				<li><a href="http://markos.gaivo.net/blog/?paged=10" >Older articles &raquo;</a></li>
+			</ul>
+		</nav>
+	</section>
+
+
+	<footer>
+		<ul>
+			<li>&copy; 2005-2015 Marko Samastur</li>
+			
+			<li><a href="http://markos.gaivo.net/blog/?feed=rss2">Entries feed</a></li>
+			<li><a href="http://markos.gaivo.net/blog/?feed=comments-rss2">Comments feed</a></li>
+		</ul>
+		<a href="/"><img src="/img/markos_light_small_bg.png" alt="logo" class="mini-logo" /></a>
+	</footer>
+	<script src="/js/jquery.js"></script>
+	<script src="/js/all.js"></script>
+	<!--script src="/mint/?js" type="text/javascript"></script-->
+
+	<!-- Google analytics -->
+	<script type="text/javascript">
+
+	  var _gaq = _gaq || [];
+	  _gaq.push(['_setAccount', 'UA-152438-1']);
+	  _gaq.push(['_trackPageview']);
+	</script>
+	<script src="/js/cookie.js"></script>
+</body>
+</html>

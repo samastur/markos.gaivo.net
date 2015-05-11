@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>A notch above a monkey &raquo; Transient nature of OpenID identities</title>
+	<meta charset="utf-8" />
+	
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" /> 
+
+	<link rel="shortcut icon" href="/img/markos.ico" />
+	
+	<meta name="generator" content="WordPress 3.0.5" /> <!-- leave this for stats please -->
+
+	<link href="http://fast.fonts.com/cssapi/aee9b60b-8e94-47f8-b586-3ecbfab51d1c.css" rel="stylesheet" type="text/css" />
+	<link rel="stylesheet" type="text/css" href="css/home.css" media="screen" title="Light theme" />
+	<link rel="alternate stylesheet" type="text/css" href="css/home_dark.css" media="screen" title="Dark theme" />
+	<link rel="stylesheet" href="css/ipad.css" media="only screen and (min-device-width : 768px) and (max-device-width : 1024px)">
+	<link rel="stylesheet" type="text/css" href="css/smallscreen.css" media="only screen and (max-width: 700px)" />
+
+	<link rel="alternate" type="application/rss+xml" title="RSS 2.0" href="http://markos.gaivo.net/blog/?feed=rss2" />
+	<link rel="alternate" type="application/atom+xml" title="Atom 1.0" href="http://markos.gaivo.net/blog/?feed=atom" />
+	<link rel='canonical' href='http://markos.gaivo.net/blog/?p=664' />
+
+	<link rel="pingback" href="http://markos.gaivo.net/blog/xmlrpc.php" />
+
+	<link rel="alternate" type="application/rss+xml" title="A notch above a monkey &raquo; Transient nature of OpenID identities Comments Feed" href="http://markos.gaivo.net/blog/?feed=rss2&amp;p=223" />
+<link rel="EditURI" type="application/rsd+xml" title="RSD" href="http://markos.gaivo.net/blog/xmlrpc.php?rsd" />
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="http://markos.gaivo.net/blog/wp-includes/wlwmanifest.xml" /> 
+<link rel='index' title='A notch above a monkey' href='http://markos.gaivo.net/blog' />
+<link rel='start' title='First post' href='http://markos.gaivo.net/blog/?p=2' />
+<link rel='prev' title='Google and OCRopus' href='http://markos.gaivo.net/blog/?p=222' />
+<link rel='next' title='Magic Ink' href='http://markos.gaivo.net/blog/?p=224' />
+<meta name="generator" content="WordPress 3.0.5" />
+<link rel='canonical' href='http://markos.gaivo.net/blog/?p=223' />
+
+	<!--[if lt IE 9]>
+	<script src="/js/html5.js"></script>
+	<![endif]-->
+</head>
+<body>
+					<header>
+		<h1><a href="/blog/">A notch above a monkey</a> &raquo; Transient nature of OpenID identities</h1>
+	</header>
+
+	<section class="envelope">
+		<article class="post">
+			<header>
+				<h1>Transient nature of OpenID identities</h1>
+			</header>
+
+			<footer>
+				<ul>
+					<li class="by">Written by: <a href="/">Marko Samastur</a></li>
+					<li class="published">Published on: <time datetime="2007-04-15T20:51:23+00:00" pubdate>April 15, 2007</time></li>
+					<li class="categories">Categories: <a href="http://markos.gaivo.net/blog/?cat=5" title="View all posts in General development" rel="category">General development</a>, <a href="http://markos.gaivo.net/blog/?cat=4" title="View all posts in Web" rel="category">Web</a></li>
+					<li class="post-comments">Comments: <a href="http://markos.gaivo.net/blog/?p=223#comments" title="Comment on Transient nature of OpenID identities">5</a></li>
+				</ul>
+			</footer>
+
+			<div class="post-text">
+				<p>I&#8217;m still a fan of OpenID, even though it lacks solid solutions to some of its problems.</p>
+<p>Much has been said about risk of phishing and possible solutions, but I&#8217;ve been more ignorant than some to a transient nature of OpenID identities. Simply put, even if you run your own server, you don&#8217;t own your domain. You just rent it. Thus you don&#8217;t really own your OpenID URL either, which makes it a rather risky tool where some sort of permanent identity is needed.</p>
+<p>There are plenty of cases where there&#8217;s no such need and OpenID is in my opinion a better solution to them than existing ones. But it isn&#8217;t good enough where something less fleeting is required. Maybe<a href="http://www.xdi.org/"> XRI/XDI</a> is a better answer?</p>
+<p>I don&#8217;t know. I&#8217;m still a fan of OpenID. It&#8217;s just a bit less useful than I first thought.</p>
+			</div>
+
+			<nav>
+				<p>If you liked this, you might want to visit:</p>
+				<ul>
+					<li>my previous article: <a href="http://markos.gaivo.net/blog/?p=222" rel="prev">Google and OCRopus</a></li>					<li>my next article: <a href="http://markos.gaivo.net/blog/?p=224" rel="next">Magic Ink</a></li>					<li><a href="/blog/">article list</a></li>
+				</ul>
+			</nav>
+
+			<h2 id="comments">Comments (5)
+			</h2>
+			<ol class="comments">
+		
+				<li id="comment-44966">
+					<article>
+						<p>I would think that unless identifiers have a cost per time associated with it (as it is for DNS domains), it would lead to extreme identifier hoarding, and thus a system built on such identifiers would be infeasible in practice because all &#8220;good&#8221; identifiers would be owned and unused. (Unless identifiers were non-human-readable, which would have other problems). That would apply to all identifier-based systems (OpenID URLs, XRI/i-names and all current and future alternatives.)</p>
+<p>In the longer term, I think people will get around to the idea we pioneered in <a href="http://lid.netmesh.org/">LID</a> to associate a public key with each identifier which could be taken to a new identifier. That public key could be your less fleeting identifier.</p>
+						<footer>
+							<cite>Comment by <a href='http://netmesh.info/jernst' rel='external nofollow' class='url'>Johannes Ernst</a> &#8212; <time datetime="2007-04-15T22:27:29+00:00">April 15, 2007 @ 10:27 pm</time> <a href="#comment-44966">#</a> </cite>
+						</footer>
+					</article>
+				</li>
+		
+				<li id="comment-44977">
+					<article>
+						<p>OpenID hoarding is an interesting problem. I don&#8217;t actually use OpenID, but the idea that someone else might use my name in their identifier doesn&#8217;t thrill me. I can see how this would lead to a proliferation of sign-up-just-to-get-the-name.</p>
+<p>I work in web development, every time a client wants to start an online business, I make sure they get all the domains plus the standard company@gmail, hotmail, yahoo etc.</p>
+<p>Now we need to add OpenID identifiers to that list too.</p>
+						<footer>
+							<cite>Comment by <a href='https://www.passpack.com' rel='external nofollow' class='url'>Tara Kelly</a> &#8212; <time datetime="2007-04-15T23:24:57+00:00">April 15, 2007 @ 11:24 pm</time> <a href="#comment-44977">#</a> </cite>
+						</footer>
+					</article>
+				</li>
+		
+				<li id="comment-45056">
+					<article>
+						<p>@Johannes: Thanks, I wasn&#8217;t aware of LID. I believe XDI may have a similar idea in having i-name number, a permanent your only identifier and i-name name, which can be transferred, that points to the number.</p>
+<p>I don&#8217;t think cost per time prevents identifier hoarding and I&#8217;m also sceptical that XRI&#8217;s flexibility will do it. I&#8217;m doubtful that problem is reall solvable until namescape is not more or less uniformaly (un)appealing.</p>
+<p>@Tara: You don&#8217;t really need to do this. You can use client&#8217;s URL as their OpenID and delegate real authentication to whichever provider you best like (at the moment). True, people are still free to do create OpenIDs with your name on other providers, but the same is true for email right now as well.</p>
+						<footer>
+							<cite>Comment by <a href='http://markos.gaivo.net' rel='external nofollow' class='url'>markos</a> &#8212; <time datetime="2007-04-16T11:50:47+00:00">April 16, 2007 @ 11:50 am</time> <a href="#comment-45056">#</a> </cite>
+						</footer>
+					</article>
+				</li>
+		
+				<li id="comment-45144">
+					<article>
+						<p>XRI will be supported by OpenID 2.0 specs which should solve the problem with the domains..</p>
+						<footer>
+							<cite>Comment by <a href='http://trepca.si/blog' rel='external nofollow' class='url'>Sebastjan</a> &#8212; <time datetime="2007-04-17T00:22:05+00:00">April 17, 2007 @ 12:22 am</time> <a href="#comment-45144">#</a> </cite>
+						</footer>
+					</article>
+				</li>
+		
+				<li id="comment-45287">
+					<article>
+						<p>@Marcos: Thanks. I agree, it&#8217;s the same problem with emails &#8211; every time a client registers a domain or starts a business, they have to try and lock down that name at the various freemail providers. That&#8217;s my point, now they&#8217;ll have to run through the motions for the free OpenID providers too.</p>
+						<footer>
+							<cite>Comment by <a href='https://www.passpack.com' rel='external nofollow' class='url'>Tara Kelly</a> &#8212; <time datetime="2007-04-17T22:27:29+00:00">April 17, 2007 @ 10:27 pm</time> <a href="#comment-45287">#</a> </cite>
+						</footer>
+					</article>
+				</li>
+		
+			</ol>
+
+
+		<p>Sorry, the comment form is closed at this time.</p>
+
+		</article>
+	</section>
+			<!-- All pages -->
+	
+
+	<footer>
+		<ul>
+			<li>&copy; 2005-2015 Marko Samastur</li>
+			
+			<li><a href="http://markos.gaivo.net/blog/?feed=rss2">Entries feed</a></li>
+			<li><a href="http://markos.gaivo.net/blog/?feed=comments-rss2">Comments feed</a></li>
+		</ul>
+		<a href="/"><img src="/img/markos_light_small_bg.png" alt="logo" class="mini-logo" /></a>
+	</footer>
+	<!-- Google analytics -->
+	<script type="text/javascript">
+	  var _gaq = _gaq || [];
+	  _gaq.push(['_setAccount', 'UA-152438-1']);
+	  _gaq.push(['_trackPageview']);
+	</script>
+	<script src="/js/cookie.js"></script>
+</body>
+</html>

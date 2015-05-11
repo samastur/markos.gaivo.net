@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+		>
+<channel>
+	<title>Comments on: Auto-grow TEXTAREA</title>
+	<atom:link href="http://markos.gaivo.net/blog/?feed=rss2&#038;p=198" rel="self" type="application/rss+xml" />
+	<link>http://markos.gaivo.net/blog/?p=198</link>
+	<description></description>
+	<lastBuildDate>Wed, 16 Jul 2014 16:04:38 +0000</lastBuildDate>
+	<sy:updatePeriod>hourly</sy:updatePeriod>
+	<sy:updateFrequency>1</sy:updateFrequency>
+	<generator>http://wordpress.org/?v=3.0.5</generator>
+	<item>
+		<title>By: kiramat</title>
+		<link>http://markos.gaivo.net/blog/?p=198&#038;cpage=1#comment-264273</link>
+		<dc:creator>kiramat</dc:creator>
+		<pubDate>Wed, 05 Sep 2012 11:25:31 +0000</pubDate>
+		<guid isPermaLink="false">http://markos.gaivo.net/blog/?p=198#comment-264273</guid>
+		<description>handy code, ThanKu @ Michael McNally</description>
+		<content:encoded><![CDATA[<p>handy code, ThanKu @ Michael McNally</p>
+]]></content:encoded>
+	</item>
+	<item>
+		<title>By: JianXie</title>
+		<link>http://markos.gaivo.net/blog/?p=198&#038;cpage=1#comment-227317</link>
+		<dc:creator>JianXie</dc:creator>
+		<pubDate>Fri, 04 Mar 2011 03:52:32 +0000</pubDate>
+		<guid isPermaLink="false">http://markos.gaivo.net/blog/?p=198#comment-227317</guid>
+		<description>can&#039;t see the code!
+@_@..
+&lt;textarea onpropertychange=&quot;this.style.height = this.scrollHeight + &#039;px&#039;;&quot; oninput=&quot;this.style.height = &#039;&#039;;this.style.height = this.scrollHeight + &#039;px&#039;;&quot;&gt;&lt;&#8260;textarea&gt;</description>
+		<content:encoded><![CDATA[<p>can&#8217;t see the code!<br />
+@_@..<br />
+&lt;textarea onpropertychange=&#8221;this.style.height = this.scrollHeight + &#8216;px&#8217;;&#8221; oninput=&#8221;this.style.height = &#8221;;this.style.height = this.scrollHeight + &#8216;px&#8217;;&#8221;&gt;&lt;&frasl;textarea&gt;</p>
+]]></content:encoded>
+	</item>
+	<item>
+		<title>By: JianXie</title>
+		<link>http://markos.gaivo.net/blog/?p=198&#038;cpage=1#comment-227316</link>
+		<dc:creator>JianXie</dc:creator>
+		<pubDate>Fri, 04 Mar 2011 03:48:40 +0000</pubDate>
+		<guid isPermaLink="false">http://markos.gaivo.net/blog/?p=198#comment-227316</guid>
+		<description>it can fix just by CSS.
+here&#039;s my code.i thought it up 20 minutes ago.:p
+
+
+
+&quot;this.style.height = &#039;&#039;&quot; this is the most important part. it fixed the Firefox browser&#039;s bug.
+
+CSS: overflow:hidden;
+     width:XXXpx;
+enjoy it~:D</description>
+		<content:encoded><![CDATA[<p>it can fix just by CSS.<br />
+here&#8217;s my code.i thought it up 20 minutes ago.:p</p>
+<p>&#8220;this.style.height = &#8221;&#8221; this is the most important part. it fixed the Firefox browser&#8217;s bug.</p>
+<p>CSS: overflow:hidden;<br />
+     width:XXXpx;<br />
+enjoy it~:D</p>
+]]></content:encoded>
+	</item>
+	<item>
+		<title>By: StaTools</title>
+		<link>http://markos.gaivo.net/blog/?p=198&#038;cpage=1#comment-219061</link>
+		<dc:creator>StaTools</dc:creator>
+		<pubDate>Tue, 26 Oct 2010 05:38:16 +0000</pubDate>
+		<guid isPermaLink="false">http://markos.gaivo.net/blog/?p=198#comment-219061</guid>
+		<description>Another solution to get it work is creating a hidden div with same styles, and on each keyup - replace \n with  (and quote ) in text, put it in that div box and get it&#039;s height.</description>
+		<content:encoded><![CDATA[<p>Another solution to get it work is creating a hidden div with same styles, and on each keyup &#8211; replace \n with  (and quote ) in text, put it in that div box and get it&#8217;s height.</p>
+]]></content:encoded>
+	</item>
+	<item>
+		<title>By: Moduli, di tutto di pi? &#8212; Studio404 Web Agency</title>
+		<link>http://markos.gaivo.net/blog/?p=198&#038;cpage=1#comment-211237</link>
+		<dc:creator>Moduli, di tutto di pi? &#8212; Studio404 Web Agency</dc:creator>
+		<pubDate>Sat, 24 Apr 2010 10:59:16 +0000</pubDate>
+		<guid isPermaLink="false">http://markos.gaivo.net/blog/?p=198#comment-211237</guid>
+		<description>[...] Auto-grow TEXTAREA (jQuery) [...]</description>
+		<content:encoded><![CDATA[<p>[...] Auto-grow TEXTAREA (jQuery) [...]</p>
+]]></content:encoded>
+	</item>
+	<item>
+		<title>By: 9 script e risorse Facebook per il proprio sito &#8212; Studio404 Web Agency</title>
+		<link>http://markos.gaivo.net/blog/?p=198&#038;cpage=1#comment-207233</link>
+		<dc:creator>9 script e risorse Facebook per il proprio sito &#8212; Studio404 Web Agency</dc:creator>
+		<pubDate>Sun, 31 Jan 2010 13:12:12 +0000</pubDate>
+		<guid isPermaLink="false">http://markos.gaivo.net/blog/?p=198#comment-207233</guid>
+		<description>[...] Auto-grow TEXTAREA (jQuery) [...]</description>
+		<content:encoded><![CDATA[<p>[...] Auto-grow TEXTAREA (jQuery) [...]</p>
+]]></content:encoded>
+	</item>
+	<item>
+		<title>By: Abe</title>
+		<link>http://markos.gaivo.net/blog/?p=198&#038;cpage=1#comment-206796</link>
+		<dc:creator>Abe</dc:creator>
+		<pubDate>Fri, 15 Jan 2010 17:15:59 +0000</pubDate>
+		<guid isPermaLink="false">http://markos.gaivo.net/blog/?p=198#comment-206796</guid>
+		<description>lost the text area :(
+&lt;textarea onkeyup= &quot;growTextArea(this);&quot; onclick= &quot;growTextArea(this);&quot; onblur= &quot;this.rows=1;&quot;&gt;your text here&lt;/textarea&gt;</description>
+		<content:encoded><![CDATA[<p>lost the text area <img src='http://markos.gaivo.net/blog/wp-includes/images/smilies/icon_sad.gif' alt=':(' class='wp-smiley' /><br />
+&lt;textarea onkeyup= &#8220;growTextArea(this);&#8221; onclick= &#8220;growTextArea(this);&#8221; onblur= &#8220;this.rows=1;&#8221;&gt;your text here&lt;/textarea&gt;</p>
+]]></content:encoded>
+	</item>
+	<item>
+		<title>By: Abe</title>
+		<link>http://markos.gaivo.net/blog/?p=198&#038;cpage=1#comment-206795</link>
+		<dc:creator>Abe</dc:creator>
+		<pubDate>Fri, 15 Jan 2010 17:14:27 +0000</pubDate>
+		<guid isPermaLink="false">http://markos.gaivo.net/blog/?p=198#comment-206795</guid>
+		<description>change the function to use while instead of if ... works like a charm.
+//Auto grows / shrinks a text area based on size of input text
+function growTextArea(obj) {
+    while (obj.scrollHeight &gt; obj.clientHeight) {
+        obj.rows += 1;
+    }
+
+    while (obj.clientHeight &gt; obj.scrollHeight) {
+        obj.rows -= 1;
+    }
+}
+
+your text here</description>
+		<content:encoded><![CDATA[<p>change the function to use while instead of if &#8230; works like a charm.<br />
+//Auto grows / shrinks a text area based on size of input text<br />
+function growTextArea(obj) {<br />
+    while (obj.scrollHeight &gt; obj.clientHeight) {<br />
+        obj.rows += 1;<br />
+    }</p>
+<p>    while (obj.clientHeight &gt; obj.scrollHeight) {<br />
+        obj.rows -= 1;<br />
+    }<br />
+}</p>
+<p>your text here</p>
+]]></content:encoded>
+	</item>
+	<item>
+		<title>By: markos</title>
+		<link>http://markos.gaivo.net/blog/?p=198&#038;cpage=1#comment-199764</link>
+		<dc:creator>markos</dc:creator>
+		<pubDate>Thu, 06 Aug 2009 17:01:12 +0000</pubDate>
+		<guid isPermaLink="false">http://markos.gaivo.net/blog/?p=198#comment-199764</guid>
+		<description>I&#039;m glad to see increased interest in this old post and there were many suggestions, some of which don&#039;t work too well in practice.
+
+Hence I wrote a second version of script, which I tested on IE7, FF3, Opera10 and Safari4, incorporating ideas from comments.
+
+You can find and test it &lt;a href=&quot;http://markos.gaivo.net/examples/growtextarea/grow.html&quot; rel=&quot;nofollow&quot;&gt;here&lt;/a&gt;.
+
+I&#039;ve made few changes. Textarea should now not only grow, but also shrink and should work fine even if text as been pasted into it.
+
+I would also like to call attention to another change I did, which is that new function returns an event handler for mouseup and is not a handler function as such.
+
+To use you have to instantiate it like I did in example. You can provide a row limit under which it won&#039;t shrink, which is 5 by default.
+
+Hopefully you&#039;ll find this version of script more useful.</description>
+		<content:encoded><![CDATA[<p>I&#8217;m glad to see increased interest in this old post and there were many suggestions, some of which don&#8217;t work too well in practice.</p>
+<p>Hence I wrote a second version of script, which I tested on IE7, FF3, Opera10 and Safari4, incorporating ideas from comments.</p>
+<p>You can find and test it <a href="http://markos.gaivo.net/examples/growtextarea/grow.html">here</a>.</p>
+<p>I&#8217;ve made few changes. Textarea should now not only grow, but also shrink and should work fine even if text as been pasted into it.</p>
+<p>I would also like to call attention to another change I did, which is that new function returns an event handler for mouseup and is not a handler function as such.</p>
+<p>To use you have to instantiate it like I did in example. You can provide a row limit under which it won&#8217;t shrink, which is 5 by default.</p>
+<p>Hopefully you&#8217;ll find this version of script more useful.</p>
+]]></content:encoded>
+	</item>
+	<item>
+		<title>By: Sandy</title>
+		<link>http://markos.gaivo.net/blog/?p=198&#038;cpage=1#comment-199673</link>
+		<dc:creator>Sandy</dc:creator>
+		<pubDate>Wed, 05 Aug 2009 17:13:43 +0000</pubDate>
+		<guid isPermaLink="false">http://markos.gaivo.net/blog/?p=198#comment-199673</guid>
+		<description>Thank you for the post!! It is very helpful. 
+I tested the enhancement that said Kieran Delaneu (to shrink the textarea), it worked in explorer but not in firefox. Do anyone know why? Thanks in advance!!</description>
+		<content:encoded><![CDATA[<p>Thank you for the post!! It is very helpful.<br />
+I tested the enhancement that said Kieran Delaneu (to shrink the textarea), it worked in explorer but not in firefox. Do anyone know why? Thanks in advance!!</p>
+]]></content:encoded>
+	</item>
+</channel>
+</rss>

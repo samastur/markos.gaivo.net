@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+		>
+<channel>
+	<title>Comments on: No language feature is optional</title>
+	<atom:link href="http://markos.gaivo.net/blog/?feed=rss2&#038;p=27" rel="self" type="application/rss+xml" />
+	<link>http://markos.gaivo.net/blog/?p=27</link>
+	<description></description>
+	<lastBuildDate>Wed, 16 Jul 2014 16:04:38 +0000</lastBuildDate>
+	<sy:updatePeriod>hourly</sy:updatePeriod>
+	<sy:updateFrequency>1</sy:updateFrequency>
+	<generator>http://wordpress.org/?v=3.0.5</generator>
+	<item>
+		<title>By: Yair</title>
+		<link>http://markos.gaivo.net/blog/?p=27&#038;cpage=1#comment-26</link>
+		<dc:creator>Yair</dc:creator>
+		<pubDate>Sat, 24 Sep 2005 20:30:07 +0000</pubDate>
+		<guid isPermaLink="false">http://markos.gaivo.net/blog/?p=27#comment-26</guid>
+		<description>About multicores and processes - I think that at least for intel&#039;s hyperthreads technology the multicore only works for threads. That&#039;s because all the cores share the same virtual memory page table - which processes do not share while threads do.</description>
+		<content:encoded><![CDATA[<p>About multicores and processes &#8211; I think that at least for intel&#8217;s hyperthreads technology the multicore only works for threads. That&#8217;s because all the cores share the same virtual memory page table &#8211; which processes do not share while threads do.</p>
+]]></content:encoded>
+	</item>
+	<item>
+		<title>By: John Withers</title>
+		<link>http://markos.gaivo.net/blog/?p=27&#038;cpage=1#comment-22</link>
+		<dc:creator>John Withers</dc:creator>
+		<pubDate>Thu, 22 Sep 2005 19:30:37 +0000</pubDate>
+		<guid isPermaLink="false">http://markos.gaivo.net/blog/?p=27#comment-22</guid>
+		<description>Ian, I would agree with you, if it weren&#039;t that Guido and a lot of other people keep trumpeting the *optional* nature of upcoming typechecking. About every third word in the posts on the topic, including Guido&#039;s, seems to be optional, presumably to deflect the ire and attention of people like myself who between type checking and interfaces are wondering why we stopped using Java as our primary language.</description>
+		<content:encoded><![CDATA[<p>Ian, I would agree with you, if it weren&#8217;t that Guido and a lot of other people keep trumpeting the *optional* nature of upcoming typechecking. About every third word in the posts on the topic, including Guido&#8217;s, seems to be optional, presumably to deflect the ire and attention of people like myself who between type checking and interfaces are wondering why we stopped using Java as our primary language.</p>
+]]></content:encoded>
+	</item>
+	<item>
+		<title>By: is not BDFL</title>
+		<link>http://markos.gaivo.net/blog/?p=27&#038;cpage=1#comment-21</link>
+		<dc:creator>is not BDFL</dc:creator>
+		<pubDate>Thu, 22 Sep 2005 18:06:53 +0000</pubDate>
+		<guid isPermaLink="false">http://markos.gaivo.net/blog/?p=27#comment-21</guid>
+		<description>One of the few things that bothers me about Python: community excuses for Python weaknesses.
+
+The Free Lunch Is Over: A Fundamental Turn Toward Concurrency in Software
+http://www.gotw.ca/publications/concurrency-ddj.htm</description>
+		<content:encoded><![CDATA[<p>One of the few things that bothers me about Python: community excuses for Python weaknesses.</p>
+<p>The Free Lunch Is Over: A Fundamental Turn Toward Concurrency in Software<br />
+<a href="http://www.gotw.ca/publications/concurrency-ddj.htm">http://www.gotw.ca/publications/concurrency-ddj.htm</a></p>
+]]></content:encoded>
+	</item>
+	<item>
+		<title>By: Rene Dudfield</title>
+		<link>http://markos.gaivo.net/blog/?p=27&#038;cpage=1#comment-20</link>
+		<dc:creator>Rene Dudfield</dc:creator>
+		<pubDate>Thu, 22 Sep 2005 07:15:58 +0000</pubDate>
+		<guid isPermaLink="false">http://markos.gaivo.net/blog/?p=27#comment-20</guid>
+		<description>If you have speed critical bits which run in C you can tell the GIL not to lock for your speed critical bit in C.
+
+Multiple processes are also good for multiple processors, and multiple cores to get high CPU usage.  Async, and events are usually better performant for IO compared to threads too.
+
+So in practice the GIL doesn&#039;t really matter for performance, and makes our lives safer, and simpler.
+
+ps. Did you know that threads in linux are just processes?  Check out the clone man page.</description>
+		<content:encoded><![CDATA[<p>If you have speed critical bits which run in C you can tell the GIL not to lock for your speed critical bit in C.</p>
+<p>Multiple processes are also good for multiple processors, and multiple cores to get high CPU usage.  Async, and events are usually better performant for IO compared to threads too.</p>
+<p>So in practice the GIL doesn&#8217;t really matter for performance, and makes our lives safer, and simpler.</p>
+<p>ps. Did you know that threads in linux are just processes?  Check out the clone man page.</p>
+]]></content:encoded>
+	</item>
+	<item>
+		<title>By: Ian Bicking</title>
+		<link>http://markos.gaivo.net/blog/?p=27&#038;cpage=1#comment-19</link>
+		<dc:creator>Ian Bicking</dc:creator>
+		<pubDate>Wed, 21 Sep 2005 17:14:42 +0000</pubDate>
+		<guid isPermaLink="false">http://markos.gaivo.net/blog/?p=27#comment-19</guid>
+		<description>I actually think Python development really follows this principle (no optional features) more than others (e.g., Ruby, Perl, PHP).  It&#039;s not to say that some people say &quot;if you don&#039;t like it, don&#039;t use it&quot;, but that&#039;s not something Guido says, and I don&#039;t believe that&#039;s a sentiment that takes place when the design is really happening.  And, for example, if-else conditions were kept out largely because -- though they could sometimes be nice, and some people liked them -- they didn&#039;t seem right for everyone all the time.
+
+I could go on at length about the benefit of decorators, though I&#039;ll admit in some ways the mechanics overshadow the concept itself -- but really the mechanics are pleasantly simple enough that it&#039;s okay.  But I think we shouldn&#039;t go overboard and worship the altar of simplicity -- people have been obsessing lately over what we can remove from __builtins__, and for what?  Some Schemy aesthetic that says small is beautiful.  Big isn&#039;t beautiful, but beauty is a little more subtle than size.</description>
+		<content:encoded><![CDATA[<p>I actually think Python development really follows this principle (no optional features) more than others (e.g., Ruby, Perl, PHP).  It&#8217;s not to say that some people say &#8220;if you don&#8217;t like it, don&#8217;t use it&#8221;, but that&#8217;s not something Guido says, and I don&#8217;t believe that&#8217;s a sentiment that takes place when the design is really happening.  And, for example, if-else conditions were kept out largely because &#8212; though they could sometimes be nice, and some people liked them &#8212; they didn&#8217;t seem right for everyone all the time.</p>
+<p>I could go on at length about the benefit of decorators, though I&#8217;ll admit in some ways the mechanics overshadow the concept itself &#8212; but really the mechanics are pleasantly simple enough that it&#8217;s okay.  But I think we shouldn&#8217;t go overboard and worship the altar of simplicity &#8212; people have been obsessing lately over what we can remove from __builtins__, and for what?  Some Schemy aesthetic that says small is beautiful.  Big isn&#8217;t beautiful, but beauty is a little more subtle than size.</p>
+]]></content:encoded>
+	</item>
+	<item>
+		<title>By: markos</title>
+		<link>http://markos.gaivo.net/blog/?p=27&#038;cpage=1#comment-18</link>
+		<dc:creator>markos</dc:creator>
+		<pubDate>Wed, 21 Sep 2005 16:01:16 +0000</pubDate>
+		<guid isPermaLink="false">http://markos.gaivo.net/blog/?p=27#comment-18</guid>
+		<description>Boy, I&#039;ve never imagined that my post would provoke such a response.
+
+I&#039;ve certainly been ignorant when it comes to GIL&#039;s role in development of extension modules. From that perspective GIL might not be so bad, although I think it made more sense when multiproc multicore machines weren&#039;t so cheap and widely used.
+
+I&#039;m not a threads fan, but I do recognize that they are used, sometimes even with obvious speed advantage (apache) and Python integration with such codebase often leaves something to be desired.
+
+Also true is that I&#039;m not the right person to complain since I haven&#039;t provided a patch to fix GIL or anything of the sort, but then again, I thought my post was mainly about optionality of features.
+
+P.S: Thanks for links. They&#039;ve certainly expanded my horizons.</description>
+		<content:encoded><![CDATA[<p>Boy, I&#8217;ve never imagined that my post would provoke such a response.</p>
+<p>I&#8217;ve certainly been ignorant when it comes to GIL&#8217;s role in development of extension modules. From that perspective GIL might not be so bad, although I think it made more sense when multiproc multicore machines weren&#8217;t so cheap and widely used.</p>
+<p>I&#8217;m not a threads fan, but I do recognize that they are used, sometimes even with obvious speed advantage (apache) and Python integration with such codebase often leaves something to be desired.</p>
+<p>Also true is that I&#8217;m not the right person to complain since I haven&#8217;t provided a patch to fix GIL or anything of the sort, but then again, I thought my post was mainly about optionality of features.</p>
+<p>P.S: Thanks for links. They&#8217;ve certainly expanded my horizons.</p>
+]]></content:encoded>
+	</item>
+	<item>
+		<title>By: Phillip J. Eby</title>
+		<link>http://markos.gaivo.net/blog/?p=27&#038;cpage=1#comment-17</link>
+		<dc:creator>Phillip J. Eby</dc:creator>
+		<pubDate>Wed, 21 Sep 2005 15:44:57 +0000</pubDate>
+		<guid isPermaLink="false">http://markos.gaivo.net/blog/?p=27#comment-17</guid>
+		<description>&quot;&quot;&quot;Wouldn’t it be better if we worked on removing that disgrace?&quot;&quot;&quot;
+
+Sure.  You first.  :)  Or, as Guido recently said on Python-Dev:
+
+&quot;&quot;&quot;Talk is cheap; instead of arguing my
+points (all of which can be argued ad infinitum), come back when
+you&#039;ve got a working GIL-free Python. Doesn&#039;t have to be CPython-based
+-- C# would be fine too.&quot;&quot;&quot;</description>
+		<content:encoded><![CDATA[<p>&#8220;&#8221;"Wouldn’t it be better if we worked on removing that disgrace?&#8221;"&#8221;</p>
+<p>Sure.  You first.  <img src='http://markos.gaivo.net/blog/wp-includes/images/smilies/icon_smile.gif' alt=':)' class='wp-smiley' />   Or, as Guido recently said on Python-Dev:</p>
+<p>&#8220;&#8221;"Talk is cheap; instead of arguing my<br />
+points (all of which can be argued ad infinitum), come back when<br />
+you&#8217;ve got a working GIL-free Python. Doesn&#8217;t have to be CPython-based<br />
+&#8211; C# would be fine too.&#8221;"&#8221;</p>
+]]></content:encoded>
+	</item>
+	<item>
+		<title>By: Jonathan LaCour</title>
+		<link>http://markos.gaivo.net/blog/?p=27&#038;cpage=1#comment-16</link>
+		<dc:creator>Jonathan LaCour</dc:creator>
+		<pubDate>Wed, 21 Sep 2005 14:03:01 +0000</pubDate>
+		<guid isPermaLink="false">http://markos.gaivo.net/blog/?p=27#comment-16</guid>
+		<description>I agree with you in some sense, but I think Guido is stemming the tide of convenience features, and is starting to add things that are genuinely useful, like PEP&#039;s 342 and 343.
+
+Why are you complaining about the GIL?  Is the convenience of writing extension modules too much for you?  Would you like to make it much more complex?  Are you enamored by threads?
+
+I posted about this just the other day: http://cleverdevil.org/computing/30</description>
+		<content:encoded><![CDATA[<p>I agree with you in some sense, but I think Guido is stemming the tide of convenience features, and is starting to add things that are genuinely useful, like PEP&#8217;s 342 and 343.</p>
+<p>Why are you complaining about the GIL?  Is the convenience of writing extension modules too much for you?  Would you like to make it much more complex?  Are you enamored by threads?</p>
+<p>I posted about this just the other day: <a href="http://cleverdevil.org/computing/30">http://cleverdevil.org/computing/30</a></p>
+]]></content:encoded>
+	</item>
+	<item>
+		<title>By: mrevelle</title>
+		<link>http://markos.gaivo.net/blog/?p=27&#038;cpage=1#comment-15</link>
+		<dc:creator>mrevelle</dc:creator>
+		<pubDate>Wed, 21 Sep 2005 12:29:39 +0000</pubDate>
+		<guid isPermaLink="false">http://markos.gaivo.net/blog/?p=27#comment-15</guid>
+		<description>markos,
+Check out the motivation (http://www.python.org/peps/pep-0318.html#motivation) for decorators if you haven&#039;t already.  That might help see how they can improve readability.  
+
+I hear you about simplicity and concern of where Python is heading.  A good example is the use of anonymous code blocks in Ruby compared to their use in Python.  Ruby has a general syntax that can be applied to solve different problems, Python has a different syntax for each problem set.  Think list comprehension syntax vs. the proposed &#039;with EXPR as VAR: BLOCK&#039; syntax for automatic resource cleanup.</description>
+		<content:encoded><![CDATA[<p>markos,<br />
+Check out the motivation (<a href="http://www.python.org/peps/pep-0318.html#motivation">http://www.python.org/peps/pep-0318.html#motivation</a>) for decorators if you haven&#8217;t already.  That might help see how they can improve readability.  </p>
+<p>I hear you about simplicity and concern of where Python is heading.  A good example is the use of anonymous code blocks in Ruby compared to their use in Python.  Ruby has a general syntax that can be applied to solve different problems, Python has a different syntax for each problem set.  Think list comprehension syntax vs. the proposed &#8216;with EXPR as VAR: BLOCK&#8217; syntax for automatic resource cleanup.</p>
+]]></content:encoded>
+	</item>
+	<item>
+		<title>By: deelan</title>
+		<link>http://markos.gaivo.net/blog/?p=27&#038;cpage=1#comment-14</link>
+		<dc:creator>deelan</dc:creator>
+		<pubDate>Wed, 21 Sep 2005 12:24:12 +0000</pubDate>
+		<guid isPermaLink="false">http://markos.gaivo.net/blog/?p=27#comment-14</guid>
+		<description>I&#039;m a Python-head myself (since 2 years or so) and I tend to agree with your observations. Also keep in mind that for Python 3 some cruft will be removed, I&#039;m very happy about that.
+
+Recently I&#039;ve started to read more about Smalltalk and if you are looking for language minimalism and extensibility and the same time take a look at it. The smalltalkers write statements like ifS and whileS with methods and blocks. 
+
+&#039;&#039;Isn’t it amazing that after all these years, we still have a global interpreter lock? Wouldn’t it be better if we worked on removing that disgrace?&#039;&#039;
+
+They are talking *again* about the GIL right now on python-dev list. 
+
+-- deelan</description>
+		<content:encoded><![CDATA[<p>I&#8217;m a Python-head myself (since 2 years or so) and I tend to agree with your observations. Also keep in mind that for Python 3 some cruft will be removed, I&#8217;m very happy about that.</p>
+<p>Recently I&#8217;ve started to read more about Smalltalk and if you are looking for language minimalism and extensibility and the same time take a look at it. The smalltalkers write statements like ifS and whileS with methods and blocks. </p>
+<p>&#8221;Isn’t it amazing that after all these years, we still have a global interpreter lock? Wouldn’t it be better if we worked on removing that disgrace?&#8221;</p>
+<p>They are talking *again* about the GIL right now on python-dev list. </p>
+<p>&#8211; deelan</p>
+]]></content:encoded>
+	</item>
+</channel>
+</rss>

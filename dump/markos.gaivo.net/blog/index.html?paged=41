@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>A notch above a monkey</title>
+	<meta charset="utf-8" />
+	
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" /> 
+
+	<link rel="shortcut icon" href="/img/markos.ico" />
+	
+	<meta name="generator" content="WordPress 3.0.5" /> <!-- leave this for stats please -->
+
+	<link href="http://fast.fonts.com/cssapi/aee9b60b-8e94-47f8-b586-3ecbfab51d1c.css" rel="stylesheet" type="text/css" />
+	<link rel="stylesheet" type="text/css" href="css/home.css" media="screen" title="Light theme" />
+	<link rel="alternate stylesheet" type="text/css" href="css/home_dark.css" media="screen" title="Dark theme" />
+	<link rel="stylesheet" href="css/ipad.css" media="only screen and (min-device-width : 768px) and (max-device-width : 1024px)">
+	<link rel="stylesheet" type="text/css" href="css/smallscreen.css" media="only screen and (max-width: 700px)" />
+
+	<link rel="alternate" type="application/rss+xml" title="RSS 2.0" href="http://markos.gaivo.net/blog/?feed=rss2" />
+	<link rel="alternate" type="application/atom+xml" title="Atom 1.0" href="http://markos.gaivo.net/blog/?feed=atom" />
+	<link rel='canonical' href='http://markos.gaivo.net/blog/?p=664' />
+
+	<link rel="pingback" href="http://markos.gaivo.net/blog/xmlrpc.php" />
+
+	<link rel="EditURI" type="application/rsd+xml" title="RSD" href="http://markos.gaivo.net/blog/xmlrpc.php?rsd" />
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="http://markos.gaivo.net/blog/wp-includes/wlwmanifest.xml" /> 
+<link rel='index' title='A notch above a monkey' href='http://markos.gaivo.net/blog' />
+<meta name="generator" content="WordPress 3.0.5" />
+
+	<!--[if lt IE 9]>
+	<script src="/js/html5.js"></script>
+	<![endif]-->
+</head>
+<body>
+	<section class="envelope posts">
+		<header>
+			<h1><a href="http://markos.gaivo.net/blog/">A notch above a monkey</a></h1>
+		</header>
+		<nav class="colophon">
+			<h1>By Marko Samastur</h1>
+			<ul>
+				<li><a href="/">About me</a></li>
+				<li><a href="http://markos.gaivo.net/blog/?feed=atom">Subscribe</a></li>
+			</ul>
+		</nav>
+
+	
+		<article>
+			<h1 class="storytitle"><a href="http://markos.gaivo.net/blog/?p=219" rel="bookmark">Looking for Simon Willison</a></h1>
+
+			<div class="post-text">
+				<p>Dear  <a href="http://simonwillison.net/">Simon,</a></p>
+<p>If you&#8217;re reading this, then Technorati trick has worked. Thanks <a href="http://www.friedcellcollective.net/outbreak/">Fry</a> and hooray for modern tools. If you&#8217;re not Simon, then you&#8217;re lost. Sorry.</p>
+<p>I&#8217;ve sent you a couple of emails since our conversation at FOWA and they didn&#8217;t seem to reach you. Probably just stuck in a spam filter as I refuse to believe they are being ignored.</p>
+<p>So could you please <a href="http://markos.gaivo.net/">contact me</a> instead and let me know how to reach you? Any method, even hand written letters, is fine by me.</p>
+<p>Thanks.</p>
+<p style="text-indent:20pt;">Marko</p>
+			</div>
+
+			<footer class="post-metadata">
+				<ul>
+					<li>Published on <time datetime="2007-03-07T11:01:32+00:00">March 7, 2007</time></li>
+					<li><a href="http://markos.gaivo.net/blog/?p=219#comments" title="Comment on Looking for Simon Willison">Add your comment</a> </li>
+				</ul>
+			</footer>
+		</article>
+	
+		<article>
+			<h1 class="storytitle"><a href="http://markos.gaivo.net/blog/?p=218" rel="bookmark">Problem with public javascript hosting</a></h1>
+
+			<div class="post-text">
+				<p>Yahoo recently <a href="http://yuiblog.com/blog/2007/02/22/free-yui-hosting/">announced</a> free public hosting of YUI library, just like AOL <a href="http://blog.dojotoolkit.org/2006/01/30/dojo-iamalpha-and-cdns">did</a> a while ago for Dojo toolkit. A great move. You don&#8217;t have to pay bandwidth for hosting YUI and there&#8217;s a better likelihood that scripts will already be in visitors browser cache, since some other previously visited page might have used them too.</p>
+<p>However there&#8217;s a real downside to it. What happens if Yahoo servers are unaccessible or connection to them is just slow?</p>
+<p>If you&#8217;re lucky, then its former and the page will be rendered quickly but with some (javascript) functionality missing. If later, then it might take forever to render a page since modern browsers can&#8217;t and won&#8217;t do it until all javascript has been loaded.</p>
+<p>This might seem an unlikely scenario, unless you&#8217;ve been around the last time when access problems to Google Analytics stopped displaying a large part of slovenian web, least important of which being this very blog. Yahoo is not stupid, but neither is Google and problem can literally appear anywhere between their servers and your visitors computer.</p>
+<p>So what can be done if this possibility is not acceptable to you, but you&#8217;d still want to use free hosting?</p>
+<p>Nothing pretty it seems. The only thing that I can think of is to add local links to yui, put them together with Yahoo links at the bottom of the page and trigger Javascript when content has been loaded. Then you only have to wait for YUI objects to appear before you start processing your scripts.</p>
+<p>This way you can probably avoid crippled or blank pages, but you&#8217;re still paying for the bandwidth. Unless of course you go one step further and include local links only when Yahoo objects don&#8217;t appear in a reasonable amount of time.</p>
+<p>Does anyone have any idea how to solve this problem gracefully?</p>
+			</div>
+
+			<footer class="post-metadata">
+				<ul>
+					<li>Published on <time datetime="2007-03-06T16:56:35+00:00">March 6, 2007</time></li>
+					<li><a href="http://markos.gaivo.net/blog/?p=218#comments" title="Comment on Problem with public javascript hosting">Add your comment</a> </li>
+				</ul>
+			</footer>
+		</article>
+	
+		<article>
+			<h1 class="storytitle"><a href="http://markos.gaivo.net/blog/?p=217" rel="bookmark">Meeting expectations</a></h1>
+
+			<div class="post-text">
+				<p>It&#8217;s been more than a month since I got my Nokia 770. In that time, I went through numerous spontaneous reboots, which culminated in one never ending reboot loop after an unsuccessful software install in which I lost my Mahjong best times and a collection of ideas for a project at work. I can&#8217;t make it connect to company wireless (although at home it works just fine) and built in email client is a piece of crap that barely satisfies the need to check email. There&#8217;s no good way to synchronize data (address book etc.) with other devices and I see no reason why included editor can&#8217;t handle any text file.</p>
+<p>Yet, I absolutely love this gadget to the point, where my wife jokes about being jealous.</p>
+<p>I&#8217;ve been thinking about this ever since I flashed the device yesterday. Why is it so alluring to me?</p>
+<p>Gadgets are not living beings and there&#8217;s no charm in their faults. There certainly are many of them, but there&#8217;s also a lot to like. Display is fantastic and reading web pages or pdf files finally doesn&#8217;t hurt. Those two tasks were the reason I bought it in the first place, so it&#8217;s performing its main function quite well. I like the way I can transform it in a little computer with a portable bluetooth keyboard<br />
+that lets me do practically anything. I don&#8217;t play games much, but I like those available. I was fine with declared battery time and I&#8217;m<br />
+absolutely delighted my 770 like a Duracell bunny easily exceeds it. I&#8217;ve got a feeling I can make it do whatever I want, limited mostly by my practically non-existent free time.</p>
+<p>I guess I like it so much simply because getting more than expected is good enough.</p>
+			</div>
+
+			<footer class="post-metadata">
+				<ul>
+					<li>Published on <time datetime="2007-02-04T11:01:36+00:00">February 4, 2007</time></li>
+					<li><a href="http://markos.gaivo.net/blog/?p=217#comments" title="Comment on Meeting expectations">Add your comment</a> </li>
+				</ul>
+			</footer>
+		</article>
+		
+		<nav class="pagination">
+			<ul>
+				<li><a href="http://markos.gaivo.net/blog/?paged=40" >&laquo; Newer articles</a></li>
+				<li><a href="http://markos.gaivo.net/blog/?paged=42" >Older articles &raquo;</a></li>
+			</ul>
+		</nav>
+	</section>
+
+
+	<footer>
+		<ul>
+			<li>&copy; 2005-2015 Marko Samastur</li>
+			
+			<li><a href="http://markos.gaivo.net/blog/?feed=rss2">Entries feed</a></li>
+			<li><a href="http://markos.gaivo.net/blog/?feed=comments-rss2">Comments feed</a></li>
+		</ul>
+		<a href="/"><img src="/img/markos_light_small_bg.png" alt="logo" class="mini-logo" /></a>
+	</footer>
+	<script src="/js/jquery.js"></script>
+	<script src="/js/all.js"></script>
+	<!--script src="/mint/?js" type="text/javascript"></script-->
+
+	<!-- Google analytics -->
+	<script type="text/javascript">
+
+	  var _gaq = _gaq || [];
+	  _gaq.push(['_setAccount', 'UA-152438-1']);
+	  _gaq.push(['_trackPageview']);
+	</script>
+	<script src="/js/cookie.js"></script>
+</body>
+</html>

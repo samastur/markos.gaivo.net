@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>A notch above a monkey &raquo; Looking for Adobe RGB to sRGB conversion tool</title>
+	<meta charset="utf-8" />
+	
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" /> 
+
+	<link rel="shortcut icon" href="/img/markos.ico" />
+	
+	<meta name="generator" content="WordPress 3.0.5" /> <!-- leave this for stats please -->
+
+	<link href="http://fast.fonts.com/cssapi/aee9b60b-8e94-47f8-b586-3ecbfab51d1c.css" rel="stylesheet" type="text/css" />
+	<link rel="stylesheet" type="text/css" href="css/home.css" media="screen" title="Light theme" />
+	<link rel="alternate stylesheet" type="text/css" href="css/home_dark.css" media="screen" title="Dark theme" />
+	<link rel="stylesheet" href="css/ipad.css" media="only screen and (min-device-width : 768px) and (max-device-width : 1024px)">
+	<link rel="stylesheet" type="text/css" href="css/smallscreen.css" media="only screen and (max-width: 700px)" />
+
+	<link rel="alternate" type="application/rss+xml" title="RSS 2.0" href="http://markos.gaivo.net/blog/?feed=rss2" />
+	<link rel="alternate" type="application/atom+xml" title="Atom 1.0" href="http://markos.gaivo.net/blog/?feed=atom" />
+	<link rel='canonical' href='http://markos.gaivo.net/blog/?p=664' />
+
+	<link rel="pingback" href="http://markos.gaivo.net/blog/xmlrpc.php" />
+
+	<link rel="alternate" type="application/rss+xml" title="A notch above a monkey &raquo; Looking for Adobe RGB to sRGB conversion tool Comments Feed" href="http://markos.gaivo.net/blog/?feed=rss2&amp;p=235" />
+<link rel="EditURI" type="application/rsd+xml" title="RSD" href="http://markos.gaivo.net/blog/xmlrpc.php?rsd" />
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="http://markos.gaivo.net/blog/wp-includes/wlwmanifest.xml" /> 
+<link rel='index' title='A notch above a monkey' href='http://markos.gaivo.net/blog' />
+<link rel='start' title='First post' href='http://markos.gaivo.net/blog/?p=2' />
+<link rel='prev' title='Flash inside of WYSIWYG HTML editor' href='http://markos.gaivo.net/blog/?p=234' />
+<link rel='next' title='Information retrieval' href='http://markos.gaivo.net/blog/?p=236' />
+<meta name="generator" content="WordPress 3.0.5" />
+<link rel='canonical' href='http://markos.gaivo.net/blog/?p=235' />
+
+	<!--[if lt IE 9]>
+	<script src="/js/html5.js"></script>
+	<![endif]-->
+</head>
+<body>
+					<header>
+		<h1><a href="/blog/">A notch above a monkey</a> &raquo; Looking for Adobe RGB to sRGB conversion tool</h1>
+	</header>
+
+	<section class="envelope">
+		<article class="post">
+			<header>
+				<h1>Looking for Adobe RGB to sRGB conversion tool</h1>
+			</header>
+
+			<footer>
+				<ul>
+					<li class="by">Written by: <a href="/">Marko Samastur</a></li>
+					<li class="published">Published on: <time datetime="2007-07-24T13:52:40+00:00" pubdate>July 24, 2007</time></li>
+					<li class="categories">Categories: <a href="http://markos.gaivo.net/blog/?cat=5" title="View all posts in General development" rel="category">General development</a>, <a href="http://markos.gaivo.net/blog/?cat=2" title="View all posts in Python" rel="category">Python</a>, <a href="http://markos.gaivo.net/blog/?cat=4" title="View all posts in Web" rel="category">Web</a></li>
+					<li class="post-comments">Comments: <a href="http://markos.gaivo.net/blog/?p=235#comments" title="Comment on Looking for Adobe RGB to sRGB conversion tool">5</a></li>
+				</ul>
+			</footer>
+
+			<div class="post-text">
+				<p>Does anyone know of a python module or unix command line tool for transforming Adobe RGB color space profile to sRGB?</p>
+<p>Either my assumption, that you can get anything you need on the internet, is wrong or I&#8217;ve been looking at wrong places.</p>
+			</div>
+
+			<nav>
+				<p>If you liked this, you might want to visit:</p>
+				<ul>
+					<li>my previous article: <a href="http://markos.gaivo.net/blog/?p=234" rel="prev">Flash inside of WYSIWYG HTML editor</a></li>					<li>my next article: <a href="http://markos.gaivo.net/blog/?p=236" rel="next">Information retrieval</a></li>					<li><a href="/blog/">article list</a></li>
+				</ul>
+			</nav>
+
+			<h2 id="comments">Comments (5)
+			</h2>
+			<ol class="comments">
+		
+				<li id="comment-70246">
+					<article>
+						<p>If I am not mistaken you can do it with little cms&#8217;s utilities:<br />
+<a href="http://www.littlecms.com/newutils.htm">http://www.littlecms.com/newutils.htm</a><br />
+Check out the jpegicc and tifficc commands. I always use digikam or ufraw to apply color spaces, so I am not a hundred percent sure this will work.<br />
+In fact I saw this info in an article in Linux Journal (<a href="http://www.linuxjournal.com/article/6635">http://www.linuxjournal.com/article/6635</a>). This article has a ton of good info.<br />
+Maybe that will point you in a descent direction.</p>
+						<footer>
+							<cite>Comment by David Smith &#8212; <time datetime="2007-07-24T15:27:37+00:00">July 24, 2007 @ 3:27 pm</time> <a href="#comment-70246">#</a> </cite>
+						</footer>
+					</article>
+				</li>
+		
+				<li id="comment-70257">
+					<article>
+						<p>I wrote a simple C program in few lines to encapsulate the lcms (little color management system) library. It converts from cmyk to rgb given input and output profiles, but it could be easily modified for rgb-rgb conversion.</p>
+<p>Send me an email if you&#8217;re interested and I&#8217;ll send you the source (or even a linux binary if you dare).</p>
+						<footer>
+							<cite>Comment by Arnar Birgisson &#8212; <time datetime="2007-07-24T17:16:29+00:00">July 24, 2007 @ 5:16 pm</time> <a href="#comment-70257">#</a> </cite>
+						</footer>
+					</article>
+				</li>
+		
+				<li id="comment-70546">
+					<article>
+						<p>You can use PIL for this, just feed the Adobe RGB to sRGB matrix to the image.convert function.</p>
+						<footer>
+							<cite>Comment by Ants Aasma &#8212; <time datetime="2007-07-25T21:47:22+00:00">July 25, 2007 @ 9:47 pm</time> <a href="#comment-70546">#</a> </cite>
+						</footer>
+					</article>
+				</li>
+		
+				<li id="comment-70743">
+					<article>
+						<p>Thanks to all for great info <img src='http://markos.gaivo.net/blog/wp-includes/images/smilies/icon_smile.gif' alt=':)' class='wp-smiley' /> </p>
+						<footer>
+							<cite>Comment by <a href='http://markos.gaivo.net' rel='external nofollow' class='url'>markos</a> &#8212; <time datetime="2007-07-26T21:30:39+00:00">July 26, 2007 @ 9:30 pm</time> <a href="#comment-70743">#</a> </cite>
+						</footer>
+					</article>
+				</li>
+		
+				<li id="comment-217585">
+					<article>
+						<p>You can find a simple tool to assign different color profiles at <a href="http://www.color-converter.com">http://www.color-converter.com</a><br />
+The programme CC File Converter lets you take any PNG, GIF or JPEG file and change its color profile.<br />
+If you need something that can be called from the command line, feel free to contact me at <a href="http://qurl.tk/du">http://qurl.tk/du</a></p>
+						<footer>
+							<cite>Comment by <a href='http://www.color-converter.com' rel='external nofollow' class='url'>Mark</a> &#8212; <time datetime="2010-09-23T14:45:20+00:00">September 23, 2010 @ 2:45 pm</time> <a href="#comment-217585">#</a> </cite>
+						</footer>
+					</article>
+				</li>
+		
+			</ol>
+
+
+		<p>Sorry, the comment form is closed at this time.</p>
+
+		</article>
+	</section>
+			<!-- All pages -->
+	
+
+	<footer>
+		<ul>
+			<li>&copy; 2005-2015 Marko Samastur</li>
+			
+			<li><a href="http://markos.gaivo.net/blog/?feed=rss2">Entries feed</a></li>
+			<li><a href="http://markos.gaivo.net/blog/?feed=comments-rss2">Comments feed</a></li>
+		</ul>
+		<a href="/"><img src="/img/markos_light_small_bg.png" alt="logo" class="mini-logo" /></a>
+	</footer>
+	<!-- Google analytics -->
+	<script type="text/javascript">
+	  var _gaq = _gaq || [];
+	  _gaq.push(['_setAccount', 'UA-152438-1']);
+	  _gaq.push(['_trackPageview']);
+	</script>
+	<script src="/js/cookie.js"></script>
+</body>
+</html>

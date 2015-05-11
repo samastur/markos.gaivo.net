@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+		>
+<channel>
+	<title>Comments on: Whitespace whining</title>
+	<atom:link href="http://markos.gaivo.net/blog/?feed=rss2&#038;p=126" rel="self" type="application/rss+xml" />
+	<link>http://markos.gaivo.net/blog/?p=126</link>
+	<description></description>
+	<lastBuildDate>Wed, 16 Jul 2014 16:04:38 +0000</lastBuildDate>
+	<sy:updatePeriod>hourly</sy:updatePeriod>
+	<sy:updateFrequency>1</sy:updateFrequency>
+	<generator>http://wordpress.org/?v=3.0.5</generator>
+	<item>
+		<title>By: markos</title>
+		<link>http://markos.gaivo.net/blog/?p=126&#038;cpage=1#comment-894</link>
+		<dc:creator>markos</dc:creator>
+		<pubDate>Sun, 19 Feb 2006 16:35:43 +0000</pubDate>
+		<guid isPermaLink="false">http://markos.gaivo.net/blog/?p=126#comment-894</guid>
+		<description>Actually, I like tabs, but don&#039;t mind either. I use tabs, but I also worked with spaces-only and mixed indented code and honestly can&#039;t remember when was the last time I had a problem related to this. My view is that this simply isn&#039;t an issue.
+
+I also don&#039;t mind RoR. I do mind marketing-driven features though. What I&#039;d like for Python is to avoid adding features that don&#039;t significantly improve a language for its current users and I fail to see how braces would do this.
+
+I might look at this differentely if Python acceptance was a problem for me, but luckily it isn&#039;t.</description>
+		<content:encoded><![CDATA[<p>Actually, I like tabs, but don&#8217;t mind either. I use tabs, but I also worked with spaces-only and mixed indented code and honestly can&#8217;t remember when was the last time I had a problem related to this. My view is that this simply isn&#8217;t an issue.</p>
+<p>I also don&#8217;t mind RoR. I do mind marketing-driven features though. What I&#8217;d like for Python is to avoid adding features that don&#8217;t significantly improve a language for its current users and I fail to see how braces would do this.</p>
+<p>I might look at this differentely if Python acceptance was a problem for me, but luckily it isn&#8217;t.</p>
+]]></content:encoded>
+	</item>
+	<item>
+		<title>By: John Mudd</title>
+		<link>http://markos.gaivo.net/blog/?p=126&#038;cpage=1#comment-893</link>
+		<dc:creator>John Mudd</dc:creator>
+		<pubDate>Sun, 19 Feb 2006 16:19:05 +0000</pubDate>
+		<guid isPermaLink="false">http://markos.gaivo.net/blog/?p=126#comment-893</guid>
+		<description>&quot;Things I wouldn&#039;t do: Put up with any significant-whitespace whining. Here 99% of the Python community is with me.  Precisely.&quot;
+
+All he said, and you agreed with, was that 99% of the people who like Python&#039;s white space, and hence use it, agree with it.  I fail to see the significance.
+
+What about the majority of programmers who won&#039;t give Python a try because of the white space issue?  You can claim that popularity is not the goal but, oh, how the Python community moans when Ruby on Rails is mentioned.
+
+It&#039;s not like Python currently offers one correct solution to delimiting scope.  It currently offers three: spaces, tabs or spaces and tabs mixed together.  You might like one of these but I bet you&#039;ll agree the other two stink.  So...  how about adding one more stinky optional method for delimiting scope: braces.  Is that too much to ask for if it could help Python reach Ruby&#039;s level of popularity and acceptance in the ($$$) workplace??
+
+FWIW, I like tabs.</description>
+		<content:encoded><![CDATA[<p>&#8220;Things I wouldn&#8217;t do: Put up with any significant-whitespace whining. Here 99% of the Python community is with me.  Precisely.&#8221;</p>
+<p>All he said, and you agreed with, was that 99% of the people who like Python&#8217;s white space, and hence use it, agree with it.  I fail to see the significance.</p>
+<p>What about the majority of programmers who won&#8217;t give Python a try because of the white space issue?  You can claim that popularity is not the goal but, oh, how the Python community moans when Ruby on Rails is mentioned.</p>
+<p>It&#8217;s not like Python currently offers one correct solution to delimiting scope.  It currently offers three: spaces, tabs or spaces and tabs mixed together.  You might like one of these but I bet you&#8217;ll agree the other two stink.  So&#8230;  how about adding one more stinky optional method for delimiting scope: braces.  Is that too much to ask for if it could help Python reach Ruby&#8217;s level of popularity and acceptance in the ($$$) workplace??</p>
+<p>FWIW, I like tabs.</p>
+]]></content:encoded>
+	</item>
+	<item>
+		<title>By: Justus</title>
+		<link>http://markos.gaivo.net/blog/?p=126&#038;cpage=1#comment-890</link>
+		<dc:creator>Justus</dc:creator>
+		<pubDate>Sun, 19 Feb 2006 00:10:44 +0000</pubDate>
+		<guid isPermaLink="false">http://markos.gaivo.net/blog/?p=126#comment-890</guid>
+		<description>I&#039;ve been coding in python for a decade now and I always use tabs in my own projects. I have never once had a tab/space issue. This leads me to following belief: if you have problems with tabs you are an idiot.</description>
+		<content:encoded><![CDATA[<p>I&#8217;ve been coding in python for a decade now and I always use tabs in my own projects. I have never once had a tab/space issue. This leads me to following belief: if you have problems with tabs you are an idiot.</p>
+]]></content:encoded>
+	</item>
+	<item>
+		<title>By: paddy</title>
+		<link>http://markos.gaivo.net/blog/?p=126&#038;cpage=1#comment-889</link>
+		<dc:creator>paddy</dc:creator>
+		<pubDate>Sat, 18 Feb 2006 18:58:38 +0000</pubDate>
+		<guid isPermaLink="false">http://markos.gaivo.net/blog/?p=126#comment-889</guid>
+		<description>Far more irritating to me, than whitespace errors when copying code, is non-standard characters appearing in code snippets in emails and web pages, usually because they are written in a word procesor that silently &#039;helps-out&#039; by changing one tick to a back-tick so destroying what should be a pair of string delimeters (or doing a similar thing with doule-quotes).
+
+Pythons whitespace indentation will be brilliant when you are no-longer allowed to use tabs ;-) and is pretty damn good as it stands.</description>
+		<content:encoded><![CDATA[<p>Far more irritating to me, than whitespace errors when copying code, is non-standard characters appearing in code snippets in emails and web pages, usually because they are written in a word procesor that silently &#8216;helps-out&#8217; by changing one tick to a back-tick so destroying what should be a pair of string delimeters (or doing a similar thing with doule-quotes).</p>
+<p>Pythons whitespace indentation will be brilliant when you are no-longer allowed to use tabs <img src='http://markos.gaivo.net/blog/wp-includes/images/smilies/icon_wink.gif' alt=';-)' class='wp-smiley' />  and is pretty damn good as it stands.</p>
+]]></content:encoded>
+	</item>
+	<item>
+		<title>By: Grzegorz Staniak</title>
+		<link>http://markos.gaivo.net/blog/?p=126&#038;cpage=1#comment-887</link>
+		<dc:creator>Grzegorz Staniak</dc:creator>
+		<pubDate>Fri, 17 Feb 2006 20:48:35 +0000</pubDate>
+		<guid isPermaLink="false">http://markos.gaivo.net/blog/?p=126#comment-887</guid>
+		<description>For what it&#039;s worth, here&#039;s a testimony: when I first got interested in Python - at first, reading about it - I liked it very much, but I saw significant whitespace as its major drawback and a pain in the neck. It was, like, &quot;what a ridiculous, absurd feature in an otherwise great language&quot;. Then I started coding in it, and there wasn&#039;t even an adaptation period - I didn&#039;t as much as _notice_ that I was using the feature, once I concentrated on problems. Whitespace is simply NO problem, and code readability is a major gain. Just as Ian says, let&#039;s not accept any whining in this area.</description>
+		<content:encoded><![CDATA[<p>For what it&#8217;s worth, here&#8217;s a testimony: when I first got interested in Python &#8211; at first, reading about it &#8211; I liked it very much, but I saw significant whitespace as its major drawback and a pain in the neck. It was, like, &#8220;what a ridiculous, absurd feature in an otherwise great language&#8221;. Then I started coding in it, and there wasn&#8217;t even an adaptation period &#8211; I didn&#8217;t as much as _notice_ that I was using the feature, once I concentrated on problems. Whitespace is simply NO problem, and code readability is a major gain. Just as Ian says, let&#8217;s not accept any whining in this area.</p>
+]]></content:encoded>
+	</item>
+	<item>
+		<title>By: TonySV</title>
+		<link>http://markos.gaivo.net/blog/?p=126&#038;cpage=1#comment-886</link>
+		<dc:creator>TonySV</dc:creator>
+		<pubDate>Fri, 17 Feb 2006 20:45:58 +0000</pubDate>
+		<guid isPermaLink="false">http://markos.gaivo.net/blog/?p=126#comment-886</guid>
+		<description>I wasn&#039;t sure about significant whitespace when I started using Python.
+
+Now I love it, because it makes removes unnessary garbage such as:
+if 
+{
+  whatever
+}
+
+But, it can be a disadvantage if you&#039;re doing serious metaprogramming, by making creating error free Python code considerably harder.  That&#039;s one big reason, for example, why Lua uses begin/end.
+
+But Python isn&#039;t about heavy metaprogramming.  OTOH, Lua uses much more metaprogramming, and it&#039;s also a much bigger part of its culture.
+
+In summary, significant white space is great in Python, but not in all programming languages.</description>
+		<content:encoded><![CDATA[<p>I wasn&#8217;t sure about significant whitespace when I started using Python.</p>
+<p>Now I love it, because it makes removes unnessary garbage such as:<br />
+if<br />
+{<br />
+  whatever<br />
+}</p>
+<p>But, it can be a disadvantage if you&#8217;re doing serious metaprogramming, by making creating error free Python code considerably harder.  That&#8217;s one big reason, for example, why Lua uses begin/end.</p>
+<p>But Python isn&#8217;t about heavy metaprogramming.  OTOH, Lua uses much more metaprogramming, and it&#8217;s also a much bigger part of its culture.</p>
+<p>In summary, significant white space is great in Python, but not in all programming languages.</p>
+]]></content:encoded>
+	</item>
+	<item>
+		<title>By: markos</title>
+		<link>http://markos.gaivo.net/blog/?p=126&#038;cpage=1#comment-884</link>
+		<dc:creator>markos</dc:creator>
+		<pubDate>Fri, 17 Feb 2006 19:08:53 +0000</pubDate>
+		<guid isPermaLink="false">http://markos.gaivo.net/blog/?p=126#comment-884</guid>
+		<description>I like tabs :)
+
+In any case, there&#039;s a plethora of editors that make indenting, de-indenting and tab-space transformations a breeze and if anyone still has a problem with this, he should really switch to something better than notepad.
+
+I guess those (c) errors can be annoying, but I think you get a similar problem in other languages when you copy one } too much or too few. Admitedly not quite the same, because Python&#039;s case is more subtle, since it&#039;s likely not a syntax error. I don&#039;t copy blocks often or fast enough to be bothered though.</description>
+		<content:encoded><![CDATA[<p>I like tabs <img src='http://markos.gaivo.net/blog/wp-includes/images/smilies/icon_smile.gif' alt=':)' class='wp-smiley' /> </p>
+<p>In any case, there&#8217;s a plethora of editors that make indenting, de-indenting and tab-space transformations a breeze and if anyone still has a problem with this, he should really switch to something better than notepad.</p>
+<p>I guess those (c) errors can be annoying, but I think you get a similar problem in other languages when you copy one } too much or too few. Admitedly not quite the same, because Python&#8217;s case is more subtle, since it&#8217;s likely not a syntax error. I don&#8217;t copy blocks often or fast enough to be bothered though.</p>
+]]></content:encoded>
+	</item>
+	<item>
+		<title>By: Ian Bicking</title>
+		<link>http://markos.gaivo.net/blog/?p=126&#038;cpage=1#comment-883</link>
+		<dc:creator>Ian Bicking</dc:creator>
+		<pubDate>Fri, 17 Feb 2006 18:53:25 +0000</pubDate>
+		<guid isPermaLink="false">http://markos.gaivo.net/blog/?p=126#comment-883</guid>
+		<description>(a) tabs are evil
+
+(b) indentation errors are usually pretty easy to find, but sometimes rather hard to fix if you&#039;ve lost the original indentation; on the whole significant whitespace leads to much easier to understand syntax errors, that are more localized to the actual problem area of code
+
+(c) there is a small class of errors that is admittedly really annoying -- typically when you have an if statement, and the last line of the block is either mis-included or mis-excluded from the block; the only way to figure it out is through careful inspection of the logic.  This can happen in any language, but is more common in Python (a similar class of errors is in Cish languages when people don&#039;t use {} for the body of an if or other block -- which is also probably the quintessential case when programmers make indentation that lies).</description>
+		<content:encoded><![CDATA[<p>(a) tabs are evil</p>
+<p>(b) indentation errors are usually pretty easy to find, but sometimes rather hard to fix if you&#8217;ve lost the original indentation; on the whole significant whitespace leads to much easier to understand syntax errors, that are more localized to the actual problem area of code</p>
+<p>(c) there is a small class of errors that is admittedly really annoying &#8212; typically when you have an if statement, and the last line of the block is either mis-included or mis-excluded from the block; the only way to figure it out is through careful inspection of the logic.  This can happen in any language, but is more common in Python (a similar class of errors is in Cish languages when people don&#8217;t use {} for the body of an if or other block &#8212; which is also probably the quintessential case when programmers make indentation that lies).</p>
+]]></content:encoded>
+	</item>
+	<item>
+		<title>By: mksql</title>
+		<link>http://markos.gaivo.net/blog/?p=126&#038;cpage=1#comment-881</link>
+		<dc:creator>mksql</dc:creator>
+		<pubDate>Fri, 17 Feb 2006 17:55:03 +0000</pubDate>
+		<guid isPermaLink="false">http://markos.gaivo.net/blog/?p=126#comment-881</guid>
+		<description>:&quot;I’ve had problems caused by people editing files in editors that did things like use the tab character - it looks like the indentation is correct but in fact it is not.&quot;
+
+That is an editor flaw, not a language flaw. You need an editor that you can configure to handle tabs properly for the task at hand. The right tool for the right job.</description>
+		<content:encoded><![CDATA[<p>:&#8221;I’ve had problems caused by people editing files in editors that did things like use the tab character &#8211; it looks like the indentation is correct but in fact it is not.&#8221;</p>
+<p>That is an editor flaw, not a language flaw. You need an editor that you can configure to handle tabs properly for the task at hand. The right tool for the right job.</p>
+]]></content:encoded>
+	</item>
+	<item>
+		<title>By: sea above  sky below  &#187; Blog Archive   &#187; about Python whitespace whining</title>
+		<link>http://markos.gaivo.net/blog/?p=126&#038;cpage=1#comment-880</link>
+		<dc:creator>sea above  sky below  &#187; Blog Archive   &#187; about Python whitespace whining</dc:creator>
+		<pubDate>Fri, 17 Feb 2006 13:02:00 +0000</pubDate>
+		<guid isPermaLink="false">http://markos.gaivo.net/blog/?p=126#comment-880</guid>
+		<description>[...]  you indent your code?A: Yes, of course.B: And the problem is? from Marko Samastur&#8217;s post  	 					 				 					 						This entry was posted	on ???, ?? 17th, 2006 at 9:03 pm						and is f [...]</description>
+		<content:encoded><![CDATA[<p>[...]  you indent your code?A: Yes, of course.B: And the problem is? from Marko Samastur&#8217;s post  	 					 				 					 						This entry was posted	on ???, ?? 17th, 2006 at 9:03 pm						and is f [...]</p>
+]]></content:encoded>
+	</item>
+</channel>
+</rss>

@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+		>
+<channel>
+	<title>Comments on: Macs and &#8220;just working&#8221;</title>
+	<atom:link href="http://markos.gaivo.net/blog/?feed=rss2&#038;p=220" rel="self" type="application/rss+xml" />
+	<link>http://markos.gaivo.net/blog/?p=220</link>
+	<description></description>
+	<lastBuildDate>Wed, 16 Jul 2014 16:04:38 +0000</lastBuildDate>
+	<sy:updatePeriod>hourly</sy:updatePeriod>
+	<sy:updateFrequency>1</sy:updateFrequency>
+	<generator>http://wordpress.org/?v=3.0.5</generator>
+	<item>
+		<title>By: markos</title>
+		<link>http://markos.gaivo.net/blog/?p=220&#038;cpage=1#comment-41636</link>
+		<dc:creator>markos</dc:creator>
+		<pubDate>Sat, 31 Mar 2007 17:12:54 +0000</pubDate>
+		<guid isPermaLink="false">http://markos.gaivo.net/blog/?p=220#comment-41636</guid>
+		<description>I&#039;d pay good money for Firebug (addon for Firefox) even if it existed for only one platform. It does almost everything you&#039;d reasonably want to do except write code with it.
+
+As CSS only tool I can&#039;t speak too highly about CSSEdit 2 from MacRabbit either and I&#039;ve never regretted paying money for it. There are free, even cross-platform options available to replace it, but IMHO it&#039;s still the best tool to write and manage CSS files on any platform. I used to use Xyle, but with Firebug out there there&#039;s really no need to do it anymore.
+
+If you have to work with code saved on servers with SSH access, then you should also take a look at MacFuse from Google. I hate FTPing anything and MacFUSE allows me to work with files on SSH accessible servers as if they were local. Mind you, this is something that is much better solved on Linux.
+
+I&#039;ve heard good things said about TextMate for HTML and P*, but I don&#039;t use it so I can&#039;t really comment. I&#039;m sort of traditional when it comes to editors and any editor with correct syntax highlighting will suffice, but I have been experimenting with Komodo Edit, another cross-platform tool, with mixed results.
+
+As it&#039;s probably clear from this comment, I&#039;m not the best person for giving tips, since I try to pick tools that are cross-platform and am too fond of typing stuff myself.</description>
+		<content:encoded><![CDATA[<p>I&#8217;d pay good money for Firebug (addon for Firefox) even if it existed for only one platform. It does almost everything you&#8217;d reasonably want to do except write code with it.</p>
+<p>As CSS only tool I can&#8217;t speak too highly about CSSEdit 2 from MacRabbit either and I&#8217;ve never regretted paying money for it. There are free, even cross-platform options available to replace it, but IMHO it&#8217;s still the best tool to write and manage CSS files on any platform. I used to use Xyle, but with Firebug out there there&#8217;s really no need to do it anymore.</p>
+<p>If you have to work with code saved on servers with SSH access, then you should also take a look at MacFuse from Google. I hate FTPing anything and MacFUSE allows me to work with files on SSH accessible servers as if they were local. Mind you, this is something that is much better solved on Linux.</p>
+<p>I&#8217;ve heard good things said about TextMate for HTML and P*, but I don&#8217;t use it so I can&#8217;t really comment. I&#8217;m sort of traditional when it comes to editors and any editor with correct syntax highlighting will suffice, but I have been experimenting with Komodo Edit, another cross-platform tool, with mixed results.</p>
+<p>As it&#8217;s probably clear from this comment, I&#8217;m not the best person for giving tips, since I try to pick tools that are cross-platform and am too fond of typing stuff myself.</p>
+]]></content:encoded>
+	</item>
+	<item>
+		<title>By: suprpp</title>
+		<link>http://markos.gaivo.net/blog/?p=220&#038;cpage=1#comment-41606</link>
+		<dc:creator>suprpp</dc:creator>
+		<pubDate>Sat, 31 Mar 2007 11:24:49 +0000</pubDate>
+		<guid isPermaLink="false">http://markos.gaivo.net/blog/?p=220#comment-41606</guid>
+		<description>Since you&#039;ve got rich experience using all three main operating systems - which tools do you use or find most useful for web production on a Mac?
+
+Something for CSS, HTML, maybe PHP/Python/Perl development?
+
+Aptana promises a lot, but delivers (at the moment) somewhat less than exhilarating experience.</description>
+		<content:encoded><![CDATA[<p>Since you&#8217;ve got rich experience using all three main operating systems &#8211; which tools do you use or find most useful for web production on a Mac?</p>
+<p>Something for CSS, HTML, maybe PHP/Python/Perl development?</p>
+<p>Aptana promises a lot, but delivers (at the moment) somewhat less than exhilarating experience.</p>
+]]></content:encoded>
+	</item>
+	<item>
+		<title>By: Mark</title>
+		<link>http://markos.gaivo.net/blog/?p=220&#038;cpage=1#comment-34816</link>
+		<dc:creator>Mark</dc:creator>
+		<pubDate>Thu, 08 Mar 2007 11:38:12 +0000</pubDate>
+		<guid isPermaLink="false">http://markos.gaivo.net/blog/?p=220#comment-34816</guid>
+		<description>You&#039;re right. Not even Mac OS X is perfect. But for me it sure beats the horrors I encounter every day on my PC at the office. One would think what a great setup I have. Well... if the software would only work as supposed to.
+
+Sometimes Safari on my MacBook offers me time to test my patience. And running Dreamweaver or Photoshop with Rosetta. Geez, I could go in the kitchen and fry an egg every time I open or save a file :/
+Other than those few annoyances, it works good for me. Oh, and the usability of iLife and all and how it&#039;s marketed helping you be creative. Well, I&#039;ve already blogged about that.</description>
+		<content:encoded><![CDATA[<p>You&#8217;re right. Not even Mac OS X is perfect. But for me it sure beats the horrors I encounter every day on my PC at the office. One would think what a great setup I have. Well&#8230; if the software would only work as supposed to.</p>
+<p>Sometimes Safari on my MacBook offers me time to test my patience. And running Dreamweaver or Photoshop with Rosetta. Geez, I could go in the kitchen and fry an egg every time I open or save a file :/<br />
+Other than those few annoyances, it works good for me. Oh, and the usability of iLife and all and how it&#8217;s marketed helping you be creative. Well, I&#8217;ve already blogged about that.</p>
+]]></content:encoded>
+	</item>
+</channel>
+</rss>

@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>A notch above a monkey &raquo; sgmllib.py parser woes</title>
+	<meta charset="utf-8" />
+	
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" /> 
+
+	<link rel="shortcut icon" href="/img/markos.ico" />
+	
+	<meta name="generator" content="WordPress 3.0.5" /> <!-- leave this for stats please -->
+
+	<link href="http://fast.fonts.com/cssapi/aee9b60b-8e94-47f8-b586-3ecbfab51d1c.css" rel="stylesheet" type="text/css" />
+	<link rel="stylesheet" type="text/css" href="css/home.css" media="screen" title="Light theme" />
+	<link rel="alternate stylesheet" type="text/css" href="css/home_dark.css" media="screen" title="Dark theme" />
+	<link rel="stylesheet" href="css/ipad.css" media="only screen and (min-device-width : 768px) and (max-device-width : 1024px)">
+	<link rel="stylesheet" type="text/css" href="css/smallscreen.css" media="only screen and (max-width: 700px)" />
+
+	<link rel="alternate" type="application/rss+xml" title="RSS 2.0" href="http://markos.gaivo.net/blog/?feed=rss2" />
+	<link rel="alternate" type="application/atom+xml" title="Atom 1.0" href="http://markos.gaivo.net/blog/?feed=atom" />
+	<link rel='canonical' href='http://markos.gaivo.net/blog/?p=664' />
+
+	<link rel="pingback" href="http://markos.gaivo.net/blog/xmlrpc.php" />
+
+	<link rel="alternate" type="application/rss+xml" title="A notch above a monkey &raquo; sgmllib.py parser woes Comments Feed" href="http://markos.gaivo.net/blog/?feed=rss2&amp;p=142" />
+<link rel="EditURI" type="application/rsd+xml" title="RSD" href="http://markos.gaivo.net/blog/xmlrpc.php?rsd" />
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="http://markos.gaivo.net/blog/wp-includes/wlwmanifest.xml" /> 
+<link rel='index' title='A notch above a monkey' href='http://markos.gaivo.net/blog' />
+<link rel='start' title='First post' href='http://markos.gaivo.net/blog/?p=2' />
+<link rel='prev' title='Single post trackback spam' href='http://markos.gaivo.net/blog/?p=141' />
+<link rel='next' title='Outage' href='http://markos.gaivo.net/blog/?p=143' />
+<meta name="generator" content="WordPress 3.0.5" />
+<link rel='canonical' href='http://markos.gaivo.net/blog/?p=142' />
+
+	<!--[if lt IE 9]>
+	<script src="/js/html5.js"></script>
+	<![endif]-->
+</head>
+<body>
+					<header>
+		<h1><a href="/blog/">A notch above a monkey</a> &raquo; sgmllib.py parser woes</h1>
+	</header>
+
+	<section class="envelope">
+		<article class="post">
+			<header>
+				<h1>sgmllib.py parser woes</h1>
+			</header>
+
+			<footer>
+				<ul>
+					<li class="by">Written by: <a href="/">Marko Samastur</a></li>
+					<li class="published">Published on: <time datetime="2006-03-28T20:51:24+00:00" pubdate>March 28, 2006</time></li>
+					<li class="categories">Categories: <a href="http://markos.gaivo.net/blog/?cat=2" title="View all posts in Python" rel="category">Python</a></li>
+					<li class="post-comments">Comments: <a href="http://markos.gaivo.net/blog/?p=142#comments" title="Comment on sgmllib.py parser woes">11</a></li>
+				</ul>
+			</footer>
+
+			<div class="post-text">
+				<p>Does anybody have problems with sgmllib.py? </p>
+<p>After I spent way too much time hunting a bug in my code, I gave up, read the <em>goahead</em> function in <em>sgmllib.py</em> and I&#8217;m certain now that its parser is broken.</p>
+<p>Let&#8217;s say you&#8217;re handling a web page with inline Javascript code which also includes HTML tags. Even if you use a <em>setliteral</em> method to skip processing data inside <em>&lt;script&gt;</em> tags, <em>sgmllib.py</em> will start doing so when it encounters first &lt;/. It interprets this as a start of an end tag and tries  to close it. Even though code handles cases of known and unknown tags, it fails to do the right thing because it simply doesn&#8217;t expect a scenario where this isn&#8217;t a tag at all.</p>
+<p>The other possibility is that I&#8217;m simply a dolt who should do stuff like this only when rested. By the way, where&#8217;s the proper place to make an ass out of myself complaining about standard library?</p>
+			</div>
+
+			<nav>
+				<p>If you liked this, you might want to visit:</p>
+				<ul>
+					<li>my previous article: <a href="http://markos.gaivo.net/blog/?p=141" rel="prev">Single post trackback spam</a></li>					<li>my next article: <a href="http://markos.gaivo.net/blog/?p=143" rel="next">Outage</a></li>					<li><a href="/blog/">article list</a></li>
+				</ul>
+			</nav>
+
+			<h2 id="comments">Comments (11)
+			</h2>
+			<ol class="comments">
+		
+				<li id="comment-1087">
+					<article>
+						<p>Honestly, unless you really need sgmllib compatibility, choose a more permissive parser. BeautifulSoup (<a href="http://www.crummy.com/software/BeautifulSoup/">http://www.crummy.com/software/BeautifulSoup/</a>) and elementtidy (<a href="http://effbot.org/zone/element-tidylib.htm">http://effbot.org/zone/element-tidylib.htm</a>) are both valuable tools for parsing arbitrary HTML.</p>
+<p>As for the right place to vent about stdlib stuff, you probably are looking for the Python Bug Tracker, <a href="http://sourceforge.net/tracker/?group_id=5470&#038;atid=105470">http://sourceforge.net/tracker/?group_id=5470&#038;atid=105470</a> .</p>
+						<footer>
+							<cite>Comment by Graham &#8212; <time datetime="2006-03-28T22:10:48+00:00">March 28, 2006 @ 10:10 pm</time> <a href="#comment-1087">#</a> </cite>
+						</footer>
+					</article>
+				</li>
+		
+				<li id="comment-1088">
+					<article>
+						<p>I hate to say this&#8230; but your best bet is to avoid using sgmllib and try to use BeautifulSoup to parse html.</p>
+<p>I hate to say this even more&#8230; but unless you file a bug report with a fix, you&#8217;re unlikely to gain any traction in the std lib ;(.</p>
+<p>&#8211;titus</p>
+						<footer>
+							<cite>Comment by Titus Brown &#8212; <time datetime="2006-03-28T22:14:08+00:00">March 28, 2006 @ 10:14 pm</time> <a href="#comment-1088">#</a> </cite>
+						</footer>
+					</article>
+				</li>
+		
+				<li id="comment-1089">
+					<article>
+						<p>There&#8217;s just one problem with this. BeautifulSoup uses sgmllib for parsing <img src='http://markos.gaivo.net/blog/wp-includes/images/smilies/icon_wink.gif' alt=';)' class='wp-smiley' /> </p>
+<p>That&#8217;s how I found the problem.</p>
+						<footer>
+							<cite>Comment by <a href='http://markos.gaivo.net' rel='external nofollow' class='url'>markos</a> &#8212; <time datetime="2006-03-28T23:11:18+00:00">March 28, 2006 @ 11:11 pm</time> <a href="#comment-1089">#</a> </cite>
+						</footer>
+					</article>
+				</li>
+		
+				<li id="comment-1093">
+					<article>
+						<p>Oh.  Right.</p>
+<p>No help for ya, sorry <img src='http://markos.gaivo.net/blog/wp-includes/images/smilies/icon_wink.gif' alt=';)' class='wp-smiley' /> .</p>
+						<footer>
+							<cite>Comment by Titus Brown &#8212; <time datetime="2006-03-29T00:55:16+00:00">March 29, 2006 @ 12:55 am</time> <a href="#comment-1093">#</a> </cite>
+						</footer>
+					</article>
+				</li>
+		
+				<li id="comment-1096">
+					<article>
+						<p>But BeautifulSoup modifies sgmllib to make parsing html more fault-tolerant. It really makes a difference.</p>
+						<footer>
+							<cite>Comment by Henning &#8212; <time datetime="2006-03-29T14:28:43+00:00">March 29, 2006 @ 2:28 pm</time> <a href="#comment-1096">#</a> </cite>
+						</footer>
+					</article>
+				</li>
+		
+				<li id="comment-1097">
+					<article>
+						<p>Yes, but not in my case. I found about the problem WHILE I was using BeautifulSoup. Digging for the cause just ended in sgmllib.</p>
+						<footer>
+							<cite>Comment by <a href='http://markos.gaivo.net' rel='external nofollow' class='url'>markos</a> &#8212; <time datetime="2006-03-29T14:35:59+00:00">March 29, 2006 @ 2:35 pm</time> <a href="#comment-1097">#</a> </cite>
+						</footer>
+					</article>
+				</li>
+		
+				<li id="comment-1098">
+					<article>
+						<p>So, what about elementtidy? Or, pass the HTML through Tidy first, then use BeautifulSoup?</p>
+						<footer>
+							<cite>Comment by Graham &#8212; <time datetime="2006-03-29T14:57:17+00:00">March 29, 2006 @ 2:57 pm</time> <a href="#comment-1098">#</a> </cite>
+						</footer>
+					</article>
+				</li>
+		
+				<li id="comment-1100">
+					<article>
+						<p>Have you tried using the HTMLParser module in the standard lib? It&#8217;s much more forgiving.</p>
+<p>I seem to remember pleading with Guido to put HTMLParser in the standard library after I hit similar problems with sgmllib and found HTMLParser.py solved them, even though I had to (at the time) use Zope&#8217;s ZPT package to get hold of it <img src='http://markos.gaivo.net/blog/wp-includes/images/smilies/icon_wink.gif' alt=';-)' class='wp-smiley' /> </p>
+						<footer>
+							<cite>Comment by <a href='http://www.simplistix.co.uk' rel='external nofollow' class='url'>Chris Withers</a> &#8212; <time datetime="2006-03-29T21:05:01+00:00">March 29, 2006 @ 9:05 pm</time> <a href="#comment-1100">#</a> </cite>
+						</footer>
+					</article>
+				</li>
+		
+				<li id="comment-1102">
+					<article>
+						<p>No, I haven&#8217;t. But I did <a href="http://markos.gaivo.net/blog/?p=144">fix</a> the problem in sgmllib. Or at least I think I did <img src='http://markos.gaivo.net/blog/wp-includes/images/smilies/icon_smile.gif' alt=':)' class='wp-smiley' /> </p>
+						<footer>
+							<cite>Comment by <a href='http://markos.gaivo.net' rel='external nofollow' class='url'>markos</a> &#8212; <time datetime="2006-04-01T17:07:26+00:00">April 1, 2006 @ 5:07 pm</time> <a href="#comment-1102">#</a> </cite>
+						</footer>
+					</article>
+				</li>
+		
+				<li id="comment-1120">
+					<article>
+						<p>I think sgmllib works correctly. From htlm 4.01 spec (<a href="http://www.w3.org/TR/1999/REC-html401-19991224/appendix/notes.html#notes-specifying-data">http://www.w3.org/TR/1999/REC-html401-19991224/appendix/notes.html#notes-specifying-data</a>):</p>
+<blockquote><p>
+When script or style data is the content of an element (SCRIPT and STYLE), the data begins immediately after the element start tag and ends at the first ETAGO (&#8220;&lt;/&#8221;) delimiter followed by a name start character ([a-zA-Z]); note that this may not be the element&#8217;s end tag. Authors should therefore escape &#8220;&lt;/&#8221; within the content. Escape mechanisms are specific to each scripting or style sheet language.
+</p></blockquote>
+<p>(the text then goes on explaining that &#8220;&lt;/&#8221; should be written<br />
+as &#8220;&lt;\/&#8221; in embedded javascript.)</p>
+<p>So, sgmllib is not broken and I think it should<br />
+do the parsing by the spec, as it does now.<br />
+Maybe BeautifulSoup could be fixed to handle also this piece of broken html?</p>
+						<footer>
+							<cite>Comment by empii &#8212; <time datetime="2006-04-03T20:47:18+00:00">April 3, 2006 @ 8:47 pm</time> <a href="#comment-1120">#</a> </cite>
+						</footer>
+					</article>
+				</li>
+		
+				<li id="comment-1124">
+					<article>
+						<p>Interesting, I didn&#8217;t know this.</p>
+<p>Just a nitpick, it should stay as it is, if this is an SGML requierement (as HTML specification implies), not an HTML one.</p>
+						<footer>
+							<cite>Comment by <a href='http://markos.gaivo.net' rel='external nofollow' class='url'>markos</a> &#8212; <time datetime="2006-04-04T08:54:22+00:00">April 4, 2006 @ 8:54 am</time> <a href="#comment-1124">#</a> </cite>
+						</footer>
+					</article>
+				</li>
+		
+			</ol>
+
+
+		<p>Sorry, the comment form is closed at this time.</p>
+
+		</article>
+	</section>
+			<!-- All pages -->
+	
+
+	<footer>
+		<ul>
+			<li>&copy; 2005-2015 Marko Samastur</li>
+			
+			<li><a href="http://markos.gaivo.net/blog/?feed=rss2">Entries feed</a></li>
+			<li><a href="http://markos.gaivo.net/blog/?feed=comments-rss2">Comments feed</a></li>
+		</ul>
+		<a href="/"><img src="/img/markos_light_small_bg.png" alt="logo" class="mini-logo" /></a>
+	</footer>
+	<!-- Google analytics -->
+	<script type="text/javascript">
+	  var _gaq = _gaq || [];
+	  _gaq.push(['_setAccount', 'UA-152438-1']);
+	  _gaq.push(['_trackPageview']);
+	</script>
+	<script src="/js/cookie.js"></script>
+</body>
+</html>

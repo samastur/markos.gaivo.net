@@ -1,0 +1,219 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="sl" lang="sl">
+	<head>
+		<title>Javascript Events</title>
+		
+		<link rel="stylesheet" type="text/css" media="screen, projection" href="style.css" />
+		<style type="text/css">
+#slide {
+	margin: -328px 0 0 -450px;
+}
+TABLE {
+	width: 900px;
+	font-size: 0.9em;
+}
+		</style>
+		<script type="text/javascript">
+		</script>
+	</head>
+	<body>
+		<div id="slide">
+<table width="100%" cellspacing="0">
+<thead>
+<tr>
+<th align="left" class=" thead" style="text-align: left;" scope="col">Event type</th>
+<th align="left" class=" thead" style="text-align: left;" scope="col">Interface</th>
+<th align="left" class=" thead" style="text-align: left;" scope="col">B</th>
+<th align="left" class=" thead" style="text-align: left;" scope="col">C</th>
+<th align="left" class=" thead" style="text-align: left;" scope="col">Supported by/detail properties</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="left">abort</td>
+<td align="left">Event</td>
+<td align="left">yes</td>
+<td align="left">no</td>
+<td align="left"><tt>&lt;img&gt;</tt>,
+<tt>&lt;object&gt;</tt></td>
+</tr>
+<tr>
+<td align="left">blur</td>
+<td align="left">Event</td>
+<td align="left">no</td>
+<td align="left">no</td>
+<td align="left"><tt>&lt;a&gt;</tt>,
+<tt>&lt;area&gt;</tt>, <tt>&lt;button&gt;</tt>,
+<tt>&lt;input&gt;</tt>, <tt>&lt;label&gt;</tt>,
+<tt>&lt;select&gt;</tt>, <tt>&lt;textarea&gt;</tt></td>
+</tr>
+<tr>
+<td align="left">change</td>
+<td align="left">Event</td>
+<td align="left">yes</td>
+<td align="left">no</td>
+<td align="left"><tt>&lt;input&gt;</tt>,
+<tt>&lt;select&gt;</tt>, <tt>&lt;textarea&gt;</tt></td>
+</tr>
+<tr>
+<td align="left">click</td>
+<td align="left">MouseEvent</td>
+<td align="left">yes</td>
+<td align="left">yes</td>
+<td align="left"><tt>screenX</tt>,
+<tt>screenY</tt>, <tt>clientX</tt>, <tt>clientY</tt>,
+<tt>altKey</tt>, <tt>ctrlKey</tt>, <tt>shiftKey</tt>,
+<tt>metaKey</tt>, <tt>button</tt>, <tt>detail</tt></td>
+</tr>
+<tr>
+<td align="left">error</td>
+<td align="left">Event</td>
+<td align="left">yes</td>
+<td align="left">no</td>
+<td align="left"><tt>&lt;body&gt;</tt>,
+<tt>&lt;frameset&gt;</tt>, <tt>&lt;img&gt;</tt>,
+<tt>&lt;object&gt;</tt></td>
+</tr>
+<tr>
+<td align="left">focus</td>
+<td align="left">Event</td>
+<td align="left">no</td>
+<td align="left">no</td>
+<td align="left"><tt>&lt;a&gt;</tt>,
+<tt>&lt;area&gt;</tt>, <tt>&lt;button&gt;</tt>,
+<tt>&lt;input&gt;</tt>, <tt>&lt;label&gt;</tt>,
+<tt>&lt;select&gt;</tt>, <tt>&lt;textarea&gt;</tt></td>
+</tr>
+<tr>
+<td align="left">load</td>
+<td align="left">Event</td>
+<td align="left">no</td>
+<td align="left">no</td>
+<td align="left"><tt>&lt;body&gt;</tt>,
+<tt>&lt;frameset&gt;</tt>, <tt>&lt;iframe&gt;</tt>,
+<tt>&lt;img&gt;</tt>, <tt>&lt;object&gt;</tt></td>
+</tr>
+<tr>
+<td align="left">mousedown</td>
+<td align="left">MouseEvent</td>
+<td align="left">yes</td>
+<td align="left">yes</td>
+<td align="left"><tt>screenX</tt>,
+<tt>screenY</tt>, <tt>clientX</tt>, <tt>clientY</tt>,
+<tt>altKey</tt>, <tt>ctrlKey</tt>, <tt>shiftKey</tt>,
+<tt>metaKey</tt>, <tt>button</tt>, <tt>detail</tt></td>
+</tr>
+<tr>
+<td align="left">mousemove</td>
+<td align="left">MouseEvent</td>
+<td align="left">yes</td>
+<td align="left">no</td>
+<td align="left"><tt>screenX</tt>,
+<tt>screenY</tt>, <tt>clientX</tt>, <tt>clientY</tt>,
+<tt>altKey</tt>, <tt>ctrlKey</tt>, <tt>shiftKey</tt>,
+<tt>metaKey</tt></td>
+</tr>
+<tr>
+<td align="left">mouseout</td>
+<td align="left">MouseEvent</td>
+<td align="left">yes</td>
+<td align="left">yes</td>
+<td align="left"><tt>screenX</tt>,
+<tt>screenY</tt>, <tt>clientX</tt>, <tt>clientY</tt>,
+<tt>altKey</tt>, <tt>ctrlKey</tt>, <tt>shiftKey</tt>,
+<tt>metaKey</tt>, <tt>relatedTarget</tt></td>
+</tr>
+<tr>
+<td align="left">mouseover</td>
+<td align="left">MouseEvent</td>
+<td align="left">yes</td>
+<td align="left">yes</td>
+<td align="left"><tt>screenX</tt>,
+<tt>screenY</tt>, <tt>clientX</tt>, <tt>clientY</tt>,
+<tt>altKey</tt>, <tt>ctrlKey</tt>, <tt>shiftKey</tt>,
+<tt>metaKey</tt>, <tt>relatedTarget</tt></td>
+</tr>
+<tr>
+<td align="left">mouseup</td>
+<td align="left">MouseEvent</td>
+<td align="left">yes</td>
+<td align="left">yes</td>
+<td align="left"><tt>screenX</tt>,
+<tt>screenY</tt>, <tt>clientX</tt>, <tt>clientY</tt>,
+<tt>altKey</tt>, <tt>ctrlKey</tt>, <tt>shiftKey</tt>,
+<tt>metaKey</tt>, <tt>button</tt>, <tt>detail</tt></td>
+</tr>
+<tr>
+<td align="left">reset</td>
+<td align="left">Event</td>
+<td align="left">yes</td>
+<td align="left">no</td>
+<td align="left"><tt>&lt;form&gt;</tt></td>
+</tr>
+<tr>
+<td align="left">resize</td>
+<td align="left">Event</td>
+<td align="left">yes</td>
+<td align="left">no</td>
+<td align="left"><tt>&lt;body&gt;</tt>,
+<tt>&lt;frameset&gt;</tt>, <tt>&lt;iframe&gt;</tt></td>
+</tr>
+<tr>
+<td align="left">scroll</td>
+<td align="left">Event</td>
+<td align="left">yes</td>
+<td align="left">no</td>
+<td align="left"><tt>&lt;body&gt;</tt></td>
+</tr>
+<tr>
+<td align="left">select</td>
+<td align="left">Event</td>
+<td align="left">yes</td>
+<td align="left">no</td>
+<td align="left"><tt>&lt;input&gt;</tt>,
+<tt>&lt;textarea&gt;</tt></td>
+</tr>
+<tr>
+<td align="left">submit</td>
+<td align="left">Event</td>
+<td align="left">yes</td>
+<td align="left">yes</td>
+<td align="left"><tt>&lt;form&gt;</tt></td>
+</tr>
+<tr>
+<td align="left">unload</td>
+<td align="left">Event</td>
+<td align="left">no</td>
+<td align="left">no</td>
+<td align="left"><tt>&lt;body&gt;</tt>,
+<tt>&lt;frameset&gt;</tt></td>
+</tr>
+<tr>
+<td align="left">DOMActivate</td>
+<td align="left">UIEvent</td>
+<td align="left">yes</td>
+<td align="left">yes</td>
+<td align="left"><tt>detail</tt></td>
+</tr>
+<tr>
+<td align="left">DOMFocusIn</td>
+<td align="left">UIEvent</td>
+<td align="left">yes</td>
+<td align="left">no</td>
+<td align="left">none</td>
+</tr>
+<tr>
+<td align="left">DOMFocusOut</td>
+<td align="left">UIEvent</td>
+<td align="left">yes</td>
+<td align="left">no</td>
+<td align="left">none</td>
+</tr>
+</tbody>
+</table>
+		</div>
+		<div id="next">
+			<a href="addlistener.html">></a>
+		</div>
+	</body>
+</html>
