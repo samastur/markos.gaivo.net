@@ -20,6 +20,8 @@ from six.moves.urllib.error import URLError
 from six.moves.urllib.parse import urlparse
 from six.moves.urllib.request import urlretrieve
 
+from bs4 import BeautifulSoup
+
 # pelican.log has to be the first pelican module to be loaded
 # because logging.setLoggerClass has to be called before logging.getLogger
 from pelican.log import init
@@ -103,12 +105,6 @@ def decode_wp_content(content, br=True):
 
 def get_items(xml):
     """Opens a wordpress xml file and returns a list of items"""
-    try:
-        from bs4 import BeautifulSoup
-    except ImportError:
-        error = ('Missing dependency '
-                 '"BeautifulSoup4" and "lxml" required to import Wordpress XML files.')
-        sys.exit(error)
     with open(xml, encoding='utf-8') as infile:
         xmlfile = infile.read()
     soup = BeautifulSoup(xmlfile, "xml")
@@ -347,10 +343,25 @@ def dump_id_slugs(id_slugs, filename):
             f.write("{}\n".format("\t".join(pair)))
 
 
+def get_post_content(pid, posts_dir):
+    fname = "{}.html".format(pid)
+    post = os.path.join(posts_dir, fname)
+    content = None
+    if os.path.exists(post):
+        with open(post, 'r', encoding='utf-8') as f:
+            # Get only content which is stored in <article>
+            soup = BeautifulSoup(f.read())
+            article = soup.select(".post-text")[0]
+            del article['class']
+            content = article.prettify()
+    return content
+
+
 def fields2pelican(fields, out_markup, output_path,
                    dircat=False, strip_raw=False, disable_slugs=False,
                    dirpage=False, filename_template=None, filter_author=None,
-                   wp_custpost=False, wp_attach=False, attachments=None):
+                   wp_custpost=False, wp_attach=False, attachments=None,
+                   posts_dir=None):
     id_slugs = []
     for (title, content, filename, date, author, categories, tags, status,
             kind, in_markup, post_id) in fields:
@@ -379,9 +390,15 @@ def fields2pelican(fields, out_markup, output_path,
 
         out_filename = get_out_filename(output_path, filename, ext,
                                         kind, dirpage, dircat, categories, wp_custpost)
-        print(out_filename)
 
-        if in_markup in ("html", "wp-html"):
+        fetched_html = False
+        if posts_dir:
+            new_content = get_post_content(post_id, posts_dir)
+            if new_content:
+                content = new_content
+                fetched_html = True
+
+        if not fetched_html and in_markup in ("html", "wp-html"):
             html_filename = os.path.join(output_path, filename + '.html')
 
             with open(html_filename, 'w', encoding='utf-8') as fp:
@@ -448,6 +465,9 @@ def main():
         '-o', '--output', dest='output', default='output',
         help='Output path')
     parser.add_argument(
+        '--wpposts', dest='posts', default='posts',
+        help='Posts path')
+    parser.add_argument(
         '-m', '--markup', dest='markup', default='rst',
         help='Output markup format (supports rst & markdown)')
     parser.add_argument(
@@ -488,6 +508,12 @@ def main():
 
     args = parser.parse_args()
 
+    posts_dir = None
+    if args.posts:
+        pdir = os.path.abspath(args.posts)
+        if os.path.isdir(pdir):
+            posts_dir = pdir
+
     input_type = None
     if args.wpfile:
         input_type = 'wordpress'
@@ -523,4 +549,5 @@ def main():
                    filter_author=args.author,
                    wp_custpost=args.wp_custpost or False,
                    wp_attach=args.wp_attach or False,
-                   attachments=attachments or None)
+                   attachments=attachments or None,
+                   posts_dir=posts_dir)
