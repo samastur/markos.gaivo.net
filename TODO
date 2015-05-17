@@ -1,3 +1,5 @@
 * popravi notranje povezave pri importu starih objav
+    + popravi povezave na druge clanek
+    * popravi povezave na druge vire (slike, kodo?)
 * skript za generiranje .htaccess redirect datoteke
-* skiprt za parsanje logov
+* skript za parsanje logov

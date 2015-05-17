@@ -119,6 +119,19 @@ def get_filename(filename, post_id):
         return post_id
 
 
+def wp2idslug(xml):
+    id_slugs = []
+
+    items = get_items(xml)
+    for item in items:
+        if item.find('status').string in ["publish", "draft"]:
+            filename = item.find('post_name').string
+            post_id = item.find('post_id').string
+            filename = get_filename(filename, post_id)
+            id_slugs.append((post_id, filename))
+    return id_slugs
+
+
 def wp2fields(xml, wp_custpost=False):
     """Opens a wordpress XML file, and yield Pelican fields"""
 
@@ -343,6 +356,32 @@ def dump_id_slugs(id_slugs, filename):
             f.write("{}\n".format("\t".join(pair)))
 
 
+def get_id_from_absolute_url(url):
+    pid = url.split("markos.gaivo.net/blog/?p=")[1]
+    if "&" in pid:
+        pid = pid.split("&")[0]
+    if "#" in pid:
+        pid = pid.split("#")[0]
+    return pid
+
+
+def fix_internal_links(content, id_slugs):
+    soup = BeautifulSoup(content)
+    url = None
+
+    # Fix links to posts
+    for link in soup.find_all("a"):
+        url = link.attrs.get('href', '')
+        if 'markos.gaivo.net/blog/?p=' in url:
+            pid = get_id_from_absolute_url(url)
+            slug = id_slugs.get(pid)
+            if slug:
+                link.attrs['href'] = "{}.html".format(slug)
+            else:
+                print('Unknown post id:', pid)
+    return soup.prettify()
+
+
 def get_post_content(pid, posts_dir):
     fname = "{}.html".format(pid)
     post = os.path.join(posts_dir, fname)
@@ -361,14 +400,14 @@ def fields2pelican(fields, out_markup, output_path,
                    dircat=False, strip_raw=False, disable_slugs=False,
                    dirpage=False, filename_template=None, filter_author=None,
                    wp_custpost=False, wp_attach=False, attachments=None,
-                   posts_dir=None):
-    id_slugs = []
+                   id_slugs=(), posts_dir=None):
+    id2slugs = dict(id_slugs)
+
     for (title, content, filename, date, author, categories, tags, status,
             kind, in_markup, post_id) in fields:
         if filter_author and filter_author != author:
             continue
         slug = not disable_slugs and filename or None
-        id_slugs.append((post_id, slug))
 
         if wp_attach and attachments:
             try:
@@ -397,6 +436,8 @@ def fields2pelican(fields, out_markup, output_path,
             if new_content:
                 content = new_content
                 fetched_html = True
+            if content:
+                content = fix_internal_links(content, id2slugs)
 
         if not fetched_html and in_markup in ("html", "wp-html"):
             html_filename = os.path.join(output_path, filename + '.html')
@@ -532,6 +573,7 @@ def main():
         error = "You must be importing a wordpress xml to use the --wp-attach option"
         exit(error)
 
+    id_slugs = wp2idslug(args.input)
     fields = wp2fields(args.input, args.wp_custpost or False)
 
     if args.wp_attach:
@@ -550,4 +592,5 @@ def main():
                    wp_custpost=args.wp_custpost or False,
                    wp_attach=args.wp_attach or False,
                    attachments=attachments or None,
+                   id_slugs=id_slugs,
                    posts_dir=posts_dir)
