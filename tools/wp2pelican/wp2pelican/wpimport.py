@@ -197,6 +197,8 @@ def build_header(post_id, title, date, author, categories, tags, slug, status=No
     if tags:
         header += ':tags: %s\n' % ', '.join(tags)
     if slug:
+        if slug == 'tags':
+            slug = 'tags_'
         header += ':slug: %s\n' % slug
     if status:
         header += ':status: %s\n' % status
@@ -220,6 +222,8 @@ def build_markdown_header(post_id, title, date, author, categories, tags, slug, 
     if tags:
         header += 'Tags: %s\n' % ', '.join(tags)
     if slug:
+        if slug == 'tags':
+            slug = 'tags_'
         header += 'Slug: %s\n' % slug
     if status:
         header += 'Status: %s\n' % status
