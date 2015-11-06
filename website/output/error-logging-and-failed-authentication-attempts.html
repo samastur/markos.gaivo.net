@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+          <title>A notch above a monkey</title>
+        <meta charset="utf-8" />
+        <link rel="shortcut icon" href="theme/img/markos.ico" />
+
+        <link href="http://fast.fonts.com/cssapi/aee9b60b-8e94-47f8-b586-3ecbfab51d1c.css" rel="stylesheet" type="text/css" />
+        <link rel="stylesheet" type="text/css" href="theme/css/home.css" media="screen" title="Light theme" />
+        <link rel="alternate stylesheet" type="text/css" href="theme/css/home_dark.css" media="screen" title="Dark theme" />
+        <link rel="stylesheet" href="theme/css/ipad.css" media="only screen and (min-device-width : 768px) and (max-device-width : 1024px)">
+        <link rel="stylesheet" type="text/css" href="theme/css/smallscreen.css" media="only screen and (max-width: 700px)" />
+
+        <link href="/articles/feeds/atom.xml" type="application/atom+xml" rel="alternate" title="A notch above a monkey Full Atom Feed" />
+        <link href="/articles/feeds/rss.xml" type="application/rss+xml" rel="alternate" title="A notch above a monkey Full RSS Feed" />
+
+
+
+
+</head>
+
+<body>
+<header id="banner" class="body">
+    <h1><a href="/">A notch above a monkey</a> &raquo; Error logging and failed authentication attempts</h1>
+</header><!-- /#banner -->
+
+<section class="envelope">
+    <article class="post">
+        <header class="entry-title">
+            <h1 class="entry-title">Error logging and failed authentication attempts</h1>
+         
+        </header>
+
+        <footer class="post-info">
+            <ul>
+                <li class="by">Written by: <a href="/">Marko Samastur</a></li>
+                <li class="published">Published on: <time datetime="2007-04-06T20:01:00+02:00" pubdate>Fri 06 April 2007</time></li>
+                <li class="categories">Category: General development, Javascript, Python, Web
+                </li>
+            </ul>
+
+        </footer><!-- /.post-info -->
+
+        <div class="post-text">
+            <p>People make mistakes and that's why we log every error that happens on
+<a href="http://www.marela.si" title="Photo-sharing website">Marela</a> pages or its API.
+I imagine most services that care about quality do more or less the
+same, since it is a great way to find yet undiscovered bugs.</p>
+<p>There's an additional benefit when it comes to an API. You can also get
+an insight in what developers would like to do and how they go about
+doing it. With a bit of care you may even correct badly designed calls
+before they get too widely adopted.</p>
+<p>What may not be as obvious is that not all calls are equal and some of
+them probably need more careful reporting. A good example would be
+failed authentication attempts.</p>
+<p>Marela is one of services supported by
+<a href="https://addons.mozilla.org/en-US/firefox/addon/3945">Fotofox</a>, a
+popular photo sharing Firefox add-on, which is great. However support
+for multiple different services invariably leads to a problem, where
+users send their usernames and passwords to the wrong site. We weren't
+prepared for this and our first reaction was to simply religiously
+delete all such reports from our logs to prevent any possibility of an
+abuse.</p>
+<p>I think this was wrong, so we changed it. Probably the best way is to
+record failed authentication attempts the way Unix systems do, by
+logging just username that was used in an attempt and its success, while
+ignoring provided password completely. This way we still obtain valuable
+information while protecting data that we clearly shouldn't have access
+to.</p>
+<p>This is of course just an example. My main point is that a sufficiently
+large API will have calls with different privacy needs and API designers
+should think carefully about what needs to be recorded in service logs
+and what mustn't.</p>
+        </div><!-- /.entry-content -->
+
+        <div id="disqus_thread"></div>
+        <script type="text/javascript">
+            /* * * CONFIGURATION VARIABLES * * */
+            var disqus_shortname = 'markosgaivo';
+
+            /* * * DON'T EDIT BELOW THIS LINE * * */
+            (function() {
+                var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+                dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+                (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+            })();
+        </script>
+        <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript" rel="nofollow">comments powered by Disqus.</a></noscript>
+    </article>
+</section>
+
+    <footer>
+        <ul>
+            <li>&copy; 2005-2015 Marko Samastur</li>
+            <li><a href="/articles/feeds/rss.xml" rel="alternate" title="A notch above a monkey Full RSS Feed">Entries feed</a></li>
+        </ul>
+        <a href="/"><img src="/img/markos_light_small_bg.png" alt="logo" class="mini-logo" /></a>
+    </footer>
+</body>
+</html>

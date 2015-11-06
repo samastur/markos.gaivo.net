@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+        <title>A notch above a monkey - Articles by markos</title>
+        <meta charset="utf-8" />
+        <link rel="shortcut icon" href="theme/img/markos.ico" />
+
+        <link href="http://fast.fonts.com/cssapi/aee9b60b-8e94-47f8-b586-3ecbfab51d1c.css" rel="stylesheet" type="text/css" />
+        <link rel="stylesheet" type="text/css" href="theme/css/home.css" media="screen" title="Light theme" />
+        <link rel="alternate stylesheet" type="text/css" href="theme/css/home_dark.css" media="screen" title="Dark theme" />
+        <link rel="stylesheet" href="theme/css/ipad.css" media="only screen and (min-device-width : 768px) and (max-device-width : 1024px)">
+        <link rel="stylesheet" type="text/css" href="theme/css/smallscreen.css" media="only screen and (max-width: 700px)" />
+
+        <link href="/articles/feeds/atom.xml" type="application/atom+xml" rel="alternate" title="A notch above a monkey Full Atom Feed" />
+        <link href="/articles/feeds/rss.xml" type="application/rss+xml" rel="alternate" title="A notch above a monkey Full RSS Feed" />
+</head>
+
+<body>
+
+<h2>Articles by markos</h2>
+
+<section class="envelope posts">
+    <header>
+        <h1><a href="/">A notch above a monkey <strong></strong></a></h1>
+    </header><!-- /#banner -->
+
+    <nav class="colophon">
+        <h1>By Marko Samastur</h1>
+        <ul>
+            <li><a href="/">About me</a></li>
+            <li><a href="http://markos.gaivo.net/blog/?feed=atom">Subscribe</a></li>
+        </ul>
+    </nav>
+
+        <article class="hentry">
+            <h1 class="entry-title storytitle"><a href="/exporting-tagged-items-from-google-reader.html" rel="bookmark" title="Permalink to Exporting tagged articles from Google Reader">Exporting tagged articles from Google Reader</a></h1>
+
+            <div class="entry-content post-text">
+                <p>Google Reader for me was never just a way to plow through a large number
+of feeds, but also a database of important articles that I lovingly
+annotated with tags and notes when they still existed. Apparently I was
+in minority, judging by Reader clients and more importantly its own
+exporting tools which lets you take away most of your stuff, but not
+tagged items themselves.</p>
+<p>Hence I wrote a quick and dirty Python script which allows you to do
+just that using <a href="https://pypi.python.org/pypi/libgreader">libgreader</a>.
+You can find <a href="https://github.com/samastur/GReader-hoover">it on Github</a>
+and it has few other features like exporting all feed articles. Who
+knows how long Feedburner will be around so next step will be resolving
+those links.</p>
+<p>My current backup amounts to almost 500MB so script is obviously useful
+to me. Hopefully it is also to others.  If you find bugs or data that is
+not exported, but should be, please do let me know.</p>
+<p>I am also looking for a good alternative that is <strong>not hosted only</strong>
+service, supports archiving and can process most feeds. Currently I am
+biased to modifying Newsblur to support tagging and running my own
+instance, but I would definitely prefer to avoid this work if possible.</p>
+            </div><!-- /.entry-content -->
+
+            <footer class="post-metadata">
+                <ul>
+                    <li>Published on <time datetime="2013-03-24T19:48:00+01:00">Sun 24 March 2013</time> </li>
+                    <li><a href="/exporting-tagged-items-from-google-reader.html">Add your comment</a></li>
+                </ul>
+            </footer>
+        </article>
+        <article class="hentry">
+            <h1 class="entry-title storytitle"><a href="/shrinking-images-with-image-diet.html" rel="bookmark" title="Permalink to Shrinking images with image-diet">Shrinking images with image-diet</a></h1>
+
+            <div class="entry-content post-text">
+                <p>I like <a href="https://github.com/SmileyChris/easy-thumbnails">easy-thumbnails</a>
+and use it often in my Django projects, but I wished for a long time
+that its <a href="http://www.pythonware.com/products/pil/">PIL</a> generated
+thumbnails would be smaller. That's why I wrote
+<a href="https://github.com/samastur/image-diet">image-diet</a>, a drop-in
+extension for those easy-thumbnails users who use file system for
+storing images. Images remain visually the same, but can be
+significantly smaller (mine by more than 50% but your mileage my vary).</p>
+<p>This matters because images are together with Javascript main cause for
+ever larger page sizes which leads to slower websites, especially in
+low-bandwidth environments. But really, don't we all want our websites
+to be as fast as possible?</p>
+<p><a href="https://github.com/samastur/image-diet">image-diet</a> was inspired by
+<a href="http://imageoptim.com/">ImageOptim</a> and
+<a href="https://github.com/Kilian/Trimage">Trimage</a> and I'm grateful to authors
+of both. It uses jpegtran, Jpegoptim, Gifsicle, OptiPNG, AdvanceCOM PNG
+and Pngcrush to do the heavy work of squeezing redundant bytes. Getting
+them should be easy as they are part of Ubuntu distribution and can be
+installed on Mac with brew. For more information please check
+documentation or ask.</p>
+<p>I would love to hear any comments and ideas you may have, even more so
+if you try it.</p>
+            </div><!-- /.entry-content -->
+
+            <footer class="post-metadata">
+                <ul>
+                    <li>Published on <time datetime="2013-01-20T23:53:00+01:00">Sun 20 January 2013</time> </li>
+                    <li><a href="/shrinking-images-with-image-diet.html">Add your comment</a></li>
+                </ul>
+            </footer>
+        </article>
+        <article class="hentry">
+            <h1 class="entry-title storytitle"><a href="/aaron.html" rel="bookmark" title="Permalink to Aaron">Aaron</a></h1>
+
+            <div class="entry-content post-text">
+                <p><a href="http://journal.markbao.com/2013/01/the-void-of-losing-someone-you-dont-know/">RIP</a>.</p>
+            </div><!-- /.entry-content -->
+
+            <footer class="post-metadata">
+                <ul>
+                    <li>Published on <time datetime="2013-01-12T22:34:00+01:00">Sat 12 January 2013</time> </li>
+                    <li><a href="/aaron.html">Add your comment</a></li>
+                </ul>
+            </footer>
+        </article>
+
+<p class="paginator">
+        <a href="/author/markos4.html">&laquo;</a>
+    Page 5 / 111
+        <a href="/author/markos6.html">&raquo;</a>
+</p>
+</section><!-- /#content -->
+
+    <footer>
+        <ul>
+            <li>&copy; 2005-2015 Marko Samastur</li>
+            <li><a href="/articles/feeds/rss.xml" rel="alternate" title="A notch above a monkey Full RSS Feed">Entries feed</a></li>
+        </ul>
+        <a href="/"><img src="/img/markos_light_small_bg.png" alt="logo" class="mini-logo" /></a>
+    </footer>
+</body>
+</html>

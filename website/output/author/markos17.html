@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+        <title>A notch above a monkey - Articles by markos</title>
+        <meta charset="utf-8" />
+        <link rel="shortcut icon" href="theme/img/markos.ico" />
+
+        <link href="http://fast.fonts.com/cssapi/aee9b60b-8e94-47f8-b586-3ecbfab51d1c.css" rel="stylesheet" type="text/css" />
+        <link rel="stylesheet" type="text/css" href="theme/css/home.css" media="screen" title="Light theme" />
+        <link rel="alternate stylesheet" type="text/css" href="theme/css/home_dark.css" media="screen" title="Dark theme" />
+        <link rel="stylesheet" href="theme/css/ipad.css" media="only screen and (min-device-width : 768px) and (max-device-width : 1024px)">
+        <link rel="stylesheet" type="text/css" href="theme/css/smallscreen.css" media="only screen and (max-width: 700px)" />
+
+        <link href="/articles/feeds/atom.xml" type="application/atom+xml" rel="alternate" title="A notch above a monkey Full Atom Feed" />
+        <link href="/articles/feeds/rss.xml" type="application/rss+xml" rel="alternate" title="A notch above a monkey Full RSS Feed" />
+</head>
+
+<body>
+
+<h2>Articles by markos</h2>
+
+<section class="envelope posts">
+    <header>
+        <h1><a href="/">A notch above a monkey <strong></strong></a></h1>
+    </header><!-- /#banner -->
+
+    <nav class="colophon">
+        <h1>By Marko Samastur</h1>
+        <ul>
+            <li><a href="/">About me</a></li>
+            <li><a href="http://markos.gaivo.net/blog/?feed=atom">Subscribe</a></li>
+        </ul>
+    </nav>
+
+        <article class="hentry">
+            <h1 class="entry-title storytitle"><a href="/europython-submission-deadline-is-around-the-corner.html" rel="bookmark" title="Permalink to EuroPython submission deadline is around the corner">EuroPython submission deadline is around the corner</a></h1>
+
+            <div class="entry-content post-text">
+                <p>April is about to end and with it also the deadline to <a href="http://www.europython.eu/talks/cfp/">submit your
+EuroPython talk</a>. I thought about
+submitting a proposal, but realized it would be nuts to do so with my
+current workload.</p>
+<p>It would also be nuts not to go and if you are a European (or not)
+Python developer you owe it to yourself to come.</p>
+<p>I go to a few conferences every year and each has its own personality.
+It is sometimes hard to point at what makes them (feel) different, but
+they just are. I like many, but only EuroPython, which I regretfully had
+to miss last year, feels like home.</p>
+<p>That's why I decided to volunteer this year. It's a way to give a little
+bit back, like cleaning dishes when you visit mom.</p>
+<p>So do submit your talk and come. It won't be the same without you.</p>
+<div class="zemanta-pixie">
+
+[![Reblog this post [with
+Zemanta]](http://img.zemanta.com/reblog_e.png?x-id=3f88ab5e-3d0f-410e-957f-6828cee4d640)](http://reblog.zemanta.com/zemified/3f88ab5e-3d0f-410e-957f-6828cee4d640/ "Reblog this post [with Zemanta]")
+
+</div>
+            </div><!-- /.entry-content -->
+
+            <footer class="post-metadata">
+                <ul>
+                    <li>Published on <time datetime="2010-04-26T20:28:00+02:00">Mon 26 April 2010</time> </li>
+                    <li><a href="/europython-submission-deadline-is-around-the-corner.html">Add your comment</a></li>
+                </ul>
+            </footer>
+        </article>
+        <article class="hentry">
+            <h1 class="entry-title storytitle"><a href="/using-canvas-and-javascript-to-blur-images.html" rel="bookmark" title="Permalink to Using canvas and Javascript to blur images">Using canvas and Javascript to blur images</a></h1>
+
+            <div class="entry-content post-text">
+                <p>I admire the look and feel of <a href="http://www.mikematas.com/">Mike Matas' new
+website</a>. It is really well thought through.
+I was also intrigued by how he did it, especially after getting a pop-up
+on my first visit advising me to use a more modern browser than a recent
+version of Firefox.</p>
+<p>There is no point in speculating why some of its features don't work in
+more browsers. But I was surprised to see that blurred images are served
+that way and don't get blurred in browser. I am playing with an idea of
+implementing a gallery inspired by Mike's work, but I would like to
+reduce manual labor needed for maintaining it.</p>
+<p>So I wrote a function that blurs an image on canvas. You can <a href="http://markos.gaivo.net/examples/canvas_blur/" title="Javascript blur demo page">see it in
+action</a>
+or copy its code, if you find it useful.</p>
+<p>The algorithm used is described in <a href="http://web.archive.org/web/20060718054020/http://www.acm.uiuc.edu/siggraph/workshops/wjarosz_convolution_2001.pdf" title="Link to PDF version of paper">2001
+paper</a>
+by Wojciech Jarosz. Page contains two implementations, second trading
+algorithm purity for in my opinion nicer code. Increase number of passes
+or run it few times over an image, if you need a blurrier result.?
+Please ask, if you need help with its use.</p>
+<p>I also measured its speed to see if it fits my needs. That brought a new
+surprise. Firefox 3.5.8? on my Linux powered VAIO with 1.2GHz processor
+blurs image twice as fast as same browser on a Mac with a 2.8Ghz
+processor. Numbers between runs may vary slightly, but never much. No
+idea why this is happening, since all functions do is some basic math
+over items in array that should be well optimized everywhere.</p>
+<p>I am sure somebody can optimize it further, but I find it good enough
+for my use. Image isn't very blurred after one pass, but one pass over a
+small image is also a good way to measure how fast a particular
+computer-browser combination is. On fast combinations I might go for
+multiple passes over images in view, but fall back to a single pass or
+no pass on slower systems.</p>
+<div class="zemanta-pixie">
+
+[![Reblog this post [with
+Zemanta]](http://img.zemanta.com/reblog_e.png?x-id=4b7c629c-fdbe-4190-ade4-e240b1b3755a)](http://reblog.zemanta.com/zemified/4b7c629c-fdbe-4190-ade4-e240b1b3755a/ "Reblog this post [with Zemanta]")
+
+</div>
+            </div><!-- /.entry-content -->
+
+            <footer class="post-metadata">
+                <ul>
+                    <li>Published on <time datetime="2010-04-01T10:59:00+02:00">Thu 01 April 2010</time> </li>
+                    <li><a href="/using-canvas-and-javascript-to-blur-images.html">Add your comment</a></li>
+                </ul>
+            </footer>
+        </article>
+        <article class="hentry">
+            <h1 class="entry-title storytitle"><a href="/my-prototypes-on-youtube.html" rel="bookmark" title="Permalink to My prototypes on YouTube">My prototypes on YouTube</a></h1>
+
+            <div class="entry-content post-text">
+                <p>I am not much of a <a href="http://www.youtube.com/user/msamastur" title="My YouTube channel">YouTube
+user</a>, but I
+have recently started to upload some of my work
+<a href="http://www.youtube.com/user/msamastur" title="my demos on youtube">there</a>.
+You might find them interesting if you are into interactions prototypes
+for products that may never be (especially if you are a
+<a href="http://www.zemanta.com" title="Zemanta">Zemanta</a> user).</p>
+<p>I want to stress that while we use prototypes to learn what to implement
+and how, there is no guarantee that any particular feature shown will be
+actually included in our products. We do make an effort of listening to
+our users so please tell us what you think.</p>
+<p>This is also a good time to mention that I don't lead front-end team at
+Zemanta anymore. My new title is Chief Product Officer which is a fancy
+way of saying that it is my task to care about our products and our
+users more deeply than anybody else.</p>
+<h6 class="zemanta-related-title">Related articles by Zemanta</h6>
+<ul>
+<li><a href="http://www.zemanta.com/blog/zemanta-hackday-spring-2010/">Zemanta Hackday Spring
+    2010</a>
+    (zemanta.com)</li>
+</ul>
+<div class="zemanta-pixie">
+
+[![Reblog this post [with
+Zemanta]](http://img.zemanta.com/reblog_e.png?x-id=4c4d711e-ab3a-4cf8-80df-8db0aab43dc3)](http://reblog.zemanta.com/zemified/4c4d711e-ab3a-4cf8-80df-8db0aab43dc3/ "Reblog this post [with Zemanta]")
+
+</div>
+            </div><!-- /.entry-content -->
+
+            <footer class="post-metadata">
+                <ul>
+                    <li>Published on <time datetime="2010-03-26T12:22:00+01:00">Fri 26 March 2010</time> </li>
+                    <li><a href="/my-prototypes-on-youtube.html">Add your comment</a></li>
+                </ul>
+            </footer>
+        </article>
+
+<p class="paginator">
+        <a href="/author/markos16.html">&laquo;</a>
+    Page 17 / 111
+        <a href="/author/markos18.html">&raquo;</a>
+</p>
+</section><!-- /#content -->
+
+    <footer>
+        <ul>
+            <li>&copy; 2005-2015 Marko Samastur</li>
+            <li><a href="/articles/feeds/rss.xml" rel="alternate" title="A notch above a monkey Full RSS Feed">Entries feed</a></li>
+        </ul>
+        <a href="/"><img src="/img/markos_light_small_bg.png" alt="logo" class="mini-logo" /></a>
+    </footer>
+</body>
+</html>

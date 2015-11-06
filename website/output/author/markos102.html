@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+        <title>A notch above a monkey - Articles by markos</title>
+        <meta charset="utf-8" />
+        <link rel="shortcut icon" href="theme/img/markos.ico" />
+
+        <link href="http://fast.fonts.com/cssapi/aee9b60b-8e94-47f8-b586-3ecbfab51d1c.css" rel="stylesheet" type="text/css" />
+        <link rel="stylesheet" type="text/css" href="theme/css/home.css" media="screen" title="Light theme" />
+        <link rel="alternate stylesheet" type="text/css" href="theme/css/home_dark.css" media="screen" title="Dark theme" />
+        <link rel="stylesheet" href="theme/css/ipad.css" media="only screen and (min-device-width : 768px) and (max-device-width : 1024px)">
+        <link rel="stylesheet" type="text/css" href="theme/css/smallscreen.css" media="only screen and (max-width: 700px)" />
+
+        <link href="/articles/feeds/atom.xml" type="application/atom+xml" rel="alternate" title="A notch above a monkey Full Atom Feed" />
+        <link href="/articles/feeds/rss.xml" type="application/rss+xml" rel="alternate" title="A notch above a monkey Full RSS Feed" />
+</head>
+
+<body>
+
+<h2>Articles by markos</h2>
+
+<section class="envelope posts">
+    <header>
+        <h1><a href="/">A notch above a monkey <strong></strong></a></h1>
+    </header><!-- /#banner -->
+
+    <nav class="colophon">
+        <h1>By Marko Samastur</h1>
+        <ul>
+            <li><a href="/">About me</a></li>
+            <li><a href="http://markos.gaivo.net/blog/?feed=atom">Subscribe</a></li>
+        </ul>
+    </nav>
+
+        <article class="hentry">
+            <h1 class="entry-title storytitle"><a href="/best-tool-for-the-job.html" rel="bookmark" title="Permalink to Best tool for the job">Best tool for the job</a></h1>
+
+            <div class="entry-content post-text">
+                <p>Sometimes, I really am an idiot. A couple of years ago I was involved in
+development of a front-end Zope application for a major Slovenian ISP
+with more than 100 000 users. No matter what we did, Zope just wasn't
+fast. In fact it was so slow, it was soon abandoned for one more
+suitable solution.</p>
+<p>The failure of our project was largely my fault, because I haven't made
+sure Zope was a good fit for what we wanted. I learned a lot, but it
+also left a bitter aftertaste and a question, why are people using it?</p>
+<p>The obvious answer is of course, because it DOES fit their needs. It's
+just that they are not building a site or an application that needs to
+handle few hundred simultaneous requests. They handle a few at most, so
+Zope or Plone or what-have-you is more than speedy enough and it's their
+features that count.</p>
+<p>It really took me awhile to grasp this and it only became really clear
+this week, after reading a little <a href="http://www.larsen-b.com/Article/217.html">Plone
+benchmark</a> and having a
+discussion with
+<a href="http://seba.antiwisdom.com" title="Sebastjan's blog">Sebastjan</a> about
+slowness of Slovenian sites.</p>
+<p>On a positive note, we generate pages in less than 6 ms now and can
+reduce it even further, if needed.</p>
+            </div><!-- /.entry-content -->
+
+            <footer class="post-metadata">
+                <ul>
+                    <li>Published on <time datetime="2005-09-28T20:57:00+02:00">Wed 28 September 2005</time> </li>
+                    <li><a href="/best-tool-for-the-job.html">Add your comment</a></li>
+                </ul>
+            </footer>
+        </article>
+        <article class="hentry">
+            <h1 class="entry-title storytitle"><a href="/scaling-image-buttons.html" rel="bookmark" title="Permalink to Scaling image buttons">Scaling image buttons</a></h1>
+
+            <div class="entry-content post-text">
+                <p>There's one thing that really bothers me, when it comes to design of
+forms. Well, more than one really, but let's limit this discussion to
+just one.</p>
+<p>Submit buttons.</p>
+<p>I can't stand their look, especially geek chic design of early nineties
+presented in Firefox and its relatives. I guess industrial look and
+Motif widgets were never really my taste. But even more pleasant design
+of buttons in Safari can look out of place with some designs.</p>
+<p>There's also an alternative that is often used. Image input buttons
+(type=image) can provide a more pleasant look, but they have one big
+disadvantage compared to submit buttons. They don't scale. Not really
+something I'd want in an accessible interface.</p>
+<p>I used a hardly novel
+<a href="http://clagnut.com/sandbox/imagetest/" title="Clagnut's image tests">idea</a> of
+defining image measurements in relative units. Browsers usually don't do
+this. They lay it out in original size using absolute values. Hence,
+when you change the size of fonts, the size of image stays the same. But
+if you use relative units, you get desired scaling effect. It might look
+like crap, but at least it can be readable for people with impaired
+vision.</p>
+<p>As you can see in simple
+<a href="http://markos.gaivo.net/examples/imgbutton/index.html">demo</a>,
+experiments with em's haven't worked really well. There are two distinct
+problems. First is to find the relative size that doesn't stretch an
+image in either direction. Second, to do this in a cross-browser
+compatible way.</p>
+<p>My demo kind of works in Safari, but not really in Firefox and I have no
+idea about rest of the bunch. So, has anyone solved this problem?</p>
+<p><em>Update: I managed to get a better result. You can read about it
+<a href="http://markos.gaivo.net/blog/?p=34">here.</a></em></p>
+            </div><!-- /.entry-content -->
+
+            <footer class="post-metadata">
+                <ul>
+                    <li>Published on <time datetime="2005-09-28T10:53:00+02:00">Wed 28 September 2005</time> </li>
+                    <li><a href="/scaling-image-buttons.html">Add your comment</a></li>
+                </ul>
+            </footer>
+        </article>
+        <article class="hentry">
+            <h1 class="entry-title storytitle"><a href="/spletne-urice-v-kiberpipi.html" rel="bookmark" title="Permalink to Spletne urice v kiberpipi">Spletne urice v kiberpipi</a></h1>
+
+            <div class="entry-content post-text">
+                <p>I apologize in advance to anyone reading this who can't understand
+Slovene, but the next announcement is of very local nature and probably
+of interest only to Slovene speaking people actually living in Slovenia.</p>
+<p>Z oktobrom se ponovno odpirajo vrata <a href="www.kiberpipa.org">Kiberpipe</a> in
+jesen prinaša novost. Spletne urice, serija rednih tedenskih predavanj o
+spletu in spletnih tehnologijah namenjenih predvsem izkušenim
+razvijalcem, oblikovalcem in skrbnikom, ki bi radi poglobili svoje
+znanje, predstavili svoje izkušnje ali pa se preprosto sre??ali in
+pogovorili z drugimi spletnimi sotrpini.</p>
+<p>V sredo, 5. oktobra, ob 19.00 bo na sporedu prvo predavanje. Jure Koren
+bo v predavanju z naslovom PHP v ??asu terorizma predstavil prijeme, s
+katerimi se izognemo temu, da bi naša PHP aplikacija bila vstopna to??ka
+za internetne vlomilce.</p>
+<p>Upam, da nas bo tam ??im ve??.</p>
+            </div><!-- /.entry-content -->
+
+            <footer class="post-metadata">
+                <ul>
+                    <li>Published on <time datetime="2005-09-27T09:59:00+02:00">Tue 27 September 2005</time> </li>
+                    <li><a href="/spletne-urice-v-kiberpipi.html">Add your comment</a></li>
+                </ul>
+            </footer>
+        </article>
+
+<p class="paginator">
+        <a href="/author/markos101.html">&laquo;</a>
+    Page 102 / 111
+        <a href="/author/markos103.html">&raquo;</a>
+</p>
+</section><!-- /#content -->
+
+    <footer>
+        <ul>
+            <li>&copy; 2005-2015 Marko Samastur</li>
+            <li><a href="/articles/feeds/rss.xml" rel="alternate" title="A notch above a monkey Full RSS Feed">Entries feed</a></li>
+        </ul>
+        <a href="/"><img src="/img/markos_light_small_bg.png" alt="logo" class="mini-logo" /></a>
+    </footer>
+</body>
+</html>

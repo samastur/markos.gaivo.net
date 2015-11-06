@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+          <title>A notch above a monkey</title>
+        <meta charset="utf-8" />
+        <link rel="shortcut icon" href="theme/img/markos.ico" />
+
+        <link href="http://fast.fonts.com/cssapi/aee9b60b-8e94-47f8-b586-3ecbfab51d1c.css" rel="stylesheet" type="text/css" />
+        <link rel="stylesheet" type="text/css" href="theme/css/home.css" media="screen" title="Light theme" />
+        <link rel="alternate stylesheet" type="text/css" href="theme/css/home_dark.css" media="screen" title="Dark theme" />
+        <link rel="stylesheet" href="theme/css/ipad.css" media="only screen and (min-device-width : 768px) and (max-device-width : 1024px)">
+        <link rel="stylesheet" type="text/css" href="theme/css/smallscreen.css" media="only screen and (max-width: 700px)" />
+
+        <link href="/articles/feeds/atom.xml" type="application/atom+xml" rel="alternate" title="A notch above a monkey Full Atom Feed" />
+        <link href="/articles/feeds/rss.xml" type="application/rss+xml" rel="alternate" title="A notch above a monkey Full RSS Feed" />
+
+
+
+
+</head>
+
+<body>
+<header id="banner" class="body">
+    <h1><a href="/">A notch above a monkey</a> &raquo; Javascript accessibility woes - part 1</h1>
+</header><!-- /#banner -->
+
+<section class="envelope">
+    <article class="post">
+        <header class="entry-title">
+            <h1 class="entry-title">Javascript accessibility woes - part 1</h1>
+         
+        </header>
+
+        <footer class="post-info">
+            <ul>
+                <li class="by">Written by: <a href="/">Marko Samastur</a></li>
+                <li class="published">Published on: <time datetime="2005-06-14T19:44:00+02:00" pubdate>Tue 14 June 2005</time></li>
+                <li class="categories">Category: Javascript
+                </li>
+            </ul>
+
+        </footer><!-- /.post-info -->
+
+        <div class="post-text">
+            <p>It's been really great talking to <a href="http://www.andybudd.com/">Andy</a>,
+<a href="http://www.adactio.com">Jeremy</a>, <a href="http://www.kryogenix.org/">Stuart</a>
+and <a href="http://www.boxofchocolates.ca/">Derek</a> at javascript get-together
+and they certainly convinced me that I could and should do more to make
+my web applications accessible. However after a few days of thinking, I
+still have issues that seem to lack a good solution.</p>
+<p>First of them is <em>window.onload</em>. Ppk already
+<a href="http://www.quirksmode.org/blog/archives/2005/06/11_june_london.html">explained</a>
+the problem quite well. There's also a workaround, which I admit I'm
+using right now, and that is to have an inline event handler on body
+tag. There are only two problems with this approach:</p>
+<ol>
+<li>inline event handlers are even more despised than inline CSS styles</li>
+<li>we are mixing XHTML/HTML with Javascript, which is a no-no as well</li>
+<li>it doesn't really work if you don't have at least a simple function
+    to check and handle, if external javascript code has been loaded yet</li>
+</ol>
+<p>Personally, I think all points make a lot of sense when not taken to
+extreme. I sincerely doubt that webpage/application suffers a lot, if
+this is the only inline event handler in the whole document and inlined
+code in head is kept to minimum. We often use CSS to add behavior
+(a:hover), where it just makes sense and I think we should be able to
+use inline Javascript on occasions as well.</p>
+<p>In my case, I'm living in a country, where majority of users are still
+on a dial-up and most of them will stay there for a while. Since parts
+of my application can fetch 20 or more 5-10K sized images on a single
+page, I don't want to force users to wait 20 seconds or more before
+application starts to behave reasonably. I also can't rely on x/html
+layer behavior because of framestack javascript technique and their
+problems, about which I plan to write more in the following few days.</p>
+<p>The only other alternative I see right now is to hide UI by default and
+display it using Javascript, which is hardly an improvement. If
+anything, it's a step back.</p>
+<p>I guess I'm in this mess because I didn't build an html version first
+and upgraded it with Javascript. Why this happened and how come I don't
+think it was necessarily a bad thing, is a topic for another day. But it
+certainly left me with a puzzle to solve.</p>
+<p>So, any ideas, apart from obvious one of having a working html version
+with added javascript?</p>
+<p><strong>Update:</strong> Ppk
+<a href="http://www.quirksmode.org/blog/archives/2005/06/you_shouldve_be_1.html">does</a>.</p>
+        </div><!-- /.entry-content -->
+
+        <div id="disqus_thread"></div>
+        <script type="text/javascript">
+            /* * * CONFIGURATION VARIABLES * * */
+            var disqus_shortname = 'markosgaivo';
+
+            /* * * DON'T EDIT BELOW THIS LINE * * */
+            (function() {
+                var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+                dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+                (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+            })();
+        </script>
+        <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript" rel="nofollow">comments powered by Disqus.</a></noscript>
+    </article>
+</section>
+
+    <footer>
+        <ul>
+            <li>&copy; 2005-2015 Marko Samastur</li>
+            <li><a href="/articles/feeds/rss.xml" rel="alternate" title="A notch above a monkey Full RSS Feed">Entries feed</a></li>
+        </ul>
+        <a href="/"><img src="/img/markos_light_small_bg.png" alt="logo" class="mini-logo" /></a>
+    </footer>
+</body>
+</html>

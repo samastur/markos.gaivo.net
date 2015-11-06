@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+        <title>A notch above a monkey - Articles by markos</title>
+        <meta charset="utf-8" />
+        <link rel="shortcut icon" href="theme/img/markos.ico" />
+
+        <link href="http://fast.fonts.com/cssapi/aee9b60b-8e94-47f8-b586-3ecbfab51d1c.css" rel="stylesheet" type="text/css" />
+        <link rel="stylesheet" type="text/css" href="theme/css/home.css" media="screen" title="Light theme" />
+        <link rel="alternate stylesheet" type="text/css" href="theme/css/home_dark.css" media="screen" title="Dark theme" />
+        <link rel="stylesheet" href="theme/css/ipad.css" media="only screen and (min-device-width : 768px) and (max-device-width : 1024px)">
+        <link rel="stylesheet" type="text/css" href="theme/css/smallscreen.css" media="only screen and (max-width: 700px)" />
+
+        <link href="/articles/feeds/atom.xml" type="application/atom+xml" rel="alternate" title="A notch above a monkey Full Atom Feed" />
+        <link href="/articles/feeds/rss.xml" type="application/rss+xml" rel="alternate" title="A notch above a monkey Full RSS Feed" />
+</head>
+
+<body>
+
+<h2>Articles by markos</h2>
+
+<section class="envelope posts">
+    <header>
+        <h1><a href="/">A notch above a monkey <strong></strong></a></h1>
+    </header><!-- /#banner -->
+
+    <nav class="colophon">
+        <h1>By Marko Samastur</h1>
+        <ul>
+            <li><a href="/">About me</a></li>
+            <li><a href="http://markos.gaivo.net/blog/?feed=atom">Subscribe</a></li>
+        </ul>
+    </nav>
+
+        <article class="hentry">
+            <h1 class="entry-title storytitle"><a href="/role-of-graphic-design.html" rel="bookmark" title="Permalink to Role of graphic design">Role of graphic design</a></h1>
+
+            <div class="entry-content post-text">
+                <p>1st of May is coming closer, when hundreds if not thousands of web
+designers will change the look of their blogs in by now traditional <a href="http://www.cssreboot.com/">CSS
+Reboot</a> day. I find the idea at least odd, if
+not exactly wrong, so this blog won't be one of them.</p>
+<p>As can be clearly seen, I'm not a graphic designer. Even though I'm
+certain my current design is better than previous was, it's not exactly
+good either. There's also a wide consensus that I look best when my wife
+picks the clothes so clearly my eagerness is not matched with ability.
+Then again, it's not my intention to discuss a particular design as much
+as graphic design use and its role in general.</p>
+<p>What bothers me in CSS Reboot is the implicit idea that graphic design
+is just a facade, a fashionable wrapping of content that can be easily
+discarded and replaced with something else on a specific date in year.
+It bothers me that this idea is made explicit in the way every blogging
+software I used works, by slapping chosen graphical theme on every page
+of content, even those created long before this theme came in existence.
+This might be beneficial for a company website, where design is mainly
+exploited to further branding, but do most blogs really fit the same
+mold?</p>
+<p>I'm sure there are cases, where graphic design is a thing of fashion or
+where it's the story itself. But more often than not it's something that
+not only presents the content in usable manner, it communicates what it
+is and helps to frame it in space and time. Ideally it would change only
+when direction, vision of site changes and only where it actually does
+so.</p>
+<p>I don't write in a vacuum and not much if anything I wrote is of lasting
+value. I wish I was like <a href="http://weblog.infoworld.com/udell/">Jon Udell</a>
+and my writings would still be relevant years after they were published,
+but I'm not. What I write is neither timeless nor does it constitute one
+coherent whole and it's vexing that design by its singularity implies
+that.</p>
+<p>In truth, the problem is not so much with Reboot, which even though they
+should know better only implies values I don't share, but certainly
+doesn't enforce them on participants. The problem really lies in modern
+widely used content management systems which as all software embodies
+values and prejudices of their creators and their accomplices, too often
+rather ignorant users .</p>
+            </div><!-- /.entry-content -->
+
+            <footer class="post-metadata">
+                <ul>
+                    <li>Published on <time datetime="2006-04-16T21:05:00+02:00">Sun 16 April 2006</time> </li>
+                    <li><a href="/role-of-graphic-design.html">Add your comment</a></li>
+                </ul>
+            </footer>
+        </article>
+        <article class="hentry">
+            <h1 class="entry-title storytitle"><a href="/robot-exclusion-profile.html" rel="bookmark" title="Permalink to Robot Exclusion Profile">Robot Exclusion Profile</a></h1>
+
+            <div class="entry-content post-text">
+                <p>As could be expected, I wasn't the first one who thought about
+controlling spiders more granularly. Even though I prefer deny-allow
+idea that <a href="http://friedcellcollective.net/outbreak/">Fry</a> and I came up
+with after a lively debate yesterday, I think <a href="http://microformats.org/wiki/robots-exclusion" title="Link to format specification">Robot Exclusion
+Profile</a>
+(REP) microformat is not a bad start. Actually, it's quite good with a
+few open <a href="http://microformats.org/wiki/robots-exclusion#Issues">issues</a>
+that mostly shouldn't be too difficult to resolve.</p>
+<h4>Precedence</h4>
+<p>I don't think it matters what policy you have when dealing with
+conflicting classes set on the same element, as long as you choose one.
+Personally, I'd mimic CSS way and go for last definition stays. So
+<em>class="robots-nofollow robots-follow"</em> would be equal to
+<em>class="robots-follow"</em>. I'd say the same order precedence also should
+stand in <em>class="robots-follow" rel="nofollow"</em> case.</p>
+<p>Toolkits might have a problem with this approach, since you often can't
+tell in which order were attributes set. If this is deemed important,
+then I think a reasonable approach in case of conflict is to simply
+ignore <strong>all</strong> exclusion attributes.</p>
+<p>However, I think there's another ambiguity that hasn't been mentioned.
+What should a spider do, if it encounters something like this:<br />
+<codeins ="robots-exclusion"></codeins></p>
+<p>It's a valid scenario. Imagine your average blog sidebar, which includes
+navigational items like archives that probably don't belong in index,
+but can also include stuff like current post categories, which should.</p>
+<p>I think specification heavily implies CSS approach to this (the most
+specific value wins) and that spider should process all elements, even
+those included inside of parts that might later get ignored. Still, it
+would be nice if this was explicitly written.</p>
+<h4>Specificity</h4>
+<p>I simply don't care. Even without control of specific UA it's clearly a
+superset of today's behavior. It doesn't remove anything. It only adds
+control and in a way, where default behavior is today's behavior. So it
+could hardly be less intrusive.</p>
+<p>I also think proposed solution for the problem is good enough, but we
+could add this later on, if needed.</p>
+<h4>Suitability as a microformat</h4>
+<p>Well, this is the though one. I don't think there's much if any
+difference between
+<a href="http://microformats.org/wiki/relnofollow">relnofollow</a> and this
+specification (REP being really only a moderate extension of
+relnofollow). In both cases human's don't really come first before
+computers or at least not directly. In both cases you want to influence
+search engines to produce better search results, which consequently
+helps humans.</p>
+<p>I see myself as a technological pragmatist so I care more about the end
+result then sticking to some high ideal. If it's accepted that
+controlling spider behavior would be beneficial and I see no opposition
+to this idea, then it seems obvious that a reasonable end product
+(specification) will look a lot like a defined microformat.</p>
+<p>So is the problem really only in daring to call it a microformat and
+sticking it on a microformats website?</p>
+            </div><!-- /.entry-content -->
+
+            <footer class="post-metadata">
+                <ul>
+                    <li>Published on <time datetime="2006-04-13T22:54:00+02:00">Thu 13 April 2006</time> </li>
+                    <li><a href="/robot-exclusion-profile.html">Add your comment</a></li>
+                </ul>
+            </footer>
+        </article>
+        <article class="hentry">
+            <h1 class="entry-title storytitle"><a href="/ajax-workshop-2.html" rel="bookmark" title="Permalink to AJAX workshop">AJAX workshop</a></h1>
+
+            <div class="entry-content post-text">
+                <p>Fry
+<a href="http://friedcellcollective.net/outbreak/2006/04/12/ajax-workshop/">said</a>:</p>
+<blockquote>
+<p>We’re preparing a workshop at Spletne urice (???Web hours??? in
+Slovenian, a weekly meeting of web enthusiasts) that will focus on
+AJAX, hosted by me and another Marko. Actually we’re preparing two of
+them. The first one will cover the basics of asynchronous transport
+and data, the second one will add some DOM scripting and review some
+AJAX frameworks.</p>
+</blockquote>
+<p>Being the other Marko I can say this workshop will totally rock. It has
+to, because AJAX is cool, right? Instant fame, riches and all that.</p>
+<p>Seriously though, I do believe it will be a great experience for those
+who'll attend. Everyone is welcome, but only first 10, sorry, 9
+<a href="http://web.zen.si/archives/2006/04/ajax-workshop/">registered</a> will get
+this chance because of limits imposed on us by the choice of venue. It's
+even free (not likely to happen again any time soon), so price can be
+hardly something to worry about.</p>
+<p>You can also help us make it better for you by contributing websites
+you'd like to see getting a makeover and telling us as much as you can
+about what you'd like to hear there (and what not).</p>
+<p><strong>Update: Workshop is full and registration is closed. I'm sorry not
+everyone will get a chance to participate, but we might do another one
+later this year.</strong></p>
+            </div><!-- /.entry-content -->
+
+            <footer class="post-metadata">
+                <ul>
+                    <li>Published on <time datetime="2006-04-13T10:31:00+02:00">Thu 13 April 2006</time> </li>
+                    <li><a href="/ajax-workshop-2.html">Add your comment</a></li>
+                </ul>
+            </footer>
+        </article>
+
+<p class="paginator">
+        <a href="/author/markos62.html">&laquo;</a>
+    Page 63 / 111
+        <a href="/author/markos64.html">&raquo;</a>
+</p>
+</section><!-- /#content -->
+
+    <footer>
+        <ul>
+            <li>&copy; 2005-2015 Marko Samastur</li>
+            <li><a href="/articles/feeds/rss.xml" rel="alternate" title="A notch above a monkey Full RSS Feed">Entries feed</a></li>
+        </ul>
+        <a href="/"><img src="/img/markos_light_small_bg.png" alt="logo" class="mini-logo" /></a>
+    </footer>
+</body>
+</html>

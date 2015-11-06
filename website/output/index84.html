@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+        <title>A notch above a monkey</title>
+        <meta charset="utf-8" />
+        <link rel="shortcut icon" href="theme/img/markos.ico" />
+
+        <link href="http://fast.fonts.com/cssapi/aee9b60b-8e94-47f8-b586-3ecbfab51d1c.css" rel="stylesheet" type="text/css" />
+        <link rel="stylesheet" type="text/css" href="theme/css/home.css" media="screen" title="Light theme" />
+        <link rel="alternate stylesheet" type="text/css" href="theme/css/home_dark.css" media="screen" title="Dark theme" />
+        <link rel="stylesheet" href="theme/css/ipad.css" media="only screen and (min-device-width : 768px) and (max-device-width : 1024px)">
+        <link rel="stylesheet" type="text/css" href="theme/css/smallscreen.css" media="only screen and (max-width: 700px)" />
+
+        <link href="/articles/feeds/atom.xml" type="application/atom+xml" rel="alternate" title="A notch above a monkey Full Atom Feed" />
+        <link href="/articles/feeds/rss.xml" type="application/rss+xml" rel="alternate" title="A notch above a monkey Full RSS Feed" />
+</head>
+
+<body>
+
+
+<section class="envelope posts">
+    <header>
+        <h1><a href="/">A notch above a monkey <strong></strong></a></h1>
+    </header><!-- /#banner -->
+
+    <nav class="colophon">
+        <h1>By Marko Samastur</h1>
+        <ul>
+            <li><a href="/">About me</a></li>
+            <li><a href="http://markos.gaivo.net/blog/?feed=atom">Subscribe</a></li>
+        </ul>
+    </nav>
+
+        <article class="hentry">
+            <h1 class="entry-title storytitle"><a href="/ie7-will-remain-to-be-mime-challenged.html" rel="bookmark" title="Permalink to IE7 will remain to be MIME challenged">IE7 will remain to be MIME challenged</a></h1>
+
+            <div class="entry-content post-text">
+                <p>IE7
+<a href="http://blogs.msdn.com/ie/archive/2005/09/15/467901.aspx" title="Link to IEBlog">won't</a>
+support proper MIME type for XHTML. Too bad, since it will permit people
+like <a href="http://www.iprom.si/">these guys</a> to crap on web for a while
+longer.</p>
+            </div><!-- /.entry-content -->
+
+            <footer class="post-metadata">
+                <ul>
+                    <li>Published on <time datetime="2005-12-07T11:49:00+01:00">Wed 07 December 2005</time> </li>
+                    <li><a href="/ie7-will-remain-to-be-mime-challenged.html">Add your comment</a></li>
+                </ul>
+            </footer>
+        </article>
+        <article class="hentry">
+            <h1 class="entry-title storytitle"><a href="/places-to-use-ajax.html" rel="bookmark" title="Permalink to Places to use AJAX">Places to use AJAX</a></h1>
+
+            <div class="entry-content post-text">
+                <p>Alex Bosworth wrote a great
+<a href="http://www.sourcelabs.com/blogs/ajb/2005/12/10_places_you_must_use_ajax.html" title="Alex's post about applicability of AJAX">post</a>
+about when to use AJAX and when not to.</p>
+            </div><!-- /.entry-content -->
+
+            <footer class="post-metadata">
+                <ul>
+                    <li>Published on <time datetime="2005-12-06T10:05:00+01:00">Tue 06 December 2005</time> </li>
+                    <li><a href="/places-to-use-ajax.html">Add your comment</a></li>
+                </ul>
+            </footer>
+        </article>
+        <article class="hentry">
+            <h1 class="entry-title storytitle"><a href="/speed-match-json-vs-xml.html" rel="bookmark" title="Permalink to Speed match: JSON vs. XML">Speed match: JSON vs. XML</a></h1>
+
+            <div class="entry-content post-text">
+                <p>I started playing with AJAX before it got its silly name and true to X I
+used XML in my application. At least at first.</p>
+<p>What I discovered is that flicker caused by processing data and
+simultaneously writing results to document can be completely removed if
+I do a Google and fetch javascript object instead (what later became
+<a href="http://www.crockford.com/JSON/index.html">JSON</a>) and use that.
+Difference was so vivid, I dropped XML almost completely.</p>
+<p>Fast forward to autumn. There's a debate after our regular weekly talk
+and a question comes up. Why would Google or anyone else for that matter
+choose to use something else than XML?</p>
+<p>Relying on personal experience I offered speed as obvious and most
+important reason. I couldn't back it up, but since I've seen it with my
+own eyes, I didn't doubt it either. It wasn't the sole reason. I find
+dabbling with javascript objects simply easier than handling XML and
+I'll care about XSLT when javascript in Safari can access it.</p>
+<p>I got reminded of our discussion when I read <a href="http://www.xml.com/lpt/a/2005/11/30/tuning-ajax-performance.html">this
+article</a>.
+Read it, if you haven't yet, because it's well worth it. Anyhow, I
+decided to make a new test. I wrote a simple <a href="http://markos.gaivo.net/examples/jsbench/test.html">test
+page</a>, that fetches
+<a href="http://markos.gaivo.net/examples/jsbench/jssample.raw">sample json
+file</a> and
+basically equal <a href="http://markos.gaivo.net/examples/jsbench/xmlsample.xml">xml
+sample</a> and
+measures how much time it takes to fetch same data.</p>
+<p>Result?</p>
+<p>After 15 minutes of wild reloading in different browsers (Safari 1.3+,
+FF1.0, IE6) and different local and non-local servers, I can't see a
+difference that couldn't be attributed to latency. It seems browsers
+have moved on and there's little reason to avoid using XML today.</p>
+<p>So use whatever you like most.</p>
+            </div><!-- /.entry-content -->
+
+            <footer class="post-metadata">
+                <ul>
+                    <li>Published on <time datetime="2005-12-05T19:41:00+01:00">Mon 05 December 2005</time> </li>
+                    <li><a href="/speed-match-json-vs-xml.html">Add your comment</a></li>
+                </ul>
+            </footer>
+        </article>
+
+<p class="paginator">
+        <a href="/index83.html">&laquo;</a>
+    Page 84 / 111
+        <a href="/index85.html">&raquo;</a>
+</p>
+</section><!-- /#content -->
+
+    <footer>
+        <ul>
+            <li>&copy; 2005-2015 Marko Samastur</li>
+            <li><a href="/articles/feeds/rss.xml" rel="alternate" title="A notch above a monkey Full RSS Feed">Entries feed</a></li>
+        </ul>
+        <a href="/"><img src="/img/markos_light_small_bg.png" alt="logo" class="mini-logo" /></a>
+    </footer>
+</body>
+</html>

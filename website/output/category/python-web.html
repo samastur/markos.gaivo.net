@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+        <title>A notch above a monkey</title>
+        <meta charset="utf-8" />
+        <link rel="shortcut icon" href="theme/img/markos.ico" />
+
+        <link href="http://fast.fonts.com/cssapi/aee9b60b-8e94-47f8-b586-3ecbfab51d1c.css" rel="stylesheet" type="text/css" />
+        <link rel="stylesheet" type="text/css" href="theme/css/home.css" media="screen" title="Light theme" />
+        <link rel="alternate stylesheet" type="text/css" href="theme/css/home_dark.css" media="screen" title="Dark theme" />
+        <link rel="stylesheet" href="theme/css/ipad.css" media="only screen and (min-device-width : 768px) and (max-device-width : 1024px)">
+        <link rel="stylesheet" type="text/css" href="theme/css/smallscreen.css" media="only screen and (max-width: 700px)" />
+
+        <link href="/articles/feeds/atom.xml" type="application/atom+xml" rel="alternate" title="A notch above a monkey Full Atom Feed" />
+        <link href="/articles/feeds/rss.xml" type="application/rss+xml" rel="alternate" title="A notch above a monkey Full RSS Feed" />
+</head>
+
+<body>
+
+<h2>Articles in the Python, Web category</h2>
+
+<section class="envelope posts">
+    <header>
+        <h1><a href="/">A notch above a monkey <strong></strong></a></h1>
+    </header><!-- /#banner -->
+
+    <nav class="colophon">
+        <h1>By Marko Samastur</h1>
+        <ul>
+            <li><a href="/">About me</a></li>
+            <li><a href="http://markos.gaivo.net/blog/?feed=atom">Subscribe</a></li>
+        </ul>
+    </nav>
+
+        <article class="hentry">
+            <h1 class="entry-title storytitle"><a href="/leaving-app-engine-for-now.html" rel="bookmark" title="Permalink to Leaving App Engine - for now">Leaving App Engine - for now</a></h1>
+
+            <div class="entry-content post-text">
+                <p>Jonathan
+<a href="http://spyced.blogspot.com/2008/08/app-engine-conclusions.html#">wrote</a>
+his thoughts about <a href="http://appengine.google.com" title="Google App Engine">App
+Engine</a>. They are well
+worth a read if you are thinking about using it, but haven't so far. I
+used App Engine sporadically for a couple of months on a project of
+mine, but I finally gave up and ended porting my code to pure
+<a href="http://www.djangoproject.com" title="Django (web framework)">Django</a>, which
+admittedly wasn't too hard to do at this point in time.</p>
+<p>Some of my reasons match Jonathan's. There were too many rough edges to
+feel really productive and too much time was wasted on trying to find
+out if problem lies in poor documentation, incomplete implementation or
+stupid programmer. I probably will never get answers to questions like
+how can a simple Django view that doesn't do anything beside rendering a
+static template, consume above expected amount of CPU and risk
+triggering quota blockage, but right now I really don't care anymore.</p>
+<p>Integrating <a href="http://www.crunchbase.com/company/google" title="Google">Google</a>
+accounts is indeed easy, but it is also very shallow to the point of
+being practically useless.  You basically can only rely on fact that
+reference to a particular user won't change. Anything else you may think
+you know (like an email address), can't be relied upon. You can't create
+an account and you can't even control login form of your service. In
+essence you don't have your own users, you can just offer a service to
+Google's.</p>
+<p>For me this was one of two major reasons for my decision. Every person
+who would need an account to use what I am building would need to agree
+to Google's
+<a href="http://en.wikipedia.org/wiki/Terms_of_service" title="Terms of service">TOS</a>
+agreement which defines many things, among others the highest level of
+privacy I can offer.</p>
+<p>The other reason was that current limitations of App Engine really lead
+you to rely heavily on provided APIs, which may be similar to stuff out
+there (like Django), but aren't anywhere close to being a drop-in
+replacement. This can be -- depending on application you're writing -- a
+heavy investement in a platform you don't control a bit.</p>
+<p>Put more profanely, you are a Google's bitch.</p>
+<p>Having said all this, I do think App Engine is a very valuable service.
+If you want to write a mini-app, a web tool like
+<a href="http://simonwillison.net/" title="Simon's homepage">Simon</a>
+<a href="http://simonwillison.net/2008/Jul/29/jsonhead/" title="Post about json-head service">does</a>,
+then App Engine is brilliant. You can do this easily with little
+deployment and zero administration hassle. In fact I can't think of any
+other service better suited to this task.</p>
+<p>I'm sure this is not the only scenario in which App Engine makes sense
+and there are others I haven't named or thought of. Issues, like
+accounts, can with some effort be solved now. But App Engine also isn't
+(yet) what some of us were hoping for and it's prudent to really think
+through what you want, what you need and what App Engine actually
+offers.</p>
+<div class="zemanta-pixie">
+
+[![Reblog this post [with
+Zemanta]](http://img.zemanta.com/reblog_e.png?x-id=28ddae75-72ba-4a45-892e-7841f893395b)](http://reblog.zemanta.com/zemified/28ddae75-72ba-4a45-892e-7841f893395b/ "Zemified by Zemanta")
+
+</div>
+            </div><!-- /.entry-content -->
+
+            <footer class="post-metadata">
+                <ul>
+                    <li>Published on <time datetime="2008-08-30T21:50:00+02:00">Sat 30 August 2008</time> </li>
+                    <li><a href="/leaving-app-engine-for-now.html">Add your comment</a></li>
+                </ul>
+            </footer>
+        </article>
+        <article class="hentry">
+            <h1 class="entry-title storytitle"><a href="/in-search-of-easy-templating.html" rel="bookmark" title="Permalink to In search of easy templating">In search of easy templating</a></h1>
+
+            <div class="entry-content post-text">
+                <p>I find it a bit amusing that when Python community is eagerly discussing
+which web framework and approach to web is better, I come around looking
+to do my very own thing.</p>
+<p>I'm looking for web templating that would meet the following criteria:</p>
+<ul>
+<li>is fairly easy to implement</li>
+<li>is even easier to use for templates (goal: accessible to hobbyists)</li>
+<li>doesn't require a web server to develop and test a web template</li>
+<li>doesn't require to learn another templating language or keeps it to
+    minimum</li>
+</ul>
+<p>In short, I want to be able to write a web template in any decent (web)
+editor under the sun and test it locally in my browser. I'm not looking
+for anything fancy. I only have to be able to recognize hotspots and
+support very simple iterators.</p>
+<p>What I mean by hotspots is recognizing template elements that can be
+changed (e.g. images whose <em>src</em> attribute can be changed for special
+needs). Iterators should only be able to specify how many times they can
+iterate.</p>
+<p>My current approach to this is using XHTML elements and attributes.
+Hotspots could be defined with <em>class</em> and <em>id</em> attributes and iterators
+would be defined with <em>div</em> elements, since by default they leave the
+layout alone. Specifying an iterator would be a case of applying a class
+<em>templIterator</em> to an element and using a custom attribute like
+<em>tmplTimes</em>, that would be stripped from final page.</p>
+<p>I would plan to add <em>tmplComment</em> class to specify sections that would
+be removed from resulting page, since this could be used to build and
+test a page without iterator actually working.</p>
+<p>An example:<br />
+<codeins ="template1"></codeins></p>
+<p>In this example we have an unordered list where <em>li</em> elements can be
+iterated 3 times. Second and third one are there only for testing
+purposes and would be replaced by real elements from an iterator.
+Hotspot class would be used to mark an image for manipulation.</p>
+<p>I hope it's obvious what I'm trying to do, although knowing me I doubt
+it. Can anyone see a problem with this approach or knows a better way to
+meet my needs?</p>
+            </div><!-- /.entry-content -->
+
+            <footer class="post-metadata">
+                <ul>
+                    <li>Published on <time datetime="2006-02-03T22:07:00+01:00">Fri 03 February 2006</time> </li>
+                    <li><a href="/in-search-of-easy-templating.html">Add your comment</a></li>
+                </ul>
+            </footer>
+        </article>
+        <article class="hentry">
+            <h1 class="entry-title storytitle"><a href="/favorite-python-blog.html" rel="bookmark" title="Permalink to Favorite python blog">Favorite python blog</a></h1>
+
+            <div class="entry-content post-text">
+                <p>I've rarely, well never really, promoted a blog, but I think <a href="http://blog.ianbicking.org/" title="Ian's blog">Ian
+Bicking's blog</a> really is a
+must read for every python web developer. I wish reading my blog was
+never a waste of time.</p>
+            </div><!-- /.entry-content -->
+
+            <footer class="post-metadata">
+                <ul>
+                    <li>Published on <time datetime="2005-12-22T18:22:00+01:00">Thu 22 December 2005</time> </li>
+                    <li><a href="/favorite-python-blog.html">Add your comment</a></li>
+                </ul>
+            </footer>
+        </article>
+
+<p class="paginator">
+    Page 1 / 3
+        <a href="/category/python-web2.html">&raquo;</a>
+</p>
+</section><!-- /#content -->
+
+    <footer>
+        <ul>
+            <li>&copy; 2005-2015 Marko Samastur</li>
+            <li><a href="/articles/feeds/rss.xml" rel="alternate" title="A notch above a monkey Full RSS Feed">Entries feed</a></li>
+        </ul>
+        <a href="/"><img src="/img/markos_light_small_bg.png" alt="logo" class="mini-logo" /></a>
+    </footer>
+</body>
+</html>

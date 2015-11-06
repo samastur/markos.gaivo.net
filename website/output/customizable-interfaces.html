@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+          <title>A notch above a monkey</title>
+        <meta charset="utf-8" />
+        <link rel="shortcut icon" href="theme/img/markos.ico" />
+
+        <link href="http://fast.fonts.com/cssapi/aee9b60b-8e94-47f8-b586-3ecbfab51d1c.css" rel="stylesheet" type="text/css" />
+        <link rel="stylesheet" type="text/css" href="theme/css/home.css" media="screen" title="Light theme" />
+        <link rel="alternate stylesheet" type="text/css" href="theme/css/home_dark.css" media="screen" title="Dark theme" />
+        <link rel="stylesheet" href="theme/css/ipad.css" media="only screen and (min-device-width : 768px) and (max-device-width : 1024px)">
+        <link rel="stylesheet" type="text/css" href="theme/css/smallscreen.css" media="only screen and (max-width: 700px)" />
+
+        <link href="/articles/feeds/atom.xml" type="application/atom+xml" rel="alternate" title="A notch above a monkey Full Atom Feed" />
+        <link href="/articles/feeds/rss.xml" type="application/rss+xml" rel="alternate" title="A notch above a monkey Full RSS Feed" />
+
+
+
+
+</head>
+
+<body>
+<header id="banner" class="body">
+    <h1><a href="/">A notch above a monkey</a> &raquo; Customizable interfaces</h1>
+</header><!-- /#banner -->
+
+<section class="envelope">
+    <article class="post">
+        <header class="entry-title">
+            <h1 class="entry-title">Customizable interfaces</h1>
+         
+        </header>
+
+        <footer class="post-info">
+            <ul>
+                <li class="by">Written by: <a href="/">Marko Samastur</a></li>
+                <li class="published">Published on: <time datetime="2006-03-23T20:32:00+01:00" pubdate>Thu 23 March 2006</time></li>
+                <li class="categories">Category: Javascript, UI, Web
+                </li>
+            </ul>
+
+        </footer><!-- /.post-info -->
+
+        <div class="post-text">
+            <p>There's a vast number of potential Marela features that we are able, but
+not willing to implement, since they are detrimental to our design
+goals. There are also many, which we are willing and will implement, but
+it doesn't change the fact that there will always be parts where we
+won't compromise.</p>
+<p>Still, even though it seems natural that benefits to many should be more
+important than benefits to few, I never got quite comfortable with this.
+That's why we also want to make Marela as open as possible to let our
+members customize it without affecting other people.</p>
+<p>First, there are public APIs. They tend to work well for building new
+tools or interfaces, but offer little help in customizing existing ones.
+Which is what our users want most of the time.</p>
+<p>Every modern browser lets users define a custom style sheet to change
+the presentation of websites. That's why we recently added ID to body
+element, which lets users more <a href="http://archivist.incutio.com/viewlist/css-discuss/13291">easily
+customize</a> the
+look of Marela alone.</p>
+<p>Then there are tools like
+<a href="http://greasemonkey.mozdev.org/">Greasemonkey</a>, which let proficient
+users using Mozilla based browsers customizing existing interfaces.
+Greasemonkey works quite well, if you're proficient in Javascript.</p>
+<p>I think the biggest problem with Greasemonkey (and custom CSS for that
+matter) is that it's tied to a browser and a computer. If you change
+either of them, your customization won't work anymore without
+significant effort on your part. Sometimes, in restricted environments,
+it's not even possible to make it work. It's a bit easier to make and
+transfer CSS customizations, but you're still forced to carry your file
+around.</p>
+<p>I'm not too bothered with CSS. I simply don't see much need for it
+beyond what Marela's design and modern browsers already offer and I'm
+still biased against skin-deep themes offered by some programs. In any
+case a possible solution for it would be practically the same as what I
+have in mind for a case that does trouble me.</p>
+<p>Idea is pretty simple. Define javascript hooks that get called after
+window.onload event when they exist. If there's an easy way to add your
+javascript file to a page (say, by uploading it to our server), then you
+can create a simple, but cross-browser and cross-computer Greasemonkey.</p>
+<p>Question that remains is, is this appealing enough for you to use it?</p>
+        </div><!-- /.entry-content -->
+
+        <div id="disqus_thread"></div>
+        <script type="text/javascript">
+            /* * * CONFIGURATION VARIABLES * * */
+            var disqus_shortname = 'markosgaivo';
+
+            /* * * DON'T EDIT BELOW THIS LINE * * */
+            (function() {
+                var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+                dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+                (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+            })();
+        </script>
+        <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript" rel="nofollow">comments powered by Disqus.</a></noscript>
+    </article>
+</section>
+
+    <footer>
+        <ul>
+            <li>&copy; 2005-2015 Marko Samastur</li>
+            <li><a href="/articles/feeds/rss.xml" rel="alternate" title="A notch above a monkey Full RSS Feed">Entries feed</a></li>
+        </ul>
+        <a href="/"><img src="/img/markos_light_small_bg.png" alt="logo" class="mini-logo" /></a>
+    </footer>
+</body>
+</html>

@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+        <title>A notch above a monkey - Articles by markos</title>
+        <meta charset="utf-8" />
+        <link rel="shortcut icon" href="theme/img/markos.ico" />
+
+        <link href="http://fast.fonts.com/cssapi/aee9b60b-8e94-47f8-b586-3ecbfab51d1c.css" rel="stylesheet" type="text/css" />
+        <link rel="stylesheet" type="text/css" href="theme/css/home.css" media="screen" title="Light theme" />
+        <link rel="alternate stylesheet" type="text/css" href="theme/css/home_dark.css" media="screen" title="Dark theme" />
+        <link rel="stylesheet" href="theme/css/ipad.css" media="only screen and (min-device-width : 768px) and (max-device-width : 1024px)">
+        <link rel="stylesheet" type="text/css" href="theme/css/smallscreen.css" media="only screen and (max-width: 700px)" />
+
+        <link href="/articles/feeds/atom.xml" type="application/atom+xml" rel="alternate" title="A notch above a monkey Full Atom Feed" />
+        <link href="/articles/feeds/rss.xml" type="application/rss+xml" rel="alternate" title="A notch above a monkey Full RSS Feed" />
+</head>
+
+<body>
+
+<h2>Articles by markos</h2>
+
+<section class="envelope posts">
+    <header>
+        <h1><a href="/">A notch above a monkey <strong></strong></a></h1>
+    </header><!-- /#banner -->
+
+    <nav class="colophon">
+        <h1>By Marko Samastur</h1>
+        <ul>
+            <li><a href="/">About me</a></li>
+            <li><a href="http://markos.gaivo.net/blog/?feed=atom">Subscribe</a></li>
+        </ul>
+    </nav>
+
+        <article class="hentry">
+            <h1 class="entry-title storytitle"><a href="/multitasking-with-post-requests.html" rel="bookmark" title="Permalink to Multitasking with POST requests?">Multitasking with POST requests?</a></h1>
+
+            <div class="entry-content post-text">
+                <p>I have a kinky wish. I'd like to submit a web form that wouldn't get
+canceled if I clicked another link before its completion.</p>
+<p>Browsers normally don't work like this. They interpret subsequent clicks
+on active elements as a change of heart on user's part and cancel
+previous clicks in favor of last one. Most of the time this is exactly
+what you'd want and expect.</p>
+<p>However, sometimes it isn't. I'd like to open a new window for upload
+progress bar and release the old one so users can continue working
+without waiting for upload to finish. I suspect it can't be done though.</p>
+<p>Has anyone had more luck with this?</p>
+            </div><!-- /.entry-content -->
+
+            <footer class="post-metadata">
+                <ul>
+                    <li>Published on <time datetime="2005-12-15T20:34:00+01:00">Thu 15 December 2005</time> </li>
+                    <li><a href="/multitasking-with-post-requests.html">Add your comment</a></li>
+                </ul>
+            </footer>
+        </article>
+        <article class="hentry">
+            <h1 class="entry-title storytitle"><a href="/telemarketing-scum.html" rel="bookmark" title="Permalink to Telemarketing scum">Telemarketing scum</a></h1>
+
+            <div class="entry-content post-text">
+                <p>I've spent yesterday on Vienna, which was very cold and very snow-less.
+As it always happens, I get most phone calls when I have the least time
+for them and they cost me the most.</p>
+<p>One of them was from telemarketing scum. Do you know what they thought
+I've been really missing?</p>
+<p>A course on how to use computers.</p>
+            </div><!-- /.entry-content -->
+
+            <footer class="post-metadata">
+                <ul>
+                    <li>Published on <time datetime="2005-12-13T09:07:00+01:00">Tue 13 December 2005</time> </li>
+                    <li><a href="/telemarketing-scum.html">Add your comment</a></li>
+                </ul>
+            </footer>
+        </article>
+        <article class="hentry">
+            <h1 class="entry-title storytitle"><a href="/look-ma-html-too.html" rel="bookmark" title="Permalink to Look ma', HTML too">Look ma', HTML too</a></h1>
+
+            <div class="entry-content post-text">
+                <p>This is a second post in hopefully a very short series dedicated to
+javascript internationalization. If you want, you can read the first one
+<a href="http://markos.gaivo.net/blog/?p=90">here</a>.</p>
+<p>We left off with two supporting functions for striping whitespace and a
+simple function for translation lookup. Today I added another two
+functions, one for translating HTML elements and the other for resolving
+a problem with HTML entities. You can find new javascript
+<a href="http://markos.gaivo.net/examples/js_i18n/2/translate.js">here</a> and a
+demo <a href="http://markos.gaivo.net/examples/js_i18n/2/index.html">here</a>.</p>
+<p><em>translateNodes</em> searches for elements with class name i18n, picks up
+their text content and translates it, if it can find it in translation
+dictionary. Sometimes it can't, because what javascript actually sees is
+a real utf-8 encoded string, where X/HTML entities have been replaced
+with characters they represent. If this is not true also for source
+string in dictionary, then there's a mismatch.</p>
+<p>That's why there's <em>toEntity</em> function which translates all non-ASCII
+characters in given string to their entity representation. When
+<em>translateNodes</em> fails to find translation, it uses <em>toEntity</em> to get a
+possibly different representation and tries again.</p>
+<p>This way you can use entities, which are the only real cross-browser way
+to describe non-ASCII chars and translations still work. There's a
+downside though. Your translation source string must either have all
+non-ASII characters represented as HTML entities or none of them.
+Otherwise translation will fail for obvious reasons.</p>
+<p>There are planned limitations (like building a system that handles only
+utf-8 text) and unplanned ones. I still don't do anything special for
+strings with significant whitespace (like content of a <em>pre</em> tag) and
+probably should.</p>
+<p>Do nothing = I break it.</p>
+<p>It would be nice, if I started to pack this functionality in a more
+sensible form and build tools that make handling of the whole thing
+easier.</p>
+<p>Next week, which starts in an hour or so, seems perfect time for that.</p>
+<p>Update: Follow up <a href="http://markos.gaivo.net/blog/?p=100">here</a>.</p>
+            </div><!-- /.entry-content -->
+
+            <footer class="post-metadata">
+                <ul>
+                    <li>Published on <time datetime="2005-12-11T23:08:00+01:00">Sun 11 December 2005</time> </li>
+                    <li><a href="/look-ma-html-too.html">Add your comment</a></li>
+                </ul>
+            </footer>
+        </article>
+
+<p class="paginator">
+        <a href="/author/markos81.html">&laquo;</a>
+    Page 82 / 111
+        <a href="/author/markos83.html">&raquo;</a>
+</p>
+</section><!-- /#content -->
+
+    <footer>
+        <ul>
+            <li>&copy; 2005-2015 Marko Samastur</li>
+            <li><a href="/articles/feeds/rss.xml" rel="alternate" title="A notch above a monkey Full RSS Feed">Entries feed</a></li>
+        </ul>
+        <a href="/"><img src="/img/markos_light_small_bg.png" alt="logo" class="mini-logo" /></a>
+    </footer>
+</body>
+</html>

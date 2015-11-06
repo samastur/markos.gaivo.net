@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+        <title>A notch above a monkey</title>
+        <meta charset="utf-8" />
+        <link rel="shortcut icon" href="theme/img/markos.ico" />
+
+        <link href="http://fast.fonts.com/cssapi/aee9b60b-8e94-47f8-b586-3ecbfab51d1c.css" rel="stylesheet" type="text/css" />
+        <link rel="stylesheet" type="text/css" href="theme/css/home.css" media="screen" title="Light theme" />
+        <link rel="alternate stylesheet" type="text/css" href="theme/css/home_dark.css" media="screen" title="Dark theme" />
+        <link rel="stylesheet" href="theme/css/ipad.css" media="only screen and (min-device-width : 768px) and (max-device-width : 1024px)">
+        <link rel="stylesheet" type="text/css" href="theme/css/smallscreen.css" media="only screen and (max-width: 700px)" />
+
+        <link href="/articles/feeds/atom.xml" type="application/atom+xml" rel="alternate" title="A notch above a monkey Full Atom Feed" />
+        <link href="/articles/feeds/rss.xml" type="application/rss+xml" rel="alternate" title="A notch above a monkey Full RSS Feed" />
+</head>
+
+<body>
+
+<h2>Articles in the UI, Web category</h2>
+
+<section class="envelope posts">
+    <header>
+        <h1><a href="/">A notch above a monkey <strong></strong></a></h1>
+    </header><!-- /#banner -->
+
+    <nav class="colophon">
+        <h1>By Marko Samastur</h1>
+        <ul>
+            <li><a href="/">About me</a></li>
+            <li><a href="http://markos.gaivo.net/blog/?feed=atom">Subscribe</a></li>
+        </ul>
+    </nav>
+
+        <article class="hentry">
+            <h1 class="entry-title storytitle"><a href="/simple-list-extensions.html" rel="bookmark" title="Permalink to Simple List Extensions">Simple List Extensions</a></h1>
+
+            <div class="entry-content post-text">
+                <p>I'm not sure how I missed the original announcement of Simple List
+Extensions (SLE) for feeds, but better late than never.</p>
+<p>SLE is a very simple specification to extend feeds syntax to better
+support some common scenarios that weren't covered with original
+specifications of RSS and Atom. Previously there was no way to tell feed
+readers/aggregators to display feed items in fixed order (e.g. feed with
+most popular stories of the day) or delete items not present in feed
+anymore (e.g. auction site feed with items matching a query).</p>
+<p>SLE also adds support for grouping and filtering of feed items, which
+might not be very useful with you average 10-item feed, but will be, if
+feeds will indeed become a general mechanism for transporting data and
+not only a tool to highlight most recent bunch of updates. In any case,
+you can read a very short
+<a href="http://msdn.microsoft.com/xml/rss/sle/">specification</a> or visit <a href="http://blogs.msdn.com/ie/archive/2006/03/30/565222.aspx">latest
+announcement</a>
+which includes more explanatory links to why and how they can and
+already are used.</p>
+<p>By the way, I'm not sure if any reader apart from beta of IE7 already
+supports SLE, but I expect that most of them will soon. There's little
+reason not to.</p>
+            </div><!-- /.entry-content -->
+
+            <footer class="post-metadata">
+                <ul>
+                    <li>Published on <time datetime="2006-04-09T14:05:00+02:00">Sun 09 April 2006</time> </li>
+                    <li><a href="/simple-list-extensions.html">Add your comment</a></li>
+                </ul>
+            </footer>
+        </article>
+        <article class="hentry">
+            <h1 class="entry-title storytitle"><a href="/localized-interfaces-in-globalized-world.html" rel="bookmark" title="Permalink to Localized interfaces in globalized world">Localized interfaces in globalized world</a></h1>
+
+            <div class="entry-content post-text">
+                <p>There's an issue I've been struggling with for months now. Well, more
+than a year really. We built Marela so it would be used in Slovenia by
+people preferring Slovene language over the others. It's not the only
+distinguishing point from similar services found on the web, but it's an
+important one.</p>
+<p>However, Internet and low fares airlines certainly shrank our planet and
+it's not uncommon for many of us to have friends who don't speak our
+language but with whom we'd still like to share parts of our lives and
+our creations. And this is a problem for Marela, which was (also) built
+to fill this need of sharing.</p>
+<p>It's simply not possible to use Marela in any language but Slovene.</p>
+<p>We decided to do this to avoid Orkut syndrome, where brazilian users
+(legitimately) subverted a global service into a mostly Portuguese
+speaking one. We didn't want to risk making our site unfriendly to
+Slovene-only speaking members by creating an environment in which a
+large portion of our community neither could or would speak Slovene.</p>
+<p>I believe our interfaces are mostly self-explanatory and easy to use,
+but it's difficult to tell how challenging they are for those who don't
+speak their language. Judging by personal experience in using a dutch
+Windows 95 years ago, I'd say they are probably not easy enough.</p>
+<p>So, what can be done?</p>
+<p>There was an idea to enforce Slovene only for logged in users, but this
+can work only as long as unregistered users are not allowed to
+contribute and the idea itself doesn't feel natural to me. It seems such
+an artificial restriction and that never amounts to a good thing. And
+that was one of more promising ones.</p>
+<p>I ran out of my own ideas long time ago. Any ideas you might have are
+therefore more than welcome.</p>
+            </div><!-- /.entry-content -->
+
+            <footer class="post-metadata">
+                <ul>
+                    <li>Published on <time datetime="2006-03-24T12:03:00+01:00">Fri 24 March 2006</time> </li>
+                    <li><a href="/localized-interfaces-in-globalized-world.html">Add your comment</a></li>
+                </ul>
+            </footer>
+        </article>
+        <article class="hentry">
+            <h1 class="entry-title storytitle"><a href="/css-pixels-are-a-relative-unit.html" rel="bookmark" title="Permalink to CSS pixels are a relative unit">CSS pixels are a relative unit</a></h1>
+
+            <div class="entry-content post-text">
+                <p>The pixel debate <a href="http://www.456bereastreet.com/archive/200602/setting_font_size_in_pixels/" title="Setting font size in pixels">is
+back</a>.
+Internet explorer out of the box doesn't permit resizing text measured
+in pixels, which at the same time is the only reliable way of setting
+dimensions that produces same result everywhere.</p>
+<p>The crux of the matter is simply who should have the final word in how
+the page is displayed, designers or users?</p>
+<p>Personally I think it should be users. After all, it's about them and if
+there's a way for them to make their experience more pleasant or useful
+without degrading it for others, why shouldn't they be allowed to do so?
+Good designs serve, not command.</p>
+<p>However, I find it more interesting how many people have no idea what px
+unit actually
+<a href="http://www.w3.org/TR/CSS21/syndata.html#length-units" title="Definitions of relative length units">means</a>.
+Pixels, as defined by W3C, are not the same as pixels used to define
+graphic resolution of a computer, even if they usually seem to be.</p>
+<p>For example, if we ever happen to get high-density monitors with say 300
+dpi pixel density instead of these days common 96 dpi, then a 15"
+display would have a graphic resolution of 3600x2700 dots, but it would
+still have only 1152x864 pixels in CSS model. Therefore one web pixel
+would be represented with around 9 graphic pixels.</p>
+<p>Well, that's the theory. In practice there's a lot of cheating. Monitors
+have various sizes which are only an approximation of the stated one
+(15", 17" etc.). Operating systems try to pay attention to pixel
+density, but often don't or can't. And so on.</p>
+<p>The result of this is that size of displayed text and images is device
+dependent even when in theory it shouldn't be. So the only way is also
+good only up to a point.</p>
+            </div><!-- /.entry-content -->
+
+            <footer class="post-metadata">
+                <ul>
+                    <li>Published on <time datetime="2006-02-12T17:17:00+01:00">Sun 12 February 2006</time> </li>
+                    <li><a href="/css-pixels-are-a-relative-unit.html">Add your comment</a></li>
+                </ul>
+            </footer>
+        </article>
+
+<p class="paginator">
+        <a href="/category/ui-web.html">&laquo;</a>
+    Page 2 / 5
+        <a href="/category/ui-web3.html">&raquo;</a>
+</p>
+</section><!-- /#content -->
+
+    <footer>
+        <ul>
+            <li>&copy; 2005-2015 Marko Samastur</li>
+            <li><a href="/articles/feeds/rss.xml" rel="alternate" title="A notch above a monkey Full RSS Feed">Entries feed</a></li>
+        </ul>
+        <a href="/"><img src="/img/markos_light_small_bg.png" alt="logo" class="mini-logo" /></a>
+    </footer>
+</body>
+</html>

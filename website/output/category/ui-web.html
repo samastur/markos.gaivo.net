@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+        <title>A notch above a monkey</title>
+        <meta charset="utf-8" />
+        <link rel="shortcut icon" href="theme/img/markos.ico" />
+
+        <link href="http://fast.fonts.com/cssapi/aee9b60b-8e94-47f8-b586-3ecbfab51d1c.css" rel="stylesheet" type="text/css" />
+        <link rel="stylesheet" type="text/css" href="theme/css/home.css" media="screen" title="Light theme" />
+        <link rel="alternate stylesheet" type="text/css" href="theme/css/home_dark.css" media="screen" title="Dark theme" />
+        <link rel="stylesheet" href="theme/css/ipad.css" media="only screen and (min-device-width : 768px) and (max-device-width : 1024px)">
+        <link rel="stylesheet" type="text/css" href="theme/css/smallscreen.css" media="only screen and (max-width: 700px)" />
+
+        <link href="/articles/feeds/atom.xml" type="application/atom+xml" rel="alternate" title="A notch above a monkey Full Atom Feed" />
+        <link href="/articles/feeds/rss.xml" type="application/rss+xml" rel="alternate" title="A notch above a monkey Full RSS Feed" />
+</head>
+
+<body>
+
+<h2>Articles in the UI, Web category</h2>
+
+<section class="envelope posts">
+    <header>
+        <h1><a href="/">A notch above a monkey <strong></strong></a></h1>
+    </header><!-- /#banner -->
+
+    <nav class="colophon">
+        <h1>By Marko Samastur</h1>
+        <ul>
+            <li><a href="/">About me</a></li>
+            <li><a href="http://markos.gaivo.net/blog/?feed=atom">Subscribe</a></li>
+        </ul>
+    </nav>
+
+        <article class="hentry">
+            <h1 class="entry-title storytitle"><a href="/tweaking-pages.html" rel="bookmark" title="Permalink to Tweaking pages">Tweaking pages</a></h1>
+
+            <div class="entry-content post-text">
+                <p>I recently came back from Berlin, where I publicly asked <a href="http://john.jubjubs.net/" title="John's homepage">John
+Lily</a> why haven't they
+integrated <a href="http://www.greasespot.net/" title="Greasemonkey">Greasemonkey</a>
+into <a href="http://www.mozilla.com/en-US/firefox/" title="Firefox">Firefox</a>. Wrong
+question can hardly lead to right answer. What I really wanted to know
+was:</p>
+<p><em>"Why doesn't <a href="http://mozilla.com" title="Mozilla">Mozilla</a> integrate
+Greasemonkey-LIKE functionality in a browser?"</em></p>
+<p>Browser is at the farthest reach of web creators. It's them who decide
+how a page will look like when it gets loaded and what visitors will be
+able to do with it. User actions that were not anticipated by page
+designers are limited to printing a page, tweaking its display a bit
+with user style sheets, seeing its source and copying text elsewhere.</p>
+<p>Browser is also an application that is loaded on someone's computer and
+belongs to him, as much as software can belong to somebody in
+EULA-infested world. Not every browser is equal, but pretty much all of
+them limit what you can do with page (beyond its creators intentions) 
+to above actions. The real question than for me becomes:</p>
+<p><em>"To whom does a browser belong to?"</em></p>
+<p>One reason why I love Greasemonkey is that it enabled me to fix and
+change pages that I find lacking. Not every page has navigation where it
+should be and lots of them display parts of text in illegibly small
+letters. It can also help me plug different services together. It is
+indeed geeky, as Brady Forrest observed, but useful implementation
+doesn't need to be. I find <a href="http://platypus.mozdev.org/">Platypus
+extension</a> a good first step to how a
+browser could further empower its users in customizing pages even
+further to their needs.</p>
+<p>I thought about downsides to this since Thursday and I'm failing to find
+anything substantial.</p>
+<div class="zemanta-pixie">
+
+[![Reblog this post [with
+Zemanta]](http://img.zemanta.com/reblog_e.png?x-id=371a642d-6da1-4089-8b93-ef701f1cdb08)](http://reblog.zemanta.com/zemified/371a642d-6da1-4089-8b93-ef701f1cdb08/ "Zemified by Zemanta")
+
+</div>
+            </div><!-- /.entry-content -->
+
+            <footer class="post-metadata">
+                <ul>
+                    <li>Published on <time datetime="2008-10-28T08:59:00+01:00">Tue 28 October 2008</time> </li>
+                    <li><a href="/tweaking-pages.html">Add your comment</a></li>
+                </ul>
+            </footer>
+        </article>
+        <article class="hentry">
+            <h1 class="entry-title storytitle"><a href="/robot-exclusion-profile.html" rel="bookmark" title="Permalink to Robot Exclusion Profile">Robot Exclusion Profile</a></h1>
+
+            <div class="entry-content post-text">
+                <p>As could be expected, I wasn't the first one who thought about
+controlling spiders more granularly. Even though I prefer deny-allow
+idea that <a href="http://friedcellcollective.net/outbreak/">Fry</a> and I came up
+with after a lively debate yesterday, I think <a href="http://microformats.org/wiki/robots-exclusion" title="Link to format specification">Robot Exclusion
+Profile</a>
+(REP) microformat is not a bad start. Actually, it's quite good with a
+few open <a href="http://microformats.org/wiki/robots-exclusion#Issues">issues</a>
+that mostly shouldn't be too difficult to resolve.</p>
+<h4>Precedence</h4>
+<p>I don't think it matters what policy you have when dealing with
+conflicting classes set on the same element, as long as you choose one.
+Personally, I'd mimic CSS way and go for last definition stays. So
+<em>class="robots-nofollow robots-follow"</em> would be equal to
+<em>class="robots-follow"</em>. I'd say the same order precedence also should
+stand in <em>class="robots-follow" rel="nofollow"</em> case.</p>
+<p>Toolkits might have a problem with this approach, since you often can't
+tell in which order were attributes set. If this is deemed important,
+then I think a reasonable approach in case of conflict is to simply
+ignore <strong>all</strong> exclusion attributes.</p>
+<p>However, I think there's another ambiguity that hasn't been mentioned.
+What should a spider do, if it encounters something like this:<br />
+<codeins ="robots-exclusion"></codeins></p>
+<p>It's a valid scenario. Imagine your average blog sidebar, which includes
+navigational items like archives that probably don't belong in index,
+but can also include stuff like current post categories, which should.</p>
+<p>I think specification heavily implies CSS approach to this (the most
+specific value wins) and that spider should process all elements, even
+those included inside of parts that might later get ignored. Still, it
+would be nice if this was explicitly written.</p>
+<h4>Specificity</h4>
+<p>I simply don't care. Even without control of specific UA it's clearly a
+superset of today's behavior. It doesn't remove anything. It only adds
+control and in a way, where default behavior is today's behavior. So it
+could hardly be less intrusive.</p>
+<p>I also think proposed solution for the problem is good enough, but we
+could add this later on, if needed.</p>
+<h4>Suitability as a microformat</h4>
+<p>Well, this is the though one. I don't think there's much if any
+difference between
+<a href="http://microformats.org/wiki/relnofollow">relnofollow</a> and this
+specification (REP being really only a moderate extension of
+relnofollow). In both cases human's don't really come first before
+computers or at least not directly. In both cases you want to influence
+search engines to produce better search results, which consequently
+helps humans.</p>
+<p>I see myself as a technological pragmatist so I care more about the end
+result then sticking to some high ideal. If it's accepted that
+controlling spider behavior would be beneficial and I see no opposition
+to this idea, then it seems obvious that a reasonable end product
+(specification) will look a lot like a defined microformat.</p>
+<p>So is the problem really only in daring to call it a microformat and
+sticking it on a microformats website?</p>
+            </div><!-- /.entry-content -->
+
+            <footer class="post-metadata">
+                <ul>
+                    <li>Published on <time datetime="2006-04-13T22:54:00+02:00">Thu 13 April 2006</time> </li>
+                    <li><a href="/robot-exclusion-profile.html">Add your comment</a></li>
+                </ul>
+            </footer>
+        </article>
+        <article class="hentry">
+            <h1 class="entry-title storytitle"><a href="/google-ignore.html" rel="bookmark" title="Permalink to Google ignore">Google ignore</a></h1>
+
+            <div class="entry-content post-text">
+                <p>A few days ago I came to
+<a href="http://markos.gaivo.net/blog/?p=146">recognize</a> that email hiding
+technique I use won't work anymore. However I still think it would be a
+great idea if I could remove a part of a page from search index, even if
+it won't help me hide from spammers in the long run.</p>
+<p>What I'd really like is to specify which parts of a page are not its
+content and can be safely ignored by search engines. Ignoring it would
+also mean absence of those parts from search indexes. Spiders could
+still follow links inside those parts, because I can still use
+<em>robots.txt</em> file if I really want to block their traversal. In effect,
+I'd like a more fine-grained approach to blocking, which doesn't force
+the layout of my pages to even slightly favor spiders over people.</p>
+<p>The way I imagine it would work is by simply applying a class name to
+the parts of the page I'd want shielded. I don't care much (yet) if such
+class name would need to be specified in robots file or if it would be
+some name achieved by a web consensus. As far as I can see both
+approaches would work equally well.</p>
+<p>The benefit of this would also be better search results. Every now and
+then I follow a search hit that fit my query because of a combination of
+site content and its navigation. Judging by my logs I'm not the only
+deceived soul. So, wouldn't it be nice to be able to tell which parts
+are content and which aren't?</p>
+            </div><!-- /.entry-content -->
+
+            <footer class="post-metadata">
+                <ul>
+                    <li>Published on <time datetime="2006-04-10T13:59:00+02:00">Mon 10 April 2006</time> </li>
+                    <li><a href="/google-ignore.html">Add your comment</a></li>
+                </ul>
+            </footer>
+        </article>
+
+<p class="paginator">
+    Page 1 / 5
+        <a href="/category/ui-web2.html">&raquo;</a>
+</p>
+</section><!-- /#content -->
+
+    <footer>
+        <ul>
+            <li>&copy; 2005-2015 Marko Samastur</li>
+            <li><a href="/articles/feeds/rss.xml" rel="alternate" title="A notch above a monkey Full RSS Feed">Entries feed</a></li>
+        </ul>
+        <a href="/"><img src="/img/markos_light_small_bg.png" alt="logo" class="mini-logo" /></a>
+    </footer>
+</body>
+</html>

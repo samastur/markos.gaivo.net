@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+        <title>A notch above a monkey</title>
+        <meta charset="utf-8" />
+        <link rel="shortcut icon" href="theme/img/markos.ico" />
+
+        <link href="http://fast.fonts.com/cssapi/aee9b60b-8e94-47f8-b586-3ecbfab51d1c.css" rel="stylesheet" type="text/css" />
+        <link rel="stylesheet" type="text/css" href="theme/css/home.css" media="screen" title="Light theme" />
+        <link rel="alternate stylesheet" type="text/css" href="theme/css/home_dark.css" media="screen" title="Dark theme" />
+        <link rel="stylesheet" href="theme/css/ipad.css" media="only screen and (min-device-width : 768px) and (max-device-width : 1024px)">
+        <link rel="stylesheet" type="text/css" href="theme/css/smallscreen.css" media="only screen and (max-width: 700px)" />
+
+        <link href="/articles/feeds/atom.xml" type="application/atom+xml" rel="alternate" title="A notch above a monkey Full Atom Feed" />
+        <link href="/articles/feeds/rss.xml" type="application/rss+xml" rel="alternate" title="A notch above a monkey Full RSS Feed" />
+</head>
+
+<body>
+
+<h2>Articles in the General development category</h2>
+
+<section class="envelope posts">
+    <header>
+        <h1><a href="/">A notch above a monkey <strong></strong></a></h1>
+    </header><!-- /#banner -->
+
+    <nav class="colophon">
+        <h1>By Marko Samastur</h1>
+        <ul>
+            <li><a href="/">About me</a></li>
+            <li><a href="http://markos.gaivo.net/blog/?feed=atom">Subscribe</a></li>
+        </ul>
+    </nav>
+
+        <article class="hentry">
+            <h1 class="entry-title storytitle"><a href="/subtracting-sets-to-get-non-referenced-rows-in-table.html" rel="bookmark" title="Permalink to Subtracting sets to get non-referenced rows in table.">Subtracting sets to get non-referenced rows in table.</a></h1>
+
+            <div class="entry-content post-text">
+                <p>I had a problem today. Given two database tables with first having a
+foreign key pointing to second, find those rows in second table, which
+are not pointed to from first. Well, it was slightly more complicated
+than this, but this was the tricky part.</p>
+<p>I tried to solve my problem using
+<a href="http://en.wikipedia.org/wiki/SQL" title="SQL description on Wikipedia">SQL</a>,
+but I could not. I am not saying it can't be done, but with my limited
+knowledge of SQL I could not produce a query that would not perform
+horribly. Working on production database under heavy use made this a
+real no-go.</p>
+<p>After trying to come up with pure solution I finally gave up and decided
+to solve this problem pragmatically with some scripting. Turns out that
+too was more complicated than necessary. Unix shell tools are all you
+actually need, provided your dataset is not too big for your computer
+limitations (mostly memory).</p>
+<p>Instead of searching for those rows directly, I changed my plan to
+create two sets of rows, first containing all possible candidates and
+second containing those from first set which are pointed to from first
+table. Subtracting second set from first would therefore give me exactly
+those rows which aren't pointed to.</p>
+<p>If file <em>all</em> contains a row-per-line list of all candidates and
+<em>linked</em> a similar list of those that are linked to, then you can get
+non-linked by running following command:</p>
+<p><code>cat all linked | sort | uniq -u &gt; non_linked</code></p>
+<p>What this does is following. <em>Sort</em> will put duplicated rows together
+and <em>-u</em> option of <em>uniq</em> will display only unique lines which are those
+that can be found only in <em>all</em>. Problem solved.</p>
+            </div><!-- /.entry-content -->
+
+            <footer class="post-metadata">
+                <ul>
+                    <li>Published on <time datetime="2012-10-02T00:07:00+02:00">Tue 02 October 2012</time> </li>
+                    <li><a href="/subtracting-sets-to-get-non-referenced-rows-in-table.html">Add your comment</a></li>
+                </ul>
+            </footer>
+        </article>
+        <article class="hentry">
+            <h1 class="entry-title storytitle"><a href="/passion.html" rel="bookmark" title="Permalink to Passion">Passion</a></h1>
+
+            <div class="entry-content post-text">
+                <p>Hearing something often enough can really change my perspective even on
+things I agreed with completely beforehand. It happened again after
+reading for umpteenth time that passion for programming/company vision
+is the quality every new hire should have.</p>
+<p><em>Passion is a symptom, not a diagnosis.</em></p>
+<p>I know a great developer with whom I would love to work again who is
+passionate about electronics. I am sure he likes programming and does it
+a lot, but it's not where his heart truly lies. Which is alright because
+his other qualities more than make up for any passion deficiencies.</p>
+<p>Passion in complementary direction is doubtless a positive signal, but I
+simply do not believe that <em>only</em> people working on something they care
+deeply about are able to do it well. We can and do regularly care, with
+some degree of autonomy, about more than one thing (or person).</p>
+<p>In more general sense my feeling is obviously a reaction to the end
+result of a process in which a useful guideline calcifies into dogma.
+Ideally I could get to this point sooner, but it seems unlikely. If I
+regularly reconsidered and doubted every piece of my mental framework,
+then it would mostly be mental and not much of a framework.</p>
+            </div><!-- /.entry-content -->
+
+            <footer class="post-metadata">
+                <ul>
+                    <li>Published on <time datetime="2012-09-17T23:23:00+02:00">Mon 17 September 2012</time> </li>
+                    <li><a href="/passion.html">Add your comment</a></li>
+                </ul>
+            </footer>
+        </article>
+        <article class="hentry">
+            <h1 class="entry-title storytitle"><a href="/shipping-software-frequency.html" rel="bookmark" title="Permalink to Shipping software frequency">Shipping software frequency</a></h1>
+
+            <div class="entry-content post-text">
+                <p>I was
+<a href="http://www.paulgraham.com/artistsship.html" title="Paul's article on cost of checks">reading</a>
+<a href="http://en.wikipedia.org/wiki/Paul_Graham" title="Paul Graham">Paul Graham</a>
+today, who among other things touched on a subject that has been on my
+mind lately. Software shipping.</p>
+<p>At Zemanta, we usually don't ship daily although when needed we do. We
+try to do a release of new features and bug fixes every 2-3 weeks and on
+the whole we are succeeding. Still, this is not as often as many
+startups profess to do and it's certainly not as often as most of us
+would like. Even though I probably bear the majority of "blame" for
+this, I too wish we shipped more often.</p>
+<p>So why don't we?</p>
+<p>There are many factors that define how quickly can something be shipped
+and even though I don't think I have an exhaustive list, I find
+following most important (listed in no particular order):</p>
+<ul>
+<li>code base</li>
+<li>shipping changes</li>
+<li>team</li>
+<li>tolerance of failure</li>
+<li>time</li>
+</ul>
+<h4>Code base</h4>
+<p>Simply put, <strong>better code is easier to change</strong> and evolve with new
+features without introducing new bugs.</p>
+<p>Speed of development rarely results in pristine code, so we need to
+clean things up every now and then, which creates a need to regularly
+evaluate the quality of our code base and its impact on our ability to
+deliver.</p>
+<h4>Shipping changes</h4>
+<p><strong>Smaller changes are easier to check</strong> and quicker to develop. More
+intrusive new code is, harder it is to reliably avoid detrimental effect
+on already existing code.</p>
+<p>Fixing, testing and shipping a CSS bug can be done almost instantly.
+Changing core of the widget usually takes a bit more effort to avoid
+regressions.</p>
+<h4>Team</h4>
+<p><strong>Better developers produce better code</strong> more quickly.</p>
+<p>Some testing is always necessary, but there's a direct connection
+between code author's reputation and experience and trust we put in his
+code.</p>
+<h4>Tolerance of failure</h4>
+<p>Tolerance of users and tolerance of system to change is crucial.</p>
+<p>If you provide a service where failure is not an option, then this
+should affect at least how deeply tested new release has to be. It's
+also important for your system to be able to revert to last working
+state, but sometimes this is not desired and important glitches need to
+be fixed as they are encountered.</p>
+<h4>Time</h4>
+<p>If your <strong>schedule</strong> is <strong>too tight to fix bugs</strong> found in new release,
+it's <strong>too tight for release</strong>.</p>
+<p>No matter how much you test your software and at Zemanta we do this a
+lot, new code will introduce new bugs. It will happen that some of them
+will be too big to wait for next scheduled release and need an immediate
+fix. If you for some reason can't afford this, then it may be better not
+to ship yet.</p>
+<h4>Pendulum of change</h4>
+<p>It should be obvious from this list that no factor is set in stone and
+what might have been a right decision few months ago might not be best
+one now.</p>
+<p>A lot has changed in last few months, so the next time we address this
+topic, I suspect my opinion will be different than last time.</p>
+<div class="zemanta-pixie">
+
+[![Reblog this post [with
+Zemanta]](http://img.zemanta.com/reblog_e.png?x-id=81d6b87c-78c1-4e73-877d-43a1db60b537)](http://reblog.zemanta.com/zemified/81d6b87c-78c1-4e73-877d-43a1db60b537/ "Zemified by Zemanta")
+
+</div>
+            </div><!-- /.entry-content -->
+
+            <footer class="post-metadata">
+                <ul>
+                    <li>Published on <time datetime="2008-11-30T20:45:00+01:00">Sun 30 November 2008</time> </li>
+                    <li><a href="/shipping-software-frequency.html">Add your comment</a></li>
+                </ul>
+            </footer>
+        </article>
+
+<p class="paginator">
+    Page 1 / 3
+        <a href="/category/general-development2.html">&raquo;</a>
+</p>
+</section><!-- /#content -->
+
+    <footer>
+        <ul>
+            <li>&copy; 2005-2015 Marko Samastur</li>
+            <li><a href="/articles/feeds/rss.xml" rel="alternate" title="A notch above a monkey Full RSS Feed">Entries feed</a></li>
+        </ul>
+        <a href="/"><img src="/img/markos_light_small_bg.png" alt="logo" class="mini-logo" /></a>
+    </footer>
+</body>
+</html>

@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+          <title>A notch above a monkey</title>
+        <meta charset="utf-8" />
+        <link rel="shortcut icon" href="theme/img/markos.ico" />
+
+        <link href="http://fast.fonts.com/cssapi/aee9b60b-8e94-47f8-b586-3ecbfab51d1c.css" rel="stylesheet" type="text/css" />
+        <link rel="stylesheet" type="text/css" href="theme/css/home.css" media="screen" title="Light theme" />
+        <link rel="alternate stylesheet" type="text/css" href="theme/css/home_dark.css" media="screen" title="Dark theme" />
+        <link rel="stylesheet" href="theme/css/ipad.css" media="only screen and (min-device-width : 768px) and (max-device-width : 1024px)">
+        <link rel="stylesheet" type="text/css" href="theme/css/smallscreen.css" media="only screen and (max-width: 700px)" />
+
+        <link href="/articles/feeds/atom.xml" type="application/atom+xml" rel="alternate" title="A notch above a monkey Full Atom Feed" />
+        <link href="/articles/feeds/rss.xml" type="application/rss+xml" rel="alternate" title="A notch above a monkey Full RSS Feed" />
+
+
+
+
+</head>
+
+<body>
+<header id="banner" class="body">
+    <h1><a href="/">A notch above a monkey</a> &raquo; Generating Python Exceptions Classes</h1>
+</header><!-- /#banner -->
+
+<section class="envelope">
+    <article class="post">
+        <header class="entry-title">
+            <h1 class="entry-title">Generating Python Exceptions Classes</h1>
+         
+        </header>
+
+        <footer class="post-info">
+            <ul>
+                <li class="by">Written by: <a href="/">Marko Samastur</a></li>
+                <li class="published">Published on: <time datetime="2008-07-22T09:39:00+02:00" pubdate>Tue 22 July 2008</time></li>
+                <li class="categories">Category: General development, Python
+                </li>
+            </ul>
+
+        </footer><!-- /.post-info -->
+
+        <div class="post-text">
+            <p>It's been a while since I used
+<a href="http://www.python.org/" title="Python (programming language)">Python</a> for
+anything larger than scripts few tens lines long, so it feels really
+great to do it again. I did discover however that I became a bit rusty.
+Not so much in not being able to achieve what I want as not being sure
+that I do it in a sensible and pythonic way.</p>
+<p>I've been working on a private project where I came to a following
+problem.
+<a href="http://en.wikipedia.org/wiki/Application_programming_interface" title="Application programming interface">API</a>
+calls can trigger various responses, somewhat like
+<a href="http://en.wikipedia.org/wiki/Hypertext_Transfer_Protocol" title="Hypertext Transfer Protocol">HTTP</a>,
+containing status codes together with a short description. Every faulty
+response should trigger its own exception, which led me to my first
+implementation:</p>
+<div class="highlight"><pre><span class="k">class</span> <span class="n">Unauthorized</span>(<span class="nb">Exception</span>):
+    <span class="n">status</span> = <span class="mi">101</span>
+    <span class="nb">value</span> = <span class="s">&quot;Unauthorized.&quot;</span>
+</pre></div>
+
+
+<p>I didn't like it even though it looks and behaves like it should. What I
+wanted was a better overlook of possible responses in a way where I have
+to make any possible changes easily and only at one place.</p>
+<p>My <a href="http://markos.gaivo.net/examples/pyexceptions/exceptions1.txt" title="Example">second
+attempt</a>
+was auto-generating exception classes using type. Since class definition
+took only a line instead of three, it certainly achieved better
+transparency, but I still had to make changes at two places.</p>
+<p><a href="http://markos.gaivo.net/examples/pyexceptions/exceptions2.txt">Final
+step</a> was
+to auto-generate classes in a loop. To do this I attached them to module
+namespace using globals() dictionary. Actually I used __builtin__
+one at first, but it obviously didn't work that great.</p>
+<p>So this is what I have now. It works and achieves my goals. I only need
+to change dictionary to add a new response or change existing one and it
+could hardly be more readable.</p>
+<p>But is it pythonic enough? If not, what would be, apart from traditional
+way described in first step?</p>
+<div class="zemanta-pixie" style="margin-top: 10px; height: 15px;">
+
+[![Zemanta
+Pixie](http://img.zemanta.com/reblog_e.png?x-id=67741c44-cb65-4003-8f66-f8ceb221a025)](http://reblog.zemanta.com/zemified/67741c44-cb65-4003-8f66-f8ceb221a025/ "Zemified by Zemanta")
+
+</div>
+        </div><!-- /.entry-content -->
+
+        <div id="disqus_thread"></div>
+        <script type="text/javascript">
+            /* * * CONFIGURATION VARIABLES * * */
+            var disqus_shortname = 'markosgaivo';
+
+            /* * * DON'T EDIT BELOW THIS LINE * * */
+            (function() {
+                var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+                dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+                (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+            })();
+        </script>
+        <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript" rel="nofollow">comments powered by Disqus.</a></noscript>
+    </article>
+</section>
+
+    <footer>
+        <ul>
+            <li>&copy; 2005-2015 Marko Samastur</li>
+            <li><a href="/articles/feeds/rss.xml" rel="alternate" title="A notch above a monkey Full RSS Feed">Entries feed</a></li>
+        </ul>
+        <a href="/"><img src="/img/markos_light_small_bg.png" alt="logo" class="mini-logo" /></a>
+    </footer>
+</body>
+</html>

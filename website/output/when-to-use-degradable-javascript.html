@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+          <title>A notch above a monkey</title>
+        <meta charset="utf-8" />
+        <link rel="shortcut icon" href="theme/img/markos.ico" />
+
+        <link href="http://fast.fonts.com/cssapi/aee9b60b-8e94-47f8-b586-3ecbfab51d1c.css" rel="stylesheet" type="text/css" />
+        <link rel="stylesheet" type="text/css" href="theme/css/home.css" media="screen" title="Light theme" />
+        <link rel="alternate stylesheet" type="text/css" href="theme/css/home_dark.css" media="screen" title="Dark theme" />
+        <link rel="stylesheet" href="theme/css/ipad.css" media="only screen and (min-device-width : 768px) and (max-device-width : 1024px)">
+        <link rel="stylesheet" type="text/css" href="theme/css/smallscreen.css" media="only screen and (max-width: 700px)" />
+
+        <link href="/articles/feeds/atom.xml" type="application/atom+xml" rel="alternate" title="A notch above a monkey Full Atom Feed" />
+        <link href="/articles/feeds/rss.xml" type="application/rss+xml" rel="alternate" title="A notch above a monkey Full RSS Feed" />
+
+
+
+
+</head>
+
+<body>
+<header id="banner" class="body">
+    <h1><a href="/">A notch above a monkey</a> &raquo; When to use degradable Javascript</h1>
+</header><!-- /#banner -->
+
+<section class="envelope">
+    <article class="post">
+        <header class="entry-title">
+            <h1 class="entry-title">When to use degradable Javascript</h1>
+         
+        </header>
+
+        <footer class="post-info">
+            <ul>
+                <li class="by">Written by: <a href="/">Marko Samastur</a></li>
+                <li class="published">Published on: <time datetime="2005-10-18T13:27:00+02:00" pubdate>Tue 18 October 2005</time></li>
+                <li class="categories">Category: Javascript, UI, Web
+                </li>
+            </ul>
+
+        </footer><!-- /.post-info -->
+
+        <div class="post-text">
+            <p><a href="http://encytemedia.com/blog/articles/2005/10/13/dispelling-the-myths-of-javascript-degredation" title="Link to Justin's article">Justin
+Palmer</a>
+wrote about myths of Javascript degradation and <a href="http://domscripting.com/blog/display.php/25" title="Link to Jeremy's article">Jeremy
+Keith</a>
+has written a response. This is just the lastest, but certainly not last
+exchange on this topic and I think we'll continue to talk about it for
+some time to come.</p>
+<p>I think I find myself somewhere in the middle. Part of our service
+follows Jeremy's school of thought and part of it is firmly on Justin's
+side. I think Jeremy's argument that the problem is due lack of planning
+is just wrong. I spent literally months contemplating and trying
+different things before I finally accepted that not everything can be
+done in nicely degradable manner without making sacrifices.</p>
+<p>Or to use a misplaced example. You can start with a bicycle that more or
+less everyone can use and try to add features, that will enable it to go
+faster and with less physical strain, but you'll never produce a
+<a href="http://www.ducati.com" title="Ducati motorbikes">Ducati</a>. At most you'll
+finish with something like:</p>
+<p><a href="http://www.ebikeshop.co.uk/detailscruiser.html"><img alt="Electric
+bicycle" src="http://markos.gaivo.net/images/ebike.jpg" /></a><br />
+I'm not saying electric bike is bad. In fact it has many features that
+Ducati will never have. They are just different and what's better
+depends on what you want and who you want to serve.</p>
+<p>I believe the same applies to Javascript degradation. You have to decide
+what you're building and for whom. When developing our service, I
+probably haven't thought about anything more than this issue and the
+choices I made were certainly not done lightly. I did discover a simple
+question, that often makes such decisions easier:</p>
+<p><strong>"Would anyone ever want to bookmark this?"</strong></p>
+<p>If yes, then degradable javascript is the only acceptable solution. If
+no, then there MIGHT be a case for non-degradable solution, but it
+certainly doesn't immediately justify it.</p>
+        </div><!-- /.entry-content -->
+
+        <div id="disqus_thread"></div>
+        <script type="text/javascript">
+            /* * * CONFIGURATION VARIABLES * * */
+            var disqus_shortname = 'markosgaivo';
+
+            /* * * DON'T EDIT BELOW THIS LINE * * */
+            (function() {
+                var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+                dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+                (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+            })();
+        </script>
+        <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript" rel="nofollow">comments powered by Disqus.</a></noscript>
+    </article>
+</section>
+
+    <footer>
+        <ul>
+            <li>&copy; 2005-2015 Marko Samastur</li>
+            <li><a href="/articles/feeds/rss.xml" rel="alternate" title="A notch above a monkey Full RSS Feed">Entries feed</a></li>
+        </ul>
+        <a href="/"><img src="/img/markos_light_small_bg.png" alt="logo" class="mini-logo" /></a>
+    </footer>
+</body>
+</html>

@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+          <title>A notch above a monkey</title>
+        <meta charset="utf-8" />
+        <link rel="shortcut icon" href="theme/img/markos.ico" />
+
+        <link href="http://fast.fonts.com/cssapi/aee9b60b-8e94-47f8-b586-3ecbfab51d1c.css" rel="stylesheet" type="text/css" />
+        <link rel="stylesheet" type="text/css" href="theme/css/home.css" media="screen" title="Light theme" />
+        <link rel="alternate stylesheet" type="text/css" href="theme/css/home_dark.css" media="screen" title="Dark theme" />
+        <link rel="stylesheet" href="theme/css/ipad.css" media="only screen and (min-device-width : 768px) and (max-device-width : 1024px)">
+        <link rel="stylesheet" type="text/css" href="theme/css/smallscreen.css" media="only screen and (max-width: 700px)" />
+
+        <link href="/articles/feeds/atom.xml" type="application/atom+xml" rel="alternate" title="A notch above a monkey Full Atom Feed" />
+        <link href="/articles/feeds/rss.xml" type="application/rss+xml" rel="alternate" title="A notch above a monkey Full RSS Feed" />
+
+
+
+
+</head>
+
+<body>
+<header id="banner" class="body">
+    <h1><a href="/">A notch above a monkey</a> &raquo; Javascript timing conflicts</h1>
+</header><!-- /#banner -->
+
+<section class="envelope">
+    <article class="post">
+        <header class="entry-title">
+            <h1 class="entry-title">Javascript timing conflicts</h1>
+         
+        </header>
+
+        <footer class="post-info">
+            <ul>
+                <li class="by">Written by: <a href="/">Marko Samastur</a></li>
+                <li class="published">Published on: <time datetime="2005-09-17T19:01:00+02:00" pubdate>Sat 17 September 2005</time></li>
+                <li class="categories">Category: Javascript
+                </li>
+            </ul>
+
+        </footer><!-- /.post-info -->
+
+        <div class="post-text">
+            <p>Play with fire and you'll get burned.</p>
+<p>I've just spent two days hunting a bug that just didn't make sense. No
+matter what I did, there was at least one browser, which didn't want to
+behave properly and it was driving me nuts.</p>
+<p>Finally I gave up and decided there's nothing wrong with my code and the
+fault must be with the browser. And so it was, up to a point. Or not,
+depending on your point of view.</p>
+<p>The problem was a timing conflict resulting from a use of <a href="http://markos.gaivo.net/blog/?p=12" title="Description of technique">framestack
+technique</a>
+and the way modern browsers work. Browsers don't wait for the whole page
+with its data to load, before they display it to users. They display as
+reasonable presentation of received data as possible while they are
+trying to load the rest. For example, onload handler set to body tag is
+triggered when body of HTML document has loaded, but possibly before
+images and other external resources have. When they do, page layout
+might change somewhat and if your script is reading and using layout
+data in the meantime, it's quite likely it'll end up using wrong values.</p>
+<p>The easiest (and right) way to fix this is to start javascript with
+<em>window.onload</em>, which is triggered when everything has loaded. This
+might be a problem, if you're using something like framestack to avoid
+reloading page on subsequent visits, but at least in my case I've
+decided that the cleanest and easiest solution was to use window.onload
+and just force reload of problematic page on each visit.</p>
+<p>It's also possible to get in similar timing conflicts by using
+<em>innerHTML</em> method. If you try to stuck a large piece of HTML inside a
+page using innerHTML call, you may encounter an unwelcome surprise.
+Reason for this is that at least some browsers don't wait to parse and
+insert data in DOM before they proceed to the next statement. Injection
+delay is usually barely noticeable, but big enough for statements that
+manipulate inserted data to fail, if they are in close proximity to
+innerHTML call.</p>
+<p>You can't necessarily avoid innerHTML problems with window.onload, but
+you can by using (more cumbersome) DOM methods.</p>
+<p>It still annoys me though that I knew all of this and wasted two days
+just because I didn't think of it.</p>
+        </div><!-- /.entry-content -->
+
+        <div id="disqus_thread"></div>
+        <script type="text/javascript">
+            /* * * CONFIGURATION VARIABLES * * */
+            var disqus_shortname = 'markosgaivo';
+
+            /* * * DON'T EDIT BELOW THIS LINE * * */
+            (function() {
+                var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+                dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+                (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+            })();
+        </script>
+        <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript" rel="nofollow">comments powered by Disqus.</a></noscript>
+    </article>
+</section>
+
+    <footer>
+        <ul>
+            <li>&copy; 2005-2015 Marko Samastur</li>
+            <li><a href="/articles/feeds/rss.xml" rel="alternate" title="A notch above a monkey Full RSS Feed">Entries feed</a></li>
+        </ul>
+        <a href="/"><img src="/img/markos_light_small_bg.png" alt="logo" class="mini-logo" /></a>
+    </footer>
+</body>
+</html>

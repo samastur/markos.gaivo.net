@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+        <title>A notch above a monkey</title>
+        <meta charset="utf-8" />
+        <link rel="shortcut icon" href="theme/img/markos.ico" />
+
+        <link href="http://fast.fonts.com/cssapi/aee9b60b-8e94-47f8-b586-3ecbfab51d1c.css" rel="stylesheet" type="text/css" />
+        <link rel="stylesheet" type="text/css" href="theme/css/home.css" media="screen" title="Light theme" />
+        <link rel="alternate stylesheet" type="text/css" href="theme/css/home_dark.css" media="screen" title="Dark theme" />
+        <link rel="stylesheet" href="theme/css/ipad.css" media="only screen and (min-device-width : 768px) and (max-device-width : 1024px)">
+        <link rel="stylesheet" type="text/css" href="theme/css/smallscreen.css" media="only screen and (max-width: 700px)" />
+
+        <link href="/articles/feeds/atom.xml" type="application/atom+xml" rel="alternate" title="A notch above a monkey Full Atom Feed" />
+        <link href="/articles/feeds/rss.xml" type="application/rss+xml" rel="alternate" title="A notch above a monkey Full RSS Feed" />
+</head>
+
+<body>
+
+<h2>Articles in the Javascript, Web category</h2>
+
+<section class="envelope posts">
+    <header>
+        <h1><a href="/">A notch above a monkey <strong></strong></a></h1>
+    </header><!-- /#banner -->
+
+    <nav class="colophon">
+        <h1>By Marko Samastur</h1>
+        <ul>
+            <li><a href="/">About me</a></li>
+            <li><a href="http://markos.gaivo.net/blog/?feed=atom">Subscribe</a></li>
+        </ul>
+    </nav>
+
+        <article class="hentry">
+            <h1 class="entry-title storytitle"><a href="/firefox-extensions-javascript-conflicts.html" rel="bookmark" title="Permalink to Firefox extensions Javascript conflicts">Firefox extensions Javascript conflicts</a></h1>
+
+            <div class="entry-content post-text">
+                <p>I like Firefox extensions and use a few myself. Web development without
+<a href="http://chrispederick.com/work/webdeveloper/">Web Developer toolbar</a> and
+<a href="http://livehttpheaders.mozdev.org/">LiveHTTPHeaders</a> extension would be
+pretty gruesome. However, there's a downside to their use that is slowly
+starting to bother me.</p>
+<p>They often influence the way Javascript on page gets executed and can
+produce weird errors.</p>
+<p>I first noticed this while using Web Developer toolbar. Every now and
+then I got a strange exception, but I didn't worry too much. After all,
+it wasn't really surprising coming from an extension that by its very
+nature dabbled with the way browser interprets and displays a page and
+it didn't really stop the script from working. Not pretty, but you learn
+to live with it.</p>
+<p>Comes this weekend and I get a report that file upload doesn't work in
+latest Firefox. I suspected extension conflicts and further examination
+proved the point. Page worked just fine in the same environment sans
+extensions.</p>
+<p>So what can you do, when you stumble on a problem like that?</p>
+<p>Testing your site in various browsers can be troublesome enough. Testing
+all combinations of extensions even for one browser would simply be
+impossible. You can't exactly expect your users to uninstall their
+extensions just for you, but making workarounds for them doesn't seem
+feasible either.</p>
+<p>So far I don't see a good solution. Any ideas?</p>
+            </div><!-- /.entry-content -->
+
+            <footer class="post-metadata">
+                <ul>
+                    <li>Published on <time datetime="2006-05-29T12:23:00+02:00">Mon 29 May 2006</time> </li>
+                    <li><a href="/firefox-extensions-javascript-conflicts.html">Add your comment</a></li>
+                </ul>
+            </footer>
+        </article>
+        <article class="hentry">
+            <h1 class="entry-title storytitle"><a href="/usefulness-of-ajax.html" rel="bookmark" title="Permalink to Usefulness of AJAX">Usefulness of AJAX</a></h1>
+
+            <div class="entry-content post-text">
+                <p>At least one participant of our recent
+<a href="http://markos.gaivo.net/blog/?p=150" title="Previous announcement of AJAX workshop">workshop</a>
+was under impression that I'm an AJAX advocate. It's certainly a
+reasonable and not completely wrong conclusion. However, it seems I
+failed in limited time available to explain my perspective.</p>
+<p>As any other useful tool AJAX has its advantages, but it can also create
+problems when used inappropriately. I won't dwell on advantages. More
+than enough has already been said about them. There are three important
+aspects that still don't get enough attention and bear repeating.</p>
+<p><strong>Write unobtrusive and degradable Javascript.</strong> It's really not that
+hard with a bit of planning and it makes things easier in the long run.
+It's easier to find, fix and change code when it's cleanly separated
+from HTML and CSS. I'd expect everyone learned this lesson by now from
+PHP. Also, creating HTML version first and then carefully improving it
+with use of Javascript/AJAX can get us maximum reach without sacrificing
+flexibility.</p>
+<p><strong>Pay attention to usability.</strong> This one is much harder to get right,
+but if nothing else, you should have in mind at least next three
+advices. Show a progress indicator when doing something that might take
+more than a second. Put action trigger as close as possible to the part
+of a page it will change, so user has a good chance of noticing it and
+whenever possible assist them with change indicators like <a href="http://www.axentric.com/posts/default/7" title="Example of yellow fade-in">yellow
+fade-in</a>.</p>
+<p><strong>Accessibility shouldn't be forgotten either.</strong> This is probably <a href="http://domscripting.com/blog/display/64" title="Accessibility problems with DOM manipulation">the
+hardest
+problem</a>
+to tackle. It's the most important reason (but not the only one) why I
+try to use Javascript/AJAX only when benefits of doing so significantly
+outweigh the problems it might cause.</p>
+<p>Everyone makes mistakes and I certainly have. I'm sure they weren't last
+ones either, but we can all strive for better.</p>
+            </div><!-- /.entry-content -->
+
+            <footer class="post-metadata">
+                <ul>
+                    <li>Published on <time datetime="2006-05-13T07:53:00+02:00">Sat 13 May 2006</time> </li>
+                    <li><a href="/usefulness-of-ajax.html">Add your comment</a></li>
+                </ul>
+            </footer>
+        </article>
+        <article class="hentry">
+            <h1 class="entry-title storytitle"><a href="/hide-email-address-from-spammers-with-javascript-a-new-attempt.html" rel="bookmark" title="Permalink to Hide email address from spammers with Javascript - a new attempt">Hide email address from spammers with Javascript - a new attempt</a></h1>
+
+            <div class="entry-content post-text">
+                <p>In true Don Quixote fashion, I made a new attempt to make email
+harvesting more difficult. It won't work forever, but it will work
+longer than <a href="http://markos.gaivo.net/blog/?p=22">previous</a> one, which
+hasn't fail yet either.</p>
+<p>This time I use a bit different approach. Instead of replacing
+spam-proof, but not directly usable email addresses with mail links on
+page load, I create mail links on page load, but populate them when
+mouse moves over them. This way they are still perfectly usable, but
+less likely to be abused. They are also less friendly, since you can't
+see email address until you move your pointer over it. But that was the
+point, to prevent javascript enabled scrappers.</p>
+<p>You can download <a href="http://markos.gaivo.net/blog/code/mangle2.js">new
+version</a> or check a
+<a href="http://markos.gaivo.net/examples/mangle2.html">demonstration</a> on
+alternative version of my homepage.</p>
+            </div><!-- /.entry-content -->
+
+            <footer class="post-metadata">
+                <ul>
+                    <li>Published on <time datetime="2006-05-08T12:23:00+02:00">Mon 08 May 2006</time> </li>
+                    <li><a href="/hide-email-address-from-spammers-with-javascript-a-new-attempt.html">Add your comment</a></li>
+                </ul>
+            </footer>
+        </article>
+
+<p class="paginator">
+        <a href="/category/javascript-web4.html">&laquo;</a>
+    Page 5 / 7
+        <a href="/category/javascript-web6.html">&raquo;</a>
+</p>
+</section><!-- /#content -->
+
+    <footer>
+        <ul>
+            <li>&copy; 2005-2015 Marko Samastur</li>
+            <li><a href="/articles/feeds/rss.xml" rel="alternate" title="A notch above a monkey Full RSS Feed">Entries feed</a></li>
+        </ul>
+        <a href="/"><img src="/img/markos_light_small_bg.png" alt="logo" class="mini-logo" /></a>
+    </footer>
+</body>
+</html>

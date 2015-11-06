@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+          <title>A notch above a monkey</title>
+        <meta charset="utf-8" />
+        <link rel="shortcut icon" href="theme/img/markos.ico" />
+
+        <link href="http://fast.fonts.com/cssapi/aee9b60b-8e94-47f8-b586-3ecbfab51d1c.css" rel="stylesheet" type="text/css" />
+        <link rel="stylesheet" type="text/css" href="theme/css/home.css" media="screen" title="Light theme" />
+        <link rel="alternate stylesheet" type="text/css" href="theme/css/home_dark.css" media="screen" title="Dark theme" />
+        <link rel="stylesheet" href="theme/css/ipad.css" media="only screen and (min-device-width : 768px) and (max-device-width : 1024px)">
+        <link rel="stylesheet" type="text/css" href="theme/css/smallscreen.css" media="only screen and (max-width: 700px)" />
+
+        <link href="/articles/feeds/atom.xml" type="application/atom+xml" rel="alternate" title="A notch above a monkey Full Atom Feed" />
+        <link href="/articles/feeds/rss.xml" type="application/rss+xml" rel="alternate" title="A notch above a monkey Full RSS Feed" />
+
+
+
+
+</head>
+
+<body>
+<header id="banner" class="body">
+    <h1><a href="/">A notch above a monkey</a> &raquo; Google Gears Goodies</h1>
+</header><!-- /#banner -->
+
+<section class="envelope">
+    <article class="post">
+        <header class="entry-title">
+            <h1 class="entry-title">Google Gears Goodies</h1>
+         
+        </header>
+
+        <footer class="post-info">
+            <ul>
+                <li class="by">Written by: <a href="/">Marko Samastur</a></li>
+                <li class="published">Published on: <time datetime="2007-05-31T15:00:00+02:00" pubdate>Thu 31 May 2007</time></li>
+                <li class="categories">Category: Javascript, Web
+                </li>
+            </ul>
+
+        </footer><!-- /.post-info -->
+
+        <div class="post-text">
+            <p>It's an expected fact of a geek life that interesting technologies and
+gadgets appear when you don't have either means or time to play with
+them. No surprise then that <a href="http://code.google.com/apis/gears/index.html">Google
+Gears</a> was announced
+exactly at such a time for me. As you've probably read elsewhere, Google
+Gears is a browser extension for Firefox and Internet Explorer (with
+Safari coming up) which lets developers create web applications that can
+also run offline on Windows, Mac OS X and Linux.</p>
+<p>Google isn't the first company doing something like this. Adobe has
+Apollo, Microsoft is working on its own thing, Mozilla added support for
+offline storage in version 2 of the fox and there are some less well
+known attempts like Dojo's. What makes it special are few things.</p>
+<p>First, unlike Apollo or Firefox, it's not a special environment and it's
+as cross-browser and cross-platform as it gets these days. Google is
+also trying to build an industry support for this and Adobe already
+<a href="http://shebanation.com/2007/05/30/google-gears/">announced</a> it will
+support Gears API in Apollo. Same has <a href="http://ajaxian.com/archives/audible-ajax-episode-21-dojo-offline-on-google-gears">already been
+done</a>
+by Dojo Toolkit. There's also <a href="http://erik.eae.net/archives/2007/05/30/19.06.10/#comments">an
+intention</a>
+to make it an open standard by submitting proposal to WHATWG/W3C (and
+hopefully them accepting it).</p>
+<p>Personally, I can't wait to play with WorkerPool API (which seems to be
+overlooked in all the excitement). Having a possibility of running
+time-intensive operations in a background without the fear of triggering
+"unresponsive script" dialog is a wish come true. Even though you can't
+access objects <em>document</em> and <em>window</em> (and hence any part of the DOM).
+Reason for this is that background scripts don't share any execution
+state and hence can't all access unique objects like aforementioned
+ones.</p>
+<p>This might limit usefulness of the API somewhat, but there are still
+plenty of uses that come to my mind. What also comes to my mind is a
+problem, that isn't really technological. Web applications gave
+impression to public of being fairly safe to use even on public
+computers (which isn't really true) and I fear many won't understand
+that new tools may now store private data where they don't expect or
+want them to.</p>
+        </div><!-- /.entry-content -->
+
+        <div id="disqus_thread"></div>
+        <script type="text/javascript">
+            /* * * CONFIGURATION VARIABLES * * */
+            var disqus_shortname = 'markosgaivo';
+
+            /* * * DON'T EDIT BELOW THIS LINE * * */
+            (function() {
+                var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+                dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+                (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+            })();
+        </script>
+        <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript" rel="nofollow">comments powered by Disqus.</a></noscript>
+    </article>
+</section>
+
+    <footer>
+        <ul>
+            <li>&copy; 2005-2015 Marko Samastur</li>
+            <li><a href="/articles/feeds/rss.xml" rel="alternate" title="A notch above a monkey Full RSS Feed">Entries feed</a></li>
+        </ul>
+        <a href="/"><img src="/img/markos_light_small_bg.png" alt="logo" class="mini-logo" /></a>
+    </footer>
+</body>
+</html>

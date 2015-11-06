@@ -1,0 +1,103 @@
+BODY {
+	margin: 0;
+	padding: 0;
+	font-size: 62.5%;
+	font-family: "Geneva", sans-serif;
+	background-color: #f0edb5;
+	color: #2c2c29;
+	text-align: center;
+}
+#header {
+	height: 100px;
+	background-color: #4b4b76;
+	position: relative;
+
+}
+.center {
+	margin: auto;
+	height: 100px;
+	padding: 0;
+	position: relative;
+	width: 70em;
+	text-align: left;
+}
+.center H1 {
+	position: absolute;
+	bottom: 10px;
+	color: #fff;
+	margin: 0;
+	padding: 0;
+	font-family: "Helvetica", "Geneva", sans-serif;
+	font-weight: normal;
+	font-size: 1.6em;
+}
+#main {
+	width: 70em;
+	margin: auto;
+	padding-top: 30px;
+}
+#text {
+	float: left;
+	width: 37em;
+	font-size: 1.3em;
+	line-height: 1.5;
+	text-align: justify;
+	margin: 0;
+	padding: 0;
+}
+#text P {
+	padding: 0;
+	margin: 0 0 10px 0;
+}
+.posted {
+	float: right;
+	margin-top: 20px;
+	color: #777;
+}
+.back {
+	float: left;
+	margin-top: 60px;
+}
+.back A {
+	text-decoration: none;
+	color: #444;
+}
+.image {
+	float: left;
+	width: 16em;
+	margin: 0 0 0 3em;
+}
+.image IMG {
+	padding: 2px;
+	width: 150px;
+	background-color: #fff;
+	border: 1px solid #777;
+}
+.image P {
+	width: 16em;
+	font-size: 1.1em;
+	text-align: left;
+}
+H2 {
+	margin: 30px 0 5px 0;
+	padding: 0;
+	font-weight: 500%;
+	font-family: "Helvetica", "Geneva", sans-serif;
+	font-size: 1.0em;
+	text-shadow: 1px 1px 2px #ccc;
+}
+A:hover, A:visited {
+	color: #1b44ae;
+}
+#feed {
+	margin: 30px 0 0 0;
+}
+#feed IMG {
+	width: 12px;
+	height: 12px;
+	border: 0;
+	padding: 0;
+}
+#feed A {
+	text-decoration: none;
+}

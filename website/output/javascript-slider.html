@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+          <title>A notch above a monkey</title>
+        <meta charset="utf-8" />
+        <link rel="shortcut icon" href="theme/img/markos.ico" />
+
+        <link href="http://fast.fonts.com/cssapi/aee9b60b-8e94-47f8-b586-3ecbfab51d1c.css" rel="stylesheet" type="text/css" />
+        <link rel="stylesheet" type="text/css" href="theme/css/home.css" media="screen" title="Light theme" />
+        <link rel="alternate stylesheet" type="text/css" href="theme/css/home_dark.css" media="screen" title="Dark theme" />
+        <link rel="stylesheet" href="theme/css/ipad.css" media="only screen and (min-device-width : 768px) and (max-device-width : 1024px)">
+        <link rel="stylesheet" type="text/css" href="theme/css/smallscreen.css" media="only screen and (max-width: 700px)" />
+
+        <link href="/articles/feeds/atom.xml" type="application/atom+xml" rel="alternate" title="A notch above a monkey Full Atom Feed" />
+        <link href="/articles/feeds/rss.xml" type="application/rss+xml" rel="alternate" title="A notch above a monkey Full RSS Feed" />
+
+
+
+
+</head>
+
+<body>
+<header id="banner" class="body">
+    <h1><a href="/">A notch above a monkey</a> &raquo; Javascript slider</h1>
+</header><!-- /#banner -->
+
+<section class="envelope">
+    <article class="post">
+        <header class="entry-title">
+            <h1 class="entry-title">Javascript slider</h1>
+         
+        </header>
+
+        <footer class="post-info">
+            <ul>
+                <li class="by">Written by: <a href="/">Marko Samastur</a></li>
+                <li class="published">Published on: <time datetime="2005-10-08T15:27:00+02:00" pubdate>Sat 08 October 2005</time></li>
+                <li class="categories">Category: Javascript
+                </li>
+            </ul>
+
+        </footer><!-- /.post-info -->
+
+        <div class="post-text">
+            <p>I think HTML forms are probably the least well designed part of X/HTML
+specifications and at least <a href="http://www.whatwg.org/" title="Link to WHATWG">some
+people</a> agree. They were fine
+when they came out, but time has moved on and form elements just didn't
+follow. There are too many things wrong with them, but personally I
+mostly miss a good control for date handling and a slider.</p>
+<p>So <a href="/examples/slider/index.html" title="Slider example">here's</a> my take on a
+slider, implemented with javascript. You can also download this example
+packed in <a href="/examples/slider.zip">a zip</a>.</p>
+<p>It works at least in all major browsers, but I don't consider it
+finished. However, since I haven't found the time to finish it and I
+don't think I will any time soon, I've decided to publish it anyway. It
+may be useful to somebody.</p>
+<p>It's fairly easy to use, if you can live with its limitations. You can
+create a horizontal or vertical slider. I believe example is
+self-explanatory, but if you find it difficult to use, please let me
+know and I'll help.</p>
+<p>Couple of things to remember. Code expects to find an image of button in
+subdirectory <em>img</em> and it shouldn't be bigger than this one. If you need
+a different size, just correct javascript.</p>
+<p>Also <em>addEvent</em> and <em>delEvent</em> functions in <em>slider.js</em> should be
+replaced with something more robust, when
+<a href="http://www.quirksmode.org/blog/" title="PPK's blog">ppk's</a> team declares a
+winner.</p>
+        </div><!-- /.entry-content -->
+
+        <div id="disqus_thread"></div>
+        <script type="text/javascript">
+            /* * * CONFIGURATION VARIABLES * * */
+            var disqus_shortname = 'markosgaivo';
+
+            /* * * DON'T EDIT BELOW THIS LINE * * */
+            (function() {
+                var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+                dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+                (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+            })();
+        </script>
+        <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript" rel="nofollow">comments powered by Disqus.</a></noscript>
+    </article>
+</section>
+
+    <footer>
+        <ul>
+            <li>&copy; 2005-2015 Marko Samastur</li>
+            <li><a href="/articles/feeds/rss.xml" rel="alternate" title="A notch above a monkey Full RSS Feed">Entries feed</a></li>
+        </ul>
+        <a href="/"><img src="/img/markos_light_small_bg.png" alt="logo" class="mini-logo" /></a>
+    </footer>
+</body>
+</html>

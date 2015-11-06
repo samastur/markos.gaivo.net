@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+          <title>A notch above a monkey</title>
+        <meta charset="utf-8" />
+        <link rel="shortcut icon" href="theme/img/markos.ico" />
+
+        <link href="http://fast.fonts.com/cssapi/aee9b60b-8e94-47f8-b586-3ecbfab51d1c.css" rel="stylesheet" type="text/css" />
+        <link rel="stylesheet" type="text/css" href="theme/css/home.css" media="screen" title="Light theme" />
+        <link rel="alternate stylesheet" type="text/css" href="theme/css/home_dark.css" media="screen" title="Dark theme" />
+        <link rel="stylesheet" href="theme/css/ipad.css" media="only screen and (min-device-width : 768px) and (max-device-width : 1024px)">
+        <link rel="stylesheet" type="text/css" href="theme/css/smallscreen.css" media="only screen and (max-width: 700px)" />
+
+        <link href="/articles/feeds/atom.xml" type="application/atom+xml" rel="alternate" title="A notch above a monkey Full Atom Feed" />
+        <link href="/articles/feeds/rss.xml" type="application/rss+xml" rel="alternate" title="A notch above a monkey Full RSS Feed" />
+
+
+
+
+</head>
+
+<body>
+<header id="banner" class="body">
+    <h1><a href="/">A notch above a monkey</a> &raquo; Speeding up Levenshtein</h1>
+</header><!-- /#banner -->
+
+<section class="envelope">
+    <article class="post">
+        <header class="entry-title">
+            <h1 class="entry-title">Speeding up Levenshtein</h1>
+         
+        </header>
+
+        <footer class="post-info">
+            <ul>
+                <li class="by">Written by: <a href="/">Marko Samastur</a></li>
+                <li class="published">Published on: <time datetime="2006-11-10T02:17:00+01:00" pubdate>Fri 10 November 2006</time></li>
+                <li class="categories">Category: General development, Python, Web
+                </li>
+            </ul>
+
+        </footer><!-- /.post-info -->
+
+        <div class="post-text">
+            <p><a href="http://markos.gaivo.net/blog/?p=210#postcomment">Simon</a> proposes using
+a dictionary to match mistyped URLs with real ones. I'd probably like
+the idea better if I actually understood it. Still using
+<a href="http://en.wikipedia.org/wiki/Levenshtein_distance" title="description of the algorithm">Levenshtein</a>
+can be a bit easier than using a spell checker responsively.</p>
+<p>Easier, but slow. I used existing
+<a href="http://hetland.org/python/distance.py" title="python implementation">implementation</a>
+by Magnus Lie Hetland and made a test with 245 blog titles using a
+simple
+<a href="http://markos.gaivo.net/examples/distance/test_distance" title="Link to test script">script</a>.
+100 iterations on aging powerbook produced:</p>
+<p>1.766s, 29.152s, 9.399s (min, max, avg)</p>
+<p>Average time to calculate distance between randomly chosen title and
+rest of them is 9.4 seconds, which is far too much to be useful. And
+there's not even 250 of them.</p>
+<p>There are two obvious ways to speed things up. Since minimum distance is
+at least as much as a difference in length of both strings, there's no
+point in calculating it when difference already exceeds a limit we
+chose.</p>
+<p>The other trick took into an account that Levenshtein's algorithm of two
+strings of comparable length has complexity of O(n2) and that my blog
+titles are form quite sparse space. If strings are longer than a certain
+limit (I arbitrarily chose 10 letters), then first calculate edit
+distance on a small sparse substring and then calculate the real
+distance only if first one was close enough.</p>
+<p>When I made 1000 iterations of randomly chosen title using only first
+test, I got following results:</p>
+<p>0.003s, 0.284s, 0.167s (min, max, avg)</p>
+<p>However, if I used both checks, the same 1000 iteration test got me:</p>
+<p>0.003s, 0.162s, 0.027s (min, max, avg)</p>
+<p>So, <a href="http://markos.gaivo.net/examples/distance/distance.py" title="Extended distance functions">two simple
+checks</a>
+can speed up search up to 350 times. Not bad, but I'm not happy. This is
+certainly fast enough for a personal website or sites where site
+structure effectively divides searching to relatively small sets of
+possible hits, but there are plenty of sites where it would be too slow.</p>
+<p>I tried to simplify searching using distance to map strings to
+coordinate system, which was at least hopelessly naive if not downright
+dumb. A much better approach would be to read more, which is what I'm
+doing now.</p>
+<p>By the way, I've also tried to speed it up using Pyrex, but got pretty
+much same results, which means I either don't know how to use Pyrex or
+Python optimizes well. Or both.</p>
+        </div><!-- /.entry-content -->
+
+        <div id="disqus_thread"></div>
+        <script type="text/javascript">
+            /* * * CONFIGURATION VARIABLES * * */
+            var disqus_shortname = 'markosgaivo';
+
+            /* * * DON'T EDIT BELOW THIS LINE * * */
+            (function() {
+                var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+                dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+                (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+            })();
+        </script>
+        <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript" rel="nofollow">comments powered by Disqus.</a></noscript>
+    </article>
+</section>
+
+    <footer>
+        <ul>
+            <li>&copy; 2005-2015 Marko Samastur</li>
+            <li><a href="/articles/feeds/rss.xml" rel="alternate" title="A notch above a monkey Full RSS Feed">Entries feed</a></li>
+        </ul>
+        <a href="/"><img src="/img/markos_light_small_bg.png" alt="logo" class="mini-logo" /></a>
+    </footer>
+</body>
+</html>

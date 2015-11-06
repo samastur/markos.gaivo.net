@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+        <title>A notch above a monkey</title>
+        <meta charset="utf-8" />
+        <link rel="shortcut icon" href="theme/img/markos.ico" />
+
+        <link href="http://fast.fonts.com/cssapi/aee9b60b-8e94-47f8-b586-3ecbfab51d1c.css" rel="stylesheet" type="text/css" />
+        <link rel="stylesheet" type="text/css" href="theme/css/home.css" media="screen" title="Light theme" />
+        <link rel="alternate stylesheet" type="text/css" href="theme/css/home_dark.css" media="screen" title="Dark theme" />
+        <link rel="stylesheet" href="theme/css/ipad.css" media="only screen and (min-device-width : 768px) and (max-device-width : 1024px)">
+        <link rel="stylesheet" type="text/css" href="theme/css/smallscreen.css" media="only screen and (max-width: 700px)" />
+
+        <link href="/articles/feeds/atom.xml" type="application/atom+xml" rel="alternate" title="A notch above a monkey Full Atom Feed" />
+        <link href="/articles/feeds/rss.xml" type="application/rss+xml" rel="alternate" title="A notch above a monkey Full RSS Feed" />
+</head>
+
+<body>
+
+
+<section class="envelope posts">
+    <header>
+        <h1><a href="/">A notch above a monkey <strong></strong></a></h1>
+    </header><!-- /#banner -->
+
+    <nav class="colophon">
+        <h1>By Marko Samastur</h1>
+        <ul>
+            <li><a href="/">About me</a></li>
+            <li><a href="http://markos.gaivo.net/blog/?feed=atom">Subscribe</a></li>
+        </ul>
+    </nav>
+
+        <article class="hentry">
+            <h1 class="entry-title storytitle"><a href="/the-callee-is-not-available.html" rel="bookmark" title="Permalink to The callee is not available">The callee is not available</a></h1>
+
+            <div class="entry-content post-text">
+                <p>Sometimes you get this feeling of really mastering a technology. As if
+nothing can surprise you and you've seen it all. If you're lucky, you'll
+get a message like this before you become too cocky:</p>
+<blockquote>
+<p>Error: The callee (server [not server application]) is not available
+and disappeared; all connections are invalid. The call did not
+execute.</p>
+</blockquote>
+<p>Do you know what it means? Neither did I, but somebody else
+<a href="http://www.thescripts.com/forum/post297987-2.html">did</a>:</p>
+<blockquote>
+<p>It occurs in the context of pages using javascript to generate page<br />
+ content and communicate between windows, one of which windows is
+closed.</p>
+<p>Possibly<br />
+ * page A pops up page B in the link and page B wants to communicate
+with<br />
+ page A, but page A has been closed (possibly by you or a popup
+killer?), or<br />
+ * Internet Explorer has become totally confused and it will work in<br />
+ another browser, or<br />
+ * poor page design.</p>
+</blockquote>
+<p>Or in my case forgetting Javascript passes references when assigning
+objects which become null, if referenced object was stored in now
+defunct window. The problematic browser in question was of course
+Internet Explorer.</p>
+            </div><!-- /.entry-content -->
+
+            <footer class="post-metadata">
+                <ul>
+                    <li>Published on <time datetime="2006-05-24T13:38:00+02:00">Wed 24 May 2006</time> </li>
+                    <li><a href="/the-callee-is-not-available.html">Add your comment</a></li>
+                </ul>
+            </footer>
+        </article>
+        <article class="hentry">
+            <h1 class="entry-title storytitle"><a href="/opera-mini-and-file-uploads.html" rel="bookmark" title="Permalink to Opera mini and file uploads">Opera mini and file uploads</a></h1>
+
+            <div class="entry-content post-text">
+                <p>A Marela member notified us, that file upload doesn't work in <a href="http://www.opera.com/products/mobile/operamini/">Opera
+Mini</a>. It's true,
+because Opera Mini doesn't support file uploads which you can easily
+check by visiting two <a href="http://markos.gaivo.net/examples/inputfile/index.html">demo
+pages</a> with valid
+XHTML. You shouldn't see a file input element on either of them.</p>
+<p>I believe (but as an outsider obviously can't prove) it lacks upload
+support for security reasons. Every web request handled by Opera Mini
+gets transported over a proxy, which fetches the page in questions and
+translates it in a compressed format suitable for viewing on small
+screen devices. This means that file uploads would be sent to proxy as
+well which depending on what is sent can be seen as a security
+violation.</p>
+<p>Of course it does allow logging in websites, a potentially unsafe
+action, which puts my speculation on shaky grounds. But the true point
+of this article still stands. Opera Mini doesn't support file uploads.</p>
+            </div><!-- /.entry-content -->
+
+            <footer class="post-metadata">
+                <ul>
+                    <li>Published on <time datetime="2006-05-24T10:35:00+02:00">Wed 24 May 2006</time> </li>
+                    <li><a href="/opera-mini-and-file-uploads.html">Add your comment</a></li>
+                </ul>
+            </footer>
+        </article>
+        <article class="hentry">
+            <h1 class="entry-title storytitle"><a href="/henry-the-adequate.html" rel="bookmark" title="Permalink to Henry the Adequate">Henry the Adequate</a></h1>
+
+            <div class="entry-content post-text">
+                <p>Finally somebody who makes
+<a href="http://weblog.henrytheadequate.com/?p=348">sense</a>.</p>
+            </div><!-- /.entry-content -->
+
+            <footer class="post-metadata">
+                <ul>
+                    <li>Published on <time datetime="2006-05-22T20:17:00+02:00">Mon 22 May 2006</time> </li>
+                    <li><a href="/henry-the-adequate.html">Add your comment</a></li>
+                </ul>
+            </footer>
+        </article>
+
+<p class="paginator">
+        <a href="/index55.html">&laquo;</a>
+    Page 56 / 111
+        <a href="/index57.html">&raquo;</a>
+</p>
+</section><!-- /#content -->
+
+    <footer>
+        <ul>
+            <li>&copy; 2005-2015 Marko Samastur</li>
+            <li><a href="/articles/feeds/rss.xml" rel="alternate" title="A notch above a monkey Full RSS Feed">Entries feed</a></li>
+        </ul>
+        <a href="/"><img src="/img/markos_light_small_bg.png" alt="logo" class="mini-logo" /></a>
+    </footer>
+</body>
+</html>

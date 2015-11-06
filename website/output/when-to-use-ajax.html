@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+          <title>A notch above a monkey</title>
+        <meta charset="utf-8" />
+        <link rel="shortcut icon" href="theme/img/markos.ico" />
+
+        <link href="http://fast.fonts.com/cssapi/aee9b60b-8e94-47f8-b586-3ecbfab51d1c.css" rel="stylesheet" type="text/css" />
+        <link rel="stylesheet" type="text/css" href="theme/css/home.css" media="screen" title="Light theme" />
+        <link rel="alternate stylesheet" type="text/css" href="theme/css/home_dark.css" media="screen" title="Dark theme" />
+        <link rel="stylesheet" href="theme/css/ipad.css" media="only screen and (min-device-width : 768px) and (max-device-width : 1024px)">
+        <link rel="stylesheet" type="text/css" href="theme/css/smallscreen.css" media="only screen and (max-width: 700px)" />
+
+        <link href="/articles/feeds/atom.xml" type="application/atom+xml" rel="alternate" title="A notch above a monkey Full Atom Feed" />
+        <link href="/articles/feeds/rss.xml" type="application/rss+xml" rel="alternate" title="A notch above a monkey Full RSS Feed" />
+
+
+
+
+</head>
+
+<body>
+<header id="banner" class="body">
+    <h1><a href="/">A notch above a monkey</a> &raquo; When to use AJAX</h1>
+</header><!-- /#banner -->
+
+<section class="envelope">
+    <article class="post">
+        <header class="entry-title">
+            <h1 class="entry-title">When to use AJAX</h1>
+         
+        </header>
+
+        <footer class="post-info">
+            <ul>
+                <li class="by">Written by: <a href="/">Marko Samastur</a></li>
+                <li class="published">Published on: <time datetime="2005-11-11T19:10:00+01:00" pubdate>Fri 11 November 2005</time></li>
+                <li class="categories">Category: Javascript, Spletne urice, Web
+                </li>
+            </ul>
+
+        </footer><!-- /.post-info -->
+
+        <div class="post-text">
+            <p>Wednesday's conversation with <a href="http://www.friedcellcollective.net/">Fry</a>
+provoked me to think more about where and when to use AJAX. I thought
+I've got it figured it out, but I've discovered that my opinions don't
+really match my behavior and I find this a problem.</p>
+<p>AJAX rage of 2005 hasn't brought many articles exploring benefits and
+downsides to AJAX. There were few, even very good ones, but I'd like to
+see more of them and less articles describing latest gimmick or service
+which would probably be overlooked if it didn't use an AJAX trick or
+two.</p>
+<p>I had a dentist appointment today, something I'm sure everyone looks
+forward to, which at least provided me with ample time to think about
+this. My basic premise was that we should use technology that already
+works and use AJAX to build on top of that.</p>
+<p>Since basic web model has been around for a long time, is well
+understood and mostly works, I tried to look at places where it doesn't
+or at least not as it should and came to a short list of possible
+criteria for choosing when to apply AJAX:</p>
+<ul>
+<li><strong>Browsers ought to support this, but mostly can't or don't.</strong>
+    Example: autosave support for textarea, which is the most requested
+    feature among my friends.</li>
+<li><strong>Browsers support it, but badly.</strong> Example: progress bar for
+    uploads. I don't know why you can get a usable dialog for downloads,
+    but you're out of luck if you want to upload.</li>
+<li><strong>Connection problems (narrow bandwidth or high latency).</strong> If this
+    is a known, but otherwise unsolvable problem, AJAX can be used to
+    reduce ammount and frequency of traffic.</li>
+</ul>
+<p>Have I forgot anything else?</p>
+<p>I don't think these are only valid scenarios for AJAX use, but we did
+discover that fast serving of well designed pages greatly reduces the
+need for AJAX.</p>
+        </div><!-- /.entry-content -->
+
+        <div id="disqus_thread"></div>
+        <script type="text/javascript">
+            /* * * CONFIGURATION VARIABLES * * */
+            var disqus_shortname = 'markosgaivo';
+
+            /* * * DON'T EDIT BELOW THIS LINE * * */
+            (function() {
+                var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+                dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+                (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+            })();
+        </script>
+        <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript" rel="nofollow">comments powered by Disqus.</a></noscript>
+    </article>
+</section>
+
+    <footer>
+        <ul>
+            <li>&copy; 2005-2015 Marko Samastur</li>
+            <li><a href="/articles/feeds/rss.xml" rel="alternate" title="A notch above a monkey Full RSS Feed">Entries feed</a></li>
+        </ul>
+        <a href="/"><img src="/img/markos_light_small_bg.png" alt="logo" class="mini-logo" /></a>
+    </footer>
+</body>
+</html>

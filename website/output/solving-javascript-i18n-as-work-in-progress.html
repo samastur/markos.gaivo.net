@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+          <title>A notch above a monkey</title>
+        <meta charset="utf-8" />
+        <link rel="shortcut icon" href="theme/img/markos.ico" />
+
+        <link href="http://fast.fonts.com/cssapi/aee9b60b-8e94-47f8-b586-3ecbfab51d1c.css" rel="stylesheet" type="text/css" />
+        <link rel="stylesheet" type="text/css" href="theme/css/home.css" media="screen" title="Light theme" />
+        <link rel="alternate stylesheet" type="text/css" href="theme/css/home_dark.css" media="screen" title="Dark theme" />
+        <link rel="stylesheet" href="theme/css/ipad.css" media="only screen and (min-device-width : 768px) and (max-device-width : 1024px)">
+        <link rel="stylesheet" type="text/css" href="theme/css/smallscreen.css" media="only screen and (max-width: 700px)" />
+
+        <link href="/articles/feeds/atom.xml" type="application/atom+xml" rel="alternate" title="A notch above a monkey Full Atom Feed" />
+        <link href="/articles/feeds/rss.xml" type="application/rss+xml" rel="alternate" title="A notch above a monkey Full RSS Feed" />
+
+
+
+
+</head>
+
+<body>
+<header id="banner" class="body">
+    <h1><a href="/">A notch above a monkey</a> &raquo; Solving javascript i18n as work in progress</h1>
+</header><!-- /#banner -->
+
+<section class="envelope">
+    <article class="post">
+        <header class="entry-title">
+            <h1 class="entry-title">Solving javascript i18n as work in progress</h1>
+         
+        </header>
+
+        <footer class="post-info">
+            <ul>
+                <li class="by">Written by: <a href="/">Marko Samastur</a></li>
+                <li class="published">Published on: <time datetime="2005-12-08T14:11:00+01:00" pubdate>Thu 08 December 2005</time></li>
+                <li class="categories">Category: Javascript, Web
+                </li>
+            </ul>
+
+        </footer><!-- /.post-info -->
+
+        <div class="post-text">
+            <p>A while ago I was moaning about a sad state of javascript i18n tools.
+When I finally started working on it, I faced a dilemma.</p>
+<p>Should I wait until it's finished and then reveal it like Moses to
+chosen people? Look guys what I etched with a toothpick during my lunch
+time break! You know, I was waiting for my Crème Brûlée and had to kill
+those few pesky minutes.</p>
+<p>Or should I choose a more honest approach, showing steps and missteps
+between embarrassing first version and hopefully usable last?</p>
+<p>Well, there's nothing better than public humiliation to instill some
+humility so let's see what is behind the door number two.</p>
+<p>The goal is still the same. Develop a short and relatively fast library
+that allows you to translate javascript code and HTML content and to do
+so with as little fuss as possible and with a clear separation between
+HTML, javascript and translations, but without breaking pages in case
+translation doesn't exist yet.</p>
+<p>And
+<a href="http://markos.gaivo.net/examples/js_i18n/1/translate.js" title="Translation functions">here's</a>
+my humble start together with a <a href="http://markos.gaivo.net/examples/js_i18n/1/index.html" title="Link to demonstration page">simple
+demo</a>.
+Three functions, two of them a support needed later on. stripStr and
+stripStrML just strip whitespace at the start and end of string with
+stripStrML doing it on every line of a given string. We'll need this
+later on so we can find strings to translate even if they are enclosed
+in whitespace to make source display more pretty.</p>
+<p>Then there's a function called _, which takes a string and translates
+it if javascript object i18nDict exists and has this string as an
+attribute with a non empty value. Otherwise it just returns the same
+string, so it doesn't break page even if translation doesn't exist in
+<a href="http://markos.gaivo.net/examples/js_i18n/1/i18n.js" title="Translation dictionary">translation
+object</a>.
+It's what is usually called a proof of concept prototype.</p>
+<p>That's it for today. I'll try to post updates every couple of days or
+so, if progress warrants it.</p>
+<p>Update: Follow up <a href="http://markos.gaivo.net/blog/?p=93">here</a> and
+<a href="http://markos.gaivo.net/blog/?p=100">here</a>.</p>
+        </div><!-- /.entry-content -->
+
+        <div id="disqus_thread"></div>
+        <script type="text/javascript">
+            /* * * CONFIGURATION VARIABLES * * */
+            var disqus_shortname = 'markosgaivo';
+
+            /* * * DON'T EDIT BELOW THIS LINE * * */
+            (function() {
+                var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+                dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+                (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+            })();
+        </script>
+        <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript" rel="nofollow">comments powered by Disqus.</a></noscript>
+    </article>
+</section>
+
+    <footer>
+        <ul>
+            <li>&copy; 2005-2015 Marko Samastur</li>
+            <li><a href="/articles/feeds/rss.xml" rel="alternate" title="A notch above a monkey Full RSS Feed">Entries feed</a></li>
+        </ul>
+        <a href="/"><img src="/img/markos_light_small_bg.png" alt="logo" class="mini-logo" /></a>
+    </footer>
+</body>
+</html>

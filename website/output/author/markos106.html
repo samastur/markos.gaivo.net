@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+        <title>A notch above a monkey - Articles by markos</title>
+        <meta charset="utf-8" />
+        <link rel="shortcut icon" href="theme/img/markos.ico" />
+
+        <link href="http://fast.fonts.com/cssapi/aee9b60b-8e94-47f8-b586-3ecbfab51d1c.css" rel="stylesheet" type="text/css" />
+        <link rel="stylesheet" type="text/css" href="theme/css/home.css" media="screen" title="Light theme" />
+        <link rel="alternate stylesheet" type="text/css" href="theme/css/home_dark.css" media="screen" title="Dark theme" />
+        <link rel="stylesheet" href="theme/css/ipad.css" media="only screen and (min-device-width : 768px) and (max-device-width : 1024px)">
+        <link rel="stylesheet" type="text/css" href="theme/css/smallscreen.css" media="only screen and (max-width: 700px)" />
+
+        <link href="/articles/feeds/atom.xml" type="application/atom+xml" rel="alternate" title="A notch above a monkey Full Atom Feed" />
+        <link href="/articles/feeds/rss.xml" type="application/rss+xml" rel="alternate" title="A notch above a monkey Full RSS Feed" />
+</head>
+
+<body>
+
+<h2>Articles by markos</h2>
+
+<section class="envelope posts">
+    <header>
+        <h1><a href="/">A notch above a monkey <strong></strong></a></h1>
+    </header><!-- /#banner -->
+
+    <nav class="colophon">
+        <h1>By Marko Samastur</h1>
+        <ul>
+            <li><a href="/">About me</a></li>
+            <li><a href="http://markos.gaivo.net/blog/?feed=atom">Subscribe</a></li>
+        </ul>
+    </nav>
+
+        <article class="hentry">
+            <h1 class="entry-title storytitle"><a href="/im-a-human-dammit.html" rel="bookmark" title="Permalink to I'm a human, dammit!">I'm a human, dammit!</a></h1>
+
+            <div class="entry-content post-text">
+                <p>I've changed a lot and a lot has changed for me, since I started my
+company. Among other I've became much more aware of the way businesses
+deal with me as a customer. Maybe it's just me, but it usually sucks
+beyond belief.</p>
+<p>Customer relationship management.</p>
+<p>I've never heard anyone with a successful marriage describing living his
+relationship as managing it. If you give it a name like this, you're off
+in a wrong direction already. No wonder dealing with most companies for
+me has an appeal of a full-body wax depilation.</p>
+<p>There are rare exceptions. One of them is Tomaž, a computer hardware
+dealer who can get you practically anything you need. All it takes is an
+email with a short description of what I'm looking for and in shortest
+time possible I get it delivered personally to my doorstep. There's no
+unnecessary bureaucracy, no trying to sell me something I didn't ask for
+and I get a good price. In short, it's a great service that leaves me to
+focus on really important stuff. And Tomaž gets more business from me
+than he would probably otherwise.</p>
+<p>Why is this so hard for others to learn?</p>
+<p>By the way, if you need to buy computer hardware and you want to get a
+good price with as little fuss as possible, please let me know and I'll
+send you his email address.</p>
+            </div><!-- /.entry-content -->
+
+            <footer class="post-metadata">
+                <ul>
+                    <li>Published on <time datetime="2005-09-07T19:21:00+02:00">Wed 07 September 2005</time> </li>
+                    <li><a href="/im-a-human-dammit.html">Add your comment</a></li>
+                </ul>
+            </footer>
+        </article>
+        <article class="hentry">
+            <h1 class="entry-title storytitle"><a href="/beautiful-soup-is-beautiful-again.html" rel="bookmark" title="Permalink to Beautiful Soup is beautiful again">Beautiful Soup is beautiful again</a></h1>
+
+            <div class="entry-content post-text">
+                <p>This is probably the last part in series of post dealing with Beautiful
+Soup. At least for a while. Good news is, I found the bug that caused
+observed weird behavior and it was partly self-inflicted.</p>
+<p>My problem appeared, because I was using variables that resembled html
+tags (e.g. imgs, ul...) and didn't put space after \&lt; in statements as
+good practice dictates. So I had statements like:<br />
+<code>if (i&lt;imgs.length)</code></p>
+<p>Beautiful Soup relies on <em>sgmllib.py</em> for processing of documents and
+it's sgmllib that causes havoc by processing CDATA (found in script and
+style blocks), when it shouldn't. But the problem is not really with
+sgmllib, which has a literal switch to turn processing off. It's just
+that Beautiful Soup doesn't use it.</p>
+<p>So fix is really adding one line<br />
+<code>self.literal = 1</code><br />
+after <em>if</em> statement on line 835. Or <a href="http://markos.gaivo.net/blog/code/BeautifulSoup.py" title="Link to fixed version">downloading fixed
+version</a>.</p>
+<p>Reading source I also realized another potential pitfall. If you use
+javascript to inject javascript with document.write method, you'll
+probably confuse sgmllib (and hence Beautiful Soup). When processing
+CDATA, it doesn't try to understand it, it just copies data until it
+finds an endtag (\&lt;/script> in javascript's case). But if you're doing
+that, you have yourself to blame.</p>
+<p><em>BeautifulSoup 2.1.1 is
+<a href="http://www.crummy.com/software/BeautifulSoup/index.html">out</a>, which
+fixes my bug and several others. So you better fetch that version.</em></p>
+            </div><!-- /.entry-content -->
+
+            <footer class="post-metadata">
+                <ul>
+                    <li>Published on <time datetime="2005-09-06T10:16:00+02:00">Tue 06 September 2005</time> </li>
+                    <li><a href="/beautiful-soup-is-beautiful-again.html">Add your comment</a></li>
+                </ul>
+            </footer>
+        </article>
+        <article class="hentry">
+            <h1 class="entry-title storytitle"><a href="/beautiful-soup-part-2.html" rel="bookmark" title="Permalink to Beautiful Soup - part 2">Beautiful Soup - part 2</a></h1>
+
+            <div class="entry-content post-text">
+                <p>It seems I praised Beautiful Soup too quickly. I was playing with it
+yesterday and discovered it mangles Javascript included in file. I can't
+say it does this every time, but it's fairly obvious if you have few
+kilobytes of code stuck in file. There you have it, another argument why
+Javascript and CSS should be stored in external files.</p>
+<p>It's not an option for me though, so I'll have to work around it.</p>
+<p>It's still a great module, as long as you can work within its
+limitations, but it's not panacea. At least not yet.</p>
+<p>If I find time, I'll try to fix the problem, since I really dislike idea
+of processing files using usual methods (regular expressions &amp; co.).</p>
+            </div><!-- /.entry-content -->
+
+            <footer class="post-metadata">
+                <ul>
+                    <li>Published on <time datetime="2005-09-05T14:54:00+02:00">Mon 05 September 2005</time> </li>
+                    <li><a href="/beautiful-soup-part-2.html">Add your comment</a></li>
+                </ul>
+            </footer>
+        </article>
+
+<p class="paginator">
+        <a href="/author/markos105.html">&laquo;</a>
+    Page 106 / 111
+        <a href="/author/markos107.html">&raquo;</a>
+</p>
+</section><!-- /#content -->
+
+    <footer>
+        <ul>
+            <li>&copy; 2005-2015 Marko Samastur</li>
+            <li><a href="/articles/feeds/rss.xml" rel="alternate" title="A notch above a monkey Full RSS Feed">Entries feed</a></li>
+        </ul>
+        <a href="/"><img src="/img/markos_light_small_bg.png" alt="logo" class="mini-logo" /></a>
+    </footer>
+</body>
+</html>

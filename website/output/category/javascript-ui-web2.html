@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+        <title>A notch above a monkey</title>
+        <meta charset="utf-8" />
+        <link rel="shortcut icon" href="theme/img/markos.ico" />
+
+        <link href="http://fast.fonts.com/cssapi/aee9b60b-8e94-47f8-b586-3ecbfab51d1c.css" rel="stylesheet" type="text/css" />
+        <link rel="stylesheet" type="text/css" href="theme/css/home.css" media="screen" title="Light theme" />
+        <link rel="alternate stylesheet" type="text/css" href="theme/css/home_dark.css" media="screen" title="Dark theme" />
+        <link rel="stylesheet" href="theme/css/ipad.css" media="only screen and (min-device-width : 768px) and (max-device-width : 1024px)">
+        <link rel="stylesheet" type="text/css" href="theme/css/smallscreen.css" media="only screen and (max-width: 700px)" />
+
+        <link href="/articles/feeds/atom.xml" type="application/atom+xml" rel="alternate" title="A notch above a monkey Full Atom Feed" />
+        <link href="/articles/feeds/rss.xml" type="application/rss+xml" rel="alternate" title="A notch above a monkey Full RSS Feed" />
+</head>
+
+<body>
+
+<h2>Articles in the Javascript, UI, Web category</h2>
+
+<section class="envelope posts">
+    <header>
+        <h1><a href="/">A notch above a monkey <strong></strong></a></h1>
+    </header><!-- /#banner -->
+
+    <nav class="colophon">
+        <h1>By Marko Samastur</h1>
+        <ul>
+            <li><a href="/">About me</a></li>
+            <li><a href="http://markos.gaivo.net/blog/?feed=atom">Subscribe</a></li>
+        </ul>
+    </nav>
+
+        <article class="hentry">
+            <h1 class="entry-title storytitle"><a href="/flashaid.html" rel="bookmark" title="Permalink to FlashAid">FlashAid</a></h1>
+
+            <div class="entry-content post-text">
+                <p>Ever since I listened to Andy Clarke's talk at @media, I've been
+convinced that what we're missing is a simple way to distinguish between
+visitors which need accessible version of the site and those who would
+prefer to use a non-accessible version.</p>
+<p>I still think that by and large sites should be made accessible to
+everyone and done so completely. But just as Braille signs are used only
+by those who need them, there's no reason why everyone should be using
+the same user interface when not doing so can be beneficial.</p>
+<p>Those who've been dabbling with Javascript and AJAX for a while have
+probably noticed that it can be very difficult if often not impossible
+to make every piece of interface accessible. A common approach was to
+add javascript as a layer on top of an accessible website, which could
+be turned off when necessary. I find this a rather blunt instrument,
+since all or nothing approach removes even pieces that may be useful and
+accessible. Yet, there didn't seem to be a better way.</p>
+<p>Accessibility preference would ideally be provided by a browser in a way
+that can be picked up with Javascript (environment variable?), but
+lacking that, I was looking for a way to signal such preference through
+user defined CSS. My idea was to define a syntactically valid, but
+normally not used combination of a page element, CSS property and its
+value that could be interpreted as a switch for accessible version of
+the site.</p>
+<p>Well, now <a href="http://osflash.org/flashaid">there's</a> another way to learn if
+screen reader is used
+(<a href="http://domscripting.com/blog/display/77#comment-container">via</a> Jeremy
+Keith), which uses Flash 8 and its JS-Flash bridge to read if such a
+device is present. Obviously its use is not universal, but it covers
+scenario that troubles me most.</p>
+<p>Still a real fix would be a better support from user agents. It doesn't
+seem to be that hard to add an environment variable and a preference
+switch, so is there some other reason why it hasn't happened yet?</p>
+            </div><!-- /.entry-content -->
+
+            <footer class="post-metadata">
+                <ul>
+                    <li>Published on <time datetime="2006-07-04T11:21:00+02:00">Tue 04 July 2006</time> </li>
+                    <li><a href="/flashaid.html">Add your comment</a></li>
+                </ul>
+            </footer>
+        </article>
+        <article class="hentry">
+            <h1 class="entry-title storytitle"><a href="/customizable-interfaces.html" rel="bookmark" title="Permalink to Customizable interfaces">Customizable interfaces</a></h1>
+
+            <div class="entry-content post-text">
+                <p>There's a vast number of potential Marela features that we are able, but
+not willing to implement, since they are detrimental to our design
+goals. There are also many, which we are willing and will implement, but
+it doesn't change the fact that there will always be parts where we
+won't compromise.</p>
+<p>Still, even though it seems natural that benefits to many should be more
+important than benefits to few, I never got quite comfortable with this.
+That's why we also want to make Marela as open as possible to let our
+members customize it without affecting other people.</p>
+<p>First, there are public APIs. They tend to work well for building new
+tools or interfaces, but offer little help in customizing existing ones.
+Which is what our users want most of the time.</p>
+<p>Every modern browser lets users define a custom style sheet to change
+the presentation of websites. That's why we recently added ID to body
+element, which lets users more <a href="http://archivist.incutio.com/viewlist/css-discuss/13291">easily
+customize</a> the
+look of Marela alone.</p>
+<p>Then there are tools like
+<a href="http://greasemonkey.mozdev.org/">Greasemonkey</a>, which let proficient
+users using Mozilla based browsers customizing existing interfaces.
+Greasemonkey works quite well, if you're proficient in Javascript.</p>
+<p>I think the biggest problem with Greasemonkey (and custom CSS for that
+matter) is that it's tied to a browser and a computer. If you change
+either of them, your customization won't work anymore without
+significant effort on your part. Sometimes, in restricted environments,
+it's not even possible to make it work. It's a bit easier to make and
+transfer CSS customizations, but you're still forced to carry your file
+around.</p>
+<p>I'm not too bothered with CSS. I simply don't see much need for it
+beyond what Marela's design and modern browsers already offer and I'm
+still biased against skin-deep themes offered by some programs. In any
+case a possible solution for it would be practically the same as what I
+have in mind for a case that does trouble me.</p>
+<p>Idea is pretty simple. Define javascript hooks that get called after
+window.onload event when they exist. If there's an easy way to add your
+javascript file to a page (say, by uploading it to our server), then you
+can create a simple, but cross-browser and cross-computer Greasemonkey.</p>
+<p>Question that remains is, is this appealing enough for you to use it?</p>
+            </div><!-- /.entry-content -->
+
+            <footer class="post-metadata">
+                <ul>
+                    <li>Published on <time datetime="2006-03-23T20:32:00+01:00">Thu 23 March 2006</time> </li>
+                    <li><a href="/customizable-interfaces.html">Add your comment</a></li>
+                </ul>
+            </footer>
+        </article>
+        <article class="hentry">
+            <h1 class="entry-title storytitle"><a href="/revisiting-javascript-i18n.html" rel="bookmark" title="Permalink to Revisiting javascript i18n">Revisiting javascript i18n</a></h1>
+
+            <div class="entry-content post-text">
+                <p>This week I had an interesting discussion with Ratnadeep Bhattacharjee
+about my <a href="http://markos.gaivo.net/blog/?p=100" title="Older post with js i18n library">previous
+try</a>
+to solve javascript i18n needs and it quickly become obvious that my
+library is not sufficient and likely also wrong approach to the problem.</p>
+<p>There are at least two unresolved issues with my current javascript i18n
+library:</p>
+<ul>
+<li>It doesn't detect browser language settings and act accordingly.</li>
+<li>It's one way only. After you changed the language used, you can't
+    change it again easily.</li>
+</ul>
+<p>I'm sure these are not the only two problems, since I have a vague
+uneasiness about a few more things. Therefore I'd love to hear more
+thoughts about what you'd expect and need from such a library, before I
+continue down the possibly wrong path.</p>
+            </div><!-- /.entry-content -->
+
+            <footer class="post-metadata">
+                <ul>
+                    <li>Published on <time datetime="2006-02-25T16:55:00+01:00">Sat 25 February 2006</time> </li>
+                    <li><a href="/revisiting-javascript-i18n.html">Add your comment</a></li>
+                </ul>
+            </footer>
+        </article>
+
+<p class="paginator">
+        <a href="/category/javascript-ui-web.html">&laquo;</a>
+    Page 2 / 5
+        <a href="/category/javascript-ui-web3.html">&raquo;</a>
+</p>
+</section><!-- /#content -->
+
+    <footer>
+        <ul>
+            <li>&copy; 2005-2015 Marko Samastur</li>
+            <li><a href="/articles/feeds/rss.xml" rel="alternate" title="A notch above a monkey Full RSS Feed">Entries feed</a></li>
+        </ul>
+        <a href="/"><img src="/img/markos_light_small_bg.png" alt="logo" class="mini-logo" /></a>
+    </footer>
+</body>
+</html>

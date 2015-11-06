@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+          <title>A notch above a monkey</title>
+        <meta charset="utf-8" />
+        <link rel="shortcut icon" href="theme/img/markos.ico" />
+
+        <link href="http://fast.fonts.com/cssapi/aee9b60b-8e94-47f8-b586-3ecbfab51d1c.css" rel="stylesheet" type="text/css" />
+        <link rel="stylesheet" type="text/css" href="theme/css/home.css" media="screen" title="Light theme" />
+        <link rel="alternate stylesheet" type="text/css" href="theme/css/home_dark.css" media="screen" title="Dark theme" />
+        <link rel="stylesheet" href="theme/css/ipad.css" media="only screen and (min-device-width : 768px) and (max-device-width : 1024px)">
+        <link rel="stylesheet" type="text/css" href="theme/css/smallscreen.css" media="only screen and (max-width: 700px)" />
+
+        <link href="/articles/feeds/atom.xml" type="application/atom+xml" rel="alternate" title="A notch above a monkey Full Atom Feed" />
+        <link href="/articles/feeds/rss.xml" type="application/rss+xml" rel="alternate" title="A notch above a monkey Full RSS Feed" />
+
+
+
+
+</head>
+
+<body>
+<header id="banner" class="body">
+    <h1><a href="/">A notch above a monkey</a> &raquo; Hide email address from spammers with Javascript</h1>
+</header><!-- /#banner -->
+
+<section class="envelope">
+    <article class="post">
+        <header class="entry-title">
+            <h1 class="entry-title">Hide email address from spammers with Javascript</h1>
+         
+        </header>
+
+        <footer class="post-info">
+            <ul>
+                <li class="by">Written by: <a href="/">Marko Samastur</a></li>
+                <li class="published">Published on: <time datetime="2005-09-11T15:59:00+02:00" pubdate>Sun 11 September 2005</time></li>
+                <li class="categories">Category: Javascript, Web
+                </li>
+            </ul>
+
+        </footer><!-- /.post-info -->
+
+        <div class="post-text">
+            <p><strong>Update: I <a href="http://markos.gaivo.net/blog/?p=162">published</a> a new, more
+safe but less friendly version of this script.</strong></p>
+<p>Wouldn't it be nice, if you could post your email address on your web
+site without worrying spammers will pick it up?</p>
+<p>Now you can, by applying a little bit of javascript to your web page.
+Just import <a href="/blog/code/mangle.js" title="Javascript file with mangle function">this javascript
+file</a> in
+head of your document and call <em>mangle()</em> inside your onload handler.
+What it does, is replace elements of form<br />
+<code>&lt;span class="change"&gt;billg at microsoft dot com&lt;/span&gt;</code><br />
+with<br />
+<code>&lt;a href="mailto:billg@microsoft.com"&gt;billg@microsoft.com&lt;/a&gt;</code></p>
+<p>There are few caveats to its use. You're not allowed to use any HTML tag
+inside of span blocks, which have class set to change. The script also
+expects such blocks to have only one class definition. If change is only
+part of class attribute value, this script won't work.</p>
+<p>You are free to use script as you please and to make any changes
+necessary. But if you choose to replace "at" and "dot" as delimiters,
+pick replacements that make address easily recognizable for those who
+don't use javascript.</p>
+<p><em>Note: The reason why this script works is that spammers use programs
+which search for email like pattern in page. They don't interpret pages
+using javascript interpreter, since it would make collecting addresses
+significantly slower and more expensive.</em></p>
+<p><em>Update: Jay Samec let me know there's a bug in my code, since it didn't
+handle emails with multiple dots (e.g. those with subdomains). Script
+has been fixed now.</em></p>
+<p><em>Update 2: Holger Rindermann pointed out another bug and provided a
+patch to fix it that is now a part of the script.</em></p>
+        </div><!-- /.entry-content -->
+
+        <div id="disqus_thread"></div>
+        <script type="text/javascript">
+            /* * * CONFIGURATION VARIABLES * * */
+            var disqus_shortname = 'markosgaivo';
+
+            /* * * DON'T EDIT BELOW THIS LINE * * */
+            (function() {
+                var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+                dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+                (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+            })();
+        </script>
+        <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript" rel="nofollow">comments powered by Disqus.</a></noscript>
+    </article>
+</section>
+
+    <footer>
+        <ul>
+            <li>&copy; 2005-2015 Marko Samastur</li>
+            <li><a href="/articles/feeds/rss.xml" rel="alternate" title="A notch above a monkey Full RSS Feed">Entries feed</a></li>
+        </ul>
+        <a href="/"><img src="/img/markos_light_small_bg.png" alt="logo" class="mini-logo" /></a>
+    </footer>
+</body>
+</html>

@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+        <title>A notch above a monkey</title>
+        <meta charset="utf-8" />
+        <link rel="shortcut icon" href="theme/img/markos.ico" />
+
+        <link href="http://fast.fonts.com/cssapi/aee9b60b-8e94-47f8-b586-3ecbfab51d1c.css" rel="stylesheet" type="text/css" />
+        <link rel="stylesheet" type="text/css" href="theme/css/home.css" media="screen" title="Light theme" />
+        <link rel="alternate stylesheet" type="text/css" href="theme/css/home_dark.css" media="screen" title="Dark theme" />
+        <link rel="stylesheet" href="theme/css/ipad.css" media="only screen and (min-device-width : 768px) and (max-device-width : 1024px)">
+        <link rel="stylesheet" type="text/css" href="theme/css/smallscreen.css" media="only screen and (max-width: 700px)" />
+
+        <link href="/articles/feeds/atom.xml" type="application/atom+xml" rel="alternate" title="A notch above a monkey Full Atom Feed" />
+        <link href="/articles/feeds/rss.xml" type="application/rss+xml" rel="alternate" title="A notch above a monkey Full RSS Feed" />
+</head>
+
+<body>
+
+
+<section class="envelope posts">
+    <header>
+        <h1><a href="/">A notch above a monkey <strong></strong></a></h1>
+    </header><!-- /#banner -->
+
+    <nav class="colophon">
+        <h1>By Marko Samastur</h1>
+        <ul>
+            <li><a href="/">About me</a></li>
+            <li><a href="http://markos.gaivo.net/blog/?feed=atom">Subscribe</a></li>
+        </ul>
+    </nav>
+
+        <article class="hentry">
+            <h1 class="entry-title storytitle"><a href="/handling-404.html" rel="bookmark" title="Permalink to Handling 404">Handling 404</a></h1>
+
+            <div class="entry-content post-text">
+                <p>This blog doesn't use descriptive URLs, which is not the only time I
+screwed this up for no good reason. In this case it was mainly laziness
+and smug i-don't-care-if-people-find-me attitude, but I hadn't really
+realized how stupid this decision was until I started thinking about the
+problem of missing pages (error 404).</p>
+<p>It always bugged me how useless most 404 pages are. Sure, I could notify
+the webmaster about a broken link, but that won't help me find what I'm
+looking for. Can't we do better than that?</p>
+<p>As it happens we often can. There's an unlimited number of ways in which
+visitors can fail to reach their destination, but majority of them
+probably fall in four categories:</p>
+<ul>
+<li>content moved elsewhere</li>
+<li>broken links</li>
+<li>typos</li>
+<li>bad memory recall</li>
+</ul>
+<p><strong>Content moved elsewhere</strong></p>
+<p>Many believe that pages should be permanent and links shouldn't break
+over time. Yet sometimes we either have little control over this or
+there are good reasons for breakage. We should still try to mitigate
+such situation by guiding visitors to correct new location when
+possible.</p>
+<p>This is done with HTTP redirects. If content was moved only temporary,
+then response should have a status code of 302 and contain a link in the
+header to correct current address. If move was permanent, then the same
+thing is achieved with code 301.</p>
+<p>Missing pages amount to around 0.6% of hits on this website. They would
+be around 8% if redirects weren't used.</p>
+<p><strong>Broken links</strong></p>
+<p>Broken links appear when email clients break URL longer than maximum
+line length or from botched copy operation. This usually means that
+address is cut off and part we have is incomplete, but otherwise
+correct. Handling such links can range from trivial to impossible. Let's
+look at one Wikipedia link as an example:</p>
+<p><a href="http://en.wikipedia.org/wiki/Longest_common_subsequence_problem">http://en.wikipedia.org/wiki/Longest_common_subsequence_problem</a></p>
+<p>Let's say that link was broken near the end of it and there was <em>lem</em>
+missing in <em>problem</em>. Resulting address might not be complete, but there
+probably aren't that many Wikipedia articles where such string forms
+first part of their address and it would be reasonable to assume that
+Wikipedia could find the right article. Alas it doesn't.</p>
+<p>On the other side of the spectrum are impossible or almost impossible
+guesses. If address was broken anywhere before <em>Longest</em>, then we could
+learn nothing from it about visitors expectations. This would look like
+a good place to give up.</p>
+<p>However, if we are lucky, then our visitors came from one of popular
+search engines, which means their referrer attribute includes search
+string that led to our page. We can extract those keywords, use them and
+hopefully find that page or failing that offer a list of related pages.
+Not perfect, but beats plain "Not here" sign.</p>
+<p><strong>Typos</p>
+<p></strong>Typos are what happens when people use keyboards. I can't live
+without one, but I still recognize that my fingers and my brain are not
+always of the same mind about how to spell a word. Letters get added,
+dropped or just switch places, all being a problem for a program that
+usually looks for that one perfect match.</p>
+<p>There's help. Edit distance algorithms, like
+<a href="http://en.wikipedia.org/wiki/Levenshtein_distance" title="Description of Levenshteins algorithm">Levenshtein's</a>,
+can be used to measure how similar two strings really are. Matching then
+becomes finding the page with shortest distance from a list of its
+closest neighbors.</p>
+<p>Downside is that algorithm is fairly computationally expensive and it
+might take time to find a match. I'll explore this problem in tomorrows
+article.</p>
+<p><strong>Bad memory requests</strong></p>
+<p>The main purpose of descriptive URLs is the same as catchy domain names.
+Make it easy to remember address for later use, when bookmarks or
+browsers autocomplete can't be used.</p>
+<p>But memory is notoriously unreliable and it doesn't work any better with
+web addresses. So addresses used may vary enough from the right one that
+they don't get caught with edit distance algorithms. As an example,
+someone might try to access aforementioned Wikipedia's article with:</p>
+<p>http://en.wikipedia.org/wiki/Longest_subsequence_problem</p>
+<p>Calculated distance between this address and the real one is 7, which is
+probably more than would be real limit for matching. We can still look
+at referrer for clues, but we can also use requested address. In our
+case, we can extract keywords <em>longest</em>, <em>subsequence</em> and <em>problem</em> and
+use them to search for possible hits. Wikipedia doesn't do this either,
+but neither do I, so I shouldn't complain.<br />
+<strong>Time to wrap it up</strong></p>
+<p>I believe this approaches make a good case for logical and descriptive
+addresses, since most of them don't work (well) otherwise. If someone
+requests an article with a nonexistent ID 145, it's impossible to
+resolve which of existing ones with IDs 155, 245 or 149 he really
+wanted.</p>
+<p>Still, sometimes descriptive addresses are not an option. I'd love to
+hear ideas or practical experience of how to handle such cases.</p>
+            </div><!-- /.entry-content -->
+
+            <footer class="post-metadata">
+                <ul>
+                    <li>Published on <time datetime="2006-11-08T12:31:00+01:00">Wed 08 November 2006</time> </li>
+                    <li><a href="/handling-404.html">Add your comment</a></li>
+                </ul>
+            </footer>
+        </article>
+        <article class="hentry">
+            <h1 class="entry-title storytitle"><a href="/preventing-javascript-download-on-mobile-web.html" rel="bookmark" title="Permalink to Preventing download of javascript on mobile web">Preventing download of javascript on mobile web</a></h1>
+
+            <div class="entry-content post-text">
+                <p>Every year I spend a few weeks somewhere where internet connection is
+either slow or metered and expensive. Usually it's both which makes me
+rather twitchy when it comes to big web page sizes. Yet I'm also certain
+that my new web home, however it may turn out at the end, will have a
+significant chunk of it written in Javascript. None of it necessary for
+working, but more than I'd probably like to download over flimsy mobile
+phone connection.</p>
+<p>The problem are not really old mobile browsers which don't support
+Javascript. They won't download any of it anyway. The question is how to
+prevent eager browsers, who would, from downloading this stuff when you
+don't want them to. My first, rather primitive attempt was <a href="http://markos.gaivo.net/examples/envcheck/index.html" title="Demo of javascript ondemand loading depending on media">this
+demonstration</a>,
+which only works in Opera 9, Safari and Firefox, but most certainly
+doesn't work in all browsers.</p>
+<p>What it does is check font size of a title and based on its value
+resolves which media style sheet was used. If it was <em>mobile.css</em>, which
+is used only when media is set to <em>handheld</em>, then it was probably done
+from a mobile environment, so it includes the mobile version of a
+Javascript or it could, if I wanted, none at all.</p>
+<p>There are several problems with this approach. First one is that it
+doesn't recognize notebook users connecting over a cellphone. It can't
+really, since browser environment is literally the same, unless it would
+try to measure latency and bandwidth of page elements and guess from
+those results, which is neither easy nor reliable. 3G networks can be
+rather fast and have a better latency than a wired connection from
+somewhere like Tanzania.</p>
+<p>But let's say we don't care about this case. We can always turn
+Javascript off in Firefox if it's important enough to us, which leads us
+to the next problem. Support for handheld media type is still rather
+spotty. If browser doesn't support it, it may load the wrong style sheet
+if any at all and the wrong CSS value results in wrong turn in
+Javascript. However <em>handheld media</em> support is getting better. Since I
+decided from the start that my personal page is a good place where
+leading edge can also be a bit of bleeding one, that is good enough. On
+a different site this probably wouldn't be true.</p>
+<p>So it sort of works in principle, but it is crude and error prone.
+Javascript check is not self-contained and I could easily break it by
+changing font size value of a title in CSS files while forgetting to do
+a corresponding correction in code. What would be much better is to
+learn from the browser which media types style sheets were actually used
+and act accordingly. Now that would be grand.</p>
+<p>There are two ways you could go about this. My first go was finding
+style nodes in DOM and looking at their <em>disabled</em> property, which is
+commonly used in style sheet switchers for turning sheets on and off. It
+doesn't work, since 'wrong' media types in Firefox are ignored, not
+disabled. Their <em>disabled</em> value is still set to <em>false</em>.</p>
+<p>A proper way of doing it would be using DOM Style Sheets methods. Basic
+idea is to compare actual values as set in the page with values read
+from style sheets and resolving which ones were used. While not exactly
+trivial, by little forethought it can be made to work fine in Opera and
+Firefox. It can also work in Explorer using its own methods, but it's a
+pain to make it work in Safari, which in this case is not only an
+incompetent liar, it's also lying in some weird accent. If you'd like to
+learn more about it, then there's a
+<a href="http://www.howtocreate.co.uk/tutorials/javascript/domstylesheets" title="Problems with DOM Style Sheets use">great</a>
+page describing current state but the gist of it is that you can't rely
+on methods being there and even when they are, in some form or another,
+they might not work reliably (Safari) or might produce weird results
+(yup, Safari again).</p>
+<p>Well, it could still work, but would require an unreasonable amount of
+code. Hence I made a different tradeoff, which can be seen
+<a href="http://markos.gaivo.net/examples/envcheck/index2.html" title="Second attempt">here</a>.
+A bit less automation for a lot less code. It keeps the idea of first
+demo with a small twist. First rule of every media style sheet targets
+the same element that gets created by Javascript if necessary and
+compares its font size value with those found in style sheets. It
+returns media types of all sheets where this value was found.</p>
+<p>The end result certainly isn't perfect or pretty, but it keeps amount of
+bookkeeping to minimum and limited to CSS files. Even using a "safe"
+property like font size can lead to problems (e.g. 0.9em is sometimes
+interpreted as 0.90em), but nothing difficult to overcome.</p>
+<p>It might not be of production quality, but it will work as good starting
+point for further exploration.</p>
+            </div><!-- /.entry-content -->
+
+            <footer class="post-metadata">
+                <ul>
+                    <li>Published on <time datetime="2006-10-29T21:55:00+01:00">Sun 29 October 2006</time> </li>
+                    <li><a href="/preventing-javascript-download-on-mobile-web.html">Add your comment</a></li>
+                </ul>
+            </footer>
+        </article>
+        <article class="hentry">
+            <h1 class="entry-title storytitle"><a href="/back.html" rel="bookmark" title="Permalink to Back">Back</a></h1>
+
+            <div class="entry-content post-text">
+                <p>There's hardly a worse way to end a vacation than catching a flu. There
+are also better starts to flu then midnight spells of vomiting, when
+your stomach is completely empty. All you do is spit acid and brush
+teeth afterwards in hope they might stick around a bit longer.<a href="http://www.marela.si/photos/9688/"><img alt="Anchor
+on Zanzibar
+beach" src="http://static.marela.si/users0/markos/2/3k3Jipz--q6-zqjBRiYviLMzibE.jpg" /></a><br />
+The good thing is that it beats catching malaria, which I hopefully
+didn't, and that it only gets better onwards. I seem to be left only
+with a slight cold and a nasty <strong>*censored*</strong> problem that I'm hoping
+will disappear in next few days. I'm almost through my unread emails as
+well so if you've sent me something and haven't heard from me yet, this
+would be a good time to send me a reminder.<br />
+This vacation has been very much unlike the others. It was the first
+time in years, well, since I started working really, that I didn't work
+at all while being on vacation. I didn't think of work either, an odd
+experience I enjoyed with gusto.<br />
+Still, a long way home provided ample opportunity for reflection, hazy
+thoughts and dubious decisions one of which is that I'm going to rewrite
+this site and create my own publishing platform, which will be better
+suited than those known to me for things I need and things I'd like to
+try out.<br />
+I've also given myself a deadline, a year, in which to come up with
+this thing. A deadline that I think provides enough time to hope for
+sucess and not enough to slack.<br />
+What won't change is the low frequency of my posts, a belief
+strengthened by wading through hundreds of unread posts accumulated in
+my feed reader while I was gone, majority of which being little more
+than a waste of time. But who am I to complain.</p>
+            </div><!-- /.entry-content -->
+
+            <footer class="post-metadata">
+                <ul>
+                    <li>Published on <time datetime="2006-10-18T22:17:00+02:00">Wed 18 October 2006</time> </li>
+                    <li><a href="/back.html">Add your comment</a></li>
+                </ul>
+            </footer>
+        </article>
+
+<p class="paginator">
+        <a href="/index43.html">&laquo;</a>
+    Page 44 / 111
+        <a href="/index45.html">&raquo;</a>
+</p>
+</section><!-- /#content -->
+
+    <footer>
+        <ul>
+            <li>&copy; 2005-2015 Marko Samastur</li>
+            <li><a href="/articles/feeds/rss.xml" rel="alternate" title="A notch above a monkey Full RSS Feed">Entries feed</a></li>
+        </ul>
+        <a href="/"><img src="/img/markos_light_small_bg.png" alt="logo" class="mini-logo" /></a>
+    </footer>
+</body>
+</html>

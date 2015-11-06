@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+        <title>A notch above a monkey - Articles by markos</title>
+        <meta charset="utf-8" />
+        <link rel="shortcut icon" href="theme/img/markos.ico" />
+
+        <link href="http://fast.fonts.com/cssapi/aee9b60b-8e94-47f8-b586-3ecbfab51d1c.css" rel="stylesheet" type="text/css" />
+        <link rel="stylesheet" type="text/css" href="theme/css/home.css" media="screen" title="Light theme" />
+        <link rel="alternate stylesheet" type="text/css" href="theme/css/home_dark.css" media="screen" title="Dark theme" />
+        <link rel="stylesheet" href="theme/css/ipad.css" media="only screen and (min-device-width : 768px) and (max-device-width : 1024px)">
+        <link rel="stylesheet" type="text/css" href="theme/css/smallscreen.css" media="only screen and (max-width: 700px)" />
+
+        <link href="/articles/feeds/atom.xml" type="application/atom+xml" rel="alternate" title="A notch above a monkey Full Atom Feed" />
+        <link href="/articles/feeds/rss.xml" type="application/rss+xml" rel="alternate" title="A notch above a monkey Full RSS Feed" />
+</head>
+
+<body>
+
+<h2>Articles by markos</h2>
+
+<section class="envelope posts">
+    <header>
+        <h1><a href="/">A notch above a monkey <strong></strong></a></h1>
+    </header><!-- /#banner -->
+
+    <nav class="colophon">
+        <h1>By Marko Samastur</h1>
+        <ul>
+            <li><a href="/">About me</a></li>
+            <li><a href="http://markos.gaivo.net/blog/?feed=atom">Subscribe</a></li>
+        </ul>
+    </nav>
+
+        <article class="hentry">
+            <h1 class="entry-title storytitle"><a href="/ajax-workshop.html" rel="bookmark" title="Permalink to Ajax Workshop">Ajax Workshop</a></h1>
+
+            <div class="entry-content post-text">
+                <p><a href="http://www.clearleft.com/">Clearleft</a> is organizing <a href="http://www.clearleft.com/training/ajax.php">Ajax
+workshop</a> on my birthday.
+Presented by Jeremy, who has a talent for sharing his extensive
+knowledge in a clear, easy to understand manner. The price might look a
+bit high, but judging from personal experience it will be well worth it.</p>
+<p>Man, do I wish I could go.</p>
+            </div><!-- /.entry-content -->
+
+            <footer class="post-metadata">
+                <ul>
+                    <li>Published on <time datetime="2005-11-24T18:54:00+01:00">Thu 24 November 2005</time> </li>
+                    <li><a href="/ajax-workshop.html">Add your comment</a></li>
+                </ul>
+            </footer>
+        </article>
+        <article class="hentry">
+            <h1 class="entry-title storytitle"><a href="/itunes-price-hike.html" rel="bookmark" title="Permalink to iTunes price hike">iTunes price hike</a></h1>
+
+            <div class="entry-content post-text">
+                <p>I'm not sure if there's still a custom in our primary schools to go on a
+few days long school trip at the end of last year. I know there used to
+be one when I was there.</p>
+<p>We went to <a href="http://www.tz-vis.hr/">Vis</a>, a small and beautiful island in
+Croatia, which back then was still in the same country. It was the end
+of May, when sea is still very cold, at least if you're not used to that
+sort of temperatures. We weren't and were basically stuck for a few days
+in a small village with nothing to do. That was back in the days, when
+there was no gameboys, portable DVD's or whatever entertains kids today.
+However there was an ice cream parlor, where a scoop of ice cream costed
+only 1000 DIN compared to 2500 DIN back home.</p>
+<p>So for three days my friends and I were regularly visiting that shop,
+buying copious amounts of ice cream. I haven't spent even 1 DIN on it
+back home, because I thought it was too expensive. I spent more than 100
+000 there, because it was so ridiculously cheap and I wasn't alone doing
+it.</p>
+<p>Lucky for me I didn't get a bellyache, but I did get a lesson on how
+cheaper pricing doesn't necessarily equate smaller profits. Odd that
+music industry still
+<a href="http://www.fmqb.com/Article.asp?id=145210" title="Article about possible iTunes price hike">refuses</a>
+to accept this.</p>
+            </div><!-- /.entry-content -->
+
+            <footer class="post-metadata">
+                <ul>
+                    <li>Published on <time datetime="2005-11-23T16:36:00+01:00">Wed 23 November 2005</time> </li>
+                    <li><a href="/itunes-price-hike.html">Add your comment</a></li>
+                </ul>
+            </footer>
+        </article>
+        <article class="hentry">
+            <h1 class="entry-title storytitle"><a href="/building-faq-from-wiki-pages.html" rel="bookmark" title="Permalink to Building FAQ from wiki pages">Building FAQ from wiki pages</a></h1>
+
+            <div class="entry-content post-text">
+                <p>We use <a href="http://moinmoin.wikiwikiweb.de/" title="MoinMoin's homepage">MoinMoin</a>
+for all our documentation needs, since it simplifies almost all related
+tasks. It's nice when everything is available at one place through a
+familiar and easy to use interface.</p>
+<p>This is why I also wanted to use it to build a FAQ for our site, which
+is more needed with each day. There's an abundance of software for
+building and managing such documents, but I haven't found anything that
+would match our needs. Apart from using wiki pages as the source of
+wisdom, I also wanted:</p>
+<ol>
+<li>A good and fairly easy integration with our site (but not
+    automatic).</li>
+<li>A very malleable solution, where it would be easy to change FAQ
+    organization as requirements change.</li>
+</ol>
+<p>At the end I decided to build our own thing using <a href="http://www.crummy.com/software/BeautifulSoup/index.html">Beautiful
+Soup</a>, a python
+package I raved about a while ago. Since we wanted each question to have
+a permanent link that could be bookmarked, we had to give them an
+identifier that wouldn't change even if we rephrased the question or
+changed the answer. The simplest way was to assign a unique number to
+each question as it can be seen on a <a href="http://markos.gaivo.net/examples/samplefaq/faq.html">sample FAQ
+page</a>. This way
+it's easy to add and remove questions as long as you can count.</p>
+<p>MoinMoin produces very sensible HTML that is easy to work with.
+<a href="http://markos.gaivo.net/examples/samplefaq/faq.py">Here's</a> a proof of
+concept module that extracts information from a page like the sample one
+and packs it in a dictionary with identifiers as keys and a list <em>[
+question, answer ]</em> as value.</p>
+<p>It's not something very useful on its own, but I think it's a nice
+example of what can be done quickly with existing tools like MoinMoin
+and BeautifulSoup.</p>
+<p>Notes: In principle there's no need to use MoinMoin as long as produced
+HTML fits following assumptions:</p>
+<ol>
+<li>FAQ is stored inside a <em>div</em> element with <em>id</em> set to <em>content</em>.</li>
+<li>Questions are inside a heading element which also acts as a
+    delimiter between them.</li>
+<li>Identifiers are integers.</li>
+</ol>
+<p>If it doesn't, you'll need to change code a bit.</p>
+            </div><!-- /.entry-content -->
+
+            <footer class="post-metadata">
+                <ul>
+                    <li>Published on <time datetime="2005-11-22T17:17:00+01:00">Tue 22 November 2005</time> </li>
+                    <li><a href="/building-faq-from-wiki-pages.html">Add your comment</a></li>
+                </ul>
+            </footer>
+        </article>
+
+<p class="paginator">
+        <a href="/author/markos87.html">&laquo;</a>
+    Page 88 / 111
+        <a href="/author/markos89.html">&raquo;</a>
+</p>
+</section><!-- /#content -->
+
+    <footer>
+        <ul>
+            <li>&copy; 2005-2015 Marko Samastur</li>
+            <li><a href="/articles/feeds/rss.xml" rel="alternate" title="A notch above a monkey Full RSS Feed">Entries feed</a></li>
+        </ul>
+        <a href="/"><img src="/img/markos_light_small_bg.png" alt="logo" class="mini-logo" /></a>
+    </footer>
+</body>
+</html>

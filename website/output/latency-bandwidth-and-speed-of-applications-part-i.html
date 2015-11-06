@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+          <title>A notch above a monkey</title>
+        <meta charset="utf-8" />
+        <link rel="shortcut icon" href="theme/img/markos.ico" />
+
+        <link href="http://fast.fonts.com/cssapi/aee9b60b-8e94-47f8-b586-3ecbfab51d1c.css" rel="stylesheet" type="text/css" />
+        <link rel="stylesheet" type="text/css" href="theme/css/home.css" media="screen" title="Light theme" />
+        <link rel="alternate stylesheet" type="text/css" href="theme/css/home_dark.css" media="screen" title="Dark theme" />
+        <link rel="stylesheet" href="theme/css/ipad.css" media="only screen and (min-device-width : 768px) and (max-device-width : 1024px)">
+        <link rel="stylesheet" type="text/css" href="theme/css/smallscreen.css" media="only screen and (max-width: 700px)" />
+
+        <link href="/articles/feeds/atom.xml" type="application/atom+xml" rel="alternate" title="A notch above a monkey Full Atom Feed" />
+        <link href="/articles/feeds/rss.xml" type="application/rss+xml" rel="alternate" title="A notch above a monkey Full RSS Feed" />
+
+
+
+
+</head>
+
+<body>
+<header id="banner" class="body">
+    <h1><a href="/">A notch above a monkey</a> &raquo; Latency, bandwidth and speed of applications - part I</h1>
+</header><!-- /#banner -->
+
+<section class="envelope">
+    <article class="post">
+        <header class="entry-title">
+            <h1 class="entry-title">Latency, bandwidth and speed of applications - part I</h1>
+         
+        </header>
+
+        <footer class="post-info">
+            <ul>
+                <li class="by">Written by: <a href="/">Marko Samastur</a></li>
+                <li class="published">Published on: <time datetime="2005-09-14T21:10:00+02:00" pubdate>Wed 14 September 2005</time></li>
+                <li class="categories">Category: General development, Javascript, Python
+                </li>
+            </ul>
+
+        </footer><!-- /.post-info -->
+
+        <div class="post-text">
+            <p>It seems we're back to discussing the importance of bandwidth and
+latency on perceived speed of application. In a way it's amazing that
+after 10 years of widespread use of Internet and local networks, we
+developers still discuss these issues.</p>
+<p>So, what contributes to speed of execution in network applications?</p>
+<p>Each network request can be divided into seven time intervals:</p>
+<ol>
+<li>time needed to send a request</li>
+<li>latency, which is time spent for any amount of data to travel
+    between client and server</li>
+<li>data transfer time</li>
+<li>time needed to process a request, form a response and send it</li>
+<li>latency again, but this time in other direction</li>
+<li>data transfer time for response</li>
+<li>time needed to process response and present result to user</li>
+</ol>
+<p>Sum of all these parts is time lapsed between issued command and
+presented result. How fast this needs to be depends on application and
+our experiences. For example, we expect faster response to our key
+presses in SSH client than we do waiting for search results.</p>
+<p>However, if this sum is under a quarter of a second, it will be
+generally regarded as instantaneous, but you really should aim for
+1/10th of a second to satisfy even the most twitchy users.</p>
+<p>Usually, we might get to control all parts of this equation only when
+client and server are located on a local network and we develop both of
+them. So, a well behaving application needs to take in account
+environment in which it will run and act accordingly.</p>
+<p>This means, among other things, to give user feedback that something is
+happening whenever there is even a remote chance that response might
+take a while, to react sensibly to network disruptions (such as
+timeouts) and offer a way to abort user actions.</p>
+<p>So, how do we speed up the application itself?</p>
+<p>Absolutely the best way to speed up a network request is to not make
+one. The usual way to do this is to cache result over its life span and
+use it when possible.</p>
+<p>The other way, lately often mentioned in relation to AJAX, is to make
+our requests asynchronously. Unlike synchronous requests, which are
+direct results of user actions, asynchronous are those were data is
+transfered in expectation of future user actions.</p>
+<p>An example would be a mail program where we transfer message headers of
+yet unread mail in background before we actually need to display them to
+user, since it's fairly likely that he'll want to check them in near
+future.</p>
+<p>There are also downsides to this approach. It can be difficult to
+predict what to transfer next if no user action is more probable than
+rest. It can also incur significant costs if bandwidth is expensive as
+often is on GPRS networks in Europe. And when number of simultaneous
+connections is limited (HTTP allows 4, but not all browsers comply), it
+can occupy a resource when you need one.</p>
+<p>Still, it's a useful tool when it can be applied.</p>
+<p>More about saving time with our seven intervals in part two due
+tomorrow.</p>
+<p><em>Update: second part has been
+<a href="http://markos.gaivo.net/blog/?p=24" title="Second part">posted</a>.</em></p>
+        </div><!-- /.entry-content -->
+
+        <div id="disqus_thread"></div>
+        <script type="text/javascript">
+            /* * * CONFIGURATION VARIABLES * * */
+            var disqus_shortname = 'markosgaivo';
+
+            /* * * DON'T EDIT BELOW THIS LINE * * */
+            (function() {
+                var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+                dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+                (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+            })();
+        </script>
+        <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript" rel="nofollow">comments powered by Disqus.</a></noscript>
+    </article>
+</section>
+
+    <footer>
+        <ul>
+            <li>&copy; 2005-2015 Marko Samastur</li>
+            <li><a href="/articles/feeds/rss.xml" rel="alternate" title="A notch above a monkey Full RSS Feed">Entries feed</a></li>
+        </ul>
+        <a href="/"><img src="/img/markos_light_small_bg.png" alt="logo" class="mini-logo" /></a>
+    </footer>
+</body>
+</html>

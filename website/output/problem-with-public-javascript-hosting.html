@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+          <title>A notch above a monkey</title>
+        <meta charset="utf-8" />
+        <link rel="shortcut icon" href="theme/img/markos.ico" />
+
+        <link href="http://fast.fonts.com/cssapi/aee9b60b-8e94-47f8-b586-3ecbfab51d1c.css" rel="stylesheet" type="text/css" />
+        <link rel="stylesheet" type="text/css" href="theme/css/home.css" media="screen" title="Light theme" />
+        <link rel="alternate stylesheet" type="text/css" href="theme/css/home_dark.css" media="screen" title="Dark theme" />
+        <link rel="stylesheet" href="theme/css/ipad.css" media="only screen and (min-device-width : 768px) and (max-device-width : 1024px)">
+        <link rel="stylesheet" type="text/css" href="theme/css/smallscreen.css" media="only screen and (max-width: 700px)" />
+
+        <link href="/articles/feeds/atom.xml" type="application/atom+xml" rel="alternate" title="A notch above a monkey Full Atom Feed" />
+        <link href="/articles/feeds/rss.xml" type="application/rss+xml" rel="alternate" title="A notch above a monkey Full RSS Feed" />
+
+
+
+
+</head>
+
+<body>
+<header id="banner" class="body">
+    <h1><a href="/">A notch above a monkey</a> &raquo; Problem with public javascript hosting</h1>
+</header><!-- /#banner -->
+
+<section class="envelope">
+    <article class="post">
+        <header class="entry-title">
+            <h1 class="entry-title">Problem with public javascript hosting</h1>
+         
+        </header>
+
+        <footer class="post-info">
+            <ul>
+                <li class="by">Written by: <a href="/">Marko Samastur</a></li>
+                <li class="published">Published on: <time datetime="2007-03-06T16:56:00+01:00" pubdate>Tue 06 March 2007</time></li>
+                <li class="categories">Category: Javascript, Web
+                </li>
+            </ul>
+
+        </footer><!-- /.post-info -->
+
+        <div class="post-text">
+            <p>Yahoo recently
+<a href="http://yuiblog.com/blog/2007/02/22/free-yui-hosting/">announced</a> free
+public hosting of YUI library, just like AOL
+<a href="http://blog.dojotoolkit.org/2006/01/30/dojo-iamalpha-and-cdns">did</a> a
+while ago for Dojo toolkit. A great move. You don't have to pay
+bandwidth for hosting YUI and there's a better likelihood that scripts
+will already be in visitors browser cache, since some other previously
+visited page might have used them too.</p>
+<p>However there's a real downside to it. What happens if Yahoo servers are
+unaccessible or connection to them is just slow?</p>
+<p>If you're lucky, then its former and the page will be rendered quickly
+but with some (javascript) functionality missing. If later, then it
+might take forever to render a page since modern browsers can't and
+won't do it until all javascript has been loaded.</p>
+<p>This might seem an unlikely scenario, unless you've been around the last
+time when access problems to Google Analytics stopped displaying a large
+part of slovenian web, least important of which being this very blog.
+Yahoo is not stupid, but neither is Google and problem can literally
+appear anywhere between their servers and your visitors computer.</p>
+<p>So what can be done if this possibility is not acceptable to you, but
+you'd still want to use free hosting?</p>
+<p>Nothing pretty it seems. The only thing that I can think of is to add
+local links to yui, put them together with Yahoo links at the bottom of
+the page and trigger Javascript when content has been loaded. Then you
+only have to wait for YUI objects to appear before you start processing
+your scripts.</p>
+<p>This way you can probably avoid crippled or blank pages, but you're
+still paying for the bandwidth. Unless of course you go one step further
+and include local links only when Yahoo objects don't appear in a
+reasonable amount of time.</p>
+<p>Does anyone have any idea how to solve this problem gracefully?</p>
+        </div><!-- /.entry-content -->
+
+        <div id="disqus_thread"></div>
+        <script type="text/javascript">
+            /* * * CONFIGURATION VARIABLES * * */
+            var disqus_shortname = 'markosgaivo';
+
+            /* * * DON'T EDIT BELOW THIS LINE * * */
+            (function() {
+                var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+                dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+                (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+            })();
+        </script>
+        <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript" rel="nofollow">comments powered by Disqus.</a></noscript>
+    </article>
+</section>
+
+    <footer>
+        <ul>
+            <li>&copy; 2005-2015 Marko Samastur</li>
+            <li><a href="/articles/feeds/rss.xml" rel="alternate" title="A notch above a monkey Full RSS Feed">Entries feed</a></li>
+        </ul>
+        <a href="/"><img src="/img/markos_light_small_bg.png" alt="logo" class="mini-logo" /></a>
+    </footer>
+</body>
+</html>

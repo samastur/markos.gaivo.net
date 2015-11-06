@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+          <title>A notch above a monkey</title>
+        <meta charset="utf-8" />
+        <link rel="shortcut icon" href="theme/img/markos.ico" />
+
+        <link href="http://fast.fonts.com/cssapi/aee9b60b-8e94-47f8-b586-3ecbfab51d1c.css" rel="stylesheet" type="text/css" />
+        <link rel="stylesheet" type="text/css" href="theme/css/home.css" media="screen" title="Light theme" />
+        <link rel="alternate stylesheet" type="text/css" href="theme/css/home_dark.css" media="screen" title="Dark theme" />
+        <link rel="stylesheet" href="theme/css/ipad.css" media="only screen and (min-device-width : 768px) and (max-device-width : 1024px)">
+        <link rel="stylesheet" type="text/css" href="theme/css/smallscreen.css" media="only screen and (max-width: 700px)" />
+
+        <link href="/articles/feeds/atom.xml" type="application/atom+xml" rel="alternate" title="A notch above a monkey Full Atom Feed" />
+        <link href="/articles/feeds/rss.xml" type="application/rss+xml" rel="alternate" title="A notch above a monkey Full RSS Feed" />
+
+
+
+
+</head>
+
+<body>
+<header id="banner" class="body">
+    <h1><a href="/">A notch above a monkey</a> &raquo; Look ma', HTML too</h1>
+</header><!-- /#banner -->
+
+<section class="envelope">
+    <article class="post">
+        <header class="entry-title">
+            <h1 class="entry-title">Look ma', HTML too</h1>
+         
+        </header>
+
+        <footer class="post-info">
+            <ul>
+                <li class="by">Written by: <a href="/">Marko Samastur</a></li>
+                <li class="published">Published on: <time datetime="2005-12-11T23:08:00+01:00" pubdate>Sun 11 December 2005</time></li>
+                <li class="categories">Category: Javascript, UI, Web
+                </li>
+            </ul>
+
+        </footer><!-- /.post-info -->
+
+        <div class="post-text">
+            <p>This is a second post in hopefully a very short series dedicated to
+javascript internationalization. If you want, you can read the first one
+<a href="http://markos.gaivo.net/blog/?p=90">here</a>.</p>
+<p>We left off with two supporting functions for striping whitespace and a
+simple function for translation lookup. Today I added another two
+functions, one for translating HTML elements and the other for resolving
+a problem with HTML entities. You can find new javascript
+<a href="http://markos.gaivo.net/examples/js_i18n/2/translate.js">here</a> and a
+demo <a href="http://markos.gaivo.net/examples/js_i18n/2/index.html">here</a>.</p>
+<p><em>translateNodes</em> searches for elements with class name i18n, picks up
+their text content and translates it, if it can find it in translation
+dictionary. Sometimes it can't, because what javascript actually sees is
+a real utf-8 encoded string, where X/HTML entities have been replaced
+with characters they represent. If this is not true also for source
+string in dictionary, then there's a mismatch.</p>
+<p>That's why there's <em>toEntity</em> function which translates all non-ASCII
+characters in given string to their entity representation. When
+<em>translateNodes</em> fails to find translation, it uses <em>toEntity</em> to get a
+possibly different representation and tries again.</p>
+<p>This way you can use entities, which are the only real cross-browser way
+to describe non-ASCII chars and translations still work. There's a
+downside though. Your translation source string must either have all
+non-ASII characters represented as HTML entities or none of them.
+Otherwise translation will fail for obvious reasons.</p>
+<p>There are planned limitations (like building a system that handles only
+utf-8 text) and unplanned ones. I still don't do anything special for
+strings with significant whitespace (like content of a <em>pre</em> tag) and
+probably should.</p>
+<p>Do nothing = I break it.</p>
+<p>It would be nice, if I started to pack this functionality in a more
+sensible form and build tools that make handling of the whole thing
+easier.</p>
+<p>Next week, which starts in an hour or so, seems perfect time for that.</p>
+<p>Update: Follow up <a href="http://markos.gaivo.net/blog/?p=100">here</a>.</p>
+        </div><!-- /.entry-content -->
+
+        <div id="disqus_thread"></div>
+        <script type="text/javascript">
+            /* * * CONFIGURATION VARIABLES * * */
+            var disqus_shortname = 'markosgaivo';
+
+            /* * * DON'T EDIT BELOW THIS LINE * * */
+            (function() {
+                var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+                dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+                (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+            })();
+        </script>
+        <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript" rel="nofollow">comments powered by Disqus.</a></noscript>
+    </article>
+</section>
+
+    <footer>
+        <ul>
+            <li>&copy; 2005-2015 Marko Samastur</li>
+            <li><a href="/articles/feeds/rss.xml" rel="alternate" title="A notch above a monkey Full RSS Feed">Entries feed</a></li>
+        </ul>
+        <a href="/"><img src="/img/markos_light_small_bg.png" alt="logo" class="mini-logo" /></a>
+    </footer>
+</body>
+</html>

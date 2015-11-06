@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+        <title>A notch above a monkey</title>
+        <meta charset="utf-8" />
+        <link rel="shortcut icon" href="theme/img/markos.ico" />
+
+        <link href="http://fast.fonts.com/cssapi/aee9b60b-8e94-47f8-b586-3ecbfab51d1c.css" rel="stylesheet" type="text/css" />
+        <link rel="stylesheet" type="text/css" href="theme/css/home.css" media="screen" title="Light theme" />
+        <link rel="alternate stylesheet" type="text/css" href="theme/css/home_dark.css" media="screen" title="Dark theme" />
+        <link rel="stylesheet" href="theme/css/ipad.css" media="only screen and (min-device-width : 768px) and (max-device-width : 1024px)">
+        <link rel="stylesheet" type="text/css" href="theme/css/smallscreen.css" media="only screen and (max-width: 700px)" />
+
+        <link href="/articles/feeds/atom.xml" type="application/atom+xml" rel="alternate" title="A notch above a monkey Full Atom Feed" />
+        <link href="/articles/feeds/rss.xml" type="application/rss+xml" rel="alternate" title="A notch above a monkey Full RSS Feed" />
+</head>
+
+<body>
+
+
+<section class="envelope posts">
+    <header>
+        <h1><a href="/">A notch above a monkey <strong></strong></a></h1>
+    </header><!-- /#banner -->
+
+    <nav class="colophon">
+        <h1>By Marko Samastur</h1>
+        <ul>
+            <li><a href="/">About me</a></li>
+            <li><a href="http://markos.gaivo.net/blog/?feed=atom">Subscribe</a></li>
+        </ul>
+    </nav>
+
+        <article class="hentry">
+            <h1 class="entry-title storytitle"><a href="/javascript-enabled-spiders.html" rel="bookmark" title="Permalink to Javascript enabled spiders">Javascript enabled spiders</a></h1>
+
+            <div class="entry-content post-text">
+                <p>One of more popular javascript scripts I've written is a simple function
+that hides an email address from spiders by constructing a mailto link
+on page load. So far it has worked quite well.</p>
+<p>Lately I started to have my doubts about this approach though. There was
+<a href="http://www.google.com/search?hl=en&amp;q=mozilla+google+spider&amp;btnG=Google+Search">a series of
+articles</a>
+a while ago about Google's new Mozilla-based spider that I didn't take
+too seriously at the time. However, even if not true then, it's still
+only a matter of time before a spider like this will show up. The new
+found popularity of AJAX/Javascript simply guarantees that, since search
+engines can't and won't give up indexing content hidden behind fancy
+scripts.</p>
+<p>Which means that my script will stop working in not so distant future as
+will all email obfuscating scripts out there. If it can be seen by a
+human, then it will be seen by a spider. So is there a way to publish my
+email address without it becoming public through search engines indexes,
+which is where most spammers seem to get our emails?</p>
+<p>I could write a robots.txt file, which would exempt my contact page from
+being indexed at all. But this is a rather crude approach, since it
+means nothing on that page will get indexed. I could move email
+information to a separate page to let other contact data get indexed,
+but this is hardly any nicer.</p>
+<p>What I'd really want is to be able to tell to search engines that only a
+part of my document is off limits. I don't think there's currently a way
+to do this, but if anyone has an idea how to do it, I'd really like to
+hear it.</p>
+<p><strong>Update:</strong> I think all efforts, including mine, to prevent spammers
+from collecting published addresses are ultimately doomed. The basic
+premise of all such approaches is to cloak an address in a way that
+spider can't see it or can't recognize it if it does. By basing spider
+on something like Mozilla, there won't be any difference between what
+spider sees and what user does. There's a similar problem with
+recognition. As spiders gets smarter, as they invariably do, you'll be
+getting ever growing overlap between smartest spiders and stupidest
+users until it's big enough to be unacceptable.</p>
+<p>So we'll either put up contact forms or I hope move to defending our
+inboxes with smart spam filters (those who haven't yet).</p>
+            </div><!-- /.entry-content -->
+
+            <footer class="post-metadata">
+                <ul>
+                    <li>Published on <time datetime="2006-04-07T17:23:00+02:00">Fri 07 April 2006</time> </li>
+                    <li><a href="/javascript-enabled-spiders.html">Add your comment</a></li>
+                </ul>
+            </footer>
+        </article>
+        <article class="hentry">
+            <h1 class="entry-title storytitle"><a href="/mobile-phones-shopping.html" rel="bookmark" title="Permalink to Mobile phones shopping">Mobile phones shopping</a></h1>
+
+            <div class="entry-content post-text">
+                <p>I recently noticed a changing behavior in how my family and friends go
+about buying a new mobile phone. The reason they have a mobile is to
+receive and make phone calls, but their selection of a model to buy is
+based mostly on secondary functions like built-in camera.</p>
+<p>In itself this isn't surprising. It's normal and common that when
+features become ubiquitous, competition and differentiation moves
+elsewhere. Basic functionality of phones has certainly been fulfilled
+and it's difficult to add a new call-related feature that would be a
+significant progress.</p>
+<p>But what I find utterly fascinating is something else. Even though
+primary functions play no part in selection of a phone, they are still
+the main if not the only reason why we have them. In fact, they are what
+we use most and we wouldn't buy phones otherwise.</p>
+<p>So here's an interesting dichotomy. Which phone is bought and when has
+nothing to do with why we have it or little to do with how we use it. We
+think we're buying a phone and we'll use it as a phone most of the time,
+but it's features like camera or wifi that actually make a sale.</p>
+<p>I've been thinking about it for a couple of days and I can't think of
+any other product or service, where buyers would display the same
+behavior, but I have no doubt that this is only due my lack of
+imagination.</p>
+            </div><!-- /.entry-content -->
+
+            <footer class="post-metadata">
+                <ul>
+                    <li>Published on <time datetime="2006-04-04T20:38:00+02:00">Tue 04 April 2006</time> </li>
+                    <li><a href="/mobile-phones-shopping.html">Add your comment</a></li>
+                </ul>
+            </footer>
+        </article>
+        <article class="hentry">
+            <h1 class="entry-title storytitle"><a href="/updated-sgmllib.html" rel="bookmark" title="Permalink to Updated sgmllib">Updated sgmllib</a></h1>
+
+            <div class="entry-content post-text">
+                <p>I <a href="http://markos.gaivo.net/blog/?p=142">wrote</a> about a sgmllib problem a
+few days ago. I still may be a dolt and my code certainly needed fixing,
+but the bug remained nevertheless.</p>
+<p>Hence I've made some small changes to sgmllib that fix problems I've
+had. New version, which passes all unit tests included in Python
+distribution, can be found
+<a href="http://markos.gaivo.net/examples/sgmllib/sgmllib.py" title="fixed sgmllib.py">here</a>
+and I'd really appreciate if users of sgmllib could give it a go (that
+includes users of htmllib and BeautifulSoup).</p>
+<p><strong>Update:</strong> As suggested I've added an <a href="http://markos.gaivo.net/examples/sgmllib/test_sgmllib.py" title="Test cases for new library">updated
+version</a>
+of test_sgmllib.py, which includes an example where the old library
+fails and new one doesn't.</p>
+<p><strong>Update 2</strong>: It
+<a href="http://markos.gaivo.net/blog/?p=142#comment-1120">seems</a> this is valid,
+even required SGML behavior.</p>
+            </div><!-- /.entry-content -->
+
+            <footer class="post-metadata">
+                <ul>
+                    <li>Published on <time datetime="2006-04-01T15:05:00+02:00">Sat 01 April 2006</time> </li>
+                    <li><a href="/updated-sgmllib.html">Add your comment</a></li>
+                </ul>
+            </footer>
+        </article>
+
+<p class="paginator">
+        <a href="/index64.html">&laquo;</a>
+    Page 65 / 111
+        <a href="/index66.html">&raquo;</a>
+</p>
+</section><!-- /#content -->
+
+    <footer>
+        <ul>
+            <li>&copy; 2005-2015 Marko Samastur</li>
+            <li><a href="/articles/feeds/rss.xml" rel="alternate" title="A notch above a monkey Full RSS Feed">Entries feed</a></li>
+        </ul>
+        <a href="/"><img src="/img/markos_light_small_bg.png" alt="logo" class="mini-logo" /></a>
+    </footer>
+</body>
+</html>

@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+          <title>A notch above a monkey</title>
+        <meta charset="utf-8" />
+        <link rel="shortcut icon" href="theme/img/markos.ico" />
+
+        <link href="http://fast.fonts.com/cssapi/aee9b60b-8e94-47f8-b586-3ecbfab51d1c.css" rel="stylesheet" type="text/css" />
+        <link rel="stylesheet" type="text/css" href="theme/css/home.css" media="screen" title="Light theme" />
+        <link rel="alternate stylesheet" type="text/css" href="theme/css/home_dark.css" media="screen" title="Dark theme" />
+        <link rel="stylesheet" href="theme/css/ipad.css" media="only screen and (min-device-width : 768px) and (max-device-width : 1024px)">
+        <link rel="stylesheet" type="text/css" href="theme/css/smallscreen.css" media="only screen and (max-width: 700px)" />
+
+        <link href="/articles/feeds/atom.xml" type="application/atom+xml" rel="alternate" title="A notch above a monkey Full Atom Feed" />
+        <link href="/articles/feeds/rss.xml" type="application/rss+xml" rel="alternate" title="A notch above a monkey Full RSS Feed" />
+
+
+
+
+</head>
+
+<body>
+<header id="banner" class="body">
+    <h1><a href="/">A notch above a monkey</a> &raquo; Impostor for Django</h1>
+</header><!-- /#banner -->
+
+<section class="envelope">
+    <article class="post">
+        <header class="entry-title">
+            <h1 class="entry-title">Impostor for Django</h1>
+         
+        </header>
+
+        <footer class="post-info">
+            <ul>
+                <li class="by">Written by: <a href="/">Marko Samastur</a></li>
+                <li class="published">Published on: <time datetime="2011-02-22T20:11:00+01:00" pubdate>Tue 22 February 2011</time></li>
+                <li class="categories">Category: Django, Python, Web
+                </li>
+            </ul>
+
+        </footer><!-- /.post-info -->
+
+        <div class="post-text">
+            <p>A class of bugs I really dislike debugging are those that depend on
+specific data and affect only a very small subset or just one user.
+Things could sometimes be fixed so much faster if you could just log in
+as him to see what is happening. Sometimes this is exactly what we do
+<strong>with his explicit permission</strong>, but I really dislike asking for
+passwords.</p>
+<p>First it inconveniences user. He has to come up with either a new good
+password or go through two password changes. Second it implicitly
+teaches wrong behavior. Passwords simply should never be revealed.</p>
+<p>That is why I wrote
+<a href="https://github.com/samastur/Impostor" title="Impostor's home at GitHub">Impostor</a>,
+a Django app that allows staff members (and only them) to login with
+their own credentials as a different user. Idea is not mine (kudos goes
+to <a href="http://nedbatchelder.com/blog/201008/django_superuser_login_trapdoor.html" title="Ned's post where idea comes from">Ned
+Batchelder</a>),
+but I like it. To discourage abuse every such authentication is recorded
+and can be seen in Django admin interface, but can not be altered from
+there.</p>
+<p>So how does it work in practice?</p>
+<p>Lets say that I would need to log in as user <em>fry</em>. To do this I would
+enter as my username <em>markos as fry,</em> provide my password and voila, I'm
+him. This has been recorded so anyone with access to ImpostorLog part in
+admin can see all such cases, mine included.</p>
+<p>Impostor may also ease your development by removing need to remember
+different passwords for testing. This is usually not a problem unless
+you happen to develop with fake data but real accounts. Like me.</p>
+<p>And again for morally challenged out there: <strong>you should never login as
+somebody else without his explicit permission</strong>.</p>
+<p><strong>Update</strong>: Thanks Ross for reminding me where idea came from. I updated
+text accordingly.</p>
+<div class="zemanta-pixie">
+
+[![Enhanced by
+Zemanta](http://img.zemanta.com/zemified_e.png?x-id=db7c9f53-423e-4b56-bbe3-b717fde54c16)](http://www.zemanta.com/ "Enhanced by Zemanta")
+
+</div>
+        </div><!-- /.entry-content -->
+
+        <div id="disqus_thread"></div>
+        <script type="text/javascript">
+            /* * * CONFIGURATION VARIABLES * * */
+            var disqus_shortname = 'markosgaivo';
+
+            /* * * DON'T EDIT BELOW THIS LINE * * */
+            (function() {
+                var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+                dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+                (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+            })();
+        </script>
+        <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript" rel="nofollow">comments powered by Disqus.</a></noscript>
+    </article>
+</section>
+
+    <footer>
+        <ul>
+            <li>&copy; 2005-2015 Marko Samastur</li>
+            <li><a href="/articles/feeds/rss.xml" rel="alternate" title="A notch above a monkey Full RSS Feed">Entries feed</a></li>
+        </ul>
+        <a href="/"><img src="/img/markos_light_small_bg.png" alt="logo" class="mini-logo" /></a>
+    </footer>
+</body>
+</html>
