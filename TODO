@@ -2,4 +2,6 @@
     + popravi povezave na druge clanek
     * popravi povezave na druge vire (slike, kodo?)
 * skript za generiranje .htaccess redirect datoteke
+    + generiranje preusmeritev za clanke
+    * generiranje preusmeritev za rss/atom
 * skript za parsanje logov
