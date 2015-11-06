@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom"><title>A notch above a monkey</title><link href="/" rel="alternate"></link><link href="/articles/feeds/django-python-web.atom.xml" rel="self"></link><id>/</id><updated>2013-01-20T23:53:00+01:00</updated><entry><title>Shrinking images with image-diet</title><link href="/shrinking-images-with-image-diet.html" rel="alternate"></link><updated>2013-01-20T23:53:00+01:00</updated><author><name>markos</name></author><id>tag:,2013-01-20:shrinking-images-with-image-diet.html</id><summary type="html">&lt;p&gt;&lt;html&gt;
+ &lt;body&gt;
+  &lt;div&gt;
+   &lt;p&gt;
+    I like
+    &lt;a href="https://github.com/SmileyChris/easy-thumbnails"&gt;
+     easy-thumbnails
+    &lt;/a&gt;
+    and use it often in my Django projects, but I wished for a long time that its
+    &lt;a href="http://www.pythonware.com/products/pil/"&gt;
+     PIL
+    &lt;/a&gt;
+    generated thumbnails would be smaller. That’s why I wrote
+    &lt;a href="https://github.com/samastur/image-diet"&gt;
+     image-diet
+    &lt;/a&gt;
+    , a drop-in extension for those easy-thumbnails users who use file system for storing images. Images remain visually the same, but can be significantly smaller (mine by more than 50% but your mileage my vary).
+   &lt;/p&gt;
+   &lt;p&gt;
+    This matters because images are together with Javascript main cause for ever larger page sizes which leads to slower websites, especially in low-bandwidth environments. But really, don’t we all want our websites to be as fast as possible?
+   &lt;/p&gt;
+   &lt;p&gt;
+    &lt;a href="https://github.com/samastur/image-diet"&gt;
+     image-diet
+    &lt;/a&gt;
+    was inspired by
+    &lt;a href="http://imageoptim.com/"&gt;
+     ImageOptim
+    &lt;/a&gt;
+    and
+    &lt;a href="https://github.com/Kilian/Trimage"&gt;
+     Trimage
+    &lt;/a&gt;
+    and I’m grateful to authors of both. It uses jpegtran, Jpegoptim, Gifsicle, OptiPNG, AdvanceCOM PNG and Pngcrush to do the heavy work of squeezing redundant bytes. Getting them should be easy as they are part of Ubuntu distribution and can be installed on Mac with brew. For more information please check documentation or ask.
+   &lt;/p&gt;
+   &lt;p&gt;
+    I would love to hear any comments and ideas you may have, even more so if you try it.
+   &lt;/p&gt;
+  &lt;/div&gt;
+ &lt;/body&gt;
+&lt;/html&gt;&lt;/p&gt;</summary></entry><entry><title>Impostor for Django</title><link href="/impostor-for-django.html" rel="alternate"></link><updated>2011-02-22T20:11:00+01:00</updated><author><name>markos</name></author><id>tag:,2011-02-22:impostor-for-django.html</id><summary type="html">&lt;p&gt;&lt;html&gt;
+ &lt;body&gt;
+  &lt;div&gt;
+   &lt;p&gt;
+    A class of bugs I really dislike debugging are those that depend on specific data and affect only a very small subset or just one user. Things could sometimes be fixed so much faster if you could just log in as him to see what is happening. Sometimes this is exactly what we do
+    &lt;strong&gt;
+     with his explicit permission
+    &lt;/strong&gt;
+    , but I really dislike asking for passwords.
+   &lt;/p&gt;
+   &lt;p&gt;
+    First it inconveniences user. He has to come up with either a new good password or go through two password changes. Second it implicitly teaches wrong behavior. Passwords simply should never be revealed.
+   &lt;/p&gt;
+   &lt;p&gt;
+    That is why I wrote
+    &lt;a href="https://github.com/samastur/Impostor" title="Impostor's home at GitHub"&gt;
+     Impostor
+    &lt;/a&gt;
+    , a Django app that allows staff members (and only them) to login with their own credentials as a different user. Idea is not mine (kudos goes to
+    &lt;a href="http://nedbatchelder.com/blog/201008/django_superuser_login_trapdoor.html" title="Ned's post where idea comes from"&gt;
+     Ned Batchelder
+    &lt;/a&gt;
+    ), but I like it. To discourage abuse every such authentication is recorded and can be seen in Django admin interface, but can not be altered from there.
+   &lt;/p&gt;
+   &lt;p&gt;
+    So how does it work in practice?
+   &lt;/p&gt;
+   &lt;p&gt;
+    Lets say that I would need to log in as user
+    &lt;em&gt;
+     fry
+    &lt;/em&gt;
+    . To do this I would enter as my username
+    &lt;em&gt;
+     markos as fry,
+    &lt;/em&gt;
+    provide my password and voila, I’m him. This has been recorded so anyone with access to ImpostorLog part in admin can see all such cases, mine included.
+   &lt;/p&gt;
+   &lt;p&gt;
+    Impostor may also ease your development by removing need to remember different passwords for testing. This is usually not a problem unless you happen to develop with fake data but real accounts. Like me.
+   &lt;/p&gt;
+   &lt;p&gt;
+    And again for morally challenged out there:
+    &lt;strong&gt;
+     you should never login as somebody else without his explicit permission
+    &lt;/strong&gt;
+    .
+   &lt;/p&gt;
+   &lt;p&gt;
+    &lt;strong&gt;
+     Update
+    &lt;/strong&gt;
+    : Thanks Ross for reminding me where idea came from. I updated text accordingly.
+   &lt;/p&gt;
+   &lt;div class="zemanta-pixie"&gt;
+    &lt;a class="zemanta-pixie-a" href="http://www.zemanta.com/" title="Enhanced by Zemanta"&gt;
+     &lt;img alt="Enhanced by Zemanta" class="zemanta-pixie-img" src="http://img.zemanta.com/zemified_e.png?x-id=db7c9f53-423e-4b56-bbe3-b717fde54c16"/&gt;
+    &lt;/a&gt;
+   &lt;/div&gt;
+  &lt;/div&gt;
+ &lt;/body&gt;
+&lt;/html&gt;&lt;/p&gt;</summary></entry></feed>

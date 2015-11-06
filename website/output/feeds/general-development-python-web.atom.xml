@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom"><title>A notch above a monkey</title><link href="/" rel="alternate"></link><link href="/articles/feeds/general-development-python-web.atom.xml" rel="self"></link><id>/</id><updated>2007-07-24T13:52:00+02:00</updated><entry><title>Looking for Adobe RGB to sRGB conversion tool</title><link href="/looking-for-adobe-rgb-to-srgb-conversion-tool.html" rel="alternate"></link><updated>2007-07-24T13:52:00+02:00</updated><author><name>markos</name></author><id>tag:,2007-07-24:looking-for-adobe-rgb-to-srgb-conversion-tool.html</id><summary type="html">&lt;p&gt;&lt;html&gt;
+ &lt;body&gt;
+  &lt;div&gt;
+   &lt;p&gt;
+    Does anyone know of a python module or unix command line tool for transforming Adobe RGB color space profile to sRGB?
+   &lt;/p&gt;
+   &lt;p&gt;
+    Either my assumption, that you can get anything you need on the internet, is wrong or I’ve been looking at wrong places.
+   &lt;/p&gt;
+  &lt;/div&gt;
+ &lt;/body&gt;
+&lt;/html&gt;&lt;/p&gt;</summary></entry><entry><title>Speeding up Levenshtein</title><link href="/speeding-up-levenshtein.html" rel="alternate"></link><updated>2006-11-10T02:17:00+01:00</updated><author><name>markos</name></author><id>tag:,2006-11-10:speeding-up-levenshtein.html</id><summary type="html">&lt;p&gt;&lt;html&gt;
+ &lt;body&gt;
+  &lt;div&gt;
+   &lt;p&gt;
+    &lt;a href="handling-404.html"&gt;
+     Simon
+    &lt;/a&gt;
+    proposes using a dictionary to match mistyped URLs with real ones. I’d probably like the idea better if I actually understood it. Still using
+    &lt;a href="http://en.wikipedia.org/wiki/Levenshtein_distance" title="description of the algorithm"&gt;
+     Levenshtein
+    &lt;/a&gt;
+    can be a bit easier than using a spell checker responsively.
+   &lt;/p&gt;
+   &lt;p&gt;
+    Easier, but slow. I used existing
+    &lt;a href="http://hetland.org/python/distance.py" title="python implementation"&gt;
+     implementation
+    &lt;/a&gt;
+    by Magnus Lie Hetland and made a test with 245 blog titles using a simple
+    &lt;a href="http://markos.gaivo.net/examples/distance/test_distance" title="Link to test script"&gt;
+     script
+    &lt;/a&gt;
+    . 100 iterations on aging powerbook produced:
+   &lt;/p&gt;
+   &lt;p style="text-indent:20pt;"&gt;
+    1.766s, 29.152s, 9.399s (min, max, avg)
+   &lt;/p&gt;
+   &lt;p&gt;
+    Average time to calculate distance between randomly chosen title and rest of them is 9.4 seconds, which is far too much to be useful. And there’s not even 250 of them.
+   &lt;/p&gt;
+   &lt;p&gt;
+    There are two obvious ways to speed things up. Since minimum distance is at least as much as a difference in length of both strings, there’s no point in calculating it when difference already exceeds a limit we chose.
+   &lt;/p&gt;
+   &lt;p&gt;
+    The other trick took into an account that Levenshtein’s algorithm of two strings of comparable length has complexity of O(n2) and that my blog titles are form quite sparse space. If strings are longer than a certain limit (I arbitrarily chose 10 letters), then first calculate edit distance on a small sparse substring and then calculate the real distance only if first one was close enough.
+   &lt;/p&gt;
+   &lt;p&gt;
+    When I made 1000 iterations of randomly chosen title using only first test, I got following results:
+   &lt;/p&gt;
+   &lt;p style="text-indent:20pt;"&gt;
+    0.003s, 0.284s, 0.167s (min, max, avg)
+   &lt;/p&gt;
+   &lt;p&gt;
+    However, if I used both checks, the same 1000 iteration test got me:
+   &lt;/p&gt;
+   &lt;p style="text-indent:20pt;"&gt;
+    0.003s, 0.162s, 0.027s (min, max, avg)
+   &lt;/p&gt;
+   &lt;p&gt;
+    So,
+    &lt;a href="http://markos.gaivo.net/examples/distance/distance.py" title="Extended distance functions"&gt;
+     two simple checks
+    &lt;/a&gt;
+    can speed up search up to 350 times. Not bad, but I’m not happy. This is certainly fast enough for a personal website or sites where site structure effectively divides searching to relatively small sets of possible hits, but there are plenty of sites where it would be too slow.
+   &lt;/p&gt;
+   &lt;p&gt;
+    I tried to simplify searching using distance to map strings to coordinate system, which was at least hopelessly naive if not downright dumb. A much better approach would be to read more, which is what I’m doing now.
+   &lt;/p&gt;
+   &lt;p&gt;
+    By the way, I’ve also tried to speed it up using Pyrex, but got pretty much same results, which means I either don’t know how to use Pyrex or Python optimizes well. Or both.
+   &lt;/p&gt;
+  &lt;/div&gt;
+ &lt;/body&gt;
+&lt;/html&gt;&lt;/p&gt;</summary></entry></feed>

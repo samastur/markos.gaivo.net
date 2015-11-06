@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom"><title>A notch above a monkey</title><link href="/" rel="alternate"></link><link href="/articles/feeds/company-general-development-linux-python.atom.xml" rel="self"></link><id>/</id><updated>2005-11-29T18:08:00+01:00</updated><entry><title>IPRED2 derailed?</title><link href="/ipred2-derailed.html" rel="alternate"></link><updated>2005-11-29T18:08:00+01:00</updated><author><name>markos</name></author><id>tag:,2005-11-29:ipred2-derailed.html</id><summary type="html">&lt;p&gt;&lt;html&gt;
+ &lt;body&gt;
+  &lt;div&gt;
+   &lt;p&gt;
+    Well, I’ve jumped the gun. It seems IPRED2 has been
+    &lt;a href="http://wiki.ffii.org/Ipred2En"&gt;
+     derailed
+    &lt;/a&gt;
+    (at least for a while).
+   &lt;/p&gt;
+   &lt;p&gt;
+    Still, better this than being right.
+   &lt;/p&gt;
+  &lt;/div&gt;
+ &lt;/body&gt;
+&lt;/html&gt;&lt;/p&gt;</summary></entry><entry><title>IPRED2 endangers all software development</title><link href="/ipred-2-endangers-all-software-development.html" rel="alternate"></link><updated>2005-11-27T19:57:00+01:00</updated><author><name>markos</name></author><id>tag:,2005-11-27:ipred-2-endangers-all-software-development.html</id><summary type="html">&lt;p&gt;&lt;html&gt;
+ &lt;body&gt;
+  &lt;div&gt;
+   &lt;p&gt;
+    &lt;a href="http://www.fsfeurope.org"&gt;
+     FSF Europe
+    &lt;/a&gt;
+    has prepared a
+    &lt;a href="http://www.fsfeurope.org/projects/ipred2/ipred2.en.html"&gt;
+     short document
+    &lt;/a&gt;
+    describing problems with IPRED2, the new “Intellectual Property” rights directive from European Union. If passed, it could lead to jail sentences for intellectual property violators. Proposal doesn’t distinguish between kinds of intellectual property, but it does limit itself to sadly undefined willful infringement.
+   &lt;/p&gt;
+   &lt;p&gt;
+    Not being a lawyer makes it hard to judge, if FSF’s objections are valid. According to
+    &lt;a href="http://wiki.ffii.de/IpredEp051122En"&gt;
+     a report
+    &lt;/a&gt;
+    from FFII, big IP companies are not happy with it either. Directive’s proposal certainly leaves a lot to interpretation and FSF’s scenario doesn’t seem far fetched. Especially for those of us who’ve seen how difficult it can be for lawyers to agree on anything.
+   &lt;/p&gt;
+   &lt;p&gt;
+    In short, it’s another piece of ill-considered legislation that wants to help entertainment industry in their fight against reality at the expense of almost everyone else.
+   &lt;/p&gt;
+   &lt;p&gt;
+    I wonder if someday people will look at IP legislation of late 20th and early 21st century the way we see now tax on windows (not to be confused with windows tax, which opens gates to completely different discussion).
+   &lt;/p&gt;
+  &lt;/div&gt;
+ &lt;/body&gt;
+&lt;/html&gt;&lt;/p&gt;</summary></entry></feed>

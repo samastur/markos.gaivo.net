@@ -13,6 +13,7 @@
 
         <link href="/articles/feeds/atom.xml" type="application/atom+xml" rel="alternate" title="A notch above a monkey Full Atom Feed" />
         <link href="/articles/feeds/rss.xml" type="application/rss+xml" rel="alternate" title="A notch above a monkey Full RSS Feed" />
+        <link href="/articles/feeds/general-development-javascript-python.atom.xml" type="application/atom+xml" rel="alternate" title="A notch above a monkey Categories Atom Feed" />
 </head>
 
 <body>
@@ -36,62 +37,60 @@
             <h1 class="entry-title storytitle"><a href="/latency-bandwidth-and-speed-of-applications-part-ii.html" rel="bookmark" title="Permalink to Latency, bandwidth and speed of applications - part II">Latency, bandwidth and speed of applications - part II</a></h1>
 
             <div class="entry-content post-text">
-                <p>This is the second post on this subject. You can find the first part
-<a href="http://markos.gaivo.net/blog/?p=23" title="First par of this article">here</a>.</p>
-<p>So, how do latency and bandwidth relate to the speed of execution?</p>
-<p>As mentioned, latency is time needed for any amount of information to
-travel a certain distance and bandwidth is the amount of data that can
-flow through it at the same time.</p>
-<p>Let me give you a real-life example. If you imagine people walking down
-the corridor, then latency is amount of time one person needs to walk
-from start to its end and bandwidth is number of people who can do this
-at the same time.</p>
-<p>You can measure latency quite easily with ping, a tool available on
-every major OS, which will give you a round-trip time from client to
-server (2+5 from our original 7 intervals). The only problem is that it
-will tell you just your personal latency at that time, which can vary
-significantly for people on different networks and even for you at
-different times. There are similar tools for measuring bandwidth and
-they have more or less the same problems.</p>
-<p>However, sometimes you can tell a bit about what you can expect. For
-example, if you're building an application aimed at mobile users using
-GPRS, then it's quite reasonable to assume that bandwidth will be scarce
-and latency will be high. On local networks it's usually the opposite of
-that.</p>
-<p>In general, latency rises with distance between server and client and
-bandwidth can't be wider than the narrowest bandwidth on the way and the
-question is how do we react to our situation?</p>
-<p>Basic rules are:</p>
-<ul>
-<li>if latency is high, then we should make as few round-trips to server
-    as possible</li>
-<li>if bandwidth is wide, then we can transfer more data at each trip</li>
-</ul>
-<p>In practice we should always try for the most balanced approach between
-this two factors. If latency is fairly high, but bandwidth is not
-severely limited, then we might transfer also data we don't need
-immediately, if it might spare us another request later on. If latency
-is low and bandwidth is narrow, then it might make more sense to
-transfer only what's needed, but make those requests more often.</p>
-<p>Another way we can sometimes cut down response time, when bandwidth is
-not the limiting factor, is to multiplex connections, which is a bit
-fancy way of saying to simultaneously open multiple connections from
-client to server. It's nice to keep in mind that some browsers like
-Internet Explorer will limit number of simultaneous connections for HTTP
-protocol to 4 (as specified by its standard), but you are more free to
-do what you want, if you write your own program. It's also nice to keep
-in mind that if order in which responses are coming is important, you'll
-have to handle that yourself.</p>
-<p>A different approach is to simulate multiplex connections over one
-connection. In this case client sends multiple commands inside of one
-network request and receives answers to all of them at once. It's easier
-to handle order, since you get all data at the same time, but you give
-up possibly faster response for some of the data.</p>
-<p>There are other factors that can influence our decisions, such as
-possibly increased load on server from more requests. Or the speed with
-which we can generate a request and process reply, if we need to pack
-and unpack more data. But this are issues worth exploring in some other
-post, if interest justifies it.</p>
+                <p><html>
+ <body>
+  <div>
+   <p>
+    This is the second post on this subject. You can find the first part
+    <a href="latency-bandwidth-and-speed-of-applications-part-i.html" title="First par of this article">
+     here
+    </a>
+    .
+   </p>
+   <p>
+    So, how do latency and bandwidth relate to the speed of execution?
+   </p>
+   <p>
+    As mentioned, latency is time needed for any amount of information to travel a certain distance and bandwidth is the amount of data that can flow through it at the same time.
+   </p>
+   <p>
+    Let me give you a real-life example. If you imagine people walking down the corridor, then latency is amount of time one person needs to walk from start to its end and bandwidth is number of people who can do this at the same time.
+   </p>
+   <p>
+    You can measure latency quite easily with ping, a tool available on every major OS, which will give you a round-trip time from client to server (2+5 from our original 7 intervals). The only problem is that it will tell you just your personal latency at that time, which can vary significantly for people on different networks and even for you at different times. There are similar tools for measuring bandwidth and they have more or less the same problems.
+   </p>
+   <p>
+    However, sometimes you can tell a bit about what you can expect. For example, if you’re building an application aimed at mobile users using GPRS, then it’s quite reasonable to assume that bandwidth will be scarce and latency will be high. On local networks it’s usually the opposite of that.
+   </p>
+   <p>
+    In general, latency rises with distance between server and client and bandwidth can’t be wider than the narrowest bandwidth on the way and the question is how do we react to our situation?
+   </p>
+   <p>
+    Basic rules are:
+   </p>
+   <ul>
+    <li>
+     if latency is high, then we should make as few round-trips to server as possible
+    </li>
+    <li>
+     if bandwidth is wide, then we can transfer more data at each trip
+    </li>
+   </ul>
+   <p>
+    In practice we should always try for the most balanced approach between this two factors. If latency is fairly high, but bandwidth is not severely limited, then we might transfer also data we don’t need immediately, if it might spare us another request later on. If latency is low and bandwidth is narrow, then it might make more sense to transfer only what’s needed, but make those requests more often.
+   </p>
+   <p>
+    Another way we can sometimes cut down response time, when bandwidth is not the limiting factor, is to multiplex connections, which is a bit fancy way of saying to simultaneously open multiple connections from client to server. It’s nice to keep in mind that some browsers like Internet Explorer will limit number of simultaneous connections for HTTP protocol to 4 (as specified by its standard), but you are more free to do what you want, if you write your own program. It’s also nice to keep in mind that if order in which responses are coming is important, you’ll have to handle that yourself.
+   </p>
+   <p>
+    A different approach is to simulate multiplex connections over one connection. In this case client sends multiple commands inside of one network request and receives answers to all of them at once. It’s easier to handle order, since you get all data at the same time, but you give up possibly faster response for some of the data.
+   </p>
+   <p>
+    There are other factors that can influence our decisions, such as possibly increased load on server from more requests. Or the speed with which we can generate a request and process reply, if we need to pack and unpack more data. But this are issues worth exploring in some other post, if interest justifies it.
+   </p>
+  </div>
+ </body>
+</html></p>
             </div><!-- /.entry-content -->
 
             <footer class="post-metadata">
@@ -105,60 +104,86 @@ post, if interest justifies it.</p>
             <h1 class="entry-title storytitle"><a href="/latency-bandwidth-and-speed-of-applications-part-i.html" rel="bookmark" title="Permalink to Latency, bandwidth and speed of applications - part I">Latency, bandwidth and speed of applications - part I</a></h1>
 
             <div class="entry-content post-text">
-                <p>It seems we're back to discussing the importance of bandwidth and
-latency on perceived speed of application. In a way it's amazing that
-after 10 years of widespread use of Internet and local networks, we
-developers still discuss these issues.</p>
-<p>So, what contributes to speed of execution in network applications?</p>
-<p>Each network request can be divided into seven time intervals:</p>
-<ol>
-<li>time needed to send a request</li>
-<li>latency, which is time spent for any amount of data to travel
-    between client and server</li>
-<li>data transfer time</li>
-<li>time needed to process a request, form a response and send it</li>
-<li>latency again, but this time in other direction</li>
-<li>data transfer time for response</li>
-<li>time needed to process response and present result to user</li>
-</ol>
-<p>Sum of all these parts is time lapsed between issued command and
-presented result. How fast this needs to be depends on application and
-our experiences. For example, we expect faster response to our key
-presses in SSH client than we do waiting for search results.</p>
-<p>However, if this sum is under a quarter of a second, it will be
-generally regarded as instantaneous, but you really should aim for
-1/10th of a second to satisfy even the most twitchy users.</p>
-<p>Usually, we might get to control all parts of this equation only when
-client and server are located on a local network and we develop both of
-them. So, a well behaving application needs to take in account
-environment in which it will run and act accordingly.</p>
-<p>This means, among other things, to give user feedback that something is
-happening whenever there is even a remote chance that response might
-take a while, to react sensibly to network disruptions (such as
-timeouts) and offer a way to abort user actions.</p>
-<p>So, how do we speed up the application itself?</p>
-<p>Absolutely the best way to speed up a network request is to not make
-one. The usual way to do this is to cache result over its life span and
-use it when possible.</p>
-<p>The other way, lately often mentioned in relation to AJAX, is to make
-our requests asynchronously. Unlike synchronous requests, which are
-direct results of user actions, asynchronous are those were data is
-transfered in expectation of future user actions.</p>
-<p>An example would be a mail program where we transfer message headers of
-yet unread mail in background before we actually need to display them to
-user, since it's fairly likely that he'll want to check them in near
-future.</p>
-<p>There are also downsides to this approach. It can be difficult to
-predict what to transfer next if no user action is more probable than
-rest. It can also incur significant costs if bandwidth is expensive as
-often is on GPRS networks in Europe. And when number of simultaneous
-connections is limited (HTTP allows 4, but not all browsers comply), it
-can occupy a resource when you need one.</p>
-<p>Still, it's a useful tool when it can be applied.</p>
-<p>More about saving time with our seven intervals in part two due
-tomorrow.</p>
-<p><em>Update: second part has been
-<a href="http://markos.gaivo.net/blog/?p=24" title="Second part">posted</a>.</em></p>
+                <p><html>
+ <body>
+  <div>
+   <p>
+    It seems we’re back to discussing the importance of bandwidth and latency on perceived speed of application. In a way it’s amazing that after 10 years of widespread use of Internet and local networks, we developers still discuss these issues.
+   </p>
+   <p>
+    So, what contributes to speed of execution in network applications?
+   </p>
+   <p>
+    Each network request can be divided into seven time intervals:
+   </p>
+   <ol>
+    <li>
+     time needed to send a request
+    </li>
+    <li>
+     latency, which is time spent for any amount of data to travel between client and server
+    </li>
+    <li>
+     data transfer time
+    </li>
+    <li>
+     time needed to process a request, form a response and send it
+    </li>
+    <li>
+     latency again, but this time in other direction
+    </li>
+    <li>
+     data transfer time for response
+    </li>
+    <li>
+     time needed to process response and present result to user
+    </li>
+   </ol>
+   <p>
+    Sum of all these parts is time lapsed between issued command and presented result. How fast this needs to be depends on application and our experiences. For example, we expect faster response to our key presses in SSH client than we do waiting for search results.
+   </p>
+   <p>
+    However, if this sum is under a quarter of a second, it will be generally regarded as instantaneous, but you really should aim for 1/10th of a second to satisfy even the most twitchy users.
+   </p>
+   <p>
+    Usually, we might get to control all parts of this equation only when client and server are located on a local network and we develop both of them. So, a well behaving application needs to take in account environment in which it will run and act accordingly.
+   </p>
+   <p>
+    This means, among other things, to give user feedback that something is happening whenever there is even a remote chance that response might take a while, to react sensibly to network disruptions (such as timeouts) and offer a way to abort user actions.
+   </p>
+   <p>
+    So, how do we speed up the application itself?
+   </p>
+   <p>
+    Absolutely the best way to speed up a network request is to not make one. The usual way to do this is to cache result over its life span and use it when possible.
+   </p>
+   <p>
+    The other way, lately often mentioned in relation to AJAX, is to make our requests asynchronously. Unlike synchronous requests, which are direct results of user actions, asynchronous are those were data is transfered in expectation of future user actions.
+   </p>
+   <p>
+    An example would be a mail program where we transfer message headers of yet unread mail in background before we actually need to display them to user, since it’s fairly likely that he’ll want to check them in near future.
+   </p>
+   <p>
+    There are also downsides to this approach. It can be difficult to predict what to transfer next if no user action is more probable than rest. It can also incur significant costs if bandwidth is expensive as often is on GPRS networks in Europe. And when number of simultaneous connections is limited (HTTP allows 4, but not all browsers comply), it can occupy a resource when you need one.
+   </p>
+   <p>
+    Still, it’s a useful tool when it can be applied.
+   </p>
+   <p>
+    More about saving time with our seven intervals in part two due tomorrow.
+   </p>
+   <p>
+    <em>
+     Update: second part has been
+     <a href="latency-bandwidth-and-speed-of-applications-part-ii.html" title="Second part">
+      posted
+     </a>
+     .
+    </em>
+   </p>
+  </div>
+ </body>
+</html></p>
             </div><!-- /.entry-content -->
 
             <footer class="post-metadata">

@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom"><title>A notch above a monkey</title><link href="/" rel="alternate"></link><link href="/articles/feeds/javascript-spletne-urice.atom.xml" rel="self"></link><id>/</id><updated>2008-03-05T11:12:00+01:00</updated><entry><title>Javascript events - drugi??</title><link href="/javascript-events-drugic.html" rel="alternate"></link><updated>2008-03-05T11:12:00+01:00</updated><author><name>markos</name></author><id>tag:,2008-03-05:javascript-events-drugic.html</id><summary type="html">&lt;p&gt;&lt;html&gt;
+ &lt;body&gt;
+  &lt;div&gt;
+   &lt;p&gt;
+    &lt;a href="javascript-events.html" title="Prejšnja najava"&gt;
+     Moje predavanje
+    &lt;/a&gt;
+    o Javascript events, ki je odpadlo pred dvema tednoma, bo na sporedu danes. Isti kraj in ??as — ob 19h v Kiberpipi.
+   &lt;/p&gt;
+   &lt;p&gt;
+    Bralcem se opravi??ujem za pozno sporo??ilo, ki vsaj upam vseeno ni prepozno.
+   &lt;/p&gt;
+  &lt;/div&gt;
+ &lt;/body&gt;
+&lt;/html&gt;&lt;/p&gt;</summary></entry><entry><title>Javascript events</title><link href="/javascript-events.html" rel="alternate"></link><updated>2008-02-15T18:23:00+01:00</updated><author><name>markos</name></author><id>tag:,2008-02-15:javascript-events.html</id><summary type="html">&lt;p&gt;&lt;html&gt;
+ &lt;body&gt;
+  &lt;div&gt;
+   &lt;p&gt;
+    V sredo, 20.2., bom imel na
+    &lt;a href="http://web.zen.si/"&gt;
+     Spletnih uricah
+    &lt;/a&gt;
+    drugi del predavanja o Javascriptu. Tema tokratnega predavanja bodo dogodki v brskalniku znani tudi kot
+    &lt;em&gt;
+     Javascript events
+    &lt;/em&gt;
+    . Tudi tokrat je vsebina preobsežna, da bi lahko pokril prav vse, mislim pa, da bo z malo sre??e in spretnosti možno obiskati vse pomembnejše vidike. Predavanje tudi tokrat še ni kon??ano in zato z veseljem sprejemam inpute vseh vrst, ki bi pripomogli k temu, da bo ??im boljše.
+   &lt;/p&gt;
+   &lt;p&gt;
+    Kraj dogodka bo seveda
+    &lt;a href="http://www.kiberpipa.org/"&gt;
+     Kiberpipa
+    &lt;/a&gt;
+    . Vsi bralci ste seveda vljudno vabljeni.
+   &lt;/p&gt;
+   &lt;p&gt;
+    &lt;strong&gt;
+     Obvestilo: Predavanje je zaradi vnetega grla prestavljeno na kasnejši ??as. Podrobnosti o današnjem nadomestnem predavanju pa naj bi bile objavljene na strani Spletnih uric.
+    &lt;/strong&gt;
+   &lt;/p&gt;
+  &lt;/div&gt;
+ &lt;/body&gt;
+&lt;/html&gt;&lt;/p&gt;</summary></entry><entry><title>Nevsiljiv Javascript - aftermath</title><link href="/nevsiljiv-javascript-aftermath.html" rel="alternate"></link><updated>2005-12-01T09:09:00+01:00</updated><author><name>markos</name></author><id>tag:,2005-12-01:nevsiljiv-javascript-aftermath.html</id><summary type="html">&lt;p&gt;&lt;html&gt;
+ &lt;body&gt;
+  &lt;div&gt;
+   &lt;p&gt;
+    Talk is behind me and I’d like to thank all who came and especially to those, who stayed through the whole thing.
+   &lt;/p&gt;
+   &lt;p&gt;
+    Looking back, there are certainly things I’d do differently, if I got the chance, but at least it wasn’t a horrendous experience for me and the audience like my last talk a few years ago was.
+   &lt;/p&gt;
+   &lt;p&gt;
+    I’ll post my slides of dubious value later today or tomorrow at the
+    &lt;a href="http://web.zen.si"&gt;
+     usual place
+    &lt;/a&gt;
+    and I’ll try to prepare a Lessig-like webcast over the weekend. I hope to see everyone next week on Tuesday. Boštjan Ber??i?? will talk about responsibility of publishers on web, a talk that everyone who publishes on the web in Slovenia should probably hear.
+   &lt;/p&gt;
+  &lt;/div&gt;
+ &lt;/body&gt;
+&lt;/html&gt;&lt;/p&gt;</summary></entry><entry><title>Nevsiljiv javascript</title><link href="/nevsiljiv-javascript.html" rel="alternate"></link><updated>2005-11-29T14:25:00+01:00</updated><author><name>markos</name></author><id>tag:,2005-11-29:nevsiljiv-javascript.html</id><summary type="html">&lt;p&gt;&lt;html&gt;
+ &lt;body&gt;
+  &lt;div&gt;
+   &lt;p&gt;
+    It seems only appropriate to use this place to announce a talk I’m giving tomorrow at 19:00 at
+    &lt;a href="http://www.kiberpipa.org"&gt;
+     Kiberpipa
+    &lt;/a&gt;
+    .
+   &lt;/p&gt;
+   &lt;p&gt;
+    I’ll be talking about degradable javascript and its benefits and the talk should be accessible to all, even javascript newbies. Just to clear any misconceptions, degradable AJAX will be demonstrated, but the point of talk is general javascript use and misuse and not the latest fashionable tricks.
+   &lt;/p&gt;
+   &lt;p&gt;
+    The talk will be given in Slovene unless there’s a wide enough interest to give it in English. I hope you’ll come and stay for a chat and a drink.
+   &lt;/p&gt;
+   &lt;p&gt;
+    See you there.
+   &lt;/p&gt;
+  &lt;/div&gt;
+ &lt;/body&gt;
+&lt;/html&gt;&lt;/p&gt;</summary></entry></feed>

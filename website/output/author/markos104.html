@@ -36,30 +36,34 @@
             <h1 class="entry-title storytitle"><a href="/dont-take-my-word-for-it.html" rel="bookmark" title="Permalink to Don't take my word for it">Don't take my word for it</a></h1>
 
             <div class="entry-content post-text">
-                <p>I thought Harold Evans' <a href="http://news.bbc.co.uk/2/hi/uk_news/magazine/4252520.stm" title="Harold Evans talks about English language">last
-column</a>
-was quite good.</p>
-<p>It's no shocking revelation that I'm not a native English speaker. In
-fact, my mother tongue is Slovenian; a fairly difficult language to
-master even for willing. Although my (mis)use of it leaves much to be
-desired, I'd like to think I have a better grasp of it than of English.</p>
-<p>Still, every now and then I happen to get into trouble because of a
-misunderstanding that is sometimes caused by as little as a subtly
-different perception of a word. Usually such problems can be easily
-spotted and rectified since nuances are much clearer to me in a language
-I've used for more than three decades.</p>
-<p>However, I was less lucky when dealing with different cultures using
-English. One such occasion was using word hate improperly, as you might
-use it in Slovenian by implying a stronger disliking of something, but
-not an actual hate. I try not to transplant use of a word or a phrase
-between languages, but I'm sure I still make mistakes like this.</p>
-<p>I also lost international friendships through years. Most of them
-probably because of my cultural ignorance and sometimes it seems the
-language we used came between us. I came to believe there's a risk in
-knowing language well enough for people to assume you know what you're
-talking about and not well enough to actually do.</p>
-<p>So, does anybody have any personal language related horror stories to
-share?</p>
+                <p><html>
+ <body>
+  <div>
+   <p>
+    I thought Harold Evans’
+    <a href="http://news.bbc.co.uk/2/hi/uk_news/magazine/4252520.stm" title="Harold Evans talks about English language">
+     last column
+    </a>
+    was quite good.
+   </p>
+   <p>
+    It’s no shocking revelation that I’m not a native English speaker. In fact, my mother tongue is Slovenian; a fairly difficult language to master even for willing. Although my (mis)use of it leaves much to be desired, I’d like to think I have a better grasp of it than of English.
+   </p>
+   <p>
+    Still, every now and then I happen to get into trouble because of a misunderstanding that is sometimes caused by as little as a subtly different perception of a word. Usually such problems can be easily spotted and rectified since nuances are much clearer to me in a language I’ve used for more than three decades.
+   </p>
+   <p>
+    However, I was less lucky when dealing with different cultures using English. One such occasion was using word hate improperly, as you might use it in Slovenian by implying a stronger disliking of something, but not an actual hate. I try not to transplant use of a word or a phrase between languages, but I’m sure I still make mistakes like this.
+   </p>
+   <p>
+    I also lost international friendships through years. Most of them probably because of my cultural ignorance and sometimes it seems the language we used came between us. I came to believe there’s a risk in knowing language well enough for people to assume you know what you’re talking about and not well enough to actually do.
+   </p>
+   <p>
+    So, does anybody have any personal language related horror stories to share?
+   </p>
+  </div>
+ </body>
+</html></p>
             </div><!-- /.entry-content -->
 
             <footer class="post-metadata">
@@ -73,41 +77,48 @@ share?</p>
             <h1 class="entry-title storytitle"><a href="/javascript-timing-conflicts.html" rel="bookmark" title="Permalink to Javascript timing conflicts">Javascript timing conflicts</a></h1>
 
             <div class="entry-content post-text">
-                <p>Play with fire and you'll get burned.</p>
-<p>I've just spent two days hunting a bug that just didn't make sense. No
-matter what I did, there was at least one browser, which didn't want to
-behave properly and it was driving me nuts.</p>
-<p>Finally I gave up and decided there's nothing wrong with my code and the
-fault must be with the browser. And so it was, up to a point. Or not,
-depending on your point of view.</p>
-<p>The problem was a timing conflict resulting from a use of <a href="http://markos.gaivo.net/blog/?p=12" title="Description of technique">framestack
-technique</a>
-and the way modern browsers work. Browsers don't wait for the whole page
-with its data to load, before they display it to users. They display as
-reasonable presentation of received data as possible while they are
-trying to load the rest. For example, onload handler set to body tag is
-triggered when body of HTML document has loaded, but possibly before
-images and other external resources have. When they do, page layout
-might change somewhat and if your script is reading and using layout
-data in the meantime, it's quite likely it'll end up using wrong values.</p>
-<p>The easiest (and right) way to fix this is to start javascript with
-<em>window.onload</em>, which is triggered when everything has loaded. This
-might be a problem, if you're using something like framestack to avoid
-reloading page on subsequent visits, but at least in my case I've
-decided that the cleanest and easiest solution was to use window.onload
-and just force reload of problematic page on each visit.</p>
-<p>It's also possible to get in similar timing conflicts by using
-<em>innerHTML</em> method. If you try to stuck a large piece of HTML inside a
-page using innerHTML call, you may encounter an unwelcome surprise.
-Reason for this is that at least some browsers don't wait to parse and
-insert data in DOM before they proceed to the next statement. Injection
-delay is usually barely noticeable, but big enough for statements that
-manipulate inserted data to fail, if they are in close proximity to
-innerHTML call.</p>
-<p>You can't necessarily avoid innerHTML problems with window.onload, but
-you can by using (more cumbersome) DOM methods.</p>
-<p>It still annoys me though that I knew all of this and wasted two days
-just because I didn't think of it.</p>
+                <p><html>
+ <body>
+  <div>
+   <p>
+    Play with fire and you’ll get burned.
+   </p>
+   <p>
+    I’ve just spent two days hunting a bug that just didn’t make sense. No matter what I did, there was at least one browser, which didn’t want to behave properly and it was driving me nuts.
+   </p>
+   <p>
+    Finally I gave up and decided there’s nothing wrong with my code and the fault must be with the browser. And so it was, up to a point. Or not, depending on your point of view.
+   </p>
+   <p>
+    The problem was a timing conflict resulting from a use of
+    <a href="framestack-technique-and-accessibility.html" title="Description of technique">
+     framestack technique
+    </a>
+    and the way modern browsers work. Browsers don’t wait for the whole page with its data to load, before they display it to users. They display as reasonable presentation of received data as possible while they are trying to load the rest. For example, onload handler set to body tag is triggered when body of HTML document has loaded, but possibly before images and other external resources have. When they do, page layout might change somewhat and if your script is reading and using layout data in the meantime, it’s quite likely it’ll end up using wrong values.
+   </p>
+   <p>
+    The easiest (and right) way to fix this is to start javascript with
+    <em>
+     window.onload
+    </em>
+    , which is triggered when everything has loaded. This might be a problem, if you’re using something like framestack to avoid reloading page on subsequent visits, but at least in my case I’ve decided that the cleanest and easiest solution was to use window.onload and just force reload of problematic page on each visit.
+   </p>
+   <p>
+    It’s also possible to get in similar timing conflicts by using
+    <em>
+     innerHTML
+    </em>
+    method. If you try to stuck a large piece of HTML inside a page using innerHTML call, you may encounter an unwelcome surprise. Reason for this is that at least some browsers don’t wait to parse and insert data in DOM before they proceed to the next statement. Injection delay is usually barely noticeable, but big enough for statements that manipulate inserted data to fail, if they are in close proximity to innerHTML call.
+   </p>
+   <p>
+    You can’t necessarily avoid innerHTML problems with window.onload, but you can by using (more cumbersome) DOM methods.
+   </p>
+   <p>
+    It still annoys me though that I knew all of this and wasted two days just because I didn’t think of it.
+   </p>
+  </div>
+ </body>
+</html></p>
             </div><!-- /.entry-content -->
 
             <footer class="post-metadata">
@@ -121,62 +132,60 @@ just because I didn't think of it.</p>
             <h1 class="entry-title storytitle"><a href="/latency-bandwidth-and-speed-of-applications-part-ii.html" rel="bookmark" title="Permalink to Latency, bandwidth and speed of applications - part II">Latency, bandwidth and speed of applications - part II</a></h1>
 
             <div class="entry-content post-text">
-                <p>This is the second post on this subject. You can find the first part
-<a href="http://markos.gaivo.net/blog/?p=23" title="First par of this article">here</a>.</p>
-<p>So, how do latency and bandwidth relate to the speed of execution?</p>
-<p>As mentioned, latency is time needed for any amount of information to
-travel a certain distance and bandwidth is the amount of data that can
-flow through it at the same time.</p>
-<p>Let me give you a real-life example. If you imagine people walking down
-the corridor, then latency is amount of time one person needs to walk
-from start to its end and bandwidth is number of people who can do this
-at the same time.</p>
-<p>You can measure latency quite easily with ping, a tool available on
-every major OS, which will give you a round-trip time from client to
-server (2+5 from our original 7 intervals). The only problem is that it
-will tell you just your personal latency at that time, which can vary
-significantly for people on different networks and even for you at
-different times. There are similar tools for measuring bandwidth and
-they have more or less the same problems.</p>
-<p>However, sometimes you can tell a bit about what you can expect. For
-example, if you're building an application aimed at mobile users using
-GPRS, then it's quite reasonable to assume that bandwidth will be scarce
-and latency will be high. On local networks it's usually the opposite of
-that.</p>
-<p>In general, latency rises with distance between server and client and
-bandwidth can't be wider than the narrowest bandwidth on the way and the
-question is how do we react to our situation?</p>
-<p>Basic rules are:</p>
-<ul>
-<li>if latency is high, then we should make as few round-trips to server
-    as possible</li>
-<li>if bandwidth is wide, then we can transfer more data at each trip</li>
-</ul>
-<p>In practice we should always try for the most balanced approach between
-this two factors. If latency is fairly high, but bandwidth is not
-severely limited, then we might transfer also data we don't need
-immediately, if it might spare us another request later on. If latency
-is low and bandwidth is narrow, then it might make more sense to
-transfer only what's needed, but make those requests more often.</p>
-<p>Another way we can sometimes cut down response time, when bandwidth is
-not the limiting factor, is to multiplex connections, which is a bit
-fancy way of saying to simultaneously open multiple connections from
-client to server. It's nice to keep in mind that some browsers like
-Internet Explorer will limit number of simultaneous connections for HTTP
-protocol to 4 (as specified by its standard), but you are more free to
-do what you want, if you write your own program. It's also nice to keep
-in mind that if order in which responses are coming is important, you'll
-have to handle that yourself.</p>
-<p>A different approach is to simulate multiplex connections over one
-connection. In this case client sends multiple commands inside of one
-network request and receives answers to all of them at once. It's easier
-to handle order, since you get all data at the same time, but you give
-up possibly faster response for some of the data.</p>
-<p>There are other factors that can influence our decisions, such as
-possibly increased load on server from more requests. Or the speed with
-which we can generate a request and process reply, if we need to pack
-and unpack more data. But this are issues worth exploring in some other
-post, if interest justifies it.</p>
+                <p><html>
+ <body>
+  <div>
+   <p>
+    This is the second post on this subject. You can find the first part
+    <a href="latency-bandwidth-and-speed-of-applications-part-i.html" title="First par of this article">
+     here
+    </a>
+    .
+   </p>
+   <p>
+    So, how do latency and bandwidth relate to the speed of execution?
+   </p>
+   <p>
+    As mentioned, latency is time needed for any amount of information to travel a certain distance and bandwidth is the amount of data that can flow through it at the same time.
+   </p>
+   <p>
+    Let me give you a real-life example. If you imagine people walking down the corridor, then latency is amount of time one person needs to walk from start to its end and bandwidth is number of people who can do this at the same time.
+   </p>
+   <p>
+    You can measure latency quite easily with ping, a tool available on every major OS, which will give you a round-trip time from client to server (2+5 from our original 7 intervals). The only problem is that it will tell you just your personal latency at that time, which can vary significantly for people on different networks and even for you at different times. There are similar tools for measuring bandwidth and they have more or less the same problems.
+   </p>
+   <p>
+    However, sometimes you can tell a bit about what you can expect. For example, if you’re building an application aimed at mobile users using GPRS, then it’s quite reasonable to assume that bandwidth will be scarce and latency will be high. On local networks it’s usually the opposite of that.
+   </p>
+   <p>
+    In general, latency rises with distance between server and client and bandwidth can’t be wider than the narrowest bandwidth on the way and the question is how do we react to our situation?
+   </p>
+   <p>
+    Basic rules are:
+   </p>
+   <ul>
+    <li>
+     if latency is high, then we should make as few round-trips to server as possible
+    </li>
+    <li>
+     if bandwidth is wide, then we can transfer more data at each trip
+    </li>
+   </ul>
+   <p>
+    In practice we should always try for the most balanced approach between this two factors. If latency is fairly high, but bandwidth is not severely limited, then we might transfer also data we don’t need immediately, if it might spare us another request later on. If latency is low and bandwidth is narrow, then it might make more sense to transfer only what’s needed, but make those requests more often.
+   </p>
+   <p>
+    Another way we can sometimes cut down response time, when bandwidth is not the limiting factor, is to multiplex connections, which is a bit fancy way of saying to simultaneously open multiple connections from client to server. It’s nice to keep in mind that some browsers like Internet Explorer will limit number of simultaneous connections for HTTP protocol to 4 (as specified by its standard), but you are more free to do what you want, if you write your own program. It’s also nice to keep in mind that if order in which responses are coming is important, you’ll have to handle that yourself.
+   </p>
+   <p>
+    A different approach is to simulate multiplex connections over one connection. In this case client sends multiple commands inside of one network request and receives answers to all of them at once. It’s easier to handle order, since you get all data at the same time, but you give up possibly faster response for some of the data.
+   </p>
+   <p>
+    There are other factors that can influence our decisions, such as possibly increased load on server from more requests. Or the speed with which we can generate a request and process reply, if we need to pack and unpack more data. But this are issues worth exploring in some other post, if interest justifies it.
+   </p>
+  </div>
+ </body>
+</html></p>
             </div><!-- /.entry-content -->
 
             <footer class="post-metadata">

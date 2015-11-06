@@ -36,25 +36,24 @@
             <h1 class="entry-title storytitle"><a href="/outage.html" rel="bookmark" title="Permalink to Outage">Outage</a></h1>
 
             <div class="entry-content post-text">
-                <p>This blog and other content of less dubious nature were inaccessible in
-last three days. A freak, previously unseen and therefore unforeseen
-scenario happened where two disks forming RAID-1, which haven't shown a
-single sign of a problem, suddenly died simultaneously. As has been
-noted, a million to one chance scenarios crop up 9 times out of 10, so
-firm steps have been taken to prevent something like this from occurring
-ever again.</p>
-<p>I've also rediscovered how I detest system administration and I'm happy
-to have competent friends to absolve me from it. I used to earn a part
-of my salary doing such work, which reminds me a lot of the war.
-Prolonged periods of preparations and shear boredom are pierced with
-short episodes full of adrenaline and occasionally terror of a fuck-up.</p>
-<p>Another lesson form another unexpected discovery. I missed my blog as
-much as I did my email. A sad discovery indeed, showing I don't prefer
-listening over talking as much as I should. However, there's a silver
-lining in knowing that I haven't longed for either too much.</p>
-<p>So, this is it. Everything should be back to normal, but if you find a
-dead link or something not working quite as it should, I'd appreciate a
-line or two describing the problem.</p>
+                <p><html>
+ <body>
+  <div>
+   <p>
+    This blog and other content of less dubious nature were inaccessible in last three days. A freak, previously unseen and therefore unforeseen scenario happened where two disks forming RAID-1, which haven’t shown a single sign of a problem, suddenly died simultaneously. As has been noted, a million to one chance scenarios crop up 9 times out of 10, so firm steps have been taken to prevent something like this from occurring ever again.
+   </p>
+   <p>
+    I’ve also rediscovered how I detest system administration and I’m happy to have competent friends to absolve me from it. I used to earn a part of my salary doing such work, which reminds me a lot of the war. Prolonged periods of preparations and shear boredom are pierced with short episodes full of adrenaline and occasionally terror of a fuck-up.
+   </p>
+   <p>
+    Another lesson form another unexpected discovery. I missed my blog as much as I did my email. A sad discovery indeed, showing I don’t prefer listening over talking as much as I should. However, there’s a silver lining in knowing that I haven’t longed for either too much.
+   </p>
+   <p>
+    So, this is it. Everything should be back to normal, but if you find a dead link or something not working quite as it should, I’d appreciate a line or two describing the problem.
+   </p>
+  </div>
+ </body>
+</html></p>
             </div><!-- /.entry-content -->
 
             <footer class="post-metadata">
@@ -68,20 +67,44 @@ line or two describing the problem.</p>
             <h1 class="entry-title storytitle"><a href="/sgmllibpy-parser-woes.html" rel="bookmark" title="Permalink to sgmllib.py parser woes">sgmllib.py parser woes</a></h1>
 
             <div class="entry-content post-text">
-                <p>Does anybody have problems with sgmllib.py?</p>
-<p>After I spent way too much time hunting a bug in my code, I gave up,
-read the <em>goahead</em> function in <em>sgmllib.py</em> and I'm certain now that its
-parser is broken.</p>
-<p>Let's say you're handling a web page with inline Javascript code which
-also includes HTML tags. Even if you use a <em>setliteral</em> method to skip
-processing data inside <em>\&lt;script></em> tags, <em>sgmllib.py</em> will start doing
-so when it encounters first \&lt;/. It interprets this as a start of an end
-tag and tries to close it. Even though code handles cases of known and
-unknown tags, it fails to do the right thing because it simply doesn't
-expect a scenario where this isn't a tag at all.</p>
-<p>The other possibility is that I'm simply a dolt who should do stuff like
-this only when rested. By the way, where's the proper place to make an
-ass out of myself complaining about standard library?</p>
+                <p><html>
+ <body>
+  <div>
+   <p>
+    Does anybody have problems with sgmllib.py?
+   </p>
+   <p>
+    After I spent way too much time hunting a bug in my code, I gave up, read the
+    <em>
+     goahead
+    </em>
+    function in
+    <em>
+     sgmllib.py
+    </em>
+    and I’m certain now that its parser is broken.
+   </p>
+   <p>
+    Let’s say you’re handling a web page with inline Javascript code which also includes HTML tags. Even if you use a
+    <em>
+     setliteral
+    </em>
+    method to skip processing data inside
+    <em>
+     &lt;script&gt;
+    </em>
+    tags,
+    <em>
+     sgmllib.py
+    </em>
+    will start doing so when it encounters first &lt;/. It interprets this as a start of an end tag and tries  to close it. Even though code handles cases of known and unknown tags, it fails to do the right thing because it simply doesn’t expect a scenario where this isn’t a tag at all.
+   </p>
+   <p>
+    The other possibility is that I’m simply a dolt who should do stuff like this only when rested. By the way, where’s the proper place to make an ass out of myself complaining about standard library?
+   </p>
+  </div>
+ </body>
+</html></p>
             </div><!-- /.entry-content -->
 
             <footer class="post-metadata">
@@ -95,18 +118,25 @@ ass out of myself complaining about standard library?</p>
             <h1 class="entry-title storytitle"><a href="/single-post-trackback-spam.html" rel="bookmark" title="Permalink to Single post trackback spam">Single post trackback spam</a></h1>
 
             <div class="entry-content post-text">
-                <p>I'm a coeditor of another blog and like most blogs we have some problems
-with comment spam (if you're using WordPress, you really ought to give
-<a href="http://akismet.com/" title="Spam prevention for WordPress">akismet</a> a go). In
-general I don't mind it too much and take it as a price of
-self-expression.</p>
-<p>But we get spam that drives me nuts, because it's something that could
-be permanently fixed. You see, ALL of our trackback spam is directed to
-the same blog post. So, if I could turn trackback off only on that post,
-it would cut our spam to more than a half and leave my nerves intact.</p>
-<p>I don't think it's doable with default installation of WordPress 1.5,
-but if any of you is using a plugin that support this functionality, I'd
-appreciate it greatly if you could let me know.</p>
+                <p><html>
+ <body>
+  <div>
+   <p>
+    I’m a coeditor of another blog and like most blogs we have some problems with comment spam (if you’re using WordPress, you really ought to give
+    <a href="http://akismet.com/" title="Spam prevention for WordPress">
+     akismet
+    </a>
+    a go). In general I don’t mind it too much and take it as a price of self-expression.
+   </p>
+   <p>
+    But we get spam that drives me nuts, because it’s something that could be permanently fixed. You see, ALL of our trackback spam is directed to the same blog post. So, if I could turn trackback off only on that post, it would cut our spam to more than a half and leave my nerves intact.
+   </p>
+   <p>
+    I don’t think it’s doable with default installation of WordPress 1.5, but if any of you is using a plugin that support this functionality, I’d appreciate it greatly if you could let me know.
+   </p>
+  </div>
+ </body>
+</html></p>
             </div><!-- /.entry-content -->
 
             <footer class="post-metadata">

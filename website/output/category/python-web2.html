@@ -13,6 +13,7 @@
 
         <link href="/articles/feeds/atom.xml" type="application/atom+xml" rel="alternate" title="A notch above a monkey Full Atom Feed" />
         <link href="/articles/feeds/rss.xml" type="application/rss+xml" rel="alternate" title="A notch above a monkey Full RSS Feed" />
+        <link href="/articles/feeds/python-web.atom.xml" type="application/atom+xml" rel="alternate" title="A notch above a monkey Categories Atom Feed" />
 </head>
 
 <body>
@@ -36,50 +37,73 @@
             <h1 class="entry-title storytitle"><a href="/speed-test-of-pyrss2gen-kid-and-atomixlib.html" rel="bookmark" title="Permalink to Speed test of PyRSS2Gen, kid and atomixlib">Speed test of PyRSS2Gen, kid and atomixlib</a></h1>
 
             <div class="entry-content post-text">
-                <p>I've spent this evening building RSS2 and Atom feeds with
-<a href="http://www.dalkescientific.com/Python/PyRSS2Gen.html">PyRSS2Gen</a>,
-<a href="http://kid.lesscode.org/index.html">kid</a> and
-<a href="http://www.defuze.org/oss/atomixlib/">atomixlib</a>, as
-<a href="http://markos.gaivo.net/blog/?p=55">proposed</a> by helpful people few
-days ago.</p>
-<p>We'd like to add feeds promiscuously to our service (right now we have
-exactly one). But before we can decide how to tackle this, we need to
-know how fast we can generate a feed on average.</p>
-<p><strong>DISCLAIMER: I tried to generate feeds with same data using what seemed
-a reasonable python code to do so, but I didn't try to save every
-millisecond as I only cared about crude speed approximations. I have no
-problem believing that someone else might get completely different
-results. No serious statistical analysis has been made and rigorous
-scientific approach has been almost completely absent. Better make your
-own tests, if speed (or anything else really) is important to you. But
-if dubious numbers delight you, then please continue.</strong></p>
-<p>So, here are my results. Time to generate a feed with 10 entries on 1GHz
-G4 Powerbook:</p>
-<ul>
-<li>with PyRSS2Gen somewhere around 70ms</li>
-<li>with atomixlib around 120-140ms</li>
-<li>and with kid around 30-35ms</li>
-</ul>
-<p>In other words, you can generate between 8 and 30 feeds per second on my
-notebook and (I guess) 2-3x as many on a modern server. This is more
-than enough for most cases, but I'm afraid it probably won't be enough
-for us. Which means either producing feeds by gluing strings together or
-having a more intelligent approach than building a new one on every
-request.</p>
-<p>As a side note, I found all three packages easy to work with.<br />
-<em><br />
-Update: Sylvain has released atomixlib 0.3 which makes it even easier
-to create atom feeds and brings also significant speed improvements. On
-my computer it takes now around 60-65ms to build a feed.</p>
-<p>Another update: I made a couple of quick tests with mixed results on
-fairly new Opteron server. PyRSS2Gen was actually slower with 80-85ms
-and I have no idea why. kid was blazing fast with times between 8 and
-9ms. Definitely good enough.</p>
-<p>But I couldn't get atomixlib to work, because 4Suite failed to build, so
-it will have to wait until I can figure out why it chokes on a perfectly
-legitimate XSLT.</p>
-<p>Update 3: 4Suite has been promptly fixed (thanks!) and atomixlib 0.3
-takes now 18-19ms. I believe this is an excellent time.</em></p>
+                <p><html>
+ <body>
+  <div>
+   <p>
+    I’ve spent this evening building RSS2 and Atom feeds with
+    <a href="http://www.dalkescientific.com/Python/PyRSS2Gen.html">
+     PyRSS2Gen
+    </a>
+    ,
+    <a href="http://kid.lesscode.org/index.html">
+     kid
+    </a>
+    and
+    <a href="http://www.defuze.org/oss/atomixlib/">
+     atomixlib
+    </a>
+    , as
+    <a href="searching-for-atom-feed-generator.html">
+     proposed
+    </a>
+    by helpful people few days ago.
+   </p>
+   <p>
+    We’d like to add feeds promiscuously to our service (right now we have exactly one). But before we can decide how to tackle this, we need to know how fast we can generate a feed on average.
+   </p>
+   <p>
+    <strong>
+     DISCLAIMER: I tried to generate feeds with same data using what seemed a reasonable python code to do so, but I didn’t try to save every millisecond as I only cared about crude speed approximations. I have no problem believing that someone else might get completely different results. No serious statistical analysis has been made and rigorous scientific approach has been almost completely absent. Better make your own tests, if speed (or anything else really) is important to you. But if dubious numbers delight you, then please continue.
+    </strong>
+   </p>
+   <p>
+    So, here are my results. Time to generate a feed with 10 entries on 1GHz G4 Powerbook:
+   </p>
+   <ul>
+    <li>
+     with PyRSS2Gen somewhere around 70ms
+    </li>
+    <li>
+     with atomixlib around 120-140ms
+    </li>
+    <li>
+     and with kid around 30-35ms
+    </li>
+   </ul>
+   <p>
+    In other words, you can generate between 8 and 30 feeds per second on my notebook and (I guess) 2-3x as many on a modern server. This is more than enough for most cases, but I’m afraid it probably won’t be enough for us. Which means either producing feeds by gluing strings together or having a more intelligent approach than building a new one on every request.
+   </p>
+   <p>
+    As a side note, I found all three packages easy to work with.
+    <br/>
+    <em>
+     <br/>
+     Update: Sylvain has released atomixlib 0.3 which makes it even easier to create atom feeds and brings also significant speed improvements. On my computer it takes now around 60-65ms to build a feed.
+    </em>
+   </p>
+   <p>
+    Another update: I made a couple of quick tests with mixed results on fairly new Opteron server. PyRSS2Gen was actually slower with 80-85ms and I have no idea why. kid was blazing fast with times between 8 and 9ms.  Definitely good enough.
+   </p>
+   <p>
+    But I couldn’t get atomixlib to work, because 4Suite failed to build, so it will have to wait until I can figure out why it chokes on a perfectly legitimate XSLT.
+   </p>
+   <p>
+    Update 3: 4Suite has been promptly fixed (thanks!) and atomixlib 0.3 takes now 18-19ms. I believe this is an excellent time.
+   </p>
+  </div>
+ </body>
+</html></p>
             </div><!-- /.entry-content -->
 
             <footer class="post-metadata">
@@ -93,18 +117,25 @@ takes now 18-19ms. I believe this is an excellent time.</em></p>
             <h1 class="entry-title storytitle"><a href="/searching-for-atom-feed-generator.html" rel="bookmark" title="Permalink to Searching for an Atom feed generator">Searching for an Atom feed generator</a></h1>
 
             <div class="entry-content post-text">
-                <p>I'm still mostly offline, but luckily UMTS offers a sort of solution. It
-works alright, but it is fairly expensive and I'm counting my bytes
-again. Still better than helplessly and hopelessly waiting for local
-telecom to fix ADSL, which judging by previous experience may happen who
-knows when.</p>
-<p>I've been looking for an Atom feed generator and I can't find anything
-more than a few exploratory hacks. Is there something out there that
-would at least resemble
-<a href="http://www.dalkescientific.com/Python/PyRSS2Gen.html" title="Link to PyRSS2Gen's homepage">PyRSS2Gen</a>?</p>
-<p>What I'd like is something that returns a proper Atom 1.0 feed and
-doesn't choke on non-ascii using languages. I'm sure I'm missing
-something. Any help would be greatly appreciated.</p>
+                <p><html>
+ <body>
+  <div>
+   <p>
+    I’m still mostly offline, but luckily UMTS offers a sort of solution. It works alright, but it is fairly expensive and I’m counting my bytes again. Still better than helplessly and hopelessly waiting for local telecom to fix ADSL, which judging by previous experience may happen who knows when.
+   </p>
+   <p>
+    I’ve been looking for an Atom feed generator and I can’t find anything more than a few exploratory hacks. Is there something out there that would at least resemble
+    <a href="http://www.dalkescientific.com/Python/PyRSS2Gen.html" title="Link to PyRSS2Gen's homepage">
+     PyRSS2Gen
+    </a>
+    ?
+   </p>
+   <p>
+    What I’d like is something that returns a proper Atom 1.0 feed and doesn’t choke on non-ascii using languages. I’m sure I’m missing something. Any help would be greatly appreciated.
+   </p>
+  </div>
+ </body>
+</html></p>
             </div><!-- /.entry-content -->
 
             <footer class="post-metadata">
@@ -118,31 +149,62 @@ something. Any help would be greatly appreciated.</p>
             <h1 class="entry-title storytitle"><a href="/beautiful-soup-is-beautiful-again.html" rel="bookmark" title="Permalink to Beautiful Soup is beautiful again">Beautiful Soup is beautiful again</a></h1>
 
             <div class="entry-content post-text">
-                <p>This is probably the last part in series of post dealing with Beautiful
-Soup. At least for a while. Good news is, I found the bug that caused
-observed weird behavior and it was partly self-inflicted.</p>
-<p>My problem appeared, because I was using variables that resembled html
-tags (e.g. imgs, ul...) and didn't put space after \&lt; in statements as
-good practice dictates. So I had statements like:<br />
-<code>if (i&lt;imgs.length)</code></p>
-<p>Beautiful Soup relies on <em>sgmllib.py</em> for processing of documents and
-it's sgmllib that causes havoc by processing CDATA (found in script and
-style blocks), when it shouldn't. But the problem is not really with
-sgmllib, which has a literal switch to turn processing off. It's just
-that Beautiful Soup doesn't use it.</p>
-<p>So fix is really adding one line<br />
-<code>self.literal = 1</code><br />
-after <em>if</em> statement on line 835. Or <a href="http://markos.gaivo.net/blog/code/BeautifulSoup.py" title="Link to fixed version">downloading fixed
-version</a>.</p>
-<p>Reading source I also realized another potential pitfall. If you use
-javascript to inject javascript with document.write method, you'll
-probably confuse sgmllib (and hence Beautiful Soup). When processing
-CDATA, it doesn't try to understand it, it just copies data until it
-finds an endtag (\&lt;/script> in javascript's case). But if you're doing
-that, you have yourself to blame.</p>
-<p><em>BeautifulSoup 2.1.1 is
-<a href="http://www.crummy.com/software/BeautifulSoup/index.html">out</a>, which
-fixes my bug and several others. So you better fetch that version.</em></p>
+                <p><html>
+ <body>
+  <div>
+   <p>
+    This is probably the last part in series of post dealing with Beautiful Soup. At least for a while. Good news is, I found the bug that caused observed weird behavior and it was partly self-inflicted.
+   </p>
+   <p>
+    My problem appeared, because I was using variables that resembled html tags (e.g. imgs, ul…) and didn’t put space after &lt; in statements as good practice dictates. So I  had statements like:
+    <br/>
+    <code>
+     <br/>
+     if (i&lt;imgs.length)
+     <br/>
+    </code>
+   </p>
+   <p>
+    Beautiful Soup relies on
+    <em>
+     sgmllib.py
+    </em>
+    for processing of documents and it’s sgmllib that causes havoc by processing CDATA (found in script and style blocks), when it shouldn’t. But the problem is not really with sgmllib, which has a literal switch to turn processing off. It’s just that Beautiful Soup doesn’t use it.
+   </p>
+   <p>
+    So fix is really adding one line
+    <br/>
+    <code>
+     <br/>
+     self.literal = 1
+     <br/>
+    </code>
+    <br/>
+    after
+    <em>
+     if
+    </em>
+    statement on line 835. Or
+    <a href="http://markos.gaivo.net/blog/code/BeautifulSoup.py" title="Link to fixed version">
+     downloading fixed version
+    </a>
+    .
+   </p>
+   <p>
+    Reading source I also realized another potential pitfall. If you use javascript to inject javascript with document.write method, you’ll probably confuse sgmllib (and hence Beautiful Soup). When processing CDATA, it doesn’t try to understand it, it just copies data until it finds an endtag (&lt;/script&gt; in javascript’s case). But if you’re doing that, you have yourself to blame.
+   </p>
+   <p>
+    <em>
+     BeautifulSoup 2.1.1 is
+     <a href="http://www.crummy.com/software/BeautifulSoup/index.html">
+      out
+     </a>
+     , which fixes my bug and several others. So you better fetch that version.
+    </em>
+   </p>
+  </div>
+ </body>
+</html></p>
             </div><!-- /.entry-content -->
 
             <footer class="post-metadata">

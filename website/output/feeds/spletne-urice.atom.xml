@@ -1,0 +1,222 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom"><title>A notch above a monkey</title><link href="/" rel="alternate"></link><link href="/articles/feeds/spletne-urice.atom.xml" rel="self"></link><id>/</id><updated>2011-10-05T12:30:00+02:00</updated><entry><title>6th anniversary of wwwh</title><link href="/6th-anniversary-of-wwwh.html" rel="alternate"></link><updated>2011-10-05T12:30:00+02:00</updated><author><name>markos</name></author><id>tag:,2011-10-05:6th-anniversary-of-wwwh.html</id><summary type="html">&lt;p&gt;&lt;html&gt;
+ &lt;body&gt;
+  &lt;div&gt;
+   &lt;p&gt;
+    &lt;a href="http://wwwh.si" title="Events homepage"&gt;
+     Web Hours
+    &lt;/a&gt;
+    (spletne urice) is a series of web related talks that is happening weekly here in Ljubljana and is free for everyone.
+    &lt;a href="http://wwwh.si/spletne-urice-181-upravljanje-z-dobrim-imenom/" title="Talk topic: reputation management"&gt;
+     Today’s talk
+    &lt;/a&gt;
+    , happening on sixth anniversary of
+    &lt;a href="http://wwwh.si/spletne-urice-1-php-v-oasu-terorizma/" title="Topic: PHP in time of terrorism"&gt;
+     the first
+    &lt;/a&gt;
+    , will be 181th. A lot of people shared a lot of knowledge and our community has grown from a handful coming to first few talks to few tens of regular attendees. We never made a really serious effort at counting, but I would be surprised if few talks haven’t drawn close to a hundred people. My congratulations and thanks to all who made it happen!
+   &lt;/p&gt;
+   &lt;p&gt;
+    I started Web Hours on
+    &lt;a href="http://twitter.com/andraz" title="Andraž's twitter page"&gt;
+     Andraž’s
+    &lt;/a&gt;
+    suggestion because I was not happy with  the quality of work done in Slovenia and I thought regular web talks could educate and help raise awareness. Looking back at the state of industry then and where we are now, it is obvious we came a long way and I’d like to think our talks played a part in it. I may be biased, but not that much because I stopped organizing them a long time ago so kudos really goes to
+    &lt;a href="http://friedcell.net/home" title="Marko Mrdjenovič - Fry"&gt;
+     those who
+    &lt;/a&gt;
+    &lt;a href="http://twitter.com/DavorinPavlica" title="Davorin Pavlica"&gt;
+     followed me
+    &lt;/a&gt;
+    .
+   &lt;/p&gt;
+   &lt;p&gt;
+    It is still easy to find
+    &lt;a href="http://www.zrkv.si/" title="Look at page source if you dare"&gt;
+     shoddy work
+    &lt;/a&gt;
+    , but this will never change. You can find it in any field and there is no reason why web should be any different. There is always room for growth, but I am fairly satisfied with Slovenian web development community. These days there is no shortage of interesting events (meetups, hackdays, camps of various kinds) where you can meet kindred spirits, many of whom are doing interesting stuff. I wish there was more open web evangelism, but talks always were what we made them and it’s up to us open web advocates to go out there more often.
+   &lt;/p&gt;
+   &lt;p&gt;
+    On the other hand Slovenian UX community depresses me. It seems to be full of people with big egos, very limited knowledge and low self-esteem resulting in an environment where constructive criticism is avoided and learning remains personal and, as community, slow. There are exceptions to this, but right now it seems it is enough to read a couple of books and follow a few related blogs to justify a UX related title on your business card and profess expertise. Critical assessment of problems and approaches is largely missing. There is a difference between cutting corners and skipping all steps — being agile is not a justification for being lazy. Events are rare and online discussions feel limited to regurgitating blog opinions as facts and discussing eternal, but mostly answered questions (e.g. how much of underlying technology do non-developers need to know?).
+   &lt;/p&gt;
+   &lt;p&gt;
+    Then again I may be just an old grump. My feelings about UX community are not all that different to what I felt about web development community six years ago and that one turned out OK. Maybe I
+    &lt;em&gt;
+     am
+    &lt;/em&gt;
+    just too quick to judge and things will turn out just fine soon enough. We’ll see. See you tonight in
+    &lt;a href="http://www.kiberpipa.org/"&gt;
+     Kiberpipa
+    &lt;/a&gt;
+    .
+   &lt;/p&gt;
+  &lt;/div&gt;
+ &lt;/body&gt;
+&lt;/html&gt;&lt;/p&gt;</summary></entry><entry><title>AJAX Workshop: End of Act I</title><link href="/ajax-workshop-end-of-act-i.html" rel="alternate"></link><updated>2006-04-27T11:06:00+02:00</updated><author><name>markos</name></author><id>tag:,2006-04-27:ajax-workshop-end-of-act-i.html</id><summary type="html">&lt;p&gt;&lt;html&gt;
+ &lt;body&gt;
+  &lt;div&gt;
+   &lt;p&gt;
+    First part of AJAX workshop is behind me and I enjoyed it immensely. I hope our participants did as well or failing that, I hope we didn’t waste their time too much.
+   &lt;/p&gt;
+   &lt;p&gt;
+    Looking back I’m not satisfied with everything we did and I wish I’ve done my part better. I’m sure I wasn’t clear or coherent enough. Fry did much better, but I feel we could do better with examples.
+   &lt;/p&gt;
+   &lt;p&gt;
+    If we ever repeat this workshop, and we both would love to, we’ll have to make it longer, since there simply wasn’t enough time to talk about the details and quirks that can and usually do waste majority of your time.
+   &lt;/p&gt;
+   &lt;p&gt;
+    If you were there yesterday, then please drop me a line or two about your experience. I’d also love to hear what you want from second part of the workshop, since it’s not too late to change it to suit you better.
+   &lt;/p&gt;
+  &lt;/div&gt;
+ &lt;/body&gt;
+&lt;/html&gt;&lt;/p&gt;</summary></entry><entry><title>The day after</title><link href="/the-day-after.html" rel="alternate"></link><updated>2006-03-09T12:28:00+01:00</updated><author><name>markos</name></author><id>tag:,2006-03-09:the-day-after.html</id><summary type="html">&lt;p&gt;&lt;html&gt;
+ &lt;body&gt;
+  &lt;div&gt;
+   &lt;p&gt;
+    Yesterday I gave my very first talk in English. Broken English, to be sure, but hopefully good enough to be understood. I’m grateful to everyone who came and I hope you didn’t feel like your time was wasted.
+   &lt;/p&gt;
+   &lt;p&gt;
+    In any case, if you can spare a moment or two, I’d love to hear your honest thoughts about it.
+   &lt;/p&gt;
+  &lt;/div&gt;
+ &lt;/body&gt;
+&lt;/html&gt;&lt;/p&gt;</summary></entry><entry><title>web.zen.si</title><link href="/webzensi.html" rel="alternate"></link><updated>2005-10-27T13:40:00+02:00</updated><author><name>markos</name></author><id>tag:,2005-10-27:webzensi.html</id><summary type="html">&lt;p&gt;&lt;html&gt;
+ &lt;body&gt;
+  &lt;div&gt;
+   &lt;p&gt;
+    Spletne urice now have a
+    &lt;a href="http://web.zen.si"&gt;
+     home
+    &lt;/a&gt;
+    . I probably won’t announce new talks here anymore, because frankly, there’s probably little point in doing so.
+   &lt;/p&gt;
+   &lt;p&gt;
+    There you’ll also be able to find slides of previous presentations, detailed future schedule and hopefully in time, a more lively debate than you had here.
+   &lt;/p&gt;
+  &lt;/div&gt;
+ &lt;/body&gt;
+&lt;/html&gt;&lt;/p&gt;</summary></entry><entry><title>Another Monday, another local announcement</title><link href="/another-monday-another-local-announcement.html" rel="alternate"></link><updated>2005-10-24T09:49:00+02:00</updated><author><name>markos</name></author><id>tag:,2005-10-24:another-monday-another-local-announcement.html</id><summary type="html">&lt;p&gt;&lt;html&gt;
+ &lt;body&gt;
+  &lt;div&gt;
+   &lt;p&gt;
+    Spletne urice se bodo v sredo nadaljevale s predavanjem
+    &lt;a href="http://www.jaka.org"&gt;
+     Jake Železnikarja
+    &lt;/a&gt;
+    , ki bo na prakti??nih primerih prikazal izdelavo Firefox orodjarn. Predvanje bo kot vedno ob 19.00 v prostorih
+    &lt;a href="http://www.kiberpipa.org"&gt;
+     Kiberpipe
+    &lt;/a&gt;
+    .
+   &lt;/p&gt;
+   &lt;p&gt;
+    Upam, da se vidimo tam.
+   &lt;/p&gt;
+   &lt;p&gt;
+    P.S: Bliža se 1. november, rok do katerega zbiram prijave za
+    &lt;a href="kje-pa-tebe-oevelj-zuli.html"&gt;
+     “Kje pa tebe ??evelj žuli?”
+    &lt;/a&gt;
+    . Še vedno imamo nekaj prostih terminov, tako da ste toplo vabljeni, da jih zapolnite.
+   &lt;/p&gt;
+  &lt;/div&gt;
+ &lt;/body&gt;
+&lt;/html&gt;&lt;/p&gt;</summary></entry><entry><title>Kje pa tebe ?evelj ?uli?</title><link href="/kje-pa-tebe-oevelj-zuli.html" rel="alternate"></link><updated>2005-10-16T11:27:00+02:00</updated><author><name>markos</name></author><id>tag:,2005-10-16:kje-pa-tebe-oevelj-zuli.html</id><summary type="html">&lt;p&gt;&lt;html&gt;
+ &lt;body&gt;
+  &lt;div&gt;
+   &lt;p&gt;
+    Zaradi praznikov bomo decembra imeli samo tri spletne urice in razmišljal sem, da bi na zadnjem sre??anju, 21. decembra, poskusili nekaj novega.
+   &lt;/p&gt;
+   &lt;p&gt;
+    Cilj uric ni nuditi le zanimiva predavanja, ampak ustvariti prostor, kjer se spletni ustvarjalci lahko sre??amo in družimo. Zato bi leto lahko zaklju??ili s serijo kratkih predavanj pod naslovom “Kje pa tebe ??evelj žuli?” (KPT?Ž).
+   &lt;/p&gt;
+   &lt;p&gt;
+    Potrebni in zadostni pogoji za vklju??itev predavanja:
+   &lt;/p&gt;
+   &lt;ul&gt;
+    &lt;li&gt;
+     tema ima vsaj opazno povezavo s spletom
+    &lt;/li&gt;
+    &lt;li&gt;
+     ne traja dlje kot 10 minut
+    &lt;/li&gt;
+   &lt;/ul&gt;
+   &lt;p&gt;
+    Vse ostalo je prepuš??eno vam.
+   &lt;/p&gt;
+   &lt;p&gt;
+    Vsa mnenja so dobrodošla, še posebej pa predlogi predavanj (prosim navedite pri??akovano dolžino predstavitve). ?e vam ni vše?? naslov, predlagajte novega. Nove predloge za naslov sre??anja zbiram v komentarjih, predloge za predavanja pa lahko pošljete TUDI na
+    &lt;a href="http://markos.gaivo.net" title="Stran z naslovom"&gt;
+     moj elektronski naslov
+    &lt;/a&gt;
+    .
+   &lt;/p&gt;
+   &lt;p&gt;
+    Rok za oddajo idej je 1. november. KPT?Ž bo, ??e bom takrat imel vsaj za 45 minut predstavitev in ne bo o??itnega upora sami ideji. V nasprotnem primeru bomo leto zaklju??ili kot ponavadi; z odli??nim predavateljem in debato, ki ponavadi sledi predavanjem.
+   &lt;/p&gt;
+  &lt;/div&gt;
+ &lt;/body&gt;
+&lt;/html&gt;&lt;/p&gt;</summary></entry><entry><title>Mikroformati</title><link href="/mikroformati.html" rel="alternate"></link><updated>2005-10-10T12:03:00+02:00</updated><author><name>markos</name></author><id>tag:,2005-10-10:mikroformati.html</id><summary type="html">&lt;p&gt;&lt;html&gt;
+ &lt;body&gt;
+  &lt;div&gt;
+   &lt;p&gt;
+    Spletne urice se bodo ta teden nadaljevala s predavanjem o mikroformatih, ki ga bo imel
+    &lt;a href="http://www.friedcellcollective.net/" title="Fry's page"&gt;
+     fry
+    &lt;/a&gt;
+    v sredo, ob 19.00 v Kiberpipi. Na predavanje ste vsi vljudno vabljeni.
+   &lt;/p&gt;
+  &lt;/div&gt;
+ &lt;/body&gt;
+&lt;/html&gt;&lt;/p&gt;</summary></entry><entry><title>Otvoritveno predavanje</title><link href="/otvoritveno-predavanje.html" rel="alternate"></link><updated>2005-10-04T10:21:00+02:00</updated><author><name>markos</name></author><id>tag:,2005-10-04:otvoritveno-predavanje.html</id><summary type="html">&lt;p&gt;&lt;html&gt;
+ &lt;body&gt;
+  &lt;div&gt;
+   &lt;p&gt;
+    Another Slovenian announcement…
+   &lt;/p&gt;
+   &lt;p&gt;
+    Jutri, v sredo 5. oktobra ob 19:00, bo Jure Koren v
+    &lt;a href="http://www.kiberpipa.org"&gt;
+     Kiberpipi
+    &lt;/a&gt;
+    predaval o
+    &lt;a href="http://195.246.11.19/index.php?module=PostCalendar&amp;amp;func=view&amp;amp;Date=20051005&amp;amp;tplview=&amp;amp;viewtype=details&amp;amp;eid=434&amp;amp;print="&gt;
+     varni uporabi jezika PHP
+    &lt;/a&gt;
+    na spletu.
+   &lt;/p&gt;
+   &lt;p&gt;
+    Na predavanje ste vabljeni vsi, ki bi se radi pobližje seznanili s pastmi PHP-ja ali pa si želite spoznati in družiti z drugimi spletnimi ustvarjalci.
+   &lt;/p&gt;
+   &lt;p&gt;
+    Naslednji teden pa nadaljujemo s predavanjem Frya o
+    &lt;a href="http://www.microformats.org/"&gt;
+     mikroformatih
+    &lt;/a&gt;
+    .
+   &lt;/p&gt;
+  &lt;/div&gt;
+ &lt;/body&gt;
+&lt;/html&gt;&lt;/p&gt;</summary></entry><entry><title>Spletne urice v kiberpipi</title><link href="/spletne-urice-v-kiberpipi.html" rel="alternate"></link><updated>2005-09-27T09:59:00+02:00</updated><author><name>markos</name></author><id>tag:,2005-09-27:spletne-urice-v-kiberpipi.html</id><summary type="html">&lt;p&gt;&lt;html&gt;
+ &lt;body&gt;
+  &lt;div&gt;
+   &lt;p&gt;
+    I apologize in advance to anyone reading this who can’t understand Slovene, but the next announcement is of very local nature and probably of interest only to Slovene speaking people actually living in Slovenia.
+   &lt;/p&gt;
+   &lt;p&gt;
+    Z oktobrom se ponovno odpirajo vrata
+    &lt;a href="www.kiberpipa.org"&gt;
+     Kiberpipe
+    &lt;/a&gt;
+    in jesen prinaša novost. Spletne urice, serija rednih tedenskih predavanj o spletu in spletnih tehnologijah namenjenih predvsem izkušenim razvijalcem, oblikovalcem in skrbnikom, ki bi radi poglobili svoje znanje, predstavili svoje izkušnje ali pa se preprosto sre??ali in pogovorili z drugimi spletnimi sotrpini.
+   &lt;/p&gt;
+   &lt;p&gt;
+    V sredo, 5. oktobra, ob 19.00 bo na sporedu prvo predavanje. Jure Koren bo v predavanju z naslovom PHP v ??asu terorizma predstavil prijeme, s katerimi se izognemo temu, da bi naša PHP aplikacija bila vstopna to??ka za internetne vlomilce.
+   &lt;/p&gt;
+   &lt;p&gt;
+    Upam, da nas bo tam ??im ve??.
+   &lt;/p&gt;
+  &lt;/div&gt;
+ &lt;/body&gt;
+&lt;/html&gt;&lt;/p&gt;</summary></entry></feed>

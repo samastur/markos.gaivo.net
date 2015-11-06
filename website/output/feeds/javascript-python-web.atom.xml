@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom"><title>A notch above a monkey</title><link href="/" rel="alternate"></link><link href="/articles/feeds/javascript-python-web.atom.xml" rel="self"></link><id>/</id><updated>2006-05-04T10:31:00+02:00</updated><entry><title>MochiKit</title><link href="/mochikit.html" rel="alternate"></link><updated>2006-05-04T10:31:00+02:00</updated><author><name>markos</name></author><id>tag:,2006-05-04:mochikit.html</id><summary type="html">&lt;p&gt;&lt;html&gt;
+ &lt;body&gt;
+  &lt;div&gt;
+   &lt;p&gt;
+    Sometimes I’m really glad my brains don’t let my mouth shoot off as quickly as it would like.
+   &lt;/p&gt;
+   &lt;p&gt;
+    I was checking latest versions of
+    &lt;a href="http://prototype.conio.net/"&gt;
+     Prototype
+    &lt;/a&gt;
+    ,
+    &lt;a href="http://www.dojotoolkit.org/"&gt;
+     Dojo
+    &lt;/a&gt;
+    and
+    &lt;a href="http://www.mochikit.com/"&gt;
+     MochiKit
+    &lt;/a&gt;
+    a couple of days ago and while I liked the first two, I had a much lower opinion of the third. In fact, I couldn’t understand why
+    &lt;a href="http://www.turbogears.org/"&gt;
+     Turbogears
+    &lt;/a&gt;
+    has chosen MochiKit as its AJAX library and was about to write a post questioning just that.
+   &lt;/p&gt;
+   &lt;p&gt;
+    I’m glad I didn’t. MochiKit still wouldn’t be my choice and probably won’t be when I’ll start using existing libraries instead of mine, but that doesn’t make it a bad choice. A lot of thought and effort has been put into its implementation and it shows.
+   &lt;/p&gt;
+   &lt;p&gt;
+    There are obviously things I dislike about it and the major one being the way it loads dependencies. I despise document.write and I disagree with argument made in comments (Safari’s use of defer on generated scripts). But I guess this is something reasonable minds can disagree on.
+   &lt;/p&gt;
+  &lt;/div&gt;
+ &lt;/body&gt;
+&lt;/html&gt;&lt;/p&gt;</summary></entry><entry><title>Plone and Dojo</title><link href="/plone-and-dojo.html" rel="alternate"></link><updated>2005-12-17T10:32:00+01:00</updated><author><name>markos</name></author><id>tag:,2005-12-17:plone-and-dojo.html</id><summary type="html">&lt;p&gt;&lt;html&gt;
+ &lt;body&gt;
+  &lt;div&gt;
+   &lt;p&gt;
+    I’m not a
+    &lt;a href="http://plone.org"&gt;
+     Plone
+    &lt;/a&gt;
+    user, but I know a few who might need a quality javascript library. Well, they got it.
+    &lt;a href="http://plone.org/products/zpdojo/releases/0.2"&gt;
+     ZPDojo
+    &lt;/a&gt;
+    is out.
+   &lt;/p&gt;
+  &lt;/div&gt;
+ &lt;/body&gt;
+&lt;/html&gt;&lt;/p&gt;</summary></entry></feed>

@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom"><title>A notch above a monkey</title><link href="/" rel="alternate"></link><link href="/articles/feeds/company-javascript-web.atom.xml" rel="self"></link><id>/</id><updated>2006-08-28T21:08:00+02:00</updated><entry><title>Marela widget III</title><link href="/marela-widget-iii.html" rel="alternate"></link><updated>2006-08-28T21:08:00+02:00</updated><author><name>markos</name></author><id>tag:,2006-08-28:marela-widget-iii.html</id><summary type="html">&lt;p&gt;&lt;html&gt;
+ &lt;body&gt;
+  &lt;div&gt;
+   &lt;p&gt;
+    Summer is closing to the end, so is my
+    &lt;a href="marela-widgets-i.html"&gt;
+     offer
+    &lt;/a&gt;
+    and I won’t be posting new widgets for a while. This last one, stemming from obviously borrowed idea, looks like this:
+   &lt;/p&gt;
+   &lt;p&gt;
+    &lt;script src="http://markos.gaivo.net/marela/random16.js?username=markos&amp;amp;tag=moja-izbira&amp;amp;time=3" type="text/javascript"&gt;
+    &lt;/script&gt;
+   &lt;/p&gt;
+   &lt;p&gt;
+    It’s still very small (less than 7K) and still works in all major browsers. It even works (without a problem) in Safari and image selection collision code works too. If you like it, you can add it to your own page with:
+   &lt;/p&gt;
+   &lt;p&gt;
+    &lt;code&gt;
+     &lt;br/&gt;
+     &amp;lt;script type="text/javascript" src="http://markos.gaivo.net/marela/random16.js?username=markos&amp;amp;tag=moja-izbira&amp;amp;time=3"&amp;gt;&amp;lt;/script&amp;gt;
+    &lt;/code&gt;
+   &lt;/p&gt;
+   &lt;p&gt;
+    You should, as previously, replace:
+   &lt;/p&gt;
+   &lt;ul&gt;
+    &lt;li&gt;
+     my username (markos) with yours
+    &lt;/li&gt;
+    &lt;li&gt;
+     select a tag of your chosing
+    &lt;/li&gt;
+    &lt;li&gt;
+     set time lag in seconds between image replacements
+    &lt;/li&gt;
+   &lt;/ul&gt;
+   &lt;p&gt;
+    As always you’re free to copy the script or link to my page to use the latest version.
+   &lt;/p&gt;
+  &lt;/div&gt;
+ &lt;/body&gt;
+&lt;/html&gt;&lt;/p&gt;</summary></entry><entry><title>Marela widgets II</title><link href="/marela-widgets-ii.html" rel="alternate"></link><updated>2006-08-10T12:31:00+02:00</updated><author><name>markos</name></author><id>tag:,2006-08-10:marela-widgets-ii.html</id><summary type="html">&lt;p&gt;&lt;html&gt;
+ &lt;body&gt;
+  &lt;div&gt;
+   &lt;p&gt;
+    Heat is gone, work isn’t, but I still found time to have fun while shamelessly copying other people ideas.
+   &lt;/p&gt;
+   &lt;p&gt;
+    The result:
+    &lt;br/&gt;
+    &lt;script src="http://markos.gaivo.net/marela/doublerandom.js?username=markos&amp;amp;tag=moja-izbira&amp;amp;time=3" type="text/javascript"&gt;
+    &lt;/script&gt;
+   &lt;/p&gt;
+   &lt;p&gt;
+    It’s a simple widget for displaying two randomly chosen pictures with a given tag out of up to a hundred.
+   &lt;/p&gt;
+   &lt;p&gt;
+    The widget was successfully tested in Internet Explorer 6, Firefox 1.0 and Opera 9.0. It only sort of works in Safari, but if this is good enough for you, you can add it to your own page by inserting:
+   &lt;/p&gt;
+   &lt;p&gt;
+    &lt;code&gt;
+     &lt;br/&gt;
+     &amp;lt;script type="text/javascript" src="http://markos.gaivo.net/marela/doublerandom.js?username=markos&amp;amp;tag=moja-izbira&amp;amp;time=2"&amp;gt;&amp;lt;/script&amp;gt;
+    &lt;/code&gt;
+   &lt;/p&gt;
+   &lt;p&gt;
+    You should, however, replace:
+   &lt;/p&gt;
+   &lt;ul&gt;
+    &lt;li&gt;
+     my username (markos) with yours
+    &lt;/li&gt;
+    &lt;li&gt;
+     select a tag of your chosing
+    &lt;/li&gt;
+    &lt;li&gt;
+     set time lag in seconds between image replacements
+    &lt;/li&gt;
+   &lt;/ul&gt;
+   &lt;p&gt;
+    I’m not quite happy with it yet. I’d like to fix Safari support and my code for avoiding two same images is still buggy. If you’d like to use the latest known working version, then use the link to my page. Otherwise you’re free to copy the contents of script’s directory.
+   &lt;/p&gt;
+   &lt;p&gt;
+    And if you’re reading this post on the front page, you’ve might have noticed that there are no problems in using both widgets on the same page.
+   &lt;/p&gt;
+  &lt;/div&gt;
+ &lt;/body&gt;
+&lt;/html&gt;&lt;/p&gt;</summary></entry><entry><title>Marela widgets I</title><link href="/marela-widgets-i.html" rel="alternate"></link><updated>2006-08-03T21:49:00+02:00</updated><author><name>markos</name></author><id>tag:,2006-08-03:marela-widgets-i.html</id><summary type="html">&lt;p&gt;&lt;html&gt;
+ &lt;body&gt;
+  &lt;div&gt;
+   &lt;p&gt;
+    It’s the beginning of August, heat is temporarily gone and I wish it took work with it. But no, it’s still lying there and there’s enough of it that I have some problems deciding what to do first.
+   &lt;/p&gt;
+   &lt;p&gt;
+    So how do you solve a problem like that?
+   &lt;/p&gt;
+   &lt;p&gt;
+    Personally, I goof off by writing something fun (still more useful than reading blogs). For example a simple javascript file based on my
+    &lt;a href="http://markos.gaivo.net/code/marela.html" title="link to Marela Javascript library"&gt;
+     Marela library
+    &lt;/a&gt;
+    that allows me (or you) to insert a single random image from your chosen Marela photostream like this:
+   &lt;/p&gt;
+   &lt;p&gt;
+    &lt;script src="http://markos.gaivo.net/marela/singlerandom.js?username=markos&amp;amp;tag=moja-izbira&amp;amp;size=2" type="text/javascript"&gt;
+    &lt;/script&gt;
+   &lt;/p&gt;
+   &lt;p&gt;
+    If you don’t believe me just reload this page and look at its source.
+   &lt;/p&gt;
+   &lt;p&gt;
+    See? Told you.
+   &lt;/p&gt;
+   &lt;p&gt;
+    If you want to do the same, but don’t want to show my images on your page, just insert
+   &lt;/p&gt;
+   &lt;p&gt;
+    &lt;code&gt;
+     &lt;br/&gt;
+     &amp;lt;script type="text/javascript" src="http://markos.gaivo.net/marela/singlerandom.js?username=markos&amp;amp;tag=moja-izbira&amp;amp;size=2"&amp;gt;&amp;lt;/script&amp;gt;
+     &lt;br/&gt;
+    &lt;/code&gt;
+   &lt;/p&gt;
+   &lt;p&gt;
+    in your page and replace
+    &lt;em&gt;
+     markos
+    &lt;/em&gt;
+    with your Marela username (contact me, if you need an account) and
+    &lt;em&gt;
+     moja-izbira
+    &lt;/em&gt;
+    with your chosen tag. You can specify the size of an image with a number from 1 to 3 (2 being default if attribute is missing).
+   &lt;/p&gt;
+   &lt;p&gt;
+    I’ll write some more widgets like this through August, if I don’t change my mind. Hence the title of this post.
+   &lt;/p&gt;
+   &lt;p&gt;
+    Also I’ll write Javascript for first 5 souls who need it as long as it’s a problem that won’t take too much of my time. This offer expires at the end of this month.
+   &lt;/p&gt;
+  &lt;/div&gt;
+ &lt;/body&gt;
+&lt;/html&gt;&lt;/p&gt;</summary></entry></feed>

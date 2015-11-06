@@ -1,0 +1,583 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom"><title>A notch above a monkey</title><link href="/" rel="alternate"></link><link href="/articles/feeds/javascript-ui-web.atom.xml" rel="self"></link><id>/</id><updated>2008-12-27T18:23:00+01:00</updated><entry><title>Self-referencing page links</title><link href="/self-referencing-page-links.html" rel="alternate"></link><updated>2008-12-27T18:23:00+01:00</updated><author><name>markos</name></author><id>tag:,2008-12-27:self-referencing-page-links.html</id><summary type="html">&lt;p&gt;&lt;html&gt;
+ &lt;body&gt;
+  &lt;div&gt;
+   &lt;p&gt;
+    There’s an HTML pattern that has been bugging me for a while even though I’m guilty of using it too. It’s even present on page you are reading right now.
+   &lt;/p&gt;
+   &lt;p&gt;
+    Almost every page has a navigation bar and chances are that strip is presented as some kind of a list of links. Just as it should be. What bothers me is that when you actually are on page listed in navigation, its navigation item will
+    &lt;a href="http://www.alistapart.com/articles/" title="An example of this pattern"&gt;
+     still contain
+    &lt;/a&gt;
+    a link to it.
+   &lt;/p&gt;
+   &lt;p&gt;
+    This reference to itself is like having a door in a room which leads you back in. Not very useful and certainly misleading.
+   &lt;/p&gt;
+   &lt;p&gt;
+    Better approach is to simply not have a link when that link would point to page itself. Such HTML is also more semantic, since it’s clear which item was selected and where we are even without a style sheet.
+   &lt;/p&gt;
+   &lt;p&gt;
+    When discussing this observation it was pointed out to me that with proliferation of Javascript and AJAX you might want to give your visitors a way to bring a page to a known state by reloading it. I think this is more than adequately solved by reload button that every browser has and most users know, but if you find having a link a better solution, why not try a compromise. Just add the missing link with Javascript in spirit of
+    &lt;a href="http://markos.gaivo.net/examples/html_pattern/link.html"&gt;
+     this demo
+    &lt;/a&gt;
+    .
+   &lt;/p&gt;
+   &lt;p&gt;
+    This way you won’t polute content markup with behavior that should sit on top of it.
+   &lt;/p&gt;
+  &lt;/div&gt;
+ &lt;/body&gt;
+&lt;/html&gt;&lt;/p&gt;</summary></entry><entry><title>Auto-grow TEXTAREA</title><link href="/auto-grow-textarea.html" rel="alternate"></link><updated>2006-07-31T13:58:00+02:00</updated><author><name>markos</name></author><id>tag:,2006-07-31:auto-grow-textarea.html</id><summary type="html">&lt;p&gt;&lt;html&gt;
+ &lt;body&gt;
+  &lt;div&gt;
+   &lt;p&gt;
+    &lt;em&gt;
+     &lt;strong&gt;
+      Update 6.8.2009:
+     &lt;/strong&gt;
+     This post is old and somewhat obsolete, but has been kept alive by commentators. Hence I posted an updated version of the script in comments.
+    &lt;/em&gt;
+   &lt;/p&gt;
+   &lt;p&gt;
+    &lt;a href="http://friedcellcollective.net/outbreak/"&gt;
+     Fry
+    &lt;/a&gt;
+    recently mentioned a TEXTAREA improvement he found. As you type your text in the box, it grows in length as needed to avoid having to deal with scroll bars.
+   &lt;/p&gt;
+   &lt;p&gt;
+    I liked the idea and went to create my own version. Making it work in Internet Explorer and Firefox was literally a matter of seconds. All you really need to do is compare elements
+    &lt;em&gt;
+     clientHeight
+    &lt;/em&gt;
+    with its
+    &lt;em&gt;
+     scrollHeight
+    &lt;/em&gt;
+    on key presses and increment
+    &lt;em&gt;
+     rows
+    &lt;/em&gt;
+    attribute when former is smaller than later.
+   &lt;/p&gt;
+   &lt;p&gt;
+    But supporting Opera and Safari has proven to be an insurmountable task for now. They simply don’t seem to update any property that could reliably be used for measuring the height of the text (but would love to be proven wrong).
+   &lt;/p&gt;
+   &lt;p&gt;
+    You can try a
+    &lt;a href="http://markos.gaivo.net/examples/growtextarea/index.html"&gt;
+     demo
+    &lt;/a&gt;
+    , which also doubles as a test environment for reading interesting attributes on the fly (updates are done with mouse over input box).
+   &lt;/p&gt;
+   &lt;p&gt;
+    Random bits of observation:
+   &lt;/p&gt;
+   &lt;ul&gt;
+    &lt;li&gt;
+     &lt;em&gt;
+      scrollHeight
+     &lt;/em&gt;
+     is always bigger than
+     &lt;em&gt;
+      clientHeight
+     &lt;/em&gt;
+     in Opera. Hence the need to ignore it using its unique fingerprint.
+    &lt;/li&gt;
+    &lt;li&gt;
+     I didn’t try to work out the length of the text by trying to count the number of lines (using
+     &lt;em&gt;
+      \n
+     &lt;/em&gt;
+     ) and the length of each of them. Proportional fonts prevent any such reasonable guess.
+    &lt;/li&gt;
+    &lt;li&gt;
+     I didn’t try to limit the growth of the box to the boundaries of the screen. I find page scroll bars the least annoying when scroll bars can’t be avoided. It’s a personal choice though.
+    &lt;/li&gt;
+   &lt;/ul&gt;
+  &lt;/div&gt;
+ &lt;/body&gt;
+&lt;/html&gt;&lt;/p&gt;</summary></entry><entry><title>Accessible DHTML and other bits</title><link href="/accessible-dhtml-and-other-bits.html" rel="alternate"></link><updated>2006-07-31T00:11:00+02:00</updated><author><name>markos</name></author><id>tag:,2006-07-31:accessible-dhtml-and-other-bits.html</id><summary type="html">&lt;p&gt;&lt;html&gt;
+ &lt;body&gt;
+  &lt;div&gt;
+   &lt;p&gt;
+    I’ve been neglecting my blog recently. There was no shortage of news, but somehow I didn’t feel like writing. My mind is preoccupied with other things and where the hell is the cold and wet summer everyone promised?
+   &lt;/p&gt;
+   &lt;p&gt;
+    Google announced
+    &lt;a href="http://labs.google.com/accessible/"&gt;
+     accessible web search
+    &lt;/a&gt;
+    for the visually impaired. I see it as a great step in creating an accessible web search for everyone.
+   &lt;/p&gt;
+   &lt;p&gt;
+    Najdi.si is
+    &lt;a href="http://zemljevid.najdi.si/?q=" title="Link to map service"&gt;
+     testing
+    &lt;/a&gt;
+    a slovenian version of Google maps, which obviously can’t be more accurate than its source data, but works very well nevertheless.
+   &lt;/p&gt;
+   &lt;p&gt;
+    But I’ve been most pleased to discover something else. I gave
+    &lt;a href="ajax-talk-at-nest.html" title="Link to talk announcement"&gt;
+     a talk
+    &lt;/a&gt;
+    recently and we spent quite some time discussing AJAX and Javascript accessibility issues. I wish I knew back then about
+    &lt;a href="http://developer.mozilla.org/en/docs/Accessible_DHTML" title="Link to accessible DHTML implementation in Firefox 1.5"&gt;
+     this
+    &lt;/a&gt;
+    .
+   &lt;/p&gt;
+   &lt;p&gt;
+    Not only is there a draft of a specification for making widgets accessible, we even got a test environment with Firefox 1.5. I’ve only had the time to scan through specification, so my view should be taken with a big pinch of salt, but my first impression is definitely positive. We’ll see how it develops after I had time to digest it and make a few tests.
+   &lt;/p&gt;
+  &lt;/div&gt;
+ &lt;/body&gt;
+&lt;/html&gt;&lt;/p&gt;</summary></entry><entry><title>FlashAid</title><link href="/flashaid.html" rel="alternate"></link><updated>2006-07-04T11:21:00+02:00</updated><author><name>markos</name></author><id>tag:,2006-07-04:flashaid.html</id><summary type="html">&lt;p&gt;&lt;html&gt;
+ &lt;body&gt;
+  &lt;div&gt;
+   &lt;p&gt;
+    Ever since I listened to Andy Clarke’s talk at @media, I’ve been convinced that what we’re missing is a simple way to distinguish between visitors which need accessible version of the site and those who would prefer to use a non-accessible version.
+   &lt;/p&gt;
+   &lt;p&gt;
+    I still think that by and large sites should be made accessible to everyone and done so completely. But just as Braille signs are used only by those who need them, there’s no reason why everyone should be using the same user interface when not doing so can be beneficial.
+   &lt;/p&gt;
+   &lt;p&gt;
+    Those who’ve been dabbling with Javascript and AJAX for a while have probably noticed that it can be very difficult if often not impossible to make every piece of interface accessible. A common approach was to add javascript as a layer on top of an accessible website, which could be turned off when necessary. I find this a rather blunt instrument, since all or nothing approach removes even pieces that may be useful and accessible. Yet, there didn’t seem to be a better way.
+   &lt;/p&gt;
+   &lt;p&gt;
+    Accessibility preference would ideally be provided by a browser in a way that can be picked up with Javascript (environment variable?), but lacking that, I was looking for a way to signal such preference through user defined CSS. My idea was to define a syntactically valid, but normally not used combination of a page element, CSS property and its value that could be interpreted as a switch for accessible version of the site.
+   &lt;/p&gt;
+   &lt;p&gt;
+    Well, now
+    &lt;a href="http://osflash.org/flashaid"&gt;
+     there’s
+    &lt;/a&gt;
+    another way to learn if screen reader is used (
+    &lt;a href="http://domscripting.com/blog/display/77#comment-container"&gt;
+     via
+    &lt;/a&gt;
+    Jeremy Keith), which uses Flash 8 and its JS-Flash bridge to read if such a device is present. Obviously its use is not universal, but it covers scenario that troubles me most.
+   &lt;/p&gt;
+   &lt;p&gt;
+    Still a real fix would be a better support from user agents. It doesn’t seem to be that hard to add an environment variable and a preference switch, so is there some other reason why it hasn’t happened yet?
+   &lt;/p&gt;
+  &lt;/div&gt;
+ &lt;/body&gt;
+&lt;/html&gt;&lt;/p&gt;</summary></entry><entry><title>Customizable interfaces</title><link href="/customizable-interfaces.html" rel="alternate"></link><updated>2006-03-23T20:32:00+01:00</updated><author><name>markos</name></author><id>tag:,2006-03-23:customizable-interfaces.html</id><summary type="html">&lt;p&gt;&lt;html&gt;
+ &lt;body&gt;
+  &lt;div&gt;
+   &lt;p&gt;
+    There’s a vast number of potential Marela features that we are able, but not willing to implement, since they are detrimental to our design goals. There are also many, which we are willing and will implement, but it doesn’t change the fact that there will always be parts where we won’t compromise.
+   &lt;/p&gt;
+   &lt;p&gt;
+    Still, even though it seems natural that benefits to many should be more important than benefits to few, I never got quite comfortable with this. That’s why we also want to make Marela as open as possible to let our members customize it without affecting other people.
+   &lt;/p&gt;
+   &lt;p&gt;
+    First, there are public APIs. They tend to work well for building new tools or interfaces, but offer little help in customizing existing ones. Which is what our users want most of the time.
+   &lt;/p&gt;
+   &lt;p&gt;
+    Every modern browser lets users define a custom style sheet to change the presentation of websites. That’s why we recently added ID to body element, which lets users more
+    &lt;a href="http://archivist.incutio.com/viewlist/css-discuss/13291"&gt;
+     easily customize
+    &lt;/a&gt;
+    the look of Marela alone.
+   &lt;/p&gt;
+   &lt;p&gt;
+    Then there are tools like
+    &lt;a href="http://greasemonkey.mozdev.org/"&gt;
+     Greasemonkey
+    &lt;/a&gt;
+    , which let proficient users using Mozilla based browsers customizing existing interfaces. Greasemonkey works quite well, if you’re proficient in Javascript.
+   &lt;/p&gt;
+   &lt;p&gt;
+    I think the biggest problem with Greasemonkey (and custom CSS for that matter) is that it’s tied to a browser and a computer. If you change either of them, your customization won’t work anymore without significant effort on your part. Sometimes, in restricted environments, it’s not even possible to make it work. It’s a bit easier to make and transfer CSS customizations, but you’re still forced to carry your file around.
+   &lt;/p&gt;
+   &lt;p&gt;
+    I’m not too bothered with CSS. I simply don’t see much need for it beyond what Marela’s design and modern browsers already offer and I’m still biased against skin-deep themes offered by some programs. In any case a possible solution for it would be practically the same as what I have in mind for a case that does trouble me.
+   &lt;/p&gt;
+   &lt;p&gt;
+    Idea is pretty simple. Define javascript hooks that get called after window.onload event when they exist. If there’s an easy way to add your javascript file to a page (say, by uploading it to our server), then you can create a simple, but cross-browser and cross-computer Greasemonkey.
+   &lt;/p&gt;
+   &lt;p&gt;
+    Question that remains is, is this appealing enough for you to use it?
+   &lt;/p&gt;
+  &lt;/div&gt;
+ &lt;/body&gt;
+&lt;/html&gt;&lt;/p&gt;</summary></entry><entry><title>Revisiting javascript i18n</title><link href="/revisiting-javascript-i18n.html" rel="alternate"></link><updated>2006-02-25T16:55:00+01:00</updated><author><name>markos</name></author><id>tag:,2006-02-25:revisiting-javascript-i18n.html</id><summary type="html">&lt;p&gt;&lt;html&gt;
+ &lt;body&gt;
+  &lt;div&gt;
+   &lt;p&gt;
+    This week I had an interesting discussion with Ratnadeep Bhattacharjee about my
+    &lt;a href="news-at-seven-javascript-i18n-that-almost-doesnt-suck.html" title="Older post with js i18n library"&gt;
+     previous try
+    &lt;/a&gt;
+    to solve javascript i18n needs and it quickly become obvious that my library is not sufficient and likely also wrong approach to the problem.
+   &lt;/p&gt;
+   &lt;p&gt;
+    There are at least two unresolved issues with my current javascript i18n library:
+   &lt;/p&gt;
+   &lt;ul&gt;
+    &lt;li&gt;
+     It doesn’t detect browser language settings and act accordingly.
+    &lt;/li&gt;
+    &lt;li&gt;
+     It’s one way only. After you changed the language used, you can’t change it again easily.
+    &lt;/li&gt;
+   &lt;/ul&gt;
+   &lt;p&gt;
+    I’m sure these are not the only two problems, since I have a vague uneasiness about a few more things. Therefore I’d love to hear more thoughts about what you’d expect and need from such a library, before I continue down the possibly wrong path.
+   &lt;/p&gt;
+  &lt;/div&gt;
+ &lt;/body&gt;
+&lt;/html&gt;&lt;/p&gt;</summary></entry><entry><title>Google Page Creator (now together with screenshots)</title><link href="/google-pages.html" rel="alternate"></link><updated>2006-02-23T17:22:00+01:00</updated><author><name>markos</name></author><id>tag:,2006-02-23:google-pages.html</id><summary type="html">&lt;p&gt;&lt;html&gt;
+ &lt;body&gt;
+  &lt;div&gt;
+   &lt;p&gt;
+    &lt;a href="http://pages.google.com" title="Link to pages application"&gt;
+     Nice idea
+    &lt;/a&gt;
+    , but very poor execution.
+   &lt;/p&gt;
+   &lt;p&gt;
+    &lt;strong&gt;
+     Update:
+    &lt;/strong&gt;
+    It seems access to Google Page Creator is limited, so it would make sense if I spend some time explaining what I meant. What Google Page Creator (GPC) allows you to do, is to build a simple website using your browser. It differentiates itself from majority of such tools (but not all of them) in that it allows you to do this through a WYSIWYG interface, where you can easily see exactly how your page will look like when you’re finished with it.
+   &lt;/p&gt;
+   &lt;p&gt;
+    There are things I like. Page creator is easy to use and you get a direct feedback on everything you do. Sadly, the overall impression is less positive, since there’s plenty I dislike:
+   &lt;/p&gt;
+   &lt;ul&gt;
+    &lt;li&gt;
+     GPC is incredibly slow. True, G4 Powerbook is not a top of the line anymore, but there are tons of web applications with similar capabilities (some of them mine) which don’t drag their feet so much.
+    &lt;/li&gt;
+    &lt;li&gt;
+     As others have noted, HTML produced is simply crap. Font tags should be extinct by now and there’s really no excuse to produce them in 2006. You can get a glimpse of the horror by looking at the source of my page (linked at the end of this post).
+    &lt;/li&gt;
+    &lt;li&gt;
+     There are plenty of designs, but they mostly differ in color schemes used. It’s hard to find one that isn’t simply dull.
+    &lt;/li&gt;
+    &lt;li&gt;
+     GPC is simplified almost to the point of uselessness. You can stitch static pages together and build a simple static website, but there’s not much else you can do. I expected more. Something, anything that would make you believe the final result was done in the age of blogs, wikis and mash-ups and not 5-6 years ago.
+    &lt;/li&gt;
+   &lt;/ul&gt;
+   &lt;p&gt;
+    In short, it’s hardly an improvement over what was already available out there. You can see
+    &lt;a href="http://markos.googlepages.com/"&gt;
+     result
+    &lt;/a&gt;
+    of my experiment and I posted
+    &lt;a href="http://www.marela.si/users/markos/tags/page%20creator" title="Screenshots on Marela"&gt;
+     few screenshots
+    &lt;/a&gt;
+    on Marela.
+   &lt;/p&gt;
+  &lt;/div&gt;
+ &lt;/body&gt;
+&lt;/html&gt;&lt;/p&gt;</summary></entry><entry><title>News at seven - javascript i18n that almost doesn't suck</title><link href="/news-at-seven-javascript-i18n-that-almost-doesnt-suck.html" rel="alternate"></link><updated>2005-12-19T19:36:00+01:00</updated><author><name>markos</name></author><id>tag:,2005-12-19:news-at-seven-javascript-i18n-that-almost-doesnt-suck.html</id><summary type="html">&lt;p&gt;&lt;html&gt;
+ &lt;body&gt;
+  &lt;div&gt;
+   &lt;p&gt;
+    Holidays are closer with each day and it’s getting harder and harder to concentrate on work, when your mind is occupied with loot coming your way.
+   &lt;/p&gt;
+   &lt;p&gt;
+    It’s also a time of the year when web sites are filled with various summations of year left behind and always present guesses about the future. I certainly am not above that and I’ll probably add a line or two of my own in next few days, but I also wanted to finish my little javascript i18n library before the year ends. I don’t want it to turn into a pumpkin at midnight like some girl’s ride back home.
+   &lt;/p&gt;
+   &lt;p&gt;
+    You know, sort of a present for everyone as it befits this holiday.
+   &lt;/p&gt;
+   &lt;p&gt;
+    Alas, it’s taking longer then planned. So many things to do and so little time. Since trip to Stockholm is just around the corner, I decided to release what I believe by now to be practically usable piece of localization code. If you’re interested just in the goods, then you can see new javascript file
+    &lt;a href="http://markos.gaivo.net/examples/js_i18n/3/translate.js" title="Javascript i18n library"&gt;
+     here
+    &lt;/a&gt;
+    and demo
+    &lt;a href="http://markos.gaivo.net/examples/js_i18n/3/index.html" title="Javascript i18n demo"&gt;
+     here
+    &lt;/a&gt;
+    .
+   &lt;/p&gt;
+   &lt;p&gt;
+    There have been few changes since
+    &lt;a href="look-ma-html-too.html" title="Previous post on this topic"&gt;
+     last time
+    &lt;/a&gt;
+    . The whole thing has been objectified, but I kept  few functions (
+    &lt;em&gt;
+     stripStr
+    &lt;/em&gt;
+    ,
+    &lt;em&gt;
+     stripStrML
+    &lt;/em&gt;
+    and new one
+    &lt;em&gt;
+     printf
+    &lt;/em&gt;
+    ) outside of a class, since they’re too general to belong there. Nice thing about new class is that instead of looking for globally defined translation dictionary, it’s initialized with one. This also means you can use more than one translation object or translation dictionary per page, which sounds cool even if not all that useful.
+   &lt;/p&gt;
+   &lt;p&gt;
+    I made a small correction to method
+    &lt;em&gt;
+     toEntity
+    &lt;/em&gt;
+    . A bug was pointed out to me by
+    &lt;a href="http://www.opera.com"&gt;
+     Opera browser
+    &lt;/a&gt;
+    , which is a great browser for testing against standards, if not common sense. I might think it’s OK to fetch a character out of a string with their index value, as you would fetch an element from a list or an object, but I would be wrong. That’s why a string method
+    &lt;em&gt;
+     charAt
+    &lt;/em&gt;
+    was defined and if working everywhere except in Opera is not good enough for you, then you must use this method. So, I did.
+   &lt;/p&gt;
+   &lt;p&gt;
+    I also renamed the function
+    &lt;em&gt;
+     _
+    &lt;/em&gt;
+    . It’s a nifty name widely used in other languages, but it doesn’t work quite like that when it’s a method in an object.
+    &lt;em&gt;
+     init.js
+    &lt;/em&gt;
+    demonstrates how you can still use it by defining an anonymous function.
+   &lt;/p&gt;
+   &lt;p&gt;
+    This is it for now. I think the library is actually usable, but it’s also lacking few things.
+    &lt;em&gt;
+     printf
+    &lt;/em&gt;
+    provides now a method of easily stitching  stings together and even using parameters in translations. However, it does require that those parameters are listed in same order as in original text. Better than previously, but still often awkward.
+   &lt;/p&gt;
+   &lt;p&gt;
+    What’s missing is also a tool to translate between javascript dictionary/object and a widely used translation format like
+    &lt;em&gt;
+     GNU’s gettext
+    &lt;/em&gt;
+    . I’m currently working on this and I hope to have something usable ready in next few days.
+   &lt;/p&gt;
+   &lt;p&gt;
+    Last but not least, it needs a useful documentation on how to use it and work with it. It will get it.
+   &lt;/p&gt;
+   &lt;p&gt;
+    &lt;em&gt;
+     Update: It turns out my code might be usable, but it’s certainly not good. Some issues were listed in
+    &lt;/em&gt;
+    &lt;em&gt;
+     &lt;a href="revisiting-javascript-i18n.html"&gt;
+      later
+     &lt;/a&gt;
+    &lt;/em&gt;
+    &lt;em&gt;
+     post and some I discovered just recently. For instance it won’t work if you’re trying to translate text on buttons or if text to be translated includes HTML tags (case of tags is not preserved in DOM tree, which wouldn’t be a problem if Firefox and IE defaulted to the same one).
+    &lt;/em&gt;
+   &lt;/p&gt;
+  &lt;/div&gt;
+ &lt;/body&gt;
+&lt;/html&gt;&lt;/p&gt;</summary></entry><entry><title>Multitasking with POST requests - part II</title><link href="/multitasking-with-post-requests-part-ii.html" rel="alternate"></link><updated>2005-12-16T13:55:00+01:00</updated><author><name>markos</name></author><id>tag:,2005-12-16:multitasking-with-post-requests-part-ii.html</id><summary type="html">&lt;p&gt;&lt;html&gt;
+ &lt;body&gt;
+  &lt;div&gt;
+   &lt;p&gt;
+    Yesterday I wrote about my wish of making background
+    &lt;em&gt;
+     POST
+    &lt;/em&gt;
+    requests that don’t get accidentally canceled. I wasn’t specific enough. You can create background
+    &lt;em&gt;
+     POST
+    &lt;/em&gt;
+    requests just fine with
+    &lt;em&gt;
+     XMLHttpRequest
+    &lt;/em&gt;
+    , but you can’t use such requests for file uploads, which is what I want.
+   &lt;/p&gt;
+   &lt;p&gt;
+    My first try was to post
+    &lt;em&gt;
+     form
+    &lt;/em&gt;
+    to
+    &lt;em&gt;
+     iframe
+    &lt;/em&gt;
+    in a different window. This didn’t work because browsers pay attention to source of request. Activating new request in source window immediately cancels previous unfinished one.
+   &lt;/p&gt;
+   &lt;p&gt;
+    A better idea was provided by always helpful
+    &lt;a href="http://dojotoolkit.org/" title="Dojo toolkit"&gt;
+     dojo
+    &lt;/a&gt;
+    developers. Clone
+    &lt;em&gt;
+     form
+    &lt;/em&gt;
+    to progress window and submit it from there. This one works great in Firefox, but hardly anywhere else. It certainly doesn’t work in IE, since IE is very picky about what you do with nodes created with
+    &lt;em&gt;
+     cloneNode
+    &lt;/em&gt;
+    and you can’t clone form yourself, since it’s not possible to set the value of file upload elements.
+   &lt;/p&gt;
+   &lt;p&gt;
+    Is this game over for unobtrusive file upload?
+   &lt;/p&gt;
+   &lt;p&gt;
+    Not yet. There are still at least two posibilities, both with downsides, but one of them definitely works. You can open file upload form in new window and change that window to progress bar. It works and I use it occasionally, but it’s not nice if you care about accessibility. It’s something users can do now, if they want, by opening upload page in new tab or window.
+   &lt;/p&gt;
+   &lt;p&gt;
+    The other, yet untried, possible solution would be to avoid cloning. Just rip the form out from original page, move it to status one and submit form there. Obvious problems with this one are that users lose information about what they’re uploading and that it can look confusing if not executed well.
+   &lt;/p&gt;
+   &lt;p&gt;
+    I’ll try it anyway and will let you know how it goes.
+   &lt;/p&gt;
+   &lt;p&gt;
+    Update: IE also dislikes ripping and moving.
+   &lt;/p&gt;
+  &lt;/div&gt;
+ &lt;/body&gt;
+&lt;/html&gt;&lt;/p&gt;</summary></entry><entry><title>Multitasking with POST requests?</title><link href="/multitasking-with-post-requests.html" rel="alternate"></link><updated>2005-12-15T20:34:00+01:00</updated><author><name>markos</name></author><id>tag:,2005-12-15:multitasking-with-post-requests.html</id><summary type="html">&lt;p&gt;&lt;html&gt;
+ &lt;body&gt;
+  &lt;div&gt;
+   &lt;p&gt;
+    I have a kinky wish. I’d like to submit a web form that wouldn’t get canceled if I clicked another link before its completion.
+   &lt;/p&gt;
+   &lt;p&gt;
+    Browsers normally don’t work like this. They interpret subsequent clicks on active elements as a change of heart on user’s part and cancel previous clicks in favor of last one. Most of the time this is exactly what you’d want and expect.
+   &lt;/p&gt;
+   &lt;p&gt;
+    However, sometimes it isn’t. I’d like to open a new window for upload progress bar and release the old one so users can continue working without waiting for upload to finish. I suspect it can’t be done though.
+   &lt;/p&gt;
+   &lt;p&gt;
+    Has anyone had more luck with this?
+   &lt;/p&gt;
+  &lt;/div&gt;
+ &lt;/body&gt;
+&lt;/html&gt;&lt;/p&gt;</summary></entry><entry><title>Look ma', HTML too</title><link href="/look-ma-html-too.html" rel="alternate"></link><updated>2005-12-11T23:08:00+01:00</updated><author><name>markos</name></author><id>tag:,2005-12-11:look-ma-html-too.html</id><summary type="html">&lt;p&gt;&lt;html&gt;
+ &lt;body&gt;
+  &lt;div&gt;
+   &lt;p&gt;
+    This is a second post in hopefully a very short series dedicated to javascript internationalization. If you want, you can read the first one
+    &lt;a href="solving-javascript-i18n-as-work-in-progress.html"&gt;
+     here
+    &lt;/a&gt;
+    .
+   &lt;/p&gt;
+   &lt;p&gt;
+    We left off with two supporting functions for striping whitespace and a simple function for translation lookup. Today I added another two functions, one for translating HTML elements and the other for resolving a problem with HTML entities. You can find new javascript
+    &lt;a href="http://markos.gaivo.net/examples/js_i18n/2/translate.js"&gt;
+     here
+    &lt;/a&gt;
+    and a demo
+    &lt;a href="http://markos.gaivo.net/examples/js_i18n/2/index.html"&gt;
+     here
+    &lt;/a&gt;
+    .
+   &lt;/p&gt;
+   &lt;p&gt;
+    &lt;em&gt;
+     translateNodes
+    &lt;/em&gt;
+    searches for elements with class name i18n, picks up their text content and translates it, if it can find it in translation dictionary. Sometimes it can’t, because what javascript actually sees is a real utf-8 encoded string, where X/HTML entities have been replaced with characters they represent. If this is not true also for source string in dictionary, then there’s a mismatch.
+   &lt;/p&gt;
+   &lt;p&gt;
+    That’s why there’s
+    &lt;em&gt;
+     toEntity
+    &lt;/em&gt;
+    function which translates all non-ASCII characters in given string to their entity representation. When
+    &lt;em&gt;
+     translateNodes
+    &lt;/em&gt;
+    fails to find translation, it uses
+    &lt;em&gt;
+     toEntity
+    &lt;/em&gt;
+    to get a possibly different representation and tries again.
+   &lt;/p&gt;
+   &lt;p&gt;
+    This way you can use entities, which are the only real cross-browser way to describe non-ASCII chars and translations still work. There’s a downside though. Your translation source string must either have all non-ASII characters represented as HTML entities or none of them. Otherwise translation will fail for obvious reasons.
+   &lt;/p&gt;
+   &lt;p&gt;
+    There are planned limitations (like building a system that handles only utf-8 text) and unplanned ones. I still don’t do anything special for strings with significant whitespace (like content of a
+    &lt;em&gt;
+     pre
+    &lt;/em&gt;
+    tag) and probably should.
+   &lt;/p&gt;
+   &lt;p&gt;
+    Do nothing = I break it.
+   &lt;/p&gt;
+   &lt;p&gt;
+    It would be nice, if I started to pack this functionality in a more sensible form and build tools that make handling of the whole thing easier.
+   &lt;/p&gt;
+   &lt;p&gt;
+    Next week, which starts in an hour or so, seems perfect time for that.
+   &lt;/p&gt;
+   &lt;p&gt;
+    Update: Follow up
+    &lt;a href="news-at-seven-javascript-i18n-that-almost-doesnt-suck.html"&gt;
+     here
+    &lt;/a&gt;
+    .
+   &lt;/p&gt;
+  &lt;/div&gt;
+ &lt;/body&gt;
+&lt;/html&gt;&lt;/p&gt;</summary></entry><entry><title>Places to use AJAX</title><link href="/places-to-use-ajax.html" rel="alternate"></link><updated>2005-12-06T10:05:00+01:00</updated><author><name>markos</name></author><id>tag:,2005-12-06:places-to-use-ajax.html</id><summary type="html">&lt;p&gt;&lt;html&gt;
+ &lt;body&gt;
+  &lt;div&gt;
+   &lt;p&gt;
+    Alex Bosworth wrote a great
+    &lt;a href="http://www.sourcelabs.com/blogs/ajb/2005/12/10_places_you_must_use_ajax.html" title="Alex's post about applicability of AJAX"&gt;
+     post
+    &lt;/a&gt;
+    about when to use AJAX and when not to.
+   &lt;/p&gt;
+  &lt;/div&gt;
+ &lt;/body&gt;
+&lt;/html&gt;&lt;/p&gt;</summary></entry><entry><title>When to use degradable Javascript</title><link href="/when-to-use-degradable-javascript.html" rel="alternate"></link><updated>2005-10-18T13:27:00+02:00</updated><author><name>markos</name></author><id>tag:,2005-10-18:when-to-use-degradable-javascript.html</id><summary type="html">&lt;p&gt;&lt;html&gt;
+ &lt;body&gt;
+  &lt;div&gt;
+   &lt;p&gt;
+    &lt;a href="http://encytemedia.com/blog/articles/2005/10/13/dispelling-the-myths-of-javascript-degredation" title="Link to Justin's article"&gt;
+     Justin Palmer
+    &lt;/a&gt;
+    wrote about myths of Javascript degradation and
+    &lt;a href="http://domscripting.com/blog/display.php/25" title="Link to Jeremy's article"&gt;
+     Jeremy Keith
+    &lt;/a&gt;
+    has written a response. This is just the lastest, but certainly not last exchange on this topic and I think we’ll continue to talk about it for some time to come.
+   &lt;/p&gt;
+   &lt;p&gt;
+    I think I find myself somewhere in the  middle. Part of our service follows Jeremy’s school of thought and part of it is firmly on Justin’s side. I think Jeremy’s argument that the problem is due lack of planning is just wrong. I spent literally months contemplating and trying different things before I finally accepted that not everything can be done in nicely degradable manner without making sacrifices.
+   &lt;/p&gt;
+   &lt;p&gt;
+    Or to use a misplaced example. You can start with a bicycle that more or less everyone can use and try to add features, that will enable it to go faster and with less physical strain, but you’ll never produce a
+    &lt;a href="http://www.ducati.com" title="Ducati motorbikes"&gt;
+     Ducati
+    &lt;/a&gt;
+    . At most you’ll finish with something like:
+   &lt;/p&gt;
+   &lt;p&gt;
+    &lt;a href="http://www.ebikeshop.co.uk/detailscruiser.html"&gt;
+     &lt;img alt="Electric bicycle" src="http://markos.gaivo.net/images/ebike.jpg" style="width:190px;height:186px;border: 0;"/&gt;
+    &lt;/a&gt;
+    &lt;br/&gt;
+    I’m not saying electric bike is bad. In fact it has many features that Ducati will never have. They are just different and what’s better depends on what you want and who you want to serve.
+   &lt;/p&gt;
+   &lt;p&gt;
+    I believe the same applies to Javascript degradation. You have to decide what you’re building and for whom. When developing our service, I probably haven’t thought about anything more than this issue and the choices I made were certainly not done lightly. I did discover a simple question, that often makes such decisions easier:
+   &lt;/p&gt;
+   &lt;p&gt;
+    &lt;strong&gt;
+     “Would anyone ever want to bookmark this?”
+    &lt;/strong&gt;
+   &lt;/p&gt;
+   &lt;p&gt;
+    If yes, then degradable javascript is the only acceptable solution. If no, then there MIGHT be a case for non-degradable solution, but it certainly doesn’t immediately justify it.
+   &lt;/p&gt;
+  &lt;/div&gt;
+ &lt;/body&gt;
+&lt;/html&gt;&lt;/p&gt;</summary></entry></feed>

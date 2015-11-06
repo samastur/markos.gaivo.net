@@ -1,0 +1,665 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom"><title>A notch above a monkey</title><link href="/" rel="alternate"></link><link href="/articles/feeds/company.atom.xml" rel="self"></link><id>/</id><updated>2009-09-13T20:16:00+02:00</updated><entry><title>Dos and Don'ts of Job Interviews</title><link href="/dos-and-donts-of-job-interviews.html" rel="alternate"></link><updated>2009-09-13T20:16:00+02:00</updated><author><name>markos</name></author><id>tag:,2009-09-13:dos-and-donts-of-job-interviews.html</id><summary type="html">&lt;p&gt;&lt;html&gt;
+ &lt;body&gt;
+  &lt;div&gt;
+   &lt;p&gt;
+    Dear job seeker,
+   &lt;/p&gt;
+   &lt;p&gt;
+    A job opening is an odd thing, because everyone involved is a buyer and a seller. You are trying to sell yourself to my company while at the same time I am trying to sell us to you and others we might regrettably have to turn down this time.
+   &lt;/p&gt;
+   &lt;p&gt;
+    Two months spent actively searching for a new member of our team (we found him this week) made me reflect on the whole process. I am
+    &lt;a href="http://friedcellcollective.net/outbreak/2009/08/14/hiring-developers-king-of-the-hill-effect/"&gt;
+     not the only one
+    &lt;/a&gt;
+    and I sympathize
+    &lt;a href="http://www.worldlandtrust.org/news/2009/07/how-not-to-apply-for-conservation-job.htm"&gt;
+     with everyone
+    &lt;/a&gt;
+    going through this. In last few years I have read tens if not a hundred of job applications and interviewed tens of applicants for different Slovenian IT companies, mainly startups. Not enough to be an expert, but enough to provide me with a firm opinion that most applications sent sucked.
+   &lt;/p&gt;
+   &lt;p&gt;
+    That doesn’t mean that you personally suck, but I feel comfortable saying that most of you do not know how to present yourselves well. Mind you most companies are failing at this too, but this post will be long enough even as I limit myself to just one side of the story. My intent is to provide a maximum amount of help with a minimum amount of venting.
+   &lt;/p&gt;
+   &lt;p&gt;
+    I think it is a safe assumption that you sent an application because you wanted this job. It should also be obvious that we were looking for someone that we think we’ll be able to entrust with challenging tasks and has a personality that won’t turn our jobs into a punishment.
+   &lt;/p&gt;
+   &lt;p&gt;
+    So the question you should pose yourself is: “
+    &lt;strong&gt;
+     What kind of person is the company looking for and how do I best show to be him?
+    &lt;/strong&gt;
+    ” (or her)
+   &lt;/p&gt;
+   &lt;p&gt;
+    If you don’t know, then look for information until you do. Ask if necessary, since any company worth working for doesn’t mind answering them. But knowing this is absolutely crucial if you want to be persuasive and at the same time not needlessly wasting your time on a company that doesn’t fit you. If you still think our company is right place for you, and I hope you do, then you should make sure that everything you do when communicating with us tells us that you are THE person we want to hire.
+   &lt;/p&gt;
+   &lt;p&gt;
+    First and foremost,
+    &lt;strong&gt;
+     read and follow job ad instructions
+    &lt;/strong&gt;
+    . Seriously, you would not believe how many applications fail to follow even most basic requests. Ask a friend to double check after you if necessary so you won’t miss anything.
+    &lt;a class="zem_slink" href="http://www.zemanta.com" rel="homepage" title="Zemanta"&gt;
+     Zemanta
+    &lt;/a&gt;
+    is an international company and much of our communication has to be in English and yet, when we asked for applications to be sent in English, majority of them weren’t.
+   &lt;/p&gt;
+   &lt;p&gt;
+    &lt;strong&gt;
+     If something is unclear, ask for clarification
+    &lt;/strong&gt;
+    . Responding to a job ad is the first test of your ability to receive a task, gather missing information and perform it to expected (agreed) level. Ignoring requirements or reinterpreting instructions on your own will make us doubt you.
+   &lt;/p&gt;
+   &lt;p&gt;
+    Send resume when asked for, but don’t think it can substitute things that were asked for. It is amazing how many people just send their resume, when ad explicitly said we would like to see examples of work above everything.
+   &lt;/p&gt;
+   &lt;p&gt;
+    Having said that, resume (
+    &lt;a class="zem_slink freebase/guid/9202a8c04000641f80000000001eddc2" href="http://en.wikipedia.org/wiki/R%C3%A9sum%C3%A9" rel="wikipedia" title="R?sum?"&gt;
+     CV
+    &lt;/a&gt;
+    ) is definitely an asset when trying to sell yourself. When you write, keep in mind that its purpose is to sell you to a company. Put yourself into my shoes and think what should you write there, that is truthful and will make me want to hire you.
+   &lt;/p&gt;
+   &lt;p&gt;
+    &lt;strong&gt;
+     Europass resume is something only a bureaucrat could love
+    &lt;/strong&gt;
+    . We won’t hold it against you, since somebody probably misinformed you of its usefulness, but it does tell us almost nothing about you. Even if I knew all listed companies, I couldn’t tell from a job title what you actually did there.
+   &lt;/p&gt;
+   &lt;p&gt;
+    Much better is to explain in couple of sentences under every job list item what you achieved there and if necessary why I should care about this (e.g.
+    &lt;em&gt;
+     At company ACME I introduced automated testing of Javascript code that reduced bugs reported by 30%
+    &lt;/em&gt;
+    )
+   &lt;/p&gt;
+   &lt;p&gt;
+    In a fast moving industry like IT there is probably little reason to go into details about what you did in 1999, unless you are certain it is still relevant today. I started my career in 1997 porting backup agents to new UNIX platforms, but nobody would hire me for such work today (and probably shouldn’t then either). Old job listings are mainly used as a signal for steadfastness.
+   &lt;/p&gt;
+   &lt;p&gt;
+    &lt;strong&gt;
+     Don’t embellish resume too much
+    &lt;/strong&gt;
+    . It is impossible to impartially judge your skills and most reviewers expect resumes to be, well, somewhat too rosy. Still, keep things at least defensible. Think what would happen if you were invited to an interview and found out that a part of it is a lie. How much weight do you think the rest of your resume would carry afterwards? Would you trust integrity of such person?
+   &lt;/p&gt;
+   &lt;p&gt;
+    Considering what I said so far about poor quality of most applications, you might think it is easy to get to interview, but it is not necessarily so. There can be external factors that might work against you so sometimes even otherwise promising candidates have to be turned down (e.g., it is easier to teach people who live near by).
+   &lt;/p&gt;
+   &lt;p&gt;
+    Let’s say now that you were interesting enough that we want to conduct an interview with you. I think following tips should work well for you on most occasions. If they don’t, count yourself lucky not to work there. I am not joking.
+   &lt;/p&gt;
+   &lt;p&gt;
+    &lt;strong&gt;
+     Don’t bluff.
+    &lt;/strong&gt;
+    It’s reasonable to assume that I wouldn’t ask you a question I didn’t know the answer to so it’s unlikely it would work. Good questions can’t be tersely answered so you can’t really hide anyway.
+   &lt;/p&gt;
+   &lt;p&gt;
+    &lt;strong&gt;
+     Admit when you don’t know the answer.
+    &lt;/strong&gt;
+    True, knowing it would be better, but at least you are not wasting my time. It’s especially important in small companies that problems are found out as soon as possible and it is a positive sign that you are a person that we can trust to let us know about them when there is still time to do something.
+   &lt;/p&gt;
+   &lt;p&gt;
+    &lt;strong&gt;
+     Don’t just give up.
+    &lt;/strong&gt;
+    We all encounter problems that we can’t solve and interview questions we don’t know answers to. Show initiative and think out loud how you see the problem and what solutions might be. Give us a chance to see how you think and persuade us that you are a tenacious problem solver that won’t unnecessarily seek help of others.
+   &lt;/p&gt;
+   &lt;p&gt;
+    &lt;strong&gt;
+     Speak to the point
+    &lt;/strong&gt;
+    and
+    &lt;strong&gt;
+     be active
+    &lt;/strong&gt;
+    . From my experience this is a problem more prevalent in Slovenia. It quickly becomes annoying and tiresome trying to get a direct answer to a question from a person who doesn’t want to give you one. Making me feel like I have to work to keep interview moving is probably not the best way to leave a good impression.
+   &lt;/p&gt;
+   &lt;p&gt;
+    &lt;strong&gt;
+     Skills are…needed.
+    &lt;/strong&gt;
+    We all want to hire people who fit our needs perfectly. We rarely can. What happens next depends on company and people involved, but judging by my experience, we value person over his skill. If choice comes between a flaky or otherwise non-solid person with better skills and someone that couples ability to solve problems and thirst for knowledge with personal integrity and maturity, then it is likely that latter will be chosen.
+   &lt;/p&gt;
+   &lt;p&gt;
+    &lt;strong&gt;
+     Ask questions.
+    &lt;/strong&gt;
+    Inquisitiveness is always a turn on, but interview is also a chance for you to find more about us. Most companies expect from you an investment of 8 hours of your life daily and if you are like me, then it should be important to you what kind of company and people are you dealing with, what work entails and how do we go about it. Personally I don’t mind questions about salary and benefits, but I do find it odd if interview starts with them.
+   &lt;/p&gt;
+   &lt;p&gt;
+    Regretfully interview is a last stop for some candidates and we have to turn them down. I know some companies have a bad habit of turning people down without letting them know and if that happens to you, well, count yourself lucky. At Zemanta we find such behavior rude and we notify everyone. What happens afterwards is usually….nothing. No reply.
+   &lt;/p&gt;
+   &lt;p&gt;
+    My advice to you would be to respond with a note thanking for the opportunity. It probably won’t make a difference in a short run, but it does leave a good impression. We are all more inclined to recommend (or hire in next round) people we like.
+   &lt;/p&gt;
+   &lt;p&gt;
+    Good luck!
+   &lt;/p&gt;
+   &lt;div class="zemanta-pixie"&gt;
+    &lt;a class="zemanta-pixie-a" href="http://reblog.zemanta.com/zemified/37e4a7b1-bb28-45a9-a90c-c3b75ed89041/" title="Reblog this post [with Zemanta]"&gt;
+     &lt;img alt="Reblog this post [with Zemanta]" class="zemanta-pixie-img" src="http://img.zemanta.com/reblog_e.png?x-id=37e4a7b1-bb28-45a9-a90c-c3b75ed89041"/&gt;
+    &lt;/a&gt;
+    &lt;span class="zem-script paragraph-reblog"&gt;
+     &lt;script src="http://static.zemanta.com/readside/loader.js" type="text/javascript"&gt;
+     &lt;/script&gt;
+    &lt;/span&gt;
+   &lt;/div&gt;
+  &lt;/div&gt;
+ &lt;/body&gt;
+&lt;/html&gt;&lt;/p&gt;</summary></entry><entry><title>One small step</title><link href="/one-small-step.html" rel="alternate"></link><updated>2009-07-20T22:46:00+02:00</updated><author><name>markos</name></author><id>tag:,2009-07-20:one-small-step.html</id><summary type="html">&lt;p&gt;&lt;html&gt;
+ &lt;body&gt;
+  &lt;div&gt;
+   &lt;p&gt;
+    Today? or tomorrow, depending on where you happen to live, is 40 years since
+    &lt;a class="zem_slink" href="http://en.wikipedia.org/wiki/Neil_Armstrong" rel="wikipedia" title="Neil Armstrong"&gt;
+     Neil Armstrong
+    &lt;/a&gt;
+    became first among few who stepped on moon. When I was a kid, there was nothing I wanted more than becoming an astronaut. Closest I ever got to this dream was having fun at
+    &lt;a class="zem_slink" href="http://www.eurospacecenter.be/envisit.htm" rel="homepage" title="Euro Space Center"&gt;
+     Euro Space Center
+    &lt;/a&gt;
+    .
+   &lt;/p&gt;
+   &lt;p&gt;
+    I don’t regret this, because I have a great job. It still feels a privilege to work at
+    &lt;a class="zem_slink" href="http://www.zemanta.com" rel="homepage" title="Zemanta"&gt;
+     Zemanta
+    &lt;/a&gt;
+    and that is why I’m happy to say that
+    &lt;a href="http://www.zemanta.com/jobs/" title="Job ad"&gt;
+     we are looking for a frontend developer
+    &lt;/a&gt;
+    to strengthen our team.
+   &lt;/p&gt;
+   &lt;p&gt;
+    We are searching for someone well versed with Javascript in modern browsers that wants to learn and we can learn from. Working in startup requires ability in having fun with unexpected challenges, but does not mean you will be overworked. We believe that rested developers are more creative and productive and practice what we believe in. In exchange we’ll try to be as flexible as possible to meet your (other) needs.
+   &lt;/p&gt;
+   &lt;p&gt;
+    So, if you are a developer with even an inkling of a wish to work in a company like ours, please consider
+    &lt;a href="http://www.zemanta.com/jobs/" title="Job ad"&gt;
+     applying
+    &lt;/a&gt;
+    . You can also leave any question you might have in comments and I’ll try to answer it to the best of my abilities.
+   &lt;/p&gt;
+   &lt;div class="zemanta-pixie" style="margin-top: 10px; height: 15px;"&gt;
+    &lt;a class="zemanta-pixie-a" href="http://reblog.zemanta.com/zemified/776f1526-aafa-4206-9966-4658717c9e0e/" title="Reblog this post [with Zemanta]"&gt;
+     &lt;img alt="Reblog this post [with Zemanta]" class="zemanta-pixie-img" src="http://img.zemanta.com/reblog_e.png?x-id=776f1526-aafa-4206-9966-4658717c9e0e" style="border: medium none; float: right;"/&gt;
+    &lt;/a&gt;
+   &lt;/div&gt;
+  &lt;/div&gt;
+ &lt;/body&gt;
+&lt;/html&gt;&lt;/p&gt;</summary></entry><entry><title>The Four Steps to Epiphany</title><link href="/the-four-steps-to-epiphany.html" rel="alternate"></link><updated>2009-06-01T06:57:00+02:00</updated><author><name>markos</name></author><id>tag:,2009-06-01:the-four-steps-to-epiphany.html</id><summary type="html">&lt;p&gt;&lt;html&gt;
+ &lt;body&gt;
+  &lt;div&gt;
+   &lt;p&gt;
+    I seem to have mentioned books I’ve been reading a lot in last few posts, but this is the first time I am writing a post solely dedicated to a book.
+    &lt;a href="http://www.amazon.com/gp/product/0976470705?ie=UTF8&amp;amp;tag=devel-20&amp;amp;linkCode=as2&amp;amp;camp=1789&amp;amp;creative=390957&amp;amp;creativeASIN=0976470705"&gt;
+     The Four Steps to the Epiphany
+    &lt;/a&gt;
+    &lt;img alt="" border="0" height="1" src="http://www.assoc-amazon.com/e/ir?t=devel-20&amp;amp;l=as2&amp;amp;o=1&amp;amp;a=0976470705" style="border:none !important; margin:0px !important;" width="1"/&gt;
+    by Steven Gary Blank is a book I heard recommended a few times before
+    &lt;a href="http://startuplessonslearned.blogspot.com/" title="Eric's blog"&gt;
+     Eric Ries
+    &lt;/a&gt;
+    recommendation during his talk persuaded me, but I bought it mainly because it bothered me that most projects I was involved with relied heavily on intuition and it just seemed that there has to be a better way to expose and test assumptions made during project lifetime.
+   &lt;/p&gt;
+   &lt;p&gt;
+    To a typography nut like me this book looks, well, horrible. I suspect Cafepress’ print-on-demand system has also something to do with it, but this is not its only fault. There are plenty of typos and glitches such as whole chapter 4 carrying a footer of chapter 3. Occasionally you can find grammar errors even someone like me can be sure of. In short, the book also looks like it wasn’t made by experienced publisher.
+   &lt;/p&gt;
+   &lt;p&gt;
+    Having said all that, if you are thinking of starting a business venture or really any project where you and people precisely like you are not the only target market, you should BUY AND READ THIS BOOK. It costs 40$ on Amazon, but I wouldn’t hesitate recommending it even if it cost ten times as much. For those who might doubt veracity of recommendation on account of my Amazon Affiliate link,
+    &lt;a href="http://www.amazon.com/Four-Steps-Epiphany-Steven-Blank/dp/0976470705" title="Non-affiliated link to book"&gt;
+     here is
+    &lt;/a&gt;
+    also a non-affiliated link that gains me nothing. Or you can save some more by following link on
+    &lt;a href="http://steveblank.com/"&gt;
+     Steve’s blog
+    &lt;/a&gt;
+    (which is a good read too).
+   &lt;/p&gt;
+   &lt;p&gt;
+    Unlike most business books I read or browsed, it isn’t a 2-300 hundred page long discourse about a couple of ideas that could be adequately explained and argued in tenth of its length. It’s a textbook about Customer Development, a different way of organizing and building a company from startup to established company. This is done methodically, each step building on previous where every assumption is tested while it is still relatively cheap to do so. First 200 pages might occasionally contain a short story that proves a point, but are otherwise filled with very concrete advice on what needs to be done and how you can or should go about it. If that wasn’t enough, you also get a Custom Development Checklist (taking a quarter of the book) which you can use to check that nothing was left out.
+   &lt;/p&gt;
+   &lt;p&gt;
+    I suspect not many startups follow every step as prescribed, but even if you don’t or disagree with most of it, I can’t imagine how you wouldn’t profit from reading it. So just go and buy it. You won’t be able to make notes in borrowed copy.
+   &lt;/p&gt;
+   &lt;div class="zemanta-pixie" style="margin-top: 10px; height: 15px;"&gt;
+    &lt;a class="zemanta-pixie-a" href="http://reblog.zemanta.com/zemified/131a9fc7-4816-4c2b-b470-b81efdf2264c/" title="Reblog this post [with Zemanta]"&gt;
+     &lt;img alt="Reblog this post [with Zemanta]" class="zemanta-pixie-img" src="http://img.zemanta.com/reblog_e.png?x-id=131a9fc7-4816-4c2b-b470-b81efdf2264c" style="border: medium none; float: right;"/&gt;
+    &lt;/a&gt;
+    &lt;span class="zem-script more-related pretty-attribution"&gt;
+     &lt;script src="http://static.zemanta.com/readside/loader.js" type="text/javascript"&gt;
+     &lt;/script&gt;
+    &lt;/span&gt;
+   &lt;/div&gt;
+  &lt;/div&gt;
+ &lt;/body&gt;
+&lt;/html&gt;&lt;/p&gt;</summary></entry><entry><title>Reblog and clean HTML</title><link href="/reblog-and-clean-html.html" rel="alternate"></link><updated>2008-06-07T14:09:00+02:00</updated><author><name>markos</name></author><id>tag:,2008-06-07:reblog-and-clean-html.html</id><summary type="html">&lt;p&gt;&lt;html&gt;
+ &lt;body&gt;
+  &lt;div&gt;
+   &lt;p&gt;
+    It has been a busy week. We had a new release at
+    &lt;a class="zem_slink" href="http://www.zemanta.com/" rel="homepage" title="Zemanta ltd."&gt;
+     Zemanta
+    &lt;/a&gt;
+    , first big one that I was a part of. While things didn’t go as smoothly as we would hope, I think it has been a big success. I would like to thank all involved for their huge contribution and especially to my team, which never stops astonishing me. It’s a pleasure and a privilege to work with you all.
+   &lt;/p&gt;
+   &lt;p&gt;
+    We also made a small blunder with cursor moving while typing your post. Emptying your browser cache should remedy this. Please let me know if it doesn’t. Even though we are still in alpha, we don’t see this as an excuse for poor performance.
+   &lt;/p&gt;
+   &lt;p&gt;
+    It has been a release full of features, but two of them are especially dear to me even though I haven’t contributed much to either.
+   &lt;/p&gt;
+   &lt;p&gt;
+    &lt;strong&gt;
+     clean HTML
+    &lt;/strong&gt;
+   &lt;/p&gt;
+   &lt;p&gt;
+    We heard numerous, quite correct complaints that HTML we insert in posts is not valid or nice enough. We did this partly because of honest mistakes on our part (e.g. putting IDs on elements that can appear more than once per page) or because it is really difficult to insert an HTML fragment that will look OK everywhere, no matter the blogging platform or visual template used.
+   &lt;/p&gt;
+   &lt;p&gt;
+    At the end we came to conclusion that it is not feasible for us to do this, so we now offer you a choice. If you do nothing, you will still get the same styled HTML for related articles. But if you chose a clean xHTML option in preferences, which can be find below articles list, you will get a clean, unstyled xHTML which you can style to your liking. We still haven’t settled on final HTML for it, so any
+    &lt;a href="http://getsatisfaction.com/zemanta" title="Zemanta support forum"&gt;
+     feedback
+    &lt;/a&gt;
+    would be more than welcome.
+   &lt;/p&gt;
+   &lt;p&gt;
+    &lt;strong&gt;
+     Reblog
+    &lt;/strong&gt;
+   &lt;/p&gt;
+   &lt;p&gt;
+    The other feature I am really fond of is
+    &lt;a href="http://www.zemanta.com/reblog/" title="Reblog's homepage"&gt;
+     reblog
+    &lt;/a&gt;
+    . Using Zemanta added a little orange image at the end of the post. It was basically a small ad for us, which we really appreciated. This ad has been replaced with new image that offers your visitors an easy way to continue discussion on their blogs by choosing a paragraph from your story to quote and adding their thoughts before publishing it.
+   &lt;/p&gt;
+   &lt;p&gt;
+    You can see an example on this very post. Just press reblog button at the end. We are continuously discovering and fixing quirks in parsing HTML text out there, but if you find a new one, please let us know.
+   &lt;/p&gt;
+   &lt;p&gt;
+    So these were my favorite features. What were yours?
+   &lt;/p&gt;
+   &lt;div class="zemanta-pixie" style="margin-top: 10px; height: 15px;"&gt;
+    &lt;a class="zemanta-pixie-a" href="http://reblog.zemanta.com/zemified/06dcfd9a-19cd-488c-a265-57084a83da54/" title="Zemified by Zemanta"&gt;
+     &lt;img alt="Zemanta Pixie" class="zemanta-pixie-img" src="http://img.zemanta.com/reblog_a.png?x-id=06dcfd9a-19cd-488c-a265-57084a83da54" style="border: medium none; float: right;"/&gt;
+    &lt;/a&gt;
+   &lt;/div&gt;
+  &lt;/div&gt;
+ &lt;/body&gt;
+&lt;/html&gt;&lt;/p&gt;</summary></entry><entry><title>Terminology</title><link href="/terminology.html" rel="alternate"></link><updated>2006-08-29T12:22:00+02:00</updated><author><name>markos</name></author><id>tag:,2006-08-29:terminology.html</id><summary type="html">&lt;p&gt;&lt;html&gt;
+ &lt;body&gt;
+  &lt;div&gt;
+   &lt;p&gt;
+    It’s normal and expected that part of every industry’s terminology will look weird or even obtuse to outsiders. But when a music executive, in an otherwise very interesting
+    &lt;a href="http://www.podtech.net/technology/1015"&gt;
+     podcast
+    &lt;/a&gt;
+    , keeps referring to music lovers as consumers and to act of listening or even enjoying music as consuming it, it just makes me want to
+    &lt;span style="text-decoration:line-through;"&gt;
+     rip his jugular out
+    &lt;/span&gt;
+    scream.
+   &lt;/p&gt;
+   &lt;p&gt;
+    There’s not any less of it after I’m done listening and I wasn’t hogging it in the first place.
+   &lt;/p&gt;
+  &lt;/div&gt;
+ &lt;/body&gt;
+&lt;/html&gt;&lt;/p&gt;</summary></entry><entry><title>Pickup Photo Uploader</title><link href="/pickup-photo-uploader.html" rel="alternate"></link><updated>2006-07-08T23:07:00+02:00</updated><author><name>markos</name></author><id>tag:,2006-07-08:pickup-photo-uploader.html</id><summary type="html">&lt;p&gt;&lt;html&gt;
+ &lt;body&gt;
+  &lt;div&gt;
+   &lt;p&gt;
+    If you’re both, a Marela and Firefox 1.5 user, then you should really take a look at
+    &lt;a href="http://brian.kingsonline.net/talk/?p=185"&gt;
+     Pickup
+    &lt;/a&gt;
+    .
+    &lt;a href="http://brian.kingsonline.net"&gt;
+     Brian
+    &lt;/a&gt;
+    has, with help of others, developed an excellent
+    &lt;a href="http://briks.si/projekti/pickup/" title="Link to Pickup uploader project page"&gt;
+     uploader
+    &lt;/a&gt;
+    for multiple photo services including Marela.
+   &lt;/p&gt;
+   &lt;p&gt;
+    Extension has been translated to Slovene, but you need either a translated version of Firefox or an installed
+    &lt;a href="ftp://ftp.mozilla.org/pub/mozilla.org/firefox/releases/1.5.0.4/win32/xpi"&gt;
+     language pack
+    &lt;/a&gt;
+    together with a
+    &lt;a href="https://addons.mozilla.org/firefox/1333/"&gt;
+     language
+    &lt;/a&gt;
+    &lt;a href="https://addons.mozilla.org/firefox/356/"&gt;
+     switcher
+    &lt;/a&gt;
+    .
+   &lt;/p&gt;
+   &lt;p&gt;
+    My thanks go to all who helped making photo uploading less painful.
+   &lt;/p&gt;
+  &lt;/div&gt;
+ &lt;/body&gt;
+&lt;/html&gt;&lt;/p&gt;</summary></entry><entry><title>Delicious Library</title><link href="/delicious-library.html" rel="alternate"></link><updated>2006-06-28T14:22:00+02:00</updated><author><name>markos</name></author><id>tag:,2006-06-28:delicious-library.html</id><summary type="html">&lt;p&gt;&lt;html&gt;
+ &lt;body&gt;
+  &lt;div&gt;
+   &lt;p&gt;
+    A
+    &lt;a href="http://log.rucigaj.com/"&gt;
+     friend
+    &lt;/a&gt;
+    of mine is having a lousy year. He broke a leg, but further complications have brought him back to the hospital. I wanted to lend him some DVD’s to shorten those long hours in bed, yet who has the time to transcribe all those titles?
+   &lt;/p&gt;
+   &lt;p&gt;
+    Well, if you’re a Mac user, then there’s a program called
+    &lt;a href="http://www.delicious-monster.com/"&gt;
+     Delicious Library
+    &lt;/a&gt;
+    which lets you (among other things) input those DVD’s by simply scanning the barcode with a camera. I have to say that calling that program awesome is an understatement. I simply can’t think of a better designed piece of software. It is as if every piece of the program, every line of code or UI ornament was specifically minted for your satisfaction. True craftsmanship.
+   &lt;/p&gt;
+   &lt;p&gt;
+    I once heard that persian rugs were always created with one deliberate mistake, since only god was allowed true perfection. Well, there’s a mistake like that in Delicious Library. I tried to buy it for more than an hour, probably more like two, and it simply wouldn’t budge. You can’t buy it through a browser. You have to use its own interface which in my case simply refused to work.
+   &lt;/p&gt;
+   &lt;p&gt;
+    Finally I gave up and wrote a message about my tribulations that in hindsight could be more friendly. I’ve soon received a friendly message from Mike together with an evaluation license, which allowed me to produce the list.
+   &lt;/p&gt;
+   &lt;p&gt;
+    I often complain about the way companies treat their customers and it’s really a pleasure to write about an experience like this. Not only do they produce a remarkable product, they also go all the way when it comes to helping their customers.
+   &lt;/p&gt;
+   &lt;p&gt;
+    Now I only have to find a way to actually pay for it, since the product and people behind it more than deserve it.
+   &lt;/p&gt;
+  &lt;/div&gt;
+ &lt;/body&gt;
+&lt;/html&gt;&lt;/p&gt;</summary></entry><entry><title>Bad marketing</title><link href="/bad-marketing.html" rel="alternate"></link><updated>2006-06-24T17:21:00+02:00</updated><author><name>markos</name></author><id>tag:,2006-06-24:bad-marketing.html</id><summary type="html">&lt;p&gt;&lt;html&gt;
+ &lt;body&gt;
+  &lt;div&gt;
+   &lt;p&gt;
+    If you own a company, you’re bound to be buried under an avalanche of various offers. I got one from HP today, trying to sell me a color laser printer with the following foldout (click for a bigger picture):
+   &lt;/p&gt;
+   &lt;p&gt;
+    &lt;a href="http://www.marela.si/photos/7039/?original" title="Full size picture"&gt;
+     &lt;img alt="Print error on HP's foldout" src="http://static.marela.si/users0/markos/2/Dhkv4lp6mpC2gzRgcAzdfaaFSnc.jpg"/&gt;
+    &lt;/a&gt;
+   &lt;/p&gt;
+   &lt;p&gt;
+    Mistakes happen and printing ones are no exception. But sending such foldout to prospective buyers of printers?
+   &lt;/p&gt;
+   &lt;p&gt;
+    Now that’s simply stupid.
+   &lt;/p&gt;
+  &lt;/div&gt;
+ &lt;/body&gt;
+&lt;/html&gt;&lt;/p&gt;</summary></entry><entry><title>PS3 - cheap or expensive?</title><link href="/ps3-cheap-or-expensive.html" rel="alternate"></link><updated>2006-05-20T00:08:00+02:00</updated><author><name>markos</name></author><id>tag:,2006-05-20:ps3-cheap-or-expensive.html</id><summary type="html">&lt;p&gt;&lt;html&gt;
+ &lt;body&gt;
+  &lt;div&gt;
+   &lt;p&gt;
+    I normally don’t care much about games and write about them even less. But I get really annoyed when I see the same idiotic argument repeated again and again. As Eurogamer via TheRegister
+    &lt;a href="http://www.reghardware.co.uk/2006/05/18/sony_reveals_uk_ps3_pricing//"&gt;
+     reports
+    &lt;/a&gt;
+    :
+   &lt;/p&gt;
+   &lt;blockquote&gt;
+    &lt;p&gt;
+     SCE UK Managing Director Rat Maguire said: “I don’t think it’s an expensive machine – I think actually, it’s probably a cheap machine. If you think a Blu-Ray player by itself might be £600-700, and we’re coming in at just £425, it’s a bargain.”
+    &lt;/p&gt;
+   &lt;/blockquote&gt;
+   &lt;p&gt;
+    Cheaper than (outrageously) expensive is not necessarily cheap, it might be just less expensive. Personally, if people were screaming at me that 425 quid is too much as much as they do at Sony lately, I’d rather worry if 600 pounds price will simply be a disaster.
+   &lt;/p&gt;
+  &lt;/div&gt;
+ &lt;/body&gt;
+&lt;/html&gt;&lt;/p&gt;</summary></entry><entry><title>Gillette phone</title><link href="/gillette-phone.html" rel="alternate"></link><updated>2006-05-16T12:00:00+02:00</updated><author><name>markos</name></author><id>tag:,2006-05-16:gillette-phone.html</id><summary type="html">&lt;p&gt;&lt;html&gt;
+ &lt;body&gt;
+  &lt;div&gt;
+   &lt;p&gt;
+    How many people would buy a heavily discounted mobile phone with fixed but upfront known lifetime?
+   &lt;/p&gt;
+  &lt;/div&gt;
+ &lt;/body&gt;
+&lt;/html&gt;&lt;/p&gt;</summary></entry><entry><title>Shoemakers</title><link href="/shoemakers.html" rel="alternate"></link><updated>2006-02-15T13:49:00+01:00</updated><author><name>markos</name></author><id>tag:,2006-02-15:shoemakers.html</id><summary type="html">&lt;p&gt;&lt;html&gt;
+ &lt;body&gt;
+  &lt;div&gt;
+   &lt;p&gt;
+    What are possible reasons for a class of products to go the way of the
+    &lt;a href="http://www.davidreilly.com/dodo/" title="The Tragedy of the Dodo"&gt;
+     Dodo
+    &lt;/a&gt;
+    ?
+   &lt;/p&gt;
+   &lt;p&gt;
+    I can think of two. The one I usually hear about is development of a new class of products that make old ones redundant. Popular examples being ice or whip making industries. I don’t need ice and when I do, my fridge is there for me and I rarely feel the urge to whip our car.
+   &lt;/p&gt;
+   &lt;p&gt;
+    The other one I can think of is a change of behavior as a consequence of a different price point.
+    &lt;a href="http://www.burdamode.com/"&gt;
+     Burda
+    &lt;/a&gt;
+    used to be popular, but I can’t think of anyone who’d still buy it. Price of clothes and shoes have become so low that most people prefer buying a replacement than repairing the old one.
+   &lt;/p&gt;
+   &lt;p&gt;
+    I have flatfeet and highly value comfortable footwear. Disappearing shoemakers are a real problem for me so if anyone can recommend one in Ljubljana or Maribor, it would be greatly appreciated.
+   &lt;/p&gt;
+   &lt;p&gt;
+    Besides that, can anybody think of other reasons for product class extinctions?
+   &lt;/p&gt;
+  &lt;/div&gt;
+ &lt;/body&gt;
+&lt;/html&gt;&lt;/p&gt;</summary></entry><entry><title>Buying a light bulb</title><link href="/buying-a-lightbulb.html" rel="alternate"></link><updated>2005-12-24T00:28:00+01:00</updated><author><name>markos</name></author><id>tag:,2005-12-24:buying-a-lightbulb.html</id><summary type="html">&lt;p&gt;&lt;html&gt;
+ &lt;body&gt;
+  &lt;div&gt;
+   &lt;p&gt;
+    A light bulb in our hall died a while ago and it has taken me ages to unscrew it. To my defense, this is not your normal light bulb and the procedure involved a variety of tools, a ladder, few missteps and a couple of moments of fear. You tend to become a bit of a chicken as you get older.
+   &lt;/p&gt;
+   &lt;p&gt;
+    So today we were shopping for a replacement. Not the best day in year to do so, but since we were already out and near the store, it just made sense to fetch it. Experience has certainly been educational.
+   &lt;/p&gt;
+   &lt;p&gt;
+    We visited a store close to our home near the center of Ljubljana, which has been hit hard by newer stores that opened in suburbs. Easier parking, bigger choice and at least competitive if not cheaper prices do that to you and it’s doubtful, if you can survive something like this in the long run. It seems to me the only possible competitive advantage left is having a superior customer experience.
+   &lt;/p&gt;
+   &lt;p&gt;
+    However it’s hard to imagine that this would mean getting a shop assistant to print out a receipt that you need to carry to the only cash register in the store where you’re served by an unbelievably rude clerk who loudly lets everyone know that she’ll be gone in ten minutes if there’s her replacement or not.
+   &lt;/p&gt;
+   &lt;p&gt;
+    I can’t see myself going back again. But I was reminded of a problem observed many times before. Company problems lead to demoralized workers, which lead to work done poorly and that to even more problems for the company. It’s a vicious self-destructing cycle that is not easy to break and just as hard times can’t be completely avoided.
+   &lt;/p&gt;
+   &lt;p&gt;
+    But you’ll be gone if your customers suffer too much and it’s absolutely amazing that so often they still don’t get much more than a lip service. It’s about meeting their needs and nothing else. Good customer experience is the cheapest advertisement there is. It’s also the most effective one.
+   &lt;/p&gt;
+   &lt;p&gt;
+    Now I only need to replace the light bulb.
+   &lt;/p&gt;
+  &lt;/div&gt;
+ &lt;/body&gt;
+&lt;/html&gt;&lt;/p&gt;</summary></entry><entry><title>iTunes price hike</title><link href="/itunes-price-hike.html" rel="alternate"></link><updated>2005-11-23T16:36:00+01:00</updated><author><name>markos</name></author><id>tag:,2005-11-23:itunes-price-hike.html</id><summary type="html">&lt;p&gt;&lt;html&gt;
+ &lt;body&gt;
+  &lt;div&gt;
+   &lt;p&gt;
+    I’m not sure if there’s still a custom in our primary schools to go on a few days long school trip at the end of last year. I know there used to be one when I was there.
+   &lt;/p&gt;
+   &lt;p&gt;
+    We went to
+    &lt;a href="http://www.tz-vis.hr/"&gt;
+     Vis
+    &lt;/a&gt;
+    , a small and beautiful island in Croatia, which back then was still in the same country. It was the end of May, when sea is still very cold, at least if you’re not used to that sort of temperatures. We weren’t  and were basically stuck for a few days in a small village with nothing to do. That was back in the days, when there was no gameboys, portable DVD’s or whatever entertains kids today. However there was an ice cream parlor, where a scoop of ice cream costed only 1000 DIN compared to 2500 DIN back home.
+   &lt;/p&gt;
+   &lt;p&gt;
+    So for three days my friends and I were regularly visiting that shop, buying copious amounts of ice cream. I haven’t spent even 1 DIN on it back home, because I thought it was too expensive. I spent more than 100 000 there, because it was so ridiculously cheap and I wasn’t alone doing it.
+   &lt;/p&gt;
+   &lt;p&gt;
+    Lucky for me I didn’t get a bellyache, but I did get a lesson on how cheaper pricing doesn’t necessarily equate smaller profits. Odd that music industry still
+    &lt;a href="http://www.fmqb.com/Article.asp?id=145210" title="Article about possible iTunes price hike"&gt;
+     refuses
+    &lt;/a&gt;
+    to accept this.
+   &lt;/p&gt;
+  &lt;/div&gt;
+ &lt;/body&gt;
+&lt;/html&gt;&lt;/p&gt;</summary></entry><entry><title>The most annoying business habit</title><link href="/the-most-annoying-business-habit.html" rel="alternate"></link><updated>2005-11-22T11:55:00+01:00</updated><author><name>markos</name></author><id>tag:,2005-11-22:the-most-annoying-business-habit.html</id><summary type="html">&lt;p&gt;&lt;html&gt;
+ &lt;body&gt;
+  &lt;div&gt;
+   &lt;p&gt;
+    To me the most annoying business habit is calling someone when it’s not urgent, even though you have his email address and it should be obvious from your relationship that he prefers email to other means of communication.
+   &lt;/p&gt;
+   &lt;p&gt;
+    I hated phones since I was a wee lad, but I dislike them even more now, because:
+   &lt;/p&gt;
+   &lt;ol&gt;
+    &lt;li&gt;
+     They break my concentration; rarely for a good reason.
+    &lt;/li&gt;
+    &lt;li&gt;
+     They are invasive and inconsiderate. Just because it suits you to call me now, it doesn’t mean it suits me.
+    &lt;/li&gt;
+    &lt;li&gt;
+     Whatever is said on the phone can be denied later and sometimes is.
+    &lt;/li&gt;
+   &lt;/ol&gt;
+   &lt;p&gt;
+    Leave a trail or fuck off.
+   &lt;/p&gt;
+  &lt;/div&gt;
+ &lt;/body&gt;
+&lt;/html&gt;&lt;/p&gt;</summary></entry><entry><title>Imbecile ad messages</title><link href="/imbecile-ad-messages.html" rel="alternate"></link><updated>2005-11-18T23:43:00+01:00</updated><author><name>markos</name></author><id>tag:,2005-11-18:imbecile-ad-messages.html</id><summary type="html">&lt;p&gt;&lt;html&gt;
+ &lt;body&gt;
+  &lt;div&gt;
+   &lt;p&gt;
+    I spent a good part of last year studying things like marketing, pricing and so on, which are completely untechnical in nature, but very much essential for a success of any company. I’m far from being an expert in any of these fields, but every now and then I come across an example, that leaves me dumbfounded in its amazing stupidity. It seems like incompetence is limitless and some people receive quite a lot of money to show off theirs.
+   &lt;/p&gt;
+   &lt;p&gt;
+    Practically every textbook I’ve read taught me that the basic approach to marketing is to have a clear message of what you’re offering and why this is beneficial to people you’re selling to. With enough repetition you might have a chance of making them remember you. I certainly don’t think this is the only way to do it, but it’s probably the most tried and tested method out there.
+   &lt;/p&gt;
+   &lt;p&gt;
+    Well, there’s a new fashion in Slovenia. Create ads that don’t tell you anything. I’m not thinking of weird ads that don’t seem to have anything to do with a company or product they’re pushing. No, I mean ads with literally nothing on except a word like
+    &lt;a href="http://www.izimobil.si"&gt;
+     IZI
+    &lt;/a&gt;
+    (bastardized easy) or
+    &lt;a href="http://www.t-2.net"&gt;
+     T-2
+    &lt;/a&gt;
+    . I guess it might have been intriguing if it wasn’t so overused.
+   &lt;/p&gt;
+   &lt;p&gt;
+    However, last example with izi really takes the cake. First there were ads showing either just izi or if you were lucky, also a link to
+    &lt;a href="http://www.naizi.si"&gt;
+     naizi.si
+    &lt;/a&gt;
+    . As already mentioned, they were ads for
+    &lt;a href="http://www.izimobil.si"&gt;
+     izimobil
+    &lt;/a&gt;
+    . Now, go look at the
+    &lt;a href="http://www.naizi.si"&gt;
+     site
+    &lt;/a&gt;
+    and find anything that could point a visitor to
+    &lt;a href="http://www.izimobil.si"&gt;
+     izimobil.si
+    &lt;/a&gt;
+    .
+   &lt;/p&gt;
+   &lt;p&gt;
+    I’ll buy you a beer, if you can do it in next 24 hours. Or any other beverage of your choice.
+   &lt;/p&gt;
+   &lt;p&gt;
+    Back? I couldn’t do it either. It’s hard to imagine there isn’t one, but it’s certainly well hidden. ’cause you know, people really want to dig around the site looking for what you’re about, right?
+   &lt;/p&gt;
+   &lt;p&gt;
+    Their ad campaign has been expanded in last day or so as they came out with jumbo ads promoting izimobil more directly and they’re trying to do so with a slogan:
+   &lt;/p&gt;
+   &lt;p&gt;
+    &lt;strong&gt;
+     “Prvi slovenski virtualni operater mobilne telefonije.”
+    &lt;/strong&gt;
+   &lt;/p&gt;
+   &lt;p&gt;
+    Or in English:
+    &lt;strong&gt;
+     “First slovenian virtual mobile operator.”
+    &lt;/strong&gt;
+   &lt;/p&gt;
+   &lt;p&gt;
+    Say what?
+   &lt;/p&gt;
+   &lt;p&gt;
+    Was that supposed to persuade me to do something? Does virtual mean they’re not real? Which part should register as something positive with me?
+   &lt;/p&gt;
+   &lt;p&gt;
+    Apart from being almost meaningless, it’s also wrong, if being virtual alludes to using some
+    &lt;a href="http://www.mobitel.si"&gt;
+     other company’s
+    &lt;/a&gt;
+    mobile network.
+    &lt;a href="http://www.debitel.si/"&gt;
+     Debitel
+    &lt;/a&gt;
+    did it first, although not as a prepaid operator and I know of no one, who would find that fact alone appealing.
+   &lt;/p&gt;
+   &lt;p&gt;
+    I’m not saying their ad campaign won’t have positive effects. Hell, you can get them by showing dancing bananas and pie fights, as long as you’re willing to spend enough money on it. But somehow I doubt it’s an economical way to market your product.
+   &lt;/p&gt;
+  &lt;/div&gt;
+ &lt;/body&gt;
+&lt;/html&gt;&lt;/p&gt;</summary></entry><entry><title>Personal Data Protection</title><link href="/personal-data-protection.html" rel="alternate"></link><updated>2005-11-10T10:44:00+01:00</updated><author><name>markos</name></author><id>tag:,2005-11-10:personal-data-protection.html</id><summary type="html">&lt;p&gt;&lt;html&gt;
+ &lt;body&gt;
+  &lt;div&gt;
+   &lt;p&gt;
+    One of the downsides of running your own company is that you have to get familiar with things you could never care for and amazingly often make sense only to really twisted bureaucratic minds.
+   &lt;/p&gt;
+   &lt;p&gt;
+    In Slovenia, if you collect personal information of any kind, you have to register such database 15 days before its first use with
+    &lt;a href="http://www.mp.gov.si/index.php?id=2243&amp;amp;L=1"&gt;
+     Inspectorate for Personal Data Protection
+    &lt;/a&gt;
+    . I’m all in favor of laws protecting personal information and in general I think Slovenian laws are not too bad in that regard. But if inspectorate by their
+    &lt;a href="http://www.mp.gov.si/fileadmin/mp.gov.si/pageuploads/2005/PDF/porocila/poroc_ivop_2004.pdf"&gt;
+     own words
+    &lt;/a&gt;
+    rarely inspects cases that weren’t reported to them and all such inspections seem to be limited to state institutions, what good is such register than anyway? How does it protect anyone?
+   &lt;/p&gt;
+   &lt;p&gt;
+    You can read online
+    &lt;a href="http://www2.gov.si/mp/katalogz.nsf/(wwwUpravljavci)?OpenView&amp;amp;Count=30" title="Online register"&gt;
+     a list
+    &lt;/a&gt;
+    of companies that registered their databases together with a short summary of what kind of data they collect and what for. I’ve checked a company where I administered such database for two and a half years (never experienced an inspection of any kind) and it’s quite clear that no one actually checks if provided information is true or complete.
+   &lt;/p&gt;
+   &lt;p&gt;
+    What you’re left with is another meaningless obligation you have to fulfill. Preferably by sending them email with data AND a printed form (email only is not allowed). Nice. You can do more work so they don’t have to.
+   &lt;/p&gt;
+   &lt;p&gt;
+    E-government Slovenian style.
+   &lt;/p&gt;
+  &lt;/div&gt;
+ &lt;/body&gt;
+&lt;/html&gt;&lt;/p&gt;</summary></entry><entry><title>Blog ads</title><link href="/blog-ads.html" rel="alternate"></link><updated>2005-10-26T12:29:00+02:00</updated><author><name>markos</name></author><id>tag:,2005-10-26:blog-ads.html</id><summary type="html">&lt;p&gt;&lt;html&gt;
+ &lt;body&gt;
+  &lt;div&gt;
+   &lt;p&gt;
+    My blog has become one of many showing ads from Google. As many have said it before me, I did this mainly to learn more about them and their effectiveness. Honest. Volume of traffic on this site is simply too low to expect more money than maybe, just maybe enough to buy a CD every few months or so.
+   &lt;/p&gt;
+   &lt;p&gt;
+    The fact is that we’re thinking about ad based business models (not for this blog, but the service that’s coming up really soon now), but we lack experience with click-through based models and I believe this site might be a good enough test case to learn more about them.
+   &lt;/p&gt;
+   &lt;p&gt;
+    I have a request for you. I’m not looking for sympathy clicks and would really appreciate it, if all clicks were generated because of your personal interest in presented offers. I might earn more otherwise, but I won’t learn what I want.
+   &lt;/p&gt;
+   &lt;p&gt;
+    Thank you.
+   &lt;/p&gt;
+  &lt;/div&gt;
+ &lt;/body&gt;
+&lt;/html&gt;&lt;/p&gt;</summary></entry></feed>

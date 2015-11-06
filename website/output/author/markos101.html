@@ -36,16 +36,36 @@
             <h1 class="entry-title storytitle"><a href="/otvoritveno-predavanje.html" rel="bookmark" title="Permalink to Otvoritveno predavanje">Otvoritveno predavanje</a></h1>
 
             <div class="entry-content post-text">
-                <p>Another Slovenian announcement...</p>
-<p>Jutri, v sredo 5. oktobra ob 19:00, bo Jure Koren v
-<a href="http://www.kiberpipa.org">Kiberpipi</a> predaval o <a href="http://195.246.11.19/index.php?module=PostCalendar&amp;func=view&amp;Date=20051005&amp;tplview=&amp;viewtype=details&amp;eid=434&amp;print=">varni uporabi jezika
-PHP</a>
-na spletu.</p>
-<p>Na predavanje ste vabljeni vsi, ki bi se radi pobližje seznanili s
-pastmi PHP-ja ali pa si želite spoznati in družiti z drugimi spletnimi
-ustvarjalci.</p>
-<p>Naslednji teden pa nadaljujemo s predavanjem Frya o
-<a href="http://www.microformats.org/">mikroformatih</a>.</p>
+                <p><html>
+ <body>
+  <div>
+   <p>
+    Another Slovenian announcement…
+   </p>
+   <p>
+    Jutri, v sredo 5. oktobra ob 19:00, bo Jure Koren v
+    <a href="http://www.kiberpipa.org">
+     Kiberpipi
+    </a>
+    predaval o
+    <a href="http://195.246.11.19/index.php?module=PostCalendar&amp;func=view&amp;Date=20051005&amp;tplview=&amp;viewtype=details&amp;eid=434&amp;print=">
+     varni uporabi jezika PHP
+    </a>
+    na spletu.
+   </p>
+   <p>
+    Na predavanje ste vabljeni vsi, ki bi se radi pobližje seznanili s pastmi PHP-ja ali pa si želite spoznati in družiti z drugimi spletnimi ustvarjalci.
+   </p>
+   <p>
+    Naslednji teden pa nadaljujemo s predavanjem Frya o
+    <a href="http://www.microformats.org/">
+     mikroformatih
+    </a>
+    .
+   </p>
+  </div>
+ </body>
+</html></p>
             </div><!-- /.entry-content -->
 
             <footer class="post-metadata">
@@ -59,41 +79,63 @@ ustvarjalci.</p>
             <h1 class="entry-title storytitle"><a href="/scaling-image-buttons-part-2.html" rel="bookmark" title="Permalink to Scaling image buttons - part 2">Scaling image buttons - part 2</a></h1>
 
             <div class="entry-content post-text">
-                <p>A few days ago I
-<a href="http://markos.gaivo.net/blog/?p=31" title="Previous post on this topic">wrote</a>
-about a difficult goal of having a pleasantly looking submit button that
-is also as accessible as possible. I also had a simple
-<a href="http://markos.gaivo.net/examples/imgbutton/index.html">demo</a> that
-almost worked, but not quite.</p>
-<p>I played with it a bit more and actually got it working as far as I
-imagined I could. You can see the result
-<a href="http://markos.gaivo.net/examples/imgbutton2/index.html" title="New demo">here</a>
-(just change the size of fonts).</p>
-<p>What I did is set base font size in all browsers to a known value as
-described by
-<a href="http://www.clagnut.com/blog/348/" title="link to description on Clagnut blog">Richard</a>.
-It isn't really necessary to use 62.5%, but it does reset initial size
-to 10 pixels, which is a value that is easy to work with.</p>
-<p>Then I just set height of an image button to its real size, but using
-em's instead of pixels. In my case that's 25 px or 2.5 em's. I also set
-font-size of input button to 1 em, which for some reason is needed in
-browsers other than Safari, to enforce 10px size for fonts and 25px
-height for the button.</p>
-<p>That's it. Button is now resizable and has its original size by default.</p>
-<p>Solution, which is entirely CSS based, is not perfect and I don't
-believe it will ever be. Or at least not using incarnations of XHTML and
-CSS that we have now.</p>
-<p>As can be clearly seen on the demo, it all comes down to a choice
-between better legibility of scaled <em>type=submit</em> buttons and more
-flexible design of <em>type=image</em> buttons.</p>
-<p>I imagine I could do better with multiple sizes of an image for each
-button and using javascript swapping, but it wouldn't work where
-javascript is missing and multiple images would significantly add to
-production costs.</p>
-<p>Personally, I think web sites should have a design readable for vast
-majority of its readers even without text scaling and this trick can be
-good enough for the rest. However, at the same time I don't expect to
-use it often.</p>
+                <p><html>
+ <body>
+  <div>
+   <p>
+    A few days ago I
+    <a href="scaling-image-buttons.html" title="Previous post on this topic">
+     wrote
+    </a>
+    about a difficult goal of having a pleasantly looking submit button that is also as accessible as possible. I also had a simple
+    <a href="http://markos.gaivo.net/examples/imgbutton/index.html">
+     demo
+    </a>
+    that almost worked, but not quite.
+   </p>
+   <p>
+    I played with it a bit more and actually got it working as far as I imagined I could. You can see the result
+    <a href="http://markos.gaivo.net/examples/imgbutton2/index.html" title="New demo">
+     here
+    </a>
+    (just change the size of fonts).
+   </p>
+   <p>
+    What I did is set base font size in all browsers to a known value as described by
+    <a href="http://www.clagnut.com/blog/348/" title="link to description on Clagnut blog">
+     Richard
+    </a>
+    . It isn’t really necessary to use 62.5%, but it does reset initial size to 10 pixels, which is a value that is easy to work with.
+   </p>
+   <p>
+    Then I just set height of an image button to its real size, but using em’s instead of pixels. In my case that’s 25 px or 2.5 em’s.  I also set font-size of input button to 1 em, which for some reason is needed in browsers other than Safari, to enforce 10px size for fonts and 25px height for the button.
+   </p>
+   <p>
+    That’s it. Button is now resizable and has its original size by default.
+   </p>
+   <p>
+    Solution, which is entirely CSS based, is not perfect and I don’t believe it will ever be. Or at least not using incarnations of XHTML and CSS that we have now.
+   </p>
+   <p>
+    As can be clearly seen on the demo, it all comes down to a choice between better legibility of scaled
+    <em>
+     type=submit
+    </em>
+    buttons and more flexible design of
+    <em>
+     type=image
+    </em>
+    buttons.
+   </p>
+   <p>
+    I imagine I could do better with multiple sizes of an image for each button and using javascript swapping, but it wouldn’t work where javascript is missing and multiple images would significantly add to production costs.
+   </p>
+   <p>
+    Personally, I think web sites should have a design readable for vast majority of its readers even without text scaling and this trick can be good enough for the rest. However, at the same time I don’t expect to use it often.
+   </p>
+  </div>
+ </body>
+</html></p>
             </div><!-- /.entry-content -->
 
             <footer class="post-metadata">
@@ -107,34 +149,50 @@ use it often.</p>
             <h1 class="entry-title storytitle"><a href="/tim-bray-at-ooocon-2005.html" rel="bookmark" title="Permalink to Tim Bray at OOoCon 2005">Tim Bray at OOoCon 2005</a></h1>
 
             <div class="entry-content post-text">
-                <p>We've slept only a few hours today, to wake up early and drive in awful
-rain to Koper. <a href="http://www.tbray.org/ongoing/">Tim Bray</a> was speaking at
-<a href="http://marketing.openoffice.org/ooocon2005/">OOoCon 2005</a> and I didn't
-want to miss it.</p>
-<p><img alt="Tim Bray" src="http://markos.gaivo.net/images/bray.jpg" /></p>
-<p>I wasn't disappointed. He's an excellent speaker and even though I can't
-say I'm a dedicated user of any office suite, I found his talk very
-engaging and thought provoking.</p>
-<p>As every Wordpress user knows, blogging interfaces can be rather
-underwhelming. And Wordpress is just an example, as the same can be said
-about most of them. But users are certainly not getting help from
-current versions of suites. Sad state of Blogger plugin for Word only
-exemplifies that.</p>
-<p>Therefore OpenOffice of the future should recognize the rising
-popularity of blogs, wikis and personal voice on the web and do for them
-what yesterdays suites did for business communication (forgetting
-downsides for a moment). Making personal publishing less painful and
-more flexible.</p>
-<p>If I understood Tim correctly, he wants to go even beyond that and
-imagines a world where OpenDocument is a sort of an HTML of tomorrow.
-Meaning it's an open container for our data, that would get used by a
-different applications in myriad of ways, but would never lock our data
-in.</p>
-<p>I've been looking at Atom and its publishing protocol lately and just
-thinking about it and about Tim's talk, makes my head go dizzy from all
-the possibilities.</p>
-<p><em>Update: You can also find video and audio of keynote and other talks
-<a href="http://ooocon-ljudmila.kiberpipa.org/media/">here</a>.</em></p>
+                <p><html>
+ <body>
+  <div>
+   <p>
+    We’ve slept only a few hours today, to wake up early and drive in awful rain to Koper.
+    <a alt="Tim's page" href="http://www.tbray.org/ongoing/">
+     Tim Bray
+    </a>
+    was speaking at
+    <a alt="Conference's page" href="http://marketing.openoffice.org/ooocon2005/">
+     OOoCon 2005
+    </a>
+    and I didn’t want to miss it.
+   </p>
+   <p>
+    <img alt="Tim Bray" class="imgleft" height="160" src="http://markos.gaivo.net/images/bray.jpg" width="150"/>
+   </p>
+   <p>
+    I wasn’t disappointed. He’s an excellent speaker and even though I can’t say I’m a dedicated user of any office suite, I found his talk very engaging and thought provoking.
+   </p>
+   <p>
+    As every WordPress user knows, blogging interfaces can be rather underwhelming.  And WordPress is just an example, as the same can be said about most of them. But users are certainly not getting help from current versions of suites. Sad state of Blogger plugin for Word only exemplifies that.
+   </p>
+   <p>
+    Therefore OpenOffice of the future should recognize the rising popularity of blogs, wikis and personal voice on the web and do for them what yesterdays suites did for business communication (forgetting downsides for a moment). Making personal publishing less painful and more flexible.
+   </p>
+   <p>
+    If I understood Tim correctly, he wants to go even beyond that and imagines a world where OpenDocument is a sort of an HTML of tomorrow. Meaning it’s an open container for our data, that would get used by a different applications in myriad of ways, but would never lock our data in.
+   </p>
+   <p>
+    I’ve been looking at Atom and its publishing protocol lately and just thinking about it and about Tim’s talk, makes my head go dizzy from all the possibilities.
+   </p>
+   <p>
+    <em>
+     Update: You can also find video and audio of keynote and other talks
+     <a href="http://ooocon-ljudmila.kiberpipa.org/media/">
+      here
+     </a>
+     .
+    </em>
+   </p>
+  </div>
+ </body>
+</html></p>
             </div><!-- /.entry-content -->
 
             <footer class="post-metadata">

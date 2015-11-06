@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom"><title>A notch above a monkey</title><link href="/" rel="alternate"></link><link href="/articles/feeds/company-python-web.atom.xml" rel="self"></link><id>/</id><updated>2006-06-07T16:42:00+02:00</updated><entry><title>Marela uploader for series 60 phones - first public version</title><link href="/marela-uploader-for-series-60-phones-first-public-version.html" rel="alternate"></link><updated>2006-06-07T16:42:00+02:00</updated><author><name>markos</name></author><id>tag:,2006-06-07:marela-uploader-for-series-60-phones-first-public-version.html</id><summary type="html">&lt;p&gt;&lt;html&gt;
+ &lt;body&gt;
+  &lt;div&gt;
+   &lt;p&gt;
+    I never got a hang of “release early, release often” policy. I’m sure it works nice in practice, but it simply feels wrong to bestow an application to public use that you know is faulty. It should be my job to suffer through its problems until I can’t find any.
+   &lt;/p&gt;
+   &lt;p&gt;
+    Still,
+    &lt;a href="http://markos.gaivo.net/code/marelapys60.html" title="Link to download page"&gt;
+     here
+    &lt;/a&gt;
+    it is. First public version of a Marela uploader for series 60 phones written in Python.
+   &lt;/p&gt;
+   &lt;p&gt;
+    It took longer then I thought, mainly because I overestimated my free time, but also because it grew new features. You can either shoot a new photo or choose an existing one, set its policy and tags and upload it to your Marela account. But whatever you do, you should treat it as you hopefully treat any first release. With utmost suspicion.
+   &lt;/p&gt;
+   &lt;p&gt;
+    And you should do it in slovene, unless you change code, an easy enough task even if code is a bit messy. I didn’t try to support Flickr, but it shouldn’t be hard to do so for those (unlike me) with free time and without a conflict of interests.
+   &lt;/p&gt;
+   &lt;p&gt;
+    Have fun.
+   &lt;/p&gt;
+  &lt;/div&gt;
+ &lt;/body&gt;
+&lt;/html&gt;&lt;/p&gt;</summary></entry><entry><title>Update on my series60 Marela uploader</title><link href="/update-on-my-series60-marela-uploader.html" rel="alternate"></link><updated>2006-05-28T14:43:00+02:00</updated><author><name>markos</name></author><id>tag:,2006-05-28:update-on-my-series60-marela-uploader.html</id><summary type="html">&lt;p&gt;&lt;html&gt;
+ &lt;body&gt;
+  &lt;div&gt;
+   &lt;p&gt;
+    I thought it would be nice to give a quick update on status of my Marela uploader for series 60 mobile phones. I have a working version, which is about two annoying bugs and a missing installer away from first release.
+   &lt;/p&gt;
+   &lt;p&gt;
+    My prognosis of a good day or so development left has so far been correct. I’ve spent a bit more than a day working on it since then and I don’t see bigger obstacles in front of me. Could be wrong, but I doubt it.
+   &lt;/p&gt;
+   &lt;p&gt;
+    I’m also quite satisfied with its speed. There are few rough edges where API is lacking, but in general it’s fast enough and not visibly slower than your average mobile Java application.
+   &lt;/p&gt;
+   &lt;p&gt;
+    I’ll be busy with work for next couple of days, so I expect to release it (together with source) somewhere in the middle of next week. And Python for series 60 phones definitely rules.
+   &lt;/p&gt;
+  &lt;/div&gt;
+ &lt;/body&gt;
+&lt;/html&gt;&lt;/p&gt;</summary></entry><entry><title>Mobile user interfaces</title><link href="/mobile-user-interfaces.html" rel="alternate"></link><updated>2006-05-17T17:51:00+02:00</updated><author><name>markos</name></author><id>tag:,2006-05-17:mobile-user-interfaces.html</id><summary type="html">&lt;p&gt;&lt;html&gt;
+ &lt;body&gt;
+  &lt;div&gt;
+   &lt;p&gt;
+    I’ve been working on Marela uploader for series60 phones (those with Python support) and have had a great fun discovering the world of user interfaces on mobile devices.
+   &lt;/p&gt;
+   &lt;p&gt;
+    If you think there’s not enough space on your average web page, you really should try designing an interface for a device with stamp size screen with a resolution of
+    &lt;a href="http://www.c64.com/"&gt;
+     Commodore 64
+    &lt;/a&gt;
+    in full color mode (but luckily with far more colors) and input device that only kids could love. On top of that there’s a limited selection of existing UI controls to chose from and text can’t be too small to remain legible.
+   &lt;/p&gt;
+   &lt;p&gt;
+    Still, I think the major problems have been solved and I’m maybe a day or so of development and a decent camera phone away from first working version. I’m hoping to get it done by this weekend, but realist in me keeps screaming: “Maybe next week!”
+   &lt;/p&gt;
+  &lt;/div&gt;
+ &lt;/body&gt;
+&lt;/html&gt;&lt;/p&gt;</summary></entry><entry><title>Building FAQ from wiki pages</title><link href="/building-faq-from-wiki-pages.html" rel="alternate"></link><updated>2005-11-22T17:17:00+01:00</updated><author><name>markos</name></author><id>tag:,2005-11-22:building-faq-from-wiki-pages.html</id><summary type="html">&lt;p&gt;&lt;html&gt;
+ &lt;body&gt;
+  &lt;div&gt;
+   &lt;p&gt;
+    We use
+    &lt;a href="http://moinmoin.wikiwikiweb.de/" title="MoinMoin's homepage"&gt;
+     MoinMoin
+    &lt;/a&gt;
+    for all our documentation needs, since it simplifies almost all related tasks. It’s nice when everything is available at one place through a familiar and easy to use interface.
+   &lt;/p&gt;
+   &lt;p&gt;
+    This is why I also wanted to use it to build a FAQ for our site, which is more needed with each day. There’s an abundance of software for building and managing such documents, but I haven’t found anything that would match our needs. Apart from using wiki pages as the source of wisdom, I also wanted:
+   &lt;/p&gt;
+   &lt;ol&gt;
+    &lt;li&gt;
+     A good and fairly easy integration with our site (but not automatic).
+    &lt;/li&gt;
+    &lt;li&gt;
+     A very malleable solution, where it would be easy to change FAQ organization as requirements change.
+    &lt;/li&gt;
+   &lt;/ol&gt;
+   &lt;p&gt;
+    At the end I decided to build our own thing using
+    &lt;a href="http://www.crummy.com/software/BeautifulSoup/index.html"&gt;
+     Beautiful Soup
+    &lt;/a&gt;
+    , a python package I raved about a while ago. Since we wanted each question to have a permanent link that could be bookmarked, we had to give them an identifier that wouldn’t change even if we rephrased the question or changed the answer. The simplest way was to assign a unique number to each question as it can be seen on a
+    &lt;a href="http://markos.gaivo.net/examples/samplefaq/faq.html"&gt;
+     sample FAQ page
+    &lt;/a&gt;
+    . This way it’s easy to add and remove questions as long as you can count.
+   &lt;/p&gt;
+   &lt;p&gt;
+    MoinMoin produces very sensible HTML that is easy to work with.
+    &lt;a href="http://markos.gaivo.net/examples/samplefaq/faq.py"&gt;
+     Here’s
+    &lt;/a&gt;
+    a proof of concept module that extracts information from a page like the sample one and packs it in a dictionary with identifiers as keys and a list
+    &lt;em&gt;
+     [ question, answer ]
+    &lt;/em&gt;
+    as value.
+   &lt;/p&gt;
+   &lt;p&gt;
+    It’s not something very useful on its own, but I think it’s a nice example of what can be done quickly with existing tools like MoinMoin and BeautifulSoup.
+   &lt;/p&gt;
+   &lt;p&gt;
+    Notes: In principle there’s no need to use MoinMoin as long as produced HTML fits following assumptions:
+   &lt;/p&gt;
+   &lt;ol&gt;
+    &lt;li&gt;
+     FAQ is stored inside a
+     &lt;em&gt;
+      div
+     &lt;/em&gt;
+     element with
+     &lt;em&gt;
+      id
+     &lt;/em&gt;
+     set to
+     &lt;em&gt;
+      content
+     &lt;/em&gt;
+     .
+    &lt;/li&gt;
+    &lt;li&gt;
+     Questions are inside a heading element which also acts as a delimiter between them.
+    &lt;/li&gt;
+    &lt;li&gt;
+     Identifiers are integers.
+    &lt;/li&gt;
+   &lt;/ol&gt;
+   &lt;p&gt;
+    If it doesn’t, you’ll need to change code a bit.
+   &lt;/p&gt;
+  &lt;/div&gt;
+ &lt;/body&gt;
+&lt;/html&gt;&lt;/p&gt;</summary></entry></feed>

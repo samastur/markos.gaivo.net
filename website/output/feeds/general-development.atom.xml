@@ -1,0 +1,355 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom"><title>A notch above a monkey</title><link href="/" rel="alternate"></link><link href="/articles/feeds/general-development.atom.xml" rel="self"></link><id>/</id><updated>2012-10-02T00:07:00+02:00</updated><entry><title>Subtracting sets to get non-referenced rows in table.</title><link href="/subtracting-sets-to-get-non-referenced-rows-in-table.html" rel="alternate"></link><updated>2012-10-02T00:07:00+02:00</updated><author><name>markos</name></author><id>tag:,2012-10-02:subtracting-sets-to-get-non-referenced-rows-in-table.html</id><summary type="html">&lt;p&gt;&lt;html&gt;
+ &lt;body&gt;
+  &lt;div&gt;
+   &lt;p&gt;
+    I had a problem today. Given two database tables with first having a foreign key pointing to second, find those rows in second table, which are not pointed to from first. Well, it was slightly more complicated than this, but this was the tricky part.
+   &lt;/p&gt;
+   &lt;p&gt;
+    I tried to solve my problem using
+    &lt;a href="http://en.wikipedia.org/wiki/SQL" title="SQL description on Wikipedia"&gt;
+     SQL
+    &lt;/a&gt;
+    , but I could not. I am not saying it can’t be done, but with my limited knowledge of SQL I could not produce a query that would not perform horribly. Working on production database under heavy use made this a real no-go.
+   &lt;/p&gt;
+   &lt;p&gt;
+    After trying to come up with pure solution I finally gave up and decided to solve this problem pragmatically with some scripting. Turns out that too was more complicated than necessary. Unix shell tools are all you actually need, provided your dataset is not too big for your computer limitations (mostly memory).
+   &lt;/p&gt;
+   &lt;p&gt;
+    Instead of searching for those rows directly, I changed my plan to create two sets of rows, first containing all possible candidates and second containing those from first set which are pointed to from first table. Subtracting second set from first would therefore give me exactly those rows which aren’t pointed to.
+   &lt;/p&gt;
+   &lt;p&gt;
+    If file
+    &lt;em&gt;
+     all
+    &lt;/em&gt;
+    contains a row-per-line list of all candidates and
+    &lt;em&gt;
+     linked
+    &lt;/em&gt;
+    a similar list of those that are linked to, then you can get non-linked by running following command:
+   &lt;/p&gt;
+   &lt;p&gt;
+    &lt;code&gt;
+     cat all linked | sort | uniq -u &amp;gt; non_linked
+    &lt;/code&gt;
+   &lt;/p&gt;
+   &lt;p&gt;
+    What this does is following.
+    &lt;em&gt;
+     Sort
+    &lt;/em&gt;
+    will put duplicated rows together and
+    &lt;em&gt;
+     -u
+    &lt;/em&gt;
+    option of
+    &lt;em&gt;
+     uniq
+    &lt;/em&gt;
+    will display only unique lines which are those that can be found only in
+    &lt;em&gt;
+     all
+    &lt;/em&gt;
+    . Problem solved.
+   &lt;/p&gt;
+  &lt;/div&gt;
+ &lt;/body&gt;
+&lt;/html&gt;&lt;/p&gt;</summary></entry><entry><title>Passion</title><link href="/passion.html" rel="alternate"></link><updated>2012-09-17T23:23:00+02:00</updated><author><name>markos</name></author><id>tag:,2012-09-17:passion.html</id><summary type="html">&lt;p&gt;&lt;html&gt;
+ &lt;body&gt;
+  &lt;div&gt;
+   &lt;p&gt;
+    Hearing something often enough can really change my perspective even on things I agreed with completely beforehand. It happened again after reading for umpteenth time that passion for programming/company vision is the quality every new hire should have.
+   &lt;/p&gt;
+   &lt;p&gt;
+    &lt;em&gt;
+     Passion is a symptom, not a diagnosis.
+    &lt;/em&gt;
+   &lt;/p&gt;
+   &lt;p&gt;
+    I know a great developer with whom I would love to work again who is passionate about electronics. I am sure he likes programming and does it a lot, but it’s not where his heart truly lies. Which is alright because his other qualities more than make up for any passion deficiencies.
+   &lt;/p&gt;
+   &lt;p&gt;
+    Passion in complementary direction is doubtless a positive signal, but I simply do not believe that
+    &lt;em&gt;
+     only
+    &lt;/em&gt;
+    people working on something they care deeply about are able to do it well. We can and do regularly care, with some degree of autonomy, about more than one thing (or person).
+   &lt;/p&gt;
+   &lt;p&gt;
+    In more general sense my feeling is obviously a reaction to the end result of a process in which a useful guideline calcifies into dogma. Ideally I could get to this point sooner, but it seems unlikely. If I regularly reconsidered and doubted every piece of my mental framework, then it would mostly be mental and not much of a framework.
+   &lt;/p&gt;
+  &lt;/div&gt;
+ &lt;/body&gt;
+&lt;/html&gt;&lt;/p&gt;</summary></entry><entry><title>Shipping software frequency</title><link href="/shipping-software-frequency.html" rel="alternate"></link><updated>2008-11-30T20:45:00+01:00</updated><author><name>markos</name></author><id>tag:,2008-11-30:shipping-software-frequency.html</id><summary type="html">&lt;p&gt;&lt;html&gt;
+ &lt;body&gt;
+  &lt;div&gt;
+   &lt;p&gt;
+    I was
+    &lt;a href="http://www.paulgraham.com/artistsship.html" title="Paul's article on cost of checks"&gt;
+     reading
+    &lt;/a&gt;
+    &lt;a class="zem_slink" href="http://en.wikipedia.org/wiki/Paul_Graham" rel="wikipedia" title="Paul Graham"&gt;
+     Paul Graham
+    &lt;/a&gt;
+    today, who among other things touched on a subject that has been on my mind lately. Software shipping.
+   &lt;/p&gt;
+   &lt;p&gt;
+    At Zemanta, we usually don’t ship daily although when needed we do. We try to do a release of new features and bug fixes every 2-3 weeks and on the whole we are succeeding. Still, this is not as often as many startups profess to do and it’s certainly not as often as most of us would like. Even though I probably bear the majority of “blame” for this, I too wish we shipped more often.
+   &lt;/p&gt;
+   &lt;p&gt;
+    So why don’t we?
+   &lt;/p&gt;
+   &lt;p&gt;
+    There are many factors that define how quickly can something be shipped and even though I don’t think I have an exhaustive list, I find following most important (listed in no particular order):
+   &lt;/p&gt;
+   &lt;ul&gt;
+    &lt;li&gt;
+     code base
+    &lt;/li&gt;
+    &lt;li&gt;
+     shipping changes
+    &lt;/li&gt;
+    &lt;li&gt;
+     team
+    &lt;/li&gt;
+    &lt;li&gt;
+     tolerance of failure
+    &lt;/li&gt;
+    &lt;li&gt;
+     time
+    &lt;/li&gt;
+   &lt;/ul&gt;
+   &lt;h4&gt;
+    Code base
+   &lt;/h4&gt;
+   &lt;p&gt;
+    Simply put,
+    &lt;strong&gt;
+     better code is easier to change
+    &lt;/strong&gt;
+    and evolve with new features without introducing new bugs.
+   &lt;/p&gt;
+   &lt;p&gt;
+    Speed of development rarely results in pristine code, so we need to clean things up every now and then, which creates a need to regularly evaluate the quality of our code base and its impact on our ability to deliver.
+   &lt;/p&gt;
+   &lt;h4&gt;
+    Shipping changes
+   &lt;/h4&gt;
+   &lt;p&gt;
+    &lt;strong&gt;
+     Smaller changes are easier to check
+    &lt;/strong&gt;
+    and quicker to develop. More intrusive new code is, harder it is to reliably avoid detrimental effect on already existing code.
+   &lt;/p&gt;
+   &lt;p&gt;
+    Fixing, testing and shipping a CSS bug can be done almost instantly. Changing core of the widget usually takes a bit more effort to avoid regressions.
+   &lt;/p&gt;
+   &lt;h4&gt;
+    Team
+   &lt;/h4&gt;
+   &lt;p&gt;
+    &lt;strong&gt;
+     Better developers produce better code
+    &lt;/strong&gt;
+    more quickly.
+   &lt;/p&gt;
+   &lt;p&gt;
+    Some testing is always necessary, but there’s a direct connection between code author’s reputation and experience and trust we put in his code.
+   &lt;/p&gt;
+   &lt;h4&gt;
+    Tolerance of failure
+   &lt;/h4&gt;
+   &lt;p&gt;
+    Tolerance of users and tolerance of system to change is crucial.
+   &lt;/p&gt;
+   &lt;p&gt;
+    If you provide a service where failure is not an option, then this should affect at least how deeply tested new release has to be. It’s also important for your system to be able to revert to last working state, but sometimes this is not desired and important glitches need to be fixed as they are encountered.
+   &lt;/p&gt;
+   &lt;h4&gt;
+    Time
+   &lt;/h4&gt;
+   &lt;p&gt;
+    If your
+    &lt;strong&gt;
+     schedule
+    &lt;/strong&gt;
+    is
+    &lt;strong&gt;
+     too tight to fix bugs
+    &lt;/strong&gt;
+    found in new release, it’s
+    &lt;strong&gt;
+     too tight for release
+    &lt;/strong&gt;
+    .
+   &lt;/p&gt;
+   &lt;p&gt;
+    No matter how much you test your software and at Zemanta we do this a lot, new code will introduce new bugs. It will happen that some of them will be too big to wait for next scheduled release and need an immediate fix. If you for some reason can’t afford this, then it may be better not to ship yet.
+   &lt;/p&gt;
+   &lt;h4&gt;
+    Pendulum of change
+   &lt;/h4&gt;
+   &lt;p&gt;
+    It should be obvious from this list that no factor is set in stone and what might have been a right decision few months ago might not be best one now.
+   &lt;/p&gt;
+   &lt;p&gt;
+    A lot has changed in last few months, so the next time we address this topic, I suspect my opinion will be different than last time.
+   &lt;/p&gt;
+   &lt;div class="zemanta-pixie"&gt;
+    &lt;a class="zemanta-pixie-a" href="http://reblog.zemanta.com/zemified/81d6b87c-78c1-4e73-877d-43a1db60b537/" title="Zemified by Zemanta"&gt;
+     &lt;img alt="Reblog this post [with Zemanta]" class="zemanta-pixie-img" src="http://img.zemanta.com/reblog_e.png?x-id=81d6b87c-78c1-4e73-877d-43a1db60b537"/&gt;
+    &lt;/a&gt;
+   &lt;/div&gt;
+  &lt;/div&gt;
+ &lt;/body&gt;
+&lt;/html&gt;&lt;/p&gt;</summary></entry><entry><title>Magic Ink</title><link href="/magic-ink.html" rel="alternate"></link><updated>2007-04-21T10:56:00+02:00</updated><author><name>markos</name></author><id>tag:,2007-04-21:magic-ink.html</id><summary type="html">&lt;p&gt;&lt;html&gt;
+ &lt;body&gt;
+  &lt;div&gt;
+   &lt;p&gt;
+    Found
+    &lt;a href="http://worrydream.com/MagicInk/"&gt;
+     this
+    &lt;/a&gt;
+    at David Ascher’s blog, where he
+    &lt;a href="http://ascher.ca/blog/2007/04/19/brain-dump/"&gt;
+     said
+    &lt;/a&gt;
+    :
+   &lt;/p&gt;
+   &lt;blockquote&gt;
+    &lt;p&gt;
+     It’s a brilliant paper about user interface design, or the lack of it. In the vein of Tufte, but much more applied to software. The tail end of the paper is a little too fluffy for my taste, and the paper would have been better without it, but that’s a minor flaw on what I hope will be an influential paper. I’ll try and get people to read it, but it’s too long for many.
+    &lt;/p&gt;
+   &lt;/blockquote&gt;
+   &lt;p&gt;
+    It pretty much says it all. Don’t let its length discourage you from reading it.
+   &lt;/p&gt;
+  &lt;/div&gt;
+ &lt;/body&gt;
+&lt;/html&gt;&lt;/p&gt;</summary></entry><entry><title>Google and OCRopus</title><link href="/google-and-ocropus.html" rel="alternate"></link><updated>2007-04-10T20:25:00+02:00</updated><author><name>markos</name></author><id>tag:,2007-04-10:google-and-ocropus.html</id><summary type="html">&lt;p&gt;&lt;html&gt;
+ &lt;body&gt;
+  &lt;div&gt;
+   &lt;p&gt;
+    If implementation will be as good as intentions are, and there’s little reason to doubt it, then
+    &lt;a href="http://google-code-updates.blogspot.com/2007/04/announcing-ocropus-open-source-ocr.html" title="OCRopus announcement"&gt;
+     this
+    &lt;/a&gt;
+    thing will rock.
+   &lt;/p&gt;
+  &lt;/div&gt;
+ &lt;/body&gt;
+&lt;/html&gt;&lt;/p&gt;</summary></entry><entry><title>Publish date in TITLE tag (Wordpress)</title><link href="/publish-date-in-title-tag-wordpress.html" rel="alternate"></link><updated>2006-04-23T20:14:00+02:00</updated><author><name>markos</name></author><id>tag:,2006-04-23:publish-date-in-title-tag-wordpress.html</id><summary type="html">&lt;p&gt;&lt;html&gt;
+ &lt;body&gt;
+  &lt;div&gt;
+   &lt;p&gt;
+    I think it was Jon Udell who gave the advice to include information about author and date of publication in the title tag of each document. I think it’s a smashing idea, but I have a problem.
+   &lt;/p&gt;
+   &lt;p&gt;
+    I have no clue how to do it in WordPress. It seems every WordPress
+    &lt;a href="http://codex.wordpress.org/Template_Tags#Date_and_Time_tags"&gt;
+     date or title tag
+    &lt;/a&gt;
+    wants to reside inside of its loop and document title is firmly outside of it. Anyone have any ideas?
+   &lt;/p&gt;
+   &lt;p&gt;
+    &lt;em&gt;
+     Update:
+    &lt;/em&gt;
+    &lt;em&gt;
+     &lt;a href="http://www.friedcellcollective.net/"&gt;
+      Fry’s
+     &lt;/a&gt;
+    &lt;/em&gt;
+    &lt;em&gt;
+     plugin came to rescue .
+     &lt;br/&gt;
+    &lt;/em&gt;
+   &lt;/p&gt;
+  &lt;/div&gt;
+ &lt;/body&gt;
+&lt;/html&gt;&lt;/p&gt;</summary></entry><entry><title>Mobile phones shopping</title><link href="/mobile-phones-shopping.html" rel="alternate"></link><updated>2006-04-04T20:38:00+02:00</updated><author><name>markos</name></author><id>tag:,2006-04-04:mobile-phones-shopping.html</id><summary type="html">&lt;p&gt;&lt;html&gt;
+ &lt;body&gt;
+  &lt;div&gt;
+   &lt;p&gt;
+    I recently noticed a changing behavior in how my family and friends go about buying a new mobile phone. The reason they have a mobile is to receive and make phone calls, but their selection of a model to buy is based mostly on secondary functions like built-in camera.
+   &lt;/p&gt;
+   &lt;p&gt;
+    In itself this isn’t surprising. It’s normal and common that when features become ubiquitous, competition and differentiation moves elsewhere. Basic functionality of phones has certainly been fulfilled and it’s difficult to add a new call-related feature that would be a significant progress.
+   &lt;/p&gt;
+   &lt;p&gt;
+    But what I find utterly fascinating is something else. Even though primary functions play no part in selection of a phone, they are still the main if not the only reason why we have them. In fact, they are what we use most and we wouldn’t buy phones otherwise.
+   &lt;/p&gt;
+   &lt;p&gt;
+    So here’s an interesting dichotomy. Which phone is bought and when has nothing to do with why we have it or little to do with how we use it. We think we’re buying a phone and we’ll use it as a phone most of the time, but it’s features like camera or wifi that actually make a sale.
+   &lt;/p&gt;
+   &lt;p&gt;
+    I’ve been thinking about it for a couple of days and I can’t think of any other product or service, where buyers would display the same behavior, but I have no doubt that this is only due my lack of imagination.
+   &lt;/p&gt;
+  &lt;/div&gt;
+ &lt;/body&gt;
+&lt;/html&gt;&lt;/p&gt;</summary></entry><entry><title>Need for originality</title><link href="/need-for-originality.html" rel="alternate"></link><updated>2005-08-23T16:23:00+02:00</updated><author><name>markos</name></author><id>tag:,2005-08-23:need-for-originality.html</id><summary type="html">&lt;p&gt;&lt;html&gt;
+ &lt;body&gt;
+  &lt;div&gt;
+   &lt;p&gt;
+    We’ve been working on our project for a very long time and it’s been clear all along, that our site, when it’s finally revealed, will look and act very similar to what is already out there, although in a different language and with many, sometimes subtle, differences.
+   &lt;/p&gt;
+   &lt;p&gt;
+    So, should I feel offended or be afraid, as has been suggested by some, of being accused of plagiarism? Or more importantly, should I make a special effort to be different?
+   &lt;/p&gt;
+   &lt;p&gt;
+    I don’t think so. When revealed, site will indeed be very similar to its inspiration. I don’t expect this will last long and I think in few months it will be clear that we took a different approach, but at least at first, it will look like a little brother of some other well known website. I already talked about this and there’s little sense in doing it again.
+   &lt;/p&gt;
+   &lt;p&gt;
+    Real question therefore is, how valuable and important is originality or when is it important to be original?
+   &lt;/p&gt;
+   &lt;p&gt;
+    I think it’s important to try to build something better than what is already out there. This may not be always completely true. E.g. it might be sensible to build a localized copy of established global service to bring it to people who would otherwise be kept away because of a language barrier.
+   &lt;/p&gt;
+   &lt;p&gt;
+    However, I find this kind of development doesn’t contribute much to my personal happiness and is hence not really something I’d like to pursue in the future. But I also don’t value difference just for the difference sake. I think if something works well and I’m not able to significantly improve on it, there’s no good reason to build something else just to be original.
+   &lt;/p&gt;
+   &lt;p&gt;
+    I believe almost every web retailer’s website looks more or less like a copy of Amazon, because their design works well. It also means less of learning curve for new visitors, which is a nice thing as well.
+   &lt;/p&gt;
+   &lt;p&gt;
+    So what do I do?
+   &lt;/p&gt;
+   &lt;p&gt;
+    If something works well, I’ll use it. If it doesn’t, look at how I could improve it. But before I actually do anything, is the difference big enough to bother actually creating it?
+   &lt;/p&gt;
+  &lt;/div&gt;
+ &lt;/body&gt;
+&lt;/html&gt;&lt;/p&gt;</summary></entry><entry><title>Our stuff sucks</title><link href="/our-stuff-sucks.html" rel="alternate"></link><updated>2005-08-05T20:35:00+02:00</updated><author><name>markos</name></author><id>tag:,2005-08-05:our-stuff-sucks.html</id><summary type="html">&lt;p&gt;&lt;html&gt;
+ &lt;body&gt;
+  &lt;div&gt;
+   &lt;p&gt;
+    When I started my company with a friend two years ago, I had many plans for it and myself. One of them was to make interesting, innovative stuff. Hard problems others weren’t tackling or we thought we could do better.
+   &lt;/p&gt;
+   &lt;p&gt;
+    A year and a half ago we started to work on what is slowly, but clearly becoming Marela (which should see light of the day this autumn). It’s interesting how you start working on one clear idea and with each week that passes, your idea and your view change a bit until after a while, they are very much different from what you set out to do. Same passions, same goals, but quite a different result.
+   &lt;/p&gt;
+   &lt;p&gt;
+    What really changed in last year is what I personally want to do. I’d still like to do things that nobody has done yet, but more important now is to take ideas from others and try to make them more accessible, easier to comprehend and use. I’ve noticed that most of my innovating these days, as much as it happens, is directed toward these goals.
+   &lt;/p&gt;
+   &lt;p&gt;
+    Lately I’ve been having awful time using stuff made by Apple. Ipod refuses to wake up from sleep without reboot, Powerbook added broken Superdrive to random freezes and new iMac seems to find ever new ways to annoy me. So I’ve spent a good amount of time last week to recover pictures from last vacation and fix other random iPhoto quirks and while I was doing that, a wonderful thing happened.
+   &lt;/p&gt;
+   &lt;p&gt;
+    Something shifted in my head and for a while I could see clearly how computers look to people, who unlike me haven’t spent a better part of two decades behind a keyboard, but use them with the same understanding and confidence as I can use lathe.
+   &lt;/p&gt;
+   &lt;p&gt;
+    God, it’s awful how much crap we produced and still produce. I’ve never seen so much wisdom in Jacob Nielsen’s words as in those moments. Gray backgrounds with blue links and black text might be dull, but you certainly don’t have to guess a lot on what to click after you’ve seen one such page.
+   &lt;/p&gt;
+   &lt;p&gt;
+    Luckily the insight isn’t completely gone, but I wish I’d keep more of it. I’m not saying we should abandon everything and return to bleak past, especially since the problem is self correcting one, but I do feel impelled to make my work more accessible to more people.
+   &lt;/p&gt;
+   &lt;p&gt;
+    In a way, I think there’s a dilemma of who you want to reach. I believe younger generations don’t and won’t have problems with most of the things designers and programmers come up since computers and technology have always been a large part of their lives. However, in general, it’s a bigger problem for those, who haven’t picked up idioms of computer user interfaces young enough.
+   &lt;/p&gt;
+   &lt;p&gt;
+    Personally, I think making things easier for later makes it easier for former too and therefore a reasonable goal to pursue.
+   &lt;/p&gt;
+  &lt;/div&gt;
+ &lt;/body&gt;
+&lt;/html&gt;&lt;/p&gt;</summary></entry></feed>

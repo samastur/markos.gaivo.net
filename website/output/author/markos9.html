@@ -36,84 +36,92 @@
             <h1 class="entry-title storytitle"><a href="/save-bandwidth-switch.html" rel="bookmark" title="Permalink to Save bandwidth switch">Save bandwidth switch</a></h1>
 
             <div class="entry-content post-text">
-                <p>Michal Migurski recently posted <a href="http://mike.teczno.com/notes/bandwidth.html">an
-article</a> about download
-sizes of popular websites. I couldn't replicate his results^<span
-id="save-bandwidth-1"><a href="#save-bandwidth-note-1">[1]</a></span>^, but it is
-obvious that gist of Michal's article is correct, websites have indeed
-ballooned significantly in last few years.</p>
-<p>This blog's homepage has a footprint of around 250KB-270KB^<span
-id="save-bandwidth-2"><a href="#save-bandwidth-note-2">[2]</a></span>^. About 90%
-of its size are fonts and <a href="http://jquery.com/">jQuery</a> which is a big
-penalty for making it look and behave a bit nicer. So should I remove
-those parts?</p>
-<p>Well, for most visitors to this website that difference doesn't matter.
-Pages for them are neither slow nor expensive to load. Unless of course
-they are doing it over your average hotel Wi-Fi or a slow mobile network
-where speed around 56Kb/s is not unheard of. On such connection it would
-take about half a minute to load this blog. It can also cost more than
-10 euro cents to load it when roaming in Europe.</p>
-<p>It would be great if I could offer a choice of serving bigger and nicer
-or smaller and faster version depending on visitors needs.</p>
-<p>Measuring speed is not easy, but certainly doable as Gmail has
-demonstrated. You could start a timer immediately in page header,
-measure how much time it takes to load a smaller version of a website
-and if that happened quickly enough upgrade it to full bling. Android
-browser also added support for
-<a href="http://dvcs.w3.org/hg/dap/raw-file/tip/network-api/index.html">navigator.connection</a>
-Javascript property which, where it exists, probably has more details
-than you would need.</p>
-<p>However there is no way to measure price of a visit. Even if I could,
-how would I decide what is too expensive for an anonymous reader and
-should I make such decisions at all? I think not.</p>
-<p>Gmail's approach is really just a band-aid over what should be a
-visitor's decision. I use same laptop and browser at home and while I
-travel, experiencing all combinations of connection speed and pricing. I
-never know how much it will cost me to visit a page, but I always learn
-quickly if I would prefer something small or full-featured. There is
-just no way I can communicate that preference.</p>
-<p>It would be great if my browser had a switch for this purpose, like
-Firefox's "Work Offline" toggle. So if I switched to bandwidth saving
-mode, then every subsequent request to web server would communicate my
-preference with a HTTP header field like:</p>
-<blockquote>
-<p>X-Bandwidth: save</p>
-</blockquote>
-<p>In principle you could have multiple levels of bandwidth consumption,
-but that would likely be an overkill. Common practice suggests that at
-most two levels would really get used, one aimed at mobile devices and
-other at desktop.</p>
-<p>Header like that might be enough, but even better would be if Javascript
-environment got another property describing current state of user's
-preference (like say <em>navigator.bandwidth</em>). Coupled with a bandwidth
-event triggered on change you could really optimize every modern web
-page, even those with more complicated loading of resources and
-execution paths.</p>
-<p>Right now such functionality doesn't exist or at least I couldn't find
-it (I even searched Mozilla's bug database for any future plans). I
-think my proposal is both user and developer friendly and workable. If
-you can think of a reason why it would be problematic, then I would
-really like to hear it.</p>
-<ol>
-<li>
-<div id="save-bandwidth-note-1">
-
-</div>
-
-<p>Pages are often personalized for visitor. Developer tools of
-different browsers also don't report same sizes. They also report
-amount of data transferred not the size of that data once unpacked.
-Almost 2M of Twitter's Javascript is thus reduced into page of
-"only" about 1MB of data transferred. And that to display couple of
-sentences.<a href="#save-bandwidth-1">↩</a>
-2.  <div id="save-bandwidth-note-2"></p>
-</div>
-
-<p>Depends on browser used. Variation in sizes is probably due
-different formats of fonts used by browsers. It also changed once I
-published this post.<a href="#save-bandwidth-2">↩</a></p>
-</li>
-</ol>
+                <p><html>
+ <body>
+  <div>
+   <p>
+    Michal Migurski recently posted
+    <a href="http://mike.teczno.com/notes/bandwidth.html">
+     an article
+    </a>
+    about download sizes of popular websites. I couldn’t replicate his results
+    <sup>
+     <a href="#save-bandwidth-note-1" id="save-bandwidth-1">
+      [1]
+     </a>
+    </sup>
+    , but it is obvious that gist of Michal’s article is correct, websites have indeed ballooned significantly in last few years.
+   </p>
+   <p>
+    This blog’s homepage has a footprint of around 250KB-270KB
+    <sup>
+     <a href="#save-bandwidth-note-2" id="save-bandwidth-2">
+      [2]
+     </a>
+    </sup>
+    . About 90% of its size are fonts and
+    <a href="http://jquery.com/">
+     jQuery
+    </a>
+    which is a big penalty for making it look and behave a bit nicer. So should I remove those parts?
+   </p>
+   <p>
+    Well, for most visitors to this website that difference doesn’t matter. Pages for them are neither slow nor expensive to load. Unless of course they are doing it over your average hotel Wi-Fi or a slow mobile network where speed around 56Kb/s is not unheard of. On such connection it would take about half a minute to load this blog. It can also cost more than 10 euro cents to load it when roaming in Europe.
+   </p>
+   <p>
+    It would be great if I could offer a choice of serving bigger and nicer or smaller and faster version depending on visitors needs.
+   </p>
+   <p>
+    Measuring speed is not easy, but certainly doable as Gmail has demonstrated. You could start a timer immediately in page header, measure how much time it takes to load a smaller version of a website and if that happened quickly enough upgrade it to full bling. Android browser also added support for
+    <a href="http://dvcs.w3.org/hg/dap/raw-file/tip/network-api/index.html">
+     navigator.connection
+    </a>
+    Javascript property which, where it exists, probably has more details than you would need.
+   </p>
+   <p>
+    However there is no way to measure price of a visit. Even if I could, how would I decide what is too expensive for an anonymous reader and should I make such decisions at all? I think not.
+   </p>
+   <p>
+    Gmail’s approach is really just a band-aid over what should be a visitor’s decision. I use same laptop and browser at home and while I travel, experiencing all combinations of connection speed and pricing. I never know how much it will cost me to visit a page, but I always learn quickly if I would prefer something small or full-featured. There is just no way I can communicate that preference.
+   </p>
+   <p>
+    It would be great if my browser had a switch for this purpose, like Firefox’s “Work Offline” toggle. So if I switched to bandwidth saving mode, then every subsequent request to web server would communicate my preference with a HTTP header field like:
+   </p>
+   <blockquote>
+    <p>
+     X-Bandwidth: save
+    </p>
+   </blockquote>
+   <p>
+    In principle you could have multiple levels of bandwidth consumption, but that would likely be an overkill. Common practice suggests that at most two levels would really get used, one aimed at mobile devices and other at desktop.
+   </p>
+   <p>
+    Header like that might be enough, but even better would be if Javascript environment got another property describing current state of user’s preference (like say
+    <em>
+     navigator.bandwidth
+    </em>
+    ). Coupled with a bandwidth event triggered on change you could really optimize every modern web page, even those with more complicated loading of resources and execution paths.
+   </p>
+   <p>
+    Right now such functionality doesn’t exist or at least I couldn’t find it (I even searched Mozilla’s bug database for any future plans). I think my proposal is both user and developer friendly and workable. If you can think of a reason why it would be problematic, then I would really like to hear it.
+   </p>
+   <ol>
+    <li id="save-bandwidth-note-1">
+     Pages are often personalized for visitor. Developer tools of different browsers also don’t report same sizes. They also report amount of data transferred not the size of that data once unpacked. Almost 2M of Twitter’s Javascript is thus reduced into page of “only” about 1MB of data transferred. And that to display couple of sentences.
+     <a href="#save-bandwidth-1">
+      ↩
+     </a>
+    </li>
+    <li id="save-bandwidth-note-2">
+     Depends on browser used. Variation in sizes is probably due different formats of fonts used by browsers. It also changed once I published this post.
+     <a href="#save-bandwidth-2">
+      ↩
+     </a>
+    </li>
+   </ol>
+  </div>
+ </body>
+</html></p>
             </div><!-- /.entry-content -->
 
             <footer class="post-metadata">
@@ -127,47 +135,60 @@ published this post.<a href="#save-bandwidth-2">↩</a></p>
             <h1 class="entry-title storytitle"><a href="/beta-prefix-algorithm-for-css.html" rel="bookmark" title="Permalink to -beta- prefix algorithm for CSS">-beta- prefix algorithm for CSS</a></h1>
 
             <div class="entry-content post-text">
-                <p>These have been eventful couple of days for web developers. CSS Working
-Group chair <a href="http://www.glazman.org/weblog/dotclear/index.php?post/2012/02/09/CALL-FOR-ACTION%3A-THE-OPEN-WEB-NEEDS-YOU-NOW">called on
-everyone</a>to
-use all (most?) vendor prefixes and stop making websites for WebKit
-which is becoming a new (mobile) IE6. Responses have been numerous,
-<a href="http://www.quirksmode.org/blog/archives/2012/02/the_vendor_pref.html" title="PPK's first article about prefixes">including</a>
-<a href="http://www.quirksmode.org/blog/archives/2012/02/alpha_and_beta.html" title="PPK's follow up to first article">ppk</a>
-who in his usual obnoxious manner ^<span
-id="beta-prefix-1"><a href="#beta-prefix-note-1">[1]</a></span>^ made some good
-points. Testing on mobile devices is an unsolved problem (who wants or
-can afford to buy so many almost immediately obsolete gadgets?) and
-introducing -beta- (maybe also -alpha-) prefix would simplify our lives
-while keeping most benefits of vendor prefixes.</p>
-<p>I like -beta- idea and I think adding -alpha- might be even better.
-There's still a problem of resolving syntax conflicts between different
-implementation which I think has a simple solution that closely mimics
-what browsers already do:</p>
-<p><em>When parsing CSS browsers</em> <em>should apply the last
-matching -beta-/-alpha- directive they fully understand.</em></p>
-<p>Browsers already ignore directives they don't understand and they apply
-last directive found when there are multiple candidates for a DOM node.</p>
-<p>Such behavior would give us less CSS code to write and maintain, have
-predictable behavior and keep browser experimentation without favoring
-one. I have troubles finding negative sides of this approach, but do let
-me know if you can think of one.</p>
-<ol>
-<li>
-<div id="beta-prefix-note-1">
-
-</div>
-
-<p>I deeply dislike his complaining about simplistic view of others
-while himself generalizing and name-calling (the lazy and stupid lot
-of us). Alas it's not good to read only people you like and agree
-with.<a href="#beta-prefix-1">↩</a>
-2.  Almost everything I write on this blog has an intended audience of
-one: me (no, really!). Why I sometimes write posts like this, which
-don't, is a mistery  since their expected and actual effect on
-anyone is...none.</p>
-</li>
-</ol>
+                <p><html>
+ <body>
+  <div>
+   <p>
+    These have been eventful couple of days for web developers. CSS Working Group chair
+    <a href="http://www.glazman.org/weblog/dotclear/index.php?post/2012/02/09/CALL-FOR-ACTION%3A-THE-OPEN-WEB-NEEDS-YOU-NOW">
+     called on everyone
+    </a>
+    to use all (most?) vendor prefixes and stop making websites for WebKit which is becoming a new (mobile) IE6. Responses have been numerous,
+    <a href="http://www.quirksmode.org/blog/archives/2012/02/the_vendor_pref.html" title="PPK's first article about prefixes">
+     including
+    </a>
+    <a href="http://www.quirksmode.org/blog/archives/2012/02/alpha_and_beta.html" title="PPK's follow up to first article">
+     ppk
+    </a>
+    who in his usual obnoxious manner
+    <sup>
+     <a href="#beta-prefix-note-1" id="beta-prefix-1">
+      [1]
+     </a>
+    </sup>
+    made some good points. Testing on mobile devices is an unsolved problem (who wants or can afford to buy so many almost immediately obsolete gadgets?) and introducing -beta- (maybe also -alpha-) prefix would simplify our lives while keeping most benefits of vendor prefixes.
+   </p>
+   <p>
+    I like -beta- idea and I think adding -alpha- might be even better. There’s still a problem of resolving syntax conflicts between different implementation which I think has a simple solution that closely mimics what browsers already do:
+   </p>
+   <p>
+    <em>
+     When parsing CSS browsers
+    </em>
+    <em>
+     should apply the last matching -beta-/-alpha- directive they fully understand.
+    </em>
+   </p>
+   <p>
+    Browsers already ignore directives they don’t understand and they apply last directive found when there are multiple candidates for a DOM node.
+   </p>
+   <p>
+    Such behavior would give us less CSS code to write and maintain, have predictable behavior and keep browser experimentation without favoring one. I have troubles finding negative sides of this approach, but do let me know if you can think of one.
+   </p>
+   <ol>
+    <li id="beta-prefix-note-1">
+     I deeply dislike his complaining about simplistic view of others while himself generalizing and name-calling (the lazy and stupid lot of us). Alas it’s not good to read only people you like and agree with.
+     <a href="#beta-prefix-1">
+      ↩
+     </a>
+    </li>
+    <li>
+     Almost everything I write on this blog has an intended  audience of one:  me (no, really!). Why I sometimes write posts like  this, which don’t, is a mistery  since their expected and actual effect on anyone  is…none.
+    </li>
+   </ol>
+  </div>
+ </body>
+</html></p>
             </div><!-- /.entry-content -->
 
             <footer class="post-metadata">
@@ -181,60 +202,66 @@ anyone is...none.</p>
             <h1 class="entry-title storytitle"><a href="/on-tumblr.html" rel="bookmark" title="Permalink to On Tumblr">On Tumblr</a></h1>
 
             <div class="entry-content post-text">
-                <p><strong>Warning:</strong> this whole post is not much else than a series of
-speculations and amateur psychoanalysis. If you can’t find fun in that,
-well, then start reading something else.</p>
-<p>I started using
-<a href="http://en.wikipedia.org/wiki/Internet_Relay_Chat" title="Description of IRC">IRC</a>
-almost two decades ago, soon after I came on Internet. I still do, but
-it’s now a very different experience mainly because today almost
-everyone is connected. When everyone is around, you tend to hang out
-largely with people you already know. Back then I chatted with faceless
-handles and what I found especially interesting were strong feelings and
-a sense of familiarity that developed between people who would never
-meet.</p>
-<p>I thought of this recently again while discussing appeal of
-<a href="https://www.tumblr.com/">Tumblr</a> and a
-<a href="http://www.merriam-webster.com/dictionary/neologism" title="Definition of neologism">neologism</a>
-that I like — tumblrcrush. It wasn’t explained, but I understand it as
-having a crush like feeling provoked by a Tumblr blog.</p>
-<p>I never heard of something like that related to
-<a href="http://wordpress.org/">WordPress</a> although I am sure it happens. But I
-feel safe in hypothesizing that such visceral affection for a blog and
-by proxy for its creator happens more often on Tumblr.</p>
-<p>Now, this is surprising on surface because so many Tumblr blogs look
-like nothing more than collages of other people’s stuff whereas old
-school blogs often have more what is disgustingly called original
-content and are more verbose — just like this one. It wouldn’t be
-unreasonable to expect that writing at length about things that interest
-me would reveal more about who I am then things I collect. After all I
-am more likely to divulge facts about me through my own writing than
-through other people’s work.</p>
-<p>However when I write, it’s not really me who does it. Writing, even when
-trying to avoid self-censorship (unsuccessfully), engages a different
-part of a brain than responding to an image or a passage of text. I
-write so I can think, but even when not, I don’t just type a <a href="http://en.wikipedia.org/wiki/Ulysses_%28novel%29" title="Ulysses - an example of such work">Joyce-like
-stream of
-consciousness</a>.
-I form sentences I would prefer to utter, but usually don’t.</p>
-<p>The genius of Tumblr (even with some serious interface screw-ups) is
-that it makes it easy to republish found stuff <em>and</em> really inviting to
-do it. Those pieces shared and reshared are revealing exactly because
-they were created by others. They never had time to be distilled and
-redacted closer to our self-image because they weren’t selected to
-represent us. Instead they are mostly curated by finder’s emotional
-response and its those emotions, part of finder’s subconscious (soul),
-that sometimes touches us.</p>
-<p>Because what does it really mean to know someone? We may admire
-intellect, but we relate to the person. We don’t know a person until we
-empathize with her and those small shared bits are conduits for
-feelings, not information.</p>
-<p>This doesn’t mean that you can’t write long, elaborate posts on Tumblr.
-Many indeed do. Just like many use WordPress to post stuff they found in
-some web back-alley. But it is Tumblr’s whole fun (and) social
-experience — unlike a serious, CMS-like sterility of WordPress — that
-nudges you into a different behavior. In creating we are guided by our
-tools with what they suggest, not what they make possible.</p>
+                <p><html>
+ <body>
+  <div>
+   <p>
+    <strong>
+     Warning:
+    </strong>
+    this whole post is not much else than a series of speculations and amateur psychoanalysis. If you can’t find fun in that, well, then start reading something else.
+   </p>
+   <p>
+    I started using
+    <a href="http://en.wikipedia.org/wiki/Internet_Relay_Chat" title="Description of IRC">
+     IRC
+    </a>
+    almost two decades ago, soon after I came on Internet. I still do, but it’s now a very different experience mainly because today almost everyone is connected. When everyone is around, you tend to hang out largely with people you already know. Back then I chatted with faceless handles and what I found especially interesting were strong feelings and a sense of familiarity that developed between people who would never meet.
+   </p>
+   <p>
+    I thought of this recently again while discussing appeal of
+    <a href="https://www.tumblr.com/">
+     Tumblr
+    </a>
+    and a
+    <a href="http://www.merriam-webster.com/dictionary/neologism" title="Definition of neologism">
+     neologism
+    </a>
+    that I like — tumblrcrush. It wasn’t explained, but I understand it as having a crush like feeling provoked by a Tumblr blog.
+   </p>
+   <p>
+    I never heard of something like that related to
+    <a href="http://wordpress.org/">
+     WordPress
+    </a>
+    although I am sure it happens. But I feel safe in hypothesizing that such visceral affection for a blog and by proxy for its creator happens more often on Tumblr.
+   </p>
+   <p>
+    Now, this is surprising on surface because so many Tumblr blogs look like nothing more than collages of other people’s stuff whereas old school blogs often have more what is disgustingly called original content and are more verbose — just like this one. It wouldn’t be unreasonable to expect that writing at length about things that interest me would reveal more about who I am then things I collect. After all I am more likely to divulge facts about me through my own writing than through other people’s work.
+   </p>
+   <p>
+    However when I write, it’s not really me who does it. Writing, even when trying to avoid self-censorship (unsuccessfully), engages a different part of a brain than responding to an image or a passage of text. I write so I can think, but even when not, I don’t just type a
+    <a href="http://en.wikipedia.org/wiki/Ulysses_%28novel%29" title="Ulysses - an example of such work">
+     Joyce-like stream of consciousness
+    </a>
+    . I form sentences I would prefer to utter, but usually don’t.
+   </p>
+   <p>
+    The genius of Tumblr (even with some serious interface screw-ups) is that it makes it easy to republish found stuff
+    <em>
+     and
+    </em>
+    really inviting to do it. Those pieces shared and reshared are revealing exactly because they were created by others. They never had time to be distilled and redacted closer to our self-image because they weren’t selected to represent us. Instead they are mostly curated by finder’s emotional response and its those emotions, part of finder’s subconscious (soul), that sometimes touches us.
+   </p>
+   <p>
+    Because what does it really mean to know someone? We may admire intellect, but we relate to the person. We don’t know a person until we empathize with her and those small shared bits are conduits for feelings, not information.
+   </p>
+   <p>
+    This doesn’t mean that you can’t write long, elaborate posts on Tumblr. Many indeed do. Just like many use WordPress to post stuff they found in some web back-alley. But it is Tumblr’s whole fun (and) social experience — unlike a serious, CMS-like sterility of WordPress — that nudges you into a different behavior. In creating we are guided by our tools with what they suggest, not what they make possible.
+   </p>
+  </div>
+ </body>
+</html></p>
             </div><!-- /.entry-content -->
 
             <footer class="post-metadata">

@@ -13,6 +13,7 @@
 
         <link href="/articles/feeds/atom.xml" type="application/atom+xml" rel="alternate" title="A notch above a monkey Full Atom Feed" />
         <link href="/articles/feeds/rss.xml" type="application/rss+xml" rel="alternate" title="A notch above a monkey Full RSS Feed" />
+        <link href="/articles/feeds/javascript.atom.xml" type="application/atom+xml" rel="alternate" title="A notch above a monkey Categories Atom Feed" />
 </head>
 
 <body>
@@ -36,33 +37,50 @@
             <h1 class="entry-title storytitle"><a href="/the-callee-is-not-available.html" rel="bookmark" title="Permalink to The callee is not available">The callee is not available</a></h1>
 
             <div class="entry-content post-text">
-                <p>Sometimes you get this feeling of really mastering a technology. As if
-nothing can surprise you and you've seen it all. If you're lucky, you'll
-get a message like this before you become too cocky:</p>
-<blockquote>
-<p>Error: The callee (server [not server application]) is not available
-and disappeared; all connections are invalid. The call did not
-execute.</p>
-</blockquote>
-<p>Do you know what it means? Neither did I, but somebody else
-<a href="http://www.thescripts.com/forum/post297987-2.html">did</a>:</p>
-<blockquote>
-<p>It occurs in the context of pages using javascript to generate page<br />
- content and communicate between windows, one of which windows is
-closed.</p>
-<p>Possibly<br />
- * page A pops up page B in the link and page B wants to communicate
-with<br />
- page A, but page A has been closed (possibly by you or a popup
-killer?), or<br />
- * Internet Explorer has become totally confused and it will work in<br />
- another browser, or<br />
- * poor page design.</p>
-</blockquote>
-<p>Or in my case forgetting Javascript passes references when assigning
-objects which become null, if referenced object was stored in now
-defunct window. The problematic browser in question was of course
-Internet Explorer.</p>
+                <p><html>
+ <body>
+  <div>
+   <p>
+    Sometimes you get this feeling of really mastering a technology. As if nothing can surprise you and you’ve seen it all. If you’re lucky, you’ll get a message like this before you become too cocky:
+   </p>
+   <blockquote>
+    <p>
+     Error: The callee (server [not server application]) is not available and disappeared; all connections are invalid. The call did not execute.
+    </p>
+   </blockquote>
+   <p>
+    Do you know what it means? Neither did I, but somebody else
+    <a href="http://www.thescripts.com/forum/post297987-2.html">
+     did
+    </a>
+    :
+   </p>
+   <blockquote>
+    <p>
+     It occurs in the context of pages using javascript to generate page
+     <br/>
+     content and communicate between windows, one of which windows is closed.
+    </p>
+    <p>
+     Possibly
+     <br/>
+     * page A pops up page B in the link and page B wants to communicate with
+     <br/>
+     page A, but page A has been closed (possibly by you or a popup killer?), or
+     <br/>
+     * Internet Explorer has become totally confused and it will work in
+     <br/>
+     another browser, or
+     <br/>
+     * poor page design.
+    </p>
+   </blockquote>
+   <p>
+    Or in my case forgetting Javascript passes references when assigning objects which become null, if referenced object was stored in now defunct window. The problematic browser in question was of course Internet Explorer.
+   </p>
+  </div>
+ </body>
+</html></p>
             </div><!-- /.entry-content -->
 
             <footer class="post-metadata">
@@ -76,23 +94,42 @@ Internet Explorer.</p>
             <h1 class="entry-title storytitle"><a href="/xmlhttprequest-and-status-0.html" rel="bookmark" title="Permalink to XMLHttpRequest and status 0">XMLHttpRequest and status 0</a></h1>
 
             <div class="entry-content post-text">
-                <p>Have you ever encountered a problem with XMLHttpRequest (XHR), where its
-handler couldn't read request status or the status was set to 0?</p>
-<p>Well, I did, a few days ago.</p>
-<p>It took me a while to find the cause of this problem and in my case it
-was form submission. It's stupid to use AJAX to submit a form, but
-nevertheless it's what I'm doing for dubious reasons that I'll probably
-be ashamed of in a few months or years. And it used to work fine, until
-I changed submit buttons from <em>type="button"</em> to <em>type="image"</em>.</p>
-<p>First type needs javascript to do anything worthwhile, while second type
-submits form when pressed, which I somehow missed. So, when I thought I
-was sending only a normal XHR request, I was actually also submitting my
-form which lead to described strange behavior.</p>
-<p>I have no idea why, since XHR state change handler shouldn't be
-triggered by other requests, but it was and it was fixed by simply
-canceling form submission in image button <em>onclick</em> handler.</p>
-<p>If you ever encounter this problem, check your forms and their submit
-buttons. It's very likely that solution is hiding there.</p>
+                <p><html>
+ <body>
+  <div>
+   <p>
+    Have you ever encountered a problem with XMLHttpRequest (XHR), where its handler couldn’t read request status or the status was set to 0?
+   </p>
+   <p>
+    Well, I did, a few days ago.
+   </p>
+   <p>
+    It took me a while to find the cause of this problem and in my case it was form submission. It’s stupid to use AJAX to submit a form, but nevertheless it’s what I’m doing for dubious reasons that I’ll probably be ashamed of in a few months or years. And it used to work fine, until I changed submit buttons from
+    <em>
+     type=”button”
+    </em>
+    to
+    <em>
+     type=”image”
+    </em>
+    .
+   </p>
+   <p>
+    First type needs javascript to do anything worthwhile, while second type submits form when pressed, which I somehow missed. So, when I thought I was sending only a normal XHR request, I was actually also submitting my form which lead to described strange behavior.
+   </p>
+   <p>
+    I have no idea why, since XHR state change handler shouldn’t be triggered by other requests, but it was and it was fixed by simply canceling form submission in image button
+    <em>
+     onclick
+    </em>
+    handler.
+   </p>
+   <p>
+    If you ever encounter this problem, check your forms and their submit buttons. It’s very likely that solution is hiding there.
+   </p>
+  </div>
+ </body>
+</html></p>
             </div><!-- /.entry-content -->
 
             <footer class="post-metadata">
@@ -106,12 +143,22 @@ buttons. It's very likely that solution is hiding there.</p>
             <h1 class="entry-title storytitle"><a href="/problems-with-reading-css-properties-in-safari.html" rel="bookmark" title="Permalink to Problems with reading CSS properties in Safari">Problems with reading CSS properties in Safari</a></h1>
 
             <div class="entry-content post-text">
-                <p>I was playing with a <a href="http://www.jeria.net/?p=7" title="Script for reading CSS properties of a page">neat
-script</a>
-that reads CSS properties of a given element, but there's a problem.
-Fetching background color of an element doesn't work in Safari, if it
-was inherited instead of explicitly set in CSS.</p>
-<p>Does anyone know how to reliably get that information?</p>
+                <p><html>
+ <body>
+  <div>
+   <p>
+    I was playing with a
+    <a href="http://www.jeria.net/?p=7" title="Script for reading CSS properties of a page">
+     neat script
+    </a>
+    that reads CSS properties of a given element, but there’s a problem. Fetching background color of an element doesn’t work in Safari, if it was inherited instead of explicitly set in CSS.
+   </p>
+   <p>
+    Does anyone know how to reliably get that information?
+   </p>
+  </div>
+ </body>
+</html></p>
             </div><!-- /.entry-content -->
 
             <footer class="post-metadata">

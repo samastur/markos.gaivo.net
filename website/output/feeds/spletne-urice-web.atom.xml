@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom"><title>A notch above a monkey</title><link href="/" rel="alternate"></link><link href="/articles/feeds/spletne-urice-web.atom.xml" rel="self"></link><id>/</id><updated>2005-10-13T19:39:00+02:00</updated><entry><title>Usefulness of microformats</title><link href="/usefulness-of-microformats.html" rel="alternate"></link><updated>2005-10-13T19:39:00+02:00</updated><author><name>markos</name></author><id>tag:,2005-10-13:usefulness-of-microformats.html</id><summary type="html">&lt;p&gt;&lt;html&gt;
+ &lt;body&gt;
+  &lt;div&gt;
+   &lt;p&gt;
+    Another Wednesday, another talk. I was sorry not to see more visitors, but I guess we have ourselves to blame. Talk would certainly benefit from a better description, but it is a topic that I find interesting, yet hard to describe. The running joke of evening was that we should prefix all talk titles with PHP to lure all those developers who seem to respond mainly to known keywords. It’s a shame that curiosity is such a rare trait after a certain age.
+   &lt;/p&gt;
+   &lt;p&gt;
+    By the way, the guy who invented OPML is
+    &lt;a href="http://www.scripting.com/" title="Dave Winer's blog"&gt;
+     Dave Winer
+    &lt;/a&gt;
+    . As fate would have it, he’s also father of RSS.
+   &lt;/p&gt;
+   &lt;p&gt;
+    And it’s RSS that I was thinking about later on, when I was contemplating the role of microformats on web. First version of RSS came out some 8 years ago and it wasn’t until last year or two that feeds gained enough traction to actually become relevant. Still, most web users have no idea what they are and I believe really interesting uses of feeds are still to be seen.
+   &lt;/p&gt;
+   &lt;p&gt;
+    I also believe the same is true for microformats. We are at the start of the road and we are yet to see really interesting stuff. I think there’s a definite need and opportunity to describe information on web in ways more suitable for further use.
+   &lt;/p&gt;
+   &lt;p&gt;
+    Rip, mix and burn. Or something like that.
+   &lt;/p&gt;
+   &lt;p&gt;
+    But I still don’t care about
+    &lt;a href="http://www.gmpg.org/xfn/" title="XFN specification"&gt;
+     XFN
+    &lt;/a&gt;
+    .
+   &lt;/p&gt;
+  &lt;/div&gt;
+ &lt;/body&gt;
+&lt;/html&gt;&lt;/p&gt;</summary></entry></feed>

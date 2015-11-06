@@ -36,15 +36,39 @@
             <h1 class="entry-title storytitle"><a href="/beloved-python-filter.html" rel="bookmark" title="Permalink to Beloved python filter">Beloved python filter</a></h1>
 
             <div class="entry-content post-text">
-                <p>Is it just me or does anybody else find it easier to write:</p>
-<p><code>elmList = filter( len, elmList )</code></p>
-<p>then</p>
-<p><code>elmList = [ x for x in elmList if len(x) ]</code></p>
-<p>I don't know why, but if I want to use the second form, I always have to
-look it up
-<a href="http://www.artima.com/weblogs/viewpost.jsp?thread=98196">somewhere</a>. I
-know <em>filter</em> and friends are frowned upon, but I can't stop liking
-them.</p>
+                <p><html>
+ <body>
+  <div>
+   <p>
+    Is it just me or does anybody else find it easier to write:
+   </p>
+   <p>
+    <code>
+     elmList = filter( len, elmList )
+    </code>
+   </p>
+   <p>
+    then
+   </p>
+   <p>
+    <code>
+     elmList = [ x for x in elmList if len(x) ]
+    </code>
+   </p>
+   <p>
+    I don’t know why, but if I want to use the second form, I always have to look it up
+    <a href="http://www.artima.com/weblogs/viewpost.jsp?thread=98196">
+     somewhere
+    </a>
+    . I know
+    <em>
+     filter
+    </em>
+    and friends are frowned upon, but I can’t stop liking them.
+   </p>
+  </div>
+ </body>
+</html></p>
             </div><!-- /.entry-content -->
 
             <footer class="post-metadata">
@@ -58,9 +82,23 @@ them.</p>
             <h1 class="entry-title storytitle"><a href="/plone-and-dojo.html" rel="bookmark" title="Permalink to Plone and Dojo">Plone and Dojo</a></h1>
 
             <div class="entry-content post-text">
-                <p>I'm not a <a href="http://plone.org">Plone</a> user, but I know a few who might
-need a quality javascript library. Well, they got it.
-<a href="http://plone.org/products/zpdojo/releases/0.2">ZPDojo</a> is out.</p>
+                <p><html>
+ <body>
+  <div>
+   <p>
+    I’m not a
+    <a href="http://plone.org">
+     Plone
+    </a>
+    user, but I know a few who might need a quality javascript library. Well, they got it.
+    <a href="http://plone.org/products/zpdojo/releases/0.2">
+     ZPDojo
+    </a>
+    is out.
+   </p>
+  </div>
+ </body>
+</html></p>
             </div><!-- /.entry-content -->
 
             <footer class="post-metadata">
@@ -74,35 +112,68 @@ need a quality javascript library. Well, they got it.
             <h1 class="entry-title storytitle"><a href="/multitasking-with-post-requests-part-ii.html" rel="bookmark" title="Permalink to Multitasking with POST requests - part II">Multitasking with POST requests - part II</a></h1>
 
             <div class="entry-content post-text">
-                <p>Yesterday I wrote about my wish of making background <em>POST</em> requests
-that don't get accidentally canceled. I wasn't specific enough. You can
-create background <em>POST</em> requests just fine with <em>XMLHttpRequest</em>, but
-you can't use such requests for file uploads, which is what I want.</p>
-<p>My first try was to post <em>form</em> to <em>iframe</em> in a different window. This
-didn't work because browsers pay attention to source of request.
-Activating new request in source window immediately cancels previous
-unfinished one.</p>
-<p>A better idea was provided by always helpful
-<a href="http://dojotoolkit.org/" title="Dojo toolkit">dojo</a> developers. Clone <em>form</em>
-to progress window and submit it from there. This one works great in
-Firefox, but hardly anywhere else. It certainly doesn't work in IE,
-since IE is very picky about what you do with nodes created with
-<em>cloneNode</em> and you can't clone form yourself, since it's not possible
-to set the value of file upload elements.</p>
-<p>Is this game over for unobtrusive file upload?</p>
-<p>Not yet. There are still at least two posibilities, both with downsides,
-but one of them definitely works. You can open file upload form in new
-window and change that window to progress bar. It works and I use it
-occasionally, but it's not nice if you care about accessibility. It's
-something users can do now, if they want, by opening upload page in new
-tab or window.</p>
-<p>The other, yet untried, possible solution would be to avoid cloning.
-Just rip the form out from original page, move it to status one and
-submit form there. Obvious problems with this one are that users lose
-information about what they're uploading and that it can look confusing
-if not executed well.</p>
-<p>I'll try it anyway and will let you know how it goes.</p>
-<p>Update: IE also dislikes ripping and moving.</p>
+                <p><html>
+ <body>
+  <div>
+   <p>
+    Yesterday I wrote about my wish of making background
+    <em>
+     POST
+    </em>
+    requests that don’t get accidentally canceled. I wasn’t specific enough. You can create background
+    <em>
+     POST
+    </em>
+    requests just fine with
+    <em>
+     XMLHttpRequest
+    </em>
+    , but you can’t use such requests for file uploads, which is what I want.
+   </p>
+   <p>
+    My first try was to post
+    <em>
+     form
+    </em>
+    to
+    <em>
+     iframe
+    </em>
+    in a different window. This didn’t work because browsers pay attention to source of request. Activating new request in source window immediately cancels previous unfinished one.
+   </p>
+   <p>
+    A better idea was provided by always helpful
+    <a href="http://dojotoolkit.org/" title="Dojo toolkit">
+     dojo
+    </a>
+    developers. Clone
+    <em>
+     form
+    </em>
+    to progress window and submit it from there. This one works great in Firefox, but hardly anywhere else. It certainly doesn’t work in IE, since IE is very picky about what you do with nodes created with
+    <em>
+     cloneNode
+    </em>
+    and you can’t clone form yourself, since it’s not possible to set the value of file upload elements.
+   </p>
+   <p>
+    Is this game over for unobtrusive file upload?
+   </p>
+   <p>
+    Not yet. There are still at least two posibilities, both with downsides, but one of them definitely works. You can open file upload form in new window and change that window to progress bar. It works and I use it occasionally, but it’s not nice if you care about accessibility. It’s something users can do now, if they want, by opening upload page in new tab or window.
+   </p>
+   <p>
+    The other, yet untried, possible solution would be to avoid cloning. Just rip the form out from original page, move it to status one and submit form there. Obvious problems with this one are that users lose information about what they’re uploading and that it can look confusing if not executed well.
+   </p>
+   <p>
+    I’ll try it anyway and will let you know how it goes.
+   </p>
+   <p>
+    Update: IE also dislikes ripping and moving.
+   </p>
+  </div>
+ </body>
+</html></p>
             </div><!-- /.entry-content -->
 
             <footer class="post-metadata">

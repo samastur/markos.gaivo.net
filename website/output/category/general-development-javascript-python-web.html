@@ -13,6 +13,7 @@
 
         <link href="/articles/feeds/atom.xml" type="application/atom+xml" rel="alternate" title="A notch above a monkey Full Atom Feed" />
         <link href="/articles/feeds/rss.xml" type="application/rss+xml" rel="alternate" title="A notch above a monkey Full RSS Feed" />
+        <link href="/articles/feeds/general-development-javascript-python-web.atom.xml" type="application/atom+xml" rel="alternate" title="A notch above a monkey Categories Atom Feed" />
 </head>
 
 <body>
@@ -36,35 +37,38 @@
             <h1 class="entry-title storytitle"><a href="/error-logging-and-failed-authentication-attempts.html" rel="bookmark" title="Permalink to Error logging and failed authentication attempts">Error logging and failed authentication attempts</a></h1>
 
             <div class="entry-content post-text">
-                <p>People make mistakes and that's why we log every error that happens on
-<a href="http://www.marela.si" title="Photo-sharing website">Marela</a> pages or its API.
-I imagine most services that care about quality do more or less the
-same, since it is a great way to find yet undiscovered bugs.</p>
-<p>There's an additional benefit when it comes to an API. You can also get
-an insight in what developers would like to do and how they go about
-doing it. With a bit of care you may even correct badly designed calls
-before they get too widely adopted.</p>
-<p>What may not be as obvious is that not all calls are equal and some of
-them probably need more careful reporting. A good example would be
-failed authentication attempts.</p>
-<p>Marela is one of services supported by
-<a href="https://addons.mozilla.org/en-US/firefox/addon/3945">Fotofox</a>, a
-popular photo sharing Firefox add-on, which is great. However support
-for multiple different services invariably leads to a problem, where
-users send their usernames and passwords to the wrong site. We weren't
-prepared for this and our first reaction was to simply religiously
-delete all such reports from our logs to prevent any possibility of an
-abuse.</p>
-<p>I think this was wrong, so we changed it. Probably the best way is to
-record failed authentication attempts the way Unix systems do, by
-logging just username that was used in an attempt and its success, while
-ignoring provided password completely. This way we still obtain valuable
-information while protecting data that we clearly shouldn't have access
-to.</p>
-<p>This is of course just an example. My main point is that a sufficiently
-large API will have calls with different privacy needs and API designers
-should think carefully about what needs to be recorded in service logs
-and what mustn't.</p>
+                <p><html>
+ <body>
+  <div>
+   <p>
+    People make mistakes and that’s why we log every error that happens on
+    <a href="http://www.marela.si" title="Photo-sharing website">
+     Marela
+    </a>
+    pages or its API. I imagine most services that care about quality do more or less the same, since it is a great way to find yet undiscovered bugs.
+   </p>
+   <p>
+    There’s an additional benefit when it comes to an API. You can also get an insight in what developers would like to do and how they go about doing it. With a bit of care you may even correct badly designed calls before they get too widely adopted.
+   </p>
+   <p>
+    What may not be as obvious is that not all calls are equal and some of them probably need more careful reporting. A good example would be failed authentication attempts.
+   </p>
+   <p>
+    Marela is one of services supported by
+    <a href="https://addons.mozilla.org/en-US/firefox/addon/3945">
+     Fotofox
+    </a>
+    , a popular photo sharing Firefox add-on, which is great. However support for multiple different services invariably leads to a problem, where users send their usernames and passwords to the wrong site. We weren’t prepared for this and our first reaction was to simply religiously delete all such reports from our logs to prevent any possibility of an abuse.
+   </p>
+   <p>
+    I think this was wrong, so we changed it. Probably the best way is to record failed authentication attempts the way Unix systems do, by logging just username that was used in an attempt and its success, while ignoring provided password completely. This way we still obtain valuable information while protecting data that we clearly shouldn’t have access to.
+   </p>
+   <p>
+    This is of course just an example. My main point is that a sufficiently large API will have calls with different privacy needs and API designers should think carefully about what needs to be recorded in service logs and what mustn’t.
+   </p>
+  </div>
+ </body>
+</html></p>
             </div><!-- /.entry-content -->
 
             <footer class="post-metadata">
@@ -78,35 +82,37 @@ and what mustn't.</p>
             <h1 class="entry-title storytitle"><a href="/speed-of-development.html" rel="bookmark" title="Permalink to Speed of development">Speed of development</a></h1>
 
             <div class="entry-content post-text">
-                <p><a href="http://erik.eae.net/archives/2006/04/26/23.23.02/">This</a> brought a sad
-smile to my face.</p>
-<p>There was a time when Javascript implementation in Internet Explorer was
-really top notch and other browsers had something to look up to (apart
-from memory leaking, which is just embarrassing). But it's been 5 years
-since last IE and it will take almost another year to release version 7,
-which won't bring any Javascript related changes (apart from native
-XMLHTTPRequest). I see myself as language minimalist, but <a href="http://erik.eae.net/archives/2005/09/09/23.05.56/">there
-are</a> things that I'd
-love to see implemented.</p>
-<p>However, IE is not the only thing developed with glacial speeds. Even
-though there's talk of CSS3, we only received (another?) working draft
-of CSS 2.1 a couple of weeks ago. So, as many are not aware, even CSS
-2.1 hasn't seen a final release yet even though it's been widely used
-for a while now.</p>
-<p>Slow development pace does have certain benefits. We get more time to
-learn and master new stuff and what we learned doesn't age as quickly as
-it would otherwise. But when limits of what you have rub you the wrong
-way, it can be quite depressing to calculate how long it will take to
-remedy this. Especially if you're bound not only to development of a
-technology, but also to its deployment. Thank \&lt;some deity> this is not
-an issue for me with Python 2.5.</p>
-<p>In the line of work that I do, I can pretty much forget anything in
-development which needs browser support, since it won't be deployed
-widely enough in this decade. I don't, since I'm a geek, but I could as
-there's little I can do with it and there's a whole history of great
-promises that didn't make it in the end.</p>
-<p>It does, however, pose an interesting question without an answer. When
-should I start learning something new?</p>
+                <p><html>
+ <body>
+  <div>
+   <p>
+    <a href="http://erik.eae.net/archives/2006/04/26/23.23.02/">
+     This
+    </a>
+    brought a sad smile to my face.
+   </p>
+   <p>
+    There was a time when Javascript implementation in Internet Explorer was really top notch and other browsers had something to look up to (apart from memory leaking, which is just embarrassing). But it’s been 5 years since last IE and it will take almost another year to release version 7, which won’t bring any Javascript related changes (apart from native XMLHTTPRequest). I see myself as language minimalist, but
+    <a href="http://erik.eae.net/archives/2005/09/09/23.05.56/">
+     there are
+    </a>
+    things that I’d love to see implemented.
+   </p>
+   <p>
+    However, IE is not the only thing developed with glacial speeds. Even though there’s talk of CSS3, we only received (another?) working draft of CSS 2.1 a couple of weeks ago. So, as many are not aware, even CSS 2.1 hasn’t seen a final release yet even though it’s been widely used for a while now.
+   </p>
+   <p>
+    Slow development pace does have certain benefits. We get more time to learn and master new stuff and what we learned doesn’t age as quickly as it would otherwise. But when limits of what you have rub you the wrong way, it can be quite depressing to calculate how long it will take to remedy this. Especially if you’re bound not only to development of a technology, but also to its deployment. Thank &lt;some deity&gt; this is not an issue for me with Python 2.5.
+   </p>
+   <p>
+    In the line of work that I do, I can pretty much forget anything in development which needs browser support, since it won’t be deployed widely enough in this decade. I don’t, since I’m a geek, but I could as there’s little I can do with it and there’s a whole history of great promises that didn’t make it in the end.
+   </p>
+   <p>
+    It does, however, pose an interesting question without an answer. When should I start learning something new?
+   </p>
+  </div>
+ </body>
+</html></p>
             </div><!-- /.entry-content -->
 
             <footer class="post-metadata">
