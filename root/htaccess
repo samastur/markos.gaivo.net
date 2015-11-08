@@ -1,0 +1,22 @@
+# Make nicer urls for old WordPress blog
+<IfModule mod_rewrite.c>
+RewriteEngine On
+RewriteBase /blog/
+RewriteRule ^index\.php$ - [L]
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule . /blog/index.php [L]
+</IfModule>
+
+# Redirect query feeds
+RewriteCond %{QUERY_STRING} ^feed=(.*)$
+RewriteRule ^blog/?$ /articles/feeds/%1.xml? [R=302,L]
+
+# Redirect WP blog pages to new static ones
+RedirectMatch 302 /blog/category/(.*)/$ /articles/category/$1.html
+RedirectMatch 302 /blog/feed/(.*)/$ /articles/feeds/$1.xml
+RedirectMatch 302 /blog/feed/$ /articles/feeds/atom.xml
+RedirectMatch 302 /blog/code/(.*)$ /articles_code/$1
+RedirectMatch 302 /blog/page/.*$ /articles
+RedirectMatch 302 /blog/(.*)/$ /articles/$1.html
+#RedirectMatch 302 /blog/ /articles/
