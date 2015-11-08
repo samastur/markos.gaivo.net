@@ -4,7 +4,7 @@ from __future__ import unicode_literals
 
 AUTHOR = u'Marko Samastur'
 SITENAME = u'A notch above a monkey'
-SITEURL = ''
+SITEURL = 'http://markos.gaivo.net'
 
 PATH = 'content'
 
@@ -32,7 +32,8 @@ DEFAULT_PAGINATION = 3
 PLUGIN_PATHS = ['pelican-plugins']
 PLUGINS = ['simple_footnotes']
 
-THEME = 'icecream'
+THEME = '../pelican_themes/icecream'
+
 
 DISPLAY_PAGES_ON_MENU = False
 DISPLAY_CATEGORIES_ON_MENU = False
