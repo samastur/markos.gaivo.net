@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>A notch above a monkey</title><link href="/" rel="alternate"></link><link href="/articles/feeds/general-development-web.atom.xml" rel="self"></link><id>/</id><updated>2012-03-15T08:52:00+01:00</updated><entry><title>Save bandwidth switch</title><link href="/save-bandwidth-switch.html" rel="alternate"></link><updated>2012-03-15T08:52:00+01:00</updated><author><name>markos</name></author><id>tag:,2012-03-15:save-bandwidth-switch.html</id><summary type="html">&lt;p&gt;&lt;html&gt;
+<feed xmlns="http://www.w3.org/2005/Atom"><title>A notch above a monkey</title><link href="http://markos.gaivo.net/" rel="alternate"></link><link href="/articles/feeds/general-development-web.atom.xml" rel="self"></link><id>http://markos.gaivo.net/</id><updated>2012-03-15T08:52:00+01:00</updated><entry><title>Save bandwidth switch</title><link href="http://markos.gaivo.net/save-bandwidth-switch.html" rel="alternate"></link><updated>2012-03-15T08:52:00+01:00</updated><author><name>markos</name></author><id>tag:markos.gaivo.net,2012-03-15:save-bandwidth-switch.html</id><summary type="html">&lt;p&gt;&lt;html&gt;
  &lt;body&gt;
   &lt;div&gt;
    &lt;p&gt;
@@ -84,7 +84,7 @@
    &lt;/ol&gt;
   &lt;/div&gt;
  &lt;/body&gt;
-&lt;/html&gt;&lt;/p&gt;</summary></entry><entry><title>-beta- prefix algorithm for CSS</title><link href="/beta-prefix-algorithm-for-css.html" rel="alternate"></link><updated>2012-02-10T18:21:00+01:00</updated><author><name>markos</name></author><id>tag:,2012-02-10:beta-prefix-algorithm-for-css.html</id><summary type="html">&lt;p&gt;&lt;html&gt;
+&lt;/html&gt;&lt;/p&gt;</summary></entry><entry><title>-beta- prefix algorithm for CSS</title><link href="http://markos.gaivo.net/beta-prefix-algorithm-for-css.html" rel="alternate"></link><updated>2012-02-10T18:21:00+01:00</updated><author><name>markos</name></author><id>tag:markos.gaivo.net,2012-02-10:beta-prefix-algorithm-for-css.html</id><summary type="html">&lt;p&gt;&lt;html&gt;
  &lt;body&gt;
   &lt;div&gt;
    &lt;p&gt;
@@ -137,7 +137,7 @@
    &lt;/ol&gt;
   &lt;/div&gt;
  &lt;/body&gt;
-&lt;/html&gt;&lt;/p&gt;</summary></entry><entry><title>Cookies, localStorage and shared state</title><link href="/cookies-localstorage-and-shared-state.html" rel="alternate"></link><updated>2011-12-19T17:05:00+01:00</updated><author><name>markos</name></author><id>tag:,2011-12-19:cookies-localstorage-and-shared-state.html</id><summary type="html">&lt;p&gt;&lt;html&gt;
+&lt;/html&gt;&lt;/p&gt;</summary></entry><entry><title>Cookies, localStorage and shared state</title><link href="http://markos.gaivo.net/cookies-localstorage-and-shared-state.html" rel="alternate"></link><updated>2011-12-19T17:05:00+01:00</updated><author><name>markos</name></author><id>tag:markos.gaivo.net,2011-12-19:cookies-localstorage-and-shared-state.html</id><summary type="html">&lt;p&gt;&lt;html&gt;
  &lt;body&gt;
   &lt;div&gt;
    &lt;p&gt;
@@ -162,7 +162,7 @@
    &lt;/p&gt;
   &lt;/div&gt;
  &lt;/body&gt;
-&lt;/html&gt;&lt;/p&gt;</summary></entry><entry><title>Reading sources</title><link href="/reading-sources.html" rel="alternate"></link><updated>2011-11-21T11:37:00+01:00</updated><author><name>markos</name></author><id>tag:,2011-11-21:reading-sources.html</id><summary type="html">&lt;p&gt;&lt;html&gt;
+&lt;/html&gt;&lt;/p&gt;</summary></entry><entry><title>Reading sources</title><link href="http://markos.gaivo.net/reading-sources.html" rel="alternate"></link><updated>2011-11-21T11:37:00+01:00</updated><author><name>markos</name></author><id>tag:markos.gaivo.net,2011-11-21:reading-sources.html</id><summary type="html">&lt;p&gt;&lt;html&gt;
  &lt;body&gt;
   &lt;div&gt;
    &lt;p&gt;
@@ -252,7 +252,7 @@
    &lt;/ol&gt;
   &lt;/div&gt;
  &lt;/body&gt;
-&lt;/html&gt;&lt;/p&gt;</summary></entry><entry><title>Missing refer(r)ers</title><link href="/missing-referrers.html" rel="alternate"></link><updated>2011-09-20T18:29:00+02:00</updated><author><name>markos</name></author><id>tag:,2011-09-20:missing-referrers.html</id><summary type="html">&lt;p&gt;&lt;html&gt;
+&lt;/html&gt;&lt;/p&gt;</summary></entry><entry><title>Missing refer(r)ers</title><link href="http://markos.gaivo.net/missing-referrers.html" rel="alternate"></link><updated>2011-09-20T18:29:00+02:00</updated><author><name>markos</name></author><id>tag:markos.gaivo.net,2011-09-20:missing-referrers.html</id><summary type="html">&lt;p&gt;&lt;html&gt;
  &lt;body&gt;
   &lt;div&gt;
    &lt;p&gt;
@@ -328,7 +328,7 @@
    &lt;/div&gt;
   &lt;/div&gt;
  &lt;/body&gt;
-&lt;/html&gt;&lt;/p&gt;</summary></entry><entry><title></title><link href="/address.html" rel="alternate"></link><updated>2011-08-26T17:26:00+02:00</updated><author><name>markos</name></author><id>tag:,2011-08-26:address.html</id><summary type="html">&lt;p&gt;&lt;html&gt;
+&lt;/html&gt;&lt;/p&gt;</summary></entry><entry><title></title><link href="http://markos.gaivo.net/address.html" rel="alternate"></link><updated>2011-08-26T17:26:00+02:00</updated><author><name>markos</name></author><id>tag:markos.gaivo.net,2011-08-26:address.html</id><summary type="html">&lt;p&gt;&lt;html&gt;
  &lt;body&gt;
   &lt;div&gt;
    &lt;p&gt;
@@ -409,7 +409,7 @@
    &lt;/div&gt;
   &lt;/div&gt;
  &lt;/body&gt;
-&lt;/html&gt;&lt;/p&gt;</summary></entry><entry><title>Gamification of book reading</title><link href="/gamification-of-book-reading.html" rel="alternate"></link><updated>2011-05-11T17:15:00+02:00</updated><author><name>markos</name></author><id>tag:,2011-05-11:gamification-of-book-reading.html</id><summary type="html">&lt;p&gt;&lt;html&gt;
+&lt;/html&gt;&lt;/p&gt;</summary></entry><entry><title>Gamification of book reading</title><link href="http://markos.gaivo.net/gamification-of-book-reading.html" rel="alternate"></link><updated>2011-05-11T17:15:00+02:00</updated><author><name>markos</name></author><id>tag:markos.gaivo.net,2011-05-11:gamification-of-book-reading.html</id><summary type="html">&lt;p&gt;&lt;html&gt;
  &lt;body&gt;
   &lt;div&gt;
    &lt;p&gt;
@@ -482,7 +482,7 @@
    &lt;/div&gt;
   &lt;/div&gt;
  &lt;/body&gt;
-&lt;/html&gt;&lt;/p&gt;</summary></entry><entry><title>Facebook, web, mobile and me</title><link href="/facebook-web-mobile-and-me.html" rel="alternate"></link><updated>2009-12-20T16:35:00+01:00</updated><author><name>markos</name></author><id>tag:,2009-12-20:facebook-web-mobile-and-me.html</id><summary type="html">&lt;p&gt;&lt;html&gt;
+&lt;/html&gt;&lt;/p&gt;</summary></entry><entry><title>Facebook, web, mobile and me</title><link href="http://markos.gaivo.net/facebook-web-mobile-and-me.html" rel="alternate"></link><updated>2009-12-20T16:35:00+01:00</updated><author><name>markos</name></author><id>tag:markos.gaivo.net,2009-12-20:facebook-web-mobile-and-me.html</id><summary type="html">&lt;p&gt;&lt;html&gt;
  &lt;body&gt;
   &lt;div&gt;
    &lt;p&gt;
@@ -563,7 +563,7 @@
    &lt;/div&gt;
   &lt;/div&gt;
  &lt;/body&gt;
-&lt;/html&gt;&lt;/p&gt;</summary></entry><entry><title>IE6 - hope of web standards</title><link href="/ie6-hope-of-web-standards.html" rel="alternate"></link><updated>2009-01-20T20:49:00+01:00</updated><author><name>markos</name></author><id>tag:,2009-01-20:ie6-hope-of-web-standards.html</id><summary type="html">&lt;p&gt;&lt;html&gt;
+&lt;/html&gt;&lt;/p&gt;</summary></entry><entry><title>IE6 - hope of web standards</title><link href="http://markos.gaivo.net/ie6-hope-of-web-standards.html" rel="alternate"></link><updated>2009-01-20T20:49:00+01:00</updated><author><name>markos</name></author><id>tag:markos.gaivo.net,2009-01-20:ie6-hope-of-web-standards.html</id><summary type="html">&lt;p&gt;&lt;html&gt;
  &lt;body&gt;
   &lt;div&gt;
    &lt;p&gt;
@@ -660,7 +660,7 @@
    &lt;/div&gt;
   &lt;/div&gt;
  &lt;/body&gt;
-&lt;/html&gt;&lt;/p&gt;</summary></entry><entry><title>Switched...to Firefox 3</title><link href="/switchedto-firefox-3.html" rel="alternate"></link><updated>2008-06-22T15:04:00+02:00</updated><author><name>markos</name></author><id>tag:,2008-06-22:switchedto-firefox-3.html</id><summary type="html">&lt;p&gt;&lt;html&gt;
+&lt;/html&gt;&lt;/p&gt;</summary></entry><entry><title>Switched...to Firefox 3</title><link href="http://markos.gaivo.net/switchedto-firefox-3.html" rel="alternate"></link><updated>2008-06-22T15:04:00+02:00</updated><author><name>markos</name></author><id>tag:markos.gaivo.net,2008-06-22:switchedto-firefox-3.html</id><summary type="html">&lt;p&gt;&lt;html&gt;
  &lt;body&gt;
   &lt;div&gt;
    &lt;p&gt;

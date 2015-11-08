@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>A notch above a monkey</title><link href="/" rel="alternate"></link><link href="/articles/feeds/general-development.atom.xml" rel="self"></link><id>/</id><updated>2012-10-02T00:07:00+02:00</updated><entry><title>Subtracting sets to get non-referenced rows in table.</title><link href="/subtracting-sets-to-get-non-referenced-rows-in-table.html" rel="alternate"></link><updated>2012-10-02T00:07:00+02:00</updated><author><name>markos</name></author><id>tag:,2012-10-02:subtracting-sets-to-get-non-referenced-rows-in-table.html</id><summary type="html">&lt;p&gt;&lt;html&gt;
+<feed xmlns="http://www.w3.org/2005/Atom"><title>A notch above a monkey</title><link href="http://markos.gaivo.net/" rel="alternate"></link><link href="/articles/feeds/general-development.atom.xml" rel="self"></link><id>http://markos.gaivo.net/</id><updated>2012-10-02T00:07:00+02:00</updated><entry><title>Subtracting sets to get non-referenced rows in table.</title><link href="http://markos.gaivo.net/subtracting-sets-to-get-non-referenced-rows-in-table.html" rel="alternate"></link><updated>2012-10-02T00:07:00+02:00</updated><author><name>markos</name></author><id>tag:markos.gaivo.net,2012-10-02:subtracting-sets-to-get-non-referenced-rows-in-table.html</id><summary type="html">&lt;p&gt;&lt;html&gt;
  &lt;body&gt;
   &lt;div&gt;
    &lt;p&gt;
@@ -55,7 +55,7 @@
    &lt;/p&gt;
   &lt;/div&gt;
  &lt;/body&gt;
-&lt;/html&gt;&lt;/p&gt;</summary></entry><entry><title>Passion</title><link href="/passion.html" rel="alternate"></link><updated>2012-09-17T23:23:00+02:00</updated><author><name>markos</name></author><id>tag:,2012-09-17:passion.html</id><summary type="html">&lt;p&gt;&lt;html&gt;
+&lt;/html&gt;&lt;/p&gt;</summary></entry><entry><title>Passion</title><link href="http://markos.gaivo.net/passion.html" rel="alternate"></link><updated>2012-09-17T23:23:00+02:00</updated><author><name>markos</name></author><id>tag:markos.gaivo.net,2012-09-17:passion.html</id><summary type="html">&lt;p&gt;&lt;html&gt;
  &lt;body&gt;
   &lt;div&gt;
    &lt;p&gt;
@@ -81,7 +81,7 @@
    &lt;/p&gt;
   &lt;/div&gt;
  &lt;/body&gt;
-&lt;/html&gt;&lt;/p&gt;</summary></entry><entry><title>Shipping software frequency</title><link href="/shipping-software-frequency.html" rel="alternate"></link><updated>2008-11-30T20:45:00+01:00</updated><author><name>markos</name></author><id>tag:,2008-11-30:shipping-software-frequency.html</id><summary type="html">&lt;p&gt;&lt;html&gt;
+&lt;/html&gt;&lt;/p&gt;</summary></entry><entry><title>Shipping software frequency</title><link href="http://markos.gaivo.net/shipping-software-frequency.html" rel="alternate"></link><updated>2008-11-30T20:45:00+01:00</updated><author><name>markos</name></author><id>tag:markos.gaivo.net,2008-11-30:shipping-software-frequency.html</id><summary type="html">&lt;p&gt;&lt;html&gt;
  &lt;body&gt;
   &lt;div&gt;
    &lt;p&gt;
@@ -203,7 +203,7 @@
    &lt;/div&gt;
   &lt;/div&gt;
  &lt;/body&gt;
-&lt;/html&gt;&lt;/p&gt;</summary></entry><entry><title>Magic Ink</title><link href="/magic-ink.html" rel="alternate"></link><updated>2007-04-21T10:56:00+02:00</updated><author><name>markos</name></author><id>tag:,2007-04-21:magic-ink.html</id><summary type="html">&lt;p&gt;&lt;html&gt;
+&lt;/html&gt;&lt;/p&gt;</summary></entry><entry><title>Magic Ink</title><link href="http://markos.gaivo.net/magic-ink.html" rel="alternate"></link><updated>2007-04-21T10:56:00+02:00</updated><author><name>markos</name></author><id>tag:markos.gaivo.net,2007-04-21:magic-ink.html</id><summary type="html">&lt;p&gt;&lt;html&gt;
  &lt;body&gt;
   &lt;div&gt;
    &lt;p&gt;
@@ -227,7 +227,7 @@
    &lt;/p&gt;
   &lt;/div&gt;
  &lt;/body&gt;
-&lt;/html&gt;&lt;/p&gt;</summary></entry><entry><title>Google and OCRopus</title><link href="/google-and-ocropus.html" rel="alternate"></link><updated>2007-04-10T20:25:00+02:00</updated><author><name>markos</name></author><id>tag:,2007-04-10:google-and-ocropus.html</id><summary type="html">&lt;p&gt;&lt;html&gt;
+&lt;/html&gt;&lt;/p&gt;</summary></entry><entry><title>Google and OCRopus</title><link href="http://markos.gaivo.net/google-and-ocropus.html" rel="alternate"></link><updated>2007-04-10T20:25:00+02:00</updated><author><name>markos</name></author><id>tag:markos.gaivo.net,2007-04-10:google-and-ocropus.html</id><summary type="html">&lt;p&gt;&lt;html&gt;
  &lt;body&gt;
   &lt;div&gt;
    &lt;p&gt;
@@ -239,7 +239,7 @@
    &lt;/p&gt;
   &lt;/div&gt;
  &lt;/body&gt;
-&lt;/html&gt;&lt;/p&gt;</summary></entry><entry><title>Publish date in TITLE tag (Wordpress)</title><link href="/publish-date-in-title-tag-wordpress.html" rel="alternate"></link><updated>2006-04-23T20:14:00+02:00</updated><author><name>markos</name></author><id>tag:,2006-04-23:publish-date-in-title-tag-wordpress.html</id><summary type="html">&lt;p&gt;&lt;html&gt;
+&lt;/html&gt;&lt;/p&gt;</summary></entry><entry><title>Publish date in TITLE tag (Wordpress)</title><link href="http://markos.gaivo.net/publish-date-in-title-tag-wordpress.html" rel="alternate"></link><updated>2006-04-23T20:14:00+02:00</updated><author><name>markos</name></author><id>tag:markos.gaivo.net,2006-04-23:publish-date-in-title-tag-wordpress.html</id><summary type="html">&lt;p&gt;&lt;html&gt;
  &lt;body&gt;
   &lt;div&gt;
    &lt;p&gt;
@@ -268,7 +268,7 @@
    &lt;/p&gt;
   &lt;/div&gt;
  &lt;/body&gt;
-&lt;/html&gt;&lt;/p&gt;</summary></entry><entry><title>Mobile phones shopping</title><link href="/mobile-phones-shopping.html" rel="alternate"></link><updated>2006-04-04T20:38:00+02:00</updated><author><name>markos</name></author><id>tag:,2006-04-04:mobile-phones-shopping.html</id><summary type="html">&lt;p&gt;&lt;html&gt;
+&lt;/html&gt;&lt;/p&gt;</summary></entry><entry><title>Mobile phones shopping</title><link href="http://markos.gaivo.net/mobile-phones-shopping.html" rel="alternate"></link><updated>2006-04-04T20:38:00+02:00</updated><author><name>markos</name></author><id>tag:markos.gaivo.net,2006-04-04:mobile-phones-shopping.html</id><summary type="html">&lt;p&gt;&lt;html&gt;
  &lt;body&gt;
   &lt;div&gt;
    &lt;p&gt;
@@ -288,7 +288,7 @@
    &lt;/p&gt;
   &lt;/div&gt;
  &lt;/body&gt;
-&lt;/html&gt;&lt;/p&gt;</summary></entry><entry><title>Need for originality</title><link href="/need-for-originality.html" rel="alternate"></link><updated>2005-08-23T16:23:00+02:00</updated><author><name>markos</name></author><id>tag:,2005-08-23:need-for-originality.html</id><summary type="html">&lt;p&gt;&lt;html&gt;
+&lt;/html&gt;&lt;/p&gt;</summary></entry><entry><title>Need for originality</title><link href="http://markos.gaivo.net/need-for-originality.html" rel="alternate"></link><updated>2005-08-23T16:23:00+02:00</updated><author><name>markos</name></author><id>tag:markos.gaivo.net,2005-08-23:need-for-originality.html</id><summary type="html">&lt;p&gt;&lt;html&gt;
  &lt;body&gt;
   &lt;div&gt;
    &lt;p&gt;
@@ -320,7 +320,7 @@
    &lt;/p&gt;
   &lt;/div&gt;
  &lt;/body&gt;
-&lt;/html&gt;&lt;/p&gt;</summary></entry><entry><title>Our stuff sucks</title><link href="/our-stuff-sucks.html" rel="alternate"></link><updated>2005-08-05T20:35:00+02:00</updated><author><name>markos</name></author><id>tag:,2005-08-05:our-stuff-sucks.html</id><summary type="html">&lt;p&gt;&lt;html&gt;
+&lt;/html&gt;&lt;/p&gt;</summary></entry><entry><title>Our stuff sucks</title><link href="http://markos.gaivo.net/our-stuff-sucks.html" rel="alternate"></link><updated>2005-08-05T20:35:00+02:00</updated><author><name>markos</name></author><id>tag:markos.gaivo.net,2005-08-05:our-stuff-sucks.html</id><summary type="html">&lt;p&gt;&lt;html&gt;
  &lt;body&gt;
   &lt;div&gt;
    &lt;p&gt;

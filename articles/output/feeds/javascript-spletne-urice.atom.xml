@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>A notch above a monkey</title><link href="/" rel="alternate"></link><link href="/articles/feeds/javascript-spletne-urice.atom.xml" rel="self"></link><id>/</id><updated>2008-03-05T11:12:00+01:00</updated><entry><title>Javascript events - drugi??</title><link href="/javascript-events-drugic.html" rel="alternate"></link><updated>2008-03-05T11:12:00+01:00</updated><author><name>markos</name></author><id>tag:,2008-03-05:javascript-events-drugic.html</id><summary type="html">&lt;p&gt;&lt;html&gt;
+<feed xmlns="http://www.w3.org/2005/Atom"><title>A notch above a monkey</title><link href="http://markos.gaivo.net/" rel="alternate"></link><link href="/articles/feeds/javascript-spletne-urice.atom.xml" rel="self"></link><id>http://markos.gaivo.net/</id><updated>2008-03-05T11:12:00+01:00</updated><entry><title>Javascript events - drugi??</title><link href="http://markos.gaivo.net/javascript-events-drugic.html" rel="alternate"></link><updated>2008-03-05T11:12:00+01:00</updated><author><name>markos</name></author><id>tag:markos.gaivo.net,2008-03-05:javascript-events-drugic.html</id><summary type="html">&lt;p&gt;&lt;html&gt;
  &lt;body&gt;
   &lt;div&gt;
    &lt;p&gt;
@@ -13,7 +13,7 @@
    &lt;/p&gt;
   &lt;/div&gt;
  &lt;/body&gt;
-&lt;/html&gt;&lt;/p&gt;</summary></entry><entry><title>Javascript events</title><link href="/javascript-events.html" rel="alternate"></link><updated>2008-02-15T18:23:00+01:00</updated><author><name>markos</name></author><id>tag:,2008-02-15:javascript-events.html</id><summary type="html">&lt;p&gt;&lt;html&gt;
+&lt;/html&gt;&lt;/p&gt;</summary></entry><entry><title>Javascript events</title><link href="http://markos.gaivo.net/javascript-events.html" rel="alternate"></link><updated>2008-02-15T18:23:00+01:00</updated><author><name>markos</name></author><id>tag:markos.gaivo.net,2008-02-15:javascript-events.html</id><summary type="html">&lt;p&gt;&lt;html&gt;
  &lt;body&gt;
   &lt;div&gt;
    &lt;p&gt;
@@ -41,7 +41,7 @@
    &lt;/p&gt;
   &lt;/div&gt;
  &lt;/body&gt;
-&lt;/html&gt;&lt;/p&gt;</summary></entry><entry><title>Nevsiljiv Javascript - aftermath</title><link href="/nevsiljiv-javascript-aftermath.html" rel="alternate"></link><updated>2005-12-01T09:09:00+01:00</updated><author><name>markos</name></author><id>tag:,2005-12-01:nevsiljiv-javascript-aftermath.html</id><summary type="html">&lt;p&gt;&lt;html&gt;
+&lt;/html&gt;&lt;/p&gt;</summary></entry><entry><title>Nevsiljiv Javascript - aftermath</title><link href="http://markos.gaivo.net/nevsiljiv-javascript-aftermath.html" rel="alternate"></link><updated>2005-12-01T09:09:00+01:00</updated><author><name>markos</name></author><id>tag:markos.gaivo.net,2005-12-01:nevsiljiv-javascript-aftermath.html</id><summary type="html">&lt;p&gt;&lt;html&gt;
  &lt;body&gt;
   &lt;div&gt;
    &lt;p&gt;
@@ -59,7 +59,7 @@
    &lt;/p&gt;
   &lt;/div&gt;
  &lt;/body&gt;
-&lt;/html&gt;&lt;/p&gt;</summary></entry><entry><title>Nevsiljiv javascript</title><link href="/nevsiljiv-javascript.html" rel="alternate"></link><updated>2005-11-29T14:25:00+01:00</updated><author><name>markos</name></author><id>tag:,2005-11-29:nevsiljiv-javascript.html</id><summary type="html">&lt;p&gt;&lt;html&gt;
+&lt;/html&gt;&lt;/p&gt;</summary></entry><entry><title>Nevsiljiv javascript</title><link href="http://markos.gaivo.net/nevsiljiv-javascript.html" rel="alternate"></link><updated>2005-11-29T14:25:00+01:00</updated><author><name>markos</name></author><id>tag:markos.gaivo.net,2005-11-29:nevsiljiv-javascript.html</id><summary type="html">&lt;p&gt;&lt;html&gt;
  &lt;body&gt;
   &lt;div&gt;
    &lt;p&gt;

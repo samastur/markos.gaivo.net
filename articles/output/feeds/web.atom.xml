@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>A notch above a monkey</title><link href="/" rel="alternate"></link><link href="/articles/feeds/web.atom.xml" rel="self"></link><id>/</id><updated>2014-07-10T17:01:00+02:00</updated><entry><title>Chirp, Squawk, Cackle, or Honk*</title><link href="/chirp-squawk-cackle-or-honk.html" rel="alternate"></link><updated>2014-07-10T17:01:00+02:00</updated><author><name>markos</name></author><id>tag:,2014-07-10:chirp-squawk-cackle-or-honk.html</id><summary type="html">&lt;p&gt;&lt;html&gt;
+<feed xmlns="http://www.w3.org/2005/Atom"><title>A notch above a monkey</title><link href="http://markos.gaivo.net/" rel="alternate"></link><link href="/articles/feeds/web.atom.xml" rel="self"></link><id>http://markos.gaivo.net/</id><updated>2014-07-10T17:01:00+02:00</updated><entry><title>Chirp, Squawk, Cackle, or Honk*</title><link href="http://markos.gaivo.net/chirp-squawk-cackle-or-honk.html" rel="alternate"></link><updated>2014-07-10T17:01:00+02:00</updated><author><name>markos</name></author><id>tag:markos.gaivo.net,2014-07-10:chirp-squawk-cackle-or-honk.html</id><summary type="html">&lt;p&gt;&lt;html&gt;
  &lt;body&gt;
   &lt;div&gt;
    &lt;p&gt;
@@ -192,7 +192,7 @@
    &lt;/ol&gt;
   &lt;/div&gt;
  &lt;/body&gt;
-&lt;/html&gt;&lt;/p&gt;</summary></entry><entry><title>Game mechanics on web</title><link href="/game-mechanics-on-web.html" rel="alternate"></link><updated>2009-04-12T14:34:00+02:00</updated><author><name>markos</name></author><id>tag:,2009-04-12:game-mechanics-on-web.html</id><summary type="html">&lt;p&gt;&lt;html&gt;
+&lt;/html&gt;&lt;/p&gt;</summary></entry><entry><title>Game mechanics on web</title><link href="http://markos.gaivo.net/game-mechanics-on-web.html" rel="alternate"></link><updated>2009-04-12T14:34:00+02:00</updated><author><name>markos</name></author><id>tag:markos.gaivo.net,2009-04-12:game-mechanics-on-web.html</id><summary type="html">&lt;p&gt;&lt;html&gt;
  &lt;body&gt;
   &lt;div&gt;
    &lt;p&gt;
@@ -269,7 +269,7 @@
    &lt;/div&gt;
   &lt;/div&gt;
  &lt;/body&gt;
-&lt;/html&gt;&lt;/p&gt;</summary></entry><entry><title>Firefox 3 Release Party</title><link href="/firefox-3-release-party.html" rel="alternate"></link><updated>2008-06-23T10:35:00+02:00</updated><author><name>markos</name></author><id>tag:,2008-06-23:firefox-3-release-party.html</id><summary type="html">&lt;p&gt;&lt;html&gt;
+&lt;/html&gt;&lt;/p&gt;</summary></entry><entry><title>Firefox 3 Release Party</title><link href="http://markos.gaivo.net/firefox-3-release-party.html" rel="alternate"></link><updated>2008-06-23T10:35:00+02:00</updated><author><name>markos</name></author><id>tag:markos.gaivo.net,2008-06-23:firefox-3-release-party.html</id><summary type="html">&lt;p&gt;&lt;html&gt;
  &lt;body&gt;
   &lt;div&gt;
    &lt;p&gt;
@@ -303,7 +303,7 @@
    &lt;/div&gt;
   &lt;/div&gt;
  &lt;/body&gt;
-&lt;/html&gt;&lt;/p&gt;</summary></entry><entry><title>One web for all, but with different lanes</title><link href="/one-web-for-all-but-with-different-lanes.html" rel="alternate"></link><updated>2007-11-25T00:21:00+01:00</updated><author><name>markos</name></author><id>tag:,2007-11-25:one-web-for-all-but-with-different-lanes.html</id><summary type="html">&lt;p&gt;&lt;html&gt;
+&lt;/html&gt;&lt;/p&gt;</summary></entry><entry><title>One web for all, but with different lanes</title><link href="http://markos.gaivo.net/one-web-for-all-but-with-different-lanes.html" rel="alternate"></link><updated>2007-11-25T00:21:00+01:00</updated><author><name>markos</name></author><id>tag:markos.gaivo.net,2007-11-25:one-web-for-all-but-with-different-lanes.html</id><summary type="html">&lt;p&gt;&lt;html&gt;
  &lt;body&gt;
   &lt;div&gt;
    &lt;p&gt;
@@ -340,7 +340,7 @@
    &lt;/p&gt;
   &lt;/div&gt;
  &lt;/body&gt;
-&lt;/html&gt;&lt;/p&gt;</summary></entry><entry><title>Really open social network</title><link href="/really-open-social-network.html" rel="alternate"></link><updated>2007-09-05T21:45:00+02:00</updated><author><name>markos</name></author><id>tag:,2007-09-05:really-open-social-network.html</id><summary type="html">&lt;p&gt;&lt;html&gt;
+&lt;/html&gt;&lt;/p&gt;</summary></entry><entry><title>Really open social network</title><link href="http://markos.gaivo.net/really-open-social-network.html" rel="alternate"></link><updated>2007-09-05T21:45:00+02:00</updated><author><name>markos</name></author><id>tag:markos.gaivo.net,2007-09-05:really-open-social-network.html</id><summary type="html">&lt;p&gt;&lt;html&gt;
  &lt;body&gt;
   &lt;div&gt;
    &lt;p&gt;
@@ -384,7 +384,7 @@
    &lt;/p&gt;
   &lt;/div&gt;
  &lt;/body&gt;
-&lt;/html&gt;&lt;/p&gt;</summary></entry><entry><title>W3C and old web</title><link href="/w3c-and-old-web.html" rel="alternate"></link><updated>2007-06-18T13:06:00+02:00</updated><author><name>markos</name></author><id>tag:,2007-06-18:w3c-and-old-web.html</id><summary type="html">&lt;p&gt;&lt;html&gt;
+&lt;/html&gt;&lt;/p&gt;</summary></entry><entry><title>W3C and old web</title><link href="http://markos.gaivo.net/w3c-and-old-web.html" rel="alternate"></link><updated>2007-06-18T13:06:00+02:00</updated><author><name>markos</name></author><id>tag:markos.gaivo.net,2007-06-18:w3c-and-old-web.html</id><summary type="html">&lt;p&gt;&lt;html&gt;
  &lt;body&gt;
   &lt;div&gt;
    &lt;p&gt;
@@ -414,7 +414,7 @@
    &lt;/p&gt;
   &lt;/div&gt;
  &lt;/body&gt;
-&lt;/html&gt;&lt;/p&gt;</summary></entry><entry><title>Forgetfulness of online maps</title><link href="/forgetfulness-of-online-maps.html" rel="alternate"></link><updated>2007-01-08T19:01:00+01:00</updated><author><name>markos</name></author><id>tag:,2007-01-08:forgetfulness-of-online-maps.html</id><summary type="html">&lt;p&gt;&lt;html&gt;
+&lt;/html&gt;&lt;/p&gt;</summary></entry><entry><title>Forgetfulness of online maps</title><link href="http://markos.gaivo.net/forgetfulness-of-online-maps.html" rel="alternate"></link><updated>2007-01-08T19:01:00+01:00</updated><author><name>markos</name></author><id>tag:markos.gaivo.net,2007-01-08:forgetfulness-of-online-maps.html</id><summary type="html">&lt;p&gt;&lt;html&gt;
  &lt;body&gt;
   &lt;div&gt;
    &lt;p&gt;
@@ -460,7 +460,7 @@
    &lt;/p&gt;
   &lt;/div&gt;
  &lt;/body&gt;
-&lt;/html&gt;&lt;/p&gt;</summary></entry><entry><title>Mandatory public sector accessibility</title><link href="/mandatory-public-sector-accessibility.html" rel="alternate"></link><updated>2006-06-22T16:08:00+02:00</updated><author><name>markos</name></author><id>tag:,2006-06-22:mandatory-public-sector-accessibility.html</id><summary type="html">&lt;p&gt;&lt;html&gt;
+&lt;/html&gt;&lt;/p&gt;</summary></entry><entry><title>Mandatory public sector accessibility</title><link href="http://markos.gaivo.net/mandatory-public-sector-accessibility.html" rel="alternate"></link><updated>2006-06-22T16:08:00+02:00</updated><author><name>markos</name></author><id>tag:markos.gaivo.net,2006-06-22:mandatory-public-sector-accessibility.html</id><summary type="html">&lt;p&gt;&lt;html&gt;
  &lt;body&gt;
   &lt;div&gt;
    &lt;p&gt;
@@ -475,7 +475,7 @@
    &lt;/p&gt;
   &lt;/div&gt;
  &lt;/body&gt;
-&lt;/html&gt;&lt;/p&gt;</summary></entry><entry><title>@media 2006 is over</title><link href="/media-2006-is-over.html" rel="alternate"></link><updated>2006-06-17T10:55:00+02:00</updated><author><name>markos</name></author><id>tag:,2006-06-17:media-2006-is-over.html</id><summary type="html">&lt;p&gt;&lt;html&gt;
+&lt;/html&gt;&lt;/p&gt;</summary></entry><entry><title>@media 2006 is over</title><link href="http://markos.gaivo.net/media-2006-is-over.html" rel="alternate"></link><updated>2006-06-17T10:55:00+02:00</updated><author><name>markos</name></author><id>tag:markos.gaivo.net,2006-06-17:media-2006-is-over.html</id><summary type="html">&lt;p&gt;&lt;html&gt;
  &lt;body&gt;
   &lt;div&gt;
    &lt;p&gt;
@@ -576,7 +576,7 @@
    &lt;/p&gt;
   &lt;/div&gt;
  &lt;/body&gt;
-&lt;/html&gt;&lt;/p&gt;</summary></entry><entry><title>Opera mini and file uploads</title><link href="/opera-mini-and-file-uploads.html" rel="alternate"></link><updated>2006-05-24T10:35:00+02:00</updated><author><name>markos</name></author><id>tag:,2006-05-24:opera-mini-and-file-uploads.html</id><summary type="html">&lt;p&gt;&lt;html&gt;
+&lt;/html&gt;&lt;/p&gt;</summary></entry><entry><title>Opera mini and file uploads</title><link href="http://markos.gaivo.net/opera-mini-and-file-uploads.html" rel="alternate"></link><updated>2006-05-24T10:35:00+02:00</updated><author><name>markos</name></author><id>tag:markos.gaivo.net,2006-05-24:opera-mini-and-file-uploads.html</id><summary type="html">&lt;p&gt;&lt;html&gt;
  &lt;body&gt;
   &lt;div&gt;
    &lt;p&gt;

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>A notch above a monkey</title><link href="/" rel="alternate"></link><link href="/articles/feeds/general-development-javascript-python.atom.xml" rel="self"></link><id>/</id><updated>2005-09-16T00:03:00+02:00</updated><entry><title>Latency, bandwidth and speed of applications - part II</title><link href="/latency-bandwidth-and-speed-of-applications-part-ii.html" rel="alternate"></link><updated>2005-09-16T00:03:00+02:00</updated><author><name>markos</name></author><id>tag:,2005-09-16:latency-bandwidth-and-speed-of-applications-part-ii.html</id><summary type="html">&lt;p&gt;&lt;html&gt;
+<feed xmlns="http://www.w3.org/2005/Atom"><title>A notch above a monkey</title><link href="http://markos.gaivo.net/" rel="alternate"></link><link href="/articles/feeds/general-development-javascript-python.atom.xml" rel="self"></link><id>http://markos.gaivo.net/</id><updated>2005-09-16T00:03:00+02:00</updated><entry><title>Latency, bandwidth and speed of applications - part II</title><link href="http://markos.gaivo.net/latency-bandwidth-and-speed-of-applications-part-ii.html" rel="alternate"></link><updated>2005-09-16T00:03:00+02:00</updated><author><name>markos</name></author><id>tag:markos.gaivo.net,2005-09-16:latency-bandwidth-and-speed-of-applications-part-ii.html</id><summary type="html">&lt;p&gt;&lt;html&gt;
  &lt;body&gt;
   &lt;div&gt;
    &lt;p&gt;
@@ -52,7 +52,7 @@
    &lt;/p&gt;
   &lt;/div&gt;
  &lt;/body&gt;
-&lt;/html&gt;&lt;/p&gt;</summary></entry><entry><title>Latency, bandwidth and speed of applications - part I</title><link href="/latency-bandwidth-and-speed-of-applications-part-i.html" rel="alternate"></link><updated>2005-09-14T21:10:00+02:00</updated><author><name>markos</name></author><id>tag:,2005-09-14:latency-bandwidth-and-speed-of-applications-part-i.html</id><summary type="html">&lt;p&gt;&lt;html&gt;
+&lt;/html&gt;&lt;/p&gt;</summary></entry><entry><title>Latency, bandwidth and speed of applications - part I</title><link href="http://markos.gaivo.net/latency-bandwidth-and-speed-of-applications-part-i.html" rel="alternate"></link><updated>2005-09-14T21:10:00+02:00</updated><author><name>markos</name></author><id>tag:markos.gaivo.net,2005-09-14:latency-bandwidth-and-speed-of-applications-part-i.html</id><summary type="html">&lt;p&gt;&lt;html&gt;
  &lt;body&gt;
   &lt;div&gt;
    &lt;p&gt;

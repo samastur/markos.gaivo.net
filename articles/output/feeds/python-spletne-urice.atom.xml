@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>A notch above a monkey</title><link href="/" rel="alternate"></link><link href="/articles/feeds/python-spletne-urice.atom.xml" rel="self"></link><id>/</id><updated>2006-02-16T19:07:00+01:00</updated><entry><title>Whitespace whining</title><link href="/whitespace-whining.html" rel="alternate"></link><updated>2006-02-16T19:07:00+01:00</updated><author><name>markos</name></author><id>tag:,2006-02-16:whitespace-whining.html</id><summary type="html">&lt;p&gt;&lt;html&gt;
+<feed xmlns="http://www.w3.org/2005/Atom"><title>A notch above a monkey</title><link href="http://markos.gaivo.net/" rel="alternate"></link><link href="/articles/feeds/python-spletne-urice.atom.xml" rel="self"></link><id>http://markos.gaivo.net/</id><updated>2006-02-16T19:07:00+01:00</updated><entry><title>Whitespace whining</title><link href="http://markos.gaivo.net/whitespace-whining.html" rel="alternate"></link><updated>2006-02-16T19:07:00+01:00</updated><author><name>markos</name></author><id>tag:markos.gaivo.net,2006-02-16:whitespace-whining.html</id><summary type="html">&lt;p&gt;&lt;html&gt;
  &lt;body&gt;
   &lt;div&gt;
    &lt;p&gt;
@@ -39,7 +39,7 @@
    &lt;/p&gt;
   &lt;/div&gt;
  &lt;/body&gt;
-&lt;/html&gt;&lt;/p&gt;</summary></entry><entry><title>Community development</title><link href="/community-development.html" rel="alternate"></link><updated>2005-11-03T12:13:00+01:00</updated><author><name>markos</name></author><id>tag:,2005-11-03:community-development.html</id><summary type="html">&lt;p&gt;&lt;html&gt;
+&lt;/html&gt;&lt;/p&gt;</summary></entry><entry><title>Community development</title><link href="http://markos.gaivo.net/community-development.html" rel="alternate"></link><updated>2005-11-03T12:13:00+01:00</updated><author><name>markos</name></author><id>tag:markos.gaivo.net,2005-11-03:community-development.html</id><summary type="html">&lt;p&gt;&lt;html&gt;
  &lt;body&gt;
   &lt;div&gt;
    &lt;p&gt;

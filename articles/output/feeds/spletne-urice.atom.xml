@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>A notch above a monkey</title><link href="/" rel="alternate"></link><link href="/articles/feeds/spletne-urice.atom.xml" rel="self"></link><id>/</id><updated>2011-10-05T12:30:00+02:00</updated><entry><title>6th anniversary of wwwh</title><link href="/6th-anniversary-of-wwwh.html" rel="alternate"></link><updated>2011-10-05T12:30:00+02:00</updated><author><name>markos</name></author><id>tag:,2011-10-05:6th-anniversary-of-wwwh.html</id><summary type="html">&lt;p&gt;&lt;html&gt;
+<feed xmlns="http://www.w3.org/2005/Atom"><title>A notch above a monkey</title><link href="http://markos.gaivo.net/" rel="alternate"></link><link href="/articles/feeds/spletne-urice.atom.xml" rel="self"></link><id>http://markos.gaivo.net/</id><updated>2011-10-05T12:30:00+02:00</updated><entry><title>6th anniversary of wwwh</title><link href="http://markos.gaivo.net/6th-anniversary-of-wwwh.html" rel="alternate"></link><updated>2011-10-05T12:30:00+02:00</updated><author><name>markos</name></author><id>tag:markos.gaivo.net,2011-10-05:6th-anniversary-of-wwwh.html</id><summary type="html">&lt;p&gt;&lt;html&gt;
  &lt;body&gt;
   &lt;div&gt;
    &lt;p&gt;
@@ -53,7 +53,7 @@
    &lt;/p&gt;
   &lt;/div&gt;
  &lt;/body&gt;
-&lt;/html&gt;&lt;/p&gt;</summary></entry><entry><title>AJAX Workshop: End of Act I</title><link href="/ajax-workshop-end-of-act-i.html" rel="alternate"></link><updated>2006-04-27T11:06:00+02:00</updated><author><name>markos</name></author><id>tag:,2006-04-27:ajax-workshop-end-of-act-i.html</id><summary type="html">&lt;p&gt;&lt;html&gt;
+&lt;/html&gt;&lt;/p&gt;</summary></entry><entry><title>AJAX Workshop: End of Act I</title><link href="http://markos.gaivo.net/ajax-workshop-end-of-act-i.html" rel="alternate"></link><updated>2006-04-27T11:06:00+02:00</updated><author><name>markos</name></author><id>tag:markos.gaivo.net,2006-04-27:ajax-workshop-end-of-act-i.html</id><summary type="html">&lt;p&gt;&lt;html&gt;
  &lt;body&gt;
   &lt;div&gt;
    &lt;p&gt;
@@ -70,7 +70,7 @@
    &lt;/p&gt;
   &lt;/div&gt;
  &lt;/body&gt;
-&lt;/html&gt;&lt;/p&gt;</summary></entry><entry><title>The day after</title><link href="/the-day-after.html" rel="alternate"></link><updated>2006-03-09T12:28:00+01:00</updated><author><name>markos</name></author><id>tag:,2006-03-09:the-day-after.html</id><summary type="html">&lt;p&gt;&lt;html&gt;
+&lt;/html&gt;&lt;/p&gt;</summary></entry><entry><title>The day after</title><link href="http://markos.gaivo.net/the-day-after.html" rel="alternate"></link><updated>2006-03-09T12:28:00+01:00</updated><author><name>markos</name></author><id>tag:markos.gaivo.net,2006-03-09:the-day-after.html</id><summary type="html">&lt;p&gt;&lt;html&gt;
  &lt;body&gt;
   &lt;div&gt;
    &lt;p&gt;
@@ -81,7 +81,7 @@
    &lt;/p&gt;
   &lt;/div&gt;
  &lt;/body&gt;
-&lt;/html&gt;&lt;/p&gt;</summary></entry><entry><title>web.zen.si</title><link href="/webzensi.html" rel="alternate"></link><updated>2005-10-27T13:40:00+02:00</updated><author><name>markos</name></author><id>tag:,2005-10-27:webzensi.html</id><summary type="html">&lt;p&gt;&lt;html&gt;
+&lt;/html&gt;&lt;/p&gt;</summary></entry><entry><title>web.zen.si</title><link href="http://markos.gaivo.net/webzensi.html" rel="alternate"></link><updated>2005-10-27T13:40:00+02:00</updated><author><name>markos</name></author><id>tag:markos.gaivo.net,2005-10-27:webzensi.html</id><summary type="html">&lt;p&gt;&lt;html&gt;
  &lt;body&gt;
   &lt;div&gt;
    &lt;p&gt;
@@ -96,7 +96,7 @@
    &lt;/p&gt;
   &lt;/div&gt;
  &lt;/body&gt;
-&lt;/html&gt;&lt;/p&gt;</summary></entry><entry><title>Another Monday, another local announcement</title><link href="/another-monday-another-local-announcement.html" rel="alternate"></link><updated>2005-10-24T09:49:00+02:00</updated><author><name>markos</name></author><id>tag:,2005-10-24:another-monday-another-local-announcement.html</id><summary type="html">&lt;p&gt;&lt;html&gt;
+&lt;/html&gt;&lt;/p&gt;</summary></entry><entry><title>Another Monday, another local announcement</title><link href="http://markos.gaivo.net/another-monday-another-local-announcement.html" rel="alternate"></link><updated>2005-10-24T09:49:00+02:00</updated><author><name>markos</name></author><id>tag:markos.gaivo.net,2005-10-24:another-monday-another-local-announcement.html</id><summary type="html">&lt;p&gt;&lt;html&gt;
  &lt;body&gt;
   &lt;div&gt;
    &lt;p&gt;
@@ -122,7 +122,7 @@
    &lt;/p&gt;
   &lt;/div&gt;
  &lt;/body&gt;
-&lt;/html&gt;&lt;/p&gt;</summary></entry><entry><title>Kje pa tebe ?evelj ?uli?</title><link href="/kje-pa-tebe-oevelj-zuli.html" rel="alternate"></link><updated>2005-10-16T11:27:00+02:00</updated><author><name>markos</name></author><id>tag:,2005-10-16:kje-pa-tebe-oevelj-zuli.html</id><summary type="html">&lt;p&gt;&lt;html&gt;
+&lt;/html&gt;&lt;/p&gt;</summary></entry><entry><title>Kje pa tebe ?evelj ?uli?</title><link href="http://markos.gaivo.net/kje-pa-tebe-oevelj-zuli.html" rel="alternate"></link><updated>2005-10-16T11:27:00+02:00</updated><author><name>markos</name></author><id>tag:markos.gaivo.net,2005-10-16:kje-pa-tebe-oevelj-zuli.html</id><summary type="html">&lt;p&gt;&lt;html&gt;
  &lt;body&gt;
   &lt;div&gt;
    &lt;p&gt;
@@ -157,7 +157,7 @@
    &lt;/p&gt;
   &lt;/div&gt;
  &lt;/body&gt;
-&lt;/html&gt;&lt;/p&gt;</summary></entry><entry><title>Mikroformati</title><link href="/mikroformati.html" rel="alternate"></link><updated>2005-10-10T12:03:00+02:00</updated><author><name>markos</name></author><id>tag:,2005-10-10:mikroformati.html</id><summary type="html">&lt;p&gt;&lt;html&gt;
+&lt;/html&gt;&lt;/p&gt;</summary></entry><entry><title>Mikroformati</title><link href="http://markos.gaivo.net/mikroformati.html" rel="alternate"></link><updated>2005-10-10T12:03:00+02:00</updated><author><name>markos</name></author><id>tag:markos.gaivo.net,2005-10-10:mikroformati.html</id><summary type="html">&lt;p&gt;&lt;html&gt;
  &lt;body&gt;
   &lt;div&gt;
    &lt;p&gt;
@@ -169,7 +169,7 @@
    &lt;/p&gt;
   &lt;/div&gt;
  &lt;/body&gt;
-&lt;/html&gt;&lt;/p&gt;</summary></entry><entry><title>Otvoritveno predavanje</title><link href="/otvoritveno-predavanje.html" rel="alternate"></link><updated>2005-10-04T10:21:00+02:00</updated><author><name>markos</name></author><id>tag:,2005-10-04:otvoritveno-predavanje.html</id><summary type="html">&lt;p&gt;&lt;html&gt;
+&lt;/html&gt;&lt;/p&gt;</summary></entry><entry><title>Otvoritveno predavanje</title><link href="http://markos.gaivo.net/otvoritveno-predavanje.html" rel="alternate"></link><updated>2005-10-04T10:21:00+02:00</updated><author><name>markos</name></author><id>tag:markos.gaivo.net,2005-10-04:otvoritveno-predavanje.html</id><summary type="html">&lt;p&gt;&lt;html&gt;
  &lt;body&gt;
   &lt;div&gt;
    &lt;p&gt;
@@ -198,7 +198,7 @@
    &lt;/p&gt;
   &lt;/div&gt;
  &lt;/body&gt;
-&lt;/html&gt;&lt;/p&gt;</summary></entry><entry><title>Spletne urice v kiberpipi</title><link href="/spletne-urice-v-kiberpipi.html" rel="alternate"></link><updated>2005-09-27T09:59:00+02:00</updated><author><name>markos</name></author><id>tag:,2005-09-27:spletne-urice-v-kiberpipi.html</id><summary type="html">&lt;p&gt;&lt;html&gt;
+&lt;/html&gt;&lt;/p&gt;</summary></entry><entry><title>Spletne urice v kiberpipi</title><link href="http://markos.gaivo.net/spletne-urice-v-kiberpipi.html" rel="alternate"></link><updated>2005-09-27T09:59:00+02:00</updated><author><name>markos</name></author><id>tag:markos.gaivo.net,2005-09-27:spletne-urice-v-kiberpipi.html</id><summary type="html">&lt;p&gt;&lt;html&gt;
  &lt;body&gt;
   &lt;div&gt;
    &lt;p&gt;

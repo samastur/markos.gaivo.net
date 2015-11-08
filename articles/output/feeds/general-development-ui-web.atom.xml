@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>A notch above a monkey</title><link href="/" rel="alternate"></link><link href="/articles/feeds/general-development-ui-web.atom.xml" rel="self"></link><id>/</id><updated>2010-06-08T20:35:00+02:00</updated><entry><title>Sign-up, Facebook Connect and ownership</title><link href="/sign-up-and-facebook-connect.html" rel="alternate"></link><updated>2010-06-08T20:35:00+02:00</updated><author><name>markos</name></author><id>tag:,2010-06-08:sign-up-and-facebook-connect.html</id><summary type="html">&lt;p&gt;&lt;html&gt;
+<feed xmlns="http://www.w3.org/2005/Atom"><title>A notch above a monkey</title><link href="http://markos.gaivo.net/" rel="alternate"></link><link href="/articles/feeds/general-development-ui-web.atom.xml" rel="self"></link><id>http://markos.gaivo.net/</id><updated>2010-06-08T20:35:00+02:00</updated><entry><title>Sign-up, Facebook Connect and ownership</title><link href="http://markos.gaivo.net/sign-up-and-facebook-connect.html" rel="alternate"></link><updated>2010-06-08T20:35:00+02:00</updated><author><name>markos</name></author><id>tag:markos.gaivo.net,2010-06-08:sign-up-and-facebook-connect.html</id><summary type="html">&lt;p&gt;&lt;html&gt;
  &lt;body&gt;
   &lt;div&gt;
    &lt;p&gt;
@@ -62,7 +62,7 @@
    &lt;/div&gt;
   &lt;/div&gt;
  &lt;/body&gt;
-&lt;/html&gt;&lt;/p&gt;</summary></entry><entry><title>HyperScope and my blog's evolution</title><link href="/hyperscope-and-my-blogs-evolution.html" rel="alternate"></link><updated>2006-09-07T14:07:00+02:00</updated><author><name>markos</name></author><id>tag:,2006-09-07:hyperscope-and-my-blogs-evolution.html</id><summary type="html">&lt;p&gt;&lt;html&gt;
+&lt;/html&gt;&lt;/p&gt;</summary></entry><entry><title>HyperScope and my blog's evolution</title><link href="http://markos.gaivo.net/hyperscope-and-my-blogs-evolution.html" rel="alternate"></link><updated>2006-09-07T14:07:00+02:00</updated><author><name>markos</name></author><id>tag:markos.gaivo.net,2006-09-07:hyperscope-and-my-blogs-evolution.html</id><summary type="html">&lt;p&gt;&lt;html&gt;
  &lt;body&gt;
   &lt;div&gt;
    &lt;p&gt;
@@ -90,7 +90,7 @@
    &lt;/p&gt;
   &lt;/div&gt;
  &lt;/body&gt;
-&lt;/html&gt;&lt;/p&gt;</summary></entry><entry><title>Tag frequency ratio</title><link href="/tag-frequency-ratio.html" rel="alternate"></link><updated>2006-02-09T14:43:00+01:00</updated><author><name>markos</name></author><id>tag:,2006-02-09:tag-frequency-ratio.html</id><summary type="html">&lt;p&gt;&lt;html&gt;
+&lt;/html&gt;&lt;/p&gt;</summary></entry><entry><title>Tag frequency ratio</title><link href="http://markos.gaivo.net/tag-frequency-ratio.html" rel="alternate"></link><updated>2006-02-09T14:43:00+01:00</updated><author><name>markos</name></author><id>tag:markos.gaivo.net,2006-02-09:tag-frequency-ratio.html</id><summary type="html">&lt;p&gt;&lt;html&gt;
  &lt;body&gt;
   &lt;div&gt;
    &lt;p&gt;
@@ -125,7 +125,7 @@
    &lt;/p&gt;
   &lt;/div&gt;
  &lt;/body&gt;
-&lt;/html&gt;&lt;/p&gt;</summary></entry><entry><title>Tags</title><link href="/tags_.html" rel="alternate"></link><updated>2006-02-08T18:01:00+01:00</updated><author><name>markos</name></author><id>tag:,2006-02-08:tags_.html</id><summary type="html">&lt;p&gt;&lt;html&gt;
+&lt;/html&gt;&lt;/p&gt;</summary></entry><entry><title>Tags</title><link href="http://markos.gaivo.net/tags_.html" rel="alternate"></link><updated>2006-02-08T18:01:00+01:00</updated><author><name>markos</name></author><id>tag:markos.gaivo.net,2006-02-08:tags_.html</id><summary type="html">&lt;p&gt;&lt;html&gt;
  &lt;body&gt;
   &lt;div&gt;
    &lt;p&gt;
@@ -200,7 +200,7 @@
    &lt;/p&gt;
   &lt;/div&gt;
  &lt;/body&gt;
-&lt;/html&gt;&lt;/p&gt;</summary></entry><entry><title>Lessons from navigation design</title><link href="/lessons-from-navigation-design.html" rel="alternate"></link><updated>2006-01-31T23:20:00+01:00</updated><author><name>markos</name></author><id>tag:,2006-01-31:lessons-from-navigation-design.html</id><summary type="html">&lt;p&gt;&lt;html&gt;
+&lt;/html&gt;&lt;/p&gt;</summary></entry><entry><title>Lessons from navigation design</title><link href="http://markos.gaivo.net/lessons-from-navigation-design.html" rel="alternate"></link><updated>2006-01-31T23:20:00+01:00</updated><author><name>markos</name></author><id>tag:markos.gaivo.net,2006-01-31:lessons-from-navigation-design.html</id><summary type="html">&lt;p&gt;&lt;html&gt;
  &lt;body&gt;
   &lt;div&gt;
    &lt;p&gt;
@@ -232,7 +232,7 @@
    &lt;/p&gt;
   &lt;/div&gt;
  &lt;/body&gt;
-&lt;/html&gt;&lt;/p&gt;</summary></entry><entry><title>What iPod teaches us about modern (web) design</title><link href="/what-ipod-teaches-us-about-modern-web-design.html" rel="alternate"></link><updated>2006-01-23T14:41:00+01:00</updated><author><name>markos</name></author><id>tag:,2006-01-23:what-ipod-teaches-us-about-modern-web-design.html</id><summary type="html">&lt;p&gt;&lt;html&gt;
+&lt;/html&gt;&lt;/p&gt;</summary></entry><entry><title>What iPod teaches us about modern (web) design</title><link href="http://markos.gaivo.net/what-ipod-teaches-us-about-modern-web-design.html" rel="alternate"></link><updated>2006-01-23T14:41:00+01:00</updated><author><name>markos</name></author><id>tag:markos.gaivo.net,2006-01-23:what-ipod-teaches-us-about-modern-web-design.html</id><summary type="html">&lt;p&gt;&lt;html&gt;
  &lt;body&gt;
   &lt;div&gt;
    &lt;p&gt;
