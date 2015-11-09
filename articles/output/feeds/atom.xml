@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>A notch above a monkey</title><link href="http://markos.gaivo.net/" rel="alternate"></link><link href="/articles/feeds/atom.xml" rel="self"></link><id>http://markos.gaivo.net/</id><updated>2015-01-25T23:03:00+01:00</updated><entry><title>Late 2014 review</title><link href="http://markos.gaivo.net/late-2014-review.html" rel="alternate"></link><updated>2015-01-25T23:03:00+01:00</updated><author><name>markos</name></author><id>tag:markos.gaivo.net,2015-01-25:late-2014-review.html</id><summary type="html">&lt;p&gt;&lt;html&gt;
+<feed xmlns="http://www.w3.org/2005/Atom"><title>A notch above a monkey</title><link href="http://markos.gaivo.net/articles/" rel="alternate"></link><link href="/articles/feeds/atom.xml" rel="self"></link><id>http://markos.gaivo.net/articles/</id><updated>2015-01-25T23:03:00+01:00</updated><entry><title>Late 2014 review</title><link href="http://markos.gaivo.net/articles/late-2014-review.html" rel="alternate"></link><updated>2015-01-25T23:03:00+01:00</updated><author><name>markos</name></author><id>tag:markos.gaivo.net,2015-01-25:articles/late-2014-review.html</id><summary type="html">&lt;p&gt;&lt;html&gt;
  &lt;body&gt;
   &lt;div&gt;
    &lt;p&gt;
@@ -126,7 +126,7 @@
    &lt;/ol&gt;
   &lt;/div&gt;
  &lt;/body&gt;
-&lt;/html&gt;&lt;/p&gt;</summary></entry><entry><title>Books I read in 2014</title><link href="http://markos.gaivo.net/books-i-read-in-2014.html" rel="alternate"></link><updated>2014-12-31T19:01:00+01:00</updated><author><name>markos</name></author><id>tag:markos.gaivo.net,2014-12-31:books-i-read-in-2014.html</id><summary type="html">&lt;p&gt;&lt;html&gt;
+&lt;/html&gt;&lt;/p&gt;</summary></entry><entry><title>Books I read in 2014</title><link href="http://markos.gaivo.net/articles/books-i-read-in-2014.html" rel="alternate"></link><updated>2014-12-31T19:01:00+01:00</updated><author><name>markos</name></author><id>tag:markos.gaivo.net,2014-12-31:articles/books-i-read-in-2014.html</id><summary type="html">&lt;p&gt;&lt;html&gt;
  &lt;body&gt;
   &lt;div&gt;
    &lt;p&gt;
@@ -260,7 +260,7 @@
    &lt;/ul&gt;
   &lt;/div&gt;
  &lt;/body&gt;
-&lt;/html&gt;&lt;/p&gt;</summary></entry><entry><title>Chirp, Squawk, Cackle, or Honk*</title><link href="http://markos.gaivo.net/chirp-squawk-cackle-or-honk.html" rel="alternate"></link><updated>2014-07-10T17:01:00+02:00</updated><author><name>markos</name></author><id>tag:markos.gaivo.net,2014-07-10:chirp-squawk-cackle-or-honk.html</id><summary type="html">&lt;p&gt;&lt;html&gt;
+&lt;/html&gt;&lt;/p&gt;</summary></entry><entry><title>Chirp, Squawk, Cackle, or Honk*</title><link href="http://markos.gaivo.net/articles/chirp-squawk-cackle-or-honk.html" rel="alternate"></link><updated>2014-07-10T17:01:00+02:00</updated><author><name>markos</name></author><id>tag:markos.gaivo.net,2014-07-10:articles/chirp-squawk-cackle-or-honk.html</id><summary type="html">&lt;p&gt;&lt;html&gt;
  &lt;body&gt;
   &lt;div&gt;
    &lt;p&gt;
@@ -453,7 +453,7 @@
    &lt;/ol&gt;
   &lt;/div&gt;
  &lt;/body&gt;
-&lt;/html&gt;&lt;/p&gt;</summary></entry><entry><title>40</title><link href="http://markos.gaivo.net/40.html" rel="alternate"></link><updated>2014-02-19T00:52:00+01:00</updated><author><name>markos</name></author><id>tag:markos.gaivo.net,2014-02-19:40.html</id><summary type="html">&lt;p&gt;&lt;html&gt;
+&lt;/html&gt;&lt;/p&gt;</summary></entry><entry><title>40</title><link href="http://markos.gaivo.net/articles/40.html" rel="alternate"></link><updated>2014-02-19T00:52:00+01:00</updated><author><name>markos</name></author><id>tag:markos.gaivo.net,2014-02-19:articles/40.html</id><summary type="html">&lt;p&gt;&lt;html&gt;
  &lt;body&gt;
   &lt;div&gt;
    &lt;p class="aligncenter"&gt;
@@ -493,7 +493,7 @@
    &lt;/p&gt;
   &lt;/div&gt;
  &lt;/body&gt;
-&lt;/html&gt;&lt;/p&gt;</summary></entry><entry><title>The books I read in 2013</title><link href="http://markos.gaivo.net/the-books-i-read-in-2013.html" rel="alternate"></link><updated>2014-01-03T12:41:00+01:00</updated><author><name>markos</name></author><id>tag:markos.gaivo.net,2014-01-03:the-books-i-read-in-2013.html</id><summary type="html">&lt;p&gt;&lt;html&gt;
+&lt;/html&gt;&lt;/p&gt;</summary></entry><entry><title>The books I read in 2013</title><link href="http://markos.gaivo.net/articles/the-books-i-read-in-2013.html" rel="alternate"></link><updated>2014-01-03T12:41:00+01:00</updated><author><name>markos</name></author><id>tag:markos.gaivo.net,2014-01-03:articles/the-books-i-read-in-2013.html</id><summary type="html">&lt;p&gt;&lt;html&gt;
  &lt;body&gt;
   &lt;div&gt;
    &lt;p&gt;
@@ -733,7 +733,7 @@
    &lt;/ul&gt;
   &lt;/div&gt;
  &lt;/body&gt;
-&lt;/html&gt;&lt;/p&gt;</summary></entry><entry><title>2013 review</title><link href="http://markos.gaivo.net/2013-review.html" rel="alternate"></link><updated>2014-01-01T23:22:00+01:00</updated><author><name>markos</name></author><id>tag:markos.gaivo.net,2014-01-01:2013-review.html</id><summary type="html">&lt;p&gt;&lt;html&gt;
+&lt;/html&gt;&lt;/p&gt;</summary></entry><entry><title>2013 review</title><link href="http://markos.gaivo.net/articles/2013-review.html" rel="alternate"></link><updated>2014-01-01T23:22:00+01:00</updated><author><name>markos</name></author><id>tag:markos.gaivo.net,2014-01-01:articles/2013-review.html</id><summary type="html">&lt;p&gt;&lt;html&gt;
  &lt;body&gt;
   &lt;div&gt;
    &lt;p&gt;
@@ -824,7 +824,7 @@
    &lt;/p&gt;
   &lt;/div&gt;
  &lt;/body&gt;
-&lt;/html&gt;&lt;/p&gt;</summary></entry><entry><title>Not being wrong</title><link href="http://markos.gaivo.net/avoiding-being-stupid.html" rel="alternate"></link><updated>2013-12-29T23:28:00+01:00</updated><author><name>markos</name></author><id>tag:markos.gaivo.net,2013-12-29:avoiding-being-stupid.html</id><summary type="html">&lt;p&gt;&lt;html&gt;
+&lt;/html&gt;&lt;/p&gt;</summary></entry><entry><title>Not being wrong</title><link href="http://markos.gaivo.net/articles/avoiding-being-stupid.html" rel="alternate"></link><updated>2013-12-29T23:28:00+01:00</updated><author><name>markos</name></author><id>tag:markos.gaivo.net,2013-12-29:articles/avoiding-being-stupid.html</id><summary type="html">&lt;p&gt;&lt;html&gt;
  &lt;body&gt;
   &lt;div&gt;
    &lt;p&gt;
@@ -903,7 +903,7 @@
    &lt;/ol&gt;
   &lt;/div&gt;
  &lt;/body&gt;
-&lt;/html&gt;&lt;/p&gt;</summary></entry><entry><title>DjangoCon Europe 2014?</title><link href="http://markos.gaivo.net/djangocon-europe-2014.html" rel="alternate"></link><updated>2013-12-22T19:29:00+01:00</updated><author><name>markos</name></author><id>tag:markos.gaivo.net,2013-12-22:djangocon-europe-2014.html</id><summary type="html">&lt;p&gt;&lt;html&gt;
+&lt;/html&gt;&lt;/p&gt;</summary></entry><entry><title>DjangoCon Europe 2014?</title><link href="http://markos.gaivo.net/articles/djangocon-europe-2014.html" rel="alternate"></link><updated>2013-12-22T19:29:00+01:00</updated><author><name>markos</name></author><id>tag:markos.gaivo.net,2013-12-22:articles/djangocon-europe-2014.html</id><summary type="html">&lt;p&gt;&lt;html&gt;
  &lt;body&gt;
   &lt;div&gt;
    &lt;p&gt;
@@ -970,7 +970,7 @@
    &lt;/ol&gt;
   &lt;/div&gt;
  &lt;/body&gt;
-&lt;/html&gt;&lt;/p&gt;</summary></entry><entry><title>Comments closed</title><link href="http://markos.gaivo.net/comments-closed.html" rel="alternate"></link><updated>2013-07-20T21:39:00+02:00</updated><author><name>markos</name></author><id>tag:markos.gaivo.net,2013-07-20:comments-closed.html</id><summary type="html">&lt;p&gt;&lt;html&gt;
+&lt;/html&gt;&lt;/p&gt;</summary></entry><entry><title>Comments closed</title><link href="http://markos.gaivo.net/articles/comments-closed.html" rel="alternate"></link><updated>2013-07-20T21:39:00+02:00</updated><author><name>markos</name></author><id>tag:markos.gaivo.net,2013-07-20:articles/comments-closed.html</id><summary type="html">&lt;p&gt;&lt;html&gt;
  &lt;body&gt;
   &lt;div&gt;
    &lt;p&gt;
@@ -992,7 +992,7 @@
    &lt;/p&gt;
   &lt;/div&gt;
  &lt;/body&gt;
-&lt;/html&gt;&lt;/p&gt;</summary></entry><entry><title>Laughable Javascript security</title><link href="http://markos.gaivo.net/laughable-javascript-security.html" rel="alternate"></link><updated>2013-07-11T22:57:00+02:00</updated><author><name>markos</name></author><id>tag:markos.gaivo.net,2013-07-11:laughable-javascript-security.html</id><summary type="html">&lt;p&gt;&lt;html&gt;
+&lt;/html&gt;&lt;/p&gt;</summary></entry><entry><title>Laughable Javascript security</title><link href="http://markos.gaivo.net/articles/laughable-javascript-security.html" rel="alternate"></link><updated>2013-07-11T22:57:00+02:00</updated><author><name>markos</name></author><id>tag:markos.gaivo.net,2013-07-11:articles/laughable-javascript-security.html</id><summary type="html">&lt;p&gt;&lt;html&gt;
  &lt;body&gt;
   &lt;div&gt;
    &lt;p&gt;

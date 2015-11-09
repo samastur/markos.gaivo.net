@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>A notch above a monkey</title><link href="http://markos.gaivo.net/" rel="alternate"></link><link href="/articles/feeds/linux.atom.xml" rel="self"></link><id>http://markos.gaivo.net/</id><updated>2005-11-06T18:45:00+01:00</updated><entry><title>Favorite KDE features</title><link href="http://markos.gaivo.net/favorite-kde-features.html" rel="alternate"></link><updated>2005-11-06T18:45:00+01:00</updated><author><name>markos</name></author><id>tag:markos.gaivo.net,2005-11-06:favorite-kde-features.html</id><summary type="html">&lt;p&gt;&lt;html&gt;
+<feed xmlns="http://www.w3.org/2005/Atom"><title>A notch above a monkey</title><link href="http://markos.gaivo.net/articles/" rel="alternate"></link><link href="/articles/feeds/linux.atom.xml" rel="self"></link><id>http://markos.gaivo.net/articles/</id><updated>2005-11-06T18:45:00+01:00</updated><entry><title>Favorite KDE features</title><link href="http://markos.gaivo.net/articles/favorite-kde-features.html" rel="alternate"></link><updated>2005-11-06T18:45:00+01:00</updated><author><name>markos</name></author><id>tag:markos.gaivo.net,2005-11-06:articles/favorite-kde-features.html</id><summary type="html">&lt;p&gt;&lt;html&gt;
  &lt;body&gt;
   &lt;div&gt;
    &lt;p&gt;
@@ -24,7 +24,7 @@
    &lt;/p&gt;
   &lt;/div&gt;
  &lt;/body&gt;
-&lt;/html&gt;&lt;/p&gt;</summary></entry><entry><title>Problems with PS/2 keyboard in Linux</title><link href="http://markos.gaivo.net/problems-with-ps2-keyboard-in-linux.html" rel="alternate"></link><updated>2005-10-22T11:10:00+02:00</updated><author><name>markos</name></author><id>tag:markos.gaivo.net,2005-10-22:problems-with-ps2-keyboard-in-linux.html</id><summary type="html">&lt;p&gt;&lt;html&gt;
+&lt;/html&gt;&lt;/p&gt;</summary></entry><entry><title>Problems with PS/2 keyboard in Linux</title><link href="http://markos.gaivo.net/articles/problems-with-ps2-keyboard-in-linux.html" rel="alternate"></link><updated>2005-10-22T11:10:00+02:00</updated><author><name>markos</name></author><id>tag:markos.gaivo.net,2005-10-22:articles/problems-with-ps2-keyboard-in-linux.html</id><summary type="html">&lt;p&gt;&lt;html&gt;
  &lt;body&gt;
   &lt;div&gt;
    &lt;p&gt;
@@ -45,7 +45,7 @@
    &lt;/p&gt;
   &lt;/div&gt;
  &lt;/body&gt;
-&lt;/html&gt;&lt;/p&gt;</summary></entry><entry><title>Back to my roots!</title><link href="http://markos.gaivo.net/back-to-my-roots.html" rel="alternate"></link><updated>2005-08-21T19:24:00+02:00</updated><author><name>markos</name></author><id>tag:markos.gaivo.net,2005-08-21:back-to-my-roots.html</id><summary type="html">&lt;p&gt;&lt;html&gt;
+&lt;/html&gt;&lt;/p&gt;</summary></entry><entry><title>Back to my roots!</title><link href="http://markos.gaivo.net/articles/back-to-my-roots.html" rel="alternate"></link><updated>2005-08-21T19:24:00+02:00</updated><author><name>markos</name></author><id>tag:markos.gaivo.net,2005-08-21:articles/back-to-my-roots.html</id><summary type="html">&lt;p&gt;&lt;html&gt;
  &lt;body&gt;
   &lt;div&gt;
    &lt;p&gt;

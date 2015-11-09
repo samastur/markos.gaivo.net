@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>A notch above a monkey</title><link href="http://markos.gaivo.net/" rel="alternate"></link><link href="/articles/feeds/javascript-ui-web.atom.xml" rel="self"></link><id>http://markos.gaivo.net/</id><updated>2008-12-27T18:23:00+01:00</updated><entry><title>Self-referencing page links</title><link href="http://markos.gaivo.net/self-referencing-page-links.html" rel="alternate"></link><updated>2008-12-27T18:23:00+01:00</updated><author><name>markos</name></author><id>tag:markos.gaivo.net,2008-12-27:self-referencing-page-links.html</id><summary type="html">&lt;p&gt;&lt;html&gt;
+<feed xmlns="http://www.w3.org/2005/Atom"><title>A notch above a monkey</title><link href="http://markos.gaivo.net/articles/" rel="alternate"></link><link href="/articles/feeds/javascript-ui-web.atom.xml" rel="self"></link><id>http://markos.gaivo.net/articles/</id><updated>2008-12-27T18:23:00+01:00</updated><entry><title>Self-referencing page links</title><link href="http://markos.gaivo.net/articles/self-referencing-page-links.html" rel="alternate"></link><updated>2008-12-27T18:23:00+01:00</updated><author><name>markos</name></author><id>tag:markos.gaivo.net,2008-12-27:articles/self-referencing-page-links.html</id><summary type="html">&lt;p&gt;&lt;html&gt;
  &lt;body&gt;
   &lt;div&gt;
    &lt;p&gt;
@@ -30,7 +30,7 @@
    &lt;/p&gt;
   &lt;/div&gt;
  &lt;/body&gt;
-&lt;/html&gt;&lt;/p&gt;</summary></entry><entry><title>Auto-grow TEXTAREA</title><link href="http://markos.gaivo.net/auto-grow-textarea.html" rel="alternate"></link><updated>2006-07-31T13:58:00+02:00</updated><author><name>markos</name></author><id>tag:markos.gaivo.net,2006-07-31:auto-grow-textarea.html</id><summary type="html">&lt;p&gt;&lt;html&gt;
+&lt;/html&gt;&lt;/p&gt;</summary></entry><entry><title>Auto-grow TEXTAREA</title><link href="http://markos.gaivo.net/articles/auto-grow-textarea.html" rel="alternate"></link><updated>2006-07-31T13:58:00+02:00</updated><author><name>markos</name></author><id>tag:markos.gaivo.net,2006-07-31:articles/auto-grow-textarea.html</id><summary type="html">&lt;p&gt;&lt;html&gt;
  &lt;body&gt;
   &lt;div&gt;
    &lt;p&gt;
@@ -99,7 +99,7 @@
    &lt;/ul&gt;
   &lt;/div&gt;
  &lt;/body&gt;
-&lt;/html&gt;&lt;/p&gt;</summary></entry><entry><title>Accessible DHTML and other bits</title><link href="http://markos.gaivo.net/accessible-dhtml-and-other-bits.html" rel="alternate"></link><updated>2006-07-31T00:11:00+02:00</updated><author><name>markos</name></author><id>tag:markos.gaivo.net,2006-07-31:accessible-dhtml-and-other-bits.html</id><summary type="html">&lt;p&gt;&lt;html&gt;
+&lt;/html&gt;&lt;/p&gt;</summary></entry><entry><title>Accessible DHTML and other bits</title><link href="http://markos.gaivo.net/articles/accessible-dhtml-and-other-bits.html" rel="alternate"></link><updated>2006-07-31T00:11:00+02:00</updated><author><name>markos</name></author><id>tag:markos.gaivo.net,2006-07-31:articles/accessible-dhtml-and-other-bits.html</id><summary type="html">&lt;p&gt;&lt;html&gt;
  &lt;body&gt;
   &lt;div&gt;
    &lt;p&gt;
@@ -135,7 +135,7 @@
    &lt;/p&gt;
   &lt;/div&gt;
  &lt;/body&gt;
-&lt;/html&gt;&lt;/p&gt;</summary></entry><entry><title>FlashAid</title><link href="http://markos.gaivo.net/flashaid.html" rel="alternate"></link><updated>2006-07-04T11:21:00+02:00</updated><author><name>markos</name></author><id>tag:markos.gaivo.net,2006-07-04:flashaid.html</id><summary type="html">&lt;p&gt;&lt;html&gt;
+&lt;/html&gt;&lt;/p&gt;</summary></entry><entry><title>FlashAid</title><link href="http://markos.gaivo.net/articles/flashaid.html" rel="alternate"></link><updated>2006-07-04T11:21:00+02:00</updated><author><name>markos</name></author><id>tag:markos.gaivo.net,2006-07-04:articles/flashaid.html</id><summary type="html">&lt;p&gt;&lt;html&gt;
  &lt;body&gt;
   &lt;div&gt;
    &lt;p&gt;
@@ -166,7 +166,7 @@
    &lt;/p&gt;
   &lt;/div&gt;
  &lt;/body&gt;
-&lt;/html&gt;&lt;/p&gt;</summary></entry><entry><title>Customizable interfaces</title><link href="http://markos.gaivo.net/customizable-interfaces.html" rel="alternate"></link><updated>2006-03-23T20:32:00+01:00</updated><author><name>markos</name></author><id>tag:markos.gaivo.net,2006-03-23:customizable-interfaces.html</id><summary type="html">&lt;p&gt;&lt;html&gt;
+&lt;/html&gt;&lt;/p&gt;</summary></entry><entry><title>Customizable interfaces</title><link href="http://markos.gaivo.net/articles/customizable-interfaces.html" rel="alternate"></link><updated>2006-03-23T20:32:00+01:00</updated><author><name>markos</name></author><id>tag:markos.gaivo.net,2006-03-23:articles/customizable-interfaces.html</id><summary type="html">&lt;p&gt;&lt;html&gt;
  &lt;body&gt;
   &lt;div&gt;
    &lt;p&gt;
@@ -206,7 +206,7 @@
    &lt;/p&gt;
   &lt;/div&gt;
  &lt;/body&gt;
-&lt;/html&gt;&lt;/p&gt;</summary></entry><entry><title>Revisiting javascript i18n</title><link href="http://markos.gaivo.net/revisiting-javascript-i18n.html" rel="alternate"></link><updated>2006-02-25T16:55:00+01:00</updated><author><name>markos</name></author><id>tag:markos.gaivo.net,2006-02-25:revisiting-javascript-i18n.html</id><summary type="html">&lt;p&gt;&lt;html&gt;
+&lt;/html&gt;&lt;/p&gt;</summary></entry><entry><title>Revisiting javascript i18n</title><link href="http://markos.gaivo.net/articles/revisiting-javascript-i18n.html" rel="alternate"></link><updated>2006-02-25T16:55:00+01:00</updated><author><name>markos</name></author><id>tag:markos.gaivo.net,2006-02-25:articles/revisiting-javascript-i18n.html</id><summary type="html">&lt;p&gt;&lt;html&gt;
  &lt;body&gt;
   &lt;div&gt;
    &lt;p&gt;
@@ -232,7 +232,7 @@
    &lt;/p&gt;
   &lt;/div&gt;
  &lt;/body&gt;
-&lt;/html&gt;&lt;/p&gt;</summary></entry><entry><title>Google Page Creator (now together with screenshots)</title><link href="http://markos.gaivo.net/google-pages.html" rel="alternate"></link><updated>2006-02-23T17:22:00+01:00</updated><author><name>markos</name></author><id>tag:markos.gaivo.net,2006-02-23:google-pages.html</id><summary type="html">&lt;p&gt;&lt;html&gt;
+&lt;/html&gt;&lt;/p&gt;</summary></entry><entry><title>Google Page Creator (now together with screenshots)</title><link href="http://markos.gaivo.net/articles/google-pages.html" rel="alternate"></link><updated>2006-02-23T17:22:00+01:00</updated><author><name>markos</name></author><id>tag:markos.gaivo.net,2006-02-23:articles/google-pages.html</id><summary type="html">&lt;p&gt;&lt;html&gt;
  &lt;body&gt;
   &lt;div&gt;
    &lt;p&gt;
@@ -277,7 +277,7 @@
    &lt;/p&gt;
   &lt;/div&gt;
  &lt;/body&gt;
-&lt;/html&gt;&lt;/p&gt;</summary></entry><entry><title>News at seven - javascript i18n that almost doesn't suck</title><link href="http://markos.gaivo.net/news-at-seven-javascript-i18n-that-almost-doesnt-suck.html" rel="alternate"></link><updated>2005-12-19T19:36:00+01:00</updated><author><name>markos</name></author><id>tag:markos.gaivo.net,2005-12-19:news-at-seven-javascript-i18n-that-almost-doesnt-suck.html</id><summary type="html">&lt;p&gt;&lt;html&gt;
+&lt;/html&gt;&lt;/p&gt;</summary></entry><entry><title>News at seven - javascript i18n that almost doesn't suck</title><link href="http://markos.gaivo.net/articles/news-at-seven-javascript-i18n-that-almost-doesnt-suck.html" rel="alternate"></link><updated>2005-12-19T19:36:00+01:00</updated><author><name>markos</name></author><id>tag:markos.gaivo.net,2005-12-19:articles/news-at-seven-javascript-i18n-that-almost-doesnt-suck.html</id><summary type="html">&lt;p&gt;&lt;html&gt;
  &lt;body&gt;
   &lt;div&gt;
    &lt;p&gt;
@@ -377,7 +377,7 @@
    &lt;/p&gt;
   &lt;/div&gt;
  &lt;/body&gt;
-&lt;/html&gt;&lt;/p&gt;</summary></entry><entry><title>Multitasking with POST requests - part II</title><link href="http://markos.gaivo.net/multitasking-with-post-requests-part-ii.html" rel="alternate"></link><updated>2005-12-16T13:55:00+01:00</updated><author><name>markos</name></author><id>tag:markos.gaivo.net,2005-12-16:multitasking-with-post-requests-part-ii.html</id><summary type="html">&lt;p&gt;&lt;html&gt;
+&lt;/html&gt;&lt;/p&gt;</summary></entry><entry><title>Multitasking with POST requests - part II</title><link href="http://markos.gaivo.net/articles/multitasking-with-post-requests-part-ii.html" rel="alternate"></link><updated>2005-12-16T13:55:00+01:00</updated><author><name>markos</name></author><id>tag:markos.gaivo.net,2005-12-16:articles/multitasking-with-post-requests-part-ii.html</id><summary type="html">&lt;p&gt;&lt;html&gt;
  &lt;body&gt;
   &lt;div&gt;
    &lt;p&gt;
@@ -438,7 +438,7 @@
    &lt;/p&gt;
   &lt;/div&gt;
  &lt;/body&gt;
-&lt;/html&gt;&lt;/p&gt;</summary></entry><entry><title>Multitasking with POST requests?</title><link href="http://markos.gaivo.net/multitasking-with-post-requests.html" rel="alternate"></link><updated>2005-12-15T20:34:00+01:00</updated><author><name>markos</name></author><id>tag:markos.gaivo.net,2005-12-15:multitasking-with-post-requests.html</id><summary type="html">&lt;p&gt;&lt;html&gt;
+&lt;/html&gt;&lt;/p&gt;</summary></entry><entry><title>Multitasking with POST requests?</title><link href="http://markos.gaivo.net/articles/multitasking-with-post-requests.html" rel="alternate"></link><updated>2005-12-15T20:34:00+01:00</updated><author><name>markos</name></author><id>tag:markos.gaivo.net,2005-12-15:articles/multitasking-with-post-requests.html</id><summary type="html">&lt;p&gt;&lt;html&gt;
  &lt;body&gt;
   &lt;div&gt;
    &lt;p&gt;

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>A notch above a monkey</title><link href="http://markos.gaivo.net/" rel="alternate"></link><link href="/articles/feeds/general-development-javascript-web.atom.xml" rel="self"></link><id>http://markos.gaivo.net/</id><updated>2008-05-17T17:05:00+02:00</updated><entry><title>Google Doctype</title><link href="http://markos.gaivo.net/google-doctype.html" rel="alternate"></link><updated>2008-05-17T17:05:00+02:00</updated><author><name>markos</name></author><id>tag:markos.gaivo.net,2008-05-17:google-doctype.html</id><summary type="html">&lt;p&gt;&lt;html&gt;
+<feed xmlns="http://www.w3.org/2005/Atom"><title>A notch above a monkey</title><link href="http://markos.gaivo.net/articles/" rel="alternate"></link><link href="/articles/feeds/general-development-javascript-web.atom.xml" rel="self"></link><id>http://markos.gaivo.net/articles/</id><updated>2008-05-17T17:05:00+02:00</updated><entry><title>Google Doctype</title><link href="http://markos.gaivo.net/articles/google-doctype.html" rel="alternate"></link><updated>2008-05-17T17:05:00+02:00</updated><author><name>markos</name></author><id>tag:markos.gaivo.net,2008-05-17:articles/google-doctype.html</id><summary type="html">&lt;p&gt;&lt;html&gt;
  &lt;body&gt;
   &lt;div&gt;
    &lt;p&gt;
@@ -33,7 +33,7 @@
    &lt;/div&gt;
   &lt;/div&gt;
  &lt;/body&gt;
-&lt;/html&gt;&lt;/p&gt;</summary></entry><entry><title>Code misery</title><link href="http://markos.gaivo.net/code-misery.html" rel="alternate"></link><updated>2006-08-27T13:05:00+02:00</updated><author><name>markos</name></author><id>tag:markos.gaivo.net,2006-08-27:code-misery.html</id><summary type="html">&lt;p&gt;&lt;html&gt;
+&lt;/html&gt;&lt;/p&gt;</summary></entry><entry><title>Code misery</title><link href="http://markos.gaivo.net/articles/code-misery.html" rel="alternate"></link><updated>2006-08-27T13:05:00+02:00</updated><author><name>markos</name></author><id>tag:markos.gaivo.net,2006-08-27:articles/code-misery.html</id><summary type="html">&lt;p&gt;&lt;html&gt;
  &lt;body&gt;
   &lt;div&gt;
    &lt;p&gt;

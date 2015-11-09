@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>A notch above a monkey</title><link>http://markos.gaivo.net/</link><description></description><atom:link href="/articles/feeds/rss.xml" rel="self"></atom:link><lastBuildDate>Sun, 25 Jan 2015 23:03:00 +0100</lastBuildDate><item><title>Late 2014 review</title><link>http://markos.gaivo.net/late-2014-review.html</link><description>&lt;p&gt;&lt;html&gt;
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>A notch above a monkey</title><link>http://markos.gaivo.net/articles/</link><description></description><atom:link href="/articles/feeds/rss.xml" rel="self"></atom:link><lastBuildDate>Sun, 25 Jan 2015 23:03:00 +0100</lastBuildDate><item><title>Late 2014 review</title><link>http://markos.gaivo.net/articles/late-2014-review.html</link><description>&lt;p&gt;&lt;html&gt;
  &lt;body&gt;
   &lt;div&gt;
    &lt;p&gt;
@@ -126,7 +126,7 @@
    &lt;/ol&gt;
   &lt;/div&gt;
  &lt;/body&gt;
-&lt;/html&gt;&lt;/p&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">markos</dc:creator><pubDate>Sun, 25 Jan 2015 23:03:00 +0100</pubDate><guid>tag:markos.gaivo.net,2015-01-25:late-2014-review.html</guid></item><item><title>Books I read in 2014</title><link>http://markos.gaivo.net/books-i-read-in-2014.html</link><description>&lt;p&gt;&lt;html&gt;
+&lt;/html&gt;&lt;/p&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">markos</dc:creator><pubDate>Sun, 25 Jan 2015 23:03:00 +0100</pubDate><guid>tag:markos.gaivo.net,2015-01-25:articles/late-2014-review.html</guid></item><item><title>Books I read in 2014</title><link>http://markos.gaivo.net/articles/books-i-read-in-2014.html</link><description>&lt;p&gt;&lt;html&gt;
  &lt;body&gt;
   &lt;div&gt;
    &lt;p&gt;
@@ -260,7 +260,7 @@
    &lt;/ul&gt;
   &lt;/div&gt;
  &lt;/body&gt;
-&lt;/html&gt;&lt;/p&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">markos</dc:creator><pubDate>Wed, 31 Dec 2014 19:01:00 +0100</pubDate><guid>tag:markos.gaivo.net,2014-12-31:books-i-read-in-2014.html</guid></item><item><title>Chirp, Squawk, Cackle, or Honk*</title><link>http://markos.gaivo.net/chirp-squawk-cackle-or-honk.html</link><description>&lt;p&gt;&lt;html&gt;
+&lt;/html&gt;&lt;/p&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">markos</dc:creator><pubDate>Wed, 31 Dec 2014 19:01:00 +0100</pubDate><guid>tag:markos.gaivo.net,2014-12-31:articles/books-i-read-in-2014.html</guid></item><item><title>Chirp, Squawk, Cackle, or Honk*</title><link>http://markos.gaivo.net/articles/chirp-squawk-cackle-or-honk.html</link><description>&lt;p&gt;&lt;html&gt;
  &lt;body&gt;
   &lt;div&gt;
    &lt;p&gt;
@@ -453,7 +453,7 @@
    &lt;/ol&gt;
   &lt;/div&gt;
  &lt;/body&gt;
-&lt;/html&gt;&lt;/p&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">markos</dc:creator><pubDate>Thu, 10 Jul 2014 17:01:00 +0200</pubDate><guid>tag:markos.gaivo.net,2014-07-10:chirp-squawk-cackle-or-honk.html</guid></item><item><title>40</title><link>http://markos.gaivo.net/40.html</link><description>&lt;p&gt;&lt;html&gt;
+&lt;/html&gt;&lt;/p&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">markos</dc:creator><pubDate>Thu, 10 Jul 2014 17:01:00 +0200</pubDate><guid>tag:markos.gaivo.net,2014-07-10:articles/chirp-squawk-cackle-or-honk.html</guid></item><item><title>40</title><link>http://markos.gaivo.net/articles/40.html</link><description>&lt;p&gt;&lt;html&gt;
  &lt;body&gt;
   &lt;div&gt;
    &lt;p class="aligncenter"&gt;
@@ -493,7 +493,7 @@
    &lt;/p&gt;
   &lt;/div&gt;
  &lt;/body&gt;
-&lt;/html&gt;&lt;/p&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">markos</dc:creator><pubDate>Wed, 19 Feb 2014 00:52:00 +0100</pubDate><guid>tag:markos.gaivo.net,2014-02-19:40.html</guid></item><item><title>The books I read in 2013</title><link>http://markos.gaivo.net/the-books-i-read-in-2013.html</link><description>&lt;p&gt;&lt;html&gt;
+&lt;/html&gt;&lt;/p&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">markos</dc:creator><pubDate>Wed, 19 Feb 2014 00:52:00 +0100</pubDate><guid>tag:markos.gaivo.net,2014-02-19:articles/40.html</guid></item><item><title>The books I read in 2013</title><link>http://markos.gaivo.net/articles/the-books-i-read-in-2013.html</link><description>&lt;p&gt;&lt;html&gt;
  &lt;body&gt;
   &lt;div&gt;
    &lt;p&gt;
@@ -733,7 +733,7 @@
    &lt;/ul&gt;
   &lt;/div&gt;
  &lt;/body&gt;
-&lt;/html&gt;&lt;/p&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">markos</dc:creator><pubDate>Fri, 03 Jan 2014 12:41:00 +0100</pubDate><guid>tag:markos.gaivo.net,2014-01-03:the-books-i-read-in-2013.html</guid></item><item><title>2013 review</title><link>http://markos.gaivo.net/2013-review.html</link><description>&lt;p&gt;&lt;html&gt;
+&lt;/html&gt;&lt;/p&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">markos</dc:creator><pubDate>Fri, 03 Jan 2014 12:41:00 +0100</pubDate><guid>tag:markos.gaivo.net,2014-01-03:articles/the-books-i-read-in-2013.html</guid></item><item><title>2013 review</title><link>http://markos.gaivo.net/articles/2013-review.html</link><description>&lt;p&gt;&lt;html&gt;
  &lt;body&gt;
   &lt;div&gt;
    &lt;p&gt;
@@ -824,7 +824,7 @@
    &lt;/p&gt;
   &lt;/div&gt;
  &lt;/body&gt;
-&lt;/html&gt;&lt;/p&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">markos</dc:creator><pubDate>Wed, 01 Jan 2014 23:22:00 +0100</pubDate><guid>tag:markos.gaivo.net,2014-01-01:2013-review.html</guid></item><item><title>Not being wrong</title><link>http://markos.gaivo.net/avoiding-being-stupid.html</link><description>&lt;p&gt;&lt;html&gt;
+&lt;/html&gt;&lt;/p&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">markos</dc:creator><pubDate>Wed, 01 Jan 2014 23:22:00 +0100</pubDate><guid>tag:markos.gaivo.net,2014-01-01:articles/2013-review.html</guid></item><item><title>Not being wrong</title><link>http://markos.gaivo.net/articles/avoiding-being-stupid.html</link><description>&lt;p&gt;&lt;html&gt;
  &lt;body&gt;
   &lt;div&gt;
    &lt;p&gt;
@@ -903,7 +903,7 @@
    &lt;/ol&gt;
   &lt;/div&gt;
  &lt;/body&gt;
-&lt;/html&gt;&lt;/p&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">markos</dc:creator><pubDate>Sun, 29 Dec 2013 23:28:00 +0100</pubDate><guid>tag:markos.gaivo.net,2013-12-29:avoiding-being-stupid.html</guid></item><item><title>DjangoCon Europe 2014?</title><link>http://markos.gaivo.net/djangocon-europe-2014.html</link><description>&lt;p&gt;&lt;html&gt;
+&lt;/html&gt;&lt;/p&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">markos</dc:creator><pubDate>Sun, 29 Dec 2013 23:28:00 +0100</pubDate><guid>tag:markos.gaivo.net,2013-12-29:articles/avoiding-being-stupid.html</guid></item><item><title>DjangoCon Europe 2014?</title><link>http://markos.gaivo.net/articles/djangocon-europe-2014.html</link><description>&lt;p&gt;&lt;html&gt;
  &lt;body&gt;
   &lt;div&gt;
    &lt;p&gt;
@@ -970,7 +970,7 @@
    &lt;/ol&gt;
   &lt;/div&gt;
  &lt;/body&gt;
-&lt;/html&gt;&lt;/p&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">markos</dc:creator><pubDate>Sun, 22 Dec 2013 19:29:00 +0100</pubDate><guid>tag:markos.gaivo.net,2013-12-22:djangocon-europe-2014.html</guid></item><item><title>Comments closed</title><link>http://markos.gaivo.net/comments-closed.html</link><description>&lt;p&gt;&lt;html&gt;
+&lt;/html&gt;&lt;/p&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">markos</dc:creator><pubDate>Sun, 22 Dec 2013 19:29:00 +0100</pubDate><guid>tag:markos.gaivo.net,2013-12-22:articles/djangocon-europe-2014.html</guid></item><item><title>Comments closed</title><link>http://markos.gaivo.net/articles/comments-closed.html</link><description>&lt;p&gt;&lt;html&gt;
  &lt;body&gt;
   &lt;div&gt;
    &lt;p&gt;
@@ -992,7 +992,7 @@
    &lt;/p&gt;
   &lt;/div&gt;
  &lt;/body&gt;
-&lt;/html&gt;&lt;/p&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">markos</dc:creator><pubDate>Sat, 20 Jul 2013 21:39:00 +0200</pubDate><guid>tag:markos.gaivo.net,2013-07-20:comments-closed.html</guid></item><item><title>Laughable Javascript security</title><link>http://markos.gaivo.net/laughable-javascript-security.html</link><description>&lt;p&gt;&lt;html&gt;
+&lt;/html&gt;&lt;/p&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">markos</dc:creator><pubDate>Sat, 20 Jul 2013 21:39:00 +0200</pubDate><guid>tag:markos.gaivo.net,2013-07-20:articles/comments-closed.html</guid></item><item><title>Laughable Javascript security</title><link>http://markos.gaivo.net/articles/laughable-javascript-security.html</link><description>&lt;p&gt;&lt;html&gt;
  &lt;body&gt;
   &lt;div&gt;
    &lt;p&gt;
@@ -1178,4 +1178,4 @@
    &lt;/p&gt;
   &lt;/div&gt;
  &lt;/body&gt;
-&lt;/html&gt;&lt;/p&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">markos</dc:creator><pubDate>Thu, 11 Jul 2013 22:57:00 +0200</pubDate><guid>tag:markos.gaivo.net,2013-07-11:laughable-javascript-security.html</guid></item></channel></rss>
+&lt;/html&gt;&lt;/p&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">markos</dc:creator><pubDate>Thu, 11 Jul 2013 22:57:00 +0200</pubDate><guid>tag:markos.gaivo.net,2013-07-11:articles/laughable-javascript-security.html</guid></item></channel></rss>

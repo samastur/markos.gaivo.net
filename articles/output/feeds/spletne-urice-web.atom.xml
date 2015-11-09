@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>A notch above a monkey</title><link href="http://markos.gaivo.net/" rel="alternate"></link><link href="/articles/feeds/spletne-urice-web.atom.xml" rel="self"></link><id>http://markos.gaivo.net/</id><updated>2005-10-13T19:39:00+02:00</updated><entry><title>Usefulness of microformats</title><link href="http://markos.gaivo.net/usefulness-of-microformats.html" rel="alternate"></link><updated>2005-10-13T19:39:00+02:00</updated><author><name>markos</name></author><id>tag:markos.gaivo.net,2005-10-13:usefulness-of-microformats.html</id><summary type="html">&lt;p&gt;&lt;html&gt;
+<feed xmlns="http://www.w3.org/2005/Atom"><title>A notch above a monkey</title><link href="http://markos.gaivo.net/articles/" rel="alternate"></link><link href="/articles/feeds/spletne-urice-web.atom.xml" rel="self"></link><id>http://markos.gaivo.net/articles/</id><updated>2005-10-13T19:39:00+02:00</updated><entry><title>Usefulness of microformats</title><link href="http://markos.gaivo.net/articles/usefulness-of-microformats.html" rel="alternate"></link><updated>2005-10-13T19:39:00+02:00</updated><author><name>markos</name></author><id>tag:markos.gaivo.net,2005-10-13:articles/usefulness-of-microformats.html</id><summary type="html">&lt;p&gt;&lt;html&gt;
  &lt;body&gt;
   &lt;div&gt;
    &lt;p&gt;

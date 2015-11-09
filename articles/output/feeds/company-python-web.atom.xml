@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>A notch above a monkey</title><link href="http://markos.gaivo.net/" rel="alternate"></link><link href="/articles/feeds/company-python-web.atom.xml" rel="self"></link><id>http://markos.gaivo.net/</id><updated>2006-06-07T16:42:00+02:00</updated><entry><title>Marela uploader for series 60 phones - first public version</title><link href="http://markos.gaivo.net/marela-uploader-for-series-60-phones-first-public-version.html" rel="alternate"></link><updated>2006-06-07T16:42:00+02:00</updated><author><name>markos</name></author><id>tag:markos.gaivo.net,2006-06-07:marela-uploader-for-series-60-phones-first-public-version.html</id><summary type="html">&lt;p&gt;&lt;html&gt;
+<feed xmlns="http://www.w3.org/2005/Atom"><title>A notch above a monkey</title><link href="http://markos.gaivo.net/articles/" rel="alternate"></link><link href="/articles/feeds/company-python-web.atom.xml" rel="self"></link><id>http://markos.gaivo.net/articles/</id><updated>2006-06-07T16:42:00+02:00</updated><entry><title>Marela uploader for series 60 phones - first public version</title><link href="http://markos.gaivo.net/articles/marela-uploader-for-series-60-phones-first-public-version.html" rel="alternate"></link><updated>2006-06-07T16:42:00+02:00</updated><author><name>markos</name></author><id>tag:markos.gaivo.net,2006-06-07:articles/marela-uploader-for-series-60-phones-first-public-version.html</id><summary type="html">&lt;p&gt;&lt;html&gt;
  &lt;body&gt;
   &lt;div&gt;
    &lt;p&gt;
@@ -23,7 +23,7 @@
    &lt;/p&gt;
   &lt;/div&gt;
  &lt;/body&gt;
-&lt;/html&gt;&lt;/p&gt;</summary></entry><entry><title>Update on my series60 Marela uploader</title><link href="http://markos.gaivo.net/update-on-my-series60-marela-uploader.html" rel="alternate"></link><updated>2006-05-28T14:43:00+02:00</updated><author><name>markos</name></author><id>tag:markos.gaivo.net,2006-05-28:update-on-my-series60-marela-uploader.html</id><summary type="html">&lt;p&gt;&lt;html&gt;
+&lt;/html&gt;&lt;/p&gt;</summary></entry><entry><title>Update on my series60 Marela uploader</title><link href="http://markos.gaivo.net/articles/update-on-my-series60-marela-uploader.html" rel="alternate"></link><updated>2006-05-28T14:43:00+02:00</updated><author><name>markos</name></author><id>tag:markos.gaivo.net,2006-05-28:articles/update-on-my-series60-marela-uploader.html</id><summary type="html">&lt;p&gt;&lt;html&gt;
  &lt;body&gt;
   &lt;div&gt;
    &lt;p&gt;
@@ -40,7 +40,7 @@
    &lt;/p&gt;
   &lt;/div&gt;
  &lt;/body&gt;
-&lt;/html&gt;&lt;/p&gt;</summary></entry><entry><title>Mobile user interfaces</title><link href="http://markos.gaivo.net/mobile-user-interfaces.html" rel="alternate"></link><updated>2006-05-17T17:51:00+02:00</updated><author><name>markos</name></author><id>tag:markos.gaivo.net,2006-05-17:mobile-user-interfaces.html</id><summary type="html">&lt;p&gt;&lt;html&gt;
+&lt;/html&gt;&lt;/p&gt;</summary></entry><entry><title>Mobile user interfaces</title><link href="http://markos.gaivo.net/articles/mobile-user-interfaces.html" rel="alternate"></link><updated>2006-05-17T17:51:00+02:00</updated><author><name>markos</name></author><id>tag:markos.gaivo.net,2006-05-17:articles/mobile-user-interfaces.html</id><summary type="html">&lt;p&gt;&lt;html&gt;
  &lt;body&gt;
   &lt;div&gt;
    &lt;p&gt;
@@ -58,7 +58,7 @@
    &lt;/p&gt;
   &lt;/div&gt;
  &lt;/body&gt;
-&lt;/html&gt;&lt;/p&gt;</summary></entry><entry><title>Building FAQ from wiki pages</title><link href="http://markos.gaivo.net/building-faq-from-wiki-pages.html" rel="alternate"></link><updated>2005-11-22T17:17:00+01:00</updated><author><name>markos</name></author><id>tag:markos.gaivo.net,2005-11-22:building-faq-from-wiki-pages.html</id><summary type="html">&lt;p&gt;&lt;html&gt;
+&lt;/html&gt;&lt;/p&gt;</summary></entry><entry><title>Building FAQ from wiki pages</title><link href="http://markos.gaivo.net/articles/building-faq-from-wiki-pages.html" rel="alternate"></link><updated>2005-11-22T17:17:00+01:00</updated><author><name>markos</name></author><id>tag:markos.gaivo.net,2005-11-22:articles/building-faq-from-wiki-pages.html</id><summary type="html">&lt;p&gt;&lt;html&gt;
  &lt;body&gt;
   &lt;div&gt;
    &lt;p&gt;
