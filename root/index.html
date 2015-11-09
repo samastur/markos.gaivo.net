@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>Marko Samastur - about me</title>
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" /> 
+
+	<link href="http://fast.fonts.com/cssapi/aee9b60b-8e94-47f8-b586-3ecbfab51d1c.css" rel="stylesheet" type="text/css" />
+	<link rel="stylesheet" type="text/css" href="css/home.css" media="screen" title="Light theme" />
+	<link rel="alternate stylesheet" type="text/css" href="css/home_dark.css" media="screen" title="Dark theme" />
+	<link rel="stylesheet" type="text/css" href="css/smallscreen.css" media="only screen and (max-width: 700px)" />
+	<link rel="stylesheet" href="css/ipad.css" media="only screen and (min-device-width : 768px) and (max-device-width : 1024px)">
+	<!--
+	<link rel="stylesheet" type="text/css" href="css/tablet.css" media="only screen and (min-device-width:701px) and (max-device-width: 1024px)" />
+	<link rel="stylesheet" href="css/highdpi.css" media="only screen and (-webkit-min-pixel-ratio : 1.5), screen and (min-pixel-ratio : 1.5)">
+	-->
+	<link rel="shortcut icon" href="img/markos.ico" />
+
+	<!--[if lt IE 9]>
+	<script src="js/html5.js"></script>
+	<![endif]-->
+	<script src="js/jquery.js"></script>
+	<script>
+jQuery(function ($) {
+	function storage_support() {
+		try {
+			return 'localStorage' in window && window['localStorage'] !== null;
+		} catch(e) {
+			return false;
+		}
+	}
+
+	// Read from local storage if it exists and set to its value
+	if (storage_support() && 'theme' in localStorage) {
+		theme = localStorage['theme'];
+		$('link[title="Dark theme"]').attr("disabled", theme === "dark" ? false : true);
+	}
+
+	// Save settings on page unload (to support browser stylesheet switching)
+	$(window).bind("unload", function (e) {
+		if (storage_support()) {
+			localStorage['theme'] = $('link[title="Dark theme"]').attr("disabled") ? "" : "dark";
+		}
+	});
+
+	$("address.email").replaceWith(function () {
+		var email = $(this).text().replace(/ __at__ /g, "@").replace(/ __dot__ /g, ".");
+		return '<a href="mailto:'+email+'" class="email">'+email+'</a>';
+	});
+
+	// (Hopefully) useful intro
+	if (!document.referrer || document.referrer.search(document.location.host) == -1) {
+		$('body').addClass("intro");
+		$('<li><a href="#" id="about-me">about me</a></li>').click(function (e) {
+				e.stopPropagation(); e.preventDefault();
+				$('body').animate({opacity:0}, "slow", function (e) {
+					$("#about-me").remove();
+					$('body').removeClass("intro")
+							.animate({opacity:1}, "slow");
+				});
+			}).appendTo("#here ul");
+	}
+});
+	</script>
+</head>
+<body>
+	<section class="envelope">
+		<aside>
+			<div id="here" class="vcard">
+				<img src="img/me.jpg" alt="Picture of me" class="photo" />
+				<ul>
+					<li><span class="fn">Marko Samastur</span></li>
+					<li><address class="email">markos __at__ gaivo __dot__ net</address></li>
+					<li><a href="http://markos.gaivo.net/articles/" class="website url">My blog</a></li>
+				</ul>
+			</div>
+			<div id="elsewhere">
+				<p>My footprints elsewhere on the web:</p>
+				<ul>
+					<li class="github"><a href="https://github.com/samastur" rel="me" title="Some of my code"><img src="img/github-24x24.png" alt="Github" /></a></li>
+					<li class="linkedin"><a href="http://si.linkedin.com/in/markosamastur" rel="me" title="Hire me"><img src="img/linkedin-24x24.png" alt="LinkedIn" /></a></li>
+					<li class="twitter"><a href="http://twitter.com/samastur" rel="me" title="Follow me on Twitter"><img src="img/twitter-24x24.png" alt="Twitter" /></a></li>
+					<li class="lanyrd"><a href="http://lanyrd.com/people/samastur/" rel="me" title="Meet me at a conference"><img src="img/lanyrd-24x24.png" alt="Lanyrd" /></a></li>
+					<li class="flickr"><a href="http://www.flickr.com/photos/markos/" rel="me" title="My photos"><img src="img/flickr-24x24.png" alt="Flickr" /></a></li>
+					<li class="youtube"><a href="http://www.youtube.com/user/msamastur" rel="me" title="Interaction design videos"><img src="img/youtube-24x24.png" alt="YouTube" /></a></li>
+				</ul>
+			</div>
+		</aside>
+
+		<header>
+			<h1>About me</h1>
+		</header>
+
+		<article class="about">
+			<p>Hi, I'm Marko Samastur and I live in
+			<a href="http://maps.google.com/maps?q=ljubljana+google+maps&amp;ll=46.052386,14.507103&amp;spn=0.091971,0.167198&amp;t=h&amp;z=13" title="Ljubljana on Google maps">
+			Ljubljana, Slovenia</a>, an almost unknown country that looks like
+			a chicken (unlike our neighbor Italy which looks like a boot).</p>
+			<p>I write about things I find useful or interesting on
+			<a href="/articles/" title="Just a notch above a monkey">my blog</a>.
+			Sometimes they might even be helpful to others. I may borrow ideas,
+			but opinions are mine since nobody paid for them.</p>
+			<p>I have a wonderful wife, hate making phone calls and don't have a pet.</p>
+
+			<h2>Work</h2>
+
+			<p>I am a web developer specializing in front-end development and
+			interface design and working for <a href="http://www.aptivate.org/">Aptivate</a>,
+			a not-for-profit NGO.</p>
+			<p>You can read more about what I do (and did) at
+			<a href="http://si.linkedin.com/in/markosamastur" title="Hire me">
+			LinkedIn</a> or contact me for further information.</p>
+
+			<h2>License & Disclaimer</h2>
+
+			<p>You are free to use code found on my pages in any way you please,
+			as long as I'm not responsible for consequences. If it breaks and
+			you lose a million dollars, it's you being without a million,
+			not me.</p>
+			<p>It's even harder to imagine why you would use my words, but in
+			case you do, be cool about it. Give credit as long as they're mine
+			and don't otherwise. I get in enough troubles as it is.</p>
+		</article>
+	</section>
+
+	<footer>
+		<span>&copy; 2005-2011 Marko Samastur;
+		Icons by <a href="http://paulrobertlloyd.com/2009/06/social_media_icons">Paul Robert Lloyd</a>.</span>
+		<a href="/"><img src="img/markos_light_small_bg.png" alt="logo" class="mini-logo" /></a>
+	</footer>
+</body>
+</html>
