@@ -12,6 +12,9 @@ RewriteRule . /blog/index.php [L]
 RewriteCond %{QUERY_STRING} ^feed=(.*)$
 RewriteRule ^blog/?$ /articles/feeds/%1.xml? [R=302,L]
 
+# Redirect my mistakes
+Redirect 301 /articles/feeds/rss2.xml /articles/feeds/rss.xml
+
 # Redirect WP blog pages to new static ones
 RedirectMatch 302 /blog/category/(.*)/$ /articles/category/$1.html
 RedirectMatch 302 /blog/feed/(.*)/$ /articles/feeds/$1.xml
