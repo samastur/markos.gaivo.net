@@ -1,3 +1,5 @@
+ErrorDocument 404 /404.html
+
 # Make nicer urls for old WordPress blog
 <IfModule mod_rewrite.c>
 RewriteEngine On
@@ -5,8 +7,9 @@ RewriteBase /blog/
 RewriteRule ^index\.php$ - [L]
 RewriteCond %{REQUEST_FILENAME} !-f
 RewriteCond %{REQUEST_FILENAME} !-d
-RewriteRule . /blog/index.php [L]
+RewriteRule /blog/.*$ /blog/index.php [L]
 </IfModule>
+
 
 # Redirect query feeds
 RewriteCond %{QUERY_STRING} ^feed=(.*)$
@@ -22,4 +25,4 @@ RedirectMatch 302 /blog/feed/$ /articles/feeds/atom.xml
 RedirectMatch 302 /blog/code/(.*)$ /articles_code/$1
 RedirectMatch 302 /blog/page/.*$ /articles
 RedirectMatch 302 /blog/(.*)/$ /articles/$1.html
-#RedirectMatch 302 /blog/ /articles/
+RedirectMatch 302 /blog/ /articles/
