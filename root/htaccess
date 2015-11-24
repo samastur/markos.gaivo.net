@@ -12,17 +12,57 @@ RewriteRule /blog/.*$ /blog/index.php [L]
 
 
 # Redirect query feeds
+
+# Categories
+RewriteCond %{QUERY_STRING} ^feed=rss2&cat=1$
+RewriteRule ^blog/?$ /articles/feeds/javascript.atom.xml? [R=301,L]
+
+RewriteCond %{QUERY_STRING} ^feed=rss2&cat=2$
+RewriteRule ^blog/?$ /articles/feeds/python.atom.xml? [R=301,L]
+
+RewriteCond %{QUERY_STRING} ^feed=rss2&cat=3$
+RewriteRule ^blog/?$ /articles/feeds/catchall.atom.xml? [R=301,L]
+
+RewriteCond %{QUERY_STRING} ^feed=rss2&cat=4$
+RewriteRule ^blog/?$ /articles/feeds/web.atom.xml? [R=301,L]
+
+RewriteCond %{QUERY_STRING} ^feed=rss2&cat=5$
+RewriteRule ^blog/?$ /articles/feeds/general-development.atom.xml? [R=301,L]
+
+RewriteCond %{QUERY_STRING} ^feed=rss2&cat=6$
+RewriteRule ^blog/?$ /articles/feeds/linux.atom.xml? [R=301,L]
+
+RewriteCond %{QUERY_STRING} ^feed=rss2&cat=7$
+RewriteRule ^blog/?$ /articles/feeds/ui.atom.xml? [R=301,L]
+
+RewriteCond %{QUERY_STRING} ^feed=rss2&cat=8$
+RewriteRule ^blog/?$ /articles/feeds/spletne-urice.atom.xml? [R=301,L]
+
+RewriteCond %{QUERY_STRING} ^feed=rss2&cat=9$
+RewriteRule ^blog/?$ /articles/feeds/company.atom.xml? [R=301,L]
+
+RewriteCond %{QUERY_STRING} ^feed=rss2&cat=39$
+RewriteRule ^blog/?$ /articles/feeds/django-python.atom.xml? [R=301,L]
+
+RewriteCond %{QUERY_STRING} ^feed=rss2&cat=170$
+RewriteRule ^blog/?$ /articles/feeds/opendata.atom.xml? [R=301,L]
+
+# Articles don't have feed anymore => redirect to main feed
+RewriteCond %{QUERY_STRING} ^feed=rss2&p=(.*)$
+RewriteRule ^blog/?$ /articles/feeds/atom.xml? [R=301,L]
+
+# All other feeds
 RewriteCond %{QUERY_STRING} ^feed=(.*)$
-RewriteRule ^blog/?$ /articles/feeds/%1.xml? [R=302,L]
+RewriteRule ^blog/?$ /articles/feeds/%1.xml? [R=301,L]
 
 # Redirect my mistakes
 Redirect 301 /articles/feeds/rss2.xml /articles/feeds/rss.xml
 
 # Redirect WP blog pages to new static ones
-RedirectMatch 302 /blog/category/(.*)/$ /articles/category/$1.html
-RedirectMatch 302 /blog/feed/(.*)/$ /articles/feeds/$1.xml
-RedirectMatch 302 /blog/feed/$ /articles/feeds/atom.xml
-RedirectMatch 302 /blog/code/(.*)$ /articles_code/$1
-RedirectMatch 302 /blog/page/.*$ /articles
-RedirectMatch 302 /blog/(.*)/$ /articles/$1.html
-RedirectMatch 302 /blog/ /articles/
+RedirectMatch 301 /blog/category/(.*)/$ /articles/category/$1.html
+RedirectMatch 301 /blog/feed/(.*)/$ /articles/feeds/$1.xml
+RedirectMatch 301 /blog/feed/$ /articles/feeds/atom.xml
+RedirectMatch 301 /blog/code/(.*)$ /articles_code/$1
+RedirectMatch 301 /blog/page/.*$ /articles
+RedirectMatch 301 /blog/(.*)/$ /articles/$1.html
+#RedirectMatch 302 /blog/ /articles/
