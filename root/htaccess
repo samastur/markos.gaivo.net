@@ -65,4 +65,4 @@ RedirectMatch 301 /blog/feed/$ /articles/feeds/atom.xml
 RedirectMatch 301 /blog/code/(.*)$ /articles_code/$1
 RedirectMatch 301 /blog/page/.*$ /articles
 RedirectMatch 301 /blog/(.*)/$ /articles/$1.html
-#RedirectMatch 302 /blog/ /articles/
+RedirectMatch 302 /blog/ /articles/
