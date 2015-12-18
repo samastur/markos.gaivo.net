@@ -1,5 +1,21 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>A notch above a monkey</title><link href="http://markos.gaivo.net/articles/" rel="alternate"></link><link href="/articles/feeds/atom.xml" rel="self"></link><id>http://markos.gaivo.net/articles/</id><updated>2015-01-25T23:03:00+01:00</updated><entry><title>Late 2014 review</title><link href="http://markos.gaivo.net/articles/late-2014-review.html" rel="alternate"></link><updated>2015-01-25T23:03:00+01:00</updated><author><name>markos</name></author><id>tag:markos.gaivo.net,2015-01-25:articles/late-2014-review.html</id><summary type="html">&lt;p&gt;&lt;html&gt;
+<feed xmlns="http://www.w3.org/2005/Atom"><title>A notch above a monkey</title><link href="http://markos.gaivo.net/articles/" rel="alternate"></link><link href="/articles/feeds/atom.xml" rel="self"></link><id>http://markos.gaivo.net/articles/</id><updated>2015-12-18T18:40:04+01:00</updated><entry><title>Homeconf</title><link href="http://markos.gaivo.net/articles/homeconf.html" rel="alternate"></link><updated>2015-12-18T18:40:04+01:00</updated><author><name>markos</name></author><id>tag:markos.gaivo.net,2015-12-18:articles/homeconf.html</id><summary type="html">&lt;p&gt;I like going to conferences as I find them a really good way to get introduced to a bunch of topics I don't know enough about. For various reasons I only went to two this year. Instead I have collected links to talks I was interested in. However I really dislike watching presentations on my computer, so I haven't seen any of them until recently. I never get nearly as much out of them as when I listen in a dimly lit conference room.&lt;/p&gt;
+&lt;p&gt;Hence I recently tried to replicate conference experience at home. I have downloaded the talks&lt;sup id="sf-homeconf-1-back"&gt;&lt;a href="#sf-homeconf-1" class="simple-footnote" title="What's the benefit that couldn't be solved differently of publishing videos on public website but preventing their download?"&gt;1&lt;/a&gt;&lt;/sup&gt; and dedicated a full day to watching them. It was brilliant. I especially liked:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;that I could focus very much as I can at conferences&lt;/li&gt;
+&lt;li&gt;it is cheap and comfortable as I don't need to travel farther than our living room&lt;/li&gt;
+&lt;li&gt;line-up perfectly matched my interests&lt;/li&gt;
+&lt;li&gt;I could skip uninteresting talks easily without wasting time&lt;/li&gt;
+&lt;li&gt;that speakers would wait for me in mid-sentence if necessary when I needed more time&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;However not everything is better and there are aspects I have missed:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;not all interesting talks are publicly available&lt;/li&gt;
+&lt;li&gt;discussions about talks or ideas provoked by talks with other attendees&lt;/li&gt;
+&lt;li&gt;(ab)using power of pausing talks may interfere with your uptake as it can fragment talk's narrative&lt;/li&gt;
+&lt;li&gt;meeting new people (which as an introvert I don't do much anyway)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Of these I miss discussions the most. &lt;a href="http://friedcell.si/"&gt;Fry&lt;/a&gt; recently came up with a cool idea of starting a (video) talk "book club". The idea, which obviously needs a better name, is to meet fortnightly or so and have a discussion around talk everyone agreed to listen beforehand. It seems like a well balanced proposal to me, but I am curious to hear what others think about. Who would be interested in?&lt;/p&gt;&lt;ol class="simple-footnotes"&gt;&lt;li id="sf-homeconf-1"&gt;What's the benefit that couldn't be solved differently of publishing videos on public website but preventing their download? &lt;a href="#sf-homeconf-1-back" class="simple-footnote-back"&gt;↩&lt;/a&gt;&lt;/li&gt;&lt;/ol&gt;</summary></entry><entry><title>Late 2014 review</title><link href="http://markos.gaivo.net/articles/late-2014-review.html" rel="alternate"></link><updated>2015-01-25T23:03:00+01:00</updated><author><name>markos</name></author><id>tag:markos.gaivo.net,2015-01-25:articles/late-2014-review.html</id><summary type="html">&lt;p&gt;&lt;html&gt;
  &lt;body&gt;
   &lt;div&gt;
    &lt;p&gt;
@@ -989,192 +1005,6 @@
    &lt;/p&gt;
    &lt;p&gt;
     Until then you will need an account to comment which anyone is free to create (for now). Sorry.
-   &lt;/p&gt;
-  &lt;/div&gt;
- &lt;/body&gt;
-&lt;/html&gt;&lt;/p&gt;</summary></entry><entry><title>Laughable Javascript security</title><link href="http://markos.gaivo.net/articles/laughable-javascript-security.html" rel="alternate"></link><updated>2013-07-11T22:57:00+02:00</updated><author><name>markos</name></author><id>tag:markos.gaivo.net,2013-07-11:articles/laughable-javascript-security.html</id><summary type="html">&lt;p&gt;&lt;html&gt;
- &lt;body&gt;
-  &lt;div&gt;
-   &lt;p&gt;
-    Building a secure web application is not easy, unless you also use 3rd party code such as Facebook’s Like widget in which case it is impossible. What you have is just an illusion of security, a door to abuse that you can’t even check if it is currently closed.
-   &lt;/p&gt;
-   &lt;p&gt;
-    Or that’s what I thought for years. A once substantiated belief that grew into an almost dogmatic certainty until I recently got a chance to revisit it when trying to design a secure Javascript-based web application living inside of a likely untrusted environment.
-   &lt;/p&gt;
-   &lt;p&gt;
-    There are obvious things you can do to protect your application such as delivery over secure connections and use of anonymous functions to sandbox your code from outside interference. However you will probably need to interact with external code at some point in which case is that
-    &lt;em&gt;
-     XMLHTTPRequest
-    &lt;/em&gt;
-    object you are using really the built-in one or has it been replaced (cloaked) with an impostor object to perform
-    &lt;a href="https://en.wikipedia.org/wiki/Man-in-the-middle_attack"&gt;
-     the man-in-the-middle attack
-    &lt;/a&gt;
-    ?
-   &lt;/p&gt;
-   &lt;p&gt;
-    I don’t know of a way to check if an object is untouched. What is sometimes used instead is a
-    &lt;em&gt;
-     .toString
-    &lt;/em&gt;
-    method which on functions and methods returns their source unless they are native to browser in which case it returns a string saying so.
-   &lt;/p&gt;
-   &lt;p&gt;
-    Since you can replace any attribute and method on any object some
-    &lt;a href="http://stackoverflow.com/questions/6598945/detect-if-function-is-native-to-browser#comment8044242_6599105"&gt;
-     go even further
-    &lt;/a&gt;
-    in search of a certainty and use
-    &lt;em&gt;
-     .toString
-    &lt;/em&gt;
-    from the
-    &lt;em&gt;
-     Function
-    &lt;/em&gt;
-    object.
-   &lt;/p&gt;
-   &lt;p&gt;
-    At first thought that looked clever until I came up with:
-   &lt;/p&gt;
-   &lt;ol class="code"&gt;
-    &lt;li&gt;
-     &lt;code&gt;
-      &amp;lt;!DOCTYPE HTML&amp;gt;
-     &lt;/code&gt;
-    &lt;/li&gt;
-    &lt;li&gt;
-     &lt;code&gt;
-      &amp;lt;html lang="en"&amp;gt;
-     &lt;/code&gt;
-    &lt;/li&gt;
-    &lt;li&gt;
-     &lt;code&gt;
-      &amp;lt;head&amp;gt;
-     &lt;/code&gt;
-    &lt;/li&gt;
-    &lt;li class="tab1"&gt;
-     &lt;code&gt;
-      &amp;lt;meta charset="UTF-8"&amp;gt;
-     &lt;/code&gt;
-    &lt;/li&gt;
-    &lt;li class="tab1"&gt;
-     &lt;code&gt;
-      &amp;lt;title&amp;gt;Break check if function is native&amp;lt;/title&amp;gt;
-     &lt;/code&gt;
-    &lt;/li&gt;
-    &lt;li&gt;
-     &lt;code&gt;
-      &amp;lt;/head&amp;gt;
-     &lt;/code&gt;
-    &lt;/li&gt;
-    &lt;li&gt;
-     &lt;code&gt;
-      &amp;lt;body&amp;gt;
-     &lt;/code&gt;
-    &lt;/li&gt;
-    &lt;li class="tab1"&gt;
-     &lt;code&gt;
-      &amp;lt;script&amp;gt;
-     &lt;/code&gt;
-    &lt;/li&gt;
-    &lt;li&gt;
-     &lt;code&gt;
-      (function () {
-     &lt;/code&gt;
-    &lt;/li&gt;
-    &lt;li class="tab1"&gt;
-     &lt;code&gt;
-      var toS = Function.prototype.toString,
-     &lt;/code&gt;
-    &lt;/li&gt;
-    &lt;li class="tab2"&gt;
-     &lt;code&gt;
-      pM_str = window.postMessage.toString();
-     &lt;/code&gt;
-    &lt;/li&gt;
-    &lt;li&gt;
-    &lt;/li&gt;
-    &lt;li class="tab1"&gt;
-     &lt;code&gt;
-      Function.prototype.toString = function () {
-     &lt;/code&gt;
-    &lt;/li&gt;
-    &lt;li class="tab2"&gt;
-     &lt;code&gt;
-      return this === window.postMessage ? pM_str : toS.call(this);
-     &lt;/code&gt;
-    &lt;/li&gt;
-    &lt;li class="tab1"&gt;
-     &lt;code&gt;
-      }
-     &lt;/code&gt;
-    &lt;/li&gt;
-    &lt;li class="tab1"&gt;
-     &lt;code&gt;
-      window.postMessage = function () { console.log('Fake'); };
-     &lt;/code&gt;
-    &lt;/li&gt;
-    &lt;li&gt;
-     &lt;code&gt;
-      })();
-     &lt;/code&gt;
-    &lt;/li&gt;
-    &lt;li class="tab1"&gt;
-     &lt;code&gt;
-      &amp;lt;/script&amp;gt;
-     &lt;/code&gt;
-    &lt;/li&gt;
-    &lt;li&gt;
-     &lt;code&gt;
-      &amp;lt;/body&amp;gt;
-     &lt;/code&gt;
-    &lt;/li&gt;
-    &lt;li&gt;
-     &lt;code&gt;
-      &amp;lt;/html&amp;gt;
-     &lt;/code&gt;
-    &lt;/li&gt;
-    &lt;li&gt;
-    &lt;/li&gt;
-    &lt;li class="download"&gt;
-     Download this code:
-     &lt;a href="http://markos.gaivo.net/blog/code/nativecheck.txt" title="Download the above code as a text file"&gt;
-      /code/nativecheck.txt
-     &lt;/a&gt;
-    &lt;/li&gt;
-   &lt;/ol&gt;
-   &lt;p&gt;
-    The code above replaces
-    &lt;em&gt;
-     Function’s .toString
-    &lt;/em&gt;
-    method with a one that lies when executed on an also cloaked
-    &lt;em&gt;
-     window.postMessage
-    &lt;/em&gt;
-    . Instead of displaying source of the new
-    &lt;em&gt;
-     postMessage
-    &lt;/em&gt;
-    it prints whatever browser would print for the original one.
-   &lt;/p&gt;
-   &lt;p&gt;
-    It simultaneously demonstrates how you can cloak native Javascript objects and hide that you are doing it. If you put malicious code into an anonymous function and remove
-    &lt;em&gt;
-     &amp;lt;script&amp;gt;
-    &lt;/em&gt;
-    node that added it after it gets executed, then there is no way for scripts loading later to know that it happened. There will be no traces of crime.
-   &lt;/p&gt;
-   &lt;p&gt;
-    It might be difficult to cloak literals like {} and [], but you certainly can their methods so even if your code is wrapped in an anonymous function, it isn’t really secured from outside peeking and poking. Hence you even
-    &lt;strong&gt;
-     can’t trust your own code
-    &lt;/strong&gt;
-    .
-   &lt;/p&gt;
-   &lt;p&gt;
-    Turns out that this particular dogma is also true. Depressing.
    &lt;/p&gt;
   &lt;/div&gt;
  &lt;/body&gt;

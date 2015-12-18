@@ -3,7 +3,7 @@ Date: 2015-12-18 18:40:04
 Author: markos
 Category: Catchall
 Slug: homeconf
-Status: draft
+Status: published
 
 I like going to conferences as I find them a really good way to get introduced to a bunch of topics I don't know enough about. For various reasons I only went to two this year. Instead I have collected links to talks I was interested in. However I really dislike watching presentations on my computer, so I haven't seen any of them until recently. I never get nearly as much out of them as when I listen in a dimly lit conference room.
 

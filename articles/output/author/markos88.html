@@ -21,7 +21,7 @@
 
 <section class="envelope posts">
     <header>
-        <h1><a href="../">A notch above a monkey <strong></strong></a></h1>
+        <h1><a href="http://markos.gaivo.net/articles/">A notch above a monkey <strong></strong></a></h1>
     </header><!-- /#banner -->
 
     <nav class="colophon">
@@ -33,7 +33,66 @@
     </nav>
 
         <article class="hentry">
-            <h1 class="entry-title storytitle"><a href="../ajax-workshop.html" rel="bookmark" title="Permalink to Ajax Workshop">Ajax Workshop</a></h1>
+            <h1 class="entry-title storytitle"><a href="http://markos.gaivo.net/articles/i-like-sse.html" rel="bookmark" title="Permalink to I like SSE">I like SSE</a></h1>
+
+            <div class="entry-content post-text">
+                <p><html>
+ <body>
+  <div>
+   <p>
+    I’ve been a netizen since ’93 and I saw web for the first time in ’94, when a friend showed me
+    <a href="http://www.yahoo.com">
+     Yahoo
+    </a>
+    . I felt dizzy just thinking about possibilities.
+   </p>
+   <p>
+    I had no idea what was coming, but even though web came a long way since then, I never felt so excited again up until now. It’s hard to predict future and I avoid revealing my stupidity if possible, but it really looks like a no-brainer predicting a vastly different, more open and collaborative web in few years time than we have now.
+   </p>
+   <p>
+    Feeds were a big step forward. It wasn’t necessary to scrap pages to reuse information anymore. Even more importantly, feeds changed the attitude so sharing and reusing content is now again a normal and good thing.
+   </p>
+   <p>
+    It seems
+    <a href="http://www.ietf.org/html.charters/atompub-charter.html">
+     atom publishing protocol
+    </a>
+    will soon be ratified and with it a standard way of editing web resources. In fact making sharing a two-way street. The final piece was provided by
+    <a href="http://spaces.msn.com/members/rayozzie/PersonalSpace.aspx?_c01_blogpart=blogmgmt&amp;_c=blogpart" title="Ozzie's blog">
+     Ray Ozzie
+    </a>
+    and guys at Microsoft. A synchronization protocol for RSS feeds called
+    <a href="http://msdn.microsoft.com/xml/rss/sse/" title="Protocol specification">
+     SSE
+    </a>
+    published under creative commons license that should be really useful for synchronizing calendars, contacts etc.
+   </p>
+   <p>
+    I’ve read it a couple of days ago and I couldn’t find an obvious defect in it (apart from a small error in the example at point 2.2.2, which I’m sure has been spotted since). Truth be told, I didn’t expect it to.
+   </p>
+   <p>
+    It’s a simple, easy to understand specification. I wish people would stop using date-time values conforming to RFC 822, but nevertheless SSE shouldn’t be difficult to implement.
+   </p>
+   <p>
+    It probably really is the easiest thing that could work and it’s up to programmers to show if it might be too easy. There’s always a tension between things you specify and things you leave to implementation. Freedom given can and usually is a point of misunderstandings and until there are enough implementations in the wild, it’s hard to judge the quality of compromise.
+   </p>
+   <p>
+    I won’t be surprised though if final specification version won’t be significantly different than current one. I’ll try to make our implementation as soon as possible and hopefully by that time there will be others to test it with.
+   </p>
+  </div>
+ </body>
+</html></p>
+            </div><!-- /.entry-content -->
+
+            <footer class="post-metadata">
+                <ul>
+                    <li>Published on <time datetime="2005-11-24T22:33:00+01:00">Thu 24 November 2005</time> </li>
+                    <li><a href="http://markos.gaivo.net/articles/i-like-sse.html">Add your comment</a></li>
+                </ul>
+            </footer>
+        </article>
+        <article class="hentry">
+            <h1 class="entry-title storytitle"><a href="http://markos.gaivo.net/articles/ajax-workshop.html" rel="bookmark" title="Permalink to Ajax Workshop">Ajax Workshop</a></h1>
 
             <div class="entry-content post-text">
                 <p><html>
@@ -60,12 +119,12 @@
             <footer class="post-metadata">
                 <ul>
                     <li>Published on <time datetime="2005-11-24T18:54:00+01:00">Thu 24 November 2005</time> </li>
-                    <li><a href="../ajax-workshop.html">Add your comment</a></li>
+                    <li><a href="http://markos.gaivo.net/articles/ajax-workshop.html">Add your comment</a></li>
                 </ul>
             </footer>
         </article>
         <article class="hentry">
-            <h1 class="entry-title storytitle"><a href="../itunes-price-hike.html" rel="bookmark" title="Permalink to iTunes price hike">iTunes price hike</a></h1>
+            <h1 class="entry-title storytitle"><a href="http://markos.gaivo.net/articles/itunes-price-hike.html" rel="bookmark" title="Permalink to iTunes price hike">iTunes price hike</a></h1>
 
             <div class="entry-content post-text">
                 <p><html>
@@ -99,106 +158,15 @@
             <footer class="post-metadata">
                 <ul>
                     <li>Published on <time datetime="2005-11-23T16:36:00+01:00">Wed 23 November 2005</time> </li>
-                    <li><a href="../itunes-price-hike.html">Add your comment</a></li>
-                </ul>
-            </footer>
-        </article>
-        <article class="hentry">
-            <h1 class="entry-title storytitle"><a href="../building-faq-from-wiki-pages.html" rel="bookmark" title="Permalink to Building FAQ from wiki pages">Building FAQ from wiki pages</a></h1>
-
-            <div class="entry-content post-text">
-                <p><html>
- <body>
-  <div>
-   <p>
-    We use
-    <a href="http://moinmoin.wikiwikiweb.de/" title="MoinMoin's homepage">
-     MoinMoin
-    </a>
-    for all our documentation needs, since it simplifies almost all related tasks. It’s nice when everything is available at one place through a familiar and easy to use interface.
-   </p>
-   <p>
-    This is why I also wanted to use it to build a FAQ for our site, which is more needed with each day. There’s an abundance of software for building and managing such documents, but I haven’t found anything that would match our needs. Apart from using wiki pages as the source of wisdom, I also wanted:
-   </p>
-   <ol>
-    <li>
-     A good and fairly easy integration with our site (but not automatic).
-    </li>
-    <li>
-     A very malleable solution, where it would be easy to change FAQ organization as requirements change.
-    </li>
-   </ol>
-   <p>
-    At the end I decided to build our own thing using
-    <a href="http://www.crummy.com/software/BeautifulSoup/index.html">
-     Beautiful Soup
-    </a>
-    , a python package I raved about a while ago. Since we wanted each question to have a permanent link that could be bookmarked, we had to give them an identifier that wouldn’t change even if we rephrased the question or changed the answer. The simplest way was to assign a unique number to each question as it can be seen on a
-    <a href="http://markos.gaivo.net/examples/samplefaq/faq.html">
-     sample FAQ page
-    </a>
-    . This way it’s easy to add and remove questions as long as you can count.
-   </p>
-   <p>
-    MoinMoin produces very sensible HTML that is easy to work with.
-    <a href="http://markos.gaivo.net/examples/samplefaq/faq.py">
-     Here’s
-    </a>
-    a proof of concept module that extracts information from a page like the sample one and packs it in a dictionary with identifiers as keys and a list
-    <em>
-     [ question, answer ]
-    </em>
-    as value.
-   </p>
-   <p>
-    It’s not something very useful on its own, but I think it’s a nice example of what can be done quickly with existing tools like MoinMoin and BeautifulSoup.
-   </p>
-   <p>
-    Notes: In principle there’s no need to use MoinMoin as long as produced HTML fits following assumptions:
-   </p>
-   <ol>
-    <li>
-     FAQ is stored inside a
-     <em>
-      div
-     </em>
-     element with
-     <em>
-      id
-     </em>
-     set to
-     <em>
-      content
-     </em>
-     .
-    </li>
-    <li>
-     Questions are inside a heading element which also acts as a delimiter between them.
-    </li>
-    <li>
-     Identifiers are integers.
-    </li>
-   </ol>
-   <p>
-    If it doesn’t, you’ll need to change code a bit.
-   </p>
-  </div>
- </body>
-</html></p>
-            </div><!-- /.entry-content -->
-
-            <footer class="post-metadata">
-                <ul>
-                    <li>Published on <time datetime="2005-11-22T17:17:00+01:00">Tue 22 November 2005</time> </li>
-                    <li><a href="../building-faq-from-wiki-pages.html">Add your comment</a></li>
+                    <li><a href="http://markos.gaivo.net/articles/itunes-price-hike.html">Add your comment</a></li>
                 </ul>
             </footer>
         </article>
 
 <p class="paginator">
-        <a href="../author/markos87.html">&laquo;</a>
+        <a href="http://markos.gaivo.net/articles/author/markos87.html">&laquo;</a>
     Page 88 / 111
-        <a href="../author/markos89.html">&raquo;</a>
+        <a href="http://markos.gaivo.net/articles/author/markos89.html">&raquo;</a>
 </p>
 </section><!-- /#content -->
 

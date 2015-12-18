@@ -20,7 +20,7 @@
 
 <section class="envelope posts">
     <header>
-        <h1><a href="./">A notch above a monkey <strong></strong></a></h1>
+        <h1><a href="http://markos.gaivo.net/articles/">A notch above a monkey <strong></strong></a></h1>
     </header><!-- /#banner -->
 
     <nav class="colophon">
@@ -32,7 +32,55 @@
     </nav>
 
         <article class="hentry">
-            <h1 class="entry-title storytitle"><a href="./css-margin-collapse.html" rel="bookmark" title="Permalink to CSS margin collapse">CSS margin collapse</a></h1>
+            <h1 class="entry-title storytitle"><a href="http://markos.gaivo.net/articles/css-pixels-are-a-relative-unit.html" rel="bookmark" title="Permalink to CSS pixels are a relative unit">CSS pixels are a relative unit</a></h1>
+
+            <div class="entry-content post-text">
+                <p><html>
+ <body>
+  <div>
+   <p>
+    The pixel debate
+    <a href="http://www.456bereastreet.com/archive/200602/setting_font_size_in_pixels/" title="Setting font size in pixels">
+     is back
+    </a>
+    . Internet explorer out of the box doesn’t permit resizing text measured in pixels, which at the same time is the only reliable way of setting dimensions that produces same result everywhere.
+   </p>
+   <p>
+    The crux of the matter is simply who should have the final word in how the page is displayed, designers or users?
+   </p>
+   <p>
+    Personally I think it should be users. After all, it’s about them and if there’s a way for them to make their experience more pleasant or useful without degrading it for others, why shouldn’t they be allowed to do so? Good designs serve, not command.
+   </p>
+   <p>
+    However, I find it more interesting how many people have no idea what px unit actually
+    <a href="http://www.w3.org/TR/CSS21/syndata.html#length-units" title="Definitions of relative length units">
+     means
+    </a>
+    . Pixels, as defined by W3C, are not the same as pixels used to define graphic resolution of a computer, even if they usually seem to be.
+   </p>
+   <p>
+    For example, if we ever happen to get high-density monitors with say 300 dpi pixel density instead of these days common 96 dpi, then a 15″ display would have a graphic resolution of 3600×2700 dots, but it would still have only 1152×864 pixels in CSS model. Therefore one web pixel would be represented with around 9 graphic pixels.
+   </p>
+   <p>
+    Well, that’s the theory. In practice there’s a lot of cheating. Monitors have various sizes which are only an approximation of the stated one (15″, 17″ etc.). Operating systems try to pay attention to pixel density, but often don’t or can’t. And so on.
+   </p>
+   <p>
+    The result of this is that size of displayed text and images is device dependent even when in theory it shouldn’t be. So the only way is also good only up to a point.
+   </p>
+  </div>
+ </body>
+</html></p>
+            </div><!-- /.entry-content -->
+
+            <footer class="post-metadata">
+                <ul>
+                    <li>Published on <time datetime="2006-02-12T17:17:00+01:00">Sun 12 February 2006</time> </li>
+                    <li><a href="http://markos.gaivo.net/articles/css-pixels-are-a-relative-unit.html">Add your comment</a></li>
+                </ul>
+            </footer>
+        </article>
+        <article class="hentry">
+            <h1 class="entry-title storytitle"><a href="http://markos.gaivo.net/articles/css-margin-collapse.html" rel="bookmark" title="Permalink to CSS margin collapse">CSS margin collapse</a></h1>
 
             <div class="entry-content post-text">
                 <p><html>
@@ -52,12 +100,12 @@
             <footer class="post-metadata">
                 <ul>
                     <li>Published on <time datetime="2006-02-10T12:56:00+01:00">Fri 10 February 2006</time> </li>
-                    <li><a href="./css-margin-collapse.html">Add your comment</a></li>
+                    <li><a href="http://markos.gaivo.net/articles/css-margin-collapse.html">Add your comment</a></li>
                 </ul>
             </footer>
         </article>
         <article class="hentry">
-            <h1 class="entry-title storytitle"><a href="./tag-frequency-ratio.html" rel="bookmark" title="Permalink to Tag frequency ratio">Tag frequency ratio</a></h1>
+            <h1 class="entry-title storytitle"><a href="http://markos.gaivo.net/articles/tag-frequency-ratio.html" rel="bookmark" title="Permalink to Tag frequency ratio">Tag frequency ratio</a></h1>
 
             <div class="entry-content post-text">
                 <p><html>
@@ -101,104 +149,15 @@
             <footer class="post-metadata">
                 <ul>
                     <li>Published on <time datetime="2006-02-09T14:43:00+01:00">Thu 09 February 2006</time> </li>
-                    <li><a href="./tag-frequency-ratio.html">Add your comment</a></li>
-                </ul>
-            </footer>
-        </article>
-        <article class="hentry">
-            <h1 class="entry-title storytitle"><a href="./tags_.html" rel="bookmark" title="Permalink to Tags">Tags</a></h1>
-
-            <div class="entry-content post-text">
-                <p><html>
- <body>
-  <div>
-   <p>
-    Tags are increasingly popular and rightfully so. I’ve built my share of applications with their own taxonomies and I’m certain they simply don’t work. They sort of work if they were built for specialized needs and are used only by trained, disciplined people with excellent organizational skills.
-   </p>
-   <p>
-    Which means almost never.
-   </p>
-   <p>
-    Tags (aka folksonomies) are messy. There’s no real system, any bozo can attach whatever it wants and you’d be a fool to blindly trust any specific tag. They are the worst possible system apart from everything else we tried so far.
-   </p>
-   <p>
-    That’s why we decided to implement them in Marela. Language used on Marela is Slovene and that led to slightly different design that commonly found elsewhere.
-   </p>
-   <p>
-    We decided to treat multiple words separated with spaces as one tag and use commas as a delimiters between different tags. First reason for this is that tagging something like
-    <em>
-     New Zealand
-    </em>
-    becomes more natural. The other was that in Slovene compound words like handbag are very often separate words. For example, handbag would be
-    <em>
-     ro??na torbica
-    </em>
-    .
-   </p>
-   <p>
-    Another problem, which we haven’t tackled yet, but probably will have to, is that Slovene is
-    <a href="http://en.wikipedia.org/wiki/Slovene_grammar" title="Short description on Wikipedia">
-     a complicated language
-    </a>
-    in ways that make tagging a nasty problem. There are six cases, but nominative is usually used. Still three different grammatical numbers (singular, dual and plural) together with three different genders (masculine, feminine and neutral) leave multiple options for the same thing. If you were looking for
-    <em>
-     blue
-    </em>
-    objects, you’d need to search at least for tags
-    <em>
-     modra
-    </em>
-    ,
-    <em>
-     modro
-    </em>
-    ,
-    <em>
-     modri
-    </em>
-    and
-    <em>
-     modre
-    </em>
-    . Right now you have to do this manually.
-   </p>
-   <p>
-    And then there are problems that plaque other tagging systems as well. Most common of them are misspelled words, like
-    <em>
-     Wein
-    </em>
-    instead of
-    <em>
-     Wien
-    </em>
-    for Vienna.
-   </p>
-   <p>
-    All these lead to a fairly flat tag space with a ratio of 5.6 between all tags and unique ones. I’m not sure how it would change if we treated spaces differently or even what is a common ratio for other languages and other applications. I’m guessing it wouldn’t change the ratio too much because of noun cases, but it remains to be investigated.
-   </p>
-   <p>
-    So, why does it matter?
-   </p>
-   <p>
-    Well, that’s a matter for another post, which I’ll probably write tomorrow.
-   </p>
-  </div>
- </body>
-</html></p>
-            </div><!-- /.entry-content -->
-
-            <footer class="post-metadata">
-                <ul>
-                    <li>Published on <time datetime="2006-02-08T18:01:00+01:00">Wed 08 February 2006</time> </li>
-                    <li><a href="./tags_.html">Add your comment</a></li>
+                    <li><a href="http://markos.gaivo.net/articles/tag-frequency-ratio.html">Add your comment</a></li>
                 </ul>
             </footer>
         </article>
 
 <p class="paginator">
-        <a href="./index72.html">&laquo;</a>
+        <a href="http://markos.gaivo.net/articles/index72.html">&laquo;</a>
     Page 73 / 111
-        <a href="./index74.html">&raquo;</a>
+        <a href="http://markos.gaivo.net/articles/index74.html">&raquo;</a>
 </p>
 </section><!-- /#content -->
 
