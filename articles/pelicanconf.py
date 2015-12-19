@@ -11,6 +11,7 @@ PATH = 'content'
 TIMEZONE = 'Europe/Ljubljana'
 
 DEFAULT_LANG = u'en'
+DEFAULT_DATE = 'fs'
 
 # Feed generation is usually not desired when developing
 FEED_DOMAIN = '/articles'
