@@ -1,119 +1,111 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>A notch above a monkey</title><link href="http://markos.gaivo.net/articles/" rel="alternate"></link><link href="/articles/feeds/spletne-urice-ui-web.atom.xml" rel="self"></link><id>http://markos.gaivo.net/articles/</id><updated>2006-03-05T16:23:00+01:00</updated><entry><title>iPod talk this Wednesday</title><link href="http://markos.gaivo.net/articles/ipod-talk-this-wednesday.html" rel="alternate"></link><updated>2006-03-05T16:23:00+01:00</updated><author><name>markos</name></author><id>tag:markos.gaivo.net,2006-03-05:articles/ipod-talk-this-wednesday.html</id><summary type="html">&lt;p&gt;&lt;html&gt;
- &lt;body&gt;
-  &lt;div&gt;
-   &lt;p&gt;
-    I’ll be giving a talk this Wednesday at 19:00 in
-    &lt;a href="http://www.kiberpipa.org/index.php?module=ContentExpress&amp;amp;file=index&amp;amp;func=display&amp;amp;ceid=6&amp;amp;meid=25"&gt;
-     Kiberpipa
-    &lt;/a&gt;
-    as
-    &lt;a href="what-ipod-teaches-us-about-modern-web-design.html"&gt;
-     promised
-    &lt;/a&gt;
-    some time ago. The theme of the talk will be lessons learned from iPod about (web) design and everyone is welcome to attend.
-   &lt;/p&gt;
-   &lt;p&gt;
-    I’m buying a drink for everyone, who’ll manage to stay through my rather short talk and won’t flee the scene immediately afterwards. The talk will probably be given in English.
-   &lt;/p&gt;
-  &lt;/div&gt;
- &lt;/body&gt;
-&lt;/html&gt;&lt;/p&gt;</summary></entry><entry><title>Hiding form buttons as text</title><link href="http://markos.gaivo.net/articles/hiding-form-buttons-as-text.html" rel="alternate"></link><updated>2005-12-02T15:49:00+01:00</updated><author><name>markos</name></author><id>tag:markos.gaivo.net,2005-12-02:articles/hiding-form-buttons-as-text.html</id><summary type="html">&lt;p&gt;&lt;html&gt;
- &lt;body&gt;
-  &lt;div&gt;
-   &lt;p&gt;
-    I love going to our weekly web talks not so much for the talks themselves (although they are great), but conversations you get to have there. A part of a recent one rendered from memory and shortened for readers pleasure:
-   &lt;/p&gt;
-   &lt;blockquote&gt;
-    &lt;p&gt;
-     &lt;strong&gt;
-      Fry:
-     &lt;/strong&gt;
-     Those delete strings of yours should really be post requests.
-     &lt;a href="http://webaccelerator.google.com/" title="Link to web accelerator that shouldn't be used"&gt;
-      GA’s
-     &lt;/a&gt;
-     pre-fetching might destroy user’s data.
-     &lt;br/&gt;
-     &lt;strong&gt;
-      Me:
-     &lt;/strong&gt;
-     &amp;lt;beeeeep&amp;gt; Google. RFC says should not must.
-     &lt;br/&gt;
-     &lt;strong&gt;
-      Fry:
-     &lt;/strong&gt;
-     Well, since it also says multiple GET requests should yield same result, it really is a must for delete.
-     &lt;br/&gt;
-     &lt;strong&gt;
-      Me
-     &lt;/strong&gt;
-     (not ready to give up): True, but so many form buttons will look like crap.
-     &lt;br/&gt;
-     &lt;strong&gt;
-      Fry:
-     &lt;/strong&gt;
-     Well, you can hide them by removing border, setting background-color to background and fixing font size to 1 em.
-     &lt;br/&gt;
-     &lt;strong&gt;
-      Me:
-     &lt;/strong&gt;
-     Uhm, this might work, but probably doesn’t, because browsers use controls from operating system.
-     &lt;br/&gt;
-     &lt;strong&gt;
-      Fry:
-     &lt;/strong&gt;
-     Well, try it.
-    &lt;/p&gt;
-   &lt;/blockquote&gt;
-   &lt;p&gt;
-    I may be stubborn, but I’m not a complete moron. So I did and here’s
-    &lt;a href="http://markos.gaivo.net/examples/hidebutton.html" title="Demo"&gt;
-     the result
-    &lt;/a&gt;
-    .
-   &lt;/p&gt;
-   &lt;p&gt;
-    As can be seen, it works beautifully in Firefox (1.0+) and Opera 8 (I share my visitors indifference to earlier versions). It doesn’t work in Safari at all, but since its buttons are not obnoxiously ugly, I can live with that.
-   &lt;/p&gt;
-   &lt;p&gt;
-    However, it has unseemly big padding in Internet Explorer, which is the real deal-breaker for now.
-   &lt;/p&gt;
-   &lt;p&gt;
-    I think demo’s style sheet is pretty self explanatory, but here’s what I did by mostly following Fry’s instructions:
-   &lt;/p&gt;
-   &lt;ul&gt;
-    &lt;li&gt;
-     set border to 0
-    &lt;/li&gt;
-    &lt;li&gt;
-     same for padding and margin
-    &lt;/li&gt;
-    &lt;li&gt;
-     set background-color of the button to the same value as background of the document
-    &lt;/li&gt;
-    &lt;li&gt;
-     did the same for color of text
-    &lt;/li&gt;
-    &lt;li&gt;
-     set the size of button text to 1 em so it’s displayed in right size in every browser
-    &lt;/li&gt;
-    &lt;li&gt;
-     set cursor to pointer, since it’s not done automatically for buttons
-    &lt;/li&gt;
-   &lt;/ul&gt;
-   &lt;p&gt;
-    &lt;a href="http://www.friedcellcollective.net/" title="Fry's web home"&gt;
-     Fry
-    &lt;/a&gt;
-    was also correct that bold and italics work and underline doesn’t, but you can simulate later with border-bottom. Except in IE of course, on account of padding.
-   &lt;/p&gt;
-   &lt;p&gt;
-    There’s another shortcoming to consider. If background is an image or a color gradient instead of a solid color, this trick won’t work.
-   &lt;/p&gt;
-   &lt;p&gt;
-    So, any ideas about what to do with IE?
-   &lt;/p&gt;
-  &lt;/div&gt;
- &lt;/body&gt;
-&lt;/html&gt;&lt;/p&gt;</summary></entry></feed>
+<feed xmlns="http://www.w3.org/2005/Atom"><title>A notch above a monkey</title><link href="http://markos.gaivo.net/articles/" rel="alternate"></link><link href="/articles/feeds/spletne-urice-ui-web.atom.xml" rel="self"></link><id>http://markos.gaivo.net/articles/</id><updated>2006-03-05T16:23:00+01:00</updated><entry><title>iPod talk this Wednesday</title><link href="http://markos.gaivo.net/articles/ipod-talk-this-wednesday.html" rel="alternate"></link><updated>2006-03-05T16:23:00+01:00</updated><author><name>markos</name></author><id>tag:markos.gaivo.net,2006-03-05:articles/ipod-talk-this-wednesday.html</id><summary type="html">&lt;div&gt;
+ &lt;p&gt;
+  I’ll be giving a talk this Wednesday at 19:00 in
+  &lt;a href="http://www.kiberpipa.org/index.php?module=ContentExpress&amp;amp;file=index&amp;amp;func=display&amp;amp;ceid=6&amp;amp;meid=25"&gt;
+   Kiberpipa
+  &lt;/a&gt;
+  as
+  &lt;a href="what-ipod-teaches-us-about-modern-web-design.html"&gt;
+   promised
+  &lt;/a&gt;
+  some time ago. The theme of the talk will be lessons learned from iPod about (web) design and everyone is welcome to attend.
+ &lt;/p&gt;
+ &lt;p&gt;
+  I’m buying a drink for everyone, who’ll manage to stay through my rather short talk and won’t flee the scene immediately afterwards. The talk will probably be given in English.
+ &lt;/p&gt;
+&lt;/div&gt;</summary></entry><entry><title>Hiding form buttons as text</title><link href="http://markos.gaivo.net/articles/hiding-form-buttons-as-text.html" rel="alternate"></link><updated>2005-12-02T15:49:00+01:00</updated><author><name>markos</name></author><id>tag:markos.gaivo.net,2005-12-02:articles/hiding-form-buttons-as-text.html</id><summary type="html">&lt;div&gt;
+ &lt;p&gt;
+  I love going to our weekly web talks not so much for the talks themselves (although they are great), but conversations you get to have there. A part of a recent one rendered from memory and shortened for readers pleasure:
+ &lt;/p&gt;
+ &lt;blockquote&gt;
+  &lt;p&gt;
+   &lt;strong&gt;
+    Fry:
+   &lt;/strong&gt;
+   Those delete strings of yours should really be post requests.
+   &lt;a href="http://webaccelerator.google.com/" title="Link to web accelerator that shouldn't be used"&gt;
+    GA’s
+   &lt;/a&gt;
+   pre-fetching might destroy user’s data.
+   &lt;br/&gt;
+   &lt;strong&gt;
+    Me:
+   &lt;/strong&gt;
+   &amp;lt;beeeeep&amp;gt; Google. RFC says should not must.
+   &lt;br/&gt;
+   &lt;strong&gt;
+    Fry:
+   &lt;/strong&gt;
+   Well, since it also says multiple GET requests should yield same result, it really is a must for delete.
+   &lt;br/&gt;
+   &lt;strong&gt;
+    Me
+   &lt;/strong&gt;
+   (not ready to give up): True, but so many form buttons will look like crap.
+   &lt;br/&gt;
+   &lt;strong&gt;
+    Fry:
+   &lt;/strong&gt;
+   Well, you can hide them by removing border, setting background-color to background and fixing font size to 1 em.
+   &lt;br/&gt;
+   &lt;strong&gt;
+    Me:
+   &lt;/strong&gt;
+   Uhm, this might work, but probably doesn’t, because browsers use controls from operating system.
+   &lt;br/&gt;
+   &lt;strong&gt;
+    Fry:
+   &lt;/strong&gt;
+   Well, try it.
+  &lt;/p&gt;
+ &lt;/blockquote&gt;
+ &lt;p&gt;
+  I may be stubborn, but I’m not a complete moron. So I did and here’s
+  &lt;a href="http://markos.gaivo.net/examples/hidebutton.html" title="Demo"&gt;
+   the result
+  &lt;/a&gt;
+  .
+ &lt;/p&gt;
+ &lt;p&gt;
+  As can be seen, it works beautifully in Firefox (1.0+) and Opera 8 (I share my visitors indifference to earlier versions). It doesn’t work in Safari at all, but since its buttons are not obnoxiously ugly, I can live with that.
+ &lt;/p&gt;
+ &lt;p&gt;
+  However, it has unseemly big padding in Internet Explorer, which is the real deal-breaker for now.
+ &lt;/p&gt;
+ &lt;p&gt;
+  I think demo’s style sheet is pretty self explanatory, but here’s what I did by mostly following Fry’s instructions:
+ &lt;/p&gt;
+ &lt;ul&gt;
+  &lt;li&gt;
+   set border to 0
+  &lt;/li&gt;
+  &lt;li&gt;
+   same for padding and margin
+  &lt;/li&gt;
+  &lt;li&gt;
+   set background-color of the button to the same value as background of the document
+  &lt;/li&gt;
+  &lt;li&gt;
+   did the same for color of text
+  &lt;/li&gt;
+  &lt;li&gt;
+   set the size of button text to 1 em so it’s displayed in right size in every browser
+  &lt;/li&gt;
+  &lt;li&gt;
+   set cursor to pointer, since it’s not done automatically for buttons
+  &lt;/li&gt;
+ &lt;/ul&gt;
+ &lt;p&gt;
+  &lt;a href="http://www.friedcellcollective.net/" title="Fry's web home"&gt;
+   Fry
+  &lt;/a&gt;
+  was also correct that bold and italics work and underline doesn’t, but you can simulate later with border-bottom. Except in IE of course, on account of padding.
+ &lt;/p&gt;
+ &lt;p&gt;
+  There’s another shortcoming to consider. If background is an image or a color gradient instead of a solid color, this trick won’t work.
+ &lt;/p&gt;
+ &lt;p&gt;
+  So, any ideas about what to do with IE?
+ &lt;/p&gt;
+&lt;/div&gt;</summary></entry></feed>

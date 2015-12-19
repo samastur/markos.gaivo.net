@@ -20,7 +20,7 @@
 
 <section class="envelope posts">
     <header>
-        <h1><a href="http://markos.gaivo.net/articles/">A notch above a monkey <strong></strong></a></h1>
+        <h1><a href="../">A notch above a monkey <strong></strong></a></h1>
     </header><!-- /#banner -->
 
     <nav class="colophon">
@@ -32,171 +32,199 @@
     </nav>
 
         <article class="hentry">
-            <h1 class="entry-title storytitle"><a href="http://markos.gaivo.net/articles/impostor-for-django.html" rel="bookmark" title="Permalink to Impostor for Django">Impostor for Django</a></h1>
+            <h1 class="entry-title storytitle"><a href="../leaving-app-engine-for-now.html" rel="bookmark" title="Permalink to Leaving App Engine - for now">Leaving App Engine - for now</a></h1>
 
             <div class="entry-content post-text">
-                <p><html>
- <body>
-  <div>
-   <p>
-    A class of bugs I really dislike debugging are those that depend on specific data and affect only a very small subset or just one user. Things could sometimes be fixed so much faster if you could just log in as him to see what is happening. Sometimes this is exactly what we do
-    <strong>
-     with his explicit permission
-    </strong>
-    , but I really dislike asking for passwords.
-   </p>
-   <p>
-    First it inconveniences user. He has to come up with either a new good password or go through two password changes. Second it implicitly teaches wrong behavior. Passwords simply should never be revealed.
-   </p>
-   <p>
-    That is why I wrote
-    <a href="https://github.com/samastur/Impostor" title="Impostor's home at GitHub">
-     Impostor
-    </a>
-    , a Django app that allows staff members (and only them) to login with their own credentials as a different user. Idea is not mine (kudos goes to
-    <a href="http://nedbatchelder.com/blog/201008/django_superuser_login_trapdoor.html" title="Ned's post where idea comes from">
-     Ned Batchelder
-    </a>
-    ), but I like it. To discourage abuse every such authentication is recorded and can be seen in Django admin interface, but can not be altered from there.
-   </p>
-   <p>
-    So how does it work in practice?
-   </p>
-   <p>
-    Lets say that I would need to log in as user
-    <em>
-     fry
-    </em>
-    . To do this I would enter as my username
-    <em>
-     markos as fry,
-    </em>
-    provide my password and voila, I’m him. This has been recorded so anyone with access to ImpostorLog part in admin can see all such cases, mine included.
-   </p>
-   <p>
-    Impostor may also ease your development by removing need to remember different passwords for testing. This is usually not a problem unless you happen to develop with fake data but real accounts. Like me.
-   </p>
-   <p>
-    And again for morally challenged out there:
-    <strong>
-     you should never login as somebody else without his explicit permission
-    </strong>
-    .
-   </p>
-   <p>
-    <strong>
-     Update
-    </strong>
-    : Thanks Ross for reminding me where idea came from. I updated text accordingly.
-   </p>
-   <div class="zemanta-pixie">
-    <a class="zemanta-pixie-a" href="http://www.zemanta.com/" title="Enhanced by Zemanta">
-     <img alt="Enhanced by Zemanta" class="zemanta-pixie-img" src="http://img.zemanta.com/zemified_e.png?x-id=db7c9f53-423e-4b56-bbe3-b717fde54c16"/>
-    </a>
-   </div>
-  </div>
- </body>
-</html></p>
+                <div>
+ <p>
+  Jonathan
+  <a href="http://spyced.blogspot.com/2008/08/app-engine-conclusions.html#">
+   wrote
+  </a>
+  his thoughts about
+  <a class="zem_slink" href="http://appengine.google.com" rel="homepage" title="Google App Engine">
+   App Engine
+  </a>
+  . They are well worth a read if you are thinking about using it, but haven’t so far. I used App Engine sporadically for a couple of months on a project of mine, but I finally gave up and ended porting my code to pure
+  <a class="zem_slink" href="http://www.djangoproject.com" rel="homepage" title="Django (web framework)">
+   Django
+  </a>
+  , which admittedly wasn’t too hard to do at this point in time.
+ </p>
+ <p>
+  Some of my reasons match Jonathan’s. There were too many rough edges to feel really productive and too much time was wasted on trying to find out if problem lies in poor documentation, incomplete implementation or stupid programmer. I probably will never get answers to questions like how can a simple Django view that doesn’t do anything beside rendering a static template, consume above expected amount of CPU and risk triggering quota blockage, but right now I really don’t care anymore.
+ </p>
+ <p>
+  Integrating
+  <a class="zem_slink" href="http://www.crunchbase.com/company/google" rel="crunchbase" title="Google">
+   Google
+  </a>
+  accounts is indeed easy, but it is also very shallow to the point of being practically useless.  You basically can only rely on fact that reference to a particular user won’t change. Anything else you may think you know (like an email address), can’t be relied upon. You can’t create an account and you can’t even control login form of your service. In essence you don’t have your own users, you can just offer a service to Google’s.
+ </p>
+ <p>
+  For me this was one of two major reasons for my decision. Every person who would need an account to use what I am building would need to agree to Google’s
+  <a class="zem_slink" href="http://en.wikipedia.org/wiki/Terms_of_service" rel="wikipedia" title="Terms of service">
+   TOS
+  </a>
+  agreement which defines many things, among others the highest level of privacy I can offer.
+ </p>
+ <p>
+  The other reason was that current limitations of App Engine really lead you to rely heavily on provided APIs, which may be similar to stuff out there (like Django), but aren’t anywhere close to being a drop-in replacement. This can be — depending on application you’re writing — a heavy investement in a platform you don’t control a bit.
+ </p>
+ <p>
+  Put more profanely, you are a Google’s bitch.
+ </p>
+ <p>
+  Having said all this, I do think App Engine is a very valuable service. If you want to write a mini-app, a web tool like
+  <a href="http://simonwillison.net/" title="Simon's homepage">
+   Simon
+  </a>
+  <a href="http://simonwillison.net/2008/Jul/29/jsonhead/" title="Post about json-head service">
+   does
+  </a>
+  , then App Engine is brilliant. You can do this easily with little deployment and zero administration hassle. In fact I can’t think of any other service better suited to this task.
+ </p>
+ <p>
+  I’m sure this is not the only scenario in which App Engine makes sense and there are others I haven’t named or thought of. Issues, like accounts, can with some effort be solved now. But App Engine also isn’t (yet) what some of us were hoping for and it’s prudent to really think through what you want, what you need and what App Engine actually offers.
+ </p>
+ <div class="zemanta-pixie">
+  <a class="zemanta-pixie-a" href="http://reblog.zemanta.com/zemified/28ddae75-72ba-4a45-892e-7841f893395b/" title="Zemified by Zemanta">
+   <img alt="Reblog this post [with Zemanta]" class="zemanta-pixie-img" src="http://img.zemanta.com/reblog_e.png?x-id=28ddae75-72ba-4a45-892e-7841f893395b" style="border: medium none; float: right;"/>
+  </a>
+ </div>
+</div>
             </div><!-- /.entry-content -->
 
             <footer class="post-metadata">
                 <ul>
-                    <li>Published on <time datetime="2011-02-22T20:11:00+01:00">Tue 22 February 2011</time> </li>
-                    <li><a href="http://markos.gaivo.net/articles/impostor-for-django.html">Add your comment</a></li>
+                    <li>Published on <time datetime="2008-08-30T21:50:00+02:00">Sat 30 August 2008</time> </li>
+                    <li><a href="../leaving-app-engine-for-now.html">Add your comment</a></li>
                 </ul>
             </footer>
         </article>
         <article class="hentry">
-            <h1 class="entry-title storytitle"><a href="http://markos.gaivo.net/articles/europython-submission-deadline-is-around-the-corner.html" rel="bookmark" title="Permalink to EuroPython submission deadline is around the corner">EuroPython submission deadline is around the corner</a></h1>
+            <h1 class="entry-title storytitle"><a href="../generating-python-exceptions-classes.html" rel="bookmark" title="Permalink to Generating Python Exceptions Classes">Generating Python Exceptions Classes</a></h1>
 
             <div class="entry-content post-text">
-                <p><html>
- <body>
-  <div>
-   <p>
-    April is about to end and with it also the deadline to
-    <a href="http://www.europython.eu/talks/cfp/">
-     submit your EuroPython talk
-    </a>
-    . I thought about submitting a proposal, but realized it would be nuts to do so with my current workload.
-   </p>
-   <p>
-    It would also be nuts not to go and if you are a European (or not) Python developer you owe it to yourself to come.
-   </p>
-   <p>
-    I go to a few conferences every year and each has its own personality. It is sometimes hard to point at what makes them (feel) different, but they just are. I like many, but only EuroPython, which I regretfully had to miss last year, feels like home.
-   </p>
-   <p>
-    That’s why I decided to volunteer this year. It’s a way to give a little bit back, like cleaning dishes when you visit mom.
-   </p>
-   <p>
-    So do submit your talk and come. It won’t be the same without you.
-   </p>
-   <div class="zemanta-pixie">
-    <a class="zemanta-pixie-a" href="http://reblog.zemanta.com/zemified/3f88ab5e-3d0f-410e-957f-6828cee4d640/" title="Reblog this post [with Zemanta]">
-     <img alt="Reblog this post [with Zemanta]" class="zemanta-pixie-img" src="http://img.zemanta.com/reblog_e.png?x-id=3f88ab5e-3d0f-410e-957f-6828cee4d640"/>
-    </a>
-   </div>
-  </div>
- </body>
-</html></p>
+                <div>
+ <p>
+  It’s been a while since I used
+  <a class="zem_slink" href="http://www.python.org/" rel="homepage" title="Python (programming language)">
+   Python
+  </a>
+  for anything larger than scripts few tens lines long, so it feels really great to do it again. I did discover however that I became a bit rusty. Not so much in not being able to achieve what I want as not being sure that I do it in a sensible and pythonic way.
+ </p>
+ <p>
+  I’ve been working on a private project where I came to a following problem.
+  <a class="zem_slink" href="http://en.wikipedia.org/wiki/Application_programming_interface" rel="wikipedia" title="Application programming interface">
+   API
+  </a>
+  calls can trigger various responses, somewhat like
+  <a class="zem_slink" href="http://en.wikipedia.org/wiki/Hypertext_Transfer_Protocol" rel="wikipedia" title="Hypertext Transfer Protocol">
+   HTTP
+  </a>
+  , containing status codes together with a short description. Every faulty response should trigger its own exception, which led me to my first implementation:
+ </p>
+ <pre><code>
+class Unauthorized(Exception):
+    status = 101
+    value = "Unauthorized."
+</code></pre>
+ <p>
+  I didn’t like it even though it looks and behaves like it should. What I wanted was a better overlook of possible responses in a way where I have to make any possible changes easily and only at one place.
+ </p>
+ <p>
+  My
+  <a href="http://markos.gaivo.net/examples/pyexceptions/exceptions1.txt" title="Example">
+   second attempt
+  </a>
+  was auto-generating exception classes using type. Since class definition took only a line instead of three, it certainly achieved better transparency, but I still had to make changes at two places.
+ </p>
+ <p>
+  <a href="http://markos.gaivo.net/examples/pyexceptions/exceptions2.txt">
+   Final step
+  </a>
+  was to auto-generate classes in a loop. To do this I attached them to module namespace using globals() dictionary. Actually I used __builtin__ one at first, but it obviously didn’t work that great.
+ </p>
+ <p>
+  So this is what I have now. It works and achieves my goals. I only need to change dictionary to add a new response or change existing one and it could hardly be more readable.
+ </p>
+ <p>
+  But is it pythonic enough? If not, what would be, apart from traditional way described in first step?
+ </p>
+ <div class="zemanta-pixie" style="margin-top: 10px; height: 15px;">
+  <a class="zemanta-pixie-a" href="http://reblog.zemanta.com/zemified/67741c44-cb65-4003-8f66-f8ceb221a025/" title="Zemified by Zemanta">
+   <img alt="Zemanta Pixie" class="zemanta-pixie-img" src="http://img.zemanta.com/reblog_e.png?x-id=67741c44-cb65-4003-8f66-f8ceb221a025" style="border: medium none; float: right;"/>
+  </a>
+ </div>
+</div>
             </div><!-- /.entry-content -->
 
             <footer class="post-metadata">
                 <ul>
-                    <li>Published on <time datetime="2010-04-26T20:28:00+02:00">Mon 26 April 2010</time> </li>
-                    <li><a href="http://markos.gaivo.net/articles/europython-submission-deadline-is-around-the-corner.html">Add your comment</a></li>
+                    <li>Published on <time datetime="2008-07-22T09:39:00+02:00">Tue 22 July 2008</time> </li>
+                    <li><a href="../generating-python-exceptions-classes.html">Add your comment</a></li>
                 </ul>
             </footer>
         </article>
         <article class="hentry">
-            <h1 class="entry-title storytitle"><a href="http://markos.gaivo.net/articles/europython-submission-deadline-is-around-the-corner.html" rel="bookmark" title="Permalink to EuroPython submission deadline is around the corner">EuroPython submission deadline is around the corner</a></h1>
+            <h1 class="entry-title storytitle"><a href="../going-home.html" rel="bookmark" title="Permalink to Going home">Going home</a></h1>
 
             <div class="entry-content post-text">
-                <p><html>
- <body>
-  <div>
-   <p>
-    April is about to end and with it also the deadline to
-    <a href="http://www.europython.eu/talks/cfp/">
-     submit your EuroPython talk
-    </a>
-    . I thought about submitting a proposal, but realized it would be nuts to do so with my current workload.
-   </p>
-   <p>
-    It would also be nuts not to go and if you are a European (or not) Python developer you owe it to yourself to come.
-   </p>
-   <p>
-    I go to a few conferences every year and each has its own personality. It is sometimes hard to point at what makes them (feel) different, but they just are. I like many, but only EuroPython, which I regretfully had to miss last year, feels like home.
-   </p>
-   <p>
-    That’s why I decided to volunteer this year. It’s a way to give a little bit back, like cleaning dishes when you visit mom.
-   </p>
-   <p>
-    So do submit your talk and come. It won’t be the same without you.
-   </p>
-   <div class="zemanta-pixie">
-    <a class="zemanta-pixie-a" href="http://reblog.zemanta.com/zemified/3f88ab5e-3d0f-410e-957f-6828cee4d640/" title="Reblog this post [with Zemanta]">
-     <img alt="Reblog this post [with Zemanta]" class="zemanta-pixie-img" src="http://img.zemanta.com/reblog_e.png?x-id=3f88ab5e-3d0f-410e-957f-6828cee4d640"/>
-    </a>
-   </div>
-  </div>
- </body>
-</html></p>
+                <div>
+ <p>
+  EuroPython 2008 is over. I packed and now I am waiting to leave for the airport to catch afternoon flight back home. Sadly I don’t have time to attend sprints and since I only recently started to write python again, I probably wouldn’t be of much use anyhow.
+ </p>
+ <p>
+  Conference itself was great. Smaller than web conferences I usually attend with a more friendly, homey feeling, but with plenty of excellent talks where I learned a lot. I also met a bunch of friendly interesting people and had in general a wonderful time.
+ </p>
+ <p>
+  It was also interesting to compare the whole experience with other conferences I go to. Apple is popular, but there are fewer
+  <a class="zem_slink" href="http://en.wikipedia.org/wiki/Macintosh" rel="wikipedia" title="Macintosh">
+   Macs
+  </a>
+  than at web events.
+  <a class="zem_slink" href="http://www.ubuntu.com/" rel="homepage" title="Ubuntu (operating system)">
+   Ubuntu
+  </a>
+  seems to completely dominate
+  <a class="zem_slink" href="http://en.wikipedia.org/wiki/Linux" rel="wikipedia" title="Linux">
+   Linux
+  </a>
+  crowd (me included), since it was the only distribution I actually have seen and Windows is in minority. Everyone is much more willing to participate to the point, where sadly not all who wanted to present a Lightning talk on last day had the opportunity to do so.
+ </p>
+ <p>
+  I certainly hope to attend EuroPython 2009, which will be in Birmingham around this time next year. At the end I also have a present. Yesterday I got a license for
+  <a class="zem_slink" href="http://www.wingware.com" rel="homepage" title="Wing IDE">
+   Wing IDE
+  </a>
+  Professional and since I don’t need one, I’ll give it to the first person who expresses a wish to have it in comments and leaves his/her email address in relevant part of comment form.
+ </p>
+ <p>
+  <strong>
+   Update
+  </strong>
+  : License is gone, sent to a new owner.
+ </p>
+ <div class="zemanta-pixie" style="margin-top: 10px; height: 15px;">
+  <a class="zemanta-pixie-a" href="http://reblog.zemanta.com/zemified/a6262891-3f96-4b97-8bf6-949cb83cba0e/" title="Zemified by Zemanta">
+   <img alt="Zemanta Pixie" class="zemanta-pixie-img" src="http://img.zemanta.com/reblog_e.png?x-id=a6262891-3f96-4b97-8bf6-949cb83cba0e" style="border: medium none; float: right;"/>
+  </a>
+ </div>
+</div>
             </div><!-- /.entry-content -->
 
             <footer class="post-metadata">
                 <ul>
-                    <li>Published on <time datetime="2010-04-26T20:28:00+02:00">Mon 26 April 2010</time> </li>
-                    <li><a href="http://markos.gaivo.net/articles/europython-submission-deadline-is-around-the-corner.html">Add your comment</a></li>
+                    <li>Published on <time datetime="2008-07-10T10:02:00+02:00">Thu 10 July 2008</time> </li>
+                    <li><a href="../going-home.html">Add your comment</a></li>
                 </ul>
             </footer>
         </article>
 
 <p class="paginator">
-        <a href="http://markos.gaivo.net/articles/tag/python.html">&laquo;</a>
-    Page 2 / 4
-        <a href="http://markos.gaivo.net/articles/tag/python3.html">&raquo;</a>
+        <a href="../tag/python.html">&laquo;</a>
+    Page 2 / 2
 </p>
 </section><!-- /#content -->
 

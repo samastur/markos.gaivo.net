@@ -1,48 +1,44 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>A notch above a monkey</title><link href="http://markos.gaivo.net/articles/" rel="alternate"></link><link href="/articles/feeds/catchall-general-development-web.atom.xml" rel="self"></link><id>http://markos.gaivo.net/articles/</id><updated>2009-05-15T08:02:00+02:00</updated><entry><title>Open Hack 2009</title><link href="http://markos.gaivo.net/articles/open-hack-2009.html" rel="alternate"></link><updated>2009-05-15T08:02:00+02:00</updated><author><name>markos</name></author><id>tag:markos.gaivo.net,2009-05-15:articles/open-hack-2009.html</id><summary type="html">&lt;p&gt;&lt;html&gt;
- &lt;body&gt;
-  &lt;div&gt;
-   &lt;p&gt;
-    Now that Mini Seedcamp in Ljubljana is behind me (an event that might warrant its own post), I finally have some time to write about
-    &lt;a href="http://openhacklondon.pbworks.com/FrontPage"&gt;
-     Open Hack 2009
-    &lt;/a&gt;
-    . I’m sorry to say to those who didn’t go that this might have been the biggest mistake you’ll do this year. It was indeed awesome. Before I go on I would also like to thank people at Yahoo for really pulling no stops in making it great and to everyone who came, for being inspiring, helpful and generally fun.
-   &lt;/p&gt;
-   &lt;p&gt;
-    &lt;a href="http://friedcellcollective.net/outbreak/"&gt;
-     Fry
-    &lt;/a&gt;
-    and I made two hacks, a website
-    &lt;a href="http://guesswhatthisis.appspot.com/"&gt;
-     GuessWhatThisIs
-    &lt;/a&gt;
-    based on an idea we brought to event (but no code), and a game
-    &lt;a href="http://friedcell.net/geopong/"&gt;
-     GeoPong
-    &lt;/a&gt;
-    that Fry thought of in wee hours of Sunday. GeoPong, best described as “
-    &lt;a href="http://www.wait-till-i.com/2009/05/11/open-hack-london-2009-my-presentation-and-quick-review/" title="Link to quote"&gt;
-     a quite irrelevant but lovely hack
-    &lt;/a&gt;
-    “, doesn’t always work great (especially on non-FF browsers), nevertheless I am still amazed that we managed to build both, because we essentially did GuessWhatThisIs twice. Wifi didn’t work until later in the evening, so we built first version of the site with pieces of software we had on our machines an educated guess about APIs we needed but couldn’t access.
-   &lt;/p&gt;
-   &lt;p&gt;
-    Event was thoroughly documented on Flickr, Twitter and plethora of other websites, so I won’t dwell much on that. Instead I’ll mention couple of observations that albeit not new, I still found interesting.
-   &lt;/p&gt;
-   &lt;p&gt;
-    First one is that team is absolutely everything. You can certainly do interesting stuff alone, but things really start happening if you have a good team. Working with talented and fun people mean ideas get fleshed out sooner, there’s little coordination and more things get done. If on top they are like Fry, who like a
-    &lt;a href="http://en.wikipedia.org/wiki/Duracell_Bunny"&gt;
-     Duracell Bunny
-    &lt;/a&gt;
-    just seems to keep going, you can finish projects you certainly would not otherwise.
-   &lt;/p&gt;
-   &lt;p&gt;
-    Hackday also provided another proof that all-nighters as development method are an idiotic idea. Most hackers, who certainly didn’t lack enthusiasm, fell asleep at some point during the night and those, like us, who didn’t, slowly fried our brains. Development slowed down to a glacial speed, code written was frankly embarassing and help was needed to resolve most basic problems. We spent more than 4 hours on GeoPong which normally shouldn’t take us more than half of one. Even worse from efficiency point of view was that Monday was gone too. All-nighter can be a fun thing to do once in a while, but it is really a crappy way to run a business.
-   &lt;/p&gt;
-   &lt;p&gt;
-    At the end a small advice to organizers for next European event, on which I hope we won’t have to wait another two years. Try putting as much documentation and libraries on USB key as you can, so in case of wifi not working, we can still program with them instead of falling back to what we already intimately know or have on our machines.
-   &lt;/p&gt;
-  &lt;/div&gt;
- &lt;/body&gt;
-&lt;/html&gt;&lt;/p&gt;</summary><category term="hack"></category><category term="hack"></category><category term="openhack"></category><category term="openhack"></category><category term="openhacklondon"></category><category term="openhacklondon"></category><category term="yahoo"></category><category term="yahoo"></category></entry></feed>
+<feed xmlns="http://www.w3.org/2005/Atom"><title>A notch above a monkey</title><link href="http://markos.gaivo.net/articles/" rel="alternate"></link><link href="/articles/feeds/catchall-general-development-web.atom.xml" rel="self"></link><id>http://markos.gaivo.net/articles/</id><updated>2009-05-15T08:02:00+02:00</updated><entry><title>Open Hack 2009</title><link href="http://markos.gaivo.net/articles/open-hack-2009.html" rel="alternate"></link><updated>2009-05-15T08:02:00+02:00</updated><author><name>markos</name></author><id>tag:markos.gaivo.net,2009-05-15:articles/open-hack-2009.html</id><summary type="html">&lt;div&gt;
+ &lt;p&gt;
+  Now that Mini Seedcamp in Ljubljana is behind me (an event that might warrant its own post), I finally have some time to write about
+  &lt;a href="http://openhacklondon.pbworks.com/FrontPage"&gt;
+   Open Hack 2009
+  &lt;/a&gt;
+  . I’m sorry to say to those who didn’t go that this might have been the biggest mistake you’ll do this year. It was indeed awesome. Before I go on I would also like to thank people at Yahoo for really pulling no stops in making it great and to everyone who came, for being inspiring, helpful and generally fun.
+ &lt;/p&gt;
+ &lt;p&gt;
+  &lt;a href="http://friedcellcollective.net/outbreak/"&gt;
+   Fry
+  &lt;/a&gt;
+  and I made two hacks, a website
+  &lt;a href="http://guesswhatthisis.appspot.com/"&gt;
+   GuessWhatThisIs
+  &lt;/a&gt;
+  based on an idea we brought to event (but no code), and a game
+  &lt;a href="http://friedcell.net/geopong/"&gt;
+   GeoPong
+  &lt;/a&gt;
+  that Fry thought of in wee hours of Sunday. GeoPong, best described as “
+  &lt;a href="http://www.wait-till-i.com/2009/05/11/open-hack-london-2009-my-presentation-and-quick-review/" title="Link to quote"&gt;
+   a quite irrelevant but lovely hack
+  &lt;/a&gt;
+  “, doesn’t always work great (especially on non-FF browsers), nevertheless I am still amazed that we managed to build both, because we essentially did GuessWhatThisIs twice. Wifi didn’t work until later in the evening, so we built first version of the site with pieces of software we had on our machines an educated guess about APIs we needed but couldn’t access.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Event was thoroughly documented on Flickr, Twitter and plethora of other websites, so I won’t dwell much on that. Instead I’ll mention couple of observations that albeit not new, I still found interesting.
+ &lt;/p&gt;
+ &lt;p&gt;
+  First one is that team is absolutely everything. You can certainly do interesting stuff alone, but things really start happening if you have a good team. Working with talented and fun people mean ideas get fleshed out sooner, there’s little coordination and more things get done. If on top they are like Fry, who like a
+  &lt;a href="http://en.wikipedia.org/wiki/Duracell_Bunny"&gt;
+   Duracell Bunny
+  &lt;/a&gt;
+  just seems to keep going, you can finish projects you certainly would not otherwise.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Hackday also provided another proof that all-nighters as development method are an idiotic idea. Most hackers, who certainly didn’t lack enthusiasm, fell asleep at some point during the night and those, like us, who didn’t, slowly fried our brains. Development slowed down to a glacial speed, code written was frankly embarassing and help was needed to resolve most basic problems. We spent more than 4 hours on GeoPong which normally shouldn’t take us more than half of one. Even worse from efficiency point of view was that Monday was gone too. All-nighter can be a fun thing to do once in a while, but it is really a crappy way to run a business.
+ &lt;/p&gt;
+ &lt;p&gt;
+  At the end a small advice to organizers for next European event, on which I hope we won’t have to wait another two years. Try putting as much documentation and libraries on USB key as you can, so in case of wifi not working, we can still program with them instead of falling back to what we already intimately know or have on our machines.
+ &lt;/p&gt;
+&lt;/div&gt;</summary><category term="openhacklondon"></category><category term="openhack"></category><category term="yahoo"></category><category term="hack"></category></entry></feed>

@@ -21,7 +21,7 @@
 
 <section class="envelope posts">
     <header>
-        <h1><a href="http://markos.gaivo.net/articles/">A notch above a monkey <strong></strong></a></h1>
+        <h1><a href="../">A notch above a monkey <strong></strong></a></h1>
     </header><!-- /#banner -->
 
     <nav class="colophon">
@@ -33,262 +33,250 @@
     </nav>
 
         <article class="hentry">
-            <h1 class="entry-title storytitle"><a href="http://markos.gaivo.net/articles/address.html" rel="bookmark" title="Permalink to "><address></a></h1>
+            <h1 class="entry-title storytitle"><a href="../address.html" rel="bookmark" title="Permalink to "><address></a></h1>
 
             <div class="entry-content post-text">
-                <p><html>
- <body>
-  <div>
-   <p>
-    After years of personal embarrassment I finally managed to update look and code of my website. This actually happened last week and I wanted to write this post sooner, but
-    <a href="http://supervizor.kpk-rs.si" title="Supervizor">
-     other things
-    </a>
-    came in-between. There are still bugs I need to fix (iPad footer is better than it was, but not fine), but﻿ overall I’m pretty happy with how it turned out.
-   </p>
-   <p>
-    This was a second site I built using
-    <a class="zem_slink" href="http://www.w3.org/TR/css3-mediaqueries/" rel="homepage" title="media queries">
-     media queries
-    </a>
-    and I learned lots. When I learn a bit more about mobile web, I might write a post about few gotchas for new developers, but this is not that post. This post is about
-    <code>
-     &lt;address&gt;
-    </code>
-    tag because it bugged me when I made that first design and I spent a remarkable amount of time on it again.
-   </p>
-   <p>
-    My problem with it came down to its definition.
-    <code>
-     &lt;address&gt;
-    </code>
-    can be used only to mark up contact information about content’s author. In HTML 4 this was limited to authorship of whole page. For HTML5 it
-    <a href="http://dev.w3.org/html5/spec/sections.html#the-address-element" title="Definition of &lt;address&gt; in HTML5 specification">
-     was “widened”
-    </a>
-    to authorship of sectioning element like
-    <code>
-     &lt;article&gt;
-    </code>
-    (so if you have more than one article on page, each can contain its own, different, address for its author). You can’t however mark any address with it and after lots of searching I found
-    <a href="http://lists.whatwg.org/htdig.cgi/whatwg-whatwg.org/2008-February/014023.html" title="Ian's message from February 2008">
-     this old message
-    </a>
-    from
-    <a class="zem_slink" href="http://en.wikipedia.org/wiki/Ian_Hickson" rel="wikipedia" title="Ian Hickson">
-     Ian Hickson
-    </a>
-    which explains why (I’m not aware of any later clarifications).
-   </p>
-   <p>
-    I don’t agree with everything said. Mostly correct use is not necessarily a proof of well-designed element. My bet would be that
-    <code>
-     &lt;address&gt;
-    </code>
-    was a rather unknown tag exactly because of its limited use and was thus used mostly by those that dig deeper into standards, which sound also like people who care  how things are used as expected.
-   </p>
-   <p>
-    Still most points are valid. Loosening definition would make it less meaningful.
-    <a href="http://microformats.org/wiki/hcard" title="Specification of hCard microformat">
-     There
-    </a>
-    <a href="http://microformats.org/wiki/adr" title="Specification of adr microformat">
-     are
-    </a>
-    microformats that you can use instead and most annoying problems (allowing only inline content) have been fixed. We also have better tools for parsing HTML so  it really doesn’t matter much if its definition feels completely right or not. It’s good enough.
-   </p>
-   <p>
-    At the end I still decided to mark my contact information on
-    <a href="http://markos.gaivo.net">
-     my homepage
-    </a>
-    with
-    <code>
-     &lt;address&gt;
-    </code>
-    anyhow (augmented with
-    <a class="zem_slink" href="http://en.wikipedia.org/wiki/HCard" rel="wikipedia" title="HCard">
-     hCard
-    </a>
-    ), because I am after all the sole author of this website.
-   </p>
-   <div class="zemanta-pixie">
-    <img alt="" class="zemanta-pixie-img" src="http://img.zemanta.com/pixy.gif?x-id=9e03fdb6-c5dc-4878-b734-7bec34cd9ced"/>
-   </div>
-  </div>
- </body>
-</html></p>
+                <div>
+ <p>
+  After years of personal embarrassment I finally managed to update look and code of my website. This actually happened last week and I wanted to write this post sooner, but
+  <a href="http://supervizor.kpk-rs.si" title="Supervizor">
+   other things
+  </a>
+  came in-between. There are still bugs I need to fix (iPad footer is better than it was, but not fine), but﻿ overall I’m pretty happy with how it turned out.
+ </p>
+ <p>
+  This was a second site I built using
+  <a class="zem_slink" href="http://www.w3.org/TR/css3-mediaqueries/" rel="homepage" title="media queries">
+   media queries
+  </a>
+  and I learned lots. When I learn a bit more about mobile web, I might write a post about few gotchas for new developers, but this is not that post. This post is about
+  <code>
+   &lt;address&gt;
+  </code>
+  tag because it bugged me when I made that first design and I spent a remarkable amount of time on it again.
+ </p>
+ <p>
+  My problem with it came down to its definition.
+  <code>
+   &lt;address&gt;
+  </code>
+  can be used only to mark up contact information about content’s author. In HTML 4 this was limited to authorship of whole page. For HTML5 it
+  <a href="http://dev.w3.org/html5/spec/sections.html#the-address-element" title="Definition of &lt;address&gt; in HTML5 specification">
+   was “widened”
+  </a>
+  to authorship of sectioning element like
+  <code>
+   &lt;article&gt;
+  </code>
+  (so if you have more than one article on page, each can contain its own, different, address for its author). You can’t however mark any address with it and after lots of searching I found
+  <a href="http://lists.whatwg.org/htdig.cgi/whatwg-whatwg.org/2008-February/014023.html" title="Ian's message from February 2008">
+   this old message
+  </a>
+  from
+  <a class="zem_slink" href="http://en.wikipedia.org/wiki/Ian_Hickson" rel="wikipedia" title="Ian Hickson">
+   Ian Hickson
+  </a>
+  which explains why (I’m not aware of any later clarifications).
+ </p>
+ <p>
+  I don’t agree with everything said. Mostly correct use is not necessarily a proof of well-designed element. My bet would be that
+  <code>
+   &lt;address&gt;
+  </code>
+  was a rather unknown tag exactly because of its limited use and was thus used mostly by those that dig deeper into standards, which sound also like people who care  how things are used as expected.
+ </p>
+ <p>
+  Still most points are valid. Loosening definition would make it less meaningful.
+  <a href="http://microformats.org/wiki/hcard" title="Specification of hCard microformat">
+   There
+  </a>
+  <a href="http://microformats.org/wiki/adr" title="Specification of adr microformat">
+   are
+  </a>
+  microformats that you can use instead and most annoying problems (allowing only inline content) have been fixed. We also have better tools for parsing HTML so  it really doesn’t matter much if its definition feels completely right or not. It’s good enough.
+ </p>
+ <p>
+  At the end I still decided to mark my contact information on
+  <a href="http://markos.gaivo.net">
+   my homepage
+  </a>
+  with
+  <code>
+   &lt;address&gt;
+  </code>
+  anyhow (augmented with
+  <a class="zem_slink" href="http://en.wikipedia.org/wiki/HCard" rel="wikipedia" title="HCard">
+   hCard
+  </a>
+  ), because I am after all the sole author of this website.
+ </p>
+ <div class="zemanta-pixie">
+  <img alt="" class="zemanta-pixie-img" src="http://img.zemanta.com/pixy.gif?x-id=9e03fdb6-c5dc-4878-b734-7bec34cd9ced"/>
+ </div>
+</div>
             </div><!-- /.entry-content -->
 
             <footer class="post-metadata">
                 <ul>
                     <li>Published on <time datetime="2011-08-26T17:26:00+02:00">Fri 26 August 2011</time> </li>
-                    <li><a href="http://markos.gaivo.net/articles/address.html">Add your comment</a></li>
+                    <li><a href="../address.html">Add your comment</a></li>
                 </ul>
             </footer>
         </article>
         <article class="hentry">
-            <h1 class="entry-title storytitle"><a href="http://markos.gaivo.net/articles/gamification-of-book-reading.html" rel="bookmark" title="Permalink to Gamification of book reading">Gamification of book reading</a></h1>
+            <h1 class="entry-title storytitle"><a href="../gamification-of-book-reading.html" rel="bookmark" title="Permalink to Gamification of book reading">Gamification of book reading</a></h1>
 
             <div class="entry-content post-text">
-                <p><html>
- <body>
-  <div>
-   <p>
-    I’ve been following subjects of
-    <a class="zem_slink" href="http://en.wikipedia.org/wiki/Gamification" rel="wikipedia" title="Gamification">
-     gamification
-    </a>
-    and
-    <a class="zem_slink" href="http://en.wikipedia.org/wiki/Game_mechanics" rel="wikipedia" title="Game mechanics">
-     game mechanics
-    </a>
-    for a couple of years now, but I’ve only recently spotted how they apply to me. I conceitedly thought that they have little influence on me, but reality is as always more nuanced.
-   </p>
-   <p>
-    I still seem to be unmoved by most attempts. I don’t care that my
-    <a class="zem_slink" href="http://www.linkedin.com" rel="homepage" title="LinkedIn">
-     LinkedIn
-    </a>
-    profile is not complete and no fake mayorship will get me to use
-    <a class="zem_slink" href="http://www.foursquare.com/" rel="homepage" title="Foursquare">
-     Foursquare
-    </a>
-    until I see some other tangible benefit. On the other hand keeping a list of books and having a goal on how many to read has indeed influenced my behavior.
-   </p>
-   <p>
-    So why did this last example work? Because I actually care about reading books. It’s something I enjoy and want to do more, so “achievements” actually mean something to me.
-   </p>
-   <p>
-    I started to track books I read because I wanted to know how many I actually read, in what order and does that say something about me. I also thought setting an annual goal would provide a good incentive to keep reading, which it did, but not exactly in a way I expected.
-   </p>
-   <p>
-    Having a goal certainly helped me with additional motivation to read books when otherwise I might not have for one reason or another, but it also  gave me a nudge against dropping books I didn’t like since doing so would mean time invested in them would not get counted to achieving my goal.
-   </p>
-   <p>
-    It also pushed me to thinner books. Less pages mean on average quicker completion. But there are books where six or eight hundred pages doesn’t feel too long and they shouldn’t be postponed just because it might take me more than a couple of weeks to read them.
-   </p>
-   <p>
-    Time pressure also leads to more cursory reading. I’ve never been able to read as deeply as I thought I should, but having a goal definitely changed my reading for the worse. Again, properly engaging a book takes more time and hence makes it harder to achieve the goal.
-   </p>
-   <p>
-    I didn’t notice any downsides from having a list itself which has indeed provided me with insights about me I probably could have if I wrote a diary. Which I don’t, so I’m left to piecing my long term memories mostly from circumstantial evidence.
-   </p>
-   <p>
-    That’s why I’m keeping a list, but ditching my goal. Upside is simply not worth the downsides.
-   </p>
-   <p>
-    I see my experience as providing a lesson. It’s relatively easy to go through different gaming mechanisms and find a combination that you think will give you results you want. However, incentives are a bitch and I think it’s practically impossible to reliably predict what will actually happen in use.
-   </p>
-   <p>
-    That’s why complex modern games take so much time to create, because getting things right takes time and is not something you can reason through.
-   </p>
-   <p>
-    I’m with
-    <a class="zem_slink" href="http://headrush.typepad.com" rel="homepage" title="Kathy Sierra">
-     Kathy Sierra
-    </a>
-    on this and you really ought to read
-    <a href="http://radar.oreilly.com/2011/04/gamification-purpose-marketing.html#comment-7250008" title="Kathy Sierra's comments">
-     her comments
-    </a>
-    . I’m skeptical of general awe around gamification, but I do think game mechanics will have an important role to play in our future. Still I would prefer if we cautiously applied new tools where they can’t hurt much before we plaster badges of suck everywhere.
-   </p>
-   <p>
-    For a while now I’ve been annoyed by how every gamification talk has about 20 minutes of gushing of its virtues and about 20 seconds on possible ethics problems, but my experience has reminded me of the deeper problem, which is that it is simply much easier to inflict damage to your users and your product (brand) than getting it right.
-   </p>
-   <div class="zemanta-pixie">
-    <a class="zemanta-pixie-a" href="http://www.zemanta.com/" title="Enhanced by Zemanta">
-     <img alt="Enhanced by Zemanta" class="zemanta-pixie-img" src="http://img.zemanta.com/zemified_e.png?x-id=20efb278-1d20-46ec-aeec-c311b50837c7"/>
-    </a>
-   </div>
-  </div>
- </body>
-</html></p>
+                <div>
+ <p>
+  I’ve been following subjects of
+  <a class="zem_slink" href="http://en.wikipedia.org/wiki/Gamification" rel="wikipedia" title="Gamification">
+   gamification
+  </a>
+  and
+  <a class="zem_slink" href="http://en.wikipedia.org/wiki/Game_mechanics" rel="wikipedia" title="Game mechanics">
+   game mechanics
+  </a>
+  for a couple of years now, but I’ve only recently spotted how they apply to me. I conceitedly thought that they have little influence on me, but reality is as always more nuanced.
+ </p>
+ <p>
+  I still seem to be unmoved by most attempts. I don’t care that my
+  <a class="zem_slink" href="http://www.linkedin.com" rel="homepage" title="LinkedIn">
+   LinkedIn
+  </a>
+  profile is not complete and no fake mayorship will get me to use
+  <a class="zem_slink" href="http://www.foursquare.com/" rel="homepage" title="Foursquare">
+   Foursquare
+  </a>
+  until I see some other tangible benefit. On the other hand keeping a list of books and having a goal on how many to read has indeed influenced my behavior.
+ </p>
+ <p>
+  So why did this last example work? Because I actually care about reading books. It’s something I enjoy and want to do more, so “achievements” actually mean something to me.
+ </p>
+ <p>
+  I started to track books I read because I wanted to know how many I actually read, in what order and does that say something about me. I also thought setting an annual goal would provide a good incentive to keep reading, which it did, but not exactly in a way I expected.
+ </p>
+ <p>
+  Having a goal certainly helped me with additional motivation to read books when otherwise I might not have for one reason or another, but it also  gave me a nudge against dropping books I didn’t like since doing so would mean time invested in them would not get counted to achieving my goal.
+ </p>
+ <p>
+  It also pushed me to thinner books. Less pages mean on average quicker completion. But there are books where six or eight hundred pages doesn’t feel too long and they shouldn’t be postponed just because it might take me more than a couple of weeks to read them.
+ </p>
+ <p>
+  Time pressure also leads to more cursory reading. I’ve never been able to read as deeply as I thought I should, but having a goal definitely changed my reading for the worse. Again, properly engaging a book takes more time and hence makes it harder to achieve the goal.
+ </p>
+ <p>
+  I didn’t notice any downsides from having a list itself which has indeed provided me with insights about me I probably could have if I wrote a diary. Which I don’t, so I’m left to piecing my long term memories mostly from circumstantial evidence.
+ </p>
+ <p>
+  That’s why I’m keeping a list, but ditching my goal. Upside is simply not worth the downsides.
+ </p>
+ <p>
+  I see my experience as providing a lesson. It’s relatively easy to go through different gaming mechanisms and find a combination that you think will give you results you want. However, incentives are a bitch and I think it’s practically impossible to reliably predict what will actually happen in use.
+ </p>
+ <p>
+  That’s why complex modern games take so much time to create, because getting things right takes time and is not something you can reason through.
+ </p>
+ <p>
+  I’m with
+  <a class="zem_slink" href="http://headrush.typepad.com" rel="homepage" title="Kathy Sierra">
+   Kathy Sierra
+  </a>
+  on this and you really ought to read
+  <a href="http://radar.oreilly.com/2011/04/gamification-purpose-marketing.html#comment-7250008" title="Kathy Sierra's comments">
+   her comments
+  </a>
+  . I’m skeptical of general awe around gamification, but I do think game mechanics will have an important role to play in our future. Still I would prefer if we cautiously applied new tools where they can’t hurt much before we plaster badges of suck everywhere.
+ </p>
+ <p>
+  For a while now I’ve been annoyed by how every gamification talk has about 20 minutes of gushing of its virtues and about 20 seconds on possible ethics problems, but my experience has reminded me of the deeper problem, which is that it is simply much easier to inflict damage to your users and your product (brand) than getting it right.
+ </p>
+ <div class="zemanta-pixie">
+  <a class="zemanta-pixie-a" href="http://www.zemanta.com/" title="Enhanced by Zemanta">
+   <img alt="Enhanced by Zemanta" class="zemanta-pixie-img" src="http://img.zemanta.com/zemified_e.png?x-id=20efb278-1d20-46ec-aeec-c311b50837c7"/>
+  </a>
+ </div>
+</div>
             </div><!-- /.entry-content -->
 
             <footer class="post-metadata">
                 <ul>
                     <li>Published on <time datetime="2011-05-11T17:15:00+02:00">Wed 11 May 2011</time> </li>
-                    <li><a href="http://markos.gaivo.net/articles/gamification-of-book-reading.html">Add your comment</a></li>
+                    <li><a href="../gamification-of-book-reading.html">Add your comment</a></li>
                 </ul>
             </footer>
         </article>
         <article class="hentry">
-            <h1 class="entry-title storytitle"><a href="http://markos.gaivo.net/articles/typeface-snobbism.html" rel="bookmark" title="Permalink to Typeface snobbism">Typeface snobbism</a></h1>
+            <h1 class="entry-title storytitle"><a href="../typeface-snobbism.html" rel="bookmark" title="Permalink to Typeface snobbism">Typeface snobbism</a></h1>
 
             <div class="entry-content post-text">
-                <p><html>
- <body>
-  <div>
-   <p>
-    We came from
-    <a class="zem_slink" href="http://www.corse.fr/" rel="homepage" title="Corsica">
-     Corsica
-    </a>
-    vacation recently and one place we visited was Bonifiacio, a picturesque town in the south of the island. It’s a great place to visit, but if you do, try to rent an apartment in the old town itself – you might feel as a part of it.
-   </p>
-   <p>
-    We stayed in an apartment recently completely renovated by owners and very tastefully designed. Phillipe, our impeccably dressed host, who lived in equally tasteful apartment above us, also provided us with a page full of suggestions on what to do, where to eat and so on.
-   </p>
-   <p>
-    Typeface used for suggestions was
-    <a class="zem_slink" href="http://en.wikipedia.org/wiki/Comic_Sans" rel="wikipedia" title="Comic Sans">
-     Comic Sans
-    </a>
-    .
-   </p>
-   <p>
-    I admit I was amused at first. Here was this older gentleman showing more taste than me in everything who nevertheless used one of more despised and ridiculed
-    <a class="zem_slink" href="http://en.wikipedia.org/wiki/Typeface" rel="wikipedia" title="Typeface">
-     typefaces
-    </a>
-    around. My unconfirmed guess is that he picked it because it looks friendlier than others.
-   </p>
-   <p>
-    Which got me thinking how bad is Comic Sans really?
-   </p>
-   <p>
-    It obviously doesn’t leave people untouched, since they keep on using it when there are many choices even on most typefaces starved computers. I’ve also yet to meet a person who would hate it and was not interested in type.
-   </p>
-   <p>
-    Popularity does not mean it is a good typeface (whatever that actually means) just as it doesn’t make Madonna a good singer. It does however speak to people unlike so many typefaces which leave most of us simply unmoved.
-   </p>
-   <p>
-    Not to be contrarian, but I find it a completely reasonable choice for children party invitations. It may look ludicrous when used on warning signs, but then again every typeface gets misused for texts it wasn’t designed for.
-   </p>
-   <p>
-    If it happens more often to Comic Sans, it’s probably more because it is less general, less bland than, say,
-    <a class="zem_slink" href="http://en.wikipedia.org/wiki/Times_Roman" rel="wikipedia" title="Times Roman">
-     Times Roman
-    </a>
-    .
-   </p>
-   <p>
-    In the end I have to admit I don’t have a bigger point than simple admission I’m not affronted by it anymore. I can’t muster a will to protest or even feel annoyed. To me it has become a pop icon, something I wish to see less and in context better suited for it, but at the end harmless.
-   </p>
-   <div class="zemanta-pixie">
-    <a class="zemanta-pixie-a" href="http://www.zemanta.com/" title="Enhanced by Zemanta">
-     <img alt="Enhanced by Zemanta" class="zemanta-pixie-img" src="http://img.zemanta.com/zemified_e.png?x-id=1b6b6aac-6518-42c7-9261-d3708c5b26f2"/>
-    </a>
-   </div>
-  </div>
- </body>
-</html></p>
+                <div>
+ <p>
+  We came from
+  <a class="zem_slink" href="http://www.corse.fr/" rel="homepage" title="Corsica">
+   Corsica
+  </a>
+  vacation recently and one place we visited was Bonifiacio, a picturesque town in the south of the island. It’s a great place to visit, but if you do, try to rent an apartment in the old town itself – you might feel as a part of it.
+ </p>
+ <p>
+  We stayed in an apartment recently completely renovated by owners and very tastefully designed. Phillipe, our impeccably dressed host, who lived in equally tasteful apartment above us, also provided us with a page full of suggestions on what to do, where to eat and so on.
+ </p>
+ <p>
+  Typeface used for suggestions was
+  <a class="zem_slink" href="http://en.wikipedia.org/wiki/Comic_Sans" rel="wikipedia" title="Comic Sans">
+   Comic Sans
+  </a>
+  .
+ </p>
+ <p>
+  I admit I was amused at first. Here was this older gentleman showing more taste than me in everything who nevertheless used one of more despised and ridiculed
+  <a class="zem_slink" href="http://en.wikipedia.org/wiki/Typeface" rel="wikipedia" title="Typeface">
+   typefaces
+  </a>
+  around. My unconfirmed guess is that he picked it because it looks friendlier than others.
+ </p>
+ <p>
+  Which got me thinking how bad is Comic Sans really?
+ </p>
+ <p>
+  It obviously doesn’t leave people untouched, since they keep on using it when there are many choices even on most typefaces starved computers. I’ve also yet to meet a person who would hate it and was not interested in type.
+ </p>
+ <p>
+  Popularity does not mean it is a good typeface (whatever that actually means) just as it doesn’t make Madonna a good singer. It does however speak to people unlike so many typefaces which leave most of us simply unmoved.
+ </p>
+ <p>
+  Not to be contrarian, but I find it a completely reasonable choice for children party invitations. It may look ludicrous when used on warning signs, but then again every typeface gets misused for texts it wasn’t designed for.
+ </p>
+ <p>
+  If it happens more often to Comic Sans, it’s probably more because it is less general, less bland than, say,
+  <a class="zem_slink" href="http://en.wikipedia.org/wiki/Times_Roman" rel="wikipedia" title="Times Roman">
+   Times Roman
+  </a>
+  .
+ </p>
+ <p>
+  In the end I have to admit I don’t have a bigger point than simple admission I’m not affronted by it anymore. I can’t muster a will to protest or even feel annoyed. To me it has become a pop icon, something I wish to see less and in context better suited for it, but at the end harmless.
+ </p>
+ <div class="zemanta-pixie">
+  <a class="zemanta-pixie-a" href="http://www.zemanta.com/" title="Enhanced by Zemanta">
+   <img alt="Enhanced by Zemanta" class="zemanta-pixie-img" src="http://img.zemanta.com/zemified_e.png?x-id=1b6b6aac-6518-42c7-9261-d3708c5b26f2"/>
+  </a>
+ </div>
+</div>
             </div><!-- /.entry-content -->
 
             <footer class="post-metadata">
                 <ul>
                     <li>Published on <time datetime="2011-05-08T10:06:00+02:00">Sun 08 May 2011</time> </li>
-                    <li><a href="http://markos.gaivo.net/articles/typeface-snobbism.html">Add your comment</a></li>
+                    <li><a href="../typeface-snobbism.html">Add your comment</a></li>
                 </ul>
             </footer>
         </article>
 
 <p class="paginator">
-        <a href="http://markos.gaivo.net/articles/author/markos13.html">&laquo;</a>
+        <a href="../author/markos13.html">&laquo;</a>
     Page 14 / 111
-        <a href="http://markos.gaivo.net/articles/author/markos15.html">&raquo;</a>
+        <a href="../author/markos15.html">&raquo;</a>
 </p>
 </section><!-- /#content -->
 

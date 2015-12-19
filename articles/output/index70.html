@@ -20,7 +20,7 @@
 
 <section class="envelope posts">
     <header>
-        <h1><a href="http://markos.gaivo.net/articles/">A notch above a monkey <strong></strong></a></h1>
+        <h1><a href="./">A notch above a monkey <strong></strong></a></h1>
     </header><!-- /#banner -->
 
     <nav class="colophon">
@@ -32,119 +32,107 @@
     </nav>
 
         <article class="hentry">
-            <h1 class="entry-title storytitle"><a href="http://markos.gaivo.net/articles/firefox-and-deferdefer.html" rel="bookmark" title="Permalink to Firefox and defer="defer"">Firefox and defer="defer"</a></h1>
+            <h1 class="entry-title storytitle"><a href="./firefox-and-deferdefer.html" rel="bookmark" title="Permalink to Firefox and defer="defer"">Firefox and defer="defer"</a></h1>
 
             <div class="entry-content post-text">
-                <p><html>
- <body>
-  <div>
-   <p>
-    If you’re sitting in the wrong part of the world, then Google might be inaccessible to you right now. That would be only a minor annoyance, if the same wasn’t true also for Google Analytics.
-   </p>
-   <p>
-    It’s remarkable how many sites (including this one) use it and are right now more or less inaccessible to every poor soul suffering from Google blackout. That’s because browser can’t tell if external Javascript will use a method like
-    <em>
-     document.write
-    </em>
-    and therefore blocks rendering until the code is loaded or it timeouts waiting for it.
-   </p>
-   <p>
-    There should be a workaround for times like this and according to HTML4 specification there is
-    <a href="http://www.w3.org/TR/1999/REC-html401-19991224/interact/scripts.html#adef-defer">
-     one
-    </a>
-    . By using
-    <em>
-     defer=”defer”
-    </em>
-    we can signal to the browser that it can safely proceed rendering the page, because we won’t be using any dangerous methods in our Javascript files.
-   </p>
-   <p>
-    However, it sadly doesn’t work everywhere. It works in Internet Explorer, but fails in Firefox and Safari. And that simply sucks.
-   </p>
-  </div>
- </body>
-</html></p>
+                <div>
+ <p>
+  If you’re sitting in the wrong part of the world, then Google might be inaccessible to you right now. That would be only a minor annoyance, if the same wasn’t true also for Google Analytics.
+ </p>
+ <p>
+  It’s remarkable how many sites (including this one) use it and are right now more or less inaccessible to every poor soul suffering from Google blackout. That’s because browser can’t tell if external Javascript will use a method like
+  <em>
+   document.write
+  </em>
+  and therefore blocks rendering until the code is loaded or it timeouts waiting for it.
+ </p>
+ <p>
+  There should be a workaround for times like this and according to HTML4 specification there is
+  <a href="http://www.w3.org/TR/1999/REC-html401-19991224/interact/scripts.html#adef-defer">
+   one
+  </a>
+  . By using
+  <em>
+   defer=”defer”
+  </em>
+  we can signal to the browser that it can safely proceed rendering the page, because we won’t be using any dangerous methods in our Javascript files.
+ </p>
+ <p>
+  However, it sadly doesn’t work everywhere. It works in Internet Explorer, but fails in Firefox and Safari. And that simply sucks.
+ </p>
+</div>
             </div><!-- /.entry-content -->
 
             <footer class="post-metadata">
                 <ul>
                     <li>Published on <time datetime="2006-03-04T17:19:00+01:00">Sat 04 March 2006</time> </li>
-                    <li><a href="http://markos.gaivo.net/articles/firefox-and-deferdefer.html">Add your comment</a></li>
+                    <li><a href="./firefox-and-deferdefer.html">Add your comment</a></li>
                 </ul>
             </footer>
         </article>
         <article class="hentry">
-            <h1 class="entry-title storytitle"><a href="http://markos.gaivo.net/articles/code.html" rel="bookmark" title="Permalink to /code">/code</a></h1>
+            <h1 class="entry-title storytitle"><a href="./code.html" rel="bookmark" title="Permalink to /code">/code</a></h1>
 
             <div class="entry-content post-text">
-                <p><html>
- <body>
-  <div>
-   <p>
-    I find searching through blogs for pieces of usable code rather unfriendly and I think I’m not the only one. That’s why I added
-    <a href="http://markos.gaivo.net/code/">
-     a new section
-    </a>
-    to my homepage, where I’ll publish useful or semi-useful pieces of code.
-   </p>
-  </div>
- </body>
-</html></p>
+                <div>
+ <p>
+  I find searching through blogs for pieces of usable code rather unfriendly and I think I’m not the only one. That’s why I added
+  <a href="http://markos.gaivo.net/code/">
+   a new section
+  </a>
+  to my homepage, where I’ll publish useful or semi-useful pieces of code.
+ </p>
+</div>
             </div><!-- /.entry-content -->
 
             <footer class="post-metadata">
                 <ul>
                     <li>Published on <time datetime="2006-03-03T13:12:00+01:00">Fri 03 March 2006</time> </li>
-                    <li><a href="http://markos.gaivo.net/articles/code.html">Add your comment</a></li>
+                    <li><a href="./code.html">Add your comment</a></li>
                 </ul>
             </footer>
         </article>
         <article class="hentry">
-            <h1 class="entry-title storytitle"><a href="http://markos.gaivo.net/articles/revisiting-javascript-i18n.html" rel="bookmark" title="Permalink to Revisiting javascript i18n">Revisiting javascript i18n</a></h1>
+            <h1 class="entry-title storytitle"><a href="./revisiting-javascript-i18n.html" rel="bookmark" title="Permalink to Revisiting javascript i18n">Revisiting javascript i18n</a></h1>
 
             <div class="entry-content post-text">
-                <p><html>
- <body>
-  <div>
-   <p>
-    This week I had an interesting discussion with Ratnadeep Bhattacharjee about my
-    <a href="news-at-seven-javascript-i18n-that-almost-doesnt-suck.html" title="Older post with js i18n library">
-     previous try
-    </a>
-    to solve javascript i18n needs and it quickly become obvious that my library is not sufficient and likely also wrong approach to the problem.
-   </p>
-   <p>
-    There are at least two unresolved issues with my current javascript i18n library:
-   </p>
-   <ul>
-    <li>
-     It doesn’t detect browser language settings and act accordingly.
-    </li>
-    <li>
-     It’s one way only. After you changed the language used, you can’t change it again easily.
-    </li>
-   </ul>
-   <p>
-    I’m sure these are not the only two problems, since I have a vague uneasiness about a few more things. Therefore I’d love to hear more thoughts about what you’d expect and need from such a library, before I continue down the possibly wrong path.
-   </p>
-  </div>
- </body>
-</html></p>
+                <div>
+ <p>
+  This week I had an interesting discussion with Ratnadeep Bhattacharjee about my
+  <a href="news-at-seven-javascript-i18n-that-almost-doesnt-suck.html" title="Older post with js i18n library">
+   previous try
+  </a>
+  to solve javascript i18n needs and it quickly become obvious that my library is not sufficient and likely also wrong approach to the problem.
+ </p>
+ <p>
+  There are at least two unresolved issues with my current javascript i18n library:
+ </p>
+ <ul>
+  <li>
+   It doesn’t detect browser language settings and act accordingly.
+  </li>
+  <li>
+   It’s one way only. After you changed the language used, you can’t change it again easily.
+  </li>
+ </ul>
+ <p>
+  I’m sure these are not the only two problems, since I have a vague uneasiness about a few more things. Therefore I’d love to hear more thoughts about what you’d expect and need from such a library, before I continue down the possibly wrong path.
+ </p>
+</div>
             </div><!-- /.entry-content -->
 
             <footer class="post-metadata">
                 <ul>
                     <li>Published on <time datetime="2006-02-25T16:55:00+01:00">Sat 25 February 2006</time> </li>
-                    <li><a href="http://markos.gaivo.net/articles/revisiting-javascript-i18n.html">Add your comment</a></li>
+                    <li><a href="./revisiting-javascript-i18n.html">Add your comment</a></li>
                 </ul>
             </footer>
         </article>
 
 <p class="paginator">
-        <a href="http://markos.gaivo.net/articles/index69.html">&laquo;</a>
+        <a href="./index69.html">&laquo;</a>
     Page 70 / 111
-        <a href="http://markos.gaivo.net/articles/index71.html">&raquo;</a>
+        <a href="./index71.html">&raquo;</a>
 </p>
 </section><!-- /#content -->
 

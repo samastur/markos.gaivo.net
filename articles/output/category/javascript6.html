@@ -22,7 +22,7 @@
 
 <section class="envelope posts">
     <header>
-        <h1><a href="http://markos.gaivo.net/articles/">A notch above a monkey <strong></strong></a></h1>
+        <h1><a href="../">A notch above a monkey <strong></strong></a></h1>
     </header><!-- /#banner -->
 
     <nav class="colophon">
@@ -34,125 +34,113 @@
     </nav>
 
         <article class="hentry">
-            <h1 class="entry-title storytitle"><a href="http://markos.gaivo.net/articles/javascript-timing-conflicts.html" rel="bookmark" title="Permalink to Javascript timing conflicts">Javascript timing conflicts</a></h1>
+            <h1 class="entry-title storytitle"><a href="../javascript-timing-conflicts.html" rel="bookmark" title="Permalink to Javascript timing conflicts">Javascript timing conflicts</a></h1>
 
             <div class="entry-content post-text">
-                <p><html>
- <body>
-  <div>
-   <p>
-    Play with fire and you’ll get burned.
-   </p>
-   <p>
-    I’ve just spent two days hunting a bug that just didn’t make sense. No matter what I did, there was at least one browser, which didn’t want to behave properly and it was driving me nuts.
-   </p>
-   <p>
-    Finally I gave up and decided there’s nothing wrong with my code and the fault must be with the browser. And so it was, up to a point. Or not, depending on your point of view.
-   </p>
-   <p>
-    The problem was a timing conflict resulting from a use of
-    <a href="framestack-technique-and-accessibility.html" title="Description of technique">
-     framestack technique
-    </a>
-    and the way modern browsers work. Browsers don’t wait for the whole page with its data to load, before they display it to users. They display as reasonable presentation of received data as possible while they are trying to load the rest. For example, onload handler set to body tag is triggered when body of HTML document has loaded, but possibly before images and other external resources have. When they do, page layout might change somewhat and if your script is reading and using layout data in the meantime, it’s quite likely it’ll end up using wrong values.
-   </p>
-   <p>
-    The easiest (and right) way to fix this is to start javascript with
-    <em>
-     window.onload
-    </em>
-    , which is triggered when everything has loaded. This might be a problem, if you’re using something like framestack to avoid reloading page on subsequent visits, but at least in my case I’ve decided that the cleanest and easiest solution was to use window.onload and just force reload of problematic page on each visit.
-   </p>
-   <p>
-    It’s also possible to get in similar timing conflicts by using
-    <em>
-     innerHTML
-    </em>
-    method. If you try to stuck a large piece of HTML inside a page using innerHTML call, you may encounter an unwelcome surprise. Reason for this is that at least some browsers don’t wait to parse and insert data in DOM before they proceed to the next statement. Injection delay is usually barely noticeable, but big enough for statements that manipulate inserted data to fail, if they are in close proximity to innerHTML call.
-   </p>
-   <p>
-    You can’t necessarily avoid innerHTML problems with window.onload, but you can by using (more cumbersome) DOM methods.
-   </p>
-   <p>
-    It still annoys me though that I knew all of this and wasted two days just because I didn’t think of it.
-   </p>
-  </div>
- </body>
-</html></p>
+                <div>
+ <p>
+  Play with fire and you’ll get burned.
+ </p>
+ <p>
+  I’ve just spent two days hunting a bug that just didn’t make sense. No matter what I did, there was at least one browser, which didn’t want to behave properly and it was driving me nuts.
+ </p>
+ <p>
+  Finally I gave up and decided there’s nothing wrong with my code and the fault must be with the browser. And so it was, up to a point. Or not, depending on your point of view.
+ </p>
+ <p>
+  The problem was a timing conflict resulting from a use of
+  <a href="framestack-technique-and-accessibility.html" title="Description of technique">
+   framestack technique
+  </a>
+  and the way modern browsers work. Browsers don’t wait for the whole page with its data to load, before they display it to users. They display as reasonable presentation of received data as possible while they are trying to load the rest. For example, onload handler set to body tag is triggered when body of HTML document has loaded, but possibly before images and other external resources have. When they do, page layout might change somewhat and if your script is reading and using layout data in the meantime, it’s quite likely it’ll end up using wrong values.
+ </p>
+ <p>
+  The easiest (and right) way to fix this is to start javascript with
+  <em>
+   window.onload
+  </em>
+  , which is triggered when everything has loaded. This might be a problem, if you’re using something like framestack to avoid reloading page on subsequent visits, but at least in my case I’ve decided that the cleanest and easiest solution was to use window.onload and just force reload of problematic page on each visit.
+ </p>
+ <p>
+  It’s also possible to get in similar timing conflicts by using
+  <em>
+   innerHTML
+  </em>
+  method. If you try to stuck a large piece of HTML inside a page using innerHTML call, you may encounter an unwelcome surprise. Reason for this is that at least some browsers don’t wait to parse and insert data in DOM before they proceed to the next statement. Injection delay is usually barely noticeable, but big enough for statements that manipulate inserted data to fail, if they are in close proximity to innerHTML call.
+ </p>
+ <p>
+  You can’t necessarily avoid innerHTML problems with window.onload, but you can by using (more cumbersome) DOM methods.
+ </p>
+ <p>
+  It still annoys me though that I knew all of this and wasted two days just because I didn’t think of it.
+ </p>
+</div>
             </div><!-- /.entry-content -->
 
             <footer class="post-metadata">
                 <ul>
                     <li>Published on <time datetime="2005-09-17T19:01:00+02:00">Sat 17 September 2005</time> </li>
-                    <li><a href="http://markos.gaivo.net/articles/javascript-timing-conflicts.html">Add your comment</a></li>
+                    <li><a href="../javascript-timing-conflicts.html">Add your comment</a></li>
                 </ul>
             </footer>
         </article>
         <article class="hentry">
-            <h1 class="entry-title storytitle"><a href="http://markos.gaivo.net/articles/framestack-technique-and-accessibility.html" rel="bookmark" title="Permalink to Framestack technique and accessibility">Framestack technique  and accessibility</a></h1>
+            <h1 class="entry-title storytitle"><a href="../framestack-technique-and-accessibility.html" rel="bookmark" title="Permalink to Framestack technique and accessibility">Framestack technique  and accessibility</a></h1>
 
             <div class="entry-content post-text">
-                <p><html>
- <body>
-  <div>
-   <p>
-    <strong>
-     Error:
-    </strong>
-    No such file found! Please make sure
-    <code>
-     http://markos.gaivo.net/blog/code/framestack1.txt
-    </code>
-    exists.
-   </p>
-  </div>
- </body>
-</html></p>
+                <div>
+ <p>
+  <strong>
+   Error:
+  </strong>
+  No such file found! Please make sure
+  <code>
+   http://markos.gaivo.net/blog/code/framestack1.txt
+  </code>
+  exists.
+ </p>
+</div>
             </div><!-- /.entry-content -->
 
             <footer class="post-metadata">
                 <ul>
                     <li>Published on <time datetime="2005-08-27T18:40:00+02:00">Sat 27 August 2005</time> </li>
-                    <li><a href="http://markos.gaivo.net/articles/framestack-technique-and-accessibility.html">Add your comment</a></li>
+                    <li><a href="../framestack-technique-and-accessibility.html">Add your comment</a></li>
                 </ul>
             </footer>
         </article>
         <article class="hentry">
-            <h1 class="entry-title storytitle"><a href="http://markos.gaivo.net/articles/looping-through-getelementsbytagname-list.html" rel="bookmark" title="Permalink to Looping through getElementsByTagName list">Looping through getElementsByTagName list</a></h1>
+            <h1 class="entry-title storytitle"><a href="../looping-through-getelementsbytagname-list.html" rel="bookmark" title="Permalink to Looping through getElementsByTagName list">Looping through getElementsByTagName list</a></h1>
 
             <div class="entry-content post-text">
-                <p><html>
- <body>
-  <div>
-   <p>
-    There’s a small quirk that developers hit now and then when they are processing a list of elements returned by getElementsByTagName function.  Usual, but still unexpected behavior is that not all elements of the list have been processed and if you are using javascript console, it might complain that there’s no element in the list at index, where you’re certain it should be.
-   </p>
-   <p>
-    The reason for this is that returned list of elements is not really a list. It’s a live view of matching elements. If you delete one of them in document, it will be removed from the list as well. List will become shorter and some elements in it may change their position to fill empty slot formerly occupied by deleted element.
-   </p>
-   <p>
-    Therefore, if you loop through such a list and its possible that you might remove current element, it’s best to loop from last element to the first. This keeps positions stable and predictable even when you delete.
-   </p>
-   <p>
-    It can be a bit trickier to handle if you add matching elements inside such loop. Sadly there’s no easy solution that would work all the time and you have to take in account your situation.
-   </p>
-  </div>
- </body>
-</html></p>
+                <div>
+ <p>
+  There’s a small quirk that developers hit now and then when they are processing a list of elements returned by getElementsByTagName function.  Usual, but still unexpected behavior is that not all elements of the list have been processed and if you are using javascript console, it might complain that there’s no element in the list at index, where you’re certain it should be.
+ </p>
+ <p>
+  The reason for this is that returned list of elements is not really a list. It’s a live view of matching elements. If you delete one of them in document, it will be removed from the list as well. List will become shorter and some elements in it may change their position to fill empty slot formerly occupied by deleted element.
+ </p>
+ <p>
+  Therefore, if you loop through such a list and its possible that you might remove current element, it’s best to loop from last element to the first. This keeps positions stable and predictable even when you delete.
+ </p>
+ <p>
+  It can be a bit trickier to handle if you add matching elements inside such loop. Sadly there’s no easy solution that would work all the time and you have to take in account your situation.
+ </p>
+</div>
             </div><!-- /.entry-content -->
 
             <footer class="post-metadata">
                 <ul>
                     <li>Published on <time datetime="2005-08-20T15:37:00+02:00">Sat 20 August 2005</time> </li>
-                    <li><a href="http://markos.gaivo.net/articles/looping-through-getelementsbytagname-list.html">Add your comment</a></li>
+                    <li><a href="../looping-through-getelementsbytagname-list.html">Add your comment</a></li>
                 </ul>
             </footer>
         </article>
 
 <p class="paginator">
-        <a href="http://markos.gaivo.net/articles/category/javascript5.html">&laquo;</a>
+        <a href="../category/javascript5.html">&laquo;</a>
     Page 6 / 7
-        <a href="http://markos.gaivo.net/articles/category/javascript7.html">&raquo;</a>
+        <a href="../category/javascript7.html">&raquo;</a>
 </p>
 </section><!-- /#content -->
 

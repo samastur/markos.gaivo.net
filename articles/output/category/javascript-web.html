@@ -22,7 +22,7 @@
 
 <section class="envelope posts">
     <header>
-        <h1><a href="http://markos.gaivo.net/articles/">A notch above a monkey <strong></strong></a></h1>
+        <h1><a href="../">A notch above a monkey <strong></strong></a></h1>
     </header><!-- /#banner -->
 
     <nav class="colophon">
@@ -34,174 +34,162 @@
     </nav>
 
         <article class="hentry">
-            <h1 class="entry-title storytitle"><a href="http://markos.gaivo.net/articles/using-canvas-and-javascript-to-blur-images.html" rel="bookmark" title="Permalink to Using canvas and Javascript to blur images">Using canvas and Javascript to blur images</a></h1>
+            <h1 class="entry-title storytitle"><a href="../using-canvas-and-javascript-to-blur-images.html" rel="bookmark" title="Permalink to Using canvas and Javascript to blur images">Using canvas and Javascript to blur images</a></h1>
 
             <div class="entry-content post-text">
-                <p><html>
- <body>
-  <div>
-   <p>
-    I admire the look and feel of
-    <a href="http://www.mikematas.com/">
-     Mike Matas’ new website
-    </a>
-    . It is really well thought through. I was also intrigued by how he did it, especially after getting a pop-up on my first visit advising me to use a more modern browser than a recent version of Firefox.
-   </p>
-   <p>
-    There is no point in speculating why some of its features don’t work in more browsers. But I was surprised to see that blurred images are served that way and don’t get blurred in browser. I am playing with an idea of implementing a gallery inspired by Mike’s work, but I would like to reduce manual labor needed for maintaining it.
-   </p>
-   <p>
-    So I wrote a function that blurs an image on canvas. You can
-    <a href="http://markos.gaivo.net/examples/canvas_blur/" title="Javascript blur demo page">
-     see it in action
-    </a>
-    or copy its code, if you find it useful.
-   </p>
-   <p>
-    The algorithm used is described in
-    <a href="http://web.archive.org/web/20060718054020/http://www.acm.uiuc.edu/siggraph/workshops/wjarosz_convolution_2001.pdf" title="Link to PDF version of paper">
-     2001 paper
-    </a>
-    by Wojciech Jarosz. Page contains two implementations, second trading algorithm purity for in my opinion nicer code. Increase number of passes or run it few times over an image, if you need a blurrier result.? Please ask, if you need help with its use.
-   </p>
-   <p>
-    I also measured its speed to see if it fits my needs. That brought a new surprise. Firefox 3.5.8? on my Linux powered VAIO with 1.2GHz processor blurs image twice as fast as same browser on a Mac with a 2.8Ghz processor. Numbers between runs may vary slightly, but never much. No idea why this is happening, since all functions do is some basic math over items in array that should be well optimized everywhere.
-   </p>
-   <p>
-    I am sure somebody can optimize it further, but I find it good enough for my use. Image isn’t very blurred after one pass, but one pass over a small image is also a good way to measure how fast a particular computer-browser combination is. On fast combinations I might go for multiple passes over images in view, but fall back to a single pass or no pass on slower systems.
-   </p>
-   <div class="zemanta-pixie">
-    <a class="zemanta-pixie-a" href="http://reblog.zemanta.com/zemified/4b7c629c-fdbe-4190-ade4-e240b1b3755a/" title="Reblog this post [with Zemanta]">
-     <img alt="Reblog this post [with Zemanta]" class="zemanta-pixie-img" src="http://img.zemanta.com/reblog_e.png?x-id=4b7c629c-fdbe-4190-ade4-e240b1b3755a"/>
-    </a>
-   </div>
-  </div>
- </body>
-</html></p>
+                <div>
+ <p>
+  I admire the look and feel of
+  <a href="http://www.mikematas.com/">
+   Mike Matas’ new website
+  </a>
+  . It is really well thought through. I was also intrigued by how he did it, especially after getting a pop-up on my first visit advising me to use a more modern browser than a recent version of Firefox.
+ </p>
+ <p>
+  There is no point in speculating why some of its features don’t work in more browsers. But I was surprised to see that blurred images are served that way and don’t get blurred in browser. I am playing with an idea of implementing a gallery inspired by Mike’s work, but I would like to reduce manual labor needed for maintaining it.
+ </p>
+ <p>
+  So I wrote a function that blurs an image on canvas. You can
+  <a href="http://markos.gaivo.net/examples/canvas_blur/" title="Javascript blur demo page">
+   see it in action
+  </a>
+  or copy its code, if you find it useful.
+ </p>
+ <p>
+  The algorithm used is described in
+  <a href="http://web.archive.org/web/20060718054020/http://www.acm.uiuc.edu/siggraph/workshops/wjarosz_convolution_2001.pdf" title="Link to PDF version of paper">
+   2001 paper
+  </a>
+  by Wojciech Jarosz. Page contains two implementations, second trading algorithm purity for in my opinion nicer code. Increase number of passes or run it few times over an image, if you need a blurrier result.? Please ask, if you need help with its use.
+ </p>
+ <p>
+  I also measured its speed to see if it fits my needs. That brought a new surprise. Firefox 3.5.8? on my Linux powered VAIO with 1.2GHz processor blurs image twice as fast as same browser on a Mac with a 2.8Ghz processor. Numbers between runs may vary slightly, but never much. No idea why this is happening, since all functions do is some basic math over items in array that should be well optimized everywhere.
+ </p>
+ <p>
+  I am sure somebody can optimize it further, but I find it good enough for my use. Image isn’t very blurred after one pass, but one pass over a small image is also a good way to measure how fast a particular computer-browser combination is. On fast combinations I might go for multiple passes over images in view, but fall back to a single pass or no pass on slower systems.
+ </p>
+ <div class="zemanta-pixie">
+  <a class="zemanta-pixie-a" href="http://reblog.zemanta.com/zemified/4b7c629c-fdbe-4190-ade4-e240b1b3755a/" title="Reblog this post [with Zemanta]">
+   <img alt="Reblog this post [with Zemanta]" class="zemanta-pixie-img" src="http://img.zemanta.com/reblog_e.png?x-id=4b7c629c-fdbe-4190-ade4-e240b1b3755a"/>
+  </a>
+ </div>
+</div>
             </div><!-- /.entry-content -->
 
             <footer class="post-metadata">
                 <ul>
                     <li>Published on <time datetime="2010-04-01T10:59:00+02:00">Thu 01 April 2010</time> </li>
-                    <li><a href="http://markos.gaivo.net/articles/using-canvas-and-javascript-to-blur-images.html">Add your comment</a></li>
+                    <li><a href="../using-canvas-and-javascript-to-blur-images.html">Add your comment</a></li>
                 </ul>
             </footer>
         </article>
         <article class="hentry">
-            <h1 class="entry-title storytitle"><a href="http://markos.gaivo.net/articles/javascript-the-good-parts-and-stringsplit-problem.html" rel="bookmark" title="Permalink to Javascript: The Good Parts and string.split problem">Javascript: The Good Parts and string.split problem</a></h1>
+            <h1 class="entry-title storytitle"><a href="../javascript-the-good-parts-and-stringsplit-problem.html" rel="bookmark" title="Permalink to Javascript: The Good Parts and string.split problem">Javascript: The Good Parts and string.split problem</a></h1>
 
             <div class="entry-content post-text">
-                <p><html>
- <body>
-  <div>
-   <p>
-    I just read
-    <a class="zem_slink" href="http://crockford.com/" rel="homepage" title="Douglas Crockford">
-     Douglas Crockford
-    </a>
-    ‘s book
-    <a href="http://www.amazon.com/gp/product/0596517742?ie=UTF8&amp;tag=devel-20&amp;linkCode=as2&amp;camp=1789&amp;creative=390957&amp;creativeASIN=0596517742">
-     JavaScript: The Good Parts
-    </a>
-    <img alt="" border="0" height="1" src="http://www.assoc-amazon.com/e/ir?t=devel-20&amp;l=as2&amp;o=1&amp;a=0596517742" style="border:none !important; margin:0px !important;" width="1"/>
-    . It’s what a technical book should be. Concise yet full of useful information as a result of clear scope and sticking to it. If my experience is anything to go by, then there are not many Javascript programmers who wouldn’t benefit from it.
-   </p>
-   <p>
-    I did found one bit that wasn’t quite right. On pages 91-92 Douglas discusses
-    <em>
-     string.split
-    </em>
-    method, which can take a regular expression as a separator with which to split string. Douglas rightly points out that if regular expression includes capturing group (stuff between paranthesis like
-    <em>
-     b(mmm)c
-    </em>
-    ), then strings matching those groups will be included in the split.
-   </p>
-   <p>
-    However Douglas is not completely correct when he says that some implementations drop empty strings in the output array when separator is regular expression. If you run
-    <a href="http://markos.gaivo.net/examples/jssplit/index.html">
-     this demo
-    </a>
-    in
-    <a class="zem_slink" href="http://www.firefox.com/" rel="homepage" title="Mozilla Firefox 3">
-     Firefox3
-    </a>
-    and IE7, you’ll see that IE7 drops even non-empty strings from capturing groups, while Firefox3 includes them.
-   </p>
-   <p>
-    Still, I would find a bug in my code faster this week if I read his book sooner.
-   </p>
-   <div class="zemanta-pixie">
-    <a class="zemanta-pixie-a" href="http://reblog.zemanta.com/zemified/098a0fec-e31c-40fe-a1d4-701ecad46969/" title="Zemified by Zemanta">
-     <img alt="Reblog this post [with Zemanta]" class="zemanta-pixie-img" src="http://img.zemanta.com/reblog_e.png?x-id=098a0fec-e31c-40fe-a1d4-701ecad46969"/>
-    </a>
-    <span class="zem-script more-related">
-     <script src="http://static.zemanta.com/readside/loader.js" type="text/javascript">
-     </script>
-    </span>
-   </div>
-  </div>
- </body>
-</html></p>
+                <div>
+ <p>
+  I just read
+  <a class="zem_slink" href="http://crockford.com/" rel="homepage" title="Douglas Crockford">
+   Douglas Crockford
+  </a>
+  ‘s book
+  <a href="http://www.amazon.com/gp/product/0596517742?ie=UTF8&amp;tag=devel-20&amp;linkCode=as2&amp;camp=1789&amp;creative=390957&amp;creativeASIN=0596517742">
+   JavaScript: The Good Parts
+  </a>
+  <img alt="" border="0" height="1" src="http://www.assoc-amazon.com/e/ir?t=devel-20&amp;l=as2&amp;o=1&amp;a=0596517742" style="border:none !important; margin:0px !important;" width="1"/>
+  . It’s what a technical book should be. Concise yet full of useful information as a result of clear scope and sticking to it. If my experience is anything to go by, then there are not many Javascript programmers who wouldn’t benefit from it.
+ </p>
+ <p>
+  I did found one bit that wasn’t quite right. On pages 91-92 Douglas discusses
+  <em>
+   string.split
+  </em>
+  method, which can take a regular expression as a separator with which to split string. Douglas rightly points out that if regular expression includes capturing group (stuff between paranthesis like
+  <em>
+   b(mmm)c
+  </em>
+  ), then strings matching those groups will be included in the split.
+ </p>
+ <p>
+  However Douglas is not completely correct when he says that some implementations drop empty strings in the output array when separator is regular expression. If you run
+  <a href="http://markos.gaivo.net/examples/jssplit/index.html">
+   this demo
+  </a>
+  in
+  <a class="zem_slink" href="http://www.firefox.com/" rel="homepage" title="Mozilla Firefox 3">
+   Firefox3
+  </a>
+  and IE7, you’ll see that IE7 drops even non-empty strings from capturing groups, while Firefox3 includes them.
+ </p>
+ <p>
+  Still, I would find a bug in my code faster this week if I read his book sooner.
+ </p>
+ <div class="zemanta-pixie">
+  <a class="zemanta-pixie-a" href="http://reblog.zemanta.com/zemified/098a0fec-e31c-40fe-a1d4-701ecad46969/" title="Zemified by Zemanta">
+   <img alt="Reblog this post [with Zemanta]" class="zemanta-pixie-img" src="http://img.zemanta.com/reblog_e.png?x-id=098a0fec-e31c-40fe-a1d4-701ecad46969"/>
+  </a>
+  <span class="zem-script more-related">
+   <script src="http://static.zemanta.com/readside/loader.js" type="text/javascript">
+   </script>
+  </span>
+ </div>
+</div>
             </div><!-- /.entry-content -->
 
             <footer class="post-metadata">
                 <ul>
                     <li>Published on <time datetime="2009-03-29T11:15:00+02:00">Sun 29 March 2009</time> </li>
-                    <li><a href="http://markos.gaivo.net/articles/javascript-the-good-parts-and-stringsplit-problem.html">Add your comment</a></li>
+                    <li><a href="../javascript-the-good-parts-and-stringsplit-problem.html">Add your comment</a></li>
                 </ul>
             </footer>
         </article>
         <article class="hentry">
-            <h1 class="entry-title storytitle"><a href="http://markos.gaivo.net/articles/triggering-a-server-request-on-onunload-event.html" rel="bookmark" title="Permalink to Triggering a server request on onunload event">Triggering a server request on onunload event</a></h1>
+            <h1 class="entry-title storytitle"><a href="../triggering-a-server-request-on-onunload-event.html" rel="bookmark" title="Permalink to Triggering a server request on onunload event">Triggering a server request on onunload event</a></h1>
 
             <div class="entry-content post-text">
-                <p><html>
- <body>
-  <div>
-   <p>
-    A while ago I tried to trigger an AJAX call to server in
-    <em>
-     onunload
-    </em>
-    handler and failed miserably. It simply didn’t work in major browsers and I filled the idea under can’t-be-done.
-   </p>
-   <p>
-    I recently got another reason to revisit this problem and came up with a new-old idea. Since in my case I don’t care about server response, I don’t actually need XMLHttpRequest. Any technique that triggers a call to server is good enough, so why not try creating an image and setting its
-    <em>
-     url
-    </em>
-    attribute to appropriate value.
-   </p>
-   <p>
-    It turns out that this works almost everywhere. It worked pretty flawlessly in Firefox, Opera and Internet Explorer, but it doesn’t work in Safari and Konqueror, which makes me think that KHTML/Webkit family of browsers in general don’t support it.
-   </p>
-   <p>
-    This is not its only limitation. Technique obviously works only for GET calls, which is frowned upon and generally dangerous for actions that change state. I also suspect it works less well on slower computers or networks so you might need to delay event handler ending by buying some time with needless processing after you’ve set
-    <em>
-     url
-    </em>
-    attribute.
-   </p>
-   <p>
-    Still, it might be another useful hack to have if you can live with its limitations.
-   </p>
-  </div>
- </body>
-</html></p>
+                <div>
+ <p>
+  A while ago I tried to trigger an AJAX call to server in
+  <em>
+   onunload
+  </em>
+  handler and failed miserably. It simply didn’t work in major browsers and I filled the idea under can’t-be-done.
+ </p>
+ <p>
+  I recently got another reason to revisit this problem and came up with a new-old idea. Since in my case I don’t care about server response, I don’t actually need XMLHttpRequest. Any technique that triggers a call to server is good enough, so why not try creating an image and setting its
+  <em>
+   url
+  </em>
+  attribute to appropriate value.
+ </p>
+ <p>
+  It turns out that this works almost everywhere. It worked pretty flawlessly in Firefox, Opera and Internet Explorer, but it doesn’t work in Safari and Konqueror, which makes me think that KHTML/Webkit family of browsers in general don’t support it.
+ </p>
+ <p>
+  This is not its only limitation. Technique obviously works only for GET calls, which is frowned upon and generally dangerous for actions that change state. I also suspect it works less well on slower computers or networks so you might need to delay event handler ending by buying some time with needless processing after you’ve set
+  <em>
+   url
+  </em>
+  attribute.
+ </p>
+ <p>
+  Still, it might be another useful hack to have if you can live with its limitations.
+ </p>
+</div>
             </div><!-- /.entry-content -->
 
             <footer class="post-metadata">
                 <ul>
                     <li>Published on <time datetime="2008-03-26T16:32:00+01:00">Wed 26 March 2008</time> </li>
-                    <li><a href="http://markos.gaivo.net/articles/triggering-a-server-request-on-onunload-event.html">Add your comment</a></li>
+                    <li><a href="../triggering-a-server-request-on-onunload-event.html">Add your comment</a></li>
                 </ul>
             </footer>
         </article>
 
 <p class="paginator">
     Page 1 / 7
-        <a href="http://markos.gaivo.net/articles/category/javascript-web2.html">&raquo;</a>
+        <a href="../category/javascript-web2.html">&raquo;</a>
 </p>
 </section><!-- /#content -->
 

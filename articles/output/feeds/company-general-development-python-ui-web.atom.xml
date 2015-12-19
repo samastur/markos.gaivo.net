@@ -1,25 +1,21 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>A notch above a monkey</title><link href="http://markos.gaivo.net/articles/" rel="alternate"></link><link href="/articles/feeds/company-general-development-python-ui-web.atom.xml" rel="self"></link><id>http://markos.gaivo.net/articles/</id><updated>2006-02-05T20:28:00+01:00</updated><entry><title>When to give in?</title><link href="http://markos.gaivo.net/articles/when-to-give-in.html" rel="alternate"></link><updated>2006-02-05T20:28:00+01:00</updated><author><name>markos</name></author><id>tag:markos.gaivo.net,2006-02-05:articles/when-to-give-in.html</id><summary type="html">&lt;p&gt;&lt;html&gt;
- &lt;body&gt;
-  &lt;div&gt;
-   &lt;p&gt;
-    Probably the most common misfortune every creator encounters is that something he thought up doesn’t or won’t work as planned and it has to be changed. In a way half of work is done by just recognizing and accepting that it doesn’t work.
-   &lt;/p&gt;
-   &lt;p&gt;
-    But how do you do that?
-   &lt;/p&gt;
-   &lt;p&gt;
-    Our change of image navigation was in retrospect quite easy. As a friend said: “You don’t have to satisfy everyone, but you should satisfy at least somebody.”
-   &lt;/p&gt;
-   &lt;p&gt;
-    It wasn’t easy for me, because I was quite attached to it and I failed to recognize it as a problem. And this wasn’t even a close call.
-   &lt;/p&gt;
-   &lt;p&gt;
-    So, how do you decide when to give in to requests conflicting with your vision?
-   &lt;/p&gt;
-   &lt;p&gt;
-    Relying on a personal hunch might work for a while, but as a long-term strategy it’s probably not much better than rolling a dice.
-   &lt;/p&gt;
-  &lt;/div&gt;
- &lt;/body&gt;
-&lt;/html&gt;&lt;/p&gt;</summary></entry></feed>
+<feed xmlns="http://www.w3.org/2005/Atom"><title>A notch above a monkey</title><link href="http://markos.gaivo.net/articles/" rel="alternate"></link><link href="/articles/feeds/company-general-development-python-ui-web.atom.xml" rel="self"></link><id>http://markos.gaivo.net/articles/</id><updated>2006-02-05T20:28:00+01:00</updated><entry><title>When to give in?</title><link href="http://markos.gaivo.net/articles/when-to-give-in.html" rel="alternate"></link><updated>2006-02-05T20:28:00+01:00</updated><author><name>markos</name></author><id>tag:markos.gaivo.net,2006-02-05:articles/when-to-give-in.html</id><summary type="html">&lt;div&gt;
+ &lt;p&gt;
+  Probably the most common misfortune every creator encounters is that something he thought up doesn’t or won’t work as planned and it has to be changed. In a way half of work is done by just recognizing and accepting that it doesn’t work.
+ &lt;/p&gt;
+ &lt;p&gt;
+  But how do you do that?
+ &lt;/p&gt;
+ &lt;p&gt;
+  Our change of image navigation was in retrospect quite easy. As a friend said: “You don’t have to satisfy everyone, but you should satisfy at least somebody.”
+ &lt;/p&gt;
+ &lt;p&gt;
+  It wasn’t easy for me, because I was quite attached to it and I failed to recognize it as a problem. And this wasn’t even a close call.
+ &lt;/p&gt;
+ &lt;p&gt;
+  So, how do you decide when to give in to requests conflicting with your vision?
+ &lt;/p&gt;
+ &lt;p&gt;
+  Relying on a personal hunch might work for a while, but as a long-term strategy it’s probably not much better than rolling a dice.
+ &lt;/p&gt;
+&lt;/div&gt;</summary></entry></feed>

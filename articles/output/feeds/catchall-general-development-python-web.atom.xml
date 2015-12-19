@@ -1,85 +1,81 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>A notch above a monkey</title><link href="http://markos.gaivo.net/articles/" rel="alternate"></link><link href="/articles/feeds/catchall-general-development-python-web.atom.xml" rel="self"></link><id>http://markos.gaivo.net/articles/</id><updated>2010-03-09T13:24:00+01:00</updated><entry><title>N900 applications I miss</title><link href="http://markos.gaivo.net/articles/n900-applications-i-miss.html" rel="alternate"></link><updated>2010-03-09T13:24:00+01:00</updated><author><name>markos</name></author><id>tag:markos.gaivo.net,2010-03-09:articles/n900-applications-i-miss.html</id><summary type="html">&lt;p&gt;&lt;html&gt;
- &lt;body&gt;
-  &lt;div&gt;
-   &lt;p&gt;
-    I love using
-    &lt;a class="zem_slink" href="http://maemo.nokia.com/n900/" rel="homepage" title="N900"&gt;
-     N900
-    &lt;/a&gt;
-    , but there are applications or features I miss. This post is a reminder to me on what I might do if I find more time. Since list is too long for me to do everything (unless I suddenly win lottery), feel free to pick an idea you like and run with it. Just let me know afterwards where I can see results of your work or participate in development.
-   &lt;/p&gt;
-   &lt;p&gt;
-    &lt;strong&gt;
-     Offline Wikipedia.
-    &lt;/strong&gt;
-    When I am not behind a computer or reading, I like to be outdoors and even though cheap always available Internet was supposed to be here any day now, I regularly find myself information hungry in places with a very slow or no Internet connection. N900 with SD card could pretty much store everything I wanted and building an app that process and display information from
-    &lt;a href="http://download.wikimedia.org/" title="Wikipedia dumps starting page"&gt;
-     Wikipedia dumps
-    &lt;/a&gt;
-    doesn’t look like a too difficult task.
-   &lt;/p&gt;
-   &lt;p&gt;
-    &lt;strong&gt;
-     Better dictionary for Maemo.
-    &lt;/strong&gt;
-    QStarDict port
-    &lt;strong&gt;
-    &lt;/strong&gt;
-    is great and it has become one of my favorite applications. However its user interface suffers from being a direct port of a desktop version one and could be improved with one that wastes less space and is orientation aware. Reading dictionary is one of few things I wish I could do in portrait mode.
-   &lt;/p&gt;
-   &lt;p&gt;
-    &lt;strong&gt;
-     Web platform for Maemo.
-    &lt;/strong&gt;
-    Wouldn’t it be great if you could build Maemo applications with web technologies?
-    &lt;a href="http://qt.nokia.com/doc/4.6/qtwebkit.html" title="Link to QtWebKit documentation"&gt;
-     QtWebKit
-    &lt;/a&gt;
-    is a great place to start and I am certain I could expose new functionality through
-    &lt;em&gt;
-     addToJavascriptWindowObject
-    &lt;/em&gt;
-    of
-    &lt;a href="http://qt.nokia.com/doc/4.6/qwebframe.html" title="Link to QWebFrame documentation"&gt;
-     QWebFrame
-    &lt;/a&gt;
-    class. Beside exposing this stuff I would also like to create tools and interfaces for developers and users alike with which they can easily package a web application as a standalone Maemo application or in case of users, turn a website into an application (I know you can add a bookmark to a website but it is not quite the same thing).
-   &lt;/p&gt;
-   &lt;p&gt;
-    &lt;strong&gt;
-     &lt;a href="http://lightheadsw.com/caffeine/" title="Caffeine for Mac"&gt;
-      Caffeine
-     &lt;/a&gt;
-     for N900.
-    &lt;/strong&gt;
-    I would like to pick
-    &lt;em&gt;
-     “Switch profile to silent for &amp;lt;x time&amp;gt;”
-    &lt;/em&gt;
-    and know N900 will turn back normal profile when that time period expires. I always forget to turn ringing back on after I leave cinema.
-   &lt;/p&gt;
-   &lt;p&gt;
-    &lt;strong&gt;
-     Monitor unknown calls.
-    &lt;/strong&gt;
-    I don’t want to pollute my address book with every phone number under the sun, but I would appreciate if I could get a hint if I ever talked or called the number in question. Bonus points for using public phone books to fetch name for given number and parsing number for clues (which country or part of it is call coming from).
-   &lt;/p&gt;
-   &lt;p&gt;
-    This is not a complete list of things I want, but rest are mostly feature requests (except email client which currently really kind of sucks). For example I wish calendar had support for
-    &lt;a class="zem_slink" href="http://en.wikipedia.org/wiki/CalDAV" rel="wikipedia" title="CalDAV"&gt;
-     CalDAV
-    &lt;/a&gt;
-    or PDF viewer for screen rotate, search and fit to width.
-   &lt;/p&gt;
-   &lt;p&gt;
-    I am aware that Maemo should be called MeeGo now, but a habit of years can’t be changed in few weeks. I searched for above applications and didn’t find them, but if you know of any I missed, then please let me know.
-   &lt;/p&gt;
-   &lt;div class="zemanta-pixie"&gt;
-    &lt;a class="zemanta-pixie-a" href="http://reblog.zemanta.com/zemified/8a3f246d-6a49-416b-b38b-3c79f3c30764/" title="Reblog this post [with Zemanta]"&gt;
-     &lt;img alt="Reblog this post [with Zemanta]" class="zemanta-pixie-img" src="http://img.zemanta.com/reblog_e.png?x-id=8a3f246d-6a49-416b-b38b-3c79f3c30764"/&gt;
-    &lt;/a&gt;
-   &lt;/div&gt;
-  &lt;/div&gt;
- &lt;/body&gt;
-&lt;/html&gt;&lt;/p&gt;</summary><category term="application"></category><category term="application"></category><category term="Maemo"></category><category term="Maemo"></category><category term="N900"></category><category term="N900"></category><category term="Nokia"></category><category term="Nokia"></category><category term="Nokia N900"></category><category term="Nokia N900"></category><category term="webplatform"></category><category term="webplatform"></category><category term="Wikipedia"></category><category term="Wikipedia"></category></entry></feed>
+<feed xmlns="http://www.w3.org/2005/Atom"><title>A notch above a monkey</title><link href="http://markos.gaivo.net/articles/" rel="alternate"></link><link href="/articles/feeds/catchall-general-development-python-web.atom.xml" rel="self"></link><id>http://markos.gaivo.net/articles/</id><updated>2010-03-09T13:24:00+01:00</updated><entry><title>N900 applications I miss</title><link href="http://markos.gaivo.net/articles/n900-applications-i-miss.html" rel="alternate"></link><updated>2010-03-09T13:24:00+01:00</updated><author><name>markos</name></author><id>tag:markos.gaivo.net,2010-03-09:articles/n900-applications-i-miss.html</id><summary type="html">&lt;div&gt;
+ &lt;p&gt;
+  I love using
+  &lt;a class="zem_slink" href="http://maemo.nokia.com/n900/" rel="homepage" title="N900"&gt;
+   N900
+  &lt;/a&gt;
+  , but there are applications or features I miss. This post is a reminder to me on what I might do if I find more time. Since list is too long for me to do everything (unless I suddenly win lottery), feel free to pick an idea you like and run with it. Just let me know afterwards where I can see results of your work or participate in development.
+ &lt;/p&gt;
+ &lt;p&gt;
+  &lt;strong&gt;
+   Offline Wikipedia.
+  &lt;/strong&gt;
+  When I am not behind a computer or reading, I like to be outdoors and even though cheap always available Internet was supposed to be here any day now, I regularly find myself information hungry in places with a very slow or no Internet connection. N900 with SD card could pretty much store everything I wanted and building an app that process and display information from
+  &lt;a href="http://download.wikimedia.org/" title="Wikipedia dumps starting page"&gt;
+   Wikipedia dumps
+  &lt;/a&gt;
+  doesn’t look like a too difficult task.
+ &lt;/p&gt;
+ &lt;p&gt;
+  &lt;strong&gt;
+   Better dictionary for Maemo.
+  &lt;/strong&gt;
+  QStarDict port
+  &lt;strong&gt;
+  &lt;/strong&gt;
+  is great and it has become one of my favorite applications. However its user interface suffers from being a direct port of a desktop version one and could be improved with one that wastes less space and is orientation aware. Reading dictionary is one of few things I wish I could do in portrait mode.
+ &lt;/p&gt;
+ &lt;p&gt;
+  &lt;strong&gt;
+   Web platform for Maemo.
+  &lt;/strong&gt;
+  Wouldn’t it be great if you could build Maemo applications with web technologies?
+  &lt;a href="http://qt.nokia.com/doc/4.6/qtwebkit.html" title="Link to QtWebKit documentation"&gt;
+   QtWebKit
+  &lt;/a&gt;
+  is a great place to start and I am certain I could expose new functionality through
+  &lt;em&gt;
+   addToJavascriptWindowObject
+  &lt;/em&gt;
+  of
+  &lt;a href="http://qt.nokia.com/doc/4.6/qwebframe.html" title="Link to QWebFrame documentation"&gt;
+   QWebFrame
+  &lt;/a&gt;
+  class. Beside exposing this stuff I would also like to create tools and interfaces for developers and users alike with which they can easily package a web application as a standalone Maemo application or in case of users, turn a website into an application (I know you can add a bookmark to a website but it is not quite the same thing).
+ &lt;/p&gt;
+ &lt;p&gt;
+  &lt;strong&gt;
+   &lt;a href="http://lightheadsw.com/caffeine/" title="Caffeine for Mac"&gt;
+    Caffeine
+   &lt;/a&gt;
+   for N900.
+  &lt;/strong&gt;
+  I would like to pick
+  &lt;em&gt;
+   “Switch profile to silent for &amp;lt;x time&amp;gt;”
+  &lt;/em&gt;
+  and know N900 will turn back normal profile when that time period expires. I always forget to turn ringing back on after I leave cinema.
+ &lt;/p&gt;
+ &lt;p&gt;
+  &lt;strong&gt;
+   Monitor unknown calls.
+  &lt;/strong&gt;
+  I don’t want to pollute my address book with every phone number under the sun, but I would appreciate if I could get a hint if I ever talked or called the number in question. Bonus points for using public phone books to fetch name for given number and parsing number for clues (which country or part of it is call coming from).
+ &lt;/p&gt;
+ &lt;p&gt;
+  This is not a complete list of things I want, but rest are mostly feature requests (except email client which currently really kind of sucks). For example I wish calendar had support for
+  &lt;a class="zem_slink" href="http://en.wikipedia.org/wiki/CalDAV" rel="wikipedia" title="CalDAV"&gt;
+   CalDAV
+  &lt;/a&gt;
+  or PDF viewer for screen rotate, search and fit to width.
+ &lt;/p&gt;
+ &lt;p&gt;
+  I am aware that Maemo should be called MeeGo now, but a habit of years can’t be changed in few weeks. I searched for above applications and didn’t find them, but if you know of any I missed, then please let me know.
+ &lt;/p&gt;
+ &lt;div class="zemanta-pixie"&gt;
+  &lt;a class="zemanta-pixie-a" href="http://reblog.zemanta.com/zemified/8a3f246d-6a49-416b-b38b-3c79f3c30764/" title="Reblog this post [with Zemanta]"&gt;
+   &lt;img alt="Reblog this post [with Zemanta]" class="zemanta-pixie-img" src="http://img.zemanta.com/reblog_e.png?x-id=8a3f246d-6a49-416b-b38b-3c79f3c30764"/&gt;
+  &lt;/a&gt;
+ &lt;/div&gt;
+&lt;/div&gt;</summary><category term="Nokia"></category><category term="Wikipedia"></category><category term="N900"></category><category term="application"></category><category term="Maemo"></category><category term="Nokia N900"></category><category term="webplatform"></category></entry></feed>

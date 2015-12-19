@@ -1,552 +1,512 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>A notch above a monkey</title><link href="http://markos.gaivo.net/articles/" rel="alternate"></link><link href="/articles/feeds/javascript.atom.xml" rel="self"></link><id>http://markos.gaivo.net/articles/</id><updated>2009-11-08T21:00:00+01:00</updated><entry><title>Making peanut butter</title><link href="http://markos.gaivo.net/articles/making-peanut-butter.html" rel="alternate"></link><updated>2009-11-08T21:00:00+01:00</updated><author><name>markos</name></author><id>tag:markos.gaivo.net,2009-11-08:articles/making-peanut-butter.html</id><summary type="html">&lt;p&gt;&lt;html&gt;
- &lt;body&gt;
-  &lt;div&gt;
-   &lt;p&gt;
-    &lt;a href="http://sadrooftops.wordpress.com/" title="Rok's blog"&gt;
-     Rok
-    &lt;/a&gt;
-    requested a post about making
-    &lt;a class="zem_slink" href="http://en.wikipedia.org/wiki/Peanut_butter" rel="wikipedia" title="Peanut butter"&gt;
-     peanut butter
-    &lt;/a&gt;
-    and since he does such a stellar job taking care of technical side of
-    &lt;a href="http://web.zen.si/" title="wwwh homepage"&gt;
-     wwwh talks
-    &lt;/a&gt;
-    , I thought it would only be fair to grant his wish. My butter looks like this:
-   &lt;/p&gt;
-   &lt;p&gt;
-    &lt;img alt="Peanut butter on a slice of bread" class="image" height="266" src="http://static.marela.si/users0/markos/3/oJO6QdbUC6XJcZNqv-CJzcg1JlI.jpg" width="400"/&gt;
-   &lt;/p&gt;
-   &lt;p&gt;
-    If this doesn’t look to you like the best peanut butter ever, look again. And again.
-   &lt;/p&gt;
-   &lt;p&gt;
-    Before I go on describing how I make peanut butter, let me spend a moment or two talking about why. After all it can be bought in practically any grocery store in Slovenia and visiting a few will even give you a limited selection. My first reason was to limit my intake. Peanut butter is incredibly delicious, but not exactly healthy and since I noticed that how much I eat is proportional to amount available, I wanted to avoid 350g jars that would be the death of me. My second reason was to have a better control of what goes in it. Like with sausages you can’t really tell what was used and in what condition it was. I certainly didn’t want to eat hydrogenated fat
-    &lt;a class="reference" href="#pbutter-1" id="pbutter-1-back" title="Link to first footnote"&gt;
-     &lt;sup&gt;
-      [1]
-     &lt;/sup&gt;
-    &lt;/a&gt;
-    added to your stock? peanut butter and were suspicious of a thick layer of oil on top of organic ones too. When I got better at making it, I also found out I really dislike bought ones.
-   &lt;/p&gt;
-   &lt;p&gt;
-    As it happens the only thing that is absolutely necessary to make peanut butter are peanuts themselves. However you will probably want to use some oil, a sweetener like sugar or
-    &lt;a class="zem_slink" href="http://en.wikipedia.org/wiki/Maple_syrup" rel="wikipedia" title="Maple syrup"&gt;
-     maple syrup
-    &lt;/a&gt;
-    and salt.
-   &lt;/p&gt;
-   &lt;p&gt;
-    I use roasted peanuts. You can buy already roasted (but unsalted) or roast them yourself. To do that you heat up your oven to 175? C and put them in until they are done to your liking. Turn them around every couple of minutes so they don’t get burned. Next step: chopping.
-   &lt;/p&gt;
-   &lt;p&gt;
-    But first a side note to all my American friends. Reports that Slovenians don’t eat peanut butter are simply false. We just hide it well. It’s kind of like masonry, but instead of discreet regalia and a secret handshake, we, peanut butter connoisseurs, recognize each other by a subtle nutty odor and small brownish stains in corners of lips. Slightly crazy and distracted look in presence of a peanut butter jar might also be a hint.
-   &lt;/p&gt;
-   &lt;p&gt;
-    So, chopping. For small amounts, 200g or less, I use a hand blender with chopper accessory. I also use it because it’s the only blender I own. It tends to overheat and since I melted its predecessor my chopping amounts to mostly waiting pierced with short chopping episodes. Bigger blenders are certainly more resilient, but they also tend to have their blades raised higher from the bottom which makes them unpractical for chopping small amounts of nuts. Spend enough time doing this and dust will turn into a fudge-like paste. Do it more and it will become more liquid. If you like to spread butter thick, it might be even liquid enough.
-   &lt;/p&gt;
-   &lt;p&gt;
-    I don’t so I add a bit of oil. I use
-    &lt;a class="zem_slink" href="http://en.wikipedia.org/wiki/Peanut_oil" rel="wikipedia" title="Peanut oil"&gt;
-     peanut oil
-    &lt;/a&gt;
-    , but any edible with neutral flavor will work fine, just don’t add too much. You can always add more if you find butter too thick, but it is difficult to correct too liquid one. I add about a tablespoon of oil for 200g of peanuts while they are still pulverized and rarely need to add more later.
-   &lt;/p&gt;
-   &lt;p&gt;
-    On recent vacation in Nepal I also tried their peanut butter. It tastes very much like ours at this stage; right taste but like most food in Nepal not salty enough for western taste.
-   &lt;/p&gt;
-   &lt;p&gt;
-    Salt is not the only thing missing. Peanut butter is like tomato sauce, it needs a bit of sugar to get a more well rounded flavor. I used powdered sugar with some success, but maple syrup recently won me over (a tip from
-    &lt;a href="http://twitter.com/alesspetic" title="Ale? ?peti? on twitter"&gt;
-     Ale?
-    &lt;/a&gt;
-    whose many culinary talents include baking
-    &lt;a href="http://tweetphoto.com/cxyahdo1" title="Pumpkin cake"&gt;
-     great cakes
-    &lt;/a&gt;
-    ). How much salt and sugar to use is again down to personal preference. I use about 1-2 teaspoons of maple syrup and slowly salt while mixing until I am satisfied with result. Blender warms butter and spoils tasting somewhat, so I stop spicing butter when it is a bit less sweet and slightly more salted then I would prefer. This results in just the right taste when cooled.
-   &lt;/p&gt;
-   &lt;p&gt;
-    That’s it. You should now have peanut butter good enough for gods. A few tries, to find the right balance between ingredients and you will end up with one fit for you too. It took me longer because I also eat it with spoon, hence it’s easier to notice its mistakes and more difficult to balance different uses (I prefer more salty butter on bread).
-   &lt;/p&gt;
-   &lt;p&gt;
-    My next goal: cashews and cocoa spread.
-   &lt;/p&gt;
-   &lt;p&gt;
-    &lt;a href="#pbutter-1-back" id="pbutter-1" title="Jump back to reference"&gt;
-     [1]
-    &lt;/a&gt;
-    Hydrogenated fat is used for the same reason as oil, to make butter easier to spread. Added oil doesn’t actually react with peanuts and if you leave your butter long enough, it will eventually separate and form that unwanted oily layer on top.
-    &lt;a class="zem_slink" href="http://en.wikipedia.org/wiki/Hydrogenation" rel="wikipedia" title="Hydrogenation"&gt;
-     Hydrogenation
-    &lt;/a&gt;
-    solidifes fat and prevents that from happening. Downside is that you can’t tell how much additional fat was added unless it is specified in ingredients list and it’s even more unhealthy.
-   &lt;/p&gt;
-   &lt;div class="zemanta-pixie"&gt;
-    &lt;a class="zemanta-pixie-a" href="http://reblog.zemanta.com/zemified/56473c29-9ebd-4f4f-809b-b65d0684bc36/" title="Reblog this post [with Zemanta]"&gt;
-     &lt;img alt="Reblog this post [with Zemanta]" class="zemanta-pixie-img" src="http://img.zemanta.com/reblog_e.png?x-id=56473c29-9ebd-4f4f-809b-b65d0684bc36"/&gt;
-    &lt;/a&gt;
-    &lt;span class="zem-script paragraph-reblog"&gt;
-     &lt;script src="http://static.zemanta.com/readside/loader.js" type="text/javascript"&gt;
-     &lt;/script&gt;
-    &lt;/span&gt;
-   &lt;/div&gt;
-  &lt;/div&gt;
- &lt;/body&gt;
-&lt;/html&gt;&lt;/p&gt;</summary></entry><entry><title>Pseudorandom thoughts of overworked developer</title><link href="http://markos.gaivo.net/articles/pseudorandom-thoughts-of-overworked-developer.html" rel="alternate"></link><updated>2009-08-22T09:25:00+02:00</updated><author><name>markos</name></author><id>tag:markos.gaivo.net,2009-08-22:articles/pseudorandom-thoughts-of-overworked-developer.html</id><summary type="html">&lt;p&gt;&lt;html&gt;
- &lt;body&gt;
-  &lt;div&gt;
-   &lt;p&gt;
-    I’ve been too busy lately and many things suffered as a consequence, writing being one of them. This is not a complaint, since I mostly had fun doing what I did, but it is becoming obvious that too much fun can kill you too. Anyhow, this is not a post discussing woes many would love to have. It’s a short list of ideas and thoughts that occurred to me recently, which I don’t have time to really think through or didn’t want to commit to
-    &lt;a class="zem_slink" href="http://twitter.com" rel="homepage" title="Twitter"&gt;
-     Twitter
-    &lt;/a&gt;
-    ‘s transient stream:
-   &lt;/p&gt;
-   &lt;ul&gt;
-    &lt;li&gt;
-     I got a spam comment offering to kill a competitor’s website for 70$ per day of downtime. It looked genuine enough to be a truly depressing comment on web’s fragility.
-    &lt;/li&gt;
-    &lt;li&gt;
-     “Does he have a
-     &lt;a class="zem_slink" href="http://facebook.com" rel="homepage" title="Facebook"&gt;
-      Facebook
-     &lt;/a&gt;
-     account?” seems to be the most succinct way of learning person’s outlook on privacy issues.
-    &lt;/li&gt;
-    &lt;li&gt;
-     Democracy is a terrible way of solving important problems fast. Or solving them at all. However it does provide us with our share of blame.
-    &lt;/li&gt;
-    &lt;li&gt;
-     I can’t wait to see what
-     &lt;a href="http://www.mobile-review.com/review/nokia-rx51-n900-en.shtml" title="Early review of RX51/N900"&gt;
-      Nokia RX-51/N900
-     &lt;/a&gt;
-     will really bring.
-     &lt;a href="http://linux.slashdot.org/comments.pl?sid=1343481&amp;amp;cid=29147349"&gt;
-      Here is
-     &lt;/a&gt;
-     one reason why. Building on a closed platform is investing in a lottery ticket.
-    &lt;/li&gt;
-    &lt;li&gt;
-     Alex Russel’s
-     &lt;a href="http://alex.dojotoolkit.org/2009/08/some-orthodox-heresies/"&gt;
-      Some Orthodox Heresies
-     &lt;/a&gt;
-     sums my view of HTML5 better than I ever could. Hard to disagree with his other points too.
-    &lt;/li&gt;
-   &lt;/ul&gt;
-   &lt;div class="zemanta-pixie"&gt;
-    &lt;a class="zemanta-pixie-a" href="http://reblog.zemanta.com/zemified/b6a94c12-b1f3-4338-8d38-f8e18d7a958d/" title="Reblog this post [with Zemanta]"&gt;
-     &lt;img alt="Reblog this post [with Zemanta]" class="zemanta-pixie-img" src="http://img.zemanta.com/reblog_e.png?x-id=b6a94c12-b1f3-4338-8d38-f8e18d7a958d" style="border: medium none; float: right;"/&gt;
-    &lt;/a&gt;
-    &lt;span class="zem-script paragraph-reblog"&gt;
-     &lt;script src="http://static.zemanta.com/readside/loader.js" type="text/javascript"&gt;
-     &lt;/script&gt;
-    &lt;/span&gt;
-   &lt;/div&gt;
-  &lt;/div&gt;
- &lt;/body&gt;
-&lt;/html&gt;&lt;/p&gt;</summary><category term="democracy"></category><category term="democracy"></category><category term="Facebook"></category><category term="Facebook"></category><category term="html5"></category><category term="html5"></category><category term="Nokia"></category><category term="Nokia"></category><category term="Privacy"></category><category term="Privacy"></category><category term="Spam"></category><category term="Spam"></category><category term="tablet"></category><category term="tablet"></category><category term="Twitter"></category><category term="Twitter"></category><category term="web development"></category><category term="web development"></category></entry><entry><title>Simplifying registration forms</title><link href="http://markos.gaivo.net/articles/simplifying-registration-forms.html" rel="alternate"></link><updated>2008-12-29T07:30:00+01:00</updated><author><name>markos</name></author><id>tag:markos.gaivo.net,2008-12-29:articles/simplifying-registration-forms.html</id><summary type="html">&lt;p&gt;&lt;html&gt;
- &lt;body&gt;
-  &lt;div&gt;
-   &lt;p&gt;
-    As I am leaving on a short vacation that will probably take me off grid for few days, there is still a time for a hopefully short, but definitely last post of this year. I don’t like how registration forms ask me twice for password and I think I can offer a better way.
-   &lt;/p&gt;
-   &lt;p&gt;
-    Most registration forms these days still want you to type password of your choice twice. They probably do it to reduce risk of mistyping it. I deeply dislike Facebook, but I think this is one thing it
-    &lt;a href="http://www.facebook.com/" title="Registration form on Facebook's homepage"&gt;
-     got right
-    &lt;/a&gt;
-    . You only have to do it once. Those with FB accounts can see this in action if they log out for a moment and visit front page.
-   &lt;/p&gt;
-   &lt;p&gt;
-    There are several reasons why once is enough. First one is that every decent page provides a way to reset password in case you have forgotten it. So even if password was mistyped, it’s easy to reset it again to a different value. Second reason is that by now it’s quite well known that most people use a low single-digit number of passwords and don’t come up with a new one each time they are asked to do so. Hence it’s quite unlikely they’ll make an error now after so much practice.
-   &lt;/p&gt;
-   &lt;p&gt;
-    Third reason is that in most cases you can
-    &lt;a href="http://markos.gaivo.net/examples/html_pattern/onepass.html" title="Demonstration of show password switch"&gt;
-     help them
-    &lt;/a&gt;
-    &lt;a href="http://markos.gaivo.net/examples/html_pattern/onepass.html" style="font-size: 29.25px; line-height: 42.75px;" title="Demonstration of show password switch"&gt;
-    &lt;/a&gt;
-    .
-   &lt;/p&gt;
-   &lt;p&gt;
-    When registration forms first appeared internet access was rare and expensive enough that most common environment in which it was used was work or school. It was therefore likely that when you were registering for a service, you weren’t alone and entered password had to be hidden from people around you. Today it’s probably opposite. Most of the time I am quite private and could see what I type with no additional security risk.
-   &lt;/p&gt;
-   &lt;p&gt;
-    So as in demo we could offer a switch that let visitors see what they are typing if they choose to do so. It should still be hidden by default, since we can’t really tell the environment visitor is in or if Javascript is available. It is always better to err on side of safety.
-   &lt;/p&gt;
-   &lt;p&gt;
-    As a side note for those who might have peaked at implementation. I’m replacing password input field because of Internet Explorer, which doesn’t tolerate type attribute change on input fields. Every other browser tested (FF, Opera, Safari and Chrome) would work perfectly fine by just switching field type from password to text.
-   &lt;/p&gt;
-   &lt;p&gt;
-    Anyhow, that’s it for this year. If you leave a comment, which I hope you will, and I don’t answer, it’s because I lack Internet access.
-   &lt;/p&gt;
-   &lt;div class="zemanta-pixie"&gt;
-    &lt;a class="zemanta-pixie-a" href="http://reblog.zemanta.com/zemified/29adbe87-65ae-4456-b653-87682c4081e3/" title="Zemified by Zemanta"&gt;
-     &lt;img alt="Reblog this post [with Zemanta]" class="zemanta-pixie-img" src="http://img.zemanta.com/reblog_e.png?x-id=29adbe87-65ae-4456-b653-87682c4081e3"/&gt;
-    &lt;/a&gt;
-   &lt;/div&gt;
-  &lt;/div&gt;
- &lt;/body&gt;
-&lt;/html&gt;&lt;/p&gt;</summary><category term="forms"></category><category term="forms"></category><category term="Javascript"></category><category term="Javascript"></category><category term="Password"></category><category term="Password"></category><category term="UI"></category><category term="UI"></category><category term="Web"></category><category term="Web"></category></entry><entry><title>All code is crap</title><link href="http://markos.gaivo.net/articles/all-code-is-crap.html" rel="alternate"></link><updated>2008-04-16T12:42:00+02:00</updated><author><name>markos</name></author><id>tag:markos.gaivo.net,2008-04-16:articles/all-code-is-crap.html</id><summary type="html">&lt;p&gt;&lt;html&gt;
- &lt;body&gt;
-  &lt;div&gt;
-   &lt;p&gt;
-    I was recently discussing how I think all code, especially mine, is crap and since this position has been and likely still is controversial, it might not be a bad idea to discuss it a bit more. This likely won’t avoid grievances and disputes, but it might save me some work in explaining myself.
-   &lt;/p&gt;
-   &lt;p&gt;
-    I’ve never written a non-trivial amount of code that I wouldn’t find at least a bit embarrassing two years later. Partly because of my own deficiencies as a programmer, partly because our craft evolves and does so rather speedily. Even if I was as good a programmer as I would like to be, our profession would still develop and my code would eventually become crap. It would just take a bit longer than it does now. In a way, with maybe few exceptions, all code
-    &lt;em&gt;
-     left alone
-    &lt;/em&gt;
-    is on natural trajectory to a state of crappiness.
-   &lt;/p&gt;
-   &lt;p&gt;
-    Personally I don’t find this insulting. If anything I would be terrified to discover that my old code doesn’t bug me at all. I would see it as a signal that I haven’t developed my craft much in this time.
-    &lt;strong&gt;
-     You haven’t peaked until you stagnated
-    &lt;/strong&gt;
-    .
-   &lt;/p&gt;
-   &lt;p&gt;
-    There are also other benefits to this position. Since I find my code at least a bit dubious, I’m not enamored with it to the point, where I would find it difficult to ditch it if need be. It helps me being more detached and rational about its merits or lack thereof.
-   &lt;/p&gt;
-   &lt;p&gt;
-    In contrast with what I just said, it also helps me from scraping it too soon. Accepting that some level of crappiness is a given, I don’t feel as much need in reformatting, refactoring or rewriting code that offends my sensibilities. I like reading pretty or even inspirational code as much as the next programmer, but esthetics are not too important. As long as code is functional, bug-scarce, maintainable and generally usable enough, it’s also pretty enough.
-   &lt;/p&gt;
-   &lt;p&gt;
-    So if you happen to hear me insensitively remarking that some code is crap, please try to keep in mind that my completely universal belief means it’s not meant to be personal or even negative. I likely regard your code and skill higher than mine. I am truly sorry, if you nevertheless feel bad about it.
-   &lt;/p&gt;
-  &lt;/div&gt;
- &lt;/body&gt;
-&lt;/html&gt;&lt;/p&gt;</summary></entry><entry><title>Debugging Javascript applications</title><link href="http://markos.gaivo.net/articles/debugging-javascript-applications.html" rel="alternate"></link><updated>2008-04-14T16:50:00+02:00</updated><author><name>markos</name></author><id>tag:markos.gaivo.net,2008-04-14:articles/debugging-javascript-applications.html</id><summary type="html">&lt;p&gt;&lt;html&gt;
- &lt;body&gt;
-  &lt;div&gt;
-   &lt;p&gt;
-    Debugging web applications used to be simple. You generated a page and sent it to client. Visitors performed actions and you got back their response. Since filling a form was practically the most complicated action they could perform, it was relatively easy to find bugs if you were smart enough to include debugging support on server. You just had to trace user’s steps to find the one where things went amiss.
-   &lt;/p&gt;
-   &lt;p&gt;
-    Javascript heavy applications changed that. Now a lot of action is happening far from your eyes and even when application does communicate with a server, it might just be a request to store or fetch more data without any hints about what’s happening over there. That’s fine and we are all happy as long as everything works. Too bad that sooner or later it usually doesn’t.
-   &lt;/p&gt;
-   &lt;p&gt;
-    That’s why I decided to write a simple debugging support I can plug in my older projects that I still need to support and use in any upcoming ones that could benefit from it.
-   &lt;/p&gt;
-   &lt;p&gt;
-    &lt;strong&gt;
-     Goals
-    &lt;/strong&gt;
-   &lt;/p&gt;
-   &lt;p&gt;
-    I want my script to have the following characteristics:
-   &lt;/p&gt;
-   &lt;ul&gt;
-    &lt;li&gt;
-     be short and simple enough so I can rely on it not to be a cause of new problems
-    &lt;/li&gt;
-    &lt;li&gt;
-     it can be triggered through Javascript or by manipulating URL
-    &lt;/li&gt;
-    &lt;li&gt;
-     adaptable to different scenarios
-    &lt;/li&gt;
-    &lt;li&gt;
-     it avoids unnecessary replication by supporting Firebug’s logging calls
-    &lt;/li&gt;
-   &lt;/ul&gt;
-   &lt;p&gt;
-    Point two in the list means I should have a choice between automatic start of debugging by changing URL a bit or through Javascript at the time of my liking. This way I’m free to choose the best way and moment to debug my application.
-   &lt;/p&gt;
-   &lt;p&gt;
-    By adaptable I mean I have free hands when it comes to how much gets logged, how far back do I keep logs and how does that information get sent to me.
-   &lt;/p&gt;
-   &lt;p&gt;
-    Supporting Firebug means that its logging calls are used. So same debugging calls that might have been used during development can also be used for debugging problems in deployed site and don’t bother script execution in non-debug mode.
-   &lt;/p&gt;
-   &lt;p&gt;
-    &lt;strong&gt;
-     Implementation
-    &lt;/strong&gt;
-   &lt;/p&gt;
-   &lt;p&gt;
-    Here’s
-    &lt;a href="http://markos.gaivo.net/blog/code/debug.js" title="Javascript debugging module"&gt;
-     result
-    &lt;/a&gt;
-    , packed in around 100 lines of code. It should be included at the top of your Javascript code or as quickly as you’d like to use it. I think it’s pretty self-explanatory, but you can also look at demonstration page described a bit later.
-   &lt;/p&gt;
-   &lt;p&gt;
-    Debugging is stored in an object
-    &lt;em&gt;
-     window.console
-    &lt;/em&gt;
-    and gets started by either including
-    &lt;em&gt;
-     dbg=true
-    &lt;/em&gt;
-    parameter in URL or calling
-    &lt;em&gt;
-     window.console.debugStart
-    &lt;/em&gt;
-    method. In later case you can provide the method with a function as first parameter that gets called on Javascript error or when we stop debugging with a call of
-    &lt;em&gt;
-     window.console.debugEnd
-    &lt;/em&gt;
-    .
-   &lt;/p&gt;
-   &lt;p&gt;
-    We can provide the same function by assigning it to
-    &lt;em&gt;
-     window.console.debugDisplay
-    &lt;/em&gt;
-    . It gets called the same way with one parameter of an array of debugging messages. It’s completely up to it to decide what to do with that information and what value to return, but return values have the same meaning as they have in
-    &lt;em&gt;
-     window.onerror
-    &lt;/em&gt;
-    handler. If processing Javascript error,
-    &lt;em&gt;
-     true
-    &lt;/em&gt;
-    means that error was processed and script can continue and
-    &lt;em&gt;
-     false
-    &lt;/em&gt;
-    will lead to error message dialog box.
-   &lt;/p&gt;
-   &lt;p&gt;
-    &lt;em&gt;
-     window.console.debugStart
-    &lt;/em&gt;
-    can also receive a parameter object with attributes
-    &lt;em&gt;
-     level
-    &lt;/em&gt;
-    ,
-    &lt;em&gt;
-     count
-    &lt;/em&gt;
-    and
-    &lt;em&gt;
-     callback
-    &lt;/em&gt;
-    for debugging level, number of saved messages and
-    &lt;em&gt;
-     debugDisplay
-    &lt;/em&gt;
-    function respectively. Level and message count can also be set through URL by providing parameters
-    &lt;em&gt;
-     dbglevel
-    &lt;/em&gt;
-    and
-    &lt;em&gt;
-     dbgcount
-    &lt;/em&gt;
-    .
-   &lt;/p&gt;
-   &lt;p&gt;
-    &lt;strong&gt;
-     Demo
-    &lt;/strong&gt;
-   &lt;/p&gt;
-   &lt;p&gt;
-    You can see final result called in two ways. Using
-    &lt;a href="http://markos.gaivo.net/blog/code/debug.html?dbg=true&amp;amp;dbglevel=3&amp;amp;dbgcount=10" title="URL based debugging"&gt;
-     modified URL
-    &lt;/a&gt;
-    , where debugging parameters are set through URL, and
-    &lt;a href="http://markos.gaivo.net/blog/code/debug.html" title="non-URL based debugging"&gt;
-     the one
-    &lt;/a&gt;
-    , where debugging isn’t turned on by default. It’s same page in both cases and so is mostly its behavior.
-   &lt;/p&gt;
-   &lt;p&gt;
-    In first case we start fetching debugging messages immediately and display them with a press on
-    &lt;strong&gt;
-     End debugging
-    &lt;/strong&gt;
-    . We can’t restart debugging in this scenario, but we can in second case.
-   &lt;/p&gt;
-   &lt;p&gt;
-    In second case we start and continue debugging with a press on
-    &lt;strong&gt;
-     Start debugging
-    &lt;/strong&gt;
-    button, that got displayed in the first place because
-    &lt;em&gt;
-     window.console.on
-    &lt;/em&gt;
-    was set to
-    &lt;em&gt;
-     false
-    &lt;/em&gt;
-    .
-    &lt;em&gt;
-     window.console.on
-    &lt;/em&gt;
-    is a
-    &lt;em&gt;
-     Boolean
-    &lt;/em&gt;
-    that shows if debugging is currently turned on or off.
-   &lt;/p&gt;
-   &lt;p&gt;
-    In both cases only messages of requested levels get saved.
-   &lt;/p&gt;
-   &lt;p&gt;
-    &lt;strong&gt;
-     Discussion
-    &lt;/strong&gt;
-   &lt;/p&gt;
-   &lt;p&gt;
-    Even though I tried to leave things as open to extending as possible, I mainly tried to cover use cases I already encountered. Therefore this script, as it is, doesn’t support graceful handling of browser crashes, which it could, if it saved debug information to local storage when available.
-   &lt;/p&gt;
-   &lt;p&gt;
-    Script also doesn’t support loading different libraries in debug mode. That is, if you want to load libraries stripped of debugging calls when not debugging, you can do that yourself, using
-    &lt;em&gt;
-     window.console.on
-    &lt;/em&gt;
-    . This script won’t do it for you.
-   &lt;/p&gt;
-   &lt;p&gt;
-    I do provide a skeleton
-    &lt;em&gt;
-     debugDisplay
-    &lt;/em&gt;
-    in case you don’t provide one yourself. If you don’t, then debug message gets displayed using
-    &lt;em&gt;
-     alert
-    &lt;/em&gt;
-    , which makes it hard to copy and paste, but easy enough to make a screenshot of. Setting debugging level is probably not as nice as it could be too.
-   &lt;/p&gt;
-   &lt;p&gt;
-    It’s not completely stupid though, takes note of
-    &lt;em&gt;
-     Array
-    &lt;/em&gt;
-    object’s suitability mainly for sparse and small arrays and should perform adequately when it comes to memory consumption even with new IE8 as long as count parameter isn’t too big.
-   &lt;/p&gt;
-   &lt;p&gt;
-    At the end, it’s a piece of code as any I’ve written. Bugs are likely, so bug reports would be appreciated. Same goes for ideas and suggestions. If you need it, feel free to use it any way you want, but I would appreciate a ping just to see where my stuff ends up.
-   &lt;/p&gt;
-  &lt;/div&gt;
- &lt;/body&gt;
-&lt;/html&gt;&lt;/p&gt;</summary></entry><entry><title>Javascript objekti</title><link href="http://markos.gaivo.net/articles/javascript-objekti.html" rel="alternate"></link><updated>2008-01-19T16:05:00+01:00</updated><author><name>markos</name></author><id>tag:markos.gaivo.net,2008-01-19:articles/javascript-objekti.html</id><summary type="html">&lt;p&gt;&lt;html&gt;
- &lt;body&gt;
-  &lt;div&gt;
-   &lt;p&gt;
-    Naslednji teden, v sredo, predavam na
-    &lt;a href="http://web.zen.si/"&gt;
-     Spletnih uricah
-    &lt;/a&gt;
-    v
-    &lt;a href="http://www.kiberpipa.org/"&gt;
-     Kiberpipi
-    &lt;/a&gt;
-    . Tema predavanja bodo objekti v Javascriptu. Žal sem med pripravami ugotovil, da je tokratna tema ne le obširna, ampak verjetno tudi preobširna za eno predavanje. Zato prosim morebitne obiskovalce, da mi v komentarjih pustijo oceno, kako dolgo predavanje še ni predolgo in ??esa si ne želijo slišati? Dobrodošle so seveda tudi vse želje, vprašanja in pripombe.Na vsem odprto predavanje brez vstopnine ste vabljeni vsi, ki vas tema zanima in bi želeli izvedeti ve??. Osnovno znanje Javascripta ali njemu podobnega jezika (C, PHP…) je zaželjeno.
-   &lt;/p&gt;
-  &lt;/div&gt;
- &lt;/body&gt;
-&lt;/html&gt;&lt;/p&gt;</summary></entry><entry><title>AJAX talk at NEST</title><link href="http://markos.gaivo.net/articles/ajax-talk-at-nest.html" rel="alternate"></link><updated>2006-07-18T18:59:00+02:00</updated><author><name>markos</name></author><id>tag:markos.gaivo.net,2006-07-18:articles/ajax-talk-at-nest.html</id><summary type="html">&lt;p&gt;&lt;html&gt;
- &lt;body&gt;
-  &lt;div&gt;
-   &lt;p&gt;
-    I’ll be giving a talk at
-    &lt;a href="http://www.slo-tech.com/ostalo/nest2006/"&gt;
-     NEST
-    &lt;/a&gt;
-    this Saturday with a catchall title “AJAX in jaz” (AJAX and me). Since the title gives me quite a lot of breathing space and I’m willing to take more if necessary, I’d like to hear from everyone who might meet me there at ungodly hour of 10AM.
-   &lt;/p&gt;
-   &lt;p&gt;
-    I’d especially appreciate it if you could tell me what interests you and what doesn’t, so I don’t waste your time. Otherwise I’ll just ramble on about things I find important and interesting.
-   &lt;/p&gt;
-  &lt;/div&gt;
- &lt;/body&gt;
-&lt;/html&gt;&lt;/p&gt;</summary></entry><entry><title>Changing the name attribute of INPUT elements in Explorer</title><link href="http://markos.gaivo.net/articles/changing-the-name-attribute-of-input-elements-in-explorer.html" rel="alternate"></link><updated>2006-07-10T14:53:00+02:00</updated><author><name>markos</name></author><id>tag:markos.gaivo.net,2006-07-10:articles/changing-the-name-attribute-of-input-elements-in-explorer.html</id><summary type="html">&lt;p&gt;&lt;html&gt;
- &lt;body&gt;
-  &lt;div&gt;
-   &lt;p&gt;
-    Another day, another Internet Explorer problem.
-   &lt;/p&gt;
-   &lt;p&gt;
-    You
-    &lt;a href="http://msdn.microsoft.com/workshop/author/dhtml/reference/properties/name_2.asp"&gt;
-     can’t
-    &lt;/a&gt;
-    set a
-    &lt;em&gt;
-     name
-    &lt;/em&gt;
-    attribute on elements created with
-    &lt;em&gt;
-     createElement
-    &lt;/em&gt;
-    method. You either have to provide the name when executing the method in true IE-only fashion (see example on linked page) or have to use some other method of creation like more widely usable but still non-standard
-    &lt;em&gt;
-     innerHTML
-    &lt;/em&gt;
-    .
-   &lt;/p&gt;
-  &lt;/div&gt;
- &lt;/body&gt;
-&lt;/html&gt;&lt;/p&gt;</summary></entry><entry><title>Changing the type of INPUT elements in Explorer</title><link href="http://markos.gaivo.net/articles/changing-the-type-of-input-elements-in-explorer.html" rel="alternate"></link><updated>2006-07-09T21:42:00+02:00</updated><author><name>markos</name></author><id>tag:markos.gaivo.net,2006-07-09:articles/changing-the-type-of-input-elements-in-explorer.html</id><summary type="html">&lt;p&gt;&lt;html&gt;
- &lt;body&gt;
-  &lt;div&gt;
-   &lt;p&gt;
-    Building XHTML using DOM methods is annoying as it is without strange errors making things worse. Today I stumbled on a new problem when testing improved organizer in Internet Explorer.
-   &lt;/p&gt;
-   &lt;p&gt;
-    If you are creating INPUT elements with non-default types (that is other than text input), then you have to change their type BEFORE you attach them to document tree. Otherwise Explorer might complain.
-   &lt;/p&gt;
-   &lt;p&gt;
-    I haven’t had time to test this  sufficiently and frankly I’d rather do something else on Sunday evening, so there might be some cases where above doesn’t hold true. But if you find yourself looking at such an error, it doesn’t hurt to try my remedy.
-   &lt;/p&gt;
-  &lt;/div&gt;
- &lt;/body&gt;
-&lt;/html&gt;&lt;/p&gt;</summary></entry><entry><title>The callee is not available</title><link href="http://markos.gaivo.net/articles/the-callee-is-not-available.html" rel="alternate"></link><updated>2006-05-24T13:38:00+02:00</updated><author><name>markos</name></author><id>tag:markos.gaivo.net,2006-05-24:articles/the-callee-is-not-available.html</id><summary type="html">&lt;p&gt;&lt;html&gt;
- &lt;body&gt;
-  &lt;div&gt;
-   &lt;p&gt;
-    Sometimes you get this feeling of really mastering a technology. As if nothing can surprise you and you’ve seen it all. If you’re lucky, you’ll get a message like this before you become too cocky:
-   &lt;/p&gt;
-   &lt;blockquote&gt;
-    &lt;p&gt;
-     Error: The callee (server [not server application]) is not available and disappeared; all connections are invalid. The call did not execute.
-    &lt;/p&gt;
-   &lt;/blockquote&gt;
-   &lt;p&gt;
-    Do you know what it means? Neither did I, but somebody else
-    &lt;a href="http://www.thescripts.com/forum/post297987-2.html"&gt;
-     did
-    &lt;/a&gt;
-    :
-   &lt;/p&gt;
-   &lt;blockquote&gt;
-    &lt;p&gt;
-     It occurs in the context of pages using javascript to generate page
-     &lt;br/&gt;
-     content and communicate between windows, one of which windows is closed.
-    &lt;/p&gt;
-    &lt;p&gt;
-     Possibly
-     &lt;br/&gt;
-     * page A pops up page B in the link and page B wants to communicate with
-     &lt;br/&gt;
-     page A, but page A has been closed (possibly by you or a popup killer?), or
-     &lt;br/&gt;
-     * Internet Explorer has become totally confused and it will work in
-     &lt;br/&gt;
-     another browser, or
-     &lt;br/&gt;
-     * poor page design.
-    &lt;/p&gt;
-   &lt;/blockquote&gt;
-   &lt;p&gt;
-    Or in my case forgetting Javascript passes references when assigning objects which become null, if referenced object was stored in now defunct window. The problematic browser in question was of course Internet Explorer.
-   &lt;/p&gt;
-  &lt;/div&gt;
- &lt;/body&gt;
-&lt;/html&gt;&lt;/p&gt;</summary></entry></feed>
+<feed xmlns="http://www.w3.org/2005/Atom"><title>A notch above a monkey</title><link href="http://markos.gaivo.net/articles/" rel="alternate"></link><link href="/articles/feeds/javascript.atom.xml" rel="self"></link><id>http://markos.gaivo.net/articles/</id><updated>2009-11-08T21:00:00+01:00</updated><entry><title>Making peanut butter</title><link href="http://markos.gaivo.net/articles/making-peanut-butter.html" rel="alternate"></link><updated>2009-11-08T21:00:00+01:00</updated><author><name>markos</name></author><id>tag:markos.gaivo.net,2009-11-08:articles/making-peanut-butter.html</id><summary type="html">&lt;div&gt;
+ &lt;p&gt;
+  &lt;a href="http://sadrooftops.wordpress.com/" title="Rok's blog"&gt;
+   Rok
+  &lt;/a&gt;
+  requested a post about making
+  &lt;a class="zem_slink" href="http://en.wikipedia.org/wiki/Peanut_butter" rel="wikipedia" title="Peanut butter"&gt;
+   peanut butter
+  &lt;/a&gt;
+  and since he does such a stellar job taking care of technical side of
+  &lt;a href="http://web.zen.si/" title="wwwh homepage"&gt;
+   wwwh talks
+  &lt;/a&gt;
+  , I thought it would only be fair to grant his wish. My butter looks like this:
+ &lt;/p&gt;
+ &lt;p&gt;
+  &lt;img alt="Peanut butter on a slice of bread" class="image" height="266" src="http://static.marela.si/users0/markos/3/oJO6QdbUC6XJcZNqv-CJzcg1JlI.jpg" width="400"/&gt;
+ &lt;/p&gt;
+ &lt;p&gt;
+  If this doesn’t look to you like the best peanut butter ever, look again. And again.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Before I go on describing how I make peanut butter, let me spend a moment or two talking about why. After all it can be bought in practically any grocery store in Slovenia and visiting a few will even give you a limited selection. My first reason was to limit my intake. Peanut butter is incredibly delicious, but not exactly healthy and since I noticed that how much I eat is proportional to amount available, I wanted to avoid 350g jars that would be the death of me. My second reason was to have a better control of what goes in it. Like with sausages you can’t really tell what was used and in what condition it was. I certainly didn’t want to eat hydrogenated fat
+  &lt;a class="reference" href="#pbutter-1" id="pbutter-1-back" title="Link to first footnote"&gt;
+   &lt;sup&gt;
+    [1]
+   &lt;/sup&gt;
+  &lt;/a&gt;
+  added to your stock? peanut butter and were suspicious of a thick layer of oil on top of organic ones too. When I got better at making it, I also found out I really dislike bought ones.
+ &lt;/p&gt;
+ &lt;p&gt;
+  As it happens the only thing that is absolutely necessary to make peanut butter are peanuts themselves. However you will probably want to use some oil, a sweetener like sugar or
+  &lt;a class="zem_slink" href="http://en.wikipedia.org/wiki/Maple_syrup" rel="wikipedia" title="Maple syrup"&gt;
+   maple syrup
+  &lt;/a&gt;
+  and salt.
+ &lt;/p&gt;
+ &lt;p&gt;
+  I use roasted peanuts. You can buy already roasted (but unsalted) or roast them yourself. To do that you heat up your oven to 175? C and put them in until they are done to your liking. Turn them around every couple of minutes so they don’t get burned. Next step: chopping.
+ &lt;/p&gt;
+ &lt;p&gt;
+  But first a side note to all my American friends. Reports that Slovenians don’t eat peanut butter are simply false. We just hide it well. It’s kind of like masonry, but instead of discreet regalia and a secret handshake, we, peanut butter connoisseurs, recognize each other by a subtle nutty odor and small brownish stains in corners of lips. Slightly crazy and distracted look in presence of a peanut butter jar might also be a hint.
+ &lt;/p&gt;
+ &lt;p&gt;
+  So, chopping. For small amounts, 200g or less, I use a hand blender with chopper accessory. I also use it because it’s the only blender I own. It tends to overheat and since I melted its predecessor my chopping amounts to mostly waiting pierced with short chopping episodes. Bigger blenders are certainly more resilient, but they also tend to have their blades raised higher from the bottom which makes them unpractical for chopping small amounts of nuts. Spend enough time doing this and dust will turn into a fudge-like paste. Do it more and it will become more liquid. If you like to spread butter thick, it might be even liquid enough.
+ &lt;/p&gt;
+ &lt;p&gt;
+  I don’t so I add a bit of oil. I use
+  &lt;a class="zem_slink" href="http://en.wikipedia.org/wiki/Peanut_oil" rel="wikipedia" title="Peanut oil"&gt;
+   peanut oil
+  &lt;/a&gt;
+  , but any edible with neutral flavor will work fine, just don’t add too much. You can always add more if you find butter too thick, but it is difficult to correct too liquid one. I add about a tablespoon of oil for 200g of peanuts while they are still pulverized and rarely need to add more later.
+ &lt;/p&gt;
+ &lt;p&gt;
+  On recent vacation in Nepal I also tried their peanut butter. It tastes very much like ours at this stage; right taste but like most food in Nepal not salty enough for western taste.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Salt is not the only thing missing. Peanut butter is like tomato sauce, it needs a bit of sugar to get a more well rounded flavor. I used powdered sugar with some success, but maple syrup recently won me over (a tip from
+  &lt;a href="http://twitter.com/alesspetic" title="Ale? ?peti? on twitter"&gt;
+   Ale?
+  &lt;/a&gt;
+  whose many culinary talents include baking
+  &lt;a href="http://tweetphoto.com/cxyahdo1" title="Pumpkin cake"&gt;
+   great cakes
+  &lt;/a&gt;
+  ). How much salt and sugar to use is again down to personal preference. I use about 1-2 teaspoons of maple syrup and slowly salt while mixing until I am satisfied with result. Blender warms butter and spoils tasting somewhat, so I stop spicing butter when it is a bit less sweet and slightly more salted then I would prefer. This results in just the right taste when cooled.
+ &lt;/p&gt;
+ &lt;p&gt;
+  That’s it. You should now have peanut butter good enough for gods. A few tries, to find the right balance between ingredients and you will end up with one fit for you too. It took me longer because I also eat it with spoon, hence it’s easier to notice its mistakes and more difficult to balance different uses (I prefer more salty butter on bread).
+ &lt;/p&gt;
+ &lt;p&gt;
+  My next goal: cashews and cocoa spread.
+ &lt;/p&gt;
+ &lt;p&gt;
+  &lt;a href="#pbutter-1-back" id="pbutter-1" title="Jump back to reference"&gt;
+   [1]
+  &lt;/a&gt;
+  Hydrogenated fat is used for the same reason as oil, to make butter easier to spread. Added oil doesn’t actually react with peanuts and if you leave your butter long enough, it will eventually separate and form that unwanted oily layer on top.
+  &lt;a class="zem_slink" href="http://en.wikipedia.org/wiki/Hydrogenation" rel="wikipedia" title="Hydrogenation"&gt;
+   Hydrogenation
+  &lt;/a&gt;
+  solidifes fat and prevents that from happening. Downside is that you can’t tell how much additional fat was added unless it is specified in ingredients list and it’s even more unhealthy.
+ &lt;/p&gt;
+ &lt;div class="zemanta-pixie"&gt;
+  &lt;a class="zemanta-pixie-a" href="http://reblog.zemanta.com/zemified/56473c29-9ebd-4f4f-809b-b65d0684bc36/" title="Reblog this post [with Zemanta]"&gt;
+   &lt;img alt="Reblog this post [with Zemanta]" class="zemanta-pixie-img" src="http://img.zemanta.com/reblog_e.png?x-id=56473c29-9ebd-4f4f-809b-b65d0684bc36"/&gt;
+  &lt;/a&gt;
+  &lt;span class="zem-script paragraph-reblog"&gt;
+   &lt;script src="http://static.zemanta.com/readside/loader.js" type="text/javascript"&gt;
+   &lt;/script&gt;
+  &lt;/span&gt;
+ &lt;/div&gt;
+&lt;/div&gt;</summary></entry><entry><title>Pseudorandom thoughts of overworked developer</title><link href="http://markos.gaivo.net/articles/pseudorandom-thoughts-of-overworked-developer.html" rel="alternate"></link><updated>2009-08-22T09:25:00+02:00</updated><author><name>markos</name></author><id>tag:markos.gaivo.net,2009-08-22:articles/pseudorandom-thoughts-of-overworked-developer.html</id><summary type="html">&lt;div&gt;
+ &lt;p&gt;
+  I’ve been too busy lately and many things suffered as a consequence, writing being one of them. This is not a complaint, since I mostly had fun doing what I did, but it is becoming obvious that too much fun can kill you too. Anyhow, this is not a post discussing woes many would love to have. It’s a short list of ideas and thoughts that occurred to me recently, which I don’t have time to really think through or didn’t want to commit to
+  &lt;a class="zem_slink" href="http://twitter.com" rel="homepage" title="Twitter"&gt;
+   Twitter
+  &lt;/a&gt;
+  ‘s transient stream:
+ &lt;/p&gt;
+ &lt;ul&gt;
+  &lt;li&gt;
+   I got a spam comment offering to kill a competitor’s website for 70$ per day of downtime. It looked genuine enough to be a truly depressing comment on web’s fragility.
+  &lt;/li&gt;
+  &lt;li&gt;
+   “Does he have a
+   &lt;a class="zem_slink" href="http://facebook.com" rel="homepage" title="Facebook"&gt;
+    Facebook
+   &lt;/a&gt;
+   account?” seems to be the most succinct way of learning person’s outlook on privacy issues.
+  &lt;/li&gt;
+  &lt;li&gt;
+   Democracy is a terrible way of solving important problems fast. Or solving them at all. However it does provide us with our share of blame.
+  &lt;/li&gt;
+  &lt;li&gt;
+   I can’t wait to see what
+   &lt;a href="http://www.mobile-review.com/review/nokia-rx51-n900-en.shtml" title="Early review of RX51/N900"&gt;
+    Nokia RX-51/N900
+   &lt;/a&gt;
+   will really bring.
+   &lt;a href="http://linux.slashdot.org/comments.pl?sid=1343481&amp;amp;cid=29147349"&gt;
+    Here is
+   &lt;/a&gt;
+   one reason why. Building on a closed platform is investing in a lottery ticket.
+  &lt;/li&gt;
+  &lt;li&gt;
+   Alex Russel’s
+   &lt;a href="http://alex.dojotoolkit.org/2009/08/some-orthodox-heresies/"&gt;
+    Some Orthodox Heresies
+   &lt;/a&gt;
+   sums my view of HTML5 better than I ever could. Hard to disagree with his other points too.
+  &lt;/li&gt;
+ &lt;/ul&gt;
+ &lt;div class="zemanta-pixie"&gt;
+  &lt;a class="zemanta-pixie-a" href="http://reblog.zemanta.com/zemified/b6a94c12-b1f3-4338-8d38-f8e18d7a958d/" title="Reblog this post [with Zemanta]"&gt;
+   &lt;img alt="Reblog this post [with Zemanta]" class="zemanta-pixie-img" src="http://img.zemanta.com/reblog_e.png?x-id=b6a94c12-b1f3-4338-8d38-f8e18d7a958d" style="border: medium none; float: right;"/&gt;
+  &lt;/a&gt;
+  &lt;span class="zem-script paragraph-reblog"&gt;
+   &lt;script src="http://static.zemanta.com/readside/loader.js" type="text/javascript"&gt;
+   &lt;/script&gt;
+  &lt;/span&gt;
+ &lt;/div&gt;
+&lt;/div&gt;</summary><category term="Privacy"></category><category term="tablet"></category><category term="democracy"></category><category term="Spam"></category><category term="Twitter"></category><category term="Nokia"></category><category term="Facebook"></category><category term="html5"></category><category term="web development"></category></entry><entry><title>Simplifying registration forms</title><link href="http://markos.gaivo.net/articles/simplifying-registration-forms.html" rel="alternate"></link><updated>2008-12-29T07:30:00+01:00</updated><author><name>markos</name></author><id>tag:markos.gaivo.net,2008-12-29:articles/simplifying-registration-forms.html</id><summary type="html">&lt;div&gt;
+ &lt;p&gt;
+  As I am leaving on a short vacation that will probably take me off grid for few days, there is still a time for a hopefully short, but definitely last post of this year. I don’t like how registration forms ask me twice for password and I think I can offer a better way.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Most registration forms these days still want you to type password of your choice twice. They probably do it to reduce risk of mistyping it. I deeply dislike Facebook, but I think this is one thing it
+  &lt;a href="http://www.facebook.com/" title="Registration form on Facebook's homepage"&gt;
+   got right
+  &lt;/a&gt;
+  . You only have to do it once. Those with FB accounts can see this in action if they log out for a moment and visit front page.
+ &lt;/p&gt;
+ &lt;p&gt;
+  There are several reasons why once is enough. First one is that every decent page provides a way to reset password in case you have forgotten it. So even if password was mistyped, it’s easy to reset it again to a different value. Second reason is that by now it’s quite well known that most people use a low single-digit number of passwords and don’t come up with a new one each time they are asked to do so. Hence it’s quite unlikely they’ll make an error now after so much practice.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Third reason is that in most cases you can
+  &lt;a href="http://markos.gaivo.net/examples/html_pattern/onepass.html" title="Demonstration of show password switch"&gt;
+   help them
+  &lt;/a&gt;
+  &lt;a href="http://markos.gaivo.net/examples/html_pattern/onepass.html" style="font-size: 29.25px; line-height: 42.75px;" title="Demonstration of show password switch"&gt;
+  &lt;/a&gt;
+  .
+ &lt;/p&gt;
+ &lt;p&gt;
+  When registration forms first appeared internet access was rare and expensive enough that most common environment in which it was used was work or school. It was therefore likely that when you were registering for a service, you weren’t alone and entered password had to be hidden from people around you. Today it’s probably opposite. Most of the time I am quite private and could see what I type with no additional security risk.
+ &lt;/p&gt;
+ &lt;p&gt;
+  So as in demo we could offer a switch that let visitors see what they are typing if they choose to do so. It should still be hidden by default, since we can’t really tell the environment visitor is in or if Javascript is available. It is always better to err on side of safety.
+ &lt;/p&gt;
+ &lt;p&gt;
+  As a side note for those who might have peaked at implementation. I’m replacing password input field because of Internet Explorer, which doesn’t tolerate type attribute change on input fields. Every other browser tested (FF, Opera, Safari and Chrome) would work perfectly fine by just switching field type from password to text.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Anyhow, that’s it for this year. If you leave a comment, which I hope you will, and I don’t answer, it’s because I lack Internet access.
+ &lt;/p&gt;
+ &lt;div class="zemanta-pixie"&gt;
+  &lt;a class="zemanta-pixie-a" href="http://reblog.zemanta.com/zemified/29adbe87-65ae-4456-b653-87682c4081e3/" title="Zemified by Zemanta"&gt;
+   &lt;img alt="Reblog this post [with Zemanta]" class="zemanta-pixie-img" src="http://img.zemanta.com/reblog_e.png?x-id=29adbe87-65ae-4456-b653-87682c4081e3"/&gt;
+  &lt;/a&gt;
+ &lt;/div&gt;
+&lt;/div&gt;</summary><category term="forms"></category><category term="Web"></category><category term="Javascript"></category><category term="UI"></category><category term="Password"></category></entry><entry><title>All code is crap</title><link href="http://markos.gaivo.net/articles/all-code-is-crap.html" rel="alternate"></link><updated>2008-04-16T12:42:00+02:00</updated><author><name>markos</name></author><id>tag:markos.gaivo.net,2008-04-16:articles/all-code-is-crap.html</id><summary type="html">&lt;div&gt;
+ &lt;p&gt;
+  I was recently discussing how I think all code, especially mine, is crap and since this position has been and likely still is controversial, it might not be a bad idea to discuss it a bit more. This likely won’t avoid grievances and disputes, but it might save me some work in explaining myself.
+ &lt;/p&gt;
+ &lt;p&gt;
+  I’ve never written a non-trivial amount of code that I wouldn’t find at least a bit embarrassing two years later. Partly because of my own deficiencies as a programmer, partly because our craft evolves and does so rather speedily. Even if I was as good a programmer as I would like to be, our profession would still develop and my code would eventually become crap. It would just take a bit longer than it does now. In a way, with maybe few exceptions, all code
+  &lt;em&gt;
+   left alone
+  &lt;/em&gt;
+  is on natural trajectory to a state of crappiness.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Personally I don’t find this insulting. If anything I would be terrified to discover that my old code doesn’t bug me at all. I would see it as a signal that I haven’t developed my craft much in this time.
+  &lt;strong&gt;
+   You haven’t peaked until you stagnated
+  &lt;/strong&gt;
+  .
+ &lt;/p&gt;
+ &lt;p&gt;
+  There are also other benefits to this position. Since I find my code at least a bit dubious, I’m not enamored with it to the point, where I would find it difficult to ditch it if need be. It helps me being more detached and rational about its merits or lack thereof.
+ &lt;/p&gt;
+ &lt;p&gt;
+  In contrast with what I just said, it also helps me from scraping it too soon. Accepting that some level of crappiness is a given, I don’t feel as much need in reformatting, refactoring or rewriting code that offends my sensibilities. I like reading pretty or even inspirational code as much as the next programmer, but esthetics are not too important. As long as code is functional, bug-scarce, maintainable and generally usable enough, it’s also pretty enough.
+ &lt;/p&gt;
+ &lt;p&gt;
+  So if you happen to hear me insensitively remarking that some code is crap, please try to keep in mind that my completely universal belief means it’s not meant to be personal or even negative. I likely regard your code and skill higher than mine. I am truly sorry, if you nevertheless feel bad about it.
+ &lt;/p&gt;
+&lt;/div&gt;</summary></entry><entry><title>Debugging Javascript applications</title><link href="http://markos.gaivo.net/articles/debugging-javascript-applications.html" rel="alternate"></link><updated>2008-04-14T16:50:00+02:00</updated><author><name>markos</name></author><id>tag:markos.gaivo.net,2008-04-14:articles/debugging-javascript-applications.html</id><summary type="html">&lt;div&gt;
+ &lt;p&gt;
+  Debugging web applications used to be simple. You generated a page and sent it to client. Visitors performed actions and you got back their response. Since filling a form was practically the most complicated action they could perform, it was relatively easy to find bugs if you were smart enough to include debugging support on server. You just had to trace user’s steps to find the one where things went amiss.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Javascript heavy applications changed that. Now a lot of action is happening far from your eyes and even when application does communicate with a server, it might just be a request to store or fetch more data without any hints about what’s happening over there. That’s fine and we are all happy as long as everything works. Too bad that sooner or later it usually doesn’t.
+ &lt;/p&gt;
+ &lt;p&gt;
+  That’s why I decided to write a simple debugging support I can plug in my older projects that I still need to support and use in any upcoming ones that could benefit from it.
+ &lt;/p&gt;
+ &lt;p&gt;
+  &lt;strong&gt;
+   Goals
+  &lt;/strong&gt;
+ &lt;/p&gt;
+ &lt;p&gt;
+  I want my script to have the following characteristics:
+ &lt;/p&gt;
+ &lt;ul&gt;
+  &lt;li&gt;
+   be short and simple enough so I can rely on it not to be a cause of new problems
+  &lt;/li&gt;
+  &lt;li&gt;
+   it can be triggered through Javascript or by manipulating URL
+  &lt;/li&gt;
+  &lt;li&gt;
+   adaptable to different scenarios
+  &lt;/li&gt;
+  &lt;li&gt;
+   it avoids unnecessary replication by supporting Firebug’s logging calls
+  &lt;/li&gt;
+ &lt;/ul&gt;
+ &lt;p&gt;
+  Point two in the list means I should have a choice between automatic start of debugging by changing URL a bit or through Javascript at the time of my liking. This way I’m free to choose the best way and moment to debug my application.
+ &lt;/p&gt;
+ &lt;p&gt;
+  By adaptable I mean I have free hands when it comes to how much gets logged, how far back do I keep logs and how does that information get sent to me.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Supporting Firebug means that its logging calls are used. So same debugging calls that might have been used during development can also be used for debugging problems in deployed site and don’t bother script execution in non-debug mode.
+ &lt;/p&gt;
+ &lt;p&gt;
+  &lt;strong&gt;
+   Implementation
+  &lt;/strong&gt;
+ &lt;/p&gt;
+ &lt;p&gt;
+  Here’s
+  &lt;a href="http://markos.gaivo.net/blog/code/debug.js" title="Javascript debugging module"&gt;
+   result
+  &lt;/a&gt;
+  , packed in around 100 lines of code. It should be included at the top of your Javascript code or as quickly as you’d like to use it. I think it’s pretty self-explanatory, but you can also look at demonstration page described a bit later.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Debugging is stored in an object
+  &lt;em&gt;
+   window.console
+  &lt;/em&gt;
+  and gets started by either including
+  &lt;em&gt;
+   dbg=true
+  &lt;/em&gt;
+  parameter in URL or calling
+  &lt;em&gt;
+   window.console.debugStart
+  &lt;/em&gt;
+  method. In later case you can provide the method with a function as first parameter that gets called on Javascript error or when we stop debugging with a call of
+  &lt;em&gt;
+   window.console.debugEnd
+  &lt;/em&gt;
+  .
+ &lt;/p&gt;
+ &lt;p&gt;
+  We can provide the same function by assigning it to
+  &lt;em&gt;
+   window.console.debugDisplay
+  &lt;/em&gt;
+  . It gets called the same way with one parameter of an array of debugging messages. It’s completely up to it to decide what to do with that information and what value to return, but return values have the same meaning as they have in
+  &lt;em&gt;
+   window.onerror
+  &lt;/em&gt;
+  handler. If processing Javascript error,
+  &lt;em&gt;
+   true
+  &lt;/em&gt;
+  means that error was processed and script can continue and
+  &lt;em&gt;
+   false
+  &lt;/em&gt;
+  will lead to error message dialog box.
+ &lt;/p&gt;
+ &lt;p&gt;
+  &lt;em&gt;
+   window.console.debugStart
+  &lt;/em&gt;
+  can also receive a parameter object with attributes
+  &lt;em&gt;
+   level
+  &lt;/em&gt;
+  ,
+  &lt;em&gt;
+   count
+  &lt;/em&gt;
+  and
+  &lt;em&gt;
+   callback
+  &lt;/em&gt;
+  for debugging level, number of saved messages and
+  &lt;em&gt;
+   debugDisplay
+  &lt;/em&gt;
+  function respectively. Level and message count can also be set through URL by providing parameters
+  &lt;em&gt;
+   dbglevel
+  &lt;/em&gt;
+  and
+  &lt;em&gt;
+   dbgcount
+  &lt;/em&gt;
+  .
+ &lt;/p&gt;
+ &lt;p&gt;
+  &lt;strong&gt;
+   Demo
+  &lt;/strong&gt;
+ &lt;/p&gt;
+ &lt;p&gt;
+  You can see final result called in two ways. Using
+  &lt;a href="http://markos.gaivo.net/blog/code/debug.html?dbg=true&amp;amp;dbglevel=3&amp;amp;dbgcount=10" title="URL based debugging"&gt;
+   modified URL
+  &lt;/a&gt;
+  , where debugging parameters are set through URL, and
+  &lt;a href="http://markos.gaivo.net/blog/code/debug.html" title="non-URL based debugging"&gt;
+   the one
+  &lt;/a&gt;
+  , where debugging isn’t turned on by default. It’s same page in both cases and so is mostly its behavior.
+ &lt;/p&gt;
+ &lt;p&gt;
+  In first case we start fetching debugging messages immediately and display them with a press on
+  &lt;strong&gt;
+   End debugging
+  &lt;/strong&gt;
+  . We can’t restart debugging in this scenario, but we can in second case.
+ &lt;/p&gt;
+ &lt;p&gt;
+  In second case we start and continue debugging with a press on
+  &lt;strong&gt;
+   Start debugging
+  &lt;/strong&gt;
+  button, that got displayed in the first place because
+  &lt;em&gt;
+   window.console.on
+  &lt;/em&gt;
+  was set to
+  &lt;em&gt;
+   false
+  &lt;/em&gt;
+  .
+  &lt;em&gt;
+   window.console.on
+  &lt;/em&gt;
+  is a
+  &lt;em&gt;
+   Boolean
+  &lt;/em&gt;
+  that shows if debugging is currently turned on or off.
+ &lt;/p&gt;
+ &lt;p&gt;
+  In both cases only messages of requested levels get saved.
+ &lt;/p&gt;
+ &lt;p&gt;
+  &lt;strong&gt;
+   Discussion
+  &lt;/strong&gt;
+ &lt;/p&gt;
+ &lt;p&gt;
+  Even though I tried to leave things as open to extending as possible, I mainly tried to cover use cases I already encountered. Therefore this script, as it is, doesn’t support graceful handling of browser crashes, which it could, if it saved debug information to local storage when available.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Script also doesn’t support loading different libraries in debug mode. That is, if you want to load libraries stripped of debugging calls when not debugging, you can do that yourself, using
+  &lt;em&gt;
+   window.console.on
+  &lt;/em&gt;
+  . This script won’t do it for you.
+ &lt;/p&gt;
+ &lt;p&gt;
+  I do provide a skeleton
+  &lt;em&gt;
+   debugDisplay
+  &lt;/em&gt;
+  in case you don’t provide one yourself. If you don’t, then debug message gets displayed using
+  &lt;em&gt;
+   alert
+  &lt;/em&gt;
+  , which makes it hard to copy and paste, but easy enough to make a screenshot of. Setting debugging level is probably not as nice as it could be too.
+ &lt;/p&gt;
+ &lt;p&gt;
+  It’s not completely stupid though, takes note of
+  &lt;em&gt;
+   Array
+  &lt;/em&gt;
+  object’s suitability mainly for sparse and small arrays and should perform adequately when it comes to memory consumption even with new IE8 as long as count parameter isn’t too big.
+ &lt;/p&gt;
+ &lt;p&gt;
+  At the end, it’s a piece of code as any I’ve written. Bugs are likely, so bug reports would be appreciated. Same goes for ideas and suggestions. If you need it, feel free to use it any way you want, but I would appreciate a ping just to see where my stuff ends up.
+ &lt;/p&gt;
+&lt;/div&gt;</summary></entry><entry><title>Javascript objekti</title><link href="http://markos.gaivo.net/articles/javascript-objekti.html" rel="alternate"></link><updated>2008-01-19T16:05:00+01:00</updated><author><name>markos</name></author><id>tag:markos.gaivo.net,2008-01-19:articles/javascript-objekti.html</id><summary type="html">&lt;div&gt;
+ &lt;p&gt;
+  Naslednji teden, v sredo, predavam na
+  &lt;a href="http://web.zen.si/"&gt;
+   Spletnih uricah
+  &lt;/a&gt;
+  v
+  &lt;a href="http://www.kiberpipa.org/"&gt;
+   Kiberpipi
+  &lt;/a&gt;
+  . Tema predavanja bodo objekti v Javascriptu. Žal sem med pripravami ugotovil, da je tokratna tema ne le obširna, ampak verjetno tudi preobširna za eno predavanje. Zato prosim morebitne obiskovalce, da mi v komentarjih pustijo oceno, kako dolgo predavanje še ni predolgo in ??esa si ne želijo slišati? Dobrodošle so seveda tudi vse želje, vprašanja in pripombe.Na vsem odprto predavanje brez vstopnine ste vabljeni vsi, ki vas tema zanima in bi želeli izvedeti ve??. Osnovno znanje Javascripta ali njemu podobnega jezika (C, PHP…) je zaželjeno.
+ &lt;/p&gt;
+&lt;/div&gt;</summary></entry><entry><title>AJAX talk at NEST</title><link href="http://markos.gaivo.net/articles/ajax-talk-at-nest.html" rel="alternate"></link><updated>2006-07-18T18:59:00+02:00</updated><author><name>markos</name></author><id>tag:markos.gaivo.net,2006-07-18:articles/ajax-talk-at-nest.html</id><summary type="html">&lt;div&gt;
+ &lt;p&gt;
+  I’ll be giving a talk at
+  &lt;a href="http://www.slo-tech.com/ostalo/nest2006/"&gt;
+   NEST
+  &lt;/a&gt;
+  this Saturday with a catchall title “AJAX in jaz” (AJAX and me). Since the title gives me quite a lot of breathing space and I’m willing to take more if necessary, I’d like to hear from everyone who might meet me there at ungodly hour of 10AM.
+ &lt;/p&gt;
+ &lt;p&gt;
+  I’d especially appreciate it if you could tell me what interests you and what doesn’t, so I don’t waste your time. Otherwise I’ll just ramble on about things I find important and interesting.
+ &lt;/p&gt;
+&lt;/div&gt;</summary></entry><entry><title>Changing the name attribute of INPUT elements in Explorer</title><link href="http://markos.gaivo.net/articles/changing-the-name-attribute-of-input-elements-in-explorer.html" rel="alternate"></link><updated>2006-07-10T14:53:00+02:00</updated><author><name>markos</name></author><id>tag:markos.gaivo.net,2006-07-10:articles/changing-the-name-attribute-of-input-elements-in-explorer.html</id><summary type="html">&lt;div&gt;
+ &lt;p&gt;
+  Another day, another Internet Explorer problem.
+ &lt;/p&gt;
+ &lt;p&gt;
+  You
+  &lt;a href="http://msdn.microsoft.com/workshop/author/dhtml/reference/properties/name_2.asp"&gt;
+   can’t
+  &lt;/a&gt;
+  set a
+  &lt;em&gt;
+   name
+  &lt;/em&gt;
+  attribute on elements created with
+  &lt;em&gt;
+   createElement
+  &lt;/em&gt;
+  method. You either have to provide the name when executing the method in true IE-only fashion (see example on linked page) or have to use some other method of creation like more widely usable but still non-standard
+  &lt;em&gt;
+   innerHTML
+  &lt;/em&gt;
+  .
+ &lt;/p&gt;
+&lt;/div&gt;</summary></entry><entry><title>Changing the type of INPUT elements in Explorer</title><link href="http://markos.gaivo.net/articles/changing-the-type-of-input-elements-in-explorer.html" rel="alternate"></link><updated>2006-07-09T21:42:00+02:00</updated><author><name>markos</name></author><id>tag:markos.gaivo.net,2006-07-09:articles/changing-the-type-of-input-elements-in-explorer.html</id><summary type="html">&lt;div&gt;
+ &lt;p&gt;
+  Building XHTML using DOM methods is annoying as it is without strange errors making things worse. Today I stumbled on a new problem when testing improved organizer in Internet Explorer.
+ &lt;/p&gt;
+ &lt;p&gt;
+  If you are creating INPUT elements with non-default types (that is other than text input), then you have to change their type BEFORE you attach them to document tree. Otherwise Explorer might complain.
+ &lt;/p&gt;
+ &lt;p&gt;
+  I haven’t had time to test this  sufficiently and frankly I’d rather do something else on Sunday evening, so there might be some cases where above doesn’t hold true. But if you find yourself looking at such an error, it doesn’t hurt to try my remedy.
+ &lt;/p&gt;
+&lt;/div&gt;</summary></entry><entry><title>The callee is not available</title><link href="http://markos.gaivo.net/articles/the-callee-is-not-available.html" rel="alternate"></link><updated>2006-05-24T13:38:00+02:00</updated><author><name>markos</name></author><id>tag:markos.gaivo.net,2006-05-24:articles/the-callee-is-not-available.html</id><summary type="html">&lt;div&gt;
+ &lt;p&gt;
+  Sometimes you get this feeling of really mastering a technology. As if nothing can surprise you and you’ve seen it all. If you’re lucky, you’ll get a message like this before you become too cocky:
+ &lt;/p&gt;
+ &lt;blockquote&gt;
+  &lt;p&gt;
+   Error: The callee (server [not server application]) is not available and disappeared; all connections are invalid. The call did not execute.
+  &lt;/p&gt;
+ &lt;/blockquote&gt;
+ &lt;p&gt;
+  Do you know what it means? Neither did I, but somebody else
+  &lt;a href="http://www.thescripts.com/forum/post297987-2.html"&gt;
+   did
+  &lt;/a&gt;
+  :
+ &lt;/p&gt;
+ &lt;blockquote&gt;
+  &lt;p&gt;
+   It occurs in the context of pages using javascript to generate page
+   &lt;br/&gt;
+   content and communicate between windows, one of which windows is closed.
+  &lt;/p&gt;
+  &lt;p&gt;
+   Possibly
+   &lt;br/&gt;
+   * page A pops up page B in the link and page B wants to communicate with
+   &lt;br/&gt;
+   page A, but page A has been closed (possibly by you or a popup killer?), or
+   &lt;br/&gt;
+   * Internet Explorer has become totally confused and it will work in
+   &lt;br/&gt;
+   another browser, or
+   &lt;br/&gt;
+   * poor page design.
+  &lt;/p&gt;
+ &lt;/blockquote&gt;
+ &lt;p&gt;
+  Or in my case forgetting Javascript passes references when assigning objects which become null, if referenced object was stored in now defunct window. The problematic browser in question was of course Internet Explorer.
+ &lt;/p&gt;
+&lt;/div&gt;</summary></entry></feed>

@@ -1,84 +1,76 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>A notch above a monkey</title><link href="http://markos.gaivo.net/articles/" rel="alternate"></link><link href="/articles/feeds/javascript-spletne-urice-web.atom.xml" rel="self"></link><id>http://markos.gaivo.net/articles/</id><updated>2006-04-13T10:31:00+02:00</updated><entry><title>AJAX workshop</title><link href="http://markos.gaivo.net/articles/ajax-workshop-2.html" rel="alternate"></link><updated>2006-04-13T10:31:00+02:00</updated><author><name>markos</name></author><id>tag:markos.gaivo.net,2006-04-13:articles/ajax-workshop-2.html</id><summary type="html">&lt;p&gt;&lt;html&gt;
- &lt;body&gt;
-  &lt;div&gt;
-   &lt;p&gt;
-    Fry
-    &lt;a href="http://friedcellcollective.net/outbreak/2006/04/12/ajax-workshop/"&gt;
-     said
-    &lt;/a&gt;
-    :
-   &lt;/p&gt;
-   &lt;blockquote&gt;
-    &lt;p&gt;
-     We’re preparing a workshop at Spletne urice (???Web hours??? in Slovenian, a weekly meeting of web enthusiasts) that will focus on AJAX, hosted by me and another Marko. Actually we’re preparing two of them. The first one will cover the basics of asynchronous transport and data, the second one will add some DOM scripting and review some AJAX frameworks.
-    &lt;/p&gt;
-   &lt;/blockquote&gt;
-   &lt;p&gt;
-    Being the other Marko I can say this workshop will totally rock. It has to, because AJAX is cool, right? Instant fame, riches and all that.
-   &lt;/p&gt;
-   &lt;p&gt;
-    Seriously though, I do believe it will be a great experience for those who’ll attend. Everyone is welcome, but only first 10, sorry, 9
-    &lt;a href="http://web.zen.si/archives/2006/04/ajax-workshop/"&gt;
-     registered
-    &lt;/a&gt;
-    will get this chance because of limits imposed on us by the choice of venue. It’s even free (not likely to happen again any time soon), so price can be hardly something to worry about.
-   &lt;/p&gt;
-   &lt;p&gt;
-    You can also help us make it better for you by contributing websites you’d like to see getting a makeover and telling us as much as you can about what you’d like to hear there (and what not).
-   &lt;/p&gt;
-   &lt;p&gt;
-    &lt;strong&gt;
-     Update: Workshop is full and registration is closed. I’m sorry not everyone will get a chance to participate, but we might do another one later this year.
-    &lt;/strong&gt;
-   &lt;/p&gt;
-  &lt;/div&gt;
- &lt;/body&gt;
-&lt;/html&gt;&lt;/p&gt;</summary></entry><entry><title>When to use AJAX</title><link href="http://markos.gaivo.net/articles/when-to-use-ajax.html" rel="alternate"></link><updated>2005-11-11T19:10:00+01:00</updated><author><name>markos</name></author><id>tag:markos.gaivo.net,2005-11-11:articles/when-to-use-ajax.html</id><summary type="html">&lt;p&gt;&lt;html&gt;
- &lt;body&gt;
-  &lt;div&gt;
-   &lt;p&gt;
-    Wednesday’s conversation with
-    &lt;a href="http://www.friedcellcollective.net/"&gt;
-     Fry
-    &lt;/a&gt;
-    provoked me to think more about where and when to use AJAX. I thought I’ve got it figured it out, but I’ve discovered that my opinions don’t really match my behavior and I find this a problem.
-   &lt;/p&gt;
-   &lt;p&gt;
-    AJAX rage of 2005 hasn’t brought many articles exploring benefits and downsides to AJAX. There were few, even very good ones, but I’d like to see more of them and less articles describing latest gimmick or service which would probably be overlooked if it didn’t use an AJAX trick or two.
-   &lt;/p&gt;
-   &lt;p&gt;
-    I had a dentist appointment today, something I’m sure everyone looks forward to, which at least provided me with ample time to think about this. My basic premise was that we should use technology that already works and use AJAX to build on top of that.
-   &lt;/p&gt;
-   &lt;p&gt;
-    Since basic web model has been around for a long time, is well understood and mostly works, I tried to look at places where it doesn’t or at least not as it should and came to a short list of possible criteria for choosing when to apply AJAX:
-   &lt;/p&gt;
-   &lt;ul&gt;
-    &lt;li&gt;
-     &lt;strong&gt;
-      Browsers ought to support this, but mostly can’t or don’t.
-     &lt;/strong&gt;
-     Example: autosave support for textarea, which is the most requested feature among my friends.
-    &lt;/li&gt;
-    &lt;li&gt;
-     &lt;strong&gt;
-      Browsers support it, but badly.
-     &lt;/strong&gt;
-     Example: progress bar for uploads. I don’t know why you can get a usable dialog for downloads, but you’re out of luck if you want to upload.
-    &lt;/li&gt;
-    &lt;li&gt;
-     &lt;strong&gt;
-      Connection problems (narrow bandwidth or high latency).
-     &lt;/strong&gt;
-     If this is a known, but otherwise unsolvable problem, AJAX can be used to reduce ammount and frequency of traffic.
-    &lt;/li&gt;
-   &lt;/ul&gt;
-   &lt;p&gt;
-    Have I forgot anything else?
-   &lt;/p&gt;
-   &lt;p&gt;
-    I don’t think these are only valid scenarios for AJAX use, but we did discover that fast serving of well designed pages greatly reduces the need for AJAX.
-   &lt;/p&gt;
-  &lt;/div&gt;
- &lt;/body&gt;
-&lt;/html&gt;&lt;/p&gt;</summary></entry></feed>
+<feed xmlns="http://www.w3.org/2005/Atom"><title>A notch above a monkey</title><link href="http://markos.gaivo.net/articles/" rel="alternate"></link><link href="/articles/feeds/javascript-spletne-urice-web.atom.xml" rel="self"></link><id>http://markos.gaivo.net/articles/</id><updated>2006-04-13T10:31:00+02:00</updated><entry><title>AJAX workshop</title><link href="http://markos.gaivo.net/articles/ajax-workshop-2.html" rel="alternate"></link><updated>2006-04-13T10:31:00+02:00</updated><author><name>markos</name></author><id>tag:markos.gaivo.net,2006-04-13:articles/ajax-workshop-2.html</id><summary type="html">&lt;div&gt;
+ &lt;p&gt;
+  Fry
+  &lt;a href="http://friedcellcollective.net/outbreak/2006/04/12/ajax-workshop/"&gt;
+   said
+  &lt;/a&gt;
+  :
+ &lt;/p&gt;
+ &lt;blockquote&gt;
+  &lt;p&gt;
+   We’re preparing a workshop at Spletne urice (???Web hours??? in Slovenian, a weekly meeting of web enthusiasts) that will focus on AJAX, hosted by me and another Marko. Actually we’re preparing two of them. The first one will cover the basics of asynchronous transport and data, the second one will add some DOM scripting and review some AJAX frameworks.
+  &lt;/p&gt;
+ &lt;/blockquote&gt;
+ &lt;p&gt;
+  Being the other Marko I can say this workshop will totally rock. It has to, because AJAX is cool, right? Instant fame, riches and all that.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Seriously though, I do believe it will be a great experience for those who’ll attend. Everyone is welcome, but only first 10, sorry, 9
+  &lt;a href="http://web.zen.si/archives/2006/04/ajax-workshop/"&gt;
+   registered
+  &lt;/a&gt;
+  will get this chance because of limits imposed on us by the choice of venue. It’s even free (not likely to happen again any time soon), so price can be hardly something to worry about.
+ &lt;/p&gt;
+ &lt;p&gt;
+  You can also help us make it better for you by contributing websites you’d like to see getting a makeover and telling us as much as you can about what you’d like to hear there (and what not).
+ &lt;/p&gt;
+ &lt;p&gt;
+  &lt;strong&gt;
+   Update: Workshop is full and registration is closed. I’m sorry not everyone will get a chance to participate, but we might do another one later this year.
+  &lt;/strong&gt;
+ &lt;/p&gt;
+&lt;/div&gt;</summary></entry><entry><title>When to use AJAX</title><link href="http://markos.gaivo.net/articles/when-to-use-ajax.html" rel="alternate"></link><updated>2005-11-11T19:10:00+01:00</updated><author><name>markos</name></author><id>tag:markos.gaivo.net,2005-11-11:articles/when-to-use-ajax.html</id><summary type="html">&lt;div&gt;
+ &lt;p&gt;
+  Wednesday’s conversation with
+  &lt;a href="http://www.friedcellcollective.net/"&gt;
+   Fry
+  &lt;/a&gt;
+  provoked me to think more about where and when to use AJAX. I thought I’ve got it figured it out, but I’ve discovered that my opinions don’t really match my behavior and I find this a problem.
+ &lt;/p&gt;
+ &lt;p&gt;
+  AJAX rage of 2005 hasn’t brought many articles exploring benefits and downsides to AJAX. There were few, even very good ones, but I’d like to see more of them and less articles describing latest gimmick or service which would probably be overlooked if it didn’t use an AJAX trick or two.
+ &lt;/p&gt;
+ &lt;p&gt;
+  I had a dentist appointment today, something I’m sure everyone looks forward to, which at least provided me with ample time to think about this. My basic premise was that we should use technology that already works and use AJAX to build on top of that.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Since basic web model has been around for a long time, is well understood and mostly works, I tried to look at places where it doesn’t or at least not as it should and came to a short list of possible criteria for choosing when to apply AJAX:
+ &lt;/p&gt;
+ &lt;ul&gt;
+  &lt;li&gt;
+   &lt;strong&gt;
+    Browsers ought to support this, but mostly can’t or don’t.
+   &lt;/strong&gt;
+   Example: autosave support for textarea, which is the most requested feature among my friends.
+  &lt;/li&gt;
+  &lt;li&gt;
+   &lt;strong&gt;
+    Browsers support it, but badly.
+   &lt;/strong&gt;
+   Example: progress bar for uploads. I don’t know why you can get a usable dialog for downloads, but you’re out of luck if you want to upload.
+  &lt;/li&gt;
+  &lt;li&gt;
+   &lt;strong&gt;
+    Connection problems (narrow bandwidth or high latency).
+   &lt;/strong&gt;
+   If this is a known, but otherwise unsolvable problem, AJAX can be used to reduce ammount and frequency of traffic.
+  &lt;/li&gt;
+ &lt;/ul&gt;
+ &lt;p&gt;
+  Have I forgot anything else?
+ &lt;/p&gt;
+ &lt;p&gt;
+  I don’t think these are only valid scenarios for AJAX use, but we did discover that fast serving of well designed pages greatly reduces the need for AJAX.
+ &lt;/p&gt;
+&lt;/div&gt;</summary></entry></feed>

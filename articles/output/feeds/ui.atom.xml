@@ -1,37 +1,29 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>A notch above a monkey</title><link href="http://markos.gaivo.net/articles/" rel="alternate"></link><link href="/articles/feeds/ui.atom.xml" rel="self"></link><id>http://markos.gaivo.net/articles/</id><updated>2006-06-30T22:35:00+02:00</updated><entry><title>Snooping on customization</title><link href="http://markos.gaivo.net/articles/snooping-on-customization.html" rel="alternate"></link><updated>2006-06-30T22:35:00+02:00</updated><author><name>markos</name></author><id>tag:markos.gaivo.net,2006-06-30:articles/snooping-on-customization.html</id><summary type="html">&lt;p&gt;&lt;html&gt;
- &lt;body&gt;
-  &lt;div&gt;
-   &lt;p&gt;
-    You know you have a busy week when you don’t get around to posting a couple of sentences short note.
-   &lt;/p&gt;
-   &lt;p&gt;
-    It’s been great seeing that Microsoft
-    &lt;a href="http://blogs.msdn.com/jensenh/archive/2006/06/27/648269.aspx"&gt;
-     proved
-    &lt;/a&gt;
-    what I’ve been saying all along. Customization can be a problem especially when it benefits few on account of many.
-   &lt;/p&gt;
-   &lt;p&gt;
-    On the other hand, does anyone wonder HOW do they know all that?
-   &lt;/p&gt;
-  &lt;/div&gt;
- &lt;/body&gt;
-&lt;/html&gt;&lt;/p&gt;</summary></entry><entry><title>Two button movie player interface</title><link href="http://markos.gaivo.net/articles/two-button-movie-player-interface.html" rel="alternate"></link><updated>2006-04-21T11:39:00+02:00</updated><author><name>markos</name></author><id>tag:markos.gaivo.net,2006-04-21:articles/two-button-movie-player-interface.html</id><summary type="html">&lt;p&gt;&lt;html&gt;
- &lt;body&gt;
-  &lt;div&gt;
-   &lt;p&gt;
-    A colleague of mine told me a story couple of days ago, how he sat up a linux box for a friend so he could watch movies on his TV. By itself nothing surprising, since I’m sure we all know plenty of people who do just this or something very similar.
-   &lt;/p&gt;
-   &lt;p&gt;
-    However, what did surprise me was the user interface my colleague built (as requested) for his friend. It has two buttons. First one starts playing first movie on the alphabetically ordered list. Second one deletes the first movie on the list.
-   &lt;/p&gt;
-   &lt;p&gt;
-    It’s as simple as it could possibly get, but it forces you to adapt your behavior to it. Mind you that’s true for all interfaces, it’s just that this one makes it more obvious. Like in cinema you have to see the movie in one go or start from beginning and watch parts already seen. To see movie down the list you either need to see all before or chose not to see them at all. In a way, I’d say it’s an interface of a true movie buff. You watch all movies and when you do, you do it without compromising.
-   &lt;/p&gt;
-   &lt;p&gt;
-    I find it highly fascinating even though I don’t know why. Is it the strange interface, the fact that someone wanted it or something else? I’m not sure. I’m intrigued at how easy it has become to build your own interface and I’m sure it will get even easier. Yet this is not what fascinates me. But for some reason I just can’t get his story out of my head.
-   &lt;/p&gt;
-  &lt;/div&gt;
- &lt;/body&gt;
-&lt;/html&gt;&lt;/p&gt;</summary></entry></feed>
+<feed xmlns="http://www.w3.org/2005/Atom"><title>A notch above a monkey</title><link href="http://markos.gaivo.net/articles/" rel="alternate"></link><link href="/articles/feeds/ui.atom.xml" rel="self"></link><id>http://markos.gaivo.net/articles/</id><updated>2006-06-30T22:35:00+02:00</updated><entry><title>Snooping on customization</title><link href="http://markos.gaivo.net/articles/snooping-on-customization.html" rel="alternate"></link><updated>2006-06-30T22:35:00+02:00</updated><author><name>markos</name></author><id>tag:markos.gaivo.net,2006-06-30:articles/snooping-on-customization.html</id><summary type="html">&lt;div&gt;
+ &lt;p&gt;
+  You know you have a busy week when you don’t get around to posting a couple of sentences short note.
+ &lt;/p&gt;
+ &lt;p&gt;
+  It’s been great seeing that Microsoft
+  &lt;a href="http://blogs.msdn.com/jensenh/archive/2006/06/27/648269.aspx"&gt;
+   proved
+  &lt;/a&gt;
+  what I’ve been saying all along. Customization can be a problem especially when it benefits few on account of many.
+ &lt;/p&gt;
+ &lt;p&gt;
+  On the other hand, does anyone wonder HOW do they know all that?
+ &lt;/p&gt;
+&lt;/div&gt;</summary></entry><entry><title>Two button movie player interface</title><link href="http://markos.gaivo.net/articles/two-button-movie-player-interface.html" rel="alternate"></link><updated>2006-04-21T11:39:00+02:00</updated><author><name>markos</name></author><id>tag:markos.gaivo.net,2006-04-21:articles/two-button-movie-player-interface.html</id><summary type="html">&lt;div&gt;
+ &lt;p&gt;
+  A colleague of mine told me a story couple of days ago, how he sat up a linux box for a friend so he could watch movies on his TV. By itself nothing surprising, since I’m sure we all know plenty of people who do just this or something very similar.
+ &lt;/p&gt;
+ &lt;p&gt;
+  However, what did surprise me was the user interface my colleague built (as requested) for his friend. It has two buttons. First one starts playing first movie on the alphabetically ordered list. Second one deletes the first movie on the list.
+ &lt;/p&gt;
+ &lt;p&gt;
+  It’s as simple as it could possibly get, but it forces you to adapt your behavior to it. Mind you that’s true for all interfaces, it’s just that this one makes it more obvious. Like in cinema you have to see the movie in one go or start from beginning and watch parts already seen. To see movie down the list you either need to see all before or chose not to see them at all. In a way, I’d say it’s an interface of a true movie buff. You watch all movies and when you do, you do it without compromising.
+ &lt;/p&gt;
+ &lt;p&gt;
+  I find it highly fascinating even though I don’t know why. Is it the strange interface, the fact that someone wanted it or something else? I’m not sure. I’m intrigued at how easy it has become to build your own interface and I’m sure it will get even easier. Yet this is not what fascinates me. But for some reason I just can’t get his story out of my head.
+ &lt;/p&gt;
+&lt;/div&gt;</summary></entry></feed>

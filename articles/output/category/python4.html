@@ -22,7 +22,7 @@
 
 <section class="envelope posts">
     <header>
-        <h1><a href="http://markos.gaivo.net/articles/">A notch above a monkey <strong></strong></a></h1>
+        <h1><a href="../">A notch above a monkey <strong></strong></a></h1>
     </header><!-- /#banner -->
 
     <nav class="colophon">
@@ -34,121 +34,109 @@
     </nav>
 
         <article class="hentry">
-            <h1 class="entry-title storytitle"><a href="http://markos.gaivo.net/articles/sgmllibpy-parser-woes.html" rel="bookmark" title="Permalink to sgmllib.py parser woes">sgmllib.py parser woes</a></h1>
+            <h1 class="entry-title storytitle"><a href="../sgmllibpy-parser-woes.html" rel="bookmark" title="Permalink to sgmllib.py parser woes">sgmllib.py parser woes</a></h1>
 
             <div class="entry-content post-text">
-                <p><html>
- <body>
-  <div>
-   <p>
-    Does anybody have problems with sgmllib.py?
-   </p>
-   <p>
-    After I spent way too much time hunting a bug in my code, I gave up, read the
-    <em>
-     goahead
-    </em>
-    function in
-    <em>
-     sgmllib.py
-    </em>
-    and I’m certain now that its parser is broken.
-   </p>
-   <p>
-    Let’s say you’re handling a web page with inline Javascript code which also includes HTML tags. Even if you use a
-    <em>
-     setliteral
-    </em>
-    method to skip processing data inside
-    <em>
-     &lt;script&gt;
-    </em>
-    tags,
-    <em>
-     sgmllib.py
-    </em>
-    will start doing so when it encounters first &lt;/. It interprets this as a start of an end tag and tries  to close it. Even though code handles cases of known and unknown tags, it fails to do the right thing because it simply doesn’t expect a scenario where this isn’t a tag at all.
-   </p>
-   <p>
-    The other possibility is that I’m simply a dolt who should do stuff like this only when rested. By the way, where’s the proper place to make an ass out of myself complaining about standard library?
-   </p>
-  </div>
- </body>
-</html></p>
+                <div>
+ <p>
+  Does anybody have problems with sgmllib.py?
+ </p>
+ <p>
+  After I spent way too much time hunting a bug in my code, I gave up, read the
+  <em>
+   goahead
+  </em>
+  function in
+  <em>
+   sgmllib.py
+  </em>
+  and I’m certain now that its parser is broken.
+ </p>
+ <p>
+  Let’s say you’re handling a web page with inline Javascript code which also includes HTML tags. Even if you use a
+  <em>
+   setliteral
+  </em>
+  method to skip processing data inside
+  <em>
+   &lt;script&gt;
+  </em>
+  tags,
+  <em>
+   sgmllib.py
+  </em>
+  will start doing so when it encounters first &lt;/. It interprets this as a start of an end tag and tries  to close it. Even though code handles cases of known and unknown tags, it fails to do the right thing because it simply doesn’t expect a scenario where this isn’t a tag at all.
+ </p>
+ <p>
+  The other possibility is that I’m simply a dolt who should do stuff like this only when rested. By the way, where’s the proper place to make an ass out of myself complaining about standard library?
+ </p>
+</div>
             </div><!-- /.entry-content -->
 
             <footer class="post-metadata">
                 <ul>
                     <li>Published on <time datetime="2006-03-28T20:51:00+02:00">Tue 28 March 2006</time> </li>
-                    <li><a href="http://markos.gaivo.net/articles/sgmllibpy-parser-woes.html">Add your comment</a></li>
+                    <li><a href="../sgmllibpy-parser-woes.html">Add your comment</a></li>
                 </ul>
             </footer>
         </article>
         <article class="hentry">
-            <h1 class="entry-title storytitle"><a href="http://markos.gaivo.net/articles/universal-encoding-detector.html" rel="bookmark" title="Permalink to Universal Encoding Detector">Universal Encoding Detector</a></h1>
+            <h1 class="entry-title storytitle"><a href="../universal-encoding-detector.html" rel="bookmark" title="Permalink to Universal Encoding Detector">Universal Encoding Detector</a></h1>
 
             <div class="entry-content post-text">
-                <p><html>
- <body>
-  <div>
-   <p>
-    Few months ago, while exporting vCards from Apple’s Address Book (which uses UTF-16 instead of to me more common UTF-8), I discovered that there’s really no general agreement on which encoding should be used for storing vCards. It was quite a disheartening discovery, since you can’t get this information from a filesystem and it’s difficult to transform encoding to a uniform one, if you don’t know the encoding of the source.
-   </p>
-   <p>
-    I decided to tackle this problem once other problems were solved and I’m happy to say my procrastination payed off. Mark Pilgrim wrote another excellent
-    <a href="http://chardet.feedparser.org/" title="Universal Encoding Detector">
-     module
-    </a>
-    which solves my problem better than I ever could.
-   </p>
-   <p>
-    Universal Encoding Detector is a python port of code used by Mozilla to accomplish the same thing and is really very simple to use. Obviously it can’t be perfect since it’s not possible detect encoding completely reliably. But it works quite well and if you need such functionality, you should really give it a try.
-   </p>
-   <p>
-    And people say laziness doesn’t pay off.
-   </p>
-  </div>
- </body>
-</html></p>
+                <div>
+ <p>
+  Few months ago, while exporting vCards from Apple’s Address Book (which uses UTF-16 instead of to me more common UTF-8), I discovered that there’s really no general agreement on which encoding should be used for storing vCards. It was quite a disheartening discovery, since you can’t get this information from a filesystem and it’s difficult to transform encoding to a uniform one, if you don’t know the encoding of the source.
+ </p>
+ <p>
+  I decided to tackle this problem once other problems were solved and I’m happy to say my procrastination payed off. Mark Pilgrim wrote another excellent
+  <a href="http://chardet.feedparser.org/" title="Universal Encoding Detector">
+   module
+  </a>
+  which solves my problem better than I ever could.
+ </p>
+ <p>
+  Universal Encoding Detector is a python port of code used by Mozilla to accomplish the same thing and is really very simple to use. Obviously it can’t be perfect since it’s not possible detect encoding completely reliably. But it works quite well and if you need such functionality, you should really give it a try.
+ </p>
+ <p>
+  And people say laziness doesn’t pay off.
+ </p>
+</div>
             </div><!-- /.entry-content -->
 
             <footer class="post-metadata">
                 <ul>
                     <li>Published on <time datetime="2006-03-17T22:22:00+01:00">Fri 17 March 2006</time> </li>
-                    <li><a href="http://markos.gaivo.net/articles/universal-encoding-detector.html">Add your comment</a></li>
+                    <li><a href="../universal-encoding-detector.html">Add your comment</a></li>
                 </ul>
             </footer>
         </article>
         <article class="hentry">
-            <h1 class="entry-title storytitle"><a href="http://markos.gaivo.net/articles/pycon.html" rel="bookmark" title="Permalink to PyCon">PyCon</a></h1>
+            <h1 class="entry-title storytitle"><a href="../pycon.html" rel="bookmark" title="Permalink to PyCon">PyCon</a></h1>
 
             <div class="entry-content post-text">
-                <p><html>
- <body>
-  <div>
-   <p>
-    The worst thing about PyCon are all those posts from people who got to go.
-   </p>
-   <p>
-    Envy is a bitch.
-   </p>
-  </div>
- </body>
-</html></p>
+                <div>
+ <p>
+  The worst thing about PyCon are all those posts from people who got to go.
+ </p>
+ <p>
+  Envy is a bitch.
+ </p>
+</div>
             </div><!-- /.entry-content -->
 
             <footer class="post-metadata">
                 <ul>
                     <li>Published on <time datetime="2006-02-25T09:08:00+01:00">Sat 25 February 2006</time> </li>
-                    <li><a href="http://markos.gaivo.net/articles/pycon.html">Add your comment</a></li>
+                    <li><a href="../pycon.html">Add your comment</a></li>
                 </ul>
             </footer>
         </article>
 
 <p class="paginator">
-        <a href="http://markos.gaivo.net/articles/category/python3.html">&laquo;</a>
+        <a href="../category/python3.html">&laquo;</a>
     Page 4 / 6
-        <a href="http://markos.gaivo.net/articles/category/python5.html">&raquo;</a>
+        <a href="../category/python5.html">&raquo;</a>
 </p>
 </section><!-- /#content -->
 

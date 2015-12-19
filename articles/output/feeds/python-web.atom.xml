@@ -1,276 +1,244 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>A notch above a monkey</title><link href="http://markos.gaivo.net/articles/" rel="alternate"></link><link href="/articles/feeds/python-web.atom.xml" rel="self"></link><id>http://markos.gaivo.net/articles/</id><updated>2008-08-30T21:50:00+02:00</updated><entry><title>Leaving App Engine - for now</title><link href="http://markos.gaivo.net/articles/leaving-app-engine-for-now.html" rel="alternate"></link><updated>2008-08-30T21:50:00+02:00</updated><author><name>markos</name></author><id>tag:markos.gaivo.net,2008-08-30:articles/leaving-app-engine-for-now.html</id><summary type="html">&lt;p&gt;&lt;html&gt;
- &lt;body&gt;
-  &lt;div&gt;
-   &lt;p&gt;
-    Jonathan
-    &lt;a href="http://spyced.blogspot.com/2008/08/app-engine-conclusions.html#"&gt;
-     wrote
-    &lt;/a&gt;
-    his thoughts about
-    &lt;a class="zem_slink" href="http://appengine.google.com" rel="homepage" title="Google App Engine"&gt;
-     App Engine
-    &lt;/a&gt;
-    . They are well worth a read if you are thinking about using it, but haven’t so far. I used App Engine sporadically for a couple of months on a project of mine, but I finally gave up and ended porting my code to pure
-    &lt;a class="zem_slink" href="http://www.djangoproject.com" rel="homepage" title="Django (web framework)"&gt;
-     Django
-    &lt;/a&gt;
-    , which admittedly wasn’t too hard to do at this point in time.
-   &lt;/p&gt;
-   &lt;p&gt;
-    Some of my reasons match Jonathan’s. There were too many rough edges to feel really productive and too much time was wasted on trying to find out if problem lies in poor documentation, incomplete implementation or stupid programmer. I probably will never get answers to questions like how can a simple Django view that doesn’t do anything beside rendering a static template, consume above expected amount of CPU and risk triggering quota blockage, but right now I really don’t care anymore.
-   &lt;/p&gt;
-   &lt;p&gt;
-    Integrating
-    &lt;a class="zem_slink" href="http://www.crunchbase.com/company/google" rel="crunchbase" title="Google"&gt;
-     Google
-    &lt;/a&gt;
-    accounts is indeed easy, but it is also very shallow to the point of being practically useless.  You basically can only rely on fact that reference to a particular user won’t change. Anything else you may think you know (like an email address), can’t be relied upon. You can’t create an account and you can’t even control login form of your service. In essence you don’t have your own users, you can just offer a service to Google’s.
-   &lt;/p&gt;
-   &lt;p&gt;
-    For me this was one of two major reasons for my decision. Every person who would need an account to use what I am building would need to agree to Google’s
-    &lt;a class="zem_slink" href="http://en.wikipedia.org/wiki/Terms_of_service" rel="wikipedia" title="Terms of service"&gt;
-     TOS
-    &lt;/a&gt;
-    agreement which defines many things, among others the highest level of privacy I can offer.
-   &lt;/p&gt;
-   &lt;p&gt;
-    The other reason was that current limitations of App Engine really lead you to rely heavily on provided APIs, which may be similar to stuff out there (like Django), but aren’t anywhere close to being a drop-in replacement. This can be — depending on application you’re writing — a heavy investement in a platform you don’t control a bit.
-   &lt;/p&gt;
-   &lt;p&gt;
-    Put more profanely, you are a Google’s bitch.
-   &lt;/p&gt;
-   &lt;p&gt;
-    Having said all this, I do think App Engine is a very valuable service. If you want to write a mini-app, a web tool like
-    &lt;a href="http://simonwillison.net/" title="Simon's homepage"&gt;
-     Simon
-    &lt;/a&gt;
-    &lt;a href="http://simonwillison.net/2008/Jul/29/jsonhead/" title="Post about json-head service"&gt;
-     does
-    &lt;/a&gt;
-    , then App Engine is brilliant. You can do this easily with little deployment and zero administration hassle. In fact I can’t think of any other service better suited to this task.
-   &lt;/p&gt;
-   &lt;p&gt;
-    I’m sure this is not the only scenario in which App Engine makes sense and there are others I haven’t named or thought of. Issues, like accounts, can with some effort be solved now. But App Engine also isn’t (yet) what some of us were hoping for and it’s prudent to really think through what you want, what you need and what App Engine actually offers.
-   &lt;/p&gt;
-   &lt;div class="zemanta-pixie"&gt;
-    &lt;a class="zemanta-pixie-a" href="http://reblog.zemanta.com/zemified/28ddae75-72ba-4a45-892e-7841f893395b/" title="Zemified by Zemanta"&gt;
-     &lt;img alt="Reblog this post [with Zemanta]" class="zemanta-pixie-img" src="http://img.zemanta.com/reblog_e.png?x-id=28ddae75-72ba-4a45-892e-7841f893395b" style="border: medium none; float: right;"/&gt;
-    &lt;/a&gt;
-   &lt;/div&gt;
-  &lt;/div&gt;
- &lt;/body&gt;
-&lt;/html&gt;&lt;/p&gt;</summary><category term="App Engine"></category><category term="App Engine"></category><category term="Django"></category><category term="Django"></category><category term="Google"></category><category term="Google"></category><category term="Google App Engine"></category><category term="Google App Engine"></category><category term="Python"></category><category term="Python"></category></entry><entry><title>In search of easy templating</title><link href="http://markos.gaivo.net/articles/in-search-of-easy-templating.html" rel="alternate"></link><updated>2006-02-03T22:07:00+01:00</updated><author><name>markos</name></author><id>tag:markos.gaivo.net,2006-02-03:articles/in-search-of-easy-templating.html</id><summary type="html">&lt;p&gt;&lt;html&gt;
- &lt;body&gt;
-  &lt;div&gt;
-   &lt;p&gt;
-    &lt;strong&gt;
-     Error:
-    &lt;/strong&gt;
-    No such file found! Please make sure
-    &lt;code&gt;
-     http://markos.gaivo.net/blog/code/template1.txt
-    &lt;/code&gt;
-    exists.
-   &lt;/p&gt;
-  &lt;/div&gt;
- &lt;/body&gt;
-&lt;/html&gt;&lt;/p&gt;</summary></entry><entry><title>Favorite python blog</title><link href="http://markos.gaivo.net/articles/favorite-python-blog.html" rel="alternate"></link><updated>2005-12-22T18:22:00+01:00</updated><author><name>markos</name></author><id>tag:markos.gaivo.net,2005-12-22:articles/favorite-python-blog.html</id><summary type="html">&lt;p&gt;&lt;html&gt;
- &lt;body&gt;
-  &lt;div&gt;
-   &lt;p&gt;
-    I’ve rarely, well never really, promoted a blog, but I think
-    &lt;a href="http://blog.ianbicking.org/" title="Ian's blog"&gt;
-     Ian Bicking’s blog
-    &lt;/a&gt;
-    really is a must read for every python web developer. I wish reading my blog was never a waste of time.
-   &lt;/p&gt;
-  &lt;/div&gt;
- &lt;/body&gt;
-&lt;/html&gt;&lt;/p&gt;</summary></entry><entry><title>Speed test of PyRSS2Gen, kid and atomixlib</title><link href="http://markos.gaivo.net/articles/speed-test-of-pyrss2gen-kid-and-atomixlib.html" rel="alternate"></link><updated>2005-11-05T02:04:00+01:00</updated><author><name>markos</name></author><id>tag:markos.gaivo.net,2005-11-05:articles/speed-test-of-pyrss2gen-kid-and-atomixlib.html</id><summary type="html">&lt;p&gt;&lt;html&gt;
- &lt;body&gt;
-  &lt;div&gt;
-   &lt;p&gt;
-    I’ve spent this evening building RSS2 and Atom feeds with
-    &lt;a href="http://www.dalkescientific.com/Python/PyRSS2Gen.html"&gt;
-     PyRSS2Gen
-    &lt;/a&gt;
-    ,
-    &lt;a href="http://kid.lesscode.org/index.html"&gt;
-     kid
-    &lt;/a&gt;
-    and
-    &lt;a href="http://www.defuze.org/oss/atomixlib/"&gt;
-     atomixlib
-    &lt;/a&gt;
-    , as
-    &lt;a href="searching-for-atom-feed-generator.html"&gt;
-     proposed
-    &lt;/a&gt;
-    by helpful people few days ago.
-   &lt;/p&gt;
-   &lt;p&gt;
-    We’d like to add feeds promiscuously to our service (right now we have exactly one). But before we can decide how to tackle this, we need to know how fast we can generate a feed on average.
-   &lt;/p&gt;
-   &lt;p&gt;
-    &lt;strong&gt;
-     DISCLAIMER: I tried to generate feeds with same data using what seemed a reasonable python code to do so, but I didn’t try to save every millisecond as I only cared about crude speed approximations. I have no problem believing that someone else might get completely different results. No serious statistical analysis has been made and rigorous scientific approach has been almost completely absent. Better make your own tests, if speed (or anything else really) is important to you. But if dubious numbers delight you, then please continue.
-    &lt;/strong&gt;
-   &lt;/p&gt;
-   &lt;p&gt;
-    So, here are my results. Time to generate a feed with 10 entries on 1GHz G4 Powerbook:
-   &lt;/p&gt;
-   &lt;ul&gt;
-    &lt;li&gt;
-     with PyRSS2Gen somewhere around 70ms
-    &lt;/li&gt;
-    &lt;li&gt;
-     with atomixlib around 120-140ms
-    &lt;/li&gt;
-    &lt;li&gt;
-     and with kid around 30-35ms
-    &lt;/li&gt;
-   &lt;/ul&gt;
-   &lt;p&gt;
-    In other words, you can generate between 8 and 30 feeds per second on my notebook and (I guess) 2-3x as many on a modern server. This is more than enough for most cases, but I’m afraid it probably won’t be enough for us. Which means either producing feeds by gluing strings together or having a more intelligent approach than building a new one on every request.
-   &lt;/p&gt;
-   &lt;p&gt;
-    As a side note, I found all three packages easy to work with.
-    &lt;br/&gt;
-    &lt;em&gt;
-     &lt;br/&gt;
-     Update: Sylvain has released atomixlib 0.3 which makes it even easier to create atom feeds and brings also significant speed improvements. On my computer it takes now around 60-65ms to build a feed.
-    &lt;/em&gt;
-   &lt;/p&gt;
-   &lt;p&gt;
-    Another update: I made a couple of quick tests with mixed results on fairly new Opteron server. PyRSS2Gen was actually slower with 80-85ms and I have no idea why. kid was blazing fast with times between 8 and 9ms.  Definitely good enough.
-   &lt;/p&gt;
-   &lt;p&gt;
-    But I couldn’t get atomixlib to work, because 4Suite failed to build, so it will have to wait until I can figure out why it chokes on a perfectly legitimate XSLT.
-   &lt;/p&gt;
-   &lt;p&gt;
-    Update 3: 4Suite has been promptly fixed (thanks!) and atomixlib 0.3 takes now 18-19ms. I believe this is an excellent time.
-   &lt;/p&gt;
-  &lt;/div&gt;
- &lt;/body&gt;
-&lt;/html&gt;&lt;/p&gt;</summary></entry><entry><title>Searching for an Atom feed generator</title><link href="http://markos.gaivo.net/articles/searching-for-atom-feed-generator.html" rel="alternate"></link><updated>2005-11-01T02:32:00+01:00</updated><author><name>markos</name></author><id>tag:markos.gaivo.net,2005-11-01:articles/searching-for-atom-feed-generator.html</id><summary type="html">&lt;p&gt;&lt;html&gt;
- &lt;body&gt;
-  &lt;div&gt;
-   &lt;p&gt;
-    I’m still mostly offline, but luckily UMTS offers a sort of solution. It works alright, but it is fairly expensive and I’m counting my bytes again. Still better than helplessly and hopelessly waiting for local telecom to fix ADSL, which judging by previous experience may happen who knows when.
-   &lt;/p&gt;
-   &lt;p&gt;
-    I’ve been looking for an Atom feed generator and I can’t find anything more than a few exploratory hacks. Is there something out there that would at least resemble
-    &lt;a href="http://www.dalkescientific.com/Python/PyRSS2Gen.html" title="Link to PyRSS2Gen's homepage"&gt;
-     PyRSS2Gen
-    &lt;/a&gt;
-    ?
-   &lt;/p&gt;
-   &lt;p&gt;
-    What I’d like is something that returns a proper Atom 1.0 feed and doesn’t choke on non-ascii using languages. I’m sure I’m missing something. Any help would be greatly appreciated.
-   &lt;/p&gt;
-  &lt;/div&gt;
- &lt;/body&gt;
-&lt;/html&gt;&lt;/p&gt;</summary></entry><entry><title>Beautiful Soup is beautiful again</title><link href="http://markos.gaivo.net/articles/beautiful-soup-is-beautiful-again.html" rel="alternate"></link><updated>2005-09-06T10:16:00+02:00</updated><author><name>markos</name></author><id>tag:markos.gaivo.net,2005-09-06:articles/beautiful-soup-is-beautiful-again.html</id><summary type="html">&lt;p&gt;&lt;html&gt;
- &lt;body&gt;
-  &lt;div&gt;
-   &lt;p&gt;
-    This is probably the last part in series of post dealing with Beautiful Soup. At least for a while. Good news is, I found the bug that caused observed weird behavior and it was partly self-inflicted.
-   &lt;/p&gt;
-   &lt;p&gt;
-    My problem appeared, because I was using variables that resembled html tags (e.g. imgs, ul…) and didn’t put space after &amp;lt; in statements as good practice dictates. So I  had statements like:
-    &lt;br/&gt;
-    &lt;code&gt;
-     &lt;br/&gt;
-     if (i&amp;lt;imgs.length)
-     &lt;br/&gt;
-    &lt;/code&gt;
-   &lt;/p&gt;
-   &lt;p&gt;
-    Beautiful Soup relies on
-    &lt;em&gt;
-     sgmllib.py
-    &lt;/em&gt;
-    for processing of documents and it’s sgmllib that causes havoc by processing CDATA (found in script and style blocks), when it shouldn’t. But the problem is not really with sgmllib, which has a literal switch to turn processing off. It’s just that Beautiful Soup doesn’t use it.
-   &lt;/p&gt;
-   &lt;p&gt;
-    So fix is really adding one line
-    &lt;br/&gt;
-    &lt;code&gt;
-     &lt;br/&gt;
-     self.literal = 1
-     &lt;br/&gt;
-    &lt;/code&gt;
-    &lt;br/&gt;
-    after
-    &lt;em&gt;
-     if
-    &lt;/em&gt;
-    statement on line 835. Or
-    &lt;a href="http://markos.gaivo.net/blog/code/BeautifulSoup.py" title="Link to fixed version"&gt;
-     downloading fixed version
-    &lt;/a&gt;
-    .
-   &lt;/p&gt;
-   &lt;p&gt;
-    Reading source I also realized another potential pitfall. If you use javascript to inject javascript with document.write method, you’ll probably confuse sgmllib (and hence Beautiful Soup). When processing CDATA, it doesn’t try to understand it, it just copies data until it finds an endtag (&amp;lt;/script&amp;gt; in javascript’s case). But if you’re doing that, you have yourself to blame.
-   &lt;/p&gt;
-   &lt;p&gt;
-    &lt;em&gt;
-     BeautifulSoup 2.1.1 is
-     &lt;a href="http://www.crummy.com/software/BeautifulSoup/index.html"&gt;
-      out
-     &lt;/a&gt;
-     , which fixes my bug and several others. So you better fetch that version.
-    &lt;/em&gt;
-   &lt;/p&gt;
-  &lt;/div&gt;
- &lt;/body&gt;
-&lt;/html&gt;&lt;/p&gt;</summary></entry><entry><title>Beautiful Soup - part 2</title><link href="http://markos.gaivo.net/articles/beautiful-soup-part-2.html" rel="alternate"></link><updated>2005-09-05T14:54:00+02:00</updated><author><name>markos</name></author><id>tag:markos.gaivo.net,2005-09-05:articles/beautiful-soup-part-2.html</id><summary type="html">&lt;p&gt;&lt;html&gt;
- &lt;body&gt;
-  &lt;div&gt;
-   &lt;p&gt;
-    It seems I praised Beautiful Soup too quickly. I was playing with it yesterday and discovered it mangles Javascript included in file. I can’t say it does this every time, but it’s fairly obvious if you have few kilobytes of code stuck in file. There you have it, another argument why Javascript and CSS should be stored in external files.
-   &lt;/p&gt;
-   &lt;p&gt;
-    It’s not an option for me though, so I’ll have to work around it.
-   &lt;/p&gt;
-   &lt;p&gt;
-    It’s still a great module, as long as you can work within its limitations, but it’s not panacea. At least not yet.
-   &lt;/p&gt;
-   &lt;p&gt;
-    If I find time, I’ll try to fix the problem, since I really dislike idea of processing files using usual methods (regular expressions &amp;amp; co.).
-   &lt;/p&gt;
-  &lt;/div&gt;
- &lt;/body&gt;
-&lt;/html&gt;&lt;/p&gt;</summary></entry><entry><title>We've come to praise Beautiful Soup</title><link href="http://markos.gaivo.net/articles/weve-come-to-praise-beautiful-soup.html" rel="alternate"></link><updated>2005-08-31T19:44:00+02:00</updated><author><name>markos</name></author><id>tag:markos.gaivo.net,2005-08-31:articles/weve-come-to-praise-beautiful-soup.html</id><summary type="html">&lt;p&gt;&lt;html&gt;
- &lt;body&gt;
-  &lt;div&gt;
-   &lt;p&gt;
-    So, I’ve been working on this project for some time now, where I’d take user supplied HTML templates and transformed them into new templates, that our system can actually use.
-   &lt;/p&gt;
-   &lt;p&gt;
-    I needed to mangle and change them, but I also didn’t want to require from users things like well-formedness and other stuff that makes sense only to web developers (and sadly not even to all of them). Mainly, I want this stuff to be used by everyone, even those with retarded web editors and if it’s good enough to be displayed in their browsers, it ought to be good enough for me.
-   &lt;/p&gt;
-   &lt;p&gt;
-    This decision was made a lot easier, when I discovered
-    &lt;a href="http://www.crummy.com/software/BeautifulSoup/index.html" title="Homepage of Beautiful Soup python module"&gt;
-     Beautiful Soup
-    &lt;/a&gt;
-    . It’s a python module that makes  screen-scraping much easier, but what is even more cool, is that it makes changing documents, even those with bad markup, extremely easy.
-   &lt;/p&gt;
-   &lt;p&gt;
-    If you are a python developer, who needs to extract information from or possibly change documents with bad markup, this is the module to use. It will save you time, keep you sane and make you rich. Well, two out of three ain’t bad either.
-   &lt;/p&gt;
-   &lt;p&gt;
-    &lt;em&gt;
-     Update: Beautiful Soup has
-     &lt;a href="beautiful-soup-part-2.html"&gt;
-      issues
-     &lt;/a&gt;
-     with Javascript code included in HTML.
-    &lt;/em&gt;
-   &lt;/p&gt;
-  &lt;/div&gt;
- &lt;/body&gt;
-&lt;/html&gt;&lt;/p&gt;</summary></entry></feed>
+<feed xmlns="http://www.w3.org/2005/Atom"><title>A notch above a monkey</title><link href="http://markos.gaivo.net/articles/" rel="alternate"></link><link href="/articles/feeds/python-web.atom.xml" rel="self"></link><id>http://markos.gaivo.net/articles/</id><updated>2008-08-30T21:50:00+02:00</updated><entry><title>Leaving App Engine - for now</title><link href="http://markos.gaivo.net/articles/leaving-app-engine-for-now.html" rel="alternate"></link><updated>2008-08-30T21:50:00+02:00</updated><author><name>markos</name></author><id>tag:markos.gaivo.net,2008-08-30:articles/leaving-app-engine-for-now.html</id><summary type="html">&lt;div&gt;
+ &lt;p&gt;
+  Jonathan
+  &lt;a href="http://spyced.blogspot.com/2008/08/app-engine-conclusions.html#"&gt;
+   wrote
+  &lt;/a&gt;
+  his thoughts about
+  &lt;a class="zem_slink" href="http://appengine.google.com" rel="homepage" title="Google App Engine"&gt;
+   App Engine
+  &lt;/a&gt;
+  . They are well worth a read if you are thinking about using it, but haven’t so far. I used App Engine sporadically for a couple of months on a project of mine, but I finally gave up and ended porting my code to pure
+  &lt;a class="zem_slink" href="http://www.djangoproject.com" rel="homepage" title="Django (web framework)"&gt;
+   Django
+  &lt;/a&gt;
+  , which admittedly wasn’t too hard to do at this point in time.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Some of my reasons match Jonathan’s. There were too many rough edges to feel really productive and too much time was wasted on trying to find out if problem lies in poor documentation, incomplete implementation or stupid programmer. I probably will never get answers to questions like how can a simple Django view that doesn’t do anything beside rendering a static template, consume above expected amount of CPU and risk triggering quota blockage, but right now I really don’t care anymore.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Integrating
+  &lt;a class="zem_slink" href="http://www.crunchbase.com/company/google" rel="crunchbase" title="Google"&gt;
+   Google
+  &lt;/a&gt;
+  accounts is indeed easy, but it is also very shallow to the point of being practically useless.  You basically can only rely on fact that reference to a particular user won’t change. Anything else you may think you know (like an email address), can’t be relied upon. You can’t create an account and you can’t even control login form of your service. In essence you don’t have your own users, you can just offer a service to Google’s.
+ &lt;/p&gt;
+ &lt;p&gt;
+  For me this was one of two major reasons for my decision. Every person who would need an account to use what I am building would need to agree to Google’s
+  &lt;a class="zem_slink" href="http://en.wikipedia.org/wiki/Terms_of_service" rel="wikipedia" title="Terms of service"&gt;
+   TOS
+  &lt;/a&gt;
+  agreement which defines many things, among others the highest level of privacy I can offer.
+ &lt;/p&gt;
+ &lt;p&gt;
+  The other reason was that current limitations of App Engine really lead you to rely heavily on provided APIs, which may be similar to stuff out there (like Django), but aren’t anywhere close to being a drop-in replacement. This can be — depending on application you’re writing — a heavy investement in a platform you don’t control a bit.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Put more profanely, you are a Google’s bitch.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Having said all this, I do think App Engine is a very valuable service. If you want to write a mini-app, a web tool like
+  &lt;a href="http://simonwillison.net/" title="Simon's homepage"&gt;
+   Simon
+  &lt;/a&gt;
+  &lt;a href="http://simonwillison.net/2008/Jul/29/jsonhead/" title="Post about json-head service"&gt;
+   does
+  &lt;/a&gt;
+  , then App Engine is brilliant. You can do this easily with little deployment and zero administration hassle. In fact I can’t think of any other service better suited to this task.
+ &lt;/p&gt;
+ &lt;p&gt;
+  I’m sure this is not the only scenario in which App Engine makes sense and there are others I haven’t named or thought of. Issues, like accounts, can with some effort be solved now. But App Engine also isn’t (yet) what some of us were hoping for and it’s prudent to really think through what you want, what you need and what App Engine actually offers.
+ &lt;/p&gt;
+ &lt;div class="zemanta-pixie"&gt;
+  &lt;a class="zemanta-pixie-a" href="http://reblog.zemanta.com/zemified/28ddae75-72ba-4a45-892e-7841f893395b/" title="Zemified by Zemanta"&gt;
+   &lt;img alt="Reblog this post [with Zemanta]" class="zemanta-pixie-img" src="http://img.zemanta.com/reblog_e.png?x-id=28ddae75-72ba-4a45-892e-7841f893395b" style="border: medium none; float: right;"/&gt;
+  &lt;/a&gt;
+ &lt;/div&gt;
+&lt;/div&gt;</summary><category term="Google"></category><category term="Python"></category><category term="Google App Engine"></category><category term="Django"></category><category term="App Engine"></category></entry><entry><title>In search of easy templating</title><link href="http://markos.gaivo.net/articles/in-search-of-easy-templating.html" rel="alternate"></link><updated>2006-02-03T22:07:00+01:00</updated><author><name>markos</name></author><id>tag:markos.gaivo.net,2006-02-03:articles/in-search-of-easy-templating.html</id><summary type="html">&lt;div&gt;
+ &lt;p&gt;
+  &lt;strong&gt;
+   Error:
+  &lt;/strong&gt;
+  No such file found! Please make sure
+  &lt;code&gt;
+   http://markos.gaivo.net/blog/code/template1.txt
+  &lt;/code&gt;
+  exists.
+ &lt;/p&gt;
+&lt;/div&gt;</summary></entry><entry><title>Favorite python blog</title><link href="http://markos.gaivo.net/articles/favorite-python-blog.html" rel="alternate"></link><updated>2005-12-22T18:22:00+01:00</updated><author><name>markos</name></author><id>tag:markos.gaivo.net,2005-12-22:articles/favorite-python-blog.html</id><summary type="html">&lt;div&gt;
+ &lt;p&gt;
+  I’ve rarely, well never really, promoted a blog, but I think
+  &lt;a href="http://blog.ianbicking.org/" title="Ian's blog"&gt;
+   Ian Bicking’s blog
+  &lt;/a&gt;
+  really is a must read for every python web developer. I wish reading my blog was never a waste of time.
+ &lt;/p&gt;
+&lt;/div&gt;</summary></entry><entry><title>Speed test of PyRSS2Gen, kid and atomixlib</title><link href="http://markos.gaivo.net/articles/speed-test-of-pyrss2gen-kid-and-atomixlib.html" rel="alternate"></link><updated>2005-11-05T02:04:00+01:00</updated><author><name>markos</name></author><id>tag:markos.gaivo.net,2005-11-05:articles/speed-test-of-pyrss2gen-kid-and-atomixlib.html</id><summary type="html">&lt;div&gt;
+ &lt;p&gt;
+  I’ve spent this evening building RSS2 and Atom feeds with
+  &lt;a href="http://www.dalkescientific.com/Python/PyRSS2Gen.html"&gt;
+   PyRSS2Gen
+  &lt;/a&gt;
+  ,
+  &lt;a href="http://kid.lesscode.org/index.html"&gt;
+   kid
+  &lt;/a&gt;
+  and
+  &lt;a href="http://www.defuze.org/oss/atomixlib/"&gt;
+   atomixlib
+  &lt;/a&gt;
+  , as
+  &lt;a href="searching-for-atom-feed-generator.html"&gt;
+   proposed
+  &lt;/a&gt;
+  by helpful people few days ago.
+ &lt;/p&gt;
+ &lt;p&gt;
+  We’d like to add feeds promiscuously to our service (right now we have exactly one). But before we can decide how to tackle this, we need to know how fast we can generate a feed on average.
+ &lt;/p&gt;
+ &lt;p&gt;
+  &lt;strong&gt;
+   DISCLAIMER: I tried to generate feeds with same data using what seemed a reasonable python code to do so, but I didn’t try to save every millisecond as I only cared about crude speed approximations. I have no problem believing that someone else might get completely different results. No serious statistical analysis has been made and rigorous scientific approach has been almost completely absent. Better make your own tests, if speed (or anything else really) is important to you. But if dubious numbers delight you, then please continue.
+  &lt;/strong&gt;
+ &lt;/p&gt;
+ &lt;p&gt;
+  So, here are my results. Time to generate a feed with 10 entries on 1GHz G4 Powerbook:
+ &lt;/p&gt;
+ &lt;ul&gt;
+  &lt;li&gt;
+   with PyRSS2Gen somewhere around 70ms
+  &lt;/li&gt;
+  &lt;li&gt;
+   with atomixlib around 120-140ms
+  &lt;/li&gt;
+  &lt;li&gt;
+   and with kid around 30-35ms
+  &lt;/li&gt;
+ &lt;/ul&gt;
+ &lt;p&gt;
+  In other words, you can generate between 8 and 30 feeds per second on my notebook and (I guess) 2-3x as many on a modern server. This is more than enough for most cases, but I’m afraid it probably won’t be enough for us. Which means either producing feeds by gluing strings together or having a more intelligent approach than building a new one on every request.
+ &lt;/p&gt;
+ &lt;p&gt;
+  As a side note, I found all three packages easy to work with.
+  &lt;br/&gt;
+  &lt;em&gt;
+   &lt;br/&gt;
+   Update: Sylvain has released atomixlib 0.3 which makes it even easier to create atom feeds and brings also significant speed improvements. On my computer it takes now around 60-65ms to build a feed.
+  &lt;/em&gt;
+ &lt;/p&gt;
+ &lt;p&gt;
+  Another update: I made a couple of quick tests with mixed results on fairly new Opteron server. PyRSS2Gen was actually slower with 80-85ms and I have no idea why. kid was blazing fast with times between 8 and 9ms.  Definitely good enough.
+ &lt;/p&gt;
+ &lt;p&gt;
+  But I couldn’t get atomixlib to work, because 4Suite failed to build, so it will have to wait until I can figure out why it chokes on a perfectly legitimate XSLT.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Update 3: 4Suite has been promptly fixed (thanks!) and atomixlib 0.3 takes now 18-19ms. I believe this is an excellent time.
+ &lt;/p&gt;
+&lt;/div&gt;</summary></entry><entry><title>Searching for an Atom feed generator</title><link href="http://markos.gaivo.net/articles/searching-for-atom-feed-generator.html" rel="alternate"></link><updated>2005-11-01T02:32:00+01:00</updated><author><name>markos</name></author><id>tag:markos.gaivo.net,2005-11-01:articles/searching-for-atom-feed-generator.html</id><summary type="html">&lt;div&gt;
+ &lt;p&gt;
+  I’m still mostly offline, but luckily UMTS offers a sort of solution. It works alright, but it is fairly expensive and I’m counting my bytes again. Still better than helplessly and hopelessly waiting for local telecom to fix ADSL, which judging by previous experience may happen who knows when.
+ &lt;/p&gt;
+ &lt;p&gt;
+  I’ve been looking for an Atom feed generator and I can’t find anything more than a few exploratory hacks. Is there something out there that would at least resemble
+  &lt;a href="http://www.dalkescientific.com/Python/PyRSS2Gen.html" title="Link to PyRSS2Gen's homepage"&gt;
+   PyRSS2Gen
+  &lt;/a&gt;
+  ?
+ &lt;/p&gt;
+ &lt;p&gt;
+  What I’d like is something that returns a proper Atom 1.0 feed and doesn’t choke on non-ascii using languages. I’m sure I’m missing something. Any help would be greatly appreciated.
+ &lt;/p&gt;
+&lt;/div&gt;</summary></entry><entry><title>Beautiful Soup is beautiful again</title><link href="http://markos.gaivo.net/articles/beautiful-soup-is-beautiful-again.html" rel="alternate"></link><updated>2005-09-06T10:16:00+02:00</updated><author><name>markos</name></author><id>tag:markos.gaivo.net,2005-09-06:articles/beautiful-soup-is-beautiful-again.html</id><summary type="html">&lt;div&gt;
+ &lt;p&gt;
+  This is probably the last part in series of post dealing with Beautiful Soup. At least for a while. Good news is, I found the bug that caused observed weird behavior and it was partly self-inflicted.
+ &lt;/p&gt;
+ &lt;p&gt;
+  My problem appeared, because I was using variables that resembled html tags (e.g. imgs, ul…) and didn’t put space after &amp;lt; in statements as good practice dictates. So I  had statements like:
+  &lt;br/&gt;
+  &lt;code&gt;
+   &lt;br/&gt;
+   if (i&amp;lt;imgs.length)
+   &lt;br/&gt;
+  &lt;/code&gt;
+ &lt;/p&gt;
+ &lt;p&gt;
+  Beautiful Soup relies on
+  &lt;em&gt;
+   sgmllib.py
+  &lt;/em&gt;
+  for processing of documents and it’s sgmllib that causes havoc by processing CDATA (found in script and style blocks), when it shouldn’t. But the problem is not really with sgmllib, which has a literal switch to turn processing off. It’s just that Beautiful Soup doesn’t use it.
+ &lt;/p&gt;
+ &lt;p&gt;
+  So fix is really adding one line
+  &lt;br/&gt;
+  &lt;code&gt;
+   &lt;br/&gt;
+   self.literal = 1
+   &lt;br/&gt;
+  &lt;/code&gt;
+  &lt;br/&gt;
+  after
+  &lt;em&gt;
+   if
+  &lt;/em&gt;
+  statement on line 835. Or
+  &lt;a href="http://markos.gaivo.net/blog/code/BeautifulSoup.py" title="Link to fixed version"&gt;
+   downloading fixed version
+  &lt;/a&gt;
+  .
+ &lt;/p&gt;
+ &lt;p&gt;
+  Reading source I also realized another potential pitfall. If you use javascript to inject javascript with document.write method, you’ll probably confuse sgmllib (and hence Beautiful Soup). When processing CDATA, it doesn’t try to understand it, it just copies data until it finds an endtag (&amp;lt;/script&amp;gt; in javascript’s case). But if you’re doing that, you have yourself to blame.
+ &lt;/p&gt;
+ &lt;p&gt;
+  &lt;em&gt;
+   BeautifulSoup 2.1.1 is
+   &lt;a href="http://www.crummy.com/software/BeautifulSoup/index.html"&gt;
+    out
+   &lt;/a&gt;
+   , which fixes my bug and several others. So you better fetch that version.
+  &lt;/em&gt;
+ &lt;/p&gt;
+&lt;/div&gt;</summary></entry><entry><title>Beautiful Soup - part 2</title><link href="http://markos.gaivo.net/articles/beautiful-soup-part-2.html" rel="alternate"></link><updated>2005-09-05T14:54:00+02:00</updated><author><name>markos</name></author><id>tag:markos.gaivo.net,2005-09-05:articles/beautiful-soup-part-2.html</id><summary type="html">&lt;div&gt;
+ &lt;p&gt;
+  It seems I praised Beautiful Soup too quickly. I was playing with it yesterday and discovered it mangles Javascript included in file. I can’t say it does this every time, but it’s fairly obvious if you have few kilobytes of code stuck in file. There you have it, another argument why Javascript and CSS should be stored in external files.
+ &lt;/p&gt;
+ &lt;p&gt;
+  It’s not an option for me though, so I’ll have to work around it.
+ &lt;/p&gt;
+ &lt;p&gt;
+  It’s still a great module, as long as you can work within its limitations, but it’s not panacea. At least not yet.
+ &lt;/p&gt;
+ &lt;p&gt;
+  If I find time, I’ll try to fix the problem, since I really dislike idea of processing files using usual methods (regular expressions &amp;amp; co.).
+ &lt;/p&gt;
+&lt;/div&gt;</summary></entry><entry><title>We've come to praise Beautiful Soup</title><link href="http://markos.gaivo.net/articles/weve-come-to-praise-beautiful-soup.html" rel="alternate"></link><updated>2005-08-31T19:44:00+02:00</updated><author><name>markos</name></author><id>tag:markos.gaivo.net,2005-08-31:articles/weve-come-to-praise-beautiful-soup.html</id><summary type="html">&lt;div&gt;
+ &lt;p&gt;
+  So, I’ve been working on this project for some time now, where I’d take user supplied HTML templates and transformed them into new templates, that our system can actually use.
+ &lt;/p&gt;
+ &lt;p&gt;
+  I needed to mangle and change them, but I also didn’t want to require from users things like well-formedness and other stuff that makes sense only to web developers (and sadly not even to all of them). Mainly, I want this stuff to be used by everyone, even those with retarded web editors and if it’s good enough to be displayed in their browsers, it ought to be good enough for me.
+ &lt;/p&gt;
+ &lt;p&gt;
+  This decision was made a lot easier, when I discovered
+  &lt;a href="http://www.crummy.com/software/BeautifulSoup/index.html" title="Homepage of Beautiful Soup python module"&gt;
+   Beautiful Soup
+  &lt;/a&gt;
+  . It’s a python module that makes  screen-scraping much easier, but what is even more cool, is that it makes changing documents, even those with bad markup, extremely easy.
+ &lt;/p&gt;
+ &lt;p&gt;
+  If you are a python developer, who needs to extract information from or possibly change documents with bad markup, this is the module to use. It will save you time, keep you sane and make you rich. Well, two out of three ain’t bad either.
+ &lt;/p&gt;
+ &lt;p&gt;
+  &lt;em&gt;
+   Update: Beautiful Soup has
+   &lt;a href="beautiful-soup-part-2.html"&gt;
+    issues
+   &lt;/a&gt;
+   with Javascript code included in HTML.
+  &lt;/em&gt;
+ &lt;/p&gt;
+&lt;/div&gt;</summary></entry></feed>

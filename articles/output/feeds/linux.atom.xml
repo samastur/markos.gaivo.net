@@ -1,65 +1,53 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>A notch above a monkey</title><link href="http://markos.gaivo.net/articles/" rel="alternate"></link><link href="/articles/feeds/linux.atom.xml" rel="self"></link><id>http://markos.gaivo.net/articles/</id><updated>2005-11-06T18:45:00+01:00</updated><entry><title>Favorite KDE features</title><link href="http://markos.gaivo.net/articles/favorite-kde-features.html" rel="alternate"></link><updated>2005-11-06T18:45:00+01:00</updated><author><name>markos</name></author><id>tag:markos.gaivo.net,2005-11-06:articles/favorite-kde-features.html</id><summary type="html">&lt;p&gt;&lt;html&gt;
- &lt;body&gt;
-  &lt;div&gt;
-   &lt;p&gt;
-    I’ve just noticed that a lot more time has passed than planned since my last post about Linux. I wanted to write a follow up to installation post a week later, but it completely slipped my mind.
-   &lt;/p&gt;
-   &lt;p&gt;
-    It’s been a few weeks now and my Linux box has become the place, where I do most of my work. There are three reasons for this:
-   &lt;/p&gt;
-   &lt;ul&gt;
-    &lt;li&gt;
-     kioslaves like fish let me work with remote filesystems over various protocols as if they were local
-    &lt;/li&gt;
-    &lt;li&gt;
-     abundance of tabs which can be navigated with keyboard (terminal, editor and browser all support them)
-    &lt;/li&gt;
-    &lt;li&gt;
-     bookmarks in file dialogs even for remote filesystems make using even a complicated directory layouts a joy
-    &lt;/li&gt;
-   &lt;/ul&gt;
-   &lt;p&gt;
-    There are other things I really like, but it’s really hard to live without those three. The only thing really ruining my happiness is a sucky USB keyboard. So far I had no luck with finding a reasonable replacement.
-   &lt;/p&gt;
-  &lt;/div&gt;
- &lt;/body&gt;
-&lt;/html&gt;&lt;/p&gt;</summary></entry><entry><title>Problems with PS/2 keyboard in Linux</title><link href="http://markos.gaivo.net/articles/problems-with-ps2-keyboard-in-linux.html" rel="alternate"></link><updated>2005-10-22T11:10:00+02:00</updated><author><name>markos</name></author><id>tag:markos.gaivo.net,2005-10-22:articles/problems-with-ps2-keyboard-in-linux.html</id><summary type="html">&lt;p&gt;&lt;html&gt;
- &lt;body&gt;
-  &lt;div&gt;
-   &lt;p&gt;
-    I finally got a new machine yesterday and I immediately installed SuSE 10 on it. Ubuntu seems to be the flavor of the moment, but I was never much fond of Debian and even less of GNOME.
-   &lt;/p&gt;
-   &lt;p&gt;
-    So far I really like the experience, the only exception being a problem with a keyboard. For some unknown reason my old PS/2 keyboard doesn’t get recognized in Linux and therefore simply doesn’t work.
-   &lt;/p&gt;
-   &lt;p&gt;
-    It’s the first time in almost a decade of being a Linux user to experience something like this and I have no idea what could cause this and how to fix it. Google hasn’t helped either, so if anyone has any idea about this, I’d be immensely grateful if you could share it.
-   &lt;/p&gt;
-   &lt;p&gt;
-    I’m using an USB keyboard for now, which works. Well, sort of. It seems to be impossible to buy a decent USB keyboard in Slovenia so I’m stuck with
-    &lt;a href="http://www.trust.com/products/product.aspx?artnr=14211" title="Link to keyboard's page"&gt;
-     this
-    &lt;/a&gt;
-    piece of crap for now. Truth be told, this was just the cheapest of bad options.
-   &lt;/p&gt;
-  &lt;/div&gt;
- &lt;/body&gt;
-&lt;/html&gt;&lt;/p&gt;</summary></entry><entry><title>Back to my roots!</title><link href="http://markos.gaivo.net/articles/back-to-my-roots.html" rel="alternate"></link><updated>2005-08-21T19:24:00+02:00</updated><author><name>markos</name></author><id>tag:markos.gaivo.net,2005-08-21:articles/back-to-my-roots.html</id><summary type="html">&lt;p&gt;&lt;html&gt;
- &lt;body&gt;
-  &lt;div&gt;
-   &lt;p&gt;
-    It has dawned on me recently, that I’m not using Linux as much as I used to. True, all my servers are Linux based and all new code is eventually deployed on them, but I haven’t been using it for a while on a desktop.
-   &lt;/p&gt;
-   &lt;p&gt;
-    Probably the main cause for this was my Powerbook, where practically everything I create starts its life. It’s just so much easier to carry all your work with you. Linux cause also wasn’t helped by a fact, that my PC is incredibly loud and makes air in office unbreathable in a matter of minutes.
-   &lt;/p&gt;
-   &lt;p&gt;
-    Mac OS X was never a perfect match for me and I always missed some things like true network transparency. But lately I became tired of various software bugs and hardware troubles that plague me and started to think about Linux more. I also miss being part of open source community.
-   &lt;/p&gt;
-   &lt;p&gt;
-    So, after this pre-launch mayhem is over, I’ll look for a new Linux machine. It’s time to go home.
-   &lt;/p&gt;
-  &lt;/div&gt;
- &lt;/body&gt;
-&lt;/html&gt;&lt;/p&gt;</summary></entry></feed>
+<feed xmlns="http://www.w3.org/2005/Atom"><title>A notch above a monkey</title><link href="http://markos.gaivo.net/articles/" rel="alternate"></link><link href="/articles/feeds/linux.atom.xml" rel="self"></link><id>http://markos.gaivo.net/articles/</id><updated>2005-11-06T18:45:00+01:00</updated><entry><title>Favorite KDE features</title><link href="http://markos.gaivo.net/articles/favorite-kde-features.html" rel="alternate"></link><updated>2005-11-06T18:45:00+01:00</updated><author><name>markos</name></author><id>tag:markos.gaivo.net,2005-11-06:articles/favorite-kde-features.html</id><summary type="html">&lt;div&gt;
+ &lt;p&gt;
+  I’ve just noticed that a lot more time has passed than planned since my last post about Linux. I wanted to write a follow up to installation post a week later, but it completely slipped my mind.
+ &lt;/p&gt;
+ &lt;p&gt;
+  It’s been a few weeks now and my Linux box has become the place, where I do most of my work. There are three reasons for this:
+ &lt;/p&gt;
+ &lt;ul&gt;
+  &lt;li&gt;
+   kioslaves like fish let me work with remote filesystems over various protocols as if they were local
+  &lt;/li&gt;
+  &lt;li&gt;
+   abundance of tabs which can be navigated with keyboard (terminal, editor and browser all support them)
+  &lt;/li&gt;
+  &lt;li&gt;
+   bookmarks in file dialogs even for remote filesystems make using even a complicated directory layouts a joy
+  &lt;/li&gt;
+ &lt;/ul&gt;
+ &lt;p&gt;
+  There are other things I really like, but it’s really hard to live without those three. The only thing really ruining my happiness is a sucky USB keyboard. So far I had no luck with finding a reasonable replacement.
+ &lt;/p&gt;
+&lt;/div&gt;</summary></entry><entry><title>Problems with PS/2 keyboard in Linux</title><link href="http://markos.gaivo.net/articles/problems-with-ps2-keyboard-in-linux.html" rel="alternate"></link><updated>2005-10-22T11:10:00+02:00</updated><author><name>markos</name></author><id>tag:markos.gaivo.net,2005-10-22:articles/problems-with-ps2-keyboard-in-linux.html</id><summary type="html">&lt;div&gt;
+ &lt;p&gt;
+  I finally got a new machine yesterday and I immediately installed SuSE 10 on it. Ubuntu seems to be the flavor of the moment, but I was never much fond of Debian and even less of GNOME.
+ &lt;/p&gt;
+ &lt;p&gt;
+  So far I really like the experience, the only exception being a problem with a keyboard. For some unknown reason my old PS/2 keyboard doesn’t get recognized in Linux and therefore simply doesn’t work.
+ &lt;/p&gt;
+ &lt;p&gt;
+  It’s the first time in almost a decade of being a Linux user to experience something like this and I have no idea what could cause this and how to fix it. Google hasn’t helped either, so if anyone has any idea about this, I’d be immensely grateful if you could share it.
+ &lt;/p&gt;
+ &lt;p&gt;
+  I’m using an USB keyboard for now, which works. Well, sort of. It seems to be impossible to buy a decent USB keyboard in Slovenia so I’m stuck with
+  &lt;a href="http://www.trust.com/products/product.aspx?artnr=14211" title="Link to keyboard's page"&gt;
+   this
+  &lt;/a&gt;
+  piece of crap for now. Truth be told, this was just the cheapest of bad options.
+ &lt;/p&gt;
+&lt;/div&gt;</summary></entry><entry><title>Back to my roots!</title><link href="http://markos.gaivo.net/articles/back-to-my-roots.html" rel="alternate"></link><updated>2005-08-21T19:24:00+02:00</updated><author><name>markos</name></author><id>tag:markos.gaivo.net,2005-08-21:articles/back-to-my-roots.html</id><summary type="html">&lt;div&gt;
+ &lt;p&gt;
+  It has dawned on me recently, that I’m not using Linux as much as I used to. True, all my servers are Linux based and all new code is eventually deployed on them, but I haven’t been using it for a while on a desktop.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Probably the main cause for this was my Powerbook, where practically everything I create starts its life. It’s just so much easier to carry all your work with you. Linux cause also wasn’t helped by a fact, that my PC is incredibly loud and makes air in office unbreathable in a matter of minutes.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Mac OS X was never a perfect match for me and I always missed some things like true network transparency. But lately I became tired of various software bugs and hardware troubles that plague me and started to think about Linux more. I also miss being part of open source community.
+ &lt;/p&gt;
+ &lt;p&gt;
+  So, after this pre-launch mayhem is over, I’ll look for a new Linux machine. It’s time to go home.
+ &lt;/p&gt;
+&lt;/div&gt;</summary></entry></feed>

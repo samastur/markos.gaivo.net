@@ -1,138 +1,118 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>A notch above a monkey</title><link href="http://markos.gaivo.net/articles/" rel="alternate"></link><link href="/articles/feeds/company-web.atom.xml" rel="self"></link><id>http://markos.gaivo.net/articles/</id><updated>2006-05-16T21:22:00+02:00</updated><entry><title>Marela is open...well, kind of</title><link href="http://markos.gaivo.net/articles/marela-is-openwell-kind-of.html" rel="alternate"></link><updated>2006-05-16T21:22:00+02:00</updated><author><name>markos</name></author><id>tag:markos.gaivo.net,2006-05-16:articles/marela-is-openwell-kind-of.html</id><summary type="html">&lt;p&gt;&lt;html&gt;
- &lt;body&gt;
-  &lt;div&gt;
-   &lt;p&gt;
-    &lt;a href="http://www.marela.si"&gt;
-     Marela
-    &lt;/a&gt;
-    is accepting new members. Only by invitation for now, but it’s not that difficult to get one. Just
-    &lt;a href="http://markos.gaivo.net"&gt;
-     email me
-    &lt;/a&gt;
-    , if you’d like one.
-   &lt;/p&gt;
-   &lt;p&gt;
-    For the curious ones, who’d like to avoid registration, it’s best described as
-    &lt;a href="http://www.flickr.com"&gt;
-     Flickr
-    &lt;/a&gt;
-    lite for slovenians (and those who don’t mind the language). It will grow in its own direction, hopefully fast, but you have to start somewhere.
-   &lt;/p&gt;
-   &lt;p&gt;
-    Those, who like programming might also check out its
-    &lt;a href="http://www.marela.si/dev/api" title="Link to API"&gt;
-     API
-    &lt;/a&gt;
-    . And if you have any questions, do ask me or
-    &lt;a href="http://www.trepca.si/blog/" title="Link to Sebastjan's blog"&gt;
-     Sebastjan
-    &lt;/a&gt;
-    .
-   &lt;/p&gt;
-  &lt;/div&gt;
- &lt;/body&gt;
-&lt;/html&gt;&lt;/p&gt;</summary></entry><entry><title>Micropayments and IndieKarma</title><link href="http://markos.gaivo.net/articles/micropayments-and-indiekarma.html" rel="alternate"></link><updated>2006-05-10T14:26:00+02:00</updated><author><name>markos</name></author><id>tag:markos.gaivo.net,2006-05-10:articles/micropayments-and-indiekarma.html</id><summary type="html">&lt;p&gt;&lt;html&gt;
- &lt;body&gt;
-  &lt;div&gt;
-   &lt;p&gt;
-    A few days ago I read about
-    &lt;a href="http://www.indiekarma.com/"&gt;
-     IndieKarma
-    &lt;/a&gt;
-    on Jason Kottke’s
-    &lt;a href="http://www.kottke.org/06/05/indiekarma-micropayments"&gt;
-     blog
-    &lt;/a&gt;
-    . I agree with most of his remarks and I have a couple of my own.
-   &lt;/p&gt;
-   &lt;p&gt;
-    I dislike the fact that IndieKarma is another walled garden. It means that both the content publisher and visitor must use the same system for transaction to occur and that’s a lot to ask. Building a more open system, which would allow transactions between parties belonging to different systems and wouldn’t be prone to abuse, is difficult and is probably one of the reasons why it hasn’t happened yet.
-   &lt;/p&gt;
-   &lt;p&gt;
-    But I think it’s also a necessity for small companies like
-    &lt;a href="http://www.indiekarma.com/About.xhtml"&gt;
-     PixelPass
-    &lt;/a&gt;
-    , since as a visitor I’m unlikely to use more than a couple of such systems. Same goes for me as a publisher. If my reach is limited to websites using same service as me, then they’ll have a hard time getting traction. It will also be impossible to compete with big boys if they decide to move in this space.
-   &lt;/p&gt;
-   &lt;p&gt;
-    IndieKarma is also a very apt name for a service that by its very nature is completely voluntary. Even if it was widely used on websites, it wouldn’t amount to much without people willing to spend money when they don’t have to. I’m sure there are lots of well-intentioned folks out there, but the enormous prevalence of ad supported services and the fact that most users
-    &lt;a href="http://www.thinkvitamin.com/features/webapps/will-your-web-app-make-money"&gt;
-     will be freeloaders
-    &lt;/a&gt;
-    makes me doubtful.
-   &lt;/p&gt;
-   &lt;p&gt;
-    Still, it’s a nice idea with approach that might work. I certainly hope it does.
-   &lt;/p&gt;
-  &lt;/div&gt;
- &lt;/body&gt;
-&lt;/html&gt;&lt;/p&gt;</summary></entry><entry><title>Safe data</title><link href="http://markos.gaivo.net/articles/safe-data.html" rel="alternate"></link><updated>2006-02-14T12:25:00+01:00</updated><author><name>markos</name></author><id>tag:markos.gaivo.net,2006-02-14:articles/safe-data.html</id><summary type="html">&lt;p&gt;&lt;html&gt;
- &lt;body&gt;
-  &lt;div&gt;
-   &lt;p&gt;
-    I caught an interesting
-    &lt;a href="http://radar.oreilly.com/archives/2006/02/web_apps_single_point_of_subpo.html"&gt;
-     observation
-    &lt;/a&gt;
-    on O’Reilly’s Radar. In my opinion there are two problems that web users should pay attention to. One, as noted on Radar, is privacy and the other is reliability of your service provider.
-   &lt;/p&gt;
-   &lt;p&gt;
-    There are limits to what we can do about either of them as a company. We built Marela on a fault-tolerant system using solid hardware and think user’s data is reasonably safe from data loss and intrusions. Like others we can’t rule it out completely, but I think it was worth it to build a safer system than our competition even if users often don’t care (until it’s too late).
-   &lt;/p&gt;
-   &lt;p&gt;
-    We also don’t collect any personal data we don’t actually need and don’t store what we do collect a minute longer than absolutely necessary. However, there’s little we can do about our legal obligations. Even though legislation in Slovenia is not quite the same as the one cited in the article, it’s still true that it’s easier for law-enforcement institutions to legally access your data (unknown to you) if it’s not residing on your personal computer. We are eating our own dog food, so this doesn’t make us happy either.
-   &lt;/p&gt;
-   &lt;p&gt;
-    I still think it’s dumb to have all your data stored only on your personal computer, especially since vast majority of computer users seldom if ever make backups. Encryption can go a long way in protecting data from prying eyes, but what I wish most is simply for people to be more aware.
-   &lt;/p&gt;
-   &lt;p&gt;
-    Without awareness there’s little hope for improving the legislation and practices of our industry.
-   &lt;/p&gt;
-  &lt;/div&gt;
- &lt;/body&gt;
-&lt;/html&gt;&lt;/p&gt;</summary></entry><entry><title>The End of Internet?</title><link href="http://markos.gaivo.net/articles/the-end-of-internet.html" rel="alternate"></link><updated>2006-02-02T22:33:00+01:00</updated><author><name>markos</name></author><id>tag:markos.gaivo.net,2006-02-02:articles/the-end-of-internet.html</id><summary type="html">&lt;p&gt;&lt;html&gt;
- &lt;body&gt;
-  &lt;div&gt;
-   &lt;p&gt;
-    &lt;a href="http://www.thenation.com/doc/20060213/chester"&gt;
-     Scary.
-    &lt;/a&gt;
-   &lt;/p&gt;
-  &lt;/div&gt;
- &lt;/body&gt;
-&lt;/html&gt;&lt;/p&gt;</summary></entry><entry><title>Ads are gone</title><link href="http://markos.gaivo.net/articles/ads-are-gone.html" rel="alternate"></link><updated>2005-11-17T18:02:00+01:00</updated><author><name>markos</name></author><id>tag:markos.gaivo.net,2005-11-17:articles/ads-are-gone.html</id><summary type="html">&lt;p&gt;&lt;html&gt;
- &lt;body&gt;
-  &lt;div&gt;
-   &lt;p&gt;
-    After a bit less than a month, but enough traffic to give me an idea what to expect, I decided to remove Google ads. I earned a dollar. Well, almost anyway.
-   &lt;/p&gt;
-   &lt;p&gt;
-    My decision to end it was made easier when I discovered this, where ads were supposed to be:
-    &lt;br/&gt;
-    &lt;a href="http://markos.gaivo.net/images/searchads-small.gif" title="Full size screenshot of search ads"&gt;
-     &lt;img alt="Search ads?" height="65" src="http://markos.gaivo.net/images/searchads-small.gif" style="border: thin solid #666; margin: 5px;" width="370"/&gt;
-    &lt;/a&gt;
-   &lt;/p&gt;
-   &lt;p&gt;
-    Wtf?
-   &lt;/p&gt;
-   &lt;p&gt;
-    I tried to follow Google’s advice. I picked the most successful formats (but also experimented with others), put them at premium places and choose colors that blend in. Result was a buck and a revelation that on my site even old-fashion banners would be more profitable.
-   &lt;/p&gt;
-   &lt;p&gt;
-    I have no real explanation for disappointing results. Since I’m not fond of ads either, I stayed with number of ad boxes I felt most comfortable with (usually just one) and used only text ads. It’s possible that I’d have more luck with image ads, but it doesn’t really matter, since I dislike them enough that they wouldn’t be acceptable anyway.
-   &lt;/p&gt;
-   &lt;p&gt;
-    It’s also possible and even probable, that the problem was with content of pages. I’ve certainly noticed what often seemed at best a poor match between displayed content and ads.
-   &lt;/p&gt;
-   &lt;p&gt;
-    Sadly there weren’t enough clicks to merit a more involved analysis. Maybe some other time, when I have a new idea worth exploring and get better results.
-   &lt;/p&gt;
-   &lt;p&gt;
-    What has been your experience with AdSense?
-   &lt;/p&gt;
-  &lt;/div&gt;
- &lt;/body&gt;
-&lt;/html&gt;&lt;/p&gt;</summary></entry></feed>
+<feed xmlns="http://www.w3.org/2005/Atom"><title>A notch above a monkey</title><link href="http://markos.gaivo.net/articles/" rel="alternate"></link><link href="/articles/feeds/company-web.atom.xml" rel="self"></link><id>http://markos.gaivo.net/articles/</id><updated>2006-05-16T21:22:00+02:00</updated><entry><title>Marela is open...well, kind of</title><link href="http://markos.gaivo.net/articles/marela-is-openwell-kind-of.html" rel="alternate"></link><updated>2006-05-16T21:22:00+02:00</updated><author><name>markos</name></author><id>tag:markos.gaivo.net,2006-05-16:articles/marela-is-openwell-kind-of.html</id><summary type="html">&lt;div&gt;
+ &lt;p&gt;
+  &lt;a href="http://www.marela.si"&gt;
+   Marela
+  &lt;/a&gt;
+  is accepting new members. Only by invitation for now, but it’s not that difficult to get one. Just
+  &lt;a href="http://markos.gaivo.net"&gt;
+   email me
+  &lt;/a&gt;
+  , if you’d like one.
+ &lt;/p&gt;
+ &lt;p&gt;
+  For the curious ones, who’d like to avoid registration, it’s best described as
+  &lt;a href="http://www.flickr.com"&gt;
+   Flickr
+  &lt;/a&gt;
+  lite for slovenians (and those who don’t mind the language). It will grow in its own direction, hopefully fast, but you have to start somewhere.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Those, who like programming might also check out its
+  &lt;a href="http://www.marela.si/dev/api" title="Link to API"&gt;
+   API
+  &lt;/a&gt;
+  . And if you have any questions, do ask me or
+  &lt;a href="http://www.trepca.si/blog/" title="Link to Sebastjan's blog"&gt;
+   Sebastjan
+  &lt;/a&gt;
+  .
+ &lt;/p&gt;
+&lt;/div&gt;</summary></entry><entry><title>Micropayments and IndieKarma</title><link href="http://markos.gaivo.net/articles/micropayments-and-indiekarma.html" rel="alternate"></link><updated>2006-05-10T14:26:00+02:00</updated><author><name>markos</name></author><id>tag:markos.gaivo.net,2006-05-10:articles/micropayments-and-indiekarma.html</id><summary type="html">&lt;div&gt;
+ &lt;p&gt;
+  A few days ago I read about
+  &lt;a href="http://www.indiekarma.com/"&gt;
+   IndieKarma
+  &lt;/a&gt;
+  on Jason Kottke’s
+  &lt;a href="http://www.kottke.org/06/05/indiekarma-micropayments"&gt;
+   blog
+  &lt;/a&gt;
+  . I agree with most of his remarks and I have a couple of my own.
+ &lt;/p&gt;
+ &lt;p&gt;
+  I dislike the fact that IndieKarma is another walled garden. It means that both the content publisher and visitor must use the same system for transaction to occur and that’s a lot to ask. Building a more open system, which would allow transactions between parties belonging to different systems and wouldn’t be prone to abuse, is difficult and is probably one of the reasons why it hasn’t happened yet.
+ &lt;/p&gt;
+ &lt;p&gt;
+  But I think it’s also a necessity for small companies like
+  &lt;a href="http://www.indiekarma.com/About.xhtml"&gt;
+   PixelPass
+  &lt;/a&gt;
+  , since as a visitor I’m unlikely to use more than a couple of such systems. Same goes for me as a publisher. If my reach is limited to websites using same service as me, then they’ll have a hard time getting traction. It will also be impossible to compete with big boys if they decide to move in this space.
+ &lt;/p&gt;
+ &lt;p&gt;
+  IndieKarma is also a very apt name for a service that by its very nature is completely voluntary. Even if it was widely used on websites, it wouldn’t amount to much without people willing to spend money when they don’t have to. I’m sure there are lots of well-intentioned folks out there, but the enormous prevalence of ad supported services and the fact that most users
+  &lt;a href="http://www.thinkvitamin.com/features/webapps/will-your-web-app-make-money"&gt;
+   will be freeloaders
+  &lt;/a&gt;
+  makes me doubtful.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Still, it’s a nice idea with approach that might work. I certainly hope it does.
+ &lt;/p&gt;
+&lt;/div&gt;</summary></entry><entry><title>Safe data</title><link href="http://markos.gaivo.net/articles/safe-data.html" rel="alternate"></link><updated>2006-02-14T12:25:00+01:00</updated><author><name>markos</name></author><id>tag:markos.gaivo.net,2006-02-14:articles/safe-data.html</id><summary type="html">&lt;div&gt;
+ &lt;p&gt;
+  I caught an interesting
+  &lt;a href="http://radar.oreilly.com/archives/2006/02/web_apps_single_point_of_subpo.html"&gt;
+   observation
+  &lt;/a&gt;
+  on O’Reilly’s Radar. In my opinion there are two problems that web users should pay attention to. One, as noted on Radar, is privacy and the other is reliability of your service provider.
+ &lt;/p&gt;
+ &lt;p&gt;
+  There are limits to what we can do about either of them as a company. We built Marela on a fault-tolerant system using solid hardware and think user’s data is reasonably safe from data loss and intrusions. Like others we can’t rule it out completely, but I think it was worth it to build a safer system than our competition even if users often don’t care (until it’s too late).
+ &lt;/p&gt;
+ &lt;p&gt;
+  We also don’t collect any personal data we don’t actually need and don’t store what we do collect a minute longer than absolutely necessary. However, there’s little we can do about our legal obligations. Even though legislation in Slovenia is not quite the same as the one cited in the article, it’s still true that it’s easier for law-enforcement institutions to legally access your data (unknown to you) if it’s not residing on your personal computer. We are eating our own dog food, so this doesn’t make us happy either.
+ &lt;/p&gt;
+ &lt;p&gt;
+  I still think it’s dumb to have all your data stored only on your personal computer, especially since vast majority of computer users seldom if ever make backups. Encryption can go a long way in protecting data from prying eyes, but what I wish most is simply for people to be more aware.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Without awareness there’s little hope for improving the legislation and practices of our industry.
+ &lt;/p&gt;
+&lt;/div&gt;</summary></entry><entry><title>The End of Internet?</title><link href="http://markos.gaivo.net/articles/the-end-of-internet.html" rel="alternate"></link><updated>2006-02-02T22:33:00+01:00</updated><author><name>markos</name></author><id>tag:markos.gaivo.net,2006-02-02:articles/the-end-of-internet.html</id><summary type="html">&lt;div&gt;
+ &lt;p&gt;
+  &lt;a href="http://www.thenation.com/doc/20060213/chester"&gt;
+   Scary.
+  &lt;/a&gt;
+ &lt;/p&gt;
+&lt;/div&gt;</summary></entry><entry><title>Ads are gone</title><link href="http://markos.gaivo.net/articles/ads-are-gone.html" rel="alternate"></link><updated>2005-11-17T18:02:00+01:00</updated><author><name>markos</name></author><id>tag:markos.gaivo.net,2005-11-17:articles/ads-are-gone.html</id><summary type="html">&lt;div&gt;
+ &lt;p&gt;
+  After a bit less than a month, but enough traffic to give me an idea what to expect, I decided to remove Google ads. I earned a dollar. Well, almost anyway.
+ &lt;/p&gt;
+ &lt;p&gt;
+  My decision to end it was made easier when I discovered this, where ads were supposed to be:
+  &lt;br/&gt;
+  &lt;a href="http://markos.gaivo.net/images/searchads-small.gif" title="Full size screenshot of search ads"&gt;
+   &lt;img alt="Search ads?" height="65" src="http://markos.gaivo.net/images/searchads-small.gif" style="border: thin solid #666; margin: 5px;" width="370"/&gt;
+  &lt;/a&gt;
+ &lt;/p&gt;
+ &lt;p&gt;
+  Wtf?
+ &lt;/p&gt;
+ &lt;p&gt;
+  I tried to follow Google’s advice. I picked the most successful formats (but also experimented with others), put them at premium places and choose colors that blend in. Result was a buck and a revelation that on my site even old-fashion banners would be more profitable.
+ &lt;/p&gt;
+ &lt;p&gt;
+  I have no real explanation for disappointing results. Since I’m not fond of ads either, I stayed with number of ad boxes I felt most comfortable with (usually just one) and used only text ads. It’s possible that I’d have more luck with image ads, but it doesn’t really matter, since I dislike them enough that they wouldn’t be acceptable anyway.
+ &lt;/p&gt;
+ &lt;p&gt;
+  It’s also possible and even probable, that the problem was with content of pages. I’ve certainly noticed what often seemed at best a poor match between displayed content and ads.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Sadly there weren’t enough clicks to merit a more involved analysis. Maybe some other time, when I have a new idea worth exploring and get better results.
+ &lt;/p&gt;
+ &lt;p&gt;
+  What has been your experience with AdSense?
+ &lt;/p&gt;
+&lt;/div&gt;</summary></entry></feed>

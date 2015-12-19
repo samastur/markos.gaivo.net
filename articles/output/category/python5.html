@@ -22,7 +22,7 @@
 
 <section class="envelope posts">
     <header>
-        <h1><a href="http://markos.gaivo.net/articles/">A notch above a monkey <strong></strong></a></h1>
+        <h1><a href="../">A notch above a monkey <strong></strong></a></h1>
     </header><!-- /#banner -->
 
     <nav class="colophon">
@@ -34,146 +34,134 @@
     </nav>
 
         <article class="hentry">
-            <h1 class="entry-title storytitle"><a href="http://markos.gaivo.net/articles/beloved-python-filter.html" rel="bookmark" title="Permalink to Beloved python filter">Beloved python filter</a></h1>
+            <h1 class="entry-title storytitle"><a href="../beloved-python-filter.html" rel="bookmark" title="Permalink to Beloved python filter">Beloved python filter</a></h1>
 
             <div class="entry-content post-text">
-                <p><html>
- <body>
-  <div>
-   <p>
-    Is it just me or does anybody else find it easier to write:
-   </p>
-   <p>
-    <code>
-     elmList = filter( len, elmList )
-    </code>
-   </p>
-   <p>
-    then
-   </p>
-   <p>
-    <code>
-     elmList = [ x for x in elmList if len(x) ]
-    </code>
-   </p>
-   <p>
-    I don’t know why, but if I want to use the second form, I always have to look it up
-    <a href="http://www.artima.com/weblogs/viewpost.jsp?thread=98196">
-     somewhere
-    </a>
-    . I know
-    <em>
-     filter
-    </em>
-    and friends are frowned upon, but I can’t stop liking them.
-   </p>
-  </div>
- </body>
-</html></p>
+                <div>
+ <p>
+  Is it just me or does anybody else find it easier to write:
+ </p>
+ <p>
+  <code>
+   elmList = filter( len, elmList )
+  </code>
+ </p>
+ <p>
+  then
+ </p>
+ <p>
+  <code>
+   elmList = [ x for x in elmList if len(x) ]
+  </code>
+ </p>
+ <p>
+  I don’t know why, but if I want to use the second form, I always have to look it up
+  <a href="http://www.artima.com/weblogs/viewpost.jsp?thread=98196">
+   somewhere
+  </a>
+  . I know
+  <em>
+   filter
+  </em>
+  and friends are frowned upon, but I can’t stop liking them.
+ </p>
+</div>
             </div><!-- /.entry-content -->
 
             <footer class="post-metadata">
                 <ul>
                     <li>Published on <time datetime="2005-12-17T23:07:00+01:00">Sat 17 December 2005</time> </li>
-                    <li><a href="http://markos.gaivo.net/articles/beloved-python-filter.html">Add your comment</a></li>
+                    <li><a href="../beloved-python-filter.html">Add your comment</a></li>
                 </ul>
             </footer>
         </article>
         <article class="hentry">
-            <h1 class="entry-title storytitle"><a href="http://markos.gaivo.net/articles/dreaming-about-gil.html" rel="bookmark" title="Permalink to Dreaming about GIL">Dreaming about GIL</a></h1>
+            <h1 class="entry-title storytitle"><a href="../dreaming-about-gil.html" rel="bookmark" title="Permalink to Dreaming about GIL">Dreaming about GIL</a></h1>
 
             <div class="entry-content post-text">
-                <p><html>
- <body>
-  <div>
-   <p>
-    I’ve been thinking about Python’s global interpreter lock (GIL) again. Since I’m a glutton for punishment and haven’t been crucified in a week, you get to hear about it too.
-   </p>
-   <p>
-    Has anybody thought and wrote about avoiding GIL until you need it? What I mean is creating and using GIL only when you start using code that might not be thread-safe.
-   </p>
-   <p>
-    So, what’s wrong with this idea?
-   </p>
-   <p>
-    Things that come to my mind:
-   </p>
-   <ul>
-    <li>
-     garbage collector is not thread-safe
-    </li>
-    <li>
-     majority of interesting modules are not thread-safe, so there would be little ROI
-    </li>
-    <li>
-     dynamic nature of Python means you can’t know in advance if you’ll need GIL and it would a bitch to fall back when you do
-    </li>
-    <li>
-     …
-    </li>
-   </ul>
-   <p>
-    I guess it’s just a really stupid idea.
-   </p>
-  </div>
- </body>
-</html></p>
+                <div>
+ <p>
+  I’ve been thinking about Python’s global interpreter lock (GIL) again. Since I’m a glutton for punishment and haven’t been crucified in a week, you get to hear about it too.
+ </p>
+ <p>
+  Has anybody thought and wrote about avoiding GIL until you need it? What I mean is creating and using GIL only when you start using code that might not be thread-safe.
+ </p>
+ <p>
+  So, what’s wrong with this idea?
+ </p>
+ <p>
+  Things that come to my mind:
+ </p>
+ <ul>
+  <li>
+   garbage collector is not thread-safe
+  </li>
+  <li>
+   majority of interesting modules are not thread-safe, so there would be little ROI
+  </li>
+  <li>
+   dynamic nature of Python means you can’t know in advance if you’ll need GIL and it would a bitch to fall back when you do
+  </li>
+  <li>
+   …
+  </li>
+ </ul>
+ <p>
+  I guess it’s just a really stupid idea.
+ </p>
+</div>
             </div><!-- /.entry-content -->
 
             <footer class="post-metadata">
                 <ul>
                     <li>Published on <time datetime="2005-10-11T15:38:00+02:00">Tue 11 October 2005</time> </li>
-                    <li><a href="http://markos.gaivo.net/articles/dreaming-about-gil.html">Add your comment</a></li>
+                    <li><a href="../dreaming-about-gil.html">Add your comment</a></li>
                 </ul>
             </footer>
         </article>
         <article class="hentry">
-            <h1 class="entry-title storytitle"><a href="http://markos.gaivo.net/articles/best-tool-for-the-job.html" rel="bookmark" title="Permalink to Best tool for the job">Best tool for the job</a></h1>
+            <h1 class="entry-title storytitle"><a href="../best-tool-for-the-job.html" rel="bookmark" title="Permalink to Best tool for the job">Best tool for the job</a></h1>
 
             <div class="entry-content post-text">
-                <p><html>
- <body>
-  <div>
-   <p>
-    Sometimes, I really am an idiot. A couple of years ago I was involved in development of a front-end Zope application for a major Slovenian ISP with more than 100 000 users. No matter what we did, Zope just wasn’t fast. In fact it was so slow, it was soon abandoned for one more suitable solution.
-   </p>
-   <p>
-    The failure of our project was largely my fault, because I haven’t made sure Zope was a good fit for what we wanted. I learned a lot, but it also left a bitter aftertaste and a question, why are people using it?
-   </p>
-   <p>
-    The obvious answer is of course, because it DOES fit their needs. It’s just that they are not building a site or an application that needs to handle few hundred simultaneous requests. They handle a few at most, so Zope or Plone or what-have-you is more than speedy enough and it’s their features that count.
-   </p>
-   <p>
-    It really took me awhile to grasp this and it only became really clear this week, after reading a little
-    <a href="http://www.larsen-b.com/Article/217.html">
-     Plone benchmark
-    </a>
-    and having a discussion with
-    <a href="http://seba.antiwisdom.com" title="Sebastjan's blog">
-     Sebastjan
-    </a>
-    about slowness of Slovenian sites.
-   </p>
-   <p>
-    On a positive note, we generate pages in less than 6 ms now and can reduce it even further, if needed.
-   </p>
-  </div>
- </body>
-</html></p>
+                <div>
+ <p>
+  Sometimes, I really am an idiot. A couple of years ago I was involved in development of a front-end Zope application for a major Slovenian ISP with more than 100 000 users. No matter what we did, Zope just wasn’t fast. In fact it was so slow, it was soon abandoned for one more suitable solution.
+ </p>
+ <p>
+  The failure of our project was largely my fault, because I haven’t made sure Zope was a good fit for what we wanted. I learned a lot, but it also left a bitter aftertaste and a question, why are people using it?
+ </p>
+ <p>
+  The obvious answer is of course, because it DOES fit their needs. It’s just that they are not building a site or an application that needs to handle few hundred simultaneous requests. They handle a few at most, so Zope or Plone or what-have-you is more than speedy enough and it’s their features that count.
+ </p>
+ <p>
+  It really took me awhile to grasp this and it only became really clear this week, after reading a little
+  <a href="http://www.larsen-b.com/Article/217.html">
+   Plone benchmark
+  </a>
+  and having a discussion with
+  <a href="http://seba.antiwisdom.com" title="Sebastjan's blog">
+   Sebastjan
+  </a>
+  about slowness of Slovenian sites.
+ </p>
+ <p>
+  On a positive note, we generate pages in less than 6 ms now and can reduce it even further, if needed.
+ </p>
+</div>
             </div><!-- /.entry-content -->
 
             <footer class="post-metadata">
                 <ul>
                     <li>Published on <time datetime="2005-09-28T20:57:00+02:00">Wed 28 September 2005</time> </li>
-                    <li><a href="http://markos.gaivo.net/articles/best-tool-for-the-job.html">Add your comment</a></li>
+                    <li><a href="../best-tool-for-the-job.html">Add your comment</a></li>
                 </ul>
             </footer>
         </article>
 
 <p class="paginator">
-        <a href="http://markos.gaivo.net/articles/category/python4.html">&laquo;</a>
+        <a href="../category/python4.html">&laquo;</a>
     Page 5 / 6
-        <a href="http://markos.gaivo.net/articles/category/python6.html">&raquo;</a>
+        <a href="../category/python6.html">&raquo;</a>
 </p>
 </section><!-- /#content -->
 

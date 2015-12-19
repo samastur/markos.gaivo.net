@@ -1,23 +1,19 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>A notch above a monkey</title><link href="http://markos.gaivo.net/articles/" rel="alternate"></link><link href="/articles/feeds/javascript-python.atom.xml" rel="self"></link><id>http://markos.gaivo.net/articles/</id><updated>2006-08-18T22:11:00+02:00</updated><entry><title>Javascript 1.7</title><link href="http://markos.gaivo.net/articles/javascript-17.html" rel="alternate"></link><updated>2006-08-18T22:11:00+02:00</updated><author><name>markos</name></author><id>tag:markos.gaivo.net,2006-08-18:articles/javascript-17.html</id><summary type="html">&lt;p&gt;&lt;html&gt;
- &lt;body&gt;
-  &lt;div&gt;
-   &lt;p&gt;
-    I fairly often talk to developers with disdain for Javascript. I don’t blame them, since I used to share it. There are various reasons for it, some more valid than others, but one that almost never comes up is the very thing that bothers me most.
-   &lt;/p&gt;
-   &lt;p&gt;
-    I was reading about
-    &lt;a href="http://developer.mozilla.org/en/docs/New_in_JavaScript_1.7" title="Introduction to Javascript 1.7"&gt;
-     features
-    &lt;/a&gt;
-    promised for Javascript 1.7 which should be a part of Firefox 2.0 and I like lots of them. How wouldn’t I when only few of them can’t be found in Python.
-   &lt;/p&gt;
-   &lt;p&gt;
-    The thing is, most of the time I have almost absolute control of which version of Python, Java or what have you I’ll use. But when your code lives inside of a browser, you’re pretty much stuck with what’s out there and if my experience is anything to go by then I won’t be using new features widely before next decade.
-   &lt;/p&gt;
-   &lt;p&gt;
-    Who wants to wait that long?
-   &lt;/p&gt;
-  &lt;/div&gt;
- &lt;/body&gt;
-&lt;/html&gt;&lt;/p&gt;</summary></entry></feed>
+<feed xmlns="http://www.w3.org/2005/Atom"><title>A notch above a monkey</title><link href="http://markos.gaivo.net/articles/" rel="alternate"></link><link href="/articles/feeds/javascript-python.atom.xml" rel="self"></link><id>http://markos.gaivo.net/articles/</id><updated>2006-08-18T22:11:00+02:00</updated><entry><title>Javascript 1.7</title><link href="http://markos.gaivo.net/articles/javascript-17.html" rel="alternate"></link><updated>2006-08-18T22:11:00+02:00</updated><author><name>markos</name></author><id>tag:markos.gaivo.net,2006-08-18:articles/javascript-17.html</id><summary type="html">&lt;div&gt;
+ &lt;p&gt;
+  I fairly often talk to developers with disdain for Javascript. I don’t blame them, since I used to share it. There are various reasons for it, some more valid than others, but one that almost never comes up is the very thing that bothers me most.
+ &lt;/p&gt;
+ &lt;p&gt;
+  I was reading about
+  &lt;a href="http://developer.mozilla.org/en/docs/New_in_JavaScript_1.7" title="Introduction to Javascript 1.7"&gt;
+   features
+  &lt;/a&gt;
+  promised for Javascript 1.7 which should be a part of Firefox 2.0 and I like lots of them. How wouldn’t I when only few of them can’t be found in Python.
+ &lt;/p&gt;
+ &lt;p&gt;
+  The thing is, most of the time I have almost absolute control of which version of Python, Java or what have you I’ll use. But when your code lives inside of a browser, you’re pretty much stuck with what’s out there and if my experience is anything to go by then I won’t be using new features widely before next decade.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Who wants to wait that long?
+ &lt;/p&gt;
+&lt;/div&gt;</summary></entry></feed>

@@ -1,296 +1,256 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>A notch above a monkey</title><link href="http://markos.gaivo.net/articles/" rel="alternate"></link><link href="/articles/feeds/python.atom.xml" rel="self"></link><id>http://markos.gaivo.net/articles/</id><updated>2013-03-24T19:48:00+01:00</updated><entry><title>Exporting tagged articles from Google Reader</title><link href="http://markos.gaivo.net/articles/exporting-tagged-items-from-google-reader.html" rel="alternate"></link><updated>2013-03-24T19:48:00+01:00</updated><author><name>markos</name></author><id>tag:markos.gaivo.net,2013-03-24:articles/exporting-tagged-items-from-google-reader.html</id><summary type="html">&lt;p&gt;&lt;html&gt;
- &lt;body&gt;
-  &lt;div&gt;
-   &lt;p&gt;
-    Google Reader for me was never just a way to plow through a large number of feeds, but also a database of important articles that I lovingly annotated with tags and notes when they still existed. Apparently I was in minority, judging by Reader clients and more importantly its own exporting tools which lets you take away most of your stuff, but not tagged items themselves.
-   &lt;/p&gt;
-   &lt;p&gt;
-    Hence I wrote a quick and dirty Python script which allows you to do just that using
-    &lt;a href="https://pypi.python.org/pypi/libgreader"&gt;
-     libgreader
-    &lt;/a&gt;
-    . You can find
-    &lt;a href="https://github.com/samastur/GReader-hoover"&gt;
-     it on Github
-    &lt;/a&gt;
-    and it has few other features like exporting all feed articles. Who knows how long Feedburner will be around so next step will be resolving those links.
-   &lt;/p&gt;
-   &lt;p&gt;
-    My current backup amounts to almost 500MB so script is obviously useful to me. Hopefully it is also to others.  If you find bugs or data that is not exported, but should be, please do let me know.
-   &lt;/p&gt;
-   &lt;p&gt;
-    I am also looking for a good alternative that is
-    &lt;strong&gt;
-     not hosted only
-    &lt;/strong&gt;
-    service, supports archiving and can process most feeds. Currently I am biased to modifying Newsblur to support tagging and running my own instance, but I would definitely prefer to avoid this work if possible.
-   &lt;/p&gt;
-  &lt;/div&gt;
- &lt;/body&gt;
-&lt;/html&gt;&lt;/p&gt;</summary><category term="backup"></category><category term="backup"></category><category term="export"></category><category term="export"></category><category term="Google"></category><category term="Google"></category><category term="openweb"></category><category term="openweb"></category><category term="Python"></category><category term="Python"></category><category term="reader"></category><category term="reader"></category><category term="script"></category><category term="script"></category></entry><entry><title>EuroPython submission deadline is around the corner</title><link href="http://markos.gaivo.net/articles/europython-submission-deadline-is-around-the-corner.html" rel="alternate"></link><updated>2010-04-26T20:28:00+02:00</updated><author><name>markos</name></author><id>tag:markos.gaivo.net,2010-04-26:articles/europython-submission-deadline-is-around-the-corner.html</id><summary type="html">&lt;p&gt;&lt;html&gt;
- &lt;body&gt;
-  &lt;div&gt;
-   &lt;p&gt;
-    April is about to end and with it also the deadline to
-    &lt;a href="http://www.europython.eu/talks/cfp/"&gt;
-     submit your EuroPython talk
-    &lt;/a&gt;
-    . I thought about submitting a proposal, but realized it would be nuts to do so with my current workload.
-   &lt;/p&gt;
-   &lt;p&gt;
-    It would also be nuts not to go and if you are a European (or not) Python developer you owe it to yourself to come.
-   &lt;/p&gt;
-   &lt;p&gt;
-    I go to a few conferences every year and each has its own personality. It is sometimes hard to point at what makes them (feel) different, but they just are. I like many, but only EuroPython, which I regretfully had to miss last year, feels like home.
-   &lt;/p&gt;
-   &lt;p&gt;
-    That’s why I decided to volunteer this year. It’s a way to give a little bit back, like cleaning dishes when you visit mom.
-   &lt;/p&gt;
-   &lt;p&gt;
-    So do submit your talk and come. It won’t be the same without you.
-   &lt;/p&gt;
-   &lt;div class="zemanta-pixie"&gt;
-    &lt;a class="zemanta-pixie-a" href="http://reblog.zemanta.com/zemified/3f88ab5e-3d0f-410e-957f-6828cee4d640/" title="Reblog this post [with Zemanta]"&gt;
-     &lt;img alt="Reblog this post [with Zemanta]" class="zemanta-pixie-img" src="http://img.zemanta.com/reblog_e.png?x-id=3f88ab5e-3d0f-410e-957f-6828cee4d640"/&gt;
-    &lt;/a&gt;
-   &lt;/div&gt;
-  &lt;/div&gt;
- &lt;/body&gt;
-&lt;/html&gt;&lt;/p&gt;</summary><category term="conference"></category><category term="conference"></category><category term="promotion"></category><category term="promotion"></category><category term="Python"></category><category term="Python"></category></entry><entry><title>Going home</title><link href="http://markos.gaivo.net/articles/going-home.html" rel="alternate"></link><updated>2008-07-10T10:02:00+02:00</updated><author><name>markos</name></author><id>tag:markos.gaivo.net,2008-07-10:articles/going-home.html</id><summary type="html">&lt;p&gt;&lt;html&gt;
- &lt;body&gt;
-  &lt;div&gt;
-   &lt;p&gt;
-    EuroPython 2008 is over. I packed and now I am waiting to leave for the airport to catch afternoon flight back home. Sadly I don’t have time to attend sprints and since I only recently started to write python again, I probably wouldn’t be of much use anyhow.
-   &lt;/p&gt;
-   &lt;p&gt;
-    Conference itself was great. Smaller than web conferences I usually attend with a more friendly, homey feeling, but with plenty of excellent talks where I learned a lot. I also met a bunch of friendly interesting people and had in general a wonderful time.
-   &lt;/p&gt;
-   &lt;p&gt;
-    It was also interesting to compare the whole experience with other conferences I go to. Apple is popular, but there are fewer
-    &lt;a class="zem_slink" href="http://en.wikipedia.org/wiki/Macintosh" rel="wikipedia" title="Macintosh"&gt;
-     Macs
-    &lt;/a&gt;
-    than at web events.
-    &lt;a class="zem_slink" href="http://www.ubuntu.com/" rel="homepage" title="Ubuntu (operating system)"&gt;
-     Ubuntu
-    &lt;/a&gt;
-    seems to completely dominate
-    &lt;a class="zem_slink" href="http://en.wikipedia.org/wiki/Linux" rel="wikipedia" title="Linux"&gt;
-     Linux
-    &lt;/a&gt;
-    crowd (me included), since it was the only distribution I actually have seen and Windows is in minority. Everyone is much more willing to participate to the point, where sadly not all who wanted to present a Lightning talk on last day had the opportunity to do so.
-   &lt;/p&gt;
-   &lt;p&gt;
-    I certainly hope to attend EuroPython 2009, which will be in Birmingham around this time next year. At the end I also have a present. Yesterday I got a license for
-    &lt;a class="zem_slink" href="http://www.wingware.com" rel="homepage" title="Wing IDE"&gt;
-     Wing IDE
-    &lt;/a&gt;
-    Professional and since I don’t need one, I’ll give it to the first person who expresses a wish to have it in comments and leaves his/her email address in relevant part of comment form.
-   &lt;/p&gt;
-   &lt;p&gt;
-    &lt;strong&gt;
-     Update
-    &lt;/strong&gt;
-    : License is gone, sent to a new owner.
-   &lt;/p&gt;
-   &lt;div class="zemanta-pixie" style="margin-top: 10px; height: 15px;"&gt;
-    &lt;a class="zemanta-pixie-a" href="http://reblog.zemanta.com/zemified/a6262891-3f96-4b97-8bf6-949cb83cba0e/" title="Zemified by Zemanta"&gt;
-     &lt;img alt="Zemanta Pixie" class="zemanta-pixie-img" src="http://img.zemanta.com/reblog_e.png?x-id=a6262891-3f96-4b97-8bf6-949cb83cba0e" style="border: medium none; float: right;"/&gt;
-    &lt;/a&gt;
-   &lt;/div&gt;
-  &lt;/div&gt;
- &lt;/body&gt;
-&lt;/html&gt;&lt;/p&gt;</summary><category term="europython"></category><category term="europython"></category><category term="europython2008"></category><category term="europython2008"></category><category term="Languages"></category><category term="Languages"></category><category term="Open source"></category><category term="Open source"></category><category term="Programming"></category><category term="Programming"></category><category term="Python"></category><category term="Python"></category></entry><entry><title>G1G1 is in the house</title><link href="http://markos.gaivo.net/articles/g1g1-is-in-the-house.html" rel="alternate"></link><updated>2008-01-07T23:22:00+01:00</updated><author><name>markos</name></author><id>tag:markos.gaivo.net,2008-01-07:articles/g1g1-is-in-the-house.html</id><summary type="html">&lt;p&gt;&lt;html&gt;
- &lt;body&gt;
-  &lt;div&gt;
-   &lt;p&gt;
-    It’s here. After months of hoping and weeks of waiting, little white-green computer is finally here, on my desk:
-    &lt;br/&gt;
-    &lt;a class="imageL" href="http://www.marela.si/photos/20257"&gt;
-     &lt;img alt="XO" src="http://static.marela.si/users0/markos/2/c6yTQyOe_QdCrt4q55QsRpZBUO0.jpg"/&gt;
-    &lt;/a&gt;
-    &lt;a class="imageL" href="http://www.marela.si/photos/20256"&gt;
-     &lt;img alt="XO with Powerbook G4" src="http://static.marela.si/users0/markos/2/1L7zJkVx0em0P8PaV3Y_-cNX788.jpg"/&gt;
-    &lt;/a&gt;
-   &lt;/p&gt;
-   &lt;p style="clear:left"&gt;
-    It’s too early for anything but first impressions, but unlike some people mine are completely positive. This doesn’t mean everything works. It doesn’t like WPA-enabled wifi in our flat. Some parts are a bit flaky or unfinished. But on the whole I haven’t found problems yet that weren’t already documented on project’s wiki and in general it certainly works better than I expected.
-   &lt;/p&gt;
-   &lt;p&gt;
-    Time will tell if this infatuation will last, although I don’t see why not, since it offers everything I hoped for my projects. As a side note, if you live in Slovenia and someone sends you G1G1, be prepared to pay VAT also for the one that was bought abroad and shipped elsewhere. Yet another thing beyond my comprehension.
-   &lt;/p&gt;
-  &lt;/div&gt;
- &lt;/body&gt;
-&lt;/html&gt;&lt;/p&gt;</summary></entry><entry><title>bisect and subpar modules</title><link href="http://markos.gaivo.net/articles/bisect-and-sub-par-modules.html" rel="alternate"></link><updated>2006-12-07T23:36:00+01:00</updated><author><name>markos</name></author><id>tag:markos.gaivo.net,2006-12-07:articles/bisect-and-sub-par-modules.html</id><summary type="html">&lt;p&gt;&lt;html&gt;
- &lt;body&gt;
-  &lt;div&gt;
-   &lt;p&gt;
-    I was talking to a colleague yesterday, who’s a recent Python convert and he was explaining to me which parts of Python are not to his liking. Mostly he had reasonable objections.
-   &lt;/p&gt;
-   &lt;p&gt;
-    I can understand his wish for strong typing, but since lack of it is not a problem that affected me yet, I’m not bothered by it. I’ll take his word that objects pickled on Windows are not transferable to Linux and that certainly can suck. But it was probably the smallest problem that resonated the strongest with me, since it was something that has annoyed me previously.
-   &lt;/p&gt;
-   &lt;p&gt;
-    Bisect module doesn’t let you specify comparison function. It obviously doesn’t need to, since you can define your own comparison methods on your classes, but still, it would be nice if its documentation included a hint for those who won’t look at module’s code or think of simply trying. You know, people like me.
-   &lt;/p&gt;
-   &lt;p&gt;
-    It got me thinking that I don’t find all modules in standard library of the same quality and I suspect I’m not the only one. I don’t mean to or honestly can disparage anyone, since I haven’t seen any code in standard library that would be worse than mine.
-   &lt;/p&gt;
-   &lt;p&gt;
-    Still, which modules do you think would benefit from some work and how could an eager person, with some time on his hands, help them improve?
-   &lt;/p&gt;
-  &lt;/div&gt;
- &lt;/body&gt;
-&lt;/html&gt;&lt;/p&gt;</summary></entry><entry><title>Henry the Adequate</title><link href="http://markos.gaivo.net/articles/henry-the-adequate.html" rel="alternate"></link><updated>2006-05-22T20:17:00+02:00</updated><author><name>markos</name></author><id>tag:markos.gaivo.net,2006-05-22:articles/henry-the-adequate.html</id><summary type="html">&lt;p&gt;&lt;html&gt;
- &lt;body&gt;
-  &lt;div&gt;
-   &lt;p&gt;
-    Finally somebody who makes
-    &lt;a href="http://weblog.henrytheadequate.com/?p=348"&gt;
-     sense
-    &lt;/a&gt;
-    .
-   &lt;/p&gt;
-  &lt;/div&gt;
- &lt;/body&gt;
-&lt;/html&gt;&lt;/p&gt;</summary></entry><entry><title>Python's most valued</title><link href="http://markos.gaivo.net/articles/pythons-most-valued.html" rel="alternate"></link><updated>2006-05-04T11:53:00+02:00</updated><author><name>markos</name></author><id>tag:markos.gaivo.net,2006-05-04:articles/pythons-most-valued.html</id><summary type="html">&lt;p&gt;&lt;html&gt;
- &lt;body&gt;
-  &lt;div&gt;
-   &lt;p&gt;
-    Yesterday was a lovely sunny day.
-    &lt;a href="http://www.trepca.si/blog/"&gt;
-     Sebastjan
-    &lt;/a&gt;
-    and I were sunbathing at a nearby cafe, sipping juice and talking as we often do about Python related things.
-   &lt;/p&gt;
-   &lt;p&gt;
-    I noted how I’d hate to see
-    &lt;a href="http://www.effbot.org/"&gt;
-     Fredrik Lundh
-    &lt;/a&gt;
-    being swallowed by the black hole of Google, where too often good people go to never hear from them again. I simply can’t seem to write anything substantial in Python these days without relying on at least a piece of Fredrik’s code.
-   &lt;/p&gt;
-   &lt;p&gt;
-    Sebastjan doesn’t share my pessimism and he might be right. Forgetting my possibly unsubstantiated fears for a moment, which Pythonista’s loss would in your opinion hurt our beloved language the most?
-   &lt;/p&gt;
-  &lt;/div&gt;
- &lt;/body&gt;
-&lt;/html&gt;&lt;/p&gt;</summary></entry><entry><title>Python on series 60</title><link href="http://markos.gaivo.net/articles/python-on-series-60.html" rel="alternate"></link><updated>2006-04-20T10:24:00+02:00</updated><author><name>markos</name></author><id>tag:markos.gaivo.net,2006-04-20:articles/python-on-series-60.html</id><summary type="html">&lt;p&gt;&lt;html&gt;
- &lt;body&gt;
-  &lt;div&gt;
-   &lt;p&gt;
-    I knew it exists, but I haven’t looked into
-    &lt;a href="http://www.forum.nokia.com/python"&gt;
-     Python on series 60
-    &lt;/a&gt;
-    until yesterday and I wish I did so sooner. My mind is just flooded with ideas of what to do and I can easily see myself wasting lots of time playing with it. I do wish it was possible to build stand-alone applications, which wouldn’t require a separate installation of Python. As such I believe series 60 Python is more or less limited to prototyping and personal use.
-   &lt;/p&gt;
-   &lt;p&gt;
-    There’s one thing that is a problem for an old goat like me (over 30 and loving it). It’s a pain in the ass to type anything substantial on mobile phone and although some new phones (like Nokia N70) have predictive dictionary for my language, lots of them including mine don’t.
-   &lt;/p&gt;
-   &lt;p&gt;
-    I do have an idea on how to tackle this problem. Most of us have a vocabulary of few thousand words (unlike Shakespeare, who I’m told used 36 thousand of them), but we only use few hundred of them in our everyday life. Therefore if my text input heavy applications would continuously build a dictionary of words typed by user, they would fairly soon get a usable predictive dictionary for this particular user.
-   &lt;/p&gt;
-   &lt;p&gt;
-    There are downsides. You start with nothing and there’s a problem of how to build  a dictionary without annoying. You could tackle this by staying in learn-only mode until your dictionary-hit ratio rises above some threshold (80-90%?).
-   &lt;/p&gt;
-   &lt;p&gt;
-    There are also pluses. You get a dictionary that’s much better fitted to your user than a generic one, since it actually has words he uses. That is if I’m not underestimating dictionaries used in modern mobiles.
-   &lt;/p&gt;
-   &lt;p&gt;
-    What would make it even better is if such dictionary would be standardized so any application could use it.
-   &lt;/p&gt;
-   &lt;p&gt;
-    &lt;strong&gt;
-     Update: I was wrong, you
-    &lt;/strong&gt;
-    &lt;strong&gt;
-     &lt;a href="http://www.mobilenin.com/pys60/info_standalone_application.htm"&gt;
-      can
-     &lt;/a&gt;
-    &lt;/strong&gt;
-    &lt;strong&gt;
-     make a completely stand-alone application in Python. Sweet.
-     &lt;br/&gt;
-    &lt;/strong&gt;
-   &lt;/p&gt;
-  &lt;/div&gt;
- &lt;/body&gt;
-&lt;/html&gt;&lt;/p&gt;</summary></entry><entry><title>Updated sgmllib</title><link href="http://markos.gaivo.net/articles/updated-sgmllib.html" rel="alternate"></link><updated>2006-04-01T15:05:00+02:00</updated><author><name>markos</name></author><id>tag:markos.gaivo.net,2006-04-01:articles/updated-sgmllib.html</id><summary type="html">&lt;p&gt;&lt;html&gt;
- &lt;body&gt;
-  &lt;div&gt;
-   &lt;p&gt;
-    I
-    &lt;a href="sgmllibpy-parser-woes.html"&gt;
-     wrote
-    &lt;/a&gt;
-    about a sgmllib problem a few days ago. I still may be a dolt and my code certainly needed fixing, but the bug remained nevertheless.
-   &lt;/p&gt;
-   &lt;p&gt;
-    Hence I’ve made some small changes to sgmllib that fix problems I’ve had. New version, which passes all unit tests included in Python distribution, can be found
-    &lt;a href="http://markos.gaivo.net/examples/sgmllib/sgmllib.py" title="fixed sgmllib.py"&gt;
-     here
-    &lt;/a&gt;
-    and I’d really appreciate if users of sgmllib could give it a go (that includes users of htmllib and BeautifulSoup).
-   &lt;/p&gt;
-   &lt;p&gt;
-    &lt;strong&gt;
-     Update:
-    &lt;/strong&gt;
-    As suggested I’ve added an
-    &lt;a href="http://markos.gaivo.net/examples/sgmllib/test_sgmllib.py" title="Test cases for new library"&gt;
-     updated version
-    &lt;/a&gt;
-    of test_sgmllib.py, which includes an example where the old library fails and new one doesn’t.
-   &lt;/p&gt;
-   &lt;p&gt;
-    &lt;strong&gt;
-     Update 2
-    &lt;/strong&gt;
-    : It
-    &lt;a href="sgmllibpy-parser-woes.html"&gt;
-     seems
-    &lt;/a&gt;
-    this is valid, even required SGML behavior.
-   &lt;/p&gt;
-  &lt;/div&gt;
- &lt;/body&gt;
-&lt;/html&gt;&lt;/p&gt;</summary></entry><entry><title>sgmllib.py parser woes</title><link href="http://markos.gaivo.net/articles/sgmllibpy-parser-woes.html" rel="alternate"></link><updated>2006-03-28T20:51:00+02:00</updated><author><name>markos</name></author><id>tag:markos.gaivo.net,2006-03-28:articles/sgmllibpy-parser-woes.html</id><summary type="html">&lt;p&gt;&lt;html&gt;
- &lt;body&gt;
-  &lt;div&gt;
-   &lt;p&gt;
-    Does anybody have problems with sgmllib.py?
-   &lt;/p&gt;
-   &lt;p&gt;
-    After I spent way too much time hunting a bug in my code, I gave up, read the
-    &lt;em&gt;
-     goahead
-    &lt;/em&gt;
-    function in
-    &lt;em&gt;
-     sgmllib.py
-    &lt;/em&gt;
-    and I’m certain now that its parser is broken.
-   &lt;/p&gt;
-   &lt;p&gt;
-    Let’s say you’re handling a web page with inline Javascript code which also includes HTML tags. Even if you use a
-    &lt;em&gt;
-     setliteral
-    &lt;/em&gt;
-    method to skip processing data inside
-    &lt;em&gt;
-     &amp;lt;script&amp;gt;
-    &lt;/em&gt;
-    tags,
-    &lt;em&gt;
-     sgmllib.py
-    &lt;/em&gt;
-    will start doing so when it encounters first &amp;lt;/. It interprets this as a start of an end tag and tries  to close it. Even though code handles cases of known and unknown tags, it fails to do the right thing because it simply doesn’t expect a scenario where this isn’t a tag at all.
-   &lt;/p&gt;
-   &lt;p&gt;
-    The other possibility is that I’m simply a dolt who should do stuff like this only when rested. By the way, where’s the proper place to make an ass out of myself complaining about standard library?
-   &lt;/p&gt;
-  &lt;/div&gt;
- &lt;/body&gt;
-&lt;/html&gt;&lt;/p&gt;</summary></entry></feed>
+<feed xmlns="http://www.w3.org/2005/Atom"><title>A notch above a monkey</title><link href="http://markos.gaivo.net/articles/" rel="alternate"></link><link href="/articles/feeds/python.atom.xml" rel="self"></link><id>http://markos.gaivo.net/articles/</id><updated>2013-03-24T19:48:00+01:00</updated><entry><title>Exporting tagged articles from Google Reader</title><link href="http://markos.gaivo.net/articles/exporting-tagged-items-from-google-reader.html" rel="alternate"></link><updated>2013-03-24T19:48:00+01:00</updated><author><name>markos</name></author><id>tag:markos.gaivo.net,2013-03-24:articles/exporting-tagged-items-from-google-reader.html</id><summary type="html">&lt;div&gt;
+ &lt;p&gt;
+  Google Reader for me was never just a way to plow through a large number of feeds, but also a database of important articles that I lovingly annotated with tags and notes when they still existed. Apparently I was in minority, judging by Reader clients and more importantly its own exporting tools which lets you take away most of your stuff, but not tagged items themselves.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Hence I wrote a quick and dirty Python script which allows you to do just that using
+  &lt;a href="https://pypi.python.org/pypi/libgreader"&gt;
+   libgreader
+  &lt;/a&gt;
+  . You can find
+  &lt;a href="https://github.com/samastur/GReader-hoover"&gt;
+   it on Github
+  &lt;/a&gt;
+  and it has few other features like exporting all feed articles. Who knows how long Feedburner will be around so next step will be resolving those links.
+ &lt;/p&gt;
+ &lt;p&gt;
+  My current backup amounts to almost 500MB so script is obviously useful to me. Hopefully it is also to others.  If you find bugs or data that is not exported, but should be, please do let me know.
+ &lt;/p&gt;
+ &lt;p&gt;
+  I am also looking for a good alternative that is
+  &lt;strong&gt;
+   not hosted only
+  &lt;/strong&gt;
+  service, supports archiving and can process most feeds. Currently I am biased to modifying Newsblur to support tagging and running my own instance, but I would definitely prefer to avoid this work if possible.
+ &lt;/p&gt;
+&lt;/div&gt;</summary><category term="Google"></category><category term="script"></category><category term="Python"></category><category term="openweb"></category><category term="export"></category><category term="reader"></category><category term="backup"></category></entry><entry><title>EuroPython submission deadline is around the corner</title><link href="http://markos.gaivo.net/articles/europython-submission-deadline-is-around-the-corner.html" rel="alternate"></link><updated>2010-04-26T20:28:00+02:00</updated><author><name>markos</name></author><id>tag:markos.gaivo.net,2010-04-26:articles/europython-submission-deadline-is-around-the-corner.html</id><summary type="html">&lt;div&gt;
+ &lt;p&gt;
+  April is about to end and with it also the deadline to
+  &lt;a href="http://www.europython.eu/talks/cfp/"&gt;
+   submit your EuroPython talk
+  &lt;/a&gt;
+  . I thought about submitting a proposal, but realized it would be nuts to do so with my current workload.
+ &lt;/p&gt;
+ &lt;p&gt;
+  It would also be nuts not to go and if you are a European (or not) Python developer you owe it to yourself to come.
+ &lt;/p&gt;
+ &lt;p&gt;
+  I go to a few conferences every year and each has its own personality. It is sometimes hard to point at what makes them (feel) different, but they just are. I like many, but only EuroPython, which I regretfully had to miss last year, feels like home.
+ &lt;/p&gt;
+ &lt;p&gt;
+  That’s why I decided to volunteer this year. It’s a way to give a little bit back, like cleaning dishes when you visit mom.
+ &lt;/p&gt;
+ &lt;p&gt;
+  So do submit your talk and come. It won’t be the same without you.
+ &lt;/p&gt;
+ &lt;div class="zemanta-pixie"&gt;
+  &lt;a class="zemanta-pixie-a" href="http://reblog.zemanta.com/zemified/3f88ab5e-3d0f-410e-957f-6828cee4d640/" title="Reblog this post [with Zemanta]"&gt;
+   &lt;img alt="Reblog this post [with Zemanta]" class="zemanta-pixie-img" src="http://img.zemanta.com/reblog_e.png?x-id=3f88ab5e-3d0f-410e-957f-6828cee4d640"/&gt;
+  &lt;/a&gt;
+ &lt;/div&gt;
+&lt;/div&gt;</summary><category term="conference"></category><category term="Python"></category><category term="promotion"></category></entry><entry><title>Going home</title><link href="http://markos.gaivo.net/articles/going-home.html" rel="alternate"></link><updated>2008-07-10T10:02:00+02:00</updated><author><name>markos</name></author><id>tag:markos.gaivo.net,2008-07-10:articles/going-home.html</id><summary type="html">&lt;div&gt;
+ &lt;p&gt;
+  EuroPython 2008 is over. I packed and now I am waiting to leave for the airport to catch afternoon flight back home. Sadly I don’t have time to attend sprints and since I only recently started to write python again, I probably wouldn’t be of much use anyhow.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Conference itself was great. Smaller than web conferences I usually attend with a more friendly, homey feeling, but with plenty of excellent talks where I learned a lot. I also met a bunch of friendly interesting people and had in general a wonderful time.
+ &lt;/p&gt;
+ &lt;p&gt;
+  It was also interesting to compare the whole experience with other conferences I go to. Apple is popular, but there are fewer
+  &lt;a class="zem_slink" href="http://en.wikipedia.org/wiki/Macintosh" rel="wikipedia" title="Macintosh"&gt;
+   Macs
+  &lt;/a&gt;
+  than at web events.
+  &lt;a class="zem_slink" href="http://www.ubuntu.com/" rel="homepage" title="Ubuntu (operating system)"&gt;
+   Ubuntu
+  &lt;/a&gt;
+  seems to completely dominate
+  &lt;a class="zem_slink" href="http://en.wikipedia.org/wiki/Linux" rel="wikipedia" title="Linux"&gt;
+   Linux
+  &lt;/a&gt;
+  crowd (me included), since it was the only distribution I actually have seen and Windows is in minority. Everyone is much more willing to participate to the point, where sadly not all who wanted to present a Lightning talk on last day had the opportunity to do so.
+ &lt;/p&gt;
+ &lt;p&gt;
+  I certainly hope to attend EuroPython 2009, which will be in Birmingham around this time next year. At the end I also have a present. Yesterday I got a license for
+  &lt;a class="zem_slink" href="http://www.wingware.com" rel="homepage" title="Wing IDE"&gt;
+   Wing IDE
+  &lt;/a&gt;
+  Professional and since I don’t need one, I’ll give it to the first person who expresses a wish to have it in comments and leaves his/her email address in relevant part of comment form.
+ &lt;/p&gt;
+ &lt;p&gt;
+  &lt;strong&gt;
+   Update
+  &lt;/strong&gt;
+  : License is gone, sent to a new owner.
+ &lt;/p&gt;
+ &lt;div class="zemanta-pixie" style="margin-top: 10px; height: 15px;"&gt;
+  &lt;a class="zemanta-pixie-a" href="http://reblog.zemanta.com/zemified/a6262891-3f96-4b97-8bf6-949cb83cba0e/" title="Zemified by Zemanta"&gt;
+   &lt;img alt="Zemanta Pixie" class="zemanta-pixie-img" src="http://img.zemanta.com/reblog_e.png?x-id=a6262891-3f96-4b97-8bf6-949cb83cba0e" style="border: medium none; float: right;"/&gt;
+  &lt;/a&gt;
+ &lt;/div&gt;
+&lt;/div&gt;</summary><category term="Open source"></category><category term="Python"></category><category term="Programming"></category><category term="Languages"></category><category term="europython"></category><category term="europython2008"></category></entry><entry><title>G1G1 is in the house</title><link href="http://markos.gaivo.net/articles/g1g1-is-in-the-house.html" rel="alternate"></link><updated>2008-01-07T23:22:00+01:00</updated><author><name>markos</name></author><id>tag:markos.gaivo.net,2008-01-07:articles/g1g1-is-in-the-house.html</id><summary type="html">&lt;div&gt;
+ &lt;p&gt;
+  It’s here. After months of hoping and weeks of waiting, little white-green computer is finally here, on my desk:
+  &lt;br/&gt;
+  &lt;a class="imageL" href="http://www.marela.si/photos/20257"&gt;
+   &lt;img alt="XO" src="http://static.marela.si/users0/markos/2/c6yTQyOe_QdCrt4q55QsRpZBUO0.jpg"/&gt;
+  &lt;/a&gt;
+  &lt;a class="imageL" href="http://www.marela.si/photos/20256"&gt;
+   &lt;img alt="XO with Powerbook G4" src="http://static.marela.si/users0/markos/2/1L7zJkVx0em0P8PaV3Y_-cNX788.jpg"/&gt;
+  &lt;/a&gt;
+ &lt;/p&gt;
+ &lt;p style="clear:left"&gt;
+  It’s too early for anything but first impressions, but unlike some people mine are completely positive. This doesn’t mean everything works. It doesn’t like WPA-enabled wifi in our flat. Some parts are a bit flaky or unfinished. But on the whole I haven’t found problems yet that weren’t already documented on project’s wiki and in general it certainly works better than I expected.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Time will tell if this infatuation will last, although I don’t see why not, since it offers everything I hoped for my projects. As a side note, if you live in Slovenia and someone sends you G1G1, be prepared to pay VAT also for the one that was bought abroad and shipped elsewhere. Yet another thing beyond my comprehension.
+ &lt;/p&gt;
+&lt;/div&gt;</summary></entry><entry><title>bisect and subpar modules</title><link href="http://markos.gaivo.net/articles/bisect-and-sub-par-modules.html" rel="alternate"></link><updated>2006-12-07T23:36:00+01:00</updated><author><name>markos</name></author><id>tag:markos.gaivo.net,2006-12-07:articles/bisect-and-sub-par-modules.html</id><summary type="html">&lt;div&gt;
+ &lt;p&gt;
+  I was talking to a colleague yesterday, who’s a recent Python convert and he was explaining to me which parts of Python are not to his liking. Mostly he had reasonable objections.
+ &lt;/p&gt;
+ &lt;p&gt;
+  I can understand his wish for strong typing, but since lack of it is not a problem that affected me yet, I’m not bothered by it. I’ll take his word that objects pickled on Windows are not transferable to Linux and that certainly can suck. But it was probably the smallest problem that resonated the strongest with me, since it was something that has annoyed me previously.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Bisect module doesn’t let you specify comparison function. It obviously doesn’t need to, since you can define your own comparison methods on your classes, but still, it would be nice if its documentation included a hint for those who won’t look at module’s code or think of simply trying. You know, people like me.
+ &lt;/p&gt;
+ &lt;p&gt;
+  It got me thinking that I don’t find all modules in standard library of the same quality and I suspect I’m not the only one. I don’t mean to or honestly can disparage anyone, since I haven’t seen any code in standard library that would be worse than mine.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Still, which modules do you think would benefit from some work and how could an eager person, with some time on his hands, help them improve?
+ &lt;/p&gt;
+&lt;/div&gt;</summary></entry><entry><title>Henry the Adequate</title><link href="http://markos.gaivo.net/articles/henry-the-adequate.html" rel="alternate"></link><updated>2006-05-22T20:17:00+02:00</updated><author><name>markos</name></author><id>tag:markos.gaivo.net,2006-05-22:articles/henry-the-adequate.html</id><summary type="html">&lt;div&gt;
+ &lt;p&gt;
+  Finally somebody who makes
+  &lt;a href="http://weblog.henrytheadequate.com/?p=348"&gt;
+   sense
+  &lt;/a&gt;
+  .
+ &lt;/p&gt;
+&lt;/div&gt;</summary></entry><entry><title>Python's most valued</title><link href="http://markos.gaivo.net/articles/pythons-most-valued.html" rel="alternate"></link><updated>2006-05-04T11:53:00+02:00</updated><author><name>markos</name></author><id>tag:markos.gaivo.net,2006-05-04:articles/pythons-most-valued.html</id><summary type="html">&lt;div&gt;
+ &lt;p&gt;
+  Yesterday was a lovely sunny day.
+  &lt;a href="http://www.trepca.si/blog/"&gt;
+   Sebastjan
+  &lt;/a&gt;
+  and I were sunbathing at a nearby cafe, sipping juice and talking as we often do about Python related things.
+ &lt;/p&gt;
+ &lt;p&gt;
+  I noted how I’d hate to see
+  &lt;a href="http://www.effbot.org/"&gt;
+   Fredrik Lundh
+  &lt;/a&gt;
+  being swallowed by the black hole of Google, where too often good people go to never hear from them again. I simply can’t seem to write anything substantial in Python these days without relying on at least a piece of Fredrik’s code.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Sebastjan doesn’t share my pessimism and he might be right. Forgetting my possibly unsubstantiated fears for a moment, which Pythonista’s loss would in your opinion hurt our beloved language the most?
+ &lt;/p&gt;
+&lt;/div&gt;</summary></entry><entry><title>Python on series 60</title><link href="http://markos.gaivo.net/articles/python-on-series-60.html" rel="alternate"></link><updated>2006-04-20T10:24:00+02:00</updated><author><name>markos</name></author><id>tag:markos.gaivo.net,2006-04-20:articles/python-on-series-60.html</id><summary type="html">&lt;div&gt;
+ &lt;p&gt;
+  I knew it exists, but I haven’t looked into
+  &lt;a href="http://www.forum.nokia.com/python"&gt;
+   Python on series 60
+  &lt;/a&gt;
+  until yesterday and I wish I did so sooner. My mind is just flooded with ideas of what to do and I can easily see myself wasting lots of time playing with it. I do wish it was possible to build stand-alone applications, which wouldn’t require a separate installation of Python. As such I believe series 60 Python is more or less limited to prototyping and personal use.
+ &lt;/p&gt;
+ &lt;p&gt;
+  There’s one thing that is a problem for an old goat like me (over 30 and loving it). It’s a pain in the ass to type anything substantial on mobile phone and although some new phones (like Nokia N70) have predictive dictionary for my language, lots of them including mine don’t.
+ &lt;/p&gt;
+ &lt;p&gt;
+  I do have an idea on how to tackle this problem. Most of us have a vocabulary of few thousand words (unlike Shakespeare, who I’m told used 36 thousand of them), but we only use few hundred of them in our everyday life. Therefore if my text input heavy applications would continuously build a dictionary of words typed by user, they would fairly soon get a usable predictive dictionary for this particular user.
+ &lt;/p&gt;
+ &lt;p&gt;
+  There are downsides. You start with nothing and there’s a problem of how to build  a dictionary without annoying. You could tackle this by staying in learn-only mode until your dictionary-hit ratio rises above some threshold (80-90%?).
+ &lt;/p&gt;
+ &lt;p&gt;
+  There are also pluses. You get a dictionary that’s much better fitted to your user than a generic one, since it actually has words he uses. That is if I’m not underestimating dictionaries used in modern mobiles.
+ &lt;/p&gt;
+ &lt;p&gt;
+  What would make it even better is if such dictionary would be standardized so any application could use it.
+ &lt;/p&gt;
+ &lt;p&gt;
+  &lt;strong&gt;
+   Update: I was wrong, you
+  &lt;/strong&gt;
+  &lt;strong&gt;
+   &lt;a href="http://www.mobilenin.com/pys60/info_standalone_application.htm"&gt;
+    can
+   &lt;/a&gt;
+  &lt;/strong&gt;
+  &lt;strong&gt;
+   make a completely stand-alone application in Python. Sweet.
+   &lt;br/&gt;
+  &lt;/strong&gt;
+ &lt;/p&gt;
+&lt;/div&gt;</summary></entry><entry><title>Updated sgmllib</title><link href="http://markos.gaivo.net/articles/updated-sgmllib.html" rel="alternate"></link><updated>2006-04-01T15:05:00+02:00</updated><author><name>markos</name></author><id>tag:markos.gaivo.net,2006-04-01:articles/updated-sgmllib.html</id><summary type="html">&lt;div&gt;
+ &lt;p&gt;
+  I
+  &lt;a href="sgmllibpy-parser-woes.html"&gt;
+   wrote
+  &lt;/a&gt;
+  about a sgmllib problem a few days ago. I still may be a dolt and my code certainly needed fixing, but the bug remained nevertheless.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Hence I’ve made some small changes to sgmllib that fix problems I’ve had. New version, which passes all unit tests included in Python distribution, can be found
+  &lt;a href="http://markos.gaivo.net/examples/sgmllib/sgmllib.py" title="fixed sgmllib.py"&gt;
+   here
+  &lt;/a&gt;
+  and I’d really appreciate if users of sgmllib could give it a go (that includes users of htmllib and BeautifulSoup).
+ &lt;/p&gt;
+ &lt;p&gt;
+  &lt;strong&gt;
+   Update:
+  &lt;/strong&gt;
+  As suggested I’ve added an
+  &lt;a href="http://markos.gaivo.net/examples/sgmllib/test_sgmllib.py" title="Test cases for new library"&gt;
+   updated version
+  &lt;/a&gt;
+  of test_sgmllib.py, which includes an example where the old library fails and new one doesn’t.
+ &lt;/p&gt;
+ &lt;p&gt;
+  &lt;strong&gt;
+   Update 2
+  &lt;/strong&gt;
+  : It
+  &lt;a href="sgmllibpy-parser-woes.html"&gt;
+   seems
+  &lt;/a&gt;
+  this is valid, even required SGML behavior.
+ &lt;/p&gt;
+&lt;/div&gt;</summary></entry><entry><title>sgmllib.py parser woes</title><link href="http://markos.gaivo.net/articles/sgmllibpy-parser-woes.html" rel="alternate"></link><updated>2006-03-28T20:51:00+02:00</updated><author><name>markos</name></author><id>tag:markos.gaivo.net,2006-03-28:articles/sgmllibpy-parser-woes.html</id><summary type="html">&lt;div&gt;
+ &lt;p&gt;
+  Does anybody have problems with sgmllib.py?
+ &lt;/p&gt;
+ &lt;p&gt;
+  After I spent way too much time hunting a bug in my code, I gave up, read the
+  &lt;em&gt;
+   goahead
+  &lt;/em&gt;
+  function in
+  &lt;em&gt;
+   sgmllib.py
+  &lt;/em&gt;
+  and I’m certain now that its parser is broken.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Let’s say you’re handling a web page with inline Javascript code which also includes HTML tags. Even if you use a
+  &lt;em&gt;
+   setliteral
+  &lt;/em&gt;
+  method to skip processing data inside
+  &lt;em&gt;
+   &amp;lt;script&amp;gt;
+  &lt;/em&gt;
+  tags,
+  &lt;em&gt;
+   sgmllib.py
+  &lt;/em&gt;
+  will start doing so when it encounters first &amp;lt;/. It interprets this as a start of an end tag and tries  to close it. Even though code handles cases of known and unknown tags, it fails to do the right thing because it simply doesn’t expect a scenario where this isn’t a tag at all.
+ &lt;/p&gt;
+ &lt;p&gt;
+  The other possibility is that I’m simply a dolt who should do stuff like this only when rested. By the way, where’s the proper place to make an ass out of myself complaining about standard library?
+ &lt;/p&gt;
+&lt;/div&gt;</summary></entry></feed>

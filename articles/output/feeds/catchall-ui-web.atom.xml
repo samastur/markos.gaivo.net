@@ -1,31 +1,27 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>A notch above a monkey</title><link href="http://markos.gaivo.net/articles/" rel="alternate"></link><link href="/articles/feeds/catchall-ui-web.atom.xml" rel="self"></link><id>http://markos.gaivo.net/articles/</id><updated>2005-10-23T12:53:00+02:00</updated><entry><title>Flock</title><link href="http://markos.gaivo.net/articles/flock.html" rel="alternate"></link><updated>2005-10-23T12:53:00+02:00</updated><author><name>markos</name></author><id>tag:markos.gaivo.net,2005-10-23:articles/flock.html</id><summary type="html">&lt;p&gt;&lt;html&gt;
- &lt;body&gt;
-  &lt;div&gt;
-   &lt;p&gt;
-    I’ve been sporadically using
-    &lt;a href="http://www.flock.com/"&gt;
-     Flock
-    &lt;/a&gt;
-    for last two days and it’s an interesting take on a modern browser and social computing. Two features that I found most useful are bookmarks (or favorites, as flock calls them) integration with
-    &lt;a href="http://del.icio.us/"&gt;
-     del.icio.us
-    &lt;/a&gt;
-    and history index. Especially the last one.
-   &lt;/p&gt;
-   &lt;p&gt;
-    Flock indexes every downloaded page, so when you start typing a query in search window, it presents a list of matches from your history. Everytime I try to find a page in my browser history, I find myself amazed at how many pages I read every day.
-   &lt;/p&gt;
-   &lt;p&gt;
-    It’s one of those in hindsight obvious features that I hope, expect really, to see in other browsers fairly soon. It’s just makes sense.
-   &lt;/p&gt;
-   &lt;p&gt;
-    It’s less obvious how you make money with software that you can’t charge for. Opera demonstrated (and Flock intends to
-    &lt;a href="http://www.decrem.com/bart/2005/10/creating-sustainable-value/" title="Description of Flock's business model"&gt;
-     follow
-    &lt;/a&gt;
-    ) there are other business models that work at least for now. I hope it’ll also work for Flock.
-   &lt;/p&gt;
-  &lt;/div&gt;
- &lt;/body&gt;
-&lt;/html&gt;&lt;/p&gt;</summary></entry></feed>
+<feed xmlns="http://www.w3.org/2005/Atom"><title>A notch above a monkey</title><link href="http://markos.gaivo.net/articles/" rel="alternate"></link><link href="/articles/feeds/catchall-ui-web.atom.xml" rel="self"></link><id>http://markos.gaivo.net/articles/</id><updated>2005-10-23T12:53:00+02:00</updated><entry><title>Flock</title><link href="http://markos.gaivo.net/articles/flock.html" rel="alternate"></link><updated>2005-10-23T12:53:00+02:00</updated><author><name>markos</name></author><id>tag:markos.gaivo.net,2005-10-23:articles/flock.html</id><summary type="html">&lt;div&gt;
+ &lt;p&gt;
+  I’ve been sporadically using
+  &lt;a href="http://www.flock.com/"&gt;
+   Flock
+  &lt;/a&gt;
+  for last two days and it’s an interesting take on a modern browser and social computing. Two features that I found most useful are bookmarks (or favorites, as flock calls them) integration with
+  &lt;a href="http://del.icio.us/"&gt;
+   del.icio.us
+  &lt;/a&gt;
+  and history index. Especially the last one.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Flock indexes every downloaded page, so when you start typing a query in search window, it presents a list of matches from your history. Everytime I try to find a page in my browser history, I find myself amazed at how many pages I read every day.
+ &lt;/p&gt;
+ &lt;p&gt;
+  It’s one of those in hindsight obvious features that I hope, expect really, to see in other browsers fairly soon. It’s just makes sense.
+ &lt;/p&gt;
+ &lt;p&gt;
+  It’s less obvious how you make money with software that you can’t charge for. Opera demonstrated (and Flock intends to
+  &lt;a href="http://www.decrem.com/bart/2005/10/creating-sustainable-value/" title="Description of Flock's business model"&gt;
+   follow
+  &lt;/a&gt;
+  ) there are other business models that work at least for now. I hope it’ll also work for Flock.
+ &lt;/p&gt;
+&lt;/div&gt;</summary></entry></feed>

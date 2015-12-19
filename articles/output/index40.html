@@ -20,7 +20,7 @@
 
 <section class="envelope posts">
     <header>
-        <h1><a href="http://markos.gaivo.net/articles/">A notch above a monkey <strong></strong></a></h1>
+        <h1><a href="./">A notch above a monkey <strong></strong></a></h1>
     </header><!-- /#banner -->
 
     <nav class="colophon">
@@ -32,116 +32,104 @@
     </nav>
 
         <article class="hentry">
-            <h1 class="entry-title storytitle"><a href="http://markos.gaivo.net/articles/transient-nature-of-openid-identities.html" rel="bookmark" title="Permalink to Transient nature of OpenID identities">Transient nature of OpenID identities</a></h1>
+            <h1 class="entry-title storytitle"><a href="./transient-nature-of-openid-identities.html" rel="bookmark" title="Permalink to Transient nature of OpenID identities">Transient nature of OpenID identities</a></h1>
 
             <div class="entry-content post-text">
-                <p><html>
- <body>
-  <div>
-   <p>
-    I’m still a fan of OpenID, even though it lacks solid solutions to some of its problems.
-   </p>
-   <p>
-    Much has been said about risk of phishing and possible solutions, but I’ve been more ignorant than some to a transient nature of OpenID identities. Simply put, even if you run your own server, you don’t own your domain. You just rent it. Thus you don’t really own your OpenID URL either, which makes it a rather risky tool where some sort of permanent identity is needed.
-   </p>
-   <p>
-    There are plenty of cases where there’s no such need and OpenID is in my opinion a better solution to them than existing ones. But it isn’t good enough where something less fleeting is required. Maybe
-    <a href="http://www.xdi.org/">
-     XRI/XDI
-    </a>
-    is a better answer?
-   </p>
-   <p>
-    I don’t know. I’m still a fan of OpenID. It’s just a bit less useful than I first thought.
-   </p>
-  </div>
- </body>
-</html></p>
+                <div>
+ <p>
+  I’m still a fan of OpenID, even though it lacks solid solutions to some of its problems.
+ </p>
+ <p>
+  Much has been said about risk of phishing and possible solutions, but I’ve been more ignorant than some to a transient nature of OpenID identities. Simply put, even if you run your own server, you don’t own your domain. You just rent it. Thus you don’t really own your OpenID URL either, which makes it a rather risky tool where some sort of permanent identity is needed.
+ </p>
+ <p>
+  There are plenty of cases where there’s no such need and OpenID is in my opinion a better solution to them than existing ones. But it isn’t good enough where something less fleeting is required. Maybe
+  <a href="http://www.xdi.org/">
+   XRI/XDI
+  </a>
+  is a better answer?
+ </p>
+ <p>
+  I don’t know. I’m still a fan of OpenID. It’s just a bit less useful than I first thought.
+ </p>
+</div>
             </div><!-- /.entry-content -->
 
             <footer class="post-metadata">
                 <ul>
                     <li>Published on <time datetime="2007-04-15T20:51:00+02:00">Sun 15 April 2007</time> </li>
-                    <li><a href="http://markos.gaivo.net/articles/transient-nature-of-openid-identities.html">Add your comment</a></li>
+                    <li><a href="./transient-nature-of-openid-identities.html">Add your comment</a></li>
                 </ul>
             </footer>
         </article>
         <article class="hentry">
-            <h1 class="entry-title storytitle"><a href="http://markos.gaivo.net/articles/google-and-ocropus.html" rel="bookmark" title="Permalink to Google and OCRopus">Google and OCRopus</a></h1>
+            <h1 class="entry-title storytitle"><a href="./google-and-ocropus.html" rel="bookmark" title="Permalink to Google and OCRopus">Google and OCRopus</a></h1>
 
             <div class="entry-content post-text">
-                <p><html>
- <body>
-  <div>
-   <p>
-    If implementation will be as good as intentions are, and there’s little reason to doubt it, then
-    <a href="http://google-code-updates.blogspot.com/2007/04/announcing-ocropus-open-source-ocr.html" title="OCRopus announcement">
-     this
-    </a>
-    thing will rock.
-   </p>
-  </div>
- </body>
-</html></p>
+                <div>
+ <p>
+  If implementation will be as good as intentions are, and there’s little reason to doubt it, then
+  <a href="http://google-code-updates.blogspot.com/2007/04/announcing-ocropus-open-source-ocr.html" title="OCRopus announcement">
+   this
+  </a>
+  thing will rock.
+ </p>
+</div>
             </div><!-- /.entry-content -->
 
             <footer class="post-metadata">
                 <ul>
                     <li>Published on <time datetime="2007-04-10T20:25:00+02:00">Tue 10 April 2007</time> </li>
-                    <li><a href="http://markos.gaivo.net/articles/google-and-ocropus.html">Add your comment</a></li>
+                    <li><a href="./google-and-ocropus.html">Add your comment</a></li>
                 </ul>
             </footer>
         </article>
         <article class="hentry">
-            <h1 class="entry-title storytitle"><a href="http://markos.gaivo.net/articles/error-logging-and-failed-authentication-attempts.html" rel="bookmark" title="Permalink to Error logging and failed authentication attempts">Error logging and failed authentication attempts</a></h1>
+            <h1 class="entry-title storytitle"><a href="./error-logging-and-failed-authentication-attempts.html" rel="bookmark" title="Permalink to Error logging and failed authentication attempts">Error logging and failed authentication attempts</a></h1>
 
             <div class="entry-content post-text">
-                <p><html>
- <body>
-  <div>
-   <p>
-    People make mistakes and that’s why we log every error that happens on
-    <a href="http://www.marela.si" title="Photo-sharing website">
-     Marela
-    </a>
-    pages or its API. I imagine most services that care about quality do more or less the same, since it is a great way to find yet undiscovered bugs.
-   </p>
-   <p>
-    There’s an additional benefit when it comes to an API. You can also get an insight in what developers would like to do and how they go about doing it. With a bit of care you may even correct badly designed calls before they get too widely adopted.
-   </p>
-   <p>
-    What may not be as obvious is that not all calls are equal and some of them probably need more careful reporting. A good example would be failed authentication attempts.
-   </p>
-   <p>
-    Marela is one of services supported by
-    <a href="https://addons.mozilla.org/en-US/firefox/addon/3945">
-     Fotofox
-    </a>
-    , a popular photo sharing Firefox add-on, which is great. However support for multiple different services invariably leads to a problem, where users send their usernames and passwords to the wrong site. We weren’t prepared for this and our first reaction was to simply religiously delete all such reports from our logs to prevent any possibility of an abuse.
-   </p>
-   <p>
-    I think this was wrong, so we changed it. Probably the best way is to record failed authentication attempts the way Unix systems do, by logging just username that was used in an attempt and its success, while ignoring provided password completely. This way we still obtain valuable information while protecting data that we clearly shouldn’t have access to.
-   </p>
-   <p>
-    This is of course just an example. My main point is that a sufficiently large API will have calls with different privacy needs and API designers should think carefully about what needs to be recorded in service logs and what mustn’t.
-   </p>
-  </div>
- </body>
-</html></p>
+                <div>
+ <p>
+  People make mistakes and that’s why we log every error that happens on
+  <a href="http://www.marela.si" title="Photo-sharing website">
+   Marela
+  </a>
+  pages or its API. I imagine most services that care about quality do more or less the same, since it is a great way to find yet undiscovered bugs.
+ </p>
+ <p>
+  There’s an additional benefit when it comes to an API. You can also get an insight in what developers would like to do and how they go about doing it. With a bit of care you may even correct badly designed calls before they get too widely adopted.
+ </p>
+ <p>
+  What may not be as obvious is that not all calls are equal and some of them probably need more careful reporting. A good example would be failed authentication attempts.
+ </p>
+ <p>
+  Marela is one of services supported by
+  <a href="https://addons.mozilla.org/en-US/firefox/addon/3945">
+   Fotofox
+  </a>
+  , a popular photo sharing Firefox add-on, which is great. However support for multiple different services invariably leads to a problem, where users send their usernames and passwords to the wrong site. We weren’t prepared for this and our first reaction was to simply religiously delete all such reports from our logs to prevent any possibility of an abuse.
+ </p>
+ <p>
+  I think this was wrong, so we changed it. Probably the best way is to record failed authentication attempts the way Unix systems do, by logging just username that was used in an attempt and its success, while ignoring provided password completely. This way we still obtain valuable information while protecting data that we clearly shouldn’t have access to.
+ </p>
+ <p>
+  This is of course just an example. My main point is that a sufficiently large API will have calls with different privacy needs and API designers should think carefully about what needs to be recorded in service logs and what mustn’t.
+ </p>
+</div>
             </div><!-- /.entry-content -->
 
             <footer class="post-metadata">
                 <ul>
                     <li>Published on <time datetime="2007-04-06T20:01:00+02:00">Fri 06 April 2007</time> </li>
-                    <li><a href="http://markos.gaivo.net/articles/error-logging-and-failed-authentication-attempts.html">Add your comment</a></li>
+                    <li><a href="./error-logging-and-failed-authentication-attempts.html">Add your comment</a></li>
                 </ul>
             </footer>
         </article>
 
 <p class="paginator">
-        <a href="http://markos.gaivo.net/articles/index39.html">&laquo;</a>
+        <a href="./index39.html">&laquo;</a>
     Page 40 / 111
-        <a href="http://markos.gaivo.net/articles/index41.html">&raquo;</a>
+        <a href="./index41.html">&raquo;</a>
 </p>
 </section><!-- /#content -->
 

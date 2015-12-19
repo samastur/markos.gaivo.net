@@ -20,7 +20,7 @@
 
 <section class="envelope posts">
     <header>
-        <h1><a href="http://markos.gaivo.net/articles/">A notch above a monkey <strong></strong></a></h1>
+        <h1><a href="./">A notch above a monkey <strong></strong></a></h1>
     </header><!-- /#banner -->
 
     <nav class="colophon">
@@ -32,132 +32,120 @@
     </nav>
 
         <article class="hentry">
-            <h1 class="entry-title storytitle"><a href="http://markos.gaivo.net/articles/solving-javascript-i18n-as-work-in-progress.html" rel="bookmark" title="Permalink to Solving javascript i18n as work in progress">Solving javascript i18n as work in progress</a></h1>
+            <h1 class="entry-title storytitle"><a href="./solving-javascript-i18n-as-work-in-progress.html" rel="bookmark" title="Permalink to Solving javascript i18n as work in progress">Solving javascript i18n as work in progress</a></h1>
 
             <div class="entry-content post-text">
-                <p><html>
- <body>
-  <div>
-   <p>
-    A while ago I was moaning about a sad state of javascript i18n tools. When I finally started working on it, I faced a dilemma.
-   </p>
-   <p>
-    Should I wait until it’s finished and then reveal it like Moses to chosen people? Look guys what I etched with a toothpick during my lunch time break! You know, I was waiting for my Crème Brûlée and had to kill those few pesky minutes.
-   </p>
-   <p>
-    Or should I choose a more honest approach, showing steps and missteps between embarrassing first version and hopefully usable last?
-   </p>
-   <p>
-    Well, there’s nothing better than public humiliation to instill some humility so let’s see what is behind the door number two.
-   </p>
-   <p>
-    The goal is still the same. Develop a short and relatively fast library that allows you to translate javascript code and HTML content and to do so with as little fuss as possible and with a clear separation between HTML, javascript and translations, but without breaking pages in case translation doesn’t exist yet.
-   </p>
-   <p>
-    And
-    <a href="http://markos.gaivo.net/examples/js_i18n/1/translate.js" title="Translation functions">
-     here’s
-    </a>
-    my humble start together with a
-    <a href="http://markos.gaivo.net/examples/js_i18n/1/index.html" title="Link to demonstration page">
-     simple demo
-    </a>
-    . Three functions, two of them a support needed later on. stripStr and stripStrML just strip whitespace at the start and end of string with stripStrML doing it on every line of a given string. We’ll need this later on so we can find strings to translate even if they are enclosed in whitespace to make source display more pretty.
-   </p>
-   <p>
-    Then there’s a function called _, which takes a string and translates it if javascript object i18nDict exists and has this string as an attribute with a non empty value. Otherwise it just returns the same string, so it doesn’t break page even if translation doesn’t exist in
-    <a href="http://markos.gaivo.net/examples/js_i18n/1/i18n.js" title="Translation dictionary">
-     translation object
-    </a>
-    . It’s what is usually called a proof of concept prototype.
-   </p>
-   <p>
-    That’s it for today. I’ll try to post updates every couple of days or so, if progress warrants it.
-   </p>
-   <p>
-    Update: Follow up
-    <a href="look-ma-html-too.html">
-     here
-    </a>
-    and
-    <a href="news-at-seven-javascript-i18n-that-almost-doesnt-suck.html">
-     here
-    </a>
-    .
-   </p>
-  </div>
- </body>
-</html></p>
+                <div>
+ <p>
+  A while ago I was moaning about a sad state of javascript i18n tools. When I finally started working on it, I faced a dilemma.
+ </p>
+ <p>
+  Should I wait until it’s finished and then reveal it like Moses to chosen people? Look guys what I etched with a toothpick during my lunch time break! You know, I was waiting for my Crème Brûlée and had to kill those few pesky minutes.
+ </p>
+ <p>
+  Or should I choose a more honest approach, showing steps and missteps between embarrassing first version and hopefully usable last?
+ </p>
+ <p>
+  Well, there’s nothing better than public humiliation to instill some humility so let’s see what is behind the door number two.
+ </p>
+ <p>
+  The goal is still the same. Develop a short and relatively fast library that allows you to translate javascript code and HTML content and to do so with as little fuss as possible and with a clear separation between HTML, javascript and translations, but without breaking pages in case translation doesn’t exist yet.
+ </p>
+ <p>
+  And
+  <a href="http://markos.gaivo.net/examples/js_i18n/1/translate.js" title="Translation functions">
+   here’s
+  </a>
+  my humble start together with a
+  <a href="http://markos.gaivo.net/examples/js_i18n/1/index.html" title="Link to demonstration page">
+   simple demo
+  </a>
+  . Three functions, two of them a support needed later on. stripStr and stripStrML just strip whitespace at the start and end of string with stripStrML doing it on every line of a given string. We’ll need this later on so we can find strings to translate even if they are enclosed in whitespace to make source display more pretty.
+ </p>
+ <p>
+  Then there’s a function called _, which takes a string and translates it if javascript object i18nDict exists and has this string as an attribute with a non empty value. Otherwise it just returns the same string, so it doesn’t break page even if translation doesn’t exist in
+  <a href="http://markos.gaivo.net/examples/js_i18n/1/i18n.js" title="Translation dictionary">
+   translation object
+  </a>
+  . It’s what is usually called a proof of concept prototype.
+ </p>
+ <p>
+  That’s it for today. I’ll try to post updates every couple of days or so, if progress warrants it.
+ </p>
+ <p>
+  Update: Follow up
+  <a href="look-ma-html-too.html">
+   here
+  </a>
+  and
+  <a href="news-at-seven-javascript-i18n-that-almost-doesnt-suck.html">
+   here
+  </a>
+  .
+ </p>
+</div>
             </div><!-- /.entry-content -->
 
             <footer class="post-metadata">
                 <ul>
                     <li>Published on <time datetime="2005-12-08T14:11:00+01:00">Thu 08 December 2005</time> </li>
-                    <li><a href="http://markos.gaivo.net/articles/solving-javascript-i18n-as-work-in-progress.html">Add your comment</a></li>
+                    <li><a href="./solving-javascript-i18n-as-work-in-progress.html">Add your comment</a></li>
                 </ul>
             </footer>
         </article>
         <article class="hentry">
-            <h1 class="entry-title storytitle"><a href="http://markos.gaivo.net/articles/ie7-will-remain-to-be-mime-challenged.html" rel="bookmark" title="Permalink to IE7 will remain to be MIME challenged">IE7 will remain to be MIME challenged</a></h1>
+            <h1 class="entry-title storytitle"><a href="./ie7-will-remain-to-be-mime-challenged.html" rel="bookmark" title="Permalink to IE7 will remain to be MIME challenged">IE7 will remain to be MIME challenged</a></h1>
 
             <div class="entry-content post-text">
-                <p><html>
- <body>
-  <div>
-   <p>
-    IE7
-    <a href="http://blogs.msdn.com/ie/archive/2005/09/15/467901.aspx" title="Link to IEBlog">
-     won’t
-    </a>
-    support proper MIME type for XHTML. Too bad, since it will permit people like
-    <a href="http://www.iprom.si/">
-     these guys
-    </a>
-    to crap on web for a while longer.
-   </p>
-  </div>
- </body>
-</html></p>
+                <div>
+ <p>
+  IE7
+  <a href="http://blogs.msdn.com/ie/archive/2005/09/15/467901.aspx" title="Link to IEBlog">
+   won’t
+  </a>
+  support proper MIME type for XHTML. Too bad, since it will permit people like
+  <a href="http://www.iprom.si/">
+   these guys
+  </a>
+  to crap on web for a while longer.
+ </p>
+</div>
             </div><!-- /.entry-content -->
 
             <footer class="post-metadata">
                 <ul>
                     <li>Published on <time datetime="2005-12-07T11:49:00+01:00">Wed 07 December 2005</time> </li>
-                    <li><a href="http://markos.gaivo.net/articles/ie7-will-remain-to-be-mime-challenged.html">Add your comment</a></li>
+                    <li><a href="./ie7-will-remain-to-be-mime-challenged.html">Add your comment</a></li>
                 </ul>
             </footer>
         </article>
         <article class="hentry">
-            <h1 class="entry-title storytitle"><a href="http://markos.gaivo.net/articles/places-to-use-ajax.html" rel="bookmark" title="Permalink to Places to use AJAX">Places to use AJAX</a></h1>
+            <h1 class="entry-title storytitle"><a href="./places-to-use-ajax.html" rel="bookmark" title="Permalink to Places to use AJAX">Places to use AJAX</a></h1>
 
             <div class="entry-content post-text">
-                <p><html>
- <body>
-  <div>
-   <p>
-    Alex Bosworth wrote a great
-    <a href="http://www.sourcelabs.com/blogs/ajb/2005/12/10_places_you_must_use_ajax.html" title="Alex's post about applicability of AJAX">
-     post
-    </a>
-    about when to use AJAX and when not to.
-   </p>
-  </div>
- </body>
-</html></p>
+                <div>
+ <p>
+  Alex Bosworth wrote a great
+  <a href="http://www.sourcelabs.com/blogs/ajb/2005/12/10_places_you_must_use_ajax.html" title="Alex's post about applicability of AJAX">
+   post
+  </a>
+  about when to use AJAX and when not to.
+ </p>
+</div>
             </div><!-- /.entry-content -->
 
             <footer class="post-metadata">
                 <ul>
                     <li>Published on <time datetime="2005-12-06T10:05:00+01:00">Tue 06 December 2005</time> </li>
-                    <li><a href="http://markos.gaivo.net/articles/places-to-use-ajax.html">Add your comment</a></li>
+                    <li><a href="./places-to-use-ajax.html">Add your comment</a></li>
                 </ul>
             </footer>
         </article>
 
 <p class="paginator">
-        <a href="http://markos.gaivo.net/articles/index83.html">&laquo;</a>
+        <a href="./index83.html">&laquo;</a>
     Page 84 / 111
-        <a href="http://markos.gaivo.net/articles/index85.html">&raquo;</a>
+        <a href="./index85.html">&raquo;</a>
 </p>
 </section><!-- /#content -->
 

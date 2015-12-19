@@ -1,51 +1,43 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>A notch above a monkey</title><link href="http://markos.gaivo.net/articles/" rel="alternate"></link><link href="/articles/feeds/general-development-javascript-web.atom.xml" rel="self"></link><id>http://markos.gaivo.net/articles/</id><updated>2008-05-17T17:05:00+02:00</updated><entry><title>Google Doctype</title><link href="http://markos.gaivo.net/articles/google-doctype.html" rel="alternate"></link><updated>2008-05-17T17:05:00+02:00</updated><author><name>markos</name></author><id>tag:markos.gaivo.net,2008-05-17:articles/google-doctype.html</id><summary type="html">&lt;p&gt;&lt;html&gt;
- &lt;body&gt;
-  &lt;div&gt;
-   &lt;p&gt;
-    While I was busy this week Google released
-    &lt;a href="http://code.google.com/doctype/" title="Link to Google Doctype website"&gt;
-     Doctype
+<feed xmlns="http://www.w3.org/2005/Atom"><title>A notch above a monkey</title><link href="http://markos.gaivo.net/articles/" rel="alternate"></link><link href="/articles/feeds/general-development-javascript-web.atom.xml" rel="self"></link><id>http://markos.gaivo.net/articles/</id><updated>2008-05-17T17:05:00+02:00</updated><entry><title>Google Doctype</title><link href="http://markos.gaivo.net/articles/google-doctype.html" rel="alternate"></link><updated>2008-05-17T17:05:00+02:00</updated><author><name>markos</name></author><id>tag:markos.gaivo.net,2008-05-17:articles/google-doctype.html</id><summary type="html">&lt;div&gt;
+ &lt;p&gt;
+  While I was busy this week Google released
+  &lt;a href="http://code.google.com/doctype/" title="Link to Google Doctype website"&gt;
+   Doctype
+  &lt;/a&gt;
+  . The good thing about being late to a web party is that someone somewhere is bound to save you work of expressing yourself by presenting same impressions in a way you couldn’t. John Resig
+  &lt;a href="http://ejohn.org/blog/google-doctype/"&gt;
+   did it
+  &lt;/a&gt;
+  for me this time.
+ &lt;/p&gt;
+ &lt;fieldset class="zemanta-related" style="margin: 0.5em 0pt 1em; padding: 0pt;"&gt;
+  &lt;legend class="zemanta-title"&gt;
+   Related articles
+  &lt;/legend&gt;
+  &lt;ul class="zemanta-article-ul" style="margin: 1em 0pt 1.5em; padding: 0pt;"&gt;
+   &lt;li class="zemanta-article" style="margin: 0.5em 2em;"&gt;
+    &lt;a href="http://googlesystem.blogspot.com/2008/05/google-doctype-encyclopedia-for-web.html" target="_blank" title="Open in new window"&gt;
+     Google Doctype, an Encyclopedia for Web Developers
     &lt;/a&gt;
-    . The good thing about being late to a web party is that someone somewhere is bound to save you work of expressing yourself by presenting same impressions in a way you couldn’t. John Resig
-    &lt;a href="http://ejohn.org/blog/google-doctype/"&gt;
-     did it
-    &lt;/a&gt;
-    for me this time.
-   &lt;/p&gt;
-   &lt;fieldset class="zemanta-related" style="margin: 0.5em 0pt 1em; padding: 0pt;"&gt;
-    &lt;legend class="zemanta-title"&gt;
-     Related articles
-    &lt;/legend&gt;
-    &lt;ul class="zemanta-article-ul" style="margin: 1em 0pt 1.5em; padding: 0pt;"&gt;
-     &lt;li class="zemanta-article" style="margin: 0.5em 2em;"&gt;
-      &lt;a href="http://googlesystem.blogspot.com/2008/05/google-doctype-encyclopedia-for-web.html" target="_blank" title="Open in new window"&gt;
-       Google Doctype, an Encyclopedia for Web Developers
-      &lt;/a&gt;
-      [via Zemanta]
-     &lt;/li&gt;
-    &lt;/ul&gt;
-   &lt;/fieldset&gt;
-   &lt;div id="zemanta-pixie" style="margin: 5px 0pt; width: 100%;"&gt;
-    &lt;a href="http://www.zemanta.com/" id="zemanta-pixie-a" title="Zemified by Zemanta"&gt;
-     &lt;img alt="" id="zemanta-pixie-img" src="http://img.zemanta.com/pixie.png?x-id=fc53c40f-b4c6-4225-b5ad-83fd86e14e94" style="border: medium none; float: right;"/&gt;
-    &lt;/a&gt;
-   &lt;/div&gt;
-  &lt;/div&gt;
- &lt;/body&gt;
-&lt;/html&gt;&lt;/p&gt;</summary><category term="Google"></category><category term="Google"></category><category term="Tools"></category><category term="Tools"></category></entry><entry><title>Code misery</title><link href="http://markos.gaivo.net/articles/code-misery.html" rel="alternate"></link><updated>2006-08-27T13:05:00+02:00</updated><author><name>markos</name></author><id>tag:markos.gaivo.net,2006-08-27:articles/code-misery.html</id><summary type="html">&lt;p&gt;&lt;html&gt;
- &lt;body&gt;
-  &lt;div&gt;
-   &lt;p&gt;
-    &lt;strong&gt;
-     Error:
-    &lt;/strong&gt;
-    No such file found! Please make sure
-    &lt;code&gt;
-     http://markos.gaivo.net/blog/code/vecerjscrap.txt
-    &lt;/code&gt;
-    exists.
-   &lt;/p&gt;
-  &lt;/div&gt;
- &lt;/body&gt;
-&lt;/html&gt;&lt;/p&gt;</summary></entry></feed>
+    [via Zemanta]
+   &lt;/li&gt;
+  &lt;/ul&gt;
+ &lt;/fieldset&gt;
+ &lt;div id="zemanta-pixie" style="margin: 5px 0pt; width: 100%;"&gt;
+  &lt;a href="http://www.zemanta.com/" id="zemanta-pixie-a" title="Zemified by Zemanta"&gt;
+   &lt;img alt="" id="zemanta-pixie-img" src="http://img.zemanta.com/pixie.png?x-id=fc53c40f-b4c6-4225-b5ad-83fd86e14e94" style="border: medium none; float: right;"/&gt;
+  &lt;/a&gt;
+ &lt;/div&gt;
+&lt;/div&gt;</summary><category term="Google"></category><category term="Tools"></category></entry><entry><title>Code misery</title><link href="http://markos.gaivo.net/articles/code-misery.html" rel="alternate"></link><updated>2006-08-27T13:05:00+02:00</updated><author><name>markos</name></author><id>tag:markos.gaivo.net,2006-08-27:articles/code-misery.html</id><summary type="html">&lt;div&gt;
+ &lt;p&gt;
+  &lt;strong&gt;
+   Error:
+  &lt;/strong&gt;
+  No such file found! Please make sure
+  &lt;code&gt;
+   http://markos.gaivo.net/blog/code/vecerjscrap.txt
+  &lt;/code&gt;
+  exists.
+ &lt;/p&gt;
+&lt;/div&gt;</summary></entry></feed>

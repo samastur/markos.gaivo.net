@@ -20,7 +20,7 @@
 
 <section class="envelope posts">
     <header>
-        <h1><a href="http://markos.gaivo.net/articles/">A notch above a monkey <strong></strong></a></h1>
+        <h1><a href="../">A notch above a monkey <strong></strong></a></h1>
     </header><!-- /#banner -->
 
     <nav class="colophon">
@@ -32,214 +32,80 @@
     </nav>
 
         <article class="hentry">
-            <h1 class="entry-title storytitle"><a href="http://markos.gaivo.net/articles/shrinking-images-with-image-diet.html" rel="bookmark" title="Permalink to Shrinking images with image-diet">Shrinking images with image-diet</a></h1>
+            <h1 class="entry-title storytitle"><a href="../leaving-app-engine-for-now.html" rel="bookmark" title="Permalink to Leaving App Engine - for now">Leaving App Engine - for now</a></h1>
 
             <div class="entry-content post-text">
-                <p><html>
- <body>
-  <div>
-   <p>
-    I like
-    <a href="https://github.com/SmileyChris/easy-thumbnails">
-     easy-thumbnails
-    </a>
-    and use it often in my Django projects, but I wished for a long time that its
-    <a href="http://www.pythonware.com/products/pil/">
-     PIL
-    </a>
-    generated thumbnails would be smaller. That’s why I wrote
-    <a href="https://github.com/samastur/image-diet">
-     image-diet
-    </a>
-    , a drop-in extension for those easy-thumbnails users who use file system for storing images. Images remain visually the same, but can be significantly smaller (mine by more than 50% but your mileage my vary).
-   </p>
-   <p>
-    This matters because images are together with Javascript main cause for ever larger page sizes which leads to slower websites, especially in low-bandwidth environments. But really, don’t we all want our websites to be as fast as possible?
-   </p>
-   <p>
-    <a href="https://github.com/samastur/image-diet">
-     image-diet
-    </a>
-    was inspired by
-    <a href="http://imageoptim.com/">
-     ImageOptim
-    </a>
-    and
-    <a href="https://github.com/Kilian/Trimage">
-     Trimage
-    </a>
-    and I’m grateful to authors of both. It uses jpegtran, Jpegoptim, Gifsicle, OptiPNG, AdvanceCOM PNG and Pngcrush to do the heavy work of squeezing redundant bytes. Getting them should be easy as they are part of Ubuntu distribution and can be installed on Mac with brew. For more information please check documentation or ask.
-   </p>
-   <p>
-    I would love to hear any comments and ideas you may have, even more so if you try it.
-   </p>
-  </div>
- </body>
-</html></p>
+                <div>
+ <p>
+  Jonathan
+  <a href="http://spyced.blogspot.com/2008/08/app-engine-conclusions.html#">
+   wrote
+  </a>
+  his thoughts about
+  <a class="zem_slink" href="http://appengine.google.com" rel="homepage" title="Google App Engine">
+   App Engine
+  </a>
+  . They are well worth a read if you are thinking about using it, but haven’t so far. I used App Engine sporadically for a couple of months on a project of mine, but I finally gave up and ended porting my code to pure
+  <a class="zem_slink" href="http://www.djangoproject.com" rel="homepage" title="Django (web framework)">
+   Django
+  </a>
+  , which admittedly wasn’t too hard to do at this point in time.
+ </p>
+ <p>
+  Some of my reasons match Jonathan’s. There were too many rough edges to feel really productive and too much time was wasted on trying to find out if problem lies in poor documentation, incomplete implementation or stupid programmer. I probably will never get answers to questions like how can a simple Django view that doesn’t do anything beside rendering a static template, consume above expected amount of CPU and risk triggering quota blockage, but right now I really don’t care anymore.
+ </p>
+ <p>
+  Integrating
+  <a class="zem_slink" href="http://www.crunchbase.com/company/google" rel="crunchbase" title="Google">
+   Google
+  </a>
+  accounts is indeed easy, but it is also very shallow to the point of being practically useless.  You basically can only rely on fact that reference to a particular user won’t change. Anything else you may think you know (like an email address), can’t be relied upon. You can’t create an account and you can’t even control login form of your service. In essence you don’t have your own users, you can just offer a service to Google’s.
+ </p>
+ <p>
+  For me this was one of two major reasons for my decision. Every person who would need an account to use what I am building would need to agree to Google’s
+  <a class="zem_slink" href="http://en.wikipedia.org/wiki/Terms_of_service" rel="wikipedia" title="Terms of service">
+   TOS
+  </a>
+  agreement which defines many things, among others the highest level of privacy I can offer.
+ </p>
+ <p>
+  The other reason was that current limitations of App Engine really lead you to rely heavily on provided APIs, which may be similar to stuff out there (like Django), but aren’t anywhere close to being a drop-in replacement. This can be — depending on application you’re writing — a heavy investement in a platform you don’t control a bit.
+ </p>
+ <p>
+  Put more profanely, you are a Google’s bitch.
+ </p>
+ <p>
+  Having said all this, I do think App Engine is a very valuable service. If you want to write a mini-app, a web tool like
+  <a href="http://simonwillison.net/" title="Simon's homepage">
+   Simon
+  </a>
+  <a href="http://simonwillison.net/2008/Jul/29/jsonhead/" title="Post about json-head service">
+   does
+  </a>
+  , then App Engine is brilliant. You can do this easily with little deployment and zero administration hassle. In fact I can’t think of any other service better suited to this task.
+ </p>
+ <p>
+  I’m sure this is not the only scenario in which App Engine makes sense and there are others I haven’t named or thought of. Issues, like accounts, can with some effort be solved now. But App Engine also isn’t (yet) what some of us were hoping for and it’s prudent to really think through what you want, what you need and what App Engine actually offers.
+ </p>
+ <div class="zemanta-pixie">
+  <a class="zemanta-pixie-a" href="http://reblog.zemanta.com/zemified/28ddae75-72ba-4a45-892e-7841f893395b/" title="Zemified by Zemanta">
+   <img alt="Reblog this post [with Zemanta]" class="zemanta-pixie-img" src="http://img.zemanta.com/reblog_e.png?x-id=28ddae75-72ba-4a45-892e-7841f893395b" style="border: medium none; float: right;"/>
+  </a>
+ </div>
+</div>
             </div><!-- /.entry-content -->
 
             <footer class="post-metadata">
                 <ul>
-                    <li>Published on <time datetime="2013-01-20T23:53:00+01:00">Sun 20 January 2013</time> </li>
-                    <li><a href="http://markos.gaivo.net/articles/shrinking-images-with-image-diet.html">Add your comment</a></li>
-                </ul>
-            </footer>
-        </article>
-        <article class="hentry">
-            <h1 class="entry-title storytitle"><a href="http://markos.gaivo.net/articles/impostor-for-django.html" rel="bookmark" title="Permalink to Impostor for Django">Impostor for Django</a></h1>
-
-            <div class="entry-content post-text">
-                <p><html>
- <body>
-  <div>
-   <p>
-    A class of bugs I really dislike debugging are those that depend on specific data and affect only a very small subset or just one user. Things could sometimes be fixed so much faster if you could just log in as him to see what is happening. Sometimes this is exactly what we do
-    <strong>
-     with his explicit permission
-    </strong>
-    , but I really dislike asking for passwords.
-   </p>
-   <p>
-    First it inconveniences user. He has to come up with either a new good password or go through two password changes. Second it implicitly teaches wrong behavior. Passwords simply should never be revealed.
-   </p>
-   <p>
-    That is why I wrote
-    <a href="https://github.com/samastur/Impostor" title="Impostor's home at GitHub">
-     Impostor
-    </a>
-    , a Django app that allows staff members (and only them) to login with their own credentials as a different user. Idea is not mine (kudos goes to
-    <a href="http://nedbatchelder.com/blog/201008/django_superuser_login_trapdoor.html" title="Ned's post where idea comes from">
-     Ned Batchelder
-    </a>
-    ), but I like it. To discourage abuse every such authentication is recorded and can be seen in Django admin interface, but can not be altered from there.
-   </p>
-   <p>
-    So how does it work in practice?
-   </p>
-   <p>
-    Lets say that I would need to log in as user
-    <em>
-     fry
-    </em>
-    . To do this I would enter as my username
-    <em>
-     markos as fry,
-    </em>
-    provide my password and voila, I’m him. This has been recorded so anyone with access to ImpostorLog part in admin can see all such cases, mine included.
-   </p>
-   <p>
-    Impostor may also ease your development by removing need to remember different passwords for testing. This is usually not a problem unless you happen to develop with fake data but real accounts. Like me.
-   </p>
-   <p>
-    And again for morally challenged out there:
-    <strong>
-     you should never login as somebody else without his explicit permission
-    </strong>
-    .
-   </p>
-   <p>
-    <strong>
-     Update
-    </strong>
-    : Thanks Ross for reminding me where idea came from. I updated text accordingly.
-   </p>
-   <div class="zemanta-pixie">
-    <a class="zemanta-pixie-a" href="http://www.zemanta.com/" title="Enhanced by Zemanta">
-     <img alt="Enhanced by Zemanta" class="zemanta-pixie-img" src="http://img.zemanta.com/zemified_e.png?x-id=db7c9f53-423e-4b56-bbe3-b717fde54c16"/>
-    </a>
-   </div>
-  </div>
- </body>
-</html></p>
-            </div><!-- /.entry-content -->
-
-            <footer class="post-metadata">
-                <ul>
-                    <li>Published on <time datetime="2011-02-22T20:11:00+01:00">Tue 22 February 2011</time> </li>
-                    <li><a href="http://markos.gaivo.net/articles/impostor-for-django.html">Add your comment</a></li>
-                </ul>
-            </footer>
-        </article>
-        <article class="hentry">
-            <h1 class="entry-title storytitle"><a href="http://markos.gaivo.net/articles/impostor-for-django.html" rel="bookmark" title="Permalink to Impostor for Django">Impostor for Django</a></h1>
-
-            <div class="entry-content post-text">
-                <p><html>
- <body>
-  <div>
-   <p>
-    A class of bugs I really dislike debugging are those that depend on specific data and affect only a very small subset or just one user. Things could sometimes be fixed so much faster if you could just log in as him to see what is happening. Sometimes this is exactly what we do
-    <strong>
-     with his explicit permission
-    </strong>
-    , but I really dislike asking for passwords.
-   </p>
-   <p>
-    First it inconveniences user. He has to come up with either a new good password or go through two password changes. Second it implicitly teaches wrong behavior. Passwords simply should never be revealed.
-   </p>
-   <p>
-    That is why I wrote
-    <a href="https://github.com/samastur/Impostor" title="Impostor's home at GitHub">
-     Impostor
-    </a>
-    , a Django app that allows staff members (and only them) to login with their own credentials as a different user. Idea is not mine (kudos goes to
-    <a href="http://nedbatchelder.com/blog/201008/django_superuser_login_trapdoor.html" title="Ned's post where idea comes from">
-     Ned Batchelder
-    </a>
-    ), but I like it. To discourage abuse every such authentication is recorded and can be seen in Django admin interface, but can not be altered from there.
-   </p>
-   <p>
-    So how does it work in practice?
-   </p>
-   <p>
-    Lets say that I would need to log in as user
-    <em>
-     fry
-    </em>
-    . To do this I would enter as my username
-    <em>
-     markos as fry,
-    </em>
-    provide my password and voila, I’m him. This has been recorded so anyone with access to ImpostorLog part in admin can see all such cases, mine included.
-   </p>
-   <p>
-    Impostor may also ease your development by removing need to remember different passwords for testing. This is usually not a problem unless you happen to develop with fake data but real accounts. Like me.
-   </p>
-   <p>
-    And again for morally challenged out there:
-    <strong>
-     you should never login as somebody else without his explicit permission
-    </strong>
-    .
-   </p>
-   <p>
-    <strong>
-     Update
-    </strong>
-    : Thanks Ross for reminding me where idea came from. I updated text accordingly.
-   </p>
-   <div class="zemanta-pixie">
-    <a class="zemanta-pixie-a" href="http://www.zemanta.com/" title="Enhanced by Zemanta">
-     <img alt="Enhanced by Zemanta" class="zemanta-pixie-img" src="http://img.zemanta.com/zemified_e.png?x-id=db7c9f53-423e-4b56-bbe3-b717fde54c16"/>
-    </a>
-   </div>
-  </div>
- </body>
-</html></p>
-            </div><!-- /.entry-content -->
-
-            <footer class="post-metadata">
-                <ul>
-                    <li>Published on <time datetime="2011-02-22T20:11:00+01:00">Tue 22 February 2011</time> </li>
-                    <li><a href="http://markos.gaivo.net/articles/impostor-for-django.html">Add your comment</a></li>
+                    <li>Published on <time datetime="2008-08-30T21:50:00+02:00">Sat 30 August 2008</time> </li>
+                    <li><a href="../leaving-app-engine-for-now.html">Add your comment</a></li>
                 </ul>
             </footer>
         </article>
 
 <p class="paginator">
-        <a href="http://markos.gaivo.net/articles/tag/django.html">&laquo;</a>
-    Page 2 / 3
-        <a href="http://markos.gaivo.net/articles/tag/django3.html">&raquo;</a>
+        <a href="../tag/django.html">&laquo;</a>
+    Page 2 / 2
 </p>
 </section><!-- /#content -->
 

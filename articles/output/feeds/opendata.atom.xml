@@ -1,17 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>A notch above a monkey</title><link href="http://markos.gaivo.net/articles/" rel="alternate"></link><link href="/articles/feeds/opendata.atom.xml" rel="self"></link><id>http://markos.gaivo.net/articles/</id><updated>2012-04-17T07:39:00+02:00</updated><entry><title>OpenData HackDay - April 2012</title><link href="http://markos.gaivo.net/articles/opendata-hackday-april-2012.html" rel="alternate"></link><updated>2012-04-17T07:39:00+02:00</updated><author><name>markos</name></author><id>tag:markos.gaivo.net,2012-04-17:articles/opendata-hackday-april-2012.html</id><summary type="html">&lt;p&gt;&lt;html&gt;
- &lt;body&gt;
-  &lt;div&gt;
-   &lt;p&gt;
-    V petek popoldne in soboto cel dan (20. in 21. aprila) bo v Ljubljani potekal odprto podatkovni hackday. Vabljeni vsi, še posebej pa tisti, ki želite dejavno prispevati.
-   &lt;/p&gt;
-   &lt;p&gt;
-    Več o dogodku lahko izveste na njegovi
-    &lt;a href="http://sloopendata2012.eventbrite.com/" title="Prijavna stran hackdaya skupaj s podrobnostmi"&gt;
-     prijavni strani
-    &lt;/a&gt;
-    .
-   &lt;/p&gt;
-  &lt;/div&gt;
- &lt;/body&gt;
-&lt;/html&gt;&lt;/p&gt;</summary><category term="Hackday"></category><category term="Hackday"></category><category term="open data"></category><category term="open data"></category><category term="OpenData"></category><category term="OpenData"></category></entry></feed>
+<feed xmlns="http://www.w3.org/2005/Atom"><title>A notch above a monkey</title><link href="http://markos.gaivo.net/articles/" rel="alternate"></link><link href="/articles/feeds/opendata.atom.xml" rel="self"></link><id>http://markos.gaivo.net/articles/</id><updated>2012-04-17T07:39:00+02:00</updated><entry><title>OpenData HackDay - April 2012</title><link href="http://markos.gaivo.net/articles/opendata-hackday-april-2012.html" rel="alternate"></link><updated>2012-04-17T07:39:00+02:00</updated><author><name>markos</name></author><id>tag:markos.gaivo.net,2012-04-17:articles/opendata-hackday-april-2012.html</id><summary type="html">&lt;div&gt;
+ &lt;p&gt;
+  V petek popoldne in soboto cel dan (20. in 21. aprila) bo v Ljubljani potekal odprto podatkovni hackday. Vabljeni vsi, še posebej pa tisti, ki želite dejavno prispevati.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Več o dogodku lahko izveste na njegovi
+  &lt;a href="http://sloopendata2012.eventbrite.com/" title="Prijavna stran hackdaya skupaj s podrobnostmi"&gt;
+   prijavni strani
+  &lt;/a&gt;
+  .
+ &lt;/p&gt;
+&lt;/div&gt;</summary><category term="OpenData"></category><category term="open data"></category><category term="Hackday"></category></entry></feed>

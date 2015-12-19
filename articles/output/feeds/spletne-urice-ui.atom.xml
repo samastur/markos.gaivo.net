@@ -1,55 +1,51 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>A notch above a monkey</title><link href="http://markos.gaivo.net/articles/" rel="alternate"></link><link href="/articles/feeds/spletne-urice-ui.atom.xml" rel="self"></link><id>http://markos.gaivo.net/articles/</id><updated>2005-10-06T13:53:00+02:00</updated><entry><title>WordPress "sucks"</title><link href="http://markos.gaivo.net/articles/wordpress-sucks.html" rel="alternate"></link><updated>2005-10-06T13:53:00+02:00</updated><author><name>markos</name></author><id>tag:markos.gaivo.net,2005-10-06:articles/wordpress-sucks.html</id><summary type="html">&lt;p&gt;&lt;html&gt;
- &lt;body&gt;
-  &lt;div&gt;
-   &lt;p&gt;
-    I think our first talk was a success. It certainly exceeded my expectations and I hope that most of those who were there feel the same. I was happy to see that a lot of us didn’t just leave, but stayed to enjoy conversation with other visitors. I hope this will become even more common and expected.
-   &lt;/p&gt;
-   &lt;p&gt;
-    I got a chance to talk to several people I wanted to meet or whom haven’t seen in a long time and I immensely enjoyed myself. Our conversations covered many topic, one of which was
-    &lt;a href="http://http://www.wordpress.org/"&gt;
-     WordPress
-    &lt;/a&gt;
-    where I made some statements that on reflection probably deserve an explanation.
-   &lt;/p&gt;
-   &lt;p&gt;
-    I said that WordPress sucks.
-   &lt;/p&gt;
-   &lt;p&gt;
-    This is not true and I don’t actually mean it, but it is as true as what
-    &lt;a href="http://http://www.wordpress.org/"&gt;
-     wordpress.org
-    &lt;/a&gt;
-    has to say about its product:
-   &lt;/p&gt;
-   &lt;blockquote&gt;
-    &lt;p&gt;
-     WordPress is a state-of-the-art semantic personal publishing platform with a focus on aesthetics, web standards, and usability.
-    &lt;/p&gt;
-   &lt;/blockquote&gt;
-   &lt;p&gt;
-    I use WordPress, but I can’t say I enjoy the experience. It’s certainly not worse than most similar stuff out there, but I think best have moved on. I don’t find default installation particularly pleasant to look at, its usability is questionable and in an age of WYSIWYG editors and online spell checkers, it’s hardly state-of-the-art either.
-   &lt;/p&gt;
-   &lt;p&gt;
-    It’s still a good software and I wouldn’t nag, if the page didn’t also say:
-   &lt;/p&gt;
-   &lt;blockquote&gt;
-    &lt;p&gt;
-     More simply, WordPress is what you use when you want to work with your blogging software, not fight it.
-    &lt;/p&gt;
-   &lt;/blockquote&gt;
-   &lt;p&gt;
-    Now that is pure crap. It would take too long to list everything I believe they got wrong, so I’ll concentrate on a couple of issues to illustrate my frustrations.
-   &lt;/p&gt;
-   &lt;p&gt;
-    There are things that are plain stupid. Theme editor tells me I could edit my template directly, if I made files writable. True, and I wouldn’t be the only person who could do that anymore. So you have a theme editor that is either useless or a security problem.
-   &lt;/p&gt;
-   &lt;p&gt;
-    And then there are things like user levels. As an administrator of WordPress you have to decide what level a user should be, but there’s not even a word of explanation in user interface about what that means. No hint, nothing. Sure, it’s explained in wordpress documentation, but is there a link to contextual help available on that screen? To any help whatsoever? No.
-   &lt;/p&gt;
-   &lt;p&gt;
-    It’s stuff like this that makes me think WordPress has a long way to go for an average user.
-   &lt;/p&gt;
-  &lt;/div&gt;
- &lt;/body&gt;
-&lt;/html&gt;&lt;/p&gt;</summary></entry></feed>
+<feed xmlns="http://www.w3.org/2005/Atom"><title>A notch above a monkey</title><link href="http://markos.gaivo.net/articles/" rel="alternate"></link><link href="/articles/feeds/spletne-urice-ui.atom.xml" rel="self"></link><id>http://markos.gaivo.net/articles/</id><updated>2005-10-06T13:53:00+02:00</updated><entry><title>WordPress "sucks"</title><link href="http://markos.gaivo.net/articles/wordpress-sucks.html" rel="alternate"></link><updated>2005-10-06T13:53:00+02:00</updated><author><name>markos</name></author><id>tag:markos.gaivo.net,2005-10-06:articles/wordpress-sucks.html</id><summary type="html">&lt;div&gt;
+ &lt;p&gt;
+  I think our first talk was a success. It certainly exceeded my expectations and I hope that most of those who were there feel the same. I was happy to see that a lot of us didn’t just leave, but stayed to enjoy conversation with other visitors. I hope this will become even more common and expected.
+ &lt;/p&gt;
+ &lt;p&gt;
+  I got a chance to talk to several people I wanted to meet or whom haven’t seen in a long time and I immensely enjoyed myself. Our conversations covered many topic, one of which was
+  &lt;a href="http://http://www.wordpress.org/"&gt;
+   WordPress
+  &lt;/a&gt;
+  where I made some statements that on reflection probably deserve an explanation.
+ &lt;/p&gt;
+ &lt;p&gt;
+  I said that WordPress sucks.
+ &lt;/p&gt;
+ &lt;p&gt;
+  This is not true and I don’t actually mean it, but it is as true as what
+  &lt;a href="http://http://www.wordpress.org/"&gt;
+   wordpress.org
+  &lt;/a&gt;
+  has to say about its product:
+ &lt;/p&gt;
+ &lt;blockquote&gt;
+  &lt;p&gt;
+   WordPress is a state-of-the-art semantic personal publishing platform with a focus on aesthetics, web standards, and usability.
+  &lt;/p&gt;
+ &lt;/blockquote&gt;
+ &lt;p&gt;
+  I use WordPress, but I can’t say I enjoy the experience. It’s certainly not worse than most similar stuff out there, but I think best have moved on. I don’t find default installation particularly pleasant to look at, its usability is questionable and in an age of WYSIWYG editors and online spell checkers, it’s hardly state-of-the-art either.
+ &lt;/p&gt;
+ &lt;p&gt;
+  It’s still a good software and I wouldn’t nag, if the page didn’t also say:
+ &lt;/p&gt;
+ &lt;blockquote&gt;
+  &lt;p&gt;
+   More simply, WordPress is what you use when you want to work with your blogging software, not fight it.
+  &lt;/p&gt;
+ &lt;/blockquote&gt;
+ &lt;p&gt;
+  Now that is pure crap. It would take too long to list everything I believe they got wrong, so I’ll concentrate on a couple of issues to illustrate my frustrations.
+ &lt;/p&gt;
+ &lt;p&gt;
+  There are things that are plain stupid. Theme editor tells me I could edit my template directly, if I made files writable. True, and I wouldn’t be the only person who could do that anymore. So you have a theme editor that is either useless or a security problem.
+ &lt;/p&gt;
+ &lt;p&gt;
+  And then there are things like user levels. As an administrator of WordPress you have to decide what level a user should be, but there’s not even a word of explanation in user interface about what that means. No hint, nothing. Sure, it’s explained in wordpress documentation, but is there a link to contextual help available on that screen? To any help whatsoever? No.
+ &lt;/p&gt;
+ &lt;p&gt;
+  It’s stuff like this that makes me think WordPress has a long way to go for an average user.
+ &lt;/p&gt;
+&lt;/div&gt;</summary></entry></feed>

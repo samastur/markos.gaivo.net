@@ -1,224 +1,220 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>A notch above a monkey</title><link href="http://markos.gaivo.net/articles/" rel="alternate"></link><link href="/articles/feeds/general-development-javascript.atom.xml" rel="self"></link><id>http://markos.gaivo.net/articles/</id><updated>2010-01-24T11:44:00+01:00</updated><entry><title>Dreaming about arithmetic mean</title><link href="http://markos.gaivo.net/articles/dreaming-about-arithmetic-mean.html" rel="alternate"></link><updated>2010-01-24T11:44:00+01:00</updated><author><name>markos</name></author><id>tag:markos.gaivo.net,2010-01-24:articles/dreaming-about-arithmetic-mean.html</id><summary type="html">&lt;p&gt;&lt;html&gt;
- &lt;body&gt;
-  &lt;div&gt;
-   &lt;p&gt;
-    I had a crazy dream, where I was back at University, but this time studying computer science. We were writing a function to calculate an
-    &lt;a class="zem_slink" href="http://en.wikipedia.org/wiki/Arithmetic_mean" rel="wikipedia" title="Arithmetic mean"&gt;
-     arithmetic mean
-    &lt;/a&gt;
-    of an array of numbers. A task obviously too simple for college course, but with dreams you get what you are given.
-   &lt;/p&gt;
-   &lt;p&gt;
-    Discussion started with this function:
-   &lt;/p&gt;
-   &lt;ol class="code"&gt;
-    &lt;li&gt;
-     &lt;code&gt;
-      function average(arr) {
-     &lt;/code&gt;
-    &lt;/li&gt;
-    &lt;li class="tab1"&gt;
-     &lt;code&gt;
-      var i, sum = 0;
-     &lt;/code&gt;
-    &lt;/li&gt;
-    &lt;li class="tab1"&gt;
-     &lt;code&gt;
-      for(i=0;i&amp;lt;arr.length;i++) {
-     &lt;/code&gt;
-    &lt;/li&gt;
-    &lt;li class="tab2"&gt;
-     &lt;code&gt;
-      sum += arr[i];
-     &lt;/code&gt;
-    &lt;/li&gt;
-    &lt;li class="tab1"&gt;
-     &lt;code&gt;
-      }
-     &lt;/code&gt;
-    &lt;/li&gt;
-    &lt;li class="tab1"&gt;
-     &lt;code&gt;
-      return sum/i;
-     &lt;/code&gt;
-    &lt;/li&gt;
-    &lt;li&gt;
-     &lt;code&gt;
-      }
-     &lt;/code&gt;
-    &lt;/li&gt;
-    &lt;li&gt;
-    &lt;/li&gt;
-    &lt;li class="download"&gt;
-     Download this code:
-     &lt;a href="http://markos.gaivo.net/blog/code/dreamjs.txt" title="Download the above code as a text file"&gt;
-      /code/dreamjs.txt
-     &lt;/a&gt;
-    &lt;/li&gt;
-   &lt;/ol&gt;
-   &lt;p&gt;
-    Dream me, who by the way is significantly more bitchy than I ever am, wasn’t pleased and thought he could save few bytes by storing counter and sum inside of the array:
-   &lt;/p&gt;
-   &lt;ol class="code"&gt;
-    &lt;li&gt;
-     &lt;code&gt;
-      function average(arr) {
-     &lt;/code&gt;
-    &lt;/li&gt;
-    &lt;li class="tab1 cmnt"&gt;
-     &lt;code&gt;
-      // Store counter in array[0] and sum in array[1]
-     &lt;/code&gt;
-    &lt;/li&gt;
-    &lt;li class="tab1"&gt;
-     &lt;code&gt;
-      if (arr.length &amp;lt; 3) {
-     &lt;/code&gt;
-    &lt;/li&gt;
-    &lt;li class="tab2"&gt;
-     &lt;code&gt;
-      return arr.length == 2 ? arr[0]+arr[1] : arr[0];
-     &lt;/code&gt;
-    &lt;/li&gt;
-    &lt;li class="tab1"&gt;
-     &lt;code&gt;
-      } else {
-     &lt;/code&gt;
-    &lt;/li&gt;
-    &lt;li class="tab2"&gt;
-     &lt;code&gt;
-      arr[1] = arr[0]+arr[1];
-     &lt;/code&gt;
-    &lt;/li&gt;
-    &lt;li class="tab2"&gt;
-     &lt;code&gt;
-      arr[0] = 2;
-     &lt;/code&gt;
-    &lt;/li&gt;
-    &lt;li class="tab2"&gt;
-     &lt;code&gt;
-      for(;arr[0]&amp;lt;arr.length;arr[0]++) {
-     &lt;/code&gt;
-    &lt;/li&gt;
-    &lt;li class="tab3"&gt;
-     &lt;code&gt;
-      arr[1] += arr[arr[0]];
-     &lt;/code&gt;
-    &lt;/li&gt;
-    &lt;li class="tab2"&gt;
-     &lt;code&gt;
-      }
-     &lt;/code&gt;
-    &lt;/li&gt;
-    &lt;li class="tab1"&gt;
-     &lt;code&gt;
-      }
-     &lt;/code&gt;
-    &lt;/li&gt;
-    &lt;li class="tab1"&gt;
-     &lt;code&gt;
-      return arr[1]/arr[0];
-     &lt;/code&gt;
-    &lt;/li&gt;
-    &lt;li&gt;
-     &lt;code&gt;
-      }
-     &lt;/code&gt;
-    &lt;/li&gt;
-    &lt;li&gt;
-    &lt;/li&gt;
-    &lt;li class="download"&gt;
-     Download this code:
-     &lt;a href="http://markos.gaivo.net/blog/code/dreamjs2.txt" title="Download the above code as a text file"&gt;
-      /code/dreamjs2.txt
-     &lt;/a&gt;
-    &lt;/li&gt;
-   &lt;/ol&gt;
-   &lt;p&gt;
-    This looked ugly, but what bothered him (me?) was more that it also had a bug. Integer in
-    &lt;a class="zem_slink" href="http://en.wikipedia.org/wiki/JavaScript" rel="wikipedia" title="JavaScript"&gt;
-     Javascript
-    &lt;/a&gt;
-    is limited to 2
-    &lt;sup&gt;
-     53
-    &lt;/sup&gt;
-    , which is a lot, but sum can still
-    &lt;a class="zem_slink" href="http://en.wikipedia.org/wiki/Arithmetic_overflow" rel="wikipedia" title="Arithmetic overflow"&gt;
-     overflow
-    &lt;/a&gt;
-    or underflow it. Since mean can never be smaller than smallest or bigger than biggest number in a list, I could fix it by writing:
-   &lt;/p&gt;
-   &lt;ol class="code"&gt;
-    &lt;li&gt;
-     &lt;code&gt;
-      function average(arr) {
-     &lt;/code&gt;
-    &lt;/li&gt;
-    &lt;li class="tab1"&gt;
-     &lt;code&gt;
-      var n = arr.length, sum=0;
-     &lt;/code&gt;
-    &lt;/li&gt;
-    &lt;li class="tab1"&gt;
-     &lt;code&gt;
-      while (arr.length) {
-     &lt;/code&gt;
-    &lt;/li&gt;
-    &lt;li class="tab2"&gt;
-     &lt;code&gt;
-      sum += arr.pop()/n;
-     &lt;/code&gt;
-    &lt;/li&gt;
-    &lt;li class="tab1"&gt;
-     &lt;code&gt;
-      }
-     &lt;/code&gt;
-    &lt;/li&gt;
-    &lt;li class="tab1"&gt;
-     &lt;code&gt;
-      return sum;
-     &lt;/code&gt;
-    &lt;/li&gt;
-    &lt;li&gt;
-     &lt;code&gt;
-      }
-     &lt;/code&gt;
-    &lt;/li&gt;
-    &lt;li&gt;
-    &lt;/li&gt;
-    &lt;li class="download"&gt;
-     Download this code:
-     &lt;a href="http://markos.gaivo.net/blog/code/dreamjs3.txt" title="Download the above code as a text file"&gt;
-      /code/dreamjs3.txt
-     &lt;/a&gt;
-    &lt;/li&gt;
-   &lt;/ol&gt;
-   &lt;p&gt;
-    End of dream. Everything edited for sanity and brevity.
-   &lt;/p&gt;
-   &lt;p&gt;
-    I don’t have much to say about second program except that I would never write something so ugly just to save 16 bytes in a function like this. I wouldn’t even use Javascript if memory was that important.
-   &lt;/p&gt;
-   &lt;p&gt;
-    I am more intrigued by third program. Bug in second is definitely there, even though few of us operate with numbers big enough to encounter it.
-   &lt;/p&gt;
-   &lt;p&gt;
-    It’s interesting, because if I was awake, I would probably never think of it. I used to worry about bugs like this all the time, when I was coding in C. It was an unavoidable consequence of the language.
-   &lt;/p&gt;
-   &lt;p&gt;
-    I guess what I am getting at is that it is nice to code in a high-level language and for the most part not think about implementation details like this, but only as long as you actually know them so your brain gets triggered when they matter. Speaking of details, I bet those divisions can cause rounding errors.
-   &lt;/p&gt;
-   &lt;div class="zemanta-pixie"&gt;
-    &lt;a class="zemanta-pixie-a" href="http://reblog.zemanta.com/zemified/7ab2d445-07ff-4ec6-bed9-f29a2797d7a3/" title="Reblog this post [with Zemanta]"&gt;
-     &lt;img alt="Reblog this post [with Zemanta]" class="zemanta-pixie-img" src="http://img.zemanta.com/reblog_e.png?x-id=7ab2d445-07ff-4ec6-bed9-f29a2797d7a3"/&gt;
-    &lt;/a&gt;
-    &lt;span class="zem-script paragraph-reblog"&gt;
-     &lt;script defer="defer" src="http://static.zemanta.com/readside/loader.js" type="text/javascript"&gt;
-     &lt;/script&gt;
-    &lt;/span&gt;
-   &lt;/div&gt;
-  &lt;/div&gt;
- &lt;/body&gt;
-&lt;/html&gt;&lt;/p&gt;</summary><category term="algorithm"></category><category term="algorithm"></category><category term="Arithmetic mean"></category><category term="Arithmetic mean"></category><category term="bug"></category><category term="bug"></category><category term="Computer science"></category><category term="Computer science"></category><category term="Javascript"></category><category term="Javascript"></category><category term="Programming"></category><category term="Programming"></category></entry></feed>
+<feed xmlns="http://www.w3.org/2005/Atom"><title>A notch above a monkey</title><link href="http://markos.gaivo.net/articles/" rel="alternate"></link><link href="/articles/feeds/general-development-javascript.atom.xml" rel="self"></link><id>http://markos.gaivo.net/articles/</id><updated>2010-01-24T11:44:00+01:00</updated><entry><title>Dreaming about arithmetic mean</title><link href="http://markos.gaivo.net/articles/dreaming-about-arithmetic-mean.html" rel="alternate"></link><updated>2010-01-24T11:44:00+01:00</updated><author><name>markos</name></author><id>tag:markos.gaivo.net,2010-01-24:articles/dreaming-about-arithmetic-mean.html</id><summary type="html">&lt;div&gt;
+ &lt;p&gt;
+  I had a crazy dream, where I was back at University, but this time studying computer science. We were writing a function to calculate an
+  &lt;a class="zem_slink" href="http://en.wikipedia.org/wiki/Arithmetic_mean" rel="wikipedia" title="Arithmetic mean"&gt;
+   arithmetic mean
+  &lt;/a&gt;
+  of an array of numbers. A task obviously too simple for college course, but with dreams you get what you are given.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Discussion started with this function:
+ &lt;/p&gt;
+ &lt;ol class="code"&gt;
+  &lt;li&gt;
+   &lt;code&gt;
+    function average(arr) {
+   &lt;/code&gt;
+  &lt;/li&gt;
+  &lt;li class="tab1"&gt;
+   &lt;code&gt;
+    var i, sum = 0;
+   &lt;/code&gt;
+  &lt;/li&gt;
+  &lt;li class="tab1"&gt;
+   &lt;code&gt;
+    for(i=0;i&amp;lt;arr.length;i++) {
+   &lt;/code&gt;
+  &lt;/li&gt;
+  &lt;li class="tab2"&gt;
+   &lt;code&gt;
+    sum += arr[i];
+   &lt;/code&gt;
+  &lt;/li&gt;
+  &lt;li class="tab1"&gt;
+   &lt;code&gt;
+    }
+   &lt;/code&gt;
+  &lt;/li&gt;
+  &lt;li class="tab1"&gt;
+   &lt;code&gt;
+    return sum/i;
+   &lt;/code&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+   &lt;code&gt;
+    }
+   &lt;/code&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+  &lt;/li&gt;
+  &lt;li class="download"&gt;
+   Download this code:
+   &lt;a href="http://markos.gaivo.net/blog/code/dreamjs.txt" title="Download the above code as a text file"&gt;
+    /code/dreamjs.txt
+   &lt;/a&gt;
+  &lt;/li&gt;
+ &lt;/ol&gt;
+ &lt;p&gt;
+  Dream me, who by the way is significantly more bitchy than I ever am, wasn’t pleased and thought he could save few bytes by storing counter and sum inside of the array:
+ &lt;/p&gt;
+ &lt;ol class="code"&gt;
+  &lt;li&gt;
+   &lt;code&gt;
+    function average(arr) {
+   &lt;/code&gt;
+  &lt;/li&gt;
+  &lt;li class="tab1 cmnt"&gt;
+   &lt;code&gt;
+    // Store counter in array[0] and sum in array[1]
+   &lt;/code&gt;
+  &lt;/li&gt;
+  &lt;li class="tab1"&gt;
+   &lt;code&gt;
+    if (arr.length &amp;lt; 3) {
+   &lt;/code&gt;
+  &lt;/li&gt;
+  &lt;li class="tab2"&gt;
+   &lt;code&gt;
+    return arr.length == 2 ? arr[0]+arr[1] : arr[0];
+   &lt;/code&gt;
+  &lt;/li&gt;
+  &lt;li class="tab1"&gt;
+   &lt;code&gt;
+    } else {
+   &lt;/code&gt;
+  &lt;/li&gt;
+  &lt;li class="tab2"&gt;
+   &lt;code&gt;
+    arr[1] = arr[0]+arr[1];
+   &lt;/code&gt;
+  &lt;/li&gt;
+  &lt;li class="tab2"&gt;
+   &lt;code&gt;
+    arr[0] = 2;
+   &lt;/code&gt;
+  &lt;/li&gt;
+  &lt;li class="tab2"&gt;
+   &lt;code&gt;
+    for(;arr[0]&amp;lt;arr.length;arr[0]++) {
+   &lt;/code&gt;
+  &lt;/li&gt;
+  &lt;li class="tab3"&gt;
+   &lt;code&gt;
+    arr[1] += arr[arr[0]];
+   &lt;/code&gt;
+  &lt;/li&gt;
+  &lt;li class="tab2"&gt;
+   &lt;code&gt;
+    }
+   &lt;/code&gt;
+  &lt;/li&gt;
+  &lt;li class="tab1"&gt;
+   &lt;code&gt;
+    }
+   &lt;/code&gt;
+  &lt;/li&gt;
+  &lt;li class="tab1"&gt;
+   &lt;code&gt;
+    return arr[1]/arr[0];
+   &lt;/code&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+   &lt;code&gt;
+    }
+   &lt;/code&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+  &lt;/li&gt;
+  &lt;li class="download"&gt;
+   Download this code:
+   &lt;a href="http://markos.gaivo.net/blog/code/dreamjs2.txt" title="Download the above code as a text file"&gt;
+    /code/dreamjs2.txt
+   &lt;/a&gt;
+  &lt;/li&gt;
+ &lt;/ol&gt;
+ &lt;p&gt;
+  This looked ugly, but what bothered him (me?) was more that it also had a bug. Integer in
+  &lt;a class="zem_slink" href="http://en.wikipedia.org/wiki/JavaScript" rel="wikipedia" title="JavaScript"&gt;
+   Javascript
+  &lt;/a&gt;
+  is limited to 2
+  &lt;sup&gt;
+   53
+  &lt;/sup&gt;
+  , which is a lot, but sum can still
+  &lt;a class="zem_slink" href="http://en.wikipedia.org/wiki/Arithmetic_overflow" rel="wikipedia" title="Arithmetic overflow"&gt;
+   overflow
+  &lt;/a&gt;
+  or underflow it. Since mean can never be smaller than smallest or bigger than biggest number in a list, I could fix it by writing:
+ &lt;/p&gt;
+ &lt;ol class="code"&gt;
+  &lt;li&gt;
+   &lt;code&gt;
+    function average(arr) {
+   &lt;/code&gt;
+  &lt;/li&gt;
+  &lt;li class="tab1"&gt;
+   &lt;code&gt;
+    var n = arr.length, sum=0;
+   &lt;/code&gt;
+  &lt;/li&gt;
+  &lt;li class="tab1"&gt;
+   &lt;code&gt;
+    while (arr.length) {
+   &lt;/code&gt;
+  &lt;/li&gt;
+  &lt;li class="tab2"&gt;
+   &lt;code&gt;
+    sum += arr.pop()/n;
+   &lt;/code&gt;
+  &lt;/li&gt;
+  &lt;li class="tab1"&gt;
+   &lt;code&gt;
+    }
+   &lt;/code&gt;
+  &lt;/li&gt;
+  &lt;li class="tab1"&gt;
+   &lt;code&gt;
+    return sum;
+   &lt;/code&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+   &lt;code&gt;
+    }
+   &lt;/code&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+  &lt;/li&gt;
+  &lt;li class="download"&gt;
+   Download this code:
+   &lt;a href="http://markos.gaivo.net/blog/code/dreamjs3.txt" title="Download the above code as a text file"&gt;
+    /code/dreamjs3.txt
+   &lt;/a&gt;
+  &lt;/li&gt;
+ &lt;/ol&gt;
+ &lt;p&gt;
+  End of dream. Everything edited for sanity and brevity.
+ &lt;/p&gt;
+ &lt;p&gt;
+  I don’t have much to say about second program except that I would never write something so ugly just to save 16 bytes in a function like this. I wouldn’t even use Javascript if memory was that important.
+ &lt;/p&gt;
+ &lt;p&gt;
+  I am more intrigued by third program. Bug in second is definitely there, even though few of us operate with numbers big enough to encounter it.
+ &lt;/p&gt;
+ &lt;p&gt;
+  It’s interesting, because if I was awake, I would probably never think of it. I used to worry about bugs like this all the time, when I was coding in C. It was an unavoidable consequence of the language.
+ &lt;/p&gt;
+ &lt;p&gt;
+  I guess what I am getting at is that it is nice to code in a high-level language and for the most part not think about implementation details like this, but only as long as you actually know them so your brain gets triggered when they matter. Speaking of details, I bet those divisions can cause rounding errors.
+ &lt;/p&gt;
+ &lt;div class="zemanta-pixie"&gt;
+  &lt;a class="zemanta-pixie-a" href="http://reblog.zemanta.com/zemified/7ab2d445-07ff-4ec6-bed9-f29a2797d7a3/" title="Reblog this post [with Zemanta]"&gt;
+   &lt;img alt="Reblog this post [with Zemanta]" class="zemanta-pixie-img" src="http://img.zemanta.com/reblog_e.png?x-id=7ab2d445-07ff-4ec6-bed9-f29a2797d7a3"/&gt;
+  &lt;/a&gt;
+  &lt;span class="zem-script paragraph-reblog"&gt;
+   &lt;script defer="defer" src="http://static.zemanta.com/readside/loader.js" type="text/javascript"&gt;
+   &lt;/script&gt;
+  &lt;/span&gt;
+ &lt;/div&gt;
+&lt;/div&gt;</summary><category term="Arithmetic mean"></category><category term="algorithm"></category><category term="Javascript"></category><category term="Programming"></category><category term="Computer science"></category><category term="bug"></category></entry></feed>

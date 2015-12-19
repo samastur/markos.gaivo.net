@@ -21,7 +21,7 @@
 
 <section class="envelope posts">
     <header>
-        <h1><a href="http://markos.gaivo.net/articles/">A notch above a monkey <strong></strong></a></h1>
+        <h1><a href="../">A notch above a monkey <strong></strong></a></h1>
     </header><!-- /#banner -->
 
     <nav class="colophon">
@@ -33,191 +33,179 @@
     </nav>
 
         <article class="hentry">
-            <h1 class="entry-title storytitle"><a href="http://markos.gaivo.net/articles/building-faq-from-wiki-pages.html" rel="bookmark" title="Permalink to Building FAQ from wiki pages">Building FAQ from wiki pages</a></h1>
+            <h1 class="entry-title storytitle"><a href="../building-faq-from-wiki-pages.html" rel="bookmark" title="Permalink to Building FAQ from wiki pages">Building FAQ from wiki pages</a></h1>
 
             <div class="entry-content post-text">
-                <p><html>
- <body>
-  <div>
-   <p>
-    We use
-    <a href="http://moinmoin.wikiwikiweb.de/" title="MoinMoin's homepage">
-     MoinMoin
-    </a>
-    for all our documentation needs, since it simplifies almost all related tasks. It’s nice when everything is available at one place through a familiar and easy to use interface.
-   </p>
-   <p>
-    This is why I also wanted to use it to build a FAQ for our site, which is more needed with each day. There’s an abundance of software for building and managing such documents, but I haven’t found anything that would match our needs. Apart from using wiki pages as the source of wisdom, I also wanted:
-   </p>
-   <ol>
-    <li>
-     A good and fairly easy integration with our site (but not automatic).
-    </li>
-    <li>
-     A very malleable solution, where it would be easy to change FAQ organization as requirements change.
-    </li>
-   </ol>
-   <p>
-    At the end I decided to build our own thing using
-    <a href="http://www.crummy.com/software/BeautifulSoup/index.html">
-     Beautiful Soup
-    </a>
-    , a python package I raved about a while ago. Since we wanted each question to have a permanent link that could be bookmarked, we had to give them an identifier that wouldn’t change even if we rephrased the question or changed the answer. The simplest way was to assign a unique number to each question as it can be seen on a
-    <a href="http://markos.gaivo.net/examples/samplefaq/faq.html">
-     sample FAQ page
-    </a>
-    . This way it’s easy to add and remove questions as long as you can count.
-   </p>
-   <p>
-    MoinMoin produces very sensible HTML that is easy to work with.
-    <a href="http://markos.gaivo.net/examples/samplefaq/faq.py">
-     Here’s
-    </a>
-    a proof of concept module that extracts information from a page like the sample one and packs it in a dictionary with identifiers as keys and a list
-    <em>
-     [ question, answer ]
-    </em>
-    as value.
-   </p>
-   <p>
-    It’s not something very useful on its own, but I think it’s a nice example of what can be done quickly with existing tools like MoinMoin and BeautifulSoup.
-   </p>
-   <p>
-    Notes: In principle there’s no need to use MoinMoin as long as produced HTML fits following assumptions:
-   </p>
-   <ol>
-    <li>
-     FAQ is stored inside a
-     <em>
-      div
-     </em>
-     element with
-     <em>
-      id
-     </em>
-     set to
-     <em>
-      content
-     </em>
-     .
-    </li>
-    <li>
-     Questions are inside a heading element which also acts as a delimiter between them.
-    </li>
-    <li>
-     Identifiers are integers.
-    </li>
-   </ol>
-   <p>
-    If it doesn’t, you’ll need to change code a bit.
-   </p>
-  </div>
- </body>
-</html></p>
+                <div>
+ <p>
+  We use
+  <a href="http://moinmoin.wikiwikiweb.de/" title="MoinMoin's homepage">
+   MoinMoin
+  </a>
+  for all our documentation needs, since it simplifies almost all related tasks. It’s nice when everything is available at one place through a familiar and easy to use interface.
+ </p>
+ <p>
+  This is why I also wanted to use it to build a FAQ for our site, which is more needed with each day. There’s an abundance of software for building and managing such documents, but I haven’t found anything that would match our needs. Apart from using wiki pages as the source of wisdom, I also wanted:
+ </p>
+ <ol>
+  <li>
+   A good and fairly easy integration with our site (but not automatic).
+  </li>
+  <li>
+   A very malleable solution, where it would be easy to change FAQ organization as requirements change.
+  </li>
+ </ol>
+ <p>
+  At the end I decided to build our own thing using
+  <a href="http://www.crummy.com/software/BeautifulSoup/index.html">
+   Beautiful Soup
+  </a>
+  , a python package I raved about a while ago. Since we wanted each question to have a permanent link that could be bookmarked, we had to give them an identifier that wouldn’t change even if we rephrased the question or changed the answer. The simplest way was to assign a unique number to each question as it can be seen on a
+  <a href="http://markos.gaivo.net/examples/samplefaq/faq.html">
+   sample FAQ page
+  </a>
+  . This way it’s easy to add and remove questions as long as you can count.
+ </p>
+ <p>
+  MoinMoin produces very sensible HTML that is easy to work with.
+  <a href="http://markos.gaivo.net/examples/samplefaq/faq.py">
+   Here’s
+  </a>
+  a proof of concept module that extracts information from a page like the sample one and packs it in a dictionary with identifiers as keys and a list
+  <em>
+   [ question, answer ]
+  </em>
+  as value.
+ </p>
+ <p>
+  It’s not something very useful on its own, but I think it’s a nice example of what can be done quickly with existing tools like MoinMoin and BeautifulSoup.
+ </p>
+ <p>
+  Notes: In principle there’s no need to use MoinMoin as long as produced HTML fits following assumptions:
+ </p>
+ <ol>
+  <li>
+   FAQ is stored inside a
+   <em>
+    div
+   </em>
+   element with
+   <em>
+    id
+   </em>
+   set to
+   <em>
+    content
+   </em>
+   .
+  </li>
+  <li>
+   Questions are inside a heading element which also acts as a delimiter between them.
+  </li>
+  <li>
+   Identifiers are integers.
+  </li>
+ </ol>
+ <p>
+  If it doesn’t, you’ll need to change code a bit.
+ </p>
+</div>
             </div><!-- /.entry-content -->
 
             <footer class="post-metadata">
                 <ul>
                     <li>Published on <time datetime="2005-11-22T17:17:00+01:00">Tue 22 November 2005</time> </li>
-                    <li><a href="http://markos.gaivo.net/articles/building-faq-from-wiki-pages.html">Add your comment</a></li>
+                    <li><a href="../building-faq-from-wiki-pages.html">Add your comment</a></li>
                 </ul>
             </footer>
         </article>
         <article class="hentry">
-            <h1 class="entry-title storytitle"><a href="http://markos.gaivo.net/articles/the-most-annoying-business-habit.html" rel="bookmark" title="Permalink to The most annoying business habit">The most annoying business habit</a></h1>
+            <h1 class="entry-title storytitle"><a href="../the-most-annoying-business-habit.html" rel="bookmark" title="Permalink to The most annoying business habit">The most annoying business habit</a></h1>
 
             <div class="entry-content post-text">
-                <p><html>
- <body>
-  <div>
-   <p>
-    To me the most annoying business habit is calling someone when it’s not urgent, even though you have his email address and it should be obvious from your relationship that he prefers email to other means of communication.
-   </p>
-   <p>
-    I hated phones since I was a wee lad, but I dislike them even more now, because:
-   </p>
-   <ol>
-    <li>
-     They break my concentration; rarely for a good reason.
-    </li>
-    <li>
-     They are invasive and inconsiderate. Just because it suits you to call me now, it doesn’t mean it suits me.
-    </li>
-    <li>
-     Whatever is said on the phone can be denied later and sometimes is.
-    </li>
-   </ol>
-   <p>
-    Leave a trail or fuck off.
-   </p>
-  </div>
- </body>
-</html></p>
+                <div>
+ <p>
+  To me the most annoying business habit is calling someone when it’s not urgent, even though you have his email address and it should be obvious from your relationship that he prefers email to other means of communication.
+ </p>
+ <p>
+  I hated phones since I was a wee lad, but I dislike them even more now, because:
+ </p>
+ <ol>
+  <li>
+   They break my concentration; rarely for a good reason.
+  </li>
+  <li>
+   They are invasive and inconsiderate. Just because it suits you to call me now, it doesn’t mean it suits me.
+  </li>
+  <li>
+   Whatever is said on the phone can be denied later and sometimes is.
+  </li>
+ </ol>
+ <p>
+  Leave a trail or fuck off.
+ </p>
+</div>
             </div><!-- /.entry-content -->
 
             <footer class="post-metadata">
                 <ul>
                     <li>Published on <time datetime="2005-11-22T11:55:00+01:00">Tue 22 November 2005</time> </li>
-                    <li><a href="http://markos.gaivo.net/articles/the-most-annoying-business-habit.html">Add your comment</a></li>
+                    <li><a href="../the-most-annoying-business-habit.html">Add your comment</a></li>
                 </ul>
             </footer>
         </article>
         <article class="hentry">
-            <h1 class="entry-title storytitle"><a href="http://markos.gaivo.net/articles/riffs-logo-hinting.html" rel="bookmark" title="Permalink to Riffs' logo hinting">Riffs' logo hinting</a></h1>
+            <h1 class="entry-title storytitle"><a href="../riffs-logo-hinting.html" rel="bookmark" title="Permalink to Riffs' logo hinting">Riffs' logo hinting</a></h1>
 
             <div class="entry-content post-text">
-                <p><html>
- <body>
-  <div>
-   <p>
-    I found a link to
-    <a href="http://www.riffs.com">
-     Riffs
-    </a>
-    at
-    <a href="http://www.hicksdesign.co.uk/journal/riffs-your-social-recommender" title="Jon's blog">
-     Jon Hick’s
-    </a>
-    blog. I don’t know much about their service, but I really like how logo gives you a direct clue to where you’ll go when you hover over it. It’s little things like this that make good interfaces great.
-   </p>
-   <p>
-    On the other hand I’m not fond of alpha or beta signs on services that are not finished yet. It’s been my experience that most users, especially more inexperienced ones, have no idea what that was supposed to mean.
-   </p>
-   <p>
-    That’s why we went with
-    <strong>
-     “v pripravi”
-    </strong>
-    stamp on
-    <a href="http://www.marela.si">
-     our site
-    </a>
-    , which is a short slovene description that we’re still preparing this yet unfinished site. It’s been very well received even though stamp doesn’t look real and doesn’t fit the rest of design all that well either. I believe the importance of language used can’t be overstated and jargon that you don’t share with your users must simply be completely avoided.
-   </p>
-   <p>
-    By the way, for those who’ve seen Marela, the reason why there’s a mismatch between the stamp (together with the first page) and otherwise great design is that former was done by me and later by immensely talented guys at
-    <a href="http://www.clearleft.com/">
-     clear:left
-    </a>
-    . If you ever need a dedicated and passionate bunch of web developers who’ll go beyond their duty for a very reasonable fee, you really should give them a call.
-   </p>
-  </div>
- </body>
-</html></p>
+                <div>
+ <p>
+  I found a link to
+  <a href="http://www.riffs.com">
+   Riffs
+  </a>
+  at
+  <a href="http://www.hicksdesign.co.uk/journal/riffs-your-social-recommender" title="Jon's blog">
+   Jon Hick’s
+  </a>
+  blog. I don’t know much about their service, but I really like how logo gives you a direct clue to where you’ll go when you hover over it. It’s little things like this that make good interfaces great.
+ </p>
+ <p>
+  On the other hand I’m not fond of alpha or beta signs on services that are not finished yet. It’s been my experience that most users, especially more inexperienced ones, have no idea what that was supposed to mean.
+ </p>
+ <p>
+  That’s why we went with
+  <strong>
+   “v pripravi”
+  </strong>
+  stamp on
+  <a href="http://www.marela.si">
+   our site
+  </a>
+  , which is a short slovene description that we’re still preparing this yet unfinished site. It’s been very well received even though stamp doesn’t look real and doesn’t fit the rest of design all that well either. I believe the importance of language used can’t be overstated and jargon that you don’t share with your users must simply be completely avoided.
+ </p>
+ <p>
+  By the way, for those who’ve seen Marela, the reason why there’s a mismatch between the stamp (together with the first page) and otherwise great design is that former was done by me and later by immensely talented guys at
+  <a href="http://www.clearleft.com/">
+   clear:left
+  </a>
+  . If you ever need a dedicated and passionate bunch of web developers who’ll go beyond their duty for a very reasonable fee, you really should give them a call.
+ </p>
+</div>
             </div><!-- /.entry-content -->
 
             <footer class="post-metadata">
                 <ul>
                     <li>Published on <time datetime="2005-11-21T12:55:00+01:00">Mon 21 November 2005</time> </li>
-                    <li><a href="http://markos.gaivo.net/articles/riffs-logo-hinting.html">Add your comment</a></li>
+                    <li><a href="../riffs-logo-hinting.html">Add your comment</a></li>
                 </ul>
             </footer>
         </article>
 
 <p class="paginator">
-        <a href="http://markos.gaivo.net/articles/author/markos88.html">&laquo;</a>
+        <a href="../author/markos88.html">&laquo;</a>
     Page 89 / 111
-        <a href="http://markos.gaivo.net/articles/author/markos90.html">&raquo;</a>
+        <a href="../author/markos90.html">&raquo;</a>
 </p>
 </section><!-- /#content -->
 

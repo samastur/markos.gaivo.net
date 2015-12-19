@@ -1,693 +1,653 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>A notch above a monkey</title><link href="http://markos.gaivo.net/articles/" rel="alternate"></link><link href="/articles/feeds/general-development-web.atom.xml" rel="self"></link><id>http://markos.gaivo.net/articles/</id><updated>2012-03-15T08:52:00+01:00</updated><entry><title>Save bandwidth switch</title><link href="http://markos.gaivo.net/articles/save-bandwidth-switch.html" rel="alternate"></link><updated>2012-03-15T08:52:00+01:00</updated><author><name>markos</name></author><id>tag:markos.gaivo.net,2012-03-15:articles/save-bandwidth-switch.html</id><summary type="html">&lt;p&gt;&lt;html&gt;
- &lt;body&gt;
-  &lt;div&gt;
-   &lt;p&gt;
-    Michal Migurski recently posted
-    &lt;a href="http://mike.teczno.com/notes/bandwidth.html"&gt;
-     an article
-    &lt;/a&gt;
-    about download sizes of popular websites. I couldn’t replicate his results
-    &lt;sup&gt;
-     &lt;a href="#save-bandwidth-note-1" id="save-bandwidth-1"&gt;
-      [1]
-     &lt;/a&gt;
-    &lt;/sup&gt;
-    , but it is obvious that gist of Michal’s article is correct, websites have indeed ballooned significantly in last few years.
-   &lt;/p&gt;
-   &lt;p&gt;
-    This blog’s homepage has a footprint of around 250KB-270KB
-    &lt;sup&gt;
-     &lt;a href="#save-bandwidth-note-2" id="save-bandwidth-2"&gt;
-      [2]
-     &lt;/a&gt;
-    &lt;/sup&gt;
-    . About 90% of its size are fonts and
-    &lt;a href="http://jquery.com/"&gt;
-     jQuery
-    &lt;/a&gt;
-    which is a big penalty for making it look and behave a bit nicer. So should I remove those parts?
-   &lt;/p&gt;
-   &lt;p&gt;
-    Well, for most visitors to this website that difference doesn’t matter. Pages for them are neither slow nor expensive to load. Unless of course they are doing it over your average hotel Wi-Fi or a slow mobile network where speed around 56Kb/s is not unheard of. On such connection it would take about half a minute to load this blog. It can also cost more than 10 euro cents to load it when roaming in Europe.
-   &lt;/p&gt;
-   &lt;p&gt;
-    It would be great if I could offer a choice of serving bigger and nicer or smaller and faster version depending on visitors needs.
-   &lt;/p&gt;
-   &lt;p&gt;
-    Measuring speed is not easy, but certainly doable as Gmail has demonstrated. You could start a timer immediately in page header, measure how much time it takes to load a smaller version of a website and if that happened quickly enough upgrade it to full bling. Android browser also added support for
-    &lt;a href="http://dvcs.w3.org/hg/dap/raw-file/tip/network-api/index.html"&gt;
-     navigator.connection
-    &lt;/a&gt;
-    Javascript property which, where it exists, probably has more details than you would need.
-   &lt;/p&gt;
-   &lt;p&gt;
-    However there is no way to measure price of a visit. Even if I could, how would I decide what is too expensive for an anonymous reader and should I make such decisions at all? I think not.
-   &lt;/p&gt;
-   &lt;p&gt;
-    Gmail’s approach is really just a band-aid over what should be a visitor’s decision. I use same laptop and browser at home and while I travel, experiencing all combinations of connection speed and pricing. I never know how much it will cost me to visit a page, but I always learn quickly if I would prefer something small or full-featured. There is just no way I can communicate that preference.
-   &lt;/p&gt;
-   &lt;p&gt;
-    It would be great if my browser had a switch for this purpose, like Firefox’s “Work Offline” toggle. So if I switched to bandwidth saving mode, then every subsequent request to web server would communicate my preference with a HTTP header field like:
-   &lt;/p&gt;
-   &lt;blockquote&gt;
-    &lt;p&gt;
-     X-Bandwidth: save
-    &lt;/p&gt;
-   &lt;/blockquote&gt;
-   &lt;p&gt;
-    In principle you could have multiple levels of bandwidth consumption, but that would likely be an overkill. Common practice suggests that at most two levels would really get used, one aimed at mobile devices and other at desktop.
-   &lt;/p&gt;
-   &lt;p&gt;
-    Header like that might be enough, but even better would be if Javascript environment got another property describing current state of user’s preference (like say
-    &lt;em&gt;
-     navigator.bandwidth
-    &lt;/em&gt;
-    ). Coupled with a bandwidth event triggered on change you could really optimize every modern web page, even those with more complicated loading of resources and execution paths.
-   &lt;/p&gt;
-   &lt;p&gt;
-    Right now such functionality doesn’t exist or at least I couldn’t find it (I even searched Mozilla’s bug database for any future plans). I think my proposal is both user and developer friendly and workable. If you can think of a reason why it would be problematic, then I would really like to hear it.
-   &lt;/p&gt;
-   &lt;ol&gt;
-    &lt;li id="save-bandwidth-note-1"&gt;
-     Pages are often personalized for visitor. Developer tools of different browsers also don’t report same sizes. They also report amount of data transferred not the size of that data once unpacked. Almost 2M of Twitter’s Javascript is thus reduced into page of “only” about 1MB of data transferred. And that to display couple of sentences.
-     &lt;a href="#save-bandwidth-1"&gt;
-      ↩
-     &lt;/a&gt;
-    &lt;/li&gt;
-    &lt;li id="save-bandwidth-note-2"&gt;
-     Depends on browser used. Variation in sizes is probably due different formats of fonts used by browsers. It also changed once I published this post.
-     &lt;a href="#save-bandwidth-2"&gt;
-      ↩
-     &lt;/a&gt;
-    &lt;/li&gt;
-   &lt;/ol&gt;
-  &lt;/div&gt;
- &lt;/body&gt;
-&lt;/html&gt;&lt;/p&gt;</summary></entry><entry><title>-beta- prefix algorithm for CSS</title><link href="http://markos.gaivo.net/articles/beta-prefix-algorithm-for-css.html" rel="alternate"></link><updated>2012-02-10T18:21:00+01:00</updated><author><name>markos</name></author><id>tag:markos.gaivo.net,2012-02-10:articles/beta-prefix-algorithm-for-css.html</id><summary type="html">&lt;p&gt;&lt;html&gt;
- &lt;body&gt;
-  &lt;div&gt;
-   &lt;p&gt;
-    These have been eventful couple of days for web developers. CSS Working Group chair
-    &lt;a href="http://www.glazman.org/weblog/dotclear/index.php?post/2012/02/09/CALL-FOR-ACTION%3A-THE-OPEN-WEB-NEEDS-YOU-NOW"&gt;
-     called on everyone
-    &lt;/a&gt;
-    to use all (most?) vendor prefixes and stop making websites for WebKit which is becoming a new (mobile) IE6. Responses have been numerous,
-    &lt;a href="http://www.quirksmode.org/blog/archives/2012/02/the_vendor_pref.html" title="PPK's first article about prefixes"&gt;
-     including
-    &lt;/a&gt;
-    &lt;a href="http://www.quirksmode.org/blog/archives/2012/02/alpha_and_beta.html" title="PPK's follow up to first article"&gt;
-     ppk
-    &lt;/a&gt;
-    who in his usual obnoxious manner
-    &lt;sup&gt;
-     &lt;a href="#beta-prefix-note-1" id="beta-prefix-1"&gt;
-      [1]
-     &lt;/a&gt;
-    &lt;/sup&gt;
-    made some good points. Testing on mobile devices is an unsolved problem (who wants or can afford to buy so many almost immediately obsolete gadgets?) and introducing -beta- (maybe also -alpha-) prefix would simplify our lives while keeping most benefits of vendor prefixes.
-   &lt;/p&gt;
-   &lt;p&gt;
-    I like -beta- idea and I think adding -alpha- might be even better. There’s still a problem of resolving syntax conflicts between different implementation which I think has a simple solution that closely mimics what browsers already do:
-   &lt;/p&gt;
-   &lt;p&gt;
-    &lt;em&gt;
-     When parsing CSS browsers
-    &lt;/em&gt;
-    &lt;em&gt;
-     should apply the last matching -beta-/-alpha- directive they fully understand.
-    &lt;/em&gt;
-   &lt;/p&gt;
-   &lt;p&gt;
-    Browsers already ignore directives they don’t understand and they apply last directive found when there are multiple candidates for a DOM node.
-   &lt;/p&gt;
-   &lt;p&gt;
-    Such behavior would give us less CSS code to write and maintain, have predictable behavior and keep browser experimentation without favoring one. I have troubles finding negative sides of this approach, but do let me know if you can think of one.
-   &lt;/p&gt;
-   &lt;ol&gt;
-    &lt;li id="beta-prefix-note-1"&gt;
-     I deeply dislike his complaining about simplistic view of others while himself generalizing and name-calling (the lazy and stupid lot of us). Alas it’s not good to read only people you like and agree with.
-     &lt;a href="#beta-prefix-1"&gt;
-      ↩
-     &lt;/a&gt;
-    &lt;/li&gt;
-    &lt;li&gt;
-     Almost everything I write on this blog has an intended  audience of one:  me (no, really!). Why I sometimes write posts like  this, which don’t, is a mistery  since their expected and actual effect on anyone  is…none.
-    &lt;/li&gt;
-   &lt;/ol&gt;
-  &lt;/div&gt;
- &lt;/body&gt;
-&lt;/html&gt;&lt;/p&gt;</summary><category term="agony"></category><category term="agony"></category><category term="css"></category><category term="css"></category><category term="mobile"></category><category term="mobile"></category><category term="prefix"></category><category term="prefix"></category><category term="webkit"></category><category term="webkit"></category></entry><entry><title>Cookies, localStorage and shared state</title><link href="http://markos.gaivo.net/articles/cookies-localstorage-and-shared-state.html" rel="alternate"></link><updated>2011-12-19T17:05:00+01:00</updated><author><name>markos</name></author><id>tag:markos.gaivo.net,2011-12-19:articles/cookies-localstorage-and-shared-state.html</id><summary type="html">&lt;p&gt;&lt;html&gt;
- &lt;body&gt;
-  &lt;div&gt;
-   &lt;p&gt;
-    I’ve been fiddling with my website again, changing theme switching from somewhat dumb class based system to a more proper one using alternate style sheets. I learned that picking a style sheet in browser applies those changes only to currently open page, so for style sheet selection to persevere it needs a bit of Javascript support from website owner. Personally I find this just stupid.
-   &lt;/p&gt;
-   &lt;p&gt;
-    The easiest way to remember visitor’s preference is to store it in his browser. Cookies used to be popular before they were deemed evil, but they have other limitations as well. Hence popular switch to HTML5 in-browser storage technologies like
-    &lt;a href="http://www.w3.org/TR/webstorage/"&gt;
-     localStorage
-    &lt;/a&gt;
-    .
-   &lt;/p&gt;
-   &lt;p&gt;
-    I think there is one important difference between cookies and tools like localStorage that is often overlooked and it’s not the size of data that can be stored. Cookies are sent with
-    &lt;em&gt;
-     each page request
-    &lt;/em&gt;
-    while data stored elsewhere isn’t. Changing them on any side will automatically share state with the other. I use localStorage in my theme switcher because I think server doesn’t need and should not know which theme is used. But for storing shared data, especially one that expires, cookies remain a reasonable if not best choice.
-   &lt;/p&gt;
-   &lt;p&gt;
-    None of this is exactly new, but I think it is worth remembering. In other news I dislike interface limitations of Chrome more and more (exceptions are Developer Tools and extensions framework).
-   &lt;/p&gt;
-  &lt;/div&gt;
- &lt;/body&gt;
-&lt;/html&gt;&lt;/p&gt;</summary><category term="browser"></category><category term="browser"></category><category term="chrome"></category><category term="chrome"></category><category term="cookies"></category><category term="cookies"></category><category term="css"></category><category term="css"></category><category term="Firefox"></category><category term="Firefox"></category><category term="html5"></category><category term="html5"></category><category term="http"></category><category term="http"></category><category term="localstorage"></category><category term="localstorage"></category><category term="shared state"></category><category term="shared state"></category><category term="stylesheet"></category><category term="stylesheet"></category></entry><entry><title>Reading sources</title><link href="http://markos.gaivo.net/articles/reading-sources.html" rel="alternate"></link><updated>2011-11-21T11:37:00+01:00</updated><author><name>markos</name></author><id>tag:markos.gaivo.net,2011-11-21:articles/reading-sources.html</id><summary type="html">&lt;p&gt;&lt;html&gt;
- &lt;body&gt;
-  &lt;div&gt;
-   &lt;p&gt;
-    Google Reader was redesigned lately and I’ve been annoyed ever since. I had a dubious privilege of cutting and changing product features people loved in pursuit of
-    &lt;del&gt;
-     higher
-    &lt;/del&gt;
-    different goals, so I try to be understanding when others do the same. I mostly found clumsy workarounds for removed features, but I do wish I could at least still trust that list of unread items actually has
-    &lt;em&gt;
-     all of them
-    &lt;/em&gt;
-    . On a positive note I can save some electricity now because copious amounts of “helpfully” white whitespace illuminate this room brightly enough that you wouldn’t sit naked in-front of your computer even with lights turned off. That is if you are the sort of person who likes doing that but stops short of flashing your neighbors.
-   &lt;/p&gt;
-   &lt;p&gt;
-    I still strongly dislike changes made, but I continue using Google Reader, because crack-heads don’t give up dope just because it was cut too thinly. I cherish my list of reading sources and like a gardener I have been cultivating it through years because I believe they make me better informed than I would be if I relied only on links shared by others. This may be elitist, but it is also true.
-   &lt;/p&gt;
-   &lt;p&gt;
-    We are biased when choosing friends and communities we belong to. At the very least we enjoy our life more when surrounded with like minded people which is really a lighter shade of group think. We share to tell stories as much about what is shared as we do about who we are. Even when not self-censoring or trying to project an image we still are horribly bad at evaluating what influences us and how. Sharing everything, as
-    &lt;a href="http://techcrunch.com/2011/11/19/curation-through-unsharing/"&gt;
-     this idiotic article
-    &lt;/a&gt;
-    suggests, doesn’t fix this
-    &lt;sup&gt;
-     &lt;a href="#reading-sources-note-1" id="reading-sources-1"&gt;
-      [1]
-     &lt;/a&gt;
-    &lt;/sup&gt;
-    . It’s still content from same people only more of it.
-   &lt;/p&gt;
-   &lt;p&gt;
-    Then there are social new sites, which are in essence news organizations with bigger editorial board. Their focus might not be the same and their world view less obvious (or not) as of traditional boards, but the end result really isn’t all that different. I don’t dread waking up in a world without
-    &lt;a href="http://www.apple.com" title="Apple's homepage"&gt;
-     Apple
-    &lt;/a&gt;
-    as I do in one without  fish, but it is not articles about all things piscatorial that keep popping up on regular basis.
-   &lt;/p&gt;
-   &lt;p&gt;
-    This doesn’t make socially filtered news useless, just limited and best suited for finding out what is popular at this moment. They should be a side dish not the whole diet. Getting some of your information diet from social sources may improve it, but relying only on them is just stupid. I wouldn’t fret so much if I didn’t worry about development trends — latest Reader changes being one example of them.
-   &lt;/p&gt;
-   &lt;p&gt;
-    Reader had two methods of sharing. Obvious one was button Share which was adequately replaced with sharing to
-    &lt;a href="http://plus.google.com"&gt;
-     Google+
-    &lt;/a&gt;
-    circles. The other one, which was the one I actually relied on, was to create public feeds for articles marked with certain tags. The most important difference is that in first case you grouped by intended audience and in second by actual content
-    &lt;sup&gt;
-     &lt;a href="#reading-sources-note-2" id="reading-sources-2"&gt;
-      [2]
-     &lt;/a&gt;
-    &lt;/sup&gt;
-    . Instead of following me, you could just follow my selection on particular topic which in most cases would probably be closer to what you want.
-   &lt;/p&gt;
-   &lt;p&gt;
-    By itself stripping a feature like that doesn’t mean much. However when I also judge other changes such as aforementioned abundance of whitespace, removal of “Note to reader” and  new reading unfriendly theme, it’s easy to come to conclusion that all roads now lead to Google+. Reader’s role is at best to feed its younger brother with stuff to socialize around.
-   &lt;/p&gt;
-   &lt;p&gt;
-    It would be wrong to attribute these changes simply to competition with Facebook since they are a part of a larger trend to social curation. I find this trend just a normal consequence of a web ecosystem where most product innovation happens in VC funded startups. How companies were funded was always a part of their DNA and economics of today’s VC environment for companies that will probably be acquired at some point (and let’s be honest, who REALLY believes most news experiments won’t be?) almost demands a quick and high growth. It’s not impossible to achieve this with sources-based product, but it’s certainly harder and less obvious than creating another twist on social news.
-   &lt;/p&gt;
-   &lt;p&gt;
-    If my first and main point was a personal appeal to seek insight also in your own, personally picked sources, then my second is to question if shaping web and world with it should really be left only to industry and academia. It really doesn’t have to be this way.
-   &lt;/p&gt;
-   &lt;ol&gt;
-    &lt;li id="reading-sources-note-1"&gt;
-     Browser’s history is a great place to see just how much of what we visit is unimportant, unrepresentative and often unsharable. A small friction necessary for a deliberate act of sharing is actually a feature that gives at least a modicum of reflection on content’s share-worthiness.
-     &lt;a href="#reading-sources-1"&gt;
-      ↩
-     &lt;/a&gt;
-    &lt;/li&gt;
-    &lt;li id="reading-sources-note-2"&gt;
-     Feeds enable that and are one of crucial building blocks for what I started to call
-     &lt;em&gt;
-      social software for introverts
-     &lt;/em&gt;
-     .  It is software which is better when used by many, but is good even when  you are its only user.
-     &lt;a href="http://www.instapaper.com/" title="Tool for saving pages to read them later"&gt;
-      Instapaper
-     &lt;/a&gt;
-     would be a perfect example of such an application and
-     &lt;a href="http://www.facebook.com/" title="Evil empire"&gt;
-      Facebook
-     &lt;/a&gt;
-     is a counter-example.
-     &lt;a href="#reading-sources-2"&gt;
-      ↩
-     &lt;/a&gt;
-    &lt;/li&gt;
-   &lt;/ol&gt;
-  &lt;/div&gt;
- &lt;/body&gt;
-&lt;/html&gt;&lt;/p&gt;</summary><category term="google reader"></category><category term="google reader"></category><category term="information"></category><category term="information"></category><category term="knowledge"></category><category term="knowledge"></category><category term="social news"></category><category term="social news"></category><category term="sources"></category><category term="sources"></category></entry><entry><title>Missing refer(r)ers</title><link href="http://markos.gaivo.net/articles/missing-referrers.html" rel="alternate"></link><updated>2011-09-20T18:29:00+02:00</updated><author><name>markos</name></author><id>tag:markos.gaivo.net,2011-09-20:articles/missing-referrers.html</id><summary type="html">&lt;p&gt;&lt;html&gt;
- &lt;body&gt;
-  &lt;div&gt;
-   &lt;p&gt;
-    I was talking to my wife today about why an “Unknown Source” is becoming the most common source of visits on
-    &lt;a class="zem_slink" href="http://flickr.com" rel="homepage" title="Flickr"&gt;
-     Flickr
-    &lt;/a&gt;
-    . My guess is that it is almost certainly because a
-    &lt;a class="zem_slink" href="http://en.wikipedia.org/wiki/HTTP_referrer" rel="wikipedia" title="HTTP referrer"&gt;
-     &lt;em&gt;
-      Referer
-     &lt;/em&gt;
-    &lt;/a&gt;
-    header field is missing in page requests and Flickr is only relying on presence of this piece of data to discern sources. This might have made sense when browsers ruled the web, but we don’t live then anymore.
-   &lt;/p&gt;
-   &lt;p&gt;
-    Simply put referrer field
-    &lt;a href="http://tools.ietf.org/html/rfc2616#section-14.36" title="Link to Referer field definition"&gt;
-     can be added
-    &lt;/a&gt;
-    to request only when request was triggered from source which also has an
-    &lt;a class="zem_slink" href="http://en.wikipedia.org/wiki/Uniform_Resource_Identifier" rel="wikipedia" title="Uniform Resource Identifier"&gt;
-     URI
-    &lt;/a&gt;
-    address. Every web page has it since its address is also an URI, but most programs don’t.
-   &lt;/p&gt;
-   &lt;p&gt;
-    That’s why referrers aren’t missing only from visitors using paranoid browsers or security software that stripped it out of requests, but also when page is visited from a link embedded in emails or instant messages.
-   &lt;/p&gt;
-   &lt;p&gt;
-    Requests without referrers used to present a small enough subset of visits that most of us didn’t care. I first noticed this changing when Twitter clients became popular and now there are tons of apps behaving like this. With
-    &lt;a href="http://www.w3.org/TR/XMLHttpRequest2/" title="Link to specification"&gt;
-     XMLHttpRequest Level 2
-    &lt;/a&gt;
-    ﻿ even web developers will get a choice of making anonymous requests which won’t include potentially private data like referrers.
-   &lt;/p&gt;
-   &lt;p&gt;
-    That’s nice. I have certainly visited places which I wouldn’t want to share with strangers. But I suspect this is not the common case and most of the time we don’t care telling which page or application sent us there.
-   &lt;/p&gt;
-   &lt;p&gt;
-    Nobody can precisely predict future so specifications can never be perfect. But I am always amazed when reading core web specs like HTTP’s how insightful their authors were. That most programs don’t have a URI does not mean that they couldn’t. Practically anything can and definitely more things should.
-   &lt;/p&gt;
-   &lt;p&gt;
-    In principle it is possible for each program to have its own address which could be used as referrer
-    &lt;em&gt;
-     when a better option doesn’t exist
-    &lt;/em&gt;
-    . I suspect this would be against the spirit of specification, but likely not against its text.
-   &lt;/p&gt;
-   &lt;p&gt;
-    However better options often do exist. Lets take
-    &lt;a class="zem_slink" href="http://twitter.com" rel="homepage" title="Twitter"&gt;
-     Twitter
-    &lt;/a&gt;
-    as a popular example. Every link that triggers a visit from Twitter was included in at least one tweet and every tweet is also published on web. It might not be accessible to everyone, but it does have an address. I see no reason why that address could not be used as referrer by Twitter clients.
-   &lt;/p&gt;
-   &lt;p&gt;
-    It is originating content or its address that interest me, but really, almost anything truthful beats an unknown source. Just knowing name of the service (like Twitter) or app used (e.g. Tweetdeck) would be better than nothing. By the way there is another header field that could provide such insight:
-    &lt;em&gt;
-     User-Agent
-    &lt;/em&gt;
-    . Sadly it is notoriously unreliable and often missing as well, but that’s another long story.
-   &lt;/p&gt;
-   &lt;p&gt;
-    So, if I come back to Flickr. I can’t really tell how much Flickr can or could know. I suspect more than it tells, but I would be astonished if they are not mostly in the dark too. Web was largely built by people too busy (and often too lazy) not to cut corners. Meaning: learning and doing as little as possible to get something to work and sometimes we pay price for our ignorance. But it’s a small price compared to waiting for
-    &lt;a href="http://en.wikipedia.org/wiki/Project_Xanadu" title="Description of project Xanadu on Wikipedia"&gt;
-     Xanadu
-    &lt;/a&gt;
-    .
-   &lt;/p&gt;
-   &lt;div class="zemanta-pixie"&gt;
-    &lt;img alt="" class="zemanta-pixie-img" src="http://img.zemanta.com/pixy.gif?x-id=860d2c48-a1dc-49c5-85d1-277e4734d096"/&gt;
-   &lt;/div&gt;
-  &lt;/div&gt;
- &lt;/body&gt;
-&lt;/html&gt;&lt;/p&gt;</summary><category term="Flickr"></category><category term="Flickr"></category><category term="HTTP referrer"></category><category term="HTTP referrer"></category><category term="Hypertext Transfer Protocol"></category><category term="Hypertext Transfer Protocol"></category><category term="Uniform Resource Identifier"></category><category term="Uniform Resource Identifier"></category></entry><entry><title></title><link href="http://markos.gaivo.net/articles/address.html" rel="alternate"></link><updated>2011-08-26T17:26:00+02:00</updated><author><name>markos</name></author><id>tag:markos.gaivo.net,2011-08-26:articles/address.html</id><summary type="html">&lt;p&gt;&lt;html&gt;
- &lt;body&gt;
-  &lt;div&gt;
-   &lt;p&gt;
-    After years of personal embarrassment I finally managed to update look and code of my website. This actually happened last week and I wanted to write this post sooner, but
-    &lt;a href="http://supervizor.kpk-rs.si" title="Supervizor"&gt;
-     other things
-    &lt;/a&gt;
-    came in-between. There are still bugs I need to fix (iPad footer is better than it was, but not fine), but﻿ overall I’m pretty happy with how it turned out.
-   &lt;/p&gt;
-   &lt;p&gt;
-    This was a second site I built using
-    &lt;a class="zem_slink" href="http://www.w3.org/TR/css3-mediaqueries/" rel="homepage" title="media queries"&gt;
-     media queries
-    &lt;/a&gt;
-    and I learned lots. When I learn a bit more about mobile web, I might write a post about few gotchas for new developers, but this is not that post. This post is about
-    &lt;code&gt;
-     &amp;lt;address&amp;gt;
-    &lt;/code&gt;
-    tag because it bugged me when I made that first design and I spent a remarkable amount of time on it again.
-   &lt;/p&gt;
-   &lt;p&gt;
-    My problem with it came down to its definition.
-    &lt;code&gt;
-     &amp;lt;address&amp;gt;
-    &lt;/code&gt;
-    can be used only to mark up contact information about content’s author. In HTML 4 this was limited to authorship of whole page. For HTML5 it
-    &lt;a href="http://dev.w3.org/html5/spec/sections.html#the-address-element" title="Definition of &amp;lt;address&amp;gt; in HTML5 specification"&gt;
-     was “widened”
-    &lt;/a&gt;
-    to authorship of sectioning element like
-    &lt;code&gt;
-     &amp;lt;article&amp;gt;
-    &lt;/code&gt;
-    (so if you have more than one article on page, each can contain its own, different, address for its author). You can’t however mark any address with it and after lots of searching I found
-    &lt;a href="http://lists.whatwg.org/htdig.cgi/whatwg-whatwg.org/2008-February/014023.html" title="Ian's message from February 2008"&gt;
-     this old message
-    &lt;/a&gt;
-    from
-    &lt;a class="zem_slink" href="http://en.wikipedia.org/wiki/Ian_Hickson" rel="wikipedia" title="Ian Hickson"&gt;
-     Ian Hickson
-    &lt;/a&gt;
-    which explains why (I’m not aware of any later clarifications).
-   &lt;/p&gt;
-   &lt;p&gt;
-    I don’t agree with everything said. Mostly correct use is not necessarily a proof of well-designed element. My bet would be that
-    &lt;code&gt;
-     &amp;lt;address&amp;gt;
-    &lt;/code&gt;
-    was a rather unknown tag exactly because of its limited use and was thus used mostly by those that dig deeper into standards, which sound also like people who care  how things are used as expected.
-   &lt;/p&gt;
-   &lt;p&gt;
-    Still most points are valid. Loosening definition would make it less meaningful.
-    &lt;a href="http://microformats.org/wiki/hcard" title="Specification of hCard microformat"&gt;
-     There
-    &lt;/a&gt;
-    &lt;a href="http://microformats.org/wiki/adr" title="Specification of adr microformat"&gt;
-     are
-    &lt;/a&gt;
-    microformats that you can use instead and most annoying problems (allowing only inline content) have been fixed. We also have better tools for parsing HTML so  it really doesn’t matter much if its definition feels completely right or not. It’s good enough.
-   &lt;/p&gt;
-   &lt;p&gt;
-    At the end I still decided to mark my contact information on
-    &lt;a href="http://markos.gaivo.net"&gt;
-     my homepage
-    &lt;/a&gt;
-    with
-    &lt;code&gt;
-     &amp;lt;address&amp;gt;
-    &lt;/code&gt;
-    anyhow (augmented with
-    &lt;a class="zem_slink" href="http://en.wikipedia.org/wiki/HCard" rel="wikipedia" title="HCard"&gt;
-     hCard
-    &lt;/a&gt;
-    ), because I am after all the sole author of this website.
-   &lt;/p&gt;
-   &lt;div class="zemanta-pixie"&gt;
-    &lt;img alt="" class="zemanta-pixie-img" src="http://img.zemanta.com/pixy.gif?x-id=9e03fdb6-c5dc-4878-b734-7bec34cd9ced"/&gt;
-   &lt;/div&gt;
-  &lt;/div&gt;
- &lt;/body&gt;
-&lt;/html&gt;&lt;/p&gt;</summary><category term="Data Formats"></category><category term="Data Formats"></category><category term="HTML"></category><category term="HTML"></category><category term="HTML element"></category><category term="HTML element"></category><category term="Ian Hickson"></category><category term="Ian Hickson"></category><category term="Markup Languages"></category><category term="Markup Languages"></category></entry><entry><title>Gamification of book reading</title><link href="http://markos.gaivo.net/articles/gamification-of-book-reading.html" rel="alternate"></link><updated>2011-05-11T17:15:00+02:00</updated><author><name>markos</name></author><id>tag:markos.gaivo.net,2011-05-11:articles/gamification-of-book-reading.html</id><summary type="html">&lt;p&gt;&lt;html&gt;
- &lt;body&gt;
-  &lt;div&gt;
-   &lt;p&gt;
-    I’ve been following subjects of
-    &lt;a class="zem_slink" href="http://en.wikipedia.org/wiki/Gamification" rel="wikipedia" title="Gamification"&gt;
-     gamification
-    &lt;/a&gt;
-    and
-    &lt;a class="zem_slink" href="http://en.wikipedia.org/wiki/Game_mechanics" rel="wikipedia" title="Game mechanics"&gt;
-     game mechanics
-    &lt;/a&gt;
-    for a couple of years now, but I’ve only recently spotted how they apply to me. I conceitedly thought that they have little influence on me, but reality is as always more nuanced.
-   &lt;/p&gt;
-   &lt;p&gt;
-    I still seem to be unmoved by most attempts. I don’t care that my
-    &lt;a class="zem_slink" href="http://www.linkedin.com" rel="homepage" title="LinkedIn"&gt;
-     LinkedIn
-    &lt;/a&gt;
-    profile is not complete and no fake mayorship will get me to use
-    &lt;a class="zem_slink" href="http://www.foursquare.com/" rel="homepage" title="Foursquare"&gt;
-     Foursquare
-    &lt;/a&gt;
-    until I see some other tangible benefit. On the other hand keeping a list of books and having a goal on how many to read has indeed influenced my behavior.
-   &lt;/p&gt;
-   &lt;p&gt;
-    So why did this last example work? Because I actually care about reading books. It’s something I enjoy and want to do more, so “achievements” actually mean something to me.
-   &lt;/p&gt;
-   &lt;p&gt;
-    I started to track books I read because I wanted to know how many I actually read, in what order and does that say something about me. I also thought setting an annual goal would provide a good incentive to keep reading, which it did, but not exactly in a way I expected.
-   &lt;/p&gt;
-   &lt;p&gt;
-    Having a goal certainly helped me with additional motivation to read books when otherwise I might not have for one reason or another, but it also  gave me a nudge against dropping books I didn’t like since doing so would mean time invested in them would not get counted to achieving my goal.
-   &lt;/p&gt;
-   &lt;p&gt;
-    It also pushed me to thinner books. Less pages mean on average quicker completion. But there are books where six or eight hundred pages doesn’t feel too long and they shouldn’t be postponed just because it might take me more than a couple of weeks to read them.
-   &lt;/p&gt;
-   &lt;p&gt;
-    Time pressure also leads to more cursory reading. I’ve never been able to read as deeply as I thought I should, but having a goal definitely changed my reading for the worse. Again, properly engaging a book takes more time and hence makes it harder to achieve the goal.
-   &lt;/p&gt;
-   &lt;p&gt;
-    I didn’t notice any downsides from having a list itself which has indeed provided me with insights about me I probably could have if I wrote a diary. Which I don’t, so I’m left to piecing my long term memories mostly from circumstantial evidence.
-   &lt;/p&gt;
-   &lt;p&gt;
-    That’s why I’m keeping a list, but ditching my goal. Upside is simply not worth the downsides.
-   &lt;/p&gt;
-   &lt;p&gt;
-    I see my experience as providing a lesson. It’s relatively easy to go through different gaming mechanisms and find a combination that you think will give you results you want. However, incentives are a bitch and I think it’s practically impossible to reliably predict what will actually happen in use.
-   &lt;/p&gt;
-   &lt;p&gt;
-    That’s why complex modern games take so much time to create, because getting things right takes time and is not something you can reason through.
-   &lt;/p&gt;
-   &lt;p&gt;
-    I’m with
-    &lt;a class="zem_slink" href="http://headrush.typepad.com" rel="homepage" title="Kathy Sierra"&gt;
-     Kathy Sierra
-    &lt;/a&gt;
-    on this and you really ought to read
-    &lt;a href="http://radar.oreilly.com/2011/04/gamification-purpose-marketing.html#comment-7250008" title="Kathy Sierra's comments"&gt;
-     her comments
-    &lt;/a&gt;
-    . I’m skeptical of general awe around gamification, but I do think game mechanics will have an important role to play in our future. Still I would prefer if we cautiously applied new tools where they can’t hurt much before we plaster badges of suck everywhere.
-   &lt;/p&gt;
-   &lt;p&gt;
-    For a while now I’ve been annoyed by how every gamification talk has about 20 minutes of gushing of its virtues and about 20 seconds on possible ethics problems, but my experience has reminded me of the deeper problem, which is that it is simply much easier to inflict damage to your users and your product (brand) than getting it right.
-   &lt;/p&gt;
-   &lt;div class="zemanta-pixie"&gt;
-    &lt;a class="zemanta-pixie-a" href="http://www.zemanta.com/" title="Enhanced by Zemanta"&gt;
-     &lt;img alt="Enhanced by Zemanta" class="zemanta-pixie-img" src="http://img.zemanta.com/zemified_e.png?x-id=20efb278-1d20-46ec-aeec-c311b50837c7"/&gt;
-    &lt;/a&gt;
-   &lt;/div&gt;
-  &lt;/div&gt;
- &lt;/body&gt;
-&lt;/html&gt;&lt;/p&gt;</summary><category term="Books"></category><category term="Books"></category><category term="gamemechanics"></category><category term="gamemechanics"></category><category term="Gamification"></category><category term="Gamification"></category><category term="Kathy Sierra"></category><category term="Kathy Sierra"></category><category term="Reading"></category><category term="Reading"></category></entry><entry><title>Facebook, web, mobile and me</title><link href="http://markos.gaivo.net/articles/facebook-web-mobile-and-me.html" rel="alternate"></link><updated>2009-12-20T16:35:00+01:00</updated><author><name>markos</name></author><id>tag:markos.gaivo.net,2009-12-20:articles/facebook-web-mobile-and-me.html</id><summary type="html">&lt;p&gt;&lt;html&gt;
- &lt;body&gt;
-  &lt;div&gt;
-   &lt;p&gt;
-    Recently, for a moment, I couldn’t imagine myself working on web in ten years time. Since I am quite passionate about it and its development, the obvious question was why?
-   &lt;/p&gt;
-   &lt;p&gt;
-    Why wouldn’t I want to be a web developer anymore?
-   &lt;/p&gt;
-   &lt;p&gt;
-    Popularity of Facebook comes to mind. It is no secret that I am not a fan of
-    &lt;a class="zem_slink" href="http://facebook.com" rel="homepage" title="Facebook"&gt;
-     Facebook
-    &lt;/a&gt;
-    and similar networks. Yet I do have an account there and on some of its brethren. By the way, my Facebook account is for testing purposes, so if I haven’t befriended you, it almost certainly wasn’t personal.
-   &lt;/p&gt;
-   &lt;p&gt;
-    Anyhow, Facebook and ilk are easy to criticize. Anything of that size will certainly gain much to be critical about. I also sometimes feel nostalgic about old web, before the gold rush of last millennium. That too probably says more about my age than anything else.
-   &lt;/p&gt;
-   &lt;p&gt;
-    After some pondering I came to conclusion that I am longing for a sense of openness, equality and control I used to have. Few of us had our own server, but in principle with investment of little time and a bit more money, you could run all services that mattered.
-   &lt;/p&gt;
-   &lt;p&gt;
-    Few actually did, since on the whole we didn’t do much. We do more now, some of which we don’t want public. I may not like Facebook’s walled garden of information, but I would have to be mad to argue for open access to all that private information. Even with existing restrictions in place people tend to trip and reveal? information to unintended audience.
-   &lt;/p&gt;
-   &lt;p&gt;
-    If sharing our lives is what we want to do, which clearly is the case, then rise of brokers like Facebook feels as an unavoidable consequence. However that doesn’t mean natural development of a domineering agent should also be welcomed.
-   &lt;/p&gt;
-   &lt;p&gt;
-    If at some point Facebook becomes a conduit for most of our digital lives, what happens if they revoke our account? To whom can we appeal? Who has access to the history of all our actions and what happens to it if we do decide to leave? Is it ever really gone? How do we know that our answers to this questions are true?
-   &lt;/p&gt;
-   &lt;p&gt;
-    It’s a clich? that technology is changing societies faster then they are able to adapt. It is a clich?, but that doesn’t make it wrong. We are changing long before we are able to understand what those changes will bring down the road. It can be argued either way, but it is your outlook on world that will largely form your opinion on desirability of end result.
-   &lt;/p&gt;
-   &lt;p&gt;
-    I am not an optimist.
-   &lt;/p&gt;
-   &lt;p&gt;
-    I like building things and I enjoy it even more when others use them too. I am sometimes lazy and perpetually busy, so I avoid building things which not even I asked for. I always tried to incorporate a reasonable amount of security in services I have built, but I have never added transparency and accountability to the system without outside pressure. I don’t know many who would and that pressure tends to come from legal requirements. It’s a subject too dull to care about without painful personal experience.
-   &lt;/p&gt;
-   &lt;p&gt;
-    Another reason for uneasiness comes from the other side of web connection – web browsers. Last few years have brought an incredible amount of development and most of us aren’t well acquainted with new technologies yet.
-    &lt;a class="zem_slink" href="http://en.wikipedia.org/wiki/HTML_5" rel="wikipedia" title="HTML 5"&gt;
-     HTML5
-    &lt;/a&gt;
-    , CSS3 and Javascript will trounce Flash and Silverlight, right?
-   &lt;/p&gt;
-   &lt;p&gt;
-    They might, but they all might not matter. Two raising trends I find interesting are
-    &lt;a class="zem_slink" href="http://en.wikipedia.org/wiki/Mobile_Web" rel="wikipedia" title="Mobile Web"&gt;
-     mobile web
-    &lt;/a&gt;
-    access and mobile application platforms.
-   &lt;/p&gt;
-   &lt;p&gt;
-    &lt;a class="zem_slink" href="http://www.apple.com/iphone" rel="homepage" title="iPhone"&gt;
-     iPhone
-    &lt;/a&gt;
-    and
-    &lt;a class="zem_slink" href="http://code.google.com/android/" rel="homepage" title="Android"&gt;
-     Android
-    &lt;/a&gt;
-    have more than 100 000 applications between them and my impression of these ecosystems is that many of them are not much more than platform specific clients to web services. Even if most of them might not have much to do with web (games, books…), it’s not difficult to imagine a future, where most of us would access web through mobile devices and developing native clients for a new service would have a priority over access through browser.
-   &lt;/p&gt;
-   &lt;p&gt;
-    I can’t say this would necessarily be a bad thing, since web development can be quite messy and frustrating. It probably would be less egalitarian and less sharing environment and I would certainly miss that.
-   &lt;/p&gt;
-   &lt;p&gt;
-    At the end of this long self-indulgent post I confess I have no answers. I barely have questions and I had to write this far to get to them. It is for me the most introspective part of the year, so I might be thinking about a non-issue. Time will tell. Eventually.
-   &lt;/p&gt;
-   &lt;div class="zemanta-pixie"&gt;
-    &lt;a class="zemanta-pixie-a" href="http://reblog.zemanta.com/zemified/a5117991-c107-4748-a6c7-31134e58e25b/" title="Reblog this post [with Zemanta]"&gt;
-     &lt;img alt="Reblog this post [with Zemanta]" class="zemanta-pixie-img" src="http://img.zemanta.com/reblog_e.png?x-id=a5117991-c107-4748-a6c7-31134e58e25b"/&gt;
-    &lt;/a&gt;
-    &lt;span class="zem-script paragraph-reblog"&gt;
-     &lt;script src="http://static.zemanta.com/readside/loader.js" type="text/javascript"&gt;
-     &lt;/script&gt;
-    &lt;/span&gt;
-   &lt;/div&gt;
-  &lt;/div&gt;
- &lt;/body&gt;
-&lt;/html&gt;&lt;/p&gt;</summary><category term="Facebook"></category><category term="Facebook"></category><category term="future"></category><category term="future"></category><category term="HTML 5"></category><category term="HTML 5"></category><category term="Mobile Web"></category><category term="Mobile Web"></category><category term="Social network"></category><category term="Social network"></category><category term="Web browser"></category><category term="Web browser"></category></entry><entry><title>IE6 - hope of web standards</title><link href="http://markos.gaivo.net/articles/ie6-hope-of-web-standards.html" rel="alternate"></link><updated>2009-01-20T20:49:00+01:00</updated><author><name>markos</name></author><id>tag:markos.gaivo.net,2009-01-20:articles/ie6-hope-of-web-standards.html</id><summary type="html">&lt;p&gt;&lt;html&gt;
- &lt;body&gt;
-  &lt;div&gt;
-   &lt;p&gt;
-    I often find myself in a room with web developers and at least one of them proclaiming that IE6 sucks because it doesn’t support web standards while others nod in agreement.
-   &lt;/p&gt;
-   &lt;p&gt;
-    This has bothered me enough to contemplate having a talk at
-    &lt;a href="http://www.barcamp.si/"&gt;
-     BarCamp Ljubljana
-    &lt;/a&gt;
-    . I didn’t, but this is what I would say.
-   &lt;/p&gt;
-   &lt;p&gt;
-    &lt;a class="zem_slink" href="http://en.wikipedia.org/wiki/Internet_Explorer_6" rel="wikipedia" title="Internet Explorer 6"&gt;
-     Internet Explorer 6
-    &lt;/a&gt;
-    was released on 27th August 2001, when twin towers were still standing in NY.
-   &lt;/p&gt;
-   &lt;p&gt;
-    7 years is a long time to remember, but what did we work with back then? There was no
-    &lt;a class="zem_slink" href="http://www.apple.com/safari/" rel="homepage" title="Safari (web browser)"&gt;
-     Safari
-    &lt;/a&gt;
-    and Firefox was still in its infacy, far from 1.0 release coming 3 years later. It was changing so often most developers simply ignored it. Opera was at version 5 (version 6 came out in November of that year) and I am sure I am not alone in remembering how awful it was at least until version 7 in 2003.
-    &lt;a class="zem_slink" href="http://mozilla.com" rel="homepage" title="Mozilla"&gt;
-     Mozilla
-    &lt;/a&gt;
-    was at version 0.6 and although showing great promise, IE6 definitely was the browser we hoped others would match.
-   &lt;/p&gt;
-   &lt;p&gt;
-    Back then no browser supported CSS2 in a meaningful capacity. Opera had the best support for CSS until then, but IE6 surpassed it. It didn’t support DOM Level 2, which was standardized only 4 months before first beta of IE6. Good excuse not available anymore to
-    &lt;a class="zem_slink" href="http://en.wikipedia.org/wiki/Internet_Explorer_7" rel="wikipedia" title="Internet Explorer 7"&gt;
-     IE7
-    &lt;/a&gt;
-    and IE8. Apart from that it supported more or less everything web developer could want back then and then some. IE6 problem isn’t so much that it didn’t support standards of its time as it is that it doesn’t support standards of today.
-   &lt;/p&gt;
-   &lt;p&gt;
-    So why the hostility?
-   &lt;/p&gt;
-   &lt;p&gt;
-    &lt;a class="zem_slink" href="http://en.wikipedia.org/wiki/Lancia_Delta" rel="wikipedia" title="Lancia Delta"&gt;
-     Lancia Delta Integrale
-    &lt;/a&gt;
-    , which dominated rally competitions in eighties, is today an obsolete car, but car aficionados still have a soft sport for it. You don’t hear them go around complaining how it doesn’t meet standards of todays cars.
-   &lt;/p&gt;
-   &lt;p&gt;
-    Well, as I’ve said, 7 years is a long time and most web developers are not old gits like me, so the historic context isn’t there. We also have to live with its real shortcomings today. But I think there’s more to this.
-   &lt;/p&gt;
-   &lt;p&gt;
-    Complaining about IE6 standards deficiencies is declaring who you are and where you stand. It’s a simple and very recognizable way of declaring you are a member of web-standards tribe. IE6 bitching has at least as much to do with proclaimer as with proclamation’s subject. Trashing IE6 isn’t so much talking about the browser as it is talking about you.
-   &lt;/p&gt;
-   &lt;p&gt;
-    However it is not unreasonable to ask why IE6 doesn’t better support standards that were released or updated after its initial release.
-   &lt;/p&gt;
-   &lt;p&gt;
-    Certainly more could be done through software updates, but are standards themselves forward looking in a way that would avoid updating browser internals with every new version of a particular standard?
-   &lt;/p&gt;
-   &lt;p&gt;
-    I am quite certain that this isn’t always possible. I don’t see how you could add a video object from
-    &lt;a class="zem_slink" href="http://en.wikipedia.org/wiki/HTML_5" rel="wikipedia" title="HTML 5"&gt;
-     HTML5
-    &lt;/a&gt;
-    to a browser without explicit support from browser’s developers. But not all changes are such as
-    &lt;a href="http://www.alistapart.com/articles/semanticsinhtml5"&gt;
-     John Allsopp
-    &lt;/a&gt;
-    has recently pointed out.
-   &lt;/p&gt;
-   &lt;p&gt;
-    I have mixed feelings about HTML5. It’s bringing much needed new capabilities and lots of goodies, but I also think
-    &lt;a href="http://intertwingly.net/blog/2009/01/15/Grandiosity"&gt;
-     Sam Ruby
-    &lt;/a&gt;
-    has a point. New, simple,
-    &lt;a class="zem_slink" href="http://en.wikipedia.org/wiki/Document_Type_Declaration" rel="wikipedia" title="Document Type Declaration"&gt;
-     DOCTYPE
-    &lt;/a&gt;
-    is reduced to a switch between standards and
-    &lt;a class="zem_slink" href="http://en.wikipedia.org/wiki/Quirks_mode" rel="wikipedia" title="Quirks mode"&gt;
-     quirks mode
-    &lt;/a&gt;
-    and unless it will become more complicated in later revisions, it won’t offer an easy way to distinguish between HTML5 documents and other HTML versions. This isn’t a particular problem if newer revisions will be backwards compatible with older, but this isn’t true even of HTML5. Why would we think this is the last version where we will make a major misstep that needs backwards-incompatible correction?
-   &lt;/p&gt;
-   &lt;p&gt;
-    There are other things I don’t like about HTML5, but if I would have to pick one thing I would like to see changed, is to make it more extendable.
-   &lt;/p&gt;
-   &lt;p&gt;
-    To sum it up, IE6 is indeed a problem in todays development, but it’s also at least at fault for this. It was an excellent browser when it came out and is remarkably solid one for software so old. There are many reasons, completely untouched in this post, why its users don’t migrate to something newer, but we, web developers, are also to blame, because we tend to standardize only current practice and leave few doors open for future development which invariably comes.
-   &lt;/p&gt;
-   &lt;div class="zemanta-pixie"&gt;
-    &lt;a class="zemanta-pixie-a" href="http://reblog.zemanta.com/zemified/1235c7ef-00b0-4968-aaa8-90dfe88b2f35/" title="Zemified by Zemanta"&gt;
-     &lt;img alt="Reblog this post [with Zemanta]" class="zemanta-pixie-img" src="http://img.zemanta.com/reblog_e.png?x-id=1235c7ef-00b0-4968-aaa8-90dfe88b2f35"/&gt;
-    &lt;/a&gt;
-   &lt;/div&gt;
-  &lt;/div&gt;
- &lt;/body&gt;
-&lt;/html&gt;&lt;/p&gt;</summary><category term="Firefox"></category><category term="Firefox"></category><category term="HTML"></category><category term="HTML"></category><category term="html5"></category><category term="html5"></category><category term="Internet Explorer 6"></category><category term="Internet Explorer 6"></category><category term="standards"></category><category term="standards"></category><category term="WWW"></category><category term="WWW"></category></entry><entry><title>Switched...to Firefox 3</title><link href="http://markos.gaivo.net/articles/switchedto-firefox-3.html" rel="alternate"></link><updated>2008-06-22T15:04:00+02:00</updated><author><name>markos</name></author><id>tag:markos.gaivo.net,2008-06-22:articles/switchedto-firefox-3.html</id><summary type="html">&lt;p&gt;&lt;html&gt;
- &lt;body&gt;
-  &lt;div&gt;
-   &lt;p&gt;
-    Today I switched to
-    &lt;a class="zem_slink" href="http://www.firefox.com/" rel="homepage" title="Mozilla Firefox"&gt;
-     Firefox 3
-    &lt;/a&gt;
-    as my main browser. I didn’t want to, because as a policy I try to use most common version as default, but I made a mistake of opening version 3 and since then none of my old add-ons seem to work on previous version anymore.
-   &lt;/p&gt;
-   &lt;p&gt;
-    If I was still a young pup, I would probably dive into config files, search
-    &lt;a class="zem_slink" href="http://en.wikipedia.org/wiki/World_Wide_Web" rel="wikipedia" title="World Wide Web"&gt;
-     the web
-    &lt;/a&gt;
-    for answers and try to fix it. But when you get to 34, time becomes too precious to muck about needlessly and you just want to focus on things you need or better yet want to do.
-   &lt;/p&gt;
-   &lt;p&gt;
-    So version three it is. This has got me thinking about something else. It’s remarkable how difficult or simply an annoyance it still is to have two version of a browser installed. Clearly this should be possible and is in interest of everyone involved.
-   &lt;/p&gt;
-   &lt;p&gt;
-    Anyway, enough of ranting. Time to get back to cutting cake…
-   &lt;/p&gt;
-   &lt;div class="zemanta-pixie" style="margin-top: 10px; height: 15px;"&gt;
-    &lt;a class="zemanta-pixie-a" href="http://reblog.zemanta.com/zemified/79c05cbe-847f-4fa0-8dc3-878f8e79208f/" title="Zemified by Zemanta"&gt;
-     &lt;img alt="Zemanta Pixie" class="zemanta-pixie-img" src="http://img.zemanta.com/reblog_a.png?x-id=79c05cbe-847f-4fa0-8dc3-878f8e79208f" style="border: medium none; float: right;"/&gt;
-    &lt;/a&gt;
-   &lt;/div&gt;
-  &lt;/div&gt;
- &lt;/body&gt;
-&lt;/html&gt;&lt;/p&gt;</summary><category term="Browsers"></category><category term="Browsers"></category><category term="Firefox"></category><category term="Firefox"></category><category term="Firefox 3"></category><category term="Firefox 3"></category><category term="Mozilla Firefox"></category><category term="Mozilla Firefox"></category><category term="World Wide Web"></category><category term="World Wide Web"></category><category term="WWW"></category><category term="WWW"></category></entry></feed>
+<feed xmlns="http://www.w3.org/2005/Atom"><title>A notch above a monkey</title><link href="http://markos.gaivo.net/articles/" rel="alternate"></link><link href="/articles/feeds/general-development-web.atom.xml" rel="self"></link><id>http://markos.gaivo.net/articles/</id><updated>2012-03-15T08:52:00+01:00</updated><entry><title>Save bandwidth switch</title><link href="http://markos.gaivo.net/articles/save-bandwidth-switch.html" rel="alternate"></link><updated>2012-03-15T08:52:00+01:00</updated><author><name>markos</name></author><id>tag:markos.gaivo.net,2012-03-15:articles/save-bandwidth-switch.html</id><summary type="html">&lt;div&gt;
+ &lt;p&gt;
+  Michal Migurski recently posted
+  &lt;a href="http://mike.teczno.com/notes/bandwidth.html"&gt;
+   an article
+  &lt;/a&gt;
+  about download sizes of popular websites. I couldn’t replicate his results
+  &lt;sup&gt;
+   &lt;a href="#save-bandwidth-note-1" id="save-bandwidth-1"&gt;
+    [1]
+   &lt;/a&gt;
+  &lt;/sup&gt;
+  , but it is obvious that gist of Michal’s article is correct, websites have indeed ballooned significantly in last few years.
+ &lt;/p&gt;
+ &lt;p&gt;
+  This blog’s homepage has a footprint of around 250KB-270KB
+  &lt;sup&gt;
+   &lt;a href="#save-bandwidth-note-2" id="save-bandwidth-2"&gt;
+    [2]
+   &lt;/a&gt;
+  &lt;/sup&gt;
+  . About 90% of its size are fonts and
+  &lt;a href="http://jquery.com/"&gt;
+   jQuery
+  &lt;/a&gt;
+  which is a big penalty for making it look and behave a bit nicer. So should I remove those parts?
+ &lt;/p&gt;
+ &lt;p&gt;
+  Well, for most visitors to this website that difference doesn’t matter. Pages for them are neither slow nor expensive to load. Unless of course they are doing it over your average hotel Wi-Fi or a slow mobile network where speed around 56Kb/s is not unheard of. On such connection it would take about half a minute to load this blog. It can also cost more than 10 euro cents to load it when roaming in Europe.
+ &lt;/p&gt;
+ &lt;p&gt;
+  It would be great if I could offer a choice of serving bigger and nicer or smaller and faster version depending on visitors needs.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Measuring speed is not easy, but certainly doable as Gmail has demonstrated. You could start a timer immediately in page header, measure how much time it takes to load a smaller version of a website and if that happened quickly enough upgrade it to full bling. Android browser also added support for
+  &lt;a href="http://dvcs.w3.org/hg/dap/raw-file/tip/network-api/index.html"&gt;
+   navigator.connection
+  &lt;/a&gt;
+  Javascript property which, where it exists, probably has more details than you would need.
+ &lt;/p&gt;
+ &lt;p&gt;
+  However there is no way to measure price of a visit. Even if I could, how would I decide what is too expensive for an anonymous reader and should I make such decisions at all? I think not.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Gmail’s approach is really just a band-aid over what should be a visitor’s decision. I use same laptop and browser at home and while I travel, experiencing all combinations of connection speed and pricing. I never know how much it will cost me to visit a page, but I always learn quickly if I would prefer something small or full-featured. There is just no way I can communicate that preference.
+ &lt;/p&gt;
+ &lt;p&gt;
+  It would be great if my browser had a switch for this purpose, like Firefox’s “Work Offline” toggle. So if I switched to bandwidth saving mode, then every subsequent request to web server would communicate my preference with a HTTP header field like:
+ &lt;/p&gt;
+ &lt;blockquote&gt;
+  &lt;p&gt;
+   X-Bandwidth: save
+  &lt;/p&gt;
+ &lt;/blockquote&gt;
+ &lt;p&gt;
+  In principle you could have multiple levels of bandwidth consumption, but that would likely be an overkill. Common practice suggests that at most two levels would really get used, one aimed at mobile devices and other at desktop.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Header like that might be enough, but even better would be if Javascript environment got another property describing current state of user’s preference (like say
+  &lt;em&gt;
+   navigator.bandwidth
+  &lt;/em&gt;
+  ). Coupled with a bandwidth event triggered on change you could really optimize every modern web page, even those with more complicated loading of resources and execution paths.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Right now such functionality doesn’t exist or at least I couldn’t find it (I even searched Mozilla’s bug database for any future plans). I think my proposal is both user and developer friendly and workable. If you can think of a reason why it would be problematic, then I would really like to hear it.
+ &lt;/p&gt;
+ &lt;ol&gt;
+  &lt;li id="save-bandwidth-note-1"&gt;
+   Pages are often personalized for visitor. Developer tools of different browsers also don’t report same sizes. They also report amount of data transferred not the size of that data once unpacked. Almost 2M of Twitter’s Javascript is thus reduced into page of “only” about 1MB of data transferred. And that to display couple of sentences.
+   &lt;a href="#save-bandwidth-1"&gt;
+    ↩
+   &lt;/a&gt;
+  &lt;/li&gt;
+  &lt;li id="save-bandwidth-note-2"&gt;
+   Depends on browser used. Variation in sizes is probably due different formats of fonts used by browsers. It also changed once I published this post.
+   &lt;a href="#save-bandwidth-2"&gt;
+    ↩
+   &lt;/a&gt;
+  &lt;/li&gt;
+ &lt;/ol&gt;
+&lt;/div&gt;</summary></entry><entry><title>-beta- prefix algorithm for CSS</title><link href="http://markos.gaivo.net/articles/beta-prefix-algorithm-for-css.html" rel="alternate"></link><updated>2012-02-10T18:21:00+01:00</updated><author><name>markos</name></author><id>tag:markos.gaivo.net,2012-02-10:articles/beta-prefix-algorithm-for-css.html</id><summary type="html">&lt;div&gt;
+ &lt;p&gt;
+  These have been eventful couple of days for web developers. CSS Working Group chair
+  &lt;a href="http://www.glazman.org/weblog/dotclear/index.php?post/2012/02/09/CALL-FOR-ACTION%3A-THE-OPEN-WEB-NEEDS-YOU-NOW"&gt;
+   called on everyone
+  &lt;/a&gt;
+  to use all (most?) vendor prefixes and stop making websites for WebKit which is becoming a new (mobile) IE6. Responses have been numerous,
+  &lt;a href="http://www.quirksmode.org/blog/archives/2012/02/the_vendor_pref.html" title="PPK's first article about prefixes"&gt;
+   including
+  &lt;/a&gt;
+  &lt;a href="http://www.quirksmode.org/blog/archives/2012/02/alpha_and_beta.html" title="PPK's follow up to first article"&gt;
+   ppk
+  &lt;/a&gt;
+  who in his usual obnoxious manner
+  &lt;sup&gt;
+   &lt;a href="#beta-prefix-note-1" id="beta-prefix-1"&gt;
+    [1]
+   &lt;/a&gt;
+  &lt;/sup&gt;
+  made some good points. Testing on mobile devices is an unsolved problem (who wants or can afford to buy so many almost immediately obsolete gadgets?) and introducing -beta- (maybe also -alpha-) prefix would simplify our lives while keeping most benefits of vendor prefixes.
+ &lt;/p&gt;
+ &lt;p&gt;
+  I like -beta- idea and I think adding -alpha- might be even better. There’s still a problem of resolving syntax conflicts between different implementation which I think has a simple solution that closely mimics what browsers already do:
+ &lt;/p&gt;
+ &lt;p&gt;
+  &lt;em&gt;
+   When parsing CSS browsers
+  &lt;/em&gt;
+  &lt;em&gt;
+   should apply the last matching -beta-/-alpha- directive they fully understand.
+  &lt;/em&gt;
+ &lt;/p&gt;
+ &lt;p&gt;
+  Browsers already ignore directives they don’t understand and they apply last directive found when there are multiple candidates for a DOM node.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Such behavior would give us less CSS code to write and maintain, have predictable behavior and keep browser experimentation without favoring one. I have troubles finding negative sides of this approach, but do let me know if you can think of one.
+ &lt;/p&gt;
+ &lt;ol&gt;
+  &lt;li id="beta-prefix-note-1"&gt;
+   I deeply dislike his complaining about simplistic view of others while himself generalizing and name-calling (the lazy and stupid lot of us). Alas it’s not good to read only people you like and agree with.
+   &lt;a href="#beta-prefix-1"&gt;
+    ↩
+   &lt;/a&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+   Almost everything I write on this blog has an intended  audience of one:  me (no, really!). Why I sometimes write posts like  this, which don’t, is a mistery  since their expected and actual effect on anyone  is…none.
+  &lt;/li&gt;
+ &lt;/ol&gt;
+&lt;/div&gt;</summary><category term="mobile"></category><category term="agony"></category><category term="prefix"></category><category term="webkit"></category><category term="css"></category></entry><entry><title>Cookies, localStorage and shared state</title><link href="http://markos.gaivo.net/articles/cookies-localstorage-and-shared-state.html" rel="alternate"></link><updated>2011-12-19T17:05:00+01:00</updated><author><name>markos</name></author><id>tag:markos.gaivo.net,2011-12-19:articles/cookies-localstorage-and-shared-state.html</id><summary type="html">&lt;div&gt;
+ &lt;p&gt;
+  I’ve been fiddling with my website again, changing theme switching from somewhat dumb class based system to a more proper one using alternate style sheets. I learned that picking a style sheet in browser applies those changes only to currently open page, so for style sheet selection to persevere it needs a bit of Javascript support from website owner. Personally I find this just stupid.
+ &lt;/p&gt;
+ &lt;p&gt;
+  The easiest way to remember visitor’s preference is to store it in his browser. Cookies used to be popular before they were deemed evil, but they have other limitations as well. Hence popular switch to HTML5 in-browser storage technologies like
+  &lt;a href="http://www.w3.org/TR/webstorage/"&gt;
+   localStorage
+  &lt;/a&gt;
+  .
+ &lt;/p&gt;
+ &lt;p&gt;
+  I think there is one important difference between cookies and tools like localStorage that is often overlooked and it’s not the size of data that can be stored. Cookies are sent with
+  &lt;em&gt;
+   each page request
+  &lt;/em&gt;
+  while data stored elsewhere isn’t. Changing them on any side will automatically share state with the other. I use localStorage in my theme switcher because I think server doesn’t need and should not know which theme is used. But for storing shared data, especially one that expires, cookies remain a reasonable if not best choice.
+ &lt;/p&gt;
+ &lt;p&gt;
+  None of this is exactly new, but I think it is worth remembering. In other news I dislike interface limitations of Chrome more and more (exceptions are Developer Tools and extensions framework).
+ &lt;/p&gt;
+&lt;/div&gt;</summary><category term="cookies"></category><category term="Firefox"></category><category term="chrome"></category><category term="shared state"></category><category term="stylesheet"></category><category term="localstorage"></category><category term="html5"></category><category term="http"></category><category term="css"></category><category term="browser"></category></entry><entry><title>Reading sources</title><link href="http://markos.gaivo.net/articles/reading-sources.html" rel="alternate"></link><updated>2011-11-21T11:37:00+01:00</updated><author><name>markos</name></author><id>tag:markos.gaivo.net,2011-11-21:articles/reading-sources.html</id><summary type="html">&lt;div&gt;
+ &lt;p&gt;
+  Google Reader was redesigned lately and I’ve been annoyed ever since. I had a dubious privilege of cutting and changing product features people loved in pursuit of
+  &lt;del&gt;
+   higher
+  &lt;/del&gt;
+  different goals, so I try to be understanding when others do the same. I mostly found clumsy workarounds for removed features, but I do wish I could at least still trust that list of unread items actually has
+  &lt;em&gt;
+   all of them
+  &lt;/em&gt;
+  . On a positive note I can save some electricity now because copious amounts of “helpfully” white whitespace illuminate this room brightly enough that you wouldn’t sit naked in-front of your computer even with lights turned off. That is if you are the sort of person who likes doing that but stops short of flashing your neighbors.
+ &lt;/p&gt;
+ &lt;p&gt;
+  I still strongly dislike changes made, but I continue using Google Reader, because crack-heads don’t give up dope just because it was cut too thinly. I cherish my list of reading sources and like a gardener I have been cultivating it through years because I believe they make me better informed than I would be if I relied only on links shared by others. This may be elitist, but it is also true.
+ &lt;/p&gt;
+ &lt;p&gt;
+  We are biased when choosing friends and communities we belong to. At the very least we enjoy our life more when surrounded with like minded people which is really a lighter shade of group think. We share to tell stories as much about what is shared as we do about who we are. Even when not self-censoring or trying to project an image we still are horribly bad at evaluating what influences us and how. Sharing everything, as
+  &lt;a href="http://techcrunch.com/2011/11/19/curation-through-unsharing/"&gt;
+   this idiotic article
+  &lt;/a&gt;
+  suggests, doesn’t fix this
+  &lt;sup&gt;
+   &lt;a href="#reading-sources-note-1" id="reading-sources-1"&gt;
+    [1]
+   &lt;/a&gt;
+  &lt;/sup&gt;
+  . It’s still content from same people only more of it.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Then there are social new sites, which are in essence news organizations with bigger editorial board. Their focus might not be the same and their world view less obvious (or not) as of traditional boards, but the end result really isn’t all that different. I don’t dread waking up in a world without
+  &lt;a href="http://www.apple.com" title="Apple's homepage"&gt;
+   Apple
+  &lt;/a&gt;
+  as I do in one without  fish, but it is not articles about all things piscatorial that keep popping up on regular basis.
+ &lt;/p&gt;
+ &lt;p&gt;
+  This doesn’t make socially filtered news useless, just limited and best suited for finding out what is popular at this moment. They should be a side dish not the whole diet. Getting some of your information diet from social sources may improve it, but relying only on them is just stupid. I wouldn’t fret so much if I didn’t worry about development trends — latest Reader changes being one example of them.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Reader had two methods of sharing. Obvious one was button Share which was adequately replaced with sharing to
+  &lt;a href="http://plus.google.com"&gt;
+   Google+
+  &lt;/a&gt;
+  circles. The other one, which was the one I actually relied on, was to create public feeds for articles marked with certain tags. The most important difference is that in first case you grouped by intended audience and in second by actual content
+  &lt;sup&gt;
+   &lt;a href="#reading-sources-note-2" id="reading-sources-2"&gt;
+    [2]
+   &lt;/a&gt;
+  &lt;/sup&gt;
+  . Instead of following me, you could just follow my selection on particular topic which in most cases would probably be closer to what you want.
+ &lt;/p&gt;
+ &lt;p&gt;
+  By itself stripping a feature like that doesn’t mean much. However when I also judge other changes such as aforementioned abundance of whitespace, removal of “Note to reader” and  new reading unfriendly theme, it’s easy to come to conclusion that all roads now lead to Google+. Reader’s role is at best to feed its younger brother with stuff to socialize around.
+ &lt;/p&gt;
+ &lt;p&gt;
+  It would be wrong to attribute these changes simply to competition with Facebook since they are a part of a larger trend to social curation. I find this trend just a normal consequence of a web ecosystem where most product innovation happens in VC funded startups. How companies were funded was always a part of their DNA and economics of today’s VC environment for companies that will probably be acquired at some point (and let’s be honest, who REALLY believes most news experiments won’t be?) almost demands a quick and high growth. It’s not impossible to achieve this with sources-based product, but it’s certainly harder and less obvious than creating another twist on social news.
+ &lt;/p&gt;
+ &lt;p&gt;
+  If my first and main point was a personal appeal to seek insight also in your own, personally picked sources, then my second is to question if shaping web and world with it should really be left only to industry and academia. It really doesn’t have to be this way.
+ &lt;/p&gt;
+ &lt;ol&gt;
+  &lt;li id="reading-sources-note-1"&gt;
+   Browser’s history is a great place to see just how much of what we visit is unimportant, unrepresentative and often unsharable. A small friction necessary for a deliberate act of sharing is actually a feature that gives at least a modicum of reflection on content’s share-worthiness.
+   &lt;a href="#reading-sources-1"&gt;
+    ↩
+   &lt;/a&gt;
+  &lt;/li&gt;
+  &lt;li id="reading-sources-note-2"&gt;
+   Feeds enable that and are one of crucial building blocks for what I started to call
+   &lt;em&gt;
+    social software for introverts
+   &lt;/em&gt;
+   .  It is software which is better when used by many, but is good even when  you are its only user.
+   &lt;a href="http://www.instapaper.com/" title="Tool for saving pages to read them later"&gt;
+    Instapaper
+   &lt;/a&gt;
+   would be a perfect example of such an application and
+   &lt;a href="http://www.facebook.com/" title="Evil empire"&gt;
+    Facebook
+   &lt;/a&gt;
+   is a counter-example.
+   &lt;a href="#reading-sources-2"&gt;
+    ↩
+   &lt;/a&gt;
+  &lt;/li&gt;
+ &lt;/ol&gt;
+&lt;/div&gt;</summary><category term="information"></category><category term="sources"></category><category term="knowledge"></category><category term="social news"></category><category term="google reader"></category></entry><entry><title>Missing refer(r)ers</title><link href="http://markos.gaivo.net/articles/missing-referrers.html" rel="alternate"></link><updated>2011-09-20T18:29:00+02:00</updated><author><name>markos</name></author><id>tag:markos.gaivo.net,2011-09-20:articles/missing-referrers.html</id><summary type="html">&lt;div&gt;
+ &lt;p&gt;
+  I was talking to my wife today about why an “Unknown Source” is becoming the most common source of visits on
+  &lt;a class="zem_slink" href="http://flickr.com" rel="homepage" title="Flickr"&gt;
+   Flickr
+  &lt;/a&gt;
+  . My guess is that it is almost certainly because a
+  &lt;a class="zem_slink" href="http://en.wikipedia.org/wiki/HTTP_referrer" rel="wikipedia" title="HTTP referrer"&gt;
+   &lt;em&gt;
+    Referer
+   &lt;/em&gt;
+  &lt;/a&gt;
+  header field is missing in page requests and Flickr is only relying on presence of this piece of data to discern sources. This might have made sense when browsers ruled the web, but we don’t live then anymore.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Simply put referrer field
+  &lt;a href="http://tools.ietf.org/html/rfc2616#section-14.36" title="Link to Referer field definition"&gt;
+   can be added
+  &lt;/a&gt;
+  to request only when request was triggered from source which also has an
+  &lt;a class="zem_slink" href="http://en.wikipedia.org/wiki/Uniform_Resource_Identifier" rel="wikipedia" title="Uniform Resource Identifier"&gt;
+   URI
+  &lt;/a&gt;
+  address. Every web page has it since its address is also an URI, but most programs don’t.
+ &lt;/p&gt;
+ &lt;p&gt;
+  That’s why referrers aren’t missing only from visitors using paranoid browsers or security software that stripped it out of requests, but also when page is visited from a link embedded in emails or instant messages.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Requests without referrers used to present a small enough subset of visits that most of us didn’t care. I first noticed this changing when Twitter clients became popular and now there are tons of apps behaving like this. With
+  &lt;a href="http://www.w3.org/TR/XMLHttpRequest2/" title="Link to specification"&gt;
+   XMLHttpRequest Level 2
+  &lt;/a&gt;
+  ﻿ even web developers will get a choice of making anonymous requests which won’t include potentially private data like referrers.
+ &lt;/p&gt;
+ &lt;p&gt;
+  That’s nice. I have certainly visited places which I wouldn’t want to share with strangers. But I suspect this is not the common case and most of the time we don’t care telling which page or application sent us there.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Nobody can precisely predict future so specifications can never be perfect. But I am always amazed when reading core web specs like HTTP’s how insightful their authors were. That most programs don’t have a URI does not mean that they couldn’t. Practically anything can and definitely more things should.
+ &lt;/p&gt;
+ &lt;p&gt;
+  In principle it is possible for each program to have its own address which could be used as referrer
+  &lt;em&gt;
+   when a better option doesn’t exist
+  &lt;/em&gt;
+  . I suspect this would be against the spirit of specification, but likely not against its text.
+ &lt;/p&gt;
+ &lt;p&gt;
+  However better options often do exist. Lets take
+  &lt;a class="zem_slink" href="http://twitter.com" rel="homepage" title="Twitter"&gt;
+   Twitter
+  &lt;/a&gt;
+  as a popular example. Every link that triggers a visit from Twitter was included in at least one tweet and every tweet is also published on web. It might not be accessible to everyone, but it does have an address. I see no reason why that address could not be used as referrer by Twitter clients.
+ &lt;/p&gt;
+ &lt;p&gt;
+  It is originating content or its address that interest me, but really, almost anything truthful beats an unknown source. Just knowing name of the service (like Twitter) or app used (e.g. Tweetdeck) would be better than nothing. By the way there is another header field that could provide such insight:
+  &lt;em&gt;
+   User-Agent
+  &lt;/em&gt;
+  . Sadly it is notoriously unreliable and often missing as well, but that’s another long story.
+ &lt;/p&gt;
+ &lt;p&gt;
+  So, if I come back to Flickr. I can’t really tell how much Flickr can or could know. I suspect more than it tells, but I would be astonished if they are not mostly in the dark too. Web was largely built by people too busy (and often too lazy) not to cut corners. Meaning: learning and doing as little as possible to get something to work and sometimes we pay price for our ignorance. But it’s a small price compared to waiting for
+  &lt;a href="http://en.wikipedia.org/wiki/Project_Xanadu" title="Description of project Xanadu on Wikipedia"&gt;
+   Xanadu
+  &lt;/a&gt;
+  .
+ &lt;/p&gt;
+ &lt;div class="zemanta-pixie"&gt;
+  &lt;img alt="" class="zemanta-pixie-img" src="http://img.zemanta.com/pixy.gif?x-id=860d2c48-a1dc-49c5-85d1-277e4734d096"/&gt;
+ &lt;/div&gt;
+&lt;/div&gt;</summary><category term="Flickr"></category><category term="HTTP referrer"></category><category term="Uniform Resource Identifier"></category><category term="Hypertext Transfer Protocol"></category></entry><entry><title></title><link href="http://markos.gaivo.net/articles/address.html" rel="alternate"></link><updated>2011-08-26T17:26:00+02:00</updated><author><name>markos</name></author><id>tag:markos.gaivo.net,2011-08-26:articles/address.html</id><summary type="html">&lt;div&gt;
+ &lt;p&gt;
+  After years of personal embarrassment I finally managed to update look and code of my website. This actually happened last week and I wanted to write this post sooner, but
+  &lt;a href="http://supervizor.kpk-rs.si" title="Supervizor"&gt;
+   other things
+  &lt;/a&gt;
+  came in-between. There are still bugs I need to fix (iPad footer is better than it was, but not fine), but﻿ overall I’m pretty happy with how it turned out.
+ &lt;/p&gt;
+ &lt;p&gt;
+  This was a second site I built using
+  &lt;a class="zem_slink" href="http://www.w3.org/TR/css3-mediaqueries/" rel="homepage" title="media queries"&gt;
+   media queries
+  &lt;/a&gt;
+  and I learned lots. When I learn a bit more about mobile web, I might write a post about few gotchas for new developers, but this is not that post. This post is about
+  &lt;code&gt;
+   &amp;lt;address&amp;gt;
+  &lt;/code&gt;
+  tag because it bugged me when I made that first design and I spent a remarkable amount of time on it again.
+ &lt;/p&gt;
+ &lt;p&gt;
+  My problem with it came down to its definition.
+  &lt;code&gt;
+   &amp;lt;address&amp;gt;
+  &lt;/code&gt;
+  can be used only to mark up contact information about content’s author. In HTML 4 this was limited to authorship of whole page. For HTML5 it
+  &lt;a href="http://dev.w3.org/html5/spec/sections.html#the-address-element" title="Definition of &amp;lt;address&amp;gt; in HTML5 specification"&gt;
+   was “widened”
+  &lt;/a&gt;
+  to authorship of sectioning element like
+  &lt;code&gt;
+   &amp;lt;article&amp;gt;
+  &lt;/code&gt;
+  (so if you have more than one article on page, each can contain its own, different, address for its author). You can’t however mark any address with it and after lots of searching I found
+  &lt;a href="http://lists.whatwg.org/htdig.cgi/whatwg-whatwg.org/2008-February/014023.html" title="Ian's message from February 2008"&gt;
+   this old message
+  &lt;/a&gt;
+  from
+  &lt;a class="zem_slink" href="http://en.wikipedia.org/wiki/Ian_Hickson" rel="wikipedia" title="Ian Hickson"&gt;
+   Ian Hickson
+  &lt;/a&gt;
+  which explains why (I’m not aware of any later clarifications).
+ &lt;/p&gt;
+ &lt;p&gt;
+  I don’t agree with everything said. Mostly correct use is not necessarily a proof of well-designed element. My bet would be that
+  &lt;code&gt;
+   &amp;lt;address&amp;gt;
+  &lt;/code&gt;
+  was a rather unknown tag exactly because of its limited use and was thus used mostly by those that dig deeper into standards, which sound also like people who care  how things are used as expected.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Still most points are valid. Loosening definition would make it less meaningful.
+  &lt;a href="http://microformats.org/wiki/hcard" title="Specification of hCard microformat"&gt;
+   There
+  &lt;/a&gt;
+  &lt;a href="http://microformats.org/wiki/adr" title="Specification of adr microformat"&gt;
+   are
+  &lt;/a&gt;
+  microformats that you can use instead and most annoying problems (allowing only inline content) have been fixed. We also have better tools for parsing HTML so  it really doesn’t matter much if its definition feels completely right or not. It’s good enough.
+ &lt;/p&gt;
+ &lt;p&gt;
+  At the end I still decided to mark my contact information on
+  &lt;a href="http://markos.gaivo.net"&gt;
+   my homepage
+  &lt;/a&gt;
+  with
+  &lt;code&gt;
+   &amp;lt;address&amp;gt;
+  &lt;/code&gt;
+  anyhow (augmented with
+  &lt;a class="zem_slink" href="http://en.wikipedia.org/wiki/HCard" rel="wikipedia" title="HCard"&gt;
+   hCard
+  &lt;/a&gt;
+  ), because I am after all the sole author of this website.
+ &lt;/p&gt;
+ &lt;div class="zemanta-pixie"&gt;
+  &lt;img alt="" class="zemanta-pixie-img" src="http://img.zemanta.com/pixy.gif?x-id=9e03fdb6-c5dc-4878-b734-7bec34cd9ced"/&gt;
+ &lt;/div&gt;
+&lt;/div&gt;</summary><category term="HTML"></category><category term="Data Formats"></category><category term="Markup Languages"></category><category term="Ian Hickson"></category><category term="HTML element"></category></entry><entry><title>Gamification of book reading</title><link href="http://markos.gaivo.net/articles/gamification-of-book-reading.html" rel="alternate"></link><updated>2011-05-11T17:15:00+02:00</updated><author><name>markos</name></author><id>tag:markos.gaivo.net,2011-05-11:articles/gamification-of-book-reading.html</id><summary type="html">&lt;div&gt;
+ &lt;p&gt;
+  I’ve been following subjects of
+  &lt;a class="zem_slink" href="http://en.wikipedia.org/wiki/Gamification" rel="wikipedia" title="Gamification"&gt;
+   gamification
+  &lt;/a&gt;
+  and
+  &lt;a class="zem_slink" href="http://en.wikipedia.org/wiki/Game_mechanics" rel="wikipedia" title="Game mechanics"&gt;
+   game mechanics
+  &lt;/a&gt;
+  for a couple of years now, but I’ve only recently spotted how they apply to me. I conceitedly thought that they have little influence on me, but reality is as always more nuanced.
+ &lt;/p&gt;
+ &lt;p&gt;
+  I still seem to be unmoved by most attempts. I don’t care that my
+  &lt;a class="zem_slink" href="http://www.linkedin.com" rel="homepage" title="LinkedIn"&gt;
+   LinkedIn
+  &lt;/a&gt;
+  profile is not complete and no fake mayorship will get me to use
+  &lt;a class="zem_slink" href="http://www.foursquare.com/" rel="homepage" title="Foursquare"&gt;
+   Foursquare
+  &lt;/a&gt;
+  until I see some other tangible benefit. On the other hand keeping a list of books and having a goal on how many to read has indeed influenced my behavior.
+ &lt;/p&gt;
+ &lt;p&gt;
+  So why did this last example work? Because I actually care about reading books. It’s something I enjoy and want to do more, so “achievements” actually mean something to me.
+ &lt;/p&gt;
+ &lt;p&gt;
+  I started to track books I read because I wanted to know how many I actually read, in what order and does that say something about me. I also thought setting an annual goal would provide a good incentive to keep reading, which it did, but not exactly in a way I expected.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Having a goal certainly helped me with additional motivation to read books when otherwise I might not have for one reason or another, but it also  gave me a nudge against dropping books I didn’t like since doing so would mean time invested in them would not get counted to achieving my goal.
+ &lt;/p&gt;
+ &lt;p&gt;
+  It also pushed me to thinner books. Less pages mean on average quicker completion. But there are books where six or eight hundred pages doesn’t feel too long and they shouldn’t be postponed just because it might take me more than a couple of weeks to read them.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Time pressure also leads to more cursory reading. I’ve never been able to read as deeply as I thought I should, but having a goal definitely changed my reading for the worse. Again, properly engaging a book takes more time and hence makes it harder to achieve the goal.
+ &lt;/p&gt;
+ &lt;p&gt;
+  I didn’t notice any downsides from having a list itself which has indeed provided me with insights about me I probably could have if I wrote a diary. Which I don’t, so I’m left to piecing my long term memories mostly from circumstantial evidence.
+ &lt;/p&gt;
+ &lt;p&gt;
+  That’s why I’m keeping a list, but ditching my goal. Upside is simply not worth the downsides.
+ &lt;/p&gt;
+ &lt;p&gt;
+  I see my experience as providing a lesson. It’s relatively easy to go through different gaming mechanisms and find a combination that you think will give you results you want. However, incentives are a bitch and I think it’s practically impossible to reliably predict what will actually happen in use.
+ &lt;/p&gt;
+ &lt;p&gt;
+  That’s why complex modern games take so much time to create, because getting things right takes time and is not something you can reason through.
+ &lt;/p&gt;
+ &lt;p&gt;
+  I’m with
+  &lt;a class="zem_slink" href="http://headrush.typepad.com" rel="homepage" title="Kathy Sierra"&gt;
+   Kathy Sierra
+  &lt;/a&gt;
+  on this and you really ought to read
+  &lt;a href="http://radar.oreilly.com/2011/04/gamification-purpose-marketing.html#comment-7250008" title="Kathy Sierra's comments"&gt;
+   her comments
+  &lt;/a&gt;
+  . I’m skeptical of general awe around gamification, but I do think game mechanics will have an important role to play in our future. Still I would prefer if we cautiously applied new tools where they can’t hurt much before we plaster badges of suck everywhere.
+ &lt;/p&gt;
+ &lt;p&gt;
+  For a while now I’ve been annoyed by how every gamification talk has about 20 minutes of gushing of its virtues and about 20 seconds on possible ethics problems, but my experience has reminded me of the deeper problem, which is that it is simply much easier to inflict damage to your users and your product (brand) than getting it right.
+ &lt;/p&gt;
+ &lt;div class="zemanta-pixie"&gt;
+  &lt;a class="zemanta-pixie-a" href="http://www.zemanta.com/" title="Enhanced by Zemanta"&gt;
+   &lt;img alt="Enhanced by Zemanta" class="zemanta-pixie-img" src="http://img.zemanta.com/zemified_e.png?x-id=20efb278-1d20-46ec-aeec-c311b50837c7"/&gt;
+  &lt;/a&gt;
+ &lt;/div&gt;
+&lt;/div&gt;</summary><category term="Gamification"></category><category term="Books"></category><category term="Reading"></category><category term="Kathy Sierra"></category><category term="gamemechanics"></category></entry><entry><title>Facebook, web, mobile and me</title><link href="http://markos.gaivo.net/articles/facebook-web-mobile-and-me.html" rel="alternate"></link><updated>2009-12-20T16:35:00+01:00</updated><author><name>markos</name></author><id>tag:markos.gaivo.net,2009-12-20:articles/facebook-web-mobile-and-me.html</id><summary type="html">&lt;div&gt;
+ &lt;p&gt;
+  Recently, for a moment, I couldn’t imagine myself working on web in ten years time. Since I am quite passionate about it and its development, the obvious question was why?
+ &lt;/p&gt;
+ &lt;p&gt;
+  Why wouldn’t I want to be a web developer anymore?
+ &lt;/p&gt;
+ &lt;p&gt;
+  Popularity of Facebook comes to mind. It is no secret that I am not a fan of
+  &lt;a class="zem_slink" href="http://facebook.com" rel="homepage" title="Facebook"&gt;
+   Facebook
+  &lt;/a&gt;
+  and similar networks. Yet I do have an account there and on some of its brethren. By the way, my Facebook account is for testing purposes, so if I haven’t befriended you, it almost certainly wasn’t personal.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Anyhow, Facebook and ilk are easy to criticize. Anything of that size will certainly gain much to be critical about. I also sometimes feel nostalgic about old web, before the gold rush of last millennium. That too probably says more about my age than anything else.
+ &lt;/p&gt;
+ &lt;p&gt;
+  After some pondering I came to conclusion that I am longing for a sense of openness, equality and control I used to have. Few of us had our own server, but in principle with investment of little time and a bit more money, you could run all services that mattered.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Few actually did, since on the whole we didn’t do much. We do more now, some of which we don’t want public. I may not like Facebook’s walled garden of information, but I would have to be mad to argue for open access to all that private information. Even with existing restrictions in place people tend to trip and reveal? information to unintended audience.
+ &lt;/p&gt;
+ &lt;p&gt;
+  If sharing our lives is what we want to do, which clearly is the case, then rise of brokers like Facebook feels as an unavoidable consequence. However that doesn’t mean natural development of a domineering agent should also be welcomed.
+ &lt;/p&gt;
+ &lt;p&gt;
+  If at some point Facebook becomes a conduit for most of our digital lives, what happens if they revoke our account? To whom can we appeal? Who has access to the history of all our actions and what happens to it if we do decide to leave? Is it ever really gone? How do we know that our answers to this questions are true?
+ &lt;/p&gt;
+ &lt;p&gt;
+  It’s a clich? that technology is changing societies faster then they are able to adapt. It is a clich?, but that doesn’t make it wrong. We are changing long before we are able to understand what those changes will bring down the road. It can be argued either way, but it is your outlook on world that will largely form your opinion on desirability of end result.
+ &lt;/p&gt;
+ &lt;p&gt;
+  I am not an optimist.
+ &lt;/p&gt;
+ &lt;p&gt;
+  I like building things and I enjoy it even more when others use them too. I am sometimes lazy and perpetually busy, so I avoid building things which not even I asked for. I always tried to incorporate a reasonable amount of security in services I have built, but I have never added transparency and accountability to the system without outside pressure. I don’t know many who would and that pressure tends to come from legal requirements. It’s a subject too dull to care about without painful personal experience.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Another reason for uneasiness comes from the other side of web connection – web browsers. Last few years have brought an incredible amount of development and most of us aren’t well acquainted with new technologies yet.
+  &lt;a class="zem_slink" href="http://en.wikipedia.org/wiki/HTML_5" rel="wikipedia" title="HTML 5"&gt;
+   HTML5
+  &lt;/a&gt;
+  , CSS3 and Javascript will trounce Flash and Silverlight, right?
+ &lt;/p&gt;
+ &lt;p&gt;
+  They might, but they all might not matter. Two raising trends I find interesting are
+  &lt;a class="zem_slink" href="http://en.wikipedia.org/wiki/Mobile_Web" rel="wikipedia" title="Mobile Web"&gt;
+   mobile web
+  &lt;/a&gt;
+  access and mobile application platforms.
+ &lt;/p&gt;
+ &lt;p&gt;
+  &lt;a class="zem_slink" href="http://www.apple.com/iphone" rel="homepage" title="iPhone"&gt;
+   iPhone
+  &lt;/a&gt;
+  and
+  &lt;a class="zem_slink" href="http://code.google.com/android/" rel="homepage" title="Android"&gt;
+   Android
+  &lt;/a&gt;
+  have more than 100 000 applications between them and my impression of these ecosystems is that many of them are not much more than platform specific clients to web services. Even if most of them might not have much to do with web (games, books…), it’s not difficult to imagine a future, where most of us would access web through mobile devices and developing native clients for a new service would have a priority over access through browser.
+ &lt;/p&gt;
+ &lt;p&gt;
+  I can’t say this would necessarily be a bad thing, since web development can be quite messy and frustrating. It probably would be less egalitarian and less sharing environment and I would certainly miss that.
+ &lt;/p&gt;
+ &lt;p&gt;
+  At the end of this long self-indulgent post I confess I have no answers. I barely have questions and I had to write this far to get to them. It is for me the most introspective part of the year, so I might be thinking about a non-issue. Time will tell. Eventually.
+ &lt;/p&gt;
+ &lt;div class="zemanta-pixie"&gt;
+  &lt;a class="zemanta-pixie-a" href="http://reblog.zemanta.com/zemified/a5117991-c107-4748-a6c7-31134e58e25b/" title="Reblog this post [with Zemanta]"&gt;
+   &lt;img alt="Reblog this post [with Zemanta]" class="zemanta-pixie-img" src="http://img.zemanta.com/reblog_e.png?x-id=a5117991-c107-4748-a6c7-31134e58e25b"/&gt;
+  &lt;/a&gt;
+  &lt;span class="zem-script paragraph-reblog"&gt;
+   &lt;script src="http://static.zemanta.com/readside/loader.js" type="text/javascript"&gt;
+   &lt;/script&gt;
+  &lt;/span&gt;
+ &lt;/div&gt;
+&lt;/div&gt;</summary><category term="Social network"></category><category term="Mobile Web"></category><category term="future"></category><category term="Facebook"></category><category term="Web browser"></category><category term="HTML 5"></category></entry><entry><title>IE6 - hope of web standards</title><link href="http://markos.gaivo.net/articles/ie6-hope-of-web-standards.html" rel="alternate"></link><updated>2009-01-20T20:49:00+01:00</updated><author><name>markos</name></author><id>tag:markos.gaivo.net,2009-01-20:articles/ie6-hope-of-web-standards.html</id><summary type="html">&lt;div&gt;
+ &lt;p&gt;
+  I often find myself in a room with web developers and at least one of them proclaiming that IE6 sucks because it doesn’t support web standards while others nod in agreement.
+ &lt;/p&gt;
+ &lt;p&gt;
+  This has bothered me enough to contemplate having a talk at
+  &lt;a href="http://www.barcamp.si/"&gt;
+   BarCamp Ljubljana
+  &lt;/a&gt;
+  . I didn’t, but this is what I would say.
+ &lt;/p&gt;
+ &lt;p&gt;
+  &lt;a class="zem_slink" href="http://en.wikipedia.org/wiki/Internet_Explorer_6" rel="wikipedia" title="Internet Explorer 6"&gt;
+   Internet Explorer 6
+  &lt;/a&gt;
+  was released on 27th August 2001, when twin towers were still standing in NY.
+ &lt;/p&gt;
+ &lt;p&gt;
+  7 years is a long time to remember, but what did we work with back then? There was no
+  &lt;a class="zem_slink" href="http://www.apple.com/safari/" rel="homepage" title="Safari (web browser)"&gt;
+   Safari
+  &lt;/a&gt;
+  and Firefox was still in its infacy, far from 1.0 release coming 3 years later. It was changing so often most developers simply ignored it. Opera was at version 5 (version 6 came out in November of that year) and I am sure I am not alone in remembering how awful it was at least until version 7 in 2003.
+  &lt;a class="zem_slink" href="http://mozilla.com" rel="homepage" title="Mozilla"&gt;
+   Mozilla
+  &lt;/a&gt;
+  was at version 0.6 and although showing great promise, IE6 definitely was the browser we hoped others would match.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Back then no browser supported CSS2 in a meaningful capacity. Opera had the best support for CSS until then, but IE6 surpassed it. It didn’t support DOM Level 2, which was standardized only 4 months before first beta of IE6. Good excuse not available anymore to
+  &lt;a class="zem_slink" href="http://en.wikipedia.org/wiki/Internet_Explorer_7" rel="wikipedia" title="Internet Explorer 7"&gt;
+   IE7
+  &lt;/a&gt;
+  and IE8. Apart from that it supported more or less everything web developer could want back then and then some. IE6 problem isn’t so much that it didn’t support standards of its time as it is that it doesn’t support standards of today.
+ &lt;/p&gt;
+ &lt;p&gt;
+  So why the hostility?
+ &lt;/p&gt;
+ &lt;p&gt;
+  &lt;a class="zem_slink" href="http://en.wikipedia.org/wiki/Lancia_Delta" rel="wikipedia" title="Lancia Delta"&gt;
+   Lancia Delta Integrale
+  &lt;/a&gt;
+  , which dominated rally competitions in eighties, is today an obsolete car, but car aficionados still have a soft sport for it. You don’t hear them go around complaining how it doesn’t meet standards of todays cars.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Well, as I’ve said, 7 years is a long time and most web developers are not old gits like me, so the historic context isn’t there. We also have to live with its real shortcomings today. But I think there’s more to this.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Complaining about IE6 standards deficiencies is declaring who you are and where you stand. It’s a simple and very recognizable way of declaring you are a member of web-standards tribe. IE6 bitching has at least as much to do with proclaimer as with proclamation’s subject. Trashing IE6 isn’t so much talking about the browser as it is talking about you.
+ &lt;/p&gt;
+ &lt;p&gt;
+  However it is not unreasonable to ask why IE6 doesn’t better support standards that were released or updated after its initial release.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Certainly more could be done through software updates, but are standards themselves forward looking in a way that would avoid updating browser internals with every new version of a particular standard?
+ &lt;/p&gt;
+ &lt;p&gt;
+  I am quite certain that this isn’t always possible. I don’t see how you could add a video object from
+  &lt;a class="zem_slink" href="http://en.wikipedia.org/wiki/HTML_5" rel="wikipedia" title="HTML 5"&gt;
+   HTML5
+  &lt;/a&gt;
+  to a browser without explicit support from browser’s developers. But not all changes are such as
+  &lt;a href="http://www.alistapart.com/articles/semanticsinhtml5"&gt;
+   John Allsopp
+  &lt;/a&gt;
+  has recently pointed out.
+ &lt;/p&gt;
+ &lt;p&gt;
+  I have mixed feelings about HTML5. It’s bringing much needed new capabilities and lots of goodies, but I also think
+  &lt;a href="http://intertwingly.net/blog/2009/01/15/Grandiosity"&gt;
+   Sam Ruby
+  &lt;/a&gt;
+  has a point. New, simple,
+  &lt;a class="zem_slink" href="http://en.wikipedia.org/wiki/Document_Type_Declaration" rel="wikipedia" title="Document Type Declaration"&gt;
+   DOCTYPE
+  &lt;/a&gt;
+  is reduced to a switch between standards and
+  &lt;a class="zem_slink" href="http://en.wikipedia.org/wiki/Quirks_mode" rel="wikipedia" title="Quirks mode"&gt;
+   quirks mode
+  &lt;/a&gt;
+  and unless it will become more complicated in later revisions, it won’t offer an easy way to distinguish between HTML5 documents and other HTML versions. This isn’t a particular problem if newer revisions will be backwards compatible with older, but this isn’t true even of HTML5. Why would we think this is the last version where we will make a major misstep that needs backwards-incompatible correction?
+ &lt;/p&gt;
+ &lt;p&gt;
+  There are other things I don’t like about HTML5, but if I would have to pick one thing I would like to see changed, is to make it more extendable.
+ &lt;/p&gt;
+ &lt;p&gt;
+  To sum it up, IE6 is indeed a problem in todays development, but it’s also at least at fault for this. It was an excellent browser when it came out and is remarkably solid one for software so old. There are many reasons, completely untouched in this post, why its users don’t migrate to something newer, but we, web developers, are also to blame, because we tend to standardize only current practice and leave few doors open for future development which invariably comes.
+ &lt;/p&gt;
+ &lt;div class="zemanta-pixie"&gt;
+  &lt;a class="zemanta-pixie-a" href="http://reblog.zemanta.com/zemified/1235c7ef-00b0-4968-aaa8-90dfe88b2f35/" title="Zemified by Zemanta"&gt;
+   &lt;img alt="Reblog this post [with Zemanta]" class="zemanta-pixie-img" src="http://img.zemanta.com/reblog_e.png?x-id=1235c7ef-00b0-4968-aaa8-90dfe88b2f35"/&gt;
+  &lt;/a&gt;
+ &lt;/div&gt;
+&lt;/div&gt;</summary><category term="WWW"></category><category term="Firefox"></category><category term="Internet Explorer 6"></category><category term="standards"></category><category term="HTML"></category><category term="html5"></category></entry><entry><title>Switched...to Firefox 3</title><link href="http://markos.gaivo.net/articles/switchedto-firefox-3.html" rel="alternate"></link><updated>2008-06-22T15:04:00+02:00</updated><author><name>markos</name></author><id>tag:markos.gaivo.net,2008-06-22:articles/switchedto-firefox-3.html</id><summary type="html">&lt;div&gt;
+ &lt;p&gt;
+  Today I switched to
+  &lt;a class="zem_slink" href="http://www.firefox.com/" rel="homepage" title="Mozilla Firefox"&gt;
+   Firefox 3
+  &lt;/a&gt;
+  as my main browser. I didn’t want to, because as a policy I try to use most common version as default, but I made a mistake of opening version 3 and since then none of my old add-ons seem to work on previous version anymore.
+ &lt;/p&gt;
+ &lt;p&gt;
+  If I was still a young pup, I would probably dive into config files, search
+  &lt;a class="zem_slink" href="http://en.wikipedia.org/wiki/World_Wide_Web" rel="wikipedia" title="World Wide Web"&gt;
+   the web
+  &lt;/a&gt;
+  for answers and try to fix it. But when you get to 34, time becomes too precious to muck about needlessly and you just want to focus on things you need or better yet want to do.
+ &lt;/p&gt;
+ &lt;p&gt;
+  So version three it is. This has got me thinking about something else. It’s remarkable how difficult or simply an annoyance it still is to have two version of a browser installed. Clearly this should be possible and is in interest of everyone involved.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Anyway, enough of ranting. Time to get back to cutting cake…
+ &lt;/p&gt;
+ &lt;div class="zemanta-pixie" style="margin-top: 10px; height: 15px;"&gt;
+  &lt;a class="zemanta-pixie-a" href="http://reblog.zemanta.com/zemified/79c05cbe-847f-4fa0-8dc3-878f8e79208f/" title="Zemified by Zemanta"&gt;
+   &lt;img alt="Zemanta Pixie" class="zemanta-pixie-img" src="http://img.zemanta.com/reblog_a.png?x-id=79c05cbe-847f-4fa0-8dc3-878f8e79208f" style="border: medium none; float: right;"/&gt;
+  &lt;/a&gt;
+ &lt;/div&gt;
+&lt;/div&gt;</summary><category term="Mozilla Firefox"></category><category term="Firefox 3"></category><category term="WWW"></category><category term="Firefox"></category><category term="World Wide Web"></category><category term="Browsers"></category></entry></feed>

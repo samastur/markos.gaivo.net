@@ -1,75 +1,67 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>A notch above a monkey</title><link href="http://markos.gaivo.net/articles/" rel="alternate"></link><link href="/articles/feeds/general-development-python.atom.xml" rel="self"></link><id>http://markos.gaivo.net/articles/</id><updated>2008-07-22T09:39:00+02:00</updated><entry><title>Generating Python Exceptions Classes</title><link href="http://markos.gaivo.net/articles/generating-python-exceptions-classes.html" rel="alternate"></link><updated>2008-07-22T09:39:00+02:00</updated><author><name>markos</name></author><id>tag:markos.gaivo.net,2008-07-22:articles/generating-python-exceptions-classes.html</id><summary type="html">&lt;p&gt;&lt;html&gt;
- &lt;body&gt;
-  &lt;div&gt;
-   &lt;p&gt;
-    It’s been a while since I used
-    &lt;a class="zem_slink" href="http://www.python.org/" rel="homepage" title="Python (programming language)"&gt;
-     Python
-    &lt;/a&gt;
-    for anything larger than scripts few tens lines long, so it feels really great to do it again. I did discover however that I became a bit rusty. Not so much in not being able to achieve what I want as not being sure that I do it in a sensible and pythonic way.
-   &lt;/p&gt;
-   &lt;p&gt;
-    I’ve been working on a private project where I came to a following problem.
-    &lt;a class="zem_slink" href="http://en.wikipedia.org/wiki/Application_programming_interface" rel="wikipedia" title="Application programming interface"&gt;
-     API
-    &lt;/a&gt;
-    calls can trigger various responses, somewhat like
-    &lt;a class="zem_slink" href="http://en.wikipedia.org/wiki/Hypertext_Transfer_Protocol" rel="wikipedia" title="Hypertext Transfer Protocol"&gt;
-     HTTP
-    &lt;/a&gt;
-    , containing status codes together with a short description. Every faulty response should trigger its own exception, which led me to my first implementation:
-   &lt;/p&gt;
-   &lt;pre&gt;&lt;code&gt;
+<feed xmlns="http://www.w3.org/2005/Atom"><title>A notch above a monkey</title><link href="http://markos.gaivo.net/articles/" rel="alternate"></link><link href="/articles/feeds/general-development-python.atom.xml" rel="self"></link><id>http://markos.gaivo.net/articles/</id><updated>2008-07-22T09:39:00+02:00</updated><entry><title>Generating Python Exceptions Classes</title><link href="http://markos.gaivo.net/articles/generating-python-exceptions-classes.html" rel="alternate"></link><updated>2008-07-22T09:39:00+02:00</updated><author><name>markos</name></author><id>tag:markos.gaivo.net,2008-07-22:articles/generating-python-exceptions-classes.html</id><summary type="html">&lt;div&gt;
+ &lt;p&gt;
+  It’s been a while since I used
+  &lt;a class="zem_slink" href="http://www.python.org/" rel="homepage" title="Python (programming language)"&gt;
+   Python
+  &lt;/a&gt;
+  for anything larger than scripts few tens lines long, so it feels really great to do it again. I did discover however that I became a bit rusty. Not so much in not being able to achieve what I want as not being sure that I do it in a sensible and pythonic way.
+ &lt;/p&gt;
+ &lt;p&gt;
+  I’ve been working on a private project where I came to a following problem.
+  &lt;a class="zem_slink" href="http://en.wikipedia.org/wiki/Application_programming_interface" rel="wikipedia" title="Application programming interface"&gt;
+   API
+  &lt;/a&gt;
+  calls can trigger various responses, somewhat like
+  &lt;a class="zem_slink" href="http://en.wikipedia.org/wiki/Hypertext_Transfer_Protocol" rel="wikipedia" title="Hypertext Transfer Protocol"&gt;
+   HTTP
+  &lt;/a&gt;
+  , containing status codes together with a short description. Every faulty response should trigger its own exception, which led me to my first implementation:
+ &lt;/p&gt;
+ &lt;pre&gt;&lt;code&gt;
 class Unauthorized(Exception):
     status = 101
     value = "Unauthorized."
 &lt;/code&gt;&lt;/pre&gt;
-   &lt;p&gt;
-    I didn’t like it even though it looks and behaves like it should. What I wanted was a better overlook of possible responses in a way where I have to make any possible changes easily and only at one place.
-   &lt;/p&gt;
-   &lt;p&gt;
-    My
-    &lt;a href="http://markos.gaivo.net/examples/pyexceptions/exceptions1.txt" title="Example"&gt;
-     second attempt
-    &lt;/a&gt;
-    was auto-generating exception classes using type. Since class definition took only a line instead of three, it certainly achieved better transparency, but I still had to make changes at two places.
-   &lt;/p&gt;
-   &lt;p&gt;
-    &lt;a href="http://markos.gaivo.net/examples/pyexceptions/exceptions2.txt"&gt;
-     Final step
-    &lt;/a&gt;
-    was to auto-generate classes in a loop. To do this I attached them to module namespace using globals() dictionary. Actually I used &lt;strong&gt;builtin&lt;/strong&gt; one at first, but it obviously didn’t work that great.
-   &lt;/p&gt;
-   &lt;p&gt;
-    So this is what I have now. It works and achieves my goals. I only need to change dictionary to add a new response or change existing one and it could hardly be more readable.
-   &lt;/p&gt;
-   &lt;p&gt;
-    But is it pythonic enough? If not, what would be, apart from traditional way described in first step?
-   &lt;/p&gt;
-   &lt;div class="zemanta-pixie" style="margin-top: 10px; height: 15px;"&gt;
-    &lt;a class="zemanta-pixie-a" href="http://reblog.zemanta.com/zemified/67741c44-cb65-4003-8f66-f8ceb221a025/" title="Zemified by Zemanta"&gt;
-     &lt;img alt="Zemanta Pixie" class="zemanta-pixie-img" src="http://img.zemanta.com/reblog_e.png?x-id=67741c44-cb65-4003-8f66-f8ceb221a025" style="border: medium none; float: right;"/&gt;
-    &lt;/a&gt;
-   &lt;/div&gt;
-  &lt;/div&gt;
- &lt;/body&gt;
-&lt;/html&gt;&lt;/p&gt;</summary><category term="Class"></category><category term="Class"></category><category term="Exceptions"></category><category term="Exceptions"></category><category term="Languages"></category><category term="Languages"></category><category term="Programming"></category><category term="Programming"></category><category term="Python"></category><category term="Python"></category></entry><entry><title>Messing with other people's code</title><link href="http://markos.gaivo.net/articles/messing-with-other-peoples-code.html" rel="alternate"></link><updated>2006-03-14T22:19:00+01:00</updated><author><name>markos</name></author><id>tag:markos.gaivo.net,2006-03-14:articles/messing-with-other-peoples-code.html</id><summary type="html">&lt;p&gt;&lt;html&gt;
- &lt;body&gt;
-  &lt;div&gt;
-   &lt;p&gt;
-    Years ago I published my first code and I still remember the anxiety. Will people notice that I’m an incompetent idiot or do they already know?
-   &lt;/p&gt;
-   &lt;p&gt;
-    I grew up a lot since then and these days I know I’m not a great programmer. Even more importantly, I’m comfortable with this. But as I was reading
-    &lt;a href="http://vobject.skyhouseconsulting.com/"&gt;
-     vobject’s
-    &lt;/a&gt;
-    code to see how difficult it would be to add support for vCard 2.1 and hCard, it dawned on me… Jeffrey is a much better programmer than me and there’s little hope that my yet-nonexistent contribution won’t spoil his code.
-   &lt;/p&gt;
-   &lt;p&gt;
-    Nasty. Something new to worry about.
-   &lt;/p&gt;
-  &lt;/div&gt;
- &lt;/body&gt;
-&lt;/html&gt;&lt;/p&gt;</summary></entry></feed>
+ &lt;p&gt;
+  I didn’t like it even though it looks and behaves like it should. What I wanted was a better overlook of possible responses in a way where I have to make any possible changes easily and only at one place.
+ &lt;/p&gt;
+ &lt;p&gt;
+  My
+  &lt;a href="http://markos.gaivo.net/examples/pyexceptions/exceptions1.txt" title="Example"&gt;
+   second attempt
+  &lt;/a&gt;
+  was auto-generating exception classes using type. Since class definition took only a line instead of three, it certainly achieved better transparency, but I still had to make changes at two places.
+ &lt;/p&gt;
+ &lt;p&gt;
+  &lt;a href="http://markos.gaivo.net/examples/pyexceptions/exceptions2.txt"&gt;
+   Final step
+  &lt;/a&gt;
+  was to auto-generate classes in a loop. To do this I attached them to module namespace using globals() dictionary. Actually I used __builtin__ one at first, but it obviously didn’t work that great.
+ &lt;/p&gt;
+ &lt;p&gt;
+  So this is what I have now. It works and achieves my goals. I only need to change dictionary to add a new response or change existing one and it could hardly be more readable.
+ &lt;/p&gt;
+ &lt;p&gt;
+  But is it pythonic enough? If not, what would be, apart from traditional way described in first step?
+ &lt;/p&gt;
+ &lt;div class="zemanta-pixie" style="margin-top: 10px; height: 15px;"&gt;
+  &lt;a class="zemanta-pixie-a" href="http://reblog.zemanta.com/zemified/67741c44-cb65-4003-8f66-f8ceb221a025/" title="Zemified by Zemanta"&gt;
+   &lt;img alt="Zemanta Pixie" class="zemanta-pixie-img" src="http://img.zemanta.com/reblog_e.png?x-id=67741c44-cb65-4003-8f66-f8ceb221a025" style="border: medium none; float: right;"/&gt;
+  &lt;/a&gt;
+ &lt;/div&gt;
+&lt;/div&gt;</summary><category term="Exceptions"></category><category term="Languages"></category><category term="Python"></category><category term="Programming"></category><category term="Class"></category></entry><entry><title>Messing with other people's code</title><link href="http://markos.gaivo.net/articles/messing-with-other-peoples-code.html" rel="alternate"></link><updated>2006-03-14T22:19:00+01:00</updated><author><name>markos</name></author><id>tag:markos.gaivo.net,2006-03-14:articles/messing-with-other-peoples-code.html</id><summary type="html">&lt;div&gt;
+ &lt;p&gt;
+  Years ago I published my first code and I still remember the anxiety. Will people notice that I’m an incompetent idiot or do they already know?
+ &lt;/p&gt;
+ &lt;p&gt;
+  I grew up a lot since then and these days I know I’m not a great programmer. Even more importantly, I’m comfortable with this. But as I was reading
+  &lt;a href="http://vobject.skyhouseconsulting.com/"&gt;
+   vobject’s
+  &lt;/a&gt;
+  code to see how difficult it would be to add support for vCard 2.1 and hCard, it dawned on me… Jeffrey is a much better programmer than me and there’s little hope that my yet-nonexistent contribution won’t spoil his code.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Nasty. Something new to worry about.
+ &lt;/p&gt;
+&lt;/div&gt;</summary></entry></feed>

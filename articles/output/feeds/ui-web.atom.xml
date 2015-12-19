@@ -1,367 +1,327 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>A notch above a monkey</title><link href="http://markos.gaivo.net/articles/" rel="alternate"></link><link href="/articles/feeds/ui-web.atom.xml" rel="self"></link><id>http://markos.gaivo.net/articles/</id><updated>2008-10-28T08:59:00+01:00</updated><entry><title>Tweaking pages</title><link href="http://markos.gaivo.net/articles/tweaking-pages.html" rel="alternate"></link><updated>2008-10-28T08:59:00+01:00</updated><author><name>markos</name></author><id>tag:markos.gaivo.net,2008-10-28:articles/tweaking-pages.html</id><summary type="html">&lt;p&gt;&lt;html&gt;
- &lt;body&gt;
-  &lt;div&gt;
-   &lt;p&gt;
-    I recently came back from Berlin, where I publicly asked
-    &lt;a href="http://john.jubjubs.net/" title="John's homepage"&gt;
-     John Lily
-    &lt;/a&gt;
-    why haven’t they integrated
-    &lt;a class="zem_slink" href="http://www.greasespot.net/" rel="homepage" title="Greasemonkey"&gt;
-     Greasemonkey
-    &lt;/a&gt;
-    into
-    &lt;a class="zem_slink" href="http://www.mozilla.com/en-US/firefox/" rel="homepage" title="Firefox"&gt;
-     Firefox
-    &lt;/a&gt;
-    . Wrong question can hardly lead to right answer. What I really wanted to know was:
-   &lt;/p&gt;
-   &lt;p&gt;
-    &lt;em&gt;
-     “Why doesn’t
-     &lt;a class="zem_slink" href="http://mozilla.com" rel="homepage" title="Mozilla"&gt;
-      Mozilla
-     &lt;/a&gt;
-     integrate Greasemonkey-LIKE functionality in a browser?”
-    &lt;/em&gt;
-   &lt;/p&gt;
-   &lt;p&gt;
-    Browser is at the farthest reach of web creators. It’s them who decide how a page will look like when it gets loaded and what visitors will be able to do with it. User actions that were not anticipated by page designers are limited to printing a page, tweaking its display a bit with user style sheets, seeing its source and copying text elsewhere.
-   &lt;/p&gt;
-   &lt;p&gt;
-    Browser is also an application that is loaded on someone’s computer and belongs to him, as much as software can belong to somebody in EULA-infested world. Not every browser is equal, but pretty much all of them limit what you can do with page (beyond its creators intentions)  to above actions. The real question than for me becomes:
-   &lt;/p&gt;
-   &lt;p&gt;
-    &lt;em&gt;
-     “To whom does a browser belong to?”
-    &lt;/em&gt;
-   &lt;/p&gt;
-   &lt;p&gt;
-    One reason why I love Greasemonkey is that it enabled me to fix and change pages that I find lacking. Not every page has navigation where it should be and lots of them display parts of text in illegibly small letters. It can also help me plug different services together. It is indeed geeky, as Brady Forrest observed, but useful implementation doesn’t need to be. I find
-    &lt;a href="http://platypus.mozdev.org/"&gt;
-     Platypus extension
-    &lt;/a&gt;
-    a good first step to how a browser could further empower its users in customizing pages even further to their needs.
-   &lt;/p&gt;
-   &lt;p&gt;
-    I thought about downsides to this since Thursday and I’m failing to find anything substantial.
-   &lt;/p&gt;
-   &lt;div class="zemanta-pixie"&gt;
-    &lt;a class="zemanta-pixie-a" href="http://reblog.zemanta.com/zemified/371a642d-6da1-4089-8b93-ef701f1cdb08/" title="Zemified by Zemanta"&gt;
-     &lt;img alt="Reblog this post [with Zemanta]" class="zemanta-pixie-img" src="http://img.zemanta.com/reblog_e.png?x-id=371a642d-6da1-4089-8b93-ef701f1cdb08"/&gt;
-    &lt;/a&gt;
-   &lt;/div&gt;
-  &lt;/div&gt;
- &lt;/body&gt;
-&lt;/html&gt;&lt;/p&gt;</summary><category term="browser"></category><category term="browser"></category><category term="Firefox"></category><category term="Firefox"></category><category term="greasemonkey"></category><category term="greasemonkey"></category><category term="Mozilla"></category><category term="Mozilla"></category><category term="Web page"></category><category term="Web page"></category></entry><entry><title>Robot Exclusion Profile</title><link href="http://markos.gaivo.net/articles/robot-exclusion-profile.html" rel="alternate"></link><updated>2006-04-13T22:54:00+02:00</updated><author><name>markos</name></author><id>tag:markos.gaivo.net,2006-04-13:articles/robot-exclusion-profile.html</id><summary type="html">&lt;p&gt;&lt;html&gt;
- &lt;body&gt;
-  &lt;div&gt;
-   &lt;p&gt;
-    &lt;strong&gt;
-     Error:
-    &lt;/strong&gt;
-    No such file found! Please make sure
-    &lt;code&gt;
-     http://markos.gaivo.net/blog/code/robots-exclusion.txt
-    &lt;/code&gt;
-    exists.
-   &lt;/p&gt;
-  &lt;/div&gt;
- &lt;/body&gt;
-&lt;/html&gt;&lt;/p&gt;</summary></entry><entry><title>Google ignore</title><link href="http://markos.gaivo.net/articles/google-ignore.html" rel="alternate"></link><updated>2006-04-10T13:59:00+02:00</updated><author><name>markos</name></author><id>tag:markos.gaivo.net,2006-04-10:articles/google-ignore.html</id><summary type="html">&lt;p&gt;&lt;html&gt;
- &lt;body&gt;
-  &lt;div&gt;
-   &lt;p&gt;
-    A few days ago I came to
-    &lt;a href="javascript-enabled-spiders.html"&gt;
-     recognize
-    &lt;/a&gt;
-    that email hiding technique I use won’t work anymore. However I still think it would be a great idea if I could remove a part of a page from search index, even if it won’t help me hide from spammers in the long run.
-   &lt;/p&gt;
-   &lt;p&gt;
-    What I’d really like is to specify which parts of a page are not its content and can be safely ignored by search engines. Ignoring it would also mean absence of those parts from search indexes. Spiders could still follow links inside those parts, because I can still use
-    &lt;em&gt;
-     robots.txt
-    &lt;/em&gt;
-    file if I really want to block their traversal. In effect, I’d like a more fine-grained approach to blocking, which doesn’t force the layout of my pages to even slightly favor spiders over people.
-   &lt;/p&gt;
-   &lt;p&gt;
-    The way I imagine it would work is by simply applying a class name to the parts of the page I’d want shielded. I don’t care much (yet) if such class name would need to be specified in robots file or if it would be some name achieved by a web consensus. As far as I can see both approaches would work equally well.
-   &lt;/p&gt;
-   &lt;p&gt;
-    The benefit of this would also be better search results. Every now and then I follow a search hit that fit my query because of a combination of site content and its navigation. Judging by my logs I’m not the only deceived soul. So, wouldn’t it be nice to be able to tell which parts are content and which aren’t?
-   &lt;/p&gt;
-  &lt;/div&gt;
- &lt;/body&gt;
-&lt;/html&gt;&lt;/p&gt;</summary></entry><entry><title>Simple List Extensions</title><link href="http://markos.gaivo.net/articles/simple-list-extensions.html" rel="alternate"></link><updated>2006-04-09T14:05:00+02:00</updated><author><name>markos</name></author><id>tag:markos.gaivo.net,2006-04-09:articles/simple-list-extensions.html</id><summary type="html">&lt;p&gt;&lt;html&gt;
- &lt;body&gt;
-  &lt;div&gt;
-   &lt;p&gt;
-    I’m not sure how I missed the original announcement of Simple List Extensions (SLE) for feeds, but better late than never.
-   &lt;/p&gt;
-   &lt;p&gt;
-    SLE is a very simple specification to extend feeds syntax to better support some common scenarios that weren’t covered with original specifications of RSS and Atom. Previously there was no way to tell feed readers/aggregators to display feed items in fixed order (e.g. feed with most popular stories of the day) or delete items not present in feed anymore (e.g. auction site feed with items matching a query).
-   &lt;/p&gt;
-   &lt;p&gt;
-    SLE also adds support for grouping and filtering of feed items, which might not be very useful with you average 10-item feed, but will be, if feeds will indeed become a general mechanism for transporting data and not only a tool to highlight most recent bunch of updates. In any case, you can read a very short
-    &lt;a href="http://msdn.microsoft.com/xml/rss/sle/"&gt;
-     specification
-    &lt;/a&gt;
-    or visit
-    &lt;a href="http://blogs.msdn.com/ie/archive/2006/03/30/565222.aspx"&gt;
-     latest announcement
-    &lt;/a&gt;
-    which includes more explanatory links to why and how they can and already are used.
-   &lt;/p&gt;
-   &lt;p&gt;
-    By the way, I’m not sure if any reader apart from beta of IE7 already supports SLE, but I expect that most of them will soon. There’s little reason not to.
-   &lt;/p&gt;
-  &lt;/div&gt;
- &lt;/body&gt;
-&lt;/html&gt;&lt;/p&gt;</summary></entry><entry><title>Localized interfaces in globalized world</title><link href="http://markos.gaivo.net/articles/localized-interfaces-in-globalized-world.html" rel="alternate"></link><updated>2006-03-24T12:03:00+01:00</updated><author><name>markos</name></author><id>tag:markos.gaivo.net,2006-03-24:articles/localized-interfaces-in-globalized-world.html</id><summary type="html">&lt;p&gt;&lt;html&gt;
- &lt;body&gt;
-  &lt;div&gt;
-   &lt;p&gt;
-    There’s an issue I’ve been struggling with for months now. Well, more than a year really. We built Marela so it would be used in Slovenia by people preferring Slovene language over the others. It’s not the only distinguishing point from similar services found on the web, but it’s an important one.
-   &lt;/p&gt;
-   &lt;p&gt;
-    However, Internet and low fares airlines certainly shrank our planet and it’s not uncommon for many of us to have friends who don’t speak our language but with whom we’d still like to share parts of our lives and our creations. And this is a problem for Marela, which was (also) built to fill this need of sharing.
-   &lt;/p&gt;
-   &lt;p&gt;
-    It’s simply not possible to use Marela in any language but Slovene.
-   &lt;/p&gt;
-   &lt;p&gt;
-    We decided to do this to avoid Orkut syndrome, where brazilian users (legitimately) subverted  a global service into a mostly Portuguese speaking one. We didn’t want to risk making our site unfriendly to Slovene-only speaking members by creating an environment in which a large portion of our community neither could or would speak Slovene.
-   &lt;/p&gt;
-   &lt;p&gt;
-    I believe our interfaces are mostly self-explanatory and easy to use, but it’s difficult to tell how challenging they are for those who don’t speak their language. Judging by personal experience in using a dutch Windows 95 years ago, I’d say they are probably not easy enough.
-   &lt;/p&gt;
-   &lt;p&gt;
-    So, what can be done?
-   &lt;/p&gt;
-   &lt;p&gt;
-    There was an idea to enforce Slovene only for logged in users, but this can work only as long as unregistered users are not allowed to contribute and the idea itself doesn’t feel natural to me. It seems such an artificial restriction and that never amounts to a good thing. And that was one of more promising ones.
-   &lt;/p&gt;
-   &lt;p&gt;
-    I ran out of my own ideas long time ago. Any ideas you might have are therefore more than welcome.
-   &lt;/p&gt;
-  &lt;/div&gt;
- &lt;/body&gt;
-&lt;/html&gt;&lt;/p&gt;</summary></entry><entry><title>CSS pixels are a relative unit</title><link href="http://markos.gaivo.net/articles/css-pixels-are-a-relative-unit.html" rel="alternate"></link><updated>2006-02-12T17:17:00+01:00</updated><author><name>markos</name></author><id>tag:markos.gaivo.net,2006-02-12:articles/css-pixels-are-a-relative-unit.html</id><summary type="html">&lt;p&gt;&lt;html&gt;
- &lt;body&gt;
-  &lt;div&gt;
-   &lt;p&gt;
-    The pixel debate
-    &lt;a href="http://www.456bereastreet.com/archive/200602/setting_font_size_in_pixels/" title="Setting font size in pixels"&gt;
-     is back
-    &lt;/a&gt;
-    . Internet explorer out of the box doesn’t permit resizing text measured in pixels, which at the same time is the only reliable way of setting dimensions that produces same result everywhere.
-   &lt;/p&gt;
-   &lt;p&gt;
-    The crux of the matter is simply who should have the final word in how the page is displayed, designers or users?
-   &lt;/p&gt;
-   &lt;p&gt;
-    Personally I think it should be users. After all, it’s about them and if there’s a way for them to make their experience more pleasant or useful without degrading it for others, why shouldn’t they be allowed to do so? Good designs serve, not command.
-   &lt;/p&gt;
-   &lt;p&gt;
-    However, I find it more interesting how many people have no idea what px unit actually
-    &lt;a href="http://www.w3.org/TR/CSS21/syndata.html#length-units" title="Definitions of relative length units"&gt;
-     means
-    &lt;/a&gt;
-    . Pixels, as defined by W3C, are not the same as pixels used to define graphic resolution of a computer, even if they usually seem to be.
-   &lt;/p&gt;
-   &lt;p&gt;
-    For example, if we ever happen to get high-density monitors with say 300 dpi pixel density instead of these days common 96 dpi, then a 15″ display would have a graphic resolution of 3600×2700 dots, but it would still have only 1152×864 pixels in CSS model. Therefore one web pixel would be represented with around 9 graphic pixels.
-   &lt;/p&gt;
-   &lt;p&gt;
-    Well, that’s the theory. In practice there’s a lot of cheating. Monitors have various sizes which are only an approximation of the stated one (15″, 17″ etc.). Operating systems try to pay attention to pixel density, but often don’t or can’t. And so on.
-   &lt;/p&gt;
-   &lt;p&gt;
-    The result of this is that size of displayed text and images is device dependent even when in theory it shouldn’t be. So the only way is also good only up to a point.
-   &lt;/p&gt;
-  &lt;/div&gt;
- &lt;/body&gt;
-&lt;/html&gt;&lt;/p&gt;</summary></entry><entry><title>Ease of use and productivity dichotomy</title><link href="http://markos.gaivo.net/articles/ease-of-use-and-productivity-dichotomy.html" rel="alternate"></link><updated>2006-01-25T17:23:00+01:00</updated><author><name>markos</name></author><id>tag:markos.gaivo.net,2006-01-25:articles/ease-of-use-and-productivity-dichotomy.html</id><summary type="html">&lt;p&gt;&lt;html&gt;
- &lt;body&gt;
-  &lt;div&gt;
-   &lt;p&gt;
-    When I was in Stockholm, I listened to a podcast of Bran Ferren’s talk at Web 2.0 conference. He made a case that knowledge workers need tools and user interfaces that put increased productivity as a goal above ease of use or learn. It’s well worth
-    &lt;a href="http://www.itconversations.com/shows/detail852.html"&gt;
-     listening to
-    &lt;/a&gt;
-    , if you haven’t heard it yet.
-   &lt;/p&gt;
-   &lt;p&gt;
-    The point is certainly valid even if mouse and other stuff Doug Engelbart invented were created with this same goal in mind. I disagree partially with iPod example, since I believe easy of use is what made iPod wildly popular instead of something like Creative Zen (which still can’t get real traction in the market), but there’s a need and opportunity for tools that make us more productive. I’d count Unix command line between them, which makes me more productive even if it’s not easy to use and even less to learn. There’s a problem though.
-   &lt;/p&gt;
-   &lt;p&gt;
-    Nobody is a knowledge worker in every field.
-   &lt;/p&gt;
-   &lt;p&gt;
-    Or as Alan Cooper
-    &lt;a href="http://www.amazon.com/gp/product/0672316498/ref=ase_codinghorror-20/102-1133436-5350547?s=books&amp;amp;v=glance&amp;amp;n=283155&amp;amp;tagActionCode=codinghorror-20"&gt;
-     said
-    &lt;/a&gt;
-    , we are perpetual intermediates who most of the time want to learn only as much as needed but not more. We can be experts only in very few things. We have neither the time nor inclination to become proficient with everything we do and do we have the tools to make other endeavors as painless as possible?
-   &lt;/p&gt;
-   &lt;p&gt;
-    I think when talking about gadgets and computers the answer is generally no.
-   &lt;/p&gt;
-   &lt;p&gt;
-    The problem lies not in keyboard and mouse. They are general purpose tools (like hammer) widely used mainly because computers are also general purpose tools and most of us use them as such. When specific needs become crystalized enough, we usually get input devices to match, like tablets for designers or joysticks for gamers. I’m sure more could be done and Bran seems to be the kind of person who will do it, but I don’t think it’s where computers fail us.
-   &lt;/p&gt;
-   &lt;p&gt;
-    I think it’s the software, which should be either fun and easy to use or make us more productive, preferably both but by large does neither of those.
-   &lt;/p&gt;
-   &lt;p&gt;
-    I’ll be the first to admit that iPods are rare and you’ll often find (as with Unix CLI) that you have to choose between making a more productive tool and making more fun one. But not being a beginner is not a permission to abuse me and most software would benefit if it dropped the pretense of being an expert tool and rather worked really hard on being easy to manipulate. As a rule of thumb, if you can’t charge at least 300$ for it, it’s not an expert tool.
-   &lt;/p&gt;
-   &lt;p&gt;
-    So, this is what we are tying to do with
-    &lt;a href="http://www.marela.si"&gt;
-     Marela
-    &lt;/a&gt;
-    ,  it’s our mission. We have and will continue to work on making life in digital age enjoyable. It’s big and ambitious enough goal to keep us busy for a while.
-   &lt;/p&gt;
-   &lt;p&gt;
-    And I still think mouse was just a brilliant invention.
-   &lt;/p&gt;
-  &lt;/div&gt;
- &lt;/body&gt;
-&lt;/html&gt;&lt;/p&gt;</summary></entry><entry><title>Structured blogging</title><link href="http://markos.gaivo.net/articles/structured-blogging.html" rel="alternate"></link><updated>2005-12-22T14:50:00+01:00</updated><author><name>markos</name></author><id>tag:markos.gaivo.net,2005-12-22:articles/structured-blogging.html</id><summary type="html">&lt;p&gt;&lt;html&gt;
- &lt;body&gt;
-  &lt;div&gt;
-   &lt;p&gt;
-    I first heard of structured blogging a few days ago and at first I thought it was an excellent idea. I mean which geek wouldn’t like its promise?
-   &lt;/p&gt;
-   &lt;p&gt;
-    However, the more I think about it, the more skeptical I am. I’m not the first and other people said it better than I could. Shelley Powers
-    &lt;a href="http://weblog.burningbird.net/2005/12/19/aint-no-cobwebs-here/"&gt;
-     questions
-    &lt;/a&gt;
-    the need for such a thing since modern publishing tools should provide more sensible, tailor-made solution. I may be down on WordPress, but this is something it gets right today. Paul Kedrosky
-    &lt;a href="http://paul.kedrosky.com/archives/002215.html"&gt;
-     sees
-    &lt;/a&gt;
-    user laziness as a problem, which might limit SB to enterprise as
-    &lt;a href="http://gilbane.com/blog/archives/2005/12/post.html"&gt;
-     pointed out
-    &lt;/a&gt;
-    by Frank Gilbane.
-   &lt;/p&gt;
-   &lt;p&gt;
-    I basically agree with all of them. First I don’t like the current implementation with embedded x-subnode format. I’m trying to move stuff like CSS and Javascript out of the document and it seems odd that I would now litter the same document with different kind of inline data. Contained blocks are a different representation of content and not a script, so it smells of tag abuse as well.
-   &lt;/p&gt;
-   &lt;p&gt;
-    I like microformats, but that’s because I find it clever how you can use names to add meaning and structure to what you already have. It can be a cheap way to add value to existing data. In my opinion they are most suitable for pages that need multiple formats to describe contained data and each of them represents a fairly small chunk of the whole page.
-   &lt;/p&gt;
-   &lt;p&gt;
-    Then there’s a question how you can get this data. I think there are 4 ways you get data from users:
-   &lt;/p&gt;
-   &lt;ol&gt;
-    &lt;li&gt;
-     it’s fun for them to do so
-    &lt;/li&gt;
-    &lt;li&gt;
-     benefits to them by far outweigh the pain of providing the data
-    &lt;/li&gt;
-    &lt;li&gt;
-     by accident
-    &lt;/li&gt;
-    &lt;li&gt;
-     it’s forced upon them
-    &lt;/li&gt;
-   &lt;/ol&gt;
-   &lt;p&gt;
-    It certainly isn’t fun. It’s difficult enough for me to select categories in which to put a certain post. Often they don’t fit in just one, so which interface would I have to use then?
-   &lt;/p&gt;
-   &lt;p&gt;
-    And why? There are no immediate benefits or at least not any obvious ones. That strikes option number two.
-   &lt;/p&gt;
-   &lt;p&gt;
-    By accident simply means what we already have. Google seems to be good at getting information out of unstructured data, but it’s certainly not what SB was supposed to be. Strike number three.
-   &lt;/p&gt;
-   &lt;p&gt;
-    So what we are left with is environment with little choice, more often referred to as a job. It certainly not a novel idea, although it probably hasn’t been applied to blogs yet. I’m not all that convinced it will be, but I’m willing to be surprised.
-   &lt;/p&gt;
-   &lt;p&gt;
-    Conclusion? No, thanks (for now).
-   &lt;/p&gt;
-  &lt;/div&gt;
- &lt;/body&gt;
-&lt;/html&gt;&lt;/p&gt;</summary></entry><entry><title>First look at upcoming WordPress 2.0</title><link href="http://markos.gaivo.net/articles/first-look-at-upcoming-wordpress-20.html" rel="alternate"></link><updated>2005-12-20T16:56:00+01:00</updated><author><name>markos</name></author><id>tag:markos.gaivo.net,2005-12-20:articles/first-look-at-upcoming-wordpress-20.html</id><summary type="html">&lt;p&gt;&lt;html&gt;
- &lt;body&gt;
-  &lt;div&gt;
-   &lt;p&gt;
-    A while ago I wrote a
-    &lt;a href="wordpress-sucks.html"&gt;
-     post
-    &lt;/a&gt;
-    berating
-    &lt;a href="http://www.wordpress.org"&gt;
-     WordPress
-    &lt;/a&gt;
-    UI that got more attention than I wanted. I still stand behind my words, but I’d rather be known for something else.
-   &lt;/p&gt;
-   &lt;p&gt;
-    Hearing that new WordPress is around the corner, I was eager to write something more positive. Thanks to
-    &lt;a href="http://weblog.burningbird.net/" title="Shelley's blog"&gt;
-     Shelley
-    &lt;/a&gt;
-    , I got a chance to test new WordPress (WP from now on) and see for myself improvements they made.
-   &lt;/p&gt;
-   &lt;p&gt;
-    First the good news. WP provides a new WYSIWYG editor (
-    &lt;a href="http://tinymce.moxiecode.com/"&gt;
-     tinyMCE
-    &lt;/a&gt;
-    ) that certainly makes editing easier. It does just what you’d expect it to. I also like improved post preview, which uses
-    &lt;em&gt;
-     iframe
-    &lt;/em&gt;
-    to show post in real environment, using theme of the blog. This has been something that really bothered me in current version, since it makes post preview barely usable. Previews are also available for themes, so you can see what blog should look like before you apply the theme.
-   &lt;/p&gt;
-   &lt;p&gt;
-    WP has been “ajaxified??? and mostly for the better. For example you can add a new category while editing post. UI has been somewhat simplified by arranging it in boxes that can be closed or opened according to user’s need. User can also reorder them and since WP remembers their position and state, it’s a fairly effective way to customize UI to personal needs. Nice. I wish reordering was extended to other lists (e.g. links), but for all I know, this might be fixed by the time of 2.0 release.
-   &lt;/p&gt;
-   &lt;p&gt;
-    However, my old complaints are still valid. While posts can be edited by other people of appropriate level, this hasn’t been extended to pages. Not a week passes by in which I wouldn’t bump against this limitation. Theme editor still gives you the same stupid choice between security and usefulness.  User interface is more flexible, but still largely the same and often overloaded. There’s only so much that can be achieved by hiding stuff in boxes.
-   &lt;/p&gt;
-   &lt;p&gt;
-    Nevertheless, WP 2.0 is a big step forward. Even bigger under the hood according to what I hear, but since I can’t be made to care about PHP, it’s not all that relevant to me. I certainly don’t think it sucks anymore, but I still think it has a far way to go before it will truly be a friendly tool for everyone.
-   &lt;/p&gt;
-  &lt;/div&gt;
- &lt;/body&gt;
-&lt;/html&gt;&lt;/p&gt;</summary></entry><entry><title>Google's bias</title><link href="http://markos.gaivo.net/articles/googles-bias.html" rel="alternate"></link><updated>2005-12-10T18:29:00+01:00</updated><author><name>markos</name></author><id>tag:markos.gaivo.net,2005-12-10:articles/googles-bias.html</id><summary type="html">&lt;p&gt;&lt;html&gt;
- &lt;body&gt;
-  &lt;div&gt;
-   &lt;p&gt;
-    Have you ever asked yourself, what’s the purpose of Google’s long living cookie?
-   &lt;/p&gt;
-   &lt;p&gt;
-    Well, others
-    &lt;a href="http://www.google.com/search?q=google+cookie"&gt;
-     did
-    &lt;/a&gt;
-    . I’m not quite as paranoid as some of them, but judging by recent experience it’s definitely used for more than just preferences. I was helping my wife and was looking for term
-    &lt;a href="http://www.google.com/search?q=conventions+scope"&gt;
-     “conventions and scope”
-    &lt;/a&gt;
-    , when I’ve noticed that I get completely different answers than she does.
-   &lt;/p&gt;
-   &lt;p&gt;
-    I don’t know about you, but my results are obviously aimed at programmers unlike those of my wife. Google therefore clearly uses their cookie to learn from stuff I searched for about stuff I might in future.
-   &lt;/p&gt;
-   &lt;p&gt;
-    I have no problem with this provided my profile is anonymous. My problem with Google was different. How do I get rid of its bias that normally works in my favor, but every now and then doesn’t?
-   &lt;/p&gt;
-   &lt;p&gt;
-    I know I can turn cookie support off in my browser and that would solve my problem. However, I’m doubtful that many users know this. Should web application offer a way to turn off such bias and if yes, how? Should they reveal it in the first place?
-   &lt;/p&gt;
-   &lt;p&gt;
-    I think they should, but I understand it can be difficult to do so without looking intrusive. That’s why they usually bury it in documents that nobody reads, like terms of use or privacy statements.
-   &lt;/p&gt;
-  &lt;/div&gt;
- &lt;/body&gt;
-&lt;/html&gt;&lt;/p&gt;</summary></entry></feed>
+<feed xmlns="http://www.w3.org/2005/Atom"><title>A notch above a monkey</title><link href="http://markos.gaivo.net/articles/" rel="alternate"></link><link href="/articles/feeds/ui-web.atom.xml" rel="self"></link><id>http://markos.gaivo.net/articles/</id><updated>2008-10-28T08:59:00+01:00</updated><entry><title>Tweaking pages</title><link href="http://markos.gaivo.net/articles/tweaking-pages.html" rel="alternate"></link><updated>2008-10-28T08:59:00+01:00</updated><author><name>markos</name></author><id>tag:markos.gaivo.net,2008-10-28:articles/tweaking-pages.html</id><summary type="html">&lt;div&gt;
+ &lt;p&gt;
+  I recently came back from Berlin, where I publicly asked
+  &lt;a href="http://john.jubjubs.net/" title="John's homepage"&gt;
+   John Lily
+  &lt;/a&gt;
+  why haven’t they integrated
+  &lt;a class="zem_slink" href="http://www.greasespot.net/" rel="homepage" title="Greasemonkey"&gt;
+   Greasemonkey
+  &lt;/a&gt;
+  into
+  &lt;a class="zem_slink" href="http://www.mozilla.com/en-US/firefox/" rel="homepage" title="Firefox"&gt;
+   Firefox
+  &lt;/a&gt;
+  . Wrong question can hardly lead to right answer. What I really wanted to know was:
+ &lt;/p&gt;
+ &lt;p&gt;
+  &lt;em&gt;
+   “Why doesn’t
+   &lt;a class="zem_slink" href="http://mozilla.com" rel="homepage" title="Mozilla"&gt;
+    Mozilla
+   &lt;/a&gt;
+   integrate Greasemonkey-LIKE functionality in a browser?”
+  &lt;/em&gt;
+ &lt;/p&gt;
+ &lt;p&gt;
+  Browser is at the farthest reach of web creators. It’s them who decide how a page will look like when it gets loaded and what visitors will be able to do with it. User actions that were not anticipated by page designers are limited to printing a page, tweaking its display a bit with user style sheets, seeing its source and copying text elsewhere.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Browser is also an application that is loaded on someone’s computer and belongs to him, as much as software can belong to somebody in EULA-infested world. Not every browser is equal, but pretty much all of them limit what you can do with page (beyond its creators intentions)  to above actions. The real question than for me becomes:
+ &lt;/p&gt;
+ &lt;p&gt;
+  &lt;em&gt;
+   “To whom does a browser belong to?”
+  &lt;/em&gt;
+ &lt;/p&gt;
+ &lt;p&gt;
+  One reason why I love Greasemonkey is that it enabled me to fix and change pages that I find lacking. Not every page has navigation where it should be and lots of them display parts of text in illegibly small letters. It can also help me plug different services together. It is indeed geeky, as Brady Forrest observed, but useful implementation doesn’t need to be. I find
+  &lt;a href="http://platypus.mozdev.org/"&gt;
+   Platypus extension
+  &lt;/a&gt;
+  a good first step to how a browser could further empower its users in customizing pages even further to their needs.
+ &lt;/p&gt;
+ &lt;p&gt;
+  I thought about downsides to this since Thursday and I’m failing to find anything substantial.
+ &lt;/p&gt;
+ &lt;div class="zemanta-pixie"&gt;
+  &lt;a class="zemanta-pixie-a" href="http://reblog.zemanta.com/zemified/371a642d-6da1-4089-8b93-ef701f1cdb08/" title="Zemified by Zemanta"&gt;
+   &lt;img alt="Reblog this post [with Zemanta]" class="zemanta-pixie-img" src="http://img.zemanta.com/reblog_e.png?x-id=371a642d-6da1-4089-8b93-ef701f1cdb08"/&gt;
+  &lt;/a&gt;
+ &lt;/div&gt;
+&lt;/div&gt;</summary><category term="Mozilla"></category><category term="Firefox"></category><category term="Web page"></category><category term="greasemonkey"></category><category term="browser"></category></entry><entry><title>Robot Exclusion Profile</title><link href="http://markos.gaivo.net/articles/robot-exclusion-profile.html" rel="alternate"></link><updated>2006-04-13T22:54:00+02:00</updated><author><name>markos</name></author><id>tag:markos.gaivo.net,2006-04-13:articles/robot-exclusion-profile.html</id><summary type="html">&lt;div&gt;
+ &lt;p&gt;
+  &lt;strong&gt;
+   Error:
+  &lt;/strong&gt;
+  No such file found! Please make sure
+  &lt;code&gt;
+   http://markos.gaivo.net/blog/code/robots-exclusion.txt
+  &lt;/code&gt;
+  exists.
+ &lt;/p&gt;
+&lt;/div&gt;</summary></entry><entry><title>Google ignore</title><link href="http://markos.gaivo.net/articles/google-ignore.html" rel="alternate"></link><updated>2006-04-10T13:59:00+02:00</updated><author><name>markos</name></author><id>tag:markos.gaivo.net,2006-04-10:articles/google-ignore.html</id><summary type="html">&lt;div&gt;
+ &lt;p&gt;
+  A few days ago I came to
+  &lt;a href="javascript-enabled-spiders.html"&gt;
+   recognize
+  &lt;/a&gt;
+  that email hiding technique I use won’t work anymore. However I still think it would be a great idea if I could remove a part of a page from search index, even if it won’t help me hide from spammers in the long run.
+ &lt;/p&gt;
+ &lt;p&gt;
+  What I’d really like is to specify which parts of a page are not its content and can be safely ignored by search engines. Ignoring it would also mean absence of those parts from search indexes. Spiders could still follow links inside those parts, because I can still use
+  &lt;em&gt;
+   robots.txt
+  &lt;/em&gt;
+  file if I really want to block their traversal. In effect, I’d like a more fine-grained approach to blocking, which doesn’t force the layout of my pages to even slightly favor spiders over people.
+ &lt;/p&gt;
+ &lt;p&gt;
+  The way I imagine it would work is by simply applying a class name to the parts of the page I’d want shielded. I don’t care much (yet) if such class name would need to be specified in robots file or if it would be some name achieved by a web consensus. As far as I can see both approaches would work equally well.
+ &lt;/p&gt;
+ &lt;p&gt;
+  The benefit of this would also be better search results. Every now and then I follow a search hit that fit my query because of a combination of site content and its navigation. Judging by my logs I’m not the only deceived soul. So, wouldn’t it be nice to be able to tell which parts are content and which aren’t?
+ &lt;/p&gt;
+&lt;/div&gt;</summary></entry><entry><title>Simple List Extensions</title><link href="http://markos.gaivo.net/articles/simple-list-extensions.html" rel="alternate"></link><updated>2006-04-09T14:05:00+02:00</updated><author><name>markos</name></author><id>tag:markos.gaivo.net,2006-04-09:articles/simple-list-extensions.html</id><summary type="html">&lt;div&gt;
+ &lt;p&gt;
+  I’m not sure how I missed the original announcement of Simple List Extensions (SLE) for feeds, but better late than never.
+ &lt;/p&gt;
+ &lt;p&gt;
+  SLE is a very simple specification to extend feeds syntax to better support some common scenarios that weren’t covered with original specifications of RSS and Atom. Previously there was no way to tell feed readers/aggregators to display feed items in fixed order (e.g. feed with most popular stories of the day) or delete items not present in feed anymore (e.g. auction site feed with items matching a query).
+ &lt;/p&gt;
+ &lt;p&gt;
+  SLE also adds support for grouping and filtering of feed items, which might not be very useful with you average 10-item feed, but will be, if feeds will indeed become a general mechanism for transporting data and not only a tool to highlight most recent bunch of updates. In any case, you can read a very short
+  &lt;a href="http://msdn.microsoft.com/xml/rss/sle/"&gt;
+   specification
+  &lt;/a&gt;
+  or visit
+  &lt;a href="http://blogs.msdn.com/ie/archive/2006/03/30/565222.aspx"&gt;
+   latest announcement
+  &lt;/a&gt;
+  which includes more explanatory links to why and how they can and already are used.
+ &lt;/p&gt;
+ &lt;p&gt;
+  By the way, I’m not sure if any reader apart from beta of IE7 already supports SLE, but I expect that most of them will soon. There’s little reason not to.
+ &lt;/p&gt;
+&lt;/div&gt;</summary></entry><entry><title>Localized interfaces in globalized world</title><link href="http://markos.gaivo.net/articles/localized-interfaces-in-globalized-world.html" rel="alternate"></link><updated>2006-03-24T12:03:00+01:00</updated><author><name>markos</name></author><id>tag:markos.gaivo.net,2006-03-24:articles/localized-interfaces-in-globalized-world.html</id><summary type="html">&lt;div&gt;
+ &lt;p&gt;
+  There’s an issue I’ve been struggling with for months now. Well, more than a year really. We built Marela so it would be used in Slovenia by people preferring Slovene language over the others. It’s not the only distinguishing point from similar services found on the web, but it’s an important one.
+ &lt;/p&gt;
+ &lt;p&gt;
+  However, Internet and low fares airlines certainly shrank our planet and it’s not uncommon for many of us to have friends who don’t speak our language but with whom we’d still like to share parts of our lives and our creations. And this is a problem for Marela, which was (also) built to fill this need of sharing.
+ &lt;/p&gt;
+ &lt;p&gt;
+  It’s simply not possible to use Marela in any language but Slovene.
+ &lt;/p&gt;
+ &lt;p&gt;
+  We decided to do this to avoid Orkut syndrome, where brazilian users (legitimately) subverted  a global service into a mostly Portuguese speaking one. We didn’t want to risk making our site unfriendly to Slovene-only speaking members by creating an environment in which a large portion of our community neither could or would speak Slovene.
+ &lt;/p&gt;
+ &lt;p&gt;
+  I believe our interfaces are mostly self-explanatory and easy to use, but it’s difficult to tell how challenging they are for those who don’t speak their language. Judging by personal experience in using a dutch Windows 95 years ago, I’d say they are probably not easy enough.
+ &lt;/p&gt;
+ &lt;p&gt;
+  So, what can be done?
+ &lt;/p&gt;
+ &lt;p&gt;
+  There was an idea to enforce Slovene only for logged in users, but this can work only as long as unregistered users are not allowed to contribute and the idea itself doesn’t feel natural to me. It seems such an artificial restriction and that never amounts to a good thing. And that was one of more promising ones.
+ &lt;/p&gt;
+ &lt;p&gt;
+  I ran out of my own ideas long time ago. Any ideas you might have are therefore more than welcome.
+ &lt;/p&gt;
+&lt;/div&gt;</summary></entry><entry><title>CSS pixels are a relative unit</title><link href="http://markos.gaivo.net/articles/css-pixels-are-a-relative-unit.html" rel="alternate"></link><updated>2006-02-12T17:17:00+01:00</updated><author><name>markos</name></author><id>tag:markos.gaivo.net,2006-02-12:articles/css-pixels-are-a-relative-unit.html</id><summary type="html">&lt;div&gt;
+ &lt;p&gt;
+  The pixel debate
+  &lt;a href="http://www.456bereastreet.com/archive/200602/setting_font_size_in_pixels/" title="Setting font size in pixels"&gt;
+   is back
+  &lt;/a&gt;
+  . Internet explorer out of the box doesn’t permit resizing text measured in pixels, which at the same time is the only reliable way of setting dimensions that produces same result everywhere.
+ &lt;/p&gt;
+ &lt;p&gt;
+  The crux of the matter is simply who should have the final word in how the page is displayed, designers or users?
+ &lt;/p&gt;
+ &lt;p&gt;
+  Personally I think it should be users. After all, it’s about them and if there’s a way for them to make their experience more pleasant or useful without degrading it for others, why shouldn’t they be allowed to do so? Good designs serve, not command.
+ &lt;/p&gt;
+ &lt;p&gt;
+  However, I find it more interesting how many people have no idea what px unit actually
+  &lt;a href="http://www.w3.org/TR/CSS21/syndata.html#length-units" title="Definitions of relative length units"&gt;
+   means
+  &lt;/a&gt;
+  . Pixels, as defined by W3C, are not the same as pixels used to define graphic resolution of a computer, even if they usually seem to be.
+ &lt;/p&gt;
+ &lt;p&gt;
+  For example, if we ever happen to get high-density monitors with say 300 dpi pixel density instead of these days common 96 dpi, then a 15″ display would have a graphic resolution of 3600×2700 dots, but it would still have only 1152×864 pixels in CSS model. Therefore one web pixel would be represented with around 9 graphic pixels.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Well, that’s the theory. In practice there’s a lot of cheating. Monitors have various sizes which are only an approximation of the stated one (15″, 17″ etc.). Operating systems try to pay attention to pixel density, but often don’t or can’t. And so on.
+ &lt;/p&gt;
+ &lt;p&gt;
+  The result of this is that size of displayed text and images is device dependent even when in theory it shouldn’t be. So the only way is also good only up to a point.
+ &lt;/p&gt;
+&lt;/div&gt;</summary></entry><entry><title>Ease of use and productivity dichotomy</title><link href="http://markos.gaivo.net/articles/ease-of-use-and-productivity-dichotomy.html" rel="alternate"></link><updated>2006-01-25T17:23:00+01:00</updated><author><name>markos</name></author><id>tag:markos.gaivo.net,2006-01-25:articles/ease-of-use-and-productivity-dichotomy.html</id><summary type="html">&lt;div&gt;
+ &lt;p&gt;
+  When I was in Stockholm, I listened to a podcast of Bran Ferren’s talk at Web 2.0 conference. He made a case that knowledge workers need tools and user interfaces that put increased productivity as a goal above ease of use or learn. It’s well worth
+  &lt;a href="http://www.itconversations.com/shows/detail852.html"&gt;
+   listening to
+  &lt;/a&gt;
+  , if you haven’t heard it yet.
+ &lt;/p&gt;
+ &lt;p&gt;
+  The point is certainly valid even if mouse and other stuff Doug Engelbart invented were created with this same goal in mind. I disagree partially with iPod example, since I believe easy of use is what made iPod wildly popular instead of something like Creative Zen (which still can’t get real traction in the market), but there’s a need and opportunity for tools that make us more productive. I’d count Unix command line between them, which makes me more productive even if it’s not easy to use and even less to learn. There’s a problem though.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Nobody is a knowledge worker in every field.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Or as Alan Cooper
+  &lt;a href="http://www.amazon.com/gp/product/0672316498/ref=ase_codinghorror-20/102-1133436-5350547?s=books&amp;amp;v=glance&amp;amp;n=283155&amp;amp;tagActionCode=codinghorror-20"&gt;
+   said
+  &lt;/a&gt;
+  , we are perpetual intermediates who most of the time want to learn only as much as needed but not more. We can be experts only in very few things. We have neither the time nor inclination to become proficient with everything we do and do we have the tools to make other endeavors as painless as possible?
+ &lt;/p&gt;
+ &lt;p&gt;
+  I think when talking about gadgets and computers the answer is generally no.
+ &lt;/p&gt;
+ &lt;p&gt;
+  The problem lies not in keyboard and mouse. They are general purpose tools (like hammer) widely used mainly because computers are also general purpose tools and most of us use them as such. When specific needs become crystalized enough, we usually get input devices to match, like tablets for designers or joysticks for gamers. I’m sure more could be done and Bran seems to be the kind of person who will do it, but I don’t think it’s where computers fail us.
+ &lt;/p&gt;
+ &lt;p&gt;
+  I think it’s the software, which should be either fun and easy to use or make us more productive, preferably both but by large does neither of those.
+ &lt;/p&gt;
+ &lt;p&gt;
+  I’ll be the first to admit that iPods are rare and you’ll often find (as with Unix CLI) that you have to choose between making a more productive tool and making more fun one. But not being a beginner is not a permission to abuse me and most software would benefit if it dropped the pretense of being an expert tool and rather worked really hard on being easy to manipulate. As a rule of thumb, if you can’t charge at least 300$ for it, it’s not an expert tool.
+ &lt;/p&gt;
+ &lt;p&gt;
+  So, this is what we are tying to do with
+  &lt;a href="http://www.marela.si"&gt;
+   Marela
+  &lt;/a&gt;
+  ,  it’s our mission. We have and will continue to work on making life in digital age enjoyable. It’s big and ambitious enough goal to keep us busy for a while.
+ &lt;/p&gt;
+ &lt;p&gt;
+  And I still think mouse was just a brilliant invention.
+ &lt;/p&gt;
+&lt;/div&gt;</summary></entry><entry><title>Structured blogging</title><link href="http://markos.gaivo.net/articles/structured-blogging.html" rel="alternate"></link><updated>2005-12-22T14:50:00+01:00</updated><author><name>markos</name></author><id>tag:markos.gaivo.net,2005-12-22:articles/structured-blogging.html</id><summary type="html">&lt;div&gt;
+ &lt;p&gt;
+  I first heard of structured blogging a few days ago and at first I thought it was an excellent idea. I mean which geek wouldn’t like its promise?
+ &lt;/p&gt;
+ &lt;p&gt;
+  However, the more I think about it, the more skeptical I am. I’m not the first and other people said it better than I could. Shelley Powers
+  &lt;a href="http://weblog.burningbird.net/2005/12/19/aint-no-cobwebs-here/"&gt;
+   questions
+  &lt;/a&gt;
+  the need for such a thing since modern publishing tools should provide more sensible, tailor-made solution. I may be down on WordPress, but this is something it gets right today. Paul Kedrosky
+  &lt;a href="http://paul.kedrosky.com/archives/002215.html"&gt;
+   sees
+  &lt;/a&gt;
+  user laziness as a problem, which might limit SB to enterprise as
+  &lt;a href="http://gilbane.com/blog/archives/2005/12/post.html"&gt;
+   pointed out
+  &lt;/a&gt;
+  by Frank Gilbane.
+ &lt;/p&gt;
+ &lt;p&gt;
+  I basically agree with all of them. First I don’t like the current implementation with embedded x-subnode format. I’m trying to move stuff like CSS and Javascript out of the document and it seems odd that I would now litter the same document with different kind of inline data. Contained blocks are a different representation of content and not a script, so it smells of tag abuse as well.
+ &lt;/p&gt;
+ &lt;p&gt;
+  I like microformats, but that’s because I find it clever how you can use names to add meaning and structure to what you already have. It can be a cheap way to add value to existing data. In my opinion they are most suitable for pages that need multiple formats to describe contained data and each of them represents a fairly small chunk of the whole page.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Then there’s a question how you can get this data. I think there are 4 ways you get data from users:
+ &lt;/p&gt;
+ &lt;ol&gt;
+  &lt;li&gt;
+   it’s fun for them to do so
+  &lt;/li&gt;
+  &lt;li&gt;
+   benefits to them by far outweigh the pain of providing the data
+  &lt;/li&gt;
+  &lt;li&gt;
+   by accident
+  &lt;/li&gt;
+  &lt;li&gt;
+   it’s forced upon them
+  &lt;/li&gt;
+ &lt;/ol&gt;
+ &lt;p&gt;
+  It certainly isn’t fun. It’s difficult enough for me to select categories in which to put a certain post. Often they don’t fit in just one, so which interface would I have to use then?
+ &lt;/p&gt;
+ &lt;p&gt;
+  And why? There are no immediate benefits or at least not any obvious ones. That strikes option number two.
+ &lt;/p&gt;
+ &lt;p&gt;
+  By accident simply means what we already have. Google seems to be good at getting information out of unstructured data, but it’s certainly not what SB was supposed to be. Strike number three.
+ &lt;/p&gt;
+ &lt;p&gt;
+  So what we are left with is environment with little choice, more often referred to as a job. It certainly not a novel idea, although it probably hasn’t been applied to blogs yet. I’m not all that convinced it will be, but I’m willing to be surprised.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Conclusion? No, thanks (for now).
+ &lt;/p&gt;
+&lt;/div&gt;</summary></entry><entry><title>First look at upcoming WordPress 2.0</title><link href="http://markos.gaivo.net/articles/first-look-at-upcoming-wordpress-20.html" rel="alternate"></link><updated>2005-12-20T16:56:00+01:00</updated><author><name>markos</name></author><id>tag:markos.gaivo.net,2005-12-20:articles/first-look-at-upcoming-wordpress-20.html</id><summary type="html">&lt;div&gt;
+ &lt;p&gt;
+  A while ago I wrote a
+  &lt;a href="wordpress-sucks.html"&gt;
+   post
+  &lt;/a&gt;
+  berating
+  &lt;a href="http://www.wordpress.org"&gt;
+   WordPress
+  &lt;/a&gt;
+  UI that got more attention than I wanted. I still stand behind my words, but I’d rather be known for something else.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Hearing that new WordPress is around the corner, I was eager to write something more positive. Thanks to
+  &lt;a href="http://weblog.burningbird.net/" title="Shelley's blog"&gt;
+   Shelley
+  &lt;/a&gt;
+  , I got a chance to test new WordPress (WP from now on) and see for myself improvements they made.
+ &lt;/p&gt;
+ &lt;p&gt;
+  First the good news. WP provides a new WYSIWYG editor (
+  &lt;a href="http://tinymce.moxiecode.com/"&gt;
+   tinyMCE
+  &lt;/a&gt;
+  ) that certainly makes editing easier. It does just what you’d expect it to. I also like improved post preview, which uses
+  &lt;em&gt;
+   iframe
+  &lt;/em&gt;
+  to show post in real environment, using theme of the blog. This has been something that really bothered me in current version, since it makes post preview barely usable. Previews are also available for themes, so you can see what blog should look like before you apply the theme.
+ &lt;/p&gt;
+ &lt;p&gt;
+  WP has been “ajaxified??? and mostly for the better. For example you can add a new category while editing post. UI has been somewhat simplified by arranging it in boxes that can be closed or opened according to user’s need. User can also reorder them and since WP remembers their position and state, it’s a fairly effective way to customize UI to personal needs. Nice. I wish reordering was extended to other lists (e.g. links), but for all I know, this might be fixed by the time of 2.0 release.
+ &lt;/p&gt;
+ &lt;p&gt;
+  However, my old complaints are still valid. While posts can be edited by other people of appropriate level, this hasn’t been extended to pages. Not a week passes by in which I wouldn’t bump against this limitation. Theme editor still gives you the same stupid choice between security and usefulness.  User interface is more flexible, but still largely the same and often overloaded. There’s only so much that can be achieved by hiding stuff in boxes.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Nevertheless, WP 2.0 is a big step forward. Even bigger under the hood according to what I hear, but since I can’t be made to care about PHP, it’s not all that relevant to me. I certainly don’t think it sucks anymore, but I still think it has a far way to go before it will truly be a friendly tool for everyone.
+ &lt;/p&gt;
+&lt;/div&gt;</summary></entry><entry><title>Google's bias</title><link href="http://markos.gaivo.net/articles/googles-bias.html" rel="alternate"></link><updated>2005-12-10T18:29:00+01:00</updated><author><name>markos</name></author><id>tag:markos.gaivo.net,2005-12-10:articles/googles-bias.html</id><summary type="html">&lt;div&gt;
+ &lt;p&gt;
+  Have you ever asked yourself, what’s the purpose of Google’s long living cookie?
+ &lt;/p&gt;
+ &lt;p&gt;
+  Well, others
+  &lt;a href="http://www.google.com/search?q=google+cookie"&gt;
+   did
+  &lt;/a&gt;
+  . I’m not quite as paranoid as some of them, but judging by recent experience it’s definitely used for more than just preferences. I was helping my wife and was looking for term
+  &lt;a href="http://www.google.com/search?q=conventions+scope"&gt;
+   “conventions and scope”
+  &lt;/a&gt;
+  , when I’ve noticed that I get completely different answers than she does.
+ &lt;/p&gt;
+ &lt;p&gt;
+  I don’t know about you, but my results are obviously aimed at programmers unlike those of my wife. Google therefore clearly uses their cookie to learn from stuff I searched for about stuff I might in future.
+ &lt;/p&gt;
+ &lt;p&gt;
+  I have no problem with this provided my profile is anonymous. My problem with Google was different. How do I get rid of its bias that normally works in my favor, but every now and then doesn’t?
+ &lt;/p&gt;
+ &lt;p&gt;
+  I know I can turn cookie support off in my browser and that would solve my problem. However, I’m doubtful that many users know this. Should web application offer a way to turn off such bias and if yes, how? Should they reveal it in the first place?
+ &lt;/p&gt;
+ &lt;p&gt;
+  I think they should, but I understand it can be difficult to do so without looking intrusive. That’s why they usually bury it in documents that nobody reads, like terms of use or privacy statements.
+ &lt;/p&gt;
+&lt;/div&gt;</summary></entry></feed>

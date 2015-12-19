@@ -21,7 +21,7 @@
 
 <section class="envelope posts">
     <header>
-        <h1><a href="http://markos.gaivo.net/articles/">A notch above a monkey <strong></strong></a></h1>
+        <h1><a href="../">A notch above a monkey <strong></strong></a></h1>
     </header><!-- /#banner -->
 
     <nav class="colophon">
@@ -33,144 +33,132 @@
     </nav>
 
         <article class="hentry">
-            <h1 class="entry-title storytitle"><a href="http://markos.gaivo.net/articles/multitasking-with-post-requests-part-ii.html" rel="bookmark" title="Permalink to Multitasking with POST requests - part II">Multitasking with POST requests - part II</a></h1>
+            <h1 class="entry-title storytitle"><a href="../multitasking-with-post-requests-part-ii.html" rel="bookmark" title="Permalink to Multitasking with POST requests - part II">Multitasking with POST requests - part II</a></h1>
 
             <div class="entry-content post-text">
-                <p><html>
- <body>
-  <div>
-   <p>
-    Yesterday I wrote about my wish of making background
-    <em>
-     POST
-    </em>
-    requests that don’t get accidentally canceled. I wasn’t specific enough. You can create background
-    <em>
-     POST
-    </em>
-    requests just fine with
-    <em>
-     XMLHttpRequest
-    </em>
-    , but you can’t use such requests for file uploads, which is what I want.
-   </p>
-   <p>
-    My first try was to post
-    <em>
-     form
-    </em>
-    to
-    <em>
-     iframe
-    </em>
-    in a different window. This didn’t work because browsers pay attention to source of request. Activating new request in source window immediately cancels previous unfinished one.
-   </p>
-   <p>
-    A better idea was provided by always helpful
-    <a href="http://dojotoolkit.org/" title="Dojo toolkit">
-     dojo
-    </a>
-    developers. Clone
-    <em>
-     form
-    </em>
-    to progress window and submit it from there. This one works great in Firefox, but hardly anywhere else. It certainly doesn’t work in IE, since IE is very picky about what you do with nodes created with
-    <em>
-     cloneNode
-    </em>
-    and you can’t clone form yourself, since it’s not possible to set the value of file upload elements.
-   </p>
-   <p>
-    Is this game over for unobtrusive file upload?
-   </p>
-   <p>
-    Not yet. There are still at least two posibilities, both with downsides, but one of them definitely works. You can open file upload form in new window and change that window to progress bar. It works and I use it occasionally, but it’s not nice if you care about accessibility. It’s something users can do now, if they want, by opening upload page in new tab or window.
-   </p>
-   <p>
-    The other, yet untried, possible solution would be to avoid cloning. Just rip the form out from original page, move it to status one and submit form there. Obvious problems with this one are that users lose information about what they’re uploading and that it can look confusing if not executed well.
-   </p>
-   <p>
-    I’ll try it anyway and will let you know how it goes.
-   </p>
-   <p>
-    Update: IE also dislikes ripping and moving.
-   </p>
-  </div>
- </body>
-</html></p>
+                <div>
+ <p>
+  Yesterday I wrote about my wish of making background
+  <em>
+   POST
+  </em>
+  requests that don’t get accidentally canceled. I wasn’t specific enough. You can create background
+  <em>
+   POST
+  </em>
+  requests just fine with
+  <em>
+   XMLHttpRequest
+  </em>
+  , but you can’t use such requests for file uploads, which is what I want.
+ </p>
+ <p>
+  My first try was to post
+  <em>
+   form
+  </em>
+  to
+  <em>
+   iframe
+  </em>
+  in a different window. This didn’t work because browsers pay attention to source of request. Activating new request in source window immediately cancels previous unfinished one.
+ </p>
+ <p>
+  A better idea was provided by always helpful
+  <a href="http://dojotoolkit.org/" title="Dojo toolkit">
+   dojo
+  </a>
+  developers. Clone
+  <em>
+   form
+  </em>
+  to progress window and submit it from there. This one works great in Firefox, but hardly anywhere else. It certainly doesn’t work in IE, since IE is very picky about what you do with nodes created with
+  <em>
+   cloneNode
+  </em>
+  and you can’t clone form yourself, since it’s not possible to set the value of file upload elements.
+ </p>
+ <p>
+  Is this game over for unobtrusive file upload?
+ </p>
+ <p>
+  Not yet. There are still at least two posibilities, both with downsides, but one of them definitely works. You can open file upload form in new window and change that window to progress bar. It works and I use it occasionally, but it’s not nice if you care about accessibility. It’s something users can do now, if they want, by opening upload page in new tab or window.
+ </p>
+ <p>
+  The other, yet untried, possible solution would be to avoid cloning. Just rip the form out from original page, move it to status one and submit form there. Obvious problems with this one are that users lose information about what they’re uploading and that it can look confusing if not executed well.
+ </p>
+ <p>
+  I’ll try it anyway and will let you know how it goes.
+ </p>
+ <p>
+  Update: IE also dislikes ripping and moving.
+ </p>
+</div>
             </div><!-- /.entry-content -->
 
             <footer class="post-metadata">
                 <ul>
                     <li>Published on <time datetime="2005-12-16T13:55:00+01:00">Fri 16 December 2005</time> </li>
-                    <li><a href="http://markos.gaivo.net/articles/multitasking-with-post-requests-part-ii.html">Add your comment</a></li>
+                    <li><a href="../multitasking-with-post-requests-part-ii.html">Add your comment</a></li>
                 </ul>
             </footer>
         </article>
         <article class="hentry">
-            <h1 class="entry-title storytitle"><a href="http://markos.gaivo.net/articles/multitasking-with-post-requests.html" rel="bookmark" title="Permalink to Multitasking with POST requests?">Multitasking with POST requests?</a></h1>
+            <h1 class="entry-title storytitle"><a href="../multitasking-with-post-requests.html" rel="bookmark" title="Permalink to Multitasking with POST requests?">Multitasking with POST requests?</a></h1>
 
             <div class="entry-content post-text">
-                <p><html>
- <body>
-  <div>
-   <p>
-    I have a kinky wish. I’d like to submit a web form that wouldn’t get canceled if I clicked another link before its completion.
-   </p>
-   <p>
-    Browsers normally don’t work like this. They interpret subsequent clicks on active elements as a change of heart on user’s part and cancel previous clicks in favor of last one. Most of the time this is exactly what you’d want and expect.
-   </p>
-   <p>
-    However, sometimes it isn’t. I’d like to open a new window for upload progress bar and release the old one so users can continue working without waiting for upload to finish. I suspect it can’t be done though.
-   </p>
-   <p>
-    Has anyone had more luck with this?
-   </p>
-  </div>
- </body>
-</html></p>
+                <div>
+ <p>
+  I have a kinky wish. I’d like to submit a web form that wouldn’t get canceled if I clicked another link before its completion.
+ </p>
+ <p>
+  Browsers normally don’t work like this. They interpret subsequent clicks on active elements as a change of heart on user’s part and cancel previous clicks in favor of last one. Most of the time this is exactly what you’d want and expect.
+ </p>
+ <p>
+  However, sometimes it isn’t. I’d like to open a new window for upload progress bar and release the old one so users can continue working without waiting for upload to finish. I suspect it can’t be done though.
+ </p>
+ <p>
+  Has anyone had more luck with this?
+ </p>
+</div>
             </div><!-- /.entry-content -->
 
             <footer class="post-metadata">
                 <ul>
                     <li>Published on <time datetime="2005-12-15T20:34:00+01:00">Thu 15 December 2005</time> </li>
-                    <li><a href="http://markos.gaivo.net/articles/multitasking-with-post-requests.html">Add your comment</a></li>
+                    <li><a href="../multitasking-with-post-requests.html">Add your comment</a></li>
                 </ul>
             </footer>
         </article>
         <article class="hentry">
-            <h1 class="entry-title storytitle"><a href="http://markos.gaivo.net/articles/telemarketing-scum.html" rel="bookmark" title="Permalink to Telemarketing scum">Telemarketing scum</a></h1>
+            <h1 class="entry-title storytitle"><a href="../telemarketing-scum.html" rel="bookmark" title="Permalink to Telemarketing scum">Telemarketing scum</a></h1>
 
             <div class="entry-content post-text">
-                <p><html>
- <body>
-  <div>
-   <p>
-    I’ve spent yesterday on Vienna, which was very cold and very snow-less. As it always happens, I get most phone calls when I have the least time for them and they cost me the most.
-   </p>
-   <p>
-    One of them was from telemarketing scum. Do you know what they thought I’ve been really missing?
-   </p>
-   <p>
-    A course on how to use computers.
-   </p>
-  </div>
- </body>
-</html></p>
+                <div>
+ <p>
+  I’ve spent yesterday on Vienna, which was very cold and very snow-less. As it always happens, I get most phone calls when I have the least time for them and they cost me the most.
+ </p>
+ <p>
+  One of them was from telemarketing scum. Do you know what they thought I’ve been really missing?
+ </p>
+ <p>
+  A course on how to use computers.
+ </p>
+</div>
             </div><!-- /.entry-content -->
 
             <footer class="post-metadata">
                 <ul>
                     <li>Published on <time datetime="2005-12-13T09:07:00+01:00">Tue 13 December 2005</time> </li>
-                    <li><a href="http://markos.gaivo.net/articles/telemarketing-scum.html">Add your comment</a></li>
+                    <li><a href="../telemarketing-scum.html">Add your comment</a></li>
                 </ul>
             </footer>
         </article>
 
 <p class="paginator">
-        <a href="http://markos.gaivo.net/articles/author/markos81.html">&laquo;</a>
+        <a href="../author/markos81.html">&laquo;</a>
     Page 82 / 111
-        <a href="http://markos.gaivo.net/articles/author/markos83.html">&raquo;</a>
+        <a href="../author/markos83.html">&raquo;</a>
 </p>
 </section><!-- /#content -->
 

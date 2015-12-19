@@ -20,7 +20,7 @@
 
 <section class="envelope posts">
     <header>
-        <h1><a href="http://markos.gaivo.net/articles/">A notch above a monkey <strong></strong></a></h1>
+        <h1><a href="../">A notch above a monkey <strong></strong></a></h1>
     </header><!-- /#banner -->
 
     <nav class="colophon">
@@ -32,546 +32,434 @@
     </nav>
 
         <article class="hentry">
-            <h1 class="entry-title storytitle"><a href="http://markos.gaivo.net/articles/dreaming-about-arithmetic-mean.html" rel="bookmark" title="Permalink to Dreaming about arithmetic mean">Dreaming about arithmetic mean</a></h1>
+            <h1 class="entry-title storytitle"><a href="../dreaming-about-arithmetic-mean.html" rel="bookmark" title="Permalink to Dreaming about arithmetic mean">Dreaming about arithmetic mean</a></h1>
 
             <div class="entry-content post-text">
-                <p><html>
- <body>
-  <div>
-   <p>
-    I had a crazy dream, where I was back at University, but this time studying computer science. We were writing a function to calculate an
-    <a class="zem_slink" href="http://en.wikipedia.org/wiki/Arithmetic_mean" rel="wikipedia" title="Arithmetic mean">
-     arithmetic mean
-    </a>
-    of an array of numbers. A task obviously too simple for college course, but with dreams you get what you are given.
-   </p>
-   <p>
-    Discussion started with this function:
-   </p>
-   <ol class="code">
-    <li>
-     <code>
-      function average(arr) {
-     </code>
-    </li>
-    <li class="tab1">
-     <code>
-      var i, sum = 0;
-     </code>
-    </li>
-    <li class="tab1">
-     <code>
-      for(i=0;i&lt;arr.length;i++) {
-     </code>
-    </li>
-    <li class="tab2">
-     <code>
-      sum += arr[i];
-     </code>
-    </li>
-    <li class="tab1">
-     <code>
-      }
-     </code>
-    </li>
-    <li class="tab1">
-     <code>
-      return sum/i;
-     </code>
-    </li>
-    <li>
-     <code>
-      }
-     </code>
-    </li>
-    <li>
-    </li>
-    <li class="download">
-     Download this code:
-     <a href="http://markos.gaivo.net/blog/code/dreamjs.txt" title="Download the above code as a text file">
-      /code/dreamjs.txt
-     </a>
-    </li>
-   </ol>
-   <p>
-    Dream me, who by the way is significantly more bitchy than I ever am, wasn’t pleased and thought he could save few bytes by storing counter and sum inside of the array:
-   </p>
-   <ol class="code">
-    <li>
-     <code>
-      function average(arr) {
-     </code>
-    </li>
-    <li class="tab1 cmnt">
-     <code>
-      // Store counter in array[0] and sum in array[1]
-     </code>
-    </li>
-    <li class="tab1">
-     <code>
-      if (arr.length &lt; 3) {
-     </code>
-    </li>
-    <li class="tab2">
-     <code>
-      return arr.length == 2 ? arr[0]+arr[1] : arr[0];
-     </code>
-    </li>
-    <li class="tab1">
-     <code>
-      } else {
-     </code>
-    </li>
-    <li class="tab2">
-     <code>
-      arr[1] = arr[0]+arr[1];
-     </code>
-    </li>
-    <li class="tab2">
-     <code>
-      arr[0] = 2;
-     </code>
-    </li>
-    <li class="tab2">
-     <code>
-      for(;arr[0]&lt;arr.length;arr[0]++) {
-     </code>
-    </li>
-    <li class="tab3">
-     <code>
-      arr[1] += arr[arr[0]];
-     </code>
-    </li>
-    <li class="tab2">
-     <code>
-      }
-     </code>
-    </li>
-    <li class="tab1">
-     <code>
-      }
-     </code>
-    </li>
-    <li class="tab1">
-     <code>
-      return arr[1]/arr[0];
-     </code>
-    </li>
-    <li>
-     <code>
-      }
-     </code>
-    </li>
-    <li>
-    </li>
-    <li class="download">
-     Download this code:
-     <a href="http://markos.gaivo.net/blog/code/dreamjs2.txt" title="Download the above code as a text file">
-      /code/dreamjs2.txt
-     </a>
-    </li>
-   </ol>
-   <p>
-    This looked ugly, but what bothered him (me?) was more that it also had a bug. Integer in
-    <a class="zem_slink" href="http://en.wikipedia.org/wiki/JavaScript" rel="wikipedia" title="JavaScript">
-     Javascript
-    </a>
-    is limited to 2
-    <sup>
-     53
-    </sup>
-    , which is a lot, but sum can still
-    <a class="zem_slink" href="http://en.wikipedia.org/wiki/Arithmetic_overflow" rel="wikipedia" title="Arithmetic overflow">
-     overflow
-    </a>
-    or underflow it. Since mean can never be smaller than smallest or bigger than biggest number in a list, I could fix it by writing:
-   </p>
-   <ol class="code">
-    <li>
-     <code>
-      function average(arr) {
-     </code>
-    </li>
-    <li class="tab1">
-     <code>
-      var n = arr.length, sum=0;
-     </code>
-    </li>
-    <li class="tab1">
-     <code>
-      while (arr.length) {
-     </code>
-    </li>
-    <li class="tab2">
-     <code>
-      sum += arr.pop()/n;
-     </code>
-    </li>
-    <li class="tab1">
-     <code>
-      }
-     </code>
-    </li>
-    <li class="tab1">
-     <code>
-      return sum;
-     </code>
-    </li>
-    <li>
-     <code>
-      }
-     </code>
-    </li>
-    <li>
-    </li>
-    <li class="download">
-     Download this code:
-     <a href="http://markos.gaivo.net/blog/code/dreamjs3.txt" title="Download the above code as a text file">
-      /code/dreamjs3.txt
-     </a>
-    </li>
-   </ol>
-   <p>
-    End of dream. Everything edited for sanity and brevity.
-   </p>
-   <p>
-    I don’t have much to say about second program except that I would never write something so ugly just to save 16 bytes in a function like this. I wouldn’t even use Javascript if memory was that important.
-   </p>
-   <p>
-    I am more intrigued by third program. Bug in second is definitely there, even though few of us operate with numbers big enough to encounter it.
-   </p>
-   <p>
-    It’s interesting, because if I was awake, I would probably never think of it. I used to worry about bugs like this all the time, when I was coding in C. It was an unavoidable consequence of the language.
-   </p>
-   <p>
-    I guess what I am getting at is that it is nice to code in a high-level language and for the most part not think about implementation details like this, but only as long as you actually know them so your brain gets triggered when they matter. Speaking of details, I bet those divisions can cause rounding errors.
-   </p>
-   <div class="zemanta-pixie">
-    <a class="zemanta-pixie-a" href="http://reblog.zemanta.com/zemified/7ab2d445-07ff-4ec6-bed9-f29a2797d7a3/" title="Reblog this post [with Zemanta]">
-     <img alt="Reblog this post [with Zemanta]" class="zemanta-pixie-img" src="http://img.zemanta.com/reblog_e.png?x-id=7ab2d445-07ff-4ec6-bed9-f29a2797d7a3"/>
-    </a>
-    <span class="zem-script paragraph-reblog">
-     <script defer="defer" src="http://static.zemanta.com/readside/loader.js" type="text/javascript">
-     </script>
-    </span>
-   </div>
-  </div>
- </body>
-</html></p>
+                <div>
+ <p>
+  I had a crazy dream, where I was back at University, but this time studying computer science. We were writing a function to calculate an
+  <a class="zem_slink" href="http://en.wikipedia.org/wiki/Arithmetic_mean" rel="wikipedia" title="Arithmetic mean">
+   arithmetic mean
+  </a>
+  of an array of numbers. A task obviously too simple for college course, but with dreams you get what you are given.
+ </p>
+ <p>
+  Discussion started with this function:
+ </p>
+ <ol class="code">
+  <li>
+   <code>
+    function average(arr) {
+   </code>
+  </li>
+  <li class="tab1">
+   <code>
+    var i, sum = 0;
+   </code>
+  </li>
+  <li class="tab1">
+   <code>
+    for(i=0;i&lt;arr.length;i++) {
+   </code>
+  </li>
+  <li class="tab2">
+   <code>
+    sum += arr[i];
+   </code>
+  </li>
+  <li class="tab1">
+   <code>
+    }
+   </code>
+  </li>
+  <li class="tab1">
+   <code>
+    return sum/i;
+   </code>
+  </li>
+  <li>
+   <code>
+    }
+   </code>
+  </li>
+  <li>
+  </li>
+  <li class="download">
+   Download this code:
+   <a href="http://markos.gaivo.net/blog/code/dreamjs.txt" title="Download the above code as a text file">
+    /code/dreamjs.txt
+   </a>
+  </li>
+ </ol>
+ <p>
+  Dream me, who by the way is significantly more bitchy than I ever am, wasn’t pleased and thought he could save few bytes by storing counter and sum inside of the array:
+ </p>
+ <ol class="code">
+  <li>
+   <code>
+    function average(arr) {
+   </code>
+  </li>
+  <li class="tab1 cmnt">
+   <code>
+    // Store counter in array[0] and sum in array[1]
+   </code>
+  </li>
+  <li class="tab1">
+   <code>
+    if (arr.length &lt; 3) {
+   </code>
+  </li>
+  <li class="tab2">
+   <code>
+    return arr.length == 2 ? arr[0]+arr[1] : arr[0];
+   </code>
+  </li>
+  <li class="tab1">
+   <code>
+    } else {
+   </code>
+  </li>
+  <li class="tab2">
+   <code>
+    arr[1] = arr[0]+arr[1];
+   </code>
+  </li>
+  <li class="tab2">
+   <code>
+    arr[0] = 2;
+   </code>
+  </li>
+  <li class="tab2">
+   <code>
+    for(;arr[0]&lt;arr.length;arr[0]++) {
+   </code>
+  </li>
+  <li class="tab3">
+   <code>
+    arr[1] += arr[arr[0]];
+   </code>
+  </li>
+  <li class="tab2">
+   <code>
+    }
+   </code>
+  </li>
+  <li class="tab1">
+   <code>
+    }
+   </code>
+  </li>
+  <li class="tab1">
+   <code>
+    return arr[1]/arr[0];
+   </code>
+  </li>
+  <li>
+   <code>
+    }
+   </code>
+  </li>
+  <li>
+  </li>
+  <li class="download">
+   Download this code:
+   <a href="http://markos.gaivo.net/blog/code/dreamjs2.txt" title="Download the above code as a text file">
+    /code/dreamjs2.txt
+   </a>
+  </li>
+ </ol>
+ <p>
+  This looked ugly, but what bothered him (me?) was more that it also had a bug. Integer in
+  <a class="zem_slink" href="http://en.wikipedia.org/wiki/JavaScript" rel="wikipedia" title="JavaScript">
+   Javascript
+  </a>
+  is limited to 2
+  <sup>
+   53
+  </sup>
+  , which is a lot, but sum can still
+  <a class="zem_slink" href="http://en.wikipedia.org/wiki/Arithmetic_overflow" rel="wikipedia" title="Arithmetic overflow">
+   overflow
+  </a>
+  or underflow it. Since mean can never be smaller than smallest or bigger than biggest number in a list, I could fix it by writing:
+ </p>
+ <ol class="code">
+  <li>
+   <code>
+    function average(arr) {
+   </code>
+  </li>
+  <li class="tab1">
+   <code>
+    var n = arr.length, sum=0;
+   </code>
+  </li>
+  <li class="tab1">
+   <code>
+    while (arr.length) {
+   </code>
+  </li>
+  <li class="tab2">
+   <code>
+    sum += arr.pop()/n;
+   </code>
+  </li>
+  <li class="tab1">
+   <code>
+    }
+   </code>
+  </li>
+  <li class="tab1">
+   <code>
+    return sum;
+   </code>
+  </li>
+  <li>
+   <code>
+    }
+   </code>
+  </li>
+  <li>
+  </li>
+  <li class="download">
+   Download this code:
+   <a href="http://markos.gaivo.net/blog/code/dreamjs3.txt" title="Download the above code as a text file">
+    /code/dreamjs3.txt
+   </a>
+  </li>
+ </ol>
+ <p>
+  End of dream. Everything edited for sanity and brevity.
+ </p>
+ <p>
+  I don’t have much to say about second program except that I would never write something so ugly just to save 16 bytes in a function like this. I wouldn’t even use Javascript if memory was that important.
+ </p>
+ <p>
+  I am more intrigued by third program. Bug in second is definitely there, even though few of us operate with numbers big enough to encounter it.
+ </p>
+ <p>
+  It’s interesting, because if I was awake, I would probably never think of it. I used to worry about bugs like this all the time, when I was coding in C. It was an unavoidable consequence of the language.
+ </p>
+ <p>
+  I guess what I am getting at is that it is nice to code in a high-level language and for the most part not think about implementation details like this, but only as long as you actually know them so your brain gets triggered when they matter. Speaking of details, I bet those divisions can cause rounding errors.
+ </p>
+ <div class="zemanta-pixie">
+  <a class="zemanta-pixie-a" href="http://reblog.zemanta.com/zemified/7ab2d445-07ff-4ec6-bed9-f29a2797d7a3/" title="Reblog this post [with Zemanta]">
+   <img alt="Reblog this post [with Zemanta]" class="zemanta-pixie-img" src="http://img.zemanta.com/reblog_e.png?x-id=7ab2d445-07ff-4ec6-bed9-f29a2797d7a3"/>
+  </a>
+  <span class="zem-script paragraph-reblog">
+   <script defer="defer" src="http://static.zemanta.com/readside/loader.js" type="text/javascript">
+   </script>
+  </span>
+ </div>
+</div>
             </div><!-- /.entry-content -->
 
             <footer class="post-metadata">
                 <ul>
                     <li>Published on <time datetime="2010-01-24T11:44:00+01:00">Sun 24 January 2010</time> </li>
-                    <li><a href="http://markos.gaivo.net/articles/dreaming-about-arithmetic-mean.html">Add your comment</a></li>
+                    <li><a href="../dreaming-about-arithmetic-mean.html">Add your comment</a></li>
                 </ul>
             </footer>
         </article>
         <article class="hentry">
-            <h1 class="entry-title storytitle"><a href="http://markos.gaivo.net/articles/dreaming-about-arithmetic-mean.html" rel="bookmark" title="Permalink to Dreaming about arithmetic mean">Dreaming about arithmetic mean</a></h1>
+            <h1 class="entry-title storytitle"><a href="../javascript-the-good-parts-and-stringsplit-problem.html" rel="bookmark" title="Permalink to Javascript: The Good Parts and string.split problem">Javascript: The Good Parts and string.split problem</a></h1>
 
             <div class="entry-content post-text">
-                <p><html>
- <body>
-  <div>
-   <p>
-    I had a crazy dream, where I was back at University, but this time studying computer science. We were writing a function to calculate an
-    <a class="zem_slink" href="http://en.wikipedia.org/wiki/Arithmetic_mean" rel="wikipedia" title="Arithmetic mean">
-     arithmetic mean
-    </a>
-    of an array of numbers. A task obviously too simple for college course, but with dreams you get what you are given.
-   </p>
-   <p>
-    Discussion started with this function:
-   </p>
-   <ol class="code">
-    <li>
-     <code>
-      function average(arr) {
-     </code>
-    </li>
-    <li class="tab1">
-     <code>
-      var i, sum = 0;
-     </code>
-    </li>
-    <li class="tab1">
-     <code>
-      for(i=0;i&lt;arr.length;i++) {
-     </code>
-    </li>
-    <li class="tab2">
-     <code>
-      sum += arr[i];
-     </code>
-    </li>
-    <li class="tab1">
-     <code>
-      }
-     </code>
-    </li>
-    <li class="tab1">
-     <code>
-      return sum/i;
-     </code>
-    </li>
-    <li>
-     <code>
-      }
-     </code>
-    </li>
-    <li>
-    </li>
-    <li class="download">
-     Download this code:
-     <a href="http://markos.gaivo.net/blog/code/dreamjs.txt" title="Download the above code as a text file">
-      /code/dreamjs.txt
-     </a>
-    </li>
-   </ol>
-   <p>
-    Dream me, who by the way is significantly more bitchy than I ever am, wasn’t pleased and thought he could save few bytes by storing counter and sum inside of the array:
-   </p>
-   <ol class="code">
-    <li>
-     <code>
-      function average(arr) {
-     </code>
-    </li>
-    <li class="tab1 cmnt">
-     <code>
-      // Store counter in array[0] and sum in array[1]
-     </code>
-    </li>
-    <li class="tab1">
-     <code>
-      if (arr.length &lt; 3) {
-     </code>
-    </li>
-    <li class="tab2">
-     <code>
-      return arr.length == 2 ? arr[0]+arr[1] : arr[0];
-     </code>
-    </li>
-    <li class="tab1">
-     <code>
-      } else {
-     </code>
-    </li>
-    <li class="tab2">
-     <code>
-      arr[1] = arr[0]+arr[1];
-     </code>
-    </li>
-    <li class="tab2">
-     <code>
-      arr[0] = 2;
-     </code>
-    </li>
-    <li class="tab2">
-     <code>
-      for(;arr[0]&lt;arr.length;arr[0]++) {
-     </code>
-    </li>
-    <li class="tab3">
-     <code>
-      arr[1] += arr[arr[0]];
-     </code>
-    </li>
-    <li class="tab2">
-     <code>
-      }
-     </code>
-    </li>
-    <li class="tab1">
-     <code>
-      }
-     </code>
-    </li>
-    <li class="tab1">
-     <code>
-      return arr[1]/arr[0];
-     </code>
-    </li>
-    <li>
-     <code>
-      }
-     </code>
-    </li>
-    <li>
-    </li>
-    <li class="download">
-     Download this code:
-     <a href="http://markos.gaivo.net/blog/code/dreamjs2.txt" title="Download the above code as a text file">
-      /code/dreamjs2.txt
-     </a>
-    </li>
-   </ol>
-   <p>
-    This looked ugly, but what bothered him (me?) was more that it also had a bug. Integer in
-    <a class="zem_slink" href="http://en.wikipedia.org/wiki/JavaScript" rel="wikipedia" title="JavaScript">
-     Javascript
-    </a>
-    is limited to 2
-    <sup>
-     53
-    </sup>
-    , which is a lot, but sum can still
-    <a class="zem_slink" href="http://en.wikipedia.org/wiki/Arithmetic_overflow" rel="wikipedia" title="Arithmetic overflow">
-     overflow
-    </a>
-    or underflow it. Since mean can never be smaller than smallest or bigger than biggest number in a list, I could fix it by writing:
-   </p>
-   <ol class="code">
-    <li>
-     <code>
-      function average(arr) {
-     </code>
-    </li>
-    <li class="tab1">
-     <code>
-      var n = arr.length, sum=0;
-     </code>
-    </li>
-    <li class="tab1">
-     <code>
-      while (arr.length) {
-     </code>
-    </li>
-    <li class="tab2">
-     <code>
-      sum += arr.pop()/n;
-     </code>
-    </li>
-    <li class="tab1">
-     <code>
-      }
-     </code>
-    </li>
-    <li class="tab1">
-     <code>
-      return sum;
-     </code>
-    </li>
-    <li>
-     <code>
-      }
-     </code>
-    </li>
-    <li>
-    </li>
-    <li class="download">
-     Download this code:
-     <a href="http://markos.gaivo.net/blog/code/dreamjs3.txt" title="Download the above code as a text file">
-      /code/dreamjs3.txt
-     </a>
-    </li>
-   </ol>
-   <p>
-    End of dream. Everything edited for sanity and brevity.
-   </p>
-   <p>
-    I don’t have much to say about second program except that I would never write something so ugly just to save 16 bytes in a function like this. I wouldn’t even use Javascript if memory was that important.
-   </p>
-   <p>
-    I am more intrigued by third program. Bug in second is definitely there, even though few of us operate with numbers big enough to encounter it.
-   </p>
-   <p>
-    It’s interesting, because if I was awake, I would probably never think of it. I used to worry about bugs like this all the time, when I was coding in C. It was an unavoidable consequence of the language.
-   </p>
-   <p>
-    I guess what I am getting at is that it is nice to code in a high-level language and for the most part not think about implementation details like this, but only as long as you actually know them so your brain gets triggered when they matter. Speaking of details, I bet those divisions can cause rounding errors.
-   </p>
-   <div class="zemanta-pixie">
-    <a class="zemanta-pixie-a" href="http://reblog.zemanta.com/zemified/7ab2d445-07ff-4ec6-bed9-f29a2797d7a3/" title="Reblog this post [with Zemanta]">
-     <img alt="Reblog this post [with Zemanta]" class="zemanta-pixie-img" src="http://img.zemanta.com/reblog_e.png?x-id=7ab2d445-07ff-4ec6-bed9-f29a2797d7a3"/>
-    </a>
-    <span class="zem-script paragraph-reblog">
-     <script defer="defer" src="http://static.zemanta.com/readside/loader.js" type="text/javascript">
-     </script>
-    </span>
-   </div>
-  </div>
- </body>
-</html></p>
-            </div><!-- /.entry-content -->
-
-            <footer class="post-metadata">
-                <ul>
-                    <li>Published on <time datetime="2010-01-24T11:44:00+01:00">Sun 24 January 2010</time> </li>
-                    <li><a href="http://markos.gaivo.net/articles/dreaming-about-arithmetic-mean.html">Add your comment</a></li>
-                </ul>
-            </footer>
-        </article>
-        <article class="hentry">
-            <h1 class="entry-title storytitle"><a href="http://markos.gaivo.net/articles/javascript-the-good-parts-and-stringsplit-problem.html" rel="bookmark" title="Permalink to Javascript: The Good Parts and string.split problem">Javascript: The Good Parts and string.split problem</a></h1>
-
-            <div class="entry-content post-text">
-                <p><html>
- <body>
-  <div>
-   <p>
-    I just read
-    <a class="zem_slink" href="http://crockford.com/" rel="homepage" title="Douglas Crockford">
-     Douglas Crockford
-    </a>
-    ‘s book
-    <a href="http://www.amazon.com/gp/product/0596517742?ie=UTF8&amp;tag=devel-20&amp;linkCode=as2&amp;camp=1789&amp;creative=390957&amp;creativeASIN=0596517742">
-     JavaScript: The Good Parts
-    </a>
-    <img alt="" border="0" height="1" src="http://www.assoc-amazon.com/e/ir?t=devel-20&amp;l=as2&amp;o=1&amp;a=0596517742" style="border:none !important; margin:0px !important;" width="1"/>
-    . It’s what a technical book should be. Concise yet full of useful information as a result of clear scope and sticking to it. If my experience is anything to go by, then there are not many Javascript programmers who wouldn’t benefit from it.
-   </p>
-   <p>
-    I did found one bit that wasn’t quite right. On pages 91-92 Douglas discusses
-    <em>
-     string.split
-    </em>
-    method, which can take a regular expression as a separator with which to split string. Douglas rightly points out that if regular expression includes capturing group (stuff between paranthesis like
-    <em>
-     b(mmm)c
-    </em>
-    ), then strings matching those groups will be included in the split.
-   </p>
-   <p>
-    However Douglas is not completely correct when he says that some implementations drop empty strings in the output array when separator is regular expression. If you run
-    <a href="http://markos.gaivo.net/examples/jssplit/index.html">
-     this demo
-    </a>
-    in
-    <a class="zem_slink" href="http://www.firefox.com/" rel="homepage" title="Mozilla Firefox 3">
-     Firefox3
-    </a>
-    and IE7, you’ll see that IE7 drops even non-empty strings from capturing groups, while Firefox3 includes them.
-   </p>
-   <p>
-    Still, I would find a bug in my code faster this week if I read his book sooner.
-   </p>
-   <div class="zemanta-pixie">
-    <a class="zemanta-pixie-a" href="http://reblog.zemanta.com/zemified/098a0fec-e31c-40fe-a1d4-701ecad46969/" title="Zemified by Zemanta">
-     <img alt="Reblog this post [with Zemanta]" class="zemanta-pixie-img" src="http://img.zemanta.com/reblog_e.png?x-id=098a0fec-e31c-40fe-a1d4-701ecad46969"/>
-    </a>
-    <span class="zem-script more-related">
-     <script src="http://static.zemanta.com/readside/loader.js" type="text/javascript">
-     </script>
-    </span>
-   </div>
-  </div>
- </body>
-</html></p>
+                <div>
+ <p>
+  I just read
+  <a class="zem_slink" href="http://crockford.com/" rel="homepage" title="Douglas Crockford">
+   Douglas Crockford
+  </a>
+  ‘s book
+  <a href="http://www.amazon.com/gp/product/0596517742?ie=UTF8&amp;tag=devel-20&amp;linkCode=as2&amp;camp=1789&amp;creative=390957&amp;creativeASIN=0596517742">
+   JavaScript: The Good Parts
+  </a>
+  <img alt="" border="0" height="1" src="http://www.assoc-amazon.com/e/ir?t=devel-20&amp;l=as2&amp;o=1&amp;a=0596517742" style="border:none !important; margin:0px !important;" width="1"/>
+  . It’s what a technical book should be. Concise yet full of useful information as a result of clear scope and sticking to it. If my experience is anything to go by, then there are not many Javascript programmers who wouldn’t benefit from it.
+ </p>
+ <p>
+  I did found one bit that wasn’t quite right. On pages 91-92 Douglas discusses
+  <em>
+   string.split
+  </em>
+  method, which can take a regular expression as a separator with which to split string. Douglas rightly points out that if regular expression includes capturing group (stuff between paranthesis like
+  <em>
+   b(mmm)c
+  </em>
+  ), then strings matching those groups will be included in the split.
+ </p>
+ <p>
+  However Douglas is not completely correct when he says that some implementations drop empty strings in the output array when separator is regular expression. If you run
+  <a href="http://markos.gaivo.net/examples/jssplit/index.html">
+   this demo
+  </a>
+  in
+  <a class="zem_slink" href="http://www.firefox.com/" rel="homepage" title="Mozilla Firefox 3">
+   Firefox3
+  </a>
+  and IE7, you’ll see that IE7 drops even non-empty strings from capturing groups, while Firefox3 includes them.
+ </p>
+ <p>
+  Still, I would find a bug in my code faster this week if I read his book sooner.
+ </p>
+ <div class="zemanta-pixie">
+  <a class="zemanta-pixie-a" href="http://reblog.zemanta.com/zemified/098a0fec-e31c-40fe-a1d4-701ecad46969/" title="Zemified by Zemanta">
+   <img alt="Reblog this post [with Zemanta]" class="zemanta-pixie-img" src="http://img.zemanta.com/reblog_e.png?x-id=098a0fec-e31c-40fe-a1d4-701ecad46969"/>
+  </a>
+  <span class="zem-script more-related">
+   <script src="http://static.zemanta.com/readside/loader.js" type="text/javascript">
+   </script>
+  </span>
+ </div>
+</div>
             </div><!-- /.entry-content -->
 
             <footer class="post-metadata">
                 <ul>
                     <li>Published on <time datetime="2009-03-29T11:15:00+02:00">Sun 29 March 2009</time> </li>
-                    <li><a href="http://markos.gaivo.net/articles/javascript-the-good-parts-and-stringsplit-problem.html">Add your comment</a></li>
+                    <li><a href="../javascript-the-good-parts-and-stringsplit-problem.html">Add your comment</a></li>
+                </ul>
+            </footer>
+        </article>
+        <article class="hentry">
+            <h1 class="entry-title storytitle"><a href="../shipping-software-frequency.html" rel="bookmark" title="Permalink to Shipping software frequency">Shipping software frequency</a></h1>
+
+            <div class="entry-content post-text">
+                <div>
+ <p>
+  I was
+  <a href="http://www.paulgraham.com/artistsship.html" title="Paul's article on cost of checks">
+   reading
+  </a>
+  <a class="zem_slink" href="http://en.wikipedia.org/wiki/Paul_Graham" rel="wikipedia" title="Paul Graham">
+   Paul Graham
+  </a>
+  today, who among other things touched on a subject that has been on my mind lately. Software shipping.
+ </p>
+ <p>
+  At Zemanta, we usually don’t ship daily although when needed we do. We try to do a release of new features and bug fixes every 2-3 weeks and on the whole we are succeeding. Still, this is not as often as many startups profess to do and it’s certainly not as often as most of us would like. Even though I probably bear the majority of “blame” for this, I too wish we shipped more often.
+ </p>
+ <p>
+  So why don’t we?
+ </p>
+ <p>
+  There are many factors that define how quickly can something be shipped and even though I don’t think I have an exhaustive list, I find following most important (listed in no particular order):
+ </p>
+ <ul>
+  <li>
+   code base
+  </li>
+  <li>
+   shipping changes
+  </li>
+  <li>
+   team
+  </li>
+  <li>
+   tolerance of failure
+  </li>
+  <li>
+   time
+  </li>
+ </ul>
+ <h4>
+  Code base
+ </h4>
+ <p>
+  Simply put,
+  <strong>
+   better code is easier to change
+  </strong>
+  and evolve with new features without introducing new bugs.
+ </p>
+ <p>
+  Speed of development rarely results in pristine code, so we need to clean things up every now and then, which creates a need to regularly evaluate the quality of our code base and its impact on our ability to deliver.
+ </p>
+ <h4>
+  Shipping changes
+ </h4>
+ <p>
+  <strong>
+   Smaller changes are easier to check
+  </strong>
+  and quicker to develop. More intrusive new code is, harder it is to reliably avoid detrimental effect on already existing code.
+ </p>
+ <p>
+  Fixing, testing and shipping a CSS bug can be done almost instantly. Changing core of the widget usually takes a bit more effort to avoid regressions.
+ </p>
+ <h4>
+  Team
+ </h4>
+ <p>
+  <strong>
+   Better developers produce better code
+  </strong>
+  more quickly.
+ </p>
+ <p>
+  Some testing is always necessary, but there’s a direct connection between code author’s reputation and experience and trust we put in his code.
+ </p>
+ <h4>
+  Tolerance of failure
+ </h4>
+ <p>
+  Tolerance of users and tolerance of system to change is crucial.
+ </p>
+ <p>
+  If you provide a service where failure is not an option, then this should affect at least how deeply tested new release has to be. It’s also important for your system to be able to revert to last working state, but sometimes this is not desired and important glitches need to be fixed as they are encountered.
+ </p>
+ <h4>
+  Time
+ </h4>
+ <p>
+  If your
+  <strong>
+   schedule
+  </strong>
+  is
+  <strong>
+   too tight to fix bugs
+  </strong>
+  found in new release, it’s
+  <strong>
+   too tight for release
+  </strong>
+  .
+ </p>
+ <p>
+  No matter how much you test your software and at Zemanta we do this a lot, new code will introduce new bugs. It will happen that some of them will be too big to wait for next scheduled release and need an immediate fix. If you for some reason can’t afford this, then it may be better not to ship yet.
+ </p>
+ <h4>
+  Pendulum of change
+ </h4>
+ <p>
+  It should be obvious from this list that no factor is set in stone and what might have been a right decision few months ago might not be best one now.
+ </p>
+ <p>
+  A lot has changed in last few months, so the next time we address this topic, I suspect my opinion will be different than last time.
+ </p>
+ <div class="zemanta-pixie">
+  <a class="zemanta-pixie-a" href="http://reblog.zemanta.com/zemified/81d6b87c-78c1-4e73-877d-43a1db60b537/" title="Zemified by Zemanta">
+   <img alt="Reblog this post [with Zemanta]" class="zemanta-pixie-img" src="http://img.zemanta.com/reblog_e.png?x-id=81d6b87c-78c1-4e73-877d-43a1db60b537"/>
+  </a>
+ </div>
+</div>
+            </div><!-- /.entry-content -->
+
+            <footer class="post-metadata">
+                <ul>
+                    <li>Published on <time datetime="2008-11-30T20:45:00+01:00">Sun 30 November 2008</time> </li>
+                    <li><a href="../shipping-software-frequency.html">Add your comment</a></li>
                 </ul>
             </footer>
         </article>
 
 <p class="paginator">
-    Page 1 / 4
-        <a href="http://markos.gaivo.net/articles/tag/programming2.html">&raquo;</a>
+    Page 1 / 2
+        <a href="../tag/programming2.html">&raquo;</a>
 </p>
 </section><!-- /#content -->
 

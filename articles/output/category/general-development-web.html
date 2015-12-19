@@ -22,7 +22,7 @@
 
 <section class="envelope posts">
     <header>
-        <h1><a href="http://markos.gaivo.net/articles/">A notch above a monkey <strong></strong></a></h1>
+        <h1><a href="../">A notch above a monkey <strong></strong></a></h1>
     </header><!-- /#banner -->
 
     <nav class="colophon">
@@ -34,214 +34,202 @@
     </nav>
 
         <article class="hentry">
-            <h1 class="entry-title storytitle"><a href="http://markos.gaivo.net/articles/save-bandwidth-switch.html" rel="bookmark" title="Permalink to Save bandwidth switch">Save bandwidth switch</a></h1>
+            <h1 class="entry-title storytitle"><a href="../save-bandwidth-switch.html" rel="bookmark" title="Permalink to Save bandwidth switch">Save bandwidth switch</a></h1>
 
             <div class="entry-content post-text">
-                <p><html>
- <body>
-  <div>
-   <p>
-    Michal Migurski recently posted
-    <a href="http://mike.teczno.com/notes/bandwidth.html">
-     an article
-    </a>
-    about download sizes of popular websites. I couldn’t replicate his results
-    <sup>
-     <a href="#save-bandwidth-note-1" id="save-bandwidth-1">
-      [1]
-     </a>
-    </sup>
-    , but it is obvious that gist of Michal’s article is correct, websites have indeed ballooned significantly in last few years.
-   </p>
-   <p>
-    This blog’s homepage has a footprint of around 250KB-270KB
-    <sup>
-     <a href="#save-bandwidth-note-2" id="save-bandwidth-2">
-      [2]
-     </a>
-    </sup>
-    . About 90% of its size are fonts and
-    <a href="http://jquery.com/">
-     jQuery
-    </a>
-    which is a big penalty for making it look and behave a bit nicer. So should I remove those parts?
-   </p>
-   <p>
-    Well, for most visitors to this website that difference doesn’t matter. Pages for them are neither slow nor expensive to load. Unless of course they are doing it over your average hotel Wi-Fi or a slow mobile network where speed around 56Kb/s is not unheard of. On such connection it would take about half a minute to load this blog. It can also cost more than 10 euro cents to load it when roaming in Europe.
-   </p>
-   <p>
-    It would be great if I could offer a choice of serving bigger and nicer or smaller and faster version depending on visitors needs.
-   </p>
-   <p>
-    Measuring speed is not easy, but certainly doable as Gmail has demonstrated. You could start a timer immediately in page header, measure how much time it takes to load a smaller version of a website and if that happened quickly enough upgrade it to full bling. Android browser also added support for
-    <a href="http://dvcs.w3.org/hg/dap/raw-file/tip/network-api/index.html">
-     navigator.connection
-    </a>
-    Javascript property which, where it exists, probably has more details than you would need.
-   </p>
-   <p>
-    However there is no way to measure price of a visit. Even if I could, how would I decide what is too expensive for an anonymous reader and should I make such decisions at all? I think not.
-   </p>
-   <p>
-    Gmail’s approach is really just a band-aid over what should be a visitor’s decision. I use same laptop and browser at home and while I travel, experiencing all combinations of connection speed and pricing. I never know how much it will cost me to visit a page, but I always learn quickly if I would prefer something small or full-featured. There is just no way I can communicate that preference.
-   </p>
-   <p>
-    It would be great if my browser had a switch for this purpose, like Firefox’s “Work Offline” toggle. So if I switched to bandwidth saving mode, then every subsequent request to web server would communicate my preference with a HTTP header field like:
-   </p>
-   <blockquote>
-    <p>
-     X-Bandwidth: save
-    </p>
-   </blockquote>
-   <p>
-    In principle you could have multiple levels of bandwidth consumption, but that would likely be an overkill. Common practice suggests that at most two levels would really get used, one aimed at mobile devices and other at desktop.
-   </p>
-   <p>
-    Header like that might be enough, but even better would be if Javascript environment got another property describing current state of user’s preference (like say
-    <em>
-     navigator.bandwidth
-    </em>
-    ). Coupled with a bandwidth event triggered on change you could really optimize every modern web page, even those with more complicated loading of resources and execution paths.
-   </p>
-   <p>
-    Right now such functionality doesn’t exist or at least I couldn’t find it (I even searched Mozilla’s bug database for any future plans). I think my proposal is both user and developer friendly and workable. If you can think of a reason why it would be problematic, then I would really like to hear it.
-   </p>
-   <ol>
-    <li id="save-bandwidth-note-1">
-     Pages are often personalized for visitor. Developer tools of different browsers also don’t report same sizes. They also report amount of data transferred not the size of that data once unpacked. Almost 2M of Twitter’s Javascript is thus reduced into page of “only” about 1MB of data transferred. And that to display couple of sentences.
-     <a href="#save-bandwidth-1">
-      ↩
-     </a>
-    </li>
-    <li id="save-bandwidth-note-2">
-     Depends on browser used. Variation in sizes is probably due different formats of fonts used by browsers. It also changed once I published this post.
-     <a href="#save-bandwidth-2">
-      ↩
-     </a>
-    </li>
-   </ol>
-  </div>
- </body>
-</html></p>
+                <div>
+ <p>
+  Michal Migurski recently posted
+  <a href="http://mike.teczno.com/notes/bandwidth.html">
+   an article
+  </a>
+  about download sizes of popular websites. I couldn’t replicate his results
+  <sup>
+   <a href="#save-bandwidth-note-1" id="save-bandwidth-1">
+    [1]
+   </a>
+  </sup>
+  , but it is obvious that gist of Michal’s article is correct, websites have indeed ballooned significantly in last few years.
+ </p>
+ <p>
+  This blog’s homepage has a footprint of around 250KB-270KB
+  <sup>
+   <a href="#save-bandwidth-note-2" id="save-bandwidth-2">
+    [2]
+   </a>
+  </sup>
+  . About 90% of its size are fonts and
+  <a href="http://jquery.com/">
+   jQuery
+  </a>
+  which is a big penalty for making it look and behave a bit nicer. So should I remove those parts?
+ </p>
+ <p>
+  Well, for most visitors to this website that difference doesn’t matter. Pages for them are neither slow nor expensive to load. Unless of course they are doing it over your average hotel Wi-Fi or a slow mobile network where speed around 56Kb/s is not unheard of. On such connection it would take about half a minute to load this blog. It can also cost more than 10 euro cents to load it when roaming in Europe.
+ </p>
+ <p>
+  It would be great if I could offer a choice of serving bigger and nicer or smaller and faster version depending on visitors needs.
+ </p>
+ <p>
+  Measuring speed is not easy, but certainly doable as Gmail has demonstrated. You could start a timer immediately in page header, measure how much time it takes to load a smaller version of a website and if that happened quickly enough upgrade it to full bling. Android browser also added support for
+  <a href="http://dvcs.w3.org/hg/dap/raw-file/tip/network-api/index.html">
+   navigator.connection
+  </a>
+  Javascript property which, where it exists, probably has more details than you would need.
+ </p>
+ <p>
+  However there is no way to measure price of a visit. Even if I could, how would I decide what is too expensive for an anonymous reader and should I make such decisions at all? I think not.
+ </p>
+ <p>
+  Gmail’s approach is really just a band-aid over what should be a visitor’s decision. I use same laptop and browser at home and while I travel, experiencing all combinations of connection speed and pricing. I never know how much it will cost me to visit a page, but I always learn quickly if I would prefer something small or full-featured. There is just no way I can communicate that preference.
+ </p>
+ <p>
+  It would be great if my browser had a switch for this purpose, like Firefox’s “Work Offline” toggle. So if I switched to bandwidth saving mode, then every subsequent request to web server would communicate my preference with a HTTP header field like:
+ </p>
+ <blockquote>
+  <p>
+   X-Bandwidth: save
+  </p>
+ </blockquote>
+ <p>
+  In principle you could have multiple levels of bandwidth consumption, but that would likely be an overkill. Common practice suggests that at most two levels would really get used, one aimed at mobile devices and other at desktop.
+ </p>
+ <p>
+  Header like that might be enough, but even better would be if Javascript environment got another property describing current state of user’s preference (like say
+  <em>
+   navigator.bandwidth
+  </em>
+  ). Coupled with a bandwidth event triggered on change you could really optimize every modern web page, even those with more complicated loading of resources and execution paths.
+ </p>
+ <p>
+  Right now such functionality doesn’t exist or at least I couldn’t find it (I even searched Mozilla’s bug database for any future plans). I think my proposal is both user and developer friendly and workable. If you can think of a reason why it would be problematic, then I would really like to hear it.
+ </p>
+ <ol>
+  <li id="save-bandwidth-note-1">
+   Pages are often personalized for visitor. Developer tools of different browsers also don’t report same sizes. They also report amount of data transferred not the size of that data once unpacked. Almost 2M of Twitter’s Javascript is thus reduced into page of “only” about 1MB of data transferred. And that to display couple of sentences.
+   <a href="#save-bandwidth-1">
+    ↩
+   </a>
+  </li>
+  <li id="save-bandwidth-note-2">
+   Depends on browser used. Variation in sizes is probably due different formats of fonts used by browsers. It also changed once I published this post.
+   <a href="#save-bandwidth-2">
+    ↩
+   </a>
+  </li>
+ </ol>
+</div>
             </div><!-- /.entry-content -->
 
             <footer class="post-metadata">
                 <ul>
                     <li>Published on <time datetime="2012-03-15T08:52:00+01:00">Thu 15 March 2012</time> </li>
-                    <li><a href="http://markos.gaivo.net/articles/save-bandwidth-switch.html">Add your comment</a></li>
+                    <li><a href="../save-bandwidth-switch.html">Add your comment</a></li>
                 </ul>
             </footer>
         </article>
         <article class="hentry">
-            <h1 class="entry-title storytitle"><a href="http://markos.gaivo.net/articles/beta-prefix-algorithm-for-css.html" rel="bookmark" title="Permalink to -beta- prefix algorithm for CSS">-beta- prefix algorithm for CSS</a></h1>
+            <h1 class="entry-title storytitle"><a href="../beta-prefix-algorithm-for-css.html" rel="bookmark" title="Permalink to -beta- prefix algorithm for CSS">-beta- prefix algorithm for CSS</a></h1>
 
             <div class="entry-content post-text">
-                <p><html>
- <body>
-  <div>
-   <p>
-    These have been eventful couple of days for web developers. CSS Working Group chair
-    <a href="http://www.glazman.org/weblog/dotclear/index.php?post/2012/02/09/CALL-FOR-ACTION%3A-THE-OPEN-WEB-NEEDS-YOU-NOW">
-     called on everyone
-    </a>
-    to use all (most?) vendor prefixes and stop making websites for WebKit which is becoming a new (mobile) IE6. Responses have been numerous,
-    <a href="http://www.quirksmode.org/blog/archives/2012/02/the_vendor_pref.html" title="PPK's first article about prefixes">
-     including
-    </a>
-    <a href="http://www.quirksmode.org/blog/archives/2012/02/alpha_and_beta.html" title="PPK's follow up to first article">
-     ppk
-    </a>
-    who in his usual obnoxious manner
-    <sup>
-     <a href="#beta-prefix-note-1" id="beta-prefix-1">
-      [1]
-     </a>
-    </sup>
-    made some good points. Testing on mobile devices is an unsolved problem (who wants or can afford to buy so many almost immediately obsolete gadgets?) and introducing -beta- (maybe also -alpha-) prefix would simplify our lives while keeping most benefits of vendor prefixes.
-   </p>
-   <p>
-    I like -beta- idea and I think adding -alpha- might be even better. There’s still a problem of resolving syntax conflicts between different implementation which I think has a simple solution that closely mimics what browsers already do:
-   </p>
-   <p>
-    <em>
-     When parsing CSS browsers
-    </em>
-    <em>
-     should apply the last matching -beta-/-alpha- directive they fully understand.
-    </em>
-   </p>
-   <p>
-    Browsers already ignore directives they don’t understand and they apply last directive found when there are multiple candidates for a DOM node.
-   </p>
-   <p>
-    Such behavior would give us less CSS code to write and maintain, have predictable behavior and keep browser experimentation without favoring one. I have troubles finding negative sides of this approach, but do let me know if you can think of one.
-   </p>
-   <ol>
-    <li id="beta-prefix-note-1">
-     I deeply dislike his complaining about simplistic view of others while himself generalizing and name-calling (the lazy and stupid lot of us). Alas it’s not good to read only people you like and agree with.
-     <a href="#beta-prefix-1">
-      ↩
-     </a>
-    </li>
-    <li>
-     Almost everything I write on this blog has an intended  audience of one:  me (no, really!). Why I sometimes write posts like  this, which don’t, is a mistery  since their expected and actual effect on anyone  is…none.
-    </li>
-   </ol>
-  </div>
- </body>
-</html></p>
+                <div>
+ <p>
+  These have been eventful couple of days for web developers. CSS Working Group chair
+  <a href="http://www.glazman.org/weblog/dotclear/index.php?post/2012/02/09/CALL-FOR-ACTION%3A-THE-OPEN-WEB-NEEDS-YOU-NOW">
+   called on everyone
+  </a>
+  to use all (most?) vendor prefixes and stop making websites for WebKit which is becoming a new (mobile) IE6. Responses have been numerous,
+  <a href="http://www.quirksmode.org/blog/archives/2012/02/the_vendor_pref.html" title="PPK's first article about prefixes">
+   including
+  </a>
+  <a href="http://www.quirksmode.org/blog/archives/2012/02/alpha_and_beta.html" title="PPK's follow up to first article">
+   ppk
+  </a>
+  who in his usual obnoxious manner
+  <sup>
+   <a href="#beta-prefix-note-1" id="beta-prefix-1">
+    [1]
+   </a>
+  </sup>
+  made some good points. Testing on mobile devices is an unsolved problem (who wants or can afford to buy so many almost immediately obsolete gadgets?) and introducing -beta- (maybe also -alpha-) prefix would simplify our lives while keeping most benefits of vendor prefixes.
+ </p>
+ <p>
+  I like -beta- idea and I think adding -alpha- might be even better. There’s still a problem of resolving syntax conflicts between different implementation which I think has a simple solution that closely mimics what browsers already do:
+ </p>
+ <p>
+  <em>
+   When parsing CSS browsers
+  </em>
+  <em>
+   should apply the last matching -beta-/-alpha- directive they fully understand.
+  </em>
+ </p>
+ <p>
+  Browsers already ignore directives they don’t understand and they apply last directive found when there are multiple candidates for a DOM node.
+ </p>
+ <p>
+  Such behavior would give us less CSS code to write and maintain, have predictable behavior and keep browser experimentation without favoring one. I have troubles finding negative sides of this approach, but do let me know if you can think of one.
+ </p>
+ <ol>
+  <li id="beta-prefix-note-1">
+   I deeply dislike his complaining about simplistic view of others while himself generalizing and name-calling (the lazy and stupid lot of us). Alas it’s not good to read only people you like and agree with.
+   <a href="#beta-prefix-1">
+    ↩
+   </a>
+  </li>
+  <li>
+   Almost everything I write on this blog has an intended  audience of one:  me (no, really!). Why I sometimes write posts like  this, which don’t, is a mistery  since their expected and actual effect on anyone  is…none.
+  </li>
+ </ol>
+</div>
             </div><!-- /.entry-content -->
 
             <footer class="post-metadata">
                 <ul>
                     <li>Published on <time datetime="2012-02-10T18:21:00+01:00">Fri 10 February 2012</time> </li>
-                    <li><a href="http://markos.gaivo.net/articles/beta-prefix-algorithm-for-css.html">Add your comment</a></li>
+                    <li><a href="../beta-prefix-algorithm-for-css.html">Add your comment</a></li>
                 </ul>
             </footer>
         </article>
         <article class="hentry">
-            <h1 class="entry-title storytitle"><a href="http://markos.gaivo.net/articles/cookies-localstorage-and-shared-state.html" rel="bookmark" title="Permalink to Cookies, localStorage and shared state">Cookies, localStorage and shared state</a></h1>
+            <h1 class="entry-title storytitle"><a href="../cookies-localstorage-and-shared-state.html" rel="bookmark" title="Permalink to Cookies, localStorage and shared state">Cookies, localStorage and shared state</a></h1>
 
             <div class="entry-content post-text">
-                <p><html>
- <body>
-  <div>
-   <p>
-    I’ve been fiddling with my website again, changing theme switching from somewhat dumb class based system to a more proper one using alternate style sheets. I learned that picking a style sheet in browser applies those changes only to currently open page, so for style sheet selection to persevere it needs a bit of Javascript support from website owner. Personally I find this just stupid.
-   </p>
-   <p>
-    The easiest way to remember visitor’s preference is to store it in his browser. Cookies used to be popular before they were deemed evil, but they have other limitations as well. Hence popular switch to HTML5 in-browser storage technologies like
-    <a href="http://www.w3.org/TR/webstorage/">
-     localStorage
-    </a>
-    .
-   </p>
-   <p>
-    I think there is one important difference between cookies and tools like localStorage that is often overlooked and it’s not the size of data that can be stored. Cookies are sent with
-    <em>
-     each page request
-    </em>
-    while data stored elsewhere isn’t. Changing them on any side will automatically share state with the other. I use localStorage in my theme switcher because I think server doesn’t need and should not know which theme is used. But for storing shared data, especially one that expires, cookies remain a reasonable if not best choice.
-   </p>
-   <p>
-    None of this is exactly new, but I think it is worth remembering. In other news I dislike interface limitations of Chrome more and more (exceptions are Developer Tools and extensions framework).
-   </p>
-  </div>
- </body>
-</html></p>
+                <div>
+ <p>
+  I’ve been fiddling with my website again, changing theme switching from somewhat dumb class based system to a more proper one using alternate style sheets. I learned that picking a style sheet in browser applies those changes only to currently open page, so for style sheet selection to persevere it needs a bit of Javascript support from website owner. Personally I find this just stupid.
+ </p>
+ <p>
+  The easiest way to remember visitor’s preference is to store it in his browser. Cookies used to be popular before they were deemed evil, but they have other limitations as well. Hence popular switch to HTML5 in-browser storage technologies like
+  <a href="http://www.w3.org/TR/webstorage/">
+   localStorage
+  </a>
+  .
+ </p>
+ <p>
+  I think there is one important difference between cookies and tools like localStorage that is often overlooked and it’s not the size of data that can be stored. Cookies are sent with
+  <em>
+   each page request
+  </em>
+  while data stored elsewhere isn’t. Changing them on any side will automatically share state with the other. I use localStorage in my theme switcher because I think server doesn’t need and should not know which theme is used. But for storing shared data, especially one that expires, cookies remain a reasonable if not best choice.
+ </p>
+ <p>
+  None of this is exactly new, but I think it is worth remembering. In other news I dislike interface limitations of Chrome more and more (exceptions are Developer Tools and extensions framework).
+ </p>
+</div>
             </div><!-- /.entry-content -->
 
             <footer class="post-metadata">
                 <ul>
                     <li>Published on <time datetime="2011-12-19T17:05:00+01:00">Mon 19 December 2011</time> </li>
-                    <li><a href="http://markos.gaivo.net/articles/cookies-localstorage-and-shared-state.html">Add your comment</a></li>
+                    <li><a href="../cookies-localstorage-and-shared-state.html">Add your comment</a></li>
                 </ul>
             </footer>
         </article>
 
 <p class="paginator">
     Page 1 / 7
-        <a href="http://markos.gaivo.net/articles/category/general-development-web2.html">&raquo;</a>
+        <a href="../category/general-development-web2.html">&raquo;</a>
 </p>
 </section><!-- /#content -->
 

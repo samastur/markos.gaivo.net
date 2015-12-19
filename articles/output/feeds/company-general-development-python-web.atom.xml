@@ -1,45 +1,41 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>A notch above a monkey</title><link href="http://markos.gaivo.net/articles/" rel="alternate"></link><link href="/articles/feeds/company-general-development-python-web.atom.xml" rel="self"></link><id>http://markos.gaivo.net/articles/</id><updated>2006-01-21T20:52:00+01:00</updated><entry><title>New EU initiative for unified patent system</title><link href="http://markos.gaivo.net/articles/new-eu-initiative-for-unified-patent-system.html" rel="alternate"></link><updated>2006-01-21T20:52:00+01:00</updated><author><name>markos</name></author><id>tag:markos.gaivo.net,2006-01-21:articles/new-eu-initiative-for-unified-patent-system.html</id><summary type="html">&lt;p&gt;&lt;html&gt;
- &lt;body&gt;
-  &lt;div&gt;
-   &lt;p&gt;
-    The European Commission launched
-    &lt;a href="http://europa.eu.int/rapid/pressReleasesAction.do?reference=IP/06/38&amp;amp;format=HTML&amp;amp;aged=0&amp;amp;language=EN&amp;amp;guiLanguage=fr"&gt;
-     a new patent initiative
-    &lt;/a&gt;
-    that
-    &lt;a href="http://www.groklaw.net/article.php?story=20060116105000582"&gt;
-     hasn’t received
-    &lt;/a&gt;
-    a universally warm welcome. I can hardly blame them, since I too remember how unscrupulous Commission was when pushing for software patents.
-   &lt;/p&gt;
-   &lt;p&gt;
-    I wrote
-    &lt;a href="intellectual-property-and-society-benefits.html"&gt;
-     my thoughts
-    &lt;/a&gt;
-    on patents a while ago and they haven’t changed much since. But if we are going to have a patent system in Europe, and I honestly can’t see it going away anytime soon, then it’s probably better to have a common, unified one.
-   &lt;/p&gt;
-   &lt;p&gt;
-    Which is what this initiative was supposed to be about and since they are
-    &lt;a href="http://europa.eu.int/comm/internal_market/indprop/patent/consultation_en.htm"&gt;
-     asking
-    &lt;/a&gt;
-    for comments, it’s a great opportunity to present them your view. Don’t miss the deadline, which is 31 March 2006!
-   &lt;/p&gt;
-   &lt;p&gt;
-    &lt;em&gt;
-     Update: It seems there are
-    &lt;/em&gt;
-    &lt;em&gt;
-     &lt;a href="http://www.heise.de/english/newsticker/news/68626"&gt;
-      good reasons
-     &lt;/a&gt;
-    &lt;/em&gt;
-    &lt;em&gt;
-     to be concerned.
-    &lt;/em&gt;
-   &lt;/p&gt;
-  &lt;/div&gt;
- &lt;/body&gt;
-&lt;/html&gt;&lt;/p&gt;</summary></entry></feed>
+<feed xmlns="http://www.w3.org/2005/Atom"><title>A notch above a monkey</title><link href="http://markos.gaivo.net/articles/" rel="alternate"></link><link href="/articles/feeds/company-general-development-python-web.atom.xml" rel="self"></link><id>http://markos.gaivo.net/articles/</id><updated>2006-01-21T20:52:00+01:00</updated><entry><title>New EU initiative for unified patent system</title><link href="http://markos.gaivo.net/articles/new-eu-initiative-for-unified-patent-system.html" rel="alternate"></link><updated>2006-01-21T20:52:00+01:00</updated><author><name>markos</name></author><id>tag:markos.gaivo.net,2006-01-21:articles/new-eu-initiative-for-unified-patent-system.html</id><summary type="html">&lt;div&gt;
+ &lt;p&gt;
+  The European Commission launched
+  &lt;a href="http://europa.eu.int/rapid/pressReleasesAction.do?reference=IP/06/38&amp;amp;format=HTML&amp;amp;aged=0&amp;amp;language=EN&amp;amp;guiLanguage=fr"&gt;
+   a new patent initiative
+  &lt;/a&gt;
+  that
+  &lt;a href="http://www.groklaw.net/article.php?story=20060116105000582"&gt;
+   hasn’t received
+  &lt;/a&gt;
+  a universally warm welcome. I can hardly blame them, since I too remember how unscrupulous Commission was when pushing for software patents.
+ &lt;/p&gt;
+ &lt;p&gt;
+  I wrote
+  &lt;a href="intellectual-property-and-society-benefits.html"&gt;
+   my thoughts
+  &lt;/a&gt;
+  on patents a while ago and they haven’t changed much since. But if we are going to have a patent system in Europe, and I honestly can’t see it going away anytime soon, then it’s probably better to have a common, unified one.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Which is what this initiative was supposed to be about and since they are
+  &lt;a href="http://europa.eu.int/comm/internal_market/indprop/patent/consultation_en.htm"&gt;
+   asking
+  &lt;/a&gt;
+  for comments, it’s a great opportunity to present them your view. Don’t miss the deadline, which is 31 March 2006!
+ &lt;/p&gt;
+ &lt;p&gt;
+  &lt;em&gt;
+   Update: It seems there are
+  &lt;/em&gt;
+  &lt;em&gt;
+   &lt;a href="http://www.heise.de/english/newsticker/news/68626"&gt;
+    good reasons
+   &lt;/a&gt;
+  &lt;/em&gt;
+  &lt;em&gt;
+   to be concerned.
+  &lt;/em&gt;
+ &lt;/p&gt;
+&lt;/div&gt;</summary></entry></feed>

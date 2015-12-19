@@ -1,157 +1,149 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>A notch above a monkey</title><link href="http://markos.gaivo.net/articles/" rel="alternate"></link><link href="/articles/feeds/company-ui-web.atom.xml" rel="self"></link><id>http://markos.gaivo.net/articles/</id><updated>2006-04-24T16:01:00+02:00</updated><entry><title>Another voice against CAPTCHA</title><link href="http://markos.gaivo.net/articles/another-voice-against-captcha.html" rel="alternate"></link><updated>2006-04-24T16:01:00+02:00</updated><author><name>markos</name></author><id>tag:markos.gaivo.net,2006-04-24:articles/another-voice-against-captcha.html</id><summary type="html">&lt;p&gt;&lt;html&gt;
- &lt;body&gt;
-  &lt;div&gt;
-   &lt;p&gt;
-    I tried to leave a comment on
-    &lt;a href="http://www.digg.com/"&gt;
-     Digg
-    &lt;/a&gt;
-    recently and had trouble deciphering its
-    &lt;a href="http://en.wikipedia.org/wiki/Captcha"&gt;
-     CAPTCHA
-    &lt;/a&gt;
-    . I was eventually successful, but only after I got annoyed. Simply put, CAPTCHAs are evil.
-   &lt;/p&gt;
-   &lt;p&gt;
-    There’s no need to rehash why, since
-    &lt;a href="http://www.google.com/search?q=captcha+accessibility"&gt;
-     plenty
-    &lt;/a&gt;
-    has been said so far. They
-    &lt;a href="http://www.w3.org/TR/turingtest/"&gt;
-     don’t
-    &lt;/a&gt;
-    really work and they
-    &lt;a href="http://en.wikipedia.org/wiki/Captcha#Accessibility"&gt;
-     exclude
-    &lt;/a&gt;
-    lots of people even if you do use an alternative audio check. As a left-handed person, who curses every time he picks up an “ergonomically” designed scissors, I kind of imagine how it is when things are designed for a majority you don’t belong to.
-   &lt;/p&gt;
-   &lt;p&gt;
-    However, even if you could make them completely accessible (doubtful) and would somehow be able to resolve the overlap between smartest programs and, well, less-gifted humans (impossible), I’d still dislike them. What they say to your readers is: “I’ll make you work so I don’t have to.”
-   &lt;/p&gt;
-   &lt;p&gt;
-    Is this the message you want to communicate?
-   &lt;/p&gt;
-   &lt;p&gt;
-    P.S: WordPress users, you really ought to take a look at
-    &lt;a href="http://akismet.com/"&gt;
-     Akismet
-    &lt;/a&gt;
-    , if you haven’t done so.
-   &lt;/p&gt;
-  &lt;/div&gt;
- &lt;/body&gt;
-&lt;/html&gt;&lt;/p&gt;</summary></entry><entry><title>Words matter</title><link href="http://markos.gaivo.net/articles/words-matter.html" rel="alternate"></link><updated>2005-12-09T17:57:00+01:00</updated><author><name>markos</name></author><id>tag:markos.gaivo.net,2005-12-09:articles/words-matter.html</id><summary type="html">&lt;p&gt;&lt;html&gt;
- &lt;body&gt;
-  &lt;div&gt;
-   &lt;p&gt;
-    When we designed
-    &lt;a href="http://www.marela.si"&gt;
-     Marela
-    &lt;/a&gt;
-    , we obviously wanted to make it as close to perfect as possible, but we paid even more attention than usual to words and language used, since I find bad copy consistently the most annoying element of web site design.
-   &lt;/p&gt;
-   &lt;p&gt;
-    This might look odd coming from me. But not being a chef doesn’t mean I can’t enjoy or respect good cooking. So I read articles like
-    &lt;a href="http://www.digital-web.com/articles/resurrect_your_writing_redeem_your_soul/"&gt;
-     this one
-    &lt;/a&gt;
-    , hope that more people would do the same and try to do my best. I think we’re doing alright so far; no doubt largely because there are enough capable and caring souls fixing after me my stupidity and sloppiness.
-   &lt;/p&gt;
-   &lt;p&gt;
-    If the tone and words used influence how we feel and percept others in our daily communications, why is it so difficult to imagine that this is equaly true when communicating through a web site or user interface? It’s still communication.
-   &lt;/p&gt;
-   &lt;p&gt;
-    And to make this post at least moderately useful, I give you a short and far from complete list of words used in tech industry and what they actually mean:
-   &lt;/p&gt;
-   &lt;ul&gt;
-    &lt;li&gt;
-     &lt;strong&gt;
-      technology:
-     &lt;/strong&gt;
-     stuff that doesn’t quite work yet
-    &lt;/li&gt;
-    &lt;li&gt;
-     &lt;strong&gt;
-      open:
-     &lt;/strong&gt;
-     works with our stuff
-    &lt;/li&gt;
-    &lt;li&gt;
-     &lt;strong&gt;
-      robust:
-     &lt;/strong&gt;
-     works with our stuff, will break with almost anything else
-    &lt;/li&gt;
-    &lt;li&gt;
-     &lt;strong&gt;
-      quality:
-     &lt;/strong&gt;
-     works most of the time
-    &lt;/li&gt;
-    &lt;li&gt;
-     &lt;strong&gt;
-      dynamic:
-     &lt;/strong&gt;
-     you have to be flexible
-    &lt;/li&gt;
-    &lt;li&gt;
-     &lt;strong&gt;
-      proactive:
-     &lt;/strong&gt;
-     active
-    &lt;/li&gt;
-    &lt;li&gt;
-     &lt;strong&gt;
-      end user:
-     &lt;/strong&gt;
-     user
-    &lt;/li&gt;
-    &lt;li&gt;
-     &lt;strong&gt;
-      innovative:
-     &lt;/strong&gt;
-     average
-    &lt;/li&gt;
-    &lt;li&gt;
-     &lt;strong&gt;
-      world class:
-     &lt;/strong&gt;
-     average
-    &lt;/li&gt;
-    &lt;li&gt;
-     &lt;strong&gt;
-      leading:
-     &lt;/strong&gt;
-     average
-    &lt;/li&gt;
-    &lt;li&gt;
-     &lt;strong&gt;
-      cheap:
-     &lt;/strong&gt;
-     give us lots of money
-    &lt;/li&gt;
-    &lt;li&gt;
-     &lt;strong&gt;
-      partnership:
-     &lt;/strong&gt;
-     give us lots of money
-    &lt;/li&gt;
-    &lt;li&gt;
-     &lt;strong&gt;
-      professional:
-     &lt;/strong&gt;
-     give us lots of money
-    &lt;/li&gt;
-    &lt;li&gt;
-     &lt;strong&gt;
-      any 3 or 4 letter acronym:
-     &lt;/strong&gt;
-     we are smart &amp;amp; give us lots of money
-    &lt;/li&gt;
-   &lt;/ul&gt;
-  &lt;/div&gt;
- &lt;/body&gt;
-&lt;/html&gt;&lt;/p&gt;</summary></entry></feed>
+<feed xmlns="http://www.w3.org/2005/Atom"><title>A notch above a monkey</title><link href="http://markos.gaivo.net/articles/" rel="alternate"></link><link href="/articles/feeds/company-ui-web.atom.xml" rel="self"></link><id>http://markos.gaivo.net/articles/</id><updated>2006-04-24T16:01:00+02:00</updated><entry><title>Another voice against CAPTCHA</title><link href="http://markos.gaivo.net/articles/another-voice-against-captcha.html" rel="alternate"></link><updated>2006-04-24T16:01:00+02:00</updated><author><name>markos</name></author><id>tag:markos.gaivo.net,2006-04-24:articles/another-voice-against-captcha.html</id><summary type="html">&lt;div&gt;
+ &lt;p&gt;
+  I tried to leave a comment on
+  &lt;a href="http://www.digg.com/"&gt;
+   Digg
+  &lt;/a&gt;
+  recently and had trouble deciphering its
+  &lt;a href="http://en.wikipedia.org/wiki/Captcha"&gt;
+   CAPTCHA
+  &lt;/a&gt;
+  . I was eventually successful, but only after I got annoyed. Simply put, CAPTCHAs are evil.
+ &lt;/p&gt;
+ &lt;p&gt;
+  There’s no need to rehash why, since
+  &lt;a href="http://www.google.com/search?q=captcha+accessibility"&gt;
+   plenty
+  &lt;/a&gt;
+  has been said so far. They
+  &lt;a href="http://www.w3.org/TR/turingtest/"&gt;
+   don’t
+  &lt;/a&gt;
+  really work and they
+  &lt;a href="http://en.wikipedia.org/wiki/Captcha#Accessibility"&gt;
+   exclude
+  &lt;/a&gt;
+  lots of people even if you do use an alternative audio check. As a left-handed person, who curses every time he picks up an “ergonomically” designed scissors, I kind of imagine how it is when things are designed for a majority you don’t belong to.
+ &lt;/p&gt;
+ &lt;p&gt;
+  However, even if you could make them completely accessible (doubtful) and would somehow be able to resolve the overlap between smartest programs and, well, less-gifted humans (impossible), I’d still dislike them. What they say to your readers is: “I’ll make you work so I don’t have to.”
+ &lt;/p&gt;
+ &lt;p&gt;
+  Is this the message you want to communicate?
+ &lt;/p&gt;
+ &lt;p&gt;
+  P.S: WordPress users, you really ought to take a look at
+  &lt;a href="http://akismet.com/"&gt;
+   Akismet
+  &lt;/a&gt;
+  , if you haven’t done so.
+ &lt;/p&gt;
+&lt;/div&gt;</summary></entry><entry><title>Words matter</title><link href="http://markos.gaivo.net/articles/words-matter.html" rel="alternate"></link><updated>2005-12-09T17:57:00+01:00</updated><author><name>markos</name></author><id>tag:markos.gaivo.net,2005-12-09:articles/words-matter.html</id><summary type="html">&lt;div&gt;
+ &lt;p&gt;
+  When we designed
+  &lt;a href="http://www.marela.si"&gt;
+   Marela
+  &lt;/a&gt;
+  , we obviously wanted to make it as close to perfect as possible, but we paid even more attention than usual to words and language used, since I find bad copy consistently the most annoying element of web site design.
+ &lt;/p&gt;
+ &lt;p&gt;
+  This might look odd coming from me. But not being a chef doesn’t mean I can’t enjoy or respect good cooking. So I read articles like
+  &lt;a href="http://www.digital-web.com/articles/resurrect_your_writing_redeem_your_soul/"&gt;
+   this one
+  &lt;/a&gt;
+  , hope that more people would do the same and try to do my best. I think we’re doing alright so far; no doubt largely because there are enough capable and caring souls fixing after me my stupidity and sloppiness.
+ &lt;/p&gt;
+ &lt;p&gt;
+  If the tone and words used influence how we feel and percept others in our daily communications, why is it so difficult to imagine that this is equaly true when communicating through a web site or user interface? It’s still communication.
+ &lt;/p&gt;
+ &lt;p&gt;
+  And to make this post at least moderately useful, I give you a short and far from complete list of words used in tech industry and what they actually mean:
+ &lt;/p&gt;
+ &lt;ul&gt;
+  &lt;li&gt;
+   &lt;strong&gt;
+    technology:
+   &lt;/strong&gt;
+   stuff that doesn’t quite work yet
+  &lt;/li&gt;
+  &lt;li&gt;
+   &lt;strong&gt;
+    open:
+   &lt;/strong&gt;
+   works with our stuff
+  &lt;/li&gt;
+  &lt;li&gt;
+   &lt;strong&gt;
+    robust:
+   &lt;/strong&gt;
+   works with our stuff, will break with almost anything else
+  &lt;/li&gt;
+  &lt;li&gt;
+   &lt;strong&gt;
+    quality:
+   &lt;/strong&gt;
+   works most of the time
+  &lt;/li&gt;
+  &lt;li&gt;
+   &lt;strong&gt;
+    dynamic:
+   &lt;/strong&gt;
+   you have to be flexible
+  &lt;/li&gt;
+  &lt;li&gt;
+   &lt;strong&gt;
+    proactive:
+   &lt;/strong&gt;
+   active
+  &lt;/li&gt;
+  &lt;li&gt;
+   &lt;strong&gt;
+    end user:
+   &lt;/strong&gt;
+   user
+  &lt;/li&gt;
+  &lt;li&gt;
+   &lt;strong&gt;
+    innovative:
+   &lt;/strong&gt;
+   average
+  &lt;/li&gt;
+  &lt;li&gt;
+   &lt;strong&gt;
+    world class:
+   &lt;/strong&gt;
+   average
+  &lt;/li&gt;
+  &lt;li&gt;
+   &lt;strong&gt;
+    leading:
+   &lt;/strong&gt;
+   average
+  &lt;/li&gt;
+  &lt;li&gt;
+   &lt;strong&gt;
+    cheap:
+   &lt;/strong&gt;
+   give us lots of money
+  &lt;/li&gt;
+  &lt;li&gt;
+   &lt;strong&gt;
+    partnership:
+   &lt;/strong&gt;
+   give us lots of money
+  &lt;/li&gt;
+  &lt;li&gt;
+   &lt;strong&gt;
+    professional:
+   &lt;/strong&gt;
+   give us lots of money
+  &lt;/li&gt;
+  &lt;li&gt;
+   &lt;strong&gt;
+    any 3 or 4 letter acronym:
+   &lt;/strong&gt;
+   we are smart &amp;amp; give us lots of money
+  &lt;/li&gt;
+ &lt;/ul&gt;
+&lt;/div&gt;</summary></entry></feed>
