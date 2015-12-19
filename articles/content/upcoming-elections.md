@@ -2,6 +2,7 @@ Title: Upcoming elections
 Date: 2011-11-15 11:08
 Author: markos
 Category: Catchall
+Tags: compulsory voting, compulsory voting, politics, politics, preferential vote, preferential vote, slovenia, slovenia, voting, voting, voting system, voting system
 Slug: upcoming-elections
 Status: published
 Id: 848

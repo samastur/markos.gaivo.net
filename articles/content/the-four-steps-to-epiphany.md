@@ -2,6 +2,7 @@ Title: The Four Steps to Epiphany
 Date: 2009-06-01 06:57
 Author: markos
 Category: Company
+Tags: book, book, Books, Books, Business, Business, customer development, customer development, Steven Gary Blank, Steven Gary Blank
 Slug: the-four-steps-to-epiphany
 Status: published
 Id: 333

@@ -2,6 +2,7 @@ Title: View unread in Gmail and move documents in Google Docs
 Date: 2008-12-04 08:51
 Author: markos
 Category: Catchall
+Tags: Gmail, Gmail, Google, Google, Google Docs, Google Docs, trick, trick
 Slug: view-unread-in-gmail-and-move-documents-in-google-docs
 Status: published
 Id: 305

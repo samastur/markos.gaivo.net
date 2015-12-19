@@ -2,6 +2,7 @@ Title: Using canvas and Javascript to blur images
 Date: 2010-04-01 10:59
 Author: markos
 Category: Javascript, Web
+Tags: algorithm, algorithm, blur, blur, canvas, canvas, Firefox, Firefox, function, function, image, image
 Slug: using-canvas-and-javascript-to-blur-images
 Status: published
 Id: 591

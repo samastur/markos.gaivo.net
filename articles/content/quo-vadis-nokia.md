@@ -2,6 +2,7 @@ Title: Quo vadis, Nokia
 Date: 2009-01-27 17:06
 Author: markos
 Category: Catchall
+Tags: Android, Android, App Store, App Store, Apple, Apple, IPhone, IPhone, IPod Touch, IPod Touch, mobile, mobile, n770, n770, Nokia, Nokia, Symbian, Symbian, tablet, tablet
 Slug: quo-vadis-nokia
 Status: published
 Id: 314

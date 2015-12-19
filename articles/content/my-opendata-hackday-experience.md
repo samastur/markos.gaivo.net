@@ -2,6 +2,7 @@ Title: My OpenData hackday experience
 Date: 2011-10-02 20:48
 Author: markos
 Category: OpenData, Web
+Tags: Hackday, Hackday, OpenData, OpenData, tips, tips
 Slug: my-opendata-hackday-experience
 Status: published
 Id: 777

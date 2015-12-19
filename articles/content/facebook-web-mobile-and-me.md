@@ -2,6 +2,7 @@ Title: Facebook, web, mobile and me
 Date: 2009-12-20 16:35
 Author: markos
 Category: General development, Web
+Tags: Facebook, Facebook, future, future, HTML 5, HTML 5, Mobile Web, Mobile Web, Social network, Social network, Web browser, Web browser
 Slug: facebook-web-mobile-and-me
 Status: published
 Id: 527

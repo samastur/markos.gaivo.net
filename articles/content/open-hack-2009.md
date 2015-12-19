@@ -2,6 +2,7 @@ Title: Open Hack 2009
 Date: 2009-05-15 08:02
 Author: markos
 Category: Catchall, General development, Web
+Tags: hack, hack, openhack, openhack, openhacklondon, openhacklondon, yahoo, yahoo
 Slug: open-hack-2009
 Status: published
 Id: 329

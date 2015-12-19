@@ -2,6 +2,7 @@ Title: Exporting tagged articles from Google Reader
 Date: 2013-03-24 19:48
 Author: markos
 Category: Python
+Tags: backup, backup, export, export, Google, Google, openweb, openweb, Python, Python, reader, reader, script, script
 Slug: exporting-tagged-items-from-google-reader
 Status: published
 Id: 1097

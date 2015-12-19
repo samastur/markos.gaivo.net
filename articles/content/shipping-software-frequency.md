@@ -2,6 +2,7 @@ Title: Shipping software frequency
 Date: 2008-11-30 20:45
 Author: markos
 Category: General development
+Tags: Paul Graham, Paul Graham, Programming, Programming, shipping, shipping
 Slug: shipping-software-frequency
 Status: published
 Id: 304

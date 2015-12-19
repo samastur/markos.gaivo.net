@@ -2,6 +2,7 @@ Title: Leaving App Engine - for now
 Date: 2008-08-30 21:50
 Author: markos
 Category: Python, Web
+Tags: App Engine, App Engine, Django, Django, Google, Google, Google App Engine, Google App Engine, Python, Python
 Slug: leaving-app-engine-for-now
 Status: published
 Id: 287

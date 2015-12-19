@@ -2,6 +2,7 @@ Title: Books I read in 2010
 Date: 2011-01-23 18:45
 Author: markos
 Category: Catchall
+Tags: book, book, Books, Books, review, review
 Slug: books-i-read-in-2010
 Status: published
 Id: 639

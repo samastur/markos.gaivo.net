@@ -2,6 +2,7 @@ Title: 6th anniversary of wwwh
 Date: 2011-10-05 12:30
 Author: markos
 Category: Spletne urice
+Tags: spletne urice, spletne urice, talks, talks, wwwh, wwwh
 Slug: 6th-anniversary-of-wwwh
 Status: published
 Id: 807

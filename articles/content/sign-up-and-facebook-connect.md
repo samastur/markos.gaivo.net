@@ -2,6 +2,7 @@ Title: Sign-up, Facebook Connect and ownership
 Date: 2010-06-08 20:35
 Author: markos
 Category: General development, UI, Web
+Tags: Facebook, Facebook, Facebook Connect, Facebook Connect, Joshua Porter, Joshua Porter, relationship, relationship, sign-up, sign-up, ux, ux
 Slug: sign-up-and-facebook-connect
 Status: published
 Id: 598

@@ -2,6 +2,7 @@ Title: Impostor for Django
 Date: 2011-02-22 20:11
 Author: markos
 Category: Django, Python, Web
+Tags: Django, Django, Impostor, Impostor, Password, Password, Python, Python, Security, Security
 Slug: impostor-for-django
 Status: published
 Id: 649

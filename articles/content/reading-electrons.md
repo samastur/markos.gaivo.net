@@ -2,6 +2,7 @@ Title: Reading electrons
 Date: 2009-03-08 18:45
 Author: markos
 Category: Catchall
+Tags: Amazon Kindle, Amazon Kindle, E-book, E-book, IPod Touch, IPod Touch, Kindle, Kindle, Reading, Reading, Sony Reader, Sony Reader, Technology, Technology
 Slug: reading-electrons
 Status: published
 Id: 321

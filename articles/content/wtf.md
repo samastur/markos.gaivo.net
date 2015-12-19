@@ -2,6 +2,7 @@ Title: WTF?
 Date: 2008-11-27 23:47
 Author: markos
 Category: Catchall
+Tags: idiot, idiot, politics, politics, repulsive, repulsive, rupel, rupel
 Slug: wtf
 Status: published
 Id: 300

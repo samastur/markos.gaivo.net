@@ -2,6 +2,7 @@ Title: Pseudorandom thoughts of overworked developer
 Date: 2009-08-22 09:25
 Author: markos
 Category: Javascript
+Tags: democracy, democracy, Facebook, Facebook, html5, html5, Nokia, Nokia, Privacy, Privacy, Spam, Spam, tablet, tablet, Twitter, Twitter, web development, web development
 Slug: pseudorandom-thoughts-of-overworked-developer
 Status: published
 Id: 360

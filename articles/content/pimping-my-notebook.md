@@ -2,6 +2,7 @@ Title: Pimping my notebook
 Date: 2011-11-06 19:41
 Author: markos
 Category: Catchall
+Tags: 3D printing, 3D printing, fix, fix, Google SketchUp, Google SketchUp, hack, hack, Laptop, Laptop, Mozilla, Mozilla, pimp, pimp, Shapeways, Shapeways, Sony, Sony, VAIO, VAIO
 Slug: pimping-my-notebook
 Status: published
 Id: 827

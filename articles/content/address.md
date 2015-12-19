@@ -2,6 +2,7 @@ Title: <address>
 Date: 2011-08-26 17:26
 Author: markos
 Category: General development, Web
+Tags: Data Formats, Data Formats, HTML, HTML, HTML element, HTML element, Ian Hickson, Ian Hickson, Markup Languages, Markup Languages
 Slug: address
 Status: published
 Id: 734

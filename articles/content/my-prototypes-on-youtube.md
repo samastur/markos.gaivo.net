@@ -2,6 +2,7 @@ Title: My prototypes on YouTube
 Date: 2010-03-26 12:22
 Author: markos
 Category: Company, UI
+Tags: interactions, interactions, job, job, prototype, prototype, prototypes, prototypes, Zemanta, Zemanta
 Slug: my-prototypes-on-youtube
 Status: published
 Id: 588

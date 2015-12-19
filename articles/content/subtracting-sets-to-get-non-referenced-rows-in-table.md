@@ -2,6 +2,7 @@ Title: Subtracting sets to get non-referenced rows in table.
 Date: 2012-10-02 00:07
 Author: markos
 Category: General development
+Tags: algorithm, algorithm, shell, shell, sql, sql
 Slug: subtracting-sets-to-get-non-referenced-rows-in-table
 Status: published
 Id: 1014

@@ -2,6 +2,7 @@ Title: DjangoCon Europe 2014?
 Date: 2013-12-22 19:29
 Author: markos
 Category: Django, Python
+Tags: conference, conference, Django, Django, DjangoCon, DjangoCon
 Slug: djangocon-europe-2014
 Status: published
 Id: 1161

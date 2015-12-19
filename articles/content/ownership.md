@@ -2,6 +2,7 @@ Title: Ownership
 Date: 2012-12-26 14:40
 Author: markos
 Category: Catchall, Web
+Tags: gadgets, gadgets, hardware, hardware, ownership, ownership, Privacy, Privacy, rights, rights
 Slug: ownership
 Status: published
 Id: 1048

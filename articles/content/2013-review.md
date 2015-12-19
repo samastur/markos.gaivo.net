@@ -2,6 +2,7 @@ Title: 2013 review
 Date: 2014-01-01 23:22
 Author: markos
 Category: Catchall
+Tags: 2013, 2013, annual review, annual review, review, review
 Slug: 2013-review
 Status: published
 Id: 1186

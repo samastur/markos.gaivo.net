@@ -2,6 +2,7 @@ Title: Simplifying registration forms
 Date: 2008-12-29 07:30
 Author: markos
 Category: Javascript
+Tags: forms, forms, Javascript, Javascript, Password, Password, UI, UI, Web, Web
 Slug: simplifying-registration-forms
 Status: published
 Id: 312

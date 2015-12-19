@@ -2,6 +2,7 @@ Title: Bolivia - land of llamas, mines and amazing beauty
 Date: 2012-08-01 23:42
 Author: markos
 Category: Catchall
+Tags: bolivia, bolivia, guides, guides, mines, mines, recommendations, recommendations, tips, tips, travel, travel
 Slug: bolivia-land-of-llamas-mines-and-amazing-beauty
 Status: published
 Id: 971

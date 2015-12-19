@@ -2,6 +2,7 @@ Title: Chirp, Squawk, Cackle, or Honk*
 Date: 2014-07-10 17:01
 Author: markos
 Category: Web
+Tags: critique, critique, culture, culture, media, media, society, society, toxic, toxic, Twitter, Twitter, Web, Web
 Slug: chirp-squawk-cackle-or-honk
 Status: published
 Id: 1203

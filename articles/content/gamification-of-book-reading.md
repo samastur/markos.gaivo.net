@@ -2,6 +2,7 @@ Title: Gamification of book reading
 Date: 2011-05-11 17:15
 Author: markos
 Category: General development, Web
+Tags: Books, Books, gamemechanics, gamemechanics, Gamification, Gamification, Kathy Sierra, Kathy Sierra, Reading, Reading
 Slug: gamification-of-book-reading
 Status: published
 Id: 664

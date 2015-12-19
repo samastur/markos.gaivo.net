@@ -2,6 +2,7 @@ Title: Dreaming about arithmetic mean
 Date: 2010-01-24 11:44
 Author: markos
 Category: General development, Javascript
+Tags: algorithm, algorithm, Arithmetic mean, Arithmetic mean, bug, bug, Computer science, Computer science, Javascript, Javascript, Programming, Programming
 Slug: dreaming-about-arithmetic-mean
 Status: published
 Id: 549

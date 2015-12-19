@@ -2,6 +2,7 @@ Title: On ubiquitousness of 3D printing
 Date: 2012-11-18 15:14
 Author: markos
 Category: Catchall
+Tags: 3D printing, 3D printing, diy, diy, future, future, manufacture, manufacture
 Slug: on-ubiquitousness-of-3d-printing
 Status: published
 Id: 1022

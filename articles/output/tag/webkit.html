@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+        <title>A notch above a monkey - webkit</title>
+        <meta charset="utf-8" />
+        <link rel="shortcut icon" href="theme/img/markos.ico" />
+
+        <link href="http://fast.fonts.com/cssapi/aee9b60b-8e94-47f8-b586-3ecbfab51d1c.css" rel="stylesheet" type="text/css" />
+        <link rel="stylesheet" type="text/css" href="theme/css/home.css" media="screen" title="Light theme" />
+        <link rel="alternate stylesheet" type="text/css" href="theme/css/home_dark.css" media="screen" title="Dark theme" />
+        <link rel="stylesheet" href="theme/css/ipad.css" media="only screen and (min-device-width : 768px) and (max-device-width : 1024px)">
+        <link rel="stylesheet" type="text/css" href="theme/css/smallscreen.css" media="only screen and (max-width: 700px)" />
+
+        <link href="/articles/feeds/atom.xml" type="application/atom+xml" rel="alternate" title="A notch above a monkey Full Atom Feed" />
+        <link href="/articles/feeds/rss.xml" type="application/rss+xml" rel="alternate" title="A notch above a monkey Full RSS Feed" />
+</head>
+
+<body>
+
+
+<section class="envelope posts">
+    <header>
+        <h1><a href="http://markos.gaivo.net/articles/">A notch above a monkey <strong></strong></a></h1>
+    </header><!-- /#banner -->
+
+    <nav class="colophon">
+        <h1>By Marko Samastur</h1>
+        <ul>
+            <li><a href="/">About me</a></li>
+            <li><a href="/articles/feeds/atom.xml">Subscribe</a></li>
+        </ul>
+    </nav>
+
+        <article class="hentry">
+            <h1 class="entry-title storytitle"><a href="http://markos.gaivo.net/articles/beta-prefix-algorithm-for-css.html" rel="bookmark" title="Permalink to -beta- prefix algorithm for CSS">-beta- prefix algorithm for CSS</a></h1>
+
+            <div class="entry-content post-text">
+                <p><html>
+ <body>
+  <div>
+   <p>
+    These have been eventful couple of days for web developers. CSS Working Group chair
+    <a href="http://www.glazman.org/weblog/dotclear/index.php?post/2012/02/09/CALL-FOR-ACTION%3A-THE-OPEN-WEB-NEEDS-YOU-NOW">
+     called on everyone
+    </a>
+    to use all (most?) vendor prefixes and stop making websites for WebKit which is becoming a new (mobile) IE6. Responses have been numerous,
+    <a href="http://www.quirksmode.org/blog/archives/2012/02/the_vendor_pref.html" title="PPK's first article about prefixes">
+     including
+    </a>
+    <a href="http://www.quirksmode.org/blog/archives/2012/02/alpha_and_beta.html" title="PPK's follow up to first article">
+     ppk
+    </a>
+    who in his usual obnoxious manner
+    <sup>
+     <a href="#beta-prefix-note-1" id="beta-prefix-1">
+      [1]
+     </a>
+    </sup>
+    made some good points. Testing on mobile devices is an unsolved problem (who wants or can afford to buy so many almost immediately obsolete gadgets?) and introducing -beta- (maybe also -alpha-) prefix would simplify our lives while keeping most benefits of vendor prefixes.
+   </p>
+   <p>
+    I like -beta- idea and I think adding -alpha- might be even better. There’s still a problem of resolving syntax conflicts between different implementation which I think has a simple solution that closely mimics what browsers already do:
+   </p>
+   <p>
+    <em>
+     When parsing CSS browsers
+    </em>
+    <em>
+     should apply the last matching -beta-/-alpha- directive they fully understand.
+    </em>
+   </p>
+   <p>
+    Browsers already ignore directives they don’t understand and they apply last directive found when there are multiple candidates for a DOM node.
+   </p>
+   <p>
+    Such behavior would give us less CSS code to write and maintain, have predictable behavior and keep browser experimentation without favoring one. I have troubles finding negative sides of this approach, but do let me know if you can think of one.
+   </p>
+   <ol>
+    <li id="beta-prefix-note-1">
+     I deeply dislike his complaining about simplistic view of others while himself generalizing and name-calling (the lazy and stupid lot of us). Alas it’s not good to read only people you like and agree with.
+     <a href="#beta-prefix-1">
+      ↩
+     </a>
+    </li>
+    <li>
+     Almost everything I write on this blog has an intended  audience of one:  me (no, really!). Why I sometimes write posts like  this, which don’t, is a mistery  since their expected and actual effect on anyone  is…none.
+    </li>
+   </ol>
+  </div>
+ </body>
+</html></p>
+            </div><!-- /.entry-content -->
+
+            <footer class="post-metadata">
+                <ul>
+                    <li>Published on <time datetime="2012-02-10T18:21:00+01:00">Fri 10 February 2012</time> </li>
+                    <li><a href="http://markos.gaivo.net/articles/beta-prefix-algorithm-for-css.html">Add your comment</a></li>
+                </ul>
+            </footer>
+        </article>
+        <article class="hentry">
+            <h1 class="entry-title storytitle"><a href="http://markos.gaivo.net/articles/beta-prefix-algorithm-for-css.html" rel="bookmark" title="Permalink to -beta- prefix algorithm for CSS">-beta- prefix algorithm for CSS</a></h1>
+
+            <div class="entry-content post-text">
+                <p><html>
+ <body>
+  <div>
+   <p>
+    These have been eventful couple of days for web developers. CSS Working Group chair
+    <a href="http://www.glazman.org/weblog/dotclear/index.php?post/2012/02/09/CALL-FOR-ACTION%3A-THE-OPEN-WEB-NEEDS-YOU-NOW">
+     called on everyone
+    </a>
+    to use all (most?) vendor prefixes and stop making websites for WebKit which is becoming a new (mobile) IE6. Responses have been numerous,
+    <a href="http://www.quirksmode.org/blog/archives/2012/02/the_vendor_pref.html" title="PPK's first article about prefixes">
+     including
+    </a>
+    <a href="http://www.quirksmode.org/blog/archives/2012/02/alpha_and_beta.html" title="PPK's follow up to first article">
+     ppk
+    </a>
+    who in his usual obnoxious manner
+    <sup>
+     <a href="#beta-prefix-note-1" id="beta-prefix-1">
+      [1]
+     </a>
+    </sup>
+    made some good points. Testing on mobile devices is an unsolved problem (who wants or can afford to buy so many almost immediately obsolete gadgets?) and introducing -beta- (maybe also -alpha-) prefix would simplify our lives while keeping most benefits of vendor prefixes.
+   </p>
+   <p>
+    I like -beta- idea and I think adding -alpha- might be even better. There’s still a problem of resolving syntax conflicts between different implementation which I think has a simple solution that closely mimics what browsers already do:
+   </p>
+   <p>
+    <em>
+     When parsing CSS browsers
+    </em>
+    <em>
+     should apply the last matching -beta-/-alpha- directive they fully understand.
+    </em>
+   </p>
+   <p>
+    Browsers already ignore directives they don’t understand and they apply last directive found when there are multiple candidates for a DOM node.
+   </p>
+   <p>
+    Such behavior would give us less CSS code to write and maintain, have predictable behavior and keep browser experimentation without favoring one. I have troubles finding negative sides of this approach, but do let me know if you can think of one.
+   </p>
+   <ol>
+    <li id="beta-prefix-note-1">
+     I deeply dislike his complaining about simplistic view of others while himself generalizing and name-calling (the lazy and stupid lot of us). Alas it’s not good to read only people you like and agree with.
+     <a href="#beta-prefix-1">
+      ↩
+     </a>
+    </li>
+    <li>
+     Almost everything I write on this blog has an intended  audience of one:  me (no, really!). Why I sometimes write posts like  this, which don’t, is a mistery  since their expected and actual effect on anyone  is…none.
+    </li>
+   </ol>
+  </div>
+ </body>
+</html></p>
+            </div><!-- /.entry-content -->
+
+            <footer class="post-metadata">
+                <ul>
+                    <li>Published on <time datetime="2012-02-10T18:21:00+01:00">Fri 10 February 2012</time> </li>
+                    <li><a href="http://markos.gaivo.net/articles/beta-prefix-algorithm-for-css.html">Add your comment</a></li>
+                </ul>
+            </footer>
+        </article>
+
+<p class="paginator">
+    Page 1 / 1
+</p>
+</section><!-- /#content -->
+
+    <footer>
+        <ul>
+            <li>&copy; 2005-2015 Marko Samastur</li>
+            <li><a href="/articles/feeds/rss.xml" rel="alternate" title="A notch above a monkey Full RSS Feed">Entries feed</a></li>
+        </ul>
+        <a href="/"><img src="/img/markos_light_small_bg.png" alt="logo" class="mini-logo" /></a>
+    </footer>
+</body>
+</html>

@@ -2,6 +2,7 @@ Title: IE6 - hope of web standards
 Date: 2009-01-20 20:49
 Author: markos
 Category: General development, Web
+Tags: Firefox, Firefox, HTML, HTML, html5, html5, Internet Explorer 6, Internet Explorer 6, standards, standards, WWW, WWW
 Slug: ie6-hope-of-web-standards
 Status: published
 Id: 313

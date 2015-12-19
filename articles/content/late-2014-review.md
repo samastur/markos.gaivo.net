@@ -2,6 +2,7 @@ Title: Late 2014 review
 Date: 2015-01-25 23:03
 Author: markos
 Category: Catchall
+Tags: 2014, 2014, annual review, annual review, review, review
 Slug: late-2014-review
 Status: published
 Id: 1262

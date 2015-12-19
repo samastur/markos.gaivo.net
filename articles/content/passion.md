@@ -2,6 +2,7 @@ Title: Passion
 Date: 2012-09-17 23:23
 Author: markos
 Category: General development
+Tags: development, development, dogma, dogma, insight, insight, mental framework, mental framework, passion, passion
 Slug: passion
 Status: published
 Id: 1005

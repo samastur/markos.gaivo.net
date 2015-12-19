@@ -2,6 +2,7 @@ Title: Namibia
 Date: 2008-10-12 00:10
 Author: markos
 Category: Catchall
+Tags: Germany, Germany, Namibia, Namibia, Web 2.0, Web 2.0, Web 2.0 Expo in Berlin, Web 2.0 Expo in Berlin
 Slug: namibia
 Status: published
 Id: 288

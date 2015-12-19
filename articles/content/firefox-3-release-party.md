@@ -2,6 +2,7 @@ Title: Firefox 3 Release Party
 Date: 2008-06-23 10:35
 Author: markos
 Category: Web
+Tags: Browsers, Browsers, Firefox, Firefox, Firefox 3, Firefox 3, Mozilla Firefox, Mozilla Firefox, WWW, WWW
 Slug: firefox-3-release-party
 Status: published
 Id: 267

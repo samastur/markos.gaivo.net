@@ -2,6 +2,7 @@ Title: Going home
 Date: 2008-07-10 10:02
 Author: markos
 Category: Python
+Tags: europython, europython, europython2008, europython2008, Languages, Languages, Open source, Open source, Programming, Programming, Python, Python
 Slug: going-home
 Status: published
 Id: 280

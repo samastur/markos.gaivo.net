@@ -2,6 +2,7 @@ Title: Game mechanics on web
 Date: 2009-04-12 14:34
 Author: markos
 Category: Web
+Tags: design, design, Game Design, Game Design, Game mechanic, Game mechanic, Raph Koster, Raph Koster, story, story, Web, Web
 Slug: game-mechanics-on-web
 Status: published
 Id: 325

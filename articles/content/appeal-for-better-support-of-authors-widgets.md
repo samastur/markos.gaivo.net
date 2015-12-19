@@ -2,6 +2,7 @@ Title: Appeal for a better support of authors widgets
 Date: 2010-03-03 18:06
 Author: markos
 Category: Company, General development, Web
+Tags: blogging, blogging, browser, browser, editors, editors, future, future, platforms, platforms, widgets, widgets
 Slug: appeal-for-better-support-of-authors-widgets
 Status: published
 Id: 572

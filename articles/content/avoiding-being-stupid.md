@@ -2,6 +2,7 @@ Title: Not being wrong
 Date: 2013-12-29 23:28
 Author: markos
 Category: Catchall
+Tags: argument, argument, discussion, discussion, persuasion, persuasion, questions, questions, stupidity, stupidity, Tools, Tools
 Slug: avoiding-being-stupid
 Status: published
 Id: 1175

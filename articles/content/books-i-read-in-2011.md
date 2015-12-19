@@ -2,6 +2,7 @@ Title: The books I read in 2011
 Date: 2012-01-02 17:21
 Author: markos
 Category: Catchall
+Tags: book, book, Books, Books, review, review
 Slug: books-i-read-in-2011
 Status: published
 Id: 912

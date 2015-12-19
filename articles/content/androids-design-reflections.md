@@ -2,6 +2,7 @@ Title: Android's design reflections
 Date: 2011-10-30 16:40
 Author: markos
 Category: Catchall
+Tags: Android, Android, design, design, IPhone, IPhone, Nokia, Nokia, ux, ux
 Slug: androids-design-reflections
 Status: published
 Id: 818

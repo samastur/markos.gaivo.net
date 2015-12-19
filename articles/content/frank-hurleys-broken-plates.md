@@ -2,6 +2,7 @@ Title: Frank Hurley's broken plates
 Date: 2012-03-23 19:32
 Author: markos
 Category: Catchall
+Tags: copyright, copyright, exhibition, exhibition, frank hurley, frank hurley, hurley, hurley, photography, photography, scott, scott, shackleton, shackleton
 Slug: frank-hurleys-broken-plates
 Status: published
 Id: 953

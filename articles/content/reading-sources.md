@@ -2,6 +2,7 @@ Title: Reading sources
 Date: 2011-11-21 11:37
 Author: markos
 Category: General development, Web
+Tags: google reader, google reader, information, information, knowledge, knowledge, social news, social news, sources, sources
 Slug: reading-sources
 Status: published
 Id: 865

@@ -2,6 +2,7 @@ Title: OpenData HackDay - April 2012
 Date: 2012-04-17 07:39
 Author: markos
 Category: OpenData
+Tags: Hackday, Hackday, open data, open data, OpenData, OpenData
 Slug: opendata-hackday-april-2012
 Status: published
 Id: 964

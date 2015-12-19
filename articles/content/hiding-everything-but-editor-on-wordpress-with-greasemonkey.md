@@ -2,6 +2,7 @@ Title: Hiding everything but editor on WordPress with Greasemonkey
 Date: 2008-08-23 23:08
 Author: markos
 Category: Catchall, Javascript
+Tags: Add-on, Add-on, Blog, Blog, Firefox, Firefox, greasemonkey, greasemonkey, WordPress, WordPress
 Slug: hiding-everything-but-editor-on-wordpress-with-greasemonkey
 Status: published
 Id: 286

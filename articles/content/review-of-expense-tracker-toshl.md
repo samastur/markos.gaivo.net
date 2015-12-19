@@ -2,6 +2,7 @@ Title: Review of expense tracker Toshl
 Date: 2010-06-25 10:35
 Author: markos
 Category: Catchall
+Tags: expense tracking, expense tracking, ThirdFrameStudios, ThirdFrameStudios, Toshl, Toshl
 Slug: review-of-expense-tracker-toshl
 Status: published
 Id: 604

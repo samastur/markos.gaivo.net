@@ -2,6 +2,7 @@ Title: Javascript: The Good Parts and string.split problem
 Date: 2009-03-29 11:15
 Author: markos
 Category: Javascript, Web
+Tags: bug, bug, Douglas Crockford, Douglas Crockford, ie, ie, Javascript, Javascript, JavaScript: The Good Parts, JavaScript: The Good Parts, Programming, Programming, Regular expression, Regular expression
 Slug: javascript-the-good-parts-and-stringsplit-problem
 Status: published
 Id: 322
