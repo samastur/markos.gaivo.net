@@ -3,8 +3,22 @@
 {% block title %}{{ SITENAME }} - Tags{% endblock %}
 
 {% block content %}
+<section class="envelope posts">
+    <header>
+        <h1><a href="{{ SITEURL }}/">{{ SITENAME }} <strong>{{ SITESUBTITLE }}</strong></a></h1>
+    </header><!-- /#banner -->
+
+    <nav class="colophon">
+        <h1>By Marko Samastur</h1>
+        <ul>
+            <li><a href="/">About me</a></li>
+            <li><a href="{{ SITE_URL }}/articles/feeds/atom.xml">Subscribe</a></li>
+        </ul>
+    </nav>
+
     <h1>Tags for {{ SITENAME }}</h1>
     {%- for tag, articles in tags|sort %}
         <li><a href="{{ SITEURL }}/{{ tag.url }}">{{ tag }}</a> ({{ articles|count }})</li>
     {% endfor %}
+</section><!-- /#content -->
 {% endblock %}
