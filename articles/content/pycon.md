@@ -6,15 +6,11 @@ Slug: pycon
 Status: published
 Id: 129
 
-<html>
- <body>
-  <div>
-   <p>
-    The worst thing about PyCon are all those posts from people who got to go.
-   </p>
-   <p>
-    Envy is a bitch.
-   </p>
-  </div>
- </body>
-</html>
+<div>
+ <p>
+  The worst thing about PyCon are all those posts from people who got to go.
+ </p>
+ <p>
+  Envy is a bitch.
+ </p>
+</div>

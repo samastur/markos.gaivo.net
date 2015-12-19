@@ -6,19 +6,15 @@ Slug: ipred2-derailed
 Status: published
 Id: 82
 
-<html>
- <body>
-  <div>
-   <p>
-    Well, I’ve jumped the gun. It seems IPRED2 has been
-    <a href="http://wiki.ffii.org/Ipred2En">
-     derailed
-    </a>
-    (at least for a while).
-   </p>
-   <p>
-    Still, better this than being right.
-   </p>
-  </div>
- </body>
-</html>
+<div>
+ <p>
+  Well, I’ve jumped the gun. It seems IPRED2 has been
+  <a href="http://wiki.ffii.org/Ipred2En">
+   derailed
+  </a>
+  (at least for a while).
+ </p>
+ <p>
+  Still, better this than being right.
+ </p>
+</div>

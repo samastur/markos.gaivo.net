@@ -6,19 +6,15 @@ Slug: framestack-technique-and-accessibility
 Status: published
 Id: 12
 
-<html>
- <body>
-  <div>
-   <p>
-    <strong>
-     Error:
-    </strong>
-    No such file found! Please make sure
-    <code>
-     http://markos.gaivo.net/blog/code/framestack1.txt
-    </code>
-    exists.
-   </p>
-  </div>
- </body>
-</html>
+<div>
+ <p>
+  <strong>
+   Error:
+  </strong>
+  No such file found! Please make sure
+  <code>
+   http://markos.gaivo.net/blog/code/framestack1.txt
+  </code>
+  exists.
+ </p>
+</div>

@@ -6,16 +6,12 @@ Slug: gaivo-jabber-server
 Status: published
 Id: 174
 
-<html>
- <body>
-  <div>
-   <p>
-    Gaivo Jabber server is back, which means
-    <a href="http://markos.gaivo.net/blog/?page_id=66">
-     my Jabber account
-    </a>
-    works again.
-   </p>
-  </div>
- </body>
-</html>
+<div>
+ <p>
+  Gaivo Jabber server is back, which means
+  <a href="http://markos.gaivo.net/blog/?page_id=66">
+   my Jabber account
+  </a>
+  works again.
+ </p>
+</div>

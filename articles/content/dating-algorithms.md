@@ -2,8 +2,8 @@ Title: Dating algorithms
 Date: 2014-02-06 21:18
 Author: markos
 Category: Catchall, Web
-Tags: ai, ai, algorithms, algorithms, machine learning, machine learning, prism, prism, profiling, profiling, recommendations, recommendations, sociology, sociology
-Slug: 1094
+Tags: profiling, ai, machine learning, prism, sociology, algorithms, recommendations
+Slug: dating-algorithms
 Status: draft
 Id: 1094
 

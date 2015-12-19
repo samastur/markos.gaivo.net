@@ -6,19 +6,15 @@ Slug: code-misery
 Status: published
 Id: 203
 
-<html>
- <body>
-  <div>
-   <p>
-    <strong>
-     Error:
-    </strong>
-    No such file found! Please make sure
-    <code>
-     http://markos.gaivo.net/blog/code/vecerjscrap.txt
-    </code>
-    exists.
-   </p>
-  </div>
- </body>
-</html>
+<div>
+ <p>
+  <strong>
+   Error:
+  </strong>
+  No such file found! Please make sure
+  <code>
+   http://markos.gaivo.net/blog/code/vecerjscrap.txt
+  </code>
+  exists.
+ </p>
+</div>

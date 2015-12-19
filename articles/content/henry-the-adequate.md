@@ -6,16 +6,12 @@ Slug: henry-the-adequate
 Status: published
 Id: 171
 
-<html>
- <body>
-  <div>
-   <p>
-    Finally somebody who makes
-    <a href="http://weblog.henrytheadequate.com/?p=348">
-     sense
-    </a>
-    .
-   </p>
-  </div>
- </body>
-</html>
+<div>
+ <p>
+  Finally somebody who makes
+  <a href="http://weblog.henrytheadequate.com/?p=348">
+   sense
+  </a>
+  .
+ </p>
+</div>

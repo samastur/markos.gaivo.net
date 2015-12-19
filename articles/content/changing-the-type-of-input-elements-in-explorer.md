@@ -6,18 +6,14 @@ Slug: changing-the-type-of-input-elements-in-explorer
 Status: published
 Id: 193
 
-<html>
- <body>
-  <div>
-   <p>
-    Building XHTML using DOM methods is annoying as it is without strange errors making things worse. Today I stumbled on a new problem when testing improved organizer in Internet Explorer.
-   </p>
-   <p>
-    If you are creating INPUT elements with non-default types (that is other than text input), then you have to change their type BEFORE you attach them to document tree. Otherwise Explorer might complain.
-   </p>
-   <p>
-    I haven’t had time to test this  sufficiently and frankly I’d rather do something else on Sunday evening, so there might be some cases where above doesn’t hold true. But if you find yourself looking at such an error, it doesn’t hurt to try my remedy.
-   </p>
-  </div>
- </body>
-</html>
+<div>
+ <p>
+  Building XHTML using DOM methods is annoying as it is without strange errors making things worse. Today I stumbled on a new problem when testing improved organizer in Internet Explorer.
+ </p>
+ <p>
+  If you are creating INPUT elements with non-default types (that is other than text input), then you have to change their type BEFORE you attach them to document tree. Otherwise Explorer might complain.
+ </p>
+ <p>
+  I haven’t had time to test this  sufficiently and frankly I’d rather do something else on Sunday evening, so there might be some cases where above doesn’t hold true. But if you find yourself looking at such an error, it doesn’t hurt to try my remedy.
+ </p>
+</div>

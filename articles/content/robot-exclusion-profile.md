@@ -6,19 +6,15 @@ Slug: robot-exclusion-profile
 Status: published
 Id: 151
 
-<html>
- <body>
-  <div>
-   <p>
-    <strong>
-     Error:
-    </strong>
-    No such file found! Please make sure
-    <code>
-     http://markos.gaivo.net/blog/code/robots-exclusion.txt
-    </code>
-    exists.
-   </p>
-  </div>
- </body>
-</html>
+<div>
+ <p>
+  <strong>
+   Error:
+  </strong>
+  No such file found! Please make sure
+  <code>
+   http://markos.gaivo.net/blog/code/robots-exclusion.txt
+  </code>
+  exists.
+ </p>
+</div>

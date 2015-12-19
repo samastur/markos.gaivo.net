@@ -6,12 +6,8 @@ Slug: gillette-phone
 Status: published
 Id: 166
 
-<html>
- <body>
-  <div>
-   <p>
-    How many people would buy a heavily discounted mobile phone with fixed but upfront known lifetime?
-   </p>
-  </div>
- </body>
-</html>
+<div>
+ <p>
+  How many people would buy a heavily discounted mobile phone with fixed but upfront known lifetime?
+ </p>
+</div>
