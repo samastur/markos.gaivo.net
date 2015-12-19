@@ -160,7 +160,8 @@ def wp2fields(xml, wp_custpost=False):
             categories = [cat.string for cat in item.findAll('category', {'domain': 'category'})]
             # caturl = [cat['nicename'] for cat in item.find(domain='category')]
 
-            tags = [tag.string for tag in item.findAll('category', {'domain': 'post_tag'})]
+            #tags = [tag.string for tag in item.findAll('category', {'domain': 'post_tag'})]
+            tags = [tag.string for tag in item.findAll('category', {'domain': 'tag'})]
             # To publish a post the status should be 'published'
             status = 'published' if item.find('status').string == "publish" else item.find('status').string
 
