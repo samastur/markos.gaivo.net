@@ -77,7 +77,7 @@ def decode_wp_content(content, br=True):
     content = re.sub(r'<p>([^<]+)</(div|address|form)>', "<p>\\1</p></\\2>", content)
     # don't wrap tags
     content = re.sub(r'<p>\s*(</?' + allblocks + r'[^>]*>)\s*</p>', "\\1", content)
-    #problem with nested lists
+    # problem with nested lists
     content = re.sub(r'<p>(<li.*)</p>', "\\1", content)
     content = re.sub(r'<p><blockquote([^>]*)>', "<blockquote\\1><p>", content)
     content = content.replace('</blockquote></p>', '</p></blockquote>')
@@ -158,10 +158,10 @@ def wp2fields(xml, wp_custpost=False):
             author = item.find('creator').string
 
             categories = [cat.string for cat in item.findAll('category', {'domain': 'category'})]
-            # caturl = [cat['nicename'] for cat in item.find(domain='category')]
 
-            #tags = [tag.string for tag in item.findAll('category', {'domain': 'post_tag'})]
-            tags = [tag.string for tag in item.findAll('category', {'domain': 'tag'})]
+            tags = list({tag.string for tag in item.findAll('category',
+                                                            {'domain':
+                                                             'tag'})})
             # To publish a post the status should be 'published'
             status = 'published' if item.find('status').string == "publish" else item.find('status').string
 
@@ -384,7 +384,14 @@ def fix_internal_links(content, id_slugs):
                 link.attrs['href'] = "{}.html".format(slug)
             else:
                 print('Unknown post id:', pid)
-    return soup.prettify()
+    # BS wrapped everything in <html><body>. Fetch real content -- again.
+    articles = soup.select(".post-text")
+    if len(articles):
+        article = articles[0]
+        del article['class']
+    else:  # Handling content straight from XML
+        article = soup
+    return article.prettify()
 
 
 def get_post_content(pid, posts_dir):
@@ -396,7 +403,6 @@ def get_post_content(pid, posts_dir):
             # Get only content which is stored in <article>
             soup = BeautifulSoup(f.read())
             article = soup.select(".post-text")[0]
-            del article['class']
             content = article.prettify()
     return content
 
@@ -412,6 +418,11 @@ def fields2pelican(fields, out_markup, output_path,
             kind, in_markup, post_id) in fields:
         if filter_author and filter_author != author:
             continue
+
+        # Fix for #1094
+        if str(post_id) == '1094':
+            filename = slugify(title)
+
         slug = not disable_slugs and filename or None
 
         if wp_attach and attachments:
@@ -443,6 +454,8 @@ def fields2pelican(fields, out_markup, output_path,
                 fetched_html = True
             if content:
                 content = fix_internal_links(content, id2slugs)
+        if not fetched_html:
+            print('Check content for {0} (fetched from XML)'.format(filename))
 
         if not fetched_html and in_markup in ("html", "wp-html"):
             html_filename = os.path.join(output_path, filename + '.html')
