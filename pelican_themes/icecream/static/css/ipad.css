@@ -1,8 +1,0 @@
-body > footer {position:static;clear:left;height:auto;padding:15px 0 0;text-align:center;}
-body > footer ul {margin:0 0 0 20px;}
-body > footer > span {display:block;width:100%;text-align:center;clear:both;}
-body > footer .mini-logo {position:static;clear:left;}
-
-/* Single post page */
-.colophon {font-variant:normal;}
-.post > footer li {font-variant:normal;}

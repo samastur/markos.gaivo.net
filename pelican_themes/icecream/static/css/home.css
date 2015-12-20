@@ -192,3 +192,71 @@ OL.code code {
 .cookie-buttons > input {
     margin: 0 1em;
 }
+
+@media (min-device-width : 768px) and (max-device-width : 1024px) {
+    body > footer {position:static;clear:left;height:auto;padding:15px 0 0;text-align:center;}
+    body > footer ul {margin:0 0 0 20px;}
+    body > footer > span {display:block;width:100%;text-align:center;clear:both;}
+    body > footer .mini-logo {position:static;clear:left;}
+    
+    /* Single post page */
+    .colophon {font-variant:normal;}
+    .post > footer li {font-variant:normal;}
+}
+
+@media (max-width: 767px) {
+    /* Intro */
+    .intro .envelope {width:100%;margin:0;}
+    .intro aside {max-width:100%;}
+    .intro aside ul {width:10em;margin:0 0 0 -5em;}
+    .intro aside .vcard li {float:none;margin:0;}
+    
+    /* General blog */
+    .mini-logo {position:static;} /* Logo in footer */
+    
+    /* About me */
+    section.envelope {width:91%;margin:2em 4% 0;}
+    .about {float:none;clear:both;max-width:35em;width:100%;padding:0 0 2em;}
+    aside {position:static;float:none;max-width:35em;width:100%;padding:0 0 2em;}
+    aside .photo {float:left;}
+    
+    .vcard ul {float:left;width:10em;margin:0;}
+    .vcard li {margin:0;}
+    #elsewhere {float:none;clear:left;width:100%;}
+    
+    body > footer {position:static;clear:left;height:auto;padding:0;text-align:center;}
+    body > footer > span {display:block;width:100%;text-align:center;clear:both;}
+    body > footer li {float:none;}
+    body > footer li a:before {content:"";}
+    body > footer .mini-logo {position:static;}
+    
+    /* Single post page */
+    .post {width:100%;}
+    .post > footer {position:static;clear:both;width:100%;border:0;margin:0 0 1em;}
+    .post > footer ul {padding:0;}
+    .post > footer li {text-indent:0;font-variant:normal;}
+    .post .post-comments, .post .categories {display:none;}
+    .post .post-text {clear:both;}
+    
+    .post .theme {position:absolute;top:-2em;right:0;margin:0;}
+    
+    ol.comments {padding:0 0 0 1em;}
+    .comments article {float:none;width:100%;}
+    .comments cite {font-size:1em;}
+    
+    .comment-form li {margin:0 0 1.4em;}
+    .comment-form label {float:none;}
+    .comment-form input[type=email], .comment-form input[type=text], .comment-form textarea {width:100%;}
+    
+    /* Multi post page */
+    .posts {width:100%;}
+    .posts article {width:100%;}
+    .colophon {position:static;width:100%;margin:0;padding:0;font-variant:normal;}
+    .colophon h1 {margin:21px 0 0;}
+    .colophon ul {width:100%;overflow:hidden;margin:0;}
+    .colophon li {float:left;margin:0 2em 0 0;}
+    .colophon .theme {position:absolute;top:2em;right:2%;margin:0;}
+    
+    /* Images */
+    .alignleft, .alignright, .imageL img, .imageR img {float:none;clear:both;margin:.7em 0;max-width:100%;}
+}
