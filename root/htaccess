@@ -66,3 +66,30 @@ RedirectMatch 301 /blog/code/(.*)$ /articles_code/$1
 RedirectMatch 301 /blog/page/.*$ /articles
 RedirectMatch 301 /blog/(.*)/$ /articles/$1.html
 RedirectMatch 302 /blog/ /articles/
+
+#
+# CACHING
+#
+# 1 YEAR
+<FilesMatch "\.(ico|pdf|flv)$">
+Header set Cache-Control "max-age=29030400, public"
+</FilesMatch>
+ 
+# 1 WEEK
+<FilesMatch "\.(jpg|jpeg|png|gif|swf)$">
+Header set Cache-Control "max-age=604800, public"
+</FilesMatch>
+
+<FilesMatch "\.(xml|txt|css|js)$">
+Header set Cache-Control "max-age=604800, public"
+</FilesMatch>
+ 
+# 2 DAYS
+# <FilesMatch "\.(xml|txt|css|js)$">
+# Header set Cache-Control "max-age=172800, proxy-revalidate"
+# </FilesMatch>
+ 
+# 15 MIN
+<FilesMatch "\.(html|htm)$">
+Header set Cache-Control "max-age=900, private, proxy-revalidate"
+</FilesMatch>
