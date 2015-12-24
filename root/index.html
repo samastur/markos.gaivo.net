@@ -6,8 +6,8 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0" /> 
 
 	<link href="http://fast.fonts.com/cssapi/aee9b60b-8e94-47f8-b586-3ecbfab51d1c.css" rel="stylesheet" type="text/css" />
-	<link rel="stylesheet" type="text/css" href="articles/theme/css/home.min.css" media="screen" title="Light theme" />
-	<link rel="alternate stylesheet" type="text/css" href="articles/theme/css/home_dark.min.css" media="screen" title="Dark theme" />
+	<link rel="stylesheet" type="text/css" href="articles/theme/css/home.css" media="screen" title="Light theme" />
+	<link rel="alternate stylesheet" type="text/css" href="articles/theme/css/home_dark.css" media="screen" title="Dark theme" />
 	<link rel="shortcut icon" href="img/markos.ico" />
 
 	<!--[if lt IE 9]>
@@ -21,19 +21,19 @@
 				<img src="img/me.jpg" alt="Picture of me" class="photo" />
 				<ul>
 					<li><span class="fn">Marko Samastur</span></li>
-					<li><address class="email"><a href="mailto:markos@gaivo.net">markos@gaivo.net</a></address></li>
-					<li><a href="http://markos.gaivo.net/articles/" class="website url">My blog</a></li>
+					<li><address class="email"><a href="mailto:markos@gaivo.net"><i class="icon icon-email-16x16"></i> markos@gaivo.net</a></address></li>
+					<li><a href="http://markos.gaivo.net/articles/" class="url"><i class="icon icon-website-16x16"></i> My blog</a></li>
 				</ul>
 			</div>
 			<div id="elsewhere">
 				<p>My footprints elsewhere on the web:</p>
 				<ul>
-					<li class="github"><a href="https://github.com/samastur" rel="me" title="Some of my code"><img src="img/github-24x24.png" alt="Github" /></a></li>
-					<li class="linkedin"><a href="http://si.linkedin.com/in/markosamastur" rel="me" title="Hire me"><img src="img/linkedin-24x24.png" alt="LinkedIn" /></a></li>
-					<li class="twitter"><a href="http://twitter.com/samastur" rel="me" title="Follow me on Twitter"><img src="img/twitter-24x24.png" alt="Twitter" /></a></li>
-					<li class="lanyrd"><a href="http://lanyrd.com/people/samastur/" rel="me" title="Meet me at a conference"><img src="img/lanyrd-24x24.png" alt="Lanyrd" /></a></li>
-					<li class="flickr"><a href="http://www.flickr.com/photos/markos/" rel="me" title="My photos"><img src="img/flickr-24x24.png" alt="Flickr" /></a></li>
-					<li class="youtube"><a href="http://www.youtube.com/user/msamastur" rel="me" title="Interaction design videos"><img src="img/youtube-24x24.png" alt="YouTube" /></a></li>
+					<li class="github"><a href="https://github.com/samastur" rel="me" title="Some of my code"><i aria-label="Github" class="icon icon-github-24x24"></i></a></li>
+					<li class="linkedin"><a href="http://si.linkedin.com/in/markosamastur" rel="me" title="Hire me"><i aria-label="LinkedIn" class="icon icon-linkedin-24x24"></i></a></li>
+					<li class="lanyrd"><a href="http://lanyrd.com/people/samastur/" rel="me" title="Meet me at a conference"><i aria-label="Lanyrd" class="icon icon-lanyrd-24x24"></i></a></li>
+					<li class="flickr"><a href="http://www.flickr.com/photos/markos/" rel="me" title="My photos"><i aria-label="Flickr" class="icon icon-flickr-24x24"></i></a></li>
+					<li class="youtube"><a href="http://www.youtube.com/user/msamastur" rel="me" title="Interaction design videos"><i aria-label="YouTube" class="icon icon-youtube-24x24"></i></a></li>
+					<li class="twitter"><a href="http://twitter.com/samastur" rel="me" title="Follow me on Twitter"><i aria-label="Twitter" class="icon icon-twitter-24x24"></i></a></li>
 				</ul>
 			</div>
 		</aside>
@@ -62,7 +62,7 @@
 			<a href="http://si.linkedin.com/in/markosamastur" title="Hire me">
 			LinkedIn</a> or contact me for further information.</p>
 
-			<h2>License & Disclaimer</h2>
+			<h2>License &amp; Disclaimer</h2>
 
 			<p>You are free to use code found on my pages in any way you please,
 			as long as I'm not responsible for consequences. If it breaks and
@@ -79,30 +79,37 @@
 		Icons by <a href="http://paulrobertlloyd.com/2009/06/social_media_icons">Paul Robert Lloyd</a>.</span>
 		<a href="/"><img src="img/markos_light_small_bg.png" alt="logo" class="mini-logo" /></a>
 	</footer>
-	<script src="js/jquery.js"></script>
 	<script>
-jQuery(function ($) {
+(function () {
+	var css = document.querySelector('link[title="Dark theme"]'),
+	    theme = "";
+
 	function storage_support() {
+		// Modernizr approach
+		var mod = 'modernizr';
 		try {
-			return 'localStorage' in window && window['localStorage'] !== null;
-		} catch(e) {
+			localStorage.setItem(mod, mod);
+			localStorage.removeItem(mod);
+			return true;
+		} catch (e) {
 			return false;
 		}
 	}
 
 	// Read from local storage if it exists and set to its value
-	if (storage_support() && 'theme' in localStorage) {
-		theme = localStorage['theme'];
-		$('link[title="Dark theme"]').attr("disabled", theme === "dark" ? false : true);
+	if (storage_support()) {
+		theme = localStorage.getItem('theme') || "";
+		css.disabled = true; // Work around browser quirk where initial false does nothing
+		css.disabled = (theme === "dark" ? false : true);
 	}
 
 	// Save settings on page unload (to support browser stylesheet switching)
-	$(window).bind("unload", function (e) {
+	window.addEventListener("unload", function (e) {
 		if (storage_support()) {
-			localStorage['theme'] = $('link[title="Dark theme"]').attr("disabled") ? "" : "dark";
+			localStorage['theme'] = css.disabled ? "" : "dark";
 		}
 	});
-});
+})();
 	</script>
 </body>
 </html>
