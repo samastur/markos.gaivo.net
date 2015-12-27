@@ -17,6 +17,7 @@ Author: markos
 Category:
 Slug: {slug}
 Status: draft
+Tags:
 
 '''
 
