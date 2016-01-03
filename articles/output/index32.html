@@ -30,6 +30,48 @@
     </nav>
 
         <article class="hentry">
+            <h1 class="entry-title storytitle"><a href="./triggering-a-server-request-on-onunload-event.html" rel="bookmark" title="Permalink to Triggering a server request on onunload event">Triggering a server request on onunload event</a></h1>
+
+            <div class="entry-content post-text">
+                <div>
+ <p>
+  A while ago I tried to trigger an AJAX call to server in
+  <em>
+   onunload
+  </em>
+  handler and failed miserably. It simply didn’t work in major browsers and I filled the idea under can’t-be-done.
+ </p>
+ <p>
+  I recently got another reason to revisit this problem and came up with a new-old idea. Since in my case I don’t care about server response, I don’t actually need XMLHttpRequest. Any technique that triggers a call to server is good enough, so why not try creating an image and setting its
+  <em>
+   url
+  </em>
+  attribute to appropriate value.
+ </p>
+ <p>
+  It turns out that this works almost everywhere. It worked pretty flawlessly in Firefox, Opera and Internet Explorer, but it doesn’t work in Safari and Konqueror, which makes me think that KHTML/Webkit family of browsers in general don’t support it.
+ </p>
+ <p>
+  This is not its only limitation. Technique obviously works only for GET calls, which is frowned upon and generally dangerous for actions that change state. I also suspect it works less well on slower computers or networks so you might need to delay event handler ending by buying some time with needless processing after you’ve set
+  <em>
+   url
+  </em>
+  attribute.
+ </p>
+ <p>
+  Still, it might be another useful hack to have if you can live with its limitations.
+ </p>
+</div>
+            </div><!-- /.entry-content -->
+
+            <footer class="post-metadata">
+                <ul>
+                    <li>Published on <time datetime="2008-03-26T16:32:00+01:00">Wed 26 March 2008</time> </li>
+                    <li><a href="./triggering-a-server-request-on-onunload-event.html">Add your comment</a></li>
+                </ul>
+            </footer>
+        </article>
+        <article class="hentry">
             <h1 class="entry-title storytitle"><a href="./javascript-events-drugic.html" rel="bookmark" title="Permalink to Javascript events - drugi??">Javascript events - drugi??</a></h1>
 
             <div class="entry-content post-text">
@@ -88,32 +130,6 @@
                 <ul>
                     <li>Published on <time datetime="2008-02-15T18:23:00+01:00">Fri 15 February 2008</time> </li>
                     <li><a href="./javascript-events.html">Add your comment</a></li>
-                </ul>
-            </footer>
-        </article>
-        <article class="hentry">
-            <h1 class="entry-title storytitle"><a href="./javascript-objekti.html" rel="bookmark" title="Permalink to Javascript objekti">Javascript objekti</a></h1>
-
-            <div class="entry-content post-text">
-                <div>
- <p>
-  Naslednji teden, v sredo, predavam na
-  <a href="http://web.zen.si/">
-   Spletnih uricah
-  </a>
-  v
-  <a href="http://www.kiberpipa.org/">
-   Kiberpipi
-  </a>
-  . Tema predavanja bodo objekti v Javascriptu. Žal sem med pripravami ugotovil, da je tokratna tema ne le obširna, ampak verjetno tudi preobširna za eno predavanje. Zato prosim morebitne obiskovalce, da mi v komentarjih pustijo oceno, kako dolgo predavanje še ni predolgo in ??esa si ne želijo slišati? Dobrodošle so seveda tudi vse želje, vprašanja in pripombe.Na vsem odprto predavanje brez vstopnine ste vabljeni vsi, ki vas tema zanima in bi želeli izvedeti ve??. Osnovno znanje Javascripta ali njemu podobnega jezika (C, PHP…) je zaželjeno.
- </p>
-</div>
-            </div><!-- /.entry-content -->
-
-            <footer class="post-metadata">
-                <ul>
-                    <li>Published on <time datetime="2008-01-19T16:05:00+01:00">Sat 19 January 2008</time> </li>
-                    <li><a href="./javascript-objekti.html">Add your comment</a></li>
                 </ul>
             </footer>
         </article>

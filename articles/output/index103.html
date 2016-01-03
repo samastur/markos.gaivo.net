@@ -30,6 +30,58 @@
     </nav>
 
         <article class="hentry">
+            <h1 class="entry-title storytitle"><a href="./scaling-image-buttons.html" rel="bookmark" title="Permalink to Scaling image buttons">Scaling image buttons</a></h1>
+
+            <div class="entry-content post-text">
+                <div>
+ <p>
+  There’s one thing that really bothers me, when it comes to design of forms. Well, more than one really, but let’s limit this discussion to just one.
+ </p>
+ <p>
+  Submit buttons.
+ </p>
+ <p>
+  I can’t stand their look, especially geek chic design of early nineties presented in Firefox and its relatives. I guess industrial look and Motif widgets were never really my taste. But even more pleasant design of buttons in Safari can look out of place with some designs.
+ </p>
+ <p>
+  There’s also an alternative that is often used. Image input buttons (type=image) can provide a more pleasant look, but they have one big disadvantage compared to submit buttons. They don’t scale. Not really something I’d want in an accessible interface.
+ </p>
+ <p>
+  I used a hardly novel
+  <a href="http://clagnut.com/sandbox/imagetest/" title="Clagnut's image tests">
+   idea
+  </a>
+  of defining image measurements in relative units. Browsers usually don’t do this. They lay it out in original size using absolute values. Hence, when you change the size of fonts, the size of image stays the same. But if you use relative units, you get desired scaling effect. It might look like crap, but at least it can be readable for people with impaired vision.
+ </p>
+ <p>
+  As you can see in simple
+  <a href="http://markos.gaivo.net/examples/imgbutton/index.html">
+   demo
+  </a>
+  , experiments with em’s haven’t worked really well. There are two distinct problems. First is to find the relative size that doesn’t stretch an image in either direction. Second, to do this in a cross-browser compatible way.
+ </p>
+ <p>
+  My demo kind of works in Safari, but not really in Firefox and I have no idea about rest of the bunch. So, has anyone solved this problem?
+ </p>
+ <p>
+  <em>
+   Update: I managed to get a better result. You can read about it
+   <a href="scaling-image-buttons-part-2.html">
+    here.
+   </a>
+  </em>
+ </p>
+</div>
+            </div><!-- /.entry-content -->
+
+            <footer class="post-metadata">
+                <ul>
+                    <li>Published on <time datetime="2005-09-28T10:53:00+02:00">Wed 28 September 2005</time> </li>
+                    <li><a href="./scaling-image-buttons.html">Add your comment</a></li>
+                </ul>
+            </footer>
+        </article>
+        <article class="hentry">
             <h1 class="entry-title storytitle"><a href="./spletne-urice-v-kiberpipi.html" rel="bookmark" title="Permalink to Spletne urice v kiberpipi">Spletne urice v kiberpipi</a></h1>
 
             <div class="entry-content post-text">
@@ -90,66 +142,6 @@
                 <ul>
                     <li>Published on <time datetime="2005-09-24T21:13:00+02:00">Sat 24 September 2005</time> </li>
                     <li><a href="./fans.html">Add your comment</a></li>
-                </ul>
-            </footer>
-        </article>
-        <article class="hentry">
-            <h1 class="entry-title storytitle"><a href="./proper-way-of-email-quoting.html" rel="bookmark" title="Permalink to Proper way of email quoting">Proper way of email quoting</a></h1>
-
-            <div class="entry-content post-text">
-                <div>
- <p>
-  I was reading Roger Johansson’s blog and came to a
-  <a href="http://www.456bereastreet.com/archive/200509/sensible_email/">
-   post
-  </a>
-  about message quoting. It reminded me of something I wrote last time I observed a flamewar between
-  <a href="http://en.wikipedia.org/wiki/Top-posting">
-   top-posting
-  </a>
-  and inline-replies proponents. This is a rough translation from Slovene:
- </p>
- <blockquote>
-  <p>
-   &gt; Because it messes up the flow of reading.
-   <br/>
-   &gt; &gt; Why is replying about quotations annoying?
-  </p>
-  <p>
-   Could you please stop with that? I don’t mean just the author of this message, but the general attitude of forcing people to use one, true way of quoting.
-  </p>
-  <p>
-   Both approaches, a reply under a short quotation or a whole message about the previous one, have their place and choice should be based on current need. So it’s good to be aware of their consequences on resulting dialog.
-  </p>
-  <p>
-   Short quotations followed by replies are meaningful when lost context from clipped text doesn’t hurt understanding too much. This means they are useful mainly for short, fact-oriented answers to concrete questions.
-  </p>
-  <p>
-   They are more or less inappropriate for longer, more involved dialog because they transfer focus from whole text to particular sentences. Lost context just raises probability of misunderstanding.
-  </p>
-  <p>
-   Endless threads, quarreling about insignificant issues, off-topic threads etc. are a normal and expected byproduct of such discussion. Even a cursory glance over
-   <list>
-    archives proves this.
-   </list>
-  </p>
-  <p>
-   It’s much better for a dialog, if reply is placed above the message, but ONLY when it’s self-contained and meaningful even without the original message. Attached original is therefore at most a friendly reminder for forgetful minds.
-  </p>
-  <p>
-   Picking right form is a matter of personal judgment and hence a source of mistakes. But this certainly can’t be a reason to howl down somebody.
-  </p>
- </blockquote>
- <p>
-  I still believe this is true. I find myself using inline replies more often than not, but I do use top-posting when occasions calls for it and I don’t think I’m a lesser being for it.
- </p>
-</div>
-            </div><!-- /.entry-content -->
-
-            <footer class="post-metadata">
-                <ul>
-                    <li>Published on <time datetime="2005-09-23T17:54:00+02:00">Fri 23 September 2005</time> </li>
-                    <li><a href="./proper-way-of-email-quoting.html">Add your comment</a></li>
                 </ul>
             </footer>
         </article>

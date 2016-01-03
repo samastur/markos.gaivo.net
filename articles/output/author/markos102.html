@@ -31,6 +31,72 @@
     </nav>
 
         <article class="hentry">
+            <h1 class="entry-title storytitle"><a href="../scaling-image-buttons-part-2.html" rel="bookmark" title="Permalink to Scaling image buttons - part 2">Scaling image buttons - part 2</a></h1>
+
+            <div class="entry-content post-text">
+                <div>
+ <p>
+  A few days ago I
+  <a href="scaling-image-buttons.html" title="Previous post on this topic">
+   wrote
+  </a>
+  about a difficult goal of having a pleasantly looking submit button that is also as accessible as possible. I also had a simple
+  <a href="http://markos.gaivo.net/examples/imgbutton/index.html">
+   demo
+  </a>
+  that almost worked, but not quite.
+ </p>
+ <p>
+  I played with it a bit more and actually got it working as far as I imagined I could. You can see the result
+  <a href="http://markos.gaivo.net/examples/imgbutton2/index.html" title="New demo">
+   here
+  </a>
+  (just change the size of fonts).
+ </p>
+ <p>
+  What I did is set base font size in all browsers to a known value as described by
+  <a href="http://www.clagnut.com/blog/348/" title="link to description on Clagnut blog">
+   Richard
+  </a>
+  . It isn’t really necessary to use 62.5%, but it does reset initial size to 10 pixels, which is a value that is easy to work with.
+ </p>
+ <p>
+  Then I just set height of an image button to its real size, but using em’s instead of pixels. In my case that’s 25 px or 2.5 em’s.  I also set font-size of input button to 1 em, which for some reason is needed in browsers other than Safari, to enforce 10px size for fonts and 25px height for the button.
+ </p>
+ <p>
+  That’s it. Button is now resizable and has its original size by default.
+ </p>
+ <p>
+  Solution, which is entirely CSS based, is not perfect and I don’t believe it will ever be. Or at least not using incarnations of XHTML and CSS that we have now.
+ </p>
+ <p>
+  As can be clearly seen on the demo, it all comes down to a choice between better legibility of scaled
+  <em>
+   type=submit
+  </em>
+  buttons and more flexible design of
+  <em>
+   type=image
+  </em>
+  buttons.
+ </p>
+ <p>
+  I imagine I could do better with multiple sizes of an image for each button and using javascript swapping, but it wouldn’t work where javascript is missing and multiple images would significantly add to production costs.
+ </p>
+ <p>
+  Personally, I think web sites should have a design readable for vast majority of its readers even without text scaling and this trick can be good enough for the rest. However, at the same time I don’t expect to use it often.
+ </p>
+</div>
+            </div><!-- /.entry-content -->
+
+            <footer class="post-metadata">
+                <ul>
+                    <li>Published on <time datetime="2005-10-01T09:28:00+02:00">Sat 01 October 2005</time> </li>
+                    <li><a href="../scaling-image-buttons-part-2.html">Add your comment</a></li>
+                </ul>
+            </footer>
+        </article>
+        <article class="hentry">
             <h1 class="entry-title storytitle"><a href="../tim-bray-at-ooocon-2005.html" rel="bookmark" title="Permalink to Tim Bray at OOoCon 2005">Tim Bray at OOoCon 2005</a></h1>
 
             <div class="entry-content post-text">
@@ -118,58 +184,6 @@
                 <ul>
                     <li>Published on <time datetime="2005-09-28T20:57:00+02:00">Wed 28 September 2005</time> </li>
                     <li><a href="../best-tool-for-the-job.html">Add your comment</a></li>
-                </ul>
-            </footer>
-        </article>
-        <article class="hentry">
-            <h1 class="entry-title storytitle"><a href="../scaling-image-buttons.html" rel="bookmark" title="Permalink to Scaling image buttons">Scaling image buttons</a></h1>
-
-            <div class="entry-content post-text">
-                <div>
- <p>
-  There’s one thing that really bothers me, when it comes to design of forms. Well, more than one really, but let’s limit this discussion to just one.
- </p>
- <p>
-  Submit buttons.
- </p>
- <p>
-  I can’t stand their look, especially geek chic design of early nineties presented in Firefox and its relatives. I guess industrial look and Motif widgets were never really my taste. But even more pleasant design of buttons in Safari can look out of place with some designs.
- </p>
- <p>
-  There’s also an alternative that is often used. Image input buttons (type=image) can provide a more pleasant look, but they have one big disadvantage compared to submit buttons. They don’t scale. Not really something I’d want in an accessible interface.
- </p>
- <p>
-  I used a hardly novel
-  <a href="http://clagnut.com/sandbox/imagetest/" title="Clagnut's image tests">
-   idea
-  </a>
-  of defining image measurements in relative units. Browsers usually don’t do this. They lay it out in original size using absolute values. Hence, when you change the size of fonts, the size of image stays the same. But if you use relative units, you get desired scaling effect. It might look like crap, but at least it can be readable for people with impaired vision.
- </p>
- <p>
-  As you can see in simple
-  <a href="http://markos.gaivo.net/examples/imgbutton/index.html">
-   demo
-  </a>
-  , experiments with em’s haven’t worked really well. There are two distinct problems. First is to find the relative size that doesn’t stretch an image in either direction. Second, to do this in a cross-browser compatible way.
- </p>
- <p>
-  My demo kind of works in Safari, but not really in Firefox and I have no idea about rest of the bunch. So, has anyone solved this problem?
- </p>
- <p>
-  <em>
-   Update: I managed to get a better result. You can read about it
-   <a href="scaling-image-buttons-part-2.html">
-    here.
-   </a>
-  </em>
- </p>
-</div>
-            </div><!-- /.entry-content -->
-
-            <footer class="post-metadata">
-                <ul>
-                    <li>Published on <time datetime="2005-09-28T10:53:00+02:00">Wed 28 September 2005</time> </li>
-                    <li><a href="../scaling-image-buttons.html">Add your comment</a></li>
                 </ul>
             </footer>
         </article>
