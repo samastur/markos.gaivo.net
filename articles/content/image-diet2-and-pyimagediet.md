@@ -16,4 +16,6 @@ It's implemented as a Django storage backend augmenting default one, but can eas
 
 To avoid unnecessary duplication I have also released [pyimagediet](https://pypi.python.org/pypi/pyimagediet), a small library on which image-diet2 depends, that actually process files. It also comes with a tool to compress images and generate configuration file tailored to your system. If you can think of anything that would make integration even easier, then please let me know.
 
-### Next steps
+### Next
+
+There are few missing bits left, but functionality is mostly complete. What I plan to do next is to test different configurations to find out which one work best and with what kind of tradeoffs. 
