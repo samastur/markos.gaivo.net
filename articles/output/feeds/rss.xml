@@ -1,5 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>A notch above a monkey</title><link>http://markos.gaivo.net/articles/</link><description></description><atom:link href="/articles/feeds/rss.xml" rel="self"></atom:link><lastBuildDate>Mon, 04 Jan 2016 13:56:00 +0100</lastBuildDate><item><title>Books I read in 2015</title><link>http://markos.gaivo.net/articles/books-i-read-in-2015.html</link><description>&lt;p&gt;2015 was a year of completely &lt;a href="http://markos.gaivo.net/articles/2015-review.html"&gt;missed plans&lt;/a&gt; and that was equally true when it came to reading. I read even fewer books than a year before, but at least I am happy with my picks. There were no complete duds and I liked almost all of them.&lt;/p&gt;
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>A notch above a monkey</title><link>http://markos.gaivo.net/articles/</link><description></description><atom:link href="/articles/feeds/rss.xml" rel="self"></atom:link><lastBuildDate>Tue, 19 Jan 2016 21:00:17 +0100</lastBuildDate><item><title>image-diet2 and pyimagediet</title><link>http://markos.gaivo.net/articles/image-diet2-and-pyimagediet.html</link><description>&lt;p&gt;Couple of years ago I hacked together a small Django app called &lt;a href="http://"&gt;image-diet&lt;/a&gt; which automatically compresses images processed by Easy Thumbnails as they are uploaded to a website. Its code was atrocious with configuration for external tools baked in, it only worked with &lt;a href="https://github.com/SmileyChris/easy-thumbnails"&gt;Easy Thumbnails&lt;/a&gt; and Python2 and...I could go on, but it worked and at &lt;a href="http://aptivate.org"&gt;Aptivate&lt;/a&gt; we have been using it successfully ever since.&lt;/p&gt;
+&lt;p&gt;Well, I finally found time and rewrote the whole thing. New version is now called &lt;a href="https://pypi.python.org/pypi/image-diet2"&gt;image-diet2&lt;/a&gt; because it is completely backwards incompatible and I screwed up versioning of the original one. Mea culpa.&lt;/p&gt;
+&lt;p&gt;It's implemented as a Django storage backend augmenting default one, but can easily be added as a mixin to any other so it should work no matter which tool or backend you use to upload files. Supporting new compression tools or changing configuration of existing does not require a new release or poking in virtualenv anymore. It is better &lt;a href="https://travis-ci.org/samastur/image-diet2"&gt;tested&lt;/a&gt;, &lt;a href="http://image-diet2.readthedocs.org/"&gt;documented&lt;/a&gt; and is not limited to 2.x branch of Python anymore. You really should give it a try.&lt;/p&gt;
+&lt;p&gt;image-diet2 is actually a thin Django wrapper around separately packaged &lt;a href="https://pypi.python.org/pypi/pyimagediet"&gt;pyimagediet&lt;/a&gt; that actually process files. My hope is that others may find it useful enough to use it on non-Django projects. It also comes with a tool to compress images and generate configuration file tailored to your system. If you can think of anything else that would make integration even easier, then please let me know.&lt;/p&gt;
+&lt;p&gt;There are few bits still missing, but functionality is mostly complete. What I plan to do next is to test different configurations to find how well they work and what are their tradeoffs. Prior useful work such as &lt;a href="http://www.css-ig.net/png-tools-overview"&gt;this&lt;/a&gt; exists, but I'd like tests to be more expansive and in reusable format. They need to be easily replicable by anyone as their versions of processing tools might give different results than mine.&lt;/p&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">markos</dc:creator><pubDate>Tue, 19 Jan 2016 21:00:17 +0100</pubDate><guid>tag:markos.gaivo.net,2016-01-19:articles/image-diet2-and-pyimagediet.html</guid><category>low-bandwidth</category><category>django</category><category>compression</category><category>image</category><category>optimisation</category></item><item><title>Books I read in 2015</title><link>http://markos.gaivo.net/articles/books-i-read-in-2015.html</link><description>&lt;p&gt;2015 was a year of completely &lt;a href="http://markos.gaivo.net/articles/2015-review.html"&gt;missed plans&lt;/a&gt; and that was equally true when it came to reading. I read even fewer books than a year before, but at least I am happy with my picks. There were no complete duds and I liked almost all of them.&lt;/p&gt;
 &lt;p&gt;We bought a Kindle Voyager before our 3 months journey, but I did not read enough on it to form a definite opinion. I prefer to read programming books on tablet, but for everything else Kindle feels better. Paper still works best for me unless I want to make notes.&lt;/p&gt;
 &lt;p&gt;I have started an experiment of marking interesting parts and bookmarking them with Post-It bookmarks so I can return and transcribe them once I have finished the book. It is definitely more work than just sliding a finger across screen, but I am curious to see how this turns out. &lt;/p&gt;
 &lt;p&gt;As always unaffiliated links point to Amazon and are there only for those that are at least fine. I did not provide a link for The Trial because my copy doesn't have one and I am not familiar with any of the many available editions. Bold is reserved for those I found best: &lt;em&gt;Missing Person, Poor Economics and The Arab of the Future&lt;/em&gt;. &lt;/p&gt;
@@ -852,79 +856,4 @@
  &lt;p&gt;
   My expectations are not evolved enough to be plans, but I imagine 2014 to be even more development intensive than 2013 was. It seems I won’t be attending many conferences, but I don’t expect to be bored. More than anything I hope it will be great year for my family and friends.
  &lt;/p&gt;
-&lt;/div&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">markos</dc:creator><pubDate>Wed, 01 Jan 2014 23:22:00 +0100</pubDate><guid>tag:markos.gaivo.net,2014-01-01:articles/2013-review.html</guid><category>review</category><category>annual review</category><category>2013</category></item><item><title>Not being wrong</title><link>http://markos.gaivo.net/articles/avoiding-being-stupid.html</link><description>&lt;div&gt;
- &lt;p&gt;
-  Autumn was busy and I did not finish any of the posts I started. I won’t do that now either, but at least I can try to soothe my guilty conscience by getting my rougher than usual thoughts out with hope of updating and polishing them later.
- &lt;/p&gt;
- &lt;p&gt;
-  I expect it doesn’t take much effort to dig up words younger me wrote full of misplaced certainty and eagerness to
-  &lt;a href="http://xkcd.com/386/"&gt;
-   set things right
-  &lt;/a&gt;
-  . No doubt I can still display both of these “virtues”, but I try not to and to limit the damage I use few psychological tricks such as postponing reply when possible, concentrating first on non-contentious parts when it isn’t and asking questions to help me understand how probable it is that I am wrong and what is driving my response. I’ve been compiling questions and this is what I have so far:
- &lt;/p&gt;
- &lt;p&gt;
-  &lt;em&gt;
-   Do I want to believe in the result or position? Does it benefit or suit me?
-  &lt;/em&gt;
-  &lt;br/&gt;
-  You can always be wrong, but there’s better than usual chance of this when your beliefs coincide with your incentives whatever those are
-  &lt;sup&gt;
-   &lt;a href="#avoid-stupid-1-note" id="avoid-stupid-1"&gt;
-    [1]
-   &lt;/a&gt;
-  &lt;/sup&gt;
-  .
- &lt;/p&gt;
- &lt;p&gt;
-  &lt;em&gt;
-   How do I feel about a problem if I replace the group A in it with some other group B?
-  &lt;/em&gt;
-  &lt;br/&gt;
-  Do I feel or think differently about an issue if it involves a stranger instead of a friend or gays instead of women? If yes, then why? Are reasons substantial and substantiated or do they point to a prejudice?
- &lt;/p&gt;
- &lt;p&gt;
-  &lt;em&gt;
-   Why am I trying to say this?
-  &lt;/em&gt;
-  &lt;br/&gt;
-  Not what I am trying to say! It’s easy to have an opinion, but I avoid voicing most of them by being sufficiently busy. So when I do want to speak up I try to understand the motives driving me since they are also the source of biases.
- &lt;/p&gt;
- &lt;p&gt;
-  &lt;em&gt;
-   Is it a matter of a principle or degree?
-  &lt;/em&gt;
-  &lt;br/&gt;
-  I see this mistake most often when new technological developments are judged on assumptions that may (soon) not be true anymore, but the problem is general. When disagreeing with something I try to imagine conditions under which I wouldn’t and the likelihood of those conditions. Their likelihood not only tells me how fundamentally am I disagreeing with something, but also how likely I think it is, both of which can lead to new insight
-  &lt;sup&gt;
-   &lt;a href="#avoid-stupid-2-note" id="avoid-stupid-2"&gt;
-    [2]
-   &lt;/a&gt;
-   .
-  &lt;/sup&gt;
- &lt;/p&gt;
- &lt;p&gt;
-  &lt;em&gt;
-   Can I be persuaded?
-  &lt;/em&gt;
-  &lt;br/&gt;
-  I can’t be on every issue and am suspicious of those who can be. If I can come up with a realistic set of conditions that would change my view, then I have something to test it against. If I can’t, then stop since I am not having a dialog.
- &lt;/p&gt;
- &lt;p&gt;
-  I don’t always run through all these questions, but I’m sure I’m not the only one who wishes I did. This unordered list is not exhaustive and I plan to add to it over time. Suggestions are also welcome.
- &lt;/p&gt;
- &lt;ol&gt;
-  &lt;li id="avoid-stupid-1-note"&gt;
-   Or as Upton Sinclair put it: “It is difficult to get a man to understand something, when his salary depends on his not understanding it.”
-   &lt;a href="#avoid-stupid-1"&gt;
-    ↩
-   &lt;/a&gt;
-  &lt;/li&gt;
-  &lt;li id="avoid-stupid-2-note"&gt;
-   Example: unrealistic view of humanity makes communism and libertarianism equally absurd.
-   &lt;a href="#avoid-stupid-2"&gt;
-    ↩
-   &lt;/a&gt;
-  &lt;/li&gt;
- &lt;/ol&gt;
-&lt;/div&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">markos</dc:creator><pubDate>Sun, 29 Dec 2013 23:28:00 +0100</pubDate><guid>tag:markos.gaivo.net,2013-12-29:articles/avoiding-being-stupid.html</guid><category>discussion</category><category>argument</category><category>stupidity</category><category>questions</category><category>persuasion</category><category>Tools</category></item></channel></rss>
+&lt;/div&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">markos</dc:creator><pubDate>Wed, 01 Jan 2014 23:22:00 +0100</pubDate><guid>tag:markos.gaivo.net,2014-01-01:articles/2013-review.html</guid><category>review</category><category>annual review</category><category>2013</category></item></channel></rss>

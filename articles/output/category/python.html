@@ -32,6 +32,24 @@
     </nav>
 
         <article class="hentry">
+            <h1 class="entry-title storytitle"><a href="../image-diet2-and-pyimagediet.html" rel="bookmark" title="Permalink to image-diet2 and pyimagediet">image-diet2 and pyimagediet</a></h1>
+
+            <div class="entry-content post-text">
+                <p>Couple of years ago I hacked together a small Django app called <a href="http://">image-diet</a> which automatically compresses images processed by Easy Thumbnails as they are uploaded to a website. Its code was atrocious with configuration for external tools baked in, it only worked with <a href="https://github.com/SmileyChris/easy-thumbnails">Easy Thumbnails</a> and Python2 and...I could go on, but it worked and at <a href="http://aptivate.org">Aptivate</a> we have been using it successfully ever since.</p>
+<p>Well, I finally found time and rewrote the whole thing. New version is now called <a href="https://pypi.python.org/pypi/image-diet2">image-diet2</a> because it is completely backwards incompatible and I screwed up versioning of the original one. Mea culpa.</p>
+<p>It's implemented as a Django storage backend augmenting default one, but can easily be added as a mixin to any other so it should work no matter which tool or backend you use to upload files. Supporting new compression tools or changing configuration of existing does not require a new release or poking in virtualenv anymore. It is better <a href="https://travis-ci.org/samastur/image-diet2">tested</a>, <a href="http://image-diet2.readthedocs.org/">documented</a> and is not limited to 2.x branch of Python anymore. You really should give it a try.</p>
+<p>image-diet2 is actually a thin Django wrapper around separately packaged <a href="https://pypi.python.org/pypi/pyimagediet">pyimagediet</a> that actually process files. My hope is that others may find it useful enough to use it on non-Django projects. It also comes with a tool to compress images and generate configuration file tailored to your system. If you can think of anything else that would make integration even easier, then please let me know.</p>
+<p>There are few bits still missing, but functionality is mostly complete. What I plan to do next is to test different configurations to find how well they work and what are their tradeoffs. Prior useful work such as <a href="http://www.css-ig.net/png-tools-overview">this</a> exists, but I'd like tests to be more expansive and in reusable format. They need to be easily replicable by anyone as their versions of processing tools might give different results than mine.</p>
+            </div><!-- /.entry-content -->
+
+            <footer class="post-metadata">
+                <ul>
+                    <li>Published on <time datetime="2016-01-19T21:00:17+01:00">Tue 19 January 2016</time> </li>
+                    <li><a href="../image-diet2-and-pyimagediet.html">Add your comment</a></li>
+                </ul>
+            </footer>
+        </article>
+        <article class="hentry">
             <h1 class="entry-title storytitle"><a href="../exporting-tagged-items-from-google-reader.html" rel="bookmark" title="Permalink to Exporting tagged articles from Google Reader">Exporting tagged articles from Google Reader</a></h1>
 
             <div class="entry-content post-text">
@@ -106,60 +124,6 @@
                 <ul>
                     <li>Published on <time datetime="2010-04-26T20:28:00+02:00">Mon 26 April 2010</time> </li>
                     <li><a href="../europython-submission-deadline-is-around-the-corner.html">Add your comment</a></li>
-                </ul>
-            </footer>
-        </article>
-        <article class="hentry">
-            <h1 class="entry-title storytitle"><a href="../going-home.html" rel="bookmark" title="Permalink to Going home">Going home</a></h1>
-
-            <div class="entry-content post-text">
-                <div>
- <p>
-  EuroPython 2008 is over. I packed and now I am waiting to leave for the airport to catch afternoon flight back home. Sadly I don’t have time to attend sprints and since I only recently started to write python again, I probably wouldn’t be of much use anyhow.
- </p>
- <p>
-  Conference itself was great. Smaller than web conferences I usually attend with a more friendly, homey feeling, but with plenty of excellent talks where I learned a lot. I also met a bunch of friendly interesting people and had in general a wonderful time.
- </p>
- <p>
-  It was also interesting to compare the whole experience with other conferences I go to. Apple is popular, but there are fewer
-  <a class="zem_slink" href="http://en.wikipedia.org/wiki/Macintosh" rel="wikipedia" title="Macintosh">
-   Macs
-  </a>
-  than at web events.
-  <a class="zem_slink" href="http://www.ubuntu.com/" rel="homepage" title="Ubuntu (operating system)">
-   Ubuntu
-  </a>
-  seems to completely dominate
-  <a class="zem_slink" href="http://en.wikipedia.org/wiki/Linux" rel="wikipedia" title="Linux">
-   Linux
-  </a>
-  crowd (me included), since it was the only distribution I actually have seen and Windows is in minority. Everyone is much more willing to participate to the point, where sadly not all who wanted to present a Lightning talk on last day had the opportunity to do so.
- </p>
- <p>
-  I certainly hope to attend EuroPython 2009, which will be in Birmingham around this time next year. At the end I also have a present. Yesterday I got a license for
-  <a class="zem_slink" href="http://www.wingware.com" rel="homepage" title="Wing IDE">
-   Wing IDE
-  </a>
-  Professional and since I don’t need one, I’ll give it to the first person who expresses a wish to have it in comments and leaves his/her email address in relevant part of comment form.
- </p>
- <p>
-  <strong>
-   Update
-  </strong>
-  : License is gone, sent to a new owner.
- </p>
- <div class="zemanta-pixie" style="margin-top: 10px; height: 15px;">
-  <a class="zemanta-pixie-a" href="http://reblog.zemanta.com/zemified/a6262891-3f96-4b97-8bf6-949cb83cba0e/" title="Zemified by Zemanta">
-   <img alt="Zemanta Pixie" class="zemanta-pixie-img" src="http://img.zemanta.com/reblog_e.png?x-id=a6262891-3f96-4b97-8bf6-949cb83cba0e" style="border: medium none; float: right;"/>
-  </a>
- </div>
-</div>
-            </div><!-- /.entry-content -->
-
-            <footer class="post-metadata">
-                <ul>
-                    <li>Published on <time datetime="2008-07-10T10:02:00+02:00">Thu 10 July 2008</time> </li>
-                    <li><a href="../going-home.html">Add your comment</a></li>
                 </ul>
             </footer>
         </article>

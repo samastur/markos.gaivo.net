@@ -3,7 +3,6 @@ Date: 2016-01-19 21:00:17
 Author: markos
 Category: Python
 Slug: image-diet2-and-pyimagediet
-Status: draft
 Tags: low-bandwidth, django, compression, image, optimisation
 
 Couple of years ago I hacked together a small Django app called [image-diet](http://) which automatically compresses images processed by Easy Thumbnails as they are uploaded to a website. Its code was atrocious with configuration for external tools baked in, it only worked with [Easy Thumbnails](https://github.com/SmileyChris/easy-thumbnails) and Python2 and...I could go on, but it worked and at [Aptivate](http://aptivate.org) we have been using it successfully ever since.

@@ -1,5 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>A notch above a monkey</title><link href="http://markos.gaivo.net/articles/" rel="alternate"></link><link href="/articles/feeds/python.atom.xml" rel="self"></link><id>http://markos.gaivo.net/articles/</id><updated>2013-03-24T19:48:00+01:00</updated><entry><title>Exporting tagged articles from Google Reader</title><link href="http://markos.gaivo.net/articles/exporting-tagged-items-from-google-reader.html" rel="alternate"></link><updated>2013-03-24T19:48:00+01:00</updated><author><name>markos</name></author><id>tag:markos.gaivo.net,2013-03-24:articles/exporting-tagged-items-from-google-reader.html</id><summary type="html">&lt;div&gt;
+<feed xmlns="http://www.w3.org/2005/Atom"><title>A notch above a monkey</title><link href="http://markos.gaivo.net/articles/" rel="alternate"></link><link href="/articles/feeds/python.atom.xml" rel="self"></link><id>http://markos.gaivo.net/articles/</id><updated>2016-01-19T21:00:17+01:00</updated><entry><title>image-diet2 and pyimagediet</title><link href="http://markos.gaivo.net/articles/image-diet2-and-pyimagediet.html" rel="alternate"></link><updated>2016-01-19T21:00:17+01:00</updated><author><name>markos</name></author><id>tag:markos.gaivo.net,2016-01-19:articles/image-diet2-and-pyimagediet.html</id><summary type="html">&lt;p&gt;Couple of years ago I hacked together a small Django app called &lt;a href="http://"&gt;image-diet&lt;/a&gt; which automatically compresses images processed by Easy Thumbnails as they are uploaded to a website. Its code was atrocious with configuration for external tools baked in, it only worked with &lt;a href="https://github.com/SmileyChris/easy-thumbnails"&gt;Easy Thumbnails&lt;/a&gt; and Python2 and...I could go on, but it worked and at &lt;a href="http://aptivate.org"&gt;Aptivate&lt;/a&gt; we have been using it successfully ever since.&lt;/p&gt;
+&lt;p&gt;Well, I finally found time and rewrote the whole thing. New version is now called &lt;a href="https://pypi.python.org/pypi/image-diet2"&gt;image-diet2&lt;/a&gt; because it is completely backwards incompatible and I screwed up versioning of the original one. Mea culpa.&lt;/p&gt;
+&lt;p&gt;It's implemented as a Django storage backend augmenting default one, but can easily be added as a mixin to any other so it should work no matter which tool or backend you use to upload files. Supporting new compression tools or changing configuration of existing does not require a new release or poking in virtualenv anymore. It is better &lt;a href="https://travis-ci.org/samastur/image-diet2"&gt;tested&lt;/a&gt;, &lt;a href="http://image-diet2.readthedocs.org/"&gt;documented&lt;/a&gt; and is not limited to 2.x branch of Python anymore. You really should give it a try.&lt;/p&gt;
+&lt;p&gt;image-diet2 is actually a thin Django wrapper around separately packaged &lt;a href="https://pypi.python.org/pypi/pyimagediet"&gt;pyimagediet&lt;/a&gt; that actually process files. My hope is that others may find it useful enough to use it on non-Django projects. It also comes with a tool to compress images and generate configuration file tailored to your system. If you can think of anything else that would make integration even easier, then please let me know.&lt;/p&gt;
+&lt;p&gt;There are few bits still missing, but functionality is mostly complete. What I plan to do next is to test different configurations to find how well they work and what are their tradeoffs. Prior useful work such as &lt;a href="http://www.css-ig.net/png-tools-overview"&gt;this&lt;/a&gt; exists, but I'd like tests to be more expansive and in reusable format. They need to be easily replicable by anyone as their versions of processing tools might give different results than mine.&lt;/p&gt;</summary><category term="low-bandwidth"></category><category term="django"></category><category term="compression"></category><category term="image"></category><category term="optimisation"></category></entry><entry><title>Exporting tagged articles from Google Reader</title><link href="http://markos.gaivo.net/articles/exporting-tagged-items-from-google-reader.html" rel="alternate"></link><updated>2013-03-24T19:48:00+01:00</updated><author><name>markos</name></author><id>tag:markos.gaivo.net,2013-03-24:articles/exporting-tagged-items-from-google-reader.html</id><summary type="html">&lt;div&gt;
  &lt;p&gt;
   Google Reader for me was never just a way to plow through a large number of feeds, but also a database of important articles that I lovingly annotated with tags and notes when they still existed. Apparently I was in minority, judging by Reader clients and more importantly its own exporting tools which lets you take away most of your stuff, but not tagged items themselves.
  &lt;/p&gt;
@@ -219,38 +223,5 @@
    seems
   &lt;/a&gt;
   this is valid, even required SGML behavior.
- &lt;/p&gt;
-&lt;/div&gt;</summary></entry><entry><title>sgmllib.py parser woes</title><link href="http://markos.gaivo.net/articles/sgmllibpy-parser-woes.html" rel="alternate"></link><updated>2006-03-28T20:51:00+02:00</updated><author><name>markos</name></author><id>tag:markos.gaivo.net,2006-03-28:articles/sgmllibpy-parser-woes.html</id><summary type="html">&lt;div&gt;
- &lt;p&gt;
-  Does anybody have problems with sgmllib.py?
- &lt;/p&gt;
- &lt;p&gt;
-  After I spent way too much time hunting a bug in my code, I gave up, read the
-  &lt;em&gt;
-   goahead
-  &lt;/em&gt;
-  function in
-  &lt;em&gt;
-   sgmllib.py
-  &lt;/em&gt;
-  and I’m certain now that its parser is broken.
- &lt;/p&gt;
- &lt;p&gt;
-  Let’s say you’re handling a web page with inline Javascript code which also includes HTML tags. Even if you use a
-  &lt;em&gt;
-   setliteral
-  &lt;/em&gt;
-  method to skip processing data inside
-  &lt;em&gt;
-   &amp;lt;script&amp;gt;
-  &lt;/em&gt;
-  tags,
-  &lt;em&gt;
-   sgmllib.py
-  &lt;/em&gt;
-  will start doing so when it encounters first &amp;lt;/. It interprets this as a start of an end tag and tries  to close it. Even though code handles cases of known and unknown tags, it fails to do the right thing because it simply doesn’t expect a scenario where this isn’t a tag at all.
- &lt;/p&gt;
- &lt;p&gt;
-  The other possibility is that I’m simply a dolt who should do stuff like this only when rested. By the way, where’s the proper place to make an ass out of myself complaining about standard library?
  &lt;/p&gt;
 &lt;/div&gt;</summary></entry></feed>

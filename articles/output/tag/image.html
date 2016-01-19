@@ -30,6 +30,24 @@
     </nav>
 
         <article class="hentry">
+            <h1 class="entry-title storytitle"><a href="../image-diet2-and-pyimagediet.html" rel="bookmark" title="Permalink to image-diet2 and pyimagediet">image-diet2 and pyimagediet</a></h1>
+
+            <div class="entry-content post-text">
+                <p>Couple of years ago I hacked together a small Django app called <a href="http://">image-diet</a> which automatically compresses images processed by Easy Thumbnails as they are uploaded to a website. Its code was atrocious with configuration for external tools baked in, it only worked with <a href="https://github.com/SmileyChris/easy-thumbnails">Easy Thumbnails</a> and Python2 and...I could go on, but it worked and at <a href="http://aptivate.org">Aptivate</a> we have been using it successfully ever since.</p>
+<p>Well, I finally found time and rewrote the whole thing. New version is now called <a href="https://pypi.python.org/pypi/image-diet2">image-diet2</a> because it is completely backwards incompatible and I screwed up versioning of the original one. Mea culpa.</p>
+<p>It's implemented as a Django storage backend augmenting default one, but can easily be added as a mixin to any other so it should work no matter which tool or backend you use to upload files. Supporting new compression tools or changing configuration of existing does not require a new release or poking in virtualenv anymore. It is better <a href="https://travis-ci.org/samastur/image-diet2">tested</a>, <a href="http://image-diet2.readthedocs.org/">documented</a> and is not limited to 2.x branch of Python anymore. You really should give it a try.</p>
+<p>image-diet2 is actually a thin Django wrapper around separately packaged <a href="https://pypi.python.org/pypi/pyimagediet">pyimagediet</a> that actually process files. My hope is that others may find it useful enough to use it on non-Django projects. It also comes with a tool to compress images and generate configuration file tailored to your system. If you can think of anything else that would make integration even easier, then please let me know.</p>
+<p>There are few bits still missing, but functionality is mostly complete. What I plan to do next is to test different configurations to find how well they work and what are their tradeoffs. Prior useful work such as <a href="http://www.css-ig.net/png-tools-overview">this</a> exists, but I'd like tests to be more expansive and in reusable format. They need to be easily replicable by anyone as their versions of processing tools might give different results than mine.</p>
+            </div><!-- /.entry-content -->
+
+            <footer class="post-metadata">
+                <ul>
+                    <li>Published on <time datetime="2016-01-19T21:00:17+01:00">Tue 19 January 2016</time> </li>
+                    <li><a href="../image-diet2-and-pyimagediet.html">Add your comment</a></li>
+                </ul>
+            </footer>
+        </article>
+        <article class="hentry">
             <h1 class="entry-title storytitle"><a href="../using-canvas-and-javascript-to-blur-images.html" rel="bookmark" title="Permalink to Using canvas and Javascript to blur images">Using canvas and Javascript to blur images</a></h1>
 
             <div class="entry-content post-text">

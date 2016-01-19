@@ -31,6 +31,65 @@
     </nav>
 
         <article class="hentry">
+            <h1 class="entry-title storytitle"><a href="../speed-match-json-vs-xml.html" rel="bookmark" title="Permalink to Speed match: JSON vs. XML">Speed match: JSON vs. XML</a></h1>
+
+            <div class="entry-content post-text">
+                <div>
+ <p>
+  I started playing with AJAX before it got its silly name and true to X I used XML in my application. At least at first.
+ </p>
+ <p>
+  What I discovered is that flicker caused by processing data and simultaneously writing results to document can be completely removed if I do a Google and fetch javascript object instead (what later became
+  <a href="http://www.crockford.com/JSON/index.html">
+   JSON
+  </a>
+  ) and use that. Difference was so vivid, I dropped XML almost completely.
+ </p>
+ <p>
+  Fast forward to autumn. There’s a debate after our regular weekly talk and a question comes up. Why would Google or anyone else for that matter choose to use something else than XML?
+ </p>
+ <p>
+  Relying on personal experience I offered speed as obvious and most important reason. I couldn’t back it up, but since I’ve seen it with my own eyes, I didn’t doubt it either. It wasn’t the sole reason. I find dabbling with javascript objects simply easier than handling XML and I’ll care about XSLT when javascript in Safari can access it.
+ </p>
+ <p>
+  I got reminded of our discussion when I read
+  <a href="http://www.xml.com/lpt/a/2005/11/30/tuning-ajax-performance.html">
+   this article
+  </a>
+  . Read it, if you haven’t yet, because it’s well worth it. Anyhow, I decided to make a new test. I wrote a simple
+  <a href="http://markos.gaivo.net/examples/jsbench/test.html">
+   test page
+  </a>
+  , that fetches
+  <a href="http://markos.gaivo.net/examples/jsbench/jssample.raw">
+   sample json file
+  </a>
+  and basically equal
+  <a href="http://markos.gaivo.net/examples/jsbench/xmlsample.xml">
+   xml sample
+  </a>
+  and measures how much time it takes to fetch same data.
+ </p>
+ <p>
+  Result?
+ </p>
+ <p>
+  After 15 minutes of wild reloading in different browsers (Safari 1.3+, FF1.0, IE6) and different local and non-local servers, I can’t see a difference that couldn’t be attributed to latency. It seems browsers have moved on and there’s little reason to avoid using XML today.
+ </p>
+ <p>
+  So use whatever you like most.
+ </p>
+</div>
+            </div><!-- /.entry-content -->
+
+            <footer class="post-metadata">
+                <ul>
+                    <li>Published on <time datetime="2005-12-05T19:41:00+01:00">Mon 05 December 2005</time> </li>
+                    <li><a href="../speed-match-json-vs-xml.html">Add your comment</a></li>
+                </ul>
+            </footer>
+        </article>
+        <article class="hentry">
             <h1 class="entry-title storytitle"><a href="../invisible-help.html" rel="bookmark" title="Permalink to Invisible help">Invisible help</a></h1>
 
             <div class="entry-content post-text">
@@ -179,114 +238,6 @@
                 <ul>
                     <li>Published on <time datetime="2005-12-03T18:52:00+01:00">Sat 03 December 2005</time> </li>
                     <li><a href="../whats-in-a-name.html">Add your comment</a></li>
-                </ul>
-            </footer>
-        </article>
-        <article class="hentry">
-            <h1 class="entry-title storytitle"><a href="../hiding-form-buttons-as-text.html" rel="bookmark" title="Permalink to Hiding form buttons as text">Hiding form buttons as text</a></h1>
-
-            <div class="entry-content post-text">
-                <div>
- <p>
-  I love going to our weekly web talks not so much for the talks themselves (although they are great), but conversations you get to have there. A part of a recent one rendered from memory and shortened for readers pleasure:
- </p>
- <blockquote>
-  <p>
-   <strong>
-    Fry:
-   </strong>
-   Those delete strings of yours should really be post requests.
-   <a href="http://webaccelerator.google.com/" title="Link to web accelerator that shouldn't be used">
-    GA’s
-   </a>
-   pre-fetching might destroy user’s data.
-   <br/>
-   <strong>
-    Me:
-   </strong>
-   &lt;beeeeep&gt; Google. RFC says should not must.
-   <br/>
-   <strong>
-    Fry:
-   </strong>
-   Well, since it also says multiple GET requests should yield same result, it really is a must for delete.
-   <br/>
-   <strong>
-    Me
-   </strong>
-   (not ready to give up): True, but so many form buttons will look like crap.
-   <br/>
-   <strong>
-    Fry:
-   </strong>
-   Well, you can hide them by removing border, setting background-color to background and fixing font size to 1 em.
-   <br/>
-   <strong>
-    Me:
-   </strong>
-   Uhm, this might work, but probably doesn’t, because browsers use controls from operating system.
-   <br/>
-   <strong>
-    Fry:
-   </strong>
-   Well, try it.
-  </p>
- </blockquote>
- <p>
-  I may be stubborn, but I’m not a complete moron. So I did and here’s
-  <a href="http://markos.gaivo.net/examples/hidebutton.html" title="Demo">
-   the result
-  </a>
-  .
- </p>
- <p>
-  As can be seen, it works beautifully in Firefox (1.0+) and Opera 8 (I share my visitors indifference to earlier versions). It doesn’t work in Safari at all, but since its buttons are not obnoxiously ugly, I can live with that.
- </p>
- <p>
-  However, it has unseemly big padding in Internet Explorer, which is the real deal-breaker for now.
- </p>
- <p>
-  I think demo’s style sheet is pretty self explanatory, but here’s what I did by mostly following Fry’s instructions:
- </p>
- <ul>
-  <li>
-   set border to 0
-  </li>
-  <li>
-   same for padding and margin
-  </li>
-  <li>
-   set background-color of the button to the same value as background of the document
-  </li>
-  <li>
-   did the same for color of text
-  </li>
-  <li>
-   set the size of button text to 1 em so it’s displayed in right size in every browser
-  </li>
-  <li>
-   set cursor to pointer, since it’s not done automatically for buttons
-  </li>
- </ul>
- <p>
-  <a href="http://www.friedcellcollective.net/" title="Fry's web home">
-   Fry
-  </a>
-  was also correct that bold and italics work and underline doesn’t, but you can simulate later with border-bottom. Except in IE of course, on account of padding.
- </p>
- <p>
-  There’s another shortcoming to consider. If background is an image or a color gradient instead of a solid color, this trick won’t work.
- </p>
- <p>
-  So, any ideas about what to do with IE?
- </p>
-</div>
-            </div><!-- /.entry-content -->
-
-            <footer class="post-metadata">
-                <ul>
-                    <li>Published on <time datetime="2005-12-02T15:49:00+01:00">Fri 02 December 2005</time> </li>
-                    <li><a href="../hiding-form-buttons-as-text.html">Add your comment</a></li>
                 </ul>
             </footer>
         </article>
