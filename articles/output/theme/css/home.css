@@ -12,7 +12,7 @@
  * General settings
  */
 html {padding:0;margin:0;height:100%;}
-body {padding:0;margin:0;height:100%;position:relative;background:#f9e3b6;color:#4e2b00;font-family:"HelveticaNeueW02-45Ligh";font-size:15px;line-height:21px;}
+body {padding:0;margin:0;height:100%;position:relative;background:#f9e3b6;color:#4e2b00;font-family:"Helvetica Neue", Helvetica, Arial, sans-serif;font-weight:200;font-size:15px;line-height:21px;}
 section, article, aside, header, footer {display:block;}
 
 h1, h2, h3, h4, h5, h6 {margin:21px 0;font-size:18px;line-height:21px;font-weight:normal;}
