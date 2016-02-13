@@ -16,6 +16,7 @@ aside .photo, .error img, .alignleft img, img.alignleft, .alignright img, img.al
 .zemanta-img img, .imageR img, .imageL img {background-color:#fbf8e9;border:1px solid #30303c;}
 .post header h1, .posts header h1, .posts > header h1 {border-bottom:1px solid #30303c;}
 ol.code {border: 1px solid #30303c;}
+body > footer .mini-logo {display: inline-block;width:97px;height:32px;border:0;background:url(theme/img/markos_dark_small_bg.png);overflow:hidden;text-indent:-200px;}
 				</style>
 
 				<style type="text/css" title="Dark theme">
@@ -27,6 +28,7 @@ aside .photo, .error img, .alignleft img, img.alignleft, .alignright img, img.al
 .zemanta-img img, .imageR img, .imageL img {background-color:#fbf8e9;}
 .post header h1, .posts header h1, .posts > header h1 {border-bottom:1px solid #fbf8e9;}
 ol.code {border: 1px solid #fbf8e9;}
+body > footer .mini-logo {display: inline-block;width:97px;height:32px;border:0;background:url(theme/img/markos_light_small_bg.png);overflow:hidden;text-indent:-200px;}
 				</style>
 
         {% if FEED_ALL_ATOM %}
@@ -67,7 +69,7 @@ ol.code {border: 1px solid #fbf8e9;}
             <li><a href="{{ FEED_DOMAIN }}/{{ FEED_ALL_RSS }}" rel="alternate" title="{{ SITENAME }} Full RSS Feed">Entries feed</a></li>
         {% endif %}
         </ul>
-        <a href="/"><img src="/img/markos_light_small_bg.png" alt="logo" class="mini-logo" /></a>
+        <a href="/" class="mini-logo">Back to homepage</a>
     </footer>
 </body>
 </html>
