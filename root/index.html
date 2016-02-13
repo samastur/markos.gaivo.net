@@ -5,9 +5,28 @@
 	<meta charset="utf-8" />
 	<meta name="viewport" content="width=device-width, initial-scale=1.0" /> 
 
-	<link href="http://fast.fonts.com/cssapi/aee9b60b-8e94-47f8-b586-3ecbfab51d1c.css" rel="stylesheet" type="text/css" />
-	<link rel="stylesheet" type="text/css" href="articles/theme/css/home.css" media="screen" title="Light theme" />
-	<link rel="alternate stylesheet" type="text/css" href="articles/theme/css/home_dark.css" media="screen" title="Dark theme" />
+	<link rel="stylesheet" type="text/css" href="articles/theme/css/home.css" media="screen" />
+	<style type="text/css" title="Light theme">
+body {background-color: #fbf8e9;color: #30303c;}
+body > footer a, body > footer a:visited {color: #ffb665;}
+a, a:visited, a:hover {color: #980000;}
+body > footer {background-color:#30303c;color:#fbf8e9;}
+aside .photo, .error img, .alignleft img, img.alignleft, .alignright img, img.alignright, .aligncenter img, img.aligncenter,
+.zemanta-img img, .imageR img, .imageL img {background-color:#fbf8e9;border:1px solid #30303c;}
+.post header h1, .posts header h1, .posts > header h1 {border-bottom:1px solid #30303c;}
+ol.code {border: 1px solid #30303c;}
+	</style>
+
+	<style type="text/css" title="Dark theme">
+body {background-color: #30303c;color: #fbf8e9;}
+body > footer a, body > footer a:visited {color: #980000;}
+a, a:visited, a:hover {color: #ffb665;}
+body > footer {background-color:#fbf8e9;color:#30303c;}
+aside .photo, .error img, .alignleft img, img.alignleft, .alignright img, img.alignright, .aligncenter img, img.aligncenter,
+.zemanta-img img, .imageR img, .imageL img {background-color:#fbf8e9;}
+.post header h1, .posts header h1, .posts > header h1 {border-bottom:1px solid #fbf8e9;}
+ol.code {border: 1px solid #fbf8e9;}
+	</style>
 	<link rel="shortcut icon" href="img/markos.ico" />
 
 	<!--[if lt IE 9]>
@@ -21,28 +40,28 @@
 				<img src="img/me.jpg" alt="Picture of me" class="photo" />
 				<ul>
 					<li><span class="fn">Marko Samastur</span></li>
-					<li><address class="email"><a href="mailto:markos@gaivo.net"><i class="icon icon-email-16x16"></i> markos@gaivo.net</a></address></li>
-					<li><a href="http://markos.gaivo.net/articles/" class="url"><i class="icon icon-website-16x16"></i> My blog</a></li>
+					<li><address class="email"><a href="mailto:markos@gaivo.net"><i class="icon icon-16x16 icon-email-16x16"></i> markos@gaivo.net</a></address></li>
+					<li><a href="http://markos.gaivo.net/articles/" class="url"><i class="icon icon-16x16 icon-website-16x16"></i> My blog</a></li>
 				</ul>
 			</div>
 			<div id="elsewhere">
 				<p>My footprints elsewhere on the web:</p>
 				<ul>
-					<li class="github"><a href="https://github.com/samastur" rel="me" title="Some of my code"><i aria-label="Github" class="icon icon-github-24x24"></i></a></li>
-					<li class="linkedin"><a href="http://si.linkedin.com/in/markosamastur" rel="me" title="Hire me"><i aria-label="LinkedIn" class="icon icon-linkedin-24x24"></i></a></li>
-					<li class="lanyrd"><a href="http://lanyrd.com/people/samastur/" rel="me" title="Meet me at a conference"><i aria-label="Lanyrd" class="icon icon-lanyrd-24x24"></i></a></li>
-					<li class="flickr"><a href="http://www.flickr.com/photos/markos/" rel="me" title="My photos"><i aria-label="Flickr" class="icon icon-flickr-24x24"></i></a></li>
-					<li class="youtube"><a href="http://www.youtube.com/user/msamastur" rel="me" title="Interaction design videos"><i aria-label="YouTube" class="icon icon-youtube-24x24"></i></a></li>
-					<li class="twitter"><a href="http://twitter.com/samastur" rel="me" title="Follow me on Twitter"><i aria-label="Twitter" class="icon icon-twitter-24x24"></i></a></li>
+					<li class="github"><a href="https://github.com/samastur" rel="me" title="Some of my code"><i aria-label="Github" class="icon icon-24x24 icon-github-24x24"></i></a></li>
+					<li class="linkedin"><a href="http://si.linkedin.com/in/markosamastur" rel="me" title="Hire me"><i aria-label="LinkedIn" class="icon icon-24x24 icon-linkedin-24x24"></i></a></li>
+					<li class="lanyrd"><a href="http://lanyrd.com/people/samastur/" rel="me" title="Meet me at a conference"><i aria-label="Lanyrd" class="icon icon-24x24 icon-lanyrd-24x24"></i></a></li>
+					<li class="flickr"><a href="http://www.flickr.com/photos/markos/" rel="me" title="My photos"><i aria-label="Flickr" class="icon icon-24x24 icon-flickr-24x24"></i></a></li>
+					<li class="youtube"><a href="http://www.youtube.com/user/msamastur" rel="me" title="Interaction design videos"><i aria-label="YouTube" class="icon icon-24x24 icon-youtube-24x24"></i></a></li>
+					<li class="twitter"><a href="http://twitter.com/samastur" rel="me" title="Follow me on Twitter"><i aria-label="Twitter" class="icon icon-24x24 icon-twitter-24x24"></i></a></li>
 				</ul>
 			</div>
 		</aside>
 
-		<header>
-			<h1>About me</h1>
-		</header>
-
 		<article class="about">
+			<header>
+				<h1>About me</h1>
+			</header>
+
 			<p>Hi, I'm Marko Samastur and I live in
 			<a href="http://maps.google.com/maps?q=ljubljana+google+maps&amp;ll=46.052386,14.507103&amp;spn=0.091971,0.167198&amp;t=h&amp;z=13" title="Ljubljana on Google maps">
 			Ljubljana, Slovenia</a>, an almost unknown country that looks like
@@ -75,8 +94,10 @@
 	</section>
 
 	<footer>
-		<span>&copy; 2005-2011 Marko Samastur;
-		Icons by <a href="http://paulrobertlloyd.com/2009/06/social_media_icons">Paul Robert Lloyd</a>.</span>
+		<ul>
+			<li>&copy; 2005-2016 Marko Samastur</li>
+			<li>Icons by <a href="http://paulrobertlloyd.com/2009/06/social_media_icons">Paul Robert Lloyd</a></li>
+		</ul>
 		<a href="/"><img src="img/markos_light_small_bg.png" alt="logo" class="mini-logo" /></a>
 	</footer>
 	<script>
