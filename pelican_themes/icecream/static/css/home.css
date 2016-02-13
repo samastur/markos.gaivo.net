@@ -12,20 +12,21 @@
 /*
  * Colors
  */
+/* Inlined in template
 body {
 	background-color: #fbf8e9;
 	color: #30303c;
+}
+body > footer a,
+body > footer a:visited {
+    color: #ffb665;
 }
 a, a:visited, a:hover {
 	color: #980000;
 }
 body > footer {
-    background-color:#4e2b00;
-    color:#f9e3b6;
-}
-.cookie-div {
-    color: #ddd;
-    background-color: #000;
+    background-color:#30303c;
+    color:#fbf8e9;
 }
 aside .photo,
 .error img,
@@ -40,21 +41,12 @@ aside .photo,
 }
 .post header h1, .posts header h1,
 .posts > header h1 {
-    border-bottom:1px solid #4e2b00;
+    border-bottom:1px solid #30303c;
 }
-/*
-.post > footer {
-    border-top:1px solid #4e2b00;
+ol.code {
+    border: 1px solid #30303c;
 }
 */
-ol.code {
-    border: 1px solid #4e2b00;
-}
-.post hr {
-    border-bottom:1px solid black;
-}
-
-
 
 /*
  * General settings
@@ -151,9 +143,10 @@ body > footer {
     position:fixed;
     bottom:0;
     width:100%;
-    height: 5em;
+    height: 6em;
     margin:0;
     padding: .5em 1em 0;
+    font-size: .8em;
     text-align: center;
 }
 body > footer ul {
@@ -162,7 +155,7 @@ body > footer ul {
     padding:0;
 }
 body > footer li {
-    margin:0 5px 0 0;
+    margin:.25em 0;
 }
 body > footer .mini-logo {
     display: inline-block;
@@ -170,6 +163,25 @@ body > footer .mini-logo {
     height:32px;
     border:0;
     background: url(../img/markos_light_small_bg.png);
+}
+@media (min-device-width: 600px) {
+    body > footer {
+        height: 3em;
+        text-align: left;
+    }
+    body > footer ul {
+        display: inline-block;        
+    }
+    body > footer li {
+        display: inline-block;
+        margin:.5em 0 0;
+    }
+    body > footer li:first-child {
+        margin-right: 3em;
+    }
+    body > footer .mini-logo {
+        float: right;
+    }
 }
 
 /*
@@ -190,6 +202,7 @@ aside {
     margin-bottom:2.666666em;
 }
 aside .photo {
+    max-width: 100%;
     max-height:11.2em;
     margin:0 1em 8px 0;
     padding:3px;
@@ -220,6 +233,17 @@ aside a.website {
     background:url(../img/website-16x16.png) no-repeat 0 0;
 }
 
+@media (min-device-width: 600px) {
+    aside {
+        float: right;
+        width: 30%;
+    }
+    .about {
+        width: 62%;
+        max-width: 60em;
+    }
+}
+
 /* Single post page */
 body > header h1 {
     font-size:1em;
@@ -228,8 +252,17 @@ body > header h1 {
     line-height:1;
 }
 
+.post-text h3 {  /* Used for index pages and singular post */
+    margin: 1em 0;
+    font-size: 1.333333em;
+    line-height: 1;
+}
+
 .post .entry-title {
     margin: 1.3333333em 0 0;
+}
+.post p {
+	margin:1.333333em 0;
 }
 .post .post-info ul {
     margin: 0 0 2.666666em;
@@ -238,74 +271,29 @@ body > header h1 {
 .post .post-info li {
     list-style-type:none;
 }
-.post .entry-content {
-    text-align:justify;
-}
 .post > footer li {
     font-variant:small-caps;
 }
 
+@media (min-device-width: 600px) {
+    .post .post-info {
+        float: right;
+        width: 30%;
+        margin-top: o;
+    }
+    .post .post-info ul {
+        margin-bottom: 0;
+    }
+    .post .post-text,
+    .post #disqus_thread {
+        width: 62%;
+        max-width: 60em;
+    }
+    .post p:first-child {
+        margin-top: 0;
+    }
+}
 
-/*
-.post header {
-    margin:0 0 1.4em;
-}
-.post header h1, .posts header h1 {
-    margin:0;
-}
-.post p {
-    margin:0 0 1.4em;
-}
-.post > footer {
-    position:absolute;
-    top:1.4em;
-    left:100%;
-    width:56.25%;
-    text-align:right;
-}
-.post > footer ul {
-    list-style-type:none;
-    margin:0;
-    padding:0 0 0 17%;
-    text-align:left;
-}
-.post > footer li {
-    text-indent:-4.5%;
-}
-.post .post-text {
-    margin:0 0 1.4em;
-}
-.post hr {
-    width:20%;
-    text-align:center;
-    border:0;
-}
-.post nav {
-    margin:2.8em 0;
-}
-.post nav ul {
-    margin:0;
-}
-.post nav p {
-    margin:0;
-}
-ol.comments {
-    margin:0;
-    padding:0;
-}
-.comments li {
-    margin:0 0 1.4em;
-}
-.comments p {
-    margin:0;
-}
-.comments footer {
-    text-align:right;
-}
-.comments cite {
-    font-size:.75em;
-}
-*/
 
 /* Multi post page */
 .posts h1 {
@@ -315,6 +303,7 @@ ol.comments {
     margin-top: 0;
     font-size:1em;
     line-height:1.333333;
+    font-variant:small-caps;
 }
 .colophon ul {
     list-style-type:none;
@@ -322,76 +311,52 @@ ol.comments {
     padding:0;
 }
 .posts .entry-title {
-    margin: 1.3333333em 0 0;
+    margin: 2.666666em 0 0;
+    font-size: 1.333333em;
+    line-height: 1;
 }
-.posts .entry-content {
-    text-align:justify;
+.posts p {
+	margin:1.333333em 0;
 }
 .post-metadata ul {
+	margin:1.333333em 0;
     padding-left: 0;
+    opacity: .8;
 }
 .post-metadata li {
     list-style-type:none;
-}
-
-/*
-.posts {
-    position:relative;
-    max-width:60em;
-}
-.posts > header {
-    margin:0;
-}
-.posts > header h1 {
-    margin:0;
-}
-.posts article {
-    width:64%;
-    margin:2.8em 0;
-}
-.posts article footer {
-    font-size:.9em;
-    font-style:italic;
-}
-.colophon {
-    position:absolute;
-    left:64%;
-    top:0;
-    width:28%;
-    margin:2.8em 0 0;
-    padding:0 0 0 8%;
-    font-variant:small-caps;
-}
-.post-metadata ul {
-    list-style-type:none;
-    overflow:hidden;
-    padding:0;
-}
-.post-metadata li {
-    float:left;
-    padding:0 3px;
+    display: inline-block;
+    font-style: italic;
 }
 .post-metadata li:first-child:after {
     content:" |";
 }
-nav.pagination ul {
-    list-style-type:none;
-    position:relative;
-    width:64%;
-    height:2em;
-    padding:0;
+.posts .paginator {
+    margin-top: 2.666666em;
+    padding-left: 0;
+    text-align: center;
 }
-.pagination li {
-    position:absolute;
-    top:0;
+.paginator li {
+    list-style-type: none;
+    display: inline-block;
+    margin: 0 .5em;
 }
-.pagination li:first-child {
-    left:0;
+
+@media (min-device-width: 600px) {
+    .colophon {
+        float: right;
+        width: 30%;
+        margin-top: 0;
+    }
+    .hentry {
+        width: 62%;
+        max-width: 60em;
+    }
+    nav + .hentry .entry-title {
+        margin-top: 0;
+    }
 }
-.pagination li:last-child {
-    right:0;
-}
-*/
+
 
 /* 404 error page */
 .error {
