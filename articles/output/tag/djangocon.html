@@ -5,8 +5,30 @@
         <meta charset="utf-8" />
         <link rel="shortcut icon" href="theme/img/markos.ico" />
 
-        <link rel="stylesheet" type="text/css" href="theme/css/home.min.css" media="screen" title="Light theme" />
-        <link rel="alternate stylesheet" type="text/css" href="theme/css/home_dark.min.css" media="screen" title="Dark theme" />
+        <link rel="stylesheet" type="text/css" href="theme/css/home.min.css" media="screen" />
+				<style type="text/css" title="Light theme">
+body {background-color: #fbf8e9;color: #30303c;}
+body > footer a, body > footer a:visited {color: #ffb665;}
+a, a:visited, a:hover {color: #980000;}
+body > footer {background-color:#30303c;color:#fbf8e9;}
+aside .photo, .error img, .alignleft img, img.alignleft, .alignright img, img.alignright, .aligncenter img, img.aligncenter,
+.zemanta-img img, .imageR img, .imageL img {background-color:#fbf8e9;border:1px solid #30303c;}
+.post header h1, .posts header h1, .posts > header h1 {border-bottom:1px solid #30303c;}
+ol.code {border: 1px solid #30303c;}
+body > footer .mini-logo {display: inline-block;width:97px;height:32px;border:0;background:url(theme/img/markos_dark_small_bg.png);overflow:hidden;text-indent:-200px;}
+				</style>
+
+				<style type="text/css" title="Dark theme">
+body {background-color: #30303c;color: #fbf8e9;}
+body > footer a, body > footer a:visited {color: #980000;}
+a, a:visited, a:hover {color: #ffb665;}
+body > footer {background-color:#fbf8e9;color:#30303c;}
+aside .photo, .error img, .alignleft img, img.alignleft, .alignright img, img.alignright, .aligncenter img, img.aligncenter,
+.zemanta-img img, .imageR img, .imageL img {background-color:#fbf8e9;}
+.post header h1, .posts header h1, .posts > header h1 {border-bottom:1px solid #fbf8e9;}
+ol.code {border: 1px solid #fbf8e9;}
+body > footer .mini-logo {display: inline-block;width:97px;height:32px;border:0;background:url(theme/img/markos_light_small_bg.png);overflow:hidden;text-indent:-200px;}
+				</style>
 
         <link href="/articles/feeds/atom.xml" type="application/atom+xml" rel="alternate" title="A notch above a monkey Full Atom Feed" />
         <link href="/articles/feeds/rss.xml" type="application/rss+xml" rel="alternate" title="A notch above a monkey Full RSS Feed" />
@@ -106,17 +128,19 @@
             </footer>
         </article>
 
-<p class="paginator">
-    Page 1 / 1
-</p>
+<ul class="paginator">
+		<li class="current">
+    1 / 1
+		</li>
+</ul>
 </section><!-- /#content -->
 
     <footer>
         <ul>
-            <li>&copy; 2005-2015 Marko Samastur</li>
+            <li>&copy; 2005-2016 Marko Samastur</li>
             <li><a href="/articles/feeds/rss.xml" rel="alternate" title="A notch above a monkey Full RSS Feed">Entries feed</a></li>
         </ul>
-        <a href="/"><img src="/img/markos_light_small_bg.png" alt="logo" class="mini-logo" /></a>
+        <a href="/" class="mini-logo">Back to homepage</a>
     </footer>
 </body>
 </html>
