@@ -103,47 +103,6 @@ a img {
 }
 
 /*
- * Icons
- */
-.icon {
-    background-image: url(../img/icons.png);
-    background-repeat: no-repeat;
-    display: inline-block;
-}
-.icon-16x16 {
-    width: 16px;
-    height: 16px;
-}
-.icon-24x24 {
-    width: 24px;
-    height: 24px;
-}
-.icon-email-16x16 {
-    background-position: -10px -10px;
-}
-.icon-website-16x16 {
-    background-position: -10px -266px;
-}
-.icon-flickr-24x24 {
-    background-position: -10px -46px;
-}
-.icon-github-24x24 {
-    background-position: -10px -90px;
-}
-.icon-lanyrd-24x24 {
-    background-position: -10px -134px;
-}
-.icon-linkedin-24x24 {
-    background-position: -10px -178px;
-}
-.icon-twitter-24x24 {
-    background-position: -10px -222px;
-}
-.icon-youtube-24x24 {
-    background-position: -10px -302px;
-}
-
-/*
  * Common elements
  */
  
@@ -233,6 +192,14 @@ aside a.email {
 aside a.website {
     padding-left:20px;
     background:url(../img/website-16x16.png) no-repeat 0 0;
+}
+.elsewhere-links {
+		padding:0 0 0 .5em;
+		list-style-type: inherit;
+}
+.elsewhere-links > li {
+		float: none;
+		list-style-type: '- ';
 }
 
 @media (min-device-width: 600px) {
