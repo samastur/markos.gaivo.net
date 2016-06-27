@@ -73,6 +73,77 @@ body > footer .mini-logo {display: inline-block;width:97px;height:32px;border:0;
     </nav>
 
         <article class="hentry">
+            <h1 class="entry-title storytitle"><a href="./hide-email-address-from-spammers-with-javascript.html" rel="bookmark" title="Permalink to Hide email address from spammers with Javascript">Hide email address from spammers with Javascript</a></h1>
+
+            <div class="entry-content post-text">
+                <div>
+ <p>
+  <strong>
+   Update: I
+   <a href="hide-email-address-from-spammers-with-javascript-a-new-attempt.html">
+    published
+   </a>
+   a new, more safe but less friendly version of this script.
+  </strong>
+ </p>
+ <p>
+  Wouldn’t it be nice, if you could post your email address on your web site without worrying spammers will pick it up?
+ </p>
+ <p>
+  Now you can, by applying a little bit of javascript to your web page. Just import
+  <a href="/blog/code/mangle.js" title="Javascript file with mangle function">
+   this javascript file
+  </a>
+  in head of your document and call
+  <em>
+   mangle()
+  </em>
+  inside your onload handler. What it does, is replace elements of form
+  <br/>
+  <code>
+   <br/>
+   &lt;span class="change"&gt;billg at microsoft dot com&lt;/span&gt;
+  </code>
+  <br/>
+  with
+  <br/>
+  <code>
+   <br/>
+   &lt;a href="mailto:billg@microsoft.com"&gt;billg@microsoft.com&lt;/a&gt;
+  </code>
+ </p>
+ <p>
+  There are few caveats to its use. You’re not allowed to use any HTML tag inside of span blocks, which have class set to change. The script also expects such blocks to have only one class definition. If change is only part of class attribute value, this script won’t work.
+ </p>
+ <p>
+  You are free to use script as you please and to make any changes necessary. But if you choose to replace “at” and “dot” as delimiters, pick replacements that make address easily recognizable for those who don’t use javascript.
+ </p>
+ <p>
+  <em>
+   Note: The reason why this script works is that spammers use programs which search for email like pattern in page. They don’t interpret pages using javascript interpreter, since it would make collecting addresses significantly slower and more expensive.
+  </em>
+ </p>
+ <p>
+  <em>
+   Update: Jay Samec let me know there’s a bug in my code, since it didn’t handle emails with multiple dots (e.g. those with subdomains). Script has been fixed now.
+  </em>
+ </p>
+ <p>
+  <em>
+   Update 2: Holger Rindermann pointed out another bug and provided a patch to fix it that is now a part of the script.
+  </em>
+ </p>
+</div>
+            </div><!-- /.entry-content -->
+
+            <footer class="post-metadata">
+                <ul>
+                    <li>Published on <time datetime="2005-09-11T15:59:00+02:00">Sun 11 September 2005</time> </li>
+                    <li><a href="./hide-email-address-from-spammers-with-javascript.html">Add your comment</a></li>
+                </ul>
+            </footer>
+        </article>
+        <article class="hentry">
             <h1 class="entry-title storytitle"><a href="./why-i-passionately-dislike-twisted-and-zope.html" rel="bookmark" title="Permalink to Why I passionately dislike Twisted and Zope">Why I passionately dislike Twisted and Zope</a></h1>
 
             <div class="entry-content post-text">
@@ -152,71 +223,6 @@ body > footer .mini-logo {display: inline-block;width:97px;height:32px;border:0;
                 <ul>
                     <li>Published on <time datetime="2005-09-07T19:21:00+02:00">Wed 07 September 2005</time> </li>
                     <li><a href="./im-a-human-dammit.html">Add your comment</a></li>
-                </ul>
-            </footer>
-        </article>
-        <article class="hentry">
-            <h1 class="entry-title storytitle"><a href="./beautiful-soup-is-beautiful-again.html" rel="bookmark" title="Permalink to Beautiful Soup is beautiful again">Beautiful Soup is beautiful again</a></h1>
-
-            <div class="entry-content post-text">
-                <div>
- <p>
-  This is probably the last part in series of post dealing with Beautiful Soup. At least for a while. Good news is, I found the bug that caused observed weird behavior and it was partly self-inflicted.
- </p>
- <p>
-  My problem appeared, because I was using variables that resembled html tags (e.g. imgs, ul…) and didn’t put space after &lt; in statements as good practice dictates. So I  had statements like:
-  <br/>
-  <code>
-   <br/>
-   if (i&lt;imgs.length)
-   <br/>
-  </code>
- </p>
- <p>
-  Beautiful Soup relies on
-  <em>
-   sgmllib.py
-  </em>
-  for processing of documents and it’s sgmllib that causes havoc by processing CDATA (found in script and style blocks), when it shouldn’t. But the problem is not really with sgmllib, which has a literal switch to turn processing off. It’s just that Beautiful Soup doesn’t use it.
- </p>
- <p>
-  So fix is really adding one line
-  <br/>
-  <code>
-   <br/>
-   self.literal = 1
-   <br/>
-  </code>
-  <br/>
-  after
-  <em>
-   if
-  </em>
-  statement on line 835. Or
-  <a href="http://markos.gaivo.net/blog/code/BeautifulSoup.py" title="Link to fixed version">
-   downloading fixed version
-  </a>
-  .
- </p>
- <p>
-  Reading source I also realized another potential pitfall. If you use javascript to inject javascript with document.write method, you’ll probably confuse sgmllib (and hence Beautiful Soup). When processing CDATA, it doesn’t try to understand it, it just copies data until it finds an endtag (&lt;/script&gt; in javascript’s case). But if you’re doing that, you have yourself to blame.
- </p>
- <p>
-  <em>
-   BeautifulSoup 2.1.1 is
-   <a href="http://www.crummy.com/software/BeautifulSoup/index.html">
-    out
-   </a>
-   , which fixes my bug and several others. So you better fetch that version.
-  </em>
- </p>
-</div>
-            </div><!-- /.entry-content -->
-
-            <footer class="post-metadata">
-                <ul>
-                    <li>Published on <time datetime="2005-09-06T10:16:00+02:00">Tue 06 September 2005</time> </li>
-                    <li><a href="./beautiful-soup-is-beautiful-again.html">Add your comment</a></li>
                 </ul>
             </footer>
         </article>

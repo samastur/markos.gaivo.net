@@ -59,7 +59,7 @@ body > footer .mini-logo {display: inline-block;width:97px;height:32px;border:0;
 
 <body>
 
-<h2>Articles in the Web category</h2>
+<h2>Articles in the web category</h2>
 
 <section class="envelope posts">
     <header>
@@ -74,6 +74,32 @@ body > footer .mini-logo {display: inline-block;width:97px;height:32px;border:0;
         </ul>
     </nav>
 
+        <article class="hentry">
+            <h1 class="entry-title storytitle"><a href="../web-skills.html" rel="bookmark" title="Permalink to Web skills">Web skills</a></h1>
+
+            <div class="entry-content post-text">
+                <p>While following news about Brexit developments and its impact on FTSE100, my wife and I wondered how many people work for companies that are included in that index. Wikipedia provides <a href="https://en.wikipedia.org/wiki/FTSE_100_Index">a list of FTSE100 companies</a> including their employees numbers, but without the total that interested us.</p>
+<p>I did not feel like summing them manually as it is tedious, slow and error prone. Luckily I do not have to as this is a nice example how we can use even limited web development skills to solve every day problems.</p>
+<p>All I needed to do is select table cells in last column, transform their values to numbers that Javascript understands and sum them.</p>
+<p>On a modern browser this can be accomplished by opening developer tools and executing two lines of code in its console:</p>
+<div class="highlight"><pre><span class="nt">var</span> <span class="nt">nodes</span> <span class="o">=</span> <span class="cp">[]</span><span class="nc">.slice.call</span><span class="o">(</span><span class="nt">document</span><span class="nc">.querySelectorAll</span><span class="o">(</span><span class="s2">&quot;#constituents tbody td:last-child&quot;</span><span class="o">));</span>
+<span class="nt">nodes</span><span class="nc">.map</span><span class="o">((</span><span class="nt">a</span><span class="o">)</span> <span class="o">=&gt;</span> <span class="nt">parseInt</span><span class="o">(</span><span class="nt">a</span><span class="nc">.innerText.replace</span><span class="o">(/,/</span><span class="nt">g</span><span class="o">,</span> <span class="s1">&#39;&#39;</span><span class="o">),</span> <span class="nt">10</span><span class="o">))</span><span class="nc">.reduce</span><span class="o">((</span><span class="nt">a</span><span class="o">,</span> <span class="nt">b</span><span class="o">)=&gt;</span> <span class="nt">a</span><span class="o">+</span><span class="nt">b</span><span class="o">,</span> <span class="nt">0</span><span class="o">);</span>
+</pre></div>
+
+
+<p>What the first line does is select last table cell (<code>td:last-child</code>) in each company row of the table (<code>#constituents tbody</code>). <code>[].slice.call</code> is used to make the resulting list a Javascript array because it is easy to work with.</p>
+<p>In second line we first transform the list of page elements to a list of cell values, by picking them with <code>.innerText</code>, removing comma separators (<code>.replace(/,/g, '')</code>) and changing them to numbers using <code>parseInt</code>. This is immediately followed with a call to <code>reduce</code> which sums all the values in our list.</p>
+<p>Alternatively I could have also used <a href="http://jquery.com">jQuery</a> library already included on Wikipedia pages and not much more code to get to the same result.</p>
+<p>Turns out that according to Wikipedia there are 5,618,496 people working for FTSE100 companies out of 31.59m in total.</p>
+            </div><!-- /.entry-content -->
+
+            <footer class="post-metadata">
+                <ul>
+                    <li>Published on <time datetime="2016-06-27T18:45:31+02:00">Mon 27 June 2016</time> </li>
+                    <li><a href="../web-skills.html">Add your comment</a></li>
+                </ul>
+            </footer>
+        </article>
         <article class="hentry">
             <h1 class="entry-title storytitle"><a href="../chirp-squawk-cackle-or-honk.html" rel="bookmark" title="Permalink to Chirp, Squawk, Cackle, or Honk*">Chirp, Squawk, Cackle, or Honk*</a></h1>
 
@@ -361,50 +387,6 @@ body > footer .mini-logo {display: inline-block;width:97px;height:32px;border:0;
                 <ul>
                     <li>Published on <time datetime="2009-04-12T14:34:00+02:00">Sun 12 April 2009</time> </li>
                     <li><a href="../game-mechanics-on-web.html">Add your comment</a></li>
-                </ul>
-            </footer>
-        </article>
-        <article class="hentry">
-            <h1 class="entry-title storytitle"><a href="../firefox-3-release-party.html" rel="bookmark" title="Permalink to Firefox 3 Release Party">Firefox 3 Release Party</a></h1>
-
-            <div class="entry-content post-text">
-                <div>
- <p>
-  <a class="zem_slink" href="http://www.firefox.com/" rel="homepage" title="Mozilla Firefox">
-   Firefox 3
-  </a>
-  was released last week and tomorrow, a week after its release, we’ll have
-  <a href="http://www.kiberpipa.org/firefox/">
-   a release party
-  </a>
-  at Kiberpipa. Everybody is welcome, but you have to register first.
- </p>
- <p>
-  Part of the event will be
-  <a href="http://www.kiberpipa.org/firefox/schedule">
-   a series of talks
-  </a>
-  , one of which will be mine, a short talk titled Easy deployment of site-extensions with a
-  <a class="zem_slink" href="http://en.wikipedia.org/wiki/Plugin" rel="wikipedia" title="Plugin">
-   browser plugin
-  </a>
-  .
- </p>
- <p>
-  I hope to see you there.
- </p>
- <div class="zemanta-pixie" style="margin-top: 10px; height: 15px;">
-  <a class="zemanta-pixie-a" href="http://reblog.zemanta.com/zemified/6aa8e696-91f0-45b4-a4dd-42968486c1a5/" title="Zemified by Zemanta">
-   <img alt="Zemanta Pixie" class="zemanta-pixie-img" src="http://img.zemanta.com/reblog_a.png?x-id=6aa8e696-91f0-45b4-a4dd-42968486c1a5" style="border: medium none; float: right;"/>
-  </a>
- </div>
-</div>
-            </div><!-- /.entry-content -->
-
-            <footer class="post-metadata">
-                <ul>
-                    <li>Published on <time datetime="2008-06-23T10:35:00+02:00">Mon 23 June 2008</time> </li>
-                    <li><a href="../firefox-3-release-party.html">Add your comment</a></li>
                 </ul>
             </footer>
         </article>

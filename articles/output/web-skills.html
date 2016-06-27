@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-        <title>A notch above a monkey - Articles by markos</title>
+          <title>A notch above a monkey</title>
         <meta charset="utf-8" />
 				<meta name="viewport" content="width=device-width, initial-scale=1">
 
@@ -54,130 +54,71 @@ body > footer .mini-logo {display: inline-block;width:97px;height:32px;border:0;
 
         <link href="/articles/feeds/atom.xml" type="application/atom+xml" rel="alternate" title="A notch above a monkey Full Atom Feed" />
         <link href="/articles/feeds/rss.xml" type="application/rss+xml" rel="alternate" title="A notch above a monkey Full RSS Feed" />
+        <link href="/articles/feeds/web.atom.xml" type="application/atom+xml" rel="alternate" title="A notch above a monkey Categories Atom Feed" />
+
+
+
+    <meta name="tags" contents="web" />
+    <meta name="tags" contents="skills" />
+    <meta name="tags" contents="programming" />
+    <meta name="tags" contents="trick" />
+    <meta name="tags" contents="wikipedia" />
+
 </head>
 
 <body>
+<header id="banner" class="body">
+    <h1><a href="./">A notch above a monkey</a> &raquo; Web skills</h1>
+</header><!-- /#banner -->
 
-<h2>Articles by markos</h2>
+<section class="envelope">
+    <article class="post">
+        <header class="entry-title">
+            <h1 class="entry-title">Web skills</h1>
+         
+        </header>
 
-<section class="envelope posts">
-    <header>
-        <h1><a href="../">A notch above a monkey <strong></strong></a></h1>
-    </header><!-- /#banner -->
+        <footer class="post-info">
+            <ul>
+                <li class="by">Written by: <a href="/">Marko Samastur</a></li>
+                <li class="published">Published on: <time datetime="2016-06-27T18:45:31+02:00" pubdate>Mon 27 June 2016</time></li>
+                <li class="categories">Category: web
+                </li>
+            </ul>
 
-    <nav class="colophon">
-        <h1>By Marko Samastur</h1>
-        <ul>
-            <li><a href="/">About me</a></li>
-            <li><a href="/articles/feeds/atom.xml">Subscribe</a></li>
-        </ul>
-    </nav>
+        </footer><!-- /.post-info -->
 
-        <article class="hentry">
-            <h1 class="entry-title storytitle"><a href="../robot-exclusion-profile.html" rel="bookmark" title="Permalink to Robot Exclusion Profile">Robot Exclusion Profile</a></h1>
+        <div class="post-text">
+            <p>While following news about Brexit developments and its impact on FTSE100, my wife and I wondered how many people work for companies that are included in that index. Wikipedia provides <a href="https://en.wikipedia.org/wiki/FTSE_100_Index">a list of FTSE100 companies</a> including their employees numbers, but without the total that interested us.</p>
+<p>I did not feel like summing them manually as it is tedious, slow and error prone. Luckily I do not have to as this is a nice example how we can use even limited web development skills to solve every day problems.</p>
+<p>All I needed to do is select table cells in last column, transform their values to numbers that Javascript understands and sum them.</p>
+<p>On a modern browser this can be accomplished by opening developer tools and executing two lines of code in its console:</p>
+<div class="highlight"><pre><span class="nt">var</span> <span class="nt">nodes</span> <span class="o">=</span> <span class="cp">[]</span><span class="nc">.slice.call</span><span class="o">(</span><span class="nt">document</span><span class="nc">.querySelectorAll</span><span class="o">(</span><span class="s2">&quot;#constituents tbody td:last-child&quot;</span><span class="o">));</span>
+<span class="nt">nodes</span><span class="nc">.map</span><span class="o">((</span><span class="nt">a</span><span class="o">)</span> <span class="o">=&gt;</span> <span class="nt">parseInt</span><span class="o">(</span><span class="nt">a</span><span class="nc">.innerText.replace</span><span class="o">(/,/</span><span class="nt">g</span><span class="o">,</span> <span class="s1">&#39;&#39;</span><span class="o">),</span> <span class="nt">10</span><span class="o">))</span><span class="nc">.reduce</span><span class="o">((</span><span class="nt">a</span><span class="o">,</span> <span class="nt">b</span><span class="o">)=&gt;</span> <span class="nt">a</span><span class="o">+</span><span class="nt">b</span><span class="o">,</span> <span class="nt">0</span><span class="o">);</span>
+</pre></div>
 
-            <div class="entry-content post-text">
-                <div>
- <p>
-  <strong>
-   Error:
-  </strong>
-  No such file found! Please make sure
-  <code>
-   http://markos.gaivo.net/blog/code/robots-exclusion.txt
-  </code>
-  exists.
- </p>
-</div>
-            </div><!-- /.entry-content -->
 
-            <footer class="post-metadata">
-                <ul>
-                    <li>Published on <time datetime="2006-04-13T22:54:00+02:00">Thu 13 April 2006</time> </li>
-                    <li><a href="../robot-exclusion-profile.html">Add your comment</a></li>
-                </ul>
-            </footer>
-        </article>
-        <article class="hentry">
-            <h1 class="entry-title storytitle"><a href="../ajax-workshop-2.html" rel="bookmark" title="Permalink to AJAX workshop">AJAX workshop</a></h1>
+<p>What the first line does is select last table cell (<code>td:last-child</code>) in each company row of the table (<code>#constituents tbody</code>). <code>[].slice.call</code> is used to make the resulting list a Javascript array because it is easy to work with.</p>
+<p>In second line we first transform the list of page elements to a list of cell values, by picking them with <code>.innerText</code>, removing comma separators (<code>.replace(/,/g, '')</code>) and changing them to numbers using <code>parseInt</code>. This is immediately followed with a call to <code>reduce</code> which sums all the values in our list.</p>
+<p>Alternatively I could have also used <a href="http://jquery.com">jQuery</a> library already included on Wikipedia pages and not much more code to get to the same result.</p>
+<p>Turns out that according to Wikipedia there are 5,618,496 people working for FTSE100 companies out of 31.59m in total.</p>
+        </div><!-- /.entry-content -->
 
-            <div class="entry-content post-text">
-                <div>
- <p>
-  Fry
-  <a href="http://friedcellcollective.net/outbreak/2006/04/12/ajax-workshop/">
-   said
-  </a>
-  :
- </p>
- <blockquote>
-  <p>
-   We’re preparing a workshop at Spletne urice (???Web hours??? in Slovenian, a weekly meeting of web enthusiasts) that will focus on AJAX, hosted by me and another Marko. Actually we’re preparing two of them. The first one will cover the basics of asynchronous transport and data, the second one will add some DOM scripting and review some AJAX frameworks.
-  </p>
- </blockquote>
- <p>
-  Being the other Marko I can say this workshop will totally rock. It has to, because AJAX is cool, right? Instant fame, riches and all that.
- </p>
- <p>
-  Seriously though, I do believe it will be a great experience for those who’ll attend. Everyone is welcome, but only first 10, sorry, 9
-  <a href="http://web.zen.si/archives/2006/04/ajax-workshop/">
-   registered
-  </a>
-  will get this chance because of limits imposed on us by the choice of venue. It’s even free (not likely to happen again any time soon), so price can be hardly something to worry about.
- </p>
- <p>
-  You can also help us make it better for you by contributing websites you’d like to see getting a makeover and telling us as much as you can about what you’d like to hear there (and what not).
- </p>
- <p>
-  <strong>
-   Update: Workshop is full and registration is closed. I’m sorry not everyone will get a chance to participate, but we might do another one later this year.
-  </strong>
- </p>
-</div>
-            </div><!-- /.entry-content -->
+        <div id="disqus_thread"></div>
+        <script type="text/javascript">
+            /* * * CONFIGURATION VARIABLES * * */
+            var disqus_shortname = 'markosgaivo';
 
-            <footer class="post-metadata">
-                <ul>
-                    <li>Published on <time datetime="2006-04-13T10:31:00+02:00">Thu 13 April 2006</time> </li>
-                    <li><a href="../ajax-workshop-2.html">Add your comment</a></li>
-                </ul>
-            </footer>
-        </article>
-        <article class="hentry">
-            <h1 class="entry-title storytitle"><a href="../frys-outbreak.html" rel="bookmark" title="Permalink to Fry's outbreak">Fry's outbreak</a></h1>
-
-            <div class="entry-content post-text">
-                <div>
- <p>
-  I give up. I tried to think of a way to properly announce
-  <a href="http://friedcellcollective.net/outbreak/">
-   Fry’s new blog
-  </a>
-  , but I can’t think of any. Let me just say I’m glad that he decided to start it (again) and I look forward to reading it.
- </p>
-</div>
-            </div><!-- /.entry-content -->
-
-            <footer class="post-metadata">
-                <ul>
-                    <li>Published on <time datetime="2006-04-11T11:31:00+02:00">Tue 11 April 2006</time> </li>
-                    <li><a href="../frys-outbreak.html">Add your comment</a></li>
-                </ul>
-            </footer>
-        </article>
-
-<ul class="paginator">
-		<li class="newer">
-        <a href="../author/markos64.html">&laquo; Newer</a>
-		</li>
-		<li class="current">
-    65 / 112
-		</li>
-		<li class="older">
-        <a href="../author/markos66.html">Older &raquo;</a>
-		</li>
-</ul>
-</section><!-- /#content -->
+            /* * * DON'T EDIT BELOW THIS LINE * * */
+            (function() {
+                var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+                dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+                (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+            })();
+        </script>
+        <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript" rel="nofollow">comments powered by Disqus.</a></noscript>
+    </article>
+</section>
 
     <footer>
         <ul>

@@ -1,5 +1,17 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>A notch above a monkey</title><link href="http://markos.gaivo.net/articles/" rel="alternate"></link><link href="/articles/feeds/web.atom.xml" rel="self"></link><id>http://markos.gaivo.net/articles/</id><updated>2014-07-10T17:01:00+02:00</updated><entry><title>Chirp, Squawk, Cackle, or Honk*</title><link href="http://markos.gaivo.net/articles/chirp-squawk-cackle-or-honk.html" rel="alternate"></link><updated>2014-07-10T17:01:00+02:00</updated><author><name>markos</name></author><id>tag:markos.gaivo.net,2014-07-10:articles/chirp-squawk-cackle-or-honk.html</id><summary type="html">&lt;div&gt;
+<feed xmlns="http://www.w3.org/2005/Atom"><title>A notch above a monkey</title><link href="http://markos.gaivo.net/articles/" rel="alternate"></link><link href="/articles/feeds/web.atom.xml" rel="self"></link><id>http://markos.gaivo.net/articles/</id><updated>2016-06-27T18:45:31+02:00</updated><entry><title>Web skills</title><link href="http://markos.gaivo.net/articles/web-skills.html" rel="alternate"></link><updated>2016-06-27T18:45:31+02:00</updated><author><name>markos</name></author><id>tag:markos.gaivo.net,2016-06-27:articles/web-skills.html</id><summary type="html">&lt;p&gt;While following news about Brexit developments and its impact on FTSE100, my wife and I wondered how many people work for companies that are included in that index. Wikipedia provides &lt;a href="https://en.wikipedia.org/wiki/FTSE_100_Index"&gt;a list of FTSE100 companies&lt;/a&gt; including their employees numbers, but without the total that interested us.&lt;/p&gt;
+&lt;p&gt;I did not feel like summing them manually as it is tedious, slow and error prone. Luckily I do not have to as this is a nice example how we can use even limited web development skills to solve every day problems.&lt;/p&gt;
+&lt;p&gt;All I needed to do is select table cells in last column, transform their values to numbers that Javascript understands and sum them.&lt;/p&gt;
+&lt;p&gt;On a modern browser this can be accomplished by opening developer tools and executing two lines of code in its console:&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span class="nt"&gt;var&lt;/span&gt; &lt;span class="nt"&gt;nodes&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="cp"&gt;[]&lt;/span&gt;&lt;span class="nc"&gt;.slice.call&lt;/span&gt;&lt;span class="o"&gt;(&lt;/span&gt;&lt;span class="nt"&gt;document&lt;/span&gt;&lt;span class="nc"&gt;.querySelectorAll&lt;/span&gt;&lt;span class="o"&gt;(&lt;/span&gt;&lt;span class="s2"&gt;&amp;quot;#constituents tbody td:last-child&amp;quot;&lt;/span&gt;&lt;span class="o"&gt;));&lt;/span&gt;
+&lt;span class="nt"&gt;nodes&lt;/span&gt;&lt;span class="nc"&gt;.map&lt;/span&gt;&lt;span class="o"&gt;((&lt;/span&gt;&lt;span class="nt"&gt;a&lt;/span&gt;&lt;span class="o"&gt;)&lt;/span&gt; &lt;span class="o"&gt;=&amp;gt;&lt;/span&gt; &lt;span class="nt"&gt;parseInt&lt;/span&gt;&lt;span class="o"&gt;(&lt;/span&gt;&lt;span class="nt"&gt;a&lt;/span&gt;&lt;span class="nc"&gt;.innerText.replace&lt;/span&gt;&lt;span class="o"&gt;(/,/&lt;/span&gt;&lt;span class="nt"&gt;g&lt;/span&gt;&lt;span class="o"&gt;,&lt;/span&gt; &lt;span class="s1"&gt;&amp;#39;&amp;#39;&lt;/span&gt;&lt;span class="o"&gt;),&lt;/span&gt; &lt;span class="nt"&gt;10&lt;/span&gt;&lt;span class="o"&gt;))&lt;/span&gt;&lt;span class="nc"&gt;.reduce&lt;/span&gt;&lt;span class="o"&gt;((&lt;/span&gt;&lt;span class="nt"&gt;a&lt;/span&gt;&lt;span class="o"&gt;,&lt;/span&gt; &lt;span class="nt"&gt;b&lt;/span&gt;&lt;span class="o"&gt;)=&amp;gt;&lt;/span&gt; &lt;span class="nt"&gt;a&lt;/span&gt;&lt;span class="o"&gt;+&lt;/span&gt;&lt;span class="nt"&gt;b&lt;/span&gt;&lt;span class="o"&gt;,&lt;/span&gt; &lt;span class="nt"&gt;0&lt;/span&gt;&lt;span class="o"&gt;);&lt;/span&gt;
+&lt;/pre&gt;&lt;/div&gt;
+
+
+&lt;p&gt;What the first line does is select last table cell (&lt;code&gt;td:last-child&lt;/code&gt;) in each company row of the table (&lt;code&gt;#constituents tbody&lt;/code&gt;). &lt;code&gt;[].slice.call&lt;/code&gt; is used to make the resulting list a Javascript array because it is easy to work with.&lt;/p&gt;
+&lt;p&gt;In second line we first transform the list of page elements to a list of cell values, by picking them with &lt;code&gt;.innerText&lt;/code&gt;, removing comma separators (&lt;code&gt;.replace(/,/g, '')&lt;/code&gt;) and changing them to numbers using &lt;code&gt;parseInt&lt;/code&gt;. This is immediately followed with a call to &lt;code&gt;reduce&lt;/code&gt; which sums all the values in our list.&lt;/p&gt;
+&lt;p&gt;Alternatively I could have also used &lt;a href="http://jquery.com"&gt;jQuery&lt;/a&gt; library already included on Wikipedia pages and not much more code to get to the same result.&lt;/p&gt;
+&lt;p&gt;Turns out that according to Wikipedia there are 5,618,496 people working for FTSE100 companies out of 31.59m in total.&lt;/p&gt;</summary><category term="web"></category><category term="skills"></category><category term="programming"></category><category term="trick"></category><category term="wikipedia"></category></entry><entry><title>Chirp, Squawk, Cackle, or Honk*</title><link href="http://markos.gaivo.net/articles/chirp-squawk-cackle-or-honk.html" rel="alternate"></link><updated>2014-07-10T17:01:00+02:00</updated><author><name>markos</name></author><id>tag:markos.gaivo.net,2014-07-10:articles/chirp-squawk-cackle-or-honk.html</id><summary type="html">&lt;div&gt;
  &lt;p&gt;
   Disappointed I stopped using Twitter at the end of 2011 and have since visited it mostly to follow up specific references. As a medium I found it lacking but ignorable until recently. While I was reading about the aptly named
   &lt;a href="http://imgur.com/a/nUX1A"&gt;
@@ -539,23 +551,5 @@
  &lt;/ul&gt;
  &lt;p&gt;
   So, this is it. I hope to be there again next year.
- &lt;/p&gt;
-&lt;/div&gt;</summary></entry><entry><title>Opera mini and file uploads</title><link href="http://markos.gaivo.net/articles/opera-mini-and-file-uploads.html" rel="alternate"></link><updated>2006-05-24T10:35:00+02:00</updated><author><name>markos</name></author><id>tag:markos.gaivo.net,2006-05-24:articles/opera-mini-and-file-uploads.html</id><summary type="html">&lt;div&gt;
- &lt;p&gt;
-  A Marela member notified us, that file upload doesn’t work in
-  &lt;a href="http://www.opera.com/products/mobile/operamini/"&gt;
-   Opera Mini
-  &lt;/a&gt;
-  . It’s true, because Opera Mini doesn’t support file uploads which you can easily check by visiting two
-  &lt;a href="http://markos.gaivo.net/examples/inputfile/index.html"&gt;
-   demo pages
-  &lt;/a&gt;
-  with valid XHTML. You shouldn’t see a file input element on either of them.
- &lt;/p&gt;
- &lt;p&gt;
-  I believe (but as an outsider obviously can’t prove) it lacks upload support for security reasons. Every web request handled by Opera Mini gets transported over a proxy, which fetches the page in questions and translates it in a compressed format suitable for viewing on small screen devices. This means that file uploads would be sent to proxy as well which depending on what is sent can be seen as a security violation.
- &lt;/p&gt;
- &lt;p&gt;
-  Of course it does allow logging in websites, a potentially unsafe action, which puts my speculation on shaky grounds. But the true point of this article still stands. Opera Mini doesn’t support file uploads.
  &lt;/p&gt;
 &lt;/div&gt;</summary></entry></feed>

@@ -1,5 +1,17 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>A notch above a monkey</title><link href="http://markos.gaivo.net/articles/" rel="alternate"></link><link href="/articles/feeds/atom.xml" rel="self"></link><id>http://markos.gaivo.net/articles/</id><updated>2016-01-19T21:00:17+01:00</updated><entry><title>image-diet2 and pyimagediet</title><link href="http://markos.gaivo.net/articles/image-diet2-and-pyimagediet.html" rel="alternate"></link><updated>2016-01-19T21:00:17+01:00</updated><author><name>markos</name></author><id>tag:markos.gaivo.net,2016-01-19:articles/image-diet2-and-pyimagediet.html</id><summary type="html">&lt;p&gt;Couple of years ago I hacked together a small Django app called &lt;a href="http://"&gt;image-diet&lt;/a&gt; which automatically compresses images processed by Easy Thumbnails as they are uploaded to a website. Its code was atrocious with configuration for external tools baked in, it only worked with &lt;a href="https://github.com/SmileyChris/easy-thumbnails"&gt;Easy Thumbnails&lt;/a&gt; and Python2 and...I could go on, but it worked and at &lt;a href="http://aptivate.org"&gt;Aptivate&lt;/a&gt; we have been using it successfully ever since.&lt;/p&gt;
+<feed xmlns="http://www.w3.org/2005/Atom"><title>A notch above a monkey</title><link href="http://markos.gaivo.net/articles/" rel="alternate"></link><link href="/articles/feeds/atom.xml" rel="self"></link><id>http://markos.gaivo.net/articles/</id><updated>2016-06-27T18:45:31+02:00</updated><entry><title>Web skills</title><link href="http://markos.gaivo.net/articles/web-skills.html" rel="alternate"></link><updated>2016-06-27T18:45:31+02:00</updated><author><name>markos</name></author><id>tag:markos.gaivo.net,2016-06-27:articles/web-skills.html</id><summary type="html">&lt;p&gt;While following news about Brexit developments and its impact on FTSE100, my wife and I wondered how many people work for companies that are included in that index. Wikipedia provides &lt;a href="https://en.wikipedia.org/wiki/FTSE_100_Index"&gt;a list of FTSE100 companies&lt;/a&gt; including their employees numbers, but without the total that interested us.&lt;/p&gt;
+&lt;p&gt;I did not feel like summing them manually as it is tedious, slow and error prone. Luckily I do not have to as this is a nice example how we can use even limited web development skills to solve every day problems.&lt;/p&gt;
+&lt;p&gt;All I needed to do is select table cells in last column, transform their values to numbers that Javascript understands and sum them.&lt;/p&gt;
+&lt;p&gt;On a modern browser this can be accomplished by opening developer tools and executing two lines of code in its console:&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span class="nt"&gt;var&lt;/span&gt; &lt;span class="nt"&gt;nodes&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="cp"&gt;[]&lt;/span&gt;&lt;span class="nc"&gt;.slice.call&lt;/span&gt;&lt;span class="o"&gt;(&lt;/span&gt;&lt;span class="nt"&gt;document&lt;/span&gt;&lt;span class="nc"&gt;.querySelectorAll&lt;/span&gt;&lt;span class="o"&gt;(&lt;/span&gt;&lt;span class="s2"&gt;&amp;quot;#constituents tbody td:last-child&amp;quot;&lt;/span&gt;&lt;span class="o"&gt;));&lt;/span&gt;
+&lt;span class="nt"&gt;nodes&lt;/span&gt;&lt;span class="nc"&gt;.map&lt;/span&gt;&lt;span class="o"&gt;((&lt;/span&gt;&lt;span class="nt"&gt;a&lt;/span&gt;&lt;span class="o"&gt;)&lt;/span&gt; &lt;span class="o"&gt;=&amp;gt;&lt;/span&gt; &lt;span class="nt"&gt;parseInt&lt;/span&gt;&lt;span class="o"&gt;(&lt;/span&gt;&lt;span class="nt"&gt;a&lt;/span&gt;&lt;span class="nc"&gt;.innerText.replace&lt;/span&gt;&lt;span class="o"&gt;(/,/&lt;/span&gt;&lt;span class="nt"&gt;g&lt;/span&gt;&lt;span class="o"&gt;,&lt;/span&gt; &lt;span class="s1"&gt;&amp;#39;&amp;#39;&lt;/span&gt;&lt;span class="o"&gt;),&lt;/span&gt; &lt;span class="nt"&gt;10&lt;/span&gt;&lt;span class="o"&gt;))&lt;/span&gt;&lt;span class="nc"&gt;.reduce&lt;/span&gt;&lt;span class="o"&gt;((&lt;/span&gt;&lt;span class="nt"&gt;a&lt;/span&gt;&lt;span class="o"&gt;,&lt;/span&gt; &lt;span class="nt"&gt;b&lt;/span&gt;&lt;span class="o"&gt;)=&amp;gt;&lt;/span&gt; &lt;span class="nt"&gt;a&lt;/span&gt;&lt;span class="o"&gt;+&lt;/span&gt;&lt;span class="nt"&gt;b&lt;/span&gt;&lt;span class="o"&gt;,&lt;/span&gt; &lt;span class="nt"&gt;0&lt;/span&gt;&lt;span class="o"&gt;);&lt;/span&gt;
+&lt;/pre&gt;&lt;/div&gt;
+
+
+&lt;p&gt;What the first line does is select last table cell (&lt;code&gt;td:last-child&lt;/code&gt;) in each company row of the table (&lt;code&gt;#constituents tbody&lt;/code&gt;). &lt;code&gt;[].slice.call&lt;/code&gt; is used to make the resulting list a Javascript array because it is easy to work with.&lt;/p&gt;
+&lt;p&gt;In second line we first transform the list of page elements to a list of cell values, by picking them with &lt;code&gt;.innerText&lt;/code&gt;, removing comma separators (&lt;code&gt;.replace(/,/g, '')&lt;/code&gt;) and changing them to numbers using &lt;code&gt;parseInt&lt;/code&gt;. This is immediately followed with a call to &lt;code&gt;reduce&lt;/code&gt; which sums all the values in our list.&lt;/p&gt;
+&lt;p&gt;Alternatively I could have also used &lt;a href="http://jquery.com"&gt;jQuery&lt;/a&gt; library already included on Wikipedia pages and not much more code to get to the same result.&lt;/p&gt;
+&lt;p&gt;Turns out that according to Wikipedia there are 5,618,496 people working for FTSE100 companies out of 31.59m in total.&lt;/p&gt;</summary><category term="web"></category><category term="skills"></category><category term="programming"></category><category term="trick"></category><category term="wikipedia"></category></entry><entry><title>image-diet2 and pyimagediet</title><link href="http://markos.gaivo.net/articles/image-diet2-and-pyimagediet.html" rel="alternate"></link><updated>2016-01-19T21:00:17+01:00</updated><author><name>markos</name></author><id>tag:markos.gaivo.net,2016-01-19:articles/image-diet2-and-pyimagediet.html</id><summary type="html">&lt;p&gt;Couple of years ago I hacked together a small Django app called &lt;a href="http://"&gt;image-diet&lt;/a&gt; which automatically compresses images processed by Easy Thumbnails as they are uploaded to a website. Its code was atrocious with configuration for external tools baked in, it only worked with &lt;a href="https://github.com/SmileyChris/easy-thumbnails"&gt;Easy Thumbnails&lt;/a&gt; and Python2 and...I could go on, but it worked and at &lt;a href="http://aptivate.org"&gt;Aptivate&lt;/a&gt; we have been using it successfully ever since.&lt;/p&gt;
 &lt;p&gt;Well, I finally found time and rewrote the whole thing. New version is now called &lt;a href="https://pypi.python.org/pypi/image-diet2"&gt;image-diet2&lt;/a&gt; because it is completely backwards incompatible and I screwed up versioning of the original one. Mea culpa.&lt;/p&gt;
 &lt;p&gt;It's implemented as a Django storage backend augmenting default one, but can easily be added as a mixin to any other so it should work no matter which tool or backend you use to upload files. Supporting new compression tools or changing configuration of existing does not require a new release or poking in virtualenv anymore. It is better &lt;a href="https://travis-ci.org/samastur/image-diet2"&gt;tested&lt;/a&gt;, &lt;a href="http://image-diet2.readthedocs.org/"&gt;documented&lt;/a&gt; and is not limited to 2.x branch of Python anymore. You really should give it a try.&lt;/p&gt;
 &lt;p&gt;image-diet2 is actually a thin Django wrapper around separately packaged &lt;a href="https://pypi.python.org/pypi/pyimagediet"&gt;pyimagediet&lt;/a&gt; that actually process files. My hope is that others may find it useful enough to use it on non-Django projects. It also comes with a tool to compress images and generate configuration file tailored to your system. If you can think of anything else that would make integration even easier, then please let me know.&lt;/p&gt;
@@ -769,91 +781,4 @@
    (markos.gaivo.net)
   &lt;/li&gt;
  &lt;/ul&gt;
-&lt;/div&gt;</summary><category term="review"></category><category term="book"></category><category term="Books"></category></entry><entry><title>2013 review</title><link href="http://markos.gaivo.net/articles/2013-review.html" rel="alternate"></link><updated>2014-01-01T23:22:00+01:00</updated><author><name>markos</name></author><id>tag:markos.gaivo.net,2014-01-01:articles/2013-review.html</id><summary type="html">&lt;div&gt;
- &lt;p&gt;
-  Happy and healthy new year! May it be better than the last one.
- &lt;/p&gt;
- &lt;p&gt;
-  A year that started with
-  &lt;a href="http://en.wikipedia.org/wiki/Aaron_Swartz"&gt;
-   Aaron Swartz’s
-  &lt;/a&gt;
-  death and ended with
-  &lt;a href="http://en.wikipedia.org/wiki/Nelson_Mandela"&gt;
-   Nelson Mandela’s
-  &lt;/a&gt;
-  never had a chance of being a good one even without Snowden’s revelations and a never-ending supply of bleak news. Alas I promised last year to abstain from commenting on external events to keep annual review posts slashed-wrists risk free.
- &lt;/p&gt;
- &lt;p&gt;
-  In some ways this year for me was a lot like the previous one. I worried about health of my family while continuing being lucky and otherwise happy. Today is two years since I started working at
-  &lt;a href="http://aptivate.org/"&gt;
-   Aptivate
-  &lt;/a&gt;
-  and my enthusiasm hasn’t diminished one iota. So one thing I learned is that I am *not* an incorrigible curmudgeon that can’t stay put.
- &lt;/p&gt;
- &lt;p&gt;
-  I learned a lot, especially from mentoring. It really is a blessing to have a wickedly smart and inquisitive mentee and I can’t recommend the experience enough.
- &lt;/p&gt;
- &lt;p&gt;
-  I also learned to dive, which will not be a serious hobby but is a convenient skill to have. Visit to
-  &lt;a href="http://en.wikipedia.org/wiki/Socotra"&gt;
-   Socotra
-  &lt;/a&gt;
-  sadly won’t happen and neither will I dive in south France, but who knows what this year will bring.
- &lt;/p&gt;
- &lt;p&gt;
-  What has worked and what not? Monthly reminders of my plans worked fine. I mostly ignored them (plans, not reminders), but at least I was doing this consciously and the frequency was right too so I’ll keep doing them this year. And it’s not like my plans changed only because of my fickleness. Mid-year killing of Google Reader unexpectedly made me busy with search for alternatives and writing exporter for my data in time. I didn’t have time to write a more suitable interface for querying and displaying said data and probably won’t this year either.
- &lt;/p&gt;
- &lt;p&gt;
-  List of possible and unfinished projects is still liberating. With added dates of edits it also documents development of my priorities and I don’t mind that I don’t do most of it as long as I do some (which I did).
- &lt;/p&gt;
- &lt;p&gt;
-  Digital sabbath also remains a good idea. I haven’t written the overview of books I read in 2013 yet, but I did compare dates on which I finished a book with
-  &lt;a href="https://github.com/samastur"&gt;
-   my Github history
-  &lt;/a&gt;
-  and it is obvious that I can either read books or code in my free time, but not both unless I actually reserve time for it.
- &lt;/p&gt;
- &lt;p&gt;
-  Another thing that proved itself is the importance of continuity of work. Small everyday steps have bigger effect than occasional sprints and they work better when I have a good to-do list which I didn’t always have.
- &lt;/p&gt;
- &lt;p&gt;
-  I made an experiment this summer when I spent a day a week working on non-Aptivate project to learn and refresh my knowledge of Javascript tools and techniques and to see what to expect if I spent a day a week on personal projects. It didn’t work as well as I hoped. Day a week + a few hours on other days certainly moves things forward, but it is not a particularly satisfying experience for anyone involved and likely not sustainable either.
- &lt;/p&gt;
- &lt;p&gt;
-  What I think would work better (for me) is to combine those off-days together into continuous chunks (say a week every 5 weeks or 2 every 10) for concentrated development of more complex parts of my projects and use those spare daily hours in-between for polishing and infrastructure. Painful side of this is that it reveals how little time I would actually have even if I had noticeably more of it. I am not sure yet what if anything to do with this.
- &lt;/p&gt;
- &lt;p&gt;
-  This realisation also led to a painful acceptance of
-  &lt;a href="https://twitter.com/trepca"&gt;
-   Sebastjan
-  &lt;/a&gt;
-  ’s observation that being too busy is simply a function of not pruning ambitions enough. So in 2014 I plan to read less. Who knows how many but I expect noticeably fewer than 20 books.
- &lt;/p&gt;
- &lt;p&gt;
-  I will also not work on open data projects except maybe participating on hack days (if there will be any). To be honest I haven’t done much anyway, but I still wasted time and energy worrying about it.
- &lt;/p&gt;
- &lt;p&gt;
-  Instead of building tools like
-  &lt;a href="https://github.com/samastur/mjp"&gt;
-   mjp
-  &lt;/a&gt;
-  or
-  &lt;a href="https://pypi.python.org/pypi/image-diet"&gt;
-   image-diet
-  &lt;/a&gt;
-  I intend to be more egoistical and work on projects I talked about for years, but never came around developing.  Current projects will likely receive only bug fixes.
- &lt;/p&gt;
- &lt;p&gt;
-  Any personal Python software project that will start in 2014 will be written in Python3. Clearly there is no better way to become proficient in it. Actually I expect to start only one project after I finish my current one.
- &lt;/p&gt;
- &lt;p&gt;
-  I’ve been writing development journal since October and it is a bit early to say how it is going. I think it is providing insight to what I actually do, but at the same time I am still learning what to record and how. Will see what this year brings.
- &lt;/p&gt;
- &lt;p&gt;
-  I’ll be 40 this year which should happen soon enough to not be a challenge and also provides a great motivation to fix my utter failure of this year of getting myself more fit.
- &lt;/p&gt;
- &lt;p&gt;
-  My expectations are not evolved enough to be plans, but I imagine 2014 to be even more development intensive than 2013 was. It seems I won’t be attending many conferences, but I don’t expect to be bored. More than anything I hope it will be great year for my family and friends.
- &lt;/p&gt;
-&lt;/div&gt;</summary><category term="review"></category><category term="annual review"></category><category term="2013"></category></entry></feed>
+&lt;/div&gt;</summary><category term="review"></category><category term="book"></category><category term="Books"></category></entry></feed>

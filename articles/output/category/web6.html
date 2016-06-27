@@ -59,7 +59,7 @@ body > footer .mini-logo {display: inline-block;width:97px;height:32px;border:0;
 
 <body>
 
-<h2>Articles in the Web category</h2>
+<h2>Articles in the web category</h2>
 
 <section class="envelope posts">
     <header>
@@ -74,6 +74,44 @@ body > footer .mini-logo {display: inline-block;width:97px;height:32px;border:0;
         </ul>
     </nav>
 
+        <article class="hentry">
+            <h1 class="entry-title storytitle"><a href="../open-federation-for-google-talk.html" rel="bookmark" title="Permalink to Open federation for Google Talk">Open federation for Google Talk</a></h1>
+
+            <div class="entry-content post-text">
+                <div>
+ <p>
+  Quite a lot has happened during time when I was away from this blog and I’ll probably talk about some of it in next few days, but I’d like to start with news from Google.
+ </p>
+ <p>
+  I wrote a
+  <a href="do-a-lesser-evil.html">
+   badly written post
+  </a>
+  when Google Talk was unveiled. What bothered me most was the fact that it didn’t communicate with anybody and was in fact another walled garden.
+ </p>
+ <p>
+  Well, they
+  <a href="http://googleblog.blogspot.com/2006/01/open-federation-for-google-talk.html" title="Open federation announcement">
+   fixed it
+  </a>
+  and Google Talk now actually talks to other jabber servers including ours.
+ </p>
+ <p>
+  There are some problems with presence notification, but it’s hard to say yet who’s fault it is and I wouldn’t be surprised if it was ours. Sad thing about jabber is that there are few if any open source server implementations that wouldn’t be just a notch above suck.
+ </p>
+ <p>
+  In short run this won’t change much. Most people will still be on competing services and it might be difficult to get them off. But as a newborn optimist I see a promise of an open, working IM, where you’re not tied to wishes and development of one company even when that company is mine. And that can only be good.
+ </p>
+</div>
+            </div><!-- /.entry-content -->
+
+            <footer class="post-metadata">
+                <ul>
+                    <li>Published on <time datetime="2006-01-20T16:58:00+01:00">Fri 20 January 2006</time> </li>
+                    <li><a href="../open-federation-for-google-talk.html">Add your comment</a></li>
+                </ul>
+            </footer>
+        </article>
         <article class="hentry">
             <h1 class="entry-title storytitle"><a href="../adwords-and-google-rank.html" rel="bookmark" title="Permalink to Adsense and Google rank">Adsense and Google rank</a></h1>
 
@@ -173,58 +211,6 @@ body > footer .mini-logo {display: inline-block;width:97px;height:32px;border:0;
                 <ul>
                     <li>Published on <time datetime="2005-10-01T09:28:00+02:00">Sat 01 October 2005</time> </li>
                     <li><a href="../scaling-image-buttons-part-2.html">Add your comment</a></li>
-                </ul>
-            </footer>
-        </article>
-        <article class="hentry">
-            <h1 class="entry-title storytitle"><a href="../scaling-image-buttons.html" rel="bookmark" title="Permalink to Scaling image buttons">Scaling image buttons</a></h1>
-
-            <div class="entry-content post-text">
-                <div>
- <p>
-  There’s one thing that really bothers me, when it comes to design of forms. Well, more than one really, but let’s limit this discussion to just one.
- </p>
- <p>
-  Submit buttons.
- </p>
- <p>
-  I can’t stand their look, especially geek chic design of early nineties presented in Firefox and its relatives. I guess industrial look and Motif widgets were never really my taste. But even more pleasant design of buttons in Safari can look out of place with some designs.
- </p>
- <p>
-  There’s also an alternative that is often used. Image input buttons (type=image) can provide a more pleasant look, but they have one big disadvantage compared to submit buttons. They don’t scale. Not really something I’d want in an accessible interface.
- </p>
- <p>
-  I used a hardly novel
-  <a href="http://clagnut.com/sandbox/imagetest/" title="Clagnut's image tests">
-   idea
-  </a>
-  of defining image measurements in relative units. Browsers usually don’t do this. They lay it out in original size using absolute values. Hence, when you change the size of fonts, the size of image stays the same. But if you use relative units, you get desired scaling effect. It might look like crap, but at least it can be readable for people with impaired vision.
- </p>
- <p>
-  As you can see in simple
-  <a href="http://markos.gaivo.net/examples/imgbutton/index.html">
-   demo
-  </a>
-  , experiments with em’s haven’t worked really well. There are two distinct problems. First is to find the relative size that doesn’t stretch an image in either direction. Second, to do this in a cross-browser compatible way.
- </p>
- <p>
-  My demo kind of works in Safari, but not really in Firefox and I have no idea about rest of the bunch. So, has anyone solved this problem?
- </p>
- <p>
-  <em>
-   Update: I managed to get a better result. You can read about it
-   <a href="scaling-image-buttons-part-2.html">
-    here.
-   </a>
-  </em>
- </p>
-</div>
-            </div><!-- /.entry-content -->
-
-            <footer class="post-metadata">
-                <ul>
-                    <li>Published on <time datetime="2005-09-28T10:53:00+02:00">Wed 28 September 2005</time> </li>
-                    <li><a href="../scaling-image-buttons.html">Add your comment</a></li>
                 </ul>
             </footer>
         </article>
