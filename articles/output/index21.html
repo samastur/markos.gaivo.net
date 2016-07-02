@@ -73,6 +73,238 @@ body > footer .mini-logo {display: inline-block;width:97px;height:32px;border:0;
     </nav>
 
         <article class="hentry">
+            <h1 class="entry-title storytitle"><a href="./dreaming-about-arithmetic-mean.html" rel="bookmark" title="Permalink to Dreaming about arithmetic mean">Dreaming about arithmetic mean</a></h1>
+
+            <div class="entry-content post-text">
+                <div>
+ <p>
+  I had a crazy dream, where I was back at University, but this time studying computer science. We were writing a function to calculate an
+  <a class="zem_slink" href="http://en.wikipedia.org/wiki/Arithmetic_mean" rel="wikipedia" title="Arithmetic mean">
+   arithmetic mean
+  </a>
+  of an array of numbers. A task obviously too simple for college course, but with dreams you get what you are given.
+ </p>
+ <p>
+  Discussion started with this function:
+ </p>
+ <ol class="code">
+  <li>
+   <code>
+    function average(arr) {
+   </code>
+  </li>
+  <li class="tab1">
+   <code>
+    var i, sum = 0;
+   </code>
+  </li>
+  <li class="tab1">
+   <code>
+    for(i=0;i&lt;arr.length;i++) {
+   </code>
+  </li>
+  <li class="tab2">
+   <code>
+    sum += arr[i];
+   </code>
+  </li>
+  <li class="tab1">
+   <code>
+    }
+   </code>
+  </li>
+  <li class="tab1">
+   <code>
+    return sum/i;
+   </code>
+  </li>
+  <li>
+   <code>
+    }
+   </code>
+  </li>
+  <li>
+  </li>
+  <li class="download">
+   Download this code:
+   <a href="http://markos.gaivo.net/blog/code/dreamjs.txt" title="Download the above code as a text file">
+    /code/dreamjs.txt
+   </a>
+  </li>
+ </ol>
+ <p>
+  Dream me, who by the way is significantly more bitchy than I ever am, wasn’t pleased and thought he could save few bytes by storing counter and sum inside of the array:
+ </p>
+ <ol class="code">
+  <li>
+   <code>
+    function average(arr) {
+   </code>
+  </li>
+  <li class="tab1 cmnt">
+   <code>
+    // Store counter in array[0] and sum in array[1]
+   </code>
+  </li>
+  <li class="tab1">
+   <code>
+    if (arr.length &lt; 3) {
+   </code>
+  </li>
+  <li class="tab2">
+   <code>
+    return arr.length == 2 ? arr[0]+arr[1] : arr[0];
+   </code>
+  </li>
+  <li class="tab1">
+   <code>
+    } else {
+   </code>
+  </li>
+  <li class="tab2">
+   <code>
+    arr[1] = arr[0]+arr[1];
+   </code>
+  </li>
+  <li class="tab2">
+   <code>
+    arr[0] = 2;
+   </code>
+  </li>
+  <li class="tab2">
+   <code>
+    for(;arr[0]&lt;arr.length;arr[0]++) {
+   </code>
+  </li>
+  <li class="tab3">
+   <code>
+    arr[1] += arr[arr[0]];
+   </code>
+  </li>
+  <li class="tab2">
+   <code>
+    }
+   </code>
+  </li>
+  <li class="tab1">
+   <code>
+    }
+   </code>
+  </li>
+  <li class="tab1">
+   <code>
+    return arr[1]/arr[0];
+   </code>
+  </li>
+  <li>
+   <code>
+    }
+   </code>
+  </li>
+  <li>
+  </li>
+  <li class="download">
+   Download this code:
+   <a href="http://markos.gaivo.net/blog/code/dreamjs2.txt" title="Download the above code as a text file">
+    /code/dreamjs2.txt
+   </a>
+  </li>
+ </ol>
+ <p>
+  This looked ugly, but what bothered him (me?) was more that it also had a bug. Integer in
+  <a class="zem_slink" href="http://en.wikipedia.org/wiki/JavaScript" rel="wikipedia" title="JavaScript">
+   Javascript
+  </a>
+  is limited to 2
+  <sup>
+   53
+  </sup>
+  , which is a lot, but sum can still
+  <a class="zem_slink" href="http://en.wikipedia.org/wiki/Arithmetic_overflow" rel="wikipedia" title="Arithmetic overflow">
+   overflow
+  </a>
+  or underflow it. Since mean can never be smaller than smallest or bigger than biggest number in a list, I could fix it by writing:
+ </p>
+ <ol class="code">
+  <li>
+   <code>
+    function average(arr) {
+   </code>
+  </li>
+  <li class="tab1">
+   <code>
+    var n = arr.length, sum=0;
+   </code>
+  </li>
+  <li class="tab1">
+   <code>
+    while (arr.length) {
+   </code>
+  </li>
+  <li class="tab2">
+   <code>
+    sum += arr.pop()/n;
+   </code>
+  </li>
+  <li class="tab1">
+   <code>
+    }
+   </code>
+  </li>
+  <li class="tab1">
+   <code>
+    return sum;
+   </code>
+  </li>
+  <li>
+   <code>
+    }
+   </code>
+  </li>
+  <li>
+  </li>
+  <li class="download">
+   Download this code:
+   <a href="http://markos.gaivo.net/blog/code/dreamjs3.txt" title="Download the above code as a text file">
+    /code/dreamjs3.txt
+   </a>
+  </li>
+ </ol>
+ <p>
+  End of dream. Everything edited for sanity and brevity.
+ </p>
+ <p>
+  I don’t have much to say about second program except that I would never write something so ugly just to save 16 bytes in a function like this. I wouldn’t even use Javascript if memory was that important.
+ </p>
+ <p>
+  I am more intrigued by third program. Bug in second is definitely there, even though few of us operate with numbers big enough to encounter it.
+ </p>
+ <p>
+  It’s interesting, because if I was awake, I would probably never think of it. I used to worry about bugs like this all the time, when I was coding in C. It was an unavoidable consequence of the language.
+ </p>
+ <p>
+  I guess what I am getting at is that it is nice to code in a high-level language and for the most part not think about implementation details like this, but only as long as you actually know them so your brain gets triggered when they matter. Speaking of details, I bet those divisions can cause rounding errors.
+ </p>
+ <div class="zemanta-pixie">
+  <a class="zemanta-pixie-a" href="http://reblog.zemanta.com/zemified/7ab2d445-07ff-4ec6-bed9-f29a2797d7a3/" title="Reblog this post [with Zemanta]">
+   <img alt="Reblog this post [with Zemanta]" class="zemanta-pixie-img" src="http://img.zemanta.com/reblog_e.png?x-id=7ab2d445-07ff-4ec6-bed9-f29a2797d7a3"/>
+  </a>
+  <span class="zem-script paragraph-reblog">
+   <script defer="defer" src="http://static.zemanta.com/readside/loader.js" type="text/javascript">
+   </script>
+  </span>
+ </div>
+</div>
+            </div><!-- /.entry-content -->
+
+            <footer class="post-metadata">
+                <ul>
+                    <li>Published on <time datetime="2010-01-24T11:44:00+01:00">Sun 24 January 2010</time> </li>
+                    <li><a href="./dreaming-about-arithmetic-mean.html">Add your comment</a></li>
+                </ul>
+            </footer>
+        </article>
+        <article class="hentry">
             <h1 class="entry-title storytitle"><a href="./books-i-read-in-2009.html" rel="bookmark" title="Permalink to Books I read in 2009">Books I read in 2009</a></h1>
 
             <div class="entry-content post-text">
@@ -461,104 +693,13 @@ body > footer .mini-logo {display: inline-block;width:97px;height:32px;border:0;
                 </ul>
             </footer>
         </article>
-        <article class="hentry">
-            <h1 class="entry-title storytitle"><a href="./facebook-web-mobile-and-me.html" rel="bookmark" title="Permalink to Facebook, web, mobile and me">Facebook, web, mobile and me</a></h1>
-
-            <div class="entry-content post-text">
-                <div>
- <p>
-  Recently, for a moment, I couldn’t imagine myself working on web in ten years time. Since I am quite passionate about it and its development, the obvious question was why?
- </p>
- <p>
-  Why wouldn’t I want to be a web developer anymore?
- </p>
- <p>
-  Popularity of Facebook comes to mind. It is no secret that I am not a fan of
-  <a class="zem_slink" href="http://facebook.com" rel="homepage" title="Facebook">
-   Facebook
-  </a>
-  and similar networks. Yet I do have an account there and on some of its brethren. By the way, my Facebook account is for testing purposes, so if I haven’t befriended you, it almost certainly wasn’t personal.
- </p>
- <p>
-  Anyhow, Facebook and ilk are easy to criticize. Anything of that size will certainly gain much to be critical about. I also sometimes feel nostalgic about old web, before the gold rush of last millennium. That too probably says more about my age than anything else.
- </p>
- <p>
-  After some pondering I came to conclusion that I am longing for a sense of openness, equality and control I used to have. Few of us had our own server, but in principle with investment of little time and a bit more money, you could run all services that mattered.
- </p>
- <p>
-  Few actually did, since on the whole we didn’t do much. We do more now, some of which we don’t want public. I may not like Facebook’s walled garden of information, but I would have to be mad to argue for open access to all that private information. Even with existing restrictions in place people tend to trip and reveal? information to unintended audience.
- </p>
- <p>
-  If sharing our lives is what we want to do, which clearly is the case, then rise of brokers like Facebook feels as an unavoidable consequence. However that doesn’t mean natural development of a domineering agent should also be welcomed.
- </p>
- <p>
-  If at some point Facebook becomes a conduit for most of our digital lives, what happens if they revoke our account? To whom can we appeal? Who has access to the history of all our actions and what happens to it if we do decide to leave? Is it ever really gone? How do we know that our answers to this questions are true?
- </p>
- <p>
-  It’s a clich? that technology is changing societies faster then they are able to adapt. It is a clich?, but that doesn’t make it wrong. We are changing long before we are able to understand what those changes will bring down the road. It can be argued either way, but it is your outlook on world that will largely form your opinion on desirability of end result.
- </p>
- <p>
-  I am not an optimist.
- </p>
- <p>
-  I like building things and I enjoy it even more when others use them too. I am sometimes lazy and perpetually busy, so I avoid building things which not even I asked for. I always tried to incorporate a reasonable amount of security in services I have built, but I have never added transparency and accountability to the system without outside pressure. I don’t know many who would and that pressure tends to come from legal requirements. It’s a subject too dull to care about without painful personal experience.
- </p>
- <p>
-  Another reason for uneasiness comes from the other side of web connection – web browsers. Last few years have brought an incredible amount of development and most of us aren’t well acquainted with new technologies yet.
-  <a class="zem_slink" href="http://en.wikipedia.org/wiki/HTML_5" rel="wikipedia" title="HTML 5">
-   HTML5
-  </a>
-  , CSS3 and Javascript will trounce Flash and Silverlight, right?
- </p>
- <p>
-  They might, but they all might not matter. Two raising trends I find interesting are
-  <a class="zem_slink" href="http://en.wikipedia.org/wiki/Mobile_Web" rel="wikipedia" title="Mobile Web">
-   mobile web
-  </a>
-  access and mobile application platforms.
- </p>
- <p>
-  <a class="zem_slink" href="http://www.apple.com/iphone" rel="homepage" title="iPhone">
-   iPhone
-  </a>
-  and
-  <a class="zem_slink" href="http://code.google.com/android/" rel="homepage" title="Android">
-   Android
-  </a>
-  have more than 100 000 applications between them and my impression of these ecosystems is that many of them are not much more than platform specific clients to web services. Even if most of them might not have much to do with web (games, books…), it’s not difficult to imagine a future, where most of us would access web through mobile devices and developing native clients for a new service would have a priority over access through browser.
- </p>
- <p>
-  I can’t say this would necessarily be a bad thing, since web development can be quite messy and frustrating. It probably would be less egalitarian and less sharing environment and I would certainly miss that.
- </p>
- <p>
-  At the end of this long self-indulgent post I confess I have no answers. I barely have questions and I had to write this far to get to them. It is for me the most introspective part of the year, so I might be thinking about a non-issue. Time will tell. Eventually.
- </p>
- <div class="zemanta-pixie">
-  <a class="zemanta-pixie-a" href="http://reblog.zemanta.com/zemified/a5117991-c107-4748-a6c7-31134e58e25b/" title="Reblog this post [with Zemanta]">
-   <img alt="Reblog this post [with Zemanta]" class="zemanta-pixie-img" src="http://img.zemanta.com/reblog_e.png?x-id=a5117991-c107-4748-a6c7-31134e58e25b"/>
-  </a>
-  <span class="zem-script paragraph-reblog">
-   <script src="http://static.zemanta.com/readside/loader.js" type="text/javascript">
-   </script>
-  </span>
- </div>
-</div>
-            </div><!-- /.entry-content -->
-
-            <footer class="post-metadata">
-                <ul>
-                    <li>Published on <time datetime="2009-12-20T16:35:00+01:00">Sun 20 December 2009</time> </li>
-                    <li><a href="./facebook-web-mobile-and-me.html">Add your comment</a></li>
-                </ul>
-            </footer>
-        </article>
 
 <ul class="paginator">
 		<li class="newer">
         <a href="./index20.html">&laquo; Newer</a>
 		</li>
 		<li class="current">
-    21 / 112
+    21 / 113
 		</li>
 		<li class="older">
         <a href="./index22.html">Older &raquo;</a>
