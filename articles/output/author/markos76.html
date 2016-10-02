@@ -74,6 +74,136 @@ body > footer .mini-logo {display: inline-block;width:97px;height:32px;border:0;
     </nav>
 
         <article class="hentry">
+            <h1 class="entry-title storytitle"><a href="../tag-frequency-ratio.html" rel="bookmark" title="Permalink to Tag frequency ratio">Tag frequency ratio</a></h1>
+
+            <div class="entry-content post-text">
+                <div>
+ <p>
+  Yesterday I talked about influence of language and tag design on ratio between the number of unique and all tags. I haven’t discussed why this number would be interesting and what would it tell us.
+ </p>
+ <p>
+  Let’s start with a simple graph:
+ </p>
+ <p>
+  <img alt="Tag space" class="image" src="http://markos.gaivo.net/images/tag-graph.jpg"/>
+ </p>
+ <p>
+  Blue circles represent objects. Connections represent tags and rectangulars are pages with hits for a specific unique tag. As we can see, all images but one have two tags (number of connections from a circle) and the most popular tag is attached to 4 images (number of connections from a rectangular).
+ </p>
+ <p>
+  What ratio tells us is an average frequency of a given tag (how many connections does a typical rectangular have). The higher it is, more hits will be returned by search.
+ </p>
+ <p>
+  However, tag connections and rectangulars also form a path between objects. Therefore higher ratio also means a better connected graph with (again on average) shorter paths between different objects. For example if we look at the red path on example graph then left top object is at least two clicks away from the top one and at least four clicks away from the bottom right one.
+ </p>
+ <p>
+  If tag browsing and searching are main methods of exploration, then a loner like the most right circle is practically unreachable and more tags an object has, the better chances it has to be discovered.
+ </p>
+ <p>
+  Now, I presented a very simplified graph with a fairly even distribution of tags. Normally you wouldn’t have this. A word like cat is far more likely to be used as a tag than something like hippopotamus resulting in creation of super-nodes with far more connections to objects than system’s tag frequency ratio.
+ </p>
+ <p>
+  With time you’d also expect this ratio to grow. Vocabulary, especially of commonly used words, is far more limited than number of pictures people can take and with time it becomes harder to create a unique tag. Flickr has tens or even hundred millions of tags, but certainly far less unique ones.
+ </p>
+ <p>
+  Graph topography and things like super-nodes not only skew the picture, they can also change the perception and application use. I’ll write more about how in few months, when there will be more knowing and less guessing.
+ </p>
+</div>
+            </div><!-- /.entry-content -->
+
+            <footer class="post-metadata">
+                <ul>
+                    <li>Published on <time datetime="2006-02-09T14:43:00+01:00">Thu 09 February 2006</time> </li>
+                    <li><a href="../tag-frequency-ratio.html">Add your comment</a></li>
+                </ul>
+            </footer>
+        </article>
+        <article class="hentry">
+            <h1 class="entry-title storytitle"><a href="../tags_.html" rel="bookmark" title="Permalink to Tags">Tags</a></h1>
+
+            <div class="entry-content post-text">
+                <div>
+ <p>
+  Tags are increasingly popular and rightfully so. I’ve built my share of applications with their own taxonomies and I’m certain they simply don’t work. They sort of work if they were built for specialized needs and are used only by trained, disciplined people with excellent organizational skills.
+ </p>
+ <p>
+  Which means almost never.
+ </p>
+ <p>
+  Tags (aka folksonomies) are messy. There’s no real system, any bozo can attach whatever it wants and you’d be a fool to blindly trust any specific tag. They are the worst possible system apart from everything else we tried so far.
+ </p>
+ <p>
+  That’s why we decided to implement them in Marela. Language used on Marela is Slovene and that led to slightly different design that commonly found elsewhere.
+ </p>
+ <p>
+  We decided to treat multiple words separated with spaces as one tag and use commas as a delimiters between different tags. First reason for this is that tagging something like
+  <em>
+   New Zealand
+  </em>
+  becomes more natural. The other was that in Slovene compound words like handbag are very often separate words. For example, handbag would be
+  <em>
+   ro??na torbica
+  </em>
+  .
+ </p>
+ <p>
+  Another problem, which we haven’t tackled yet, but probably will have to, is that Slovene is
+  <a href="http://en.wikipedia.org/wiki/Slovene_grammar" title="Short description on Wikipedia">
+   a complicated language
+  </a>
+  in ways that make tagging a nasty problem. There are six cases, but nominative is usually used. Still three different grammatical numbers (singular, dual and plural) together with three different genders (masculine, feminine and neutral) leave multiple options for the same thing. If you were looking for
+  <em>
+   blue
+  </em>
+  objects, you’d need to search at least for tags
+  <em>
+   modra
+  </em>
+  ,
+  <em>
+   modro
+  </em>
+  ,
+  <em>
+   modri
+  </em>
+  and
+  <em>
+   modre
+  </em>
+  . Right now you have to do this manually.
+ </p>
+ <p>
+  And then there are problems that plaque other tagging systems as well. Most common of them are misspelled words, like
+  <em>
+   Wein
+  </em>
+  instead of
+  <em>
+   Wien
+  </em>
+  for Vienna.
+ </p>
+ <p>
+  All these lead to a fairly flat tag space with a ratio of 5.6 between all tags and unique ones. I’m not sure how it would change if we treated spaces differently or even what is a common ratio for other languages and other applications. I’m guessing it wouldn’t change the ratio too much because of noun cases, but it remains to be investigated.
+ </p>
+ <p>
+  So, why does it matter?
+ </p>
+ <p>
+  Well, that’s a matter for another post, which I’ll probably write tomorrow.
+ </p>
+</div>
+            </div><!-- /.entry-content -->
+
+            <footer class="post-metadata">
+                <ul>
+                    <li>Published on <time datetime="2006-02-08T18:01:00+01:00">Wed 08 February 2006</time> </li>
+                    <li><a href="../tags_.html">Add your comment</a></li>
+                </ul>
+            </footer>
+        </article>
+        <article class="hentry">
             <h1 class="entry-title storytitle"><a href="../when-to-give-in.html" rel="bookmark" title="Permalink to When to give in?">When to give in?</a></h1>
 
             <div class="entry-content post-text">
@@ -103,51 +233,6 @@ body > footer .mini-logo {display: inline-block;width:97px;height:32px;border:0;
                 <ul>
                     <li>Published on <time datetime="2006-02-05T20:28:00+01:00">Sun 05 February 2006</time> </li>
                     <li><a href="../when-to-give-in.html">Add your comment</a></li>
-                </ul>
-            </footer>
-        </article>
-        <article class="hentry">
-            <h1 class="entry-title storytitle"><a href="../in-search-of-easy-templating.html" rel="bookmark" title="Permalink to In search of easy templating">In search of easy templating</a></h1>
-
-            <div class="entry-content post-text">
-                <div>
- <p>
-  <strong>
-   Error:
-  </strong>
-  No such file found! Please make sure
-  <code>
-   http://markos.gaivo.net/blog/code/template1.txt
-  </code>
-  exists.
- </p>
-</div>
-            </div><!-- /.entry-content -->
-
-            <footer class="post-metadata">
-                <ul>
-                    <li>Published on <time datetime="2006-02-03T22:07:00+01:00">Fri 03 February 2006</time> </li>
-                    <li><a href="../in-search-of-easy-templating.html">Add your comment</a></li>
-                </ul>
-            </footer>
-        </article>
-        <article class="hentry">
-            <h1 class="entry-title storytitle"><a href="../the-end-of-internet.html" rel="bookmark" title="Permalink to The End of Internet?">The End of Internet?</a></h1>
-
-            <div class="entry-content post-text">
-                <div>
- <p>
-  <a href="http://www.thenation.com/doc/20060213/chester">
-   Scary.
-  </a>
- </p>
-</div>
-            </div><!-- /.entry-content -->
-
-            <footer class="post-metadata">
-                <ul>
-                    <li>Published on <time datetime="2006-02-02T22:33:00+01:00">Thu 02 February 2006</time> </li>
-                    <li><a href="../the-end-of-internet.html">Add your comment</a></li>
                 </ul>
             </footer>
         </article>

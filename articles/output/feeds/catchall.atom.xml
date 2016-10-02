@@ -1,5 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>A notch above a monkey</title><link href="http://markos.gaivo.net/articles/" rel="alternate"></link><link href="/articles/feeds/catchall.atom.xml" rel="self"></link><id>http://markos.gaivo.net/articles/</id><updated>2016-07-02T15:17:24+02:00</updated><entry><title>Windows</title><link href="http://markos.gaivo.net/articles/windows.html" rel="alternate"></link><updated>2016-07-02T15:17:24+02:00</updated><author><name>markos</name></author><id>tag:markos.gaivo.net,2016-07-02:articles/windows.html</id><summary type="html">&lt;p&gt;I got a new &lt;a href="https://www.asus.com/us/Notebooks/ASUS-ZenBook-UX305CA/"&gt;travel computer&lt;/a&gt; this week and so far it is pretty much what I wanted. Nice enough to carry and use, but also faulty and affordable enough that I would not be too upset if something happened to it.&lt;/p&gt;
+<feed xmlns="http://www.w3.org/2005/Atom"><title>A notch above a monkey</title><link href="http://markos.gaivo.net/articles/" rel="alternate"></link><link href="/articles/feeds/catchall.atom.xml" rel="self"></link><id>http://markos.gaivo.net/articles/</id><updated>2016-10-02T15:37:18+02:00</updated><entry><title>Long vacations</title><link href="http://markos.gaivo.net/articles/long-vacations.html" rel="alternate"></link><updated>2016-10-02T15:37:18+02:00</updated><author><name>markos</name></author><id>tag:markos.gaivo.net,2016-10-02:articles/long-vacations.html</id><summary type="html">&lt;p&gt;I like long vacations and by long I mean those lasting 3 or more weeks. This makes me employable only in Europe which is fine.&lt;/p&gt;
+&lt;p&gt;Two weeks or less do not seem to be enough to rest my mind and certainly are not enough to get to know the country we happen to be visiting. We almost always visit just one at a time and while a month is not enough either, at least you get a sense of scope and size of your ignorance.&lt;/p&gt;
+&lt;p&gt;It occurred to me today that benefits to my employer(s) go beyond me being more productive and creative when properly rested. Most organisations, even dysfunctional ones, can muddle through a two week absence of almost everyone. Some tasks might be delayed a bit or done slightly worse than usually, but few things are generally really time sensitive or can't tolerate a short dip in quality.&lt;/p&gt;
+&lt;p&gt;Longer absences however expose faults and cracks and test the real bus factor of a missing person. They will expose which bits can or are picked up by others and which suffer. Also how much strain team can bear or would need to if that person suddenly left.&lt;/p&gt;
+&lt;p&gt;You can't really buy this kind of learning other then by encouraging your employees to take long vacations.&lt;/p&gt;</summary><category term="vacation"></category><category term="work"></category><category term="benefits"></category><category term="rest"></category><category term="test"></category></entry><entry><title>Windows</title><link href="http://markos.gaivo.net/articles/windows.html" rel="alternate"></link><updated>2016-07-02T15:17:24+02:00</updated><author><name>markos</name></author><id>tag:markos.gaivo.net,2016-07-02:articles/windows.html</id><summary type="html">&lt;p&gt;I got a new &lt;a href="https://www.asus.com/us/Notebooks/ASUS-ZenBook-UX305CA/"&gt;travel computer&lt;/a&gt; this week and so far it is pretty much what I wanted. Nice enough to carry and use, but also faulty and affordable enough that I would not be too upset if something happened to it.&lt;/p&gt;
 &lt;p&gt;It came with Windows 10 which I have decided to keep so I can use &lt;a href="https://www.microsoft.com/en-us/windows/microsoft-edge"&gt;Edge&lt;/a&gt; for testing. It is much nicer than abomination that was 8 and I also applaud Microsoft's accessibility work. Although, personally, ballooning whitespace and interface until &lt;strong&gt;everyone&lt;/strong&gt; can read only one line of text at a time, be it on an actual screen or a screen reader, would not be one of my ways of reducing the experience difference in using the system.&lt;/p&gt;
 &lt;p&gt;I appreciate little touches such as marking connections as metered (and hence off limits for certain traffic) or workaround for updates installation. I still have no idea when updates sneak on me, but at least now I can choose a restart that ignores them.&lt;/p&gt;
 &lt;p&gt;On the other hand it is really difficult to find out where disk space went and almost impossible to reduce its use significantly. In theory it should be fine with 20GB, in practice I can't get it bellow 30. On top of this Windows defragmenter refuses to move certain used bits and condemns me to a much larger Windows partition than I would pick willingly.&lt;/p&gt;
@@ -667,79 +671,4 @@
  &lt;p&gt;
   My expectations are not evolved enough to be plans, but I imagine 2014 to be even more development intensive than 2013 was. It seems I won’t be attending many conferences, but I don’t expect to be bored. More than anything I hope it will be great year for my family and friends.
  &lt;/p&gt;
-&lt;/div&gt;</summary><category term="review"></category><category term="annual review"></category><category term="2013"></category></entry><entry><title>Not being wrong</title><link href="http://markos.gaivo.net/articles/avoiding-being-stupid.html" rel="alternate"></link><updated>2013-12-29T23:28:00+01:00</updated><author><name>markos</name></author><id>tag:markos.gaivo.net,2013-12-29:articles/avoiding-being-stupid.html</id><summary type="html">&lt;div&gt;
- &lt;p&gt;
-  Autumn was busy and I did not finish any of the posts I started. I won’t do that now either, but at least I can try to soothe my guilty conscience by getting my rougher than usual thoughts out with hope of updating and polishing them later.
- &lt;/p&gt;
- &lt;p&gt;
-  I expect it doesn’t take much effort to dig up words younger me wrote full of misplaced certainty and eagerness to
-  &lt;a href="http://xkcd.com/386/"&gt;
-   set things right
-  &lt;/a&gt;
-  . No doubt I can still display both of these “virtues”, but I try not to and to limit the damage I use few psychological tricks such as postponing reply when possible, concentrating first on non-contentious parts when it isn’t and asking questions to help me understand how probable it is that I am wrong and what is driving my response. I’ve been compiling questions and this is what I have so far:
- &lt;/p&gt;
- &lt;p&gt;
-  &lt;em&gt;
-   Do I want to believe in the result or position? Does it benefit or suit me?
-  &lt;/em&gt;
-  &lt;br/&gt;
-  You can always be wrong, but there’s better than usual chance of this when your beliefs coincide with your incentives whatever those are
-  &lt;sup&gt;
-   &lt;a href="#avoid-stupid-1-note" id="avoid-stupid-1"&gt;
-    [1]
-   &lt;/a&gt;
-  &lt;/sup&gt;
-  .
- &lt;/p&gt;
- &lt;p&gt;
-  &lt;em&gt;
-   How do I feel about a problem if I replace the group A in it with some other group B?
-  &lt;/em&gt;
-  &lt;br/&gt;
-  Do I feel or think differently about an issue if it involves a stranger instead of a friend or gays instead of women? If yes, then why? Are reasons substantial and substantiated or do they point to a prejudice?
- &lt;/p&gt;
- &lt;p&gt;
-  &lt;em&gt;
-   Why am I trying to say this?
-  &lt;/em&gt;
-  &lt;br/&gt;
-  Not what I am trying to say! It’s easy to have an opinion, but I avoid voicing most of them by being sufficiently busy. So when I do want to speak up I try to understand the motives driving me since they are also the source of biases.
- &lt;/p&gt;
- &lt;p&gt;
-  &lt;em&gt;
-   Is it a matter of a principle or degree?
-  &lt;/em&gt;
-  &lt;br/&gt;
-  I see this mistake most often when new technological developments are judged on assumptions that may (soon) not be true anymore, but the problem is general. When disagreeing with something I try to imagine conditions under which I wouldn’t and the likelihood of those conditions. Their likelihood not only tells me how fundamentally am I disagreeing with something, but also how likely I think it is, both of which can lead to new insight
-  &lt;sup&gt;
-   &lt;a href="#avoid-stupid-2-note" id="avoid-stupid-2"&gt;
-    [2]
-   &lt;/a&gt;
-   .
-  &lt;/sup&gt;
- &lt;/p&gt;
- &lt;p&gt;
-  &lt;em&gt;
-   Can I be persuaded?
-  &lt;/em&gt;
-  &lt;br/&gt;
-  I can’t be on every issue and am suspicious of those who can be. If I can come up with a realistic set of conditions that would change my view, then I have something to test it against. If I can’t, then stop since I am not having a dialog.
- &lt;/p&gt;
- &lt;p&gt;
-  I don’t always run through all these questions, but I’m sure I’m not the only one who wishes I did. This unordered list is not exhaustive and I plan to add to it over time. Suggestions are also welcome.
- &lt;/p&gt;
- &lt;ol&gt;
-  &lt;li id="avoid-stupid-1-note"&gt;
-   Or as Upton Sinclair put it: “It is difficult to get a man to understand something, when his salary depends on his not understanding it.”
-   &lt;a href="#avoid-stupid-1"&gt;
-    ↩
-   &lt;/a&gt;
-  &lt;/li&gt;
-  &lt;li id="avoid-stupid-2-note"&gt;
-   Example: unrealistic view of humanity makes communism and libertarianism equally absurd.
-   &lt;a href="#avoid-stupid-2"&gt;
-    ↩
-   &lt;/a&gt;
-  &lt;/li&gt;
- &lt;/ol&gt;
-&lt;/div&gt;</summary><category term="discussion"></category><category term="argument"></category><category term="stupidity"></category><category term="questions"></category><category term="persuasion"></category><category term="Tools"></category></entry></feed>
+&lt;/div&gt;</summary><category term="review"></category><category term="annual review"></category><category term="2013"></category></entry></feed>

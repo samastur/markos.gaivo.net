@@ -74,6 +74,108 @@ body > footer .mini-logo {display: inline-block;width:97px;height:32px;border:0;
     </nav>
 
         <article class="hentry">
+            <h1 class="entry-title storytitle"><a href="../using-canvas-and-javascript-to-blur-images.html" rel="bookmark" title="Permalink to Using canvas and Javascript to blur images">Using canvas and Javascript to blur images</a></h1>
+
+            <div class="entry-content post-text">
+                <div>
+ <p>
+  I admire the look and feel of
+  <a href="http://www.mikematas.com/">
+   Mike Matas’ new website
+  </a>
+  . It is really well thought through. I was also intrigued by how he did it, especially after getting a pop-up on my first visit advising me to use a more modern browser than a recent version of Firefox.
+ </p>
+ <p>
+  There is no point in speculating why some of its features don’t work in more browsers. But I was surprised to see that blurred images are served that way and don’t get blurred in browser. I am playing with an idea of implementing a gallery inspired by Mike’s work, but I would like to reduce manual labor needed for maintaining it.
+ </p>
+ <p>
+  So I wrote a function that blurs an image on canvas. You can
+  <a href="http://markos.gaivo.net/examples/canvas_blur/" title="Javascript blur demo page">
+   see it in action
+  </a>
+  or copy its code, if you find it useful.
+ </p>
+ <p>
+  The algorithm used is described in
+  <a href="http://web.archive.org/web/20060718054020/http://www.acm.uiuc.edu/siggraph/workshops/wjarosz_convolution_2001.pdf" title="Link to PDF version of paper">
+   2001 paper
+  </a>
+  by Wojciech Jarosz. Page contains two implementations, second trading algorithm purity for in my opinion nicer code. Increase number of passes or run it few times over an image, if you need a blurrier result.? Please ask, if you need help with its use.
+ </p>
+ <p>
+  I also measured its speed to see if it fits my needs. That brought a new surprise. Firefox 3.5.8? on my Linux powered VAIO with 1.2GHz processor blurs image twice as fast as same browser on a Mac with a 2.8Ghz processor. Numbers between runs may vary slightly, but never much. No idea why this is happening, since all functions do is some basic math over items in array that should be well optimized everywhere.
+ </p>
+ <p>
+  I am sure somebody can optimize it further, but I find it good enough for my use. Image isn’t very blurred after one pass, but one pass over a small image is also a good way to measure how fast a particular computer-browser combination is. On fast combinations I might go for multiple passes over images in view, but fall back to a single pass or no pass on slower systems.
+ </p>
+ <div class="zemanta-pixie">
+  <a class="zemanta-pixie-a" href="http://reblog.zemanta.com/zemified/4b7c629c-fdbe-4190-ade4-e240b1b3755a/" title="Reblog this post [with Zemanta]">
+   <img alt="Reblog this post [with Zemanta]" class="zemanta-pixie-img" src="http://img.zemanta.com/reblog_e.png?x-id=4b7c629c-fdbe-4190-ade4-e240b1b3755a"/>
+  </a>
+ </div>
+</div>
+            </div><!-- /.entry-content -->
+
+            <footer class="post-metadata">
+                <ul>
+                    <li>Published on <time datetime="2010-04-01T10:59:00+02:00">Thu 01 April 2010</time> </li>
+                    <li><a href="../using-canvas-and-javascript-to-blur-images.html">Add your comment</a></li>
+                </ul>
+            </footer>
+        </article>
+        <article class="hentry">
+            <h1 class="entry-title storytitle"><a href="../my-prototypes-on-youtube.html" rel="bookmark" title="Permalink to My prototypes on YouTube">My prototypes on YouTube</a></h1>
+
+            <div class="entry-content post-text">
+                <div>
+ <p>
+  I am not much of a
+  <a href="http://www.youtube.com/user/msamastur" title="My YouTube channel">
+   YouTube user
+  </a>
+  , but I have recently started to upload some of my work
+  <a href="http://www.youtube.com/user/msamastur" title="my demos on youtube">
+   there
+  </a>
+  . You might find them interesting if you are into interactions prototypes for products that may never be (especially if you are a
+  <a class="zem_slink" href="http://www.zemanta.com" rel="homepage" title="Zemanta">
+   Zemanta
+  </a>
+  user).
+ </p>
+ <p>
+  I want to stress that while we use prototypes to learn what to implement and how, there is no guarantee that any particular feature shown will be actually included in our products. We do make an effort of listening to our users so please tell us what you think.
+ </p>
+ <p>
+  This is also a good time to mention that I don’t lead front-end team at Zemanta anymore. My new title is Chief Product Officer which is a fancy way of saying that it is my task to care about our products and our users more deeply than anybody else.
+ </p>
+ <h6 class="zemanta-related-title">
+  Related articles by Zemanta
+ </h6>
+ <ul class="zemanta-article-ul">
+  <li class="zemanta-article-ul-li">
+   <a href="http://www.zemanta.com/blog/zemanta-hackday-spring-2010/">
+    Zemanta Hackday Spring 2010
+   </a>
+   (zemanta.com)
+  </li>
+ </ul>
+ <div class="zemanta-pixie">
+  <a class="zemanta-pixie-a" href="http://reblog.zemanta.com/zemified/4c4d711e-ab3a-4cf8-80df-8db0aab43dc3/" title="Reblog this post [with Zemanta]">
+   <img alt="Reblog this post [with Zemanta]" class="zemanta-pixie-img" src="http://img.zemanta.com/reblog_e.png?x-id=4c4d711e-ab3a-4cf8-80df-8db0aab43dc3"/>
+  </a>
+ </div>
+</div>
+            </div><!-- /.entry-content -->
+
+            <footer class="post-metadata">
+                <ul>
+                    <li>Published on <time datetime="2010-03-26T12:22:00+01:00">Fri 26 March 2010</time> </li>
+                    <li><a href="../my-prototypes-on-youtube.html">Add your comment</a></li>
+                </ul>
+            </footer>
+        </article>
+        <article class="hentry">
             <h1 class="entry-title storytitle"><a href="../n900-applications-i-miss.html" rel="bookmark" title="Permalink to N900 applications I miss">N900 applications I miss</a></h1>
 
             <div class="entry-content post-text">
@@ -163,240 +265,6 @@ body > footer .mini-logo {display: inline-block;width:97px;height:32px;border:0;
                 <ul>
                     <li>Published on <time datetime="2010-03-09T13:24:00+01:00">Tue 09 March 2010</time> </li>
                     <li><a href="../n900-applications-i-miss.html">Add your comment</a></li>
-                </ul>
-            </footer>
-        </article>
-        <article class="hentry">
-            <h1 class="entry-title storytitle"><a href="../appeal-for-better-support-of-authors-widgets.html" rel="bookmark" title="Permalink to Appeal for a better support of authors widgets">Appeal for a better support of authors widgets</a></h1>
-
-            <div class="entry-content post-text">
-                <div>
- <p>
-  Goal of
-  <a class="zem_slink" href="http://www.zemanta.com" rel="homepage" title="Zemanta">
-   Zemanta
-  </a>
-  widget has always been to present contextually relevant information to text being written and to enable writers to add that information easily in places of their choice. We want to do this in as unobtrusive manner as possible, which means that act of writing should not be impeded by us and that published text should only have as little markup added as it is necessary to add items picked by user  (images, links…).
- </p>
- <p>
-  Zemanta widget in various incarnations today works in all major browsers (
-  <a class="zem_slink" href="http://www.mozilla.com/en-US/firefox/" rel="homepage" title="Firefox">
-   Firefox
-  </a>
-  ,
-  <a class="zem_slink" href="http://en.wikipedia.org/wiki/Internet_Explorer" rel="wikipedia" title="Internet Explorer">
-   Internet Explorer
-  </a>
-  ,
-  <a class="zem_slink" href="http://www.google.com/chrome" rel="homepage" title="Google Chrome">
-   Chrome
-  </a>
-  ,
-  <a class="zem_slink" href="http://www.apple.com/safari" rel="homepage" title="Safari">
-   Safari
-  </a>
-  and
-  <a class="zem_slink" href="http://www.opera.com" rel="homepage" title="Opera Software">
-   Opera
-  </a>
-  ) and on all major blogging platforms. This wide support is presenting ever bigger challenge to us  and to anyone who wants to follow our path.
- </p>
- <p>
-  Most blogging platforms today support enhancement of blogs with widgets. I think it is time for them to add support for widgets on content creation side and go beyond current one-interface-fits-all state of affairs.
- </p>
- <p>
-  Open platform would enable tool makers like us to build specialized tools that might cater to specific niches and empower writers to customize their workflow to their needs .
- </p>
- <p>
-  Such platforms should at minimum have a common shared feature set, but I hope for at least partially shared
-  <a class="zem_slink" href="http://en.wikipedia.org/wiki/Application_programming_interface" rel="wikipedia" title="Application programming interface">
-   API
-  </a>
-  .
- </p>
- <p>
-  <strong>
-   Current state
-  </strong>
- </p>
- <p>
-  Some platforms like
-  <a class="zem_slink" href="http://wordpress.org" rel="homepage" title="WordPress">
-   WordPress
-  </a>
-  already have a plug-ins API which can be used to customize parts of creation process. However it is usually very low level, highly platform specific and available only to self-hosted users.
- </p>
- <p>
-  Creators of rich text editors have also recognized a need to let outside developers extend writing experience. Most major editors have an API that admittedly we might not be using enough. But this is not true of all editors so we end up with common development problems like not enough feature overlap and missing,  undocumented or poorly documented interfaces.
- </p>
- <p>
-  There is a lot of activity, but the end result is still a very fragmented landscape that in my opinion limits developers creativity. You either add wanted functionality to your favorite platform or if you are more ambitious, you end up seeking the right balance between ironing out  platform peculiarities and building features users actually care about.
- </p>
- <p>
-  And since blogging environment that most people use lets them little control over it, we develop browser extensions that are really just a patch for this problem. The only reason why we bloat browsers (a little bit) with an extension that most of the time does nothing is because we have to. Extensions are great, but they also present a risk and in this case one that should not be necessary.
- </p>
- <p>
-  <strong>
-   My vision of future
-  </strong>
- </p>
- <p>
-  What I would like to do as a developer can best be explained with examples translated from code to English (well, approximation of it anyhow).
- </p>
- <p>
-  I would like to write: ?Take image at this address, upload it to writer?s image repository and return me its new address.?
- </p>
- <p>
-  I would like to write: ?When DOM node is added to text (or removed from it), run this function.?
- </p>
- <p>
-  I would like to write: ?Before text is published, run it through this filter function and save its result.?
- </p>
- <p>
-  I would like to write: ?Store this information and let me retrieve when I need it.?
- </p>
- <p>
-  I would like our users to add our widget with only a few clicks. Maybe a click on our side to trigger installation and a confirmation on blogging platform with a list of permissions sought (like
-  <a class="zem_slink" href="http://oauth.net" rel="homepage" title="OAuth">
-   OAuth
-  </a>
-  ).
- </p>
- <p>
-  When user interface needs to be shown, I would want it to be well integrated. So if elements of interface can be rearranged, hidden or otherwise handled, then our widget would behave as expected.
- </p>
- <p>
-  <strong>
-   In conclusion
-  </strong>
- </p>
- <p>
-  Creating and supporting a tool like Zemanta is difficult. Front end development is challenging enough when you are against few browsers on your platform, but it is far worse when you try to deliver the same high level of experience on multiple platforms none of which you actually control.
- </p>
- <p>
-  You keep hitting at browser quirks and unexpected platform changes and ironically it keeps getting worse as other people?s code gets better. For example, wrapping your Javascript code in anonymous namespace is good practice, but it often removes hooks on which you relied and you need to come up with a new solution.
- </p>
- <p>
-  My work often feels like war of attrition, which is odd because there is no enemy. We work to complement blogging platforms, not replace them.
- </p>
- <p>
-  Surely it is time we do better.
- </p>
- <div class="zemanta-pixie">
-  <a class="zemanta-pixie-a" href="http://reblog.zemanta.com/zemified/eee141d5-950f-450e-b42e-71fd1adf6365/" title="Reblog this post [with Zemanta]">
-   <img alt="Reblog this post [with Zemanta]" class="zemanta-pixie-img" src="http://img.zemanta.com/reblog_e.png?x-id=eee141d5-950f-450e-b42e-71fd1adf6365"/>
-  </a>
-  <span class="zem-script ">
-   <script src="http://static.zemanta.com/readside/loader.js" type="text/javascript">
-   </script>
-  </span>
- </div>
-</div>
-            </div><!-- /.entry-content -->
-
-            <footer class="post-metadata">
-                <ul>
-                    <li>Published on <time datetime="2010-03-03T18:06:00+01:00">Wed 03 March 2010</time> </li>
-                    <li><a href="../appeal-for-better-support-of-authors-widgets.html">Add your comment</a></li>
-                </ul>
-            </footer>
-        </article>
-        <article class="hentry">
-            <h1 class="entry-title storytitle"><a href="../a-month-with-nokia-n900.html" rel="bookmark" title="Permalink to A month with Nokia N900">A month with Nokia N900</a></h1>
-
-            <div class="entry-content post-text">
-                <div>
- <p>
-  Title says it. A month is enough time to get a better understanding of the device and to get asked repeatedly about my impressions. Many have wrote theirs, so I doubt I will be telling anything really new. Before I go on, a short disclaimer, since my writings on this blog stay around longer than might be sensible.
- </p>
- <p>
-  I wrote this post at the start of February 2010. I believe everything I write about technology to be hopelessly out of date after 6 months, but I expect this article will be obsolete even sooner. So by the time you got around reading this, most of my gripes might not even be true anymore.
- </p>
- <p>
-  <a class="zem_slink" href="http://en.wikipedia.org/wiki/Nokia_N900" rel="wikipedia" title="Nokia N900">
-   Nokia N900
-  </a>
-  is an uncut diamond. A wonderful thing made by talented designers that has quite a few rough edges, not all of them in device. I wouldn’t recommend it to most people, but to some of you it might become your favorite computer. It goes with me almost anywhere.
- </p>
- <p>
-  If you want a rock solid phone, then this device is not for you. I was unlucky to be in minority of people who experienced constant reboots. By constant I mean few times every hour.? My
-  <a class="zem_slink" href="http://nokia.com" rel="homepage" title="Nokia">
-   Nokia
-  </a>
-  also lacked a 2GB partition, which meant I was constantly running out of space in which to install applications. Both of this problems have since been fixed. I still have a problem with
-  <a class="zem_slink" href="http://en.wikipedia.org/wiki/GSM" rel="wikipedia" title="GSM">
-   GSM
-  </a>
-  connection occasionally completely dying, which I can fix only by manual reboot. I’m personally not bothered since I don’t use it as phone.
- </p>
- <p>
-  On the other hand updates to software are regular, with one major firmware update already, that fixed some of my problems (reboot). Annoyances of today might literally be gone by tomorrow and thus my disclaimer.
- </p>
- <p>
-  I know how much effort goes in good software and don’t want to be too negative, but email really does suck for IMAP users. Not only doesn’t it cache headers, so if you have a slow connection and a big Inbox, get used to waiting. You also can’t set sent mail, drafts or trash folders which makes it useless to me for anything but reading email. Even worse, it creates its own folders (like
-  <a class="zem_slink" href="http://en.wikipedia.org/wiki/IPod_Touch" rel="wikipedia" title="IPod Touch">
-   iPod touch
-  </a>
-  ) to make a mess in your account. I am all for simplicity and avoiding needless configuration options, but it could at least get a list of folders and compare Levenshtein’s distance to common names (Sent, Sent mail…).
- </p>
- <p>
-  Gecko (Mozilla) based browser though is great, in my opinion much better than iPod’s and I completely switched my mobile browsing to N900. I am biased since unlike many I never was fond of constant zooming in and out (with pinching). My opinion might have been different if my eye-sight was poorer and I needed to zoom more.
- </p>
- <p>
-  If you are a Linux user or appreciate freedom, then it’s difficult to find a better mobile device. N900 is a Linux machine which happens to also be a phone and you have complete access to everything. There is a store (Ovi) and app manager, but you can install and run anything willing to run without permission from anybody. Terminal is loaded by default together with tools needed to prod into the system and root is one package installation away.
- </p>
- <p>
-  I dislike fixed space of iPod. N900 is only slightly better. You can expand it with SD cards, but you have to open battery cover. It looks so fragile that I don’t intend to actually do this unless absolutely necessary. Speaking of storage, as a programmer I can understand why applications can use only 2GB of it, but as user it simply looks daft.
- </p>
- <p>
-  Pair of contact and conversations applications is absolutely brilliant. Instant messaging, Skype and SMS are superbly integrated and they also feed contact application with information about your buddies found on those networks.? Install Hermes and you can update it with data from Twitter and Facebook.
- </p>
- <p>
-  Screen has higher resolution than iPod’s, but physically same (small) size, which means I’ll keep reading PDFs on my 770. Since it’s resistive instead of capacitive, it needs more pressure than iPod’s, but works better at -12 degrees centigrade (
-  <a href="http://www.flickr.com/photos/markos/4268784785/" title="French Alps - photo taken by N900">
-   this picture
-  </a>
-  was taken with my gloves on).
- </p>
- <p>
-  Maemo has a very active and generally supportive community, but some members can also be
-  <a href="https://bugs.maemo.org/show_bug.cgi?id=6334#c19">
-   needlessly unfriendly
-  </a>
-  . Just because you know where everything is and have seen certain faux pas 100 times before, it doesn’t mean either is true for a new N900 owner with a problem.
- </p>
- <p>
-  N900 RUNS PYTHON, which was my main reason for preferring it over an
-  <a class="zem_slink" href="http://code.google.com/android/" rel="homepage" title="Android">
-   Android
-  </a>
-  phone. Documentation is a bit all over the place, not always current and I still haven’t found information about how to control built in cameras, but I am an optimist that this will be sorted out soon and that documentation will improve as well.
- </p>
- <p>
-  I compared N900 with diamond, but maybe a better comparison would be a sports car. If you want a polished, sedated experience then N900 is certainly not for you (yet). But if you are a tinkerer who doesn’t mind rough edges in exchange for freedom to make it do almost anything, then you should give it a spin.
- </p>
- <p>
-  There is so much more that could be said, but big picture wouldn’t change much. I haven’t talked much about UI since I simply couldn’t do it justice in few sentences. On the whole it works fine and multitasking is really great even though I think iPhone/iPad’s switch-to-where-you-were model is in my experience rarely a problem and wouldn’t be surprised if it was here to stay.
- </p>
- <p>
-  If there is anything about it you would like to know, then please ask and I’ll try to respond to it promptly.
- </p>
- <div class="zemanta-pixie">
-  <a class="zemanta-pixie-a" href="http://reblog.zemanta.com/zemified/975ad83f-5fe4-4116-9522-d28c345d36b9/" title="Reblog this post [with Zemanta]">
-   <img alt="Reblog this post [with Zemanta]" class="zemanta-pixie-img" src="http://img.zemanta.com/reblog_e.png?x-id=975ad83f-5fe4-4116-9522-d28c345d36b9"/>
-  </a>
-  <span class="zem-script paragraph-reblog">
-   <script src="http://static.zemanta.com/readside/loader.js" type="text/javascript">
-   </script>
-  </span>
- </div>
-</div>
-            </div><!-- /.entry-content -->
-
-            <footer class="post-metadata">
-                <ul>
-                    <li>Published on <time datetime="2010-02-05T10:36:00+01:00">Fri 05 February 2010</time> </li>
-                    <li><a href="../a-month-with-nokia-n900.html">Add your comment</a></li>
                 </ul>
             </footer>
         </article>

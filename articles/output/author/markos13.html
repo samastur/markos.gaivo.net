@@ -74,6 +74,111 @@ body > footer .mini-logo {display: inline-block;width:97px;height:32px;border:0;
     </nav>
 
         <article class="hentry">
+            <h1 class="entry-title storytitle"><a href="../2011-review.html" rel="bookmark" title="Permalink to 2011 review">2011 review</a></h1>
+
+            <div class="entry-content post-text">
+                <div>
+ <p>
+  It’s hard to judge importance of events as they are unfolding or soon afterwards, but 2011 feels in many ways like a historical year and I will be amazed if it doesn’t prove to be such. Arab spring and
+  <a href="http://www.bbc.co.uk/news/business-16290598">
+   unresolved eurozone crisis
+  </a>
+  alone practically guarantee that this will be a year to remember although it’s too soon to say in what light. There are definitely plenty of good reasons to worry, but there always are.
+ </p>
+ <p>
+  This year was also a year of big personal changes. I left
+  <a href="http://www.zemanta.com/" title="Zemanta's homepage">
+   Zemanta
+  </a>
+  in summer and went on sabbatical. Leaving a company in  the middle of economic crisis doesn’t sound like a prudent idea, but I’ve yet to regret it. I started contributing open source before I left, but having more time certainly helped me do more of it and with a bit of luck I may even finish first version of my web Instapaper client before this year runs out.
+ </p>
+ <p>
+  I built
+  <a href="http://supervizor.kpk-rs.si/" title="Supervizor's homepage">
+   Supervizor
+  </a>
+  with Primož, which is a project I am most proud of. We haven’t done everything we set to do yet and we unlikely will this year, but I hope that in early 2012 Supervizor’s data will become easily accessible.
+ </p>
+ <p>
+  There were lots of experiments on myself. Having a list of possible (and finished) projects on wall feels liberating. Counting books I read
+  <a href="gamification-of-book-reading.html" title="My post on gamification of reading">
+   doesn’t work
+  </a>
+  , but digital sabbath is great. I left Twitter for better use of my time, but it’s really too soon to tell. I  learned and did a lot, more than I expected, but as always less than I hoped. Somewhat unintentionally we reduced our carbon footprint further even though we traveled a lot.
+ </p>
+ <p>
+  I also finally found time to really reflect on what I want to do and my
+  <a href="http://codinginparadise.org/weblog/2007/08/creating-personal-research-agenda.html" title="Brad Neuberg's post on creating personal reasearch agenda">
+   personal research agenda
+  </a>
+  is getting more of a shape. I want to work most on use of open data to improve civic engagement and exploring
+  <a href="reading-sources.html" title="Link to definition in second annotation">
+   social software for introverts
+  </a>
+  .
+ </p>
+ <p>
+  So what will 2012 bring?
+ </p>
+ <p>
+  Nobody really knows, but this year it became clear to me that I want my work to be more socially engaged and I am thrilled I got an opportunity to join amazing people at
+  <a href="http://www.aptivate.org/" title="Aptivate's homepage">
+   Aptivate
+  </a>
+  for I hope a long time. I’ll continue to work on a so far semi-public open data project which I am sure will become public soon. I plan to read lots of books, but start less than two new projects. I am sure I won’t finish everything I set to do, but that’s alright. We always overestimate what we can do in a year and underestimate what we can do in ten so I  just need to keep going.
+ </p>
+ <p>
+  And surely I will continue to worry. There are only more reasons to despair over environment and eurozone of today might not be around this time next year. However we are not pilling on canned food yet so optimist in me obviously hasn’t completely died yet.
+ </p>
+ <p>
+  But first I will enjoy holidays. I hope you will too and I wish you a happy new year.
+ </p>
+</div>
+            </div><!-- /.entry-content -->
+
+            <footer class="post-metadata">
+                <ul>
+                    <li>Published on <time datetime="2011-12-23T10:31:00+01:00">Fri 23 December 2011</time> </li>
+                    <li><a href="../2011-review.html">Add your comment</a></li>
+                </ul>
+            </footer>
+        </article>
+        <article class="hentry">
+            <h1 class="entry-title storytitle"><a href="../cookies-localstorage-and-shared-state.html" rel="bookmark" title="Permalink to Cookies, localStorage and shared state">Cookies, localStorage and shared state</a></h1>
+
+            <div class="entry-content post-text">
+                <div>
+ <p>
+  I’ve been fiddling with my website again, changing theme switching from somewhat dumb class based system to a more proper one using alternate style sheets. I learned that picking a style sheet in browser applies those changes only to currently open page, so for style sheet selection to persevere it needs a bit of Javascript support from website owner. Personally I find this just stupid.
+ </p>
+ <p>
+  The easiest way to remember visitor’s preference is to store it in his browser. Cookies used to be popular before they were deemed evil, but they have other limitations as well. Hence popular switch to HTML5 in-browser storage technologies like
+  <a href="http://www.w3.org/TR/webstorage/">
+   localStorage
+  </a>
+  .
+ </p>
+ <p>
+  I think there is one important difference between cookies and tools like localStorage that is often overlooked and it’s not the size of data that can be stored. Cookies are sent with
+  <em>
+   each page request
+  </em>
+  while data stored elsewhere isn’t. Changing them on any side will automatically share state with the other. I use localStorage in my theme switcher because I think server doesn’t need and should not know which theme is used. But for storing shared data, especially one that expires, cookies remain a reasonable if not best choice.
+ </p>
+ <p>
+  None of this is exactly new, but I think it is worth remembering. In other news I dislike interface limitations of Chrome more and more (exceptions are Developer Tools and extensions framework).
+ </p>
+</div>
+            </div><!-- /.entry-content -->
+
+            <footer class="post-metadata">
+                <ul>
+                    <li>Published on <time datetime="2011-12-19T17:05:00+01:00">Mon 19 December 2011</time> </li>
+                    <li><a href="../cookies-localstorage-and-shared-state.html">Add your comment</a></li>
+                </ul>
+            </footer>
+        </article>
+        <article class="hentry">
             <h1 class="entry-title storytitle"><a href="../reading-sources.html" rel="bookmark" title="Permalink to Reading sources">Reading sources</a></h1>
 
             <div class="entry-content post-text">
@@ -170,152 +275,6 @@ body > footer .mini-logo {display: inline-block;width:97px;height:32px;border:0;
                 <ul>
                     <li>Published on <time datetime="2011-11-21T11:37:00+01:00">Mon 21 November 2011</time> </li>
                     <li><a href="../reading-sources.html">Add your comment</a></li>
-                </ul>
-            </footer>
-        </article>
-        <article class="hentry">
-            <h1 class="entry-title storytitle"><a href="../upcoming-elections.html" rel="bookmark" title="Permalink to Upcoming elections">Upcoming elections</a></h1>
-
-            <div class="entry-content post-text">
-                <div>
- <p>
-  I never intended to, but somehow missed last few elections because they were on dates when we were travelling. It looks like this time will be different so we have spent quite some time so far thinking about whom to give our votes. Like most people I know I find most parties in Slovenia distasteful and while I am not enamoured by anyone, I think I will be able to cast a vote. But I do wish our system was slightly different.
- </p>
- <p>
-  Here’s what I would change if I could:
- </p>
- <ol>
-  <li>
-   <em>
-    Introduce a
-    <a class="zem_slink" href="http://en.wikipedia.org/wiki/Preferential_voting" rel="wikipedia" title="Preferential voting">
-     preferential vote
-    </a>
-   </em>
-   <strong>
-   </strong>
-   (only first and second choice). It kind of sucks that you have to decide between a party that you would like to vote for and a party that actually has a chance of getting in parliament according to polls. I know I am not alone with this dilemma and I often wonder who people would pick if they were not afraid of “wasting” their vote.
-  </li>
-  <li>
-   <em>
-    <a class="zem_slink" href="http://en.wikipedia.org/wiki/Compulsory_voting" rel="wikipedia" title="Compulsory voting">
-     Compulsory voting
-    </a>
-   </em>
-   (but only with point 3). Everyone who can vote really should unless they can provide a good reason why they can’t. Voting every few years really should be the bare minimum of citizen’s civic engagement.
-  </li>
-  <li>
-   <em>
-    Add an explicit choice “Nobody from this list”.
-   </em>
-   Voting for least awful can still be unpalatable. Right now we also can’t distinguish between people who didn’t want to vote for anyone on the ballot and those who couldn’t be bothered. It’s easy to see low turnouts as a failure of democratic process when it has less to do with process and more with available choices. “Nobody” votes should be counted when calculating parliamentary threshold since they are votes against all parties, and ignored when calculating how many seats parties in parliament get.
-  </li>
- </ol>
- <p>
-  Regretfully these changes wouldn’t benefit parties in parliament (whichever they are or will be) so there is  almost a zero chance that above changes will happen. Unless of course there is enough popular support to have a referendum.
- </p>
-</div>
-            </div><!-- /.entry-content -->
-
-            <footer class="post-metadata">
-                <ul>
-                    <li>Published on <time datetime="2011-11-15T11:08:00+01:00">Tue 15 November 2011</time> </li>
-                    <li><a href="../upcoming-elections.html">Add your comment</a></li>
-                </ul>
-            </footer>
-        </article>
-        <article class="hentry">
-            <h1 class="entry-title storytitle"><a href="../pimping-my-notebook.html" rel="bookmark" title="Permalink to Pimping my notebook">Pimping my notebook</a></h1>
-
-            <div class="entry-content post-text">
-                <div>
- <p>
-  I do practically all of my work on Sony VAIO notebook I bought 3 years ago. I picked it because it was very light (less than 1.5kg), small, had great screen, keyboard and battery that seemed to last forever (around 11 hours without WiFi and about 8 with it). I still love this machine, but it has a remarkable design failure. Let’s see if you can spot it on this picture?
- </p>
- <p class="aligncenter">
-  <img alt="Detail of Sony VAIO showing power on/off switch" class="aligncenter" src="http://markos.gaivo.net/images/switch.jpg" title="Power on/off switch"/>
- </p>
- <p>
-  That glassy looking button is an on/off switch. It responds to light pressure and it protrudes from notebook even when lid is closed. What could possibly go wrong?
- </p>
- <p>
-  After a while I got tired of my notebook getting turned off while I carried it and made what I believed would be a temporary fix until I figure out something better
-  <sup>
-   <a href="#pimp-notebook-1-note" id="pimp-notebook-1">
-    [1]
-   </a>
-  </sup>
-  . A cap for button made out of layers of paper for sturdiness (I should at least use paperboard) glued together and reinforced with copious amounts of Scotch tape. It looked ugly, but mostly worked.
- </p>
- <p>
-  The problem with temporary fixes is that they tend to become permanent. I think this happens when they are too successful and remove too much pain, but it’s hard to find that sweet spot of enough uneasiness without actual aggravation. Maybe it doesn’t even exist.
- </p>
- <p>
-  So I’ve been using it ever since with a firm intention to figure out a better way to fix it. I finally decided to draw what I need and print it at
-  <a class="zem_slink" href="http://www.shapeways.com" rel="homepage" title="Shapeways">
-   Shapeways
-  </a>
-  <sup>
-   <a href="#pimp-notebook-2-note" id="pimp-notebook-2">
-    [2]
-   </a>
-  </sup>
-  . Here are results:
- </p>
- <p class="aligncenter">
-  <img alt="3 switch protectors. Old one made out of paper and two new ones." class="aligncenter" src="http://markos.gaivo.net/images/protectors.jpg" title="Switch protectors - old and new"/>
- </p>
- <p>
-  I made two (left is old paper one), because it takes them a while to print and deliver them to Europe, I had no experience with materials and they are relatively cheap. They also looked better before I sandpapered them somewhat for a better fit. In fact both of them were completely black.
- </p>
- <p>
-  A couple of tips if you intend to use
-  <a class="zem_slink" href="http://sketchup.google.com/" rel="homepage" title="Google SketchUp">
-   SketchUp
-  </a>
-  for drawing models. SketchUp was really made for drawing sketches of buildings so when you start it, you’ll see an image of a person (to help you scale your sketch). That image is an object and you have to delete it if you don’t want it to screw up your measurements in exported file. The other consequence of SketchUp purpose is that anything you draw has no depth. This didn’t matter to me since required thickness of protector cylinder was about the same as minimum thickness that 3D printer can print. If this is not true for you, then you’ll probably need to do some post-processing (search Shapeways for tutorials).
- </p>
- <p>
-  My notebook has been “on the road” and has performed admirably apart from a failed battery latch which forced me to now use a lower capacity battery (which still gets me through a typical conference day). But 3 years is forever for wandering notebook so it was no big surprise that frame of its screen eventually cracked. Superglue didn’t fix it and I was thinking about gluing a piece of wood or metal to screen for reinforcement, but I hate the idea of additional weight. It would also look awful.
- </p>
- <p>
-  At about same time I was snooping around
-  <a href="http://store.mozilla.org/">
-   Mozilla store
-  </a>
-  to see if there was something I like which I could buy to support my favorite web project and discovered laptop skins. I was never a fan of covering my laptop with stickers from various startups (why would anyone want that?), but this was perfect. I’m not sure from what kind of material the skins are made of, but they are thin and don’t tear easily. With another layer of Scotch tape I got something that I think looks great and provides enough protection for a now more careful user:
- </p>
- <p class="aligncenter">
-  <img alt="Shows back of notebook with new skin and switch protector attached." class="aligncenter" src="http://markos.gaivo.net/images/final.jpg" title="New back of notebook and switch protector"/>
- </p>
- <p>
-  Looks great, right?
- </p>
- <ol>
-  <li id="pimp-notebook-1-note">
-   I still find it amazing that this problem wasn’t caught before release.  Eventually they noticed it and later models got buttons that need more pressure to trigger and are better shielded from environment.
-   <a href="#pimp-notebook-1">
-    ↩
-   </a>
-  </li>
-  <li id="pimp-notebook-2-note">
-   I knew about
-   <a class="zem_slink" href="http://en.wikipedia.org/wiki/3D_printing" rel="wikipedia" title="3D printing">
-    3D printing
-   </a>
-   and company for years. Who knows why I didn’t think of using it sooner.
-   <a href="#pimp-notebook-2">
-    ↩
-   </a>
-  </li>
- </ol>
-</div>
-            </div><!-- /.entry-content -->
-
-            <footer class="post-metadata">
-                <ul>
-                    <li>Published on <time datetime="2011-11-06T19:41:00+01:00">Sun 06 November 2011</time> </li>
-                    <li><a href="../pimping-my-notebook.html">Add your comment</a></li>
                 </ul>
             </footer>
         </article>

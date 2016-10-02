@@ -73,6 +73,120 @@ body > footer .mini-logo {display: inline-block;width:97px;height:32px;border:0;
     </nav>
 
         <article class="hentry">
+            <h1 class="entry-title storytitle"><a href="./hiding-everything-but-editor-on-wordpress-with-greasemonkey.html" rel="bookmark" title="Permalink to Hiding everything but editor on WordPress with Greasemonkey">Hiding everything but editor on WordPress with Greasemonkey</a></h1>
+
+            <div class="entry-content post-text">
+                <div>
+ <p>
+  Fry
+  <a href="http://friedcellcollective.net/outbreak/2008/08/15/discovering-greasemonkey-again/" title="Link to mentione post">
+   published
+  </a>
+  few neat
+  <a href="https://addons.mozilla.org/en-US/firefox/addon/748" title="Greasemonkey home">
+   Greasemonkey
+  </a>
+  scripts recently and since I am also a fan of this Firefox
+  <a class="zem_slink" href="http://en.wikipedia.org/wiki/Add-on_%28Mozilla%29" rel="wikipedia" title="Add-on (Mozilla)">
+   extension
+  </a>
+  , I thought I might share one myself. It’s a script I am using right now, while I am typing this post.
+ </p>
+ <p>
+  Script hides everything but editor on “Create New Post” page in
+  <a class="zem_slink" href="http://wordpress.org/" rel="homepage" title="WordPress">
+   WordPress
+  </a>
+  . It also adds a toggle to the right which you can use to control visibility of hidden parts.
+ </p>
+ <p>
+  I did this because I don’t want to be distracted when I am writing and close-to-empty page helps me stay focused. If you’re like me, then please
+  <a href="markos.gaivo.net/examples/lovelywp.user.js">
+   download
+  </a>
+  the script.
+ </p>
+ <div class="zemanta-pixie" style="margin-top: 10px; height: 15px;">
+  <a class="zemanta-pixie-a" href="http://reblog.zemanta.com/zemified/b7b787a7-f998-4afb-b5ef-528707fff346/" title="Zemified by Zemanta">
+   <img alt="Reblog this post [with Zemanta]" class="zemanta-pixie-img" src="http://img.zemanta.com/reblog_e.png?x-id=b7b787a7-f998-4afb-b5ef-528707fff346" style="border: medium none; float: right;"/>
+  </a>
+ </div>
+</div>
+            </div><!-- /.entry-content -->
+
+            <footer class="post-metadata">
+                <ul>
+                    <li>Published on <time datetime="2008-08-23T23:08:00+02:00">Sat 23 August 2008</time> </li>
+                    <li><a href="./hiding-everything-but-editor-on-wordpress-with-greasemonkey.html">Add your comment</a></li>
+                </ul>
+            </footer>
+        </article>
+        <article class="hentry">
+            <h1 class="entry-title storytitle"><a href="./generating-python-exceptions-classes.html" rel="bookmark" title="Permalink to Generating Python Exceptions Classes">Generating Python Exceptions Classes</a></h1>
+
+            <div class="entry-content post-text">
+                <div>
+ <p>
+  It’s been a while since I used
+  <a class="zem_slink" href="http://www.python.org/" rel="homepage" title="Python (programming language)">
+   Python
+  </a>
+  for anything larger than scripts few tens lines long, so it feels really great to do it again. I did discover however that I became a bit rusty. Not so much in not being able to achieve what I want as not being sure that I do it in a sensible and pythonic way.
+ </p>
+ <p>
+  I’ve been working on a private project where I came to a following problem.
+  <a class="zem_slink" href="http://en.wikipedia.org/wiki/Application_programming_interface" rel="wikipedia" title="Application programming interface">
+   API
+  </a>
+  calls can trigger various responses, somewhat like
+  <a class="zem_slink" href="http://en.wikipedia.org/wiki/Hypertext_Transfer_Protocol" rel="wikipedia" title="Hypertext Transfer Protocol">
+   HTTP
+  </a>
+  , containing status codes together with a short description. Every faulty response should trigger its own exception, which led me to my first implementation:
+ </p>
+ <pre><code>
+class Unauthorized(Exception):
+    status = 101
+    value = "Unauthorized."
+</code></pre>
+ <p>
+  I didn’t like it even though it looks and behaves like it should. What I wanted was a better overlook of possible responses in a way where I have to make any possible changes easily and only at one place.
+ </p>
+ <p>
+  My
+  <a href="http://markos.gaivo.net/examples/pyexceptions/exceptions1.txt" title="Example">
+   second attempt
+  </a>
+  was auto-generating exception classes using type. Since class definition took only a line instead of three, it certainly achieved better transparency, but I still had to make changes at two places.
+ </p>
+ <p>
+  <a href="http://markos.gaivo.net/examples/pyexceptions/exceptions2.txt">
+   Final step
+  </a>
+  was to auto-generate classes in a loop. To do this I attached them to module namespace using globals() dictionary. Actually I used __builtin__ one at first, but it obviously didn’t work that great.
+ </p>
+ <p>
+  So this is what I have now. It works and achieves my goals. I only need to change dictionary to add a new response or change existing one and it could hardly be more readable.
+ </p>
+ <p>
+  But is it pythonic enough? If not, what would be, apart from traditional way described in first step?
+ </p>
+ <div class="zemanta-pixie" style="margin-top: 10px; height: 15px;">
+  <a class="zemanta-pixie-a" href="http://reblog.zemanta.com/zemified/67741c44-cb65-4003-8f66-f8ceb221a025/" title="Zemified by Zemanta">
+   <img alt="Zemanta Pixie" class="zemanta-pixie-img" src="http://img.zemanta.com/reblog_e.png?x-id=67741c44-cb65-4003-8f66-f8ceb221a025" style="border: medium none; float: right;"/>
+  </a>
+ </div>
+</div>
+            </div><!-- /.entry-content -->
+
+            <footer class="post-metadata">
+                <ul>
+                    <li>Published on <time datetime="2008-07-22T09:39:00+02:00">Tue 22 July 2008</time> </li>
+                    <li><a href="./generating-python-exceptions-classes.html">Add your comment</a></li>
+                </ul>
+            </footer>
+        </article>
+        <article class="hentry">
             <h1 class="entry-title storytitle"><a href="./going-home.html" rel="bookmark" title="Permalink to Going home">Going home</a></h1>
 
             <div class="entry-content post-text">
@@ -123,90 +237,6 @@ body > footer .mini-logo {display: inline-block;width:97px;height:32px;border:0;
                 <ul>
                     <li>Published on <time datetime="2008-07-10T10:02:00+02:00">Thu 10 July 2008</time> </li>
                     <li><a href="./going-home.html">Add your comment</a></li>
-                </ul>
-            </footer>
-        </article>
-        <article class="hentry">
-            <h1 class="entry-title storytitle"><a href="./firefox-3-release-party.html" rel="bookmark" title="Permalink to Firefox 3 Release Party">Firefox 3 Release Party</a></h1>
-
-            <div class="entry-content post-text">
-                <div>
- <p>
-  <a class="zem_slink" href="http://www.firefox.com/" rel="homepage" title="Mozilla Firefox">
-   Firefox 3
-  </a>
-  was released last week and tomorrow, a week after its release, we’ll have
-  <a href="http://www.kiberpipa.org/firefox/">
-   a release party
-  </a>
-  at Kiberpipa. Everybody is welcome, but you have to register first.
- </p>
- <p>
-  Part of the event will be
-  <a href="http://www.kiberpipa.org/firefox/schedule">
-   a series of talks
-  </a>
-  , one of which will be mine, a short talk titled Easy deployment of site-extensions with a
-  <a class="zem_slink" href="http://en.wikipedia.org/wiki/Plugin" rel="wikipedia" title="Plugin">
-   browser plugin
-  </a>
-  .
- </p>
- <p>
-  I hope to see you there.
- </p>
- <div class="zemanta-pixie" style="margin-top: 10px; height: 15px;">
-  <a class="zemanta-pixie-a" href="http://reblog.zemanta.com/zemified/6aa8e696-91f0-45b4-a4dd-42968486c1a5/" title="Zemified by Zemanta">
-   <img alt="Zemanta Pixie" class="zemanta-pixie-img" src="http://img.zemanta.com/reblog_a.png?x-id=6aa8e696-91f0-45b4-a4dd-42968486c1a5" style="border: medium none; float: right;"/>
-  </a>
- </div>
-</div>
-            </div><!-- /.entry-content -->
-
-            <footer class="post-metadata">
-                <ul>
-                    <li>Published on <time datetime="2008-06-23T10:35:00+02:00">Mon 23 June 2008</time> </li>
-                    <li><a href="./firefox-3-release-party.html">Add your comment</a></li>
-                </ul>
-            </footer>
-        </article>
-        <article class="hentry">
-            <h1 class="entry-title storytitle"><a href="./switchedto-firefox-3.html" rel="bookmark" title="Permalink to Switched...to Firefox 3">Switched...to Firefox 3</a></h1>
-
-            <div class="entry-content post-text">
-                <div>
- <p>
-  Today I switched to
-  <a class="zem_slink" href="http://www.firefox.com/" rel="homepage" title="Mozilla Firefox">
-   Firefox 3
-  </a>
-  as my main browser. I didn’t want to, because as a policy I try to use most common version as default, but I made a mistake of opening version 3 and since then none of my old add-ons seem to work on previous version anymore.
- </p>
- <p>
-  If I was still a young pup, I would probably dive into config files, search
-  <a class="zem_slink" href="http://en.wikipedia.org/wiki/World_Wide_Web" rel="wikipedia" title="World Wide Web">
-   the web
-  </a>
-  for answers and try to fix it. But when you get to 34, time becomes too precious to muck about needlessly and you just want to focus on things you need or better yet want to do.
- </p>
- <p>
-  So version three it is. This has got me thinking about something else. It’s remarkable how difficult or simply an annoyance it still is to have two version of a browser installed. Clearly this should be possible and is in interest of everyone involved.
- </p>
- <p>
-  Anyway, enough of ranting. Time to get back to cutting cake…
- </p>
- <div class="zemanta-pixie" style="margin-top: 10px; height: 15px;">
-  <a class="zemanta-pixie-a" href="http://reblog.zemanta.com/zemified/79c05cbe-847f-4fa0-8dc3-878f8e79208f/" title="Zemified by Zemanta">
-   <img alt="Zemanta Pixie" class="zemanta-pixie-img" src="http://img.zemanta.com/reblog_a.png?x-id=79c05cbe-847f-4fa0-8dc3-878f8e79208f" style="border: medium none; float: right;"/>
-  </a>
- </div>
-</div>
-            </div><!-- /.entry-content -->
-
-            <footer class="post-metadata">
-                <ul>
-                    <li>Published on <time datetime="2008-06-22T15:04:00+02:00">Sun 22 June 2008</time> </li>
-                    <li><a href="./switchedto-firefox-3.html">Add your comment</a></li>
                 </ul>
             </footer>
         </article>

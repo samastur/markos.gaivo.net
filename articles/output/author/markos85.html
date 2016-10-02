@@ -74,6 +74,110 @@ body > footer .mini-logo {display: inline-block;width:97px;height:32px;border:0;
     </nav>
 
         <article class="hentry">
+            <h1 class="entry-title storytitle"><a href="../telemarketing-scum.html" rel="bookmark" title="Permalink to Telemarketing scum">Telemarketing scum</a></h1>
+
+            <div class="entry-content post-text">
+                <div>
+ <p>
+  I’ve spent yesterday on Vienna, which was very cold and very snow-less. As it always happens, I get most phone calls when I have the least time for them and they cost me the most.
+ </p>
+ <p>
+  One of them was from telemarketing scum. Do you know what they thought I’ve been really missing?
+ </p>
+ <p>
+  A course on how to use computers.
+ </p>
+</div>
+            </div><!-- /.entry-content -->
+
+            <footer class="post-metadata">
+                <ul>
+                    <li>Published on <time datetime="2005-12-13T09:07:00+01:00">Tue 13 December 2005</time> </li>
+                    <li><a href="../telemarketing-scum.html">Add your comment</a></li>
+                </ul>
+            </footer>
+        </article>
+        <article class="hentry">
+            <h1 class="entry-title storytitle"><a href="../look-ma-html-too.html" rel="bookmark" title="Permalink to Look ma', HTML too">Look ma', HTML too</a></h1>
+
+            <div class="entry-content post-text">
+                <div>
+ <p>
+  This is a second post in hopefully a very short series dedicated to javascript internationalization. If you want, you can read the first one
+  <a href="solving-javascript-i18n-as-work-in-progress.html">
+   here
+  </a>
+  .
+ </p>
+ <p>
+  We left off with two supporting functions for striping whitespace and a simple function for translation lookup. Today I added another two functions, one for translating HTML elements and the other for resolving a problem with HTML entities. You can find new javascript
+  <a href="http://markos.gaivo.net/examples/js_i18n/2/translate.js">
+   here
+  </a>
+  and a demo
+  <a href="http://markos.gaivo.net/examples/js_i18n/2/index.html">
+   here
+  </a>
+  .
+ </p>
+ <p>
+  <em>
+   translateNodes
+  </em>
+  searches for elements with class name i18n, picks up their text content and translates it, if it can find it in translation dictionary. Sometimes it can’t, because what javascript actually sees is a real utf-8 encoded string, where X/HTML entities have been replaced with characters they represent. If this is not true also for source string in dictionary, then there’s a mismatch.
+ </p>
+ <p>
+  That’s why there’s
+  <em>
+   toEntity
+  </em>
+  function which translates all non-ASCII characters in given string to their entity representation. When
+  <em>
+   translateNodes
+  </em>
+  fails to find translation, it uses
+  <em>
+   toEntity
+  </em>
+  to get a possibly different representation and tries again.
+ </p>
+ <p>
+  This way you can use entities, which are the only real cross-browser way to describe non-ASCII chars and translations still work. There’s a downside though. Your translation source string must either have all non-ASII characters represented as HTML entities or none of them. Otherwise translation will fail for obvious reasons.
+ </p>
+ <p>
+  There are planned limitations (like building a system that handles only utf-8 text) and unplanned ones. I still don’t do anything special for strings with significant whitespace (like content of a
+  <em>
+   pre
+  </em>
+  tag) and probably should.
+ </p>
+ <p>
+  Do nothing = I break it.
+ </p>
+ <p>
+  It would be nice, if I started to pack this functionality in a more sensible form and build tools that make handling of the whole thing easier.
+ </p>
+ <p>
+  Next week, which starts in an hour or so, seems perfect time for that.
+ </p>
+ <p>
+  Update: Follow up
+  <a href="news-at-seven-javascript-i18n-that-almost-doesnt-suck.html">
+   here
+  </a>
+  .
+ </p>
+</div>
+            </div><!-- /.entry-content -->
+
+            <footer class="post-metadata">
+                <ul>
+                    <li>Published on <time datetime="2005-12-11T23:08:00+01:00">Sun 11 December 2005</time> </li>
+                    <li><a href="../look-ma-html-too.html">Add your comment</a></li>
+                </ul>
+            </footer>
+        </article>
+        <article class="hentry">
             <h1 class="entry-title storytitle"><a href="../googles-bias.html" rel="bookmark" title="Permalink to Google's bias">Google's bias</a></h1>
 
             <div class="entry-content post-text">
@@ -111,189 +215,6 @@ body > footer .mini-logo {display: inline-block;width:97px;height:32px;border:0;
                 <ul>
                     <li>Published on <time datetime="2005-12-10T18:29:00+01:00">Sat 10 December 2005</time> </li>
                     <li><a href="../googles-bias.html">Add your comment</a></li>
-                </ul>
-            </footer>
-        </article>
-        <article class="hentry">
-            <h1 class="entry-title storytitle"><a href="../words-matter.html" rel="bookmark" title="Permalink to Words matter">Words matter</a></h1>
-
-            <div class="entry-content post-text">
-                <div>
- <p>
-  When we designed
-  <a href="http://www.marela.si">
-   Marela
-  </a>
-  , we obviously wanted to make it as close to perfect as possible, but we paid even more attention than usual to words and language used, since I find bad copy consistently the most annoying element of web site design.
- </p>
- <p>
-  This might look odd coming from me. But not being a chef doesn’t mean I can’t enjoy or respect good cooking. So I read articles like
-  <a href="http://www.digital-web.com/articles/resurrect_your_writing_redeem_your_soul/">
-   this one
-  </a>
-  , hope that more people would do the same and try to do my best. I think we’re doing alright so far; no doubt largely because there are enough capable and caring souls fixing after me my stupidity and sloppiness.
- </p>
- <p>
-  If the tone and words used influence how we feel and percept others in our daily communications, why is it so difficult to imagine that this is equaly true when communicating through a web site or user interface? It’s still communication.
- </p>
- <p>
-  And to make this post at least moderately useful, I give you a short and far from complete list of words used in tech industry and what they actually mean:
- </p>
- <ul>
-  <li>
-   <strong>
-    technology:
-   </strong>
-   stuff that doesn’t quite work yet
-  </li>
-  <li>
-   <strong>
-    open:
-   </strong>
-   works with our stuff
-  </li>
-  <li>
-   <strong>
-    robust:
-   </strong>
-   works with our stuff, will break with almost anything else
-  </li>
-  <li>
-   <strong>
-    quality:
-   </strong>
-   works most of the time
-  </li>
-  <li>
-   <strong>
-    dynamic:
-   </strong>
-   you have to be flexible
-  </li>
-  <li>
-   <strong>
-    proactive:
-   </strong>
-   active
-  </li>
-  <li>
-   <strong>
-    end user:
-   </strong>
-   user
-  </li>
-  <li>
-   <strong>
-    innovative:
-   </strong>
-   average
-  </li>
-  <li>
-   <strong>
-    world class:
-   </strong>
-   average
-  </li>
-  <li>
-   <strong>
-    leading:
-   </strong>
-   average
-  </li>
-  <li>
-   <strong>
-    cheap:
-   </strong>
-   give us lots of money
-  </li>
-  <li>
-   <strong>
-    partnership:
-   </strong>
-   give us lots of money
-  </li>
-  <li>
-   <strong>
-    professional:
-   </strong>
-   give us lots of money
-  </li>
-  <li>
-   <strong>
-    any 3 or 4 letter acronym:
-   </strong>
-   we are smart &amp; give us lots of money
-  </li>
- </ul>
-</div>
-            </div><!-- /.entry-content -->
-
-            <footer class="post-metadata">
-                <ul>
-                    <li>Published on <time datetime="2005-12-09T17:57:00+01:00">Fri 09 December 2005</time> </li>
-                    <li><a href="../words-matter.html">Add your comment</a></li>
-                </ul>
-            </footer>
-        </article>
-        <article class="hentry">
-            <h1 class="entry-title storytitle"><a href="../solving-javascript-i18n-as-work-in-progress.html" rel="bookmark" title="Permalink to Solving javascript i18n as work in progress">Solving javascript i18n as work in progress</a></h1>
-
-            <div class="entry-content post-text">
-                <div>
- <p>
-  A while ago I was moaning about a sad state of javascript i18n tools. When I finally started working on it, I faced a dilemma.
- </p>
- <p>
-  Should I wait until it’s finished and then reveal it like Moses to chosen people? Look guys what I etched with a toothpick during my lunch time break! You know, I was waiting for my Crème Brûlée and had to kill those few pesky minutes.
- </p>
- <p>
-  Or should I choose a more honest approach, showing steps and missteps between embarrassing first version and hopefully usable last?
- </p>
- <p>
-  Well, there’s nothing better than public humiliation to instill some humility so let’s see what is behind the door number two.
- </p>
- <p>
-  The goal is still the same. Develop a short and relatively fast library that allows you to translate javascript code and HTML content and to do so with as little fuss as possible and with a clear separation between HTML, javascript and translations, but without breaking pages in case translation doesn’t exist yet.
- </p>
- <p>
-  And
-  <a href="http://markos.gaivo.net/examples/js_i18n/1/translate.js" title="Translation functions">
-   here’s
-  </a>
-  my humble start together with a
-  <a href="http://markos.gaivo.net/examples/js_i18n/1/index.html" title="Link to demonstration page">
-   simple demo
-  </a>
-  . Three functions, two of them a support needed later on. stripStr and stripStrML just strip whitespace at the start and end of string with stripStrML doing it on every line of a given string. We’ll need this later on so we can find strings to translate even if they are enclosed in whitespace to make source display more pretty.
- </p>
- <p>
-  Then there’s a function called _, which takes a string and translates it if javascript object i18nDict exists and has this string as an attribute with a non empty value. Otherwise it just returns the same string, so it doesn’t break page even if translation doesn’t exist in
-  <a href="http://markos.gaivo.net/examples/js_i18n/1/i18n.js" title="Translation dictionary">
-   translation object
-  </a>
-  . It’s what is usually called a proof of concept prototype.
- </p>
- <p>
-  That’s it for today. I’ll try to post updates every couple of days or so, if progress warrants it.
- </p>
- <p>
-  Update: Follow up
-  <a href="look-ma-html-too.html">
-   here
-  </a>
-  and
-  <a href="news-at-seven-javascript-i18n-that-almost-doesnt-suck.html">
-   here
-  </a>
-  .
- </p>
-</div>
-            </div><!-- /.entry-content -->
-
-            <footer class="post-metadata">
-                <ul>
-                    <li>Published on <time datetime="2005-12-08T14:11:00+01:00">Thu 08 December 2005</time> </li>
-                    <li><a href="../solving-javascript-i18n-as-work-in-progress.html">Add your comment</a></li>
                 </ul>
             </footer>
         </article>

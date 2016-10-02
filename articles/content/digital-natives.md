@@ -6,9 +6,9 @@ Slug: digital-natives
 Status: draft
 Tags: digital-natives, code
 
-I read [a post](http://coding2learn.org/blog/2013/07/29/kids-cant-use-computers/) from 2013 about how kid's can't use computers. Under writer's obnoxious attitude and questionable argument you can find some solid points and observations. Largely drawing on my own experience and not quantitative data
+I recently read [a post](http://coding2learn.org/blog/2013/07/29/kids-cant-use-computers/) from 2013 how kid's can't use computers. Under writer's obnoxious attitude and questionable arguments you can find some solid points and observations.
 
-But what do we actually mean when we talk about digital natives and their relationship to technology[ref]Meaning of technology is for purpose of this article limited to personal computing.[/ref]?
+But what do we actually mean when we talk about digital natives and their relationship to technology, which for purposes of this article means personal computing?
 
 Certainly not just one thing and I can think of three meanings that I also find interesting:
 

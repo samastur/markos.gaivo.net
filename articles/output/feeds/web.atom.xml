@@ -1,5 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>A notch above a monkey</title><link href="http://markos.gaivo.net/articles/" rel="alternate"></link><link href="/articles/feeds/web.atom.xml" rel="self"></link><id>http://markos.gaivo.net/articles/</id><updated>2016-06-27T18:45:31+02:00</updated><entry><title>Web skills</title><link href="http://markos.gaivo.net/articles/web-skills.html" rel="alternate"></link><updated>2016-06-27T18:45:31+02:00</updated><author><name>markos</name></author><id>tag:markos.gaivo.net,2016-06-27:articles/web-skills.html</id><summary type="html">&lt;p&gt;While following news about Brexit developments and its impact on FTSE100, my wife and I wondered how many people work for companies that are included in that index. Wikipedia provides &lt;a href="https://en.wikipedia.org/wiki/FTSE_100_Index"&gt;a list of FTSE100 companies&lt;/a&gt; including their employees numbers, but without the total that interested us.&lt;/p&gt;
+<feed xmlns="http://www.w3.org/2005/Atom"><title>A notch above a monkey</title><link href="http://markos.gaivo.net/articles/" rel="alternate"></link><link href="/articles/feeds/web.atom.xml" rel="self"></link><id>http://markos.gaivo.net/articles/</id><updated>2016-08-23T09:06:00+02:00</updated><entry><title>Conference programs</title><link href="http://markos.gaivo.net/articles/conference-programs.html" rel="alternate"></link><updated>2016-08-23T09:06:00+02:00</updated><author><name>markos</name></author><id>tag:markos.gaivo.net,2016-08-23:articles/conference-programs.html</id><summary type="html">&lt;p&gt;We went hiking and exploring north of Spain after this year's &lt;a href="http://http://ep2016.europython.eu/"&gt;EuroPython&lt;/a&gt;. Predictably this also involved a lot of frustrations with available WiFi connections. Mobile networks often worked better, but far from reliably so. It is amazing to see how poorly most websites and apps still work in such (common) scenarios with rare exception like Gmail Android app. Keeping all our devices powered required significant planning and spare batteries where possible.&lt;/p&gt;
+&lt;p&gt;I complained about this before and while it is sad to see how little has changed, this post is not about failing services. It is about web conferences which I believe contribute &lt;strong&gt;a lot&lt;/strong&gt; to this sad state of affairs.&lt;/p&gt;
+&lt;p&gt;Beyond a talk or two on ServiceWorkers or PouchDB there seems to be little interest from conference organisers to help educate developers on how to develop services that continue to work well when connection is spotty &lt;strong&gt;and&lt;/strong&gt; battery low.&lt;/p&gt;
+&lt;p&gt;It is certainly not because users wouldn't care. &lt;a href="https://www.youtube.com/watch?v=VC2Hlb22mZM#t=1m05"&gt;According to Google&lt;/a&gt; there are hundreds of battery apps, downloads of which go into 100+ millions. In my own field work I saw that when given choice mobile users will pick services that work better. By which I mean those that use less bandwidth, work more reliably and are easier on battery. I can only think of very few services that have network effects strong enough to be safe from removal, but even their use can be negatively impacted by users limiting or changing their use of the service.&lt;/p&gt;
+&lt;p&gt;My talk proposal on web's energy use has been widely rejected. It happens. But more disappointingly I failed to find other talks on this or similar topics. Every conference has a right to decide which topics it finds important, but when one is ignored by all of them, it may be correct to conclude that it simply does not matter to community.&lt;/p&gt;
+&lt;p&gt;If that is true and web developers expect to punt this problem to OS (Android and iOS), then that is a mistake. First, because &lt;strong&gt;this is our job&lt;/strong&gt; that nobody else can do equally well. And second, because operating systems are getting better at pointing out problematic apps to users who are willing to remove them.&lt;/p&gt;
+&lt;p&gt;My hunch is that most developers are simply not aware of these issues. A good conference program for me is not just about what is currently pertinent, but also what should be. Maybe we could have fewer talks on web game development to find space for topics that affect billions of people every day.&lt;/p&gt;</summary></entry><entry><title>Web skills</title><link href="http://markos.gaivo.net/articles/web-skills.html" rel="alternate"></link><updated>2016-06-27T18:45:31+02:00</updated><author><name>markos</name></author><id>tag:markos.gaivo.net,2016-06-27:articles/web-skills.html</id><summary type="html">&lt;p&gt;While following news about Brexit developments and its impact on FTSE100, my wife and I wondered how many people work for companies that are included in that index. Wikipedia provides &lt;a href="https://en.wikipedia.org/wiki/FTSE_100_Index"&gt;a list of FTSE100 companies&lt;/a&gt; including their employees numbers, but without the total that interested us.&lt;/p&gt;
 &lt;p&gt;I did not feel like summing them manually as it is tedious, slow and error prone. Luckily I do not have to as this is a nice example how we can use even limited web development skills to solve every day problems.&lt;/p&gt;
 &lt;p&gt;All I needed to do is select table cells in last column, transform their values to numbers that Javascript understands and sum them.&lt;/p&gt;
 &lt;p&gt;On a modern browser this can be accomplished by opening developer tools and executing two lines of code in its console:&lt;/p&gt;
@@ -454,102 +460,5 @@
    right
   &lt;/a&gt;
   even if they are in no hurry to achieve it.
- &lt;/p&gt;
-&lt;/div&gt;</summary></entry><entry><title>@media 2006 is over</title><link href="http://markos.gaivo.net/articles/media-2006-is-over.html" rel="alternate"></link><updated>2006-06-17T10:55:00+02:00</updated><author><name>markos</name></author><id>tag:markos.gaivo.net,2006-06-17:articles/media-2006-is-over.html</id><summary type="html">&lt;div&gt;
- &lt;p&gt;
-  Q: How can you tell that you’re at tech conference?
- &lt;/p&gt;
- &lt;p&gt;
-  A: The line in front of men’s toilets is longer.
- &lt;/p&gt;
- &lt;p&gt;
-  &lt;a href="http://www.vivabit.com/atmedia2006/"&gt;
-   @media 2006
-  &lt;/a&gt;
-  has finished. It was great and I specially enjoyed presentations given by
-  &lt;a href="http://nate.koechley.com/blog/"&gt;
-   Nate Koechley
-  &lt;/a&gt;
-  and
-  &lt;a href="http://www.stuffandnonsense.co.uk/"&gt;
-   Andy Clarke
-  &lt;/a&gt;
-  . Those two alone made going worthwhile and if you have a chance to see any of them, don’t miss the opportunity.
- &lt;/p&gt;
- &lt;p&gt;
-  The conference was much bigger this year, which is one thing I didn’t like. It was harder to find people you were looking for and even if you did find them, they were usually already occupied by somebody else. If you’re an introverted guy like me and not a natural orator, then it can be a bit difficult to make the most of the time you have. I didn’t, but I’m glad I finally met
-  &lt;a href="http://www.clagnut.com/"&gt;
-   Richard
-  &lt;/a&gt;
-  , who’s an even nicer guy in real life.
-  &lt;br/&gt;
-  &lt;span style="font-size:12pt;"&gt;
-   &lt;br/&gt;
-  &lt;/span&gt;
-  A quick summary of sessions I attended:
-  &lt;span style="font-size:12pt;"&gt;
-   &lt;br/&gt;
-  &lt;/span&gt;
- &lt;/p&gt;
- &lt;ul&gt;
-  &lt;li&gt;
-   &lt;a href="http://www.meyerweb.com/eric/"&gt;
-    Eric Meyer
-   &lt;/a&gt;
-   talked about last 10 years of CSS. An interesting talk, but for me even more important, he explained to me why
-   &lt;a href="css-margin-collapse.html"&gt;
-    margin collapsing
-   &lt;/a&gt;
-   wasn’t a daft idea.
-  &lt;/li&gt;
-  &lt;li&gt;
-   I went to a design panel with
-   &lt;a href="http://www.hicksdesign.co.uk/"&gt;
-    Jon Hicks
-   &lt;/a&gt;
-   ,
-   &lt;a href="http://veerle.duoh.com/index.php"&gt;
-    Veerle Pieters
-   &lt;/a&gt;
-   and
-   &lt;a href="http://www.cameronmoll.com/"&gt;
-    Cameron Moll
-   &lt;/a&gt;
-   , since I know a thing or two about Javascript, but I’m completely design illiterate, which this blog can only attest to. I can’t say how designers liked it, but it was certainly very educational for me. I knew I choose my colors as if I was colorblind, but I also discovered I need to learn more about grids.
-  &lt;/li&gt;
-  &lt;li&gt;
-   &lt;a href="http://www.mezzoblue.com/"&gt;
-    Dave Shea
-   &lt;/a&gt;
-   gave a nice rundown of the state of web typography and pros and cons of different methods and Andy Budd entertainingly as always presented tricks and approaches to tackling browser bugs.
-  &lt;/li&gt;
-  &lt;li&gt;
-   &lt;a href="http://www.veen.com/jeff/index.html"&gt;
-    Jeffrey Veen
-   &lt;/a&gt;
-   talked about Web 2.0 and new applications and although he made quite a lot of good points, I’m not sure openness wins every time. My counter example would be instant messaging, where GTalk hasn’t changed the field much. I hope I’m wrong and this will change in the future.
-  &lt;/li&gt;
-  &lt;li&gt;
-   Day two started with
-   &lt;a href="http://www.simplebits.com/"&gt;
-    Dan Cederholm’s
-   &lt;/a&gt;
-   interesting presentation, where I again learned a trick or two. I especially enjoyed the way to build scalable arrows using CSS.
-  &lt;/li&gt;
-  &lt;li&gt;
-   Dan’s talk was followed with Javascript panel. Personally, I think the idea of centralized hosting of Javascript libraries to improve caching doesn’t make much sense. If nothing else you bet that your visitors will also be able to access your caching sites which might not always be true. It certainly isn’t in this part of the world, where partial break-downs are not all that uncommon. Still, the panel probably deserves its own post.
-  &lt;/li&gt;
-  &lt;li&gt;
-   Cameron Moll also gave a presentation on the state of mobile web design. It wasn’t bad, but I hoped for more.
-  &lt;/li&gt;
-  &lt;li&gt;
-   Nate Koechley’s talk was a revelation. An incredible amount of good information and it’s been eye opening for me to learn about Yahoo’s experience. Scary that they build an internet explorer emulating layer for Yahoo Mail though (why didn’t they just drop the original code and start over?).
-  &lt;/li&gt;
-  &lt;li&gt;
-   I enjoyed last year’s session with Andy Clarke, so I decided to attend this years as well and I wasn’t disappointed. I’ve been a fan of Andy’s work for quite some time now and I’m definitely buying his book when it comes out. So should you.
-  &lt;/li&gt;
- &lt;/ul&gt;
- &lt;p&gt;
-  So, this is it. I hope to be there again next year.
  &lt;/p&gt;
 &lt;/div&gt;</summary></entry></feed>
