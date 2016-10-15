@@ -1,5 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>A notch above a monkey</title><link href="http://markos.gaivo.net/articles/" rel="alternate"></link><link href="/articles/feeds/atom.xml" rel="self"></link><id>http://markos.gaivo.net/articles/</id><updated>2016-10-02T15:37:18+02:00</updated><entry><title>Long vacations</title><link href="http://markos.gaivo.net/articles/long-vacations.html" rel="alternate"></link><updated>2016-10-02T15:37:18+02:00</updated><author><name>markos</name></author><id>tag:markos.gaivo.net,2016-10-02:articles/long-vacations.html</id><summary type="html">&lt;p&gt;I like long vacations and by long I mean those lasting 3 or more weeks. This makes me employable only in Europe which is fine.&lt;/p&gt;
+<feed xmlns="http://www.w3.org/2005/Atom"><title>A notch above a monkey</title><link href="http://markos.gaivo.net/articles/" rel="alternate"></link><link href="/articles/feeds/atom.xml" rel="self"></link><id>http://markos.gaivo.net/articles/</id><updated>2016-10-15T20:01:40+02:00</updated><entry><title>DVD backups</title><link href="http://markos.gaivo.net/articles/dvd-backups.html" rel="alternate"></link><updated>2016-10-15T20:01:40+02:00</updated><author><name>markos</name></author><id>tag:markos.gaivo.net,2016-10-15:articles/dvd-backups.html</id><summary type="html">&lt;p&gt;Yesterday I finished backing up about 200 DVD disks to a drive, most of which are about 10 years old. Took me about 10 days and 1.5TB of space. I just copied data as it was the quickest and doesn't lose any data. Drive may complain and require change of a DVD region, but once they are copied, computer doesn't care anymore. Glad this part is over now.&lt;/p&gt;
+&lt;p&gt;Some of them needed cleaning, but I really had problems only with three, two of which remains not copied. As it happens it is also one of those on which I can find no visible scratch whatsoever. It used to work, because I've seen it. It does make you wonder what life span of disks really is, even when they were professionally produced. If you have any, I heartily recommend making a backup of them on some other medium. Unless of course they themselves are a secondary backup.&lt;/p&gt;
+&lt;p&gt;Flipping disks regularly for 10 days does make you notice their &lt;a href="https://en.wikipedia.org/wiki/Keep_case"&gt;cases&lt;/a&gt;, especially hubs that keep disks in place with varying degrees of zeal. It is astonishing how many designs have been used over years and how few of them are actually pleasant to use.&lt;/p&gt;
+&lt;p&gt;Crown of teeth is probably the worst. Like a pitbull unwilling to release a disk until it is visibly bended or a tooth broken. Unless case is made of hard plastic there is really no excuse for using this design. Or any other "pluck" hubs.&lt;/p&gt;
+&lt;p&gt;Thank god there are patents (as there always are) to prevent everyone converging to those few "push-to-release" that are actually nice to use. How could I after all value my life appropriately without it being spiced with needless hassle.&lt;/p&gt;
+&lt;p&gt;At some point I intend to process them into a different, smaller formats that require less space and are easier to (re)use. I am not in a hurry as this step still seems laborious and may also result in some content being lost. I am also thinking of making an additional copy together with file hashes so I could, in principle, recover if any of files gets corrupted.&lt;/p&gt;
+&lt;p&gt;Next: processing our CD collection.&lt;/p&gt;</summary><category term="backup"></category><category term="dvd"></category><category term="data"></category><category term="movies"></category><category term="ownership"></category></entry><entry><title>Long vacations</title><link href="http://markos.gaivo.net/articles/long-vacations.html" rel="alternate"></link><updated>2016-10-02T15:37:18+02:00</updated><author><name>markos</name></author><id>tag:markos.gaivo.net,2016-10-02:articles/long-vacations.html</id><summary type="html">&lt;p&gt;I like long vacations and by long I mean those lasting 3 or more weeks. This makes me employable only in Europe which is fine.&lt;/p&gt;
 &lt;p&gt;Two weeks or less do not seem to be enough to rest my mind and certainly are not enough to get to know the country we happen to be visiting. We almost always visit just one at a time and while a month is not enough either, at least you get a sense of scope and size of your ignorance.&lt;/p&gt;
 &lt;p&gt;It occurred to me today that benefits to my employer(s) go beyond me being more productive and creative when properly rested. Most organisations, even dysfunctional ones, can muddle through a two week absence of almost everyone. Some tasks might be delayed a bit or done slightly worse than usually, but few things are generally really time sensitive or can't tolerate a short dip in quality.&lt;/p&gt;
 &lt;p&gt;Longer absences however expose faults and cracks and test the real bus factor of a missing person. They will expose which bits can or are picked up by others and which suffer. Also how much strain team can bear or would need to if that person suddenly left.&lt;/p&gt;
@@ -204,134 +210,4 @@
    &lt;/a&gt;
   &lt;/li&gt;
  &lt;/ol&gt;
-&lt;/div&gt;</summary><category term="2014"></category><category term="review"></category><category term="annual review"></category></entry><entry><title>Books I read in 2014</title><link href="http://markos.gaivo.net/articles/books-i-read-in-2014.html" rel="alternate"></link><updated>2014-12-31T19:01:00+01:00</updated><author><name>markos</name></author><id>tag:markos.gaivo.net,2014-12-31:articles/books-i-read-in-2014.html</id><summary type="html">&lt;div&gt;
- &lt;p&gt;
-  As expected I read less this year than usual. Much less even, only 10 books. It was a very busy year, but this was still at the lower bound of what I expected. I intend to look at reasons why in my year review post which should be up early next year.
- &lt;/p&gt;
- &lt;p&gt;
-  I am fairly satisfied by the mix of work-related and pleasure reading even if I failed to read anything substantial in Slovenian this year (started The Trial by Franz Kafka which I don’t expect to finish in few hours that are left of this year).
- &lt;/p&gt;
- &lt;p&gt;
-  All non-fiction books were read on my tablet as was The Quiet American which I downloaded once I ran out of books in Vietnam. Reading on tablets did not improve noticeably this year and I still would not recommend it, but they are handy. I think e-ink readers did get to the point where they offer the best of both worlds and I am seriously reconsidering them. However I loathe DRM so I do not expect to buy e-only copy of books I care about any time soon.
- &lt;/p&gt;
- &lt;p&gt;
-  As always unaffiliated links point to Amazon and are there only for those that are at least fine (which is all of them this year). Bold is reserved for those I found best:
-  &lt;em&gt;
-   The Vagrants, Soldiers of Salamis and The Quiet American
-  &lt;/em&gt;
-  .
- &lt;/p&gt;
- &lt;ul&gt;
-  &lt;li&gt;
-   &lt;a href="http://www.amazon.com/Smut-Stories-Alan-Bennett/dp/1250003164"&gt;
-    Smut: Stories
-   &lt;/a&gt;
-   by Alan Bennett. Sex is rarely as funny as in this two stories, but the second story kind of peters out as if the author ran out of ideas to resolve the twisted mess.
-  &lt;/li&gt;
-  &lt;li&gt;
-   &lt;a href="http://www.amazon.com/Developing-Backbone-js-Applications-Addy-Osmani/dp/1449328253/"&gt;
-    Developing Backbone.js Applications
-   &lt;/a&gt;
-   by Addy Osmani. A very good, but occasionally slightly dated introduction to framework. Still highly recommended.
-  &lt;/li&gt;
-  &lt;li&gt;
-   &lt;a href="http://www.amazon.com/Instant-Handlebars-js-Gabriel-Manricks/dp/1783282657/"&gt;
-    Instant Handlebars.js
-   &lt;/a&gt;
-   by Gabriel Manricks. Cover says it all: short, fast and focused examination of Handlebars.js. Great if you prefer books to online reading.
-  &lt;/li&gt;
-  &lt;li&gt;
-   &lt;a href="http://www.amazon.com/Backbone-js-Cookbook-Vadim-Mirgorod/dp/1782162720/"&gt;
-    Backbone.js Cookbook
-   &lt;/a&gt;
-   by Vadim Mirgorod. A quick dive into Backbone.js best when paired with previous book on the topic.
-  &lt;/li&gt;
-  &lt;li&gt;
-   &lt;strong&gt;
-    &lt;a href="http://www.amazon.com/The-Vagrants-Novel-Yiyun-Li/dp/0812973348"&gt;
-     The Vagrants
-    &lt;/a&gt;
-    by Yiyun Li.
-   &lt;/strong&gt;
-   A mesmerising and very depressing portrait of oppression in post cultural revolution China and its effect on people that I can’t recommend highly enough. Rarely hopeful, often unpredictable and always well written.
-  &lt;/li&gt;
-  &lt;li&gt;
-   &lt;a href="http://www.amazon.com/Writing-Idiomatic-Python-Jeff-Knupp/dp/1482374811/"&gt;
-    Writing Idiotmatic Python 3.3
-   &lt;/a&gt;
-   by Jeff Knupp. A short but informative collection of tips on how to write “pythonic” code. The only real downside is book’s price.
-  &lt;/li&gt;
-  &lt;li&gt;
-   &lt;a href="http://www.amazon.com/Pure-Andrew-Miller-ebook/dp/B0052RMN1U/"&gt;
-    Pure
-   &lt;/a&gt;
-   by Andrew Miller. Works best when establishing atmosphere of late 18th century Paris and easy engaging read that turned out to be a bit of disappointment for me. I wish author had as much courage as he does talent.
-  &lt;/li&gt;
-  &lt;li&gt;
-   &lt;strong&gt;
-    &lt;a href="http://www.amazon.com/Soldiers-Salamis-Javier-Cercas/dp/B00EBGKWB6"&gt;
-     Soldiers of Salamis
-    &lt;/a&gt;
-    by Javier Cercas.
-   &lt;/strong&gt;
-   Undoubtedly the best book I read this year. An intelligent, compassionate and humane chronicle of a quest to uncover truth behind a myth from the end of Spanish civil war. I dare you not to be moved.
-  &lt;/li&gt;
-  &lt;li&gt;
-   &lt;a href="http://www.amazon.com/Pragmatic-Programmer-Journeyman-Master/dp/020161622X/"&gt;
-    The Pragmatic Programmer: From Journeyman to Master
-   &lt;/a&gt;
-   by Andrew Hunt, David Thomas. Of no use to those who are not programmers and should be required reading for those who are. I am not sold on all views and suggestions, but it has already influenced my work profoundly.
-  &lt;/li&gt;
-  &lt;li&gt;
-   &lt;strong&gt;
-    &lt;a href="http://www.amazon.com/American-Penguin-Classics-Deluxe-Edition/dp/0143039024"&gt;
-     The Quiet American
-    &lt;/a&gt;
-    by Graham Greene.
-   &lt;/strong&gt;
-   I downloaded this one when I ran out of books in Vietnam and decided to do the cliche thing. Greene is a writer for those who prefer thrillers with a bit more literary ambition and this one doesn’t disappoint either. Gripping, well written and even prophetic considering it was finished a decade before USA got to experience all the things it warned it about.
-  &lt;/li&gt;
- &lt;/ul&gt;
- &lt;p&gt;
-  I have big plans for 2015 so to read 20+ books sounds lovely, but not achievable. Instead I will aim for 15, preferably of some heft and avoid fluff except when on vacation. For a change I also have a very specific goal which is to finally finish
-  &lt;a href="http://www.amazon.com/G%C3%B6del-Escher-Bach-Eternal-Golden/dp/0465026567"&gt;
-   GEB
-  &lt;/a&gt;
-  even if I discover that I don’t like it.
- &lt;/p&gt;
- &lt;h3&gt;
-  Related articles
- &lt;/h3&gt;
- &lt;ul&gt;
-  &lt;li&gt;
-   &lt;a href="the-books-i-read-in-2013.html"&gt;
-    Books I read in 2013
-   &lt;/a&gt;
-   (markos.gaivo.net)
-  &lt;/li&gt;
-  &lt;li&gt;
-   &lt;a href="books-i-read-in-2012.html"&gt;
-    Books I read in 2012
-   &lt;/a&gt;
-   (markos.gaivo.net)
-  &lt;/li&gt;
-  &lt;li&gt;
-   &lt;a href="books-i-read-in-2011.html"&gt;
-    Books I read in 2011
-   &lt;/a&gt;
-   (markos.gaivo.net)
-  &lt;/li&gt;
-  &lt;li&gt;
-   &lt;a href="books-i-read-in-2010.html"&gt;
-    Books I read in 2010
-   &lt;/a&gt;
-   (markos.gaivo.net)
-  &lt;/li&gt;
-  &lt;li&gt;
-   &lt;a href="books-i-read-in-2009.html"&gt;
-    Books I read in 2009
-   &lt;/a&gt;
-   (markos.gaivo.net)
-  &lt;/li&gt;
- &lt;/ul&gt;
-&lt;/div&gt;</summary><category term="review"></category><category term="book"></category><category term="Books"></category></entry></feed>
+&lt;/div&gt;</summary><category term="2014"></category><category term="review"></category><category term="annual review"></category></entry></feed>

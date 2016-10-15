@@ -1,5 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>A notch above a monkey</title><link href="http://markos.gaivo.net/articles/" rel="alternate"></link><link href="/articles/feeds/catchall.atom.xml" rel="self"></link><id>http://markos.gaivo.net/articles/</id><updated>2016-10-02T15:37:18+02:00</updated><entry><title>Long vacations</title><link href="http://markos.gaivo.net/articles/long-vacations.html" rel="alternate"></link><updated>2016-10-02T15:37:18+02:00</updated><author><name>markos</name></author><id>tag:markos.gaivo.net,2016-10-02:articles/long-vacations.html</id><summary type="html">&lt;p&gt;I like long vacations and by long I mean those lasting 3 or more weeks. This makes me employable only in Europe which is fine.&lt;/p&gt;
+<feed xmlns="http://www.w3.org/2005/Atom"><title>A notch above a monkey</title><link href="http://markos.gaivo.net/articles/" rel="alternate"></link><link href="/articles/feeds/catchall.atom.xml" rel="self"></link><id>http://markos.gaivo.net/articles/</id><updated>2016-10-15T20:01:40+02:00</updated><entry><title>DVD backups</title><link href="http://markos.gaivo.net/articles/dvd-backups.html" rel="alternate"></link><updated>2016-10-15T20:01:40+02:00</updated><author><name>markos</name></author><id>tag:markos.gaivo.net,2016-10-15:articles/dvd-backups.html</id><summary type="html">&lt;p&gt;Yesterday I finished backing up about 200 DVD disks to a drive, most of which are about 10 years old. Took me about 10 days and 1.5TB of space. I just copied data as it was the quickest and doesn't lose any data. Drive may complain and require change of a DVD region, but once they are copied, computer doesn't care anymore. Glad this part is over now.&lt;/p&gt;
+&lt;p&gt;Some of them needed cleaning, but I really had problems only with three, two of which remains not copied. As it happens it is also one of those on which I can find no visible scratch whatsoever. It used to work, because I've seen it. It does make you wonder what life span of disks really is, even when they were professionally produced. If you have any, I heartily recommend making a backup of them on some other medium. Unless of course they themselves are a secondary backup.&lt;/p&gt;
+&lt;p&gt;Flipping disks regularly for 10 days does make you notice their &lt;a href="https://en.wikipedia.org/wiki/Keep_case"&gt;cases&lt;/a&gt;, especially hubs that keep disks in place with varying degrees of zeal. It is astonishing how many designs have been used over years and how few of them are actually pleasant to use.&lt;/p&gt;
+&lt;p&gt;Crown of teeth is probably the worst. Like a pitbull unwilling to release a disk until it is visibly bended or a tooth broken. Unless case is made of hard plastic there is really no excuse for using this design. Or any other "pluck" hubs.&lt;/p&gt;
+&lt;p&gt;Thank god there are patents (as there always are) to prevent everyone converging to those few "push-to-release" that are actually nice to use. How could I after all value my life appropriately without it being spiced with needless hassle.&lt;/p&gt;
+&lt;p&gt;At some point I intend to process them into a different, smaller formats that require less space and are easier to (re)use. I am not in a hurry as this step still seems laborious and may also result in some content being lost. I am also thinking of making an additional copy together with file hashes so I could, in principle, recover if any of files gets corrupted.&lt;/p&gt;
+&lt;p&gt;Next: processing our CD collection.&lt;/p&gt;</summary><category term="backup"></category><category term="dvd"></category><category term="data"></category><category term="movies"></category><category term="ownership"></category></entry><entry><title>Long vacations</title><link href="http://markos.gaivo.net/articles/long-vacations.html" rel="alternate"></link><updated>2016-10-02T15:37:18+02:00</updated><author><name>markos</name></author><id>tag:markos.gaivo.net,2016-10-02:articles/long-vacations.html</id><summary type="html">&lt;p&gt;I like long vacations and by long I mean those lasting 3 or more weeks. This makes me employable only in Europe which is fine.&lt;/p&gt;
 &lt;p&gt;Two weeks or less do not seem to be enough to rest my mind and certainly are not enough to get to know the country we happen to be visiting. We almost always visit just one at a time and while a month is not enough either, at least you get a sense of scope and size of your ignorance.&lt;/p&gt;
 &lt;p&gt;It occurred to me today that benefits to my employer(s) go beyond me being more productive and creative when properly rested. Most organisations, even dysfunctional ones, can muddle through a two week absence of almost everyone. Some tasks might be delayed a bit or done slightly worse than usually, but few things are generally really time sensitive or can't tolerate a short dip in quality.&lt;/p&gt;
 &lt;p&gt;Longer absences however expose faults and cracks and test the real bus factor of a missing person. They will expose which bits can or are picked up by others and which suffer. Also how much strain team can bear or would need to if that person suddenly left.&lt;/p&gt;
@@ -584,91 +590,4 @@
    (markos.gaivo.net)
   &lt;/li&gt;
  &lt;/ul&gt;
-&lt;/div&gt;</summary><category term="review"></category><category term="book"></category><category term="Books"></category></entry><entry><title>2013 review</title><link href="http://markos.gaivo.net/articles/2013-review.html" rel="alternate"></link><updated>2014-01-01T23:22:00+01:00</updated><author><name>markos</name></author><id>tag:markos.gaivo.net,2014-01-01:articles/2013-review.html</id><summary type="html">&lt;div&gt;
- &lt;p&gt;
-  Happy and healthy new year! May it be better than the last one.
- &lt;/p&gt;
- &lt;p&gt;
-  A year that started with
-  &lt;a href="http://en.wikipedia.org/wiki/Aaron_Swartz"&gt;
-   Aaron Swartz’s
-  &lt;/a&gt;
-  death and ended with
-  &lt;a href="http://en.wikipedia.org/wiki/Nelson_Mandela"&gt;
-   Nelson Mandela’s
-  &lt;/a&gt;
-  never had a chance of being a good one even without Snowden’s revelations and a never-ending supply of bleak news. Alas I promised last year to abstain from commenting on external events to keep annual review posts slashed-wrists risk free.
- &lt;/p&gt;
- &lt;p&gt;
-  In some ways this year for me was a lot like the previous one. I worried about health of my family while continuing being lucky and otherwise happy. Today is two years since I started working at
-  &lt;a href="http://aptivate.org/"&gt;
-   Aptivate
-  &lt;/a&gt;
-  and my enthusiasm hasn’t diminished one iota. So one thing I learned is that I am *not* an incorrigible curmudgeon that can’t stay put.
- &lt;/p&gt;
- &lt;p&gt;
-  I learned a lot, especially from mentoring. It really is a blessing to have a wickedly smart and inquisitive mentee and I can’t recommend the experience enough.
- &lt;/p&gt;
- &lt;p&gt;
-  I also learned to dive, which will not be a serious hobby but is a convenient skill to have. Visit to
-  &lt;a href="http://en.wikipedia.org/wiki/Socotra"&gt;
-   Socotra
-  &lt;/a&gt;
-  sadly won’t happen and neither will I dive in south France, but who knows what this year will bring.
- &lt;/p&gt;
- &lt;p&gt;
-  What has worked and what not? Monthly reminders of my plans worked fine. I mostly ignored them (plans, not reminders), but at least I was doing this consciously and the frequency was right too so I’ll keep doing them this year. And it’s not like my plans changed only because of my fickleness. Mid-year killing of Google Reader unexpectedly made me busy with search for alternatives and writing exporter for my data in time. I didn’t have time to write a more suitable interface for querying and displaying said data and probably won’t this year either.
- &lt;/p&gt;
- &lt;p&gt;
-  List of possible and unfinished projects is still liberating. With added dates of edits it also documents development of my priorities and I don’t mind that I don’t do most of it as long as I do some (which I did).
- &lt;/p&gt;
- &lt;p&gt;
-  Digital sabbath also remains a good idea. I haven’t written the overview of books I read in 2013 yet, but I did compare dates on which I finished a book with
-  &lt;a href="https://github.com/samastur"&gt;
-   my Github history
-  &lt;/a&gt;
-  and it is obvious that I can either read books or code in my free time, but not both unless I actually reserve time for it.
- &lt;/p&gt;
- &lt;p&gt;
-  Another thing that proved itself is the importance of continuity of work. Small everyday steps have bigger effect than occasional sprints and they work better when I have a good to-do list which I didn’t always have.
- &lt;/p&gt;
- &lt;p&gt;
-  I made an experiment this summer when I spent a day a week working on non-Aptivate project to learn and refresh my knowledge of Javascript tools and techniques and to see what to expect if I spent a day a week on personal projects. It didn’t work as well as I hoped. Day a week + a few hours on other days certainly moves things forward, but it is not a particularly satisfying experience for anyone involved and likely not sustainable either.
- &lt;/p&gt;
- &lt;p&gt;
-  What I think would work better (for me) is to combine those off-days together into continuous chunks (say a week every 5 weeks or 2 every 10) for concentrated development of more complex parts of my projects and use those spare daily hours in-between for polishing and infrastructure. Painful side of this is that it reveals how little time I would actually have even if I had noticeably more of it. I am not sure yet what if anything to do with this.
- &lt;/p&gt;
- &lt;p&gt;
-  This realisation also led to a painful acceptance of
-  &lt;a href="https://twitter.com/trepca"&gt;
-   Sebastjan
-  &lt;/a&gt;
-  ’s observation that being too busy is simply a function of not pruning ambitions enough. So in 2014 I plan to read less. Who knows how many but I expect noticeably fewer than 20 books.
- &lt;/p&gt;
- &lt;p&gt;
-  I will also not work on open data projects except maybe participating on hack days (if there will be any). To be honest I haven’t done much anyway, but I still wasted time and energy worrying about it.
- &lt;/p&gt;
- &lt;p&gt;
-  Instead of building tools like
-  &lt;a href="https://github.com/samastur/mjp"&gt;
-   mjp
-  &lt;/a&gt;
-  or
-  &lt;a href="https://pypi.python.org/pypi/image-diet"&gt;
-   image-diet
-  &lt;/a&gt;
-  I intend to be more egoistical and work on projects I talked about for years, but never came around developing.  Current projects will likely receive only bug fixes.
- &lt;/p&gt;
- &lt;p&gt;
-  Any personal Python software project that will start in 2014 will be written in Python3. Clearly there is no better way to become proficient in it. Actually I expect to start only one project after I finish my current one.
- &lt;/p&gt;
- &lt;p&gt;
-  I’ve been writing development journal since October and it is a bit early to say how it is going. I think it is providing insight to what I actually do, but at the same time I am still learning what to record and how. Will see what this year brings.
- &lt;/p&gt;
- &lt;p&gt;
-  I’ll be 40 this year which should happen soon enough to not be a challenge and also provides a great motivation to fix my utter failure of this year of getting myself more fit.
- &lt;/p&gt;
- &lt;p&gt;
-  My expectations are not evolved enough to be plans, but I imagine 2014 to be even more development intensive than 2013 was. It seems I won’t be attending many conferences, but I don’t expect to be bored. More than anything I hope it will be great year for my family and friends.
- &lt;/p&gt;
-&lt;/div&gt;</summary><category term="review"></category><category term="annual review"></category><category term="2013"></category></entry></feed>
+&lt;/div&gt;</summary><category term="review"></category><category term="book"></category><category term="Books"></category></entry></feed>
