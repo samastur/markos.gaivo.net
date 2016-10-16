@@ -6,7 +6,7 @@ Slug: dvd-backups
 Status: published
 Tags: backup, dvd, data, movies, ownership
 
-Yesterday I finished backing up about 200 DVD disks to a drive, most of which are about 10 years old. Took me about 10 days and 1.5TB of space. I just copied data as it was the quickest and doesn't lose any data. Drive may complain and require change of a DVD region, but once they are copied, computer doesn't care anymore. Glad this part is over now.
+Yesterday I finished backing up about 200 DVD disks to a drive, most of which are about 10 years old. Took me about 10 days and 1.5TB of space. I just copied data as it was the quickest and doesn't lose any information. Drive may complain and require change of a DVD region, but once they are copied, computer doesn't care anymore. Glad this part is over now.
 
 Some of them needed cleaning, but I really had problems only with three, two of which remains not copied. As it happens it is also one of those on which I can find no visible scratch whatsoever. It used to work, because I've seen it. It does make you wonder what life span of disks really is, even when they were professionally produced. If you have any, I heartily recommend making a backup of them on some other medium. Unless of course they themselves are a secondary backup.
 
