@@ -73,6 +73,50 @@ body > footer .mini-logo {display: inline-block;width:97px;height:32px;border:0;
     </nav>
 
         <article class="hentry">
+            <h1 class="entry-title storytitle"><a href="./in-defense-of-a-regular-user.html" rel="bookmark" title="Permalink to In defense of a regular user">In defense of a regular user</a></h1>
+
+            <div class="entry-content post-text">
+                <div>
+ <p>
+  I used to be a part-time system administrator and have a few colleagues who still are. So I’m fairly used to regular complaints about (l)users and a delusional sense of self-importance. Yet, it’s still a rare week in which I’d read a bunch of articles (with comments) like
+  <a href="http://www.misterorange.com/2005/12/flipside-8-end-user-troubleshooting.html">
+   this one
+  </a>
+  and had so many discussions about what and how should our users behave.
+ </p>
+ <p>
+  I think most comments were simply rubbish. You have no reason to complain as long as they are polite and not intentionally obstructive.
+ </p>
+ <p>
+  The thing I always admired about
+  <a href="http://www.mobitel.si">
+   Mobitel
+  </a>
+  is the way they treat their customers. It doesn’t matter how little do they know about phones, phone plans or even their own needs and desires, you can be sure that Mobitel’s personnel will take the time and energy necessary to explain, show and resolve whatever is needed. They certainly don’t expect me to come loaded with information and spend more of my time to save theirs.
+ </p>
+ <p>
+  I know next to nothing about plumbing and I’m sure it’s a fact well known and obvious to every plumber I’ve met. But did they ever treat me like an idiot? No, because it’s understood that they have to know so I don’t have to. I simply can’t know everything and wouldn’t want to, because there are other, more important things that I should be doing. I might help with my answers to their questions, but it’s not really expected of me to do anything more than to show the problem.
+ </p>
+ <p>
+  I understand frustrations when dealing with too many problems and too little time. I also know that there’s always a small percentage of users who simply are assholes. I don’t believe it’s ever acceptable to be impolite, but I understand it sometimes happens.
+ </p>
+ <p>
+  Life can be hard, but it doesn’t change the fact that our task is to provide a service, to serve our users and not the other way around. And if we have a problem doing this, it’s us who must resolve it not them. In fact, without them  “pests” there’s little need for what we provide. After all a perfectly configured and RFC compliant mail server is just a box of toxic waste without someone sending emails through it.
+ </p>
+ <p>
+  Some professions get this. As Woody Allen rightly pointed out, it really is a bitch to get a plumber (on Sunday).
+ </p>
+</div>
+            </div><!-- /.entry-content -->
+
+            <footer class="post-metadata">
+                <ul>
+                    <li>Published on <time datetime="2005-12-18T20:14:00+01:00">Sun 18 December 2005</time> </li>
+                    <li><a href="./in-defense-of-a-regular-user.html">Add your comment</a></li>
+                </ul>
+            </footer>
+        </article>
+        <article class="hentry">
             <h1 class="entry-title storytitle"><a href="./beloved-python-filter.html" rel="bookmark" title="Permalink to Beloved python filter">Beloved python filter</a></h1>
 
             <div class="entry-content post-text">
@@ -137,77 +181,6 @@ body > footer .mini-logo {display: inline-block;width:97px;height:32px;border:0;
                 <ul>
                     <li>Published on <time datetime="2005-12-17T10:32:00+01:00">Sat 17 December 2005</time> </li>
                     <li><a href="./plone-and-dojo.html">Add your comment</a></li>
-                </ul>
-            </footer>
-        </article>
-        <article class="hentry">
-            <h1 class="entry-title storytitle"><a href="./multitasking-with-post-requests-part-ii.html" rel="bookmark" title="Permalink to Multitasking with POST requests - part II">Multitasking with POST requests - part II</a></h1>
-
-            <div class="entry-content post-text">
-                <div>
- <p>
-  Yesterday I wrote about my wish of making background
-  <em>
-   POST
-  </em>
-  requests that don’t get accidentally canceled. I wasn’t specific enough. You can create background
-  <em>
-   POST
-  </em>
-  requests just fine with
-  <em>
-   XMLHttpRequest
-  </em>
-  , but you can’t use such requests for file uploads, which is what I want.
- </p>
- <p>
-  My first try was to post
-  <em>
-   form
-  </em>
-  to
-  <em>
-   iframe
-  </em>
-  in a different window. This didn’t work because browsers pay attention to source of request. Activating new request in source window immediately cancels previous unfinished one.
- </p>
- <p>
-  A better idea was provided by always helpful
-  <a href="http://dojotoolkit.org/" title="Dojo toolkit">
-   dojo
-  </a>
-  developers. Clone
-  <em>
-   form
-  </em>
-  to progress window and submit it from there. This one works great in Firefox, but hardly anywhere else. It certainly doesn’t work in IE, since IE is very picky about what you do with nodes created with
-  <em>
-   cloneNode
-  </em>
-  and you can’t clone form yourself, since it’s not possible to set the value of file upload elements.
- </p>
- <p>
-  Is this game over for unobtrusive file upload?
- </p>
- <p>
-  Not yet. There are still at least two posibilities, both with downsides, but one of them definitely works. You can open file upload form in new window and change that window to progress bar. It works and I use it occasionally, but it’s not nice if you care about accessibility. It’s something users can do now, if they want, by opening upload page in new tab or window.
- </p>
- <p>
-  The other, yet untried, possible solution would be to avoid cloning. Just rip the form out from original page, move it to status one and submit form there. Obvious problems with this one are that users lose information about what they’re uploading and that it can look confusing if not executed well.
- </p>
- <p>
-  I’ll try it anyway and will let you know how it goes.
- </p>
- <p>
-  Update: IE also dislikes ripping and moving.
- </p>
-</div>
-            </div><!-- /.entry-content -->
-
-            <footer class="post-metadata">
-                <ul>
-                    <li>Published on <time datetime="2005-12-16T13:55:00+01:00">Fri 16 December 2005</time> </li>
-                    <li><a href="./multitasking-with-post-requests-part-ii.html">Add your comment</a></li>
                 </ul>
             </footer>
         </article>

@@ -73,6 +73,77 @@ body > footer .mini-logo {display: inline-block;width:97px;height:32px;border:0;
     </nav>
 
         <article class="hentry">
+            <h1 class="entry-title storytitle"><a href="./impostor-for-django.html" rel="bookmark" title="Permalink to Impostor for Django">Impostor for Django</a></h1>
+
+            <div class="entry-content post-text">
+                <div>
+ <p>
+  A class of bugs I really dislike debugging are those that depend on specific data and affect only a very small subset or just one user. Things could sometimes be fixed so much faster if you could just log in as him to see what is happening. Sometimes this is exactly what we do
+  <strong>
+   with his explicit permission
+  </strong>
+  , but I really dislike asking for passwords.
+ </p>
+ <p>
+  First it inconveniences user. He has to come up with either a new good password or go through two password changes. Second it implicitly teaches wrong behavior. Passwords simply should never be revealed.
+ </p>
+ <p>
+  That is why I wrote
+  <a href="https://github.com/samastur/Impostor" title="Impostor's home at GitHub">
+   Impostor
+  </a>
+  , a Django app that allows staff members (and only them) to login with their own credentials as a different user. Idea is not mine (kudos goes to
+  <a href="http://nedbatchelder.com/blog/201008/django_superuser_login_trapdoor.html" title="Ned's post where idea comes from">
+   Ned Batchelder
+  </a>
+  ), but I like it. To discourage abuse every such authentication is recorded and can be seen in Django admin interface, but can not be altered from there.
+ </p>
+ <p>
+  So how does it work in practice?
+ </p>
+ <p>
+  Lets say that I would need to log in as user
+  <em>
+   fry
+  </em>
+  . To do this I would enter as my username
+  <em>
+   markos as fry,
+  </em>
+  provide my password and voila, I’m him. This has been recorded so anyone with access to ImpostorLog part in admin can see all such cases, mine included.
+ </p>
+ <p>
+  Impostor may also ease your development by removing need to remember different passwords for testing. This is usually not a problem unless you happen to develop with fake data but real accounts. Like me.
+ </p>
+ <p>
+  And again for morally challenged out there:
+  <strong>
+   you should never login as somebody else without his explicit permission
+  </strong>
+  .
+ </p>
+ <p>
+  <strong>
+   Update
+  </strong>
+  : Thanks Ross for reminding me where idea came from. I updated text accordingly.
+ </p>
+ <div class="zemanta-pixie">
+  <a class="zemanta-pixie-a" href="http://www.zemanta.com/" title="Enhanced by Zemanta">
+   <img alt="Enhanced by Zemanta" class="zemanta-pixie-img" src="http://img.zemanta.com/zemified_e.png?x-id=db7c9f53-423e-4b56-bbe3-b717fde54c16"/>
+  </a>
+ </div>
+</div>
+            </div><!-- /.entry-content -->
+
+            <footer class="post-metadata">
+                <ul>
+                    <li>Published on <time datetime="2011-02-22T20:11:00+01:00">Tue 22 February 2011</time> </li>
+                    <li><a href="./impostor-for-django.html">Add your comment</a></li>
+                </ul>
+            </footer>
+        </article>
+        <article class="hentry">
             <h1 class="entry-title storytitle"><a href="./books-i-read-in-2010.html" rel="bookmark" title="Permalink to Books I read in 2010">Books I read in 2010</a></h1>
 
             <div class="entry-content post-text">
@@ -365,81 +436,6 @@ body > footer .mini-logo {display: inline-block;width:97px;height:32px;border:0;
                 <ul>
                     <li>Published on <time datetime="2010-12-25T11:46:00+01:00">Sat 25 December 2010</time> </li>
                     <li><a href="./2010-review.html">Add your comment</a></li>
-                </ul>
-            </footer>
-        </article>
-        <article class="hentry">
-            <h1 class="entry-title storytitle"><a href="./reading-and-travels.html" rel="bookmark" title="Permalink to Reading and travels">Reading and travels</a></h1>
-
-            <div class="entry-content post-text">
-                <div>
- <p>
-  There is never enough time for hobbies, but I really wish I could read and travel more. I
-  <a href="sabbatical.html">
-   plan
-  </a>
-  to do both, but that in itself poses a problem.
- </p>
- <p>
-  It is hard enough to take the right books and enough of them on a month long trip, but being on the road for months if not years…Well, it might not break proverbial camel?s back, but it would probably break mine.
- </p>
- <p>
-  It would be easier if my relationship to books was more rational. I love physical books and I tend to read those I want to keep so I can reread whole or just parts of them later. No computer interface comes close to pleasure I get from browsing my library. ?Every copy I have can be lend and many are.
- </p>
- <p>
-  I also buy electronic computer related ?books, which I used to read on Nokia tablet, but have recently switched to an iPad. I buy electronic versions mainly because there is no reason to kill a tree for content that gets obsolete so quickly. Reading on iPad is not fun, but that?s all right since I am not reading those books to have it.
- </p>
- <p>
-  I can?t tell what bothers me, but I suspect it is either the glowing screen, its low pixel density or both. But highlighting passages of text, multiple bookmarks and having a ton of books with you at the same time has its benefits too. Especially if you are a student with tons of textbooks to handle (which I am not). iPad also has a great ratio between what you can do with it and its physicality ? you really appreciate small size and weight after you?ve carried your backpack for days).
- </p>
- <p>
-  I also tested Kindle and while reading on it indeed feels nicer (so maybe glow is to blame), it brings its own set of problems with it. I wanted to read a book about the ?
-  <a class="zem_slink" href="http://www.amazon.com/4-Hour-Workweek-Escape-Live-Anywhere/dp/0307353133%3FSubscriptionId%3D0G81C5DAZ03ZR9WH9X82%26tag%3Dzemanta-20%26linkCode%3Dxm2%26camp%3D2025%26creative%3D165953%26creativeASIN%3D0307353133" rel="amazon" title="The 4-Hour Workweek: Escape 9-5, Live Anywhere, and Join the New Rich">
-   4 hour work week
-  </a>
-  , which seemed interesting enough to read, but not something I want to own. ?Yet Amazon?s DRM infested Kindle shops are territorially segregating me, even though I could get a physical copy shipped anywhere without problems. Knowing why that is doesn?t make it tolerable.
- </p>
- <p>
-  I could live with such e-crap if buying paper and electronic copies together would not cost significantly more than just buying one. Say 3 to 5 dollars. However it does ?and imagining why
-  <sup>
-   [
-   <a href="#book-1">
-    1
-   </a>
-   ]
-  </sup>
-  again draws no sympathy from me.
- </p>
- <p>
-  So….What do I want?
- </p>
- <p>
-  I?m not sure. Paper wouldn?t get us far. I would like to take less silicon with us, but two bookworms can?t be fed on one book. Maybe when we are far enough with our plans, a company like
-  <a class="zem_slink" href="http://www.pixelqi.com/" rel="homepage" title="Pixel Qi">
-   Pixel Qi
-  </a>
-  will perfected their screens to the point where we can get best of iPad and Kindle in one device and Amazon will start selling accessible bundles. I also wish my whole wish list would be accessible in electronic form, not less than half of it.
- </p>
- <p>
-  However I look at it, compromises will have to be made which means gadgets will eventually get bought. Hopefully by that time I?ll actually like reading on them.
- </p>
- <ol style="margin-top:3em">
-  <li id="book-1">
-   You could sell a copy that you got discounted and with that reduce publisher?s profit. ?I?m willing to ?bet though that ?those lost 5 dollars amount to more money than such paranoia saves.
-  </li>
- </ol>
- <div class="zemanta-pixie" style="margin-top: 10px; height: 15px;">
-  <a class="zemanta-pixie-a" href="http://www.zemanta.com/" title="Enhanced by Zemanta">
-   <img alt="Enhanced by Zemanta" class="zemanta-pixie-img" src="http://img.zemanta.com/zemified_e.png?x-id=c8c4ed43-d21a-4a47-8a55-c8ca7e27305e" style="border: none; float: right;"/>
-  </a>
- </div>
-</div>
-            </div><!-- /.entry-content -->
-
-            <footer class="post-metadata">
-                <ul>
-                    <li>Published on <time datetime="2010-10-06T12:39:00+02:00">Wed 06 October 2010</time> </li>
-                    <li><a href="./reading-and-travels.html">Add your comment</a></li>
                 </ul>
             </footer>
         </article>

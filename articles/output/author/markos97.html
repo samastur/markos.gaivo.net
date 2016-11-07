@@ -74,6 +74,82 @@ body > footer .mini-logo {display: inline-block;width:97px;height:32px;border:0;
     </nav>
 
         <article class="hentry">
+            <h1 class="entry-title storytitle"><a href="../speed-test-of-pyrss2gen-kid-and-atomixlib.html" rel="bookmark" title="Permalink to Speed test of PyRSS2Gen, kid and atomixlib">Speed test of PyRSS2Gen, kid and atomixlib</a></h1>
+
+            <div class="entry-content post-text">
+                <div>
+ <p>
+  I’ve spent this evening building RSS2 and Atom feeds with
+  <a href="http://www.dalkescientific.com/Python/PyRSS2Gen.html">
+   PyRSS2Gen
+  </a>
+  ,
+  <a href="http://kid.lesscode.org/index.html">
+   kid
+  </a>
+  and
+  <a href="http://www.defuze.org/oss/atomixlib/">
+   atomixlib
+  </a>
+  , as
+  <a href="searching-for-atom-feed-generator.html">
+   proposed
+  </a>
+  by helpful people few days ago.
+ </p>
+ <p>
+  We’d like to add feeds promiscuously to our service (right now we have exactly one). But before we can decide how to tackle this, we need to know how fast we can generate a feed on average.
+ </p>
+ <p>
+  <strong>
+   DISCLAIMER: I tried to generate feeds with same data using what seemed a reasonable python code to do so, but I didn’t try to save every millisecond as I only cared about crude speed approximations. I have no problem believing that someone else might get completely different results. No serious statistical analysis has been made and rigorous scientific approach has been almost completely absent. Better make your own tests, if speed (or anything else really) is important to you. But if dubious numbers delight you, then please continue.
+  </strong>
+ </p>
+ <p>
+  So, here are my results. Time to generate a feed with 10 entries on 1GHz G4 Powerbook:
+ </p>
+ <ul>
+  <li>
+   with PyRSS2Gen somewhere around 70ms
+  </li>
+  <li>
+   with atomixlib around 120-140ms
+  </li>
+  <li>
+   and with kid around 30-35ms
+  </li>
+ </ul>
+ <p>
+  In other words, you can generate between 8 and 30 feeds per second on my notebook and (I guess) 2-3x as many on a modern server. This is more than enough for most cases, but I’m afraid it probably won’t be enough for us. Which means either producing feeds by gluing strings together or having a more intelligent approach than building a new one on every request.
+ </p>
+ <p>
+  As a side note, I found all three packages easy to work with.
+  <br/>
+  <em>
+   <br/>
+   Update: Sylvain has released atomixlib 0.3 which makes it even easier to create atom feeds and brings also significant speed improvements. On my computer it takes now around 60-65ms to build a feed.
+  </em>
+ </p>
+ <p>
+  Another update: I made a couple of quick tests with mixed results on fairly new Opteron server. PyRSS2Gen was actually slower with 80-85ms and I have no idea why. kid was blazing fast with times between 8 and 9ms.  Definitely good enough.
+ </p>
+ <p>
+  But I couldn’t get atomixlib to work, because 4Suite failed to build, so it will have to wait until I can figure out why it chokes on a perfectly legitimate XSLT.
+ </p>
+ <p>
+  Update 3: 4Suite has been promptly fixed (thanks!) and atomixlib 0.3 takes now 18-19ms. I believe this is an excellent time.
+ </p>
+</div>
+            </div><!-- /.entry-content -->
+
+            <footer class="post-metadata">
+                <ul>
+                    <li>Published on <time datetime="2005-11-05T02:04:00+01:00">Sat 05 November 2005</time> </li>
+                    <li><a href="../speed-test-of-pyrss2gen-kid-and-atomixlib.html">Add your comment</a></li>
+                </ul>
+            </footer>
+        </article>
+        <article class="hentry">
             <h1 class="entry-title storytitle"><a href="../community-development.html" rel="bookmark" title="Permalink to Community development">Community development</a></h1>
 
             <div class="entry-content post-text">
@@ -140,27 +216,6 @@ body > footer .mini-logo {display: inline-block;width:97px;height:32px;border:0;
                 <ul>
                     <li>Published on <time datetime="2005-11-01T02:32:00+01:00">Tue 01 November 2005</time> </li>
                     <li><a href="../searching-for-atom-feed-generator.html">Add your comment</a></li>
-                </ul>
-            </footer>
-        </article>
-        <article class="hentry">
-            <h1 class="entry-title storytitle"><a href="../offline.html" rel="bookmark" title="Permalink to Offline">Offline</a></h1>
-
-            <div class="entry-content post-text">
-                <div>
- <p>
-  I’ll be mostly offline at least until the middle of next week. Elektro Ljubljana was fixing something on Saturday and we only got our electricity back. ADSL is out and since Monday and Tuesday are holidays, I can only hope that Wednesday will bring good news.
- </p>
- <p>
-  It’s a bit tricky to do Internet related development without, well, Internet.
- </p>
-</div>
-            </div><!-- /.entry-content -->
-
-            <footer class="post-metadata">
-                <ul>
-                    <li>Published on <time datetime="2005-10-30T20:58:00+01:00">Sun 30 October 2005</time> </li>
-                    <li><a href="../offline.html">Add your comment</a></li>
                 </ul>
             </footer>
         </article>

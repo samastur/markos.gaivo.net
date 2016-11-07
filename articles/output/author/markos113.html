@@ -74,6 +74,48 @@ body > footer .mini-logo {display: inline-block;width:97px;height:32px;border:0;
     </nav>
 
         <article class="hentry">
+            <h1 class="entry-title storytitle"><a href="../our-stuff-sucks.html" rel="bookmark" title="Permalink to Our stuff sucks">Our stuff sucks</a></h1>
+
+            <div class="entry-content post-text">
+                <div>
+ <p>
+  When I started my company with a friend two years ago, I had many plans for it and myself. One of them was to make interesting, innovative stuff. Hard problems others weren’t tackling or we thought we could do better.
+ </p>
+ <p>
+  A year and a half ago we started to work on what is slowly, but clearly becoming Marela (which should see light of the day this autumn). It’s interesting how you start working on one clear idea and with each week that passes, your idea and your view change a bit until after a while, they are very much different from what you set out to do. Same passions, same goals, but quite a different result.
+ </p>
+ <p>
+  What really changed in last year is what I personally want to do. I’d still like to do things that nobody has done yet, but more important now is to take ideas from others and try to make them more accessible, easier to comprehend and use. I’ve noticed that most of my innovating these days, as much as it happens, is directed toward these goals.
+ </p>
+ <p>
+  Lately I’ve been having awful time using stuff made by Apple. Ipod refuses to wake up from sleep without reboot, Powerbook added broken Superdrive to random freezes and new iMac seems to find ever new ways to annoy me. So I’ve spent a good amount of time last week to recover pictures from last vacation and fix other random iPhoto quirks and while I was doing that, a wonderful thing happened.
+ </p>
+ <p>
+  Something shifted in my head and for a while I could see clearly how computers look to people, who unlike me haven’t spent a better part of two decades behind a keyboard, but use them with the same understanding and confidence as I can use lathe.
+ </p>
+ <p>
+  God, it’s awful how much crap we produced and still produce. I’ve never seen so much wisdom in Jacob Nielsen’s words as in those moments. Gray backgrounds with blue links and black text might be dull, but you certainly don’t have to guess a lot on what to click after you’ve seen one such page.
+ </p>
+ <p>
+  Luckily the insight isn’t completely gone, but I wish I’d keep more of it. I’m not saying we should abandon everything and return to bleak past, especially since the problem is self correcting one, but I do feel impelled to make my work more accessible to more people.
+ </p>
+ <p>
+  In a way, I think there’s a dilemma of who you want to reach. I believe younger generations don’t and won’t have problems with most of the things designers and programmers come up since computers and technology have always been a large part of their lives. However, in general, it’s a bigger problem for those, who haven’t picked up idioms of computer user interfaces young enough.
+ </p>
+ <p>
+  Personally, I think making things easier for later makes it easier for former too and therefore a reasonable goal to pursue.
+ </p>
+</div>
+            </div><!-- /.entry-content -->
+
+            <footer class="post-metadata">
+                <ul>
+                    <li>Published on <time datetime="2005-08-05T20:35:00+02:00">Fri 05 August 2005</time> </li>
+                    <li><a href="../our-stuff-sucks.html">Add your comment</a></li>
+                </ul>
+            </footer>
+        </article>
+        <article class="hentry">
             <h1 class="entry-title storytitle"><a href="../back-from-vacation.html" rel="bookmark" title="Permalink to Back from vacation">Back from vacation</a></h1>
 
             <div class="entry-content post-text">
@@ -130,87 +172,6 @@ body > footer .mini-logo {display: inline-block;width:97px;height:32px;border:0;
                 <ul>
                     <li>Published on <time datetime="2005-06-20T23:07:00+02:00">Mon 20 June 2005</time> </li>
                     <li><a href="../accessibility-after-media.html">Add your comment</a></li>
-                </ul>
-            </footer>
-        </article>
-        <article class="hentry">
-            <h1 class="entry-title storytitle"><a href="../javascript-accessbility-woes-part-1.html" rel="bookmark" title="Permalink to Javascript accessibility woes - part 1">Javascript accessibility woes - part 1</a></h1>
-
-            <div class="entry-content post-text">
-                <div>
- <p>
-  It’s been really great talking to
-  <a href="http://www.andybudd.com/">
-   Andy
-  </a>
-  ,
-  <a href="http://www.adactio.com">
-   Jeremy
-  </a>
-  ,
-  <a href="http://www.kryogenix.org/">
-   Stuart
-  </a>
-  and
-  <a href="http://www.boxofchocolates.ca/">
-   Derek
-  </a>
-  at javascript get-together and they certainly convinced me that I could and should do more to make my web applications accessible. However after a few days of thinking, I still have issues that seem to lack a good solution.
- </p>
- <p>
-  First of them is
-  <em>
-   window.onload
-  </em>
-  .  Ppk already
-  <a href="http://www.quirksmode.org/blog/archives/2005/06/11_june_london.html">
-   explained
-  </a>
-  the problem quite well. There’s also a workaround, which I admit I’m using right now, and that is to have an inline event handler on body tag.  There are only two problems with this approach:
- </p>
- <ol>
-  <li>
-   inline event handlers are even more despised than inline CSS styles
-  </li>
-  <li>
-   we are mixing XHTML/HTML with Javascript, which is a no-no as well
-  </li>
-  <li>
-   it doesn’t really work if you don’t have at least a simple function to check and handle, if external javascript code has been loaded yet
-  </li>
- </ol>
- <p>
-  Personally, I think all points make a lot of sense when not taken to extreme. I sincerely doubt that webpage/application suffers a lot, if this is the only inline event handler in the whole document and inlined code in head is kept to minimum. We often use CSS to add behavior (a:hover), where it just makes sense and I think we should be able to use inline Javascript on occasions as well.
- </p>
- <p>
-  In my case, I’m living in a country, where majority of users are still on a dial-up and most of them will stay there for a while. Since parts of my application can fetch 20 or more 5-10K sized images on a single page, I don’t want to force users to wait 20 seconds or more before application starts to behave reasonably. I also can’t rely on x/html layer behavior because of framestack javascript technique and their problems, about which I plan to write more in the following few days.
- </p>
- <p>
-  The only other alternative I see right now is to hide UI by default and display it using Javascript, which is hardly an improvement. If anything, it’s a step back.
- </p>
- <p>
-  I guess I’m in this mess because I didn’t build an html version first and upgraded it with Javascript. Why this happened and how come I don’t think it was necessarily a bad thing, is a topic for another day. But it certainly left me with a puzzle to solve.
- </p>
- <p>
-  So, any ideas, apart from obvious one of having a working html version with added javascript?
- </p>
- <p>
-  <strong>
-   Update:
-  </strong>
-  Ppk
-  <a href="http://www.quirksmode.org/blog/archives/2005/06/you_shouldve_be_1.html">
-   does
-  </a>
-  .
- </p>
-</div>
-            </div><!-- /.entry-content -->
-
-            <footer class="post-metadata">
-                <ul>
-                    <li>Published on <time datetime="2005-06-14T19:44:00+02:00">Tue 14 June 2005</time> </li>
-                    <li><a href="../javascript-accessbility-woes-part-1.html">Add your comment</a></li>
                 </ul>
             </footer>
         </article>

@@ -73,6 +73,41 @@ body > footer .mini-logo {display: inline-block;width:97px;height:32px;border:0;
     </nav>
 
         <article class="hentry">
+            <h1 class="entry-title storytitle"><a href="./simple-list-extensions.html" rel="bookmark" title="Permalink to Simple List Extensions">Simple List Extensions</a></h1>
+
+            <div class="entry-content post-text">
+                <div>
+ <p>
+  I’m not sure how I missed the original announcement of Simple List Extensions (SLE) for feeds, but better late than never.
+ </p>
+ <p>
+  SLE is a very simple specification to extend feeds syntax to better support some common scenarios that weren’t covered with original specifications of RSS and Atom. Previously there was no way to tell feed readers/aggregators to display feed items in fixed order (e.g. feed with most popular stories of the day) or delete items not present in feed anymore (e.g. auction site feed with items matching a query).
+ </p>
+ <p>
+  SLE also adds support for grouping and filtering of feed items, which might not be very useful with you average 10-item feed, but will be, if feeds will indeed become a general mechanism for transporting data and not only a tool to highlight most recent bunch of updates. In any case, you can read a very short
+  <a href="http://msdn.microsoft.com/xml/rss/sle/">
+   specification
+  </a>
+  or visit
+  <a href="http://blogs.msdn.com/ie/archive/2006/03/30/565222.aspx">
+   latest announcement
+  </a>
+  which includes more explanatory links to why and how they can and already are used.
+ </p>
+ <p>
+  By the way, I’m not sure if any reader apart from beta of IE7 already supports SLE, but I expect that most of them will soon. There’s little reason not to.
+ </p>
+</div>
+            </div><!-- /.entry-content -->
+
+            <footer class="post-metadata">
+                <ul>
+                    <li>Published on <time datetime="2006-04-09T14:05:00+02:00">Sun 09 April 2006</time> </li>
+                    <li><a href="./simple-list-extensions.html">Add your comment</a></li>
+                </ul>
+            </footer>
+        </article>
+        <article class="hentry">
             <h1 class="entry-title storytitle"><a href="./javascript-enabled-spiders.html" rel="bookmark" title="Permalink to Javascript enabled spiders">Javascript enabled spiders</a></h1>
 
             <div class="entry-content post-text">
@@ -142,55 +177,6 @@ body > footer .mini-logo {display: inline-block;width:97px;height:32px;border:0;
                 <ul>
                     <li>Published on <time datetime="2006-04-04T20:38:00+02:00">Tue 04 April 2006</time> </li>
                     <li><a href="./mobile-phones-shopping.html">Add your comment</a></li>
-                </ul>
-            </footer>
-        </article>
-        <article class="hentry">
-            <h1 class="entry-title storytitle"><a href="./updated-sgmllib.html" rel="bookmark" title="Permalink to Updated sgmllib">Updated sgmllib</a></h1>
-
-            <div class="entry-content post-text">
-                <div>
- <p>
-  I
-  <a href="sgmllibpy-parser-woes.html">
-   wrote
-  </a>
-  about a sgmllib problem a few days ago. I still may be a dolt and my code certainly needed fixing, but the bug remained nevertheless.
- </p>
- <p>
-  Hence I’ve made some small changes to sgmllib that fix problems I’ve had. New version, which passes all unit tests included in Python distribution, can be found
-  <a href="http://markos.gaivo.net/examples/sgmllib/sgmllib.py" title="fixed sgmllib.py">
-   here
-  </a>
-  and I’d really appreciate if users of sgmllib could give it a go (that includes users of htmllib and BeautifulSoup).
- </p>
- <p>
-  <strong>
-   Update:
-  </strong>
-  As suggested I’ve added an
-  <a href="http://markos.gaivo.net/examples/sgmllib/test_sgmllib.py" title="Test cases for new library">
-   updated version
-  </a>
-  of test_sgmllib.py, which includes an example where the old library fails and new one doesn’t.
- </p>
- <p>
-  <strong>
-   Update 2
-  </strong>
-  : It
-  <a href="sgmllibpy-parser-woes.html">
-   seems
-  </a>
-  this is valid, even required SGML behavior.
- </p>
-</div>
-            </div><!-- /.entry-content -->
-
-            <footer class="post-metadata">
-                <ul>
-                    <li>Published on <time datetime="2006-04-01T15:05:00+02:00">Sat 01 April 2006</time> </li>
-                    <li><a href="./updated-sgmllib.html">Add your comment</a></li>
                 </ul>
             </footer>
         </article>

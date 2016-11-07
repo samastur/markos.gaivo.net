@@ -74,6 +74,26 @@ body > footer .mini-logo {display: inline-block;width:97px;height:32px;border:0;
     </nav>
 
         <article class="hentry">
+            <h1 class="entry-title storytitle"><a href="../conference-programs.html" rel="bookmark" title="Permalink to Conference programs">Conference programs</a></h1>
+
+            <div class="entry-content post-text">
+                <p>We went hiking and exploring north of Spain after this year's <a href="http://http://ep2016.europython.eu/">EuroPython</a>. Predictably this also involved a lot of frustrations with available WiFi connections. Mobile networks often worked better, but far from reliably so. It is amazing to see how poorly most websites and apps still work in such (common) scenarios with rare exception like Gmail Android app. Keeping all our devices powered required significant planning and spare batteries where possible.</p>
+<p>I complained about this before and while it is sad to see how little has changed, this post is not about failing services. It is about web conferences which I believe contribute <strong>a lot</strong> to this sad state of affairs.</p>
+<p>Beyond a talk or two on ServiceWorkers or PouchDB there seems to be little interest from conference organisers to help educate developers on how to develop services that continue to work well when connection is spotty <strong>and</strong> battery low.</p>
+<p>It is certainly not because users wouldn't care. <a href="https://www.youtube.com/watch?v=VC2Hlb22mZM#t=1m05">According to Google</a> there are hundreds of battery apps, downloads of which go into 100+ millions. In my own field work I saw that when given choice mobile users will pick services that work better. By which I mean those that use less bandwidth, work more reliably and are easier on battery. I can only think of very few services that have network effects strong enough to be safe from removal, but even their use can be negatively impacted by users limiting or changing their use of the service.</p>
+<p>My talk proposal on web's energy use has been widely rejected. It happens. But more disappointingly I failed to find other talks on this or similar topics. Every conference has a right to decide which topics it finds important, but when one is ignored by all of them, it may be correct to conclude that it simply does not matter to community.</p>
+<p>If that is true and web developers expect to punt this problem to OS (Android and iOS), then that is a mistake. First, because <strong>this is our job</strong> that nobody else can do equally well. And second, because operating systems are getting better at pointing out problematic apps to users who are willing to remove them.</p>
+<p>My hunch is that most developers are simply not aware of these issues. A good conference program for me is not just about what is currently pertinent, but also what should be. Maybe we could have fewer talks on web game development to find space for topics that affect billions of people every day.</p>
+            </div><!-- /.entry-content -->
+
+            <footer class="post-metadata">
+                <ul>
+                    <li>Published on <time datetime="2016-08-23T09:06:00+02:00">Tue 23 August 2016</time> </li>
+                    <li><a href="../conference-programs.html">Add your comment</a></li>
+                </ul>
+            </footer>
+        </article>
+        <article class="hentry">
             <h1 class="entry-title storytitle"><a href="../windows.html" rel="bookmark" title="Permalink to Windows">Windows</a></h1>
 
             <div class="entry-content post-text">
@@ -114,24 +134,6 @@ body > footer .mini-logo {display: inline-block;width:97px;height:32px;border:0;
                 <ul>
                     <li>Published on <time datetime="2016-06-27T18:45:31+02:00">Mon 27 June 2016</time> </li>
                     <li><a href="../web-skills.html">Add your comment</a></li>
-                </ul>
-            </footer>
-        </article>
-        <article class="hentry">
-            <h1 class="entry-title storytitle"><a href="../image-diet2-and-pyimagediet.html" rel="bookmark" title="Permalink to image-diet2 and pyimagediet">image-diet2 and pyimagediet</a></h1>
-
-            <div class="entry-content post-text">
-                <p>Couple of years ago I hacked together a small Django app called <a href="http://">image-diet</a> which automatically compresses images processed by Easy Thumbnails as they are uploaded to a website. Its code was atrocious with configuration for external tools baked in, it only worked with <a href="https://github.com/SmileyChris/easy-thumbnails">Easy Thumbnails</a> and Python2 and...I could go on, but it worked and at <a href="http://aptivate.org">Aptivate</a> we have been using it successfully ever since.</p>
-<p>Well, I finally found time and rewrote the whole thing. New version is now called <a href="https://pypi.python.org/pypi/image-diet2">image-diet2</a> because it is completely backwards incompatible and I screwed up versioning of the original one. Mea culpa.</p>
-<p>It's implemented as a Django storage backend augmenting default one, but can easily be added as a mixin to any other so it should work no matter which tool or backend you use to upload files. Supporting new compression tools or changing configuration of existing does not require a new release or poking in virtualenv anymore. It is better <a href="https://travis-ci.org/samastur/image-diet2">tested</a>, <a href="http://image-diet2.readthedocs.org/">documented</a> and is not limited to 2.x branch of Python anymore. You really should give it a try.</p>
-<p>image-diet2 is actually a thin Django wrapper around separately packaged <a href="https://pypi.python.org/pypi/pyimagediet">pyimagediet</a> that actually process files. My hope is that others may find it useful enough to use it on non-Django projects. It also comes with a tool to compress images and generate configuration file tailored to your system. If you can think of anything else that would make integration even easier, then please let me know.</p>
-<p>There are few bits still missing, but functionality is mostly complete. What I plan to do next is to test different configurations to find how well they work and what are their tradeoffs. Prior useful work such as <a href="http://www.css-ig.net/png-tools-overview">this</a> exists, but I'd like tests to be more expansive and in reusable format. They need to be easily replicable by anyone as their versions of processing tools might give different results than mine.</p>
-            </div><!-- /.entry-content -->
-
-            <footer class="post-metadata">
-                <ul>
-                    <li>Published on <time datetime="2016-01-19T21:00:17+01:00">Tue 19 January 2016</time> </li>
-                    <li><a href="../image-diet2-and-pyimagediet.html">Add your comment</a></li>
                 </ul>
             </footer>
         </article>
