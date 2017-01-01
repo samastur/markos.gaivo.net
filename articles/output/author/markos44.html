@@ -74,6 +74,47 @@ body > footer .mini-logo {display: inline-block;width:97px;height:32px;border:0;
     </nav>
 
         <article class="hentry">
+            <h1 class="entry-title storytitle"><a href="../error-logging-and-failed-authentication-attempts.html" rel="bookmark" title="Permalink to Error logging and failed authentication attempts">Error logging and failed authentication attempts</a></h1>
+
+            <div class="entry-content post-text">
+                <div>
+ <p>
+  People make mistakes and that’s why we log every error that happens on
+  <a href="http://www.marela.si" title="Photo-sharing website">
+   Marela
+  </a>
+  pages or its API. I imagine most services that care about quality do more or less the same, since it is a great way to find yet undiscovered bugs.
+ </p>
+ <p>
+  There’s an additional benefit when it comes to an API. You can also get an insight in what developers would like to do and how they go about doing it. With a bit of care you may even correct badly designed calls before they get too widely adopted.
+ </p>
+ <p>
+  What may not be as obvious is that not all calls are equal and some of them probably need more careful reporting. A good example would be failed authentication attempts.
+ </p>
+ <p>
+  Marela is one of services supported by
+  <a href="https://addons.mozilla.org/en-US/firefox/addon/3945">
+   Fotofox
+  </a>
+  , a popular photo sharing Firefox add-on, which is great. However support for multiple different services invariably leads to a problem, where users send their usernames and passwords to the wrong site. We weren’t prepared for this and our first reaction was to simply religiously delete all such reports from our logs to prevent any possibility of an abuse.
+ </p>
+ <p>
+  I think this was wrong, so we changed it. Probably the best way is to record failed authentication attempts the way Unix systems do, by logging just username that was used in an attempt and its success, while ignoring provided password completely. This way we still obtain valuable information while protecting data that we clearly shouldn’t have access to.
+ </p>
+ <p>
+  This is of course just an example. My main point is that a sufficiently large API will have calls with different privacy needs and API designers should think carefully about what needs to be recorded in service logs and what mustn’t.
+ </p>
+</div>
+            </div><!-- /.entry-content -->
+
+            <footer class="post-metadata">
+                <ul>
+                    <li>Published on <time datetime="2007-04-06T20:01:00+02:00">Fri 06 April 2007</time> </li>
+                    <li><a href="../error-logging-and-failed-authentication-attempts.html">Add your comment</a></li>
+                </ul>
+            </footer>
+        </article>
+        <article class="hentry">
             <h1 class="entry-title storytitle"><a href="../macs-and-just-working.html" rel="bookmark" title="Permalink to Macs and "just working"">Macs and "just working"</a></h1>
 
             <div class="entry-content post-text">
@@ -209,53 +250,6 @@ body > footer .mini-logo {display: inline-block;width:97px;height:32px;border:0;
                 <ul>
                     <li>Published on <time datetime="2007-03-07T11:01:00+01:00">Wed 07 March 2007</time> </li>
                     <li><a href="../looking-for-simon-willison.html">Add your comment</a></li>
-                </ul>
-            </footer>
-        </article>
-        <article class="hentry">
-            <h1 class="entry-title storytitle"><a href="../problem-with-public-javascript-hosting.html" rel="bookmark" title="Permalink to Problem with public javascript hosting">Problem with public javascript hosting</a></h1>
-
-            <div class="entry-content post-text">
-                <div>
- <p>
-  Yahoo recently
-  <a href="http://yuiblog.com/blog/2007/02/22/free-yui-hosting/">
-   announced
-  </a>
-  free public hosting of YUI library, just like AOL
-  <a href="http://blog.dojotoolkit.org/2006/01/30/dojo-iamalpha-and-cdns">
-   did
-  </a>
-  a while ago for Dojo toolkit. A great move. You don’t have to pay bandwidth for hosting YUI and there’s a better likelihood that scripts will already be in visitors browser cache, since some other previously visited page might have used them too.
- </p>
- <p>
-  However there’s a real downside to it. What happens if Yahoo servers are unaccessible or connection to them is just slow?
- </p>
- <p>
-  If you’re lucky, then its former and the page will be rendered quickly but with some (javascript) functionality missing. If later, then it might take forever to render a page since modern browsers can’t and won’t do it until all javascript has been loaded.
- </p>
- <p>
-  This might seem an unlikely scenario, unless you’ve been around the last time when access problems to Google Analytics stopped displaying a large part of slovenian web, least important of which being this very blog. Yahoo is not stupid, but neither is Google and problem can literally appear anywhere between their servers and your visitors computer.
- </p>
- <p>
-  So what can be done if this possibility is not acceptable to you, but you’d still want to use free hosting?
- </p>
- <p>
-  Nothing pretty it seems. The only thing that I can think of is to add local links to yui, put them together with Yahoo links at the bottom of the page and trigger Javascript when content has been loaded. Then you only have to wait for YUI objects to appear before you start processing your scripts.
- </p>
- <p>
-  This way you can probably avoid crippled or blank pages, but you’re still paying for the bandwidth. Unless of course you go one step further and include local links only when Yahoo objects don’t appear in a reasonable amount of time.
- </p>
- <p>
-  Does anyone have any idea how to solve this problem gracefully?
- </p>
-</div>
-            </div><!-- /.entry-content -->
-
-            <footer class="post-metadata">
-                <ul>
-                    <li>Published on <time datetime="2007-03-06T16:56:00+01:00">Tue 06 March 2007</time> </li>
-                    <li><a href="../problem-with-public-javascript-hosting.html">Add your comment</a></li>
                 </ul>
             </footer>
         </article>

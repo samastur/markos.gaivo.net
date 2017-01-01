@@ -73,6 +73,47 @@ body > footer .mini-logo {display: inline-block;width:97px;height:32px;border:0;
     </nav>
 
         <article class="hentry">
+            <h1 class="entry-title storytitle"><a href="./all-code-is-crap.html" rel="bookmark" title="Permalink to All code is crap">All code is crap</a></h1>
+
+            <div class="entry-content post-text">
+                <div>
+ <p>
+  I was recently discussing how I think all code, especially mine, is crap and since this position has been and likely still is controversial, it might not be a bad idea to discuss it a bit more. This likely won’t avoid grievances and disputes, but it might save me some work in explaining myself.
+ </p>
+ <p>
+  I’ve never written a non-trivial amount of code that I wouldn’t find at least a bit embarrassing two years later. Partly because of my own deficiencies as a programmer, partly because our craft evolves and does so rather speedily. Even if I was as good a programmer as I would like to be, our profession would still develop and my code would eventually become crap. It would just take a bit longer than it does now. In a way, with maybe few exceptions, all code
+  <em>
+   left alone
+  </em>
+  is on natural trajectory to a state of crappiness.
+ </p>
+ <p>
+  Personally I don’t find this insulting. If anything I would be terrified to discover that my old code doesn’t bug me at all. I would see it as a signal that I haven’t developed my craft much in this time.
+  <strong>
+   You haven’t peaked until you stagnated
+  </strong>
+  .
+ </p>
+ <p>
+  There are also other benefits to this position. Since I find my code at least a bit dubious, I’m not enamored with it to the point, where I would find it difficult to ditch it if need be. It helps me being more detached and rational about its merits or lack thereof.
+ </p>
+ <p>
+  In contrast with what I just said, it also helps me from scraping it too soon. Accepting that some level of crappiness is a given, I don’t feel as much need in reformatting, refactoring or rewriting code that offends my sensibilities. I like reading pretty or even inspirational code as much as the next programmer, but esthetics are not too important. As long as code is functional, bug-scarce, maintainable and generally usable enough, it’s also pretty enough.
+ </p>
+ <p>
+  So if you happen to hear me insensitively remarking that some code is crap, please try to keep in mind that my completely universal belief means it’s not meant to be personal or even negative. I likely regard your code and skill higher than mine. I am truly sorry, if you nevertheless feel bad about it.
+ </p>
+</div>
+            </div><!-- /.entry-content -->
+
+            <footer class="post-metadata">
+                <ul>
+                    <li>Published on <time datetime="2008-04-16T12:42:00+02:00">Wed 16 April 2008</time> </li>
+                    <li><a href="./all-code-is-crap.html">Add your comment</a></li>
+                </ul>
+            </footer>
+        </article>
+        <article class="hentry">
             <h1 class="entry-title storytitle"><a href="./debugging-javascript-applications.html" rel="bookmark" title="Permalink to Debugging Javascript applications">Debugging Javascript applications</a></h1>
 
             <div class="entry-content post-text">
@@ -322,48 +363,6 @@ body > footer .mini-logo {display: inline-block;width:97px;height:32px;border:0;
                 <ul>
                     <li>Published on <time datetime="2008-04-08T14:16:00+02:00">Tue 08 April 2008</time> </li>
                     <li><a href="./zemanta.html">Add your comment</a></li>
-                </ul>
-            </footer>
-        </article>
-        <article class="hentry">
-            <h1 class="entry-title storytitle"><a href="./triggering-a-server-request-on-onunload-event.html" rel="bookmark" title="Permalink to Triggering a server request on onunload event">Triggering a server request on onunload event</a></h1>
-
-            <div class="entry-content post-text">
-                <div>
- <p>
-  A while ago I tried to trigger an AJAX call to server in
-  <em>
-   onunload
-  </em>
-  handler and failed miserably. It simply didn’t work in major browsers and I filled the idea under can’t-be-done.
- </p>
- <p>
-  I recently got another reason to revisit this problem and came up with a new-old idea. Since in my case I don’t care about server response, I don’t actually need XMLHttpRequest. Any technique that triggers a call to server is good enough, so why not try creating an image and setting its
-  <em>
-   url
-  </em>
-  attribute to appropriate value.
- </p>
- <p>
-  It turns out that this works almost everywhere. It worked pretty flawlessly in Firefox, Opera and Internet Explorer, but it doesn’t work in Safari and Konqueror, which makes me think that KHTML/Webkit family of browsers in general don’t support it.
- </p>
- <p>
-  This is not its only limitation. Technique obviously works only for GET calls, which is frowned upon and generally dangerous for actions that change state. I also suspect it works less well on slower computers or networks so you might need to delay event handler ending by buying some time with needless processing after you’ve set
-  <em>
-   url
-  </em>
-  attribute.
- </p>
- <p>
-  Still, it might be another useful hack to have if you can live with its limitations.
- </p>
-</div>
-            </div><!-- /.entry-content -->
-
-            <footer class="post-metadata">
-                <ul>
-                    <li>Published on <time datetime="2008-03-26T16:32:00+01:00">Wed 26 March 2008</time> </li>
-                    <li><a href="./triggering-a-server-request-on-onunload-event.html">Add your comment</a></li>
                 </ul>
             </footer>
         </article>

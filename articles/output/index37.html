@@ -73,6 +73,83 @@ body > footer .mini-logo {display: inline-block;width:97px;height:32px;border:0;
     </nav>
 
         <article class="hentry">
+            <h1 class="entry-title storytitle"><a href="./javascript-events-on-tablet.html" rel="bookmark" title="Permalink to Javascript events on tablet">Javascript events on tablet</a></h1>
+
+            <div class="entry-content post-text">
+                <div>
+ <p>
+  I’ve been curious about interface possibilities and limitations of non-desktop environments like my Nokia tablet for a while, especially as they pertain to web. Pen on a touchscreen obviously doesn’t have to leave a “trail” of traversal like a mouse does. You also don’t have several mouse buttons at your disposal.
+ </p>
+ <p>
+  So I made a simple
+  <a href="http://markos.gaivo.net/examples/jsenvtest.html">
+   test page
+  </a>
+  to see how some of more interesting events get caught.
+ </p>
+ <p>
+  The result on my 770 was quite disappointing while also expected. I’ll summarize it for those who don’t have a tablet. Touching a screen generates
+  <em>
+   mousemove
+  </em>
+  event and sometimes
+  <em>
+   mouseover
+  </em>
+  , but you never get a
+  <em>
+   mouseout
+  </em>
+  event. If touched briefly enough, it’ll also generate
+  <em>
+   mousedown
+  </em>
+  ,
+  <em>
+   mouseup
+  </em>
+  and
+  <em>
+   click
+  </em>
+  event in this order.
+ </p>
+ <p>
+  You won’t get a
+  <em>
+   mousedown
+  </em>
+  and
+  <em>
+   mouseup
+  </em>
+  events until
+  <em>
+   click
+  </em>
+  . If you keep pressing the screen without moving, you’ll  get a context menu, but I found no way to get to
+  <em>
+   mousedown
+  </em>
+  on its own. This means it’s impossible to create a “natural” drag and drop, which isn’t surprising, since same movement is already taken by browser for scrolling.
+ </p>
+ <p>
+  My test was limited to Nokia 770 tablet, but I doubt results would be much different elsewhere (Fry, can you check your tablet?). It would also be interesting to see what iPhone does, but since I don’t have it either, I can’t tell.
+ </p>
+ <p>
+  Still I’ll need to rethink a widget for website I’m working on and keep this in mind for my next year project.
+ </p>
+</div>
+            </div><!-- /.entry-content -->
+
+            <footer class="post-metadata">
+                <ul>
+                    <li>Published on <time datetime="2007-12-16T18:14:00+01:00">Sun 16 December 2007</time> </li>
+                    <li><a href="./javascript-events-on-tablet.html">Add your comment</a></li>
+                </ul>
+            </footer>
+        </article>
+        <article class="hentry">
             <h1 class="entry-title storytitle"><a href="./dynamically-controlling-behavior-and-size-of-a-page.html" rel="bookmark" title="Permalink to Dynamically controlling behavior and size of a page">Dynamically controlling behavior and size of a page</a></h1>
 
             <div class="entry-content post-text">
@@ -232,60 +309,6 @@ body > footer .mini-logo {display: inline-block;width:97px;height:32px;border:0;
                 <ul>
                     <li>Published on <time datetime="2007-11-25T00:21:00+01:00">Sun 25 November 2007</time> </li>
                     <li><a href="./one-web-for-all-but-with-different-lanes.html">Add your comment</a></li>
-                </ul>
-            </footer>
-        </article>
-        <article class="hentry">
-            <h1 class="entry-title storytitle"><a href="./really-open-social-network.html" rel="bookmark" title="Permalink to Really open social network">Really open social network</a></h1>
-
-            <div class="entry-content post-text">
-                <div>
- <p>
-  I’ve recently read couple of posts that left an impression on me. First one was Brad Neuberg’s about
-  <a href="http://codinginparadise.org/weblog/2007/08/creating-personal-research-agenda.html">
-   personal research agenda
-  </a>
-  . I haven’t completed list of my problems yet, but I came far enough to know I’m not working on any of them.
- </p>
- <p>
-  The other one was about
-  <a href="http://www.entrepreneur2be.com/2007/08/26/idea-blog-socialnetworking-blog20/">
-   Blog 2.0
-  </a>
-  . I’m more interested in content manipulation than social interactions as Pownce and Marela are only two social networking applications I use. Still, ideas contained are intriguing and couple of days before
-  <a href="http://datasharingsummit.com/">
-   Data Sharing Summit
-  </a>
-  is the right time to shamelessly pimp my views.
- </p>
- <p>
-  Build a social application and you will likely, sooner or later, encounter a dilemma in what your members will be building. Are their creations mainly personal, an expression of their creativity, or are they more of a place where people meet and engage?
- </p>
- <p>
-  Most websites don’t fall squarely into one or the other. My blog feels personal not only because I picked the look and topics, but also because my voice is elevated above others. I doubt I would feel the same if comments could look like my posts. I like my place and freedom it offers me.
- </p>
- <p>
-  That’s why I don’t care all that much about most networks and degrees of their openness. Really open social network would be interwoven into the fabric of web. I already have my page, I don’t need yet another one. If buddy list is desired, I can use FOAF. Sharing of my stuff? Feeds. Same answer for getting other people’s stuff. Starting a new network would mean creating a widget or a few that can be easily integrated in our sites, maybe some sort of a pinging service if expediency is important and offering a space for personal page for those, who don’t have it yet.
- </p>
- <p>
-  It’s amazing how little would need to be changed to implement ideas in Blog 2.0. Basic technology is already here, it’s just not used widely enough yet. Sure there are a few issues that need to be thought through, mainly to do with handling privacy correctly, but they are neither big nor really technological. And price for all this?
- </p>
- <p>
-  Maybe a bit less expediency in content propagation and a bit more work for network operators, who might need to learn to live with the same limitations that search engine developers do already. And I’m not even sure that is really necessary.
- </p>
- <p>
-  <em>
-   Update:
-  </em>
-  Thinking a bit more about this I would be happy enough if social network were just more inclusive. It’s fine that you can create an account and be busy on their platform, but it would be better if you could join and interact with a social network with your own node for as long as that met your needs.
- </p>
-</div>
-            </div><!-- /.entry-content -->
-
-            <footer class="post-metadata">
-                <ul>
-                    <li>Published on <time datetime="2007-09-05T21:45:00+02:00">Wed 05 September 2007</time> </li>
-                    <li><a href="./really-open-social-network.html">Add your comment</a></li>
                 </ul>
             </footer>
         </article>
