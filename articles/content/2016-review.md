@@ -1,9 +1,8 @@
 Title: 2016 review
-Date: 2017-01-29 08:14:52
+Date: 2017-01-29 12:15:52
 Author: markos
 Category: Catchall
 Slug: 2016-review
-Status: draft
 Tags: 2016, review, annual review
 
 [![XKCD comic: 2017](http://imgs.xkcd.com/comics/2017.png)](http://xkcd.com/1779/)
@@ -16,13 +15,13 @@ You don't have much if you don't have health and in that regard previous year ce
 
 The biggest personal change last year was freelancing again full time, which at times felt all consuming. It was a medium success. I am not in danger of being hungry, am working on things I find interesting and have learned a lot including that I don't like the "traditional" model of freelancing with many, relatively short engagements. Instead I prefer to work on longer lasting projects with at most two clients at a time which is what I am doing now. I am not sure if this could still be adequately described as freelancing or consulting, but it certainly does not feel like employment either. Finding correct label will probably wait until I have a need for one. 
 
-On the negative side I learned how I work best by failing some of my clients for which I still feel guilty and ashamed. Another problem is answering what do I do. For example I invested in [Python](http://www.python.org), but effectively did not use it professionally and this year is shaping to be similar. There is a saying that you are in whatever business your customers think you are in. Clearly theirs and my perception were not aligned and it would be nice if this year I succeeded in answering at least who gets to be aligned.
+On the negative side I learned how I work best by failing some of my clients for which I still feel guilty and ashamed. Another problem is answering what do I do. For example I spend a lot of time last year improving my [Python](http://www.python.org) related skills, but effectively did not use them professionally and this year is shaping to be similar. There is a saying that you are in whatever business your customers think you are in. Clearly theirs and my perception were not aligned and it would be nice if this year I succeeded in answering at least who gets to be aligned.
 
 Interestingly freelancing also changed my perception of time which I never felt I have an abundance of. I can't tell how much of a book I will read in an hour or how many useful lines of code will be produced, so wasting it just gives me some vague feeling of loss. However because money is fungible, charging for time makes such loses more comparable to some things I care about (and admittedly to neither of my examples). It probably is a form of greed even though me getting something is rarely what it ends up being compared to.
 
 It can also be a trap which somewhat paradoxically becomes worse if you raise your rate. I have colleagues who have difficulty taking time off because they now know almost exactly how much that would cost them. But it can also be useful if turned into a question if what I am doing right now is the most appropriate use of my time.
 
-Last year I set a goal of giving at least one talk in 2016. I did 4, most of them on the same topic and while I enjoyed presenting, I do not expect to do it in 2017. Neither will I be setting development goals for this year even as I am expecting to learn a lot. In 2016 I learned 4 different Javascript frameworks because of work and I expect what I do to guide most of what I learn this year as well. Open source work will likely suffer too, but I plan to continue being involved in organizing local Javascript events which I started to do at the end of last year.
+Last year I set a goal of giving at least one talk in 2016. I did 4, most of them on the same topic and while I enjoyed presenting, I do not expect to do it in 2017. Neither will I be setting development goals for this year even as I am expecting to learn a lot. In 2016 I learned 4 different Javascript frameworks because of work and I expect what I do to guide most of what I learn this year as well. Open source work will likely suffer too, but I plan to continue being involved in organising local Javascript events which I started to do at the end of last year.
 
 My opinion of the general state of journalism sank to a new low last year, but there are exceptions and I was happy to be involved with [Pod črto](https://podcrto.si). Even though this year I am trying to reduce my obligations and ambitions, it would be great if I could do more work like that.
 
@@ -30,7 +29,7 @@ I wrote more, but mostly not the kind of things I had in mind when I set that go
 
 I intend to find time for a new hobby. Something that is fun to do even when you have only minutes to spare, is not computer related and is hopefully more tactile, like building with Legos that I already have. Also spend more effort learning Spanish.
 
-Still all these is just tweaking life as it passes. Last year and especially last few months of it, as I observed world with increasing horror, I kept thinking what the right response should be?
+Still all this is is just tweaking life as it passes. Last year and especially last few months of it, as I observed world with increasing horror, I kept thinking what the right response should be?
 
 Surely it isn't doing nothing. There are no problems needing me to be solved, but even my own experience proves that getting involved can matter. Life fully lived is more than just a pursuit of personal comfort and happiness.
 
