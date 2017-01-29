@@ -19,6 +19,7 @@ h1, h2, h3, h4, h5, h6 {margin:21px 0;font-size:18px;line-height:21px;font-weigh
 a:visited, a {color:#ff8400;text-decoration:none;}
 a:hover {text-decoration:underline;}
 a img {border:0;}
+img {max-width:100%;}
 article {text-align:justify;}
 em, blockquote{font-family:"HelveticaNeueW02-46Ligh";}
 strong{font-family:"HelveticaNeueW02-55Roma";}
