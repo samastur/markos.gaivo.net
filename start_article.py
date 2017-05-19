@@ -21,7 +21,7 @@ Tags:
 
 '''
 
-EDITOR = '/usr/local/bin/markdown'
+EDITOR = '/usr/local/bin/macdown'
 
 
 def create_slug(title, dir):
@@ -59,7 +59,7 @@ def main(title):
     open_editor(filename)
 
 
-if __name__ == '__main__'
+if __name__ == '__main__':
     if len(sys.argv) != 2:
         print 'You have to pass title of the article as  first parameter'
         sys.exit(1)
