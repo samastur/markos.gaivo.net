@@ -61,7 +61,7 @@ body > footer .mini-logo {display: inline-block;width:97px;height:32px;border:0;
 
 <section class="envelope posts">
     <header>
-        <h1><a href="./">A notch above a monkey <strong></strong></a></h1>
+        <h1><a href="http://markos.gaivo.net/articles/">A notch above a monkey <strong></strong></a></h1>
     </header><!-- /#banner -->
 
     <nav class="colophon">
@@ -73,7 +73,94 @@ body > footer .mini-logo {display: inline-block;width:97px;height:32px;border:0;
     </nav>
 
         <article class="hentry">
-            <h1 class="entry-title storytitle"><a href="./the-most-annoying-business-habit.html" rel="bookmark" title="Permalink to The most annoying business habit">The most annoying business habit</a></h1>
+            <h1 class="entry-title storytitle"><a href="http://markos.gaivo.net/articles/building-faq-from-wiki-pages.html" rel="bookmark" title="Permalink to Building FAQ from wiki pages">Building FAQ from wiki pages</a></h1>
+
+            <div class="entry-content post-text">
+                <div>
+ <p>
+  We use
+  <a href="http://moinmoin.wikiwikiweb.de/" title="MoinMoin's homepage">
+   MoinMoin
+  </a>
+  for all our documentation needs, since it simplifies almost all related tasks. It’s nice when everything is available at one place through a familiar and easy to use interface.
+ </p>
+ <p>
+  This is why I also wanted to use it to build a FAQ for our site, which is more needed with each day. There’s an abundance of software for building and managing such documents, but I haven’t found anything that would match our needs. Apart from using wiki pages as the source of wisdom, I also wanted:
+ </p>
+ <ol>
+  <li>
+   A good and fairly easy integration with our site (but not automatic).
+  </li>
+  <li>
+   A very malleable solution, where it would be easy to change FAQ organization as requirements change.
+  </li>
+ </ol>
+ <p>
+  At the end I decided to build our own thing using
+  <a href="http://www.crummy.com/software/BeautifulSoup/index.html">
+   Beautiful Soup
+  </a>
+  , a python package I raved about a while ago. Since we wanted each question to have a permanent link that could be bookmarked, we had to give them an identifier that wouldn’t change even if we rephrased the question or changed the answer. The simplest way was to assign a unique number to each question as it can be seen on a
+  <a href="http://markos.gaivo.net/examples/samplefaq/faq.html">
+   sample FAQ page
+  </a>
+  . This way it’s easy to add and remove questions as long as you can count.
+ </p>
+ <p>
+  MoinMoin produces very sensible HTML that is easy to work with.
+  <a href="http://markos.gaivo.net/examples/samplefaq/faq.py">
+   Here’s
+  </a>
+  a proof of concept module that extracts information from a page like the sample one and packs it in a dictionary with identifiers as keys and a list
+  <em>
+   [ question, answer ]
+  </em>
+  as value.
+ </p>
+ <p>
+  It’s not something very useful on its own, but I think it’s a nice example of what can be done quickly with existing tools like MoinMoin and BeautifulSoup.
+ </p>
+ <p>
+  Notes: In principle there’s no need to use MoinMoin as long as produced HTML fits following assumptions:
+ </p>
+ <ol>
+  <li>
+   FAQ is stored inside a
+   <em>
+    div
+   </em>
+   element with
+   <em>
+    id
+   </em>
+   set to
+   <em>
+    content
+   </em>
+   .
+  </li>
+  <li>
+   Questions are inside a heading element which also acts as a delimiter between them.
+  </li>
+  <li>
+   Identifiers are integers.
+  </li>
+ </ol>
+ <p>
+  If it doesn’t, you’ll need to change code a bit.
+ </p>
+</div>
+            </div><!-- /.entry-content -->
+
+            <footer class="post-metadata">
+                <ul>
+                    <li>Published on <time datetime="2005-11-22T17:17:00+01:00">Tue 22 November 2005</time> </li>
+                    <li><a href="http://markos.gaivo.net/articles/building-faq-from-wiki-pages.html">Add your comment</a></li>
+                </ul>
+            </footer>
+        </article>
+        <article class="hentry">
+            <h1 class="entry-title storytitle"><a href="http://markos.gaivo.net/articles/the-most-annoying-business-habit.html" rel="bookmark" title="Permalink to The most annoying business habit">The most annoying business habit</a></h1>
 
             <div class="entry-content post-text">
                 <div>
@@ -103,12 +190,12 @@ body > footer .mini-logo {display: inline-block;width:97px;height:32px;border:0;
             <footer class="post-metadata">
                 <ul>
                     <li>Published on <time datetime="2005-11-22T11:55:00+01:00">Tue 22 November 2005</time> </li>
-                    <li><a href="./the-most-annoying-business-habit.html">Add your comment</a></li>
+                    <li><a href="http://markos.gaivo.net/articles/the-most-annoying-business-habit.html">Add your comment</a></li>
                 </ul>
             </footer>
         </article>
         <article class="hentry">
-            <h1 class="entry-title storytitle"><a href="./riffs-logo-hinting.html" rel="bookmark" title="Permalink to Riffs' logo hinting">Riffs' logo hinting</a></h1>
+            <h1 class="entry-title storytitle"><a href="http://markos.gaivo.net/articles/riffs-logo-hinting.html" rel="bookmark" title="Permalink to Riffs' logo hinting">Riffs' logo hinting</a></h1>
 
             <div class="entry-content post-text">
                 <div>
@@ -150,91 +237,20 @@ body > footer .mini-logo {display: inline-block;width:97px;height:32px;border:0;
             <footer class="post-metadata">
                 <ul>
                     <li>Published on <time datetime="2005-11-21T12:55:00+01:00">Mon 21 November 2005</time> </li>
-                    <li><a href="./riffs-logo-hinting.html">Add your comment</a></li>
-                </ul>
-            </footer>
-        </article>
-        <article class="hentry">
-            <h1 class="entry-title storytitle"><a href="./intellectual-property-and-society-benefits.html" rel="bookmark" title="Permalink to Intellectual property and society benefits">Intellectual property and society benefits</a></h1>
-
-            <div class="entry-content post-text">
-                <div>
- <blockquote>
-  <p>
-   “Considering the exclusive right to invention as given not of natural right, but for the benefit of society, I know well the difficulty of drawing a line between the things which are worth to the public the embarrassment of an exclusive patent, and those which are not.”
-  </p>
-  <p>
-   <a href="http://press-pubs.uchicago.edu/founders/documents/a1_8_8s12.html" title="A letter to Isaac McPherson">
-    Thomas Jefferson, 1813
-   </a>
-  </p>
- </blockquote>
- <p>
-  Guardian published a well written
-  <a href="http://www.guardian.co.uk/comment/story/0,3604,1646125,00.html">
-   article
-  </a>
-  about intellectual property and ownership of ideas. I’ve been thinking a lot about this lately, as I’m certain other entrepreneurs often do. Especially those with companies where assets are mainly good people you work with and intangible stuff like software. And ideas, which many think should be owned and protected.
- </p>
- <p>
-  I’ve never been one of them, but I understand that patents are a complex enough subject which is difficult to explore and where policy has been based mainly on personal beliefs of people involved in creating it.
- </p>
- <p>
-  As Jefferson has already said, exclusive right to invention is not a natural right, but a right given for the benefit of society. So, are patents still benefiting society at large? Would we stop innovating without patents, as some suggest?
- </p>
- <p>
-  I don’t want to repeat ideas and arguments stated so many times by people more eloquent than me. However, I’d like to make a simple reasoning on what patents mean and what we could expect if there weren’t any.
- </p>
- <p>
-  I believe there’s an agreement from all sides that a patent was supposed to protect an invention from competitors for a limited amount of time. It should prevent others from profiting on it and therefore makes it easier to do so for inventor. This means a patent’s exclusivity reduces pressure from competition and therefore somewhat reduces competitiveness of environment for the inventor.
- </p>
- <p>
-  Thus abolishing all patents would lead to an extremely competitive environment. How would companies and any would-be entrepreneurs react to a world like this?
- </p>
- <p>
-  In a world, where there’s no shortage of people willing and able to manufacture products at costs far below of those achievable in Europe or USA, it’s inevitable to keep producing new ideas if you want to differentiate yourself. Not inventing is simply not an option as long as you’re willing to compete.
- </p>
- <p>
-  There always were and always will be those willing to compete, if window of opportunity between invention and its replication by competitors is large enough to recoup investment and making a profit. A canonical example of industry like this is a software industry, where it’s fairly cheap to develop new stuff. No need for patents there.
- </p>
- <p>
-  However, in industries where that window is too small, there simply won’t be an industry if it’s either not made bigger or the investment made cheaper. Canonical example for this is pharmaceutical industry, where window is enlarged with patents and investments are cheapened by governmental grants.
- </p>
- <p>
-  Hence question evolves to what kind of future is coming. Will most new stuff require long and expensive development cycle or will it keep getting shorter and cheaper?
- </p>
- <p>
-  My bet is on cheaper and shorter. Not only because we can see this already happening, but also because there’s every reason to believe this trend will continue for foreseeable future. Hardware is getting more generic and differentiation is moving to embedded software exactly because it’s faster and cheaper to develop. This is true for every product that has at least one button on it (mobiles, cars etc.) and even for a lot of those, that don’t (popular example being a modern hotel doorknob).
- </p>
- <p>
-  If this is how future will look like, then legislation should reflect that and patents should be limited only to design patents and to industries that genuinely need them or abolished completely and in certain cases replaced with already existing grants.
- </p>
- <p>
-  There’s a plethora of reasons I haven’t even touched, why modern intellectual property laws (and patent laws in particular) are hurting our society already. But I think what makes it even worse is that we are stubbornly marching in the wrong direction.
- </p>
- <p>
-  Benefit of society, not personal or corporate gain is what this was supposed to be all about.
- </p>
-</div>
-            </div><!-- /.entry-content -->
-
-            <footer class="post-metadata">
-                <ul>
-                    <li>Published on <time datetime="2005-11-20T21:17:00+01:00">Sun 20 November 2005</time> </li>
-                    <li><a href="./intellectual-property-and-society-benefits.html">Add your comment</a></li>
+                    <li><a href="http://markos.gaivo.net/articles/riffs-logo-hinting.html">Add your comment</a></li>
                 </ul>
             </footer>
         </article>
 
 <ul class="paginator">
 		<li class="newer">
-        <a href="./index92.html">&laquo; Newer</a>
+        <a href="http://markos.gaivo.net/articles/index92.html">&laquo; Newer</a>
 		</li>
 		<li class="current">
     93 / 115
 		</li>
 		<li class="older">
-        <a href="./index94.html">Older &raquo;</a>
+        <a href="http://markos.gaivo.net/articles/index94.html">Older &raquo;</a>
 		</li>
 </ul>
 </section><!-- /#content -->

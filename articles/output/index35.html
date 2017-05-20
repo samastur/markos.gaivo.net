@@ -61,7 +61,7 @@ body > footer .mini-logo {display: inline-block;width:97px;height:32px;border:0;
 
 <section class="envelope posts">
     <header>
-        <h1><a href="./">A notch above a monkey <strong></strong></a></h1>
+        <h1><a href="http://markos.gaivo.net/articles/">A notch above a monkey <strong></strong></a></h1>
     </header><!-- /#banner -->
 
     <nav class="colophon">
@@ -73,7 +73,227 @@ body > footer .mini-logo {display: inline-block;width:97px;height:32px;border:0;
     </nav>
 
         <article class="hentry">
-            <h1 class="entry-title storytitle"><a href="./zemanta.html" rel="bookmark" title="Permalink to Zemanta">Zemanta</a></h1>
+            <h1 class="entry-title storytitle"><a href="http://markos.gaivo.net/articles/debugging-javascript-applications.html" rel="bookmark" title="Permalink to Debugging Javascript applications">Debugging Javascript applications</a></h1>
+
+            <div class="entry-content post-text">
+                <div>
+ <p>
+  Debugging web applications used to be simple. You generated a page and sent it to client. Visitors performed actions and you got back their response. Since filling a form was practically the most complicated action they could perform, it was relatively easy to find bugs if you were smart enough to include debugging support on server. You just had to trace user’s steps to find the one where things went amiss.
+ </p>
+ <p>
+  Javascript heavy applications changed that. Now a lot of action is happening far from your eyes and even when application does communicate with a server, it might just be a request to store or fetch more data without any hints about what’s happening over there. That’s fine and we are all happy as long as everything works. Too bad that sooner or later it usually doesn’t.
+ </p>
+ <p>
+  That’s why I decided to write a simple debugging support I can plug in my older projects that I still need to support and use in any upcoming ones that could benefit from it.
+ </p>
+ <p>
+  <strong>
+   Goals
+  </strong>
+ </p>
+ <p>
+  I want my script to have the following characteristics:
+ </p>
+ <ul>
+  <li>
+   be short and simple enough so I can rely on it not to be a cause of new problems
+  </li>
+  <li>
+   it can be triggered through Javascript or by manipulating URL
+  </li>
+  <li>
+   adaptable to different scenarios
+  </li>
+  <li>
+   it avoids unnecessary replication by supporting Firebug’s logging calls
+  </li>
+ </ul>
+ <p>
+  Point two in the list means I should have a choice between automatic start of debugging by changing URL a bit or through Javascript at the time of my liking. This way I’m free to choose the best way and moment to debug my application.
+ </p>
+ <p>
+  By adaptable I mean I have free hands when it comes to how much gets logged, how far back do I keep logs and how does that information get sent to me.
+ </p>
+ <p>
+  Supporting Firebug means that its logging calls are used. So same debugging calls that might have been used during development can also be used for debugging problems in deployed site and don’t bother script execution in non-debug mode.
+ </p>
+ <p>
+  <strong>
+   Implementation
+  </strong>
+ </p>
+ <p>
+  Here’s
+  <a href="http://markos.gaivo.net/blog/code/debug.js" title="Javascript debugging module">
+   result
+  </a>
+  , packed in around 100 lines of code. It should be included at the top of your Javascript code or as quickly as you’d like to use it. I think it’s pretty self-explanatory, but you can also look at demonstration page described a bit later.
+ </p>
+ <p>
+  Debugging is stored in an object
+  <em>
+   window.console
+  </em>
+  and gets started by either including
+  <em>
+   dbg=true
+  </em>
+  parameter in URL or calling
+  <em>
+   window.console.debugStart
+  </em>
+  method. In later case you can provide the method with a function as first parameter that gets called on Javascript error or when we stop debugging with a call of
+  <em>
+   window.console.debugEnd
+  </em>
+  .
+ </p>
+ <p>
+  We can provide the same function by assigning it to
+  <em>
+   window.console.debugDisplay
+  </em>
+  . It gets called the same way with one parameter of an array of debugging messages. It’s completely up to it to decide what to do with that information and what value to return, but return values have the same meaning as they have in
+  <em>
+   window.onerror
+  </em>
+  handler. If processing Javascript error,
+  <em>
+   true
+  </em>
+  means that error was processed and script can continue and
+  <em>
+   false
+  </em>
+  will lead to error message dialog box.
+ </p>
+ <p>
+  <em>
+   window.console.debugStart
+  </em>
+  can also receive a parameter object with attributes
+  <em>
+   level
+  </em>
+  ,
+  <em>
+   count
+  </em>
+  and
+  <em>
+   callback
+  </em>
+  for debugging level, number of saved messages and
+  <em>
+   debugDisplay
+  </em>
+  function respectively. Level and message count can also be set through URL by providing parameters
+  <em>
+   dbglevel
+  </em>
+  and
+  <em>
+   dbgcount
+  </em>
+  .
+ </p>
+ <p>
+  <strong>
+   Demo
+  </strong>
+ </p>
+ <p>
+  You can see final result called in two ways. Using
+  <a href="http://markos.gaivo.net/blog/code/debug.html?dbg=true&amp;dbglevel=3&amp;dbgcount=10" title="URL based debugging">
+   modified URL
+  </a>
+  , where debugging parameters are set through URL, and
+  <a href="http://markos.gaivo.net/blog/code/debug.html" title="non-URL based debugging">
+   the one
+  </a>
+  , where debugging isn’t turned on by default. It’s same page in both cases and so is mostly its behavior.
+ </p>
+ <p>
+  In first case we start fetching debugging messages immediately and display them with a press on
+  <strong>
+   End debugging
+  </strong>
+  . We can’t restart debugging in this scenario, but we can in second case.
+ </p>
+ <p>
+  In second case we start and continue debugging with a press on
+  <strong>
+   Start debugging
+  </strong>
+  button, that got displayed in the first place because
+  <em>
+   window.console.on
+  </em>
+  was set to
+  <em>
+   false
+  </em>
+  .
+  <em>
+   window.console.on
+  </em>
+  is a
+  <em>
+   Boolean
+  </em>
+  that shows if debugging is currently turned on or off.
+ </p>
+ <p>
+  In both cases only messages of requested levels get saved.
+ </p>
+ <p>
+  <strong>
+   Discussion
+  </strong>
+ </p>
+ <p>
+  Even though I tried to leave things as open to extending as possible, I mainly tried to cover use cases I already encountered. Therefore this script, as it is, doesn’t support graceful handling of browser crashes, which it could, if it saved debug information to local storage when available.
+ </p>
+ <p>
+  Script also doesn’t support loading different libraries in debug mode. That is, if you want to load libraries stripped of debugging calls when not debugging, you can do that yourself, using
+  <em>
+   window.console.on
+  </em>
+  . This script won’t do it for you.
+ </p>
+ <p>
+  I do provide a skeleton
+  <em>
+   debugDisplay
+  </em>
+  in case you don’t provide one yourself. If you don’t, then debug message gets displayed using
+  <em>
+   alert
+  </em>
+  , which makes it hard to copy and paste, but easy enough to make a screenshot of. Setting debugging level is probably not as nice as it could be too.
+ </p>
+ <p>
+  It’s not completely stupid though, takes note of
+  <em>
+   Array
+  </em>
+  object’s suitability mainly for sparse and small arrays and should perform adequately when it comes to memory consumption even with new IE8 as long as count parameter isn’t too big.
+ </p>
+ <p>
+  At the end, it’s a piece of code as any I’ve written. Bugs are likely, so bug reports would be appreciated. Same goes for ideas and suggestions. If you need it, feel free to use it any way you want, but I would appreciate a ping just to see where my stuff ends up.
+ </p>
+</div>
+            </div><!-- /.entry-content -->
+
+            <footer class="post-metadata">
+                <ul>
+                    <li>Published on <time datetime="2008-04-14T16:50:00+02:00">Mon 14 April 2008</time> </li>
+                    <li><a href="http://markos.gaivo.net/articles/debugging-javascript-applications.html">Add your comment</a></li>
+                </ul>
+            </footer>
+        </article>
+        <article class="hentry">
+            <h1 class="entry-title storytitle"><a href="http://markos.gaivo.net/articles/zemanta.html" rel="bookmark" title="Permalink to Zemanta">Zemanta</a></h1>
 
             <div class="entry-content post-text">
                 <div>
@@ -101,12 +321,12 @@ body > footer .mini-logo {display: inline-block;width:97px;height:32px;border:0;
             <footer class="post-metadata">
                 <ul>
                     <li>Published on <time datetime="2008-04-08T14:16:00+02:00">Tue 08 April 2008</time> </li>
-                    <li><a href="./zemanta.html">Add your comment</a></li>
+                    <li><a href="http://markos.gaivo.net/articles/zemanta.html">Add your comment</a></li>
                 </ul>
             </footer>
         </article>
         <article class="hentry">
-            <h1 class="entry-title storytitle"><a href="./triggering-a-server-request-on-onunload-event.html" rel="bookmark" title="Permalink to Triggering a server request on onunload event">Triggering a server request on onunload event</a></h1>
+            <h1 class="entry-title storytitle"><a href="http://markos.gaivo.net/articles/triggering-a-server-request-on-onunload-event.html" rel="bookmark" title="Permalink to Triggering a server request on onunload event">Triggering a server request on onunload event</a></h1>
 
             <div class="entry-content post-text">
                 <div>
@@ -143,44 +363,20 @@ body > footer .mini-logo {display: inline-block;width:97px;height:32px;border:0;
             <footer class="post-metadata">
                 <ul>
                     <li>Published on <time datetime="2008-03-26T16:32:00+01:00">Wed 26 March 2008</time> </li>
-                    <li><a href="./triggering-a-server-request-on-onunload-event.html">Add your comment</a></li>
-                </ul>
-            </footer>
-        </article>
-        <article class="hentry">
-            <h1 class="entry-title storytitle"><a href="./javascript-events-drugic.html" rel="bookmark" title="Permalink to Javascript events - drugi??">Javascript events - drugi??</a></h1>
-
-            <div class="entry-content post-text">
-                <div>
- <p>
-  <a href="javascript-events.html" title="Prejšnja najava">
-   Moje predavanje
-  </a>
-  o Javascript events, ki je odpadlo pred dvema tednoma, bo na sporedu danes. Isti kraj in ??as — ob 19h v Kiberpipi.
- </p>
- <p>
-  Bralcem se opravi??ujem za pozno sporo??ilo, ki vsaj upam vseeno ni prepozno.
- </p>
-</div>
-            </div><!-- /.entry-content -->
-
-            <footer class="post-metadata">
-                <ul>
-                    <li>Published on <time datetime="2008-03-05T11:12:00+01:00">Wed 05 March 2008</time> </li>
-                    <li><a href="./javascript-events-drugic.html">Add your comment</a></li>
+                    <li><a href="http://markos.gaivo.net/articles/triggering-a-server-request-on-onunload-event.html">Add your comment</a></li>
                 </ul>
             </footer>
         </article>
 
 <ul class="paginator">
 		<li class="newer">
-        <a href="./index34.html">&laquo; Newer</a>
+        <a href="http://markos.gaivo.net/articles/index34.html">&laquo; Newer</a>
 		</li>
 		<li class="current">
     35 / 115
 		</li>
 		<li class="older">
-        <a href="./index36.html">Older &raquo;</a>
+        <a href="http://markos.gaivo.net/articles/index36.html">Older &raquo;</a>
 		</li>
 </ul>
 </section><!-- /#content -->

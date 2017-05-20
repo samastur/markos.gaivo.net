@@ -61,7 +61,7 @@ body > footer .mini-logo {display: inline-block;width:97px;height:32px;border:0;
 
 <section class="envelope posts">
     <header>
-        <h1><a href="./">A notch above a monkey <strong></strong></a></h1>
+        <h1><a href="http://markos.gaivo.net/articles/">A notch above a monkey <strong></strong></a></h1>
     </header><!-- /#banner -->
 
     <nav class="colophon">
@@ -73,7 +73,98 @@ body > footer .mini-logo {display: inline-block;width:97px;height:32px;border:0;
     </nav>
 
         <article class="hentry">
-            <h1 class="entry-title storytitle"><a href="./gamification-of-book-reading.html" rel="bookmark" title="Permalink to Gamification of book reading">Gamification of book reading</a></h1>
+            <h1 class="entry-title storytitle"><a href="http://markos.gaivo.net/articles/address.html" rel="bookmark" title="Permalink to "><address></a></h1>
+
+            <div class="entry-content post-text">
+                <div>
+ <p>
+  After years of personal embarrassment I finally managed to update look and code of my website. This actually happened last week and I wanted to write this post sooner, but
+  <a href="http://supervizor.kpk-rs.si" title="Supervizor">
+   other things
+  </a>
+  came in-between. There are still bugs I need to fix (iPad footer is better than it was, but not fine), but﻿ overall I’m pretty happy with how it turned out.
+ </p>
+ <p>
+  This was a second site I built using
+  <a class="zem_slink" href="http://www.w3.org/TR/css3-mediaqueries/" rel="homepage" title="media queries">
+   media queries
+  </a>
+  and I learned lots. When I learn a bit more about mobile web, I might write a post about few gotchas for new developers, but this is not that post. This post is about
+  <code>
+   &lt;address&gt;
+  </code>
+  tag because it bugged me when I made that first design and I spent a remarkable amount of time on it again.
+ </p>
+ <p>
+  My problem with it came down to its definition.
+  <code>
+   &lt;address&gt;
+  </code>
+  can be used only to mark up contact information about content’s author. In HTML 4 this was limited to authorship of whole page. For HTML5 it
+  <a href="http://dev.w3.org/html5/spec/sections.html#the-address-element" title="Definition of &lt;address&gt; in HTML5 specification">
+   was “widened”
+  </a>
+  to authorship of sectioning element like
+  <code>
+   &lt;article&gt;
+  </code>
+  (so if you have more than one article on page, each can contain its own, different, address for its author). You can’t however mark any address with it and after lots of searching I found
+  <a href="http://lists.whatwg.org/htdig.cgi/whatwg-whatwg.org/2008-February/014023.html" title="Ian's message from February 2008">
+   this old message
+  </a>
+  from
+  <a class="zem_slink" href="http://en.wikipedia.org/wiki/Ian_Hickson" rel="wikipedia" title="Ian Hickson">
+   Ian Hickson
+  </a>
+  which explains why (I’m not aware of any later clarifications).
+ </p>
+ <p>
+  I don’t agree with everything said. Mostly correct use is not necessarily a proof of well-designed element. My bet would be that
+  <code>
+   &lt;address&gt;
+  </code>
+  was a rather unknown tag exactly because of its limited use and was thus used mostly by those that dig deeper into standards, which sound also like people who care  how things are used as expected.
+ </p>
+ <p>
+  Still most points are valid. Loosening definition would make it less meaningful.
+  <a href="http://microformats.org/wiki/hcard" title="Specification of hCard microformat">
+   There
+  </a>
+  <a href="http://microformats.org/wiki/adr" title="Specification of adr microformat">
+   are
+  </a>
+  microformats that you can use instead and most annoying problems (allowing only inline content) have been fixed. We also have better tools for parsing HTML so  it really doesn’t matter much if its definition feels completely right or not. It’s good enough.
+ </p>
+ <p>
+  At the end I still decided to mark my contact information on
+  <a href="http://markos.gaivo.net">
+   my homepage
+  </a>
+  with
+  <code>
+   &lt;address&gt;
+  </code>
+  anyhow (augmented with
+  <a class="zem_slink" href="http://en.wikipedia.org/wiki/HCard" rel="wikipedia" title="HCard">
+   hCard
+  </a>
+  ), because I am after all the sole author of this website.
+ </p>
+ <div class="zemanta-pixie">
+  <img alt="" class="zemanta-pixie-img" src="http://img.zemanta.com/pixy.gif?x-id=9e03fdb6-c5dc-4878-b734-7bec34cd9ced"/>
+ </div>
+</div>
+            </div><!-- /.entry-content -->
+
+            <footer class="post-metadata">
+                <ul>
+                    <li>Published on <time datetime="2011-08-26T17:26:00+02:00">Fri 26 August 2011</time> </li>
+                    <li><a href="http://markos.gaivo.net/articles/address.html">Add your comment</a></li>
+                </ul>
+            </footer>
+        </article>
+        <article class="hentry">
+            <h1 class="entry-title storytitle"><a href="http://markos.gaivo.net/articles/gamification-of-book-reading.html" rel="bookmark" title="Permalink to Gamification of book reading">Gamification of book reading</a></h1>
 
             <div class="entry-content post-text">
                 <div>
@@ -151,12 +242,12 @@ body > footer .mini-logo {display: inline-block;width:97px;height:32px;border:0;
             <footer class="post-metadata">
                 <ul>
                     <li>Published on <time datetime="2011-05-11T17:15:00+02:00">Wed 11 May 2011</time> </li>
-                    <li><a href="./gamification-of-book-reading.html">Add your comment</a></li>
+                    <li><a href="http://markos.gaivo.net/articles/gamification-of-book-reading.html">Add your comment</a></li>
                 </ul>
             </footer>
         </article>
         <article class="hentry">
-            <h1 class="entry-title storytitle"><a href="./typeface-snobbism.html" rel="bookmark" title="Permalink to Typeface snobbism">Typeface snobbism</a></h1>
+            <h1 class="entry-title storytitle"><a href="http://markos.gaivo.net/articles/typeface-snobbism.html" rel="bookmark" title="Permalink to Typeface snobbism">Typeface snobbism</a></h1>
 
             <div class="entry-content post-text">
                 <div>
@@ -217,91 +308,20 @@ body > footer .mini-logo {display: inline-block;width:97px;height:32px;border:0;
             <footer class="post-metadata">
                 <ul>
                     <li>Published on <time datetime="2011-05-08T10:06:00+02:00">Sun 08 May 2011</time> </li>
-                    <li><a href="./typeface-snobbism.html">Add your comment</a></li>
-                </ul>
-            </footer>
-        </article>
-        <article class="hentry">
-            <h1 class="entry-title storytitle"><a href="./impostor-for-django.html" rel="bookmark" title="Permalink to Impostor for Django">Impostor for Django</a></h1>
-
-            <div class="entry-content post-text">
-                <div>
- <p>
-  A class of bugs I really dislike debugging are those that depend on specific data and affect only a very small subset or just one user. Things could sometimes be fixed so much faster if you could just log in as him to see what is happening. Sometimes this is exactly what we do
-  <strong>
-   with his explicit permission
-  </strong>
-  , but I really dislike asking for passwords.
- </p>
- <p>
-  First it inconveniences user. He has to come up with either a new good password or go through two password changes. Second it implicitly teaches wrong behavior. Passwords simply should never be revealed.
- </p>
- <p>
-  That is why I wrote
-  <a href="https://github.com/samastur/Impostor" title="Impostor's home at GitHub">
-   Impostor
-  </a>
-  , a Django app that allows staff members (and only them) to login with their own credentials as a different user. Idea is not mine (kudos goes to
-  <a href="http://nedbatchelder.com/blog/201008/django_superuser_login_trapdoor.html" title="Ned's post where idea comes from">
-   Ned Batchelder
-  </a>
-  ), but I like it. To discourage abuse every such authentication is recorded and can be seen in Django admin interface, but can not be altered from there.
- </p>
- <p>
-  So how does it work in practice?
- </p>
- <p>
-  Lets say that I would need to log in as user
-  <em>
-   fry
-  </em>
-  . To do this I would enter as my username
-  <em>
-   markos as fry,
-  </em>
-  provide my password and voila, I’m him. This has been recorded so anyone with access to ImpostorLog part in admin can see all such cases, mine included.
- </p>
- <p>
-  Impostor may also ease your development by removing need to remember different passwords for testing. This is usually not a problem unless you happen to develop with fake data but real accounts. Like me.
- </p>
- <p>
-  And again for morally challenged out there:
-  <strong>
-   you should never login as somebody else without his explicit permission
-  </strong>
-  .
- </p>
- <p>
-  <strong>
-   Update
-  </strong>
-  : Thanks Ross for reminding me where idea came from. I updated text accordingly.
- </p>
- <div class="zemanta-pixie">
-  <a class="zemanta-pixie-a" href="http://www.zemanta.com/" title="Enhanced by Zemanta">
-   <img alt="Enhanced by Zemanta" class="zemanta-pixie-img" src="http://img.zemanta.com/zemified_e.png?x-id=db7c9f53-423e-4b56-bbe3-b717fde54c16"/>
-  </a>
- </div>
-</div>
-            </div><!-- /.entry-content -->
-
-            <footer class="post-metadata">
-                <ul>
-                    <li>Published on <time datetime="2011-02-22T20:11:00+01:00">Tue 22 February 2011</time> </li>
-                    <li><a href="./impostor-for-django.html">Add your comment</a></li>
+                    <li><a href="http://markos.gaivo.net/articles/typeface-snobbism.html">Add your comment</a></li>
                 </ul>
             </footer>
         </article>
 
 <ul class="paginator">
 		<li class="newer">
-        <a href="./index17.html">&laquo; Newer</a>
+        <a href="http://markos.gaivo.net/articles/index17.html">&laquo; Newer</a>
 		</li>
 		<li class="current">
     18 / 115
 		</li>
 		<li class="older">
-        <a href="./index19.html">Older &raquo;</a>
+        <a href="http://markos.gaivo.net/articles/index19.html">Older &raquo;</a>
 		</li>
 </ul>
 </section><!-- /#content -->
