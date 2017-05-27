@@ -93,6 +93,7 @@ a:hover {
 }
 a img {
     border:0;
+		margin-top: 6px;
 }
 .envelope {
 	position:relative;
@@ -221,6 +222,7 @@ body > header h1 {
     line-height:1;
 }
 
+.post-text h2,
 .post-text h3 {  /* Used for index pages and singular post */
     margin: 1em 0;
     font-size: 1.333333em;
@@ -404,4 +406,7 @@ ol.code code {
 }
 .code li.download, .code li:nth-last-child(2) {
     list-style-type:none;
+}
+.highlight pre {
+	overflow: auto;
 }
