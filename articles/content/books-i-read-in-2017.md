@@ -7,7 +7,7 @@ Tags: review, book, Books
 
 Cannot say much good about 2017, but at least I read a bunch of books. More even than I hoped and fewer than I would if I hadn’t slacked off at the end of last year. Not a bad selection either with no duds, but maybe too many work oriented choices and overall intellectually somewhat shallow.
 
-As always unaffiliated links point to Amazon. They represent mild endorsement and I would also include the two unlinked ones if I could find a place where you can get them online. 
+As every year unaffiliated links point to Amazon. They represent mild endorsement and I would also include the two unlinked ones if I could find a place where you can get them online. Book titles are in the languages in which I read them and translations or originals may be worse or better.
 
 Bold, as always, is reserved for those I would recommend: *Austerlitz, Stories of Your Life And Others*, a sequel *The Arab of the Future 2, Fever Dream* and a non-fiction book *The Mom Test*. Of these I would recommend Austerlitz the most even though I am certain it will not be to everyone’s liking. The second book worthy of a special mention is The Mom Test which I believe is the first exception to my unstated policy (until now) of recommending only fiction and general interest non-fiction books. Even if you are not trying to start a business it is still useful to learn how to get useful information and feedback from people without resorting to manipulation.
 
