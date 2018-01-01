@@ -73,6 +73,32 @@ body > footer .mini-logo {display: inline-block;width:97px;height:32px;border:0;
     </nav>
 
         <article class="hentry">
+            <h1 class="entry-title storytitle"><a href="./web-skills.html" rel="bookmark" title="Permalink to Web skills">Web skills</a></h1>
+
+            <div class="entry-content post-text">
+                <p>While following news about Brexit developments and its impact on FTSE100, my wife and I wondered how many people work for companies that are included in that index. Wikipedia provides <a href="https://en.wikipedia.org/wiki/FTSE_100_Index">a list of FTSE100 companies</a> including their employees numbers, but without the total that interested us.</p>
+<p>I did not feel like summing them manually as it is tedious, slow and error prone. Luckily I do not have to as this is a nice example how we can use even limited web development skills to solve every day problems.</p>
+<p>All I needed to do is select table cells in last column, transform their values to numbers that Javascript understands and sum them.</p>
+<p>On a modern browser this can be accomplished by opening developer tools and executing two lines of code in its console:</p>
+<div class="highlight"><pre><span class="nt">var</span> <span class="nt">nodes</span> <span class="o">=</span> <span class="cp">[]</span><span class="nc">.slice.call</span><span class="o">(</span><span class="nt">document</span><span class="nc">.querySelectorAll</span><span class="o">(</span><span class="s2">&quot;#constituents tbody td:last-child&quot;</span><span class="o">));</span>
+<span class="nt">nodes</span><span class="nc">.map</span><span class="o">((</span><span class="nt">a</span><span class="o">)</span> <span class="o">=&gt;</span> <span class="nt">parseInt</span><span class="o">(</span><span class="nt">a</span><span class="nc">.innerText.replace</span><span class="o">(/,/</span><span class="nt">g</span><span class="o">,</span> <span class="s1">&#39;&#39;</span><span class="o">),</span> <span class="nt">10</span><span class="o">))</span><span class="nc">.reduce</span><span class="o">((</span><span class="nt">a</span><span class="o">,</span> <span class="nt">b</span><span class="o">)=&gt;</span> <span class="nt">a</span><span class="o">+</span><span class="nt">b</span><span class="o">,</span> <span class="nt">0</span><span class="o">);</span>
+</pre></div>
+
+
+<p>What the first line does is select last table cell (<code>td:last-child</code>) in each company row of the table (<code>#constituents tbody</code>). <code>[].slice.call</code> is used to make the resulting list a Javascript array because it is easy to work with.</p>
+<p>In second line we first transform the list of page elements to a list of cell values, by picking them with <code>.innerText</code>, removing comma separators (<code>.replace(/,/g, '')</code>) and changing them to numbers using <code>parseInt</code>. This is immediately followed with a call to <code>reduce</code> which sums all the values in our list.</p>
+<p>Alternatively I could have also used <a href="http://jquery.com">jQuery</a> library already included on Wikipedia pages and not much more code to get to the same result.</p>
+<p>Turns out that according to Wikipedia there are 5,618,496 people working for FTSE100 companies out of 31.59m in total.</p>
+            </div><!-- /.entry-content -->
+
+            <footer class="post-metadata">
+                <ul>
+                    <li>Published on <time datetime="2016-06-27T18:45:31+02:00">Mon 27 June 2016</time> </li>
+                    <li><a href="./web-skills.html">Add your comment</a></li>
+                </ul>
+            </footer>
+        </article>
+        <article class="hentry">
             <h1 class="entry-title storytitle"><a href="./image-diet2-and-pyimagediet.html" rel="bookmark" title="Permalink to image-diet2 and pyimagediet">image-diet2 and pyimagediet</a></h1>
 
             <div class="entry-content post-text">
@@ -123,34 +149,6 @@ body > footer .mini-logo {display: inline-block;width:97px;height:32px;border:0;
                 <ul>
                     <li>Published on <time datetime="2016-01-04T13:56:00+01:00">Mon 04 January 2016</time> </li>
                     <li><a href="./books-i-read-in-2015.html">Add your comment</a></li>
-                </ul>
-            </footer>
-        </article>
-        <article class="hentry">
-            <h1 class="entry-title storytitle"><a href="./2015-review.html" rel="bookmark" title="Permalink to 2015 review">2015 review</a></h1>
-
-            <div class="entry-content post-text">
-                <p>Happy new year everyone!</p>
-<p>I still don't know what to think of 2015. Probably won't until enough time has passed. It certainly was completely unlike what I expected and planned, but at least it significantly improved in its last month.</p>
-<p>I have spent about a third of last year travelling. Work took me to India, Tajikistan and Bolivia. It was physically demanding, especially Tajikistan, where dry climate and poor sanitation led  to weeks of diarrhoea that dried me like a raisin, confirmed that I am indeed in no way an equestrian person and culminating in my first visit to a doctor on my travels. Not only did I not "salvage summer" as <a href="./late-2014-review.html">I hoped</a>, I spent most of autumn recovering from exhaustion.</p>
-<p>Still, even though trips were though and mostly not as successful as we expected, I am glad I got to do them. It was a tremendous learning experience and we met and worked with some amazing people (and some decidedly less so). As much as I enjoy field work, I don't expect to do it in 2016.</p>
-<p>My family spent a lot of time in hospitals and I with them. Any time is really too much, but at least I can solace myself with good outcomes. Still, it would be great if none of us entered one next year.</p>
-<p>There is no need to go through the list of things <a href="./late-2014-review.html">I planned</a> a year ago as I did none of them. Life intervened, but I also did not use first half of the year as well as I should. However last couple of months were great. Reader still lives only in my head, but I did finally rewrite image-diet which is now called <a href="https://github.com/samastur/image-diet2">image-diet2</a> and is in pretty much everything better than previous version. </p>
-<p>I did not learn a new programming language and doubt I will next year, but I did start learning Spanish. Little I know was already useful in Bolivia and by the end of the year I'd like to read a book in Spanish (which I did not manage to pull off this year). I do plan to deepen my knowledge of Python3, ES2015 and ES2016 now that I have more opportunity to use them.</p>
-<p>It was a tumultuous year and yet I feel calmer than ever which I mostly attribute to <a href="http://www.tm.org/">TM</a>. It is difficult to judge its other effects on me as they are clearly not as pronounced, but feeling more peaceful even under stressful circumstances makes meditating worthwhile enough for me.</p>
-<p>I do not know what to expect of 2016, but it feels seminal. The image stuck in my head for last couple of days was my first week at university. Totally clueless and wrong about where  life will take me, but knowing it will be different afterwards. In a way this year feels like one of last opportunities to <strong>easily</strong> redefine who I want to be.</p>
-<p>The biggest change next year will be professional. I have happily worked for Aptivate for four years and hope to continue doing so in the future, but not solely. I will be available for freelance work. <a href="mailto:markos@gaivo.net">Talk to me</a> if you will need help from someone with <a href="http://si.linkedin.com/in/markosamastur">my background</a>.</p>
-<p>Another goal for this year is to present a talk at a conference as I haven't done that in a while. "Competition" for slots at interesting ones is strong enough that giving even one will be a success.</p>
-<p>Other than that I am trying too avoid being too ambitious with my plans as I expect this year to be busy as it is. I plan to do a <a href="./homeconf.html">homeconf</a> once per quarter and read more than I did this year. I will write publicly more as it would be difficult to write less and I am again not bereft of things to share (although most of them are not ready yet).</p>
-<p>I <a href="https://github.com/samastur/vim-notebook">finally</a> hacked <a href="http://bitterjug.com/">Mark's</a> journal script to fit my needs. I can now summon it at any time and commit new entry without switching applications. My plan is mainly to jot down non-obvious problems and solutions I encounter, but I'd love to hear what others write in their work journals.</p>
-<p>Spending few hours each month on tooling seems sensible. I have rejigged my set up late last year and difference is palpable. Development takes less effort with better results. Removing friction from doing the right thing is already a win, but if I can make it easier than doing wrong things, then that's golden.</p>
-<p>In any case I have few firm plans for next year. Getting freelancing off the ground and presenting at conference should keep me busy enough. I expect to be overworked at least some of the time and yet it's been a while since I have felt so optimistic. Let's see how it goes.</p>
-            </div><!-- /.entry-content -->
-
-            <footer class="post-metadata">
-                <ul>
-                    <li>Published on <time datetime="2016-01-03T18:21:00+01:00">Sun 03 January 2016</time> </li>
-                    <li><a href="./2015-review.html">Add your comment</a></li>
                 </ul>
             </footer>
         </article>

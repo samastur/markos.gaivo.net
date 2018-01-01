@@ -74,6 +74,71 @@ body > footer .mini-logo {display: inline-block;width:97px;height:32px;border:0;
     </nav>
 
         <article class="hentry">
+            <h1 class="entry-title storytitle"><a href="../beautiful-soup-is-beautiful-again.html" rel="bookmark" title="Permalink to Beautiful Soup is beautiful again">Beautiful Soup is beautiful again</a></h1>
+
+            <div class="entry-content post-text">
+                <div>
+ <p>
+  This is probably the last part in series of post dealing with Beautiful Soup. At least for a while. Good news is, I found the bug that caused observed weird behavior and it was partly self-inflicted.
+ </p>
+ <p>
+  My problem appeared, because I was using variables that resembled html tags (e.g. imgs, ul…) and didn’t put space after &lt; in statements as good practice dictates. So I  had statements like:
+  <br/>
+  <code>
+   <br/>
+   if (i&lt;imgs.length)
+   <br/>
+  </code>
+ </p>
+ <p>
+  Beautiful Soup relies on
+  <em>
+   sgmllib.py
+  </em>
+  for processing of documents and it’s sgmllib that causes havoc by processing CDATA (found in script and style blocks), when it shouldn’t. But the problem is not really with sgmllib, which has a literal switch to turn processing off. It’s just that Beautiful Soup doesn’t use it.
+ </p>
+ <p>
+  So fix is really adding one line
+  <br/>
+  <code>
+   <br/>
+   self.literal = 1
+   <br/>
+  </code>
+  <br/>
+  after
+  <em>
+   if
+  </em>
+  statement on line 835. Or
+  <a href="http://markos.gaivo.net/blog/code/BeautifulSoup.py" title="Link to fixed version">
+   downloading fixed version
+  </a>
+  .
+ </p>
+ <p>
+  Reading source I also realized another potential pitfall. If you use javascript to inject javascript with document.write method, you’ll probably confuse sgmllib (and hence Beautiful Soup). When processing CDATA, it doesn’t try to understand it, it just copies data until it finds an endtag (&lt;/script&gt; in javascript’s case). But if you’re doing that, you have yourself to blame.
+ </p>
+ <p>
+  <em>
+   BeautifulSoup 2.1.1 is
+   <a href="http://www.crummy.com/software/BeautifulSoup/index.html">
+    out
+   </a>
+   , which fixes my bug and several others. So you better fetch that version.
+  </em>
+ </p>
+</div>
+            </div><!-- /.entry-content -->
+
+            <footer class="post-metadata">
+                <ul>
+                    <li>Published on <time datetime="2005-09-06T10:16:00+02:00">Tue 06 September 2005</time> </li>
+                    <li><a href="../beautiful-soup-is-beautiful-again.html">Add your comment</a></li>
+                </ul>
+            </footer>
+        </article>
+        <article class="hentry">
             <h1 class="entry-title storytitle"><a href="../beautiful-soup-part-2.html" rel="bookmark" title="Permalink to Beautiful Soup - part 2">Beautiful Soup - part 2</a></h1>
 
             <div class="entry-content post-text">
@@ -124,46 +189,6 @@ body > footer .mini-logo {display: inline-block;width:97px;height:32px;border:0;
                 <ul>
                     <li>Published on <time datetime="2005-09-03T14:10:00+02:00">Sat 03 September 2005</time> </li>
                     <li><a href="../uhm-i-dont-like-the-colors.html">Add your comment</a></li>
-                </ul>
-            </footer>
-        </article>
-        <article class="hentry">
-            <h1 class="entry-title storytitle"><a href="../weve-come-to-praise-beautiful-soup.html" rel="bookmark" title="Permalink to We've come to praise Beautiful Soup">We've come to praise Beautiful Soup</a></h1>
-
-            <div class="entry-content post-text">
-                <div>
- <p>
-  So, I’ve been working on this project for some time now, where I’d take user supplied HTML templates and transformed them into new templates, that our system can actually use.
- </p>
- <p>
-  I needed to mangle and change them, but I also didn’t want to require from users things like well-formedness and other stuff that makes sense only to web developers (and sadly not even to all of them). Mainly, I want this stuff to be used by everyone, even those with retarded web editors and if it’s good enough to be displayed in their browsers, it ought to be good enough for me.
- </p>
- <p>
-  This decision was made a lot easier, when I discovered
-  <a href="http://www.crummy.com/software/BeautifulSoup/index.html" title="Homepage of Beautiful Soup python module">
-   Beautiful Soup
-  </a>
-  . It’s a python module that makes  screen-scraping much easier, but what is even more cool, is that it makes changing documents, even those with bad markup, extremely easy.
- </p>
- <p>
-  If you are a python developer, who needs to extract information from or possibly change documents with bad markup, this is the module to use. It will save you time, keep you sane and make you rich. Well, two out of three ain’t bad either.
- </p>
- <p>
-  <em>
-   Update: Beautiful Soup has
-   <a href="beautiful-soup-part-2.html">
-    issues
-   </a>
-   with Javascript code included in HTML.
-  </em>
- </p>
-</div>
-            </div><!-- /.entry-content -->
-
-            <footer class="post-metadata">
-                <ul>
-                    <li>Published on <time datetime="2005-08-31T19:44:00+02:00">Wed 31 August 2005</time> </li>
-                    <li><a href="../weve-come-to-praise-beautiful-soup.html">Add your comment</a></li>
                 </ul>
             </footer>
         </article>
