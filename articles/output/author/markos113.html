@@ -74,6 +74,64 @@ body > footer .mini-logo {display: inline-block;width:97px;height:32px;border:0;
     </nav>
 
         <article class="hentry">
+            <h1 class="entry-title storytitle"><a href="../do-a-lesser-evil.html" rel="bookmark" title="Permalink to Do a lesser evil">Do a lesser evil</a></h1>
+
+            <div class="entry-content post-text">
+                <div>
+ <p>
+  So, Google
+  <a href="http://www.google.com/talk">
+   has an IM
+  </a>
+  now. Nice that they are using Jabber, but it would be even nicer if their server talked to others too. Otherwise this is just another walled garden.
+ </p>
+ <p>
+  True, there’s an offer to federate with others, but this makes as much sense as having connection agreements between email servers. If they want a really open IM, then they should let their server work as Jabber was designed. Everyone can play and set up their own server.
+ </p>
+ <p>
+  On a different note, does anyone know of a good open source Jabber server that can actually handle 10k simultaneous connections and doesn’t go crazy every now and then?
+ </p>
+ <p>
+  <em>
+   Update: According to
+   <a href="http://www.eightypercent.net/Archive/2005/08/23.html#a249">
+    Joe Beda
+   </a>
+   there are 3 reasons for staying close:
+  </em>
+ </p>
+ <ul>
+  <li>
+   Missing code needed for interoperability.
+  </li>
+  <li>
+   They want to develop abuse/spam countermeasures.
+  </li>
+  <li>
+   They want to ensure everybody really talks to everybody.
+  </li>
+ </ul>
+ <p>
+  I can certainly sympathize with first reason, if true (and I have no reason to doubt it). But it’s harder to agree with other two.
+ </p>
+ <p>
+  You already have a contact authorization to limit such behavior. If this is not enough, the correct way would be to be as open as a lot of Jabber servers are and switch on protective measures after you’ve developed them together with Jabber community.
+ </p>
+ <p>
+  It also shouldn’t be up to Google to dictate how open other providers should be. That decision should be left with administrators of Jabber servers and they shouldn’t be coerced into Google’s policy. Basically they should keep the same freedom email server administrators enjoy right now.
+  <br/>
+ </p>
+</div>
+            </div><!-- /.entry-content -->
+
+            <footer class="post-metadata">
+                <ul>
+                    <li>Published on <time datetime="2005-08-25T00:19:00+02:00">Thu 25 August 2005</time> </li>
+                    <li><a href="../do-a-lesser-evil.html">Add your comment</a></li>
+                </ul>
+            </footer>
+        </article>
+        <article class="hentry">
             <h1 class="entry-title storytitle"><a href="../need-for-originality.html" rel="bookmark" title="Permalink to Need for originality">Need for originality</a></h1>
 
             <div class="entry-content post-text">
@@ -142,40 +200,13 @@ body > footer .mini-logo {display: inline-block;width:97px;height:32px;border:0;
                 </ul>
             </footer>
         </article>
-        <article class="hentry">
-            <h1 class="entry-title storytitle"><a href="../looping-through-getelementsbytagname-list.html" rel="bookmark" title="Permalink to Looping through getElementsByTagName list">Looping through getElementsByTagName list</a></h1>
-
-            <div class="entry-content post-text">
-                <div>
- <p>
-  There’s a small quirk that developers hit now and then when they are processing a list of elements returned by getElementsByTagName function.  Usual, but still unexpected behavior is that not all elements of the list have been processed and if you are using javascript console, it might complain that there’s no element in the list at index, where you’re certain it should be.
- </p>
- <p>
-  The reason for this is that returned list of elements is not really a list. It’s a live view of matching elements. If you delete one of them in document, it will be removed from the list as well. List will become shorter and some elements in it may change their position to fill empty slot formerly occupied by deleted element.
- </p>
- <p>
-  Therefore, if you loop through such a list and its possible that you might remove current element, it’s best to loop from last element to the first. This keeps positions stable and predictable even when you delete.
- </p>
- <p>
-  It can be a bit trickier to handle if you add matching elements inside such loop. Sadly there’s no easy solution that would work all the time and you have to take in account your situation.
- </p>
-</div>
-            </div><!-- /.entry-content -->
-
-            <footer class="post-metadata">
-                <ul>
-                    <li>Published on <time datetime="2005-08-20T15:37:00+02:00">Sat 20 August 2005</time> </li>
-                    <li><a href="../looping-through-getelementsbytagname-list.html">Add your comment</a></li>
-                </ul>
-            </footer>
-        </article>
 
 <ul class="paginator">
 		<li class="newer">
         <a href="../author/markos112.html">&laquo; Newer</a>
 		</li>
 		<li class="current">
-    113 / 115
+    113 / 116
 		</li>
 		<li class="older">
         <a href="../author/markos114.html">Older &raquo;</a>

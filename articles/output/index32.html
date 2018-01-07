@@ -73,6 +73,77 @@ body > footer .mini-logo {display: inline-block;width:97px;height:32px;border:0;
     </nav>
 
         <article class="hentry">
+            <h1 class="entry-title storytitle"><a href="./leaving-app-engine-for-now.html" rel="bookmark" title="Permalink to Leaving App Engine - for now">Leaving App Engine - for now</a></h1>
+
+            <div class="entry-content post-text">
+                <div>
+ <p>
+  Jonathan
+  <a href="http://spyced.blogspot.com/2008/08/app-engine-conclusions.html#">
+   wrote
+  </a>
+  his thoughts about
+  <a class="zem_slink" href="http://appengine.google.com" rel="homepage" title="Google App Engine">
+   App Engine
+  </a>
+  . They are well worth a read if you are thinking about using it, but haven’t so far. I used App Engine sporadically for a couple of months on a project of mine, but I finally gave up and ended porting my code to pure
+  <a class="zem_slink" href="http://www.djangoproject.com" rel="homepage" title="Django (web framework)">
+   Django
+  </a>
+  , which admittedly wasn’t too hard to do at this point in time.
+ </p>
+ <p>
+  Some of my reasons match Jonathan’s. There were too many rough edges to feel really productive and too much time was wasted on trying to find out if problem lies in poor documentation, incomplete implementation or stupid programmer. I probably will never get answers to questions like how can a simple Django view that doesn’t do anything beside rendering a static template, consume above expected amount of CPU and risk triggering quota blockage, but right now I really don’t care anymore.
+ </p>
+ <p>
+  Integrating
+  <a class="zem_slink" href="http://www.crunchbase.com/company/google" rel="crunchbase" title="Google">
+   Google
+  </a>
+  accounts is indeed easy, but it is also very shallow to the point of being practically useless.  You basically can only rely on fact that reference to a particular user won’t change. Anything else you may think you know (like an email address), can’t be relied upon. You can’t create an account and you can’t even control login form of your service. In essence you don’t have your own users, you can just offer a service to Google’s.
+ </p>
+ <p>
+  For me this was one of two major reasons for my decision. Every person who would need an account to use what I am building would need to agree to Google’s
+  <a class="zem_slink" href="http://en.wikipedia.org/wiki/Terms_of_service" rel="wikipedia" title="Terms of service">
+   TOS
+  </a>
+  agreement which defines many things, among others the highest level of privacy I can offer.
+ </p>
+ <p>
+  The other reason was that current limitations of App Engine really lead you to rely heavily on provided APIs, which may be similar to stuff out there (like Django), but aren’t anywhere close to being a drop-in replacement. This can be — depending on application you’re writing — a heavy investement in a platform you don’t control a bit.
+ </p>
+ <p>
+  Put more profanely, you are a Google’s bitch.
+ </p>
+ <p>
+  Having said all this, I do think App Engine is a very valuable service. If you want to write a mini-app, a web tool like
+  <a href="http://simonwillison.net/" title="Simon's homepage">
+   Simon
+  </a>
+  <a href="http://simonwillison.net/2008/Jul/29/jsonhead/" title="Post about json-head service">
+   does
+  </a>
+  , then App Engine is brilliant. You can do this easily with little deployment and zero administration hassle. In fact I can’t think of any other service better suited to this task.
+ </p>
+ <p>
+  I’m sure this is not the only scenario in which App Engine makes sense and there are others I haven’t named or thought of. Issues, like accounts, can with some effort be solved now. But App Engine also isn’t (yet) what some of us were hoping for and it’s prudent to really think through what you want, what you need and what App Engine actually offers.
+ </p>
+ <div class="zemanta-pixie">
+  <a class="zemanta-pixie-a" href="http://reblog.zemanta.com/zemified/28ddae75-72ba-4a45-892e-7841f893395b/" title="Zemified by Zemanta">
+   <img alt="Reblog this post [with Zemanta]" class="zemanta-pixie-img" src="http://img.zemanta.com/reblog_e.png?x-id=28ddae75-72ba-4a45-892e-7841f893395b" style="border: medium none; float: right;"/>
+  </a>
+ </div>
+</div>
+            </div><!-- /.entry-content -->
+
+            <footer class="post-metadata">
+                <ul>
+                    <li>Published on <time datetime="2008-08-30T21:50:00+02:00">Sat 30 August 2008</time> </li>
+                    <li><a href="./leaving-app-engine-for-now.html">Add your comment</a></li>
+                </ul>
+            </footer>
+        </article>
+        <article class="hentry">
             <h1 class="entry-title storytitle"><a href="./hiding-everything-but-editor-on-wordpress-with-greasemonkey.html" rel="bookmark" title="Permalink to Hiding everything but editor on WordPress with Greasemonkey">Hiding everything but editor on WordPress with Greasemonkey</a></h1>
 
             <div class="entry-content post-text">
@@ -186,67 +257,13 @@ class Unauthorized(Exception):
                 </ul>
             </footer>
         </article>
-        <article class="hentry">
-            <h1 class="entry-title storytitle"><a href="./going-home.html" rel="bookmark" title="Permalink to Going home">Going home</a></h1>
-
-            <div class="entry-content post-text">
-                <div>
- <p>
-  EuroPython 2008 is over. I packed and now I am waiting to leave for the airport to catch afternoon flight back home. Sadly I don’t have time to attend sprints and since I only recently started to write python again, I probably wouldn’t be of much use anyhow.
- </p>
- <p>
-  Conference itself was great. Smaller than web conferences I usually attend with a more friendly, homey feeling, but with plenty of excellent talks where I learned a lot. I also met a bunch of friendly interesting people and had in general a wonderful time.
- </p>
- <p>
-  It was also interesting to compare the whole experience with other conferences I go to. Apple is popular, but there are fewer
-  <a class="zem_slink" href="http://en.wikipedia.org/wiki/Macintosh" rel="wikipedia" title="Macintosh">
-   Macs
-  </a>
-  than at web events.
-  <a class="zem_slink" href="http://www.ubuntu.com/" rel="homepage" title="Ubuntu (operating system)">
-   Ubuntu
-  </a>
-  seems to completely dominate
-  <a class="zem_slink" href="http://en.wikipedia.org/wiki/Linux" rel="wikipedia" title="Linux">
-   Linux
-  </a>
-  crowd (me included), since it was the only distribution I actually have seen and Windows is in minority. Everyone is much more willing to participate to the point, where sadly not all who wanted to present a Lightning talk on last day had the opportunity to do so.
- </p>
- <p>
-  I certainly hope to attend EuroPython 2009, which will be in Birmingham around this time next year. At the end I also have a present. Yesterday I got a license for
-  <a class="zem_slink" href="http://www.wingware.com" rel="homepage" title="Wing IDE">
-   Wing IDE
-  </a>
-  Professional and since I don’t need one, I’ll give it to the first person who expresses a wish to have it in comments and leaves his/her email address in relevant part of comment form.
- </p>
- <p>
-  <strong>
-   Update
-  </strong>
-  : License is gone, sent to a new owner.
- </p>
- <div class="zemanta-pixie" style="margin-top: 10px; height: 15px;">
-  <a class="zemanta-pixie-a" href="http://reblog.zemanta.com/zemified/a6262891-3f96-4b97-8bf6-949cb83cba0e/" title="Zemified by Zemanta">
-   <img alt="Zemanta Pixie" class="zemanta-pixie-img" src="http://img.zemanta.com/reblog_e.png?x-id=a6262891-3f96-4b97-8bf6-949cb83cba0e" style="border: medium none; float: right;"/>
-  </a>
- </div>
-</div>
-            </div><!-- /.entry-content -->
-
-            <footer class="post-metadata">
-                <ul>
-                    <li>Published on <time datetime="2008-07-10T10:02:00+02:00">Thu 10 July 2008</time> </li>
-                    <li><a href="./going-home.html">Add your comment</a></li>
-                </ul>
-            </footer>
-        </article>
 
 <ul class="paginator">
 		<li class="newer">
         <a href="./index31.html">&laquo; Newer</a>
 		</li>
 		<li class="current">
-    32 / 115
+    32 / 116
 		</li>
 		<li class="older">
         <a href="./index33.html">Older &raquo;</a>

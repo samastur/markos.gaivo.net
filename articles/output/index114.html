@@ -73,6 +73,33 @@ body > footer .mini-logo {display: inline-block;width:97px;height:32px;border:0;
     </nav>
 
         <article class="hentry">
+            <h1 class="entry-title storytitle"><a href="./looping-through-getelementsbytagname-list.html" rel="bookmark" title="Permalink to Looping through getElementsByTagName list">Looping through getElementsByTagName list</a></h1>
+
+            <div class="entry-content post-text">
+                <div>
+ <p>
+  There’s a small quirk that developers hit now and then when they are processing a list of elements returned by getElementsByTagName function.  Usual, but still unexpected behavior is that not all elements of the list have been processed and if you are using javascript console, it might complain that there’s no element in the list at index, where you’re certain it should be.
+ </p>
+ <p>
+  The reason for this is that returned list of elements is not really a list. It’s a live view of matching elements. If you delete one of them in document, it will be removed from the list as well. List will become shorter and some elements in it may change their position to fill empty slot formerly occupied by deleted element.
+ </p>
+ <p>
+  Therefore, if you loop through such a list and its possible that you might remove current element, it’s best to loop from last element to the first. This keeps positions stable and predictable even when you delete.
+ </p>
+ <p>
+  It can be a bit trickier to handle if you add matching elements inside such loop. Sadly there’s no easy solution that would work all the time and you have to take in account your situation.
+ </p>
+</div>
+            </div><!-- /.entry-content -->
+
+            <footer class="post-metadata">
+                <ul>
+                    <li>Published on <time datetime="2005-08-20T15:37:00+02:00">Sat 20 August 2005</time> </li>
+                    <li><a href="./looping-through-getelementsbytagname-list.html">Add your comment</a></li>
+                </ul>
+            </footer>
+        </article>
+        <article class="hentry">
             <h1 class="entry-title storytitle"><a href="./when-to-release-your-product.html" rel="bookmark" title="Permalink to When to release your product?">When to release your product?</a></h1>
 
             <div class="entry-content post-text">
@@ -150,34 +177,13 @@ body > footer .mini-logo {display: inline-block;width:97px;height:32px;border:0;
                 </ul>
             </footer>
         </article>
-        <article class="hentry">
-            <h1 class="entry-title storytitle"><a href="./back-from-vacation.html" rel="bookmark" title="Permalink to Back from vacation">Back from vacation</a></h1>
-
-            <div class="entry-content post-text">
-                <div>
- <p>
-  Back from Ireland, a place everyone should visit at least once. If you have time, take a few days to explore Dublin and travel to west coast. Those like me, who find abundance of national pride and flags creepy, might skip Northern Ireland.
- </p>
- <p>
-  New development posts might take few days to appear, while I catch up with everything.
- </p>
-</div>
-            </div><!-- /.entry-content -->
-
-            <footer class="post-metadata">
-                <ul>
-                    <li>Published on <time datetime="2005-07-27T15:39:00+02:00">Wed 27 July 2005</time> </li>
-                    <li><a href="./back-from-vacation.html">Add your comment</a></li>
-                </ul>
-            </footer>
-        </article>
 
 <ul class="paginator">
 		<li class="newer">
         <a href="./index113.html">&laquo; Newer</a>
 		</li>
 		<li class="current">
-    114 / 115
+    114 / 116
 		</li>
 		<li class="older">
         <a href="./index115.html">Older &raquo;</a>
