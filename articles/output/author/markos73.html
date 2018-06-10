@@ -74,6 +74,37 @@ body > footer .mini-logo {display: inline-block;width:97px;height:32px;border:0;
     </nav>
 
         <article class="hentry">
+            <h1 class="entry-title storytitle"><a href="../universal-encoding-detector.html" rel="bookmark" title="Permalink to Universal Encoding Detector">Universal Encoding Detector</a></h1>
+
+            <div class="entry-content post-text">
+                <div>
+ <p>
+  Few months ago, while exporting vCards from Apple’s Address Book (which uses UTF-16 instead of to me more common UTF-8), I discovered that there’s really no general agreement on which encoding should be used for storing vCards. It was quite a disheartening discovery, since you can’t get this information from a filesystem and it’s difficult to transform encoding to a uniform one, if you don’t know the encoding of the source.
+ </p>
+ <p>
+  I decided to tackle this problem once other problems were solved and I’m happy to say my procrastination payed off. Mark Pilgrim wrote another excellent
+  <a href="http://chardet.feedparser.org/" title="Universal Encoding Detector">
+   module
+  </a>
+  which solves my problem better than I ever could.
+ </p>
+ <p>
+  Universal Encoding Detector is a python port of code used by Mozilla to accomplish the same thing and is really very simple to use. Obviously it can’t be perfect since it’s not possible detect encoding completely reliably. But it works quite well and if you need such functionality, you should really give it a try.
+ </p>
+ <p>
+  And people say laziness doesn’t pay off.
+ </p>
+</div>
+            </div><!-- /.entry-content -->
+
+            <footer class="post-metadata">
+                <ul>
+                    <li>Published on <time datetime="2006-03-17T22:22:00+01:00">Fri 17 March 2006</time> </li>
+                    <li><a href="../universal-encoding-detector.html">Add your comment</a></li>
+                </ul>
+            </footer>
+        </article>
+        <article class="hentry">
             <h1 class="entry-title storytitle"><a href="../messing-with-other-peoples-code.html" rel="bookmark" title="Permalink to Messing with other people's code">Messing with other people's code</a></h1>
 
             <div class="entry-content post-text">
@@ -135,48 +166,6 @@ body > footer .mini-logo {display: inline-block;width:97px;height:32px;border:0;
                 </ul>
             </footer>
         </article>
-        <article class="hentry">
-            <h1 class="entry-title storytitle"><a href="../microformats-and-web-clipboard.html" rel="bookmark" title="Permalink to Microformats and web clipboard">Microformats and web clipboard</a></h1>
-
-            <div class="entry-content post-text">
-                <div>
- <p>
-  <a href="http://www.friedcellcollective.net/">
-   Fry
-  </a>
-  gave
-  <a href="http://web.zen.si/archives/2005/10/spletne-urice-2-mikroformati/">
-   a talk
-  </a>
-  about microformats last October and some people back then were doubtful about their usefulness. Yesterday I read
-  <a href="http://spaces.msn.com/rayozzie/Blog/cns!FB3017FBB9B2E142!285.entry">
-   a post
-  </a>
-  by Ray Ozzie on the need for web clipboards and accompanying formats and my immediate thought was that microformats were perfect for this use.
- </p>
- <p>
-  Ray Ozzie talks about a need for easy interoperability and exchange of data between web sites and I believe most if not all of us who are working towards this goal agree that feeds (RSS or whatever) by themselves are not enough. Web clipboards seem to be a big step in right direction.
- </p>
- <p>
-  The post itself has since been updated with more information and a
-  <a href="http://spaces.msn.com/editorial/rayozzie/demo/liveclip/liveclipsample/clipboardexample.html">
-   great demo
-  </a>
-  how microformats could be used as a clipboard format for greater interoperability between different web services. You should check it out even if you don’t have doubts about the need for microformats.
- </p>
- <p>
-  I find it odd that these days I get more excited by stuff that’s coming out of Microsoft then out of Google.
- </p>
-</div>
-            </div><!-- /.entry-content -->
-
-            <footer class="post-metadata">
-                <ul>
-                    <li>Published on <time datetime="2006-03-09T14:16:00+01:00">Thu 09 March 2006</time> </li>
-                    <li><a href="../microformats-and-web-clipboard.html">Add your comment</a></li>
-                </ul>
-            </footer>
-        </article>
 
 <ul class="paginator">
 		<li class="newer">
@@ -193,7 +182,8 @@ body > footer .mini-logo {display: inline-block;width:97px;height:32px;border:0;
 
     <footer>
         <ul>
-            <li>&copy; 2005-2017 Marko Samastur</li>
+            <li>&copy; 2005-2018 Marko Samastur</li>
+						<li><a href="articles/privacy-policy.html">Privacy policy</a></li>
             <li><a href="/articles/feeds/rss.xml" rel="alternate" title="A notch above a monkey Full RSS Feed">Entries feed</a></li>
         </ul>
         <a href="/" class="mini-logo">Back to homepage</a>

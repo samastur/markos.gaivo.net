@@ -136,10 +136,7 @@ body > footer li {
     }
     body > footer li {
         display: inline-block;
-        margin:.5em 0 0;
-    }
-    body > footer li:first-child {
-        margin-right: 3em;
+        margin:.5em 2em 0 0;
     }
     body > footer .mini-logo {
         float: right;

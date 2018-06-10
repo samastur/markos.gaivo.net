@@ -74,6 +74,55 @@ body > footer .mini-logo {display: inline-block;width:97px;height:32px;border:0;
     </nav>
 
         <article class="hentry">
+            <h1 class="entry-title storytitle"><a href="../updated-sgmllib.html" rel="bookmark" title="Permalink to Updated sgmllib">Updated sgmllib</a></h1>
+
+            <div class="entry-content post-text">
+                <div>
+ <p>
+  I
+  <a href="sgmllibpy-parser-woes.html">
+   wrote
+  </a>
+  about a sgmllib problem a few days ago. I still may be a dolt and my code certainly needed fixing, but the bug remained nevertheless.
+ </p>
+ <p>
+  Hence I’ve made some small changes to sgmllib that fix problems I’ve had. New version, which passes all unit tests included in Python distribution, can be found
+  <a href="http://markos.gaivo.net/examples/sgmllib/sgmllib.py" title="fixed sgmllib.py">
+   here
+  </a>
+  and I’d really appreciate if users of sgmllib could give it a go (that includes users of htmllib and BeautifulSoup).
+ </p>
+ <p>
+  <strong>
+   Update:
+  </strong>
+  As suggested I’ve added an
+  <a href="http://markos.gaivo.net/examples/sgmllib/test_sgmllib.py" title="Test cases for new library">
+   updated version
+  </a>
+  of test_sgmllib.py, which includes an example where the old library fails and new one doesn’t.
+ </p>
+ <p>
+  <strong>
+   Update 2
+  </strong>
+  : It
+  <a href="sgmllibpy-parser-woes.html">
+   seems
+  </a>
+  this is valid, even required SGML behavior.
+ </p>
+</div>
+            </div><!-- /.entry-content -->
+
+            <footer class="post-metadata">
+                <ul>
+                    <li>Published on <time datetime="2006-04-01T15:05:00+02:00">Sat 01 April 2006</time> </li>
+                    <li><a href="../updated-sgmllib.html">Add your comment</a></li>
+                </ul>
+            </footer>
+        </article>
+        <article class="hentry">
             <h1 class="entry-title storytitle"><a href="../outage.html" rel="bookmark" title="Permalink to Outage">Outage</a></h1>
 
             <div class="entry-content post-text">
@@ -147,34 +196,6 @@ body > footer .mini-logo {display: inline-block;width:97px;height:32px;border:0;
                 </ul>
             </footer>
         </article>
-        <article class="hentry">
-            <h1 class="entry-title storytitle"><a href="../single-post-trackback-spam.html" rel="bookmark" title="Permalink to Single post trackback spam">Single post trackback spam</a></h1>
-
-            <div class="entry-content post-text">
-                <div>
- <p>
-  I’m a coeditor of another blog and like most blogs we have some problems with comment spam (if you’re using WordPress, you really ought to give
-  <a href="http://akismet.com/" title="Spam prevention for WordPress">
-   akismet
-  </a>
-  a go). In general I don’t mind it too much and take it as a price of self-expression.
- </p>
- <p>
-  But we get spam that drives me nuts, because it’s something that could be permanently fixed. You see, ALL of our trackback spam is directed to the same blog post. So, if I could turn trackback off only on that post, it would cut our spam to more than a half and leave my nerves intact.
- </p>
- <p>
-  I don’t think it’s doable with default installation of WordPress 1.5, but if any of you is using a plugin that support this functionality, I’d appreciate it greatly if you could let me know.
- </p>
-</div>
-            </div><!-- /.entry-content -->
-
-            <footer class="post-metadata">
-                <ul>
-                    <li>Published on <time datetime="2006-03-26T21:34:00+02:00">Sun 26 March 2006</time> </li>
-                    <li><a href="../single-post-trackback-spam.html">Add your comment</a></li>
-                </ul>
-            </footer>
-        </article>
 
 <ul class="paginator">
 		<li class="newer">
@@ -191,7 +212,8 @@ body > footer .mini-logo {display: inline-block;width:97px;height:32px;border:0;
 
     <footer>
         <ul>
-            <li>&copy; 2005-2017 Marko Samastur</li>
+            <li>&copy; 2005-2018 Marko Samastur</li>
+						<li><a href="articles/privacy-policy.html">Privacy policy</a></li>
             <li><a href="/articles/feeds/rss.xml" rel="alternate" title="A notch above a monkey Full RSS Feed">Entries feed</a></li>
         </ul>
         <a href="/" class="mini-logo">Back to homepage</a>
