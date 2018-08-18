@@ -15,6 +15,8 @@
 
 {% endblock %}
 
+{% block title %}{{ article.title }} | {{ SITENAME }}{% endblock %}
+
 {% block content %}
 <header id="banner" class="body">
     <h1><a href="{{ SITEURL }}/">{{ SITENAME }}</a> &raquo; {{ article.title }}</h1>
