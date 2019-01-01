@@ -62,7 +62,7 @@ body > footer .mini-logo {display: inline-block;width:97px;height:32px;border:0;
 
 <section class="envelope posts">
     <header>
-        <h1><a href="../">A notch above a monkey <strong></strong></a></h1>
+        <h1><a href="http://markos.gaivo.net/articles/">A notch above a monkey <strong></strong></a></h1>
     </header><!-- /#banner -->
 
     <nav class="colophon">
@@ -74,7 +74,70 @@ body > footer .mini-logo {display: inline-block;width:97px;height:32px;border:0;
     </nav>
 
         <article class="hentry">
-            <h1 class="entry-title storytitle"><a href="../on-tumblr.html" rel="bookmark" title="Permalink to On Tumblr">On Tumblr</a></h1>
+            <h1 class="entry-title storytitle"><a href="http://markos.gaivo.net/articles/beta-prefix-algorithm-for-css.html" rel="bookmark" title="Permalink to -beta- prefix algorithm for CSS">-beta- prefix algorithm for CSS</a></h1>
+
+            <div class="entry-content post-text">
+                <div>
+ <p>
+  These have been eventful couple of days for web developers. CSS Working Group chair
+  <a href="http://www.glazman.org/weblog/dotclear/index.php?post/2012/02/09/CALL-FOR-ACTION%3A-THE-OPEN-WEB-NEEDS-YOU-NOW">
+   called on everyone
+  </a>
+  to use all (most?) vendor prefixes and stop making websites for WebKit which is becoming a new (mobile) IE6. Responses have been numerous,
+  <a href="http://www.quirksmode.org/blog/archives/2012/02/the_vendor_pref.html" title="PPK's first article about prefixes">
+   including
+  </a>
+  <a href="http://www.quirksmode.org/blog/archives/2012/02/alpha_and_beta.html" title="PPK's follow up to first article">
+   ppk
+  </a>
+  who in his usual obnoxious manner
+  <sup>
+   <a href="#beta-prefix-note-1" id="beta-prefix-1">
+    [1]
+   </a>
+  </sup>
+  made some good points. Testing on mobile devices is an unsolved problem (who wants or can afford to buy so many almost immediately obsolete gadgets?) and introducing -beta- (maybe also -alpha-) prefix would simplify our lives while keeping most benefits of vendor prefixes.
+ </p>
+ <p>
+  I like -beta- idea and I think adding -alpha- might be even better. There’s still a problem of resolving syntax conflicts between different implementation which I think has a simple solution that closely mimics what browsers already do:
+ </p>
+ <p>
+  <em>
+   When parsing CSS browsers
+  </em>
+  <em>
+   should apply the last matching -beta-/-alpha- directive they fully understand.
+  </em>
+ </p>
+ <p>
+  Browsers already ignore directives they don’t understand and they apply last directive found when there are multiple candidates for a DOM node.
+ </p>
+ <p>
+  Such behavior would give us less CSS code to write and maintain, have predictable behavior and keep browser experimentation without favoring one. I have troubles finding negative sides of this approach, but do let me know if you can think of one.
+ </p>
+ <ol>
+  <li id="beta-prefix-note-1">
+   I deeply dislike his complaining about simplistic view of others while himself generalizing and name-calling (the lazy and stupid lot of us). Alas it’s not good to read only people you like and agree with.
+   <a href="#beta-prefix-1">
+    ↩
+   </a>
+  </li>
+  <li>
+   Almost everything I write on this blog has an intended  audience of one:  me (no, really!). Why I sometimes write posts like  this, which don’t, is a mistery  since their expected and actual effect on anyone  is…none.
+  </li>
+ </ol>
+</div>
+            </div><!-- /.entry-content -->
+
+            <footer class="post-metadata">
+                <ul>
+                    <li>Published on <time datetime="2012-02-10T18:21:00+01:00">Fri 10 February 2012</time> </li>
+                    <li><a href="http://markos.gaivo.net/articles/beta-prefix-algorithm-for-css.html">Add your comment</a></li>
+                </ul>
+            </footer>
+        </article>
+        <article class="hentry">
+            <h1 class="entry-title storytitle"><a href="http://markos.gaivo.net/articles/on-tumblr.html" rel="bookmark" title="Permalink to On Tumblr">On Tumblr</a></h1>
 
             <div class="entry-content post-text">
                 <div>
@@ -138,12 +201,12 @@ body > footer .mini-logo {display: inline-block;width:97px;height:32px;border:0;
             <footer class="post-metadata">
                 <ul>
                     <li>Published on <time datetime="2012-02-10T13:02:00+01:00">Fri 10 February 2012</time> </li>
-                    <li><a href="../on-tumblr.html">Add your comment</a></li>
+                    <li><a href="http://markos.gaivo.net/articles/on-tumblr.html">Add your comment</a></li>
                 </ul>
             </footer>
         </article>
         <article class="hentry">
-            <h1 class="entry-title storytitle"><a href="../books-i-read-in-2011.html" rel="bookmark" title="Permalink to The books I read in 2011">The books I read in 2011</a></h1>
+            <h1 class="entry-title storytitle"><a href="http://markos.gaivo.net/articles/books-i-read-in-2011.html" rel="bookmark" title="Permalink to The books I read in 2011">The books I read in 2011</a></h1>
 
             <div class="entry-content post-text">
                 <div>
@@ -366,90 +429,20 @@ body > footer .mini-logo {display: inline-block;width:97px;height:32px;border:0;
             <footer class="post-metadata">
                 <ul>
                     <li>Published on <time datetime="2012-01-02T17:21:00+01:00">Mon 02 January 2012</time> </li>
-                    <li><a href="../books-i-read-in-2011.html">Add your comment</a></li>
-                </ul>
-            </footer>
-        </article>
-        <article class="hentry">
-            <h1 class="entry-title storytitle"><a href="../2011-review.html" rel="bookmark" title="Permalink to 2011 review">2011 review</a></h1>
-
-            <div class="entry-content post-text">
-                <div>
- <p>
-  It’s hard to judge importance of events as they are unfolding or soon afterwards, but 2011 feels in many ways like a historical year and I will be amazed if it doesn’t prove to be such. Arab spring and
-  <a href="http://www.bbc.co.uk/news/business-16290598">
-   unresolved eurozone crisis
-  </a>
-  alone practically guarantee that this will be a year to remember although it’s too soon to say in what light. There are definitely plenty of good reasons to worry, but there always are.
- </p>
- <p>
-  This year was also a year of big personal changes. I left
-  <a href="http://www.zemanta.com/" title="Zemanta's homepage">
-   Zemanta
-  </a>
-  in summer and went on sabbatical. Leaving a company in  the middle of economic crisis doesn’t sound like a prudent idea, but I’ve yet to regret it. I started contributing open source before I left, but having more time certainly helped me do more of it and with a bit of luck I may even finish first version of my web Instapaper client before this year runs out.
- </p>
- <p>
-  I built
-  <a href="http://supervizor.kpk-rs.si/" title="Supervizor's homepage">
-   Supervizor
-  </a>
-  with Primož, which is a project I am most proud of. We haven’t done everything we set to do yet and we unlikely will this year, but I hope that in early 2012 Supervizor’s data will become easily accessible.
- </p>
- <p>
-  There were lots of experiments on myself. Having a list of possible (and finished) projects on wall feels liberating. Counting books I read
-  <a href="gamification-of-book-reading.html" title="My post on gamification of reading">
-   doesn’t work
-  </a>
-  , but digital sabbath is great. I left Twitter for better use of my time, but it’s really too soon to tell. I  learned and did a lot, more than I expected, but as always less than I hoped. Somewhat unintentionally we reduced our carbon footprint further even though we traveled a lot.
- </p>
- <p>
-  I also finally found time to really reflect on what I want to do and my
-  <a href="http://codinginparadise.org/weblog/2007/08/creating-personal-research-agenda.html" title="Brad Neuberg's post on creating personal reasearch agenda">
-   personal research agenda
-  </a>
-  is getting more of a shape. I want to work most on use of open data to improve civic engagement and exploring
-  <a href="reading-sources.html" title="Link to definition in second annotation">
-   social software for introverts
-  </a>
-  .
- </p>
- <p>
-  So what will 2012 bring?
- </p>
- <p>
-  Nobody really knows, but this year it became clear to me that I want my work to be more socially engaged and I am thrilled I got an opportunity to join amazing people at
-  <a href="http://www.aptivate.org/" title="Aptivate's homepage">
-   Aptivate
-  </a>
-  for I hope a long time. I’ll continue to work on a so far semi-public open data project which I am sure will become public soon. I plan to read lots of books, but start less than two new projects. I am sure I won’t finish everything I set to do, but that’s alright. We always overestimate what we can do in a year and underestimate what we can do in ten so I  just need to keep going.
- </p>
- <p>
-  And surely I will continue to worry. There are only more reasons to despair over environment and eurozone of today might not be around this time next year. However we are not pilling on canned food yet so optimist in me obviously hasn’t completely died yet.
- </p>
- <p>
-  But first I will enjoy holidays. I hope you will too and I wish you a happy new year.
- </p>
-</div>
-            </div><!-- /.entry-content -->
-
-            <footer class="post-metadata">
-                <ul>
-                    <li>Published on <time datetime="2011-12-23T10:31:00+01:00">Fri 23 December 2011</time> </li>
-                    <li><a href="../2011-review.html">Add your comment</a></li>
+                    <li><a href="http://markos.gaivo.net/articles/books-i-read-in-2011.html">Add your comment</a></li>
                 </ul>
             </footer>
         </article>
 
 <ul class="paginator">
 		<li class="newer">
-        <a href="../author/markos14.html">&laquo; Newer</a>
+        <a href="http://markos.gaivo.net/articles/author/markos14.html">&laquo; Newer</a>
 		</li>
 		<li class="current">
     15 / 116
 		</li>
 		<li class="older">
-        <a href="../author/markos16.html">Older &raquo;</a>
+        <a href="http://markos.gaivo.net/articles/author/markos16.html">Older &raquo;</a>
 		</li>
 </ul>
 </section><!-- /#content -->

@@ -62,7 +62,7 @@ body > footer .mini-logo {display: inline-block;width:97px;height:32px;border:0;
 
 <section class="envelope posts">
     <header>
-        <h1><a href="../">A notch above a monkey <strong></strong></a></h1>
+        <h1><a href="http://markos.gaivo.net/articles/">A notch above a monkey <strong></strong></a></h1>
     </header><!-- /#banner -->
 
     <nav class="colophon">
@@ -74,7 +74,52 @@ body > footer .mini-logo {display: inline-block;width:97px;height:32px;border:0;
     </nav>
 
         <article class="hentry">
-            <h1 class="entry-title storytitle"><a href="../media-2006.html" rel="bookmark" title="Permalink to @media 2006">@media 2006</a></h1>
+            <h1 class="entry-title storytitle"><a href="http://markos.gaivo.net/articles/xmlhttprequest-and-status-0.html" rel="bookmark" title="Permalink to XMLHttpRequest and status 0">XMLHttpRequest and status 0</a></h1>
+
+            <div class="entry-content post-text">
+                <div>
+ <p>
+  Have you ever encountered a problem with XMLHttpRequest (XHR), where its handler couldn’t read request status or the status was set to 0?
+ </p>
+ <p>
+  Well, I did, a few days ago.
+ </p>
+ <p>
+  It took me a while to find the cause of this problem and in my case it was form submission. It’s stupid to use AJAX to submit a form, but nevertheless it’s what I’m doing for dubious reasons that I’ll probably be ashamed of in a few months or years. And it used to work fine, until I changed submit buttons from
+  <em>
+   type=”button”
+  </em>
+  to
+  <em>
+   type=”image”
+  </em>
+  .
+ </p>
+ <p>
+  First type needs javascript to do anything worthwhile, while second type submits form when pressed, which I somehow missed. So, when I thought I was sending only a normal XHR request, I was actually also submitting my form which lead to described strange behavior.
+ </p>
+ <p>
+  I have no idea why, since XHR state change handler shouldn’t be triggered by other requests, but it was and it was fixed by simply canceling form submission in image button
+  <em>
+   onclick
+  </em>
+  handler.
+ </p>
+ <p>
+  If you ever encounter this problem, check your forms and their submit buttons. It’s very likely that solution is hiding there.
+ </p>
+</div>
+            </div><!-- /.entry-content -->
+
+            <footer class="post-metadata">
+                <ul>
+                    <li>Published on <time datetime="2006-01-19T19:23:00+01:00">Thu 19 January 2006</time> </li>
+                    <li><a href="http://markos.gaivo.net/articles/xmlhttprequest-and-status-0.html">Add your comment</a></li>
+                </ul>
+            </footer>
+        </article>
+        <article class="hentry">
+            <h1 class="entry-title storytitle"><a href="http://markos.gaivo.net/articles/media-2006.html" rel="bookmark" title="Permalink to @media 2006">@media 2006</a></h1>
 
             <div class="entry-content post-text">
                 <div>
@@ -101,12 +146,12 @@ body > footer .mini-logo {display: inline-block;width:97px;height:32px;border:0;
             <footer class="post-metadata">
                 <ul>
                     <li>Published on <time datetime="2006-01-05T16:46:00+01:00">Thu 05 January 2006</time> </li>
-                    <li><a href="../media-2006.html">Add your comment</a></li>
+                    <li><a href="http://markos.gaivo.net/articles/media-2006.html">Add your comment</a></li>
                 </ul>
             </footer>
         </article>
         <article class="hentry">
-            <h1 class="entry-title storytitle"><a href="../happy-holidays.html" rel="bookmark" title="Permalink to Happy holidays">Happy holidays</a></h1>
+            <h1 class="entry-title storytitle"><a href="http://markos.gaivo.net/articles/happy-holidays.html" rel="bookmark" title="Permalink to Happy holidays">Happy holidays</a></h1>
 
             <div class="entry-content post-text">
                 <div>
@@ -171,65 +216,20 @@ body > footer .mini-logo {display: inline-block;width:97px;height:32px;border:0;
             <footer class="post-metadata">
                 <ul>
                     <li>Published on <time datetime="2005-12-27T08:24:00+01:00">Tue 27 December 2005</time> </li>
-                    <li><a href="../happy-holidays.html">Add your comment</a></li>
-                </ul>
-            </footer>
-        </article>
-        <article class="hentry">
-            <h1 class="entry-title storytitle"><a href="../which-famous-dutch-painter-was-also-a-diplomat.html" rel="bookmark" title="Permalink to Which famous dutch painter was also a diplomat?">Which famous dutch painter was also a diplomat?</a></h1>
-
-            <div class="entry-content post-text">
-                <div>
- <p>
-  This has been bugging me ever since I’ve heard a podcast of Vinod Khosla at Web 2.0 conference a couple of days ago, who touched on a theme that seems to crop up in Slovenia every now and then. He said something along the lines of there’s less need for teaching facts to children today, because they can find them online. Instead they should learn how to think critically and how to sort through information.
- </p>
- <p>
-  No arguement from me about the thinking and sorting part. They are skills definitely needed today more than ever, which seem to be sorely lacking in many, if not most people. Improving them can only be better for them and society as a whole.
- </p>
- <p>
-  I disagree strongly about the need to teach facts though. Current approach to teach them may be wrong, but if anything, we know too few and not too many of them.
- </p>
- <p>
-  First problem is that you need to know something to be able to ask a question at all. If I take the title question as an example, there are three keywords in it: dutch, painter and diplomat. Dropping any of them would probably lead to a different result and likely never to the same one.
- </p>
- <p>
-  The less we know, less questions we can dare to ask. Without facts, there’ll be less we’ll be able to imagine. Ideas are not something that comes from a thin air. They are offspring of the things we already know. They may be a descendant of a previous idea, but if we trace it back far enough we’ll sooner or later find an ancestor which will be a fact.
- </p>
- <p>
-  We might also know enough to get by in our every day life, but in a society where creativity is growing in importance, it’s probably not enough. Knowledge is the soil on which creativity grows. Richer the soil, richer its crop.
- </p>
- <p>
-  What we know doesn’t only limit to what we can aspire, it also defines who we already are. It’s easy to think of knowledge as something that can be separated into useful and useless. Useful being any piece of knowledge that we get to directly apply at least now and then (like basic arithmetics or driving a car) or clairvoyantly know we’ll need some day and useless being everything else. It’s easy and it’s wrong.
- </p>
- <p>
-  We were molded by whole of it, not just with the parts we happen to like or use. We can’t desire what we don’t know and it’s easier to fear unknown. What we know is largely who we are.
- </p>
- <p>
-  I’ve spent most of my life learning as much as I can about as many subjects as possible; about some of them even very deeply. But I wonder if I’ll ever stop feeling being an ignoramus. Acknowledging the limits of personal knowledge and wisdom isn’t an absolution from its pursuit. And it should never be one.
- </p>
- <p>
-  P.S: The answer to the question in this post title is Peter Paul Rubens. I’d like to know enough to tell if he’s the only one.
- </p>
-</div>
-            </div><!-- /.entry-content -->
-
-            <footer class="post-metadata">
-                <ul>
-                    <li>Published on <time datetime="2005-12-25T19:30:00+01:00">Sun 25 December 2005</time> </li>
-                    <li><a href="../which-famous-dutch-painter-was-also-a-diplomat.html">Add your comment</a></li>
+                    <li><a href="http://markos.gaivo.net/articles/happy-holidays.html">Add your comment</a></li>
                 </ul>
             </footer>
         </article>
 
 <ul class="paginator">
 		<li class="newer">
-        <a href="../author/markos82.html">&laquo; Newer</a>
+        <a href="http://markos.gaivo.net/articles/author/markos82.html">&laquo; Newer</a>
 		</li>
 		<li class="current">
     83 / 116
 		</li>
 		<li class="older">
-        <a href="../author/markos84.html">Older &raquo;</a>
+        <a href="http://markos.gaivo.net/articles/author/markos84.html">Older &raquo;</a>
 		</li>
 </ul>
 </section><!-- /#content -->

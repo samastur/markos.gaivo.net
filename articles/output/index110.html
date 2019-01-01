@@ -61,7 +61,7 @@ body > footer .mini-logo {display: inline-block;width:97px;height:32px;border:0;
 
 <section class="envelope posts">
     <header>
-        <h1><a href="./">A notch above a monkey <strong></strong></a></h1>
+        <h1><a href="http://markos.gaivo.net/articles/">A notch above a monkey <strong></strong></a></h1>
     </header><!-- /#banner -->
 
     <nav class="colophon">
@@ -73,7 +73,58 @@ body > footer .mini-logo {display: inline-block;width:97px;height:32px;border:0;
     </nav>
 
         <article class="hentry">
-            <h1 class="entry-title storytitle"><a href="./latency-bandwidth-and-speed-of-applications-part-ii.html" rel="bookmark" title="Permalink to Latency, bandwidth and speed of applications - part II">Latency, bandwidth and speed of applications - part II</a></h1>
+            <h1 class="entry-title storytitle"><a href="http://markos.gaivo.net/articles/javascript-timing-conflicts.html" rel="bookmark" title="Permalink to Javascript timing conflicts">Javascript timing conflicts</a></h1>
+
+            <div class="entry-content post-text">
+                <div>
+ <p>
+  Play with fire and you’ll get burned.
+ </p>
+ <p>
+  I’ve just spent two days hunting a bug that just didn’t make sense. No matter what I did, there was at least one browser, which didn’t want to behave properly and it was driving me nuts.
+ </p>
+ <p>
+  Finally I gave up and decided there’s nothing wrong with my code and the fault must be with the browser. And so it was, up to a point. Or not, depending on your point of view.
+ </p>
+ <p>
+  The problem was a timing conflict resulting from a use of
+  <a href="framestack-technique-and-accessibility.html" title="Description of technique">
+   framestack technique
+  </a>
+  and the way modern browsers work. Browsers don’t wait for the whole page with its data to load, before they display it to users. They display as reasonable presentation of received data as possible while they are trying to load the rest. For example, onload handler set to body tag is triggered when body of HTML document has loaded, but possibly before images and other external resources have. When they do, page layout might change somewhat and if your script is reading and using layout data in the meantime, it’s quite likely it’ll end up using wrong values.
+ </p>
+ <p>
+  The easiest (and right) way to fix this is to start javascript with
+  <em>
+   window.onload
+  </em>
+  , which is triggered when everything has loaded. This might be a problem, if you’re using something like framestack to avoid reloading page on subsequent visits, but at least in my case I’ve decided that the cleanest and easiest solution was to use window.onload and just force reload of problematic page on each visit.
+ </p>
+ <p>
+  It’s also possible to get in similar timing conflicts by using
+  <em>
+   innerHTML
+  </em>
+  method. If you try to stuck a large piece of HTML inside a page using innerHTML call, you may encounter an unwelcome surprise. Reason for this is that at least some browsers don’t wait to parse and insert data in DOM before they proceed to the next statement. Injection delay is usually barely noticeable, but big enough for statements that manipulate inserted data to fail, if they are in close proximity to innerHTML call.
+ </p>
+ <p>
+  You can’t necessarily avoid innerHTML problems with window.onload, but you can by using (more cumbersome) DOM methods.
+ </p>
+ <p>
+  It still annoys me though that I knew all of this and wasted two days just because I didn’t think of it.
+ </p>
+</div>
+            </div><!-- /.entry-content -->
+
+            <footer class="post-metadata">
+                <ul>
+                    <li>Published on <time datetime="2005-09-17T19:01:00+02:00">Sat 17 September 2005</time> </li>
+                    <li><a href="http://markos.gaivo.net/articles/javascript-timing-conflicts.html">Add your comment</a></li>
+                </ul>
+            </footer>
+        </article>
+        <article class="hentry">
+            <h1 class="entry-title storytitle"><a href="http://markos.gaivo.net/articles/latency-bandwidth-and-speed-of-applications-part-ii.html" rel="bookmark" title="Permalink to Latency, bandwidth and speed of applications - part II">Latency, bandwidth and speed of applications - part II</a></h1>
 
             <div class="entry-content post-text">
                 <div>
@@ -131,12 +182,12 @@ body > footer .mini-logo {display: inline-block;width:97px;height:32px;border:0;
             <footer class="post-metadata">
                 <ul>
                     <li>Published on <time datetime="2005-09-16T00:03:00+02:00">Fri 16 September 2005</time> </li>
-                    <li><a href="./latency-bandwidth-and-speed-of-applications-part-ii.html">Add your comment</a></li>
+                    <li><a href="http://markos.gaivo.net/articles/latency-bandwidth-and-speed-of-applications-part-ii.html">Add your comment</a></li>
                 </ul>
             </footer>
         </article>
         <article class="hentry">
-            <h1 class="entry-title storytitle"><a href="./latency-bandwidth-and-speed-of-applications-part-i.html" rel="bookmark" title="Permalink to Latency, bandwidth and speed of applications - part I">Latency, bandwidth and speed of applications - part I</a></h1>
+            <h1 class="entry-title storytitle"><a href="http://markos.gaivo.net/articles/latency-bandwidth-and-speed-of-applications-part-i.html" rel="bookmark" title="Permalink to Latency, bandwidth and speed of applications - part I">Latency, bandwidth and speed of applications - part I</a></h1>
 
             <div class="entry-content post-text">
                 <div>
@@ -220,91 +271,20 @@ body > footer .mini-logo {display: inline-block;width:97px;height:32px;border:0;
             <footer class="post-metadata">
                 <ul>
                     <li>Published on <time datetime="2005-09-14T21:10:00+02:00">Wed 14 September 2005</time> </li>
-                    <li><a href="./latency-bandwidth-and-speed-of-applications-part-i.html">Add your comment</a></li>
-                </ul>
-            </footer>
-        </article>
-        <article class="hentry">
-            <h1 class="entry-title storytitle"><a href="./hide-email-address-from-spammers-with-javascript.html" rel="bookmark" title="Permalink to Hide email address from spammers with Javascript">Hide email address from spammers with Javascript</a></h1>
-
-            <div class="entry-content post-text">
-                <div>
- <p>
-  <strong>
-   Update: I
-   <a href="hide-email-address-from-spammers-with-javascript-a-new-attempt.html">
-    published
-   </a>
-   a new, more safe but less friendly version of this script.
-  </strong>
- </p>
- <p>
-  Wouldn’t it be nice, if you could post your email address on your web site without worrying spammers will pick it up?
- </p>
- <p>
-  Now you can, by applying a little bit of javascript to your web page. Just import
-  <a href="/blog/code/mangle.js" title="Javascript file with mangle function">
-   this javascript file
-  </a>
-  in head of your document and call
-  <em>
-   mangle()
-  </em>
-  inside your onload handler. What it does, is replace elements of form
-  <br/>
-  <code>
-   <br/>
-   &lt;span class="change"&gt;billg at microsoft dot com&lt;/span&gt;
-  </code>
-  <br/>
-  with
-  <br/>
-  <code>
-   <br/>
-   &lt;a href="mailto:billg@microsoft.com"&gt;billg@microsoft.com&lt;/a&gt;
-  </code>
- </p>
- <p>
-  There are few caveats to its use. You’re not allowed to use any HTML tag inside of span blocks, which have class set to change. The script also expects such blocks to have only one class definition. If change is only part of class attribute value, this script won’t work.
- </p>
- <p>
-  You are free to use script as you please and to make any changes necessary. But if you choose to replace “at” and “dot” as delimiters, pick replacements that make address easily recognizable for those who don’t use javascript.
- </p>
- <p>
-  <em>
-   Note: The reason why this script works is that spammers use programs which search for email like pattern in page. They don’t interpret pages using javascript interpreter, since it would make collecting addresses significantly slower and more expensive.
-  </em>
- </p>
- <p>
-  <em>
-   Update: Jay Samec let me know there’s a bug in my code, since it didn’t handle emails with multiple dots (e.g. those with subdomains). Script has been fixed now.
-  </em>
- </p>
- <p>
-  <em>
-   Update 2: Holger Rindermann pointed out another bug and provided a patch to fix it that is now a part of the script.
-  </em>
- </p>
-</div>
-            </div><!-- /.entry-content -->
-
-            <footer class="post-metadata">
-                <ul>
-                    <li>Published on <time datetime="2005-09-11T15:59:00+02:00">Sun 11 September 2005</time> </li>
-                    <li><a href="./hide-email-address-from-spammers-with-javascript.html">Add your comment</a></li>
+                    <li><a href="http://markos.gaivo.net/articles/latency-bandwidth-and-speed-of-applications-part-i.html">Add your comment</a></li>
                 </ul>
             </footer>
         </article>
 
 <ul class="paginator">
 		<li class="newer">
-        <a href="./index109.html">&laquo; Newer</a>
+        <a href="http://markos.gaivo.net/articles/index109.html">&laquo; Newer</a>
 		</li>
 		<li class="current">
     110 / 116
 		</li>
 		<li class="older">
-        <a href="./index111.html">Older &raquo;</a>
+        <a href="http://markos.gaivo.net/articles/index111.html">Older &raquo;</a>
 		</li>
 </ul>
 </section><!-- /#content -->

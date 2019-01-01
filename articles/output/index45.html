@@ -61,7 +61,7 @@ body > footer .mini-logo {display: inline-block;width:97px;height:32px;border:0;
 
 <section class="envelope posts">
     <header>
-        <h1><a href="./">A notch above a monkey <strong></strong></a></h1>
+        <h1><a href="http://markos.gaivo.net/articles/">A notch above a monkey <strong></strong></a></h1>
     </header><!-- /#banner -->
 
     <nav class="colophon">
@@ -73,7 +73,41 @@ body > footer .mini-logo {display: inline-block;width:97px;height:32px;border:0;
     </nav>
 
         <article class="hentry">
-            <h1 class="entry-title storytitle"><a href="./transient-nature-of-openid-identities.html" rel="bookmark" title="Permalink to Transient nature of OpenID identities">Transient nature of OpenID identities</a></h1>
+            <h1 class="entry-title storytitle"><a href="http://markos.gaivo.net/articles/magic-ink.html" rel="bookmark" title="Permalink to Magic Ink">Magic Ink</a></h1>
+
+            <div class="entry-content post-text">
+                <div>
+ <p>
+  Found
+  <a href="http://worrydream.com/MagicInk/">
+   this
+  </a>
+  at David Ascher’s blog, where he
+  <a href="http://ascher.ca/blog/2007/04/19/brain-dump/">
+   said
+  </a>
+  :
+ </p>
+ <blockquote>
+  <p>
+   It’s a brilliant paper about user interface design, or the lack of it. In the vein of Tufte, but much more applied to software. The tail end of the paper is a little too fluffy for my taste, and the paper would have been better without it, but that’s a minor flaw on what I hope will be an influential paper. I’ll try and get people to read it, but it’s too long for many.
+  </p>
+ </blockquote>
+ <p>
+  It pretty much says it all. Don’t let its length discourage you from reading it.
+ </p>
+</div>
+            </div><!-- /.entry-content -->
+
+            <footer class="post-metadata">
+                <ul>
+                    <li>Published on <time datetime="2007-04-21T10:56:00+02:00">Sat 21 April 2007</time> </li>
+                    <li><a href="http://markos.gaivo.net/articles/magic-ink.html">Add your comment</a></li>
+                </ul>
+            </footer>
+        </article>
+        <article class="hentry">
+            <h1 class="entry-title storytitle"><a href="http://markos.gaivo.net/articles/transient-nature-of-openid-identities.html" rel="bookmark" title="Permalink to Transient nature of OpenID identities">Transient nature of OpenID identities</a></h1>
 
             <div class="entry-content post-text">
                 <div>
@@ -99,12 +133,12 @@ body > footer .mini-logo {display: inline-block;width:97px;height:32px;border:0;
             <footer class="post-metadata">
                 <ul>
                     <li>Published on <time datetime="2007-04-15T20:51:00+02:00">Sun 15 April 2007</time> </li>
-                    <li><a href="./transient-nature-of-openid-identities.html">Add your comment</a></li>
+                    <li><a href="http://markos.gaivo.net/articles/transient-nature-of-openid-identities.html">Add your comment</a></li>
                 </ul>
             </footer>
         </article>
         <article class="hentry">
-            <h1 class="entry-title storytitle"><a href="./google-and-ocropus.html" rel="bookmark" title="Permalink to Google and OCRopus">Google and OCRopus</a></h1>
+            <h1 class="entry-title storytitle"><a href="http://markos.gaivo.net/articles/google-and-ocropus.html" rel="bookmark" title="Permalink to Google and OCRopus">Google and OCRopus</a></h1>
 
             <div class="entry-content post-text">
                 <div>
@@ -121,61 +155,20 @@ body > footer .mini-logo {display: inline-block;width:97px;height:32px;border:0;
             <footer class="post-metadata">
                 <ul>
                     <li>Published on <time datetime="2007-04-10T20:25:00+02:00">Tue 10 April 2007</time> </li>
-                    <li><a href="./google-and-ocropus.html">Add your comment</a></li>
-                </ul>
-            </footer>
-        </article>
-        <article class="hentry">
-            <h1 class="entry-title storytitle"><a href="./error-logging-and-failed-authentication-attempts.html" rel="bookmark" title="Permalink to Error logging and failed authentication attempts">Error logging and failed authentication attempts</a></h1>
-
-            <div class="entry-content post-text">
-                <div>
- <p>
-  People make mistakes and that’s why we log every error that happens on
-  <a href="http://www.marela.si" title="Photo-sharing website">
-   Marela
-  </a>
-  pages or its API. I imagine most services that care about quality do more or less the same, since it is a great way to find yet undiscovered bugs.
- </p>
- <p>
-  There’s an additional benefit when it comes to an API. You can also get an insight in what developers would like to do and how they go about doing it. With a bit of care you may even correct badly designed calls before they get too widely adopted.
- </p>
- <p>
-  What may not be as obvious is that not all calls are equal and some of them probably need more careful reporting. A good example would be failed authentication attempts.
- </p>
- <p>
-  Marela is one of services supported by
-  <a href="https://addons.mozilla.org/en-US/firefox/addon/3945">
-   Fotofox
-  </a>
-  , a popular photo sharing Firefox add-on, which is great. However support for multiple different services invariably leads to a problem, where users send their usernames and passwords to the wrong site. We weren’t prepared for this and our first reaction was to simply religiously delete all such reports from our logs to prevent any possibility of an abuse.
- </p>
- <p>
-  I think this was wrong, so we changed it. Probably the best way is to record failed authentication attempts the way Unix systems do, by logging just username that was used in an attempt and its success, while ignoring provided password completely. This way we still obtain valuable information while protecting data that we clearly shouldn’t have access to.
- </p>
- <p>
-  This is of course just an example. My main point is that a sufficiently large API will have calls with different privacy needs and API designers should think carefully about what needs to be recorded in service logs and what mustn’t.
- </p>
-</div>
-            </div><!-- /.entry-content -->
-
-            <footer class="post-metadata">
-                <ul>
-                    <li>Published on <time datetime="2007-04-06T20:01:00+02:00">Fri 06 April 2007</time> </li>
-                    <li><a href="./error-logging-and-failed-authentication-attempts.html">Add your comment</a></li>
+                    <li><a href="http://markos.gaivo.net/articles/google-and-ocropus.html">Add your comment</a></li>
                 </ul>
             </footer>
         </article>
 
 <ul class="paginator">
 		<li class="newer">
-        <a href="./index44.html">&laquo; Newer</a>
+        <a href="http://markos.gaivo.net/articles/index44.html">&laquo; Newer</a>
 		</li>
 		<li class="current">
     45 / 116
 		</li>
 		<li class="older">
-        <a href="./index46.html">Older &raquo;</a>
+        <a href="http://markos.gaivo.net/articles/index46.html">Older &raquo;</a>
 		</li>
 </ul>
 </section><!-- /#content -->
