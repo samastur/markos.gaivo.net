@@ -61,7 +61,7 @@ body > footer .mini-logo {display: inline-block;width:97px;height:32px;border:0;
 
 <section class="envelope posts">
     <header>
-        <h1><a href="http://markos.gaivo.net/articles/">A notch above a monkey <strong></strong></a></h1>
+        <h1><a href="./">A notch above a monkey <strong></strong></a></h1>
     </header><!-- /#banner -->
 
     <nav class="colophon">
@@ -73,7 +73,60 @@ body > footer .mini-logo {display: inline-block;width:97px;height:32px;border:0;
     </nav>
 
         <article class="hentry">
-            <h1 class="entry-title storytitle"><a href="http://markos.gaivo.net/articles/opera-mini-and-file-uploads.html" rel="bookmark" title="Permalink to Opera mini and file uploads">Opera mini and file uploads</a></h1>
+            <h1 class="entry-title storytitle"><a href="./the-callee-is-not-available.html" rel="bookmark" title="Permalink to The callee is not available">The callee is not available</a></h1>
+
+            <div class="entry-content post-text">
+                <div>
+ <p>
+  Sometimes you get this feeling of really mastering a technology. As if nothing can surprise you and you’ve seen it all. If you’re lucky, you’ll get a message like this before you become too cocky:
+ </p>
+ <blockquote>
+  <p>
+   Error: The callee (server [not server application]) is not available and disappeared; all connections are invalid. The call did not execute.
+  </p>
+ </blockquote>
+ <p>
+  Do you know what it means? Neither did I, but somebody else
+  <a href="http://www.thescripts.com/forum/post297987-2.html">
+   did
+  </a>
+  :
+ </p>
+ <blockquote>
+  <p>
+   It occurs in the context of pages using javascript to generate page
+   <br/>
+   content and communicate between windows, one of which windows is closed.
+  </p>
+  <p>
+   Possibly
+   <br/>
+   * page A pops up page B in the link and page B wants to communicate with
+   <br/>
+   page A, but page A has been closed (possibly by you or a popup killer?), or
+   <br/>
+   * Internet Explorer has become totally confused and it will work in
+   <br/>
+   another browser, or
+   <br/>
+   * poor page design.
+  </p>
+ </blockquote>
+ <p>
+  Or in my case forgetting Javascript passes references when assigning objects which become null, if referenced object was stored in now defunct window. The problematic browser in question was of course Internet Explorer.
+ </p>
+</div>
+            </div><!-- /.entry-content -->
+
+            <footer class="post-metadata">
+                <ul>
+                    <li>Published on <time datetime="2006-05-24T13:38:00+02:00">Wed 24 May 2006</time> </li>
+                    <li><a href="./the-callee-is-not-available.html">Add your comment</a></li>
+                </ul>
+            </footer>
+        </article>
+        <article class="hentry">
+            <h1 class="entry-title storytitle"><a href="./opera-mini-and-file-uploads.html" rel="bookmark" title="Permalink to Opera mini and file uploads">Opera mini and file uploads</a></h1>
 
             <div class="entry-content post-text">
                 <div>
@@ -100,12 +153,12 @@ body > footer .mini-logo {display: inline-block;width:97px;height:32px;border:0;
             <footer class="post-metadata">
                 <ul>
                     <li>Published on <time datetime="2006-05-24T10:35:00+02:00">Wed 24 May 2006</time> </li>
-                    <li><a href="http://markos.gaivo.net/articles/opera-mini-and-file-uploads.html">Add your comment</a></li>
+                    <li><a href="./opera-mini-and-file-uploads.html">Add your comment</a></li>
                 </ul>
             </footer>
         </article>
         <article class="hentry">
-            <h1 class="entry-title storytitle"><a href="http://markos.gaivo.net/articles/henry-the-adequate.html" rel="bookmark" title="Permalink to Henry the Adequate">Henry the Adequate</a></h1>
+            <h1 class="entry-title storytitle"><a href="./henry-the-adequate.html" rel="bookmark" title="Permalink to Henry the Adequate">Henry the Adequate</a></h1>
 
             <div class="entry-content post-text">
                 <div>
@@ -122,69 +175,27 @@ body > footer .mini-logo {display: inline-block;width:97px;height:32px;border:0;
             <footer class="post-metadata">
                 <ul>
                     <li>Published on <time datetime="2006-05-22T20:17:00+02:00">Mon 22 May 2006</time> </li>
-                    <li><a href="http://markos.gaivo.net/articles/henry-the-adequate.html">Add your comment</a></li>
-                </ul>
-            </footer>
-        </article>
-        <article class="hentry">
-            <h1 class="entry-title storytitle"><a href="http://markos.gaivo.net/articles/missing-tab-icons-on-series-60-python.html" rel="bookmark" title="Permalink to Missing tab icons on series 60 Python">Missing tab icons on series 60 Python</a></h1>
-
-            <div class="entry-content post-text">
-                <div>
- <p>
-  It’s nice to have friends, especially the generous kind who buy a new
-  <a href="http://www.europe.nokia.com/n80">
-   Nokia N80
-  </a>
-  and lend it to you even before they had a chance to use it themselves. I’m not sure if N80 is the best mobile in the world, but it is by far the best phone I’ve had in my hands. I’m left with few excuses from finishing my uploader and provided that other obligations don’t tax me too much, it should be finished in next week or so.
- </p>
- <p>
-  I’ve stumbled on two small problems. I’d like to automatically tag images with phone model on which they were taken, but I don’t know how to read it. Is this possible at all?
- </p>
- <p>
-  The other problem seems to be a limitation of PyS60 API or its documentation. You are limited to use of text as tab titles, which are too small for this to be useful. That’s why you see developers displaying tab title in place of application title. Is there a workaround for this?
- </p>
- <p>
-  <strong>
-   Update:
-  </strong>
-  As advised by
-  <a href="http://cyke64.googlepages.com/" title="cyke64's homepage">
-   cyke64
-  </a>
-  I found
-  <a href="http://discussion.forum.nokia.com/forum/showthread.php?t=75744&amp;highlight=phone+model">
-   how to read
-  </a>
-  phone model on Nokia’s forums. My project has been hit with a setback, since I also discovered there’s no version of Python for N80 yet.
- </p>
-</div>
-            </div><!-- /.entry-content -->
-
-            <footer class="post-metadata">
-                <ul>
-                    <li>Published on <time datetime="2006-05-21T12:32:00+02:00">Sun 21 May 2006</time> </li>
-                    <li><a href="http://markos.gaivo.net/articles/missing-tab-icons-on-series-60-python.html">Add your comment</a></li>
+                    <li><a href="./henry-the-adequate.html">Add your comment</a></li>
                 </ul>
             </footer>
         </article>
 
 <ul class="paginator">
 		<li class="newer">
-        <a href="http://markos.gaivo.net/articles/index61.html">&laquo; Newer</a>
+        <a href="./index61.html">&laquo; Newer</a>
 		</li>
 		<li class="current">
-    62 / 116
+    62 / 117
 		</li>
 		<li class="older">
-        <a href="http://markos.gaivo.net/articles/index63.html">Older &raquo;</a>
+        <a href="./index63.html">Older &raquo;</a>
 		</li>
 </ul>
 </section><!-- /#content -->
 
     <footer>
         <ul>
-            <li>&copy; 2005-2018 Marko Samastur</li>
+            <li>&copy; 2005-2019 Marko Samastur</li>
 						<li><a href="articles/privacy-policy.html">Privacy policy</a></li>
             <li><a href="/articles/feeds/rss.xml" rel="alternate" title="A notch above a monkey Full RSS Feed">Entries feed</a></li>
         </ul>

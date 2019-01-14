@@ -20,3 +20,12 @@ The list:
 My plan for this year is simply to get into a habit of reading books again with a healthy mixture of fiction and non-fiction. No particular number in mind, but single digit would be disappointing as it would mean I again wasted too much stuff on mostly short fluff found on the net.
 
 It would be great, if I managed to rise to last year’s challenge of reading a book in each to me  familiar language, but probably won’t.
+
+
+### Related articles
+
+* [Book I read in 2017]({filename}/books-i-read-in-2017.md)
+* [Book I read in 2016]({filename}/books-i-read-in-2016.md)
+* [Book I read in 2015]({filename}/books-i-read-in-2015.md)
+* [Book I read in 2014]({filename}/books-i-read-in-2014.md)
+* [Book I read in 2013]({filename}/the-books-i-read-in-2013.md)

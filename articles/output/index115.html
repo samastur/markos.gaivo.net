@@ -61,7 +61,7 @@ body > footer .mini-logo {display: inline-block;width:97px;height:32px;border:0;
 
 <section class="envelope posts">
     <header>
-        <h1><a href="http://markos.gaivo.net/articles/">A notch above a monkey <strong></strong></a></h1>
+        <h1><a href="./">A notch above a monkey <strong></strong></a></h1>
     </header><!-- /#banner -->
 
     <nav class="colophon">
@@ -73,7 +73,34 @@ body > footer .mini-logo {display: inline-block;width:97px;height:32px;border:0;
     </nav>
 
         <article class="hentry">
-            <h1 class="entry-title storytitle"><a href="http://markos.gaivo.net/articles/when-to-release-your-product.html" rel="bookmark" title="Permalink to When to release your product?">When to release your product?</a></h1>
+            <h1 class="entry-title storytitle"><a href="./looping-through-getelementsbytagname-list.html" rel="bookmark" title="Permalink to Looping through getElementsByTagName list">Looping through getElementsByTagName list</a></h1>
+
+            <div class="entry-content post-text">
+                <div>
+ <p>
+  There’s a small quirk that developers hit now and then when they are processing a list of elements returned by getElementsByTagName function.  Usual, but still unexpected behavior is that not all elements of the list have been processed and if you are using javascript console, it might complain that there’s no element in the list at index, where you’re certain it should be.
+ </p>
+ <p>
+  The reason for this is that returned list of elements is not really a list. It’s a live view of matching elements. If you delete one of them in document, it will be removed from the list as well. List will become shorter and some elements in it may change their position to fill empty slot formerly occupied by deleted element.
+ </p>
+ <p>
+  Therefore, if you loop through such a list and its possible that you might remove current element, it’s best to loop from last element to the first. This keeps positions stable and predictable even when you delete.
+ </p>
+ <p>
+  It can be a bit trickier to handle if you add matching elements inside such loop. Sadly there’s no easy solution that would work all the time and you have to take in account your situation.
+ </p>
+</div>
+            </div><!-- /.entry-content -->
+
+            <footer class="post-metadata">
+                <ul>
+                    <li>Published on <time datetime="2005-08-20T15:37:00+02:00">Sat 20 August 2005</time> </li>
+                    <li><a href="./looping-through-getelementsbytagname-list.html">Add your comment</a></li>
+                </ul>
+            </footer>
+        </article>
+        <article class="hentry">
+            <h1 class="entry-title storytitle"><a href="./when-to-release-your-product.html" rel="bookmark" title="Permalink to When to release your product?">When to release your product?</a></h1>
 
             <div class="entry-content post-text">
                 <div>
@@ -104,12 +131,12 @@ body > footer .mini-logo {display: inline-block;width:97px;height:32px;border:0;
             <footer class="post-metadata">
                 <ul>
                     <li>Published on <time datetime="2005-08-14T22:21:00+02:00">Sun 14 August 2005</time> </li>
-                    <li><a href="http://markos.gaivo.net/articles/when-to-release-your-product.html">Add your comment</a></li>
+                    <li><a href="./when-to-release-your-product.html">Add your comment</a></li>
                 </ul>
             </footer>
         </article>
         <article class="hentry">
-            <h1 class="entry-title storytitle"><a href="http://markos.gaivo.net/articles/our-stuff-sucks.html" rel="bookmark" title="Permalink to Our stuff sucks">Our stuff sucks</a></h1>
+            <h1 class="entry-title storytitle"><a href="./our-stuff-sucks.html" rel="bookmark" title="Permalink to Our stuff sucks">Our stuff sucks</a></h1>
 
             <div class="entry-content post-text">
                 <div>
@@ -146,48 +173,27 @@ body > footer .mini-logo {display: inline-block;width:97px;height:32px;border:0;
             <footer class="post-metadata">
                 <ul>
                     <li>Published on <time datetime="2005-08-05T20:35:00+02:00">Fri 05 August 2005</time> </li>
-                    <li><a href="http://markos.gaivo.net/articles/our-stuff-sucks.html">Add your comment</a></li>
-                </ul>
-            </footer>
-        </article>
-        <article class="hentry">
-            <h1 class="entry-title storytitle"><a href="http://markos.gaivo.net/articles/back-from-vacation.html" rel="bookmark" title="Permalink to Back from vacation">Back from vacation</a></h1>
-
-            <div class="entry-content post-text">
-                <div>
- <p>
-  Back from Ireland, a place everyone should visit at least once. If you have time, take a few days to explore Dublin and travel to west coast. Those like me, who find abundance of national pride and flags creepy, might skip Northern Ireland.
- </p>
- <p>
-  New development posts might take few days to appear, while I catch up with everything.
- </p>
-</div>
-            </div><!-- /.entry-content -->
-
-            <footer class="post-metadata">
-                <ul>
-                    <li>Published on <time datetime="2005-07-27T15:39:00+02:00">Wed 27 July 2005</time> </li>
-                    <li><a href="http://markos.gaivo.net/articles/back-from-vacation.html">Add your comment</a></li>
+                    <li><a href="./our-stuff-sucks.html">Add your comment</a></li>
                 </ul>
             </footer>
         </article>
 
 <ul class="paginator">
 		<li class="newer">
-        <a href="http://markos.gaivo.net/articles/index114.html">&laquo; Newer</a>
+        <a href="./index114.html">&laquo; Newer</a>
 		</li>
 		<li class="current">
-    115 / 116
+    115 / 117
 		</li>
 		<li class="older">
-        <a href="http://markos.gaivo.net/articles/index116.html">Older &raquo;</a>
+        <a href="./index116.html">Older &raquo;</a>
 		</li>
 </ul>
 </section><!-- /#content -->
 
     <footer>
         <ul>
-            <li>&copy; 2005-2018 Marko Samastur</li>
+            <li>&copy; 2005-2019 Marko Samastur</li>
 						<li><a href="articles/privacy-policy.html">Privacy policy</a></li>
             <li><a href="/articles/feeds/rss.xml" rel="alternate" title="A notch above a monkey Full RSS Feed">Entries feed</a></li>
         </ul>

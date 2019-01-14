@@ -62,7 +62,7 @@ body > footer .mini-logo {display: inline-block;width:97px;height:32px;border:0;
 
 <section class="envelope posts">
     <header>
-        <h1><a href="http://markos.gaivo.net/articles/">A notch above a monkey <strong></strong></a></h1>
+        <h1><a href="../">A notch above a monkey <strong></strong></a></h1>
     </header><!-- /#banner -->
 
     <nav class="colophon">
@@ -74,7 +74,61 @@ body > footer .mini-logo {display: inline-block;width:97px;height:32px;border:0;
     </nav>
 
         <article class="hentry">
-            <h1 class="entry-title storytitle"><a href="http://markos.gaivo.net/articles/micropayments-and-indiekarma.html" rel="bookmark" title="Permalink to Micropayments and IndieKarma">Micropayments and IndieKarma</a></h1>
+            <h1 class="entry-title storytitle"><a href="../usefulness-of-ajax.html" rel="bookmark" title="Permalink to Usefulness of AJAX">Usefulness of AJAX</a></h1>
+
+            <div class="entry-content post-text">
+                <div>
+ <p>
+  At least one participant of our recent
+  <a href="ajax-workshop-2.html" title="Previous announcement of AJAX workshop">
+   workshop
+  </a>
+  was under impression that I’m an AJAX advocate. It’s certainly a reasonable and not completely wrong conclusion. However, it seems I failed in limited time available to explain my perspective.
+ </p>
+ <p>
+  As any other useful tool AJAX has its advantages, but it can also create problems when used inappropriately. I won’t dwell on advantages. More than enough has already been said about them. There are three important aspects that still don’t get enough attention and bear repeating.
+ </p>
+ <p>
+  <strong>
+   Write unobtrusive and degradable Javascript.
+  </strong>
+  It’s really not that hard with a bit of planning and it makes things easier in the long run. It’s easier to find, fix and change code when it’s cleanly separated from HTML and CSS. I’d expect everyone learned this lesson by now from PHP. Also, creating HTML version first and then carefully improving it with use of Javascript/AJAX can get us maximum reach without sacrificing flexibility.
+ </p>
+ <p>
+  <strong>
+   Pay attention to usability.
+  </strong>
+  This one is much harder to get right, but if nothing else, you should have in mind at least next three advices. Show a progress indicator when doing something that might take more than a second. Put action trigger as close as possible to the part of a page it will change, so user has a good chance of noticing it and whenever possible assist them with change indicators like
+  <a href="http://www.axentric.com/posts/default/7" title="Example of yellow fade-in">
+   yellow fade-in
+  </a>
+  .
+ </p>
+ <p>
+  <strong>
+   Accessibility shouldn’t be forgotten either.
+  </strong>
+  This is probably
+  <a href="http://domscripting.com/blog/display/64" title="Accessibility problems with DOM manipulation">
+   the hardest problem
+  </a>
+  to tackle. It’s the most important reason (but not the only one) why I try to use Javascript/AJAX only when benefits of doing so significantly outweigh the problems it might cause.
+ </p>
+ <p>
+  Everyone makes mistakes and I certainly have. I’m sure they weren’t last ones either, but we can all strive for better.
+ </p>
+</div>
+            </div><!-- /.entry-content -->
+
+            <footer class="post-metadata">
+                <ul>
+                    <li>Published on <time datetime="2006-05-13T07:53:00+02:00">Sat 13 May 2006</time> </li>
+                    <li><a href="../usefulness-of-ajax.html">Add your comment</a></li>
+                </ul>
+            </footer>
+        </article>
+        <article class="hentry">
+            <h1 class="entry-title storytitle"><a href="../micropayments-and-indiekarma.html" rel="bookmark" title="Permalink to Micropayments and IndieKarma">Micropayments and IndieKarma</a></h1>
 
             <div class="entry-content post-text">
                 <div>
@@ -115,12 +169,12 @@ body > footer .mini-logo {display: inline-block;width:97px;height:32px;border:0;
             <footer class="post-metadata">
                 <ul>
                     <li>Published on <time datetime="2006-05-10T14:26:00+02:00">Wed 10 May 2006</time> </li>
-                    <li><a href="http://markos.gaivo.net/articles/micropayments-and-indiekarma.html">Add your comment</a></li>
+                    <li><a href="../micropayments-and-indiekarma.html">Add your comment</a></li>
                 </ul>
             </footer>
         </article>
         <article class="hentry">
-            <h1 class="entry-title storytitle"><a href="http://markos.gaivo.net/articles/hide-email-address-from-spammers-with-javascript-a-new-attempt.html" rel="bookmark" title="Permalink to Hide email address from spammers with Javascript - a new attempt">Hide email address from spammers with Javascript - a new attempt</a></h1>
+            <h1 class="entry-title storytitle"><a href="../hide-email-address-from-spammers-with-javascript-a-new-attempt.html" rel="bookmark" title="Permalink to Hide email address from spammers with Javascript - a new attempt">Hide email address from spammers with Javascript - a new attempt</a></h1>
 
             <div class="entry-content post-text">
                 <div>
@@ -151,59 +205,27 @@ body > footer .mini-logo {display: inline-block;width:97px;height:32px;border:0;
             <footer class="post-metadata">
                 <ul>
                     <li>Published on <time datetime="2006-05-08T12:23:00+02:00">Mon 08 May 2006</time> </li>
-                    <li><a href="http://markos.gaivo.net/articles/hide-email-address-from-spammers-with-javascript-a-new-attempt.html">Add your comment</a></li>
-                </ul>
-            </footer>
-        </article>
-        <article class="hentry">
-            <h1 class="entry-title storytitle"><a href="http://markos.gaivo.net/articles/pythons-most-valued.html" rel="bookmark" title="Permalink to Python's most valued">Python's most valued</a></h1>
-
-            <div class="entry-content post-text">
-                <div>
- <p>
-  Yesterday was a lovely sunny day.
-  <a href="http://www.trepca.si/blog/">
-   Sebastjan
-  </a>
-  and I were sunbathing at a nearby cafe, sipping juice and talking as we often do about Python related things.
- </p>
- <p>
-  I noted how I’d hate to see
-  <a href="http://www.effbot.org/">
-   Fredrik Lundh
-  </a>
-  being swallowed by the black hole of Google, where too often good people go to never hear from them again. I simply can’t seem to write anything substantial in Python these days without relying on at least a piece of Fredrik’s code.
- </p>
- <p>
-  Sebastjan doesn’t share my pessimism and he might be right. Forgetting my possibly unsubstantiated fears for a moment, which Pythonista’s loss would in your opinion hurt our beloved language the most?
- </p>
-</div>
-            </div><!-- /.entry-content -->
-
-            <footer class="post-metadata">
-                <ul>
-                    <li>Published on <time datetime="2006-05-04T11:53:00+02:00">Thu 04 May 2006</time> </li>
-                    <li><a href="http://markos.gaivo.net/articles/pythons-most-valued.html">Add your comment</a></li>
+                    <li><a href="../hide-email-address-from-spammers-with-javascript-a-new-attempt.html">Add your comment</a></li>
                 </ul>
             </footer>
         </article>
 
 <ul class="paginator">
 		<li class="newer">
-        <a href="http://markos.gaivo.net/articles/author/markos64.html">&laquo; Newer</a>
+        <a href="../author/markos64.html">&laquo; Newer</a>
 		</li>
 		<li class="current">
-    65 / 116
+    65 / 117
 		</li>
 		<li class="older">
-        <a href="http://markos.gaivo.net/articles/author/markos66.html">Older &raquo;</a>
+        <a href="../author/markos66.html">Older &raquo;</a>
 		</li>
 </ul>
 </section><!-- /#content -->
 
     <footer>
         <ul>
-            <li>&copy; 2005-2018 Marko Samastur</li>
+            <li>&copy; 2005-2019 Marko Samastur</li>
 						<li><a href="articles/privacy-policy.html">Privacy policy</a></li>
             <li><a href="/articles/feeds/rss.xml" rel="alternate" title="A notch above a monkey Full RSS Feed">Entries feed</a></li>
         </ul>
