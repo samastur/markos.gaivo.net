@@ -31,7 +31,7 @@ LINKS = (
 DEFAULT_PAGINATION = 3
 
 PLUGIN_PATHS = ['pelican-plugins']
-PLUGINS = ['simple_footnotes']
+PLUGINS = ['simple_footnotes', 'sitemap']
 
 THEME = '../pelican_themes/icecream'
 
@@ -41,3 +41,19 @@ DISPLAY_CATEGORIES_ON_MENU = False
 
 # Uncomment following line if you want document-relative URLs when developing
 #RELATIVE_URLS = True
+
+# Sitemap
+SITEMAP = {
+    'format': 'xml',
+    'priorities': {
+        'articles': 0.5,
+        'indexes': 0.5,
+        'pages': 0.5
+    },
+    'changefreqs': {
+        'articles': 'monthly',
+        'indexes': 'daily',
+        'pages': 'monthly'
+    },
+    'exclude': ['tag/', 'category/']
+}
