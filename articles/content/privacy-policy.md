@@ -14,9 +14,9 @@ Unlike most articles here this one should be a living document that I will striv
 
 This website does not intentionally track you. Your internet address gets logged for a few weeks, but is unlikely to identify you. No other information about you is stored on my server or shared with anyone.
 
-[Disqus](https://disqus.com/) is used to provide comments on individual article pages. They use cookies and might use other tools or providers for tracking your visits.
+Comments are hosted from a separate domain and store a cookie in your browser only if you add a comment.
 
-If you find any inconsistencies or have questions regarding your privacy while visiting this website, then please [contact me](http://markos.gaivo.net/).
+If you find any inconsistencies or have questions regarding your privacy while visiting this website, then please [contact me](https://markos.gaivo.net/).
 
 
 ## Privacy policy in full
@@ -29,6 +29,6 @@ It is unlikely I would be able to identify you with your address alone unless yo
 
 No other information about you is stored on this website or shared with anyone.
 
-Pages of individual articles use service [Disqus](https://disqus.com) to provide comments. To learn more read [their privacy policy](https://help.disqus.com/terms-and-policies/disqus-privacy-policy). As it provides core functionality to this website it is not optional, but you can block it with little harm either in your browser settings or with a browser add-on like [uMatrix](https://github.com/gorhill/uMatrix).
+Pages of individual articles use self-hosted instance of [Isso](https://posativ.org/isso/) to provide comments. It stores a cookie in your browser only when you add a comment and it is used only for a limited time to allow you to edit a recently added comment. If you don’t need this functionality, then you can block all cookies from this domain in your browser.
 
-You can find my [contact information](http://markos.gaivo.net) on my homepage. Please use it if you find any problem with this document or have questions regarding privacy of your web visits.
+If you have added a comment and would like to delete it, then please contact me. You can find my [contact information](https://markos.gaivo.net) on my homepage. Please use it if you find any problem with this document or have questions regarding privacy of your web visits.
