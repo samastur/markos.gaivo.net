@@ -256,7 +256,7 @@ body > header h1 {
         margin-bottom: 0;
     }
     .post .post-text,
-    .post #disqus_thread {
+    .post #isso-thread {
         width: 62%;
         max-width: 60em;
     }
