@@ -77,26 +77,4 @@ Id: 604
  <p>
   And if you are happy with free version, then buy a Pro account. It costs little, gives you features as polished as rest of service and it help secure your apps future.
  </p>
- <h6 class="zemanta-related-title">
-  Related articles by Zemanta
- </h6>
- <ul class="zemanta-article-ul">
-  <li class="zemanta-article-ul-li">
-   <a href="http://www.intomobile.com/2010/04/04/toshl-expense-tracking-app-is-web-connected-and-i-love-it-for-that.html">
-    Toshl expense tracking app is web connected and I love it for that!
-   </a>
-   (intomobile.com)
-  </li>
-  <li class="zemanta-article-ul-li">
-   <a href="http://techblissonline.com/personal-finance-software-free-download-gnucash/">
-    Personal finance software – Free download the ultimate Gnucash
-   </a>
-   (techblissonline.com)
-  </li>
- </ul>
- <div class="zemanta-pixie">
-  <a class="zemanta-pixie-a" href="http://www.zemanta.com/" title="Enhanced by Zemanta">
-   <img alt="Enhanced by Zemanta" class="zemanta-pixie-img" src="http://img.zemanta.com/zemified_e.png?x-id=44d2c12e-bb01-4a24-82ab-5db6e9ce7664"/>
-  </a>
- </div>
 </div>

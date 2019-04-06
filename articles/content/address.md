@@ -81,7 +81,4 @@ Id: 734
   </a>
   ), because I am after all the sole author of this website.
  </p>
- <div class="zemanta-pixie">
-  <img alt="" class="zemanta-pixie-img" src="http://img.zemanta.com/pixy.gif?x-id=9e03fdb6-c5dc-4878-b734-7bec34cd9ced"/>
- </div>
 </div>

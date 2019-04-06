@@ -51,9 +51,4 @@ Id: 305
   </a>
   even faster than usual.
  </p>
- <div class="zemanta-pixie">
-  <a class="zemanta-pixie-a" href="http://reblog.zemanta.com/zemified/ed5c14cb-1d46-4c3c-b528-90ee648a4b10/" title="Zemified by Zemanta">
-   <img alt="Reblog this post [with Zemanta]" class="zemanta-pixie-img" src="http://img.zemanta.com/reblog_e.png?x-id=ed5c14cb-1d46-4c3c-b528-90ee648a4b10"/>
-  </a>
- </div>
 </div>

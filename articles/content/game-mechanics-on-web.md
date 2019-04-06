@@ -17,7 +17,6 @@ Id: 325
   <a href="http://www.amazon.com/gp/product/1932111972?ie=UTF8&amp;tag=devel-20&amp;linkCode=as2&amp;camp=1789&amp;creative=390957&amp;creativeASIN=1932111972">
    Theory of Fun for Game Design
   </a>
-  <img alt="" border="0" height="1" src="http://www.assoc-amazon.com/e/ir?t=devel-20&amp;l=as2&amp;o=1&amp;a=1932111972" style="border:none !important; margin:0px !important;" width="1"/>
   , which I can heartily recommend to anyone interested in what games are all about. But it’s this part on page 88 that really got my attention, since I can relate it to what I do:
  </p>
  <blockquote>
@@ -71,13 +70,4 @@ Id: 325
  <p>
   I believe that most websites could successfully apply at least some elements from games, but like with everything else they shouldn’t be used too liberally and without understanding. Keeping in mind websites purpose and listed differences between a game and a story can help you make a more informed decision on what and when to include.
  </p>
- <div class="zemanta-pixie">
-  <a class="zemanta-pixie-a" href="http://reblog.zemanta.com/zemified/b1609fef-5cee-46ff-b7ef-a5397b0a5145/" title="Reblog this post [with Zemanta]">
-   <img alt="Reblog this post [with Zemanta]" class="zemanta-pixie-img" src="http://img.zemanta.com/reblog_e.png?x-id=b1609fef-5cee-46ff-b7ef-a5397b0a5145"/>
-  </a>
-  <span class="zem-script more-related pretty-attribution">
-   <script src="http://static.zemanta.com/readside/loader.js" type="text/javascript">
-   </script>
-  </span>
- </div>
 </div>

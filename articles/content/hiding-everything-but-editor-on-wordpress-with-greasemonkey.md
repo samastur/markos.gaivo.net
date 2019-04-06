@@ -37,9 +37,4 @@ Id: 286
   </a>
   the script.
  </p>
- <div class="zemanta-pixie" style="margin-top: 10px; height: 15px;">
-  <a class="zemanta-pixie-a" href="http://reblog.zemanta.com/zemified/b7b787a7-f998-4afb-b5ef-528707fff346/" title="Zemified by Zemanta">
-   <img alt="Reblog this post [with Zemanta]" class="zemanta-pixie-img" src="http://img.zemanta.com/reblog_e.png?x-id=b7b787a7-f998-4afb-b5ef-528707fff346" style="border: medium none; float: right;"/>
-  </a>
- </div>
 </div>

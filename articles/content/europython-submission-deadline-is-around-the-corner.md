@@ -27,9 +27,4 @@ Id: 596
  <p>
   So do submit your talk and come. It won’t be the same without you.
  </p>
- <div class="zemanta-pixie">
-  <a class="zemanta-pixie-a" href="http://reblog.zemanta.com/zemified/3f88ab5e-3d0f-410e-957f-6828cee4d640/" title="Reblog this post [with Zemanta]">
-   <img alt="Reblog this post [with Zemanta]" class="zemanta-pixie-img" src="http://img.zemanta.com/reblog_e.png?x-id=3f88ab5e-3d0f-410e-957f-6828cee4d640"/>
-  </a>
- </div>
 </div>

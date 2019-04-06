@@ -48,13 +48,4 @@ Id: 360
    sums my view of HTML5 better than I ever could. Hard to disagree with his other points too.
   </li>
  </ul>
- <div class="zemanta-pixie">
-  <a class="zemanta-pixie-a" href="http://reblog.zemanta.com/zemified/b6a94c12-b1f3-4338-8d38-f8e18d7a958d/" title="Reblog this post [with Zemanta]">
-   <img alt="Reblog this post [with Zemanta]" class="zemanta-pixie-img" src="http://img.zemanta.com/reblog_e.png?x-id=b6a94c12-b1f3-4338-8d38-f8e18d7a958d" style="border: medium none; float: right;"/>
-  </a>
-  <span class="zem-script paragraph-reblog">
-   <script src="http://static.zemanta.com/readside/loader.js" type="text/javascript">
-   </script>
-  </span>
- </div>
 </div>

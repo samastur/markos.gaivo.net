@@ -216,13 +216,4 @@ Id: 549
  <p>
   I guess what I am getting at is that it is nice to code in a high-level language and for the most part not think about implementation details like this, but only as long as you actually know them so your brain gets triggered when they matter. Speaking of details, I bet those divisions can cause rounding errors.
  </p>
- <div class="zemanta-pixie">
-  <a class="zemanta-pixie-a" href="http://reblog.zemanta.com/zemified/7ab2d445-07ff-4ec6-bed9-f29a2797d7a3/" title="Reblog this post [with Zemanta]">
-   <img alt="Reblog this post [with Zemanta]" class="zemanta-pixie-img" src="http://img.zemanta.com/reblog_e.png?x-id=7ab2d445-07ff-4ec6-bed9-f29a2797d7a3"/>
-  </a>
-  <span class="zem-script paragraph-reblog">
-   <script defer="defer" src="http://static.zemanta.com/readside/loader.js" type="text/javascript">
-   </script>
-  </span>
- </div>
 </div>

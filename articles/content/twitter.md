@@ -22,9 +22,4 @@ Id: 257
  <p>
   So far I haven’t really got a hang of it yet and my stream is as boring as it gets. Hopefully this is not a sign of things to come.
  </p>
- <div class="zemanta-pixie" style="margin: 5px 0pt; width: 100%;">
-  <a class="zemanta-pixie-a" href="http://www.zemanta.com/" title="Zemified by Zemanta">
-   <img alt="" class="zemanta-pixie-img" src="http://img.zemanta.com/pixie.png?x-id=9fff2dc4-de4d-4849-a5ac-91980379dfff" style="border: medium none; float: right;"/>
-  </a>
- </div>
 </div>

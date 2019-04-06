@@ -75,9 +75,4 @@ Id: 310
  <p>
   I wished to end this post on a positive note, but I’m clearly failing. I do sincerely wish everyone happy holidays and the best of luck in next year. I’m afraid we’ll need it.
  </p>
- <div class="zemanta-pixie">
-  <a class="zemanta-pixie-a" href="http://reblog.zemanta.com/zemified/67028e32-0b94-43d6-ad01-e2d3a8644143/" title="Zemified by Zemanta">
-   <img alt="Reblog this post [with Zemanta]" class="zemanta-pixie-img" src="http://img.zemanta.com/reblog_e.png?x-id=67028e32-0b94-43d6-ad01-e2d3a8644143"/>
-  </a>
- </div>
 </div>

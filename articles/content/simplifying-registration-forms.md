@@ -42,9 +42,4 @@ Id: 312
  <p>
   Anyhow, that’s it for this year. If you leave a comment, which I hope you will, and I don’t answer, it’s because I lack Internet access.
  </p>
- <div class="zemanta-pixie">
-  <a class="zemanta-pixie-a" href="http://reblog.zemanta.com/zemified/29adbe87-65ae-4456-b653-87682c4081e3/" title="Zemified by Zemanta">
-   <img alt="Reblog this post [with Zemanta]" class="zemanta-pixie-img" src="http://img.zemanta.com/reblog_e.png?x-id=29adbe87-65ae-4456-b653-87682c4081e3"/>
-  </a>
- </div>
 </div>

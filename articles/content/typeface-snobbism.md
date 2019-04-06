@@ -54,9 +54,4 @@ Id: 660
  <p>
   In the end I have to admit I don’t have a bigger point than simple admission I’m not affronted by it anymore. I can’t muster a will to protest or even feel annoyed. To me it has become a pop icon, something I wish to see less and in context better suited for it, but at the end harmless.
  </p>
- <div class="zemanta-pixie">
-  <a class="zemanta-pixie-a" href="http://www.zemanta.com/" title="Enhanced by Zemanta">
-   <img alt="Enhanced by Zemanta" class="zemanta-pixie-img" src="http://img.zemanta.com/zemified_e.png?x-id=1b6b6aac-6518-42c7-9261-d3708c5b26f2"/>
-  </a>
- </div>
 </div>

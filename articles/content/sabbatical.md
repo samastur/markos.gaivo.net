@@ -45,37 +45,4 @@ Id: 608
   </a>
   are hence welcome.
  </p>
- <h6 class="zemanta-related-title">
-  Related articles by Zemanta
- </h6>
- <ul class="zemanta-article-ul">
-  <li class="zemanta-article-ul-li">
-   <a href="http://blog.spetic.si/2010/09/importance-of-sabbatical.html">
-    Importance of sabbatical
-   </a>
-   (spetic.si)
-  </li>
-  <li class="zemanta-article-ul-li">
-   <a href="http://www.forbes.com/2010/08/24/sabbatical-leave-work-leadership-careers-advice.html">
-    How To Take A Sabbatical From Work
-   </a>
-   (forbes.com)
-  </li>
-  <li class="zemanta-article-ul-li">
-   <a href="http://r.zemanta.com/?u=http%3A//www.telegraph.co.uk/finance/personalfinance/7979795/More-than-one-million-workers-take-sabbatical.html&amp;a=23812953&amp;rid=6575b7b5-6796-49cd-9fe0-7c041ffe88ab&amp;e=3dd8180bf2cca84c91d100d18bde6fbd">
-    More than one million workers take sabbatical
-   </a>
-   (telegraph.co.uk)
-  </li>
-  <li class="zemanta-article-ul-li">
-   <a href="http://job-satisfaction.suite101.com/article.cfm/saving-for-a-sabbatical">
-    Saving for a Sabbatical
-   </a>
-   (job-satisfaction.suite101.com)
-  </li>
- </ul>
- <div class="zemanta-pixie">
-  <a class="zemanta-pixie-a" href="http://www.zemanta.com/" title="Enhanced by Zemanta">
-  </a>
- </div>
 </div>

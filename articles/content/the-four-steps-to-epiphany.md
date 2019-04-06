@@ -13,7 +13,6 @@ Id: 333
   <a href="http://www.amazon.com/gp/product/0976470705?ie=UTF8&amp;tag=devel-20&amp;linkCode=as2&amp;camp=1789&amp;creative=390957&amp;creativeASIN=0976470705">
    The Four Steps to the Epiphany
   </a>
-  <img alt="" border="0" height="1" src="http://www.assoc-amazon.com/e/ir?t=devel-20&amp;l=as2&amp;o=1&amp;a=0976470705" style="border:none !important; margin:0px !important;" width="1"/>
   by Steven Gary Blank is a book I heard recommended a few times before
   <a href="http://startuplessonslearned.blogspot.com/" title="Eric's blog">
    Eric Ries
@@ -40,13 +39,4 @@ Id: 333
  <p>
   I suspect not many startups follow every step as prescribed, but even if you don’t or disagree with most of it, I can’t imagine how you wouldn’t profit from reading it. So just go and buy it. You won’t be able to make notes in borrowed copy.
  </p>
- <div class="zemanta-pixie" style="margin-top: 10px; height: 15px;">
-  <a class="zemanta-pixie-a" href="http://reblog.zemanta.com/zemified/131a9fc7-4816-4c2b-b470-b81efdf2264c/" title="Reblog this post [with Zemanta]">
-   <img alt="Reblog this post [with Zemanta]" class="zemanta-pixie-img" src="http://img.zemanta.com/reblog_e.png?x-id=131a9fc7-4816-4c2b-b470-b81efdf2264c" style="border: medium none; float: right;"/>
-  </a>
-  <span class="zem-script more-related pretty-attribution">
-   <script src="http://static.zemanta.com/readside/loader.js" type="text/javascript">
-   </script>
-  </span>
- </div>
 </div>

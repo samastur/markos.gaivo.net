@@ -53,9 +53,4 @@ Id: 631
  <p>
   This is it. At the end a bit late, but not any less heartfelt happy holidays to everyone.
  </p>
- <div class="zemanta-pixie">
-  <a class="zemanta-pixie-a" href="http://www.zemanta.com/" title="Enhanced by Zemanta">
-   <img alt="Enhanced by Zemanta" class="zemanta-pixie-img" src="http://img.zemanta.com/zemified_e.png?x-id=070e57eb-9acf-44b9-bdbc-052cdaf705fc"/>
-  </a>
- </div>
 </div>

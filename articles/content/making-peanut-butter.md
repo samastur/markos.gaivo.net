@@ -89,13 +89,4 @@ Id: 509
   </a>
   solidifes fat and prevents that from happening. Downside is that you can’t tell how much additional fat was added unless it is specified in ingredients list and it’s even more unhealthy.
  </p>
- <div class="zemanta-pixie">
-  <a class="zemanta-pixie-a" href="http://reblog.zemanta.com/zemified/56473c29-9ebd-4f4f-809b-b65d0684bc36/" title="Reblog this post [with Zemanta]">
-   <img alt="Reblog this post [with Zemanta]" class="zemanta-pixie-img" src="http://img.zemanta.com/reblog_e.png?x-id=56473c29-9ebd-4f4f-809b-b65d0684bc36"/>
-  </a>
-  <span class="zem-script paragraph-reblog">
-   <script src="http://static.zemanta.com/readside/loader.js" type="text/javascript">
-   </script>
-  </span>
- </div>
 </div>

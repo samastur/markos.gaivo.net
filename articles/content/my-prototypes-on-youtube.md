@@ -40,9 +40,4 @@ Id: 588
    (zemanta.com)
   </li>
  </ul>
- <div class="zemanta-pixie">
-  <a class="zemanta-pixie-a" href="http://reblog.zemanta.com/zemified/4c4d711e-ab3a-4cf8-80df-8db0aab43dc3/" title="Reblog this post [with Zemanta]">
-   <img alt="Reblog this post [with Zemanta]" class="zemanta-pixie-img" src="http://img.zemanta.com/reblog_e.png?x-id=4c4d711e-ab3a-4cf8-80df-8db0aab43dc3"/>
-  </a>
- </div>
 </div>

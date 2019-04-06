@@ -83,13 +83,4 @@ Id: 563
  <p>
   If there is anything about it you would like to know, then please ask and I’ll try to respond to it promptly.
  </p>
- <div class="zemanta-pixie">
-  <a class="zemanta-pixie-a" href="http://reblog.zemanta.com/zemified/975ad83f-5fe4-4116-9522-d28c345d36b9/" title="Reblog this post [with Zemanta]">
-   <img alt="Reblog this post [with Zemanta]" class="zemanta-pixie-img" src="http://img.zemanta.com/reblog_e.png?x-id=975ad83f-5fe4-4116-9522-d28c345d36b9"/>
-  </a>
-  <span class="zem-script paragraph-reblog">
-   <script src="http://static.zemanta.com/readside/loader.js" type="text/javascript">
-   </script>
-  </span>
- </div>
 </div>

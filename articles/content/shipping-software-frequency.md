@@ -120,9 +120,4 @@ Id: 304
  <p>
   A lot has changed in last few months, so the next time we address this topic, I suspect my opinion will be different than last time.
  </p>
- <div class="zemanta-pixie">
-  <a class="zemanta-pixie-a" href="http://reblog.zemanta.com/zemified/81d6b87c-78c1-4e73-877d-43a1db60b537/" title="Zemified by Zemanta">
-   <img alt="Reblog this post [with Zemanta]" class="zemanta-pixie-img" src="http://img.zemanta.com/reblog_e.png?x-id=81d6b87c-78c1-4e73-877d-43a1db60b537"/>
-  </a>
- </div>
 </div>

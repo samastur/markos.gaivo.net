@@ -71,9 +71,4 @@ Id: 664
  <p>
   For a while now I’ve been annoyed by how every gamification talk has about 20 minutes of gushing of its virtues and about 20 seconds on possible ethics problems, but my experience has reminded me of the deeper problem, which is that it is simply much easier to inflict damage to your users and your product (brand) than getting it right.
  </p>
- <div class="zemanta-pixie">
-  <a class="zemanta-pixie-a" href="http://www.zemanta.com/" title="Enhanced by Zemanta">
-   <img alt="Enhanced by Zemanta" class="zemanta-pixie-img" src="http://img.zemanta.com/zemified_e.png?x-id=20efb278-1d20-46ec-aeec-c311b50837c7"/>
-  </a>
- </div>
 </div>

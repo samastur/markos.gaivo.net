@@ -42,9 +42,4 @@ Id: 280
   </strong>
   : License is gone, sent to a new owner.
  </p>
- <div class="zemanta-pixie" style="margin-top: 10px; height: 15px;">
-  <a class="zemanta-pixie-a" href="http://reblog.zemanta.com/zemified/a6262891-3f96-4b97-8bf6-949cb83cba0e/" title="Zemified by Zemanta">
-   <img alt="Zemanta Pixie" class="zemanta-pixie-img" src="http://img.zemanta.com/reblog_e.png?x-id=a6262891-3f96-4b97-8bf6-949cb83cba0e" style="border: medium none; float: right;"/>
-  </a>
- </div>
 </div>

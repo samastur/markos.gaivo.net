@@ -119,13 +119,4 @@ Id: 572
  <p>
   Surely it is time we do better.
  </p>
- <div class="zemanta-pixie">
-  <a class="zemanta-pixie-a" href="http://reblog.zemanta.com/zemified/eee141d5-950f-450e-b42e-71fd1adf6365/" title="Reblog this post [with Zemanta]">
-   <img alt="Reblog this post [with Zemanta]" class="zemanta-pixie-img" src="http://img.zemanta.com/reblog_e.png?x-id=eee141d5-950f-450e-b42e-71fd1adf6365"/>
-  </a>
-  <span class="zem-script ">
-   <script src="http://static.zemanta.com/readside/loader.js" type="text/javascript">
-   </script>
-  </span>
- </div>
 </div>

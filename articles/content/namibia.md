@@ -28,9 +28,4 @@ Id: 288
   </a>
   on 23rd titled “Easy Deployment of Site-Extensions with a Browser Plugin”. If Berlin is too far, then you can also hear it this coming Wednesday at 19.00 in Kiberpipa at our regular Spletne urice talks.
  </p>
- <div class="zemanta-pixie">
-  <a class="zemanta-pixie-a" href="http://reblog.zemanta.com/zemified/2dd1eb7f-f857-4078-a9bb-3a79a9030152/" title="Zemified by Zemanta">
-   <img alt="Reblog this post [with Zemanta]" class="zemanta-pixie-img" src="http://img.zemanta.com/reblog_e.png?x-id=2dd1eb7f-f857-4078-a9bb-3a79a9030152"/>
-  </a>
- </div>
 </div>

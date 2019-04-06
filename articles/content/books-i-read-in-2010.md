@@ -218,9 +218,4 @@ Id: 639
    (markos.gaivo.net)
   </li>
  </ul>
- <div class="zemanta-pixie">
-  <a class="zemanta-pixie-a" href="http://www.zemanta.com/" title="Enhanced by Zemanta">
-   <img alt="Enhanced by Zemanta" class="zemanta-pixie-img" src="http://img.zemanta.com/zemified_e.png?x-id=e138a118-5a43-45ee-b7b3-eac67ee0d584"/>
-  </a>
- </div>
 </div>

@@ -115,13 +115,4 @@ Id: 321
  <p>
   Still, even though I won’t be buying an electronic reader this year, it is only a matter of time when one of them will replace my tablets as reading device.
  </p>
- <div class="zemanta-pixie">
-  <a class="zemanta-pixie-a" href="http://reblog.zemanta.com/zemified/458d3d42-d0f7-451d-a58b-58e4f57d963b/" title="Zemified by Zemanta">
-   <img alt="Reblog this post [with Zemanta]" class="zemanta-pixie-img" src="http://img.zemanta.com/reblog_e.png?x-id=458d3d42-d0f7-451d-a58b-58e4f57d963b"/>
-  </a>
-  <span class="zem-script more-related">
-   <script src="http://static.zemanta.com/readside/loader.js" type="text/javascript">
-   </script>
-  </span>
- </div>
 </div>

@@ -32,9 +32,4 @@ Id: 256
    </li>
   </ul>
  </fieldset>
- <div id="zemanta-pixie" style="margin: 5px 0pt; width: 100%;">
-  <a href="http://www.zemanta.com/" id="zemanta-pixie-a" title="Zemified by Zemanta">
-   <img alt="" id="zemanta-pixie-img" src="http://img.zemanta.com/pixie.png?x-id=fc53c40f-b4c6-4225-b5ad-83fd86e14e94" style="border: medium none; float: right;"/>
-  </a>
- </div>
 </div>

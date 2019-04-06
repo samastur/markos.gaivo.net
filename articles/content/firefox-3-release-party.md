@@ -32,9 +32,4 @@ Id: 267
  <p>
   I hope to see you there.
  </p>
- <div class="zemanta-pixie" style="margin-top: 10px; height: 15px;">
-  <a class="zemanta-pixie-a" href="http://reblog.zemanta.com/zemified/6aa8e696-91f0-45b4-a4dd-42968486c1a5/" title="Zemified by Zemanta">
-   <img alt="Zemanta Pixie" class="zemanta-pixie-img" src="http://img.zemanta.com/reblog_a.png?x-id=6aa8e696-91f0-45b4-a4dd-42968486c1a5" style="border: medium none; float: right;"/>
-  </a>
- </div>
 </div>

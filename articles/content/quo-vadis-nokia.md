@@ -115,9 +115,4 @@ Id: 314
  <p>
   Until then I am sticking with what I got. A great phone for my needs that few match and a couple of nice tablets.
  </p>
- <div class="zemanta-pixie">
-  <a class="zemanta-pixie-a" href="http://reblog.zemanta.com/zemified/3f624094-c249-4865-a24b-46afa4ad183f/" title="Zemified by Zemanta">
-   <img alt="Reblog this post [with Zemanta]" class="zemanta-pixie-img" src="http://img.zemanta.com/reblog_e.png?x-id=3f624094-c249-4865-a24b-46afa4ad183f"/>
-  </a>
- </div>
 </div>

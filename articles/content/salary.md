@@ -42,7 +42,4 @@ Id: 766
  <p>
   A side note: have you noticed how every author describing their company practices says they are paying slightly above average? Either only people from above average companies write these kind of articles or some of them have to be delusional.
  </p>
- <div class="zemanta-pixie">
-  <img alt="" class="zemanta-pixie-img" src="http://img.zemanta.com/pixy.gif?x-id=5d180352-0346-4276-be3b-2b4bf818c65a"/>
- </div>
 </div>

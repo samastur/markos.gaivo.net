@@ -76,7 +76,4 @@ Id: 754
   </a>
   .
  </p>
- <div class="zemanta-pixie">
-  <img alt="" class="zemanta-pixie-img" src="http://img.zemanta.com/pixy.gif?x-id=860d2c48-a1dc-49c5-85d1-277e4734d096"/>
- </div>
 </div>

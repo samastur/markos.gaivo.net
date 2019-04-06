@@ -38,9 +38,4 @@ Id: 591
  <p>
   I am sure somebody can optimize it further, but I find it good enough for my use. Image isn’t very blurred after one pass, but one pass over a small image is also a good way to measure how fast a particular computer-browser combination is. On fast combinations I might go for multiple passes over images in view, but fall back to a single pass or no pass on slower systems.
  </p>
- <div class="zemanta-pixie">
-  <a class="zemanta-pixie-a" href="http://reblog.zemanta.com/zemified/4b7c629c-fdbe-4190-ade4-e240b1b3755a/" title="Reblog this post [with Zemanta]">
-   <img alt="Reblog this post [with Zemanta]" class="zemanta-pixie-img" src="http://img.zemanta.com/reblog_e.png?x-id=4b7c629c-fdbe-4190-ade4-e240b1b3755a"/>
-  </a>
- </div>
 </div>

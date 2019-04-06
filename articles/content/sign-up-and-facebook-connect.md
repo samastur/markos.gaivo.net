@@ -61,9 +61,4 @@ Id: 598
  <p>
   All this is just speculation at this point, but I hope to test it on two projects this year. If I do, I’ll let you know how it went.
  </p>
- <div class="zemanta-pixie">
-  <a class="zemanta-pixie-a" href="http://reblog.zemanta.com/zemified/ef945133-8712-4aa1-9413-aa52f5f6c2c5/" title="Reblog this post [with Zemanta]">
-   <img alt="Reblog this post [with Zemanta]" class="zemanta-pixie-img" src="http://img.zemanta.com/reblog_e.png?x-id=ef945133-8712-4aa1-9413-aa52f5f6c2c5"/>
-  </a>
- </div>
 </div>

@@ -53,9 +53,4 @@ class Unauthorized(Exception):
  <p>
   But is it pythonic enough? If not, what would be, apart from traditional way described in first step?
  </p>
- <div class="zemanta-pixie" style="margin-top: 10px; height: 15px;">
-  <a class="zemanta-pixie-a" href="http://reblog.zemanta.com/zemified/67741c44-cb65-4003-8f66-f8ceb221a025/" title="Zemified by Zemanta">
-   <img alt="Zemanta Pixie" class="zemanta-pixie-img" src="http://img.zemanta.com/reblog_e.png?x-id=67741c44-cb65-4003-8f66-f8ceb221a025" style="border: medium none; float: right;"/>
-  </a>
- </div>
 </div>

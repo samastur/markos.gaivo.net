@@ -40,9 +40,4 @@ Id: 353
   </a>
   . You can also leave any question you might have in comments and I’ll try to answer it to the best of my abilities.
  </p>
- <div class="zemanta-pixie" style="margin-top: 10px; height: 15px;">
-  <a class="zemanta-pixie-a" href="http://reblog.zemanta.com/zemified/776f1526-aafa-4206-9966-4658717c9e0e/" title="Reblog this post [with Zemanta]">
-   <img alt="Reblog this post [with Zemanta]" class="zemanta-pixie-img" src="http://img.zemanta.com/reblog_e.png?x-id=776f1526-aafa-4206-9966-4658717c9e0e" style="border: medium none; float: right;"/>
-  </a>
- </div>
 </div>

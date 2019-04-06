@@ -145,13 +145,4 @@ Id: 479
  <p>
   Good luck!
  </p>
- <div class="zemanta-pixie">
-  <a class="zemanta-pixie-a" href="http://reblog.zemanta.com/zemified/37e4a7b1-bb28-45a9-a90c-c3b75ed89041/" title="Reblog this post [with Zemanta]">
-   <img alt="Reblog this post [with Zemanta]" class="zemanta-pixie-img" src="http://img.zemanta.com/reblog_e.png?x-id=37e4a7b1-bb28-45a9-a90c-c3b75ed89041"/>
-  </a>
-  <span class="zem-script paragraph-reblog">
-   <script src="http://static.zemanta.com/readside/loader.js" type="text/javascript">
-   </script>
-  </span>
- </div>
 </div>

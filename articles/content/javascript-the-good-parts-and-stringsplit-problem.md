@@ -17,7 +17,6 @@ Id: 322
   <a href="http://www.amazon.com/gp/product/0596517742?ie=UTF8&amp;tag=devel-20&amp;linkCode=as2&amp;camp=1789&amp;creative=390957&amp;creativeASIN=0596517742">
    JavaScript: The Good Parts
   </a>
-  <img alt="" border="0" height="1" src="http://www.assoc-amazon.com/e/ir?t=devel-20&amp;l=as2&amp;o=1&amp;a=0596517742" style="border:none !important; margin:0px !important;" width="1"/>
   . It’s what a technical book should be. Concise yet full of useful information as a result of clear scope and sticking to it. If my experience is anything to go by, then there are not many Javascript programmers who wouldn’t benefit from it.
  </p>
  <p>
@@ -45,13 +44,4 @@ Id: 322
  <p>
   Still, I would find a bug in my code faster this week if I read his book sooner.
  </p>
- <div class="zemanta-pixie">
-  <a class="zemanta-pixie-a" href="http://reblog.zemanta.com/zemified/098a0fec-e31c-40fe-a1d4-701ecad46969/" title="Zemified by Zemanta">
-   <img alt="Reblog this post [with Zemanta]" class="zemanta-pixie-img" src="http://img.zemanta.com/reblog_e.png?x-id=098a0fec-e31c-40fe-a1d4-701ecad46969"/>
-  </a>
-  <span class="zem-script more-related">
-   <script src="http://static.zemanta.com/readside/loader.js" type="text/javascript">
-   </script>
-  </span>
- </div>
 </div>

@@ -54,9 +54,4 @@ Id: 261
  <p>
   So these were my favorite features. What were yours?
  </p>
- <div class="zemanta-pixie" style="margin-top: 10px; height: 15px;">
-  <a class="zemanta-pixie-a" href="http://reblog.zemanta.com/zemified/06dcfd9a-19cd-488c-a265-57084a83da54/" title="Zemified by Zemanta">
-   <img alt="Zemanta Pixie" class="zemanta-pixie-img" src="http://img.zemanta.com/reblog_a.png?x-id=06dcfd9a-19cd-488c-a265-57084a83da54" style="border: medium none; float: right;"/>
-  </a>
- </div>
 </div>

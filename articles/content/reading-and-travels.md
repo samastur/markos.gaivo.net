@@ -63,9 +63,4 @@ Id: 615
    You could sell a copy that you got discounted and with that reduce publisher?s profit. ?I?m willing to ?bet though that ?those lost 5 dollars amount to more money than such paranoia saves.
   </li>
  </ol>
- <div class="zemanta-pixie" style="margin-top: 10px; height: 15px;">
-  <a class="zemanta-pixie-a" href="http://www.zemanta.com/" title="Enhanced by Zemanta">
-   <img alt="Enhanced by Zemanta" class="zemanta-pixie-img" src="http://img.zemanta.com/zemified_e.png?x-id=c8c4ed43-d21a-4a47-8a55-c8ca7e27305e" style="border: none; float: right;"/>
-  </a>
- </div>
 </div>

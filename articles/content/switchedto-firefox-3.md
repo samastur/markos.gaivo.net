@@ -28,9 +28,4 @@ Id: 266
  <p>
   Anyway, enough of ranting. Time to get back to cutting cake…
  </p>
- <div class="zemanta-pixie" style="margin-top: 10px; height: 15px;">
-  <a class="zemanta-pixie-a" href="http://reblog.zemanta.com/zemified/79c05cbe-847f-4fa0-8dc3-878f8e79208f/" title="Zemified by Zemanta">
-   <img alt="Zemanta Pixie" class="zemanta-pixie-img" src="http://img.zemanta.com/reblog_a.png?x-id=79c05cbe-847f-4fa0-8dc3-878f8e79208f" style="border: medium none; float: right;"/>
-  </a>
- </div>
 </div>

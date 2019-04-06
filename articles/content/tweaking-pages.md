@@ -53,9 +53,4 @@ Id: 296
  <p>
   I thought about downsides to this since Thursday and I’m failing to find anything substantial.
  </p>
- <div class="zemanta-pixie">
-  <a class="zemanta-pixie-a" href="http://reblog.zemanta.com/zemified/371a642d-6da1-4089-8b93-ef701f1cdb08/" title="Zemified by Zemanta">
-   <img alt="Reblog this post [with Zemanta]" class="zemanta-pixie-img" src="http://img.zemanta.com/reblog_e.png?x-id=371a642d-6da1-4089-8b93-ef701f1cdb08"/>
-  </a>
- </div>
 </div>

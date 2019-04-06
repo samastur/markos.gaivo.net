@@ -81,9 +81,4 @@ Id: 579
  <p>
   I am aware that Maemo should be called MeeGo now, but a habit of years can’t be changed in few weeks. I searched for above applications and didn’t find them, but if you know of any I missed, then please let me know.
  </p>
- <div class="zemanta-pixie">
-  <a class="zemanta-pixie-a" href="http://reblog.zemanta.com/zemified/8a3f246d-6a49-416b-b38b-3c79f3c30764/" title="Reblog this post [with Zemanta]">
-   <img alt="Reblog this post [with Zemanta]" class="zemanta-pixie-img" src="http://img.zemanta.com/reblog_e.png?x-id=8a3f246d-6a49-416b-b38b-3c79f3c30764"/>
-  </a>
- </div>
 </div>

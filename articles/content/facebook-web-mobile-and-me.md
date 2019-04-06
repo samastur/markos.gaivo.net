@@ -75,13 +75,4 @@ Id: 527
  <p>
   At the end of this long self-indulgent post I confess I have no answers. I barely have questions and I had to write this far to get to them. It is for me the most introspective part of the year, so I might be thinking about a non-issue. Time will tell. Eventually.
  </p>
- <div class="zemanta-pixie">
-  <a class="zemanta-pixie-a" href="http://reblog.zemanta.com/zemified/a5117991-c107-4748-a6c7-31134e58e25b/" title="Reblog this post [with Zemanta]">
-   <img alt="Reblog this post [with Zemanta]" class="zemanta-pixie-img" src="http://img.zemanta.com/reblog_e.png?x-id=a5117991-c107-4748-a6c7-31134e58e25b"/>
-  </a>
-  <span class="zem-script paragraph-reblog">
-   <script src="http://static.zemanta.com/readside/loader.js" type="text/javascript">
-   </script>
-  </span>
- </div>
 </div>

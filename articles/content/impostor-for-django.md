@@ -59,9 +59,4 @@ Id: 649
   </strong>
   : Thanks Ross for reminding me where idea came from. I updated text accordingly.
  </p>
- <div class="zemanta-pixie">
-  <a class="zemanta-pixie-a" href="http://www.zemanta.com/" title="Enhanced by Zemanta">
-   <img alt="Enhanced by Zemanta" class="zemanta-pixie-img" src="http://img.zemanta.com/zemified_e.png?x-id=db7c9f53-423e-4b56-bbe3-b717fde54c16"/>
-  </a>
- </div>
 </div>

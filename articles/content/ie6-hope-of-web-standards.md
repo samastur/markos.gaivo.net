@@ -95,9 +95,4 @@ Id: 313
  <p>
   To sum it up, IE6 is indeed a problem in todays development, but it’s also at least at fault for this. It was an excellent browser when it came out and is remarkably solid one for software so old. There are many reasons, completely untouched in this post, why its users don’t migrate to something newer, but we, web developers, are also to blame, because we tend to standardize only current practice and leave few doors open for future development which invariably comes.
  </p>
- <div class="zemanta-pixie">
-  <a class="zemanta-pixie-a" href="http://reblog.zemanta.com/zemified/1235c7ef-00b0-4968-aaa8-90dfe88b2f35/" title="Zemified by Zemanta">
-   <img alt="Reblog this post [with Zemanta]" class="zemanta-pixie-img" src="http://img.zemanta.com/reblog_e.png?x-id=1235c7ef-00b0-4968-aaa8-90dfe88b2f35"/>
-  </a>
- </div>
 </div>

@@ -59,9 +59,4 @@ Id: 287
  <p>
   I’m sure this is not the only scenario in which App Engine makes sense and there are others I haven’t named or thought of. Issues, like accounts, can with some effort be solved now. But App Engine also isn’t (yet) what some of us were hoping for and it’s prudent to really think through what you want, what you need and what App Engine actually offers.
  </p>
- <div class="zemanta-pixie">
-  <a class="zemanta-pixie-a" href="http://reblog.zemanta.com/zemified/28ddae75-72ba-4a45-892e-7841f893395b/" title="Zemified by Zemanta">
-   <img alt="Reblog this post [with Zemanta]" class="zemanta-pixie-img" src="http://img.zemanta.com/reblog_e.png?x-id=28ddae75-72ba-4a45-892e-7841f893395b" style="border: medium none; float: right;"/>
-  </a>
- </div>
 </div>
