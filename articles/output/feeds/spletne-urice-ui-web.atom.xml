@@ -1,5 +1,18 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>A notch above a monkey</title><link href="http://markos.gaivo.net/articles/" rel="alternate"></link><link href="/articles/feeds/spletne-urice-ui-web.atom.xml" rel="self"></link><id>http://markos.gaivo.net/articles/</id><updated>2006-03-05T16:23:00+01:00</updated><entry><title>iPod talk this Wednesday</title><link href="http://markos.gaivo.net/articles/ipod-talk-this-wednesday.html" rel="alternate"></link><updated>2006-03-05T16:23:00+01:00</updated><author><name>markos</name></author><id>tag:markos.gaivo.net,2006-03-05:articles/ipod-talk-this-wednesday.html</id><summary type="html">&lt;div&gt;
+<feed xmlns="http://www.w3.org/2005/Atom"><title>A notch above a monkey - Spletne urice, UI, Web</title><link href="http://markos.gaivo.net/articles/" rel="alternate"></link><link href="/articles/feeds/spletne-urice-ui-web.atom.xml" rel="self"></link><id>http://markos.gaivo.net/articles/</id><updated>2006-03-05T16:23:00+01:00</updated><entry><title>iPod talk this Wednesday</title><link href="http://markos.gaivo.net/articles/ipod-talk-this-wednesday.html" rel="alternate"></link><published>2006-03-05T16:23:00+01:00</published><updated>2006-03-05T16:23:00+01:00</updated><author><name>markos</name></author><id>tag:markos.gaivo.net,2006-03-05:/articles/ipod-talk-this-wednesday.html</id><summary type="html">&lt;div&gt;
+ &lt;p&gt;
+  I’ll be giving a talk this Wednesday at 19:00 in
+  &lt;a href="http://www.kiberpipa.org/index.php?module=ContentExpress&amp;amp;file=index&amp;amp;func=display&amp;amp;ceid=6&amp;amp;meid=25"&gt;
+   Kiberpipa
+  &lt;/a&gt;
+  as
+  &lt;a href="what-ipod-teaches-us-about-modern-web-design.html"&gt;
+   promised
+  &lt;/a&gt;
+  some time ago. The theme of the talk will be lessons learned from iPod about (web) design and everyone is welcome to attend.
+ &lt;/p&gt;
+ &lt;p&gt;
+  I’m buying a drink for everyone, who’ll manage to stay …&lt;/p&gt;&lt;/div&gt;</summary><content type="html">&lt;div&gt;
  &lt;p&gt;
   I’ll be giving a talk this Wednesday at 19:00 in
   &lt;a href="http://www.kiberpipa.org/index.php?module=ContentExpress&amp;amp;file=index&amp;amp;func=display&amp;amp;ceid=6&amp;amp;meid=25"&gt;
@@ -14,7 +27,16 @@
  &lt;p&gt;
   I’m buying a drink for everyone, who’ll manage to stay through my rather short talk and won’t flee the scene immediately afterwards. The talk will probably be given in English.
  &lt;/p&gt;
-&lt;/div&gt;</summary></entry><entry><title>Hiding form buttons as text</title><link href="http://markos.gaivo.net/articles/hiding-form-buttons-as-text.html" rel="alternate"></link><updated>2005-12-02T15:49:00+01:00</updated><author><name>markos</name></author><id>tag:markos.gaivo.net,2005-12-02:articles/hiding-form-buttons-as-text.html</id><summary type="html">&lt;div&gt;
+&lt;/div&gt;</content></entry><entry><title>Hiding form buttons as text</title><link href="http://markos.gaivo.net/articles/hiding-form-buttons-as-text.html" rel="alternate"></link><published>2005-12-02T15:49:00+01:00</published><updated>2005-12-02T15:49:00+01:00</updated><author><name>markos</name></author><id>tag:markos.gaivo.net,2005-12-02:/articles/hiding-form-buttons-as-text.html</id><summary type="html">&lt;div&gt;
+ &lt;p&gt;
+  I love going to our weekly web talks not so much for the talks themselves (although they are great), but conversations you get to have there. A part of a recent one rendered from memory and shortened for readers pleasure:
+ &lt;/p&gt;
+ &lt;blockquote&gt;
+  &lt;p&gt;
+   &lt;strong&gt;
+    Fry:
+   &lt;/strong&gt;
+   Those delete strings of yours should really be post …&lt;/p&gt;&lt;/blockquote&gt;&lt;/div&gt;</summary><content type="html">&lt;div&gt;
  &lt;p&gt;
   I love going to our weekly web talks not so much for the talks themselves (although they are great), but conversations you get to have there. A part of a recent one rendered from memory and shortened for readers pleasure:
  &lt;/p&gt;
@@ -108,4 +130,4 @@
  &lt;p&gt;
   So, any ideas about what to do with IE?
  &lt;/p&gt;
-&lt;/div&gt;</summary></entry></feed>
+&lt;/div&gt;</content></entry></feed>

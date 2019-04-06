@@ -1,5 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>A notch above a monkey</title><link href="http://markos.gaivo.net/articles/" rel="alternate"></link><link href="/articles/feeds/company-general-development-ui-web.atom.xml" rel="self"></link><id>http://markos.gaivo.net/articles/</id><updated>2006-01-29T22:43:00+01:00</updated><entry><title>Undiscovered talent</title><link href="http://markos.gaivo.net/articles/undiscovered-talent.html" rel="alternate"></link><updated>2006-01-29T22:43:00+01:00</updated><author><name>markos</name></author><id>tag:markos.gaivo.net,2006-01-29:articles/undiscovered-talent.html</id><summary type="html">&lt;div&gt;
+<feed xmlns="http://www.w3.org/2005/Atom"><title>A notch above a monkey - Company, General development, UI, Web</title><link href="http://markos.gaivo.net/articles/" rel="alternate"></link><link href="/articles/feeds/company-general-development-ui-web.atom.xml" rel="self"></link><id>http://markos.gaivo.net/articles/</id><updated>2006-01-29T22:43:00+01:00</updated><entry><title>Undiscovered talent</title><link href="http://markos.gaivo.net/articles/undiscovered-talent.html" rel="alternate"></link><published>2006-01-29T22:43:00+01:00</published><updated>2006-01-29T22:43:00+01:00</updated><author><name>markos</name></author><id>tag:markos.gaivo.net,2006-01-29:/articles/undiscovered-talent.html</id><summary type="html">&lt;div&gt;
+ &lt;p&gt;
+  We recently bowed to pressure from our members and changed the way image navigation works. For those familiar with Flickr, let’s say you’ve searched for images with a given tag and selected an image from results page. When you view it, you get thumbnails of its neighbors from …&lt;/p&gt;&lt;/div&gt;</summary><content type="html">&lt;div&gt;
  &lt;p&gt;
   We recently bowed to pressure from our members and changed the way image navigation works. For those familiar with Flickr, let’s say you’ve searched for images with a given tag and selected an image from results page. When you view it, you get thumbnails of its neighbors from author’s photo-stream and not from results one. That’s how Marela used to work, but doesn’t anymore. Previous and next are now context dependent.
  &lt;/p&gt;
@@ -52,4 +54,4 @@
  &lt;p&gt;
   I have no illusion that my dropped feature alone wouldn’t solve this problem, but I can’t help feeling we might have made a step in wrong direction. Maybe I tried to solve a problem which doesn’t exist, but isn’t this akin to saying we have enough culture and shouldn’t produce more?
  &lt;/p&gt;
-&lt;/div&gt;</summary></entry></feed>
+&lt;/div&gt;</content></entry></feed>

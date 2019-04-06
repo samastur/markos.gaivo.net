@@ -1,5 +1,20 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>A notch above a monkey</title><link href="http://markos.gaivo.net/articles/" rel="alternate"></link><link href="/articles/feeds/django-python.atom.xml" rel="self"></link><id>http://markos.gaivo.net/articles/</id><updated>2013-12-22T19:29:00+01:00</updated><entry><title>DjangoCon Europe 2014?</title><link href="http://markos.gaivo.net/articles/djangocon-europe-2014.html" rel="alternate"></link><updated>2013-12-22T19:29:00+01:00</updated><author><name>markos</name></author><id>tag:markos.gaivo.net,2013-12-22:articles/djangocon-europe-2014.html</id><summary type="html">&lt;div&gt;
+<feed xmlns="http://www.w3.org/2005/Atom"><title>A notch above a monkey - Django, Python</title><link href="http://markos.gaivo.net/articles/" rel="alternate"></link><link href="/articles/feeds/django-python.atom.xml" rel="self"></link><id>http://markos.gaivo.net/articles/</id><updated>2013-12-22T19:29:00+01:00</updated><entry><title>DjangoCon Europe 2014?</title><link href="http://markos.gaivo.net/articles/djangocon-europe-2014.html" rel="alternate"></link><published>2013-12-22T19:29:00+01:00</published><updated>2013-12-22T19:29:00+01:00</updated><author><name>markos</name></author><id>tag:markos.gaivo.net,2013-12-22:/articles/djangocon-europe-2014.html</id><summary type="html">&lt;div&gt;
+ &lt;p&gt;
+  &lt;strong&gt;
+   Update 2:
+  &lt;/strong&gt;
+  Tickets are now
+  &lt;a href="http://www.weezevent.com/djangocon-europe"&gt;
+   on sale
+  &lt;/a&gt;
+  and it is safe to say that I am not going. The opening price (which will go up after 50 sold tickets) is already too high for me and it is exactly what I was originally afraid of.
+ &lt;/p&gt;
+ &lt;p&gt;
+  &lt;strong&gt;
+   Update
+  &lt;/strong&gt;
+  : I am sorry, I …&lt;/p&gt;&lt;/div&gt;</summary><content type="html">&lt;div&gt;
  &lt;p&gt;
   &lt;strong&gt;
    Update 2:
@@ -62,4 +77,4 @@
    &lt;/a&gt;
   &lt;/li&gt;
  &lt;/ol&gt;
-&lt;/div&gt;</summary><category term="conference"></category><category term="DjangoCon"></category><category term="Django"></category></entry></feed>
+&lt;/div&gt;</content><category term="conference"></category><category term="DjangoCon"></category><category term="Django"></category></entry></feed>

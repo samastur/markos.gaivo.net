@@ -1,5 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>A notch above a monkey</title><link href="http://markos.gaivo.net/articles/" rel="alternate"></link><link href="/articles/feeds/catchall-general-development-web.atom.xml" rel="self"></link><id>http://markos.gaivo.net/articles/</id><updated>2009-05-15T08:02:00+02:00</updated><entry><title>Open Hack 2009</title><link href="http://markos.gaivo.net/articles/open-hack-2009.html" rel="alternate"></link><updated>2009-05-15T08:02:00+02:00</updated><author><name>markos</name></author><id>tag:markos.gaivo.net,2009-05-15:articles/open-hack-2009.html</id><summary type="html">&lt;div&gt;
+<feed xmlns="http://www.w3.org/2005/Atom"><title>A notch above a monkey - Catchall, General development, Web</title><link href="http://markos.gaivo.net/articles/" rel="alternate"></link><link href="/articles/feeds/catchall-general-development-web.atom.xml" rel="self"></link><id>http://markos.gaivo.net/articles/</id><updated>2009-05-15T08:02:00+02:00</updated><entry><title>Open Hack 2009</title><link href="http://markos.gaivo.net/articles/open-hack-2009.html" rel="alternate"></link><published>2009-05-15T08:02:00+02:00</published><updated>2009-05-15T08:02:00+02:00</updated><author><name>markos</name></author><id>tag:markos.gaivo.net,2009-05-15:/articles/open-hack-2009.html</id><summary type="html">&lt;div&gt;
+ &lt;p&gt;
+  Now that Mini Seedcamp in Ljubljana is behind me (an event that might warrant its own post), I finally have some time to write about
+  &lt;a href="http://openhacklondon.pbworks.com/FrontPage"&gt;
+   Open Hack 2009
+  &lt;/a&gt;
+  . I’m sorry to say to those who didn’t go that this might have been the biggest mistake you’ll do …&lt;/p&gt;&lt;/div&gt;</summary><content type="html">&lt;div&gt;
  &lt;p&gt;
   Now that Mini Seedcamp in Ljubljana is behind me (an event that might warrant its own post), I finally have some time to write about
   &lt;a href="http://openhacklondon.pbworks.com/FrontPage"&gt;
@@ -41,4 +47,4 @@
  &lt;p&gt;
   At the end a small advice to organizers for next European event, on which I hope we won’t have to wait another two years. Try putting as much documentation and libraries on USB key as you can, so in case of wifi not working, we can still program with them instead of falling back to what we already intimately know or have on our machines.
  &lt;/p&gt;
-&lt;/div&gt;</summary><category term="openhacklondon"></category><category term="openhack"></category><category term="yahoo"></category><category term="hack"></category></entry></feed>
+&lt;/div&gt;</content><category term="openhacklondon"></category><category term="openhack"></category><category term="yahoo"></category><category term="hack"></category></entry></feed>

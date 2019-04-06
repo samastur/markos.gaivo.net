@@ -1,5 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>A notch above a monkey</title><link href="http://markos.gaivo.net/articles/" rel="alternate"></link><link href="/articles/feeds/general-development-javascript-python-web.atom.xml" rel="self"></link><id>http://markos.gaivo.net/articles/</id><updated>2007-04-06T20:01:00+02:00</updated><entry><title>Error logging and failed authentication attempts</title><link href="http://markos.gaivo.net/articles/error-logging-and-failed-authentication-attempts.html" rel="alternate"></link><updated>2007-04-06T20:01:00+02:00</updated><author><name>markos</name></author><id>tag:markos.gaivo.net,2007-04-06:articles/error-logging-and-failed-authentication-attempts.html</id><summary type="html">&lt;div&gt;
+<feed xmlns="http://www.w3.org/2005/Atom"><title>A notch above a monkey - General development, Javascript, Python, Web</title><link href="http://markos.gaivo.net/articles/" rel="alternate"></link><link href="/articles/feeds/general-development-javascript-python-web.atom.xml" rel="self"></link><id>http://markos.gaivo.net/articles/</id><updated>2007-04-06T20:01:00+02:00</updated><entry><title>Error logging and failed authentication attempts</title><link href="http://markos.gaivo.net/articles/error-logging-and-failed-authentication-attempts.html" rel="alternate"></link><published>2007-04-06T20:01:00+02:00</published><updated>2007-04-06T20:01:00+02:00</updated><author><name>markos</name></author><id>tag:markos.gaivo.net,2007-04-06:/articles/error-logging-and-failed-authentication-attempts.html</id><summary type="html">&lt;div&gt;
+ &lt;p&gt;
+  People make mistakes and that’s why we log every error that happens on
+  &lt;a href="http://www.marela.si" title="Photo-sharing website"&gt;
+   Marela
+  &lt;/a&gt;
+  pages or its API. I imagine most services that care about quality do more or less the same, since it is a great way to find yet undiscovered bugs.
+ &lt;/p&gt;
+ &lt;p&gt;
+  There’s an additional benefit when …&lt;/p&gt;&lt;/div&gt;</summary><content type="html">&lt;div&gt;
  &lt;p&gt;
   People make mistakes and that’s why we log every error that happens on
   &lt;a href="http://www.marela.si" title="Photo-sharing website"&gt;
@@ -26,7 +35,15 @@
  &lt;p&gt;
   This is of course just an example. My main point is that a sufficiently large API will have calls with different privacy needs and API designers should think carefully about what needs to be recorded in service logs and what mustn’t.
  &lt;/p&gt;
-&lt;/div&gt;</summary></entry><entry><title>Speed of development</title><link href="http://markos.gaivo.net/articles/speed-of-development.html" rel="alternate"></link><updated>2006-04-27T23:31:00+02:00</updated><author><name>markos</name></author><id>tag:markos.gaivo.net,2006-04-27:articles/speed-of-development.html</id><summary type="html">&lt;div&gt;
+&lt;/div&gt;</content></entry><entry><title>Speed of development</title><link href="http://markos.gaivo.net/articles/speed-of-development.html" rel="alternate"></link><published>2006-04-27T23:31:00+02:00</published><updated>2006-04-27T23:31:00+02:00</updated><author><name>markos</name></author><id>tag:markos.gaivo.net,2006-04-27:/articles/speed-of-development.html</id><summary type="html">&lt;div&gt;
+ &lt;p&gt;
+  &lt;a href="http://erik.eae.net/archives/2006/04/26/23.23.02/"&gt;
+   This
+  &lt;/a&gt;
+  brought a sad smile to my face.
+ &lt;/p&gt;
+ &lt;p&gt;
+  There was a time when Javascript implementation in Internet Explorer was really top notch and other browsers had something to look up to (apart from memory leaking, which is just embarrassing). But it’s been 5 years since last IE and it …&lt;/p&gt;&lt;/div&gt;</summary><content type="html">&lt;div&gt;
  &lt;p&gt;
   &lt;a href="http://erik.eae.net/archives/2006/04/26/23.23.02/"&gt;
    This
@@ -52,4 +69,4 @@
  &lt;p&gt;
   It does, however, pose an interesting question without an answer. When should I start learning something new?
  &lt;/p&gt;
-&lt;/div&gt;</summary></entry></feed>
+&lt;/div&gt;</content></entry></feed>

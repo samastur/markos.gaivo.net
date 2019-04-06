@@ -1,5 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>A notch above a monkey</title><link href="http://markos.gaivo.net/articles/" rel="alternate"></link><link href="/articles/feeds/general-development-python.atom.xml" rel="self"></link><id>http://markos.gaivo.net/articles/</id><updated>2008-07-22T09:39:00+02:00</updated><entry><title>Generating Python Exceptions Classes</title><link href="http://markos.gaivo.net/articles/generating-python-exceptions-classes.html" rel="alternate"></link><updated>2008-07-22T09:39:00+02:00</updated><author><name>markos</name></author><id>tag:markos.gaivo.net,2008-07-22:articles/generating-python-exceptions-classes.html</id><summary type="html">&lt;div&gt;
+<feed xmlns="http://www.w3.org/2005/Atom"><title>A notch above a monkey - General development, Python</title><link href="http://markos.gaivo.net/articles/" rel="alternate"></link><link href="/articles/feeds/general-development-python.atom.xml" rel="self"></link><id>http://markos.gaivo.net/articles/</id><updated>2008-07-22T09:39:00+02:00</updated><entry><title>Generating Python Exceptions Classes</title><link href="http://markos.gaivo.net/articles/generating-python-exceptions-classes.html" rel="alternate"></link><published>2008-07-22T09:39:00+02:00</published><updated>2008-07-22T09:39:00+02:00</updated><author><name>markos</name></author><id>tag:markos.gaivo.net,2008-07-22:/articles/generating-python-exceptions-classes.html</id><summary type="html">&lt;div&gt;
+ &lt;p&gt;
+  It’s been a while since I used
+  &lt;a class="zem_slink" href="http://www.python.org/" rel="homepage" title="Python (programming language)"&gt;
+   Python
+  &lt;/a&gt;
+  for anything larger than scripts few tens lines long, so it feels really great to do it again. I did discover however that I became a bit rusty. Not so much in not being able to achieve what I want as …&lt;/p&gt;&lt;/div&gt;</summary><content type="html">&lt;div&gt;
  &lt;p&gt;
   It’s been a while since I used
   &lt;a class="zem_slink" href="http://www.python.org/" rel="homepage" title="Python (programming language)"&gt;
@@ -45,12 +51,12 @@ class Unauthorized(Exception):
  &lt;p&gt;
   But is it pythonic enough? If not, what would be, apart from traditional way described in first step?
  &lt;/p&gt;
- &lt;div class="zemanta-pixie" style="margin-top: 10px; height: 15px;"&gt;
-  &lt;a class="zemanta-pixie-a" href="http://reblog.zemanta.com/zemified/67741c44-cb65-4003-8f66-f8ceb221a025/" title="Zemified by Zemanta"&gt;
-   &lt;img alt="Zemanta Pixie" class="zemanta-pixie-img" src="http://img.zemanta.com/reblog_e.png?x-id=67741c44-cb65-4003-8f66-f8ceb221a025" style="border: medium none; float: right;"/&gt;
-  &lt;/a&gt;
- &lt;/div&gt;
-&lt;/div&gt;</summary><category term="Exceptions"></category><category term="Languages"></category><category term="Python"></category><category term="Programming"></category><category term="Class"></category></entry><entry><title>Messing with other people's code</title><link href="http://markos.gaivo.net/articles/messing-with-other-peoples-code.html" rel="alternate"></link><updated>2006-03-14T22:19:00+01:00</updated><author><name>markos</name></author><id>tag:markos.gaivo.net,2006-03-14:articles/messing-with-other-peoples-code.html</id><summary type="html">&lt;div&gt;
+&lt;/div&gt;</content><category term="Exceptions"></category><category term="Languages"></category><category term="Python"></category><category term="Programming"></category><category term="Class"></category></entry><entry><title>Messing with other people's code</title><link href="http://markos.gaivo.net/articles/messing-with-other-peoples-code.html" rel="alternate"></link><published>2006-03-14T22:19:00+01:00</published><updated>2006-03-14T22:19:00+01:00</updated><author><name>markos</name></author><id>tag:markos.gaivo.net,2006-03-14:/articles/messing-with-other-peoples-code.html</id><summary type="html">&lt;div&gt;
+ &lt;p&gt;
+  Years ago I published my first code and I still remember the anxiety. Will people notice that I’m an incompetent idiot or do they already know?
+ &lt;/p&gt;
+ &lt;p&gt;
+  I grew up a lot since then and these days I know I’m not a great programmer. Even more importantly, I’m …&lt;/p&gt;&lt;/div&gt;</summary><content type="html">&lt;div&gt;
  &lt;p&gt;
   Years ago I published my first code and I still remember the anxiety. Will people notice that I’m an incompetent idiot or do they already know?
  &lt;/p&gt;
@@ -64,4 +70,4 @@ class Unauthorized(Exception):
  &lt;p&gt;
   Nasty. Something new to worry about.
  &lt;/p&gt;
-&lt;/div&gt;</summary></entry></feed>
+&lt;/div&gt;</content></entry></feed>

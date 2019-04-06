@@ -1,5 +1,22 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>A notch above a monkey</title><link href="http://markos.gaivo.net/articles/" rel="alternate"></link><link href="/articles/feeds/company-general-development-python-web.atom.xml" rel="self"></link><id>http://markos.gaivo.net/articles/</id><updated>2006-01-21T20:52:00+01:00</updated><entry><title>New EU initiative for unified patent system</title><link href="http://markos.gaivo.net/articles/new-eu-initiative-for-unified-patent-system.html" rel="alternate"></link><updated>2006-01-21T20:52:00+01:00</updated><author><name>markos</name></author><id>tag:markos.gaivo.net,2006-01-21:articles/new-eu-initiative-for-unified-patent-system.html</id><summary type="html">&lt;div&gt;
+<feed xmlns="http://www.w3.org/2005/Atom"><title>A notch above a monkey - Company, General development, Python, Web</title><link href="http://markos.gaivo.net/articles/" rel="alternate"></link><link href="/articles/feeds/company-general-development-python-web.atom.xml" rel="self"></link><id>http://markos.gaivo.net/articles/</id><updated>2006-01-21T20:52:00+01:00</updated><entry><title>New EU initiative for unified patent system</title><link href="http://markos.gaivo.net/articles/new-eu-initiative-for-unified-patent-system.html" rel="alternate"></link><published>2006-01-21T20:52:00+01:00</published><updated>2006-01-21T20:52:00+01:00</updated><author><name>markos</name></author><id>tag:markos.gaivo.net,2006-01-21:/articles/new-eu-initiative-for-unified-patent-system.html</id><summary type="html">&lt;div&gt;
+ &lt;p&gt;
+  The European Commission launched
+  &lt;a href="http://europa.eu.int/rapid/pressReleasesAction.do?reference=IP/06/38&amp;amp;format=HTML&amp;amp;aged=0&amp;amp;language=EN&amp;amp;guiLanguage=fr"&gt;
+   a new patent initiative
+  &lt;/a&gt;
+  that
+  &lt;a href="http://www.groklaw.net/article.php?story=20060116105000582"&gt;
+   hasn’t received
+  &lt;/a&gt;
+  a universally warm welcome. I can hardly blame them, since I too remember how unscrupulous Commission was when pushing for software patents.
+ &lt;/p&gt;
+ &lt;p&gt;
+  I wrote
+  &lt;a href="intellectual-property-and-society-benefits.html"&gt;
+   my thoughts
+  &lt;/a&gt;
+  on patents a while ago and they haven’t changed much since …&lt;/p&gt;&lt;/div&gt;</summary><content type="html">&lt;div&gt;
  &lt;p&gt;
   The European Commission launched
   &lt;a href="http://europa.eu.int/rapid/pressReleasesAction.do?reference=IP/06/38&amp;amp;format=HTML&amp;amp;aged=0&amp;amp;language=EN&amp;amp;guiLanguage=fr"&gt;
@@ -38,4 +55,4 @@
    to be concerned.
   &lt;/em&gt;
  &lt;/p&gt;
-&lt;/div&gt;</summary></entry></feed>
+&lt;/div&gt;</content></entry></feed>

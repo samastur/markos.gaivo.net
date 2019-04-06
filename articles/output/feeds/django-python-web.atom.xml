@@ -1,5 +1,19 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>A notch above a monkey</title><link href="http://markos.gaivo.net/articles/" rel="alternate"></link><link href="/articles/feeds/django-python-web.atom.xml" rel="self"></link><id>http://markos.gaivo.net/articles/</id><updated>2013-01-20T23:53:00+01:00</updated><entry><title>Shrinking images with image-diet</title><link href="http://markos.gaivo.net/articles/shrinking-images-with-image-diet.html" rel="alternate"></link><updated>2013-01-20T23:53:00+01:00</updated><author><name>markos</name></author><id>tag:markos.gaivo.net,2013-01-20:articles/shrinking-images-with-image-diet.html</id><summary type="html">&lt;div&gt;
+<feed xmlns="http://www.w3.org/2005/Atom"><title>A notch above a monkey - Django, Python, Web</title><link href="http://markos.gaivo.net/articles/" rel="alternate"></link><link href="/articles/feeds/django-python-web.atom.xml" rel="self"></link><id>http://markos.gaivo.net/articles/</id><updated>2013-01-20T23:53:00+01:00</updated><entry><title>Shrinking images with image-diet</title><link href="http://markos.gaivo.net/articles/shrinking-images-with-image-diet.html" rel="alternate"></link><published>2013-01-20T23:53:00+01:00</published><updated>2013-01-20T23:53:00+01:00</updated><author><name>markos</name></author><id>tag:markos.gaivo.net,2013-01-20:/articles/shrinking-images-with-image-diet.html</id><summary type="html">&lt;div&gt;
+ &lt;p&gt;
+  I like
+  &lt;a href="https://github.com/SmileyChris/easy-thumbnails"&gt;
+   easy-thumbnails
+  &lt;/a&gt;
+  and use it often in my Django projects, but I wished for a long time that its
+  &lt;a href="http://www.pythonware.com/products/pil/"&gt;
+   PIL
+  &lt;/a&gt;
+  generated thumbnails would be smaller. That’s why I wrote
+  &lt;a href="https://github.com/samastur/image-diet"&gt;
+   image-diet
+  &lt;/a&gt;
+  , a drop-in extension for those easy-thumbnails users who use file system for storing images. Images remain visually the …&lt;/p&gt;&lt;/div&gt;</summary><content type="html">&lt;div&gt;
  &lt;p&gt;
   I like
   &lt;a href="https://github.com/SmileyChris/easy-thumbnails"&gt;
@@ -35,7 +49,9 @@
  &lt;p&gt;
   I would love to hear any comments and ideas you may have, even more so if you try it.
  &lt;/p&gt;
-&lt;/div&gt;</summary><category term="Django"></category><category term="low-bandwidth"></category><category term="images"></category><category term="page size"></category><category term="speed"></category><category term="shrink"></category></entry><entry><title>Impostor for Django</title><link href="http://markos.gaivo.net/articles/impostor-for-django.html" rel="alternate"></link><updated>2011-02-22T20:11:00+01:00</updated><author><name>markos</name></author><id>tag:markos.gaivo.net,2011-02-22:articles/impostor-for-django.html</id><summary type="html">&lt;div&gt;
+&lt;/div&gt;</content><category term="Django"></category><category term="low-bandwidth"></category><category term="images"></category><category term="page size"></category><category term="speed"></category><category term="shrink"></category></entry><entry><title>Impostor for Django</title><link href="http://markos.gaivo.net/articles/impostor-for-django.html" rel="alternate"></link><published>2011-02-22T20:11:00+01:00</published><updated>2011-02-22T20:11:00+01:00</updated><author><name>markos</name></author><id>tag:markos.gaivo.net,2011-02-22:/articles/impostor-for-django.html</id><summary type="html">&lt;div&gt;
+ &lt;p&gt;
+  A class of bugs I really dislike debugging are those that depend on specific data and affect only a very small subset or just one user. Things could sometimes be fixed so much faster if you could just log in as him to see what is happening. Sometimes this is …&lt;/p&gt;&lt;/div&gt;</summary><content type="html">&lt;div&gt;
  &lt;p&gt;
   A class of bugs I really dislike debugging are those that depend on specific data and affect only a very small subset or just one user. Things could sometimes be fixed so much faster if you could just log in as him to see what is happening. Sometimes this is exactly what we do
   &lt;strong&gt;
@@ -87,9 +103,4 @@
   &lt;/strong&gt;
   : Thanks Ross for reminding me where idea came from. I updated text accordingly.
  &lt;/p&gt;
- &lt;div class="zemanta-pixie"&gt;
-  &lt;a class="zemanta-pixie-a" href="http://www.zemanta.com/" title="Enhanced by Zemanta"&gt;
-   &lt;img alt="Enhanced by Zemanta" class="zemanta-pixie-img" src="http://img.zemanta.com/zemified_e.png?x-id=db7c9f53-423e-4b56-bbe3-b717fde54c16"/&gt;
-  &lt;/a&gt;
- &lt;/div&gt;
-&lt;/div&gt;</summary><category term="Python"></category><category term="Security"></category><category term="Impostor"></category><category term="Password"></category><category term="Django"></category></entry></feed>
+&lt;/div&gt;</content><category term="Python"></category><category term="Security"></category><category term="Impostor"></category><category term="Password"></category><category term="Django"></category></entry></feed>

@@ -1,12 +1,35 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>A notch above a monkey</title><link href="http://markos.gaivo.net/articles/" rel="alternate"></link><link href="/articles/feeds/general-development-python-web.atom.xml" rel="self"></link><id>http://markos.gaivo.net/articles/</id><updated>2007-07-24T13:52:00+02:00</updated><entry><title>Looking for Adobe RGB to sRGB conversion tool</title><link href="http://markos.gaivo.net/articles/looking-for-adobe-rgb-to-srgb-conversion-tool.html" rel="alternate"></link><updated>2007-07-24T13:52:00+02:00</updated><author><name>markos</name></author><id>tag:markos.gaivo.net,2007-07-24:articles/looking-for-adobe-rgb-to-srgb-conversion-tool.html</id><summary type="html">&lt;div&gt;
+<feed xmlns="http://www.w3.org/2005/Atom"><title>A notch above a monkey - General development, Python, Web</title><link href="http://markos.gaivo.net/articles/" rel="alternate"></link><link href="/articles/feeds/general-development-python-web.atom.xml" rel="self"></link><id>http://markos.gaivo.net/articles/</id><updated>2007-07-24T13:52:00+02:00</updated><entry><title>Looking for Adobe RGB to sRGB conversion tool</title><link href="http://markos.gaivo.net/articles/looking-for-adobe-rgb-to-srgb-conversion-tool.html" rel="alternate"></link><published>2007-07-24T13:52:00+02:00</published><updated>2007-07-24T13:52:00+02:00</updated><author><name>markos</name></author><id>tag:markos.gaivo.net,2007-07-24:/articles/looking-for-adobe-rgb-to-srgb-conversion-tool.html</id><summary type="html">&lt;div&gt;
  &lt;p&gt;
   Does anyone know of a python module or unix command line tool for transforming Adobe RGB color space profile to sRGB?
  &lt;/p&gt;
  &lt;p&gt;
   Either my assumption, that you can get anything you need on the internet, is wrong or I’ve been looking at wrong places.
  &lt;/p&gt;
-&lt;/div&gt;</summary></entry><entry><title>Speeding up Levenshtein</title><link href="http://markos.gaivo.net/articles/speeding-up-levenshtein.html" rel="alternate"></link><updated>2006-11-10T02:17:00+01:00</updated><author><name>markos</name></author><id>tag:markos.gaivo.net,2006-11-10:articles/speeding-up-levenshtein.html</id><summary type="html">&lt;div&gt;
+&lt;/div&gt;</summary><content type="html">&lt;div&gt;
+ &lt;p&gt;
+  Does anyone know of a python module or unix command line tool for transforming Adobe RGB color space profile to sRGB?
+ &lt;/p&gt;
+ &lt;p&gt;
+  Either my assumption, that you can get anything you need on the internet, is wrong or I’ve been looking at wrong places.
+ &lt;/p&gt;
+&lt;/div&gt;</content></entry><entry><title>Speeding up Levenshtein</title><link href="http://markos.gaivo.net/articles/speeding-up-levenshtein.html" rel="alternate"></link><published>2006-11-10T02:17:00+01:00</published><updated>2006-11-10T02:17:00+01:00</updated><author><name>markos</name></author><id>tag:markos.gaivo.net,2006-11-10:/articles/speeding-up-levenshtein.html</id><summary type="html">&lt;div&gt;
+ &lt;p&gt;
+  &lt;a href="handling-404.html"&gt;
+   Simon
+  &lt;/a&gt;
+  proposes using a dictionary to match mistyped URLs with real ones. I’d probably like the idea better if I actually understood it. Still using
+  &lt;a href="http://en.wikipedia.org/wiki/Levenshtein_distance" title="description of the algorithm"&gt;
+   Levenshtein
+  &lt;/a&gt;
+  can be a bit easier than using a spell checker responsively.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Easier, but slow. I used existing
+  &lt;a href="http://hetland.org/python/distance.py" title="python implementation"&gt;
+   implementation
+  &lt;/a&gt;
+  by Magnus Lie Hetland and …&lt;/p&gt;&lt;/div&gt;</summary><content type="html">&lt;div&gt;
  &lt;p&gt;
   &lt;a href="handling-404.html"&gt;
    Simon
@@ -65,4 +88,4 @@
  &lt;p&gt;
   By the way, I’ve also tried to speed it up using Pyrex, but got pretty much same results, which means I either don’t know how to use Pyrex or Python optimizes well. Or both.
  &lt;/p&gt;
-&lt;/div&gt;</summary></entry></feed>
+&lt;/div&gt;</content></entry></feed>

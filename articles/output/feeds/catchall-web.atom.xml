@@ -1,12 +1,31 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>A notch above a monkey</title><link href="http://markos.gaivo.net/articles/" rel="alternate"></link><link href="/articles/feeds/catchall-web.atom.xml" rel="self"></link><id>http://markos.gaivo.net/articles/</id><updated>2013-06-09T23:11:00+02:00</updated><entry><title>Prism</title><link href="http://markos.gaivo.net/articles/prism.html" rel="alternate"></link><updated>2013-06-09T23:11:00+02:00</updated><author><name>markos</name></author><id>tag:markos.gaivo.net,2013-06-09:articles/prism.html</id><summary type="html">&lt;div&gt;
+<feed xmlns="http://www.w3.org/2005/Atom"><title>A notch above a monkey - Catchall, Web</title><link href="http://markos.gaivo.net/articles/" rel="alternate"></link><link href="/articles/feeds/catchall-web.atom.xml" rel="self"></link><id>http://markos.gaivo.net/articles/</id><updated>2013-06-09T23:11:00+02:00</updated><entry><title>Prism</title><link href="http://markos.gaivo.net/articles/prism.html" rel="alternate"></link><published>2013-06-09T23:11:00+02:00</published><updated>2013-06-09T23:11:00+02:00</updated><author><name>markos</name></author><id>tag:markos.gaivo.net,2013-06-09:/articles/prism.html</id><summary type="html">&lt;div&gt;
+ &lt;p&gt;
+  Only brains twisted in a pretzel can be completely fine with sweeping lightly-overseen secret surveillance of society, but feel personal freedoms are tyrannically trampled when soda cups are limited to sizes smaller than a bucket or when city bikes are introduced.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Whoever thinks losing privacy is fine because he has …&lt;/p&gt;&lt;/div&gt;</summary><content type="html">&lt;div&gt;
  &lt;p&gt;
   Only brains twisted in a pretzel can be completely fine with sweeping lightly-overseen secret surveillance of society, but feel personal freedoms are tyrannically trampled when soda cups are limited to sizes smaller than a bucket or when city bikes are introduced.
  &lt;/p&gt;
  &lt;p&gt;
   Whoever thinks losing privacy is fine because he has nothing to hide, is either seriously lacking imagination, an idiot or both.
  &lt;/p&gt;
-&lt;/div&gt;</summary><category term="fucknsa"></category><category term="Privacy"></category><category term="freedom"></category><category term="prism"></category><category term="internet"></category><category term="Security"></category></entry><entry><title>Ownership</title><link href="http://markos.gaivo.net/articles/ownership.html" rel="alternate"></link><updated>2012-12-26T14:40:00+01:00</updated><author><name>markos</name></author><id>tag:markos.gaivo.net,2012-12-26:articles/ownership.html</id><summary type="html">&lt;div&gt;
+&lt;/div&gt;</content><category term="fucknsa"></category><category term="Privacy"></category><category term="freedom"></category><category term="prism"></category><category term="internet"></category><category term="Security"></category></entry><entry><title>Ownership</title><link href="http://markos.gaivo.net/articles/ownership.html" rel="alternate"></link><published>2012-12-26T14:40:00+01:00</published><updated>2012-12-26T14:40:00+01:00</updated><author><name>markos</name></author><id>tag:markos.gaivo.net,2012-12-26:/articles/ownership.html</id><summary type="html">&lt;div&gt;
+ &lt;p&gt;
+  As a person with a somewhat unusual fondness for measuring and modelling my own behavior I should be a happy buyer of
+  &lt;a href="https://jawbone.com/up" title="Jawbone's UP"&gt;
+   gadgets
+  &lt;/a&gt;
+  for
+  &lt;a href="http://www.fitbit.com/one" title="Fitbit"&gt;
+   collecting data
+  &lt;/a&gt;
+  about myself and my environment. Yet so far I bought none, because they don’t seem to work
+  &lt;em&gt;
+   well
+  &lt;/em&gt;
+  without (occasional) data sync with …&lt;/p&gt;&lt;/div&gt;</summary><content type="html">&lt;div&gt;
  &lt;p&gt;
   As a person with a somewhat unusual fondness for measuring and modelling my own behavior I should be a happy buyer of
   &lt;a href="https://jawbone.com/up" title="Jawbone's UP"&gt;
@@ -34,7 +53,19 @@
  &lt;p&gt;
   However I don’t want to use those features and I certainly don’t want to give up data I care about for features I don’t. What I expect from devices I buy is my control of data and purchased functionality without others meddling or peeking over my shoulders.
  &lt;/p&gt;
-&lt;/div&gt;</summary><category term="gadgets"></category><category term="hardware"></category><category term="rights"></category><category term="ownership"></category><category term="Privacy"></category></entry><entry><title>On Tumblr</title><link href="http://markos.gaivo.net/articles/on-tumblr.html" rel="alternate"></link><updated>2012-02-10T13:02:00+01:00</updated><author><name>markos</name></author><id>tag:markos.gaivo.net,2012-02-10:articles/on-tumblr.html</id><summary type="html">&lt;div&gt;
+&lt;/div&gt;</content><category term="gadgets"></category><category term="hardware"></category><category term="rights"></category><category term="ownership"></category><category term="Privacy"></category></entry><entry><title>On Tumblr</title><link href="http://markos.gaivo.net/articles/on-tumblr.html" rel="alternate"></link><published>2012-02-10T13:02:00+01:00</published><updated>2012-02-10T13:02:00+01:00</updated><author><name>markos</name></author><id>tag:markos.gaivo.net,2012-02-10:/articles/on-tumblr.html</id><summary type="html">&lt;div&gt;
+ &lt;p&gt;
+  &lt;strong&gt;
+   Warning:
+  &lt;/strong&gt;
+  this whole post is not much else than a series of speculations and amateur psychoanalysis. If you can’t find fun in that, well, then start reading something else.
+ &lt;/p&gt;
+ &lt;p&gt;
+  I started using
+  &lt;a href="http://en.wikipedia.org/wiki/Internet_Relay_Chat" title="Description of IRC"&gt;
+   IRC
+  &lt;/a&gt;
+  almost two decades ago, soon after I came on Internet. I still do, but it’s …&lt;/p&gt;&lt;/div&gt;</summary><content type="html">&lt;div&gt;
  &lt;p&gt;
   &lt;strong&gt;
    Warning:
@@ -89,7 +120,20 @@
  &lt;p&gt;
   This doesn’t mean that you can’t write long, elaborate posts on Tumblr. Many indeed do. Just like many use WordPress to post stuff they found in some web back-alley. But it is Tumblr’s whole fun (and) social experience — unlike a serious, CMS-like sterility of WordPress — that nudges you into a different behavior. In creating we are guided by our tools with what they suggest, not what they make possible.
  &lt;/p&gt;
-&lt;/div&gt;</summary><category term="tumblr"></category><category term="WordPress"></category><category term="design"></category><category term="emotions"></category></entry><entry><title>Twitter</title><link href="http://markos.gaivo.net/articles/twitter.html" rel="alternate"></link><updated>2008-05-25T11:03:00+02:00</updated><author><name>markos</name></author><id>tag:markos.gaivo.net,2008-05-25:articles/twitter.html</id><summary type="html">&lt;div&gt;
+&lt;/div&gt;</content><category term="tumblr"></category><category term="WordPress"></category><category term="design"></category><category term="emotions"></category></entry><entry><title>Twitter</title><link href="http://markos.gaivo.net/articles/twitter.html" rel="alternate"></link><published>2008-05-25T11:03:00+02:00</published><updated>2008-05-25T11:03:00+02:00</updated><author><name>markos</name></author><id>tag:markos.gaivo.net,2008-05-25:/articles/twitter.html</id><summary type="html">&lt;div&gt;
+ &lt;p&gt;
+  I have ignored
+  &lt;a class="zem_slink" href="http://www.twitter.com" rel="homepage" target="_blank" title="Twitter"&gt;
+   Twitter
+  &lt;/a&gt;
+  for a long time until it became obvious to me that lots of interesting stuff moved there and can’t be easily found elsewhere. So I made
+  &lt;a href="http://twitter.com/samastur" title="My twitter home"&gt;
+   my home
+  &lt;/a&gt;
+  to make following others easier and occasionally tweet something myself.
+ &lt;/p&gt;
+ &lt;p&gt;
+  So far I haven’t really got …&lt;/p&gt;&lt;/div&gt;</summary><content type="html">&lt;div&gt;
  &lt;p&gt;
   I have ignored
   &lt;a class="zem_slink" href="http://www.twitter.com" rel="homepage" target="_blank" title="Twitter"&gt;
@@ -104,12 +148,12 @@
  &lt;p&gt;
   So far I haven’t really got a hang of it yet and my stream is as boring as it gets. Hopefully this is not a sign of things to come.
  &lt;/p&gt;
- &lt;div class="zemanta-pixie" style="margin: 5px 0pt; width: 100%;"&gt;
-  &lt;a class="zemanta-pixie-a" href="http://www.zemanta.com/" title="Zemified by Zemanta"&gt;
-   &lt;img alt="" class="zemanta-pixie-img" src="http://img.zemanta.com/pixie.png?x-id=9fff2dc4-de4d-4849-a5ac-91980379dfff" style="border: medium none; float: right;"/&gt;
-  &lt;/a&gt;
- &lt;/div&gt;
-&lt;/div&gt;</summary><category term="Twitter"></category></entry><entry><title>Flashy new old machine</title><link href="http://markos.gaivo.net/articles/flashy-new-old-machine.html" rel="alternate"></link><updated>2007-08-24T21:49:00+02:00</updated><author><name>markos</name></author><id>tag:markos.gaivo.net,2007-08-24:articles/flashy-new-old-machine.html</id><summary type="html">&lt;div&gt;
+&lt;/div&gt;</content><category term="Twitter"></category></entry><entry><title>Flashy new old machine</title><link href="http://markos.gaivo.net/articles/flashy-new-old-machine.html" rel="alternate"></link><published>2007-08-24T21:49:00+02:00</published><updated>2007-08-24T21:49:00+02:00</updated><author><name>markos</name></author><id>tag:markos.gaivo.net,2007-08-24:/articles/flashy-new-old-machine.html</id><summary type="html">&lt;div&gt;
+ &lt;p&gt;
+  It’s been a week with a lot of novelty. I got a new monitor, a nice 21″ LCD and it seemed appropriate to install a more recent, so to speak new, Linux distribution to go with it. I decided for Kubuntu and so far I quite like it.
+ &lt;/p&gt;
+ &lt;p&gt;
+  I …&lt;/p&gt;&lt;/div&gt;</summary><content type="html">&lt;div&gt;
  &lt;p&gt;
   It’s been a week with a lot of novelty. I got a new monitor, a nice 21″ LCD and it seemed appropriate to install a more recent, so to speak new, Linux distribution to go with it. I decided for Kubuntu and so far I quite like it.
  &lt;/p&gt;
@@ -129,14 +173,23 @@
  &lt;p&gt;
   I probably wouldn’t mind that much if Flash player itself was open (I don’t really care about development tools). Well, when all else fails,  you can always hope.
  &lt;/p&gt;
-&lt;/div&gt;</summary></entry><entry><title>O'Reilly's hypocrisy</title><link href="http://markos.gaivo.net/articles/oreillys-hypocrasy.html" rel="alternate"></link><updated>2006-05-26T11:48:00+02:00</updated><author><name>markos</name></author><id>tag:markos.gaivo.net,2006-05-26:articles/oreillys-hypocrasy.html</id><summary type="html">&lt;div&gt;
+&lt;/div&gt;</content></entry><entry><title>O'Reilly's hypocrisy</title><link href="http://markos.gaivo.net/articles/oreillys-hypocrasy.html" rel="alternate"></link><published>2006-05-26T11:48:00+02:00</published><updated>2006-05-26T11:48:00+02:00</updated><author><name>markos</name></author><id>tag:markos.gaivo.net,2006-05-26:/articles/oreillys-hypocrasy.html</id><summary type="html">&lt;div&gt;
  &lt;p&gt;
   &lt;a href="http://radar.oreilly.com/archives/2006/05/controversy_about_our_web_20_s.html"&gt;
    Another reason
   &lt;/a&gt;
   not to use the term Web 2.0. You just might get sued. Not much to add to things already said in the article comments.
  &lt;/p&gt;
-&lt;/div&gt;</summary></entry><entry><title>Happy holidays</title><link href="http://markos.gaivo.net/articles/happy-holidays.html" rel="alternate"></link><updated>2005-12-27T08:24:00+01:00</updated><author><name>markos</name></author><id>tag:markos.gaivo.net,2005-12-27:articles/happy-holidays.html</id><summary type="html">&lt;div&gt;
+&lt;/div&gt;</summary><content type="html">&lt;div&gt;
+ &lt;p&gt;
+  &lt;a href="http://radar.oreilly.com/archives/2006/05/controversy_about_our_web_20_s.html"&gt;
+   Another reason
+  &lt;/a&gt;
+  not to use the term Web 2.0. You just might get sued. Not much to add to things already said in the article comments.
+ &lt;/p&gt;
+&lt;/div&gt;</content></entry><entry><title>Happy holidays</title><link href="http://markos.gaivo.net/articles/happy-holidays.html" rel="alternate"></link><published>2005-12-27T08:24:00+01:00</published><updated>2005-12-27T08:24:00+01:00</updated><author><name>markos</name></author><id>tag:markos.gaivo.net,2005-12-27:/articles/happy-holidays.html</id><summary type="html">&lt;div&gt;
+ &lt;p&gt;
+  In a few hours I’ll be going on a trip to Stockholm, so this is probably the last post of this year. It also happens to be the 100th post since it was started six months ago, making it a perfect place to recapitulate this year and this blog …&lt;/p&gt;&lt;/div&gt;</summary><content type="html">&lt;div&gt;
  &lt;p&gt;
   In a few hours I’ll be going on a trip to Stockholm, so this is probably the last post of this year. It also happens to be the 100th post since it was started six months ago, making it a perfect place to recapitulate this year and this blog.
  &lt;/p&gt;
@@ -192,7 +245,23 @@
  &lt;p&gt;
   I wish everyone all the best in new year.
  &lt;/p&gt;
-&lt;/div&gt;</summary></entry><entry><title>Tim Bray at OOoCon 2005</title><link href="http://markos.gaivo.net/articles/tim-bray-at-ooocon-2005.html" rel="alternate"></link><updated>2005-09-29T18:29:00+02:00</updated><author><name>markos</name></author><id>tag:markos.gaivo.net,2005-09-29:articles/tim-bray-at-ooocon-2005.html</id><summary type="html">&lt;div&gt;
+&lt;/div&gt;</content></entry><entry><title>Tim Bray at OOoCon 2005</title><link href="http://markos.gaivo.net/articles/tim-bray-at-ooocon-2005.html" rel="alternate"></link><published>2005-09-29T18:29:00+02:00</published><updated>2005-09-29T18:29:00+02:00</updated><author><name>markos</name></author><id>tag:markos.gaivo.net,2005-09-29:/articles/tim-bray-at-ooocon-2005.html</id><summary type="html">&lt;div&gt;
+ &lt;p&gt;
+  We’ve slept only a few hours today, to wake up early and drive in awful rain to Koper.
+  &lt;a alt="Tim's page" href="http://www.tbray.org/ongoing/"&gt;
+   Tim Bray
+  &lt;/a&gt;
+  was speaking at
+  &lt;a alt="Conference's page" href="http://marketing.openoffice.org/ooocon2005/"&gt;
+   OOoCon 2005
+  &lt;/a&gt;
+  and I didn’t want to miss it.
+ &lt;/p&gt;
+ &lt;p&gt;
+  &lt;img alt="Tim Bray" class="imgleft" height="160" src="http://markos.gaivo.net/images/bray.jpg" width="150"/&gt;
+ &lt;/p&gt;
+ &lt;p&gt;
+  I wasn’t disappointed. He’s an excellent speaker and even though I can’t say …&lt;/p&gt;&lt;/div&gt;</summary><content type="html">&lt;div&gt;
  &lt;p&gt;
   We’ve slept only a few hours today, to wake up early and drive in awful rain to Koper.
   &lt;a alt="Tim's page" href="http://www.tbray.org/ongoing/"&gt;
@@ -231,4 +300,4 @@
    .
   &lt;/em&gt;
  &lt;/p&gt;
-&lt;/div&gt;</summary></entry></feed>
+&lt;/div&gt;</content></entry></feed>

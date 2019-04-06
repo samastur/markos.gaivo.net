@@ -1,5 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>A notch above a monkey</title><link href="http://markos.gaivo.net/articles/" rel="alternate"></link><link href="/articles/feeds/general-development-ui-web.atom.xml" rel="self"></link><id>http://markos.gaivo.net/articles/</id><updated>2010-06-08T20:35:00+02:00</updated><entry><title>Sign-up, Facebook Connect and ownership</title><link href="http://markos.gaivo.net/articles/sign-up-and-facebook-connect.html" rel="alternate"></link><updated>2010-06-08T20:35:00+02:00</updated><author><name>markos</name></author><id>tag:markos.gaivo.net,2010-06-08:articles/sign-up-and-facebook-connect.html</id><summary type="html">&lt;div&gt;
+<feed xmlns="http://www.w3.org/2005/Atom"><title>A notch above a monkey - General development, UI, Web</title><link href="http://markos.gaivo.net/articles/" rel="alternate"></link><link href="/articles/feeds/general-development-ui-web.atom.xml" rel="self"></link><id>http://markos.gaivo.net/articles/</id><updated>2010-06-08T20:35:00+02:00</updated><entry><title>Sign-up, Facebook Connect and ownership</title><link href="http://markos.gaivo.net/articles/sign-up-and-facebook-connect.html" rel="alternate"></link><published>2010-06-08T20:35:00+02:00</published><updated>2010-06-08T20:35:00+02:00</updated><author><name>markos</name></author><id>tag:markos.gaivo.net,2010-06-08:/articles/sign-up-and-facebook-connect.html</id><summary type="html">&lt;div&gt;
+ &lt;p&gt;
+  &lt;a class="zem_slink" href="http://bokardo.com" rel="blog" title="Joshua Porter"&gt;
+   Joshua Porter’s
+  &lt;/a&gt;
+  workshop at recent UX London conference was great and a must see if you can, but there is something that’s been bugging me since. In discussion about difficulties of getting people to sign-up for service, Joshua mentioned how some companies see connecting with
+  &lt;a class="zem_slink" href="http://developers.facebook.com/connect.php" rel="homepage" title="Facebook Connect"&gt;
+   Facebook Connect
+  &lt;/a&gt;
+  as …&lt;/p&gt;&lt;/div&gt;</summary><content type="html">&lt;div&gt;
  &lt;p&gt;
   &lt;a class="zem_slink" href="http://bokardo.com" rel="blog" title="Joshua Porter"&gt;
    Joshua Porter’s
@@ -53,12 +62,12 @@
  &lt;p&gt;
   All this is just speculation at this point, but I hope to test it on two projects this year. If I do, I’ll let you know how it went.
  &lt;/p&gt;
- &lt;div class="zemanta-pixie"&gt;
-  &lt;a class="zemanta-pixie-a" href="http://reblog.zemanta.com/zemified/ef945133-8712-4aa1-9413-aa52f5f6c2c5/" title="Reblog this post [with Zemanta]"&gt;
-   &lt;img alt="Reblog this post [with Zemanta]" class="zemanta-pixie-img" src="http://img.zemanta.com/reblog_e.png?x-id=ef945133-8712-4aa1-9413-aa52f5f6c2c5"/&gt;
-  &lt;/a&gt;
- &lt;/div&gt;
-&lt;/div&gt;</summary><category term="Joshua Porter"></category><category term="sign-up"></category><category term="ux"></category><category term="relationship"></category><category term="Facebook"></category><category term="Facebook Connect"></category></entry><entry><title>HyperScope and my blog's evolution</title><link href="http://markos.gaivo.net/articles/hyperscope-and-my-blogs-evolution.html" rel="alternate"></link><updated>2006-09-07T14:07:00+02:00</updated><author><name>markos</name></author><id>tag:markos.gaivo.net,2006-09-07:articles/hyperscope-and-my-blogs-evolution.html</id><summary type="html">&lt;div&gt;
+&lt;/div&gt;</content><category term="Joshua Porter"></category><category term="sign-up"></category><category term="ux"></category><category term="relationship"></category><category term="Facebook"></category><category term="Facebook Connect"></category></entry><entry><title>HyperScope and my blog's evolution</title><link href="http://markos.gaivo.net/articles/hyperscope-and-my-blogs-evolution.html" rel="alternate"></link><published>2006-09-07T14:07:00+02:00</published><updated>2006-09-07T14:07:00+02:00</updated><author><name>markos</name></author><id>tag:markos.gaivo.net,2006-09-07:/articles/hyperscope-and-my-blogs-evolution.html</id><summary type="html">&lt;div&gt;
+ &lt;p&gt;
+  I’ve been writing less lately, which had little to do with summer laziness and more with me thinking about publishing on the web.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Many have said that Internet (or Web) is not a television, but neither is it a magazine or a book. Yet I find myself again and …&lt;/p&gt;&lt;/div&gt;</summary><content type="html">&lt;div&gt;
  &lt;p&gt;
   I’ve been writing less lately, which had little to do with summer laziness and more with me thinking about publishing on the web.
  &lt;/p&gt;
@@ -82,7 +91,18 @@
   &lt;/a&gt;
   (link may not work in every browser) has been a source of many ideas this summer and it’s certainly nice to finally have available a system to test at least some of them.
  &lt;/p&gt;
-&lt;/div&gt;</summary></entry><entry><title>Tag frequency ratio</title><link href="http://markos.gaivo.net/articles/tag-frequency-ratio.html" rel="alternate"></link><updated>2006-02-09T14:43:00+01:00</updated><author><name>markos</name></author><id>tag:markos.gaivo.net,2006-02-09:articles/tag-frequency-ratio.html</id><summary type="html">&lt;div&gt;
+&lt;/div&gt;</content></entry><entry><title>Tag frequency ratio</title><link href="http://markos.gaivo.net/articles/tag-frequency-ratio.html" rel="alternate"></link><published>2006-02-09T14:43:00+01:00</published><updated>2006-02-09T14:43:00+01:00</updated><author><name>markos</name></author><id>tag:markos.gaivo.net,2006-02-09:/articles/tag-frequency-ratio.html</id><summary type="html">&lt;div&gt;
+ &lt;p&gt;
+  Yesterday I talked about influence of language and tag design on ratio between the number of unique and all tags. I haven’t discussed why this number would be interesting and what would it tell us.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Let’s start with a simple graph:
+ &lt;/p&gt;
+ &lt;p&gt;
+  &lt;img alt="Tag space" class="image" src="http://markos.gaivo.net/images/tag-graph.jpg"/&gt;
+ &lt;/p&gt;
+ &lt;p&gt;
+  Blue circles represent objects. Connections represent tags …&lt;/p&gt;&lt;/div&gt;</summary><content type="html">&lt;div&gt;
  &lt;p&gt;
   Yesterday I talked about influence of language and tag design on ratio between the number of unique and all tags. I haven’t discussed why this number would be interesting and what would it tell us.
  &lt;/p&gt;
@@ -113,7 +133,9 @@
  &lt;p&gt;
   Graph topography and things like super-nodes not only skew the picture, they can also change the perception and application use. I’ll write more about how in few months, when there will be more knowing and less guessing.
  &lt;/p&gt;
-&lt;/div&gt;</summary></entry><entry><title>Tags</title><link href="http://markos.gaivo.net/articles/tags_.html" rel="alternate"></link><updated>2006-02-08T18:01:00+01:00</updated><author><name>markos</name></author><id>tag:markos.gaivo.net,2006-02-08:articles/tags_.html</id><summary type="html">&lt;div&gt;
+&lt;/div&gt;</content></entry><entry><title>Tags</title><link href="http://markos.gaivo.net/articles/tags_.html" rel="alternate"></link><published>2006-02-08T18:01:00+01:00</published><updated>2006-02-08T18:01:00+01:00</updated><author><name>markos</name></author><id>tag:markos.gaivo.net,2006-02-08:/articles/tags_.html</id><summary type="html">&lt;div&gt;
+ &lt;p&gt;
+  Tags are increasingly popular and rightfully so. I’ve built my share of applications with their own taxonomies and I’m certain they simply don’t work. They sort of work if they were built for specialized needs and are used only by trained, disciplined people with excellent organizational skills …&lt;/p&gt;&lt;/div&gt;</summary><content type="html">&lt;div&gt;
  &lt;p&gt;
   Tags are increasingly popular and rightfully so. I’ve built my share of applications with their own taxonomies and I’m certain they simply don’t work. They sort of work if they were built for specialized needs and are used only by trained, disciplined people with excellent organizational skills.
  &lt;/p&gt;
@@ -184,7 +206,12 @@
  &lt;p&gt;
   Well, that’s a matter for another post, which I’ll probably write tomorrow.
  &lt;/p&gt;
-&lt;/div&gt;</summary></entry><entry><title>Lessons from navigation design</title><link href="http://markos.gaivo.net/articles/lessons-from-navigation-design.html" rel="alternate"></link><updated>2006-01-31T23:20:00+01:00</updated><author><name>markos</name></author><id>tag:markos.gaivo.net,2006-01-31:articles/lessons-from-navigation-design.html</id><summary type="html">&lt;div&gt;
+&lt;/div&gt;</content></entry><entry><title>Lessons from navigation design</title><link href="http://markos.gaivo.net/articles/lessons-from-navigation-design.html" rel="alternate"></link><published>2006-01-31T23:20:00+01:00</published><updated>2006-01-31T23:20:00+01:00</updated><author><name>markos</name></author><id>tag:markos.gaivo.net,2006-01-31:/articles/lessons-from-navigation-design.html</id><summary type="html">&lt;div&gt;
+ &lt;p&gt;
+  As noted in my previous post, we changed the way image navigation works on Marela. I already described “philosophical” reason for previous behavior and in this post I intend to visit other reasons and lessons learned.
+ &lt;/p&gt;
+ &lt;p&gt;
+  I liked the old behavior because it made every page recognizable and there were …&lt;/p&gt;&lt;/div&gt;</summary><content type="html">&lt;div&gt;
  &lt;p&gt;
   As noted in my previous post, we changed the way image navigation works on Marela. I already described “philosophical” reason for previous behavior and in this post I intend to visit other reasons and lessons learned.
  &lt;/p&gt;
@@ -212,7 +239,12 @@
  &lt;p&gt;
   Interface should only help telling it.
  &lt;/p&gt;
-&lt;/div&gt;</summary></entry><entry><title>What iPod teaches us about modern (web) design</title><link href="http://markos.gaivo.net/articles/what-ipod-teaches-us-about-modern-web-design.html" rel="alternate"></link><updated>2006-01-23T14:41:00+01:00</updated><author><name>markos</name></author><id>tag:markos.gaivo.net,2006-01-23:articles/what-ipod-teaches-us-about-modern-web-design.html</id><summary type="html">&lt;div&gt;
+&lt;/div&gt;</content></entry><entry><title>What iPod teaches us about modern (web) design</title><link href="http://markos.gaivo.net/articles/what-ipod-teaches-us-about-modern-web-design.html" rel="alternate"></link><published>2006-01-23T14:41:00+01:00</published><updated>2006-01-23T14:41:00+01:00</updated><author><name>markos</name></author><id>tag:markos.gaivo.net,2006-01-23:/articles/what-ipod-teaches-us-about-modern-web-design.html</id><summary type="html">&lt;div&gt;
+ &lt;p&gt;
+  According to Steve Jobs at Macworld Apple sold 14 million iPods in last quarter of 2005 and 32 million during the whole year. iPod remains by far the most popular portable mp3 player even though it’s neither the cheapest or the most feature laden of available options.
+ &lt;/p&gt;
+ &lt;p&gt;
+  So what …&lt;/p&gt;&lt;/div&gt;</summary><content type="html">&lt;div&gt;
  &lt;p&gt;
   According to Steve Jobs at Macworld Apple sold 14 million iPods in last quarter of 2005 and 32 million during the whole year. iPod remains by far the most popular portable mp3 player even though it’s neither the cheapest or the most feature laden of available options.
  &lt;/p&gt;
@@ -297,4 +329,4 @@
   &lt;/a&gt;
   .
  &lt;/p&gt;
-&lt;/div&gt;</summary></entry></feed>
+&lt;/div&gt;</content></entry></feed>

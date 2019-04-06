@@ -1,5 +1,17 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>A notch above a monkey</title><link href="http://markos.gaivo.net/articles/" rel="alternate"></link><link href="/articles/feeds/python-spletne-urice.atom.xml" rel="self"></link><id>http://markos.gaivo.net/articles/</id><updated>2006-02-16T19:07:00+01:00</updated><entry><title>Whitespace whining</title><link href="http://markos.gaivo.net/articles/whitespace-whining.html" rel="alternate"></link><updated>2006-02-16T19:07:00+01:00</updated><author><name>markos</name></author><id>tag:markos.gaivo.net,2006-02-16:articles/whitespace-whining.html</id><summary type="html">&lt;div&gt;
+<feed xmlns="http://www.w3.org/2005/Atom"><title>A notch above a monkey - Python, Spletne urice</title><link href="http://markos.gaivo.net/articles/" rel="alternate"></link><link href="/articles/feeds/python-spletne-urice.atom.xml" rel="self"></link><id>http://markos.gaivo.net/articles/</id><updated>2006-02-16T19:07:00+01:00</updated><entry><title>Whitespace whining</title><link href="http://markos.gaivo.net/articles/whitespace-whining.html" rel="alternate"></link><published>2006-02-16T19:07:00+01:00</published><updated>2006-02-16T19:07:00+01:00</updated><author><name>markos</name></author><id>tag:markos.gaivo.net,2006-02-16:/articles/whitespace-whining.html</id><summary type="html">&lt;div&gt;
+ &lt;p&gt;
+  Ian Bicking’s wrote
+  &lt;a href="http://blog.ianbicking.org/my-python-4k.html"&gt;
+   a list
+  &lt;/a&gt;
+  of python wishes. There’s stuff I agree with, some with which I don’t and stuff I simply don’t understand. But what caught my eye was:
+ &lt;/p&gt;
+ &lt;blockquote&gt;
+  &lt;p&gt;
+   Things I wouldn’t do:
+   &lt;br/&gt;
+   Put up with any significant-whitespace whining. Here 99% of the Python …&lt;/p&gt;&lt;/blockquote&gt;&lt;/div&gt;</summary><content type="html">&lt;div&gt;
  &lt;p&gt;
   Ian Bicking’s wrote
   &lt;a href="http://blog.ianbicking.org/my-python-4k.html"&gt;
@@ -35,7 +47,20 @@
  &lt;p&gt;
   I can’t understand how this complaint doesn’t die. I can understand that some other language can tickle their fancy. People have different tastes and if some people like it rough, who am I to judge. But why in the world would you wish for a feature you’d never be stupid enough to use?
  &lt;/p&gt;
-&lt;/div&gt;</summary></entry><entry><title>Community development</title><link href="http://markos.gaivo.net/articles/community-development.html" rel="alternate"></link><updated>2005-11-03T12:13:00+01:00</updated><author><name>markos</name></author><id>tag:markos.gaivo.net,2005-11-03:articles/community-development.html</id><summary type="html">&lt;div&gt;
+&lt;/div&gt;</content></entry><entry><title>Community development</title><link href="http://markos.gaivo.net/articles/community-development.html" rel="alternate"></link><published>2005-11-03T12:13:00+01:00</published><updated>2005-11-03T12:13:00+01:00</updated><author><name>markos</name></author><id>tag:markos.gaivo.net,2005-11-03:/articles/community-development.html</id><summary type="html">&lt;div&gt;
+ &lt;p&gt;
+  I’m online again and have been reading news of the last few days.  So I’m kind of late to
+  &lt;a href="http://blog.ianbicking.org/friendship-and-hand-holding.html"&gt;
+   discussion
+  &lt;/a&gt;
+  about friendliness of communities.
+ &lt;/p&gt;
+ &lt;p&gt;
+  My personal experience with Python community has been absolutely wonderful. I’ve written
+  &lt;a href="no-language-feature-is-optional.html"&gt;
+   posts
+  &lt;/a&gt;
+  that could be seen as inflammatory, but the response I …&lt;/p&gt;&lt;/div&gt;</summary><content type="html">&lt;div&gt;
  &lt;p&gt;
   I’m online again and have been reading news of the last few days.  So I’m kind of late to
   &lt;a href="http://blog.ianbicking.org/friendship-and-hand-holding.html"&gt;
@@ -63,4 +88,4 @@
  &lt;p&gt;
   I guess community building is just hard.
  &lt;/p&gt;
-&lt;/div&gt;</summary></entry></feed>
+&lt;/div&gt;</content></entry></feed>

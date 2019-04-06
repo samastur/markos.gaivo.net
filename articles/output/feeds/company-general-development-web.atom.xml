@@ -1,5 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>A notch above a monkey</title><link href="http://markos.gaivo.net/articles/" rel="alternate"></link><link href="/articles/feeds/company-general-development-web.atom.xml" rel="self"></link><id>http://markos.gaivo.net/articles/</id><updated>2010-03-03T18:06:00+01:00</updated><entry><title>Appeal for a better support of authors widgets</title><link href="http://markos.gaivo.net/articles/appeal-for-better-support-of-authors-widgets.html" rel="alternate"></link><updated>2010-03-03T18:06:00+01:00</updated><author><name>markos</name></author><id>tag:markos.gaivo.net,2010-03-03:articles/appeal-for-better-support-of-authors-widgets.html</id><summary type="html">&lt;div&gt;
+<feed xmlns="http://www.w3.org/2005/Atom"><title>A notch above a monkey - Company, General development, Web</title><link href="http://markos.gaivo.net/articles/" rel="alternate"></link><link href="/articles/feeds/company-general-development-web.atom.xml" rel="self"></link><id>http://markos.gaivo.net/articles/</id><updated>2010-03-03T18:06:00+01:00</updated><entry><title>Appeal for a better support of authors widgets</title><link href="http://markos.gaivo.net/articles/appeal-for-better-support-of-authors-widgets.html" rel="alternate"></link><published>2010-03-03T18:06:00+01:00</published><updated>2010-03-03T18:06:00+01:00</updated><author><name>markos</name></author><id>tag:markos.gaivo.net,2010-03-03:/articles/appeal-for-better-support-of-authors-widgets.html</id><summary type="html">&lt;div&gt;
+ &lt;p&gt;
+  Goal of
+  &lt;a class="zem_slink" href="http://www.zemanta.com" rel="homepage" title="Zemanta"&gt;
+   Zemanta
+  &lt;/a&gt;
+  widget has always been to present contextually relevant information to text being written and to enable writers to add that information easily in places of their choice. We want to do this in as unobtrusive manner as possible, which means that act of writing should not be …&lt;/p&gt;&lt;/div&gt;</summary><content type="html">&lt;div&gt;
  &lt;p&gt;
   Goal of
   &lt;a class="zem_slink" href="http://www.zemanta.com" rel="homepage" title="Zemanta"&gt;
@@ -111,13 +117,4 @@
  &lt;p&gt;
   Surely it is time we do better.
  &lt;/p&gt;
- &lt;div class="zemanta-pixie"&gt;
-  &lt;a class="zemanta-pixie-a" href="http://reblog.zemanta.com/zemified/eee141d5-950f-450e-b42e-71fd1adf6365/" title="Reblog this post [with Zemanta]"&gt;
-   &lt;img alt="Reblog this post [with Zemanta]" class="zemanta-pixie-img" src="http://img.zemanta.com/reblog_e.png?x-id=eee141d5-950f-450e-b42e-71fd1adf6365"/&gt;
-  &lt;/a&gt;
-  &lt;span class="zem-script "&gt;
-   &lt;script src="http://static.zemanta.com/readside/loader.js" type="text/javascript"&gt;
-   &lt;/script&gt;
-  &lt;/span&gt;
- &lt;/div&gt;
-&lt;/div&gt;</summary><category term="editors"></category><category term="platforms"></category><category term="future"></category><category term="widgets"></category><category term="blogging"></category><category term="browser"></category></entry></feed>
+&lt;/div&gt;</content><category term="editors"></category><category term="platforms"></category><category term="future"></category><category term="widgets"></category><category term="blogging"></category><category term="browser"></category></entry></feed>

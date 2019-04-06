@@ -1,5 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>A notch above a monkey</title><link href="http://markos.gaivo.net/articles/" rel="alternate"></link><link href="/articles/feeds/company-python-web.atom.xml" rel="self"></link><id>http://markos.gaivo.net/articles/</id><updated>2006-06-07T16:42:00+02:00</updated><entry><title>Marela uploader for series 60 phones - first public version</title><link href="http://markos.gaivo.net/articles/marela-uploader-for-series-60-phones-first-public-version.html" rel="alternate"></link><updated>2006-06-07T16:42:00+02:00</updated><author><name>markos</name></author><id>tag:markos.gaivo.net,2006-06-07:articles/marela-uploader-for-series-60-phones-first-public-version.html</id><summary type="html">&lt;div&gt;
+<feed xmlns="http://www.w3.org/2005/Atom"><title>A notch above a monkey - Company, Python, Web</title><link href="http://markos.gaivo.net/articles/" rel="alternate"></link><link href="/articles/feeds/company-python-web.atom.xml" rel="self"></link><id>http://markos.gaivo.net/articles/</id><updated>2006-06-07T16:42:00+02:00</updated><entry><title>Marela uploader for series 60 phones - first public version</title><link href="http://markos.gaivo.net/articles/marela-uploader-for-series-60-phones-first-public-version.html" rel="alternate"></link><published>2006-06-07T16:42:00+02:00</published><updated>2006-06-07T16:42:00+02:00</updated><author><name>markos</name></author><id>tag:markos.gaivo.net,2006-06-07:/articles/marela-uploader-for-series-60-phones-first-public-version.html</id><summary type="html">&lt;div&gt;
+ &lt;p&gt;
+  I never got a hang of “release early, release often” policy. I’m sure it works nice in practice, but it simply feels wrong to bestow an application to public use that you know is faulty. It should be my job to suffer through its problems until I can’t …&lt;/p&gt;&lt;/div&gt;</summary><content type="html">&lt;div&gt;
  &lt;p&gt;
   I never got a hang of “release early, release often” policy. I’m sure it works nice in practice, but it simply feels wrong to bestow an application to public use that you know is faulty. It should be my job to suffer through its problems until I can’t find any.
  &lt;/p&gt;
@@ -19,7 +21,12 @@
  &lt;p&gt;
   Have fun.
  &lt;/p&gt;
-&lt;/div&gt;</summary></entry><entry><title>Update on my series60 Marela uploader</title><link href="http://markos.gaivo.net/articles/update-on-my-series60-marela-uploader.html" rel="alternate"></link><updated>2006-05-28T14:43:00+02:00</updated><author><name>markos</name></author><id>tag:markos.gaivo.net,2006-05-28:articles/update-on-my-series60-marela-uploader.html</id><summary type="html">&lt;div&gt;
+&lt;/div&gt;</content></entry><entry><title>Update on my series60 Marela uploader</title><link href="http://markos.gaivo.net/articles/update-on-my-series60-marela-uploader.html" rel="alternate"></link><published>2006-05-28T14:43:00+02:00</published><updated>2006-05-28T14:43:00+02:00</updated><author><name>markos</name></author><id>tag:markos.gaivo.net,2006-05-28:/articles/update-on-my-series60-marela-uploader.html</id><summary type="html">&lt;div&gt;
+ &lt;p&gt;
+  I thought it would be nice to give a quick update on status of my Marela uploader for series 60 mobile phones. I have a working version, which is about two annoying bugs and a missing installer away from first release.
+ &lt;/p&gt;
+ &lt;p&gt;
+  My prognosis of a good day or so development …&lt;/p&gt;&lt;/div&gt;</summary><content type="html">&lt;div&gt;
  &lt;p&gt;
   I thought it would be nice to give a quick update on status of my Marela uploader for series 60 mobile phones. I have a working version, which is about two annoying bugs and a missing installer away from first release.
  &lt;/p&gt;
@@ -32,7 +39,12 @@
  &lt;p&gt;
   I’ll be busy with work for next couple of days, so I expect to release it (together with source) somewhere in the middle of next week. And Python for series 60 phones definitely rules.
  &lt;/p&gt;
-&lt;/div&gt;</summary></entry><entry><title>Mobile user interfaces</title><link href="http://markos.gaivo.net/articles/mobile-user-interfaces.html" rel="alternate"></link><updated>2006-05-17T17:51:00+02:00</updated><author><name>markos</name></author><id>tag:markos.gaivo.net,2006-05-17:articles/mobile-user-interfaces.html</id><summary type="html">&lt;div&gt;
+&lt;/div&gt;</content></entry><entry><title>Mobile user interfaces</title><link href="http://markos.gaivo.net/articles/mobile-user-interfaces.html" rel="alternate"></link><published>2006-05-17T17:51:00+02:00</published><updated>2006-05-17T17:51:00+02:00</updated><author><name>markos</name></author><id>tag:markos.gaivo.net,2006-05-17:/articles/mobile-user-interfaces.html</id><summary type="html">&lt;div&gt;
+ &lt;p&gt;
+  I’ve been working on Marela uploader for series60 phones (those with Python support) and have had a great fun discovering the world of user interfaces on mobile devices.
+ &lt;/p&gt;
+ &lt;p&gt;
+  If you think there’s not enough space on your average web page, you really should try designing an interface for …&lt;/p&gt;&lt;/div&gt;</summary><content type="html">&lt;div&gt;
  &lt;p&gt;
   I’ve been working on Marela uploader for series60 phones (those with Python support) and have had a great fun discovering the world of user interfaces on mobile devices.
  &lt;/p&gt;
@@ -46,7 +58,16 @@
  &lt;p&gt;
   Still, I think the major problems have been solved and I’m maybe a day or so of development and a decent camera phone away from first working version. I’m hoping to get it done by this weekend, but realist in me keeps screaming: “Maybe next week!”
  &lt;/p&gt;
-&lt;/div&gt;</summary></entry><entry><title>Building FAQ from wiki pages</title><link href="http://markos.gaivo.net/articles/building-faq-from-wiki-pages.html" rel="alternate"></link><updated>2005-11-22T17:17:00+01:00</updated><author><name>markos</name></author><id>tag:markos.gaivo.net,2005-11-22:articles/building-faq-from-wiki-pages.html</id><summary type="html">&lt;div&gt;
+&lt;/div&gt;</content></entry><entry><title>Building FAQ from wiki pages</title><link href="http://markos.gaivo.net/articles/building-faq-from-wiki-pages.html" rel="alternate"></link><published>2005-11-22T17:17:00+01:00</published><updated>2005-11-22T17:17:00+01:00</updated><author><name>markos</name></author><id>tag:markos.gaivo.net,2005-11-22:/articles/building-faq-from-wiki-pages.html</id><summary type="html">&lt;div&gt;
+ &lt;p&gt;
+  We use
+  &lt;a href="http://moinmoin.wikiwikiweb.de/" title="MoinMoin's homepage"&gt;
+   MoinMoin
+  &lt;/a&gt;
+  for all our documentation needs, since it simplifies almost all related tasks. It’s nice when everything is available at one place through a familiar and easy to use interface.
+ &lt;/p&gt;
+ &lt;p&gt;
+  This is why I also wanted to use it to build a FAQ for our site, which …&lt;/p&gt;&lt;/div&gt;</summary><content type="html">&lt;div&gt;
  &lt;p&gt;
   We use
   &lt;a href="http://moinmoin.wikiwikiweb.de/" title="MoinMoin's homepage"&gt;
@@ -119,4 +140,4 @@
  &lt;p&gt;
   If it doesn’t, you’ll need to change code a bit.
  &lt;/p&gt;
-&lt;/div&gt;</summary></entry></feed>
+&lt;/div&gt;</content></entry></feed>

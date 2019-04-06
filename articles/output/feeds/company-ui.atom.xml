@@ -1,5 +1,22 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>A notch above a monkey</title><link href="http://markos.gaivo.net/articles/" rel="alternate"></link><link href="/articles/feeds/company-ui.atom.xml" rel="self"></link><id>http://markos.gaivo.net/articles/</id><updated>2010-03-26T12:22:00+01:00</updated><entry><title>My prototypes on YouTube</title><link href="http://markos.gaivo.net/articles/my-prototypes-on-youtube.html" rel="alternate"></link><updated>2010-03-26T12:22:00+01:00</updated><author><name>markos</name></author><id>tag:markos.gaivo.net,2010-03-26:articles/my-prototypes-on-youtube.html</id><summary type="html">&lt;div&gt;
+<feed xmlns="http://www.w3.org/2005/Atom"><title>A notch above a monkey - Company, UI</title><link href="http://markos.gaivo.net/articles/" rel="alternate"></link><link href="/articles/feeds/company-ui.atom.xml" rel="self"></link><id>http://markos.gaivo.net/articles/</id><updated>2010-03-26T12:22:00+01:00</updated><entry><title>My prototypes on YouTube</title><link href="http://markos.gaivo.net/articles/my-prototypes-on-youtube.html" rel="alternate"></link><published>2010-03-26T12:22:00+01:00</published><updated>2010-03-26T12:22:00+01:00</updated><author><name>markos</name></author><id>tag:markos.gaivo.net,2010-03-26:/articles/my-prototypes-on-youtube.html</id><summary type="html">&lt;div&gt;
+ &lt;p&gt;
+  I am not much of a
+  &lt;a href="http://www.youtube.com/user/msamastur" title="My YouTube channel"&gt;
+   YouTube user
+  &lt;/a&gt;
+  , but I have recently started to upload some of my work
+  &lt;a href="http://www.youtube.com/user/msamastur" title="my demos on youtube"&gt;
+   there
+  &lt;/a&gt;
+  . You might find them interesting if you are into interactions prototypes for products that may never be (especially if you are a
+  &lt;a class="zem_slink" href="http://www.zemanta.com" rel="homepage" title="Zemanta"&gt;
+   Zemanta
+  &lt;/a&gt;
+  user).
+ &lt;/p&gt;
+ &lt;p&gt;
+  I want to stress that while …&lt;/p&gt;&lt;/div&gt;</summary><content type="html">&lt;div&gt;
  &lt;p&gt;
   I am not much of a
   &lt;a href="http://www.youtube.com/user/msamastur" title="My YouTube channel"&gt;
@@ -32,12 +49,12 @@
    (zemanta.com)
   &lt;/li&gt;
  &lt;/ul&gt;
- &lt;div class="zemanta-pixie"&gt;
-  &lt;a class="zemanta-pixie-a" href="http://reblog.zemanta.com/zemified/4c4d711e-ab3a-4cf8-80df-8db0aab43dc3/" title="Reblog this post [with Zemanta]"&gt;
-   &lt;img alt="Reblog this post [with Zemanta]" class="zemanta-pixie-img" src="http://img.zemanta.com/reblog_e.png?x-id=4c4d711e-ab3a-4cf8-80df-8db0aab43dc3"/&gt;
-  &lt;/a&gt;
- &lt;/div&gt;
-&lt;/div&gt;</summary><category term="Zemanta"></category><category term="job"></category><category term="prototype"></category><category term="prototypes"></category><category term="interactions"></category></entry><entry><title>Clear labeling of expiration date</title><link href="http://markos.gaivo.net/articles/clear-labels.html" rel="alternate"></link><updated>2006-04-23T19:27:00+02:00</updated><author><name>markos</name></author><id>tag:markos.gaivo.net,2006-04-23:articles/clear-labels.html</id><summary type="html">&lt;div&gt;
+&lt;/div&gt;</content><category term="Zemanta"></category><category term="job"></category><category term="prototype"></category><category term="prototypes"></category><category term="interactions"></category></entry><entry><title>Clear labeling of expiration date</title><link href="http://markos.gaivo.net/articles/clear-labels.html" rel="alternate"></link><published>2006-04-23T19:27:00+02:00</published><updated>2006-04-23T19:27:00+02:00</updated><author><name>markos</name></author><id>tag:markos.gaivo.net,2006-04-23:/articles/clear-labels.html</id><summary type="html">&lt;div&gt;
+ &lt;p&gt;
+  Another piece of chicken fillet went into the trash bin, because I didn’t check its expiration date when I bought it a few days ago and hence didn’t see it expired on the same day.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Would it be really that hard to clearly label food that is going …&lt;/p&gt;&lt;/div&gt;</summary><content type="html">&lt;div&gt;
  &lt;p&gt;
   Another piece of chicken fillet went into the trash bin, because I didn’t check its expiration date when I bought it a few days ago and hence didn’t see it expired on the same day.
  &lt;/p&gt;
@@ -51,4 +68,4 @@
   &lt;/a&gt;
   finds it worthwhile to aggravate me for few dollars. Lucky for them their competition isn’t any better so this might not even cost them a customer.
  &lt;/p&gt;
-&lt;/div&gt;</summary></entry></feed>
+&lt;/div&gt;</content></entry></feed>

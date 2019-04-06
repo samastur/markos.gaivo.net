@@ -1,5 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>A notch above a monkey</title><link href="http://markos.gaivo.net/articles/" rel="alternate"></link><link href="/articles/feeds/python-web.atom.xml" rel="self"></link><id>http://markos.gaivo.net/articles/</id><updated>2008-08-30T21:50:00+02:00</updated><entry><title>Leaving App Engine - for now</title><link href="http://markos.gaivo.net/articles/leaving-app-engine-for-now.html" rel="alternate"></link><updated>2008-08-30T21:50:00+02:00</updated><author><name>markos</name></author><id>tag:markos.gaivo.net,2008-08-30:articles/leaving-app-engine-for-now.html</id><summary type="html">&lt;div&gt;
+<feed xmlns="http://www.w3.org/2005/Atom"><title>A notch above a monkey - Python, Web</title><link href="http://markos.gaivo.net/articles/" rel="alternate"></link><link href="/articles/feeds/python-web.atom.xml" rel="self"></link><id>http://markos.gaivo.net/articles/</id><updated>2008-08-30T21:50:00+02:00</updated><entry><title>Leaving App Engine - for now</title><link href="http://markos.gaivo.net/articles/leaving-app-engine-for-now.html" rel="alternate"></link><published>2008-08-30T21:50:00+02:00</published><updated>2008-08-30T21:50:00+02:00</updated><author><name>markos</name></author><id>tag:markos.gaivo.net,2008-08-30:/articles/leaving-app-engine-for-now.html</id><summary type="html">&lt;div&gt;
+ &lt;p&gt;
+  Jonathan
+  &lt;a href="http://spyced.blogspot.com/2008/08/app-engine-conclusions.html#"&gt;
+   wrote
+  &lt;/a&gt;
+  his thoughts about
+  &lt;a class="zem_slink" href="http://appengine.google.com" rel="homepage" title="Google App Engine"&gt;
+   App Engine
+  &lt;/a&gt;
+  . They are well worth a read if you are thinking about using it, but haven’t so far. I used App Engine sporadically for a couple of months on a project of mine, but I finally gave up and ended porting my code …&lt;/p&gt;&lt;/div&gt;</summary><content type="html">&lt;div&gt;
  &lt;p&gt;
   Jonathan
   &lt;a href="http://spyced.blogspot.com/2008/08/app-engine-conclusions.html#"&gt;
@@ -51,12 +61,7 @@
  &lt;p&gt;
   I’m sure this is not the only scenario in which App Engine makes sense and there are others I haven’t named or thought of. Issues, like accounts, can with some effort be solved now. But App Engine also isn’t (yet) what some of us were hoping for and it’s prudent to really think through what you want, what you need and what App Engine actually offers.
  &lt;/p&gt;
- &lt;div class="zemanta-pixie"&gt;
-  &lt;a class="zemanta-pixie-a" href="http://reblog.zemanta.com/zemified/28ddae75-72ba-4a45-892e-7841f893395b/" title="Zemified by Zemanta"&gt;
-   &lt;img alt="Reblog this post [with Zemanta]" class="zemanta-pixie-img" src="http://img.zemanta.com/reblog_e.png?x-id=28ddae75-72ba-4a45-892e-7841f893395b" style="border: medium none; float: right;"/&gt;
-  &lt;/a&gt;
- &lt;/div&gt;
-&lt;/div&gt;</summary><category term="Google"></category><category term="Python"></category><category term="Google App Engine"></category><category term="Django"></category><category term="App Engine"></category></entry><entry><title>In search of easy templating</title><link href="http://markos.gaivo.net/articles/in-search-of-easy-templating.html" rel="alternate"></link><updated>2006-02-03T22:07:00+01:00</updated><author><name>markos</name></author><id>tag:markos.gaivo.net,2006-02-03:articles/in-search-of-easy-templating.html</id><summary type="html">&lt;div&gt;
+&lt;/div&gt;</content><category term="Google"></category><category term="Python"></category><category term="Google App Engine"></category><category term="Django"></category><category term="App Engine"></category></entry><entry><title>In search of easy templating</title><link href="http://markos.gaivo.net/articles/in-search-of-easy-templating.html" rel="alternate"></link><published>2006-02-03T22:07:00+01:00</published><updated>2006-02-03T22:07:00+01:00</updated><author><name>markos</name></author><id>tag:markos.gaivo.net,2006-02-03:/articles/in-search-of-easy-templating.html</id><summary type="html">&lt;div&gt;
  &lt;p&gt;
   &lt;strong&gt;
    Error:
@@ -67,7 +72,18 @@
   &lt;/code&gt;
   exists.
  &lt;/p&gt;
-&lt;/div&gt;</summary></entry><entry><title>Favorite python blog</title><link href="http://markos.gaivo.net/articles/favorite-python-blog.html" rel="alternate"></link><updated>2005-12-22T18:22:00+01:00</updated><author><name>markos</name></author><id>tag:markos.gaivo.net,2005-12-22:articles/favorite-python-blog.html</id><summary type="html">&lt;div&gt;
+&lt;/div&gt;</summary><content type="html">&lt;div&gt;
+ &lt;p&gt;
+  &lt;strong&gt;
+   Error:
+  &lt;/strong&gt;
+  No such file found! Please make sure
+  &lt;code&gt;
+   http://markos.gaivo.net/blog/code/template1.txt
+  &lt;/code&gt;
+  exists.
+ &lt;/p&gt;
+&lt;/div&gt;</content></entry><entry><title>Favorite python blog</title><link href="http://markos.gaivo.net/articles/favorite-python-blog.html" rel="alternate"></link><published>2005-12-22T18:22:00+01:00</published><updated>2005-12-22T18:22:00+01:00</updated><author><name>markos</name></author><id>tag:markos.gaivo.net,2005-12-22:/articles/favorite-python-blog.html</id><summary type="html">&lt;div&gt;
  &lt;p&gt;
   I’ve rarely, well never really, promoted a blog, but I think
   &lt;a href="http://blog.ianbicking.org/" title="Ian's blog"&gt;
@@ -75,7 +91,36 @@
   &lt;/a&gt;
   really is a must read for every python web developer. I wish reading my blog was never a waste of time.
  &lt;/p&gt;
-&lt;/div&gt;</summary></entry><entry><title>Speed test of PyRSS2Gen, kid and atomixlib</title><link href="http://markos.gaivo.net/articles/speed-test-of-pyrss2gen-kid-and-atomixlib.html" rel="alternate"></link><updated>2005-11-05T02:04:00+01:00</updated><author><name>markos</name></author><id>tag:markos.gaivo.net,2005-11-05:articles/speed-test-of-pyrss2gen-kid-and-atomixlib.html</id><summary type="html">&lt;div&gt;
+&lt;/div&gt;</summary><content type="html">&lt;div&gt;
+ &lt;p&gt;
+  I’ve rarely, well never really, promoted a blog, but I think
+  &lt;a href="http://blog.ianbicking.org/" title="Ian's blog"&gt;
+   Ian Bicking’s blog
+  &lt;/a&gt;
+  really is a must read for every python web developer. I wish reading my blog was never a waste of time.
+ &lt;/p&gt;
+&lt;/div&gt;</content></entry><entry><title>Speed test of PyRSS2Gen, kid and atomixlib</title><link href="http://markos.gaivo.net/articles/speed-test-of-pyrss2gen-kid-and-atomixlib.html" rel="alternate"></link><published>2005-11-05T02:04:00+01:00</published><updated>2005-11-05T02:04:00+01:00</updated><author><name>markos</name></author><id>tag:markos.gaivo.net,2005-11-05:/articles/speed-test-of-pyrss2gen-kid-and-atomixlib.html</id><summary type="html">&lt;div&gt;
+ &lt;p&gt;
+  I’ve spent this evening building RSS2 and Atom feeds with
+  &lt;a href="http://www.dalkescientific.com/Python/PyRSS2Gen.html"&gt;
+   PyRSS2Gen
+  &lt;/a&gt;
+  ,
+  &lt;a href="http://kid.lesscode.org/index.html"&gt;
+   kid
+  &lt;/a&gt;
+  and
+  &lt;a href="http://www.defuze.org/oss/atomixlib/"&gt;
+   atomixlib
+  &lt;/a&gt;
+  , as
+  &lt;a href="searching-for-atom-feed-generator.html"&gt;
+   proposed
+  &lt;/a&gt;
+  by helpful people few days ago.
+ &lt;/p&gt;
+ &lt;p&gt;
+  We’d like to add feeds promiscuously to our service (right now we have exactly one). But before we can decide how to tackle this, we need …&lt;/p&gt;&lt;/div&gt;</summary><content type="html">&lt;div&gt;
  &lt;p&gt;
   I’ve spent this evening building RSS2 and Atom feeds with
   &lt;a href="http://www.dalkescientific.com/Python/PyRSS2Gen.html"&gt;
@@ -137,7 +182,9 @@
  &lt;p&gt;
   Update 3: 4Suite has been promptly fixed (thanks!) and atomixlib 0.3 takes now 18-19ms. I believe this is an excellent time.
  &lt;/p&gt;
-&lt;/div&gt;</summary></entry><entry><title>Searching for an Atom feed generator</title><link href="http://markos.gaivo.net/articles/searching-for-atom-feed-generator.html" rel="alternate"></link><updated>2005-11-01T02:32:00+01:00</updated><author><name>markos</name></author><id>tag:markos.gaivo.net,2005-11-01:articles/searching-for-atom-feed-generator.html</id><summary type="html">&lt;div&gt;
+&lt;/div&gt;</content></entry><entry><title>Searching for an Atom feed generator</title><link href="http://markos.gaivo.net/articles/searching-for-atom-feed-generator.html" rel="alternate"></link><published>2005-11-01T02:32:00+01:00</published><updated>2005-11-01T02:32:00+01:00</updated><author><name>markos</name></author><id>tag:markos.gaivo.net,2005-11-01:/articles/searching-for-atom-feed-generator.html</id><summary type="html">&lt;div&gt;
+ &lt;p&gt;
+  I’m still mostly offline, but luckily UMTS offers a sort of solution. It works alright, but it is fairly expensive and I’m counting my bytes again. Still better than helplessly and hopelessly waiting for local telecom to fix ADSL, which judging by previous experience may happen who knows …&lt;/p&gt;&lt;/div&gt;</summary><content type="html">&lt;div&gt;
  &lt;p&gt;
   I’m still mostly offline, but luckily UMTS offers a sort of solution. It works alright, but it is fairly expensive and I’m counting my bytes again. Still better than helplessly and hopelessly waiting for local telecom to fix ADSL, which judging by previous experience may happen who knows when.
  &lt;/p&gt;
@@ -151,7 +198,12 @@
  &lt;p&gt;
   What I’d like is something that returns a proper Atom 1.0 feed and doesn’t choke on non-ascii using languages. I’m sure I’m missing something. Any help would be greatly appreciated.
  &lt;/p&gt;
-&lt;/div&gt;</summary></entry><entry><title>Beautiful Soup is beautiful again</title><link href="http://markos.gaivo.net/articles/beautiful-soup-is-beautiful-again.html" rel="alternate"></link><updated>2005-09-06T10:16:00+02:00</updated><author><name>markos</name></author><id>tag:markos.gaivo.net,2005-09-06:articles/beautiful-soup-is-beautiful-again.html</id><summary type="html">&lt;div&gt;
+&lt;/div&gt;</content></entry><entry><title>Beautiful Soup is beautiful again</title><link href="http://markos.gaivo.net/articles/beautiful-soup-is-beautiful-again.html" rel="alternate"></link><published>2005-09-06T10:16:00+02:00</published><updated>2005-09-06T10:16:00+02:00</updated><author><name>markos</name></author><id>tag:markos.gaivo.net,2005-09-06:/articles/beautiful-soup-is-beautiful-again.html</id><summary type="html">&lt;div&gt;
+ &lt;p&gt;
+  This is probably the last part in series of post dealing with Beautiful Soup. At least for a while. Good news is, I found the bug that caused observed weird behavior and it was partly self-inflicted.
+ &lt;/p&gt;
+ &lt;p&gt;
+  My problem appeared, because I was using variables that resembled html tags (e.g …&lt;/p&gt;&lt;/div&gt;</summary><content type="html">&lt;div&gt;
  &lt;p&gt;
   This is probably the last part in series of post dealing with Beautiful Soup. At least for a while. Good news is, I found the bug that caused observed weird behavior and it was partly self-inflicted.
  &lt;/p&gt;
@@ -202,7 +254,9 @@
    , which fixes my bug and several others. So you better fetch that version.
   &lt;/em&gt;
  &lt;/p&gt;
-&lt;/div&gt;</summary></entry><entry><title>Beautiful Soup - part 2</title><link href="http://markos.gaivo.net/articles/beautiful-soup-part-2.html" rel="alternate"></link><updated>2005-09-05T14:54:00+02:00</updated><author><name>markos</name></author><id>tag:markos.gaivo.net,2005-09-05:articles/beautiful-soup-part-2.html</id><summary type="html">&lt;div&gt;
+&lt;/div&gt;</content></entry><entry><title>Beautiful Soup - part 2</title><link href="http://markos.gaivo.net/articles/beautiful-soup-part-2.html" rel="alternate"></link><published>2005-09-05T14:54:00+02:00</published><updated>2005-09-05T14:54:00+02:00</updated><author><name>markos</name></author><id>tag:markos.gaivo.net,2005-09-05:/articles/beautiful-soup-part-2.html</id><summary type="html">&lt;div&gt;
+ &lt;p&gt;
+  It seems I praised Beautiful Soup too quickly. I was playing with it yesterday and discovered it mangles Javascript included in file. I can’t say it does this every time, but it’s fairly obvious if you have few kilobytes of code stuck in file. There you have it …&lt;/p&gt;&lt;/div&gt;</summary><content type="html">&lt;div&gt;
  &lt;p&gt;
   It seems I praised Beautiful Soup too quickly. I was playing with it yesterday and discovered it mangles Javascript included in file. I can’t say it does this every time, but it’s fairly obvious if you have few kilobytes of code stuck in file. There you have it, another argument why Javascript and CSS should be stored in external files.
  &lt;/p&gt;
@@ -215,7 +269,12 @@
  &lt;p&gt;
   If I find time, I’ll try to fix the problem, since I really dislike idea of processing files using usual methods (regular expressions &amp;amp; co.).
  &lt;/p&gt;
-&lt;/div&gt;</summary></entry><entry><title>We've come to praise Beautiful Soup</title><link href="http://markos.gaivo.net/articles/weve-come-to-praise-beautiful-soup.html" rel="alternate"></link><updated>2005-08-31T19:44:00+02:00</updated><author><name>markos</name></author><id>tag:markos.gaivo.net,2005-08-31:articles/weve-come-to-praise-beautiful-soup.html</id><summary type="html">&lt;div&gt;
+&lt;/div&gt;</content></entry><entry><title>We've come to praise Beautiful Soup</title><link href="http://markos.gaivo.net/articles/weve-come-to-praise-beautiful-soup.html" rel="alternate"></link><published>2005-08-31T19:44:00+02:00</published><updated>2005-08-31T19:44:00+02:00</updated><author><name>markos</name></author><id>tag:markos.gaivo.net,2005-08-31:/articles/weve-come-to-praise-beautiful-soup.html</id><summary type="html">&lt;div&gt;
+ &lt;p&gt;
+  So, I’ve been working on this project for some time now, where I’d take user supplied HTML templates and transformed them into new templates, that our system can actually use.
+ &lt;/p&gt;
+ &lt;p&gt;
+  I needed to mangle and change them, but I also didn’t want to require from users things …&lt;/p&gt;&lt;/div&gt;</summary><content type="html">&lt;div&gt;
  &lt;p&gt;
   So, I’ve been working on this project for some time now, where I’d take user supplied HTML templates and transformed them into new templates, that our system can actually use.
  &lt;/p&gt;
@@ -241,4 +300,4 @@
    with Javascript code included in HTML.
   &lt;/em&gt;
  &lt;/p&gt;
-&lt;/div&gt;</summary></entry></feed>
+&lt;/div&gt;</content></entry></feed>

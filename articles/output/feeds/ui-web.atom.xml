@@ -1,5 +1,31 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>A notch above a monkey</title><link href="http://markos.gaivo.net/articles/" rel="alternate"></link><link href="/articles/feeds/ui-web.atom.xml" rel="self"></link><id>http://markos.gaivo.net/articles/</id><updated>2008-10-28T08:59:00+01:00</updated><entry><title>Tweaking pages</title><link href="http://markos.gaivo.net/articles/tweaking-pages.html" rel="alternate"></link><updated>2008-10-28T08:59:00+01:00</updated><author><name>markos</name></author><id>tag:markos.gaivo.net,2008-10-28:articles/tweaking-pages.html</id><summary type="html">&lt;div&gt;
+<feed xmlns="http://www.w3.org/2005/Atom"><title>A notch above a monkey - UI, Web</title><link href="http://markos.gaivo.net/articles/" rel="alternate"></link><link href="/articles/feeds/ui-web.atom.xml" rel="self"></link><id>http://markos.gaivo.net/articles/</id><updated>2008-10-28T08:59:00+01:00</updated><entry><title>Tweaking pages</title><link href="http://markos.gaivo.net/articles/tweaking-pages.html" rel="alternate"></link><published>2008-10-28T08:59:00+01:00</published><updated>2008-10-28T08:59:00+01:00</updated><author><name>markos</name></author><id>tag:markos.gaivo.net,2008-10-28:/articles/tweaking-pages.html</id><summary type="html">&lt;div&gt;
+ &lt;p&gt;
+  I recently came back from Berlin, where I publicly asked
+  &lt;a href="http://john.jubjubs.net/" title="John's homepage"&gt;
+   John Lily
+  &lt;/a&gt;
+  why haven’t they integrated
+  &lt;a class="zem_slink" href="http://www.greasespot.net/" rel="homepage" title="Greasemonkey"&gt;
+   Greasemonkey
+  &lt;/a&gt;
+  into
+  &lt;a class="zem_slink" href="http://www.mozilla.com/en-US/firefox/" rel="homepage" title="Firefox"&gt;
+   Firefox
+  &lt;/a&gt;
+  . Wrong question can hardly lead to right answer. What I really wanted to know was:
+ &lt;/p&gt;
+ &lt;p&gt;
+  &lt;em&gt;
+   “Why doesn’t
+   &lt;a class="zem_slink" href="http://mozilla.com" rel="homepage" title="Mozilla"&gt;
+    Mozilla
+   &lt;/a&gt;
+   integrate Greasemonkey-LIKE functionality in a browser?”
+  &lt;/em&gt;
+ &lt;/p&gt;
+ &lt;p&gt;
+  Browser is at the farthest …&lt;/p&gt;&lt;/div&gt;</summary><content type="html">&lt;div&gt;
  &lt;p&gt;
   I recently came back from Berlin, where I publicly asked
   &lt;a href="http://john.jubjubs.net/" title="John's homepage"&gt;
@@ -45,12 +71,7 @@
  &lt;p&gt;
   I thought about downsides to this since Thursday and I’m failing to find anything substantial.
  &lt;/p&gt;
- &lt;div class="zemanta-pixie"&gt;
-  &lt;a class="zemanta-pixie-a" href="http://reblog.zemanta.com/zemified/371a642d-6da1-4089-8b93-ef701f1cdb08/" title="Zemified by Zemanta"&gt;
-   &lt;img alt="Reblog this post [with Zemanta]" class="zemanta-pixie-img" src="http://img.zemanta.com/reblog_e.png?x-id=371a642d-6da1-4089-8b93-ef701f1cdb08"/&gt;
-  &lt;/a&gt;
- &lt;/div&gt;
-&lt;/div&gt;</summary><category term="Mozilla"></category><category term="Firefox"></category><category term="Web page"></category><category term="greasemonkey"></category><category term="browser"></category></entry><entry><title>Robot Exclusion Profile</title><link href="http://markos.gaivo.net/articles/robot-exclusion-profile.html" rel="alternate"></link><updated>2006-04-13T22:54:00+02:00</updated><author><name>markos</name></author><id>tag:markos.gaivo.net,2006-04-13:articles/robot-exclusion-profile.html</id><summary type="html">&lt;div&gt;
+&lt;/div&gt;</content><category term="Mozilla"></category><category term="Firefox"></category><category term="Web page"></category><category term="greasemonkey"></category><category term="browser"></category></entry><entry><title>Robot Exclusion Profile</title><link href="http://markos.gaivo.net/articles/robot-exclusion-profile.html" rel="alternate"></link><published>2006-04-13T22:54:00+02:00</published><updated>2006-04-13T22:54:00+02:00</updated><author><name>markos</name></author><id>tag:markos.gaivo.net,2006-04-13:/articles/robot-exclusion-profile.html</id><summary type="html">&lt;div&gt;
  &lt;p&gt;
   &lt;strong&gt;
    Error:
@@ -61,7 +82,24 @@
   &lt;/code&gt;
   exists.
  &lt;/p&gt;
-&lt;/div&gt;</summary></entry><entry><title>Google ignore</title><link href="http://markos.gaivo.net/articles/google-ignore.html" rel="alternate"></link><updated>2006-04-10T13:59:00+02:00</updated><author><name>markos</name></author><id>tag:markos.gaivo.net,2006-04-10:articles/google-ignore.html</id><summary type="html">&lt;div&gt;
+&lt;/div&gt;</summary><content type="html">&lt;div&gt;
+ &lt;p&gt;
+  &lt;strong&gt;
+   Error:
+  &lt;/strong&gt;
+  No such file found! Please make sure
+  &lt;code&gt;
+   http://markos.gaivo.net/blog/code/robots-exclusion.txt
+  &lt;/code&gt;
+  exists.
+ &lt;/p&gt;
+&lt;/div&gt;</content></entry><entry><title>Google ignore</title><link href="http://markos.gaivo.net/articles/google-ignore.html" rel="alternate"></link><published>2006-04-10T13:59:00+02:00</published><updated>2006-04-10T13:59:00+02:00</updated><author><name>markos</name></author><id>tag:markos.gaivo.net,2006-04-10:/articles/google-ignore.html</id><summary type="html">&lt;div&gt;
+ &lt;p&gt;
+  A few days ago I came to
+  &lt;a href="javascript-enabled-spiders.html"&gt;
+   recognize
+  &lt;/a&gt;
+  that email hiding technique I use won’t work anymore. However I still think it would be a great idea if I could remove a part of a page from search index, even if it won’t help me hide from spammers …&lt;/p&gt;&lt;/div&gt;</summary><content type="html">&lt;div&gt;
  &lt;p&gt;
   A few days ago I came to
   &lt;a href="javascript-enabled-spiders.html"&gt;
@@ -82,7 +120,12 @@
  &lt;p&gt;
   The benefit of this would also be better search results. Every now and then I follow a search hit that fit my query because of a combination of site content and its navigation. Judging by my logs I’m not the only deceived soul. So, wouldn’t it be nice to be able to tell which parts are content and which aren’t?
  &lt;/p&gt;
-&lt;/div&gt;</summary></entry><entry><title>Simple List Extensions</title><link href="http://markos.gaivo.net/articles/simple-list-extensions.html" rel="alternate"></link><updated>2006-04-09T14:05:00+02:00</updated><author><name>markos</name></author><id>tag:markos.gaivo.net,2006-04-09:articles/simple-list-extensions.html</id><summary type="html">&lt;div&gt;
+&lt;/div&gt;</content></entry><entry><title>Simple List Extensions</title><link href="http://markos.gaivo.net/articles/simple-list-extensions.html" rel="alternate"></link><published>2006-04-09T14:05:00+02:00</published><updated>2006-04-09T14:05:00+02:00</updated><author><name>markos</name></author><id>tag:markos.gaivo.net,2006-04-09:/articles/simple-list-extensions.html</id><summary type="html">&lt;div&gt;
+ &lt;p&gt;
+  I’m not sure how I missed the original announcement of Simple List Extensions (SLE) for feeds, but better late than never.
+ &lt;/p&gt;
+ &lt;p&gt;
+  SLE is a very simple specification to extend feeds syntax to better support some common scenarios that weren’t covered with original specifications of RSS and Atom. Previously …&lt;/p&gt;&lt;/div&gt;</summary><content type="html">&lt;div&gt;
  &lt;p&gt;
   I’m not sure how I missed the original announcement of Simple List Extensions (SLE) for feeds, but better late than never.
  &lt;/p&gt;
@@ -103,7 +146,9 @@
  &lt;p&gt;
   By the way, I’m not sure if any reader apart from beta of IE7 already supports SLE, but I expect that most of them will soon. There’s little reason not to.
  &lt;/p&gt;
-&lt;/div&gt;</summary></entry><entry><title>Localized interfaces in globalized world</title><link href="http://markos.gaivo.net/articles/localized-interfaces-in-globalized-world.html" rel="alternate"></link><updated>2006-03-24T12:03:00+01:00</updated><author><name>markos</name></author><id>tag:markos.gaivo.net,2006-03-24:articles/localized-interfaces-in-globalized-world.html</id><summary type="html">&lt;div&gt;
+&lt;/div&gt;</content></entry><entry><title>Localized interfaces in globalized world</title><link href="http://markos.gaivo.net/articles/localized-interfaces-in-globalized-world.html" rel="alternate"></link><published>2006-03-24T12:03:00+01:00</published><updated>2006-03-24T12:03:00+01:00</updated><author><name>markos</name></author><id>tag:markos.gaivo.net,2006-03-24:/articles/localized-interfaces-in-globalized-world.html</id><summary type="html">&lt;div&gt;
+ &lt;p&gt;
+  There’s an issue I’ve been struggling with for months now. Well, more than a year really. We built Marela so it would be used in Slovenia by people preferring Slovene language over the others. It’s not the only distinguishing point from similar services found on the web …&lt;/p&gt;&lt;/div&gt;</summary><content type="html">&lt;div&gt;
  &lt;p&gt;
   There’s an issue I’ve been struggling with for months now. Well, more than a year really. We built Marela so it would be used in Slovenia by people preferring Slovene language over the others. It’s not the only distinguishing point from similar services found on the web, but it’s an important one.
  &lt;/p&gt;
@@ -128,7 +173,16 @@
  &lt;p&gt;
   I ran out of my own ideas long time ago. Any ideas you might have are therefore more than welcome.
  &lt;/p&gt;
-&lt;/div&gt;</summary></entry><entry><title>CSS pixels are a relative unit</title><link href="http://markos.gaivo.net/articles/css-pixels-are-a-relative-unit.html" rel="alternate"></link><updated>2006-02-12T17:17:00+01:00</updated><author><name>markos</name></author><id>tag:markos.gaivo.net,2006-02-12:articles/css-pixels-are-a-relative-unit.html</id><summary type="html">&lt;div&gt;
+&lt;/div&gt;</content></entry><entry><title>CSS pixels are a relative unit</title><link href="http://markos.gaivo.net/articles/css-pixels-are-a-relative-unit.html" rel="alternate"></link><published>2006-02-12T17:17:00+01:00</published><updated>2006-02-12T17:17:00+01:00</updated><author><name>markos</name></author><id>tag:markos.gaivo.net,2006-02-12:/articles/css-pixels-are-a-relative-unit.html</id><summary type="html">&lt;div&gt;
+ &lt;p&gt;
+  The pixel debate
+  &lt;a href="http://www.456bereastreet.com/archive/200602/setting_font_size_in_pixels/" title="Setting font size in pixels"&gt;
+   is back
+  &lt;/a&gt;
+  . Internet explorer out of the box doesn’t permit resizing text measured in pixels, which at the same time is the only reliable way of setting dimensions that produces same result everywhere.
+ &lt;/p&gt;
+ &lt;p&gt;
+  The crux of the matter is simply who should have the final word …&lt;/p&gt;&lt;/div&gt;</summary><content type="html">&lt;div&gt;
  &lt;p&gt;
   The pixel debate
   &lt;a href="http://www.456bereastreet.com/archive/200602/setting_font_size_in_pixels/" title="Setting font size in pixels"&gt;
@@ -158,7 +212,11 @@
  &lt;p&gt;
   The result of this is that size of displayed text and images is device dependent even when in theory it shouldn’t be. So the only way is also good only up to a point.
  &lt;/p&gt;
-&lt;/div&gt;</summary></entry><entry><title>Ease of use and productivity dichotomy</title><link href="http://markos.gaivo.net/articles/ease-of-use-and-productivity-dichotomy.html" rel="alternate"></link><updated>2006-01-25T17:23:00+01:00</updated><author><name>markos</name></author><id>tag:markos.gaivo.net,2006-01-25:articles/ease-of-use-and-productivity-dichotomy.html</id><summary type="html">&lt;div&gt;
+&lt;/div&gt;</content></entry><entry><title>Ease of use and productivity dichotomy</title><link href="http://markos.gaivo.net/articles/ease-of-use-and-productivity-dichotomy.html" rel="alternate"></link><published>2006-01-25T17:23:00+01:00</published><updated>2006-01-25T17:23:00+01:00</updated><author><name>markos</name></author><id>tag:markos.gaivo.net,2006-01-25:/articles/ease-of-use-and-productivity-dichotomy.html</id><summary type="html">&lt;div&gt;
+ &lt;p&gt;
+  When I was in Stockholm, I listened to a podcast of Bran Ferren’s talk at Web 2.0 conference. He made a case that knowledge workers need tools and user interfaces that put increased productivity as a goal above ease of use or learn. It’s well worth
+  &lt;a href="http://www.itconversations.com/shows/detail852.html"&gt;
+   listening …&lt;/a&gt;&lt;/p&gt;&lt;/div&gt;</summary><content type="html">&lt;div&gt;
  &lt;p&gt;
   When I was in Stockholm, I listened to a podcast of Bran Ferren’s talk at Web 2.0 conference. He made a case that knowledge workers need tools and user interfaces that put increased productivity as a goal above ease of use or learn. It’s well worth
   &lt;a href="http://www.itconversations.com/shows/detail852.html"&gt;
@@ -201,7 +259,12 @@
  &lt;p&gt;
   And I still think mouse was just a brilliant invention.
  &lt;/p&gt;
-&lt;/div&gt;</summary></entry><entry><title>Structured blogging</title><link href="http://markos.gaivo.net/articles/structured-blogging.html" rel="alternate"></link><updated>2005-12-22T14:50:00+01:00</updated><author><name>markos</name></author><id>tag:markos.gaivo.net,2005-12-22:articles/structured-blogging.html</id><summary type="html">&lt;div&gt;
+&lt;/div&gt;</content></entry><entry><title>Structured blogging</title><link href="http://markos.gaivo.net/articles/structured-blogging.html" rel="alternate"></link><published>2005-12-22T14:50:00+01:00</published><updated>2005-12-22T14:50:00+01:00</updated><author><name>markos</name></author><id>tag:markos.gaivo.net,2005-12-22:/articles/structured-blogging.html</id><summary type="html">&lt;div&gt;
+ &lt;p&gt;
+  I first heard of structured blogging a few days ago and at first I thought it was an excellent idea. I mean which geek wouldn’t like its promise?
+ &lt;/p&gt;
+ &lt;p&gt;
+  However, the more I think about it, the more skeptical I am. I’m not the first and other people said …&lt;/p&gt;&lt;/div&gt;</summary><content type="html">&lt;div&gt;
  &lt;p&gt;
   I first heard of structured blogging a few days ago and at first I thought it was an excellent idea. I mean which geek wouldn’t like its promise?
  &lt;/p&gt;
@@ -258,7 +321,20 @@
  &lt;p&gt;
   Conclusion? No, thanks (for now).
  &lt;/p&gt;
-&lt;/div&gt;</summary></entry><entry><title>First look at upcoming WordPress 2.0</title><link href="http://markos.gaivo.net/articles/first-look-at-upcoming-wordpress-20.html" rel="alternate"></link><updated>2005-12-20T16:56:00+01:00</updated><author><name>markos</name></author><id>tag:markos.gaivo.net,2005-12-20:articles/first-look-at-upcoming-wordpress-20.html</id><summary type="html">&lt;div&gt;
+&lt;/div&gt;</content></entry><entry><title>First look at upcoming WordPress 2.0</title><link href="http://markos.gaivo.net/articles/first-look-at-upcoming-wordpress-20.html" rel="alternate"></link><published>2005-12-20T16:56:00+01:00</published><updated>2005-12-20T16:56:00+01:00</updated><author><name>markos</name></author><id>tag:markos.gaivo.net,2005-12-20:/articles/first-look-at-upcoming-wordpress-20.html</id><summary type="html">&lt;div&gt;
+ &lt;p&gt;
+  A while ago I wrote a
+  &lt;a href="wordpress-sucks.html"&gt;
+   post
+  &lt;/a&gt;
+  berating
+  &lt;a href="http://www.wordpress.org"&gt;
+   WordPress
+  &lt;/a&gt;
+  UI that got more attention than I wanted. I still stand behind my words, but I’d rather be known for something else.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Hearing that new WordPress is around the corner, I was eager to write something more positive. Thanks to …&lt;/p&gt;&lt;/div&gt;</summary><content type="html">&lt;div&gt;
  &lt;p&gt;
   A while ago I wrote a
   &lt;a href="wordpress-sucks.html"&gt;
@@ -297,7 +373,16 @@
  &lt;p&gt;
   Nevertheless, WP 2.0 is a big step forward. Even bigger under the hood according to what I hear, but since I can’t be made to care about PHP, it’s not all that relevant to me. I certainly don’t think it sucks anymore, but I still think it has a far way to go before it will truly be a friendly tool for everyone.
  &lt;/p&gt;
-&lt;/div&gt;</summary></entry><entry><title>Google's bias</title><link href="http://markos.gaivo.net/articles/googles-bias.html" rel="alternate"></link><updated>2005-12-10T18:29:00+01:00</updated><author><name>markos</name></author><id>tag:markos.gaivo.net,2005-12-10:articles/googles-bias.html</id><summary type="html">&lt;div&gt;
+&lt;/div&gt;</content></entry><entry><title>Google's bias</title><link href="http://markos.gaivo.net/articles/googles-bias.html" rel="alternate"></link><published>2005-12-10T18:29:00+01:00</published><updated>2005-12-10T18:29:00+01:00</updated><author><name>markos</name></author><id>tag:markos.gaivo.net,2005-12-10:/articles/googles-bias.html</id><summary type="html">&lt;div&gt;
+ &lt;p&gt;
+  Have you ever asked yourself, what’s the purpose of Google’s long living cookie?
+ &lt;/p&gt;
+ &lt;p&gt;
+  Well, others
+  &lt;a href="http://www.google.com/search?q=google+cookie"&gt;
+   did
+  &lt;/a&gt;
+  . I’m not quite as paranoid as some of them, but judging by recent experience it’s definitely used for more than just preferences. I was helping my wife and was looking …&lt;/p&gt;&lt;/div&gt;</summary><content type="html">&lt;div&gt;
  &lt;p&gt;
   Have you ever asked yourself, what’s the purpose of Google’s long living cookie?
  &lt;/p&gt;
@@ -324,4 +409,4 @@
  &lt;p&gt;
   I think they should, but I understand it can be difficult to do so without looking intrusive. That’s why they usually bury it in documents that nobody reads, like terms of use or privacy statements.
  &lt;/p&gt;
-&lt;/div&gt;</summary></entry></feed>
+&lt;/div&gt;</content></entry></feed>

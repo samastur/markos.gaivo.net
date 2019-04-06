@@ -1,5 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>A notch above a monkey</title><link href="http://markos.gaivo.net/articles/" rel="alternate"></link><link href="/articles/feeds/catchall-general-development-python-web.atom.xml" rel="self"></link><id>http://markos.gaivo.net/articles/</id><updated>2010-03-09T13:24:00+01:00</updated><entry><title>N900 applications I miss</title><link href="http://markos.gaivo.net/articles/n900-applications-i-miss.html" rel="alternate"></link><updated>2010-03-09T13:24:00+01:00</updated><author><name>markos</name></author><id>tag:markos.gaivo.net,2010-03-09:articles/n900-applications-i-miss.html</id><summary type="html">&lt;div&gt;
+<feed xmlns="http://www.w3.org/2005/Atom"><title>A notch above a monkey - Catchall, General development, Python, Web</title><link href="http://markos.gaivo.net/articles/" rel="alternate"></link><link href="/articles/feeds/catchall-general-development-python-web.atom.xml" rel="self"></link><id>http://markos.gaivo.net/articles/</id><updated>2010-03-09T13:24:00+01:00</updated><entry><title>N900 applications I miss</title><link href="http://markos.gaivo.net/articles/n900-applications-i-miss.html" rel="alternate"></link><published>2010-03-09T13:24:00+01:00</published><updated>2010-03-09T13:24:00+01:00</updated><author><name>markos</name></author><id>tag:markos.gaivo.net,2010-03-09:/articles/n900-applications-i-miss.html</id><summary type="html">&lt;div&gt;
+ &lt;p&gt;
+  I love using
+  &lt;a class="zem_slink" href="http://maemo.nokia.com/n900/" rel="homepage" title="N900"&gt;
+   N900
+  &lt;/a&gt;
+  , but there are applications or features I miss. This post is a reminder to me on what I might do if I find more time. Since list is too long for me to do everything (unless I suddenly win lottery), feel free to pick an idea …&lt;/p&gt;&lt;/div&gt;</summary><content type="html">&lt;div&gt;
  &lt;p&gt;
   I love using
   &lt;a class="zem_slink" href="http://maemo.nokia.com/n900/" rel="homepage" title="N900"&gt;
@@ -73,9 +79,4 @@
  &lt;p&gt;
   I am aware that Maemo should be called MeeGo now, but a habit of years can’t be changed in few weeks. I searched for above applications and didn’t find them, but if you know of any I missed, then please let me know.
  &lt;/p&gt;
- &lt;div class="zemanta-pixie"&gt;
-  &lt;a class="zemanta-pixie-a" href="http://reblog.zemanta.com/zemified/8a3f246d-6a49-416b-b38b-3c79f3c30764/" title="Reblog this post [with Zemanta]"&gt;
-   &lt;img alt="Reblog this post [with Zemanta]" class="zemanta-pixie-img" src="http://img.zemanta.com/reblog_e.png?x-id=8a3f246d-6a49-416b-b38b-3c79f3c30764"/&gt;
-  &lt;/a&gt;
- &lt;/div&gt;
-&lt;/div&gt;</summary><category term="Nokia"></category><category term="Wikipedia"></category><category term="N900"></category><category term="application"></category><category term="Maemo"></category><category term="Nokia N900"></category><category term="webplatform"></category></entry></feed>
+&lt;/div&gt;</content><category term="Nokia"></category><category term="Wikipedia"></category><category term="N900"></category><category term="application"></category><category term="Maemo"></category><category term="Nokia N900"></category><category term="webplatform"></category></entry></feed>

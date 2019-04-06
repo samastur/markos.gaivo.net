@@ -1,5 +1,17 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>A notch above a monkey</title><link href="http://markos.gaivo.net/articles/" rel="alternate"></link><link href="/articles/feeds/general-development-javascript-python.atom.xml" rel="self"></link><id>http://markos.gaivo.net/articles/</id><updated>2005-09-16T00:03:00+02:00</updated><entry><title>Latency, bandwidth and speed of applications - part II</title><link href="http://markos.gaivo.net/articles/latency-bandwidth-and-speed-of-applications-part-ii.html" rel="alternate"></link><updated>2005-09-16T00:03:00+02:00</updated><author><name>markos</name></author><id>tag:markos.gaivo.net,2005-09-16:articles/latency-bandwidth-and-speed-of-applications-part-ii.html</id><summary type="html">&lt;div&gt;
+<feed xmlns="http://www.w3.org/2005/Atom"><title>A notch above a monkey - General development, Javascript, Python</title><link href="http://markos.gaivo.net/articles/" rel="alternate"></link><link href="/articles/feeds/general-development-javascript-python.atom.xml" rel="self"></link><id>http://markos.gaivo.net/articles/</id><updated>2005-09-16T00:03:00+02:00</updated><entry><title>Latency, bandwidth and speed of applications - part II</title><link href="http://markos.gaivo.net/articles/latency-bandwidth-and-speed-of-applications-part-ii.html" rel="alternate"></link><published>2005-09-16T00:03:00+02:00</published><updated>2005-09-16T00:03:00+02:00</updated><author><name>markos</name></author><id>tag:markos.gaivo.net,2005-09-16:/articles/latency-bandwidth-and-speed-of-applications-part-ii.html</id><summary type="html">&lt;div&gt;
+ &lt;p&gt;
+  This is the second post on this subject. You can find the first part
+  &lt;a href="latency-bandwidth-and-speed-of-applications-part-i.html" title="First par of this article"&gt;
+   here
+  &lt;/a&gt;
+  .
+ &lt;/p&gt;
+ &lt;p&gt;
+  So, how do latency and bandwidth relate to the speed of execution?
+ &lt;/p&gt;
+ &lt;p&gt;
+  As mentioned, latency is time needed for any amount of information to travel a certain distance and bandwidth is the amount of data …&lt;/p&gt;&lt;/div&gt;</summary><content type="html">&lt;div&gt;
  &lt;p&gt;
   This is the second post on this subject. You can find the first part
   &lt;a href="latency-bandwidth-and-speed-of-applications-part-i.html" title="First par of this article"&gt;
@@ -48,7 +60,12 @@
  &lt;p&gt;
   There are other factors that can influence our decisions, such as possibly increased load on server from more requests. Or the speed with which we can generate a request and process reply, if we need to pack and unpack more data. But this are issues worth exploring in some other post, if interest justifies it.
  &lt;/p&gt;
-&lt;/div&gt;</summary></entry><entry><title>Latency, bandwidth and speed of applications - part I</title><link href="http://markos.gaivo.net/articles/latency-bandwidth-and-speed-of-applications-part-i.html" rel="alternate"></link><updated>2005-09-14T21:10:00+02:00</updated><author><name>markos</name></author><id>tag:markos.gaivo.net,2005-09-14:articles/latency-bandwidth-and-speed-of-applications-part-i.html</id><summary type="html">&lt;div&gt;
+&lt;/div&gt;</content></entry><entry><title>Latency, bandwidth and speed of applications - part I</title><link href="http://markos.gaivo.net/articles/latency-bandwidth-and-speed-of-applications-part-i.html" rel="alternate"></link><published>2005-09-14T21:10:00+02:00</published><updated>2005-09-14T21:10:00+02:00</updated><author><name>markos</name></author><id>tag:markos.gaivo.net,2005-09-14:/articles/latency-bandwidth-and-speed-of-applications-part-i.html</id><summary type="html">&lt;div&gt;
+ &lt;p&gt;
+  It seems we’re back to discussing the importance of bandwidth and latency on perceived speed of application. In a way it’s amazing that after 10 years of widespread use of Internet and local networks, we developers still discuss these issues.
+ &lt;/p&gt;
+ &lt;p&gt;
+  So, what contributes to speed of execution in …&lt;/p&gt;&lt;/div&gt;</summary><content type="html">&lt;div&gt;
  &lt;p&gt;
   It seems we’re back to discussing the importance of bandwidth and latency on perceived speed of application. In a way it’s amazing that after 10 years of widespread use of Internet and local networks, we developers still discuss these issues.
  &lt;/p&gt;
@@ -123,4 +140,4 @@
    .
   &lt;/em&gt;
  &lt;/p&gt;
-&lt;/div&gt;</summary></entry></feed>
+&lt;/div&gt;</content></entry></feed>

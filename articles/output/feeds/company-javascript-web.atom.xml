@@ -1,5 +1,18 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>A notch above a monkey</title><link href="http://markos.gaivo.net/articles/" rel="alternate"></link><link href="/articles/feeds/company-javascript-web.atom.xml" rel="self"></link><id>http://markos.gaivo.net/articles/</id><updated>2006-08-28T21:08:00+02:00</updated><entry><title>Marela widget III</title><link href="http://markos.gaivo.net/articles/marela-widget-iii.html" rel="alternate"></link><updated>2006-08-28T21:08:00+02:00</updated><author><name>markos</name></author><id>tag:markos.gaivo.net,2006-08-28:articles/marela-widget-iii.html</id><summary type="html">&lt;div&gt;
+<feed xmlns="http://www.w3.org/2005/Atom"><title>A notch above a monkey - Company, Javascript, Web</title><link href="http://markos.gaivo.net/articles/" rel="alternate"></link><link href="/articles/feeds/company-javascript-web.atom.xml" rel="self"></link><id>http://markos.gaivo.net/articles/</id><updated>2006-08-28T21:08:00+02:00</updated><entry><title>Marela widget III</title><link href="http://markos.gaivo.net/articles/marela-widget-iii.html" rel="alternate"></link><published>2006-08-28T21:08:00+02:00</published><updated>2006-08-28T21:08:00+02:00</updated><author><name>markos</name></author><id>tag:markos.gaivo.net,2006-08-28:/articles/marela-widget-iii.html</id><summary type="html">&lt;div&gt;
+ &lt;p&gt;
+  Summer is closing to the end, so is my
+  &lt;a href="marela-widgets-i.html"&gt;
+   offer
+  &lt;/a&gt;
+  and I won’t be posting new widgets for a while. This last one, stemming from obviously borrowed idea, looks like this:
+ &lt;/p&gt;
+ &lt;p&gt;
+  &lt;script src="http://markos.gaivo.net/marela/random16.js?username=markos&amp;amp;tag=moja-izbira&amp;amp;time=3" type="text/javascript"&gt;
+  &lt;/script&gt;
+ &lt;/p&gt;
+ &lt;p&gt;
+  It’s still very small (less than 7K) and still works in all major browsers. It even works …&lt;/p&gt;&lt;/div&gt;</summary><content type="html">&lt;div&gt;
  &lt;p&gt;
   Summer is closing to the end, so is my
   &lt;a href="marela-widgets-i.html"&gt;
@@ -37,7 +50,21 @@
  &lt;p&gt;
   As always you’re free to copy the script or link to my page to use the latest version.
  &lt;/p&gt;
-&lt;/div&gt;</summary></entry><entry><title>Marela widgets II</title><link href="http://markos.gaivo.net/articles/marela-widgets-ii.html" rel="alternate"></link><updated>2006-08-10T12:31:00+02:00</updated><author><name>markos</name></author><id>tag:markos.gaivo.net,2006-08-10:articles/marela-widgets-ii.html</id><summary type="html">&lt;div&gt;
+&lt;/div&gt;</content></entry><entry><title>Marela widgets II</title><link href="http://markos.gaivo.net/articles/marela-widgets-ii.html" rel="alternate"></link><published>2006-08-10T12:31:00+02:00</published><updated>2006-08-10T12:31:00+02:00</updated><author><name>markos</name></author><id>tag:markos.gaivo.net,2006-08-10:/articles/marela-widgets-ii.html</id><summary type="html">&lt;div&gt;
+ &lt;p&gt;
+  Heat is gone, work isn’t, but I still found time to have fun while shamelessly copying other people ideas.
+ &lt;/p&gt;
+ &lt;p&gt;
+  The result:
+  &lt;br/&gt;
+  &lt;script src="http://markos.gaivo.net/marela/doublerandom.js?username=markos&amp;amp;tag=moja-izbira&amp;amp;time=3" type="text/javascript"&gt;
+  &lt;/script&gt;
+ &lt;/p&gt;
+ &lt;p&gt;
+  It’s a simple widget for displaying two randomly chosen pictures with a given tag out of up to a hundred.
+ &lt;/p&gt;
+ &lt;p&gt;
+  The widget was successfully tested in Internet …&lt;/p&gt;&lt;/div&gt;</summary><content type="html">&lt;div&gt;
  &lt;p&gt;
   Heat is gone, work isn’t, but I still found time to have fun while shamelessly copying other people ideas.
  &lt;/p&gt;
@@ -79,7 +106,12 @@
  &lt;p&gt;
   And if you’re reading this post on the front page, you’ve might have noticed that there are no problems in using both widgets on the same page.
  &lt;/p&gt;
-&lt;/div&gt;</summary></entry><entry><title>Marela widgets I</title><link href="http://markos.gaivo.net/articles/marela-widgets-i.html" rel="alternate"></link><updated>2006-08-03T21:49:00+02:00</updated><author><name>markos</name></author><id>tag:markos.gaivo.net,2006-08-03:articles/marela-widgets-i.html</id><summary type="html">&lt;div&gt;
+&lt;/div&gt;</content></entry><entry><title>Marela widgets I</title><link href="http://markos.gaivo.net/articles/marela-widgets-i.html" rel="alternate"></link><published>2006-08-03T21:49:00+02:00</published><updated>2006-08-03T21:49:00+02:00</updated><author><name>markos</name></author><id>tag:markos.gaivo.net,2006-08-03:/articles/marela-widgets-i.html</id><summary type="html">&lt;div&gt;
+ &lt;p&gt;
+  It’s the beginning of August, heat is temporarily gone and I wish it took work with it. But no, it’s still lying there and there’s enough of it that I have some problems deciding what to do first.
+ &lt;/p&gt;
+ &lt;p&gt;
+  So how do you solve a problem like that …&lt;/p&gt;&lt;/div&gt;</summary><content type="html">&lt;div&gt;
  &lt;p&gt;
   It’s the beginning of August, heat is temporarily gone and I wish it took work with it. But no, it’s still lying there and there’s enough of it that I have some problems deciding what to do first.
  &lt;/p&gt;
@@ -130,4 +162,4 @@
  &lt;p&gt;
   Also I’ll write Javascript for first 5 souls who need it as long as it’s a problem that won’t take too much of my time. This offer expires at the end of this month.
  &lt;/p&gt;
-&lt;/div&gt;</summary></entry></feed>
+&lt;/div&gt;</content></entry></feed>

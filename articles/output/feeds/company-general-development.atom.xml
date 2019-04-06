@@ -1,5 +1,18 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>A notch above a monkey</title><link href="http://markos.gaivo.net/articles/" rel="alternate"></link><link href="/articles/feeds/company-general-development.atom.xml" rel="self"></link><id>http://markos.gaivo.net/articles/</id><updated>2011-09-21T11:43:00+02:00</updated><entry><title>Salary and geography</title><link href="http://markos.gaivo.net/articles/salary.html" rel="alternate"></link><updated>2011-09-21T11:43:00+02:00</updated><author><name>markos</name></author><id>tag:markos.gaivo.net,2011-09-21:articles/salary.html</id><summary type="html">&lt;div&gt;
+<feed xmlns="http://www.w3.org/2005/Atom"><title>A notch above a monkey - Company, General development</title><link href="http://markos.gaivo.net/articles/" rel="alternate"></link><link href="/articles/feeds/company-general-development.atom.xml" rel="self"></link><id>http://markos.gaivo.net/articles/</id><updated>2011-09-21T11:43:00+02:00</updated><entry><title>Salary and geography</title><link href="http://markos.gaivo.net/articles/salary.html" rel="alternate"></link><published>2011-09-21T11:43:00+02:00</published><updated>2011-09-21T11:43:00+02:00</updated><author><name>markos</name></author><id>tag:markos.gaivo.net,2011-09-21:/articles/salary.html</id><summary type="html">&lt;div&gt;
+ &lt;p&gt;
+  I recently read
+  &lt;a href="http://blogs.balsamiq.com/team/2011/09/12/salary/" title="Link to article about salary"&gt;
+   a couple
+  &lt;/a&gt;
+  &lt;a href="http://blogs.balsamiq.com/team/2011/09/12/profitsharing/" title="Link to article about profit sharing"&gt;
+   of articles
+  &lt;/a&gt;
+  about employee compensation at
+  &lt;a class="zem_slink" href="http://www.balsamiq.com/" rel="homepage" title="Balsamiq"&gt;
+   Balsamiq
+  &lt;/a&gt;
+  . It is obvious that they really thought through this problem and came to what is an undoubtedly a generous package. It would be great to hear more about how they use OECD Consumer Price to calculate relative cost …&lt;/p&gt;&lt;/div&gt;</summary><content type="html">&lt;div&gt;
  &lt;p&gt;
   I recently read
   &lt;a href="http://blogs.balsamiq.com/team/2011/09/12/salary/" title="Link to article about salary"&gt;
@@ -34,10 +47,14 @@
  &lt;p&gt;
   A side note: have you noticed how every author describing their company practices says they are paying slightly above average? Either only people from above average companies write these kind of articles or some of them have to be delusional.
  &lt;/p&gt;
- &lt;div class="zemanta-pixie"&gt;
-  &lt;img alt="" class="zemanta-pixie-img" src="http://img.zemanta.com/pixy.gif?x-id=5d180352-0346-4276-be3b-2b4bf818c65a"/&gt;
- &lt;/div&gt;
-&lt;/div&gt;</summary><category term="Balsamiq, Employment, Compensation, Compensation &amp;amp"></category><category term="Benefits"></category></entry><entry><title>Intellectual property and society benefits</title><link href="http://markos.gaivo.net/articles/intellectual-property-and-society-benefits.html" rel="alternate"></link><updated>2005-11-20T21:17:00+01:00</updated><author><name>markos</name></author><id>tag:markos.gaivo.net,2005-11-20:articles/intellectual-property-and-society-benefits.html</id><summary type="html">&lt;div&gt;
+&lt;/div&gt;</content><category term="Balsamiq, Employment, Compensation, Compensation &amp;amp"></category><category term="Benefits"></category></entry><entry><title>Intellectual property and society benefits</title><link href="http://markos.gaivo.net/articles/intellectual-property-and-society-benefits.html" rel="alternate"></link><published>2005-11-20T21:17:00+01:00</published><updated>2005-11-20T21:17:00+01:00</updated><author><name>markos</name></author><id>tag:markos.gaivo.net,2005-11-20:/articles/intellectual-property-and-society-benefits.html</id><summary type="html">&lt;div&gt;
+ &lt;blockquote&gt;
+  &lt;p&gt;
+   “Considering the exclusive right to invention as given not of natural right, but for the benefit of society, I know well the difficulty of drawing a line between the things which are worth to the public the embarrassment of an exclusive patent, and those which are not.”
+  &lt;/p&gt;
+  &lt;p&gt;
+   &lt;a href="http://press-pubs.uchicago.edu/founders/documents/a1_8_8s12.html" title="A letter to Isaac McPherson"&gt;
+    Thomas Jefferson, 1813 …&lt;/a&gt;&lt;/p&gt;&lt;/blockquote&gt;&lt;/div&gt;</summary><content type="html">&lt;div&gt;
  &lt;blockquote&gt;
   &lt;p&gt;
    “Considering the exclusive right to invention as given not of natural right, but for the benefit of society, I know well the difficulty of drawing a line between the things which are worth to the public the embarrassment of an exclusive patent, and those which are not.”
@@ -94,4 +111,4 @@
  &lt;p&gt;
   Benefit of society, not personal or corporate gain is what this was supposed to be all about.
  &lt;/p&gt;
-&lt;/div&gt;</summary></entry></feed>
+&lt;/div&gt;</content></entry></feed>

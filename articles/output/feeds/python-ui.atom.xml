@@ -1,5 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>A notch above a monkey</title><link href="http://markos.gaivo.net/articles/" rel="alternate"></link><link href="/articles/feeds/python-ui.atom.xml" rel="self"></link><id>http://markos.gaivo.net/articles/</id><updated>2006-05-21T12:32:00+02:00</updated><entry><title>Missing tab icons on series 60 Python</title><link href="http://markos.gaivo.net/articles/missing-tab-icons-on-series-60-python.html" rel="alternate"></link><updated>2006-05-21T12:32:00+02:00</updated><author><name>markos</name></author><id>tag:markos.gaivo.net,2006-05-21:articles/missing-tab-icons-on-series-60-python.html</id><summary type="html">&lt;div&gt;
+<feed xmlns="http://www.w3.org/2005/Atom"><title>A notch above a monkey - Python, UI</title><link href="http://markos.gaivo.net/articles/" rel="alternate"></link><link href="/articles/feeds/python-ui.atom.xml" rel="self"></link><id>http://markos.gaivo.net/articles/</id><updated>2006-05-21T12:32:00+02:00</updated><entry><title>Missing tab icons on series 60 Python</title><link href="http://markos.gaivo.net/articles/missing-tab-icons-on-series-60-python.html" rel="alternate"></link><published>2006-05-21T12:32:00+02:00</published><updated>2006-05-21T12:32:00+02:00</updated><author><name>markos</name></author><id>tag:markos.gaivo.net,2006-05-21:/articles/missing-tab-icons-on-series-60-python.html</id><summary type="html">&lt;div&gt;
+ &lt;p&gt;
+  It’s nice to have friends, especially the generous kind who buy a new
+  &lt;a href="http://www.europe.nokia.com/n80"&gt;
+   Nokia N80
+  &lt;/a&gt;
+  and lend it to you even before they had a chance to use it themselves. I’m not sure if N80 is the best mobile in the world, but it is by far the …&lt;/p&gt;&lt;/div&gt;</summary><content type="html">&lt;div&gt;
  &lt;p&gt;
   It’s nice to have friends, especially the generous kind who buy a new
   &lt;a href="http://www.europe.nokia.com/n80"&gt;
@@ -27,4 +33,4 @@
   &lt;/a&gt;
   phone model on Nokia’s forums. My project has been hit with a setback, since I also discovered there’s no version of Python for N80 yet.
  &lt;/p&gt;
-&lt;/div&gt;</summary></entry></feed>
+&lt;/div&gt;</content></entry></feed>

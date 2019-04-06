@@ -1,5 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>A notch above a monkey</title><link href="http://markos.gaivo.net/articles/" rel="alternate"></link><link href="/articles/feeds/general-development-javascript.atom.xml" rel="self"></link><id>http://markos.gaivo.net/articles/</id><updated>2010-01-24T11:44:00+01:00</updated><entry><title>Dreaming about arithmetic mean</title><link href="http://markos.gaivo.net/articles/dreaming-about-arithmetic-mean.html" rel="alternate"></link><updated>2010-01-24T11:44:00+01:00</updated><author><name>markos</name></author><id>tag:markos.gaivo.net,2010-01-24:articles/dreaming-about-arithmetic-mean.html</id><summary type="html">&lt;div&gt;
+<feed xmlns="http://www.w3.org/2005/Atom"><title>A notch above a monkey - General development, Javascript</title><link href="http://markos.gaivo.net/articles/" rel="alternate"></link><link href="/articles/feeds/general-development-javascript.atom.xml" rel="self"></link><id>http://markos.gaivo.net/articles/</id><updated>2010-01-24T11:44:00+01:00</updated><entry><title>Dreaming about arithmetic mean</title><link href="http://markos.gaivo.net/articles/dreaming-about-arithmetic-mean.html" rel="alternate"></link><published>2010-01-24T11:44:00+01:00</published><updated>2010-01-24T11:44:00+01:00</updated><author><name>markos</name></author><id>tag:markos.gaivo.net,2010-01-24:/articles/dreaming-about-arithmetic-mean.html</id><summary type="html">&lt;div&gt;
+ &lt;p&gt;
+  I had a crazy dream, where I was back at University, but this time studying computer science. We were writing a function to calculate an
+  &lt;a class="zem_slink" href="http://en.wikipedia.org/wiki/Arithmetic_mean" rel="wikipedia" title="Arithmetic mean"&gt;
+   arithmetic mean
+  &lt;/a&gt;
+  of an array of numbers. A task obviously too simple for college course, but with dreams you get what you are given.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Discussion …&lt;/p&gt;&lt;/div&gt;</summary><content type="html">&lt;div&gt;
  &lt;p&gt;
   I had a crazy dream, where I was back at University, but this time studying computer science. We were writing a function to calculate an
   &lt;a class="zem_slink" href="http://en.wikipedia.org/wiki/Arithmetic_mean" rel="wikipedia" title="Arithmetic mean"&gt;
@@ -208,13 +217,4 @@
  &lt;p&gt;
   I guess what I am getting at is that it is nice to code in a high-level language and for the most part not think about implementation details like this, but only as long as you actually know them so your brain gets triggered when they matter. Speaking of details, I bet those divisions can cause rounding errors.
  &lt;/p&gt;
- &lt;div class="zemanta-pixie"&gt;
-  &lt;a class="zemanta-pixie-a" href="http://reblog.zemanta.com/zemified/7ab2d445-07ff-4ec6-bed9-f29a2797d7a3/" title="Reblog this post [with Zemanta]"&gt;
-   &lt;img alt="Reblog this post [with Zemanta]" class="zemanta-pixie-img" src="http://img.zemanta.com/reblog_e.png?x-id=7ab2d445-07ff-4ec6-bed9-f29a2797d7a3"/&gt;
-  &lt;/a&gt;
-  &lt;span class="zem-script paragraph-reblog"&gt;
-   &lt;script defer="defer" src="http://static.zemanta.com/readside/loader.js" type="text/javascript"&gt;
-   &lt;/script&gt;
-  &lt;/span&gt;
- &lt;/div&gt;
-&lt;/div&gt;</summary><category term="Arithmetic mean"></category><category term="algorithm"></category><category term="Javascript"></category><category term="Programming"></category><category term="Computer science"></category><category term="bug"></category></entry></feed>
+&lt;/div&gt;</content><category term="Arithmetic mean"></category><category term="algorithm"></category><category term="Javascript"></category><category term="Programming"></category><category term="Computer science"></category><category term="bug"></category></entry></feed>

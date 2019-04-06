@@ -1,5 +1,21 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>A notch above a monkey</title><link href="http://markos.gaivo.net/articles/" rel="alternate"></link><link href="/articles/feeds/catchall-javascript-web.atom.xml" rel="self"></link><id>http://markos.gaivo.net/articles/</id><updated>2006-01-05T16:46:00+01:00</updated><entry><title>@media 2006</title><link href="http://markos.gaivo.net/articles/media-2006.html" rel="alternate"></link><updated>2006-01-05T16:46:00+01:00</updated><author><name>markos</name></author><id>tag:markos.gaivo.net,2006-01-05:articles/media-2006.html</id><summary type="html">&lt;div&gt;
+<feed xmlns="http://www.w3.org/2005/Atom"><title>A notch above a monkey - Catchall, Javascript, Web</title><link href="http://markos.gaivo.net/articles/" rel="alternate"></link><link href="/articles/feeds/catchall-javascript-web.atom.xml" rel="self"></link><id>http://markos.gaivo.net/articles/</id><updated>2006-01-05T16:46:00+01:00</updated><entry><title>@media 2006</title><link href="http://markos.gaivo.net/articles/media-2006.html" rel="alternate"></link><published>2006-01-05T16:46:00+01:00</published><updated>2006-01-05T16:46:00+01:00</updated><author><name>markos</name></author><id>tag:markos.gaivo.net,2006-01-05:/articles/media-2006.html</id><summary type="html">&lt;div&gt;
+ &lt;p&gt;
+  &lt;a href="http://www.vivabit.com/atmedia2006/lastyear/"&gt;
+   @media 2005
+  &lt;/a&gt;
+  was fantastic and it look like
+  &lt;a href="http://www.vivabit.com/atmedia2006/"&gt;
+   @media 2006
+  &lt;/a&gt;
+  will be at least as good. If you’re a web developer and
+  &lt;a href="http://www.vivabit.com/atmedia2006/speakers/"&gt;
+   the list of speakers
+  &lt;/a&gt;
+  doesn’t get you excited, then you ought to find another vocation.
+ &lt;/p&gt;
+ &lt;p&gt;
+  On a different note this blog is on hiatus until mid-January …&lt;/p&gt;&lt;/div&gt;</summary><content type="html">&lt;div&gt;
  &lt;p&gt;
   &lt;a href="http://www.vivabit.com/atmedia2006/lastyear/"&gt;
    @media 2005
@@ -17,4 +33,4 @@
  &lt;p&gt;
   On a different note this blog is on hiatus until mid-January.
  &lt;/p&gt;
-&lt;/div&gt;</summary></entry></feed>
+&lt;/div&gt;</content></entry></feed>

@@ -27,7 +27,19 @@
 				<meta name="msapplication-wide310x150logo" content="/articles/theme/favicon/mstile-310x150.png" />
 				<meta name="msapplication-square310x310logo" content="/articles/theme/favicon/mstile-310x310.png" />
 
-        <link rel="stylesheet" type="text/css" href="theme/css/home.min.css" media="screen" />
+        <style>
+/*
+ * Icecream theme by Marko Samastur (markos@gaivo.net)
+ *
+ *
+ * Color palette:
+ * - dark blue: #30303c
+ * - light yellow: fbf8e9
+ * - link red: #980000
+ * - link orange: #ffb665
+ */
+*{box-sizing:border-box}html,body{padding:0;margin:0;height:100%}body{position:relative;font-family:"Helvetica Neue",Helvetica,Arial,sans-serif;font-weight:300;font-size:18px;line-height:1.333333}section,article,aside,header,footer{display:block}h1,h2,h3,h4,h5,h6{margin:1.5em 0;font-size:1.777777em;font-weight:200;line-height:1.5}a:visited,a{text-decoration:none}a:hover{text-decoration:underline}a img{border:0;margin-top:6px}img{max-width:100%}.envelope{position:relative;max-width:60em;width:calc(100% - 2em);margin:2em auto 0;padding:0 0 8em}body > footer{position:fixed;bottom:0;width:100%;height:6em;margin:0;padding:.5em 1em 0;font-size:.8em;text-align:center}body > footer ul{list-style-type:none;margin:0;padding:0}body > footer li{margin:.25em 0}@media (min-device-width:600px){body > footer{height:3em;text-align:left}body > footer ul{display:inline-block}body > footer li{display:inline-block;margin:.5em 2em 0 0}body > footer .mini-logo{float:right}}.about h1{margin:0}.about h2{margin-bottom:0}.about p{margin:1.333333em 0}aside{margin-bottom:2.666666em}aside .photo{max-width:100%;max-height:11.2em;margin:0 1em 8px 0;padding:3px}aside ul{list-style-type:none;margin:0 0 1.333333em;padding:0;overflow:hidden}aside .vcard li{float:none;margin:0}aside li{float:left;margin:.25em 8px 0 0.1em}aside p{margin:0}aside a.email{padding-left:20px;background:url(../img/email-16x16.png) no-repeat 0 0}aside a.website{padding-left:20px;background:url(../img/website-16x16.png) no-repeat 0 0}.elsewhere-links{padding:0 0 0 .5em;list-style-type:inherit}.elsewhere-links > li{float:none;list-style-type:'- '}@media (min-device-width:600px){aside{float:right;width:30%}.about{width:62%;max-width:60em}}body > header h1{font-size:1em;margin:0;padding:.666666em 1em;line-height:1}.post-text h2,.post-text h3{margin:1em 0;font-size:1.333333em;line-height:1}.post .entry-title{margin:1.3333333em 0 0}.post p{margin:1.333333em 0}.post .post-info ul{margin:0 0 2.666666em;padding-left:0}.post .post-info li{list-style-type:none}.post > footer li{font-variant:small-caps}@media (min-device-width:600px){.post .post-info{float:right;width:30%;margin-top:o}.post .post-info ul{margin-bottom:0}.post .post-text,.post #isso-thread{width:62%;max-width:60em}.post p:first-child{margin-top:0}}.posts h1{margin-bottom:0}.colophon h1{margin-top:0;font-size:1em;font-weight:300;line-height:1.333333;font-variant:small-caps}.colophon ul{list-style-type:none;margin:1.333333em 0;padding:0}.posts .entry-title{margin:2.666666em 0 0;font-size:1.333333em;line-height:1}.posts p{margin:1.333333em 0}.post-metadata ul{margin:1.333333em 0;padding-left:0;opacity:.8}.post-metadata li{list-style-type:none;display:inline-block;font-style:italic}.post-metadata li:first-child:after{content:" |"}.posts .paginator{margin-top:2.666666em;padding-left:0;text-align:center}.paginator li{list-style-type:none;display:inline-block;margin:0 .5em}@media (min-device-width:600px){.colophon{float:right;width:30%;margin-top:0}.hentry{width:62%;max-width:60em}nav + .hentry .entry-title{margin-top:0}}.error{text-align:left}.error img{max-width:100%;padding:3px}.imageR img{float:right;margin:.7em 0 .7em 1.5em;padding:3px}.imageL img{float:left;margin:.7em 1.5em .7em 0;padding:3px}.zemanta-related-title{font-size:1em;margin:2.8em 0 0}.zemanta-img .wp-caption{margin:0 0 0 1.5em}.zemanta-img img{padding:3px}.zemanta-pixie{display:none}.alignleft{float:left}.alignright{float:right}.aligncenter{text-align:center;max-width:100%}.alignleft img,img.alignleft,.alignright img,img.alignright,.aligncenter img,img.aligncenter{padding:3px}ol.code{font:normal 95%/110% Andale Mono,Courier,monospace;padding:5px;text-align:left}ol.code code{font:normal 98%/110% Andale Mono,Courier,monospace}.code li.tab1{padding-left:1em}.code li.tab2{padding-left:2em}.code li.tab3{padding-left:3em}.code li.tab4{padding-left:4em}.code li.tab5{padding-left:5em}.code li.tab6{padding-left:6em}.code li.download,.code li:nth-last-child(2){list-style-type:none}.highlight pre{overflow:auto}				</style>
+
 				<style type="text/css" title="Light theme">
 body {background-color: #fbf8e9;color: #30303c;}
 body > footer a, body > footer a:visited {color: #ffb665;}
@@ -128,11 +140,6 @@ body > footer .mini-logo {display: inline-block;width:97px;height:32px;border:0;
  <p>
   I’m sure this is not the only scenario in which App Engine makes sense and there are others I haven’t named or thought of. Issues, like accounts, can with some effort be solved now. But App Engine also isn’t (yet) what some of us were hoping for and it’s prudent to really think through what you want, what you need and what App Engine actually offers.
  </p>
- <div class="zemanta-pixie">
-  <a class="zemanta-pixie-a" href="http://reblog.zemanta.com/zemified/28ddae75-72ba-4a45-892e-7841f893395b/" title="Zemified by Zemanta">
-   <img alt="Reblog this post [with Zemanta]" class="zemanta-pixie-img" src="http://img.zemanta.com/reblog_e.png?x-id=28ddae75-72ba-4a45-892e-7841f893395b" style="border: medium none; float: right;"/>
-  </a>
- </div>
 </div>
             </div><!-- /.entry-content -->
 
@@ -193,11 +200,6 @@ class Unauthorized(Exception):
  <p>
   But is it pythonic enough? If not, what would be, apart from traditional way described in first step?
  </p>
- <div class="zemanta-pixie" style="margin-top: 10px; height: 15px;">
-  <a class="zemanta-pixie-a" href="http://reblog.zemanta.com/zemified/67741c44-cb65-4003-8f66-f8ceb221a025/" title="Zemified by Zemanta">
-   <img alt="Zemanta Pixie" class="zemanta-pixie-img" src="http://img.zemanta.com/reblog_e.png?x-id=67741c44-cb65-4003-8f66-f8ceb221a025" style="border: medium none; float: right;"/>
-  </a>
- </div>
 </div>
             </div><!-- /.entry-content -->
 
@@ -247,11 +249,6 @@ class Unauthorized(Exception):
   </strong>
   : License is gone, sent to a new owner.
  </p>
- <div class="zemanta-pixie" style="margin-top: 10px; height: 15px;">
-  <a class="zemanta-pixie-a" href="http://reblog.zemanta.com/zemified/a6262891-3f96-4b97-8bf6-949cb83cba0e/" title="Zemified by Zemanta">
-   <img alt="Zemanta Pixie" class="zemanta-pixie-img" src="http://img.zemanta.com/reblog_e.png?x-id=a6262891-3f96-4b97-8bf6-949cb83cba0e" style="border: medium none; float: right;"/>
-  </a>
- </div>
 </div>
             </div><!-- /.entry-content -->
 

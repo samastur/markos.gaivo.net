@@ -1,5 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>A notch above a monkey</title><link href="http://markos.gaivo.net/articles/" rel="alternate"></link><link href="/articles/feeds/catchall-general-development-linux-python-web.atom.xml" rel="self"></link><id>http://markos.gaivo.net/articles/</id><updated>2010-02-05T10:36:00+01:00</updated><entry><title>A month with Nokia N900</title><link href="http://markos.gaivo.net/articles/a-month-with-nokia-n900.html" rel="alternate"></link><updated>2010-02-05T10:36:00+01:00</updated><author><name>markos</name></author><id>tag:markos.gaivo.net,2010-02-05:articles/a-month-with-nokia-n900.html</id><summary type="html">&lt;div&gt;
+<feed xmlns="http://www.w3.org/2005/Atom"><title>A notch above a monkey - Catchall, General development, Linux, Python, Web</title><link href="http://markos.gaivo.net/articles/" rel="alternate"></link><link href="/articles/feeds/catchall-general-development-linux-python-web.atom.xml" rel="self"></link><id>http://markos.gaivo.net/articles/</id><updated>2010-02-05T10:36:00+01:00</updated><entry><title>A month with Nokia N900</title><link href="http://markos.gaivo.net/articles/a-month-with-nokia-n900.html" rel="alternate"></link><published>2010-02-05T10:36:00+01:00</published><updated>2010-02-05T10:36:00+01:00</updated><author><name>markos</name></author><id>tag:markos.gaivo.net,2010-02-05:/articles/a-month-with-nokia-n900.html</id><summary type="html">&lt;div&gt;
+ &lt;p&gt;
+  Title says it. A month is enough time to get a better understanding of the device and to get asked repeatedly about my impressions. Many have wrote theirs, so I doubt I will be telling anything really new. Before I go on, a short disclaimer, since my writings on this …&lt;/p&gt;&lt;/div&gt;</summary><content type="html">&lt;div&gt;
  &lt;p&gt;
   Title says it. A month is enough time to get a better understanding of the device and to get asked repeatedly about my impressions. Many have wrote theirs, so I doubt I will be telling anything really new. Before I go on, a short disclaimer, since my writings on this blog stay around longer than might be sensible.
  &lt;/p&gt;
@@ -75,13 +77,4 @@
  &lt;p&gt;
   If there is anything about it you would like to know, then please ask and I’ll try to respond to it promptly.
  &lt;/p&gt;
- &lt;div class="zemanta-pixie"&gt;
-  &lt;a class="zemanta-pixie-a" href="http://reblog.zemanta.com/zemified/975ad83f-5fe4-4116-9522-d28c345d36b9/" title="Reblog this post [with Zemanta]"&gt;
-   &lt;img alt="Reblog this post [with Zemanta]" class="zemanta-pixie-img" src="http://img.zemanta.com/reblog_e.png?x-id=975ad83f-5fe4-4116-9522-d28c345d36b9"/&gt;
-  &lt;/a&gt;
-  &lt;span class="zem-script paragraph-reblog"&gt;
-   &lt;script src="http://static.zemanta.com/readside/loader.js" type="text/javascript"&gt;
-   &lt;/script&gt;
-  &lt;/span&gt;
- &lt;/div&gt;
-&lt;/div&gt;</summary><category term="IPod Touch"></category><category term="Nokia N900"></category><category term="Nokia"></category><category term="GSM"></category><category term="Linux"></category></entry></feed>
+&lt;/div&gt;</content><category term="IPod Touch"></category><category term="Nokia N900"></category><category term="Nokia"></category><category term="GSM"></category><category term="Linux"></category></entry></feed>

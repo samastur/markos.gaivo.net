@@ -1,5 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>A notch above a monkey</title><link href="http://markos.gaivo.net/articles/" rel="alternate"></link><link href="/articles/feeds/javascript-python.atom.xml" rel="self"></link><id>http://markos.gaivo.net/articles/</id><updated>2006-08-18T22:11:00+02:00</updated><entry><title>Javascript 1.7</title><link href="http://markos.gaivo.net/articles/javascript-17.html" rel="alternate"></link><updated>2006-08-18T22:11:00+02:00</updated><author><name>markos</name></author><id>tag:markos.gaivo.net,2006-08-18:articles/javascript-17.html</id><summary type="html">&lt;div&gt;
+<feed xmlns="http://www.w3.org/2005/Atom"><title>A notch above a monkey - Javascript, Python</title><link href="http://markos.gaivo.net/articles/" rel="alternate"></link><link href="/articles/feeds/javascript-python.atom.xml" rel="self"></link><id>http://markos.gaivo.net/articles/</id><updated>2006-08-18T22:11:00+02:00</updated><entry><title>Javascript 1.7</title><link href="http://markos.gaivo.net/articles/javascript-17.html" rel="alternate"></link><published>2006-08-18T22:11:00+02:00</published><updated>2006-08-18T22:11:00+02:00</updated><author><name>markos</name></author><id>tag:markos.gaivo.net,2006-08-18:/articles/javascript-17.html</id><summary type="html">&lt;div&gt;
+ &lt;p&gt;
+  I fairly often talk to developers with disdain for Javascript. I don’t blame them, since I used to share it. There are various reasons for it, some more valid than others, but one that almost never comes up is the very thing that bothers me most.
+ &lt;/p&gt;
+ &lt;p&gt;
+  I was reading …&lt;/p&gt;&lt;/div&gt;</summary><content type="html">&lt;div&gt;
  &lt;p&gt;
   I fairly often talk to developers with disdain for Javascript. I don’t blame them, since I used to share it. There are various reasons for it, some more valid than others, but one that almost never comes up is the very thing that bothers me most.
  &lt;/p&gt;
@@ -16,4 +21,4 @@
  &lt;p&gt;
   Who wants to wait that long?
  &lt;/p&gt;
-&lt;/div&gt;</summary></entry></feed>
+&lt;/div&gt;</content></entry></feed>

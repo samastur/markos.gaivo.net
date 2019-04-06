@@ -1,5 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>A notch above a monkey</title><link href="http://markos.gaivo.net/articles/" rel="alternate"></link><link href="/articles/feeds/general-development-ui.atom.xml" rel="self"></link><id>http://markos.gaivo.net/articles/</id><updated>2006-06-05T12:45:00+02:00</updated><entry><title>Plivadon's accessibility</title><link href="http://markos.gaivo.net/articles/plivadons-accessibility.html" rel="alternate"></link><updated>2006-06-05T12:45:00+02:00</updated><author><name>markos</name></author><id>tag:markos.gaivo.net,2006-06-05:articles/plivadons-accessibility.html</id><summary type="html">&lt;div&gt;
+<feed xmlns="http://www.w3.org/2005/Atom"><title>A notch above a monkey - General development, UI</title><link href="http://markos.gaivo.net/articles/" rel="alternate"></link><link href="/articles/feeds/general-development-ui.atom.xml" rel="self"></link><id>http://markos.gaivo.net/articles/</id><updated>2006-06-05T12:45:00+02:00</updated><entry><title>Plivadon's accessibility</title><link href="http://markos.gaivo.net/articles/plivadons-accessibility.html" rel="alternate"></link><published>2006-06-05T12:45:00+02:00</published><updated>2006-06-05T12:45:00+02:00</updated><author><name>markos</name></author><id>tag:markos.gaivo.net,2006-06-05:/articles/plivadons-accessibility.html</id><summary type="html">&lt;div&gt;
+ &lt;p&gt;
+  I really dislike headaches and although I don’t get them as often as I used to, they are usually not as easy to shake of. That’s why we have several different pills in our home to battle this nuisance. I recently noticed that one of them, Plivadon, has …&lt;/p&gt;&lt;/div&gt;</summary><content type="html">&lt;div&gt;
  &lt;p&gt;
   I really dislike headaches and although I don’t get them as often as I used to, they are usually not as easy to shake of. That’s why we have several different pills in our home to battle this nuisance. I recently noticed that one of them, Plivadon, has its name stamped in Braille on the box (click for a bigger picture):
  &lt;/p&gt;
@@ -48,7 +50,16 @@
    &lt;/li&gt;
   &lt;/ol&gt;
  &lt;/div&gt;
-&lt;/div&gt;</summary></entry><entry><title>Invisible help</title><link href="http://markos.gaivo.net/articles/invisible-help.html" rel="alternate"></link><updated>2005-12-04T15:22:00+01:00</updated><author><name>markos</name></author><id>tag:markos.gaivo.net,2005-12-04:articles/invisible-help.html</id><summary type="html">&lt;div&gt;
+&lt;/div&gt;</content></entry><entry><title>Invisible help</title><link href="http://markos.gaivo.net/articles/invisible-help.html" rel="alternate"></link><published>2005-12-04T15:22:00+01:00</published><updated>2005-12-04T15:22:00+01:00</updated><author><name>markos</name></author><id>tag:markos.gaivo.net,2005-12-04:/articles/invisible-help.html</id><summary type="html">&lt;div&gt;
+ &lt;p&gt;
+  Jensen Harris posted an interesting
+  &lt;a href="http://blogs.msdn.com/jensenh/archive/2005/11/29/497861.aspx"&gt;
+   observation
+  &lt;/a&gt;
+  few days ago regarding “help” in programs. Microsoft’s usability tests showed that help is mainly used by experts and enthusiasts.
+ &lt;/p&gt;
+ &lt;p&gt;
+  I don’t have data to back or refute his observations, but I did check our logs to see how often is our …&lt;/p&gt;&lt;/div&gt;</summary><content type="html">&lt;div&gt;
  &lt;p&gt;
   Jensen Harris posted an interesting
   &lt;a href="http://blogs.msdn.com/jensenh/archive/2005/11/29/497861.aspx"&gt;
@@ -152,4 +163,4 @@
    &lt;/a&gt;
   &lt;/li&gt;
  &lt;/ol&gt;
-&lt;/div&gt;</summary></entry></feed>
+&lt;/div&gt;</content></entry></feed>

@@ -1,5 +1,20 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>A notch above a monkey</title><link href="http://markos.gaivo.net/articles/" rel="alternate"></link><link href="/articles/feeds/general-development-web.atom.xml" rel="self"></link><id>http://markos.gaivo.net/articles/</id><updated>2012-03-15T08:52:00+01:00</updated><entry><title>Save bandwidth switch</title><link href="http://markos.gaivo.net/articles/save-bandwidth-switch.html" rel="alternate"></link><updated>2012-03-15T08:52:00+01:00</updated><author><name>markos</name></author><id>tag:markos.gaivo.net,2012-03-15:articles/save-bandwidth-switch.html</id><summary type="html">&lt;div&gt;
+<feed xmlns="http://www.w3.org/2005/Atom"><title>A notch above a monkey - General development, Web</title><link href="http://markos.gaivo.net/articles/" rel="alternate"></link><link href="/articles/feeds/general-development-web.atom.xml" rel="self"></link><id>http://markos.gaivo.net/articles/</id><updated>2012-03-15T08:52:00+01:00</updated><entry><title>Save bandwidth switch</title><link href="http://markos.gaivo.net/articles/save-bandwidth-switch.html" rel="alternate"></link><published>2012-03-15T08:52:00+01:00</published><updated>2012-03-15T08:52:00+01:00</updated><author><name>markos</name></author><id>tag:markos.gaivo.net,2012-03-15:/articles/save-bandwidth-switch.html</id><summary type="html">&lt;div&gt;
+ &lt;p&gt;
+  Michal Migurski recently posted
+  &lt;a href="http://mike.teczno.com/notes/bandwidth.html"&gt;
+   an article
+  &lt;/a&gt;
+  about download sizes of popular websites. I couldn’t replicate his results
+  &lt;sup&gt;
+   &lt;a href="#save-bandwidth-note-1" id="save-bandwidth-1"&gt;
+    [1]
+   &lt;/a&gt;
+  &lt;/sup&gt;
+  , but it is obvious that gist of Michal’s article is correct, websites have indeed ballooned significantly in last few years.
+ &lt;/p&gt;
+ &lt;p&gt;
+  This blog’s homepage has a footprint of around 250KB-270KB …&lt;/p&gt;&lt;/div&gt;</summary><content type="html">&lt;div&gt;
  &lt;p&gt;
   Michal Migurski recently posted
   &lt;a href="http://mike.teczno.com/notes/bandwidth.html"&gt;
@@ -80,7 +95,26 @@
    &lt;/a&gt;
   &lt;/li&gt;
  &lt;/ol&gt;
-&lt;/div&gt;</summary></entry><entry><title>-beta- prefix algorithm for CSS</title><link href="http://markos.gaivo.net/articles/beta-prefix-algorithm-for-css.html" rel="alternate"></link><updated>2012-02-10T18:21:00+01:00</updated><author><name>markos</name></author><id>tag:markos.gaivo.net,2012-02-10:articles/beta-prefix-algorithm-for-css.html</id><summary type="html">&lt;div&gt;
+&lt;/div&gt;</content></entry><entry><title>-beta- prefix algorithm for CSS</title><link href="http://markos.gaivo.net/articles/beta-prefix-algorithm-for-css.html" rel="alternate"></link><published>2012-02-10T18:21:00+01:00</published><updated>2012-02-10T18:21:00+01:00</updated><author><name>markos</name></author><id>tag:markos.gaivo.net,2012-02-10:/articles/beta-prefix-algorithm-for-css.html</id><summary type="html">&lt;div&gt;
+ &lt;p&gt;
+  These have been eventful couple of days for web developers. CSS Working Group chair
+  &lt;a href="http://www.glazman.org/weblog/dotclear/index.php?post/2012/02/09/CALL-FOR-ACTION%3A-THE-OPEN-WEB-NEEDS-YOU-NOW"&gt;
+   called on everyone
+  &lt;/a&gt;
+  to use all (most?) vendor prefixes and stop making websites for WebKit which is becoming a new (mobile) IE6. Responses have been numerous,
+  &lt;a href="http://www.quirksmode.org/blog/archives/2012/02/the_vendor_pref.html" title="PPK's first article about prefixes"&gt;
+   including
+  &lt;/a&gt;
+  &lt;a href="http://www.quirksmode.org/blog/archives/2012/02/alpha_and_beta.html" title="PPK's follow up to first article"&gt;
+   ppk
+  &lt;/a&gt;
+  who in his usual obnoxious manner
+  &lt;sup&gt;
+   &lt;a href="#beta-prefix-note-1" id="beta-prefix-1"&gt;
+    [1]
+   &lt;/a&gt;
+  &lt;/sup&gt;
+  made …&lt;/p&gt;&lt;/div&gt;</summary><content type="html">&lt;div&gt;
  &lt;p&gt;
   These have been eventful couple of days for web developers. CSS Working Group chair
   &lt;a href="http://www.glazman.org/weblog/dotclear/index.php?post/2012/02/09/CALL-FOR-ACTION%3A-THE-OPEN-WEB-NEEDS-YOU-NOW"&gt;
@@ -129,7 +163,9 @@
    Almost everything I write on this blog has an intended  audience of one:  me (no, really!). Why I sometimes write posts like  this, which don’t, is a mistery  since their expected and actual effect on anyone  is…none.
   &lt;/li&gt;
  &lt;/ol&gt;
-&lt;/div&gt;</summary><category term="mobile"></category><category term="agony"></category><category term="prefix"></category><category term="webkit"></category><category term="css"></category></entry><entry><title>Cookies, localStorage and shared state</title><link href="http://markos.gaivo.net/articles/cookies-localstorage-and-shared-state.html" rel="alternate"></link><updated>2011-12-19T17:05:00+01:00</updated><author><name>markos</name></author><id>tag:markos.gaivo.net,2011-12-19:articles/cookies-localstorage-and-shared-state.html</id><summary type="html">&lt;div&gt;
+&lt;/div&gt;</content><category term="mobile"></category><category term="agony"></category><category term="prefix"></category><category term="webkit"></category><category term="css"></category></entry><entry><title>Cookies, localStorage and shared state</title><link href="http://markos.gaivo.net/articles/cookies-localstorage-and-shared-state.html" rel="alternate"></link><published>2011-12-19T17:05:00+01:00</published><updated>2011-12-19T17:05:00+01:00</updated><author><name>markos</name></author><id>tag:markos.gaivo.net,2011-12-19:/articles/cookies-localstorage-and-shared-state.html</id><summary type="html">&lt;div&gt;
+ &lt;p&gt;
+  I’ve been fiddling with my website again, changing theme switching from somewhat dumb class based system to a more proper one using alternate style sheets. I learned that picking a style sheet in browser applies those changes only to currently open page, so for style sheet selection to persevere …&lt;/p&gt;&lt;/div&gt;</summary><content type="html">&lt;div&gt;
  &lt;p&gt;
   I’ve been fiddling with my website again, changing theme switching from somewhat dumb class based system to a more proper one using alternate style sheets. I learned that picking a style sheet in browser applies those changes only to currently open page, so for style sheet selection to persevere it needs a bit of Javascript support from website owner. Personally I find this just stupid.
  &lt;/p&gt;
@@ -150,7 +186,13 @@
  &lt;p&gt;
   None of this is exactly new, but I think it is worth remembering. In other news I dislike interface limitations of Chrome more and more (exceptions are Developer Tools and extensions framework).
  &lt;/p&gt;
-&lt;/div&gt;</summary><category term="cookies"></category><category term="Firefox"></category><category term="chrome"></category><category term="shared state"></category><category term="stylesheet"></category><category term="localstorage"></category><category term="html5"></category><category term="http"></category><category term="css"></category><category term="browser"></category></entry><entry><title>Reading sources</title><link href="http://markos.gaivo.net/articles/reading-sources.html" rel="alternate"></link><updated>2011-11-21T11:37:00+01:00</updated><author><name>markos</name></author><id>tag:markos.gaivo.net,2011-11-21:articles/reading-sources.html</id><summary type="html">&lt;div&gt;
+&lt;/div&gt;</content><category term="cookies"></category><category term="Firefox"></category><category term="chrome"></category><category term="shared state"></category><category term="stylesheet"></category><category term="localstorage"></category><category term="html5"></category><category term="http"></category><category term="css"></category><category term="browser"></category></entry><entry><title>Reading sources</title><link href="http://markos.gaivo.net/articles/reading-sources.html" rel="alternate"></link><published>2011-11-21T11:37:00+01:00</published><updated>2011-11-21T11:37:00+01:00</updated><author><name>markos</name></author><id>tag:markos.gaivo.net,2011-11-21:/articles/reading-sources.html</id><summary type="html">&lt;div&gt;
+ &lt;p&gt;
+  Google Reader was redesigned lately and I’ve been annoyed ever since. I had a dubious privilege of cutting and changing product features people loved in pursuit of
+  &lt;del&gt;
+   higher
+  &lt;/del&gt;
+  different goals, so I try to be understanding when others do the same. I mostly found clumsy workarounds for removed features …&lt;/p&gt;&lt;/div&gt;</summary><content type="html">&lt;div&gt;
  &lt;p&gt;
   Google Reader was redesigned lately and I’ve been annoyed ever since. I had a dubious privilege of cutting and changing product features people loved in pursuit of
   &lt;del&gt;
@@ -236,7 +278,19 @@
    &lt;/a&gt;
   &lt;/li&gt;
  &lt;/ol&gt;
-&lt;/div&gt;</summary><category term="information"></category><category term="sources"></category><category term="knowledge"></category><category term="social news"></category><category term="google reader"></category></entry><entry><title>Missing refer(r)ers</title><link href="http://markos.gaivo.net/articles/missing-referrers.html" rel="alternate"></link><updated>2011-09-20T18:29:00+02:00</updated><author><name>markos</name></author><id>tag:markos.gaivo.net,2011-09-20:articles/missing-referrers.html</id><summary type="html">&lt;div&gt;
+&lt;/div&gt;</content><category term="information"></category><category term="sources"></category><category term="knowledge"></category><category term="social news"></category><category term="google reader"></category></entry><entry><title>Missing refer(r)ers</title><link href="http://markos.gaivo.net/articles/missing-referrers.html" rel="alternate"></link><published>2011-09-20T18:29:00+02:00</published><updated>2011-09-20T18:29:00+02:00</updated><author><name>markos</name></author><id>tag:markos.gaivo.net,2011-09-20:/articles/missing-referrers.html</id><summary type="html">&lt;div&gt;
+ &lt;p&gt;
+  I was talking to my wife today about why an “Unknown Source” is becoming the most common source of visits on
+  &lt;a class="zem_slink" href="http://flickr.com" rel="homepage" title="Flickr"&gt;
+   Flickr
+  &lt;/a&gt;
+  . My guess is that it is almost certainly because a
+  &lt;a class="zem_slink" href="http://en.wikipedia.org/wiki/HTTP_referrer" rel="wikipedia" title="HTTP referrer"&gt;
+   &lt;em&gt;
+    Referer
+   &lt;/em&gt;
+  &lt;/a&gt;
+  header field is missing in page requests and Flickr is only relying on presence of this piece …&lt;/p&gt;&lt;/div&gt;</summary><content type="html">&lt;div&gt;
  &lt;p&gt;
   I was talking to my wife today about why an “Unknown Source” is becoming the most common source of visits on
   &lt;a class="zem_slink" href="http://flickr.com" rel="homepage" title="Flickr"&gt;
@@ -305,10 +359,13 @@
   &lt;/a&gt;
   .
  &lt;/p&gt;
- &lt;div class="zemanta-pixie"&gt;
-  &lt;img alt="" class="zemanta-pixie-img" src="http://img.zemanta.com/pixy.gif?x-id=860d2c48-a1dc-49c5-85d1-277e4734d096"/&gt;
- &lt;/div&gt;
-&lt;/div&gt;</summary><category term="Flickr"></category><category term="HTTP referrer"></category><category term="Uniform Resource Identifier"></category><category term="Hypertext Transfer Protocol"></category></entry><entry><title></title><link href="http://markos.gaivo.net/articles/address.html" rel="alternate"></link><updated>2011-08-26T17:26:00+02:00</updated><author><name>markos</name></author><id>tag:markos.gaivo.net,2011-08-26:articles/address.html</id><summary type="html">&lt;div&gt;
+&lt;/div&gt;</content><category term="Flickr"></category><category term="HTTP referrer"></category><category term="Uniform Resource Identifier"></category><category term="Hypertext Transfer Protocol"></category></entry><entry><title></title><link href="http://markos.gaivo.net/articles/address.html" rel="alternate"></link><published>2011-08-26T17:26:00+02:00</published><updated>2011-08-26T17:26:00+02:00</updated><author><name>markos</name></author><id>tag:markos.gaivo.net,2011-08-26:/articles/address.html</id><summary type="html">&lt;div&gt;
+ &lt;p&gt;
+  After years of personal embarrassment I finally managed to update look and code of my website. This actually happened last week and I wanted to write this post sooner, but
+  &lt;a href="http://supervizor.kpk-rs.si" title="Supervizor"&gt;
+   other things
+  &lt;/a&gt;
+  came in-between. There are still bugs I need to fix (iPad footer is better than it was, but …&lt;/p&gt;&lt;/div&gt;</summary><content type="html">&lt;div&gt;
  &lt;p&gt;
   After years of personal embarrassment I finally managed to update look and code of my website. This actually happened last week and I wanted to write this post sooner, but
   &lt;a href="http://supervizor.kpk-rs.si" title="Supervizor"&gt;
@@ -382,10 +439,20 @@
   &lt;/a&gt;
   ), because I am after all the sole author of this website.
  &lt;/p&gt;
- &lt;div class="zemanta-pixie"&gt;
-  &lt;img alt="" class="zemanta-pixie-img" src="http://img.zemanta.com/pixy.gif?x-id=9e03fdb6-c5dc-4878-b734-7bec34cd9ced"/&gt;
- &lt;/div&gt;
-&lt;/div&gt;</summary><category term="HTML"></category><category term="Data Formats"></category><category term="Markup Languages"></category><category term="Ian Hickson"></category><category term="HTML element"></category></entry><entry><title>Gamification of book reading</title><link href="http://markos.gaivo.net/articles/gamification-of-book-reading.html" rel="alternate"></link><updated>2011-05-11T17:15:00+02:00</updated><author><name>markos</name></author><id>tag:markos.gaivo.net,2011-05-11:articles/gamification-of-book-reading.html</id><summary type="html">&lt;div&gt;
+&lt;/div&gt;</content><category term="HTML"></category><category term="Data Formats"></category><category term="Markup Languages"></category><category term="Ian Hickson"></category><category term="HTML element"></category></entry><entry><title>Gamification of book reading</title><link href="http://markos.gaivo.net/articles/gamification-of-book-reading.html" rel="alternate"></link><published>2011-05-11T17:15:00+02:00</published><updated>2011-05-11T17:15:00+02:00</updated><author><name>markos</name></author><id>tag:markos.gaivo.net,2011-05-11:/articles/gamification-of-book-reading.html</id><summary type="html">&lt;div&gt;
+ &lt;p&gt;
+  I’ve been following subjects of
+  &lt;a class="zem_slink" href="http://en.wikipedia.org/wiki/Gamification" rel="wikipedia" title="Gamification"&gt;
+   gamification
+  &lt;/a&gt;
+  and
+  &lt;a class="zem_slink" href="http://en.wikipedia.org/wiki/Game_mechanics" rel="wikipedia" title="Game mechanics"&gt;
+   game mechanics
+  &lt;/a&gt;
+  for a couple of years now, but I’ve only recently spotted how they apply to me. I conceitedly thought that they have little influence on me, but reality is as always more nuanced.
+ &lt;/p&gt;
+ &lt;p&gt;
+  I still seem to be unmoved …&lt;/p&gt;&lt;/div&gt;</summary><content type="html">&lt;div&gt;
  &lt;p&gt;
   I’ve been following subjects of
   &lt;a class="zem_slink" href="http://en.wikipedia.org/wiki/Gamification" rel="wikipedia" title="Gamification"&gt;
@@ -449,12 +516,15 @@
  &lt;p&gt;
   For a while now I’ve been annoyed by how every gamification talk has about 20 minutes of gushing of its virtues and about 20 seconds on possible ethics problems, but my experience has reminded me of the deeper problem, which is that it is simply much easier to inflict damage to your users and your product (brand) than getting it right.
  &lt;/p&gt;
- &lt;div class="zemanta-pixie"&gt;
-  &lt;a class="zemanta-pixie-a" href="http://www.zemanta.com/" title="Enhanced by Zemanta"&gt;
-   &lt;img alt="Enhanced by Zemanta" class="zemanta-pixie-img" src="http://img.zemanta.com/zemified_e.png?x-id=20efb278-1d20-46ec-aeec-c311b50837c7"/&gt;
-  &lt;/a&gt;
- &lt;/div&gt;
-&lt;/div&gt;</summary><category term="Gamification"></category><category term="Books"></category><category term="Reading"></category><category term="Kathy Sierra"></category><category term="gamemechanics"></category></entry><entry><title>Facebook, web, mobile and me</title><link href="http://markos.gaivo.net/articles/facebook-web-mobile-and-me.html" rel="alternate"></link><updated>2009-12-20T16:35:00+01:00</updated><author><name>markos</name></author><id>tag:markos.gaivo.net,2009-12-20:articles/facebook-web-mobile-and-me.html</id><summary type="html">&lt;div&gt;
+&lt;/div&gt;</content><category term="Gamification"></category><category term="Books"></category><category term="Reading"></category><category term="Kathy Sierra"></category><category term="gamemechanics"></category></entry><entry><title>Facebook, web, mobile and me</title><link href="http://markos.gaivo.net/articles/facebook-web-mobile-and-me.html" rel="alternate"></link><published>2009-12-20T16:35:00+01:00</published><updated>2009-12-20T16:35:00+01:00</updated><author><name>markos</name></author><id>tag:markos.gaivo.net,2009-12-20:/articles/facebook-web-mobile-and-me.html</id><summary type="html">&lt;div&gt;
+ &lt;p&gt;
+  Recently, for a moment, I couldn’t imagine myself working on web in ten years time. Since I am quite passionate about it and its development, the obvious question was why?
+ &lt;/p&gt;
+ &lt;p&gt;
+  Why wouldn’t I want to be a web developer anymore?
+ &lt;/p&gt;
+ &lt;p&gt;
+  Popularity of Facebook comes to mind. It is …&lt;/p&gt;&lt;/div&gt;</summary><content type="html">&lt;div&gt;
  &lt;p&gt;
   Recently, for a moment, I couldn’t imagine myself working on web in ten years time. Since I am quite passionate about it and its development, the obvious question was why?
  &lt;/p&gt;
@@ -522,16 +592,16 @@
  &lt;p&gt;
   At the end of this long self-indulgent post I confess I have no answers. I barely have questions and I had to write this far to get to them. It is for me the most introspective part of the year, so I might be thinking about a non-issue. Time will tell. Eventually.
  &lt;/p&gt;
- &lt;div class="zemanta-pixie"&gt;
-  &lt;a class="zemanta-pixie-a" href="http://reblog.zemanta.com/zemified/a5117991-c107-4748-a6c7-31134e58e25b/" title="Reblog this post [with Zemanta]"&gt;
-   &lt;img alt="Reblog this post [with Zemanta]" class="zemanta-pixie-img" src="http://img.zemanta.com/reblog_e.png?x-id=a5117991-c107-4748-a6c7-31134e58e25b"/&gt;
+&lt;/div&gt;</content><category term="Social network"></category><category term="Mobile Web"></category><category term="future"></category><category term="Facebook"></category><category term="Web browser"></category><category term="HTML 5"></category></entry><entry><title>IE6 - hope of web standards</title><link href="http://markos.gaivo.net/articles/ie6-hope-of-web-standards.html" rel="alternate"></link><published>2009-01-20T20:49:00+01:00</published><updated>2009-01-20T20:49:00+01:00</updated><author><name>markos</name></author><id>tag:markos.gaivo.net,2009-01-20:/articles/ie6-hope-of-web-standards.html</id><summary type="html">&lt;div&gt;
+ &lt;p&gt;
+  I often find myself in a room with web developers and at least one of them proclaiming that IE6 sucks because it doesn’t support web standards while others nod in agreement.
+ &lt;/p&gt;
+ &lt;p&gt;
+  This has bothered me enough to contemplate having a talk at
+  &lt;a href="http://www.barcamp.si/"&gt;
+   BarCamp Ljubljana
   &lt;/a&gt;
-  &lt;span class="zem-script paragraph-reblog"&gt;
-   &lt;script src="http://static.zemanta.com/readside/loader.js" type="text/javascript"&gt;
-   &lt;/script&gt;
-  &lt;/span&gt;
- &lt;/div&gt;
-&lt;/div&gt;</summary><category term="Social network"></category><category term="Mobile Web"></category><category term="future"></category><category term="Facebook"></category><category term="Web browser"></category><category term="HTML 5"></category></entry><entry><title>IE6 - hope of web standards</title><link href="http://markos.gaivo.net/articles/ie6-hope-of-web-standards.html" rel="alternate"></link><updated>2009-01-20T20:49:00+01:00</updated><author><name>markos</name></author><id>tag:markos.gaivo.net,2009-01-20:articles/ie6-hope-of-web-standards.html</id><summary type="html">&lt;div&gt;
+  . I didn’t, but this …&lt;/p&gt;&lt;/div&gt;</summary><content type="html">&lt;div&gt;
  &lt;p&gt;
   I often find myself in a room with web developers and at least one of them proclaiming that IE6 sucks because it doesn’t support web standards while others nod in agreement.
  &lt;/p&gt;
@@ -619,12 +689,13 @@
  &lt;p&gt;
   To sum it up, IE6 is indeed a problem in todays development, but it’s also at least at fault for this. It was an excellent browser when it came out and is remarkably solid one for software so old. There are many reasons, completely untouched in this post, why its users don’t migrate to something newer, but we, web developers, are also to blame, because we tend to standardize only current practice and leave few doors open for future development which invariably comes.
  &lt;/p&gt;
- &lt;div class="zemanta-pixie"&gt;
-  &lt;a class="zemanta-pixie-a" href="http://reblog.zemanta.com/zemified/1235c7ef-00b0-4968-aaa8-90dfe88b2f35/" title="Zemified by Zemanta"&gt;
-   &lt;img alt="Reblog this post [with Zemanta]" class="zemanta-pixie-img" src="http://img.zemanta.com/reblog_e.png?x-id=1235c7ef-00b0-4968-aaa8-90dfe88b2f35"/&gt;
+&lt;/div&gt;</content><category term="WWW"></category><category term="Firefox"></category><category term="Internet Explorer 6"></category><category term="standards"></category><category term="HTML"></category><category term="html5"></category></entry><entry><title>Switched...to Firefox 3</title><link href="http://markos.gaivo.net/articles/switchedto-firefox-3.html" rel="alternate"></link><published>2008-06-22T15:04:00+02:00</published><updated>2008-06-22T15:04:00+02:00</updated><author><name>markos</name></author><id>tag:markos.gaivo.net,2008-06-22:/articles/switchedto-firefox-3.html</id><summary type="html">&lt;div&gt;
+ &lt;p&gt;
+  Today I switched to
+  &lt;a class="zem_slink" href="http://www.firefox.com/" rel="homepage" title="Mozilla Firefox"&gt;
+   Firefox 3
   &lt;/a&gt;
- &lt;/div&gt;
-&lt;/div&gt;</summary><category term="WWW"></category><category term="Firefox"></category><category term="Internet Explorer 6"></category><category term="standards"></category><category term="HTML"></category><category term="html5"></category></entry><entry><title>Switched...to Firefox 3</title><link href="http://markos.gaivo.net/articles/switchedto-firefox-3.html" rel="alternate"></link><updated>2008-06-22T15:04:00+02:00</updated><author><name>markos</name></author><id>tag:markos.gaivo.net,2008-06-22:articles/switchedto-firefox-3.html</id><summary type="html">&lt;div&gt;
+  as my main browser. I didn’t want to, because as a policy I try to use most common version as default, but I made a mistake of opening version 3 and since then none of my old add-ons seem to work on previous …&lt;/p&gt;&lt;/div&gt;</summary><content type="html">&lt;div&gt;
  &lt;p&gt;
   Today I switched to
   &lt;a class="zem_slink" href="http://www.firefox.com/" rel="homepage" title="Mozilla Firefox"&gt;
@@ -645,9 +716,4 @@
  &lt;p&gt;
   Anyway, enough of ranting. Time to get back to cutting cake…
  &lt;/p&gt;
- &lt;div class="zemanta-pixie" style="margin-top: 10px; height: 15px;"&gt;
-  &lt;a class="zemanta-pixie-a" href="http://reblog.zemanta.com/zemified/79c05cbe-847f-4fa0-8dc3-878f8e79208f/" title="Zemified by Zemanta"&gt;
-   &lt;img alt="Zemanta Pixie" class="zemanta-pixie-img" src="http://img.zemanta.com/reblog_a.png?x-id=79c05cbe-847f-4fa0-8dc3-878f8e79208f" style="border: medium none; float: right;"/&gt;
-  &lt;/a&gt;
- &lt;/div&gt;
-&lt;/div&gt;</summary><category term="Mozilla Firefox"></category><category term="Firefox 3"></category><category term="WWW"></category><category term="Firefox"></category><category term="World Wide Web"></category><category term="Browsers"></category></entry></feed>
+&lt;/div&gt;</content><category term="Mozilla Firefox"></category><category term="Firefox 3"></category><category term="WWW"></category><category term="Firefox"></category><category term="World Wide Web"></category><category term="Browsers"></category></entry></feed>

@@ -1,5 +1,26 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>A notch above a monkey</title><link href="http://markos.gaivo.net/articles/" rel="alternate"></link><link href="/articles/feeds/company-ui-web.atom.xml" rel="self"></link><id>http://markos.gaivo.net/articles/</id><updated>2006-04-24T16:01:00+02:00</updated><entry><title>Another voice against CAPTCHA</title><link href="http://markos.gaivo.net/articles/another-voice-against-captcha.html" rel="alternate"></link><updated>2006-04-24T16:01:00+02:00</updated><author><name>markos</name></author><id>tag:markos.gaivo.net,2006-04-24:articles/another-voice-against-captcha.html</id><summary type="html">&lt;div&gt;
+<feed xmlns="http://www.w3.org/2005/Atom"><title>A notch above a monkey - Company, UI, Web</title><link href="http://markos.gaivo.net/articles/" rel="alternate"></link><link href="/articles/feeds/company-ui-web.atom.xml" rel="self"></link><id>http://markos.gaivo.net/articles/</id><updated>2006-04-24T16:01:00+02:00</updated><entry><title>Another voice against CAPTCHA</title><link href="http://markos.gaivo.net/articles/another-voice-against-captcha.html" rel="alternate"></link><published>2006-04-24T16:01:00+02:00</published><updated>2006-04-24T16:01:00+02:00</updated><author><name>markos</name></author><id>tag:markos.gaivo.net,2006-04-24:/articles/another-voice-against-captcha.html</id><summary type="html">&lt;div&gt;
+ &lt;p&gt;
+  I tried to leave a comment on
+  &lt;a href="http://www.digg.com/"&gt;
+   Digg
+  &lt;/a&gt;
+  recently and had trouble deciphering its
+  &lt;a href="http://en.wikipedia.org/wiki/Captcha"&gt;
+   CAPTCHA
+  &lt;/a&gt;
+  . I was eventually successful, but only after I got annoyed. Simply put, CAPTCHAs are evil.
+ &lt;/p&gt;
+ &lt;p&gt;
+  There’s no need to rehash why, since
+  &lt;a href="http://www.google.com/search?q=captcha+accessibility"&gt;
+   plenty
+  &lt;/a&gt;
+  has been said so far. They
+  &lt;a href="http://www.w3.org/TR/turingtest/"&gt;
+   don’t
+  &lt;/a&gt;
+  really work and …&lt;/p&gt;&lt;/div&gt;</summary><content type="html">&lt;div&gt;
  &lt;p&gt;
   I tried to leave a comment on
   &lt;a href="http://www.digg.com/"&gt;
@@ -39,7 +60,16 @@
   &lt;/a&gt;
   , if you haven’t done so.
  &lt;/p&gt;
-&lt;/div&gt;</summary></entry><entry><title>Words matter</title><link href="http://markos.gaivo.net/articles/words-matter.html" rel="alternate"></link><updated>2005-12-09T17:57:00+01:00</updated><author><name>markos</name></author><id>tag:markos.gaivo.net,2005-12-09:articles/words-matter.html</id><summary type="html">&lt;div&gt;
+&lt;/div&gt;</content></entry><entry><title>Words matter</title><link href="http://markos.gaivo.net/articles/words-matter.html" rel="alternate"></link><published>2005-12-09T17:57:00+01:00</published><updated>2005-12-09T17:57:00+01:00</updated><author><name>markos</name></author><id>tag:markos.gaivo.net,2005-12-09:/articles/words-matter.html</id><summary type="html">&lt;div&gt;
+ &lt;p&gt;
+  When we designed
+  &lt;a href="http://www.marela.si"&gt;
+   Marela
+  &lt;/a&gt;
+  , we obviously wanted to make it as close to perfect as possible, but we paid even more attention than usual to words and language used, since I find bad copy consistently the most annoying element of web site design.
+ &lt;/p&gt;
+ &lt;p&gt;
+  This might look odd coming from me …&lt;/p&gt;&lt;/div&gt;</summary><content type="html">&lt;div&gt;
  &lt;p&gt;
   When we designed
   &lt;a href="http://www.marela.si"&gt;
@@ -146,4 +176,4 @@
    we are smart &amp;amp; give us lots of money
   &lt;/li&gt;
  &lt;/ul&gt;
-&lt;/div&gt;</summary></entry></feed>
+&lt;/div&gt;</content></entry></feed>

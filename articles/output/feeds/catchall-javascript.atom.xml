@@ -1,5 +1,22 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>A notch above a monkey</title><link href="http://markos.gaivo.net/articles/" rel="alternate"></link><link href="/articles/feeds/catchall-javascript.atom.xml" rel="self"></link><id>http://markos.gaivo.net/articles/</id><updated>2008-08-23T23:08:00+02:00</updated><entry><title>Hiding everything but editor on WordPress with Greasemonkey</title><link href="http://markos.gaivo.net/articles/hiding-everything-but-editor-on-wordpress-with-greasemonkey.html" rel="alternate"></link><updated>2008-08-23T23:08:00+02:00</updated><author><name>markos</name></author><id>tag:markos.gaivo.net,2008-08-23:articles/hiding-everything-but-editor-on-wordpress-with-greasemonkey.html</id><summary type="html">&lt;div&gt;
+<feed xmlns="http://www.w3.org/2005/Atom"><title>A notch above a monkey - Catchall, Javascript</title><link href="http://markos.gaivo.net/articles/" rel="alternate"></link><link href="/articles/feeds/catchall-javascript.atom.xml" rel="self"></link><id>http://markos.gaivo.net/articles/</id><updated>2008-08-23T23:08:00+02:00</updated><entry><title>Hiding everything but editor on WordPress with Greasemonkey</title><link href="http://markos.gaivo.net/articles/hiding-everything-but-editor-on-wordpress-with-greasemonkey.html" rel="alternate"></link><published>2008-08-23T23:08:00+02:00</published><updated>2008-08-23T23:08:00+02:00</updated><author><name>markos</name></author><id>tag:markos.gaivo.net,2008-08-23:/articles/hiding-everything-but-editor-on-wordpress-with-greasemonkey.html</id><summary type="html">&lt;div&gt;
+ &lt;p&gt;
+  Fry
+  &lt;a href="http://friedcellcollective.net/outbreak/2008/08/15/discovering-greasemonkey-again/" title="Link to mentione post"&gt;
+   published
+  &lt;/a&gt;
+  few neat
+  &lt;a href="https://addons.mozilla.org/en-US/firefox/addon/748" title="Greasemonkey home"&gt;
+   Greasemonkey
+  &lt;/a&gt;
+  scripts recently and since I am also a fan of this Firefox
+  &lt;a class="zem_slink" href="http://en.wikipedia.org/wiki/Add-on_%28Mozilla%29" rel="wikipedia" title="Add-on (Mozilla)"&gt;
+   extension
+  &lt;/a&gt;
+  , I thought I might share one myself. It’s a script I am using right now, while I am typing this post.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Script hides everything but editor on “Create New Post” page …&lt;/p&gt;&lt;/div&gt;</summary><content type="html">&lt;div&gt;
  &lt;p&gt;
   Fry
   &lt;a href="http://friedcellcollective.net/outbreak/2008/08/15/discovering-greasemonkey-again/" title="Link to mentione post"&gt;
@@ -29,12 +46,19 @@
   &lt;/a&gt;
   the script.
  &lt;/p&gt;
- &lt;div class="zemanta-pixie" style="margin-top: 10px; height: 15px;"&gt;
-  &lt;a class="zemanta-pixie-a" href="http://reblog.zemanta.com/zemified/b7b787a7-f998-4afb-b5ef-528707fff346/" title="Zemified by Zemanta"&gt;
-   &lt;img alt="Reblog this post [with Zemanta]" class="zemanta-pixie-img" src="http://img.zemanta.com/reblog_e.png?x-id=b7b787a7-f998-4afb-b5ef-528707fff346" style="border: medium none; float: right;"/&gt;
+&lt;/div&gt;</content><category term="Blog"></category><category term="WordPress"></category><category term="Firefox"></category><category term="greasemonkey"></category><category term="Add-on"></category></entry><entry><title>Ajax Workshop</title><link href="http://markos.gaivo.net/articles/ajax-workshop.html" rel="alternate"></link><published>2005-11-24T18:54:00+01:00</published><updated>2005-11-24T18:54:00+01:00</updated><author><name>markos</name></author><id>tag:markos.gaivo.net,2005-11-24:/articles/ajax-workshop.html</id><summary type="html">&lt;div&gt;
+ &lt;p&gt;
+  &lt;a href="http://www.clearleft.com/"&gt;
+   Clearleft
   &lt;/a&gt;
- &lt;/div&gt;
-&lt;/div&gt;</summary><category term="Blog"></category><category term="WordPress"></category><category term="Firefox"></category><category term="greasemonkey"></category><category term="Add-on"></category></entry><entry><title>Ajax Workshop</title><link href="http://markos.gaivo.net/articles/ajax-workshop.html" rel="alternate"></link><updated>2005-11-24T18:54:00+01:00</updated><author><name>markos</name></author><id>tag:markos.gaivo.net,2005-11-24:articles/ajax-workshop.html</id><summary type="html">&lt;div&gt;
+  is organizing
+  &lt;a href="http://www.clearleft.com/training/ajax.php"&gt;
+   Ajax workshop
+  &lt;/a&gt;
+  on my birthday. Presented by Jeremy, who has a talent for sharing his extensive knowledge in a clear, easy to understand manner. The price might look a bit high, but judging from personal experience it will be well worth it.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Man, do I wish I …&lt;/p&gt;&lt;/div&gt;</summary><content type="html">&lt;div&gt;
  &lt;p&gt;
   &lt;a href="http://www.clearleft.com/"&gt;
    Clearleft
@@ -48,4 +72,4 @@
  &lt;p&gt;
   Man, do I wish I could go.
  &lt;/p&gt;
-&lt;/div&gt;</summary></entry></feed>
+&lt;/div&gt;</content></entry></feed>
