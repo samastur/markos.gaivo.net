@@ -60,3 +60,6 @@ docs/_build/
 
 # Vim
 .*.swp
+
+# Rest
+root/articles
