@@ -85,6 +85,29 @@ body > footer .mini-logo {display: inline-block;width:97px;height:32px;border:0;
     </nav>
 
         <article class="hentry">
+            <h1 class="entry-title storytitle"><a href="./securing-web-applications.html" rel="bookmark" title="Permalink to Securing web applications">Securing web applications</a></h1>
+
+            <div class="entry-content post-text">
+                <p>I recently finished work on a project with more than usually strict security requirements. While my work on the project is done and I am deciding on what to do next, I keep thinking about what I did and what I could do better next time beyond following established good implementation practices. This is my attempt to jot down my (unpolished) thinking, but will be light on technical details as I am not allowed to divulge them.</p>
+<p>First thing I did was to create <a href="https://www.owasp.org/index.php/Category:Threat_Modeling">a threat model</a> for the app’s frontend. It is not something I would see done on every project, but it really should be a standard practice even if it is simplified to a “living” list of assets to protect, identified threats and planned countermeasures.</p>
+<p>An under-appreciated part of web frontend development using client-side frameworks is that practically speaking, it is not possible to secure the app you are building on your own. Every major framework depends on and installs hundreds of packages (usually more than a thousand) and it is not feasible to audit all of them and their updates. Even a smaller problem of tracking license compliance is a nightmare. Therefore managing risk also involves managing trust in external parties.</p>
+<p>When using such frameworks is beneficial enough, I favour libraries built <strong>and in use</strong> by major tech companies such as Google and Facebook, especially if their documentation does not ignore security. They may not be better in all aspects I might care about, but will have both more resources invested in their development and more likely to be properly audited as those companies present a much bigger and valuable target than companies I work with. I avoid adding 3rd party libraries as much as economically possible and when not, prefer to copy parts actually used (with license and reference to original) when only small bit of that library is needed.</p>
+<p>Loading 3rd party code directly in browser should be frowned upon. Even with modern toolbox for avoiding/limiting abuse (<a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/iframe">iframe sandboxing</a>, <a href="https://developer.mozilla.org/en-US/docs/Web/HTTP/CSP">CSP</a>…) nothing is remotely as safe as not loading unknown resources in the first place. Since this is not always possible or desirable it is best to treat them as an existing exploit of unknown severity and decide where they must be avoided and how to best manage their risk elsewhere.</p>
+<p>Similar risk is posed by browser extensions. User fingerprinting is a very good reason for trying to prevent discovery of loaded extensions, but I would still find it useful to at least know if there is <em>any</em> extension loaded that has access to my app’s contents without explicit user request.  It seems this is not possible. Admittedly this is not a wide-spread desire and most applications would not changed their behaviour based on this information, but few should (e.g. banking web apps).</p>
+<p>In simpler, more naïve times we used to discuss if DOM is a good place to store state of a page. Clearly this is not a good idea for anything beyond storing state of UI controls and even then every change should be reflected on screen with an appropriate user notification (change transition, alert…). I remain undecided on how much uni-directional data flow helps with security, but it does some, similarly to how private class properties do and I find it easier to track possible attack points, if interface is a rendered reflection of application’s state and I can focus my attention on interactive parts with which user changes it.</p>
+<p>Protecting code and data from nosy scripts with Javascript closures is already effectively done by frameworks and rarely requires manual intervention. This is mostly enough, but an unsolved problem for me was to keep data private and survive a browser window reload as I can only do one with any kind of certainty. I am reasonably sure this is not possible since every available storage is also available to other scripts as is requesting data from server without authentication.</p>
+<p><a href="https://developer.mozilla.org/en-US/docs/Web/API/Window/sessionStorage">sessionStorage</a> is preferred to localStorage. Any personal data should be removed with sessions that shouldn’t be long either.</p>
+<p>It would be nice, if all my research and effort provided me with more comfort than they do. Maybe fear is just the price paid for remaining vigilant.</p>
+            </div><!-- /.entry-content -->
+
+            <footer class="post-metadata">
+                <ul>
+                    <li>Published on <time datetime="2019-05-14T18:01:00+02:00">Tue 14 May 2019</time> </li>
+                    <li><a href="./securing-web-applications.html">Add your comment</a></li>
+                </ul>
+            </footer>
+        </article>
+        <article class="hentry">
             <h1 class="entry-title storytitle"><a href="./2018-review.html" rel="bookmark" title="Permalink to 2018 review">2018 review</a></h1>
 
             <div class="entry-content post-text">
@@ -138,32 +161,6 @@ body > footer .mini-logo {display: inline-block;width:97px;height:32px;border:0;
                 <ul>
                     <li>Published on <time datetime="2019-01-01T22:50:30+01:00">Tue 01 January 2019</time> </li>
                     <li><a href="./books-i-read-in-2018.html">Add your comment</a></li>
-                </ul>
-            </footer>
-        </article>
-        <article class="hentry">
-            <h1 class="entry-title storytitle"><a href="./privacy-policy.html" rel="bookmark" title="Permalink to Privacy policy">Privacy policy</a></h1>
-
-            <div class="entry-content post-text">
-                <p>I recently worked on GDPR compliance for a client which made me think about privacy policy for my own website. As a non-commercial outlet for my personal musings it is most likely exempt from GDPR under <a href="http://www.privacy-regulation.eu/en/article-2-material-scope-GDPR.htm">Article 2</a>, but while it may not be required, it is not redundant.</p>
-<p>Unlike most articles here this one should be a living document that I will strive to keep current. Let me know if you find it lacking.</p>
-<h2>Summary</h2>
-<p>This website does not intentionally track you. Your internet address gets logged for a few weeks, but is unlikely to identify you. No other information about you is stored on my server or shared with anyone.</p>
-<p>Comments are hosted from a separate domain and store a cookie in your browser only if you add a comment.</p>
-<p>If you find any inconsistencies or have questions regarding your privacy while visiting this website, then please <a href="https://markos.gaivo.net/">contact me</a>.</p>
-<h2>Privacy policy in full</h2>
-<p>I do not use Google analytics or any other tool for tracking visitors. Neither do I use cookies, which are short pieces of text that can be stored in your browser’s storage and <em>also</em> used for tracking.</p>
-<p>Your internet address (IP address) is recorded in web server’s logs and expunged after a few weeks. It is collected for easier debugging of occasional server problems.</p>
-<p>It is unlikely I would be able to identify you with your address alone unless you have a static IP address for an internet connection that nobody else uses. If you don’t know what a static IP address is, then you almost certainly do not have one.</p>
-<p>No other information about you is stored on this website or shared with anyone.</p>
-<p>Pages of individual articles use self-hosted instance of <a href="https://posativ.org/isso/">Isso</a> to provide comments. It stores a cookie in your browser only when you add a comment and it is used only for a limited time to allow you to edit a recently added comment. If you don’t need this functionality, then you can block all cookies from this domain in your browser.</p>
-<p>If you have added a comment and would like to delete it, then please contact me. You can find my <a href="https://markos.gaivo.net">contact information</a> on my homepage. Please use it if you find any problem with this document or have questions regarding privacy of your web visits.</p>
-            </div><!-- /.entry-content -->
-
-            <footer class="post-metadata">
-                <ul>
-                    <li>Published on <time datetime="2018-06-10T16:00:00+02:00">Sun 10 June 2018</time> </li>
-                    <li><a href="./privacy-policy.html">Add your comment</a></li>
                 </ul>
             </footer>
         </article>

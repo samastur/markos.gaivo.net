@@ -86,6 +86,68 @@ body > footer .mini-logo {display: inline-block;width:97px;height:32px;border:0;
     </nav>
 
         <article class="hentry">
+            <h1 class="entry-title storytitle"><a href="../solving-javascript-i18n-as-work-in-progress.html" rel="bookmark" title="Permalink to Solving javascript i18n as work in progress">Solving javascript i18n as work in progress</a></h1>
+
+            <div class="entry-content post-text">
+                <div>
+ <p>
+  A while ago I was moaning about a sad state of javascript i18n tools. When I finally started working on it, I faced a dilemma.
+ </p>
+ <p>
+  Should I wait until it’s finished and then reveal it like Moses to chosen people? Look guys what I etched with a toothpick during my lunch time break! You know, I was waiting for my Crème Brûlée and had to kill those few pesky minutes.
+ </p>
+ <p>
+  Or should I choose a more honest approach, showing steps and missteps between embarrassing first version and hopefully usable last?
+ </p>
+ <p>
+  Well, there’s nothing better than public humiliation to instill some humility so let’s see what is behind the door number two.
+ </p>
+ <p>
+  The goal is still the same. Develop a short and relatively fast library that allows you to translate javascript code and HTML content and to do so with as little fuss as possible and with a clear separation between HTML, javascript and translations, but without breaking pages in case translation doesn’t exist yet.
+ </p>
+ <p>
+  And
+  <a href="http://markos.gaivo.net/examples/js_i18n/1/translate.js" title="Translation functions">
+   here’s
+  </a>
+  my humble start together with a
+  <a href="http://markos.gaivo.net/examples/js_i18n/1/index.html" title="Link to demonstration page">
+   simple demo
+  </a>
+  . Three functions, two of them a support needed later on. stripStr and stripStrML just strip whitespace at the start and end of string with stripStrML doing it on every line of a given string. We’ll need this later on so we can find strings to translate even if they are enclosed in whitespace to make source display more pretty.
+ </p>
+ <p>
+  Then there’s a function called _, which takes a string and translates it if javascript object i18nDict exists and has this string as an attribute with a non empty value. Otherwise it just returns the same string, so it doesn’t break page even if translation doesn’t exist in
+  <a href="http://markos.gaivo.net/examples/js_i18n/1/i18n.js" title="Translation dictionary">
+   translation object
+  </a>
+  . It’s what is usually called a proof of concept prototype.
+ </p>
+ <p>
+  That’s it for today. I’ll try to post updates every couple of days or so, if progress warrants it.
+ </p>
+ <p>
+  Update: Follow up
+  <a href="look-ma-html-too.html">
+   here
+  </a>
+  and
+  <a href="news-at-seven-javascript-i18n-that-almost-doesnt-suck.html">
+   here
+  </a>
+  .
+ </p>
+</div>
+            </div><!-- /.entry-content -->
+
+            <footer class="post-metadata">
+                <ul>
+                    <li>Published on <time datetime="2005-12-08T14:11:00+01:00">Thu 08 December 2005</time> </li>
+                    <li><a href="../solving-javascript-i18n-as-work-in-progress.html">Add your comment</a></li>
+                </ul>
+            </footer>
+        </article>
+        <article class="hentry">
             <h1 class="entry-title storytitle"><a href="../ie7-will-remain-to-be-mime-challenged.html" rel="bookmark" title="Permalink to IE7 will remain to be MIME challenged">IE7 will remain to be MIME challenged</a></h1>
 
             <div class="entry-content post-text">
@@ -130,65 +192,6 @@ body > footer .mini-logo {display: inline-block;width:97px;height:32px;border:0;
                 <ul>
                     <li>Published on <time datetime="2005-12-06T10:05:00+01:00">Tue 06 December 2005</time> </li>
                     <li><a href="../places-to-use-ajax.html">Add your comment</a></li>
-                </ul>
-            </footer>
-        </article>
-        <article class="hentry">
-            <h1 class="entry-title storytitle"><a href="../speed-match-json-vs-xml.html" rel="bookmark" title="Permalink to Speed match: JSON vs. XML">Speed match: JSON vs. XML</a></h1>
-
-            <div class="entry-content post-text">
-                <div>
- <p>
-  I started playing with AJAX before it got its silly name and true to X I used XML in my application. At least at first.
- </p>
- <p>
-  What I discovered is that flicker caused by processing data and simultaneously writing results to document can be completely removed if I do a Google and fetch javascript object instead (what later became
-  <a href="http://www.crockford.com/JSON/index.html">
-   JSON
-  </a>
-  ) and use that. Difference was so vivid, I dropped XML almost completely.
- </p>
- <p>
-  Fast forward to autumn. There’s a debate after our regular weekly talk and a question comes up. Why would Google or anyone else for that matter choose to use something else than XML?
- </p>
- <p>
-  Relying on personal experience I offered speed as obvious and most important reason. I couldn’t back it up, but since I’ve seen it with my own eyes, I didn’t doubt it either. It wasn’t the sole reason. I find dabbling with javascript objects simply easier than handling XML and I’ll care about XSLT when javascript in Safari can access it.
- </p>
- <p>
-  I got reminded of our discussion when I read
-  <a href="http://www.xml.com/lpt/a/2005/11/30/tuning-ajax-performance.html">
-   this article
-  </a>
-  . Read it, if you haven’t yet, because it’s well worth it. Anyhow, I decided to make a new test. I wrote a simple
-  <a href="http://markos.gaivo.net/examples/jsbench/test.html">
-   test page
-  </a>
-  , that fetches
-  <a href="http://markos.gaivo.net/examples/jsbench/jssample.raw">
-   sample json file
-  </a>
-  and basically equal
-  <a href="http://markos.gaivo.net/examples/jsbench/xmlsample.xml">
-   xml sample
-  </a>
-  and measures how much time it takes to fetch same data.
- </p>
- <p>
-  Result?
- </p>
- <p>
-  After 15 minutes of wild reloading in different browsers (Safari 1.3+, FF1.0, IE6) and different local and non-local servers, I can’t see a difference that couldn’t be attributed to latency. It seems browsers have moved on and there’s little reason to avoid using XML today.
- </p>
- <p>
-  So use whatever you like most.
- </p>
-</div>
-            </div><!-- /.entry-content -->
-
-            <footer class="post-metadata">
-                <ul>
-                    <li>Published on <time datetime="2005-12-05T19:41:00+01:00">Mon 05 December 2005</time> </li>
-                    <li><a href="../speed-match-json-vs-xml.html">Add your comment</a></li>
                 </ul>
             </footer>
         </article>
