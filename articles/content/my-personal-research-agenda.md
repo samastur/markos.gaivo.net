@@ -3,7 +3,6 @@ Date: 2007-08-25 12:48
 Author: markos
 Category: Catchall
 Slug: my-personal-research-agenda
-Status: draft
 Id: 239
 
 <p>
@@ -18,9 +17,7 @@ if you don't enjoy reading long tracts of personal thoughts, you better
 stop now.
 
 Brad Neuberg recently published  
-[  
-a post  
-](http://codinginparadise.org/weblog/2007/08/creating-personal-research-agenda.html)  
+[a post](http://codinginparadise.org/weblog/2007/08/creating-personal-research-agenda.html)  
 that really got to me. I am not a computer scientist and I don't
 pretend to be one. I do enjoy the act of programming, but unlike many
 programmers I know, it's not enough to make me feel fulfilled. My work
@@ -37,9 +34,7 @@ far as Brad in postulating problems I would like to work on, I do have a
 general sense of what I want to do and how close I am to doing it. I'm
 not surprised by my slow progress, since I was always inept at deciding
 what I want to do with my life apart from remaining  
-[  
-green  
-](http://weblogs.media.mit.edu/SIMPLICITY/archives/000452.html)  
+[green](http://weblogs.media.mit.edu/SIMPLICITY/archives/000452.html)  
 . So how am I doing these days, if I take everything I've said so far
 into an account?
 
@@ -64,9 +59,7 @@ it.
 
 I am also similarly intrigued by mobile internet. As most people these
 days I own a programmable mobile phone and unlike most I also  
-[  
-own  
-](nokia-770-internet-tablet.html)  
+[own](nokia-770-internet-tablet.html)  
 a tablet. I don't often find time to think about what I could do with
 them, but when I do, I just get flooded with ideas I'd like to try.
 
@@ -82,9 +75,3 @@ problems of tools used that produce little residual knowledge. I gained
 most by exploring subjects I won't work on.
 
 That's strike three and out.
-
-<p>
-  
-
-</p>
-
