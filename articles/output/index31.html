@@ -85,6 +85,55 @@ body > footer .mini-logo {display: inline-block;width:97px;height:32px;border:0;
     </nav>
 
         <article class="hentry">
+            <h1 class="entry-title storytitle"><a href="./simplifying-registration-forms.html" rel="bookmark" title="Permalink to Simplifying registration forms">Simplifying registration forms</a></h1>
+
+            <div class="entry-content post-text">
+                <div>
+ <p>
+  As I am leaving on a short vacation that will probably take me off grid for few days, there is still a time for a hopefully short, but definitely last post of this year. I don’t like how registration forms ask me twice for password and I think I can offer a better way.
+ </p>
+ <p>
+  Most registration forms these days still want you to type password of your choice twice. They probably do it to reduce risk of mistyping it. I deeply dislike Facebook, but I think this is one thing it
+  <a href="http://www.facebook.com/" title="Registration form on Facebook's homepage">
+   got right
+  </a>
+  . You only have to do it once. Those with FB accounts can see this in action if they log out for a moment and visit front page.
+ </p>
+ <p>
+  There are several reasons why once is enough. First one is that every decent page provides a way to reset password in case you have forgotten it. So even if password was mistyped, it’s easy to reset it again to a different value. Second reason is that by now it’s quite well known that most people use a low single-digit number of passwords and don’t come up with a new one each time they are asked to do so. Hence it’s quite unlikely they’ll make an error now after so much practice.
+ </p>
+ <p>
+  Third reason is that in most cases you can
+  <a href="http://markos.gaivo.net/examples/html_pattern/onepass.html" title="Demonstration of show password switch">
+   help them
+  </a>
+  <a href="http://markos.gaivo.net/examples/html_pattern/onepass.html" style="font-size: 29.25px; line-height: 42.75px;" title="Demonstration of show password switch">
+  </a>
+  .
+ </p>
+ <p>
+  When registration forms first appeared internet access was rare and expensive enough that most common environment in which it was used was work or school. It was therefore likely that when you were registering for a service, you weren’t alone and entered password had to be hidden from people around you. Today it’s probably opposite. Most of the time I am quite private and could see what I type with no additional security risk.
+ </p>
+ <p>
+  So as in demo we could offer a switch that let visitors see what they are typing if they choose to do so. It should still be hidden by default, since we can’t really tell the environment visitor is in or if Javascript is available. It is always better to err on side of safety.
+ </p>
+ <p>
+  As a side note for those who might have peaked at implementation. I’m replacing password input field because of Internet Explorer, which doesn’t tolerate type attribute change on input fields. Every other browser tested (FF, Opera, Safari and Chrome) would work perfectly fine by just switching field type from password to text.
+ </p>
+ <p>
+  Anyhow, that’s it for this year. If you leave a comment, which I hope you will, and I don’t answer, it’s because I lack Internet access.
+ </p>
+</div>
+            </div><!-- /.entry-content -->
+
+            <footer class="post-metadata">
+                <ul>
+                    <li>Published on <time datetime="2008-12-29T07:30:00+01:00">Mon 29 December 2008</time> </li>
+                    <li><a href="./simplifying-registration-forms.html">Add your comment</a></li>
+                </ul>
+            </footer>
+        </article>
+        <article class="hentry">
             <h1 class="entry-title storytitle"><a href="./self-referencing-page-links.html" rel="bookmark" title="Permalink to Self-referencing page links">Self-referencing page links</a></h1>
 
             <div class="entry-content post-text">
@@ -207,71 +256,13 @@ body > footer .mini-logo {display: inline-block;width:97px;height:32px;border:0;
                 </ul>
             </footer>
         </article>
-        <article class="hentry">
-            <h1 class="entry-title storytitle"><a href="./view-unread-in-gmail-and-move-documents-in-google-docs.html" rel="bookmark" title="Permalink to View unread in Gmail and move documents in Google Docs">View unread in Gmail and move documents in Google Docs</a></h1>
-
-            <div class="entry-content post-text">
-                <div>
- <p>
-  I use
-  <a class="zem_slink" href="http://gmail.com" rel="homepage" title="Gmail">
-   Gmail
-  </a>
-  mainly for reading mailing lists. I’m old-fashioned and prefer to have my email where I can control it, but otherwise I can’t fault Gmail much. I wish search worked better and until today I wished to have a folder with unread messages.
- </p>
- <p>
-  Well, there is a way around second problem for those, who can turn on Gmail lab features (which hosted domains can’t). Go to the Lab tab in settings and turn on Quicklinks. After that return to Inbox, type is:unread in search box and confirm.
- </p>
- <p>
-  When you get results view, just press Add Quick Link in Quick Links widget, pick a name you like and voila, you have a view which lists unread messages. It’s not perfect though. It won’t show you how many messages are unread and you can’t subscribe to it through
-  <a class="zem_slink" href="http://en.wikipedia.org/wiki/Internet_Message_Access_Protocol" rel="wikipedia" title="Internet Message Access Protocol">
-   IMAP
-  </a>
-  .
- </p>
- <p>
-  The other thing that is not perfect is
-  <a class="zem_slink" href="http://docs.google.com/" rel="homepage" title="Google Docs">
-   Google Docs
-  </a>
-  , which I quite like. I did encounter a problem with it that is not important right now, but I imagine it might be in not too distant future.
- </p>
- <p>
-  How do you move documents between accounts?
- </p>
- <p>
-  What you can do is share the document with account you want it moved to and then delete it. If you are owner of this document, you will get a pop-up with a choice to transfer ownership before deletion. Again, it seems I can’t transfer it to a hosted domain account, so this trick is not only not obvious, but also doesn’t work all the time.
- </p>
- <p>
-  If there are better ways to accomplish above two things, then I would love to hear them.
- </p>
- <p>
-  <strong>
-   Update
-  </strong>
-  : It seems part of my post
-  <a href="http://danbenjamin.com/articles/2008/12/labs-love-at-last" title="Labs for Google Apps">
-   became untrue
-  </a>
-  even faster than usual.
- </p>
-</div>
-            </div><!-- /.entry-content -->
-
-            <footer class="post-metadata">
-                <ul>
-                    <li>Published on <time datetime="2008-12-04T08:51:00+01:00">Thu 04 December 2008</time> </li>
-                    <li><a href="./view-unread-in-gmail-and-move-documents-in-google-docs.html">Add your comment</a></li>
-                </ul>
-            </footer>
-        </article>
 
 <ul class="paginator">
 		<li class="newer">
         <a href="./index30.html">&laquo; Newer</a>
 		</li>
 		<li class="current">
-    31 / 117
+    31 / 118
 		</li>
 		<li class="older">
         <a href="./index32.html">Older &raquo;</a>

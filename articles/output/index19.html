@@ -85,6 +85,70 @@ body > footer .mini-logo {display: inline-block;width:97px;height:32px;border:0;
     </nav>
 
         <article class="hentry">
+            <h1 class="entry-title storytitle"><a href="./6th-anniversary-of-wwwh.html" rel="bookmark" title="Permalink to 6th anniversary of wwwh">6th anniversary of wwwh</a></h1>
+
+            <div class="entry-content post-text">
+                <div>
+ <p>
+  <a href="http://wwwh.si" title="Events homepage">
+   Web Hours
+  </a>
+  (spletne urice) is a series of web related talks that is happening weekly here in Ljubljana and is free for everyone.
+  <a href="http://wwwh.si/spletne-urice-181-upravljanje-z-dobrim-imenom/" title="Talk topic: reputation management">
+   Today’s talk
+  </a>
+  , happening on sixth anniversary of
+  <a href="http://wwwh.si/spletne-urice-1-php-v-oasu-terorizma/" title="Topic: PHP in time of terrorism">
+   the first
+  </a>
+  , will be 181th. A lot of people shared a lot of knowledge and our community has grown from a handful coming to first few talks to few tens of regular attendees. We never made a really serious effort at counting, but I would be surprised if few talks haven’t drawn close to a hundred people. My congratulations and thanks to all who made it happen!
+ </p>
+ <p>
+  I started Web Hours on
+  <a href="http://twitter.com/andraz" title="Andraž's twitter page">
+   Andraž’s
+  </a>
+  suggestion because I was not happy with  the quality of work done in Slovenia and I thought regular web talks could educate and help raise awareness. Looking back at the state of industry then and where we are now, it is obvious we came a long way and I’d like to think our talks played a part in it. I may be biased, but not that much because I stopped organizing them a long time ago so kudos really goes to
+  <a href="http://friedcell.net/home" title="Marko Mrdjenovič - Fry">
+   those who
+  </a>
+  <a href="http://twitter.com/DavorinPavlica" title="Davorin Pavlica">
+   followed me
+  </a>
+  .
+ </p>
+ <p>
+  It is still easy to find
+  <a href="http://www.zrkv.si/" title="Look at page source if you dare">
+   shoddy work
+  </a>
+  , but this will never change. You can find it in any field and there is no reason why web should be any different. There is always room for growth, but I am fairly satisfied with Slovenian web development community. These days there is no shortage of interesting events (meetups, hackdays, camps of various kinds) where you can meet kindred spirits, many of whom are doing interesting stuff. I wish there was more open web evangelism, but talks always were what we made them and it’s up to us open web advocates to go out there more often.
+ </p>
+ <p>
+  On the other hand Slovenian UX community depresses me. It seems to be full of people with big egos, very limited knowledge and low self-esteem resulting in an environment where constructive criticism is avoided and learning remains personal and, as community, slow. There are exceptions to this, but right now it seems it is enough to read a couple of books and follow a few related blogs to justify a UX related title on your business card and profess expertise. Critical assessment of problems and approaches is largely missing. There is a difference between cutting corners and skipping all steps — being agile is not a justification for being lazy. Events are rare and online discussions feel limited to regurgitating blog opinions as facts and discussing eternal, but mostly answered questions (e.g. how much of underlying technology do non-developers need to know?).
+ </p>
+ <p>
+  Then again I may be just an old grump. My feelings about UX community are not all that different to what I felt about web development community six years ago and that one turned out OK. Maybe I
+  <em>
+   am
+  </em>
+  just too quick to judge and things will turn out just fine soon enough. We’ll see. See you tonight in
+  <a href="http://www.kiberpipa.org/">
+   Kiberpipa
+  </a>
+  .
+ </p>
+</div>
+            </div><!-- /.entry-content -->
+
+            <footer class="post-metadata">
+                <ul>
+                    <li>Published on <time datetime="2011-10-05T12:30:00+02:00">Wed 05 October 2011</time> </li>
+                    <li><a href="./6th-anniversary-of-wwwh.html">Add your comment</a></li>
+                </ul>
+            </footer>
+        </article>
+        <article class="hentry">
             <h1 class="entry-title storytitle"><a href="./my-opendata-hackday-experience.html" rel="bookmark" title="Permalink to My OpenData hackday experience">My OpenData hackday experience</a></h1>
 
             <div class="entry-content post-text">
@@ -289,96 +353,13 @@ body > footer .mini-logo {display: inline-block;width:97px;height:32px;border:0;
                 </ul>
             </footer>
         </article>
-        <article class="hentry">
-            <h1 class="entry-title storytitle"><a href="./missing-referrers.html" rel="bookmark" title="Permalink to Missing refer(r)ers">Missing refer(r)ers</a></h1>
-
-            <div class="entry-content post-text">
-                <div>
- <p>
-  I was talking to my wife today about why an “Unknown Source” is becoming the most common source of visits on
-  <a class="zem_slink" href="http://flickr.com" rel="homepage" title="Flickr">
-   Flickr
-  </a>
-  . My guess is that it is almost certainly because a
-  <a class="zem_slink" href="http://en.wikipedia.org/wiki/HTTP_referrer" rel="wikipedia" title="HTTP referrer">
-   <em>
-    Referer
-   </em>
-  </a>
-  header field is missing in page requests and Flickr is only relying on presence of this piece of data to discern sources. This might have made sense when browsers ruled the web, but we don’t live then anymore.
- </p>
- <p>
-  Simply put referrer field
-  <a href="http://tools.ietf.org/html/rfc2616#section-14.36" title="Link to Referer field definition">
-   can be added
-  </a>
-  to request only when request was triggered from source which also has an
-  <a class="zem_slink" href="http://en.wikipedia.org/wiki/Uniform_Resource_Identifier" rel="wikipedia" title="Uniform Resource Identifier">
-   URI
-  </a>
-  address. Every web page has it since its address is also an URI, but most programs don’t.
- </p>
- <p>
-  That’s why referrers aren’t missing only from visitors using paranoid browsers or security software that stripped it out of requests, but also when page is visited from a link embedded in emails or instant messages.
- </p>
- <p>
-  Requests without referrers used to present a small enough subset of visits that most of us didn’t care. I first noticed this changing when Twitter clients became popular and now there are tons of apps behaving like this. With
-  <a href="http://www.w3.org/TR/XMLHttpRequest2/" title="Link to specification">
-   XMLHttpRequest Level 2
-  </a>
-  ﻿ even web developers will get a choice of making anonymous requests which won’t include potentially private data like referrers.
- </p>
- <p>
-  That’s nice. I have certainly visited places which I wouldn’t want to share with strangers. But I suspect this is not the common case and most of the time we don’t care telling which page or application sent us there.
- </p>
- <p>
-  Nobody can precisely predict future so specifications can never be perfect. But I am always amazed when reading core web specs like HTTP’s how insightful their authors were. That most programs don’t have a URI does not mean that they couldn’t. Practically anything can and definitely more things should.
- </p>
- <p>
-  In principle it is possible for each program to have its own address which could be used as referrer
-  <em>
-   when a better option doesn’t exist
-  </em>
-  . I suspect this would be against the spirit of specification, but likely not against its text.
- </p>
- <p>
-  However better options often do exist. Lets take
-  <a class="zem_slink" href="http://twitter.com" rel="homepage" title="Twitter">
-   Twitter
-  </a>
-  as a popular example. Every link that triggers a visit from Twitter was included in at least one tweet and every tweet is also published on web. It might not be accessible to everyone, but it does have an address. I see no reason why that address could not be used as referrer by Twitter clients.
- </p>
- <p>
-  It is originating content or its address that interest me, but really, almost anything truthful beats an unknown source. Just knowing name of the service (like Twitter) or app used (e.g. Tweetdeck) would be better than nothing. By the way there is another header field that could provide such insight:
-  <em>
-   User-Agent
-  </em>
-  . Sadly it is notoriously unreliable and often missing as well, but that’s another long story.
- </p>
- <p>
-  So, if I come back to Flickr. I can’t really tell how much Flickr can or could know. I suspect more than it tells, but I would be astonished if they are not mostly in the dark too. Web was largely built by people too busy (and often too lazy) not to cut corners. Meaning: learning and doing as little as possible to get something to work and sometimes we pay price for our ignorance. But it’s a small price compared to waiting for
-  <a href="http://en.wikipedia.org/wiki/Project_Xanadu" title="Description of project Xanadu on Wikipedia">
-   Xanadu
-  </a>
-  .
- </p>
-</div>
-            </div><!-- /.entry-content -->
-
-            <footer class="post-metadata">
-                <ul>
-                    <li>Published on <time datetime="2011-09-20T18:29:00+02:00">Tue 20 September 2011</time> </li>
-                    <li><a href="./missing-referrers.html">Add your comment</a></li>
-                </ul>
-            </footer>
-        </article>
 
 <ul class="paginator">
 		<li class="newer">
         <a href="./index18.html">&laquo; Newer</a>
 		</li>
 		<li class="current">
-    19 / 117
+    19 / 118
 		</li>
 		<li class="older">
         <a href="./index20.html">Older &raquo;</a>

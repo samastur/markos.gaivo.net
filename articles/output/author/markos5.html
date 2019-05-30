@@ -86,6 +86,24 @@ body > footer .mini-logo {display: inline-block;width:97px;height:32px;border:0;
     </nav>
 
         <article class="hentry">
+            <h1 class="entry-title storytitle"><a href="../long-vacations.html" rel="bookmark" title="Permalink to Long vacations">Long vacations</a></h1>
+
+            <div class="entry-content post-text">
+                <p>I like long vacations and by long I mean those lasting 3 or more weeks. This makes me employable only in Europe which is fine.</p>
+<p>Two weeks or less do not seem to be enough to rest my mind and certainly are not enough to get to know the country we happen to be visiting. We almost always visit just one at a time and while a month is not enough either, at least you get a sense of scope and size of your ignorance.</p>
+<p>It occurred to me today that benefits to my employer(s) go beyond me being more productive and creative when properly rested. Most organisations, even dysfunctional ones, can muddle through a two week absence of almost everyone. Some tasks might be delayed a bit or done slightly worse than usually, but few things are generally really time sensitive or can't tolerate a short dip in quality.</p>
+<p>Longer absences however expose faults and cracks and test the real bus factor of a missing person. They will expose which bits can or are picked up by others and which suffer. Also how much strain team can bear or would need to if that person suddenly left.</p>
+<p>You can't really buy this kind of learning other then by encouraging your employees to take long vacations.</p>
+            </div><!-- /.entry-content -->
+
+            <footer class="post-metadata">
+                <ul>
+                    <li>Published on <time datetime="2016-10-02T15:37:18+02:00">Sun 02 October 2016</time> </li>
+                    <li><a href="../long-vacations.html">Add your comment</a></li>
+                </ul>
+            </footer>
+        </article>
+        <article class="hentry">
             <h1 class="entry-title storytitle"><a href="../conference-programs.html" rel="bookmark" title="Permalink to Conference programs">Conference programs</a></h1>
 
             <div class="entry-content post-text">
@@ -123,39 +141,13 @@ body > footer .mini-logo {display: inline-block;width:97px;height:32px;border:0;
                 </ul>
             </footer>
         </article>
-        <article class="hentry">
-            <h1 class="entry-title storytitle"><a href="../web-skills.html" rel="bookmark" title="Permalink to Web skills">Web skills</a></h1>
-
-            <div class="entry-content post-text">
-                <p>While following news about Brexit developments and its impact on FTSE100, my wife and I wondered how many people work for companies that are included in that index. Wikipedia provides <a href="https://en.wikipedia.org/wiki/FTSE_100_Index">a list of FTSE100 companies</a> including their employees numbers, but without the total that interested us.</p>
-<p>I did not feel like summing them manually as it is tedious, slow and error prone. Luckily I do not have to as this is a nice example how we can use even limited web development skills to solve every day problems.</p>
-<p>All I needed to do is select table cells in last column, transform their values to numbers that Javascript understands and sum them.</p>
-<p>On a modern browser this can be accomplished by opening developer tools and executing two lines of code in its console:</p>
-<div class="highlight"><pre><span class="nt">var</span> <span class="nt">nodes</span> <span class="o">=</span> <span class="cp">[]</span><span class="nc">.slice.call</span><span class="o">(</span><span class="nt">document</span><span class="nc">.querySelectorAll</span><span class="o">(</span><span class="s2">&quot;#constituents tbody td:last-child&quot;</span><span class="o">));</span>
-<span class="nt">nodes</span><span class="nc">.map</span><span class="o">((</span><span class="nt">a</span><span class="o">)</span> <span class="o">=&gt;</span> <span class="nt">parseInt</span><span class="o">(</span><span class="nt">a</span><span class="nc">.innerText.replace</span><span class="o">(/,/</span><span class="nt">g</span><span class="o">,</span> <span class="s1">&#39;&#39;</span><span class="o">),</span> <span class="nt">10</span><span class="o">))</span><span class="nc">.reduce</span><span class="o">((</span><span class="nt">a</span><span class="o">,</span> <span class="nt">b</span><span class="o">)=&gt;</span> <span class="nt">a</span><span class="o">+</span><span class="nt">b</span><span class="o">,</span> <span class="nt">0</span><span class="o">);</span>
-</pre></div>
-
-
-<p>What the first line does is select last table cell (<code>td:last-child</code>) in each company row of the table (<code>#constituents tbody</code>). <code>[].slice.call</code> is used to make the resulting list a Javascript array because it is easy to work with.</p>
-<p>In second line we first transform the list of page elements to a list of cell values, by picking them with <code>.innerText</code>, removing comma separators (<code>.replace(/,/g, '')</code>) and changing them to numbers using <code>parseInt</code>. This is immediately followed with a call to <code>reduce</code> which sums all the values in our list.</p>
-<p>Alternatively I could have also used <a href="http://jquery.com">jQuery</a> library already included on Wikipedia pages and not much more code to get to the same result.</p>
-<p>Turns out that according to Wikipedia there are 5,618,496 people working for FTSE100 companies out of 31.59m in total.</p>
-            </div><!-- /.entry-content -->
-
-            <footer class="post-metadata">
-                <ul>
-                    <li>Published on <time datetime="2016-06-27T18:45:31+02:00">Mon 27 June 2016</time> </li>
-                    <li><a href="../web-skills.html">Add your comment</a></li>
-                </ul>
-            </footer>
-        </article>
 
 <ul class="paginator">
 		<li class="newer">
         <a href="../author/markos4.html">&laquo; Newer</a>
 		</li>
 		<li class="current">
-    5 / 117
+    5 / 118
 		</li>
 		<li class="older">
         <a href="../author/markos6.html">Older &raquo;</a>
