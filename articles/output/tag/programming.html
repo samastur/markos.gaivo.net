@@ -85,6 +85,25 @@ body > footer .mini-logo {display: inline-block;width:97px;height:32px;border:0;
     </nav>
 
         <article class="hentry">
+            <h1 class="entry-title storytitle"><a href="../on-technical-writing.html" rel="bookmark" title="Permalink to On technical writing">On technical writing</a></h1>
+
+            <div class="entry-content post-text">
+                <p>Early this year I was reading a couple of books about Typescript and got really annoyed by basic technical errors and poorly conceived books structures. Python <strong>is</strong> a strongly typed programming language and if the intended reader is expected to already have mastered Typescript’s basics, then they probably don’t need a chapter on how to install it. I wanted to vent about decline in quality of technical books in recent years, but I am glad now that I didn’t get around writing about it.</p>
+<p>This summer I decided to use some of my downtime during treks to update and improve my knowledge of functional programming by reading 3 books on this topic and I could hear my inner voice screaming, again: “Who is this book for?” Too much effort was spent on technical minutiae and none whatsoever on how to actually design and develop programs of non-trivial length, which in my experience is one of the main stumbling blocks for inexperienced developers.</p>
+<p>None of these books was new with the oldest coming out in 2012. All three were published by O’Reilly which at least back then was considered a respected source of technical content. So, quality erosion started sooner than I noticed, but still seems to be getting worse with publishers cutting corners everywhere while trying to compete with self-published authors whose books often seem overstuffed with marginally useful information to fatten them to book length, probably to raise their perceived value so they can become a source of passive income and/or improving author’s resume.</p>
+<p>Of course some books, self-published or not, are good, but it is becoming increasingly difficult to find them between so many bad ones. Especially since number of online reviewers have not scaled nearly as much and hence most books have few if any reviews.</p>
+<p>This is a problem for people like me, who like to learn about a new topic through books, but I think the effects may be larger. Books can be a good way to coalesce and distill knowledge to a package that could serve as a good introduction to topic’s novices. Modern web development has become a complicated affair with surprising and often depressing turnaround of technologies used and while it is useful to have someone explain in detail a tool that will likely be largely abandoned in two years time, I find there are not enough of them trying to teach foundational knowledge with longer shelf life.</p>
+<p>This spring I threw out more than a meter of old, mostly computer-related books that were now completely obsolete and I could certainly do the same with most electronic books that I have, if I could be bothered. While I was doing this, weighing on each book if it still has something valuable to say, a question kept coming up. If I was starting my career today, as many are, how would I even go about it?</p>
+            </div><!-- /.entry-content -->
+
+            <footer class="post-metadata">
+                <ul>
+                    <li>Published on <time datetime="2019-11-03T14:42:00+01:00">Sun 03 November 2019</time> </li>
+                    <li><a href="../on-technical-writing.html">Add your comment</a></li>
+                </ul>
+            </footer>
+        </article>
+        <article class="hentry">
             <h1 class="entry-title storytitle"><a href="../web-skills.html" rel="bookmark" title="Permalink to Web skills">Web skills</a></h1>
 
             <div class="entry-content post-text">
@@ -333,61 +352,10 @@ body > footer .mini-logo {display: inline-block;width:97px;height:32px;border:0;
                 </ul>
             </footer>
         </article>
-        <article class="hentry">
-            <h1 class="entry-title storytitle"><a href="../javascript-the-good-parts-and-stringsplit-problem.html" rel="bookmark" title="Permalink to Javascript: The Good Parts and string.split problem">Javascript: The Good Parts and string.split problem</a></h1>
-
-            <div class="entry-content post-text">
-                <div>
- <p>
-  I just read
-  <a class="zem_slink" href="http://crockford.com/" rel="homepage" title="Douglas Crockford">
-   Douglas Crockford
-  </a>
-  ‘s book
-  <a href="http://www.amazon.com/gp/product/0596517742?ie=UTF8&amp;tag=devel-20&amp;linkCode=as2&amp;camp=1789&amp;creative=390957&amp;creativeASIN=0596517742">
-   JavaScript: The Good Parts
-  </a>
-  . It’s what a technical book should be. Concise yet full of useful information as a result of clear scope and sticking to it. If my experience is anything to go by, then there are not many Javascript programmers who wouldn’t benefit from it.
- </p>
- <p>
-  I did found one bit that wasn’t quite right. On pages 91-92 Douglas discusses
-  <em>
-   string.split
-  </em>
-  method, which can take a regular expression as a separator with which to split string. Douglas rightly points out that if regular expression includes capturing group (stuff between paranthesis like
-  <em>
-   b(mmm)c
-  </em>
-  ), then strings matching those groups will be included in the split.
- </p>
- <p>
-  However Douglas is not completely correct when he says that some implementations drop empty strings in the output array when separator is regular expression. If you run
-  <a href="http://markos.gaivo.net/examples/jssplit/index.html">
-   this demo
-  </a>
-  in
-  <a class="zem_slink" href="http://www.firefox.com/" rel="homepage" title="Mozilla Firefox 3">
-   Firefox3
-  </a>
-  and IE7, you’ll see that IE7 drops even non-empty strings from capturing groups, while Firefox3 includes them.
- </p>
- <p>
-  Still, I would find a bug in my code faster this week if I read his book sooner.
- </p>
-</div>
-            </div><!-- /.entry-content -->
-
-            <footer class="post-metadata">
-                <ul>
-                    <li>Published on <time datetime="2009-03-29T11:15:00+02:00">Sun 29 March 2009</time> </li>
-                    <li><a href="../javascript-the-good-parts-and-stringsplit-problem.html">Add your comment</a></li>
-                </ul>
-            </footer>
-        </article>
 
 <ul class="paginator">
 		<li class="current">
-    1 / 2
+    1 / 3
 		</li>
 		<li class="older">
         <a href="../tag/programming2.html">Older &raquo;</a>

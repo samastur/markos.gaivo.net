@@ -85,6 +85,57 @@ body > footer .mini-logo {display: inline-block;width:97px;height:32px;border:0;
     </nav>
 
         <article class="hentry">
+            <h1 class="entry-title storytitle"><a href="../javascript-the-good-parts-and-stringsplit-problem.html" rel="bookmark" title="Permalink to Javascript: The Good Parts and string.split problem">Javascript: The Good Parts and string.split problem</a></h1>
+
+            <div class="entry-content post-text">
+                <div>
+ <p>
+  I just read
+  <a class="zem_slink" href="http://crockford.com/" rel="homepage" title="Douglas Crockford">
+   Douglas Crockford
+  </a>
+  ‘s book
+  <a href="http://www.amazon.com/gp/product/0596517742?ie=UTF8&amp;tag=devel-20&amp;linkCode=as2&amp;camp=1789&amp;creative=390957&amp;creativeASIN=0596517742">
+   JavaScript: The Good Parts
+  </a>
+  . It’s what a technical book should be. Concise yet full of useful information as a result of clear scope and sticking to it. If my experience is anything to go by, then there are not many Javascript programmers who wouldn’t benefit from it.
+ </p>
+ <p>
+  I did found one bit that wasn’t quite right. On pages 91-92 Douglas discusses
+  <em>
+   string.split
+  </em>
+  method, which can take a regular expression as a separator with which to split string. Douglas rightly points out that if regular expression includes capturing group (stuff between paranthesis like
+  <em>
+   b(mmm)c
+  </em>
+  ), then strings matching those groups will be included in the split.
+ </p>
+ <p>
+  However Douglas is not completely correct when he says that some implementations drop empty strings in the output array when separator is regular expression. If you run
+  <a href="http://markos.gaivo.net/examples/jssplit/index.html">
+   this demo
+  </a>
+  in
+  <a class="zem_slink" href="http://www.firefox.com/" rel="homepage" title="Mozilla Firefox 3">
+   Firefox3
+  </a>
+  and IE7, you’ll see that IE7 drops even non-empty strings from capturing groups, while Firefox3 includes them.
+ </p>
+ <p>
+  Still, I would find a bug in my code faster this week if I read his book sooner.
+ </p>
+</div>
+            </div><!-- /.entry-content -->
+
+            <footer class="post-metadata">
+                <ul>
+                    <li>Published on <time datetime="2009-03-29T11:15:00+02:00">Sun 29 March 2009</time> </li>
+                    <li><a href="../javascript-the-good-parts-and-stringsplit-problem.html">Add your comment</a></li>
+                </ul>
+            </footer>
+        </article>
+        <article class="hentry">
             <h1 class="entry-title storytitle"><a href="../shipping-software-frequency.html" rel="bookmark" title="Permalink to Shipping software frequency">Shipping software frequency</a></h1>
 
             <div class="entry-content post-text">
@@ -271,62 +322,16 @@ class Unauthorized(Exception):
                 </ul>
             </footer>
         </article>
-        <article class="hentry">
-            <h1 class="entry-title storytitle"><a href="../going-home.html" rel="bookmark" title="Permalink to Going home">Going home</a></h1>
-
-            <div class="entry-content post-text">
-                <div>
- <p>
-  EuroPython 2008 is over. I packed and now I am waiting to leave for the airport to catch afternoon flight back home. Sadly I don’t have time to attend sprints and since I only recently started to write python again, I probably wouldn’t be of much use anyhow.
- </p>
- <p>
-  Conference itself was great. Smaller than web conferences I usually attend with a more friendly, homey feeling, but with plenty of excellent talks where I learned a lot. I also met a bunch of friendly interesting people and had in general a wonderful time.
- </p>
- <p>
-  It was also interesting to compare the whole experience with other conferences I go to. Apple is popular, but there are fewer
-  <a class="zem_slink" href="http://en.wikipedia.org/wiki/Macintosh" rel="wikipedia" title="Macintosh">
-   Macs
-  </a>
-  than at web events.
-  <a class="zem_slink" href="http://www.ubuntu.com/" rel="homepage" title="Ubuntu (operating system)">
-   Ubuntu
-  </a>
-  seems to completely dominate
-  <a class="zem_slink" href="http://en.wikipedia.org/wiki/Linux" rel="wikipedia" title="Linux">
-   Linux
-  </a>
-  crowd (me included), since it was the only distribution I actually have seen and Windows is in minority. Everyone is much more willing to participate to the point, where sadly not all who wanted to present a Lightning talk on last day had the opportunity to do so.
- </p>
- <p>
-  I certainly hope to attend EuroPython 2009, which will be in Birmingham around this time next year. At the end I also have a present. Yesterday I got a license for
-  <a class="zem_slink" href="http://www.wingware.com" rel="homepage" title="Wing IDE">
-   Wing IDE
-  </a>
-  Professional and since I don’t need one, I’ll give it to the first person who expresses a wish to have it in comments and leaves his/her email address in relevant part of comment form.
- </p>
- <p>
-  <strong>
-   Update
-  </strong>
-  : License is gone, sent to a new owner.
- </p>
-</div>
-            </div><!-- /.entry-content -->
-
-            <footer class="post-metadata">
-                <ul>
-                    <li>Published on <time datetime="2008-07-10T10:02:00+02:00">Thu 10 July 2008</time> </li>
-                    <li><a href="../going-home.html">Add your comment</a></li>
-                </ul>
-            </footer>
-        </article>
 
 <ul class="paginator">
 		<li class="newer">
         <a href="../tag/programming.html">&laquo; Newer</a>
 		</li>
 		<li class="current">
-    2 / 2
+    2 / 3
+		</li>
+		<li class="older">
+        <a href="../tag/programming3.html">Older &raquo;</a>
 		</li>
 </ul>
 </section><!-- /#content -->
