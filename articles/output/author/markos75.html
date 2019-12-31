@@ -86,6 +86,95 @@ body > footer .mini-logo {display: inline-block;width:97px;height:32px;border:0;
     </nav>
 
         <article class="hentry">
+            <h1 class="entry-title storytitle"><a href="../localized-interfaces-in-globalized-world.html" rel="bookmark" title="Permalink to Localized interfaces in globalized world">Localized interfaces in globalized world</a></h1>
+
+            <div class="entry-content post-text">
+                <div>
+ <p>
+  There’s an issue I’ve been struggling with for months now. Well, more than a year really. We built Marela so it would be used in Slovenia by people preferring Slovene language over the others. It’s not the only distinguishing point from similar services found on the web, but it’s an important one.
+ </p>
+ <p>
+  However, Internet and low fares airlines certainly shrank our planet and it’s not uncommon for many of us to have friends who don’t speak our language but with whom we’d still like to share parts of our lives and our creations. And this is a problem for Marela, which was (also) built to fill this need of sharing.
+ </p>
+ <p>
+  It’s simply not possible to use Marela in any language but Slovene.
+ </p>
+ <p>
+  We decided to do this to avoid Orkut syndrome, where brazilian users (legitimately) subverted  a global service into a mostly Portuguese speaking one. We didn’t want to risk making our site unfriendly to Slovene-only speaking members by creating an environment in which a large portion of our community neither could or would speak Slovene.
+ </p>
+ <p>
+  I believe our interfaces are mostly self-explanatory and easy to use, but it’s difficult to tell how challenging they are for those who don’t speak their language. Judging by personal experience in using a dutch Windows 95 years ago, I’d say they are probably not easy enough.
+ </p>
+ <p>
+  So, what can be done?
+ </p>
+ <p>
+  There was an idea to enforce Slovene only for logged in users, but this can work only as long as unregistered users are not allowed to contribute and the idea itself doesn’t feel natural to me. It seems such an artificial restriction and that never amounts to a good thing. And that was one of more promising ones.
+ </p>
+ <p>
+  I ran out of my own ideas long time ago. Any ideas you might have are therefore more than welcome.
+ </p>
+</div>
+            </div><!-- /.entry-content -->
+
+            <footer class="post-metadata">
+                <ul>
+                    <li>Published on <time datetime="2006-03-24T12:03:00+01:00">Fri 24 March 2006</time> </li>
+                    <li><a href="../localized-interfaces-in-globalized-world.html">Add your comment</a></li>
+                </ul>
+            </footer>
+        </article>
+        <article class="hentry">
+            <h1 class="entry-title storytitle"><a href="../customizable-interfaces.html" rel="bookmark" title="Permalink to Customizable interfaces">Customizable interfaces</a></h1>
+
+            <div class="entry-content post-text">
+                <div>
+ <p>
+  There’s a vast number of potential Marela features that we are able, but not willing to implement, since they are detrimental to our design goals. There are also many, which we are willing and will implement, but it doesn’t change the fact that there will always be parts where we won’t compromise.
+ </p>
+ <p>
+  Still, even though it seems natural that benefits to many should be more important than benefits to few, I never got quite comfortable with this. That’s why we also want to make Marela as open as possible to let our members customize it without affecting other people.
+ </p>
+ <p>
+  First, there are public APIs. They tend to work well for building new tools or interfaces, but offer little help in customizing existing ones. Which is what our users want most of the time.
+ </p>
+ <p>
+  Every modern browser lets users define a custom style sheet to change the presentation of websites. That’s why we recently added ID to body element, which lets users more
+  <a href="http://archivist.incutio.com/viewlist/css-discuss/13291">
+   easily customize
+  </a>
+  the look of Marela alone.
+ </p>
+ <p>
+  Then there are tools like
+  <a href="http://greasemonkey.mozdev.org/">
+   Greasemonkey
+  </a>
+  , which let proficient users using Mozilla based browsers customizing existing interfaces. Greasemonkey works quite well, if you’re proficient in Javascript.
+ </p>
+ <p>
+  I think the biggest problem with Greasemonkey (and custom CSS for that matter) is that it’s tied to a browser and a computer. If you change either of them, your customization won’t work anymore without significant effort on your part. Sometimes, in restricted environments, it’s not even possible to make it work. It’s a bit easier to make and transfer CSS customizations, but you’re still forced to carry your file around.
+ </p>
+ <p>
+  I’m not too bothered with CSS. I simply don’t see much need for it beyond what Marela’s design and modern browsers already offer and I’m still biased against skin-deep themes offered by some programs. In any case a possible solution for it would be practically the same as what I have in mind for a case that does trouble me.
+ </p>
+ <p>
+  Idea is pretty simple. Define javascript hooks that get called after window.onload event when they exist. If there’s an easy way to add your javascript file to a page (say, by uploading it to our server), then you can create a simple, but cross-browser and cross-computer Greasemonkey.
+ </p>
+ <p>
+  Question that remains is, is this appealing enough for you to use it?
+ </p>
+</div>
+            </div><!-- /.entry-content -->
+
+            <footer class="post-metadata">
+                <ul>
+                    <li>Published on <time datetime="2006-03-23T20:32:00+01:00">Thu 23 March 2006</time> </li>
+                    <li><a href="../customizable-interfaces.html">Add your comment</a></li>
+                </ul>
+            </footer>
+        </article>
+        <article class="hentry">
             <h1 class="entry-title storytitle"><a href="../universal-encoding-detector.html" rel="bookmark" title="Permalink to Universal Encoding Detector">Universal Encoding Detector</a></h1>
 
             <div class="entry-content post-text">
@@ -116,75 +205,13 @@ body > footer .mini-logo {display: inline-block;width:97px;height:32px;border:0;
                 </ul>
             </footer>
         </article>
-        <article class="hentry">
-            <h1 class="entry-title storytitle"><a href="../messing-with-other-peoples-code.html" rel="bookmark" title="Permalink to Messing with other people's code">Messing with other people's code</a></h1>
-
-            <div class="entry-content post-text">
-                <div>
- <p>
-  Years ago I published my first code and I still remember the anxiety. Will people notice that I’m an incompetent idiot or do they already know?
- </p>
- <p>
-  I grew up a lot since then and these days I know I’m not a great programmer. Even more importantly, I’m comfortable with this. But as I was reading
-  <a href="http://vobject.skyhouseconsulting.com/">
-   vobject’s
-  </a>
-  code to see how difficult it would be to add support for vCard 2.1 and hCard, it dawned on me… Jeffrey is a much better programmer than me and there’s little hope that my yet-nonexistent contribution won’t spoil his code.
- </p>
- <p>
-  Nasty. Something new to worry about.
- </p>
-</div>
-            </div><!-- /.entry-content -->
-
-            <footer class="post-metadata">
-                <ul>
-                    <li>Published on <time datetime="2006-03-14T22:19:00+01:00">Tue 14 March 2006</time> </li>
-                    <li><a href="../messing-with-other-peoples-code.html">Add your comment</a></li>
-                </ul>
-            </footer>
-        </article>
-        <article class="hentry">
-            <h1 class="entry-title storytitle"><a href="../reusability-of-css-based-designs-a-myth.html" rel="bookmark" title="Permalink to Reusability of css based designs - a myth?">Reusability of css based designs - a myth?</a></h1>
-
-            <div class="entry-content post-text">
-                <div>
- <p>
-  Have you ever created a new design for an existing website without changing XHTML templates?
- </p>
- <p>
-  I’m not talking about designs for
-  <a href="http://www.csszengarden.com/">
-   css Zen Garden
-  </a>
-  and its imitators or any other occasion where doing so was done to prove a point. What I mean is building a new design on existing XHTML template during normal course of action.
- </p>
- <p>
-  I haven’t and I don’t know anyone who did. It’s also hard to imagine being otherwise if designs are done without taking existing XHTML into account. There’s always an element missing for attaching a part of your design to, unless XHTML was somewhat loose to begin with.
- </p>
- <p>
-  I don’t think this is a problem. There are plenty of real benefits to table-less designs and few, if any deficiencies. However, I do believe that this benefit, touted by many including me, is contrived.
- </p>
- <p>
-  Or am I just wrong? What’s your experience?
- </p>
-</div>
-            </div><!-- /.entry-content -->
-
-            <footer class="post-metadata">
-                <ul>
-                    <li>Published on <time datetime="2006-03-14T10:18:00+01:00">Tue 14 March 2006</time> </li>
-                    <li><a href="../reusability-of-css-based-designs-a-myth.html">Add your comment</a></li>
-                </ul>
-            </footer>
-        </article>
 
 <ul class="paginator">
 		<li class="newer">
         <a href="../author/markos74.html">&laquo; Newer</a>
 		</li>
 		<li class="current">
-    75 / 118
+    75 / 119
 		</li>
 		<li class="older">
         <a href="../author/markos76.html">Older &raquo;</a>

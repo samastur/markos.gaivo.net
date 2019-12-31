@@ -85,6 +85,67 @@ body > footer .mini-logo {display: inline-block;width:97px;height:32px;border:0;
     </nav>
 
         <article class="hentry">
+            <h1 class="entry-title storytitle"><a href="./changing-the-name-attribute-of-input-elements-in-explorer.html" rel="bookmark" title="Permalink to Changing the name attribute of INPUT elements in Explorer">Changing the name attribute of INPUT elements in Explorer</a></h1>
+
+            <div class="entry-content post-text">
+                <div>
+ <p>
+  Another day, another Internet Explorer problem.
+ </p>
+ <p>
+  You
+  <a href="http://msdn.microsoft.com/workshop/author/dhtml/reference/properties/name_2.asp">
+   can’t
+  </a>
+  set a
+  <em>
+   name
+  </em>
+  attribute on elements created with
+  <em>
+   createElement
+  </em>
+  method. You either have to provide the name when executing the method in true IE-only fashion (see example on linked page) or have to use some other method of creation like more widely usable but still non-standard
+  <em>
+   innerHTML
+  </em>
+  .
+ </p>
+</div>
+            </div><!-- /.entry-content -->
+
+            <footer class="post-metadata">
+                <ul>
+                    <li>Published on <time datetime="2006-07-10T14:53:00+02:00">Mon 10 July 2006</time> </li>
+                    <li><a href="./changing-the-name-attribute-of-input-elements-in-explorer.html">Add your comment</a></li>
+                </ul>
+            </footer>
+        </article>
+        <article class="hentry">
+            <h1 class="entry-title storytitle"><a href="./changing-the-type-of-input-elements-in-explorer.html" rel="bookmark" title="Permalink to Changing the type of INPUT elements in Explorer">Changing the type of INPUT elements in Explorer</a></h1>
+
+            <div class="entry-content post-text">
+                <div>
+ <p>
+  Building XHTML using DOM methods is annoying as it is without strange errors making things worse. Today I stumbled on a new problem when testing improved organizer in Internet Explorer.
+ </p>
+ <p>
+  If you are creating INPUT elements with non-default types (that is other than text input), then you have to change their type BEFORE you attach them to document tree. Otherwise Explorer might complain.
+ </p>
+ <p>
+  I haven’t had time to test this  sufficiently and frankly I’d rather do something else on Sunday evening, so there might be some cases where above doesn’t hold true. But if you find yourself looking at such an error, it doesn’t hurt to try my remedy.
+ </p>
+</div>
+            </div><!-- /.entry-content -->
+
+            <footer class="post-metadata">
+                <ul>
+                    <li>Published on <time datetime="2006-07-09T21:42:00+02:00">Sun 09 July 2006</time> </li>
+                    <li><a href="./changing-the-type-of-input-elements-in-explorer.html">Add your comment</a></li>
+                </ul>
+            </footer>
+        </article>
+        <article class="hentry">
             <h1 class="entry-title storytitle"><a href="./pickup-photo-uploader.html" rel="bookmark" title="Permalink to Pickup Photo Uploader">Pickup Photo Uploader</a></h1>
 
             <div class="entry-content post-text">
@@ -131,82 +192,13 @@ body > footer .mini-logo {display: inline-block;width:97px;height:32px;border:0;
                 </ul>
             </footer>
         </article>
-        <article class="hentry">
-            <h1 class="entry-title storytitle"><a href="./flashaid.html" rel="bookmark" title="Permalink to FlashAid">FlashAid</a></h1>
-
-            <div class="entry-content post-text">
-                <div>
- <p>
-  Ever since I listened to Andy Clarke’s talk at @media, I’ve been convinced that what we’re missing is a simple way to distinguish between visitors which need accessible version of the site and those who would prefer to use a non-accessible version.
- </p>
- <p>
-  I still think that by and large sites should be made accessible to everyone and done so completely. But just as Braille signs are used only by those who need them, there’s no reason why everyone should be using the same user interface when not doing so can be beneficial.
- </p>
- <p>
-  Those who’ve been dabbling with Javascript and AJAX for a while have probably noticed that it can be very difficult if often not impossible to make every piece of interface accessible. A common approach was to add javascript as a layer on top of an accessible website, which could be turned off when necessary. I find this a rather blunt instrument, since all or nothing approach removes even pieces that may be useful and accessible. Yet, there didn’t seem to be a better way.
- </p>
- <p>
-  Accessibility preference would ideally be provided by a browser in a way that can be picked up with Javascript (environment variable?), but lacking that, I was looking for a way to signal such preference through user defined CSS. My idea was to define a syntactically valid, but normally not used combination of a page element, CSS property and its value that could be interpreted as a switch for accessible version of the site.
- </p>
- <p>
-  Well, now
-  <a href="http://osflash.org/flashaid">
-   there’s
-  </a>
-  another way to learn if screen reader is used (
-  <a href="http://domscripting.com/blog/display/77#comment-container">
-   via
-  </a>
-  Jeremy Keith), which uses Flash 8 and its JS-Flash bridge to read if such a device is present. Obviously its use is not universal, but it covers scenario that troubles me most.
- </p>
- <p>
-  Still a real fix would be a better support from user agents. It doesn’t seem to be that hard to add an environment variable and a preference switch, so is there some other reason why it hasn’t happened yet?
- </p>
-</div>
-            </div><!-- /.entry-content -->
-
-            <footer class="post-metadata">
-                <ul>
-                    <li>Published on <time datetime="2006-07-04T11:21:00+02:00">Tue 04 July 2006</time> </li>
-                    <li><a href="./flashaid.html">Add your comment</a></li>
-                </ul>
-            </footer>
-        </article>
-        <article class="hentry">
-            <h1 class="entry-title storytitle"><a href="./snooping-on-customization.html" rel="bookmark" title="Permalink to Snooping on customization">Snooping on customization</a></h1>
-
-            <div class="entry-content post-text">
-                <div>
- <p>
-  You know you have a busy week when you don’t get around to posting a couple of sentences short note.
- </p>
- <p>
-  It’s been great seeing that Microsoft
-  <a href="http://blogs.msdn.com/jensenh/archive/2006/06/27/648269.aspx">
-   proved
-  </a>
-  what I’ve been saying all along. Customization can be a problem especially when it benefits few on account of many.
- </p>
- <p>
-  On the other hand, does anyone wonder HOW do they know all that?
- </p>
-</div>
-            </div><!-- /.entry-content -->
-
-            <footer class="post-metadata">
-                <ul>
-                    <li>Published on <time datetime="2006-06-30T22:35:00+02:00">Fri 30 June 2006</time> </li>
-                    <li><a href="./snooping-on-customization.html">Add your comment</a></li>
-                </ul>
-            </footer>
-        </article>
 
 <ul class="paginator">
 		<li class="newer">
         <a href="./index56.html">&laquo; Newer</a>
 		</li>
 		<li class="current">
-    57 / 118
+    57 / 119
 		</li>
 		<li class="older">
         <a href="./index58.html">Older &raquo;</a>

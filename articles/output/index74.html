@@ -85,6 +85,80 @@ body > footer .mini-logo {display: inline-block;width:97px;height:32px;border:0;
     </nav>
 
         <article class="hentry">
+            <h1 class="entry-title storytitle"><a href="./outage.html" rel="bookmark" title="Permalink to Outage">Outage</a></h1>
+
+            <div class="entry-content post-text">
+                <div>
+ <p>
+  This blog and other content of less dubious nature were inaccessible in last three days. A freak, previously unseen and therefore unforeseen scenario happened where two disks forming RAID-1, which haven’t shown a single sign of a problem, suddenly died simultaneously. As has been noted, a million to one chance scenarios crop up 9 times out of 10, so firm steps have been taken to prevent something like this from occurring ever again.
+ </p>
+ <p>
+  I’ve also rediscovered how I detest system administration and I’m happy to have competent friends to absolve me from it. I used to earn a part of my salary doing such work, which reminds me a lot of the war. Prolonged periods of preparations and shear boredom are pierced with short episodes full of adrenaline and occasionally terror of a fuck-up.
+ </p>
+ <p>
+  Another lesson form another unexpected discovery. I missed my blog as much as I did my email. A sad discovery indeed, showing I don’t prefer listening over talking as much as I should. However, there’s a silver lining in knowing that I haven’t longed for either too much.
+ </p>
+ <p>
+  So, this is it. Everything should be back to normal, but if you find a dead link or something not working quite as it should, I’d appreciate a line or two describing the problem.
+ </p>
+</div>
+            </div><!-- /.entry-content -->
+
+            <footer class="post-metadata">
+                <ul>
+                    <li>Published on <time datetime="2006-04-01T14:12:00+02:00">Sat 01 April 2006</time> </li>
+                    <li><a href="./outage.html">Add your comment</a></li>
+                </ul>
+            </footer>
+        </article>
+        <article class="hentry">
+            <h1 class="entry-title storytitle"><a href="./sgmllibpy-parser-woes.html" rel="bookmark" title="Permalink to sgmllib.py parser woes">sgmllib.py parser woes</a></h1>
+
+            <div class="entry-content post-text">
+                <div>
+ <p>
+  Does anybody have problems with sgmllib.py?
+ </p>
+ <p>
+  After I spent way too much time hunting a bug in my code, I gave up, read the
+  <em>
+   goahead
+  </em>
+  function in
+  <em>
+   sgmllib.py
+  </em>
+  and I’m certain now that its parser is broken.
+ </p>
+ <p>
+  Let’s say you’re handling a web page with inline Javascript code which also includes HTML tags. Even if you use a
+  <em>
+   setliteral
+  </em>
+  method to skip processing data inside
+  <em>
+   &lt;script&gt;
+  </em>
+  tags,
+  <em>
+   sgmllib.py
+  </em>
+  will start doing so when it encounters first &lt;/. It interprets this as a start of an end tag and tries  to close it. Even though code handles cases of known and unknown tags, it fails to do the right thing because it simply doesn’t expect a scenario where this isn’t a tag at all.
+ </p>
+ <p>
+  The other possibility is that I’m simply a dolt who should do stuff like this only when rested. By the way, where’s the proper place to make an ass out of myself complaining about standard library?
+ </p>
+</div>
+            </div><!-- /.entry-content -->
+
+            <footer class="post-metadata">
+                <ul>
+                    <li>Published on <time datetime="2006-03-28T20:51:00+02:00">Tue 28 March 2006</time> </li>
+                    <li><a href="./sgmllibpy-parser-woes.html">Add your comment</a></li>
+                </ul>
+            </footer>
+        </article>
+        <article class="hentry">
             <h1 class="entry-title storytitle"><a href="./single-post-trackback-spam.html" rel="bookmark" title="Permalink to Single post trackback spam">Single post trackback spam</a></h1>
 
             <div class="entry-content post-text">
@@ -112,102 +186,13 @@ body > footer .mini-logo {display: inline-block;width:97px;height:32px;border:0;
                 </ul>
             </footer>
         </article>
-        <article class="hentry">
-            <h1 class="entry-title storytitle"><a href="./localized-interfaces-in-globalized-world.html" rel="bookmark" title="Permalink to Localized interfaces in globalized world">Localized interfaces in globalized world</a></h1>
-
-            <div class="entry-content post-text">
-                <div>
- <p>
-  There’s an issue I’ve been struggling with for months now. Well, more than a year really. We built Marela so it would be used in Slovenia by people preferring Slovene language over the others. It’s not the only distinguishing point from similar services found on the web, but it’s an important one.
- </p>
- <p>
-  However, Internet and low fares airlines certainly shrank our planet and it’s not uncommon for many of us to have friends who don’t speak our language but with whom we’d still like to share parts of our lives and our creations. And this is a problem for Marela, which was (also) built to fill this need of sharing.
- </p>
- <p>
-  It’s simply not possible to use Marela in any language but Slovene.
- </p>
- <p>
-  We decided to do this to avoid Orkut syndrome, where brazilian users (legitimately) subverted  a global service into a mostly Portuguese speaking one. We didn’t want to risk making our site unfriendly to Slovene-only speaking members by creating an environment in which a large portion of our community neither could or would speak Slovene.
- </p>
- <p>
-  I believe our interfaces are mostly self-explanatory and easy to use, but it’s difficult to tell how challenging they are for those who don’t speak their language. Judging by personal experience in using a dutch Windows 95 years ago, I’d say they are probably not easy enough.
- </p>
- <p>
-  So, what can be done?
- </p>
- <p>
-  There was an idea to enforce Slovene only for logged in users, but this can work only as long as unregistered users are not allowed to contribute and the idea itself doesn’t feel natural to me. It seems such an artificial restriction and that never amounts to a good thing. And that was one of more promising ones.
- </p>
- <p>
-  I ran out of my own ideas long time ago. Any ideas you might have are therefore more than welcome.
- </p>
-</div>
-            </div><!-- /.entry-content -->
-
-            <footer class="post-metadata">
-                <ul>
-                    <li>Published on <time datetime="2006-03-24T12:03:00+01:00">Fri 24 March 2006</time> </li>
-                    <li><a href="./localized-interfaces-in-globalized-world.html">Add your comment</a></li>
-                </ul>
-            </footer>
-        </article>
-        <article class="hentry">
-            <h1 class="entry-title storytitle"><a href="./customizable-interfaces.html" rel="bookmark" title="Permalink to Customizable interfaces">Customizable interfaces</a></h1>
-
-            <div class="entry-content post-text">
-                <div>
- <p>
-  There’s a vast number of potential Marela features that we are able, but not willing to implement, since they are detrimental to our design goals. There are also many, which we are willing and will implement, but it doesn’t change the fact that there will always be parts where we won’t compromise.
- </p>
- <p>
-  Still, even though it seems natural that benefits to many should be more important than benefits to few, I never got quite comfortable with this. That’s why we also want to make Marela as open as possible to let our members customize it without affecting other people.
- </p>
- <p>
-  First, there are public APIs. They tend to work well for building new tools or interfaces, but offer little help in customizing existing ones. Which is what our users want most of the time.
- </p>
- <p>
-  Every modern browser lets users define a custom style sheet to change the presentation of websites. That’s why we recently added ID to body element, which lets users more
-  <a href="http://archivist.incutio.com/viewlist/css-discuss/13291">
-   easily customize
-  </a>
-  the look of Marela alone.
- </p>
- <p>
-  Then there are tools like
-  <a href="http://greasemonkey.mozdev.org/">
-   Greasemonkey
-  </a>
-  , which let proficient users using Mozilla based browsers customizing existing interfaces. Greasemonkey works quite well, if you’re proficient in Javascript.
- </p>
- <p>
-  I think the biggest problem with Greasemonkey (and custom CSS for that matter) is that it’s tied to a browser and a computer. If you change either of them, your customization won’t work anymore without significant effort on your part. Sometimes, in restricted environments, it’s not even possible to make it work. It’s a bit easier to make and transfer CSS customizations, but you’re still forced to carry your file around.
- </p>
- <p>
-  I’m not too bothered with CSS. I simply don’t see much need for it beyond what Marela’s design and modern browsers already offer and I’m still biased against skin-deep themes offered by some programs. In any case a possible solution for it would be practically the same as what I have in mind for a case that does trouble me.
- </p>
- <p>
-  Idea is pretty simple. Define javascript hooks that get called after window.onload event when they exist. If there’s an easy way to add your javascript file to a page (say, by uploading it to our server), then you can create a simple, but cross-browser and cross-computer Greasemonkey.
- </p>
- <p>
-  Question that remains is, is this appealing enough for you to use it?
- </p>
-</div>
-            </div><!-- /.entry-content -->
-
-            <footer class="post-metadata">
-                <ul>
-                    <li>Published on <time datetime="2006-03-23T20:32:00+01:00">Thu 23 March 2006</time> </li>
-                    <li><a href="./customizable-interfaces.html">Add your comment</a></li>
-                </ul>
-            </footer>
-        </article>
 
 <ul class="paginator">
 		<li class="newer">
         <a href="./index73.html">&laquo; Newer</a>
 		</li>
 		<li class="current">
-    74 / 118
+    74 / 119
 		</li>
 		<li class="older">
         <a href="./index75.html">Older &raquo;</a>

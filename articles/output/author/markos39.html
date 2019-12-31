@@ -86,6 +86,72 @@ body > footer .mini-logo {display: inline-block;width:97px;height:32px;border:0;
     </nav>
 
         <article class="hentry">
+            <h1 class="entry-title storytitle"><a href="../triggering-a-server-request-on-onunload-event.html" rel="bookmark" title="Permalink to Triggering a server request on onunload event">Triggering a server request on onunload event</a></h1>
+
+            <div class="entry-content post-text">
+                <div>
+ <p>
+  A while ago I tried to trigger an AJAX call to server in
+  <em>
+   onunload
+  </em>
+  handler and failed miserably. It simply didn’t work in major browsers and I filled the idea under can’t-be-done.
+ </p>
+ <p>
+  I recently got another reason to revisit this problem and came up with a new-old idea. Since in my case I don’t care about server response, I don’t actually need XMLHttpRequest. Any technique that triggers a call to server is good enough, so why not try creating an image and setting its
+  <em>
+   url
+  </em>
+  attribute to appropriate value.
+ </p>
+ <p>
+  It turns out that this works almost everywhere. It worked pretty flawlessly in Firefox, Opera and Internet Explorer, but it doesn’t work in Safari and Konqueror, which makes me think that KHTML/Webkit family of browsers in general don’t support it.
+ </p>
+ <p>
+  This is not its only limitation. Technique obviously works only for GET calls, which is frowned upon and generally dangerous for actions that change state. I also suspect it works less well on slower computers or networks so you might need to delay event handler ending by buying some time with needless processing after you’ve set
+  <em>
+   url
+  </em>
+  attribute.
+ </p>
+ <p>
+  Still, it might be another useful hack to have if you can live with its limitations.
+ </p>
+</div>
+            </div><!-- /.entry-content -->
+
+            <footer class="post-metadata">
+                <ul>
+                    <li>Published on <time datetime="2008-03-26T16:32:00+01:00">Wed 26 March 2008</time> </li>
+                    <li><a href="../triggering-a-server-request-on-onunload-event.html">Add your comment</a></li>
+                </ul>
+            </footer>
+        </article>
+        <article class="hentry">
+            <h1 class="entry-title storytitle"><a href="../javascript-events-drugic.html" rel="bookmark" title="Permalink to Javascript events - drugi??">Javascript events - drugi??</a></h1>
+
+            <div class="entry-content post-text">
+                <div>
+ <p>
+  <a href="javascript-events.html" title="Prejšnja najava">
+   Moje predavanje
+  </a>
+  o Javascript events, ki je odpadlo pred dvema tednoma, bo na sporedu danes. Isti kraj in ??as — ob 19h v Kiberpipi.
+ </p>
+ <p>
+  Bralcem se opravi??ujem za pozno sporo??ilo, ki vsaj upam vseeno ni prepozno.
+ </p>
+</div>
+            </div><!-- /.entry-content -->
+
+            <footer class="post-metadata">
+                <ul>
+                    <li>Published on <time datetime="2008-03-05T11:12:00+01:00">Wed 05 March 2008</time> </li>
+                    <li><a href="../javascript-events-drugic.html">Add your comment</a></li>
+                </ul>
+            </footer>
+        </article>
+        <article class="hentry">
             <h1 class="entry-title storytitle"><a href="../javascript-events.html" rel="bookmark" title="Permalink to Javascript events">Javascript events</a></h1>
 
             <div class="entry-content post-text">
@@ -123,70 +189,13 @@ body > footer .mini-logo {display: inline-block;width:97px;height:32px;border:0;
                 </ul>
             </footer>
         </article>
-        <article class="hentry">
-            <h1 class="entry-title storytitle"><a href="../javascript-objekti.html" rel="bookmark" title="Permalink to Javascript objekti">Javascript objekti</a></h1>
-
-            <div class="entry-content post-text">
-                <div>
- <p>
-  Naslednji teden, v sredo, predavam na
-  <a href="http://web.zen.si/">
-   Spletnih uricah
-  </a>
-  v
-  <a href="http://www.kiberpipa.org/">
-   Kiberpipi
-  </a>
-  . Tema predavanja bodo objekti v Javascriptu. Žal sem med pripravami ugotovil, da je tokratna tema ne le obširna, ampak verjetno tudi preobširna za eno predavanje. Zato prosim morebitne obiskovalce, da mi v komentarjih pustijo oceno, kako dolgo predavanje še ni predolgo in ??esa si ne želijo slišati? Dobrodošle so seveda tudi vse želje, vprašanja in pripombe.Na vsem odprto predavanje brez vstopnine ste vabljeni vsi, ki vas tema zanima in bi želeli izvedeti ve??. Osnovno znanje Javascripta ali njemu podobnega jezika (C, PHP…) je zaželjeno.
- </p>
-</div>
-            </div><!-- /.entry-content -->
-
-            <footer class="post-metadata">
-                <ul>
-                    <li>Published on <time datetime="2008-01-19T16:05:00+01:00">Sat 19 January 2008</time> </li>
-                    <li><a href="../javascript-objekti.html">Add your comment</a></li>
-                </ul>
-            </footer>
-        </article>
-        <article class="hentry">
-            <h1 class="entry-title storytitle"><a href="../g1g1-is-in-the-house.html" rel="bookmark" title="Permalink to G1G1 is in the house">G1G1 is in the house</a></h1>
-
-            <div class="entry-content post-text">
-                <div>
- <p>
-  It’s here. After months of hoping and weeks of waiting, little white-green computer is finally here, on my desk:
-  <br/>
-  <a class="imageL" href="http://www.marela.si/photos/20257">
-   <img alt="XO" src="http://static.marela.si/users0/markos/2/c6yTQyOe_QdCrt4q55QsRpZBUO0.jpg"/>
-  </a>
-  <a class="imageL" href="http://www.marela.si/photos/20256">
-   <img alt="XO with Powerbook G4" src="http://static.marela.si/users0/markos/2/1L7zJkVx0em0P8PaV3Y_-cNX788.jpg"/>
-  </a>
- </p>
- <p style="clear:left">
-  It’s too early for anything but first impressions, but unlike some people mine are completely positive. This doesn’t mean everything works. It doesn’t like WPA-enabled wifi in our flat. Some parts are a bit flaky or unfinished. But on the whole I haven’t found problems yet that weren’t already documented on project’s wiki and in general it certainly works better than I expected.
- </p>
- <p>
-  Time will tell if this infatuation will last, although I don’t see why not, since it offers everything I hoped for my projects. As a side note, if you live in Slovenia and someone sends you G1G1, be prepared to pay VAT also for the one that was bought abroad and shipped elsewhere. Yet another thing beyond my comprehension.
- </p>
-</div>
-            </div><!-- /.entry-content -->
-
-            <footer class="post-metadata">
-                <ul>
-                    <li>Published on <time datetime="2008-01-07T23:22:00+01:00">Mon 07 January 2008</time> </li>
-                    <li><a href="../g1g1-is-in-the-house.html">Add your comment</a></li>
-                </ul>
-            </footer>
-        </article>
 
 <ul class="paginator">
 		<li class="newer">
         <a href="../author/markos38.html">&laquo; Newer</a>
 		</li>
 		<li class="current">
-    39 / 118
+    39 / 119
 		</li>
 		<li class="older">
         <a href="../author/markos40.html">Older &raquo;</a>

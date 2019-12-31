@@ -85,6 +85,177 @@ body > footer .mini-logo {display: inline-block;width:97px;height:32px;border:0;
     </nav>
 
         <article class="hentry">
+            <h1 class="entry-title storytitle"><a href="./missing-referrers.html" rel="bookmark" title="Permalink to Missing refer(r)ers">Missing refer(r)ers</a></h1>
+
+            <div class="entry-content post-text">
+                <div>
+ <p>
+  I was talking to my wife today about why an “Unknown Source” is becoming the most common source of visits on
+  <a class="zem_slink" href="http://flickr.com" rel="homepage" title="Flickr">
+   Flickr
+  </a>
+  . My guess is that it is almost certainly because a
+  <a class="zem_slink" href="http://en.wikipedia.org/wiki/HTTP_referrer" rel="wikipedia" title="HTTP referrer">
+   <em>
+    Referer
+   </em>
+  </a>
+  header field is missing in page requests and Flickr is only relying on presence of this piece of data to discern sources. This might have made sense when browsers ruled the web, but we don’t live then anymore.
+ </p>
+ <p>
+  Simply put referrer field
+  <a href="http://tools.ietf.org/html/rfc2616#section-14.36" title="Link to Referer field definition">
+   can be added
+  </a>
+  to request only when request was triggered from source which also has an
+  <a class="zem_slink" href="http://en.wikipedia.org/wiki/Uniform_Resource_Identifier" rel="wikipedia" title="Uniform Resource Identifier">
+   URI
+  </a>
+  address. Every web page has it since its address is also an URI, but most programs don’t.
+ </p>
+ <p>
+  That’s why referrers aren’t missing only from visitors using paranoid browsers or security software that stripped it out of requests, but also when page is visited from a link embedded in emails or instant messages.
+ </p>
+ <p>
+  Requests without referrers used to present a small enough subset of visits that most of us didn’t care. I first noticed this changing when Twitter clients became popular and now there are tons of apps behaving like this. With
+  <a href="http://www.w3.org/TR/XMLHttpRequest2/" title="Link to specification">
+   XMLHttpRequest Level 2
+  </a>
+  ﻿ even web developers will get a choice of making anonymous requests which won’t include potentially private data like referrers.
+ </p>
+ <p>
+  That’s nice. I have certainly visited places which I wouldn’t want to share with strangers. But I suspect this is not the common case and most of the time we don’t care telling which page or application sent us there.
+ </p>
+ <p>
+  Nobody can precisely predict future so specifications can never be perfect. But I am always amazed when reading core web specs like HTTP’s how insightful their authors were. That most programs don’t have a URI does not mean that they couldn’t. Practically anything can and definitely more things should.
+ </p>
+ <p>
+  In principle it is possible for each program to have its own address which could be used as referrer
+  <em>
+   when a better option doesn’t exist
+  </em>
+  . I suspect this would be against the spirit of specification, but likely not against its text.
+ </p>
+ <p>
+  However better options often do exist. Lets take
+  <a class="zem_slink" href="http://twitter.com" rel="homepage" title="Twitter">
+   Twitter
+  </a>
+  as a popular example. Every link that triggers a visit from Twitter was included in at least one tweet and every tweet is also published on web. It might not be accessible to everyone, but it does have an address. I see no reason why that address could not be used as referrer by Twitter clients.
+ </p>
+ <p>
+  It is originating content or its address that interest me, but really, almost anything truthful beats an unknown source. Just knowing name of the service (like Twitter) or app used (e.g. Tweetdeck) would be better than nothing. By the way there is another header field that could provide such insight:
+  <em>
+   User-Agent
+  </em>
+  . Sadly it is notoriously unreliable and often missing as well, but that’s another long story.
+ </p>
+ <p>
+  So, if I come back to Flickr. I can’t really tell how much Flickr can or could know. I suspect more than it tells, but I would be astonished if they are not mostly in the dark too. Web was largely built by people too busy (and often too lazy) not to cut corners. Meaning: learning and doing as little as possible to get something to work and sometimes we pay price for our ignorance. But it’s a small price compared to waiting for
+  <a href="http://en.wikipedia.org/wiki/Project_Xanadu" title="Description of project Xanadu on Wikipedia">
+   Xanadu
+  </a>
+  .
+ </p>
+</div>
+            </div><!-- /.entry-content -->
+
+            <footer class="post-metadata">
+                <ul>
+                    <li>Published on <time datetime="2011-09-20T18:29:00+02:00">Tue 20 September 2011</time> </li>
+                    <li><a href="./missing-referrers.html">Add your comment</a></li>
+                </ul>
+            </footer>
+        </article>
+        <article class="hentry">
+            <h1 class="entry-title storytitle"><a href="./address.html" rel="bookmark" title="Permalink to "><address></a></h1>
+
+            <div class="entry-content post-text">
+                <div>
+ <p>
+  After years of personal embarrassment I finally managed to update look and code of my website. This actually happened last week and I wanted to write this post sooner, but
+  <a href="http://supervizor.kpk-rs.si" title="Supervizor">
+   other things
+  </a>
+  came in-between. There are still bugs I need to fix (iPad footer is better than it was, but not fine), but﻿ overall I’m pretty happy with how it turned out.
+ </p>
+ <p>
+  This was a second site I built using
+  <a class="zem_slink" href="http://www.w3.org/TR/css3-mediaqueries/" rel="homepage" title="media queries">
+   media queries
+  </a>
+  and I learned lots. When I learn a bit more about mobile web, I might write a post about few gotchas for new developers, but this is not that post. This post is about
+  <code>
+   &lt;address&gt;
+  </code>
+  tag because it bugged me when I made that first design and I spent a remarkable amount of time on it again.
+ </p>
+ <p>
+  My problem with it came down to its definition.
+  <code>
+   &lt;address&gt;
+  </code>
+  can be used only to mark up contact information about content’s author. In HTML 4 this was limited to authorship of whole page. For HTML5 it
+  <a href="http://dev.w3.org/html5/spec/sections.html#the-address-element" title="Definition of &lt;address&gt; in HTML5 specification">
+   was “widened”
+  </a>
+  to authorship of sectioning element like
+  <code>
+   &lt;article&gt;
+  </code>
+  (so if you have more than one article on page, each can contain its own, different, address for its author). You can’t however mark any address with it and after lots of searching I found
+  <a href="http://lists.whatwg.org/htdig.cgi/whatwg-whatwg.org/2008-February/014023.html" title="Ian's message from February 2008">
+   this old message
+  </a>
+  from
+  <a class="zem_slink" href="http://en.wikipedia.org/wiki/Ian_Hickson" rel="wikipedia" title="Ian Hickson">
+   Ian Hickson
+  </a>
+  which explains why (I’m not aware of any later clarifications).
+ </p>
+ <p>
+  I don’t agree with everything said. Mostly correct use is not necessarily a proof of well-designed element. My bet would be that
+  <code>
+   &lt;address&gt;
+  </code>
+  was a rather unknown tag exactly because of its limited use and was thus used mostly by those that dig deeper into standards, which sound also like people who care  how things are used as expected.
+ </p>
+ <p>
+  Still most points are valid. Loosening definition would make it less meaningful.
+  <a href="http://microformats.org/wiki/hcard" title="Specification of hCard microformat">
+   There
+  </a>
+  <a href="http://microformats.org/wiki/adr" title="Specification of adr microformat">
+   are
+  </a>
+  microformats that you can use instead and most annoying problems (allowing only inline content) have been fixed. We also have better tools for parsing HTML so  it really doesn’t matter much if its definition feels completely right or not. It’s good enough.
+ </p>
+ <p>
+  At the end I still decided to mark my contact information on
+  <a href="http://markos.gaivo.net">
+   my homepage
+  </a>
+  with
+  <code>
+   &lt;address&gt;
+  </code>
+  anyhow (augmented with
+  <a class="zem_slink" href="http://en.wikipedia.org/wiki/HCard" rel="wikipedia" title="HCard">
+   hCard
+  </a>
+  ), because I am after all the sole author of this website.
+ </p>
+</div>
+            </div><!-- /.entry-content -->
+
+            <footer class="post-metadata">
+                <ul>
+                    <li>Published on <time datetime="2011-08-26T17:26:00+02:00">Fri 26 August 2011</time> </li>
+                    <li><a href="./address.html">Add your comment</a></li>
+                </ul>
+            </footer>
+        </article>
+        <article class="hentry">
             <h1 class="entry-title storytitle"><a href="./gamification-of-book-reading.html" rel="bookmark" title="Permalink to Gamification of book reading">Gamification of book reading</a></h1>
 
             <div class="entry-content post-text">
@@ -162,140 +333,13 @@ body > footer .mini-logo {display: inline-block;width:97px;height:32px;border:0;
                 </ul>
             </footer>
         </article>
-        <article class="hentry">
-            <h1 class="entry-title storytitle"><a href="./typeface-snobbism.html" rel="bookmark" title="Permalink to Typeface snobbism">Typeface snobbism</a></h1>
-
-            <div class="entry-content post-text">
-                <div>
- <p>
-  We came from
-  <a class="zem_slink" href="http://www.corse.fr/" rel="homepage" title="Corsica">
-   Corsica
-  </a>
-  vacation recently and one place we visited was Bonifiacio, a picturesque town in the south of the island. It’s a great place to visit, but if you do, try to rent an apartment in the old town itself – you might feel as a part of it.
- </p>
- <p>
-  We stayed in an apartment recently completely renovated by owners and very tastefully designed. Phillipe, our impeccably dressed host, who lived in equally tasteful apartment above us, also provided us with a page full of suggestions on what to do, where to eat and so on.
- </p>
- <p>
-  Typeface used for suggestions was
-  <a class="zem_slink" href="http://en.wikipedia.org/wiki/Comic_Sans" rel="wikipedia" title="Comic Sans">
-   Comic Sans
-  </a>
-  .
- </p>
- <p>
-  I admit I was amused at first. Here was this older gentleman showing more taste than me in everything who nevertheless used one of more despised and ridiculed
-  <a class="zem_slink" href="http://en.wikipedia.org/wiki/Typeface" rel="wikipedia" title="Typeface">
-   typefaces
-  </a>
-  around. My unconfirmed guess is that he picked it because it looks friendlier than others.
- </p>
- <p>
-  Which got me thinking how bad is Comic Sans really?
- </p>
- <p>
-  It obviously doesn’t leave people untouched, since they keep on using it when there are many choices even on most typefaces starved computers. I’ve also yet to meet a person who would hate it and was not interested in type.
- </p>
- <p>
-  Popularity does not mean it is a good typeface (whatever that actually means) just as it doesn’t make Madonna a good singer. It does however speak to people unlike so many typefaces which leave most of us simply unmoved.
- </p>
- <p>
-  Not to be contrarian, but I find it a completely reasonable choice for children party invitations. It may look ludicrous when used on warning signs, but then again every typeface gets misused for texts it wasn’t designed for.
- </p>
- <p>
-  If it happens more often to Comic Sans, it’s probably more because it is less general, less bland than, say,
-  <a class="zem_slink" href="http://en.wikipedia.org/wiki/Times_Roman" rel="wikipedia" title="Times Roman">
-   Times Roman
-  </a>
-  .
- </p>
- <p>
-  In the end I have to admit I don’t have a bigger point than simple admission I’m not affronted by it anymore. I can’t muster a will to protest or even feel annoyed. To me it has become a pop icon, something I wish to see less and in context better suited for it, but at the end harmless.
- </p>
-</div>
-            </div><!-- /.entry-content -->
-
-            <footer class="post-metadata">
-                <ul>
-                    <li>Published on <time datetime="2011-05-08T10:06:00+02:00">Sun 08 May 2011</time> </li>
-                    <li><a href="./typeface-snobbism.html">Add your comment</a></li>
-                </ul>
-            </footer>
-        </article>
-        <article class="hentry">
-            <h1 class="entry-title storytitle"><a href="./impostor-for-django.html" rel="bookmark" title="Permalink to Impostor for Django">Impostor for Django</a></h1>
-
-            <div class="entry-content post-text">
-                <div>
- <p>
-  A class of bugs I really dislike debugging are those that depend on specific data and affect only a very small subset or just one user. Things could sometimes be fixed so much faster if you could just log in as him to see what is happening. Sometimes this is exactly what we do
-  <strong>
-   with his explicit permission
-  </strong>
-  , but I really dislike asking for passwords.
- </p>
- <p>
-  First it inconveniences user. He has to come up with either a new good password or go through two password changes. Second it implicitly teaches wrong behavior. Passwords simply should never be revealed.
- </p>
- <p>
-  That is why I wrote
-  <a href="https://github.com/samastur/Impostor" title="Impostor's home at GitHub">
-   Impostor
-  </a>
-  , a Django app that allows staff members (and only them) to login with their own credentials as a different user. Idea is not mine (kudos goes to
-  <a href="http://nedbatchelder.com/blog/201008/django_superuser_login_trapdoor.html" title="Ned's post where idea comes from">
-   Ned Batchelder
-  </a>
-  ), but I like it. To discourage abuse every such authentication is recorded and can be seen in Django admin interface, but can not be altered from there.
- </p>
- <p>
-  So how does it work in practice?
- </p>
- <p>
-  Lets say that I would need to log in as user
-  <em>
-   fry
-  </em>
-  . To do this I would enter as my username
-  <em>
-   markos as fry,
-  </em>
-  provide my password and voila, I’m him. This has been recorded so anyone with access to ImpostorLog part in admin can see all such cases, mine included.
- </p>
- <p>
-  Impostor may also ease your development by removing need to remember different passwords for testing. This is usually not a problem unless you happen to develop with fake data but real accounts. Like me.
- </p>
- <p>
-  And again for morally challenged out there:
-  <strong>
-   you should never login as somebody else without his explicit permission
-  </strong>
-  .
- </p>
- <p>
-  <strong>
-   Update
-  </strong>
-  : Thanks Ross for reminding me where idea came from. I updated text accordingly.
- </p>
-</div>
-            </div><!-- /.entry-content -->
-
-            <footer class="post-metadata">
-                <ul>
-                    <li>Published on <time datetime="2011-02-22T20:11:00+01:00">Tue 22 February 2011</time> </li>
-                    <li><a href="./impostor-for-django.html">Add your comment</a></li>
-                </ul>
-            </footer>
-        </article>
 
 <ul class="paginator">
 		<li class="newer">
         <a href="./index20.html">&laquo; Newer</a>
 		</li>
 		<li class="current">
-    21 / 118
+    21 / 119
 		</li>
 		<li class="older">
         <a href="./index22.html">Older &raquo;</a>

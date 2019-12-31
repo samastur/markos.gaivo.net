@@ -85,6 +85,57 @@ body > footer .mini-logo {display: inline-block;width:97px;height:32px;border:0;
     </nav>
 
         <article class="hentry">
+            <h1 class="entry-title storytitle"><a href="./travel-and-gear.html" rel="bookmark" title="Permalink to Travel articles and gear">Travel articles and gear</a></h1>
+
+            <div class="entry-content post-text">
+                <p>We like to travel, but I avoid reading travel pieces unless we are researching for an upcoming trip as we currently are. Too much of this semi-fictional genre is snobbishly prescriptive or laughably overconfident (and sometimes both).</p>
+<p>The most annoying example of former is almost a sub-genre of writing describing the right way to travel while scolding “detractors” where right usually means backpacking for months with a small backpack and on cheap trying to meet locals. I find it especially annoying because not only do we not all travel for the same reasons, for most of us how we travel is a compromise between our wishes and abilities including available time and money. What every traveller should strive for is to minimise their negative impact on environment and visited cultures and apart from cruises there are few travel approaches that I would describe as a priori wrong. </p>
+<p>The other grating notion is the idea that spending a few months in a foreign society will result in your understanding of it. This is not true even if you are an anthropologist. More exposure rarely hurts, but I wish more people stayed humble in their interpretations of observed events. I understand English pretty well, have spent cumulatively almost two years in England, have friends there and have spent decades consuming British culture through media, books, TV, movies and music. An investment I am unlikely to be able to repeat with any culture and yet I am still not completely fluent in it. There are bits I don’t understand and frankly not all British do either as is likewise true for me and Slovenian culture.</p>
+<p>However, I find an interesting advice or insight can salvage almost anything. With this hope, here’s mine. Try watching local TV at least a bit during your travels, especially commercials. I find advertisement provides a skewed, but interesting lens on how society wants to see itself and what it finds important and profitable. Also, asking for opinions instead of facts is more likely to elicit richer answers and repeating previously answered questions to newly met people can be illuminating.</p>
+<h2>(Photo) gear</h2>
+<p>Like I said, I read articles about travel rarely except when doing research, which mostly is looking for information about specific locations and travel gear.</p>
+<p>Over the years we’ve developed check lists for all types of trips we do and got pretty good at packing, but the need to tweak our gear never goes away if for no other reason to replace worn out stuff.</p>
+<p>Few items I am almost obsessed about. Backpacks are one of them. Their designs have immensely improved over the years and I have also accepted that we need several, but I think philosophical differences between me, and backpack designers make it unlikely I will find a perfect one for multi-day treks.</p>
+<p>Trekking trousers are another. Men trousers are usually serviceable, but women’s are generally awful because of creators seemingly almost phobic fear of external pockets. If one needs to wear a jacket or take off their backpack to have access to a map or one’s phone, then they are not fit for use and most aren’t.</p>
+<p>But since we are both keen photographers, I especially try to optimise photo equipment we lug around. Last decade brought a lot of changes to gear I see used on our trips. Most casual shooters have switched to using smartphones and mirrorless cameras are replacing DSLRs among photo enthusiasts although later group may carry as much as it used to since new space and weight are now often taken by drones. Everyone uses whatever device makes desired shot the easiest (e.g.  wide panoramas tend to be taken with smartphones).</p>
+<p>Our trips usually include up to a weeklong off grid treks. It took me way too long to figure out that the best way to handle those is carry a high-capacity power bank and making sure every electrical device can be powered through USB connection. This makes everything easier also when we are back as it reduces number of cables, is generally easier to fix if something goes wrong and reduces the need to find free electrical sockets. We don’t use solar cells because they would rarely if ever be practical to us.</p>
+<p>On our last trip I tried to see how well I can do with smartphone as my only camera. Generally, I was pleased with <a href="https://www.flickr.com/photos/markos/albums/72157673205196187">the</a> <a href="https://www.flickr.com/photos/markos/albums/72157703189184404">results</a> but found phone’s lack of zoom too limiting. Which is why I have switched to iPhone X with its 2x optical zoom. Still, while better than before this is often not enough and cannot be compensated with cropping because significant crop of a 12M image does not leave many pixels even when change of perspective is not an issue.</p>
+<p>It seems new phones will add even wider lenses that are fairly useless to me as stitched panoramas are excellent and have better resolutions. I have experimented with switchable lenses from <a href="https://shiftcam.com/">ShiftCam</a>. I still love their design, but lenses themselves are of poor quality, a problem also plaguing their competitors based on published online images. Would gladly pay more for an easy to use quality zoom lens if I could find one.</p>
+<p>On the other hand, apps available for tweaking photos are often phenomenal. As an iOS user I mostly rely on built-in tools, <a href="https://itunes.apple.com/gb/app/skrwt/id834248867">SKRWT</a> for perspective corrections and <a href="https://itunes.apple.com/gb/app/touchretouch/id373311252">TouchRetouch</a> for removing unwanted items. It can feel almost magical how easy it can be to shape up a photo. I am sure equivalent tools exist also on Android platform.</p>
+<p>Nevertheless, the technical quality of these photos is still noticeably worse than those taken by our Nikon so we will continue carrying all that stuff. If only I could now find a compact travel tripod that would be easier to attach to our backpacks.</p>
+            </div><!-- /.entry-content -->
+
+            <footer class="post-metadata">
+                <ul>
+                    <li>Published on <time datetime="2019-05-30T12:19:00+02:00">Thu 30 May 2019</time> </li>
+                    <li><a href="./travel-and-gear.html">Add your comment</a></li>
+                </ul>
+            </footer>
+        </article>
+        <article class="hentry">
+            <h1 class="entry-title storytitle"><a href="./securing-web-applications.html" rel="bookmark" title="Permalink to Securing web applications">Securing web applications</a></h1>
+
+            <div class="entry-content post-text">
+                <p>I recently finished working on a project with stricter security requirements than I am used to. While my work on the project is done and I am deciding on what to do next, I keep thinking about what I did and what I could do better next time beyond following established good implementation practices. This is my attempt to jot down my (unpolished) thinking, which will be light on technical details as I am not allowed to divulge them.</p>
+<p>First thing I did was to create <a href="https://www.owasp.org/index.php/Category:Threat_Modeling">a threat model</a> for the app’s frontend. It is not something I would see done on every project, but it really should be a standard practice even if it is simplified to a “living” list of assets to protect, identified threats and planned countermeasures.</p>
+<p>An under-appreciated part of web frontend development using client-side frameworks is that practically speaking, it is not possible to secure the app you are building on your own. Every major framework depends on and installs hundreds of packages (usually more than a thousand) and it is not feasible to audit all of them and their updates. Even a smaller problem of tracking license compliance is a nightmare. Therefore, managing risk also involves managing trust in external parties.</p>
+<p>When using such frameworks is beneficial enough, I favour libraries built <strong>and in use</strong> by major tech companies such as Google and Facebook, especially if their documentation does not ignore security. They may not be better in all aspects I might care about but will have both more resources invested in their development and more likely to be properly audited as those companies present a much bigger and valuable target than companies I work with. I avoid adding 3rd party libraries as much as economically possible and when not, prefer to copy parts actually used (with license and reference to original) when only small bit of that library is needed.</p>
+<p>Loading 3rd party code directly in browser should be frowned upon. Even with modern toolbox for avoiding/limiting abuse (<a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/iframe">iframe sandboxing</a>, <a href="https://developer.mozilla.org/en-US/docs/Web/HTTP/CSP">CSP</a>…) nothing is remotely as safe as not loading unknown resources in the first place. Since this is not always possible or desirable it is best to treat them as an existing exploit of unknown severity and decide where they must be avoided and how to best manage their risk elsewhere.</p>
+<p>Similar risk is posed by browser extensions. User fingerprinting is a very good reason for trying to prevent discovery of loaded extensions, but I would still find it useful to at least know if there is <em>any</em> extension loaded that has access to my app’s contents without explicit user request.  It seems this is not possible. Admittedly this is not a wide-spread desire and most applications would not change their behaviour based on this information, but few should (e.g. banking web apps).</p>
+<p>In simpler, more naïve times we used to discuss if DOM is a good place to store state of a page. Clearly this is not a good idea for anything beyond storing state of UI controls and even then, every change should be reflected on screen with an appropriate user notification (change transition, alert…). I remain undecided on how much uni-directional data flow helps with security, but it does some, similarly to how private class properties do and I find it easier to track possible attack points, if interface is a rendered reflection of application’s state and I can focus my attention on interactive parts with which user changes it.</p>
+<p>Protecting code and data from nosy scripts with Javascript closures is already effectively done by frameworks and rarely requires manual intervention. This is mostly enough, but an unsolved problem for me was to keep data private and survive a browser window reload as I can only do one with any kind of certainty. I am reasonably sure this is not possible since every available storage is also available to other scripts as is requesting data from server without authentication.</p>
+<p><a href="https://developer.mozilla.org/en-US/docs/Web/API/Window/sessionStorage">sessionStorage</a> is preferred to localStorage. Any personal data should be removed with sessions that shouldn’t be long either.</p>
+<p>It would be nice, if all my research and effort provided me with more comfort than they do. Maybe fear is just the price paid for remaining vigilant.</p>
+            </div><!-- /.entry-content -->
+
+            <footer class="post-metadata">
+                <ul>
+                    <li>Published on <time datetime="2019-05-14T18:01:00+02:00">Tue 14 May 2019</time> </li>
+                    <li><a href="./securing-web-applications.html">Add your comment</a></li>
+                </ul>
+            </footer>
+        </article>
+        <article class="hentry">
             <h1 class="entry-title storytitle"><a href="./2018-review.html" rel="bookmark" title="Permalink to 2018 review">2018 review</a></h1>
 
             <div class="entry-content post-text">
@@ -108,72 +159,13 @@ body > footer .mini-logo {display: inline-block;width:97px;height:32px;border:0;
                 </ul>
             </footer>
         </article>
-        <article class="hentry">
-            <h1 class="entry-title storytitle"><a href="./books-i-read-in-2018.html" rel="bookmark" title="Permalink to Books I read in 2018">Books I read in 2018</a></h1>
-
-            <div class="entry-content post-text">
-                <p>…were too few. Even worse than 2016 from which I lifted this post’s beginning. At least none of them were duds. All of them are worth reading, but I reserved bold for those that are not too niche.</p>
-<p>Links lead to Smile Amazon. I still get nothing from referrals, but at least some charity might get few cents instead of also nothing. Brodeck Report is lacking a link because graphic novel has not been translated to English yet. Book titles are in the languages in which I read them.</p>
-<p>The list:</p>
-<ul>
-<li><a href="https://smile.amazon.com/Magic-Watches-Smart-Introduction-Watchmaking/dp/2940506124/">The Magic of Watches</a> by Louis Nardin. A very fine introduction to the world of (wrist)watches and one of the best designed books I own. A very good introduction for already interested that is at its weakest when it is trying to sell you this hobby, but more than makes up for it elsewhere.</li>
-<li><strong><a href="https://smile.amazon.com/Platero-Spanish-Juan-Ramon-Jim%C3%A9nez/dp/9706665641/ref=smi_www_rco2_go_smi_g2609328962?_encoding=UTF8&amp;%2AVersion%2A=1&amp;%2Aentries%2A=0&amp;ie=UTF8">Platero y Yo</a> by Juan Ramon Jiménez</strong>. Bittersweet stories about author's friendship with a donkey. Above my Spanish level and will have to read it again some day. Lovely prose where my understanding was not too foggy.</li>
-<li><strong>Brodeckovo poročilo (Brodeck Report) by Manu Larcenet</strong>. A fantastic graphic novel based on a novel by Philippe Claudel about difference and intolerance in a village near French-German border soon after WW2. Wonderfully drawn and impactful, it would be difficult to imagine it is not doing justice to original material which I have not read yet.</li>
-<li><a href="https://smile.amazon.com/Architecting-Angular-Applications-Redux-RxJS/dp/1787122409/">Architecting Angular Applications with Redux, RxJS, and NgRx</a> by Christoffer Noring. I have mixed feelings about this book. It is a good introduction to the topic, but I am still not persuaded about the approach. I have some qualms about organisation of the content as the book seems to be confused about who its audience is and certainly about many technical mistakes in code samples, but I would still recommend it as the best introduction to those who need to get acquainted with its topic.</li>
-<li><strong><a href="https://smile.amazon.com/Mistletoe-Murder-Other-Stories/dp/1101973803/">The Mistletoe Murder and Other Stories</a> by P.D. James</strong>. Judging by this book P.D. James deserved her high reputation. Crime stories best read around Christmas, all of them superbly conceived and written. Highly recommended.</li>
-</ul>
-<p>My plan for this year is simply to get into a habit of reading books again with a healthy mixture of fiction and non-fiction. No particular number in mind, but single digit would be disappointing as it would mean I again wasted too much stuff on mostly short fluff found on the net.</p>
-<p>It would be great, if I managed to rise to last year’s challenge of reading a book in each to me  familiar language, but probably won’t.</p>
-<h3>Related articles</h3>
-<ul>
-<li><a href="./books-i-read-in-2017.html">Book I read in 2017</a></li>
-<li><a href="./books-i-read-in-2016.html">Book I read in 2016</a></li>
-<li><a href="./books-i-read-in-2015.html">Book I read in 2015</a></li>
-<li><a href="./books-i-read-in-2014.html">Book I read in 2014</a></li>
-<li><a href="./the-books-i-read-in-2013.html">Book I read in 2013</a></li>
-</ul>
-            </div><!-- /.entry-content -->
-
-            <footer class="post-metadata">
-                <ul>
-                    <li>Published on <time datetime="2019-01-01T22:50:30+01:00">Tue 01 January 2019</time> </li>
-                    <li><a href="./books-i-read-in-2018.html">Add your comment</a></li>
-                </ul>
-            </footer>
-        </article>
-        <article class="hentry">
-            <h1 class="entry-title storytitle"><a href="./privacy-policy.html" rel="bookmark" title="Permalink to Privacy policy">Privacy policy</a></h1>
-
-            <div class="entry-content post-text">
-                <p>I recently worked on GDPR compliance for a client which made me think about privacy policy for my own website. As a non-commercial outlet for my personal musings it is most likely exempt from GDPR under <a href="http://www.privacy-regulation.eu/en/article-2-material-scope-GDPR.htm">Article 2</a>, but while it may not be required, it is not redundant.</p>
-<p>Unlike most articles here this one should be a living document that I will strive to keep current. Let me know if you find it lacking.</p>
-<h2>Summary</h2>
-<p>This website does not intentionally track you. Your internet address gets logged for a few weeks, but is unlikely to identify you. No other information about you is stored on my server or shared with anyone.</p>
-<p>Comments are hosted from a separate domain and store a cookie in your browser only if you add a comment.</p>
-<p>If you find any inconsistencies or have questions regarding your privacy while visiting this website, then please <a href="https://markos.gaivo.net/">contact me</a>.</p>
-<h2>Privacy policy in full</h2>
-<p>I do not use Google analytics or any other tool for tracking visitors. Neither do I use cookies, which are short pieces of text that can be stored in your browser’s storage and <em>also</em> used for tracking.</p>
-<p>Your internet address (IP address) is recorded in web server’s logs and expunged after a few weeks. It is collected for easier debugging of occasional server problems.</p>
-<p>It is unlikely I would be able to identify you with your address alone unless you have a static IP address for an internet connection that nobody else uses. If you don’t know what a static IP address is, then you almost certainly do not have one.</p>
-<p>No other information about you is stored on this website or shared with anyone.</p>
-<p>Pages of individual articles use self-hosted instance of <a href="https://posativ.org/isso/">Isso</a> to provide comments. It stores a cookie in your browser only when you add a comment and it is used only for a limited time to allow you to edit a recently added comment. If you don’t need this functionality, then you can block all cookies from this domain in your browser.</p>
-<p>If you have added a comment and would like to delete it, then please contact me. You can find my <a href="https://markos.gaivo.net">contact information</a> on my homepage. Please use it if you find any problem with this document or have questions regarding privacy of your web visits.</p>
-            </div><!-- /.entry-content -->
-
-            <footer class="post-metadata">
-                <ul>
-                    <li>Published on <time datetime="2018-06-10T16:00:00+02:00">Sun 10 June 2018</time> </li>
-                    <li><a href="./privacy-policy.html">Add your comment</a></li>
-                </ul>
-            </footer>
-        </article>
 
 <ul class="paginator">
 		<li class="newer">
         <a href="./index.html">&laquo; Newer</a>
 		</li>
 		<li class="current">
-    2 / 118
+    2 / 119
 		</li>
 		<li class="older">
         <a href="./index3.html">Older &raquo;</a>

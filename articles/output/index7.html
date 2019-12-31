@@ -85,6 +85,50 @@ body > footer .mini-logo {display: inline-block;width:97px;height:32px;border:0;
     </nav>
 
         <article class="hentry">
+            <h1 class="entry-title storytitle"><a href="./web-skills.html" rel="bookmark" title="Permalink to Web skills">Web skills</a></h1>
+
+            <div class="entry-content post-text">
+                <p>While following news about Brexit developments and its impact on FTSE100, my wife and I wondered how many people work for companies that are included in that index. Wikipedia provides <a href="https://en.wikipedia.org/wiki/FTSE_100_Index">a list of FTSE100 companies</a> including their employees numbers, but without the total that interested us.</p>
+<p>I did not feel like summing them manually as it is tedious, slow and error prone. Luckily I do not have to as this is a nice example how we can use even limited web development skills to solve every day problems.</p>
+<p>All I needed to do is select table cells in last column, transform their values to numbers that Javascript understands and sum them.</p>
+<p>On a modern browser this can be accomplished by opening developer tools and executing two lines of code in its console:</p>
+<div class="highlight"><pre><span class="nt">var</span> <span class="nt">nodes</span> <span class="o">=</span> <span class="cp">[]</span><span class="nc">.slice.call</span><span class="o">(</span><span class="nt">document</span><span class="nc">.querySelectorAll</span><span class="o">(</span><span class="s2">&quot;#constituents tbody td:last-child&quot;</span><span class="o">));</span>
+<span class="nt">nodes</span><span class="nc">.map</span><span class="o">((</span><span class="nt">a</span><span class="o">)</span> <span class="o">=&gt;</span> <span class="nt">parseInt</span><span class="o">(</span><span class="nt">a</span><span class="nc">.innerText.replace</span><span class="o">(/,/</span><span class="nt">g</span><span class="o">,</span> <span class="s1">&#39;&#39;</span><span class="o">),</span> <span class="nt">10</span><span class="o">))</span><span class="nc">.reduce</span><span class="o">((</span><span class="nt">a</span><span class="o">,</span> <span class="nt">b</span><span class="o">)=&gt;</span> <span class="nt">a</span><span class="o">+</span><span class="nt">b</span><span class="o">,</span> <span class="nt">0</span><span class="o">);</span>
+</pre></div>
+
+
+<p>What the first line does is select last table cell (<code>td:last-child</code>) in each company row of the table (<code>#constituents tbody</code>). <code>[].slice.call</code> is used to make the resulting list a Javascript array because it is easy to work with.</p>
+<p>In second line we first transform the list of page elements to a list of cell values, by picking them with <code>.innerText</code>, removing comma separators (<code>.replace(/,/g, '')</code>) and changing them to numbers using <code>parseInt</code>. This is immediately followed with a call to <code>reduce</code> which sums all the values in our list.</p>
+<p>Alternatively I could have also used <a href="http://jquery.com">jQuery</a> library already included on Wikipedia pages and not much more code to get to the same result.</p>
+<p>Turns out that according to Wikipedia there are 5,618,496 people working for FTSE100 companies out of 31.59m in total.</p>
+            </div><!-- /.entry-content -->
+
+            <footer class="post-metadata">
+                <ul>
+                    <li>Published on <time datetime="2016-06-27T18:45:31+02:00">Mon 27 June 2016</time> </li>
+                    <li><a href="./web-skills.html">Add your comment</a></li>
+                </ul>
+            </footer>
+        </article>
+        <article class="hentry">
+            <h1 class="entry-title storytitle"><a href="./image-diet2-and-pyimagediet.html" rel="bookmark" title="Permalink to image-diet2 and pyimagediet">image-diet2 and pyimagediet</a></h1>
+
+            <div class="entry-content post-text">
+                <p>Couple of years ago I hacked together a small Django app called <a href="http://">image-diet</a> which automatically compresses images processed by Easy Thumbnails as they are uploaded to a website. Its code was atrocious with configuration for external tools baked in, it only worked with <a href="https://github.com/SmileyChris/easy-thumbnails">Easy Thumbnails</a> and Python2 and...I could go on, but it worked and at <a href="http://aptivate.org">Aptivate</a> we have been using it successfully ever since.</p>
+<p>Well, I finally found time and rewrote the whole thing. New version is now called <a href="https://pypi.python.org/pypi/image-diet2">image-diet2</a> because it is completely backwards incompatible and I screwed up versioning of the original one. Mea culpa.</p>
+<p>It's implemented as a Django storage backend augmenting default one, but can easily be added as a mixin to any other so it should work no matter which tool or backend you use to upload files. Supporting new compression tools or changing configuration of existing does not require a new release or poking in virtualenv anymore. It is better <a href="https://travis-ci.org/samastur/image-diet2">tested</a>, <a href="http://image-diet2.readthedocs.org/">documented</a> and is not limited to 2.x branch of Python anymore. You really should give it a try.</p>
+<p>image-diet2 is actually a thin Django wrapper around separately packaged <a href="https://pypi.python.org/pypi/pyimagediet">pyimagediet</a> that actually process files. My hope is that others may find it useful enough to use it on non-Django projects. It also comes with a tool to compress images and generate configuration file tailored to your system. If you can think of anything else that would make integration even easier, then please let me know.</p>
+<p>There are few bits still missing, but functionality is mostly complete. What I plan to do next is to test different configurations to find how well they work and what are their tradeoffs. Prior useful work such as <a href="http://www.css-ig.net/png-tools-overview">this</a> exists, but I'd like tests to be more expansive and in reusable format. They need to be easily replicable by anyone as their versions of processing tools might give different results than mine.</p>
+            </div><!-- /.entry-content -->
+
+            <footer class="post-metadata">
+                <ul>
+                    <li>Published on <time datetime="2016-01-19T21:00:17+01:00">Tue 19 January 2016</time> </li>
+                    <li><a href="./image-diet2-and-pyimagediet.html">Add your comment</a></li>
+                </ul>
+            </footer>
+        </article>
+        <article class="hentry">
             <h1 class="entry-title storytitle"><a href="./books-i-read-in-2015.html" rel="bookmark" title="Permalink to Books I read in 2015">Books I read in 2015</a></h1>
 
             <div class="entry-content post-text">
@@ -120,71 +164,13 @@ body > footer .mini-logo {display: inline-block;width:97px;height:32px;border:0;
                 </ul>
             </footer>
         </article>
-        <article class="hentry">
-            <h1 class="entry-title storytitle"><a href="./2015-review.html" rel="bookmark" title="Permalink to 2015 review">2015 review</a></h1>
-
-            <div class="entry-content post-text">
-                <p>Happy new year everyone!</p>
-<p>I still don't know what to think of 2015. Probably won't until enough time has passed. It certainly was completely unlike what I expected and planned, but at least it significantly improved in its last month.</p>
-<p>I have spent about a third of last year travelling. Work took me to India, Tajikistan and Bolivia. It was physically demanding, especially Tajikistan, where dry climate and poor sanitation led  to weeks of diarrhoea that dried me like a raisin, confirmed that I am indeed in no way an equestrian person and culminating in my first visit to a doctor on my travels. Not only did I not "salvage summer" as <a href="./late-2014-review.html">I hoped</a>, I spent most of autumn recovering from exhaustion.</p>
-<p>Still, even though trips were though and mostly not as successful as we expected, I am glad I got to do them. It was a tremendous learning experience and we met and worked with some amazing people (and some decidedly less so). As much as I enjoy field work, I don't expect to do it in 2016.</p>
-<p>My family spent a lot of time in hospitals and I with them. Any time is really too much, but at least I can solace myself with good outcomes. Still, it would be great if none of us entered one next year.</p>
-<p>There is no need to go through the list of things <a href="./late-2014-review.html">I planned</a> a year ago as I did none of them. Life intervened, but I also did not use first half of the year as well as I should. However last couple of months were great. Reader still lives only in my head, but I did finally rewrite image-diet which is now called <a href="https://github.com/samastur/image-diet2">image-diet2</a> and is in pretty much everything better than previous version. </p>
-<p>I did not learn a new programming language and doubt I will next year, but I did start learning Spanish. Little I know was already useful in Bolivia and by the end of the year I'd like to read a book in Spanish (which I did not manage to pull off this year). I do plan to deepen my knowledge of Python3, ES2015 and ES2016 now that I have more opportunity to use them.</p>
-<p>It was a tumultuous year and yet I feel calmer than ever which I mostly attribute to <a href="http://www.tm.org/">TM</a>. It is difficult to judge its other effects on me as they are clearly not as pronounced, but feeling more peaceful even under stressful circumstances makes meditating worthwhile enough for me.</p>
-<p>I do not know what to expect of 2016, but it feels seminal. The image stuck in my head for last couple of days was my first week at university. Totally clueless and wrong about where  life will take me, but knowing it will be different afterwards. In a way this year feels like one of last opportunities to <strong>easily</strong> redefine who I want to be.</p>
-<p>The biggest change next year will be professional. I have happily worked for Aptivate for four years and hope to continue doing so in the future, but not solely. I will be available for freelance work. <a href="mailto:markos@gaivo.net">Talk to me</a> if you will need help from someone with <a href="http://si.linkedin.com/in/markosamastur">my background</a>.</p>
-<p>Another goal for this year is to present a talk at a conference as I haven't done that in a while. "Competition" for slots at interesting ones is strong enough that giving even one will be a success.</p>
-<p>Other than that I am trying too avoid being too ambitious with my plans as I expect this year to be busy as it is. I plan to do a <a href="./homeconf.html">homeconf</a> once per quarter and read more than I did this year. I will write publicly more as it would be difficult to write less and I am again not bereft of things to share (although most of them are not ready yet).</p>
-<p>I <a href="https://github.com/samastur/vim-notebook">finally</a> hacked <a href="http://bitterjug.com/">Mark's</a> journal script to fit my needs. I can now summon it at any time and commit new entry without switching applications. My plan is mainly to jot down non-obvious problems and solutions I encounter, but I'd love to hear what others write in their work journals.</p>
-<p>Spending few hours each month on tooling seems sensible. I have rejigged my set up late last year and difference is palpable. Development takes less effort with better results. Removing friction from doing the right thing is already a win, but if I can make it easier than doing wrong things, then that's golden.</p>
-<p>In any case I have few firm plans for next year. Getting freelancing off the ground and presenting at conference should keep me busy enough. I expect to be overworked at least some of the time and yet it's been a while since I have felt so optimistic. Let's see how it goes.</p>
-            </div><!-- /.entry-content -->
-
-            <footer class="post-metadata">
-                <ul>
-                    <li>Published on <time datetime="2016-01-03T18:21:00+01:00">Sun 03 January 2016</time> </li>
-                    <li><a href="./2015-review.html">Add your comment</a></li>
-                </ul>
-            </footer>
-        </article>
-        <article class="hentry">
-            <h1 class="entry-title storytitle"><a href="./homeconf.html" rel="bookmark" title="Permalink to Homeconf">Homeconf</a></h1>
-
-            <div class="entry-content post-text">
-                <p>I like going to conferences as I find them a really good way to get introduced to a bunch of topics I don't know enough about. For various reasons I only went to two this year. Instead I have collected links to talks I was interested in. However I really dislike watching presentations on my computer, so I haven't seen any of them until recently. I never get nearly as much out of them as when I listen in a dimly lit conference room.</p>
-<p>Hence I recently tried to replicate conference experience at home. I have downloaded the talks<sup id=sf-homeconf-1-back><a title="What's the benefit that couldn't be solved differently of publishing videos on public website but preventing their download?" class=simple-footnote href=#sf-homeconf-1>1</a></sup> and dedicated a full day to watching them. It was brilliant. I especially liked:</p>
-<ul>
-<li>that I could focus very much as I can at conferences</li>
-<li>it is cheap and comfortable as I don't need to travel farther than our living room</li>
-<li>line-up perfectly matched my interests</li>
-<li>I could skip uninteresting talks easily without wasting time</li>
-<li>that speakers would wait for me in mid-sentence if necessary when I needed more time</li>
-</ul>
-<p>However not everything is better and there are aspects I have missed:</p>
-<ul>
-<li>not all interesting talks are publicly available</li>
-<li>discussions about talks or ideas provoked by talks with other attendees</li>
-<li>(ab)using power of pausing talks may interfere with your uptake as it can fragment talk's narrative</li>
-<li>meeting new people (which as an introvert I don't do much anyway)</li>
-</ul>
-<p>Of these I miss discussions the most. <a href="http://friedcell.si/">Fry</a> recently came up with a cool idea of starting a (video) talk "book club". The idea, which obviously needs a better name, is to meet fortnightly or so and have a discussion around talk everyone agreed to listen beforehand. It seems like a well balanced proposal to me, but I am curious to hear what others think about. Who would be interested in?</p><ol class=simple-footnotes><li id=sf-homeconf-1>What's the benefit that couldn't be solved differently of publishing videos on public website but preventing their download? <a class=simple-footnote-back href=#sf-homeconf-1-back>↩</a></li></ol>
-            </div><!-- /.entry-content -->
-
-            <footer class="post-metadata">
-                <ul>
-                    <li>Published on <time datetime="2015-12-18T18:40:04+01:00">Fri 18 December 2015</time> </li>
-                    <li><a href="./homeconf.html">Add your comment</a></li>
-                </ul>
-            </footer>
-        </article>
 
 <ul class="paginator">
 		<li class="newer">
         <a href="./index6.html">&laquo; Newer</a>
 		</li>
 		<li class="current">
-    7 / 118
+    7 / 119
 		</li>
 		<li class="older">
         <a href="./index8.html">Older &raquo;</a>

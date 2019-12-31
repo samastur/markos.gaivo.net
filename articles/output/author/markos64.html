@@ -86,6 +86,91 @@ body > footer .mini-logo {display: inline-block;width:97px;height:32px;border:0;
     </nav>
 
         <article class="hentry">
+            <h1 class="entry-title storytitle"><a href="../the-callee-is-not-available.html" rel="bookmark" title="Permalink to The callee is not available">The callee is not available</a></h1>
+
+            <div class="entry-content post-text">
+                <div>
+ <p>
+  Sometimes you get this feeling of really mastering a technology. As if nothing can surprise you and you’ve seen it all. If you’re lucky, you’ll get a message like this before you become too cocky:
+ </p>
+ <blockquote>
+  <p>
+   Error: The callee (server [not server application]) is not available and disappeared; all connections are invalid. The call did not execute.
+  </p>
+ </blockquote>
+ <p>
+  Do you know what it means? Neither did I, but somebody else
+  <a href="http://www.thescripts.com/forum/post297987-2.html">
+   did
+  </a>
+  :
+ </p>
+ <blockquote>
+  <p>
+   It occurs in the context of pages using javascript to generate page
+   <br/>
+   content and communicate between windows, one of which windows is closed.
+  </p>
+  <p>
+   Possibly
+   <br/>
+   * page A pops up page B in the link and page B wants to communicate with
+   <br/>
+   page A, but page A has been closed (possibly by you or a popup killer?), or
+   <br/>
+   * Internet Explorer has become totally confused and it will work in
+   <br/>
+   another browser, or
+   <br/>
+   * poor page design.
+  </p>
+ </blockquote>
+ <p>
+  Or in my case forgetting Javascript passes references when assigning objects which become null, if referenced object was stored in now defunct window. The problematic browser in question was of course Internet Explorer.
+ </p>
+</div>
+            </div><!-- /.entry-content -->
+
+            <footer class="post-metadata">
+                <ul>
+                    <li>Published on <time datetime="2006-05-24T13:38:00+02:00">Wed 24 May 2006</time> </li>
+                    <li><a href="../the-callee-is-not-available.html">Add your comment</a></li>
+                </ul>
+            </footer>
+        </article>
+        <article class="hentry">
+            <h1 class="entry-title storytitle"><a href="../opera-mini-and-file-uploads.html" rel="bookmark" title="Permalink to Opera mini and file uploads">Opera mini and file uploads</a></h1>
+
+            <div class="entry-content post-text">
+                <div>
+ <p>
+  A Marela member notified us, that file upload doesn’t work in
+  <a href="http://www.opera.com/products/mobile/operamini/">
+   Opera Mini
+  </a>
+  . It’s true, because Opera Mini doesn’t support file uploads which you can easily check by visiting two
+  <a href="http://markos.gaivo.net/examples/inputfile/index.html">
+   demo pages
+  </a>
+  with valid XHTML. You shouldn’t see a file input element on either of them.
+ </p>
+ <p>
+  I believe (but as an outsider obviously can’t prove) it lacks upload support for security reasons. Every web request handled by Opera Mini gets transported over a proxy, which fetches the page in questions and translates it in a compressed format suitable for viewing on small screen devices. This means that file uploads would be sent to proxy as well which depending on what is sent can be seen as a security violation.
+ </p>
+ <p>
+  Of course it does allow logging in websites, a potentially unsafe action, which puts my speculation on shaky grounds. But the true point of this article still stands. Opera Mini doesn’t support file uploads.
+ </p>
+</div>
+            </div><!-- /.entry-content -->
+
+            <footer class="post-metadata">
+                <ul>
+                    <li>Published on <time datetime="2006-05-24T10:35:00+02:00">Wed 24 May 2006</time> </li>
+                    <li><a href="../opera-mini-and-file-uploads.html">Add your comment</a></li>
+                </ul>
+            </footer>
+        </article>
+        <article class="hentry">
             <h1 class="entry-title storytitle"><a href="../henry-the-adequate.html" rel="bookmark" title="Permalink to Henry the Adequate">Henry the Adequate</a></h1>
 
             <div class="entry-content post-text">
@@ -107,85 +192,13 @@ body > footer .mini-logo {display: inline-block;width:97px;height:32px;border:0;
                 </ul>
             </footer>
         </article>
-        <article class="hentry">
-            <h1 class="entry-title storytitle"><a href="../missing-tab-icons-on-series-60-python.html" rel="bookmark" title="Permalink to Missing tab icons on series 60 Python">Missing tab icons on series 60 Python</a></h1>
-
-            <div class="entry-content post-text">
-                <div>
- <p>
-  It’s nice to have friends, especially the generous kind who buy a new
-  <a href="http://www.europe.nokia.com/n80">
-   Nokia N80
-  </a>
-  and lend it to you even before they had a chance to use it themselves. I’m not sure if N80 is the best mobile in the world, but it is by far the best phone I’ve had in my hands. I’m left with few excuses from finishing my uploader and provided that other obligations don’t tax me too much, it should be finished in next week or so.
- </p>
- <p>
-  I’ve stumbled on two small problems. I’d like to automatically tag images with phone model on which they were taken, but I don’t know how to read it. Is this possible at all?
- </p>
- <p>
-  The other problem seems to be a limitation of PyS60 API or its documentation. You are limited to use of text as tab titles, which are too small for this to be useful. That’s why you see developers displaying tab title in place of application title. Is there a workaround for this?
- </p>
- <p>
-  <strong>
-   Update:
-  </strong>
-  As advised by
-  <a href="http://cyke64.googlepages.com/" title="cyke64's homepage">
-   cyke64
-  </a>
-  I found
-  <a href="http://discussion.forum.nokia.com/forum/showthread.php?t=75744&amp;highlight=phone+model">
-   how to read
-  </a>
-  phone model on Nokia’s forums. My project has been hit with a setback, since I also discovered there’s no version of Python for N80 yet.
- </p>
-</div>
-            </div><!-- /.entry-content -->
-
-            <footer class="post-metadata">
-                <ul>
-                    <li>Published on <time datetime="2006-05-21T12:32:00+02:00">Sun 21 May 2006</time> </li>
-                    <li><a href="../missing-tab-icons-on-series-60-python.html">Add your comment</a></li>
-                </ul>
-            </footer>
-        </article>
-        <article class="hentry">
-            <h1 class="entry-title storytitle"><a href="../ps3-cheap-or-expensive.html" rel="bookmark" title="Permalink to PS3 - cheap or expensive?">PS3 - cheap or expensive?</a></h1>
-
-            <div class="entry-content post-text">
-                <div>
- <p>
-  I normally don’t care much about games and write about them even less. But I get really annoyed when I see the same idiotic argument repeated again and again. As Eurogamer via TheRegister
-  <a href="http://www.reghardware.co.uk/2006/05/18/sony_reveals_uk_ps3_pricing//">
-   reports
-  </a>
-  :
- </p>
- <blockquote>
-  <p>
-   SCE UK Managing Director Rat Maguire said: “I don’t think it’s an expensive machine – I think actually, it’s probably a cheap machine. If you think a Blu-Ray player by itself might be £600-700, and we’re coming in at just £425, it’s a bargain.”
-  </p>
- </blockquote>
- <p>
-  Cheaper than (outrageously) expensive is not necessarily cheap, it might be just less expensive. Personally, if people were screaming at me that 425 quid is too much as much as they do at Sony lately, I’d rather worry if 600 pounds price will simply be a disaster.
- </p>
-</div>
-            </div><!-- /.entry-content -->
-
-            <footer class="post-metadata">
-                <ul>
-                    <li>Published on <time datetime="2006-05-20T00:08:00+02:00">Sat 20 May 2006</time> </li>
-                    <li><a href="../ps3-cheap-or-expensive.html">Add your comment</a></li>
-                </ul>
-            </footer>
-        </article>
 
 <ul class="paginator">
 		<li class="newer">
         <a href="../author/markos63.html">&laquo; Newer</a>
 		</li>
 		<li class="current">
-    64 / 118
+    64 / 119
 		</li>
 		<li class="older">
         <a href="../author/markos65.html">Older &raquo;</a>
