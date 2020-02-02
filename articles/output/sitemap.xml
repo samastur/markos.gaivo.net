@@ -5,29 +5,36 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
 <url>
 <loc>http://markos.gaivo.net/articles/</loc>
-<lastmod>2020-01-03T00:08:23-00:00</lastmod>
+<lastmod>2020-02-02T20:37:41-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>http://markos.gaivo.net/articles/archives.html</loc>
-<lastmod>2020-01-03T00:08:23-00:00</lastmod>
+<lastmod>2020-02-02T20:37:41-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>http://markos.gaivo.net/articles/tags.html</loc>
-<lastmod>2020-01-03T00:08:23-00:00</lastmod>
+<lastmod>2020-02-02T20:37:41-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>http://markos.gaivo.net/articles/categories.html</loc>
-<lastmod>2020-01-03T00:08:23-00:00</lastmod>
+<lastmod>2020-02-02T20:37:41-00:00</lastmod>
 <changefreq>daily</changefreq>
+<priority>0.5</priority>
+</url>
+
+<url>
+<loc>http://markos.gaivo.net/articles/2019-review.html</loc>
+<lastmod>2020-02-02T20:32:00+01:00</lastmod>
+<changefreq>monthly</changefreq>
 <priority>0.5</priority>
 </url>
 
@@ -2525,7 +2532,7 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
 <url>
 <loc>http://markos.gaivo.net/articles/author/markos.html</loc>
-<lastmod>2020-01-02T23:48:00+01:22</lastmod>
+<lastmod>2020-02-02T20:32:00+01:22</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
