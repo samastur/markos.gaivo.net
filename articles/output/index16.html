@@ -85,6 +85,72 @@ body > footer .mini-logo {display: inline-block;width:97px;height:32px;border:0;
     </nav>
 
         <article class="hentry">
+            <h1 class="entry-title storytitle"><a href="./subtracting-sets-to-get-non-referenced-rows-in-table.html" rel="bookmark" title="Permalink to Subtracting sets to get non-referenced rows in table.">Subtracting sets to get non-referenced rows in table.</a></h1>
+
+            <div class="entry-content post-text">
+                <div>
+ <p>
+  I had a problem today. Given two database tables with first having a foreign key pointing to second, find those rows in second table, which are not pointed to from first. Well, it was slightly more complicated than this, but this was the tricky part.
+ </p>
+ <p>
+  I tried to solve my problem using
+  <a href="http://en.wikipedia.org/wiki/SQL" title="SQL description on Wikipedia">
+   SQL
+  </a>
+  , but I could not. I am not saying it can’t be done, but with my limited knowledge of SQL I could not produce a query that would not perform horribly. Working on production database under heavy use made this a real no-go.
+ </p>
+ <p>
+  After trying to come up with pure solution I finally gave up and decided to solve this problem pragmatically with some scripting. Turns out that too was more complicated than necessary. Unix shell tools are all you actually need, provided your dataset is not too big for your computer limitations (mostly memory).
+ </p>
+ <p>
+  Instead of searching for those rows directly, I changed my plan to create two sets of rows, first containing all possible candidates and second containing those from first set which are pointed to from first table. Subtracting second set from first would therefore give me exactly those rows which aren’t pointed to.
+ </p>
+ <p>
+  If file
+  <em>
+   all
+  </em>
+  contains a row-per-line list of all candidates and
+  <em>
+   linked
+  </em>
+  a similar list of those that are linked to, then you can get non-linked by running following command:
+ </p>
+ <p>
+  <code>
+   cat all linked | sort | uniq -u &gt; non_linked
+  </code>
+ </p>
+ <p>
+  What this does is following.
+  <em>
+   Sort
+  </em>
+  will put duplicated rows together and
+  <em>
+   -u
+  </em>
+  option of
+  <em>
+   uniq
+  </em>
+  will display only unique lines which are those that can be found only in
+  <em>
+   all
+  </em>
+  . Problem solved.
+ </p>
+</div>
+            </div><!-- /.entry-content -->
+
+            <footer class="post-metadata">
+                <ul>
+                    <li>Published on <time datetime="2012-10-02T00:07:00+02:00">Tue 02 October 2012</time> </li>
+                    <li><a href="./subtracting-sets-to-get-non-referenced-rows-in-table.html">Add your comment</a></li>
+                </ul>
+            </footer>
+        </article>
+        <article class="hentry">
             <h1 class="entry-title storytitle"><a href="./passion.html" rel="bookmark" title="Permalink to Passion">Passion</a></h1>
 
             <div class="entry-content post-text">
@@ -233,38 +299,13 @@ body > footer .mini-logo {display: inline-block;width:97px;height:32px;border:0;
                 </ul>
             </footer>
         </article>
-        <article class="hentry">
-            <h1 class="entry-title storytitle"><a href="./opendata-hackday-april-2012.html" rel="bookmark" title="Permalink to OpenData HackDay - April 2012">OpenData HackDay - April 2012</a></h1>
-
-            <div class="entry-content post-text">
-                <div>
- <p>
-  V petek popoldne in soboto cel dan (20. in 21. aprila) bo v Ljubljani potekal odprto podatkovni hackday. Vabljeni vsi, še posebej pa tisti, ki želite dejavno prispevati.
- </p>
- <p>
-  Več o dogodku lahko izveste na njegovi
-  <a href="http://sloopendata2012.eventbrite.com/" title="Prijavna stran hackdaya skupaj s podrobnostmi">
-   prijavni strani
-  </a>
-  .
- </p>
-</div>
-            </div><!-- /.entry-content -->
-
-            <footer class="post-metadata">
-                <ul>
-                    <li>Published on <time datetime="2012-04-17T07:39:00+02:00">Tue 17 April 2012</time> </li>
-                    <li><a href="./opendata-hackday-april-2012.html">Add your comment</a></li>
-                </ul>
-            </footer>
-        </article>
 
 <ul class="paginator">
 		<li class="newer">
         <a href="./index15.html">&laquo; Newer</a>
 		</li>
 		<li class="current">
-    16 / 119
+    16 / 120
 		</li>
 		<li class="older">
         <a href="./index17.html">Older &raquo;</a>
