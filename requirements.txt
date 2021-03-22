@@ -9,7 +9,7 @@ ecdsa==0.13.3
 feedgenerator==1.9
 html5lib==1.0.1
 Jinja2==2.10.1
-lxml==4.3.3
+lxml==4.6.3
 Markdown==2.6.1
 MarkupSafe==0.23
 paramiko==2.0.9
