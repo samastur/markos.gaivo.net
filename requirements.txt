@@ -16,7 +16,7 @@ paramiko==2.0.9
 pdfrw==0.4
 pelican==4.0.1
 pycparser==2.19
-Pygments==2.0.2
+Pygments==2.7.4
 Pyphen==0.9.5
 python-dateutil==2.4.2
 python-slugify==3.0.2
