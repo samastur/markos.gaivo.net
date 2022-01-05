@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>A notch above a monkey - Javascript, Spletne urice</title><link href="http://markos.gaivo.net/articles/" rel="alternate"></link><link href="/articles/feeds/javascript-spletne-urice.atom.xml" rel="self"></link><id>http://markos.gaivo.net/articles/</id><updated>2008-03-05T11:12:00+01:00</updated><entry><title>Javascript events - drugi??</title><link href="http://markos.gaivo.net/articles/javascript-events-drugic.html" rel="alternate"></link><published>2008-03-05T11:12:00+01:00</published><updated>2008-03-05T11:12:00+01:00</updated><author><name>markos</name></author><id>tag:markos.gaivo.net,2008-03-05:/articles/javascript-events-drugic.html</id><summary type="html">&lt;div&gt;
+<feed xmlns="http://www.w3.org/2005/Atom"><title>A notch above a monkey - Javascript, Spletne urice</title><link href="https://markos.gaivo.net/articles/" rel="alternate"></link><link href="/articles/feeds/javascript-spletne-urice.atom.xml" rel="self"></link><id>https://markos.gaivo.net/articles/</id><updated>2008-03-05T11:12:00+01:00</updated><entry><title>Javascript events - drugi??</title><link href="https://markos.gaivo.net/articles/javascript-events-drugic.html" rel="alternate"></link><published>2008-03-05T11:12:00+01:00</published><updated>2008-03-05T11:12:00+01:00</updated><author><name>markos</name></author><id>tag:markos.gaivo.net,2008-03-05:/articles/javascript-events-drugic.html</id><summary type="html">&lt;div&gt;
  &lt;p&gt;
   &lt;a href="javascript-events.html" title="Prejšnja najava"&gt;
    Moje predavanje
@@ -19,7 +19,7 @@
  &lt;p&gt;
   Bralcem se opravi??ujem za pozno sporo??ilo, ki vsaj upam vseeno ni prepozno.
  &lt;/p&gt;
-&lt;/div&gt;</content></entry><entry><title>Javascript events</title><link href="http://markos.gaivo.net/articles/javascript-events.html" rel="alternate"></link><published>2008-02-15T18:23:00+01:00</published><updated>2008-02-15T18:23:00+01:00</updated><author><name>markos</name></author><id>tag:markos.gaivo.net,2008-02-15:/articles/javascript-events.html</id><summary type="html">&lt;div&gt;
+&lt;/div&gt;</content></entry><entry><title>Javascript events</title><link href="https://markos.gaivo.net/articles/javascript-events.html" rel="alternate"></link><published>2008-02-15T18:23:00+01:00</published><updated>2008-02-15T18:23:00+01:00</updated><author><name>markos</name></author><id>tag:markos.gaivo.net,2008-02-15:/articles/javascript-events.html</id><summary type="html">&lt;div&gt;
  &lt;p&gt;
   V sredo, 20.2., bom imel na
   &lt;a href="http://web.zen.si/"&gt;
@@ -53,7 +53,7 @@
    Obvestilo: Predavanje je zaradi vnetega grla prestavljeno na kasnejši ??as. Podrobnosti o današnjem nadomestnem predavanju pa naj bi bile objavljene na strani Spletnih uric.
   &lt;/strong&gt;
  &lt;/p&gt;
-&lt;/div&gt;</content></entry><entry><title>Nevsiljiv Javascript - aftermath</title><link href="http://markos.gaivo.net/articles/nevsiljiv-javascript-aftermath.html" rel="alternate"></link><published>2005-12-01T09:09:00+01:00</published><updated>2005-12-01T09:09:00+01:00</updated><author><name>markos</name></author><id>tag:markos.gaivo.net,2005-12-01:/articles/nevsiljiv-javascript-aftermath.html</id><summary type="html">&lt;div&gt;
+&lt;/div&gt;</content></entry><entry><title>Nevsiljiv Javascript - aftermath</title><link href="https://markos.gaivo.net/articles/nevsiljiv-javascript-aftermath.html" rel="alternate"></link><published>2005-12-01T09:09:00+01:00</published><updated>2005-12-01T09:09:00+01:00</updated><author><name>markos</name></author><id>tag:markos.gaivo.net,2005-12-01:/articles/nevsiljiv-javascript-aftermath.html</id><summary type="html">&lt;div&gt;
  &lt;p&gt;
   Talk is behind me and I’d like to thank all who came and especially to those, who stayed through the whole thing.
  &lt;/p&gt;
@@ -72,7 +72,7 @@
   &lt;/a&gt;
   and I’ll try to prepare a Lessig-like webcast over the weekend. I hope to see everyone next week on Tuesday. Boštjan Ber??i?? will talk about responsibility of publishers on web, a talk that everyone who publishes on the web in Slovenia should probably hear.
  &lt;/p&gt;
-&lt;/div&gt;</content></entry><entry><title>Nevsiljiv javascript</title><link href="http://markos.gaivo.net/articles/nevsiljiv-javascript.html" rel="alternate"></link><published>2005-11-29T14:25:00+01:00</published><updated>2005-11-29T14:25:00+01:00</updated><author><name>markos</name></author><id>tag:markos.gaivo.net,2005-11-29:/articles/nevsiljiv-javascript.html</id><summary type="html">&lt;div&gt;
+&lt;/div&gt;</content></entry><entry><title>Nevsiljiv javascript</title><link href="https://markos.gaivo.net/articles/nevsiljiv-javascript.html" rel="alternate"></link><published>2005-11-29T14:25:00+01:00</published><updated>2005-11-29T14:25:00+01:00</updated><author><name>markos</name></author><id>tag:markos.gaivo.net,2005-11-29:/articles/nevsiljiv-javascript.html</id><summary type="html">&lt;div&gt;
  &lt;p&gt;
   It seems only appropriate to use this place to announce a talk I’m giving tomorrow at 19:00 at
   &lt;a href="http://www.kiberpipa.org"&gt;

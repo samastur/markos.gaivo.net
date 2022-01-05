@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>A notch above a monkey - Javascript, Web</title><link href="http://markos.gaivo.net/articles/" rel="alternate"></link><link href="/articles/feeds/javascript-web.atom.xml" rel="self"></link><id>http://markos.gaivo.net/articles/</id><updated>2010-04-01T10:59:00+02:00</updated><entry><title>Using canvas and Javascript to blur images</title><link href="http://markos.gaivo.net/articles/using-canvas-and-javascript-to-blur-images.html" rel="alternate"></link><published>2010-04-01T10:59:00+02:00</published><updated>2010-04-01T10:59:00+02:00</updated><author><name>markos</name></author><id>tag:markos.gaivo.net,2010-04-01:/articles/using-canvas-and-javascript-to-blur-images.html</id><summary type="html">&lt;div&gt;
+<feed xmlns="http://www.w3.org/2005/Atom"><title>A notch above a monkey - Javascript, Web</title><link href="https://markos.gaivo.net/articles/" rel="alternate"></link><link href="/articles/feeds/javascript-web.atom.xml" rel="self"></link><id>https://markos.gaivo.net/articles/</id><updated>2010-04-01T10:59:00+02:00</updated><entry><title>Using canvas and Javascript to blur images</title><link href="https://markos.gaivo.net/articles/using-canvas-and-javascript-to-blur-images.html" rel="alternate"></link><published>2010-04-01T10:59:00+02:00</published><updated>2010-04-01T10:59:00+02:00</updated><author><name>markos</name></author><id>tag:markos.gaivo.net,2010-04-01:/articles/using-canvas-and-javascript-to-blur-images.html</id><summary type="html">&lt;div&gt;
  &lt;p&gt;
   I admire the look and feel of
   &lt;a href="http://www.mikematas.com/"&gt;
@@ -39,7 +39,7 @@
  &lt;p&gt;
   I am sure somebody can optimize it further, but I find it good enough for my use. Image isn’t very blurred after one pass, but one pass over a small image is also a good way to measure how fast a particular computer-browser combination is. On fast combinations I might go for multiple passes over images in view, but fall back to a single pass or no pass on slower systems.
  &lt;/p&gt;
-&lt;/div&gt;</content><category term="function"></category><category term="canvas"></category><category term="Firefox"></category><category term="algorithm"></category><category term="image"></category><category term="blur"></category></entry><entry><title>Javascript: The Good Parts and string.split problem</title><link href="http://markos.gaivo.net/articles/javascript-the-good-parts-and-stringsplit-problem.html" rel="alternate"></link><published>2009-03-29T11:15:00+02:00</published><updated>2009-03-29T11:15:00+02:00</updated><author><name>markos</name></author><id>tag:markos.gaivo.net,2009-03-29:/articles/javascript-the-good-parts-and-stringsplit-problem.html</id><summary type="html">&lt;div&gt;
+&lt;/div&gt;</content><category term="function"></category><category term="canvas"></category><category term="Firefox"></category><category term="algorithm"></category><category term="image"></category><category term="blur"></category></entry><entry><title>Javascript: The Good Parts and string.split problem</title><link href="https://markos.gaivo.net/articles/javascript-the-good-parts-and-stringsplit-problem.html" rel="alternate"></link><published>2009-03-29T11:15:00+02:00</published><updated>2009-03-29T11:15:00+02:00</updated><author><name>markos</name></author><id>tag:markos.gaivo.net,2009-03-29:/articles/javascript-the-good-parts-and-stringsplit-problem.html</id><summary type="html">&lt;div&gt;
  &lt;p&gt;
   I just read
   &lt;a class="zem_slink" href="http://crockford.com/" rel="homepage" title="Douglas Crockford"&gt;
@@ -86,7 +86,7 @@
  &lt;p&gt;
   Still, I would find a bug in my code faster this week if I read his book sooner.
  &lt;/p&gt;
-&lt;/div&gt;</content><category term="Javascript"></category><category term="JavaScript: The Good Parts"></category><category term="Programming"></category><category term="Douglas Crockford"></category><category term="Regular expression"></category><category term="ie"></category><category term="bug"></category></entry><entry><title>Triggering a server request on onunload event</title><link href="http://markos.gaivo.net/articles/triggering-a-server-request-on-onunload-event.html" rel="alternate"></link><published>2008-03-26T16:32:00+01:00</published><updated>2008-03-26T16:32:00+01:00</updated><author><name>markos</name></author><id>tag:markos.gaivo.net,2008-03-26:/articles/triggering-a-server-request-on-onunload-event.html</id><summary type="html">&lt;div&gt;
+&lt;/div&gt;</content><category term="Javascript"></category><category term="JavaScript: The Good Parts"></category><category term="Programming"></category><category term="Douglas Crockford"></category><category term="Regular expression"></category><category term="ie"></category><category term="bug"></category></entry><entry><title>Triggering a server request on onunload event</title><link href="https://markos.gaivo.net/articles/triggering-a-server-request-on-onunload-event.html" rel="alternate"></link><published>2008-03-26T16:32:00+01:00</published><updated>2008-03-26T16:32:00+01:00</updated><author><name>markos</name></author><id>tag:markos.gaivo.net,2008-03-26:/articles/triggering-a-server-request-on-onunload-event.html</id><summary type="html">&lt;div&gt;
  &lt;p&gt;
   A while ago I tried to trigger an AJAX call to server in
   &lt;em&gt;
@@ -123,7 +123,7 @@
  &lt;p&gt;
   Still, it might be another useful hack to have if you can live with its limitations.
  &lt;/p&gt;
-&lt;/div&gt;</content></entry><entry><title>Javascript events on tablet</title><link href="http://markos.gaivo.net/articles/javascript-events-on-tablet.html" rel="alternate"></link><published>2007-12-16T18:14:00+01:00</published><updated>2007-12-16T18:14:00+01:00</updated><author><name>markos</name></author><id>tag:markos.gaivo.net,2007-12-16:/articles/javascript-events-on-tablet.html</id><summary type="html">&lt;div&gt;
+&lt;/div&gt;</content></entry><entry><title>Javascript events on tablet</title><link href="https://markos.gaivo.net/articles/javascript-events-on-tablet.html" rel="alternate"></link><published>2007-12-16T18:14:00+01:00</published><updated>2007-12-16T18:14:00+01:00</updated><author><name>markos</name></author><id>tag:markos.gaivo.net,2007-12-16:/articles/javascript-events-on-tablet.html</id><summary type="html">&lt;div&gt;
  &lt;p&gt;
   I’ve been curious about interface possibilities and limitations of non-desktop environments like my Nokia tablet for a while, especially as they pertain to web. Pen on a touchscreen obviously doesn’t have to leave a “trail” of traversal like a mouse does. You also don’t have several mouse …&lt;/p&gt;&lt;/div&gt;</summary><content type="html">&lt;div&gt;
  &lt;p&gt;
@@ -188,7 +188,7 @@
  &lt;p&gt;
   Still I’ll need to rethink a widget for website I’m working on and keep this in mind for my next year project.
  &lt;/p&gt;
-&lt;/div&gt;</content></entry><entry><title>Dynamically controlling behavior and size of a page</title><link href="http://markos.gaivo.net/articles/dynamically-controlling-behavior-and-size-of-a-page.html" rel="alternate"></link><published>2007-12-12T20:37:00+01:00</published><updated>2007-12-12T20:37:00+01:00</updated><author><name>markos</name></author><id>tag:markos.gaivo.net,2007-12-12:/articles/dynamically-controlling-behavior-and-size-of-a-page.html</id><summary type="html">&lt;div&gt;
+&lt;/div&gt;</content></entry><entry><title>Dynamically controlling behavior and size of a page</title><link href="https://markos.gaivo.net/articles/dynamically-controlling-behavior-and-size-of-a-page.html" rel="alternate"></link><published>2007-12-12T20:37:00+01:00</published><updated>2007-12-12T20:37:00+01:00</updated><author><name>markos</name></author><id>tag:markos.gaivo.net,2007-12-12:/articles/dynamically-controlling-behavior-and-size-of-a-page.html</id><summary type="html">&lt;div&gt;
  &lt;p&gt;
   It’s not a secret that Javascript is interpreted and not statically compiled. Personally I find this an advantage that is not used often enough. If you look around the Web you can find plenty of cases to prove this, but I’d like to add another example.
  &lt;/p&gt;
@@ -295,7 +295,7 @@
  &lt;p&gt;
   We therefore have a page where we control its behavior and size only by the way we call javascript file. There’s literally only one letter of difference. With dynamic loading of resources and cordoning potentially nonexistent methods we could fairly easily create a spectrum of possibilities where our users could choose their own compromise between functionality and its price in terms of page size and speed or better handle differences between mobile and desktop browsers.
  &lt;/p&gt;
-&lt;/div&gt;</content></entry><entry><title>Flash inside of WYSIWYG HTML editor</title><link href="http://markos.gaivo.net/articles/flash-inside-of-wysiwyg-html-editor.html" rel="alternate"></link><published>2007-07-09T16:23:00+02:00</published><updated>2007-07-09T16:23:00+02:00</updated><author><name>markos</name></author><id>tag:markos.gaivo.net,2007-07-09:/articles/flash-inside-of-wysiwyg-html-editor.html</id><summary type="html">&lt;div&gt;
+&lt;/div&gt;</content></entry><entry><title>Flash inside of WYSIWYG HTML editor</title><link href="https://markos.gaivo.net/articles/flash-inside-of-wysiwyg-html-editor.html" rel="alternate"></link><published>2007-07-09T16:23:00+02:00</published><updated>2007-07-09T16:23:00+02:00</updated><author><name>markos</name></author><id>tag:markos.gaivo.net,2007-07-09:/articles/flash-inside-of-wysiwyg-html-editor.html</id><summary type="html">&lt;div&gt;
  &lt;p&gt;
   Has anyone succeeded in getting a flash file to execute inside of (any) WYSIWYG in-browser editor?
  &lt;/p&gt;
@@ -309,7 +309,7 @@
  &lt;p&gt;
   It doesn’t work for me and I can think of at least one reason why it shouldn’t (security leak), but has anyone done it anyway?
  &lt;/p&gt;
-&lt;/div&gt;</content></entry><entry><title>Google Gears Goodies</title><link href="http://markos.gaivo.net/articles/google-gears-goodies.html" rel="alternate"></link><published>2007-05-31T15:00:00+02:00</published><updated>2007-05-31T15:00:00+02:00</updated><author><name>markos</name></author><id>tag:markos.gaivo.net,2007-05-31:/articles/google-gears-goodies.html</id><summary type="html">&lt;div&gt;
+&lt;/div&gt;</content></entry><entry><title>Google Gears Goodies</title><link href="https://markos.gaivo.net/articles/google-gears-goodies.html" rel="alternate"></link><published>2007-05-31T15:00:00+02:00</published><updated>2007-05-31T15:00:00+02:00</updated><author><name>markos</name></author><id>tag:markos.gaivo.net,2007-05-31:/articles/google-gears-goodies.html</id><summary type="html">&lt;div&gt;
  &lt;p&gt;
   It’s an expected fact of a geek life that interesting technologies and gadgets appear when you don’t have either means or time to play with them. No surprise then that
   &lt;a href="http://code.google.com/apis/gears/index.html"&gt;
@@ -355,7 +355,7 @@
  &lt;p&gt;
   This might limit usefulness of the API somewhat, but there are still plenty of uses that come to my mind. What also comes to my mind is a problem, that isn’t really technological. Web applications gave impression to public of being fairly safe to use even on public computers (which isn’t really true) and I fear many won’t understand that new tools may now store private data where they don’t expect or want them to.
  &lt;/p&gt;
-&lt;/div&gt;</content></entry><entry><title>Problem with public javascript hosting</title><link href="http://markos.gaivo.net/articles/problem-with-public-javascript-hosting.html" rel="alternate"></link><published>2007-03-06T16:56:00+01:00</published><updated>2007-03-06T16:56:00+01:00</updated><author><name>markos</name></author><id>tag:markos.gaivo.net,2007-03-06:/articles/problem-with-public-javascript-hosting.html</id><summary type="html">&lt;div&gt;
+&lt;/div&gt;</content></entry><entry><title>Problem with public javascript hosting</title><link href="https://markos.gaivo.net/articles/problem-with-public-javascript-hosting.html" rel="alternate"></link><published>2007-03-06T16:56:00+01:00</published><updated>2007-03-06T16:56:00+01:00</updated><author><name>markos</name></author><id>tag:markos.gaivo.net,2007-03-06:/articles/problem-with-public-javascript-hosting.html</id><summary type="html">&lt;div&gt;
  &lt;p&gt;
   Yahoo recently
   &lt;a href="http://yuiblog.com/blog/2007/02/22/free-yui-hosting/"&gt;
@@ -398,7 +398,7 @@
  &lt;p&gt;
   Does anyone have any idea how to solve this problem gracefully?
  &lt;/p&gt;
-&lt;/div&gt;</content></entry><entry><title>Free book</title><link href="http://markos.gaivo.net/articles/free-book.html" rel="alternate"></link><published>2006-12-30T18:36:00+01:00</published><updated>2006-12-30T18:36:00+01:00</updated><author><name>markos</name></author><id>tag:markos.gaivo.net,2006-12-30:/articles/free-book.html</id><summary type="html">&lt;div&gt;
+&lt;/div&gt;</content></entry><entry><title>Free book</title><link href="https://markos.gaivo.net/articles/free-book.html" rel="alternate"></link><published>2006-12-30T18:36:00+01:00</published><updated>2006-12-30T18:36:00+01:00</updated><author><name>markos</name></author><id>tag:markos.gaivo.net,2006-12-30:/articles/free-book.html</id><summary type="html">&lt;div&gt;
  &lt;p&gt;
   I’ll give
   &lt;a href="http://www.oreilly.com/catalog/jscript4/" title="Book's homepage"&gt;
@@ -425,7 +425,7 @@
   &lt;/a&gt;
   , whenever it will be.
  &lt;/p&gt;
-&lt;/div&gt;</content></entry><entry><title>Preventing download of javascript on mobile web</title><link href="http://markos.gaivo.net/articles/preventing-javascript-download-on-mobile-web.html" rel="alternate"></link><published>2006-10-29T21:55:00+01:00</published><updated>2006-10-29T21:55:00+01:00</updated><author><name>markos</name></author><id>tag:markos.gaivo.net,2006-10-29:/articles/preventing-javascript-download-on-mobile-web.html</id><summary type="html">&lt;div&gt;
+&lt;/div&gt;</content></entry><entry><title>Preventing download of javascript on mobile web</title><link href="https://markos.gaivo.net/articles/preventing-javascript-download-on-mobile-web.html" rel="alternate"></link><published>2006-10-29T21:55:00+01:00</published><updated>2006-10-29T21:55:00+01:00</updated><author><name>markos</name></author><id>tag:markos.gaivo.net,2006-10-29:/articles/preventing-javascript-download-on-mobile-web.html</id><summary type="html">&lt;div&gt;
  &lt;p&gt;
   Every year I spend a few weeks somewhere where internet connection is either slow or metered and expensive. Usually it’s both which makes me rather twitchy when it comes to big web page sizes. Yet I’m also certain that my new web home, however it may turn out …&lt;/p&gt;&lt;/div&gt;</summary><content type="html">&lt;div&gt;
  &lt;p&gt;

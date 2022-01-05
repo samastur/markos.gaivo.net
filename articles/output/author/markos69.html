@@ -86,117 +86,131 @@ body > footer .mini-logo {display: inline-block;width:97px;height:32px;border:0;
     </nav>
 
         <article class="hentry">
-            <h1 class="entry-title storytitle"><a href="../pythons-most-valued.html" rel="bookmark" title="Permalink to Python's most valued">Python's most valued</a></h1>
+            <h1 class="entry-title storytitle"><a href="../what-is-slovenia.html" rel="bookmark" title="Permalink to What is Slovenia?">What is Slovenia?</a></h1>
 
             <div class="entry-content post-text">
                 <div>
  <p>
-  Yesterday was a lovely sunny day.
-  <a href="http://www.trepca.si/blog/">
-   Sebastjan
+  It’s a place where
+  <a href="http://libertarec.blogspot.com/">
+   liberals/libertarians
   </a>
-  and I were sunbathing at a nearby cafe, sipping juice and talking as we often do about Python related things.
+  are
+  <a href="http://fish.homeunix.org/people/jaka/blog/?p=621">
+   incapable
+  </a>
+  of a civilized discourse.
  </p>
  <p>
-  I noted how I’d hate to see
-  <a href="http://www.effbot.org/">
-   Fredrik Lundh
-  </a>
-  being swallowed by the black hole of Google, where too often good people go to never hear from them again. I simply can’t seem to write anything substantial in Python these days without relying on at least a piece of Fredrik’s code.
- </p>
- <p>
-  Sebastjan doesn’t share my pessimism and he might be right. Forgetting my possibly unsubstantiated fears for a moment, which Pythonista’s loss would in your opinion hurt our beloved language the most?
+  Sad really.
  </p>
 </div>
             </div><!-- /.entry-content -->
 
             <footer class="post-metadata">
                 <ul>
-                    <li>Published on <time datetime="2006-05-04T11:53:00+02:00">Thu 04 May 2006</time> </li>
-                    <li><a href="../pythons-most-valued.html">Add your comment</a></li>
+                    <li>Published on <time datetime="2006-05-13T21:32:00+02:00">Sat 13 May 2006</time> </li>
+                    <li><a href="../what-is-slovenia.html">Add your comment</a></li>
                 </ul>
             </footer>
         </article>
         <article class="hentry">
-            <h1 class="entry-title storytitle"><a href="../mochikit.html" rel="bookmark" title="Permalink to MochiKit">MochiKit</a></h1>
+            <h1 class="entry-title storytitle"><a href="../usefulness-of-ajax.html" rel="bookmark" title="Permalink to Usefulness of AJAX">Usefulness of AJAX</a></h1>
 
             <div class="entry-content post-text">
                 <div>
  <p>
-  Sometimes I’m really glad my brains don’t let my mouth shoot off as quickly as it would like.
+  At least one participant of our recent
+  <a href="ajax-workshop-2.html" title="Previous announcement of AJAX workshop">
+   workshop
+  </a>
+  was under impression that I’m an AJAX advocate. It’s certainly a reasonable and not completely wrong conclusion. However, it seems I failed in limited time available to explain my perspective.
  </p>
  <p>
-  I was checking latest versions of
-  <a href="http://prototype.conio.net/">
-   Prototype
-  </a>
-  ,
-  <a href="http://www.dojotoolkit.org/">
-   Dojo
-  </a>
-  and
-  <a href="http://www.mochikit.com/">
-   MochiKit
-  </a>
-  a couple of days ago and while I liked the first two, I had a much lower opinion of the third. In fact, I couldn’t understand why
-  <a href="http://www.turbogears.org/">
-   Turbogears
-  </a>
-  has chosen MochiKit as its AJAX library and was about to write a post questioning just that.
+  As any other useful tool AJAX has its advantages, but it can also create problems when used inappropriately. I won’t dwell on advantages. More than enough has already been said about them. There are three important aspects that still don’t get enough attention and bear repeating.
  </p>
  <p>
-  I’m glad I didn’t. MochiKit still wouldn’t be my choice and probably won’t be when I’ll start using existing libraries instead of mine, but that doesn’t make it a bad choice. A lot of thought and effort has been put into its implementation and it shows.
+  <strong>
+   Write unobtrusive and degradable Javascript.
+  </strong>
+  It’s really not that hard with a bit of planning and it makes things easier in the long run. It’s easier to find, fix and change code when it’s cleanly separated from HTML and CSS. I’d expect everyone learned this lesson by now from PHP. Also, creating HTML version first and then carefully improving it with use of Javascript/AJAX can get us maximum reach without sacrificing flexibility.
  </p>
  <p>
-  There are obviously things I dislike about it and the major one being the way it loads dependencies. I despise document.write and I disagree with argument made in comments (Safari’s use of defer on generated scripts). But I guess this is something reasonable minds can disagree on.
+  <strong>
+   Pay attention to usability.
+  </strong>
+  This one is much harder to get right, but if nothing else, you should have in mind at least next three advices. Show a progress indicator when doing something that might take more than a second. Put action trigger as close as possible to the part of a page it will change, so user has a good chance of noticing it and whenever possible assist them with change indicators like
+  <a href="http://www.axentric.com/posts/default/7" title="Example of yellow fade-in">
+   yellow fade-in
+  </a>
+  .
+ </p>
+ <p>
+  <strong>
+   Accessibility shouldn’t be forgotten either.
+  </strong>
+  This is probably
+  <a href="http://domscripting.com/blog/display/64" title="Accessibility problems with DOM manipulation">
+   the hardest problem
+  </a>
+  to tackle. It’s the most important reason (but not the only one) why I try to use Javascript/AJAX only when benefits of doing so significantly outweigh the problems it might cause.
+ </p>
+ <p>
+  Everyone makes mistakes and I certainly have. I’m sure they weren’t last ones either, but we can all strive for better.
  </p>
 </div>
             </div><!-- /.entry-content -->
 
             <footer class="post-metadata">
                 <ul>
-                    <li>Published on <time datetime="2006-05-04T10:31:00+02:00">Thu 04 May 2006</time> </li>
-                    <li><a href="../mochikit.html">Add your comment</a></li>
+                    <li>Published on <time datetime="2006-05-13T07:53:00+02:00">Sat 13 May 2006</time> </li>
+                    <li><a href="../usefulness-of-ajax.html">Add your comment</a></li>
                 </ul>
             </footer>
         </article>
         <article class="hentry">
-            <h1 class="entry-title storytitle"><a href="../speed-of-development.html" rel="bookmark" title="Permalink to Speed of development">Speed of development</a></h1>
+            <h1 class="entry-title storytitle"><a href="../micropayments-and-indiekarma.html" rel="bookmark" title="Permalink to Micropayments and IndieKarma">Micropayments and IndieKarma</a></h1>
 
             <div class="entry-content post-text">
                 <div>
  <p>
-  <a href="http://erik.eae.net/archives/2006/04/26/23.23.02/">
-   This
+  A few days ago I read about
+  <a href="http://www.indiekarma.com/">
+   IndieKarma
   </a>
-  brought a sad smile to my face.
- </p>
- <p>
-  There was a time when Javascript implementation in Internet Explorer was really top notch and other browsers had something to look up to (apart from memory leaking, which is just embarrassing). But it’s been 5 years since last IE and it will take almost another year to release version 7, which won’t bring any Javascript related changes (apart from native XMLHTTPRequest). I see myself as language minimalist, but
-  <a href="http://erik.eae.net/archives/2005/09/09/23.05.56/">
-   there are
+  on Jason Kottke’s
+  <a href="http://www.kottke.org/06/05/indiekarma-micropayments">
+   blog
   </a>
-  things that I’d love to see implemented.
+  . I agree with most of his remarks and I have a couple of my own.
  </p>
  <p>
-  However, IE is not the only thing developed with glacial speeds. Even though there’s talk of CSS3, we only received (another?) working draft of CSS 2.1 a couple of weeks ago. So, as many are not aware, even CSS 2.1 hasn’t seen a final release yet even though it’s been widely used for a while now.
+  I dislike the fact that IndieKarma is another walled garden. It means that both the content publisher and visitor must use the same system for transaction to occur and that’s a lot to ask. Building a more open system, which would allow transactions between parties belonging to different systems and wouldn’t be prone to abuse, is difficult and is probably one of the reasons why it hasn’t happened yet.
  </p>
  <p>
-  Slow development pace does have certain benefits. We get more time to learn and master new stuff and what we learned doesn’t age as quickly as it would otherwise. But when limits of what you have rub you the wrong way, it can be quite depressing to calculate how long it will take to remedy this. Especially if you’re bound not only to development of a technology, but also to its deployment. Thank &lt;some deity&gt; this is not an issue for me with Python 2.5.
+  But I think it’s also a necessity for small companies like
+  <a href="http://www.indiekarma.com/About.xhtml">
+   PixelPass
+  </a>
+  , since as a visitor I’m unlikely to use more than a couple of such systems. Same goes for me as a publisher. If my reach is limited to websites using same service as me, then they’ll have a hard time getting traction. It will also be impossible to compete with big boys if they decide to move in this space.
  </p>
  <p>
-  In the line of work that I do, I can pretty much forget anything in development which needs browser support, since it won’t be deployed widely enough in this decade. I don’t, since I’m a geek, but I could as there’s little I can do with it and there’s a whole history of great promises that didn’t make it in the end.
+  IndieKarma is also a very apt name for a service that by its very nature is completely voluntary. Even if it was widely used on websites, it wouldn’t amount to much without people willing to spend money when they don’t have to. I’m sure there are lots of well-intentioned folks out there, but the enormous prevalence of ad supported services and the fact that most users
+  <a href="http://www.thinkvitamin.com/features/webapps/will-your-web-app-make-money">
+   will be freeloaders
+  </a>
+  makes me doubtful.
  </p>
  <p>
-  It does, however, pose an interesting question without an answer. When should I start learning something new?
+  Still, it’s a nice idea with approach that might work. I certainly hope it does.
  </p>
 </div>
             </div><!-- /.entry-content -->
 
             <footer class="post-metadata">
                 <ul>
-                    <li>Published on <time datetime="2006-04-27T23:31:00+02:00">Thu 27 April 2006</time> </li>
-                    <li><a href="../speed-of-development.html">Add your comment</a></li>
+                    <li>Published on <time datetime="2006-05-10T14:26:00+02:00">Wed 10 May 2006</time> </li>
+                    <li><a href="../micropayments-and-indiekarma.html">Add your comment</a></li>
                 </ul>
             </footer>
         </article>
@@ -206,7 +220,7 @@ body > footer .mini-logo {display: inline-block;width:97px;height:32px;border:0;
         <a href="../author/markos68.html">&laquo; Newer</a>
 		</li>
 		<li class="current">
-    69 / 120
+    69 / 121
 		</li>
 		<li class="older">
         <a href="../author/markos70.html">Older &raquo;</a>

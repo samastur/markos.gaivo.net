@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>A notch above a monkey - Javascript</title><link href="http://markos.gaivo.net/articles/" rel="alternate"></link><link href="/articles/feeds/javascript.atom.xml" rel="self"></link><id>http://markos.gaivo.net/articles/</id><updated>2009-11-08T21:00:00+01:00</updated><entry><title>Making peanut butter</title><link href="http://markos.gaivo.net/articles/making-peanut-butter.html" rel="alternate"></link><published>2009-11-08T21:00:00+01:00</published><updated>2009-11-08T21:00:00+01:00</updated><author><name>markos</name></author><id>tag:markos.gaivo.net,2009-11-08:/articles/making-peanut-butter.html</id><summary type="html">&lt;div&gt;
+<feed xmlns="http://www.w3.org/2005/Atom"><title>A notch above a monkey - Javascript</title><link href="https://markos.gaivo.net/articles/" rel="alternate"></link><link href="/articles/feeds/javascript.atom.xml" rel="self"></link><id>https://markos.gaivo.net/articles/</id><updated>2009-11-08T21:00:00+01:00</updated><entry><title>Making peanut butter</title><link href="https://markos.gaivo.net/articles/making-peanut-butter.html" rel="alternate"></link><published>2009-11-08T21:00:00+01:00</published><updated>2009-11-08T21:00:00+01:00</updated><author><name>markos</name></author><id>tag:markos.gaivo.net,2009-11-08:/articles/making-peanut-butter.html</id><summary type="html">&lt;div&gt;
  &lt;p&gt;
   &lt;a href="http://sadrooftops.wordpress.com/" title="Rok's blog"&gt;
    Rok
@@ -101,7 +101,7 @@
   &lt;/a&gt;
   solidifes fat and prevents that from happening. Downside is that you can’t tell how much additional fat was added unless it is specified in ingredients list and it’s even more unhealthy.
  &lt;/p&gt;
-&lt;/div&gt;</content></entry><entry><title>Pseudorandom thoughts of overworked developer</title><link href="http://markos.gaivo.net/articles/pseudorandom-thoughts-of-overworked-developer.html" rel="alternate"></link><published>2009-08-22T09:25:00+02:00</published><updated>2009-08-22T09:25:00+02:00</updated><author><name>markos</name></author><id>tag:markos.gaivo.net,2009-08-22:/articles/pseudorandom-thoughts-of-overworked-developer.html</id><summary type="html">&lt;div&gt;
+&lt;/div&gt;</content></entry><entry><title>Pseudorandom thoughts of overworked developer</title><link href="https://markos.gaivo.net/articles/pseudorandom-thoughts-of-overworked-developer.html" rel="alternate"></link><published>2009-08-22T09:25:00+02:00</published><updated>2009-08-22T09:25:00+02:00</updated><author><name>markos</name></author><id>tag:markos.gaivo.net,2009-08-22:/articles/pseudorandom-thoughts-of-overworked-developer.html</id><summary type="html">&lt;div&gt;
  &lt;p&gt;
   I’ve been too busy lately and many things suffered as a consequence, writing being one of them. This is not a complaint, since I mostly had fun doing what I did, but it is becoming obvious that too much fun can kill you too. Anyhow, this is not a …&lt;/p&gt;&lt;/div&gt;</summary><content type="html">&lt;div&gt;
  &lt;p&gt;
@@ -144,7 +144,7 @@
    sums my view of HTML5 better than I ever could. Hard to disagree with his other points too.
   &lt;/li&gt;
  &lt;/ul&gt;
-&lt;/div&gt;</content><category term="Privacy"></category><category term="tablet"></category><category term="democracy"></category><category term="Spam"></category><category term="Twitter"></category><category term="Nokia"></category><category term="Facebook"></category><category term="html5"></category><category term="web development"></category></entry><entry><title>Simplifying registration forms</title><link href="http://markos.gaivo.net/articles/simplifying-registration-forms.html" rel="alternate"></link><published>2008-12-29T07:30:00+01:00</published><updated>2008-12-29T07:30:00+01:00</updated><author><name>markos</name></author><id>tag:markos.gaivo.net,2008-12-29:/articles/simplifying-registration-forms.html</id><summary type="html">&lt;div&gt;
+&lt;/div&gt;</content><category term="Privacy"></category><category term="tablet"></category><category term="democracy"></category><category term="Spam"></category><category term="Twitter"></category><category term="Nokia"></category><category term="Facebook"></category><category term="html5"></category><category term="web development"></category></entry><entry><title>Simplifying registration forms</title><link href="https://markos.gaivo.net/articles/simplifying-registration-forms.html" rel="alternate"></link><published>2008-12-29T07:30:00+01:00</published><updated>2008-12-29T07:30:00+01:00</updated><author><name>markos</name></author><id>tag:markos.gaivo.net,2008-12-29:/articles/simplifying-registration-forms.html</id><summary type="html">&lt;div&gt;
  &lt;p&gt;
   As I am leaving on a short vacation that will probably take me off grid for few days, there is still a time for a hopefully short, but definitely last post of this year. I don’t like how registration forms ask me twice for password and I think I …&lt;/p&gt;&lt;/div&gt;</summary><content type="html">&lt;div&gt;
  &lt;p&gt;
@@ -181,7 +181,7 @@
  &lt;p&gt;
   Anyhow, that’s it for this year. If you leave a comment, which I hope you will, and I don’t answer, it’s because I lack Internet access.
  &lt;/p&gt;
-&lt;/div&gt;</content><category term="forms"></category><category term="Web"></category><category term="Javascript"></category><category term="UI"></category><category term="Password"></category></entry><entry><title>All code is crap</title><link href="http://markos.gaivo.net/articles/all-code-is-crap.html" rel="alternate"></link><published>2008-04-16T12:42:00+02:00</published><updated>2008-04-16T12:42:00+02:00</updated><author><name>markos</name></author><id>tag:markos.gaivo.net,2008-04-16:/articles/all-code-is-crap.html</id><summary type="html">&lt;div&gt;
+&lt;/div&gt;</content><category term="forms"></category><category term="Web"></category><category term="Javascript"></category><category term="UI"></category><category term="Password"></category></entry><entry><title>All code is crap</title><link href="https://markos.gaivo.net/articles/all-code-is-crap.html" rel="alternate"></link><published>2008-04-16T12:42:00+02:00</published><updated>2008-04-16T12:42:00+02:00</updated><author><name>markos</name></author><id>tag:markos.gaivo.net,2008-04-16:/articles/all-code-is-crap.html</id><summary type="html">&lt;div&gt;
  &lt;p&gt;
   I was recently discussing how I think all code, especially mine, is crap and since this position has been and likely still is controversial, it might not be a bad idea to discuss it a bit more. This likely won’t avoid grievances and disputes, but it might save me …&lt;/p&gt;&lt;/div&gt;</summary><content type="html">&lt;div&gt;
  &lt;p&gt;
@@ -210,7 +210,7 @@
  &lt;p&gt;
   So if you happen to hear me insensitively remarking that some code is crap, please try to keep in mind that my completely universal belief means it’s not meant to be personal or even negative. I likely regard your code and skill higher than mine. I am truly sorry, if you nevertheless feel bad about it.
  &lt;/p&gt;
-&lt;/div&gt;</content></entry><entry><title>Debugging Javascript applications</title><link href="http://markos.gaivo.net/articles/debugging-javascript-applications.html" rel="alternate"></link><published>2008-04-14T16:50:00+02:00</published><updated>2008-04-14T16:50:00+02:00</updated><author><name>markos</name></author><id>tag:markos.gaivo.net,2008-04-14:/articles/debugging-javascript-applications.html</id><summary type="html">&lt;div&gt;
+&lt;/div&gt;</content></entry><entry><title>Debugging Javascript applications</title><link href="https://markos.gaivo.net/articles/debugging-javascript-applications.html" rel="alternate"></link><published>2008-04-14T16:50:00+02:00</published><updated>2008-04-14T16:50:00+02:00</updated><author><name>markos</name></author><id>tag:markos.gaivo.net,2008-04-14:/articles/debugging-javascript-applications.html</id><summary type="html">&lt;div&gt;
  &lt;p&gt;
   Debugging web applications used to be simple. You generated a page and sent it to client. Visitors performed actions and you got back their response. Since filling a form was practically the most complicated action they could perform, it was relatively easy to find bugs if you were smart enough …&lt;/p&gt;&lt;/div&gt;</summary><content type="html">&lt;div&gt;
  &lt;p&gt;
@@ -418,7 +418,7 @@
  &lt;p&gt;
   At the end, it’s a piece of code as any I’ve written. Bugs are likely, so bug reports would be appreciated. Same goes for ideas and suggestions. If you need it, feel free to use it any way you want, but I would appreciate a ping just to see where my stuff ends up.
  &lt;/p&gt;
-&lt;/div&gt;</content></entry><entry><title>Javascript objekti</title><link href="http://markos.gaivo.net/articles/javascript-objekti.html" rel="alternate"></link><published>2008-01-19T16:05:00+01:00</published><updated>2008-01-19T16:05:00+01:00</updated><author><name>markos</name></author><id>tag:markos.gaivo.net,2008-01-19:/articles/javascript-objekti.html</id><summary type="html">&lt;div&gt;
+&lt;/div&gt;</content></entry><entry><title>Javascript objekti</title><link href="https://markos.gaivo.net/articles/javascript-objekti.html" rel="alternate"></link><published>2008-01-19T16:05:00+01:00</published><updated>2008-01-19T16:05:00+01:00</updated><author><name>markos</name></author><id>tag:markos.gaivo.net,2008-01-19:/articles/javascript-objekti.html</id><summary type="html">&lt;div&gt;
  &lt;p&gt;
   Naslednji teden, v sredo, predavam na
   &lt;a href="http://web.zen.si/"&gt;
@@ -440,7 +440,7 @@
   &lt;/a&gt;
   . Tema predavanja bodo objekti v Javascriptu. Žal sem med pripravami ugotovil, da je tokratna tema ne le obširna, ampak verjetno tudi preobširna za eno predavanje. Zato prosim morebitne obiskovalce, da mi v komentarjih pustijo oceno, kako dolgo predavanje še ni predolgo in ??esa si ne želijo slišati? Dobrodošle so seveda tudi vse želje, vprašanja in pripombe.Na vsem odprto predavanje brez vstopnine ste vabljeni vsi, ki vas tema zanima in bi želeli izvedeti ve??. Osnovno znanje Javascripta ali njemu podobnega jezika (C, PHP…) je zaželjeno.
  &lt;/p&gt;
-&lt;/div&gt;</content></entry><entry><title>AJAX talk at NEST</title><link href="http://markos.gaivo.net/articles/ajax-talk-at-nest.html" rel="alternate"></link><published>2006-07-18T18:59:00+02:00</published><updated>2006-07-18T18:59:00+02:00</updated><author><name>markos</name></author><id>tag:markos.gaivo.net,2006-07-18:/articles/ajax-talk-at-nest.html</id><summary type="html">&lt;div&gt;
+&lt;/div&gt;</content></entry><entry><title>AJAX talk at NEST</title><link href="https://markos.gaivo.net/articles/ajax-talk-at-nest.html" rel="alternate"></link><published>2006-07-18T18:59:00+02:00</published><updated>2006-07-18T18:59:00+02:00</updated><author><name>markos</name></author><id>tag:markos.gaivo.net,2006-07-18:/articles/ajax-talk-at-nest.html</id><summary type="html">&lt;div&gt;
  &lt;p&gt;
   I’ll be giving a talk at
   &lt;a href="http://www.slo-tech.com/ostalo/nest2006/"&gt;
@@ -457,7 +457,7 @@
  &lt;p&gt;
   I’d especially appreciate it if you could tell me what interests you and what doesn’t, so I don’t waste your time. Otherwise I’ll just ramble on about things I find important and interesting.
  &lt;/p&gt;
-&lt;/div&gt;</content></entry><entry><title>Changing the name attribute of INPUT elements in Explorer</title><link href="http://markos.gaivo.net/articles/changing-the-name-attribute-of-input-elements-in-explorer.html" rel="alternate"></link><published>2006-07-10T14:53:00+02:00</published><updated>2006-07-10T14:53:00+02:00</updated><author><name>markos</name></author><id>tag:markos.gaivo.net,2006-07-10:/articles/changing-the-name-attribute-of-input-elements-in-explorer.html</id><summary type="html">&lt;div&gt;
+&lt;/div&gt;</content></entry><entry><title>Changing the name attribute of INPUT elements in Explorer</title><link href="https://markos.gaivo.net/articles/changing-the-name-attribute-of-input-elements-in-explorer.html" rel="alternate"></link><published>2006-07-10T14:53:00+02:00</published><updated>2006-07-10T14:53:00+02:00</updated><author><name>markos</name></author><id>tag:markos.gaivo.net,2006-07-10:/articles/changing-the-name-attribute-of-input-elements-in-explorer.html</id><summary type="html">&lt;div&gt;
  &lt;p&gt;
   Another day, another Internet Explorer problem.
  &lt;/p&gt;
@@ -497,7 +497,7 @@
   &lt;/em&gt;
   .
  &lt;/p&gt;
-&lt;/div&gt;</content></entry><entry><title>Changing the type of INPUT elements in Explorer</title><link href="http://markos.gaivo.net/articles/changing-the-type-of-input-elements-in-explorer.html" rel="alternate"></link><published>2006-07-09T21:42:00+02:00</published><updated>2006-07-09T21:42:00+02:00</updated><author><name>markos</name></author><id>tag:markos.gaivo.net,2006-07-09:/articles/changing-the-type-of-input-elements-in-explorer.html</id><summary type="html">&lt;div&gt;
+&lt;/div&gt;</content></entry><entry><title>Changing the type of INPUT elements in Explorer</title><link href="https://markos.gaivo.net/articles/changing-the-type-of-input-elements-in-explorer.html" rel="alternate"></link><published>2006-07-09T21:42:00+02:00</published><updated>2006-07-09T21:42:00+02:00</updated><author><name>markos</name></author><id>tag:markos.gaivo.net,2006-07-09:/articles/changing-the-type-of-input-elements-in-explorer.html</id><summary type="html">&lt;div&gt;
  &lt;p&gt;
   Building XHTML using DOM methods is annoying as it is without strange errors making things worse. Today I stumbled on a new problem when testing improved organizer in Internet Explorer.
  &lt;/p&gt;
@@ -512,7 +512,7 @@
  &lt;p&gt;
   I haven’t had time to test this  sufficiently and frankly I’d rather do something else on Sunday evening, so there might be some cases where above doesn’t hold true. But if you find yourself looking at such an error, it doesn’t hurt to try my remedy.
  &lt;/p&gt;
-&lt;/div&gt;</content></entry><entry><title>The callee is not available</title><link href="http://markos.gaivo.net/articles/the-callee-is-not-available.html" rel="alternate"></link><published>2006-05-24T13:38:00+02:00</published><updated>2006-05-24T13:38:00+02:00</updated><author><name>markos</name></author><id>tag:markos.gaivo.net,2006-05-24:/articles/the-callee-is-not-available.html</id><summary type="html">&lt;div&gt;
+&lt;/div&gt;</content></entry><entry><title>The callee is not available</title><link href="https://markos.gaivo.net/articles/the-callee-is-not-available.html" rel="alternate"></link><published>2006-05-24T13:38:00+02:00</published><updated>2006-05-24T13:38:00+02:00</updated><author><name>markos</name></author><id>tag:markos.gaivo.net,2006-05-24:/articles/the-callee-is-not-available.html</id><summary type="html">&lt;div&gt;
  &lt;p&gt;
   Sometimes you get this feeling of really mastering a technology. As if nothing can surprise you and you’ve seen it all. If you’re lucky, you’ll get a message like this before you become too cocky:
  &lt;/p&gt;

@@ -86,91 +86,145 @@ body > footer .mini-logo {display: inline-block;width:97px;height:32px;border:0;
     </nav>
 
         <article class="hentry">
-            <h1 class="entry-title storytitle"><a href="../im-a-human-dammit.html" rel="bookmark" title="Permalink to I'm a human, dammit!">I'm a human, dammit!</a></h1>
+            <h1 class="entry-title storytitle"><a href="../latency-bandwidth-and-speed-of-applications-part-ii.html" rel="bookmark" title="Permalink to Latency, bandwidth and speed of applications - part II">Latency, bandwidth and speed of applications - part II</a></h1>
 
             <div class="entry-content post-text">
                 <div>
  <p>
-  I’ve changed a lot and a lot has changed for me, since I started my company. Among other I’ve became much more aware of the way businesses deal with me as a customer. Maybe it’s just me, but it usually sucks beyond belief.
- </p>
- <p>
-  Customer relationship management.
- </p>
- <p>
-  I’ve never heard anyone with a successful marriage describing living his relationship as managing it. If you give it a name like this, you’re off in a wrong direction already. No wonder dealing with most companies for me has an appeal of a full-body wax depilation.
- </p>
- <p>
-  There are rare exceptions. One of them is Tomaž, a computer hardware dealer who can get you practically anything you need. All it takes is an email with a short description of what I’m looking for and in shortest time possible I get it delivered personally to my doorstep. There’s no unnecessary bureaucracy, no trying to sell me something I didn’t ask for and I get a good price. In short, it’s a great service that leaves me to focus on really important stuff. And Tomaž gets more business from me than he would probably otherwise.
- </p>
- <p>
-  Why is this so hard for others to learn?
- </p>
- <p>
-  By the way, if you need to buy computer hardware and you want to get a good price with as little fuss as possible, please let me know and I’ll send you his email address.
- </p>
-</div>
-            </div><!-- /.entry-content -->
-
-            <footer class="post-metadata">
-                <ul>
-                    <li>Published on <time datetime="2005-09-07T19:21:00+02:00">Wed 07 September 2005</time> </li>
-                    <li><a href="../im-a-human-dammit.html">Add your comment</a></li>
-                </ul>
-            </footer>
-        </article>
-        <article class="hentry">
-            <h1 class="entry-title storytitle"><a href="../beautiful-soup-is-beautiful-again.html" rel="bookmark" title="Permalink to Beautiful Soup is beautiful again">Beautiful Soup is beautiful again</a></h1>
-
-            <div class="entry-content post-text">
-                <div>
- <p>
-  This is probably the last part in series of post dealing with Beautiful Soup. At least for a while. Good news is, I found the bug that caused observed weird behavior and it was partly self-inflicted.
- </p>
- <p>
-  My problem appeared, because I was using variables that resembled html tags (e.g. imgs, ul…) and didn’t put space after &lt; in statements as good practice dictates. So I  had statements like:
-  <br/>
-  <code>
-   <br/>
-   if (i&lt;imgs.length)
-   <br/>
-  </code>
- </p>
- <p>
-  Beautiful Soup relies on
-  <em>
-   sgmllib.py
-  </em>
-  for processing of documents and it’s sgmllib that causes havoc by processing CDATA (found in script and style blocks), when it shouldn’t. But the problem is not really with sgmllib, which has a literal switch to turn processing off. It’s just that Beautiful Soup doesn’t use it.
- </p>
- <p>
-  So fix is really adding one line
-  <br/>
-  <code>
-   <br/>
-   self.literal = 1
-   <br/>
-  </code>
-  <br/>
-  after
-  <em>
-   if
-  </em>
-  statement on line 835. Or
-  <a href="http://markos.gaivo.net/blog/code/BeautifulSoup.py" title="Link to fixed version">
-   downloading fixed version
+  This is the second post on this subject. You can find the first part
+  <a href="latency-bandwidth-and-speed-of-applications-part-i.html" title="First par of this article">
+   here
   </a>
   .
  </p>
  <p>
-  Reading source I also realized another potential pitfall. If you use javascript to inject javascript with document.write method, you’ll probably confuse sgmllib (and hence Beautiful Soup). When processing CDATA, it doesn’t try to understand it, it just copies data until it finds an endtag (&lt;/script&gt; in javascript’s case). But if you’re doing that, you have yourself to blame.
+  So, how do latency and bandwidth relate to the speed of execution?
+ </p>
+ <p>
+  As mentioned, latency is time needed for any amount of information to travel a certain distance and bandwidth is the amount of data that can flow through it at the same time.
+ </p>
+ <p>
+  Let me give you a real-life example. If you imagine people walking down the corridor, then latency is amount of time one person needs to walk from start to its end and bandwidth is number of people who can do this at the same time.
+ </p>
+ <p>
+  You can measure latency quite easily with ping, a tool available on every major OS, which will give you a round-trip time from client to server (2+5 from our original 7 intervals). The only problem is that it will tell you just your personal latency at that time, which can vary significantly for people on different networks and even for you at different times. There are similar tools for measuring bandwidth and they have more or less the same problems.
+ </p>
+ <p>
+  However, sometimes you can tell a bit about what you can expect. For example, if you’re building an application aimed at mobile users using GPRS, then it’s quite reasonable to assume that bandwidth will be scarce and latency will be high. On local networks it’s usually the opposite of that.
+ </p>
+ <p>
+  In general, latency rises with distance between server and client and bandwidth can’t be wider than the narrowest bandwidth on the way and the question is how do we react to our situation?
+ </p>
+ <p>
+  Basic rules are:
+ </p>
+ <ul>
+  <li>
+   if latency is high, then we should make as few round-trips to server as possible
+  </li>
+  <li>
+   if bandwidth is wide, then we can transfer more data at each trip
+  </li>
+ </ul>
+ <p>
+  In practice we should always try for the most balanced approach between this two factors. If latency is fairly high, but bandwidth is not severely limited, then we might transfer also data we don’t need immediately, if it might spare us another request later on. If latency is low and bandwidth is narrow, then it might make more sense to transfer only what’s needed, but make those requests more often.
+ </p>
+ <p>
+  Another way we can sometimes cut down response time, when bandwidth is not the limiting factor, is to multiplex connections, which is a bit fancy way of saying to simultaneously open multiple connections from client to server. It’s nice to keep in mind that some browsers like Internet Explorer will limit number of simultaneous connections for HTTP protocol to 4 (as specified by its standard), but you are more free to do what you want, if you write your own program. It’s also nice to keep in mind that if order in which responses are coming is important, you’ll have to handle that yourself.
+ </p>
+ <p>
+  A different approach is to simulate multiplex connections over one connection. In this case client sends multiple commands inside of one network request and receives answers to all of them at once. It’s easier to handle order, since you get all data at the same time, but you give up possibly faster response for some of the data.
+ </p>
+ <p>
+  There are other factors that can influence our decisions, such as possibly increased load on server from more requests. Or the speed with which we can generate a request and process reply, if we need to pack and unpack more data. But this are issues worth exploring in some other post, if interest justifies it.
+ </p>
+</div>
+            </div><!-- /.entry-content -->
+
+            <footer class="post-metadata">
+                <ul>
+                    <li>Published on <time datetime="2005-09-16T00:03:00+02:00">Fri 16 September 2005</time> </li>
+                    <li><a href="../latency-bandwidth-and-speed-of-applications-part-ii.html">Add your comment</a></li>
+                </ul>
+            </footer>
+        </article>
+        <article class="hentry">
+            <h1 class="entry-title storytitle"><a href="../latency-bandwidth-and-speed-of-applications-part-i.html" rel="bookmark" title="Permalink to Latency, bandwidth and speed of applications - part I">Latency, bandwidth and speed of applications - part I</a></h1>
+
+            <div class="entry-content post-text">
+                <div>
+ <p>
+  It seems we’re back to discussing the importance of bandwidth and latency on perceived speed of application. In a way it’s amazing that after 10 years of widespread use of Internet and local networks, we developers still discuss these issues.
+ </p>
+ <p>
+  So, what contributes to speed of execution in network applications?
+ </p>
+ <p>
+  Each network request can be divided into seven time intervals:
+ </p>
+ <ol>
+  <li>
+   time needed to send a request
+  </li>
+  <li>
+   latency, which is time spent for any amount of data to travel between client and server
+  </li>
+  <li>
+   data transfer time
+  </li>
+  <li>
+   time needed to process a request, form a response and send it
+  </li>
+  <li>
+   latency again, but this time in other direction
+  </li>
+  <li>
+   data transfer time for response
+  </li>
+  <li>
+   time needed to process response and present result to user
+  </li>
+ </ol>
+ <p>
+  Sum of all these parts is time lapsed between issued command and presented result. How fast this needs to be depends on application and our experiences. For example, we expect faster response to our key presses in SSH client than we do waiting for search results.
+ </p>
+ <p>
+  However, if this sum is under a quarter of a second, it will be generally regarded as instantaneous, but you really should aim for 1/10th of a second to satisfy even the most twitchy users.
+ </p>
+ <p>
+  Usually, we might get to control all parts of this equation only when client and server are located on a local network and we develop both of them. So, a well behaving application needs to take in account environment in which it will run and act accordingly.
+ </p>
+ <p>
+  This means, among other things, to give user feedback that something is happening whenever there is even a remote chance that response might take a while, to react sensibly to network disruptions (such as timeouts) and offer a way to abort user actions.
+ </p>
+ <p>
+  So, how do we speed up the application itself?
+ </p>
+ <p>
+  Absolutely the best way to speed up a network request is to not make one. The usual way to do this is to cache result over its life span and use it when possible.
+ </p>
+ <p>
+  The other way, lately often mentioned in relation to AJAX, is to make our requests asynchronously. Unlike synchronous requests, which are direct results of user actions, asynchronous are those were data is transfered in expectation of future user actions.
+ </p>
+ <p>
+  An example would be a mail program where we transfer message headers of yet unread mail in background before we actually need to display them to user, since it’s fairly likely that he’ll want to check them in near future.
+ </p>
+ <p>
+  There are also downsides to this approach. It can be difficult to predict what to transfer next if no user action is more probable than rest. It can also incur significant costs if bandwidth is expensive as often is on GPRS networks in Europe. And when number of simultaneous connections is limited (HTTP allows 4, but not all browsers comply), it can occupy a resource when you need one.
+ </p>
+ <p>
+  Still, it’s a useful tool when it can be applied.
+ </p>
+ <p>
+  More about saving time with our seven intervals in part two due tomorrow.
  </p>
  <p>
   <em>
-   BeautifulSoup 2.1.1 is
-   <a href="http://www.crummy.com/software/BeautifulSoup/index.html">
-    out
+   Update: second part has been
+   <a href="latency-bandwidth-and-speed-of-applications-part-ii.html" title="Second part">
+    posted
    </a>
-   , which fixes my bug and several others. So you better fetch that version.
+   .
   </em>
  </p>
 </div>
@@ -178,35 +232,79 @@ body > footer .mini-logo {display: inline-block;width:97px;height:32px;border:0;
 
             <footer class="post-metadata">
                 <ul>
-                    <li>Published on <time datetime="2005-09-06T10:16:00+02:00">Tue 06 September 2005</time> </li>
-                    <li><a href="../beautiful-soup-is-beautiful-again.html">Add your comment</a></li>
+                    <li>Published on <time datetime="2005-09-14T21:10:00+02:00">Wed 14 September 2005</time> </li>
+                    <li><a href="../latency-bandwidth-and-speed-of-applications-part-i.html">Add your comment</a></li>
                 </ul>
             </footer>
         </article>
         <article class="hentry">
-            <h1 class="entry-title storytitle"><a href="../beautiful-soup-part-2.html" rel="bookmark" title="Permalink to Beautiful Soup - part 2">Beautiful Soup - part 2</a></h1>
+            <h1 class="entry-title storytitle"><a href="../hide-email-address-from-spammers-with-javascript.html" rel="bookmark" title="Permalink to Hide email address from spammers with Javascript">Hide email address from spammers with Javascript</a></h1>
 
             <div class="entry-content post-text">
                 <div>
  <p>
-  It seems I praised Beautiful Soup too quickly. I was playing with it yesterday and discovered it mangles Javascript included in file. I can’t say it does this every time, but it’s fairly obvious if you have few kilobytes of code stuck in file. There you have it, another argument why Javascript and CSS should be stored in external files.
+  <strong>
+   Update: I
+   <a href="hide-email-address-from-spammers-with-javascript-a-new-attempt.html">
+    published
+   </a>
+   a new, more safe but less friendly version of this script.
+  </strong>
  </p>
  <p>
-  It’s not an option for me though, so I’ll have to work around it.
+  Wouldn’t it be nice, if you could post your email address on your web site without worrying spammers will pick it up?
  </p>
  <p>
-  It’s still a great module, as long as you can work within its limitations, but it’s not panacea. At least not yet.
+  Now you can, by applying a little bit of javascript to your web page. Just import
+  <a href="/blog/code/mangle.js" title="Javascript file with mangle function">
+   this javascript file
+  </a>
+  in head of your document and call
+  <em>
+   mangle()
+  </em>
+  inside your onload handler. What it does, is replace elements of form
+  <br/>
+  <code>
+   <br/>
+   &lt;span class="change"&gt;billg at microsoft dot com&lt;/span&gt;
+  </code>
+  <br/>
+  with
+  <br/>
+  <code>
+   <br/>
+   &lt;a href="mailto:billg@microsoft.com"&gt;billg@microsoft.com&lt;/a&gt;
+  </code>
  </p>
  <p>
-  If I find time, I’ll try to fix the problem, since I really dislike idea of processing files using usual methods (regular expressions &amp; co.).
+  There are few caveats to its use. You’re not allowed to use any HTML tag inside of span blocks, which have class set to change. The script also expects such blocks to have only one class definition. If change is only part of class attribute value, this script won’t work.
+ </p>
+ <p>
+  You are free to use script as you please and to make any changes necessary. But if you choose to replace “at” and “dot” as delimiters, pick replacements that make address easily recognizable for those who don’t use javascript.
+ </p>
+ <p>
+  <em>
+   Note: The reason why this script works is that spammers use programs which search for email like pattern in page. They don’t interpret pages using javascript interpreter, since it would make collecting addresses significantly slower and more expensive.
+  </em>
+ </p>
+ <p>
+  <em>
+   Update: Jay Samec let me know there’s a bug in my code, since it didn’t handle emails with multiple dots (e.g. those with subdomains). Script has been fixed now.
+  </em>
+ </p>
+ <p>
+  <em>
+   Update 2: Holger Rindermann pointed out another bug and provided a patch to fix it that is now a part of the script.
+  </em>
  </p>
 </div>
             </div><!-- /.entry-content -->
 
             <footer class="post-metadata">
                 <ul>
-                    <li>Published on <time datetime="2005-09-05T14:54:00+02:00">Mon 05 September 2005</time> </li>
-                    <li><a href="../beautiful-soup-part-2.html">Add your comment</a></li>
+                    <li>Published on <time datetime="2005-09-11T15:59:00+02:00">Sun 11 September 2005</time> </li>
+                    <li><a href="../hide-email-address-from-spammers-with-javascript.html">Add your comment</a></li>
                 </ul>
             </footer>
         </article>
@@ -216,7 +314,7 @@ body > footer .mini-logo {display: inline-block;width:97px;height:32px;border:0;
         <a href="../author/markos114.html">&laquo; Newer</a>
 		</li>
 		<li class="current">
-    115 / 120
+    115 / 121
 		</li>
 		<li class="older">
         <a href="../author/markos116.html">Older &raquo;</a>

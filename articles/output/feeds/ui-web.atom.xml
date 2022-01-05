@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>A notch above a monkey - UI, Web</title><link href="http://markos.gaivo.net/articles/" rel="alternate"></link><link href="/articles/feeds/ui-web.atom.xml" rel="self"></link><id>http://markos.gaivo.net/articles/</id><updated>2008-10-28T08:59:00+01:00</updated><entry><title>Tweaking pages</title><link href="http://markos.gaivo.net/articles/tweaking-pages.html" rel="alternate"></link><published>2008-10-28T08:59:00+01:00</published><updated>2008-10-28T08:59:00+01:00</updated><author><name>markos</name></author><id>tag:markos.gaivo.net,2008-10-28:/articles/tweaking-pages.html</id><summary type="html">&lt;div&gt;
+<feed xmlns="http://www.w3.org/2005/Atom"><title>A notch above a monkey - UI, Web</title><link href="https://markos.gaivo.net/articles/" rel="alternate"></link><link href="/articles/feeds/ui-web.atom.xml" rel="self"></link><id>https://markos.gaivo.net/articles/</id><updated>2008-10-28T08:59:00+01:00</updated><entry><title>Tweaking pages</title><link href="https://markos.gaivo.net/articles/tweaking-pages.html" rel="alternate"></link><published>2008-10-28T08:59:00+01:00</published><updated>2008-10-28T08:59:00+01:00</updated><author><name>markos</name></author><id>tag:markos.gaivo.net,2008-10-28:/articles/tweaking-pages.html</id><summary type="html">&lt;div&gt;
  &lt;p&gt;
   I recently came back from Berlin, where I publicly asked
   &lt;a href="http://john.jubjubs.net/" title="John's homepage"&gt;
@@ -71,7 +71,7 @@
  &lt;p&gt;
   I thought about downsides to this since Thursday and I’m failing to find anything substantial.
  &lt;/p&gt;
-&lt;/div&gt;</content><category term="Mozilla"></category><category term="Firefox"></category><category term="Web page"></category><category term="greasemonkey"></category><category term="browser"></category></entry><entry><title>Robot Exclusion Profile</title><link href="http://markos.gaivo.net/articles/robot-exclusion-profile.html" rel="alternate"></link><published>2006-04-13T22:54:00+02:00</published><updated>2006-04-13T22:54:00+02:00</updated><author><name>markos</name></author><id>tag:markos.gaivo.net,2006-04-13:/articles/robot-exclusion-profile.html</id><summary type="html">&lt;div&gt;
+&lt;/div&gt;</content><category term="Mozilla"></category><category term="Firefox"></category><category term="Web page"></category><category term="greasemonkey"></category><category term="browser"></category></entry><entry><title>Robot Exclusion Profile</title><link href="https://markos.gaivo.net/articles/robot-exclusion-profile.html" rel="alternate"></link><published>2006-04-13T22:54:00+02:00</published><updated>2006-04-13T22:54:00+02:00</updated><author><name>markos</name></author><id>tag:markos.gaivo.net,2006-04-13:/articles/robot-exclusion-profile.html</id><summary type="html">&lt;div&gt;
  &lt;p&gt;
   &lt;strong&gt;
    Error:
@@ -93,7 +93,7 @@
   &lt;/code&gt;
   exists.
  &lt;/p&gt;
-&lt;/div&gt;</content></entry><entry><title>Google ignore</title><link href="http://markos.gaivo.net/articles/google-ignore.html" rel="alternate"></link><published>2006-04-10T13:59:00+02:00</published><updated>2006-04-10T13:59:00+02:00</updated><author><name>markos</name></author><id>tag:markos.gaivo.net,2006-04-10:/articles/google-ignore.html</id><summary type="html">&lt;div&gt;
+&lt;/div&gt;</content></entry><entry><title>Google ignore</title><link href="https://markos.gaivo.net/articles/google-ignore.html" rel="alternate"></link><published>2006-04-10T13:59:00+02:00</published><updated>2006-04-10T13:59:00+02:00</updated><author><name>markos</name></author><id>tag:markos.gaivo.net,2006-04-10:/articles/google-ignore.html</id><summary type="html">&lt;div&gt;
  &lt;p&gt;
   A few days ago I came to
   &lt;a href="javascript-enabled-spiders.html"&gt;
@@ -120,7 +120,7 @@
  &lt;p&gt;
   The benefit of this would also be better search results. Every now and then I follow a search hit that fit my query because of a combination of site content and its navigation. Judging by my logs I’m not the only deceived soul. So, wouldn’t it be nice to be able to tell which parts are content and which aren’t?
  &lt;/p&gt;
-&lt;/div&gt;</content></entry><entry><title>Simple List Extensions</title><link href="http://markos.gaivo.net/articles/simple-list-extensions.html" rel="alternate"></link><published>2006-04-09T14:05:00+02:00</published><updated>2006-04-09T14:05:00+02:00</updated><author><name>markos</name></author><id>tag:markos.gaivo.net,2006-04-09:/articles/simple-list-extensions.html</id><summary type="html">&lt;div&gt;
+&lt;/div&gt;</content></entry><entry><title>Simple List Extensions</title><link href="https://markos.gaivo.net/articles/simple-list-extensions.html" rel="alternate"></link><published>2006-04-09T14:05:00+02:00</published><updated>2006-04-09T14:05:00+02:00</updated><author><name>markos</name></author><id>tag:markos.gaivo.net,2006-04-09:/articles/simple-list-extensions.html</id><summary type="html">&lt;div&gt;
  &lt;p&gt;
   I’m not sure how I missed the original announcement of Simple List Extensions (SLE) for feeds, but better late than never.
  &lt;/p&gt;
@@ -146,7 +146,7 @@
  &lt;p&gt;
   By the way, I’m not sure if any reader apart from beta of IE7 already supports SLE, but I expect that most of them will soon. There’s little reason not to.
  &lt;/p&gt;
-&lt;/div&gt;</content></entry><entry><title>Localized interfaces in globalized world</title><link href="http://markos.gaivo.net/articles/localized-interfaces-in-globalized-world.html" rel="alternate"></link><published>2006-03-24T12:03:00+01:00</published><updated>2006-03-24T12:03:00+01:00</updated><author><name>markos</name></author><id>tag:markos.gaivo.net,2006-03-24:/articles/localized-interfaces-in-globalized-world.html</id><summary type="html">&lt;div&gt;
+&lt;/div&gt;</content></entry><entry><title>Localized interfaces in globalized world</title><link href="https://markos.gaivo.net/articles/localized-interfaces-in-globalized-world.html" rel="alternate"></link><published>2006-03-24T12:03:00+01:00</published><updated>2006-03-24T12:03:00+01:00</updated><author><name>markos</name></author><id>tag:markos.gaivo.net,2006-03-24:/articles/localized-interfaces-in-globalized-world.html</id><summary type="html">&lt;div&gt;
  &lt;p&gt;
   There’s an issue I’ve been struggling with for months now. Well, more than a year really. We built Marela so it would be used in Slovenia by people preferring Slovene language over the others. It’s not the only distinguishing point from similar services found on the web …&lt;/p&gt;&lt;/div&gt;</summary><content type="html">&lt;div&gt;
  &lt;p&gt;
@@ -173,7 +173,7 @@
  &lt;p&gt;
   I ran out of my own ideas long time ago. Any ideas you might have are therefore more than welcome.
  &lt;/p&gt;
-&lt;/div&gt;</content></entry><entry><title>CSS pixels are a relative unit</title><link href="http://markos.gaivo.net/articles/css-pixels-are-a-relative-unit.html" rel="alternate"></link><published>2006-02-12T17:17:00+01:00</published><updated>2006-02-12T17:17:00+01:00</updated><author><name>markos</name></author><id>tag:markos.gaivo.net,2006-02-12:/articles/css-pixels-are-a-relative-unit.html</id><summary type="html">&lt;div&gt;
+&lt;/div&gt;</content></entry><entry><title>CSS pixels are a relative unit</title><link href="https://markos.gaivo.net/articles/css-pixels-are-a-relative-unit.html" rel="alternate"></link><published>2006-02-12T17:17:00+01:00</published><updated>2006-02-12T17:17:00+01:00</updated><author><name>markos</name></author><id>tag:markos.gaivo.net,2006-02-12:/articles/css-pixels-are-a-relative-unit.html</id><summary type="html">&lt;div&gt;
  &lt;p&gt;
   The pixel debate
   &lt;a href="http://www.456bereastreet.com/archive/200602/setting_font_size_in_pixels/" title="Setting font size in pixels"&gt;
@@ -212,7 +212,7 @@
  &lt;p&gt;
   The result of this is that size of displayed text and images is device dependent even when in theory it shouldn’t be. So the only way is also good only up to a point.
  &lt;/p&gt;
-&lt;/div&gt;</content></entry><entry><title>Ease of use and productivity dichotomy</title><link href="http://markos.gaivo.net/articles/ease-of-use-and-productivity-dichotomy.html" rel="alternate"></link><published>2006-01-25T17:23:00+01:00</published><updated>2006-01-25T17:23:00+01:00</updated><author><name>markos</name></author><id>tag:markos.gaivo.net,2006-01-25:/articles/ease-of-use-and-productivity-dichotomy.html</id><summary type="html">&lt;div&gt;
+&lt;/div&gt;</content></entry><entry><title>Ease of use and productivity dichotomy</title><link href="https://markos.gaivo.net/articles/ease-of-use-and-productivity-dichotomy.html" rel="alternate"></link><published>2006-01-25T17:23:00+01:00</published><updated>2006-01-25T17:23:00+01:00</updated><author><name>markos</name></author><id>tag:markos.gaivo.net,2006-01-25:/articles/ease-of-use-and-productivity-dichotomy.html</id><summary type="html">&lt;div&gt;
  &lt;p&gt;
   When I was in Stockholm, I listened to a podcast of Bran Ferren’s talk at Web 2.0 conference. He made a case that knowledge workers need tools and user interfaces that put increased productivity as a goal above ease of use or learn. It’s well worth
   &lt;a href="http://www.itconversations.com/shows/detail852.html"&gt;
@@ -259,7 +259,7 @@
  &lt;p&gt;
   And I still think mouse was just a brilliant invention.
  &lt;/p&gt;
-&lt;/div&gt;</content></entry><entry><title>Structured blogging</title><link href="http://markos.gaivo.net/articles/structured-blogging.html" rel="alternate"></link><published>2005-12-22T14:50:00+01:00</published><updated>2005-12-22T14:50:00+01:00</updated><author><name>markos</name></author><id>tag:markos.gaivo.net,2005-12-22:/articles/structured-blogging.html</id><summary type="html">&lt;div&gt;
+&lt;/div&gt;</content></entry><entry><title>Structured blogging</title><link href="https://markos.gaivo.net/articles/structured-blogging.html" rel="alternate"></link><published>2005-12-22T14:50:00+01:00</published><updated>2005-12-22T14:50:00+01:00</updated><author><name>markos</name></author><id>tag:markos.gaivo.net,2005-12-22:/articles/structured-blogging.html</id><summary type="html">&lt;div&gt;
  &lt;p&gt;
   I first heard of structured blogging a few days ago and at first I thought it was an excellent idea. I mean which geek wouldn’t like its promise?
  &lt;/p&gt;
@@ -321,7 +321,7 @@
  &lt;p&gt;
   Conclusion? No, thanks (for now).
  &lt;/p&gt;
-&lt;/div&gt;</content></entry><entry><title>First look at upcoming WordPress 2.0</title><link href="http://markos.gaivo.net/articles/first-look-at-upcoming-wordpress-20.html" rel="alternate"></link><published>2005-12-20T16:56:00+01:00</published><updated>2005-12-20T16:56:00+01:00</updated><author><name>markos</name></author><id>tag:markos.gaivo.net,2005-12-20:/articles/first-look-at-upcoming-wordpress-20.html</id><summary type="html">&lt;div&gt;
+&lt;/div&gt;</content></entry><entry><title>First look at upcoming WordPress 2.0</title><link href="https://markos.gaivo.net/articles/first-look-at-upcoming-wordpress-20.html" rel="alternate"></link><published>2005-12-20T16:56:00+01:00</published><updated>2005-12-20T16:56:00+01:00</updated><author><name>markos</name></author><id>tag:markos.gaivo.net,2005-12-20:/articles/first-look-at-upcoming-wordpress-20.html</id><summary type="html">&lt;div&gt;
  &lt;p&gt;
   A while ago I wrote a
   &lt;a href="wordpress-sucks.html"&gt;
@@ -373,7 +373,7 @@
  &lt;p&gt;
   Nevertheless, WP 2.0 is a big step forward. Even bigger under the hood according to what I hear, but since I can’t be made to care about PHP, it’s not all that relevant to me. I certainly don’t think it sucks anymore, but I still think it has a far way to go before it will truly be a friendly tool for everyone.
  &lt;/p&gt;
-&lt;/div&gt;</content></entry><entry><title>Google's bias</title><link href="http://markos.gaivo.net/articles/googles-bias.html" rel="alternate"></link><published>2005-12-10T18:29:00+01:00</published><updated>2005-12-10T18:29:00+01:00</updated><author><name>markos</name></author><id>tag:markos.gaivo.net,2005-12-10:/articles/googles-bias.html</id><summary type="html">&lt;div&gt;
+&lt;/div&gt;</content></entry><entry><title>Google's bias</title><link href="https://markos.gaivo.net/articles/googles-bias.html" rel="alternate"></link><published>2005-12-10T18:29:00+01:00</published><updated>2005-12-10T18:29:00+01:00</updated><author><name>markos</name></author><id>tag:markos.gaivo.net,2005-12-10:/articles/googles-bias.html</id><summary type="html">&lt;div&gt;
  &lt;p&gt;
   Have you ever asked yourself, what’s the purpose of Google’s long living cookie?
  &lt;/p&gt;

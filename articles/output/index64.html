@@ -85,66 +85,135 @@ body > footer .mini-logo {display: inline-block;width:97px;height:32px;border:0;
     </nav>
 
         <article class="hentry">
-            <h1 class="entry-title storytitle"><a href="./blog-titles.html" rel="bookmark" title="Permalink to Blog titles">Blog titles</a></h1>
+            <h1 class="entry-title storytitle"><a href="./rtvslosi-redesign.html" rel="bookmark" title="Permalink to rtvslo.si redesign">rtvslo.si redesign</a></h1>
 
             <div class="entry-content post-text">
                 <div>
  <p>
-  Dullness of a blog is directly proportional to the pompousness of its title.
+  Slovenian national television has a
+  <a href="http://www.rtvslo.si">
+   new design
+  </a>
+  . It’s certainly better than what they had before, but it’s far from perfect.
  </p>
  <p>
-  I find it remarkable how often this is true.
+  Fry already
+  <a href="http://friedcellcollective.net/outbreak/2006/06/03/validity/">
+   described
+  </a>
+  some of the graver errors. But his list is not nearly complete and here are some issues that bother me most:
+ </p>
+ <ul>
+  <li>
+   not only is Javascript often inlined, it’s also not degradable (crap like href=”javascript:void really has no place in modern web development)
+  </li>
+  <li>
+   <a href="http://en.wikipedia.org/wiki/Divitis" title="Description of divitis">
+    divitis
+   </a>
+  </li>
+  <li>
+   inline CSS
+  </li>
+  <li>
+   ridiculously long list of external resources (87 on main page), which result in excruciatingly long page loads on connections with high latency
+  </li>
+  <li>
+   poor contrast between text and background in large parts of a page can be an accessibility problem
+  </li>
+ </ul>
+ <p>
+  I could go on, but I don’t want to complain too much. As I’ve said before, this page is a clear improvement over the previous one and it’s also obvious from it that their creators do care about modern development and its often forgotten parts like accessibility.  This is exactly the reason why I decided to write about its failings and not about some other, more atrocious one.
+  <a href="http://www.em3r10.com/">
+   Zavod Embrio
+  </a>
+  shows an ambition for good designs and although I don’t think they’re quite there yet, I’m sure they soon will be.
+ </p>
+ <p>
+  And I guess my notion that there’s no need for workshops on XHTML, CSS and web standards in general has been proven wrong.
  </p>
 </div>
             </div><!-- /.entry-content -->
 
             <footer class="post-metadata">
                 <ul>
-                    <li>Published on <time datetime="2006-05-27T17:46:00+02:00">Sat 27 May 2006</time> </li>
-                    <li><a href="./blog-titles.html">Add your comment</a></li>
+                    <li>Published on <time datetime="2006-06-04T14:18:00+02:00">Sun 04 June 2006</time> </li>
+                    <li><a href="./rtvslosi-redesign.html">Add your comment</a></li>
                 </ul>
             </footer>
         </article>
         <article class="hentry">
-            <h1 class="entry-title storytitle"><a href="./oreillys-hypocrasy.html" rel="bookmark" title="Permalink to O'Reilly's hypocrisy">O'Reilly's hypocrisy</a></h1>
+            <h1 class="entry-title storytitle"><a href="./looking-for-monitor.html" rel="bookmark" title="Permalink to Looking for monitor">Looking for monitor</a></h1>
 
             <div class="entry-content post-text">
                 <div>
  <p>
-  <a href="http://radar.oreilly.com/archives/2006/05/controversy_about_our_web_20_s.html">
-   Another reason
+  I hate buying
+  <a href="problems-with-ps2-keyboard-in-linux.html">
+   keyboards
   </a>
-  not to use the term Web 2.0. You just might get sued. Not much to add to things already said in the article comments.
+  or monitors in Slovenia. I hate it almost as much as buying clothes, although looking for decent clothes is usually less futile.
+ </p>
+ <p>
+  We need to replace a monitor, which developed an affection for pink, so we went out to find a replacement. A 19″ or larger LCD monitor with decent picture would do nicely. Surely a reasonable expectation.
+ </p>
+ <p>
+  It seems you can get anything you want as long as what you want has a picture that is either misty, has shadow or has a glossy enough screen to see yourself clearly in it even when turned on.
+ </p>
+ <p>
+  Since nothing was worth buying, we bought nothing. I actually don’t mind that they mostly sell cheap crap, if that is what is selling. But it is hard to imagine that there are so few people looking for decent monitors not to warrant at least one or two decent models on display.
  </p>
 </div>
             </div><!-- /.entry-content -->
 
             <footer class="post-metadata">
                 <ul>
-                    <li>Published on <time datetime="2006-05-26T11:48:00+02:00">Fri 26 May 2006</time> </li>
-                    <li><a href="./oreillys-hypocrasy.html">Add your comment</a></li>
+                    <li>Published on <time datetime="2006-06-01T17:55:00+02:00">Thu 01 June 2006</time> </li>
+                    <li><a href="./looking-for-monitor.html">Add your comment</a></li>
                 </ul>
             </footer>
         </article>
         <article class="hentry">
-            <h1 class="entry-title storytitle"><a href="./gaivo-jabber-server.html" rel="bookmark" title="Permalink to Gaivo Jabber server">Gaivo Jabber server</a></h1>
+            <h1 class="entry-title storytitle"><a href="./firefox-extensions-javascript-conflicts.html" rel="bookmark" title="Permalink to Firefox extensions Javascript conflicts">Firefox extensions Javascript conflicts</a></h1>
 
             <div class="entry-content post-text">
                 <div>
  <p>
-  Gaivo Jabber server is back, which means
-  <a href="http://markos.gaivo.net/blog/?page_id=66">
-   my Jabber account
+  I like Firefox extensions and use a few myself. Web development without
+  <a href="http://chrispederick.com/work/webdeveloper/">
+   Web Developer toolbar
   </a>
-  works again.
+  and
+  <a href="http://livehttpheaders.mozdev.org/">
+   LiveHTTPHeaders
+  </a>
+  extension would be pretty gruesome. However, there’s a downside to their use that is slowly starting to bother me.
+ </p>
+ <p>
+  They often influence the way Javascript on page gets executed and can produce weird errors.
+ </p>
+ <p>
+  I first noticed this while using Web Developer toolbar. Every now and then I got a strange exception, but I didn’t worry too much. After all, it wasn’t really surprising coming from an extension that by its very nature dabbled with the way browser interprets and displays a page and it didn’t really stop the script from working. Not pretty, but you learn to live with it.
+ </p>
+ <p>
+  Comes this weekend and I get a report that file upload doesn’t work in latest Firefox. I suspected extension conflicts and further examination proved the point. Page worked just fine in the same environment sans extensions.
+ </p>
+ <p>
+  So what can you do, when you stumble on a problem like that?
+ </p>
+ <p>
+  Testing your site in various browsers can be troublesome enough. Testing all combinations of extensions even for one browser would simply be impossible. You can’t exactly expect your users to uninstall their extensions just for you, but making workarounds for them doesn’t seem feasible either.
+ </p>
+ <p>
+  So far I don’t see a good solution. Any ideas?
  </p>
 </div>
             </div><!-- /.entry-content -->
 
             <footer class="post-metadata">
                 <ul>
-                    <li>Published on <time datetime="2006-05-24T18:15:00+02:00">Wed 24 May 2006</time> </li>
-                    <li><a href="./gaivo-jabber-server.html">Add your comment</a></li>
+                    <li>Published on <time datetime="2006-05-29T12:23:00+02:00">Mon 29 May 2006</time> </li>
+                    <li><a href="./firefox-extensions-javascript-conflicts.html">Add your comment</a></li>
                 </ul>
             </footer>
         </article>
@@ -154,7 +223,7 @@ body > footer .mini-logo {display: inline-block;width:97px;height:32px;border:0;
         <a href="./index63.html">&laquo; Newer</a>
 		</li>
 		<li class="current">
-    64 / 120
+    64 / 121
 		</li>
 		<li class="older">
         <a href="./index65.html">Older &raquo;</a>

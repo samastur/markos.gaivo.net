@@ -85,117 +85,192 @@ body > footer .mini-logo {display: inline-block;width:97px;height:32px;border:0;
     </nav>
 
         <article class="hentry">
-            <h1 class="entry-title storytitle"><a href="./open-federation-for-google-talk.html" rel="bookmark" title="Permalink to Open federation for Google Talk">Open federation for Google Talk</a></h1>
+            <h1 class="entry-title storytitle"><a href="./ease-of-use-and-productivity-dichotomy.html" rel="bookmark" title="Permalink to Ease of use and productivity dichotomy">Ease of use and productivity dichotomy</a></h1>
 
             <div class="entry-content post-text">
                 <div>
  <p>
-  Quite a lot has happened during time when I was away from this blog and I’ll probably talk about some of it in next few days, but I’d like to start with news from Google.
- </p>
- <p>
-  I wrote a
-  <a href="do-a-lesser-evil.html">
-   badly written post
+  When I was in Stockholm, I listened to a podcast of Bran Ferren’s talk at Web 2.0 conference. He made a case that knowledge workers need tools and user interfaces that put increased productivity as a goal above ease of use or learn. It’s well worth
+  <a href="http://www.itconversations.com/shows/detail852.html">
+   listening to
   </a>
-  when Google Talk was unveiled. What bothered me most was the fact that it didn’t communicate with anybody and was in fact another walled garden.
+  , if you haven’t heard it yet.
  </p>
  <p>
-  Well, they
-  <a href="http://googleblog.blogspot.com/2006/01/open-federation-for-google-talk.html" title="Open federation announcement">
-   fixed it
+  The point is certainly valid even if mouse and other stuff Doug Engelbart invented were created with this same goal in mind. I disagree partially with iPod example, since I believe easy of use is what made iPod wildly popular instead of something like Creative Zen (which still can’t get real traction in the market), but there’s a need and opportunity for tools that make us more productive. I’d count Unix command line between them, which makes me more productive even if it’s not easy to use and even less to learn. There’s a problem though.
+ </p>
+ <p>
+  Nobody is a knowledge worker in every field.
+ </p>
+ <p>
+  Or as Alan Cooper
+  <a href="http://www.amazon.com/gp/product/0672316498/ref=ase_codinghorror-20/102-1133436-5350547?s=books&amp;v=glance&amp;n=283155&amp;tagActionCode=codinghorror-20">
+   said
   </a>
-  and Google Talk now actually talks to other jabber servers including ours.
+  , we are perpetual intermediates who most of the time want to learn only as much as needed but not more. We can be experts only in very few things. We have neither the time nor inclination to become proficient with everything we do and do we have the tools to make other endeavors as painless as possible?
  </p>
  <p>
-  There are some problems with presence notification, but it’s hard to say yet who’s fault it is and I wouldn’t be surprised if it was ours. Sad thing about jabber is that there are few if any open source server implementations that wouldn’t be just a notch above suck.
+  I think when talking about gadgets and computers the answer is generally no.
  </p>
  <p>
-  In short run this won’t change much. Most people will still be on competing services and it might be difficult to get them off. But as a newborn optimist I see a promise of an open, working IM, where you’re not tied to wishes and development of one company even when that company is mine. And that can only be good.
+  The problem lies not in keyboard and mouse. They are general purpose tools (like hammer) widely used mainly because computers are also general purpose tools and most of us use them as such. When specific needs become crystalized enough, we usually get input devices to match, like tablets for designers or joysticks for gamers. I’m sure more could be done and Bran seems to be the kind of person who will do it, but I don’t think it’s where computers fail us.
+ </p>
+ <p>
+  I think it’s the software, which should be either fun and easy to use or make us more productive, preferably both but by large does neither of those.
+ </p>
+ <p>
+  I’ll be the first to admit that iPods are rare and you’ll often find (as with Unix CLI) that you have to choose between making a more productive tool and making more fun one. But not being a beginner is not a permission to abuse me and most software would benefit if it dropped the pretense of being an expert tool and rather worked really hard on being easy to manipulate. As a rule of thumb, if you can’t charge at least 300$ for it, it’s not an expert tool.
+ </p>
+ <p>
+  So, this is what we are tying to do with
+  <a href="http://www.marela.si">
+   Marela
+  </a>
+  ,  it’s our mission. We have and will continue to work on making life in digital age enjoyable. It’s big and ambitious enough goal to keep us busy for a while.
+ </p>
+ <p>
+  And I still think mouse was just a brilliant invention.
  </p>
 </div>
             </div><!-- /.entry-content -->
 
             <footer class="post-metadata">
                 <ul>
-                    <li>Published on <time datetime="2006-01-20T16:58:00+01:00">Fri 20 January 2006</time> </li>
-                    <li><a href="./open-federation-for-google-talk.html">Add your comment</a></li>
+                    <li>Published on <time datetime="2006-01-25T17:23:00+01:00">Wed 25 January 2006</time> </li>
+                    <li><a href="./ease-of-use-and-productivity-dichotomy.html">Add your comment</a></li>
                 </ul>
             </footer>
         </article>
         <article class="hentry">
-            <h1 class="entry-title storytitle"><a href="./xmlhttprequest-and-status-0.html" rel="bookmark" title="Permalink to XMLHttpRequest and status 0">XMLHttpRequest and status 0</a></h1>
+            <h1 class="entry-title storytitle"><a href="./what-ipod-teaches-us-about-modern-web-design.html" rel="bookmark" title="Permalink to What iPod teaches us about modern (web) design">What iPod teaches us about modern (web) design</a></h1>
 
             <div class="entry-content post-text">
                 <div>
  <p>
-  Have you ever encountered a problem with XMLHttpRequest (XHR), where its handler couldn’t read request status or the status was set to 0?
+  According to Steve Jobs at Macworld Apple sold 14 million iPods in last quarter of 2005 and 32 million during the whole year. iPod remains by far the most popular portable mp3 player even though it’s neither the cheapest or the most feature laden of available options.
  </p>
  <p>
-  Well, I did, a few days ago.
+  So what is it that makes iPod so popular and what does that tell us?
  </p>
  <p>
-  It took me a while to find the cause of this problem and in my case it was form submission. It’s stupid to use AJAX to submit a form, but nevertheless it’s what I’m doing for dubious reasons that I’ll probably be ashamed of in a few months or years. And it used to work fine, until I changed submit buttons from
-  <em>
-   type=”button”
-  </em>
-  to
-  <em>
-   type=”image”
-  </em>
+  For the purpose of this post I’ll talk about the whole family of iPod products as one, since I believe that my points can be more or less equally applied to all of them.
+ </p>
+ <p>
+  <strong>
+   1. Easy interface = happy users
+  </strong>
+ </p>
+ <p>
+  Using iPod is very easy and when something is easy to do, it’s more likely to also be enjoyable.
+ </p>
+ <p>
+  iPod achieves this mainly by using familiar elements (playlists, slideshows…) and sticking to simple usage model. Even wheel is just an evolved volume knob from hi-fi equipment. Which doesn’t make it less innovative.
+ </p>
+ <p>
+  Exceptions to the mental model are expensive, since they significantly raise the cognitive burden and should therefore be reserved only for occasions when their benefits far outweigh their downsides.
+ </p>
+ <p>
+  <strong>
+   2. Number of features is not important. Their selection is.
+  </strong>
+ </p>
+ <p>
+  As already noted, iPod isn’t the player with most features. It’s not even the player with most features per buck.
+ </p>
+ <p>
+  It’s a common fallacy to think you need more features than competition. This doesn’t mean you shouldn’t add any. A product should certainly meet baseline expectations and have features most of its customers expect. But you should be careful that those it has significantly add to the purpose of the tool.
+ </p>
+ <p>
+  Don’t try to build a swiss army knife.
+ </p>
+ <p>
+  <strong>
+   3. If you build it (expansion option), they will come (developers).
+  </strong>
+ </p>
+ <p>
+  You can’t add every feature and you shouldn’t even if you could. However you should make it possible for other developers to build on top of your product. This way everybody wins.
+ </p>
+ <p>
+  Your budget can be smaller, majority is not bothered with features it doesn’t want or need, but somebody else can add them for those who do. That’s why web services matter and you should think about adding them if you haven’t yet.
+ </p>
+ <p>
+  <strong>
+   4. Less is more (minimalism rules)
+  </strong>
+ </p>
+ <p>
+  Less design, less features, less burden.
+ </p>
+ <p>
+  It’s like going on a trip. You can’t take everything you might possibly need with you. You have to decide what’s useful or important enough and make it fit within limitations imposed on you either by airlines or your own body.
+ </p>
+ <p>
+  <strong>
+   5. Looks matter
+  </strong>
+ </p>
+ <p>
+  Nobody wants to watch ugly stuff. If we are going to look at it, then it should be pleasant to do so.
+ </p>
+ <p>
+  Flashy designs might get your attention at first, but they age quickly more often than not. Light, understated design might not be so eye catchy, but it’s this inconspicuousness that makes them usable over longer periods of time.
+ </p>
+ <p>
+  To sum up, when I think of iPod, two words come to my mind. Easy and restrained. Are these the same two words you’d use to describe your website?
+ </p>
+ <p>
+  If you found this post interesting and would like to hear more, please come to my talk at
+  <a href="http://www.kiberpipa.org/">
+   Cyberpipe
+  </a>
+  on
+  <a href="http://web.zen.si/prihajajoca-predavanja/">
+   8th of March
+  </a>
   .
  </p>
- <p>
-  First type needs javascript to do anything worthwhile, while second type submits form when pressed, which I somehow missed. So, when I thought I was sending only a normal XHR request, I was actually also submitting my form which lead to described strange behavior.
- </p>
- <p>
-  I have no idea why, since XHR state change handler shouldn’t be triggered by other requests, but it was and it was fixed by simply canceling form submission in image button
-  <em>
-   onclick
-  </em>
-  handler.
- </p>
- <p>
-  If you ever encounter this problem, check your forms and their submit buttons. It’s very likely that solution is hiding there.
- </p>
 </div>
             </div><!-- /.entry-content -->
 
             <footer class="post-metadata">
                 <ul>
-                    <li>Published on <time datetime="2006-01-19T19:23:00+01:00">Thu 19 January 2006</time> </li>
-                    <li><a href="./xmlhttprequest-and-status-0.html">Add your comment</a></li>
+                    <li>Published on <time datetime="2006-01-23T14:41:00+01:00">Mon 23 January 2006</time> </li>
+                    <li><a href="./what-ipod-teaches-us-about-modern-web-design.html">Add your comment</a></li>
                 </ul>
             </footer>
         </article>
         <article class="hentry">
-            <h1 class="entry-title storytitle"><a href="./media-2006.html" rel="bookmark" title="Permalink to @media 2006">@media 2006</a></h1>
+            <h1 class="entry-title storytitle"><a href="./firefox-adds-ping-attribute.html" rel="bookmark" title="Permalink to Firefox adds ping attribute">Firefox adds ping attribute</a></h1>
 
             <div class="entry-content post-text">
                 <div>
  <p>
-  <a href="http://www.vivabit.com/atmedia2006/lastyear/">
-   @media 2005
+  This is another news that I missed while I was busy elsewhere. Developers have added
+  <a href="http://weblogs.mozillazine.org/darin/archives/009594.html">
+   a ping attribute
   </a>
-  was fantastic and it look like
-  <a href="http://www.vivabit.com/atmedia2006/">
-   @media 2006
-  </a>
-  will be at least as good. If you’re a web developer and
-  <a href="http://www.vivabit.com/atmedia2006/speakers/">
-   the list of speakers
-  </a>
-  doesn’t get you excited, then you ought to find another vocation.
+  to link elements in the latest builds of Firefox.
  </p>
  <p>
-  On a different note this blog is on hiatus until mid-January.
+  Ping attribute allows website producers to specify URLs that will get pinged when user clicks on a link with this attribute. Meaning, it makes user tracking easier.
+ </p>
+ <p>
+  Argument being that tracking was already going on using redirects and that this feature will allow users to control this and makes browsing faster (by avoiding redirects).
+ </p>
+ <p>
+  I can see the logic, but I’m not sure I agree with developer’s conclusion. Redirects were at least visible to a user and he had a choice of continuing to use such web site or going elsewhere. Pings can be turned off by those, who know this option exists, but tracking will certainly be less transparent to everybody else.
+ </p>
+ <p>
+  I’m still on the fence about this one. How about you?
  </p>
 </div>
             </div><!-- /.entry-content -->
 
             <footer class="post-metadata">
                 <ul>
-                    <li>Published on <time datetime="2006-01-05T16:46:00+01:00">Thu 05 January 2006</time> </li>
-                    <li><a href="./media-2006.html">Add your comment</a></li>
+                    <li>Published on <time datetime="2006-01-22T19:29:00+01:00">Sun 22 January 2006</time> </li>
+                    <li><a href="./firefox-adds-ping-attribute.html">Add your comment</a></li>
                 </ul>
             </footer>
         </article>
@@ -205,7 +280,7 @@ body > footer .mini-logo {display: inline-block;width:97px;height:32px;border:0;
         <a href="./index85.html">&laquo; Newer</a>
 		</li>
 		<li class="current">
-    86 / 120
+    86 / 121
 		</li>
 		<li class="older">
         <a href="./index87.html">Older &raquo;</a>

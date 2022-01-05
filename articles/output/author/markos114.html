@@ -86,212 +86,132 @@ body > footer .mini-logo {display: inline-block;width:97px;height:32px;border:0;
     </nav>
 
         <article class="hentry">
-            <h1 class="entry-title storytitle"><a href="../latency-bandwidth-and-speed-of-applications-part-i.html" rel="bookmark" title="Permalink to Latency, bandwidth and speed of applications - part I">Latency, bandwidth and speed of applications - part I</a></h1>
+            <h1 class="entry-title storytitle"><a href="../no-language-feature-is-optional.html" rel="bookmark" title="Permalink to No language feature is optional">No language feature is optional</a></h1>
 
             <div class="entry-content post-text">
                 <div>
  <p>
-  It seems we’re back to discussing the importance of bandwidth and latency on perceived speed of application. In a way it’s amazing that after 10 years of widespread use of Internet and local networks, we developers still discuss these issues.
+  Until recently I’ve been using Python 2.3.x almost exclusively and I thought it was about time I get more familiar with what 2.4 series has to offer. I’ve skimmed the list of new features when point zero version came out and found some things that I like (e.g sets) and some that I disliked (e.g. decorators).
  </p>
  <p>
-  So, what contributes to speed of execution in network applications?
+  So, this time I invested a bit more time to actually read and understand what was on offer and how these features came about. I still haven’t found a need or a sympathy for decorators, although I can see why some people want them. Personally, I believe they’ll more likely be a cause for less readable and harder to understand Python code than they prove to be useful.
  </p>
  <p>
-  Each network request can be divided into seven time intervals:
- </p>
- <ol>
-  <li>
-   time needed to send a request
-  </li>
-  <li>
-   latency, which is time spent for any amount of data to travel between client and server
-  </li>
-  <li>
-   data transfer time
-  </li>
-  <li>
-   time needed to process a request, form a response and send it
-  </li>
-  <li>
-   latency again, but this time in other direction
-  </li>
-  <li>
-   data transfer time for response
-  </li>
-  <li>
-   time needed to process response and present result to user
-  </li>
- </ol>
- <p>
-  Sum of all these parts is time lapsed between issued command and presented result. How fast this needs to be depends on application and our experiences. For example, we expect faster response to our key presses in SSH client than we do waiting for search results.
+  I still think Python is a wonderful language, but gone are the days when I was looking forward to each release and goodness it brought. These days I’m afraid to look and discover another feature that helps more with keeping habits from other languages than adding something new and genuinely useful.
  </p>
  <p>
-  However, if this sum is under a quarter of a second, it will be generally regarded as instantaneous, but you really should aim for 1/10th of a second to satisfy even the most twitchy users.
+  I like minimalism in all things and therefore see every new feature as a burden that should be more than offset by its usefulness. I’m not a language designer and hence can’t really say or tell if Python is going down the wrong track, but there is something that I find most annoying.
  </p>
  <p>
-  Usually, we might get to control all parts of this equation only when client and server are located on a local network and we develop both of them. So, a well behaving application needs to take in account environment in which it will run and act accordingly.
+  I’ve been thinking about languages quite a lot recently; how we use and abuse them and what impact our language proficiency has on our communications. There’s one thing I find very different with programming languages than those used for normal human interaction.
  </p>
  <p>
-  This means, among other things, to give user feedback that something is happening whenever there is even a remote chance that response might take a while, to react sensibly to network disruptions (such as timeouts) and offer a way to abort user actions.
+  There’s very little optional about them.
  </p>
  <p>
-  So, how do we speed up the application itself?
+  It really gets my goat when a language feature is defended as being optional. You may have a choice in using a feature, but you certainly don’t get a choice in learning and understanding its use. Even if you don’t use it yourself, you’ll quite likely have to interact with somebody else’s code, which does and unlike with English, it’s not enough to just get a sense of meaning from its context. You actually have to really understand what it does and hence need to be familiar with feature itself.
  </p>
  <p>
-  Absolutely the best way to speed up a network request is to not make one. The usual way to do this is to cache result over its life span and use it when possible.
+  It might still be worthwhile to add it, but let’s not pretend when we do that it’s completely optional.
  </p>
  <p>
-  The other way, lately often mentioned in relation to AJAX, is to make our requests asynchronously. Unlike synchronous requests, which are direct results of user actions, asynchronous are those were data is transfered in expectation of future user actions.
- </p>
- <p>
-  An example would be a mail program where we transfer message headers of yet unread mail in background before we actually need to display them to user, since it’s fairly likely that he’ll want to check them in near future.
- </p>
- <p>
-  There are also downsides to this approach. It can be difficult to predict what to transfer next if no user action is more probable than rest. It can also incur significant costs if bandwidth is expensive as often is on GPRS networks in Europe. And when number of simultaneous connections is limited (HTTP allows 4, but not all browsers comply), it can occupy a resource when you need one.
- </p>
- <p>
-  Still, it’s a useful tool when it can be applied.
- </p>
- <p>
-  More about saving time with our seven intervals in part two due tomorrow.
- </p>
- <p>
-  <em>
-   Update: second part has been
-   <a href="latency-bandwidth-and-speed-of-applications-part-ii.html" title="Second part">
-    posted
-   </a>
-   .
-  </em>
+  P.S: Isn’t it amazing that after all these years, we still have a global interpreter lock? Wouldn’t it be better if we worked on removing that disgrace?
  </p>
 </div>
             </div><!-- /.entry-content -->
 
             <footer class="post-metadata">
                 <ul>
-                    <li>Published on <time datetime="2005-09-14T21:10:00+02:00">Wed 14 September 2005</time> </li>
-                    <li><a href="../latency-bandwidth-and-speed-of-applications-part-i.html">Add your comment</a></li>
+                    <li>Published on <time datetime="2005-09-21T11:58:00+02:00">Wed 21 September 2005</time> </li>
+                    <li><a href="../no-language-feature-is-optional.html">Add your comment</a></li>
                 </ul>
             </footer>
         </article>
         <article class="hentry">
-            <h1 class="entry-title storytitle"><a href="../hide-email-address-from-spammers-with-javascript.html" rel="bookmark" title="Permalink to Hide email address from spammers with Javascript">Hide email address from spammers with Javascript</a></h1>
+            <h1 class="entry-title storytitle"><a href="../dont-take-my-word-for-it.html" rel="bookmark" title="Permalink to Don't take my word for it">Don't take my word for it</a></h1>
 
             <div class="entry-content post-text">
                 <div>
  <p>
-  <strong>
-   Update: I
-   <a href="hide-email-address-from-spammers-with-javascript-a-new-attempt.html">
-    published
-   </a>
-   a new, more safe but less friendly version of this script.
-  </strong>
- </p>
- <p>
-  Wouldn’t it be nice, if you could post your email address on your web site without worrying spammers will pick it up?
- </p>
- <p>
-  Now you can, by applying a little bit of javascript to your web page. Just import
-  <a href="/blog/code/mangle.js" title="Javascript file with mangle function">
-   this javascript file
+  I thought Harold Evans’
+  <a href="http://news.bbc.co.uk/2/hi/uk_news/magazine/4252520.stm" title="Harold Evans talks about English language">
+   last column
   </a>
-  in head of your document and call
-  <em>
-   mangle()
-  </em>
-  inside your onload handler. What it does, is replace elements of form
-  <br/>
-  <code>
-   <br/>
-   &lt;span class="change"&gt;billg at microsoft dot com&lt;/span&gt;
-  </code>
-  <br/>
-  with
-  <br/>
-  <code>
-   <br/>
-   &lt;a href="mailto:billg@microsoft.com"&gt;billg@microsoft.com&lt;/a&gt;
-  </code>
+  was quite good.
  </p>
  <p>
-  There are few caveats to its use. You’re not allowed to use any HTML tag inside of span blocks, which have class set to change. The script also expects such blocks to have only one class definition. If change is only part of class attribute value, this script won’t work.
+  It’s no shocking revelation that I’m not a native English speaker. In fact, my mother tongue is Slovenian; a fairly difficult language to master even for willing. Although my (mis)use of it leaves much to be desired, I’d like to think I have a better grasp of it than of English.
  </p>
  <p>
-  You are free to use script as you please and to make any changes necessary. But if you choose to replace “at” and “dot” as delimiters, pick replacements that make address easily recognizable for those who don’t use javascript.
+  Still, every now and then I happen to get into trouble because of a misunderstanding that is sometimes caused by as little as a subtly different perception of a word. Usually such problems can be easily spotted and rectified since nuances are much clearer to me in a language I’ve used for more than three decades.
  </p>
  <p>
-  <em>
-   Note: The reason why this script works is that spammers use programs which search for email like pattern in page. They don’t interpret pages using javascript interpreter, since it would make collecting addresses significantly slower and more expensive.
-  </em>
+  However, I was less lucky when dealing with different cultures using English. One such occasion was using word hate improperly, as you might use it in Slovenian by implying a stronger disliking of something, but not an actual hate. I try not to transplant use of a word or a phrase between languages, but I’m sure I still make mistakes like this.
  </p>
  <p>
-  <em>
-   Update: Jay Samec let me know there’s a bug in my code, since it didn’t handle emails with multiple dots (e.g. those with subdomains). Script has been fixed now.
-  </em>
+  I also lost international friendships through years. Most of them probably because of my cultural ignorance and sometimes it seems the language we used came between us. I came to believe there’s a risk in knowing language well enough for people to assume you know what you’re talking about and not well enough to actually do.
  </p>
  <p>
-  <em>
-   Update 2: Holger Rindermann pointed out another bug and provided a patch to fix it that is now a part of the script.
-  </em>
+  So, does anybody have any personal language related horror stories to share?
  </p>
 </div>
             </div><!-- /.entry-content -->
 
             <footer class="post-metadata">
                 <ul>
-                    <li>Published on <time datetime="2005-09-11T15:59:00+02:00">Sun 11 September 2005</time> </li>
-                    <li><a href="../hide-email-address-from-spammers-with-javascript.html">Add your comment</a></li>
+                    <li>Published on <time datetime="2005-09-19T13:46:00+02:00">Mon 19 September 2005</time> </li>
+                    <li><a href="../dont-take-my-word-for-it.html">Add your comment</a></li>
                 </ul>
             </footer>
         </article>
         <article class="hentry">
-            <h1 class="entry-title storytitle"><a href="../why-i-passionately-dislike-twisted-and-zope.html" rel="bookmark" title="Permalink to Why I passionately dislike Twisted and Zope">Why I passionately dislike Twisted and Zope</a></h1>
+            <h1 class="entry-title storytitle"><a href="../javascript-timing-conflicts.html" rel="bookmark" title="Permalink to Javascript timing conflicts">Javascript timing conflicts</a></h1>
 
             <div class="entry-content post-text">
                 <div>
  <p>
-  I’ve been a Python programmer for more than 6 years now and during most of this time it’s been the language I used professionally. It’s safe to say, I know it fairly well and I’m quite attached to it. I also have to admit that I can’t stand Twisted and Zope.
+  Play with fire and you’ll get burned.
  </p>
  <p>
-  It’s a continuous wonder for me, why Python community chooses to promote projects that feel most unpythonic to me. I became addicted to Python, because it was a very simple, yet expressive language which lived up to its mantra of making easy things easy and hard things possible.
+  I’ve just spent two days hunting a bug that just didn’t make sense. No matter what I did, there was at least one browser, which didn’t want to behave properly and it was driving me nuts.
  </p>
  <p>
-  So what is actually easy with Twisted and Zope? Practically nothing. At least not as long as you don’t dedicate yourself to their use.
+  Finally I gave up and decided there’s nothing wrong with my code and the fault must be with the browser. And so it was, up to a point. Or not, depending on your point of view.
  </p>
  <p>
-  You see, Twisted and Zope are not products. They are religions.
+  The problem was a timing conflict resulting from a use of
+  <a href="framestack-technique-and-accessibility.html" title="Description of technique">
+   framestack technique
+  </a>
+  and the way modern browsers work. Browsers don’t wait for the whole page with its data to load, before they display it to users. They display as reasonable presentation of received data as possible while they are trying to load the rest. For example, onload handler set to body tag is triggered when body of HTML document has loaded, but possibly before images and other external resources have. When they do, page layout might change somewhat and if your script is reading and using layout data in the meantime, it’s quite likely it’ll end up using wrong values.
  </p>
  <p>
-  They were not built in a way that would make it easy to integrate them with wonderful things others built. It’s not easy to just pick the parts you like and use them elsewhere.
- </p>
- <p>
-  No, like a good disciple you were supposed to study the way they work, use their new vocabulary and dedicate yourself to live within confines of chosen religion. If you do this, then you’ll get some payoff and you might after a while even think you enjoy it.
- </p>
- <p>
-  But you’ll be missing on a hell of a lot of stuff others made and you’ll have to live with limitations of not your choosing. Well, at least not completely.
- </p>
- <p>
-  I guess I wouldn’t find it so distressing, if I didn’t feel Python developers are getting too eager to add new features to please Zope and Twisted developers. Or features that were inspired by these two.
- </p>
- <p>
-  So this language I loved is with each new release becoming ever less clean and beautiful and it’s getting easier and easier to imagine a day, when I’ll switch to some other language as my main development tool.
- </p>
- <p>
+  The easiest (and right) way to fix this is to start javascript with
   <em>
-   Disclaimer: When I talked about Zope, I actually meant version 2.x, because it was the one I actually used on a project and left me scared badly enough that I can’t make myself to even check X3. I heard it’s better in many regards, but I really don’t care anymore.
+   window.onload
   </em>
+  , which is triggered when everything has loaded. This might be a problem, if you’re using something like framestack to avoid reloading page on subsequent visits, but at least in my case I’ve decided that the cleanest and easiest solution was to use window.onload and just force reload of problematic page on each visit.
  </p>
  <p>
-  I also think developers who created Zope and Twisted are amazing. I just think that their product is, well, unpleasant.
+  It’s also possible to get in similar timing conflicts by using
+  <em>
+   innerHTML
+  </em>
+  method. If you try to stuck a large piece of HTML inside a page using innerHTML call, you may encounter an unwelcome surprise. Reason for this is that at least some browsers don’t wait to parse and insert data in DOM before they proceed to the next statement. Injection delay is usually barely noticeable, but big enough for statements that manipulate inserted data to fail, if they are in close proximity to innerHTML call.
+ </p>
+ <p>
+  You can’t necessarily avoid innerHTML problems with window.onload, but you can by using (more cumbersome) DOM methods.
+ </p>
+ <p>
+  It still annoys me though that I knew all of this and wasted two days just because I didn’t think of it.
  </p>
 </div>
             </div><!-- /.entry-content -->
 
             <footer class="post-metadata">
                 <ul>
-                    <li>Published on <time datetime="2005-09-08T12:58:00+02:00">Thu 08 September 2005</time> </li>
-                    <li><a href="../why-i-passionately-dislike-twisted-and-zope.html">Add your comment</a></li>
+                    <li>Published on <time datetime="2005-09-17T19:01:00+02:00">Sat 17 September 2005</time> </li>
+                    <li><a href="../javascript-timing-conflicts.html">Add your comment</a></li>
                 </ul>
             </footer>
         </article>
@@ -301,7 +221,7 @@ body > footer .mini-logo {display: inline-block;width:97px;height:32px;border:0;
         <a href="../author/markos113.html">&laquo; Newer</a>
 		</li>
 		<li class="current">
-    114 / 120
+    114 / 121
 		</li>
 		<li class="older">
         <a href="../author/markos115.html">Older &raquo;</a>

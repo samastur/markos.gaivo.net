@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>A notch above a monkey - Javascript, UI, Web</title><link href="http://markos.gaivo.net/articles/" rel="alternate"></link><link href="/articles/feeds/javascript-ui-web.atom.xml" rel="self"></link><id>http://markos.gaivo.net/articles/</id><updated>2008-12-27T18:23:00+01:00</updated><entry><title>Self-referencing page links</title><link href="http://markos.gaivo.net/articles/self-referencing-page-links.html" rel="alternate"></link><published>2008-12-27T18:23:00+01:00</published><updated>2008-12-27T18:23:00+01:00</updated><author><name>markos</name></author><id>tag:markos.gaivo.net,2008-12-27:/articles/self-referencing-page-links.html</id><summary type="html">&lt;div&gt;
+<feed xmlns="http://www.w3.org/2005/Atom"><title>A notch above a monkey - Javascript, UI, Web</title><link href="https://markos.gaivo.net/articles/" rel="alternate"></link><link href="/articles/feeds/javascript-ui-web.atom.xml" rel="self"></link><id>https://markos.gaivo.net/articles/</id><updated>2008-12-27T18:23:00+01:00</updated><entry><title>Self-referencing page links</title><link href="https://markos.gaivo.net/articles/self-referencing-page-links.html" rel="alternate"></link><published>2008-12-27T18:23:00+01:00</published><updated>2008-12-27T18:23:00+01:00</updated><author><name>markos</name></author><id>tag:markos.gaivo.net,2008-12-27:/articles/self-referencing-page-links.html</id><summary type="html">&lt;div&gt;
  &lt;p&gt;
   There’s an HTML pattern that has been bugging me for a while even though I’m guilty of using it too. It’s even present on page you are reading right now.
  &lt;/p&gt;
@@ -31,7 +31,7 @@
  &lt;p&gt;
   This way you won’t polute content markup with behavior that should sit on top of it.
  &lt;/p&gt;
-&lt;/div&gt;</content><category term="Javascript"></category><category term="HTML"></category><category term="unobtrusive enhancement"></category><category term="bug"></category><category term="pattern"></category></entry><entry><title>Auto-grow TEXTAREA</title><link href="http://markos.gaivo.net/articles/auto-grow-textarea.html" rel="alternate"></link><published>2006-07-31T13:58:00+02:00</published><updated>2006-07-31T13:58:00+02:00</updated><author><name>markos</name></author><id>tag:markos.gaivo.net,2006-07-31:/articles/auto-grow-textarea.html</id><summary type="html">&lt;div&gt;
+&lt;/div&gt;</content><category term="Javascript"></category><category term="HTML"></category><category term="unobtrusive enhancement"></category><category term="bug"></category><category term="pattern"></category></entry><entry><title>Auto-grow TEXTAREA</title><link href="https://markos.gaivo.net/articles/auto-grow-textarea.html" rel="alternate"></link><published>2006-07-31T13:58:00+02:00</published><updated>2006-07-31T13:58:00+02:00</updated><author><name>markos</name></author><id>tag:markos.gaivo.net,2006-07-31:/articles/auto-grow-textarea.html</id><summary type="html">&lt;div&gt;
  &lt;p&gt;
   &lt;em&gt;
    &lt;strong&gt;
@@ -109,7 +109,7 @@
    I didn’t try to limit the growth of the box to the boundaries of the screen. I find page scroll bars the least annoying when scroll bars can’t be avoided. It’s a personal choice though.
   &lt;/li&gt;
  &lt;/ul&gt;
-&lt;/div&gt;</content></entry><entry><title>Accessible DHTML and other bits</title><link href="http://markos.gaivo.net/articles/accessible-dhtml-and-other-bits.html" rel="alternate"></link><published>2006-07-31T00:11:00+02:00</published><updated>2006-07-31T00:11:00+02:00</updated><author><name>markos</name></author><id>tag:markos.gaivo.net,2006-07-31:/articles/accessible-dhtml-and-other-bits.html</id><summary type="html">&lt;div&gt;
+&lt;/div&gt;</content></entry><entry><title>Accessible DHTML and other bits</title><link href="https://markos.gaivo.net/articles/accessible-dhtml-and-other-bits.html" rel="alternate"></link><published>2006-07-31T00:11:00+02:00</published><updated>2006-07-31T00:11:00+02:00</updated><author><name>markos</name></author><id>tag:markos.gaivo.net,2006-07-31:/articles/accessible-dhtml-and-other-bits.html</id><summary type="html">&lt;div&gt;
  &lt;p&gt;
   I’ve been neglecting my blog recently. There was no shortage of news, but somehow I didn’t feel like writing. My mind is preoccupied with other things and where the hell is the cold and wet summer everyone promised?
  &lt;/p&gt;
@@ -150,7 +150,7 @@
  &lt;p&gt;
   Not only is there a draft of a specification for making widgets accessible, we even got a test environment with Firefox 1.5. I’ve only had the time to scan through specification, so my view should be taken with a big pinch of salt, but my first impression is definitely positive. We’ll see how it develops after I had time to digest it and make a few tests.
  &lt;/p&gt;
-&lt;/div&gt;</content></entry><entry><title>FlashAid</title><link href="http://markos.gaivo.net/articles/flashaid.html" rel="alternate"></link><published>2006-07-04T11:21:00+02:00</published><updated>2006-07-04T11:21:00+02:00</updated><author><name>markos</name></author><id>tag:markos.gaivo.net,2006-07-04:/articles/flashaid.html</id><summary type="html">&lt;div&gt;
+&lt;/div&gt;</content></entry><entry><title>FlashAid</title><link href="https://markos.gaivo.net/articles/flashaid.html" rel="alternate"></link><published>2006-07-04T11:21:00+02:00</published><updated>2006-07-04T11:21:00+02:00</updated><author><name>markos</name></author><id>tag:markos.gaivo.net,2006-07-04:/articles/flashaid.html</id><summary type="html">&lt;div&gt;
  &lt;p&gt;
   Ever since I listened to Andy Clarke’s talk at @media, I’ve been convinced that what we’re missing is a simple way to distinguish between visitors which need accessible version of the site and those who would prefer to use a non-accessible version.
  &lt;/p&gt;
@@ -182,7 +182,7 @@
  &lt;p&gt;
   Still a real fix would be a better support from user agents. It doesn’t seem to be that hard to add an environment variable and a preference switch, so is there some other reason why it hasn’t happened yet?
  &lt;/p&gt;
-&lt;/div&gt;</content></entry><entry><title>Customizable interfaces</title><link href="http://markos.gaivo.net/articles/customizable-interfaces.html" rel="alternate"></link><published>2006-03-23T20:32:00+01:00</published><updated>2006-03-23T20:32:00+01:00</updated><author><name>markos</name></author><id>tag:markos.gaivo.net,2006-03-23:/articles/customizable-interfaces.html</id><summary type="html">&lt;div&gt;
+&lt;/div&gt;</content></entry><entry><title>Customizable interfaces</title><link href="https://markos.gaivo.net/articles/customizable-interfaces.html" rel="alternate"></link><published>2006-03-23T20:32:00+01:00</published><updated>2006-03-23T20:32:00+01:00</updated><author><name>markos</name></author><id>tag:markos.gaivo.net,2006-03-23:/articles/customizable-interfaces.html</id><summary type="html">&lt;div&gt;
  &lt;p&gt;
   There’s a vast number of potential Marela features that we are able, but not willing to implement, since they are detrimental to our design goals. There are also many, which we are willing and will implement, but it doesn’t change the fact that there will always be parts …&lt;/p&gt;&lt;/div&gt;</summary><content type="html">&lt;div&gt;
  &lt;p&gt;
@@ -220,7 +220,7 @@
  &lt;p&gt;
   Question that remains is, is this appealing enough for you to use it?
  &lt;/p&gt;
-&lt;/div&gt;</content></entry><entry><title>Revisiting javascript i18n</title><link href="http://markos.gaivo.net/articles/revisiting-javascript-i18n.html" rel="alternate"></link><published>2006-02-25T16:55:00+01:00</published><updated>2006-02-25T16:55:00+01:00</updated><author><name>markos</name></author><id>tag:markos.gaivo.net,2006-02-25:/articles/revisiting-javascript-i18n.html</id><summary type="html">&lt;div&gt;
+&lt;/div&gt;</content></entry><entry><title>Revisiting javascript i18n</title><link href="https://markos.gaivo.net/articles/revisiting-javascript-i18n.html" rel="alternate"></link><published>2006-02-25T16:55:00+01:00</published><updated>2006-02-25T16:55:00+01:00</updated><author><name>markos</name></author><id>tag:markos.gaivo.net,2006-02-25:/articles/revisiting-javascript-i18n.html</id><summary type="html">&lt;div&gt;
  &lt;p&gt;
   This week I had an interesting discussion with Ratnadeep Bhattacharjee about my
   &lt;a href="news-at-seven-javascript-i18n-that-almost-doesnt-suck.html" title="Older post with js i18n library"&gt;
@@ -251,7 +251,7 @@
  &lt;p&gt;
   I’m sure these are not the only two problems, since I have a vague uneasiness about a few more things. Therefore I’d love to hear more thoughts about what you’d expect and need from such a library, before I continue down the possibly wrong path.
  &lt;/p&gt;
-&lt;/div&gt;</content></entry><entry><title>Google Page Creator (now together with screenshots)</title><link href="http://markos.gaivo.net/articles/google-pages.html" rel="alternate"></link><published>2006-02-23T17:22:00+01:00</published><updated>2006-02-23T17:22:00+01:00</updated><author><name>markos</name></author><id>tag:markos.gaivo.net,2006-02-23:/articles/google-pages.html</id><summary type="html">&lt;div&gt;
+&lt;/div&gt;</content></entry><entry><title>Google Page Creator (now together with screenshots)</title><link href="https://markos.gaivo.net/articles/google-pages.html" rel="alternate"></link><published>2006-02-23T17:22:00+01:00</published><updated>2006-02-23T17:22:00+01:00</updated><author><name>markos</name></author><id>tag:markos.gaivo.net,2006-02-23:/articles/google-pages.html</id><summary type="html">&lt;div&gt;
  &lt;p&gt;
   &lt;a href="http://pages.google.com" title="Link to pages application"&gt;
    Nice idea
@@ -303,7 +303,7 @@
   &lt;/a&gt;
   on Marela.
  &lt;/p&gt;
-&lt;/div&gt;</content></entry><entry><title>News at seven - javascript i18n that almost doesn't suck</title><link href="http://markos.gaivo.net/articles/news-at-seven-javascript-i18n-that-almost-doesnt-suck.html" rel="alternate"></link><published>2005-12-19T19:36:00+01:00</published><updated>2005-12-19T19:36:00+01:00</updated><author><name>markos</name></author><id>tag:markos.gaivo.net,2005-12-19:/articles/news-at-seven-javascript-i18n-that-almost-doesnt-suck.html</id><summary type="html">&lt;div&gt;
+&lt;/div&gt;</content></entry><entry><title>News at seven - javascript i18n that almost doesn't suck</title><link href="https://markos.gaivo.net/articles/news-at-seven-javascript-i18n-that-almost-doesnt-suck.html" rel="alternate"></link><published>2005-12-19T19:36:00+01:00</published><updated>2005-12-19T19:36:00+01:00</updated><author><name>markos</name></author><id>tag:markos.gaivo.net,2005-12-19:/articles/news-at-seven-javascript-i18n-that-almost-doesnt-suck.html</id><summary type="html">&lt;div&gt;
  &lt;p&gt;
   Holidays are closer with each day and it’s getting harder and harder to concentrate on work, when your mind is occupied with loot coming your way.
  &lt;/p&gt;
@@ -404,7 +404,7 @@
    post and some I discovered just recently. For instance it won’t work if you’re trying to translate text on buttons or if text to be translated includes HTML tags (case of tags is not preserved in DOM tree, which wouldn’t be a problem if Firefox and IE defaulted to the same one).
   &lt;/em&gt;
  &lt;/p&gt;
-&lt;/div&gt;</content></entry><entry><title>Multitasking with POST requests - part II</title><link href="http://markos.gaivo.net/articles/multitasking-with-post-requests-part-ii.html" rel="alternate"></link><published>2005-12-16T13:55:00+01:00</published><updated>2005-12-16T13:55:00+01:00</updated><author><name>markos</name></author><id>tag:markos.gaivo.net,2005-12-16:/articles/multitasking-with-post-requests-part-ii.html</id><summary type="html">&lt;div&gt;
+&lt;/div&gt;</content></entry><entry><title>Multitasking with POST requests - part II</title><link href="https://markos.gaivo.net/articles/multitasking-with-post-requests-part-ii.html" rel="alternate"></link><published>2005-12-16T13:55:00+01:00</published><updated>2005-12-16T13:55:00+01:00</updated><author><name>markos</name></author><id>tag:markos.gaivo.net,2005-12-16:/articles/multitasking-with-post-requests-part-ii.html</id><summary type="html">&lt;div&gt;
  &lt;p&gt;
   Yesterday I wrote about my wish of making background
   &lt;em&gt;
@@ -478,7 +478,7 @@
  &lt;p&gt;
   Update: IE also dislikes ripping and moving.
  &lt;/p&gt;
-&lt;/div&gt;</content></entry><entry><title>Multitasking with POST requests?</title><link href="http://markos.gaivo.net/articles/multitasking-with-post-requests.html" rel="alternate"></link><published>2005-12-15T20:34:00+01:00</published><updated>2005-12-15T20:34:00+01:00</updated><author><name>markos</name></author><id>tag:markos.gaivo.net,2005-12-15:/articles/multitasking-with-post-requests.html</id><summary type="html">&lt;div&gt;
+&lt;/div&gt;</content></entry><entry><title>Multitasking with POST requests?</title><link href="https://markos.gaivo.net/articles/multitasking-with-post-requests.html" rel="alternate"></link><published>2005-12-15T20:34:00+01:00</published><updated>2005-12-15T20:34:00+01:00</updated><author><name>markos</name></author><id>tag:markos.gaivo.net,2005-12-15:/articles/multitasking-with-post-requests.html</id><summary type="html">&lt;div&gt;
  &lt;p&gt;
   I have a kinky wish. I’d like to submit a web form that wouldn’t get canceled if I clicked another link before its completion.
  &lt;/p&gt;

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>A notch above a monkey - Linux</title><link href="http://markos.gaivo.net/articles/" rel="alternate"></link><link href="/articles/feeds/linux.atom.xml" rel="self"></link><id>http://markos.gaivo.net/articles/</id><updated>2005-11-06T18:45:00+01:00</updated><entry><title>Favorite KDE features</title><link href="http://markos.gaivo.net/articles/favorite-kde-features.html" rel="alternate"></link><published>2005-11-06T18:45:00+01:00</published><updated>2005-11-06T18:45:00+01:00</updated><author><name>markos</name></author><id>tag:markos.gaivo.net,2005-11-06:/articles/favorite-kde-features.html</id><summary type="html">&lt;div&gt;
+<feed xmlns="http://www.w3.org/2005/Atom"><title>A notch above a monkey - Linux</title><link href="https://markos.gaivo.net/articles/" rel="alternate"></link><link href="/articles/feeds/linux.atom.xml" rel="self"></link><id>https://markos.gaivo.net/articles/</id><updated>2005-11-06T18:45:00+01:00</updated><entry><title>Favorite KDE features</title><link href="https://markos.gaivo.net/articles/favorite-kde-features.html" rel="alternate"></link><published>2005-11-06T18:45:00+01:00</published><updated>2005-11-06T18:45:00+01:00</updated><author><name>markos</name></author><id>tag:markos.gaivo.net,2005-11-06:/articles/favorite-kde-features.html</id><summary type="html">&lt;div&gt;
  &lt;p&gt;
   I’ve just noticed that a lot more time has passed than planned since my last post about Linux. I wanted to write a follow up to installation post a week later, but it completely slipped my mind.
  &lt;/p&gt;
@@ -25,7 +25,7 @@
  &lt;p&gt;
   There are other things I really like, but it’s really hard to live without those three. The only thing really ruining my happiness is a sucky USB keyboard. So far I had no luck with finding a reasonable replacement.
  &lt;/p&gt;
-&lt;/div&gt;</content></entry><entry><title>Problems with PS/2 keyboard in Linux</title><link href="http://markos.gaivo.net/articles/problems-with-ps2-keyboard-in-linux.html" rel="alternate"></link><published>2005-10-22T11:10:00+02:00</published><updated>2005-10-22T11:10:00+02:00</updated><author><name>markos</name></author><id>tag:markos.gaivo.net,2005-10-22:/articles/problems-with-ps2-keyboard-in-linux.html</id><summary type="html">&lt;div&gt;
+&lt;/div&gt;</content></entry><entry><title>Problems with PS/2 keyboard in Linux</title><link href="https://markos.gaivo.net/articles/problems-with-ps2-keyboard-in-linux.html" rel="alternate"></link><published>2005-10-22T11:10:00+02:00</published><updated>2005-10-22T11:10:00+02:00</updated><author><name>markos</name></author><id>tag:markos.gaivo.net,2005-10-22:/articles/problems-with-ps2-keyboard-in-linux.html</id><summary type="html">&lt;div&gt;
  &lt;p&gt;
   I finally got a new machine yesterday and I immediately installed SuSE 10 on it. Ubuntu seems to be the flavor of the moment, but I was never much fond of Debian and even less of GNOME.
  &lt;/p&gt;
@@ -47,7 +47,7 @@
   &lt;/a&gt;
   piece of crap for now. Truth be told, this was just the cheapest of bad options.
  &lt;/p&gt;
-&lt;/div&gt;</content></entry><entry><title>Back to my roots!</title><link href="http://markos.gaivo.net/articles/back-to-my-roots.html" rel="alternate"></link><published>2005-08-21T19:24:00+02:00</published><updated>2005-08-21T19:24:00+02:00</updated><author><name>markos</name></author><id>tag:markos.gaivo.net,2005-08-21:/articles/back-to-my-roots.html</id><summary type="html">&lt;div&gt;
+&lt;/div&gt;</content></entry><entry><title>Back to my roots!</title><link href="https://markos.gaivo.net/articles/back-to-my-roots.html" rel="alternate"></link><published>2005-08-21T19:24:00+02:00</published><updated>2005-08-21T19:24:00+02:00</updated><author><name>markos</name></author><id>tag:markos.gaivo.net,2005-08-21:/articles/back-to-my-roots.html</id><summary type="html">&lt;div&gt;
  &lt;p&gt;
   It has dawned on me recently, that I’m not using Linux as much as I used to. True, all my servers are Linux based and all new code is eventually deployed on them, but I haven’t been using it for a while on a desktop.
  &lt;/p&gt;

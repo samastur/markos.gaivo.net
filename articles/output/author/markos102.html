@@ -86,171 +86,128 @@ body > footer .mini-logo {display: inline-block;width:97px;height:32px;border:0;
     </nav>
 
         <article class="hentry">
-            <h1 class="entry-title storytitle"><a href="../favorite-kde-features.html" rel="bookmark" title="Permalink to Favorite KDE features">Favorite KDE features</a></h1>
+            <h1 class="entry-title storytitle"><a href="../archive.html" rel="bookmark" title="Permalink to Archive">Archive</a></h1>
 
             <div class="entry-content post-text">
-                <div>
- <p>
-  I’ve just noticed that a lot more time has passed than planned since my last post about Linux. I wanted to write a follow up to installation post a week later, but it completely slipped my mind.
- </p>
- <p>
-  It’s been a few weeks now and my Linux box has become the place, where I do most of my work. There are three reasons for this:
- </p>
- <ul>
-  <li>
-   kioslaves like fish let me work with remote filesystems over various protocols as if they were local
-  </li>
-  <li>
-   abundance of tabs which can be navigated with keyboard (terminal, editor and browser all support them)
-  </li>
-  <li>
-   bookmarks in file dialogs even for remote filesystems make using even a complicated directory layouts a joy
-  </li>
- </ul>
- <p>
-  There are other things I really like, but it’s really hard to live without those three. The only thing really ruining my happiness is a sucky USB keyboard. So far I had no luck with finding a reasonable replacement.
- </p>
+                <p>
+
+</p>
+
+<div id="_mcePaste">
+
+List of best posts used to be here, but is not anymore. If Google can't
+find a page, then it probably is not worth reading.
+
 </div>
+
+<p>
+
+</p>
             </div><!-- /.entry-content -->
 
             <footer class="post-metadata">
                 <ul>
-                    <li>Published on <time datetime="2005-11-06T18:45:00+01:00">Sun 06 November 2005</time> </li>
-                    <li><a href="../favorite-kde-features.html">Add your comment</a></li>
+                    <li>Published on <time datetime="2005-11-13T19:25:00+01:00">Sun 13 November 2005</time> </li>
+                    <li><a href="../archive.html">Add your comment</a></li>
                 </ul>
             </footer>
         </article>
         <article class="hentry">
-            <h1 class="entry-title storytitle"><a href="../javascript-and-internacionalization.html" rel="bookmark" title="Permalink to Javascript and i18n">Javascript and i18n</a></h1>
+            <h1 class="entry-title storytitle"><a href="../when-to-use-ajax.html" rel="bookmark" title="Permalink to When to use AJAX">When to use AJAX</a></h1>
 
             <div class="entry-content post-text">
                 <div>
  <p>
-  I’ve been looking for Javascript localization resources on Google and came up fairly empty handed. There seems to be
-  <a href="http://www.codeproject.com/aspnet/MultilingualWebsites3.asp#4">
-   little
+  Wednesday’s conversation with
+  <a href="http://www.friedcellcollective.net/">
+   Fry
   </a>
-  useful information and even less useful code. The only thing I found, that is actually usable, is a
-  <a href="http://johnnydebris.net/javascripts/i18n.js?frames=no" title="Link to javascript i18n library">
-   library
-  </a>
-  by Guido Wesdorp.
+  provoked me to think more about where and when to use AJAX. I thought I’ve got it figured it out, but I’ve discovered that my opinions don’t really match my behavior and I find this a problem.
  </p>
  <p>
-  I find this utterly amazing after a decade of Javascript being in wide use, although I probably shouldn’t be. A likely explanation for this is that Javascript is most often used for short scripts inside web pages. If used on a multilingual website, it’s usually fairly easy to have separate javascript files for each language.
+  AJAX rage of 2005 hasn’t brought many articles exploring benefits and downsides to AJAX. There were few, even very good ones, but I’d like to see more of them and less articles describing latest gimmick or service which would probably be overlooked if it didn’t use an AJAX trick or two.
  </p>
  <p>
-  I expect this will change with rise of more complicated, involved web applications. However, so far AJAX toolkits that seem to spring up these days like mushrooms after rain, have been busy with obviously more important things like animations.
+  I had a dentist appointment today, something I’m sure everyone looks forward to, which at least provided me with ample time to think about this. My basic premise was that we should use technology that already works and use AJAX to build on top of that.
  </p>
  <p>
-  I could be wrong. In fact, I hope I’m wrong. Is there a javascript i18n library with following characteristics:
+  Since basic web model has been around for a long time, is well understood and mostly works, I tried to look at places where it doesn’t or at least not as it should and came to a short list of possible criteria for choosing when to apply AJAX:
  </p>
  <ul>
   <li>
-   easy to use
+   <strong>
+    Browsers ought to support this, but mostly can’t or don’t.
+   </strong>
+   Example: autosave support for textarea, which is the most requested feature among my friends.
   </li>
   <li>
-   supports translation of javascript code and HTML
+   <strong>
+    Browsers support it, but badly.
+   </strong>
+   Example: progress bar for uploads. I don’t know why you can get a usable dialog for downloads, but you’re out of luck if you want to upload.
   </li>
   <li>
-   small and relatively fast
-  </li>
-  <li>
-   translations are separated from HTML and javascript code
-  </li>
-  <li>
-   handles properly nodes with superfluous whitespace and those where it can’t be collapsed
-  </li>
-  <li>
-   supports translation of nodes with other HTML tags as ancestors (not only text nodes)
+   <strong>
+    Connection problems (narrow bandwidth or high latency).
+   </strong>
+   If this is a known, but otherwise unsolvable problem, AJAX can be used to reduce ammount and frequency of traffic.
   </li>
  </ul>
  <p>
-  Guido’s library is a good tool that meets many of these needs, but sadly not all of them. Writing my own one seems to be the only solution.
+  Have I forgot anything else?
+ </p>
+ <p>
+  I don’t think these are only valid scenarios for AJAX use, but we did discover that fast serving of well designed pages greatly reduces the need for AJAX.
  </p>
 </div>
             </div><!-- /.entry-content -->
 
             <footer class="post-metadata">
                 <ul>
-                    <li>Published on <time datetime="2005-11-05T19:15:00+01:00">Sat 05 November 2005</time> </li>
-                    <li><a href="../javascript-and-internacionalization.html">Add your comment</a></li>
+                    <li>Published on <time datetime="2005-11-11T19:10:00+01:00">Fri 11 November 2005</time> </li>
+                    <li><a href="../when-to-use-ajax.html">Add your comment</a></li>
                 </ul>
             </footer>
         </article>
         <article class="hentry">
-            <h1 class="entry-title storytitle"><a href="../speed-test-of-pyrss2gen-kid-and-atomixlib.html" rel="bookmark" title="Permalink to Speed test of PyRSS2Gen, kid and atomixlib">Speed test of PyRSS2Gen, kid and atomixlib</a></h1>
+            <h1 class="entry-title storytitle"><a href="../personal-data-protection.html" rel="bookmark" title="Permalink to Personal Data Protection">Personal Data Protection</a></h1>
 
             <div class="entry-content post-text">
                 <div>
  <p>
-  I’ve spent this evening building RSS2 and Atom feeds with
-  <a href="http://www.dalkescientific.com/Python/PyRSS2Gen.html">
-   PyRSS2Gen
+  One of the downsides of running your own company is that you have to get familiar with things you could never care for and amazingly often make sense only to really twisted bureaucratic minds.
+ </p>
+ <p>
+  In Slovenia, if you collect personal information of any kind, you have to register such database 15 days before its first use with
+  <a href="http://www.mp.gov.si/index.php?id=2243&amp;L=1">
+   Inspectorate for Personal Data Protection
   </a>
-  ,
-  <a href="http://kid.lesscode.org/index.html">
-   kid
+  . I’m all in favor of laws protecting personal information and in general I think Slovenian laws are not too bad in that regard. But if inspectorate by their
+  <a href="http://www.mp.gov.si/fileadmin/mp.gov.si/pageuploads/2005/PDF/porocila/poroc_ivop_2004.pdf">
+   own words
   </a>
-  and
-  <a href="http://www.defuze.org/oss/atomixlib/">
-   atomixlib
+  rarely inspects cases that weren’t reported to them and all such inspections seem to be limited to state institutions, what good is such register than anyway? How does it protect anyone?
+ </p>
+ <p>
+  You can read online
+  <a href="http://www2.gov.si/mp/katalogz.nsf/(wwwUpravljavci)?OpenView&amp;Count=30" title="Online register">
+   a list
   </a>
-  , as
-  <a href="searching-for-atom-feed-generator.html">
-   proposed
-  </a>
-  by helpful people few days ago.
+  of companies that registered their databases together with a short summary of what kind of data they collect and what for. I’ve checked a company where I administered such database for two and a half years (never experienced an inspection of any kind) and it’s quite clear that no one actually checks if provided information is true or complete.
  </p>
  <p>
-  We’d like to add feeds promiscuously to our service (right now we have exactly one). But before we can decide how to tackle this, we need to know how fast we can generate a feed on average.
+  What you’re left with is another meaningless obligation you have to fulfill. Preferably by sending them email with data AND a printed form (email only is not allowed). Nice. You can do more work so they don’t have to.
  </p>
  <p>
-  <strong>
-   DISCLAIMER: I tried to generate feeds with same data using what seemed a reasonable python code to do so, but I didn’t try to save every millisecond as I only cared about crude speed approximations. I have no problem believing that someone else might get completely different results. No serious statistical analysis has been made and rigorous scientific approach has been almost completely absent. Better make your own tests, if speed (or anything else really) is important to you. But if dubious numbers delight you, then please continue.
-  </strong>
- </p>
- <p>
-  So, here are my results. Time to generate a feed with 10 entries on 1GHz G4 Powerbook:
- </p>
- <ul>
-  <li>
-   with PyRSS2Gen somewhere around 70ms
-  </li>
-  <li>
-   with atomixlib around 120-140ms
-  </li>
-  <li>
-   and with kid around 30-35ms
-  </li>
- </ul>
- <p>
-  In other words, you can generate between 8 and 30 feeds per second on my notebook and (I guess) 2-3x as many on a modern server. This is more than enough for most cases, but I’m afraid it probably won’t be enough for us. Which means either producing feeds by gluing strings together or having a more intelligent approach than building a new one on every request.
- </p>
- <p>
-  As a side note, I found all three packages easy to work with.
-  <br/>
-  <em>
-   <br/>
-   Update: Sylvain has released atomixlib 0.3 which makes it even easier to create atom feeds and brings also significant speed improvements. On my computer it takes now around 60-65ms to build a feed.
-  </em>
- </p>
- <p>
-  Another update: I made a couple of quick tests with mixed results on fairly new Opteron server. PyRSS2Gen was actually slower with 80-85ms and I have no idea why. kid was blazing fast with times between 8 and 9ms.  Definitely good enough.
- </p>
- <p>
-  But I couldn’t get atomixlib to work, because 4Suite failed to build, so it will have to wait until I can figure out why it chokes on a perfectly legitimate XSLT.
- </p>
- <p>
-  Update 3: 4Suite has been promptly fixed (thanks!) and atomixlib 0.3 takes now 18-19ms. I believe this is an excellent time.
+  E-government Slovenian style.
  </p>
 </div>
             </div><!-- /.entry-content -->
 
             <footer class="post-metadata">
                 <ul>
-                    <li>Published on <time datetime="2005-11-05T02:04:00+01:00">Sat 05 November 2005</time> </li>
-                    <li><a href="../speed-test-of-pyrss2gen-kid-and-atomixlib.html">Add your comment</a></li>
+                    <li>Published on <time datetime="2005-11-10T10:44:00+01:00">Thu 10 November 2005</time> </li>
+                    <li><a href="../personal-data-protection.html">Add your comment</a></li>
                 </ul>
             </footer>
         </article>
@@ -260,7 +217,7 @@ body > footer .mini-logo {display: inline-block;width:97px;height:32px;border:0;
         <a href="../author/markos101.html">&laquo; Newer</a>
 		</li>
 		<li class="current">
-    102 / 120
+    102 / 121
 		</li>
 		<li class="older">
         <a href="../author/markos103.html">Older &raquo;</a>

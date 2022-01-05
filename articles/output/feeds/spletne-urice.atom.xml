@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>A notch above a monkey - Spletne urice</title><link href="http://markos.gaivo.net/articles/" rel="alternate"></link><link href="/articles/feeds/spletne-urice.atom.xml" rel="self"></link><id>http://markos.gaivo.net/articles/</id><updated>2011-10-05T12:30:00+02:00</updated><entry><title>6th anniversary of wwwh</title><link href="http://markos.gaivo.net/articles/6th-anniversary-of-wwwh.html" rel="alternate"></link><published>2011-10-05T12:30:00+02:00</published><updated>2011-10-05T12:30:00+02:00</updated><author><name>markos</name></author><id>tag:markos.gaivo.net,2011-10-05:/articles/6th-anniversary-of-wwwh.html</id><summary type="html">&lt;div&gt;
+<feed xmlns="http://www.w3.org/2005/Atom"><title>A notch above a monkey - Spletne urice</title><link href="https://markos.gaivo.net/articles/" rel="alternate"></link><link href="/articles/feeds/spletne-urice.atom.xml" rel="self"></link><id>https://markos.gaivo.net/articles/</id><updated>2011-10-05T12:30:00+02:00</updated><entry><title>6th anniversary of wwwh</title><link href="https://markos.gaivo.net/articles/6th-anniversary-of-wwwh.html" rel="alternate"></link><published>2011-10-05T12:30:00+02:00</published><updated>2011-10-05T12:30:00+02:00</updated><author><name>markos</name></author><id>tag:markos.gaivo.net,2011-10-05:/articles/6th-anniversary-of-wwwh.html</id><summary type="html">&lt;div&gt;
  &lt;p&gt;
   &lt;a href="http://wwwh.si" title="Events homepage"&gt;
    Web Hours
@@ -62,7 +62,7 @@
   &lt;/a&gt;
   .
  &lt;/p&gt;
-&lt;/div&gt;</content><category term="spletne urice"></category><category term="talks"></category><category term="wwwh"></category></entry><entry><title>AJAX Workshop: End of Act I</title><link href="http://markos.gaivo.net/articles/ajax-workshop-end-of-act-i.html" rel="alternate"></link><published>2006-04-27T11:06:00+02:00</published><updated>2006-04-27T11:06:00+02:00</updated><author><name>markos</name></author><id>tag:markos.gaivo.net,2006-04-27:/articles/ajax-workshop-end-of-act-i.html</id><summary type="html">&lt;div&gt;
+&lt;/div&gt;</content><category term="spletne urice"></category><category term="talks"></category><category term="wwwh"></category></entry><entry><title>AJAX Workshop: End of Act I</title><link href="https://markos.gaivo.net/articles/ajax-workshop-end-of-act-i.html" rel="alternate"></link><published>2006-04-27T11:06:00+02:00</published><updated>2006-04-27T11:06:00+02:00</updated><author><name>markos</name></author><id>tag:markos.gaivo.net,2006-04-27:/articles/ajax-workshop-end-of-act-i.html</id><summary type="html">&lt;div&gt;
  &lt;p&gt;
   First part of AJAX workshop is behind me and I enjoyed it immensely. I hope our participants did as well or failing that, I hope we didn’t waste their time too much.
  &lt;/p&gt;
@@ -80,7 +80,7 @@
  &lt;p&gt;
   If you were there yesterday, then please drop me a line or two about your experience. I’d also love to hear what you want from second part of the workshop, since it’s not too late to change it to suit you better.
  &lt;/p&gt;
-&lt;/div&gt;</content></entry><entry><title>The day after</title><link href="http://markos.gaivo.net/articles/the-day-after.html" rel="alternate"></link><published>2006-03-09T12:28:00+01:00</published><updated>2006-03-09T12:28:00+01:00</updated><author><name>markos</name></author><id>tag:markos.gaivo.net,2006-03-09:/articles/the-day-after.html</id><summary type="html">&lt;div&gt;
+&lt;/div&gt;</content></entry><entry><title>The day after</title><link href="https://markos.gaivo.net/articles/the-day-after.html" rel="alternate"></link><published>2006-03-09T12:28:00+01:00</published><updated>2006-03-09T12:28:00+01:00</updated><author><name>markos</name></author><id>tag:markos.gaivo.net,2006-03-09:/articles/the-day-after.html</id><summary type="html">&lt;div&gt;
  &lt;p&gt;
   Yesterday I gave my very first talk in English. Broken English, to be sure, but hopefully good enough to be understood. I’m grateful to everyone who came and I hope you didn’t feel like your time was wasted.
  &lt;/p&gt;
@@ -92,7 +92,7 @@
  &lt;p&gt;
   In any case, if you can spare a moment or two, I’d love to hear your honest thoughts about it.
  &lt;/p&gt;
-&lt;/div&gt;</content></entry><entry><title>web.zen.si</title><link href="http://markos.gaivo.net/articles/webzensi.html" rel="alternate"></link><published>2005-10-27T13:40:00+02:00</published><updated>2005-10-27T13:40:00+02:00</updated><author><name>markos</name></author><id>tag:markos.gaivo.net,2005-10-27:/articles/webzensi.html</id><summary type="html">&lt;div&gt;
+&lt;/div&gt;</content></entry><entry><title>web.zen.si</title><link href="https://markos.gaivo.net/articles/webzensi.html" rel="alternate"></link><published>2005-10-27T13:40:00+02:00</published><updated>2005-10-27T13:40:00+02:00</updated><author><name>markos</name></author><id>tag:markos.gaivo.net,2005-10-27:/articles/webzensi.html</id><summary type="html">&lt;div&gt;
  &lt;p&gt;
   Spletne urice now have a
   &lt;a href="http://web.zen.si"&gt;
@@ -112,7 +112,7 @@
  &lt;p&gt;
   There you’ll also be able to find slides of previous presentations, detailed future schedule and hopefully in time, a more lively debate than you had here.
  &lt;/p&gt;
-&lt;/div&gt;</content></entry><entry><title>Another Monday, another local announcement</title><link href="http://markos.gaivo.net/articles/another-monday-another-local-announcement.html" rel="alternate"></link><published>2005-10-24T09:49:00+02:00</published><updated>2005-10-24T09:49:00+02:00</updated><author><name>markos</name></author><id>tag:markos.gaivo.net,2005-10-24:/articles/another-monday-another-local-announcement.html</id><summary type="html">&lt;div&gt;
+&lt;/div&gt;</content></entry><entry><title>Another Monday, another local announcement</title><link href="https://markos.gaivo.net/articles/another-monday-another-local-announcement.html" rel="alternate"></link><published>2005-10-24T09:49:00+02:00</published><updated>2005-10-24T09:49:00+02:00</updated><author><name>markos</name></author><id>tag:markos.gaivo.net,2005-10-24:/articles/another-monday-another-local-announcement.html</id><summary type="html">&lt;div&gt;
  &lt;p&gt;
   Spletne urice se bodo v sredo nadaljevale s predavanjem
   &lt;a href="http://www.jaka.org"&gt;
@@ -152,7 +152,7 @@
   &lt;/a&gt;
   . Še vedno imamo nekaj prostih terminov, tako da ste toplo vabljeni, da jih zapolnite.
  &lt;/p&gt;
-&lt;/div&gt;</content></entry><entry><title>Kje pa tebe ?evelj ?uli?</title><link href="http://markos.gaivo.net/articles/kje-pa-tebe-oevelj-zuli.html" rel="alternate"></link><published>2005-10-16T11:27:00+02:00</published><updated>2005-10-16T11:27:00+02:00</updated><author><name>markos</name></author><id>tag:markos.gaivo.net,2005-10-16:/articles/kje-pa-tebe-oevelj-zuli.html</id><summary type="html">&lt;div&gt;
+&lt;/div&gt;</content></entry><entry><title>Kje pa tebe ?evelj ?uli?</title><link href="https://markos.gaivo.net/articles/kje-pa-tebe-oevelj-zuli.html" rel="alternate"></link><published>2005-10-16T11:27:00+02:00</published><updated>2005-10-16T11:27:00+02:00</updated><author><name>markos</name></author><id>tag:markos.gaivo.net,2005-10-16:/articles/kje-pa-tebe-oevelj-zuli.html</id><summary type="html">&lt;div&gt;
  &lt;p&gt;
   Zaradi praznikov bomo decembra imeli samo tri spletne urice in razmišljal sem, da bi na zadnjem sre??anju, 21. decembra, poskusili nekaj novega.
  &lt;/p&gt;
@@ -188,7 +188,7 @@
  &lt;p&gt;
   Rok za oddajo idej je 1. november. KPT?Ž bo, ??e bom takrat imel vsaj za 45 minut predstavitev in ne bo o??itnega upora sami ideji. V nasprotnem primeru bomo leto zaklju??ili kot ponavadi; z odli??nim predavateljem in debato, ki ponavadi sledi predavanjem.
  &lt;/p&gt;
-&lt;/div&gt;</content></entry><entry><title>Mikroformati</title><link href="http://markos.gaivo.net/articles/mikroformati.html" rel="alternate"></link><published>2005-10-10T12:03:00+02:00</published><updated>2005-10-10T12:03:00+02:00</updated><author><name>markos</name></author><id>tag:markos.gaivo.net,2005-10-10:/articles/mikroformati.html</id><summary type="html">&lt;div&gt;
+&lt;/div&gt;</content></entry><entry><title>Mikroformati</title><link href="https://markos.gaivo.net/articles/mikroformati.html" rel="alternate"></link><published>2005-10-10T12:03:00+02:00</published><updated>2005-10-10T12:03:00+02:00</updated><author><name>markos</name></author><id>tag:markos.gaivo.net,2005-10-10:/articles/mikroformati.html</id><summary type="html">&lt;div&gt;
  &lt;p&gt;
   Spletne urice se bodo ta teden nadaljevala s predavanjem o mikroformatih, ki ga bo imel
   &lt;a href="http://www.friedcellcollective.net/" title="Fry's page"&gt;
@@ -204,7 +204,7 @@
   &lt;/a&gt;
   v sredo, ob 19.00 v Kiberpipi. Na predavanje ste vsi vljudno vabljeni.
  &lt;/p&gt;
-&lt;/div&gt;</content></entry><entry><title>Otvoritveno predavanje</title><link href="http://markos.gaivo.net/articles/otvoritveno-predavanje.html" rel="alternate"></link><published>2005-10-04T10:21:00+02:00</published><updated>2005-10-04T10:21:00+02:00</updated><author><name>markos</name></author><id>tag:markos.gaivo.net,2005-10-04:/articles/otvoritveno-predavanje.html</id><summary type="html">&lt;div&gt;
+&lt;/div&gt;</content></entry><entry><title>Otvoritveno predavanje</title><link href="https://markos.gaivo.net/articles/otvoritveno-predavanje.html" rel="alternate"></link><published>2005-10-04T10:21:00+02:00</published><updated>2005-10-04T10:21:00+02:00</updated><author><name>markos</name></author><id>tag:markos.gaivo.net,2005-10-04:/articles/otvoritveno-predavanje.html</id><summary type="html">&lt;div&gt;
  &lt;p&gt;
   Another Slovenian announcement…
  &lt;/p&gt;
@@ -248,7 +248,7 @@
   &lt;/a&gt;
   .
  &lt;/p&gt;
-&lt;/div&gt;</content></entry><entry><title>Spletne urice v kiberpipi</title><link href="http://markos.gaivo.net/articles/spletne-urice-v-kiberpipi.html" rel="alternate"></link><published>2005-09-27T09:59:00+02:00</published><updated>2005-09-27T09:59:00+02:00</updated><author><name>markos</name></author><id>tag:markos.gaivo.net,2005-09-27:/articles/spletne-urice-v-kiberpipi.html</id><summary type="html">&lt;div&gt;
+&lt;/div&gt;</content></entry><entry><title>Spletne urice v kiberpipi</title><link href="https://markos.gaivo.net/articles/spletne-urice-v-kiberpipi.html" rel="alternate"></link><published>2005-09-27T09:59:00+02:00</published><updated>2005-09-27T09:59:00+02:00</updated><author><name>markos</name></author><id>tag:markos.gaivo.net,2005-09-27:/articles/spletne-urice-v-kiberpipi.html</id><summary type="html">&lt;div&gt;
  &lt;p&gt;
   I apologize in advance to anyone reading this who can’t understand Slovene, but the next announcement is of very local nature and probably of interest only to Slovene speaking people actually living in Slovenia.
  &lt;/p&gt;

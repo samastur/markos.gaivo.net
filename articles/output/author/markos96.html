@@ -86,140 +86,163 @@ body > footer .mini-logo {display: inline-block;width:97px;height:32px;border:0;
     </nav>
 
         <article class="hentry">
-            <h1 class="entry-title storytitle"><a href="../ipred-2-endangers-all-software-development.html" rel="bookmark" title="Permalink to IPRED2 endangers all software development">IPRED2 endangers all software development</a></h1>
+            <h1 class="entry-title storytitle"><a href="../hiding-form-buttons-as-text.html" rel="bookmark" title="Permalink to Hiding form buttons as text">Hiding form buttons as text</a></h1>
 
             <div class="entry-content post-text">
                 <div>
  <p>
-  <a href="http://www.fsfeurope.org">
-   FSF Europe
+  I love going to our weekly web talks not so much for the talks themselves (although they are great), but conversations you get to have there. A part of a recent one rendered from memory and shortened for readers pleasure:
+ </p>
+ <blockquote>
+  <p>
+   <strong>
+    Fry:
+   </strong>
+   Those delete strings of yours should really be post requests.
+   <a href="http://webaccelerator.google.com/" title="Link to web accelerator that shouldn't be used">
+    GA’s
+   </a>
+   pre-fetching might destroy user’s data.
+   <br/>
+   <strong>
+    Me:
+   </strong>
+   &lt;beeeeep&gt; Google. RFC says should not must.
+   <br/>
+   <strong>
+    Fry:
+   </strong>
+   Well, since it also says multiple GET requests should yield same result, it really is a must for delete.
+   <br/>
+   <strong>
+    Me
+   </strong>
+   (not ready to give up): True, but so many form buttons will look like crap.
+   <br/>
+   <strong>
+    Fry:
+   </strong>
+   Well, you can hide them by removing border, setting background-color to background and fixing font size to 1 em.
+   <br/>
+   <strong>
+    Me:
+   </strong>
+   Uhm, this might work, but probably doesn’t, because browsers use controls from operating system.
+   <br/>
+   <strong>
+    Fry:
+   </strong>
+   Well, try it.
+  </p>
+ </blockquote>
+ <p>
+  I may be stubborn, but I’m not a complete moron. So I did and here’s
+  <a href="http://markos.gaivo.net/examples/hidebutton.html" title="Demo">
+   the result
   </a>
-  has prepared a
-  <a href="http://www.fsfeurope.org/projects/ipred2/ipred2.en.html">
-   short document
-  </a>
-  describing problems with IPRED2, the new “Intellectual Property” rights directive from European Union. If passed, it could lead to jail sentences for intellectual property violators. Proposal doesn’t distinguish between kinds of intellectual property, but it does limit itself to sadly undefined willful infringement.
+  .
  </p>
  <p>
-  Not being a lawyer makes it hard to judge, if FSF’s objections are valid. According to
-  <a href="http://wiki.ffii.de/IpredEp051122En">
-   a report
-  </a>
-  from FFII, big IP companies are not happy with it either. Directive’s proposal certainly leaves a lot to interpretation and FSF’s scenario doesn’t seem far fetched. Especially for those of us who’ve seen how difficult it can be for lawyers to agree on anything.
+  As can be seen, it works beautifully in Firefox (1.0+) and Opera 8 (I share my visitors indifference to earlier versions). It doesn’t work in Safari at all, but since its buttons are not obnoxiously ugly, I can live with that.
  </p>
  <p>
-  In short, it’s another piece of ill-considered legislation that wants to help entertainment industry in their fight against reality at the expense of almost everyone else.
+  However, it has unseemly big padding in Internet Explorer, which is the real deal-breaker for now.
  </p>
  <p>
-  I wonder if someday people will look at IP legislation of late 20th and early 21st century the way we see now tax on windows (not to be confused with windows tax, which opens gates to completely different discussion).
- </p>
-</div>
-            </div><!-- /.entry-content -->
-
-            <footer class="post-metadata">
-                <ul>
-                    <li>Published on <time datetime="2005-11-27T19:57:00+01:00">Sun 27 November 2005</time> </li>
-                    <li><a href="../ipred-2-endangers-all-software-development.html">Add your comment</a></li>
-                </ul>
-            </footer>
-        </article>
-        <article class="hentry">
-            <h1 class="entry-title storytitle"><a href="../first-snow.html" rel="bookmark" title="Permalink to First snow">First snow</a></h1>
-
-            <div class="entry-content post-text">
-                <div>
- <p>
-  This year’s first snow fell couple of days ago and while I enjoy it immensely, I’m getting more and more annoyed by our snowplowers.
-  <a class="imageR" href="/images/firstsnow.jpg">
-   <img alt="First snow" src="/images/firstsnow_small.jpg"/>
-  </a>
-  Snowplowing in Slovenia is a state provided service without any business competition and like most such services it sucks. In fact, we relive the same story every year:
+  I think demo’s style sheet is pretty self explanatory, but here’s what I did by mostly following Fry’s instructions:
  </p>
  <ul>
   <li>
-   some time in the fall there’s a story published, how everyone is ready for snow this year and there won’t be any problems with our roads
+   set border to 0
   </li>
   <li>
-   we get a correct weather forecast a few days before the first snow
+   same for padding and margin
   </li>
   <li>
-   snow falls, plowers are nowhere to be seen and there’s a complete mayhem on slovenian roads
+   set background-color of the button to the same value as background of the document
   </li>
   <li>
-   snowplowers provide some meaningless statistics about resources used and journalists write stories about how they were surprised by the snow
+   did the same for color of text
+  </li>
+  <li>
+   set the size of button text to 1 em so it’s displayed in right size in every browser
+  </li>
+  <li>
+   set cursor to pointer, since it’s not done automatically for buttons
   </li>
  </ul>
  <p>
-  Now, could you treat your customers and users like this? Probably not.
+  <a href="http://www.friedcellcollective.net/" title="Fry's web home">
+   Fry
+  </a>
+  was also correct that bold and italics work and underline doesn’t, but you can simulate later with border-bottom. Except in IE of course, on account of padding.
  </p>
  <p>
-  Except if you, like them, are the only provider of vital service. It’s probably still a poor business strategy because even if you are, like telecoms used to be, can you be absolutely sure that this will remain so?
+  There’s another shortcoming to consider. If background is an image or a color gradient instead of a solid color, this trick won’t work.
  </p>
  <p>
-  Personally, I’d just like to know how is it possible fo them not to be embarrassed infront of their family and friends.
+  So, any ideas about what to do with IE?
  </p>
 </div>
             </div><!-- /.entry-content -->
 
             <footer class="post-metadata">
                 <ul>
-                    <li>Published on <time datetime="2005-11-27T17:48:00+01:00">Sun 27 November 2005</time> </li>
-                    <li><a href="../first-snow.html">Add your comment</a></li>
+                    <li>Published on <time datetime="2005-12-02T15:49:00+01:00">Fri 02 December 2005</time> </li>
+                    <li><a href="../hiding-form-buttons-as-text.html">Add your comment</a></li>
                 </ul>
             </footer>
         </article>
         <article class="hentry">
-            <h1 class="entry-title storytitle"><a href="../i-like-sse.html" rel="bookmark" title="Permalink to I like SSE">I like SSE</a></h1>
+            <h1 class="entry-title storytitle"><a href="../nevsiljiv-javascript-aftermath.html" rel="bookmark" title="Permalink to Nevsiljiv Javascript - aftermath">Nevsiljiv Javascript - aftermath</a></h1>
 
             <div class="entry-content post-text">
                 <div>
  <p>
-  I’ve been a netizen since ’93 and I saw web for the first time in ’94, when a friend showed me
-  <a href="http://www.yahoo.com">
-   Yahoo
+  Talk is behind me and I’d like to thank all who came and especially to those, who stayed through the whole thing.
+ </p>
+ <p>
+  Looking back, there are certainly things I’d do differently, if I got the chance, but at least it wasn’t a horrendous experience for me and the audience like my last talk a few years ago was.
+ </p>
+ <p>
+  I’ll post my slides of dubious value later today or tomorrow at the
+  <a href="http://web.zen.si">
+   usual place
   </a>
-  . I felt dizzy just thinking about possibilities.
- </p>
- <p>
-  I had no idea what was coming, but even though web came a long way since then, I never felt so excited again up until now. It’s hard to predict future and I avoid revealing my stupidity if possible, but it really looks like a no-brainer predicting a vastly different, more open and collaborative web in few years time than we have now.
- </p>
- <p>
-  Feeds were a big step forward. It wasn’t necessary to scrap pages to reuse information anymore. Even more importantly, feeds changed the attitude so sharing and reusing content is now again a normal and good thing.
- </p>
- <p>
-  It seems
-  <a href="http://www.ietf.org/html.charters/atompub-charter.html">
-   atom publishing protocol
-  </a>
-  will soon be ratified and with it a standard way of editing web resources. In fact making sharing a two-way street. The final piece was provided by
-  <a href="http://spaces.msn.com/members/rayozzie/PersonalSpace.aspx?_c01_blogpart=blogmgmt&amp;_c=blogpart" title="Ozzie's blog">
-   Ray Ozzie
-  </a>
-  and guys at Microsoft. A synchronization protocol for RSS feeds called
-  <a href="http://msdn.microsoft.com/xml/rss/sse/" title="Protocol specification">
-   SSE
-  </a>
-  published under creative commons license that should be really useful for synchronizing calendars, contacts etc.
- </p>
- <p>
-  I’ve read it a couple of days ago and I couldn’t find an obvious defect in it (apart from a small error in the example at point 2.2.2, which I’m sure has been spotted since). Truth be told, I didn’t expect it to.
- </p>
- <p>
-  It’s a simple, easy to understand specification. I wish people would stop using date-time values conforming to RFC 822, but nevertheless SSE shouldn’t be difficult to implement.
- </p>
- <p>
-  It probably really is the easiest thing that could work and it’s up to programmers to show if it might be too easy. There’s always a tension between things you specify and things you leave to implementation. Freedom given can and usually is a point of misunderstandings and until there are enough implementations in the wild, it’s hard to judge the quality of compromise.
- </p>
- <p>
-  I won’t be surprised though if final specification version won’t be significantly different than current one. I’ll try to make our implementation as soon as possible and hopefully by that time there will be others to test it with.
+  and I’ll try to prepare a Lessig-like webcast over the weekend. I hope to see everyone next week on Tuesday. Boštjan Ber??i?? will talk about responsibility of publishers on web, a talk that everyone who publishes on the web in Slovenia should probably hear.
  </p>
 </div>
             </div><!-- /.entry-content -->
 
             <footer class="post-metadata">
                 <ul>
-                    <li>Published on <time datetime="2005-11-24T22:33:00+01:00">Thu 24 November 2005</time> </li>
-                    <li><a href="../i-like-sse.html">Add your comment</a></li>
+                    <li>Published on <time datetime="2005-12-01T09:09:00+01:00">Thu 01 December 2005</time> </li>
+                    <li><a href="../nevsiljiv-javascript-aftermath.html">Add your comment</a></li>
+                </ul>
+            </footer>
+        </article>
+        <article class="hentry">
+            <h1 class="entry-title storytitle"><a href="../ipred2-derailed.html" rel="bookmark" title="Permalink to IPRED2 derailed?">IPRED2 derailed?</a></h1>
+
+            <div class="entry-content post-text">
+                <div>
+ <p>
+  Well, I’ve jumped the gun. It seems IPRED2 has been
+  <a href="http://wiki.ffii.org/Ipred2En">
+   derailed
+  </a>
+  (at least for a while).
+ </p>
+ <p>
+  Still, better this than being right.
+ </p>
+</div>
+            </div><!-- /.entry-content -->
+
+            <footer class="post-metadata">
+                <ul>
+                    <li>Published on <time datetime="2005-11-29T18:08:00+01:00">Tue 29 November 2005</time> </li>
+                    <li><a href="../ipred2-derailed.html">Add your comment</a></li>
                 </ul>
             </footer>
         </article>
@@ -229,7 +252,7 @@ body > footer .mini-logo {display: inline-block;width:97px;height:32px;border:0;
         <a href="../author/markos95.html">&laquo; Newer</a>
 		</li>
 		<li class="current">
-    96 / 120
+    96 / 121
 		</li>
 		<li class="older">
         <a href="../author/markos97.html">Older &raquo;</a>

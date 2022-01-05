@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>A notch above a monkey - Javascript, Python, Web</title><link href="http://markos.gaivo.net/articles/" rel="alternate"></link><link href="/articles/feeds/javascript-python-web.atom.xml" rel="self"></link><id>http://markos.gaivo.net/articles/</id><updated>2006-05-04T10:31:00+02:00</updated><entry><title>MochiKit</title><link href="http://markos.gaivo.net/articles/mochikit.html" rel="alternate"></link><published>2006-05-04T10:31:00+02:00</published><updated>2006-05-04T10:31:00+02:00</updated><author><name>markos</name></author><id>tag:markos.gaivo.net,2006-05-04:/articles/mochikit.html</id><summary type="html">&lt;div&gt;
+<feed xmlns="http://www.w3.org/2005/Atom"><title>A notch above a monkey - Javascript, Python, Web</title><link href="https://markos.gaivo.net/articles/" rel="alternate"></link><link href="/articles/feeds/javascript-python-web.atom.xml" rel="self"></link><id>https://markos.gaivo.net/articles/</id><updated>2006-05-04T10:31:00+02:00</updated><entry><title>MochiKit</title><link href="https://markos.gaivo.net/articles/mochikit.html" rel="alternate"></link><published>2006-05-04T10:31:00+02:00</published><updated>2006-05-04T10:31:00+02:00</updated><author><name>markos</name></author><id>tag:markos.gaivo.net,2006-05-04:/articles/mochikit.html</id><summary type="html">&lt;div&gt;
  &lt;p&gt;
   Sometimes I’m really glad my brains don’t let my mouth shoot off as quickly as it would like.
  &lt;/p&gt;
@@ -45,7 +45,7 @@
  &lt;p&gt;
   There are obviously things I dislike about it and the major one being the way it loads dependencies. I despise document.write and I disagree with argument made in comments (Safari’s use of defer on generated scripts). But I guess this is something reasonable minds can disagree on.
  &lt;/p&gt;
-&lt;/div&gt;</content></entry><entry><title>Plone and Dojo</title><link href="http://markos.gaivo.net/articles/plone-and-dojo.html" rel="alternate"></link><published>2005-12-17T10:32:00+01:00</published><updated>2005-12-17T10:32:00+01:00</updated><author><name>markos</name></author><id>tag:markos.gaivo.net,2005-12-17:/articles/plone-and-dojo.html</id><summary type="html">&lt;div&gt;
+&lt;/div&gt;</content></entry><entry><title>Plone and Dojo</title><link href="https://markos.gaivo.net/articles/plone-and-dojo.html" rel="alternate"></link><published>2005-12-17T10:32:00+01:00</published><updated>2005-12-17T10:32:00+01:00</updated><author><name>markos</name></author><id>tag:markos.gaivo.net,2005-12-17:/articles/plone-and-dojo.html</id><summary type="html">&lt;div&gt;
  &lt;p&gt;
   I’m not a
   &lt;a href="http://plone.org"&gt;

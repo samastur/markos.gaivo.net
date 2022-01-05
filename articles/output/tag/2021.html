@@ -1,0 +1,835 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+        <title>A notch above a monkey - 2021</title>
+        <meta charset="utf-8" />
+				<meta name="viewport" content="width=device-width, initial-scale=1">
+
+				<link rel="shortcut icon" href="/articles/theme/favicon/favicon.ico" />
+				<link rel="apple-touch-icon-precomposed" sizes="57x57" href="/articles/theme/favicon/apple-touch-icon-57x57.png" />
+				<link rel="apple-touch-icon-precomposed" sizes="114x114" href="/articles/theme/favicon/apple-touch-icon-114x114.png" />
+				<link rel="apple-touch-icon-precomposed" sizes="72x72" href="/articles/theme/favicon/apple-touch-icon-72x72.png" />
+				<link rel="apple-touch-icon-precomposed" sizes="144x144" href="/articles/theme/favicon/apple-touch-icon-144x144.png" />
+				<link rel="apple-touch-icon-precomposed" sizes="60x60" href="/articles/theme/favicon/apple-touch-icon-60x60.png" />
+				<link rel="apple-touch-icon-precomposed" sizes="120x120" href="/articles/theme/favicon/apple-touch-icon-120x120.png" />
+				<link rel="apple-touch-icon-precomposed" sizes="76x76" href="/articles/theme/favicon/apple-touch-icon-76x76.png" />
+				<link rel="apple-touch-icon-precomposed" sizes="152x152" href="/articles/theme/favicon/apple-touch-icon-152x152.png" />
+				<link rel="icon" type="image/png" href="/articles/theme/favicon/favicon-196x196.png" sizes="196x196" />
+				<link rel="icon" type="image/png" href="/articles/theme/favicon/favicon-96x96.png" sizes="96x96" />
+				<link rel="icon" type="image/png" href="/articles/theme/favicon/favicon-32x32.png" sizes="32x32" />
+				<link rel="icon" type="image/png" href="/articles/theme/favicon/favicon-16x16.png" sizes="16x16" />
+				<link rel="icon" type="image/png" href="/articles/theme/favicon/favicon-128.png" sizes="128x128" />
+				<meta name="application-name" content="Marko Samastur"/>
+				<meta name="msapplication-TileColor" content="#FBF8E9" />
+				<meta name="msapplication-TileImage" content="/articles/theme/favicon/mstile-144x144.png" />
+				<meta name="msapplication-square70x70logo" content="/articles/theme/favicon/mstile-70x70.png" />
+				<meta name="msapplication-square150x150logo" content="/articles/theme/favicon/mstile-150x150.png" />
+				<meta name="msapplication-wide310x150logo" content="/articles/theme/favicon/mstile-310x150.png" />
+				<meta name="msapplication-square310x310logo" content="/articles/theme/favicon/mstile-310x310.png" />
+
+        <style>
+/*
+ * Icecream theme by Marko Samastur (markos@gaivo.net)
+ *
+ *
+ * Color palette:
+ * - dark blue: #30303c
+ * - light yellow: fbf8e9
+ * - link red: #980000
+ * - link orange: #ffb665
+ */
+*{box-sizing:border-box}html,body{padding:0;margin:0;height:100%}body{position:relative;font-family:"Helvetica Neue",Helvetica,Arial,sans-serif;font-weight:300;font-size:18px;line-height:1.333333}section,article,aside,header,footer{display:block}h1,h2,h3,h4,h5,h6{margin:1.5em 0;font-size:1.777777em;font-weight:200;line-height:1.5}a:visited,a{text-decoration:none}a:hover{text-decoration:underline}a img{border:0;margin-top:6px}img{max-width:100%}.envelope{position:relative;max-width:60em;width:calc(100% - 2em);margin:2em auto 0;padding:0 0 8em}body > footer{position:fixed;bottom:0;width:100%;height:6em;margin:0;padding:.5em 1em 0;font-size:.8em;text-align:center}body > footer ul{list-style-type:none;margin:0;padding:0}body > footer li{margin:.25em 0}@media (min-device-width:600px){body > footer{height:3em;text-align:left}body > footer ul{display:inline-block}body > footer li{display:inline-block;margin:.5em 2em 0 0}body > footer .mini-logo{float:right}}.about h1{margin:0}.about h2{margin-bottom:0}.about p{margin:1.333333em 0}aside{margin-bottom:2.666666em}aside .photo{max-width:100%;max-height:11.2em;margin:0 1em 8px 0;padding:3px}aside ul{list-style-type:none;margin:0 0 1.333333em;padding:0;overflow:hidden}aside .vcard li{float:none;margin:0}aside li{float:left;margin:.25em 8px 0 0.1em}aside p{margin:0}aside a.email{padding-left:20px;background:url(../img/email-16x16.png) no-repeat 0 0}aside a.website{padding-left:20px;background:url(../img/website-16x16.png) no-repeat 0 0}.elsewhere-links{padding:0 0 0 .5em;list-style-type:inherit}.elsewhere-links > li{float:none;list-style-type:'- '}@media (min-device-width:600px){aside{float:right;width:30%}.about{width:62%;max-width:60em}}body > header h1{font-size:1em;margin:0;padding:.666666em 1em;line-height:1}.post-text h2,.post-text h3{margin:1em 0;font-size:1.333333em;line-height:1}.post .entry-title{margin:1.3333333em 0 0}.post p{margin:1.333333em 0}.post .post-info ul{margin:0 0 2.666666em;padding-left:0}.post .post-info li{list-style-type:none}.post > footer li{font-variant:small-caps}@media (min-device-width:600px){.post .post-info{float:right;width:30%;margin-top:o}.post .post-info ul{margin-bottom:0}.post .post-text,.post #isso-thread{width:62%;max-width:60em}.post p:first-child{margin-top:0}}.posts h1{margin-bottom:0}.colophon h1{margin-top:0;font-size:1em;font-weight:300;line-height:1.333333;font-variant:small-caps}.colophon ul{list-style-type:none;margin:1.333333em 0;padding:0}.posts .entry-title{margin:2.666666em 0 0;font-size:1.333333em;line-height:1}.posts p{margin:1.333333em 0}.post-metadata ul{margin:1.333333em 0;padding-left:0;opacity:.8}.post-metadata li{list-style-type:none;display:inline-block;font-style:italic}.post-metadata li:first-child:after{content:" |"}.posts .paginator{margin-top:2.666666em;padding-left:0;text-align:center}.paginator li{list-style-type:none;display:inline-block;margin:0 .5em}@media (min-device-width:600px){.colophon{float:right;width:30%;margin-top:0}.hentry{width:62%;max-width:60em}nav + .hentry .entry-title{margin-top:0}}.error{text-align:left}.error img{max-width:100%;padding:3px}.imageR img{float:right;margin:.7em 0 .7em 1.5em;padding:3px}.imageL img{float:left;margin:.7em 1.5em .7em 0;padding:3px}.zemanta-related-title{font-size:1em;margin:2.8em 0 0}.zemanta-img .wp-caption{margin:0 0 0 1.5em}.zemanta-img img{padding:3px}.zemanta-pixie{display:none}.alignleft{float:left}.alignright{float:right}.aligncenter{text-align:center;max-width:100%}.alignleft img,img.alignleft,.alignright img,img.alignright,.aligncenter img,img.aligncenter{padding:3px}ol.code{font:normal 95%/110% Andale Mono,Courier,monospace;padding:5px;text-align:left}ol.code code{font:normal 98%/110% Andale Mono,Courier,monospace}.code li.tab1{padding-left:1em}.code li.tab2{padding-left:2em}.code li.tab3{padding-left:3em}.code li.tab4{padding-left:4em}.code li.tab5{padding-left:5em}.code li.tab6{padding-left:6em}.code li.download,.code li:nth-last-child(2){list-style-type:none}.highlight pre{overflow:auto}				</style>
+
+				<style type="text/css" title="Light theme">
+body {background-color: #fbf8e9;color: #30303c;}
+body > footer a, body > footer a:visited {color: #ffb665;}
+a, a:visited, a:hover {color: #980000;}
+body > footer {background-color:#30303c;color:#fbf8e9;}
+aside .photo, .error img, .alignleft img, img.alignleft, .alignright img, img.alignright, .aligncenter img, img.aligncenter,
+.zemanta-img img, .imageR img, .imageL img {background-color:#fbf8e9;border:1px solid #30303c;}
+.post header h1, .posts header h1, .posts > header h1 {border-bottom:1px solid #30303c;}
+ol.code {border: 1px solid #30303c;}
+body > footer .mini-logo {display: inline-block;width:97px;height:32px;border:0;background:url(theme/img/markos_dark_small_bg.png);overflow:hidden;text-indent:-400px;}
+				</style>
+
+				<style type="text/css" title="Dark theme">
+body {background-color: #30303c;color: #fbf8e9;}
+body > footer a, body > footer a:visited {color: #980000;}
+a, a:visited, a:hover {color: #ffb665;}
+body > footer {background-color:#fbf8e9;color:#30303c;}
+aside .photo, .error img, .alignleft img, img.alignleft, .alignright img, img.alignright, .aligncenter img, img.aligncenter,
+.zemanta-img img, .imageR img, .imageL img {background-color:#fbf8e9;}
+.post header h1, .posts header h1, .posts > header h1 {border-bottom:1px solid #fbf8e9;}
+ol.code {border: 1px solid #fbf8e9;}
+body > footer .mini-logo {display: inline-block;width:97px;height:32px;border:0;background:url(theme/img/markos_light_small_bg.png);overflow:hidden;text-indent:-400px;}
+				</style>
+
+        <link href="/articles/feeds/atom.xml" type="application/atom+xml" rel="alternate" title="A notch above a monkey Full Atom Feed" />
+        <link href="/articles/feeds/rss.xml" type="application/rss+xml" rel="alternate" title="A notch above a monkey Full RSS Feed" />
+</head>
+
+<body>
+
+
+<section class="envelope posts">
+    <header>
+        <h1><a href="../">A notch above a monkey <strong></strong></a></h1>
+    </header><!-- /#banner -->
+
+    <nav class="colophon">
+        <h1>By Marko Samastur</h1>
+        <ul>
+            <li><a href="/">About me</a></li>
+            <li><a href="/articles/feeds/atom.xml">Subscribe</a></li>
+        </ul>
+    </nav>
+
+        <article class="hentry">
+            <h1 class="entry-title storytitle"><a href="../movies-2021.html" rel="bookmark" title="Permalink to 101 Dalmatians films (aka Movies 2021)">101 <del>Dalmatians</del> films (aka Movies 2021)</a></h1>
+
+            <div class="entry-content post-text">
+                <p>We saw 101 films last year, which still feels mind-boggling to me. We started even more, but gave up on 3 of them. Life is too short to persevere through movies or books you don’t like.</p>
+<p>This year I expect to watch fewer films. Not because 100 is impossible to repeat, but I hope visual media will take a smaller slice of our lives. Then again, I’ve just subscribed to <a href="lhttps://mubi.com">Mubi</a>.</p>
+<p>That’s not to say I regret seeing them. There were few duds and so many I liked. Clicking on movie titles will reveal my brief impressions of them and I already opened my favourite ones. Selection could easily be different, certainly larger and probably would be if I did it some other day.</p>
+<p>List of 100 movies makes this almost certainly the longest post I’ve written on this website even with (very) brief impressions. Enough words then and here’s the list:</p>
+<ol>
+<li>
+    <details>
+        <summary><em>Lady Macbeth (<a href="https://www.imdb.com/title/tt4291600/">imdb</a>)</em></summary>
+        <div>I wouldn't start 2021 if I was aware of its source material and wasn't under the wrong impression that it is a kind of Shakespeare adaptation. What at first looks like a story of female empowerment becomes progressively crueler and redeem-less. Florence Pugh is superb though in her breakout role.</div>
+    </details>
+</li>
+<li>
+    <details>
+        <summary><em>In den Gängen (In the Aisles) (<a href="https://www.imdb.com/title/tt0006263618/">imdb</a>)</em></summary>
+        <div>A bittersweet look at lives of blue-collar workers in German supermarket. A subtle, moving film.</div>
+    </details>
+</li>
+<li>
+    <details open>
+        <summary><em>Zimna wojna (Cold War) (<a href="https://www.imdb.com/title/tt6543652/">imdb</a>)</em></summary>
+        <div>A beautiful masterpiece from Pawlikowski. It's as close to perfection as films get and deserves multiple viewings.</div>
+    </details>
+</li>
+<li>
+    <details>
+        <summary><em>Black Bear (<a href="https://www.imdb.com/title/tt9601220/">imdb</a>)</em></summary>
+        <div>A split opinion in our household, but I liked it and its surprises even though I also think distressing scenes in last third of a movie could be shorter.</div>
+    </details>
+</li>
+<li>
+    <details>
+        <summary><em>i'm thinking of ending things (<a href="https://www.imdb.com/title/tt7939766/">imdb</a>)</em></summary>
+        <div>A challenging to decipher, but thought provoking movie beautifully shot by Lukasz Zal with an excellent cast with Jessie Buckley amazing performance.</div>
+    </details>
+</li>
+<li>
+    <details>
+        <summary><em>Diplomatie (Diplomacy) (<a href="https://www.imdb.com/title/tt3129564/">imdb</a>)</em></summary>
+        <div>One of the marks of a good movie is that you are on edge even though you know what the end will be. Based on a play so it's a great choice for those of us who enjoy "talking" movies.</div>
+    </details>
+</li>
+<li>
+    <details>
+        <summary><em>Undir trénu (Under the Tree) (<a href="https://www.imdb.com/title/tt6223806/">imdb</a>)</em></summary>
+        <div>Another movie described as comedy or comic by ill-adjusted critics. It's really a dark drama of neighbour quarrelling with escalating effects on both family. Well made even if the events are fairly predictable.</div>
+    </details>
+</li>
+<li>
+    <details>
+        <summary><em><del>Return to Montauk</del> (<a href="https://www.imdb.com/title/tt5247776/">imdb</a>)</em></summary>
+        <div>Failed to meet even our low expectations and gave up on it somewhere in the middle.</div>
+    </details>
+</li>
+<li>
+    <details open>
+        <summary><em>羅生門 (Rashomon) (<a href="https://www.imdb.com/title/tt0042876/">imdb</a>)</em></summary>
+        <div>I wouldn't mind if some of the fights were shorter, but it is otherwise as good as it ever was and highly recommended repeated viewing.</div>
+    </details>
+</li>
+<li>
+    <details open>
+        <summary><em>Ahlat Agaci (The Wild Pear Tree) (<a href="https://www.imdb.com/title/tt6628102/">imdb</a>)</em></summary>
+        <div>A Nuri Bilge Ceylan movie. It is probably the most talky drama of his with wonderful performances. Can't recommend enough.</div>
+    </details>
+</li>
+<li>
+    <details>
+        <summary><em>Mot naturen (Out of Nature) (<a href="https://www.imdb.com/title/tt3596492/">imdb</a>)</em></summary>
+        <div>An internal monologue of a man on a hike experiencing mid-life crisis.</div>
+    </details>
+</li>
+<li>
+    <details>
+        <summary><em>In & Of Itself (<a href="https://www.imdb.com/title/tt11916302/">imdb</a>)</em></summary>
+        <div>A recording of a show made by Derek DelGaudio that is both surprising and thought-provoking examination of identity.</div>
+    </details>
+</li>
+<li>
+    <details>
+        <summary><em>The Right Stuff (<a href="https://www.imdb.com/title/tt0086197/">imdb</a>)</em></summary>
+        <div>Worse than I remembered. Full of male bravado that gets in a way of an interesting story largely unexplored.</div>
+    </details>
+</li>
+<li>
+    <details open>
+        <summary><em>Uzak (Distant) (<a href="https://www.imdb.com/title/tt0346094/">imdb</a>)</em></summary>
+        <div>Another movie by Nuri Bilge Ceylan, a study of loneliness and frustration from inability to humanly connect. Sad, moving, profound and deserving of every accolade it received.</div>
+    </details>
+</li>
+<li>
+    <details open>
+        <summary><em>Bab el hadid (Cairo Station) (<a href="https://www.imdb.com/title/tt0051390/">imdb</a>)</em></summary>
+        <div>A real surprise. The story itself is a bit thin and predictable, but the pay-off is really in characters which includes the station itself and their inherent humanity. Astonishing that it could be made then and not surprising that public in Egypt found it scandalous.</div>
+    </details>
+</li>
+<li>
+    <details open>
+        <summary><em>Dolor y gloria (Pain & Glory) (<a href="https://www.imdb.com/title/tt8291806/">imdb</a>)</em></summary>
+        <div>I just love this semi-autobiographical film by Almodóvar about an ageing director facing ill-health and decline of his powers. Tender, witty and beautiful to look at.</div>
+    </details>
+</li>
+<li>
+    <details>
+        <summary><em>White Material (<a href="https://www.imdb.com/title/tt1135952/">imdb</a>)</em></summary>
+        <div>I can see why Haneke is a fan of Claire Denis. A story about a white coffee farmer and her family in an unnamed African country torn by violent conflict at both delivers what one would expect and still surprise and shock you consistently. A complex, beautifully made movie that is rewarding more than enjoyable.</div>
+    </details>
+</li>
+<li>
+    <details>
+        <summary><em>A Serious Man (<a href="https://www.imdb.com/title/tt1019452/">imdb</a>)</em></summary>
+        <div>I forgot I've seen this movie until Déjà vu feeling got too strong. I'm sure I liked it then just as much as I did now which is a lot.</div>
+    </details>
+</li>
+<li>
+    <details>
+        <summary><em>La stanza del figlio (The Son's Room) (<a href="https://www.imdb.com/title/tt0208990/">imdb</a>)</em></summary>
+        <div>My favourite movie by Nanni Moretti that will especially resonate with those of us who have suddenly lost somebody close. A beautifully developed story of a happy family going through a sudden trauma and finding healing from unexpected source.</div>
+    </details>
+</li>
+<li>
+    <details>
+        <summary><em>Capitaine Conan (Captain Conan) (<a href="https://www.imdb.com/title/tt0115822/">imdb</a>)</em></summary>
+        <div>A great movie examining what happens to soldiers once armistice is signed and their honed skills become a liability. Even more so when caught in a limbo of less known part of history when the won WWI was not quite over for many of them yet. Gripping, sad and thought provoking.</div>
+    </details>
+</li>
+<li>
+    <details>
+        <summary><em>L'avventura (The Adventure) (<a href="https://www.imdb.com/title/tt0053619/">imdb</a>)</em></summary>
+        <div>A movie I more appreciate than enjoy. Cinematography is spectacular, but the movie held me less after the story leaves the island.</div>
+    </details>
+</li>
+<li>
+    <details>
+        <summary><em>Conte d'automne (Autumn Tale) (<a href="https://www.imdb.com/title/tt0137439/">imdb</a>)</em></summary>
+        <div>Perfectly watchable, but highly overrated. Maybe looks better if you've seen his other seasons movies (I haven't), but although the movie has its delightful moments, the performances and the script just don't click enough for me.</div>
+    </details>
+</li>
+<li>
+    <details>
+        <summary><em>My Dinner with Andre (<a href="https://www.imdb.com/title/tt0082783/">imdb</a>)</em></summary>
+        <div>Odd and engrossing movie that practically requires repeated viewing as two hours of non-stop dialog will keep you preoccupied to really think about many ideas thrown out. Greatly draws from main characters real life and it is difficult if not impossible to tell where real life ends and scripted thoughts begin.</div>
+    </details>
+</li>
+<li>
+    <details open>
+        <summary><em>Les quatre cents coups (The 400 Blows) (<a href="https://www.imdb.com/title/tt0053198/">imdb</a>)</em></summary>
+        <div>A touching, wonderful film inspired by Truffaut's difficult youth and love of cinema.</div>
+    </details>
+</li>
+<li>
+    <details>
+        <summary><em>Hors Satan (Outside Satan) (<a href="https://www.imdb.com/title/tt1666168/">imdb</a>)</em></summary>
+        <div>An odd movie with religious motives. Rewarding and thought provoking for few who won't hate it (I didn't).</div>
+    </details>
+</li>
+<li>
+    <details>
+        <summary><em>Unrelated (<a href="https://www.imdb.com/title/tt01107850/">imdb</a>)</em></summary>
+        <div>A Joanna Hogg movie, a subtly crafted look into civilised unhappiness of well-to-do people. Reminds me of her next movie Archipelago.</div>
+    </details>
+</li>
+<li>
+    <details>
+        <summary><em>Barb and Star Go to Vista Del Mar (<a href="https://www.imdb.com/title/tt3797512/">imdb</a>)</em></summary>
+        <div>Occasionally funny surreal comedy that mostly doesn't work for me. It would benefit from being significantly shorter. A disappointment.</div>
+    </details>
+</li>
+<li>
+    <details open>
+        <summary><em>Palm Springs (<a href="https://www.imdb.com/title/tt9484998/">imdb</a>)</em></summary>
+        <div>Less surreal than the previous movie and one of the funniest, surprising and surprisingly introspective comedy I've seen this millennium. Just great.</div>
+    </details>
+</li>
+<li>
+    <details>
+        <summary><em>Hail the Conquering Hero (<a href="https://www.imdb.com/title/tt0036891/">imdb</a>)</em></summary>
+        <div>Still holds really well and the famous restaurant scene is brilliant (and not just that scene). </div>
+    </details>
+</li>
+<li>
+    <details>
+        <summary><em>Le monde est à toi (The world is yours) (<a href="https://www.imdb.com/title/tt6892462/">imdb</a>)</em></summary>
+        <div>Forgettable.</div>
+    </details>
+</li>
+<li>
+    <details open>
+        <summary><em>8½ (<a href="https://www.imdb.com/title/tt0056801/">imdb</a>)</em></summary>
+        <div>A movie that demands a second viewing to fully appreciate, but is pretty great even after first. Every frame really is a painting. I would enjoy it more without the sexism though.</div>
+    </details>
+</li>
+<li>
+    <details>
+        <summary><em>Yi Yi (A One and a Two) (<a href="https://www.imdb.com/title/tt0244316/">imdb</a>)</em></summary>
+        <div>I love this bittersweet drama about one family life's choices and regrets.</div>
+    </details>
+</li>
+<li>
+    <details>
+        <summary><em>Die Verlorene Ehre der Katharina Blum (The Lost Honour of Katharina Blum) (<a href="https://www.imdb.com/title/tt0073858/">imdb</a>)</em></summary>
+        <div>Kafkaesque conflict between Katharina, caught in events, and system that does not care for her. The movie touches on many issues, but is mainly a condemnation of the West Germany press of the time with questions about absolute freedom of press. Worth seeing.</div>
+    </details>
+</li>
+<li>
+    <details>
+        <summary><em>Lacombe, Lucien (<a href="https://www.imdb.com/title/tt0071733/">imdb</a>)</em></summary>
+        <div>A great unnerving drama of a malcontent opportunistic young man with no convictions and his inevitable fall. At times uneasy to watch, but masterfully and dispassionately told.</div>
+    </details>
+</li>
+<li>
+    <details>
+        <summary><em>Wolkenbruchs wunderliche Reise in die Arme einer Schickse (The Awakening of Motti Wolkenbruch) (<a href="https://www.imdb.com/title/tt4766630/">imdb</a>)</em></summary>
+        <div>A Swiss romantic comedy about an orthodox jewish youth discovering himself while running away from his mother's meddling.Enjoyed it much more than the lot at IMDB.</div>
+    </details>
+</li>
+<li>
+    <details>
+        <summary><em>Downsizing (<a href="https://www.imdb.com/title/tt1389072/">imdb</a>)</em></summary>
+        <div>Different, less intimate, than other recent Payne movies, but I enjoyed it greatly, especially acting by Christoph Waltz and Hong Chau.</div>
+    </details>
+</li>
+<li>
+    <details open>
+        <summary><em>Au revoir les enfants (Goodbye, children) (<a href="https://www.imdb.com/title/tt0092593/">imdb</a>)</em></summary>
+        <div>A movie inspired by Malle's childhood memory. Every scene is perfect as it takes you closer to the gut-wrenching ending you hope the story will avoid.</div>
+    </details>
+</li>
+<li>
+    <details>
+        <summary><em>Mænd & høns (Men & Chicken) (<a href="https://www.imdb.com/title/tt3877674/">imdb</a>)</em></summary>
+        <div>I expect many people dislike this weird movie as much as I enjoyed it. More (darkly) funny than expected and superbly turn of everyone involved.</div>
+    </details>
+</li>
+<li>
+    <details>
+        <summary><em>The Dawn Wall (<a href="https://www.imdb.com/title/tt7286916/">imdb</a>)</em></summary>
+        <div>I am the wrong person for these kind of movies as I cannot relate to these kind of achievements. I was moved by the friendship though and fascinated by Tommy's obsession. </div>
+    </details>
+</li>
+<li>
+    <details>
+        <summary><em>Les amants (The Lovers) (<a href="https://www.imdb.com/title/tt0052556/">imdb</a>)</em></summary>
+        <div>Easy to see why it cause scandal in USA when it was released in 1958, but I appreciated it more than enjoyed. A very compelling way to tell an unpersuasive story.</div>
+    </details>
+</li>
+<li>
+    <details>
+        <summary><em>Un dimanche à la campagne (A Sunday in the Country) (<a href="https://www.imdb.com/title/tt0088318/">imdb</a>)</em></summary>
+        <div>An old painter spends a Sunday afternoon with his son's family. A gentle study of a family snf their internal disappointments without much of a plot. Lovely.</div>
+    </details>
+</li>
+<li>
+    <details>
+        <summary><em>The King of Comedy (<a href="https://www.imdb.com/title/tt0085794/">imdb</a>)</em></summary>
+        <div>The only thing I really liked in the movie was Jerry Lewis' performance (not a view shared in our household) and I really dislike the ending which we interpreted differently than many critics.</div>
+    </details>
+</li>
+<li>
+    <details>
+        <summary><em>L'eclisse (The Eclipse) (<a href="https://www.imdb.com/title/tt0056736/">imdb</a>)</em></summary>
+        <div>In a way similar movie and experience to L'avventura. Superb cinematography and nicely constructed, but I like it more intellectually than emotionally. The blackface bit would probably get censored today.</div>
+    </details>
+</li>
+<li>
+    <details>
+        <summary><em>Scott Pilgrim vs. the World (<a href="https://www.imdb.com/title/tt0446029/">imdb</a>)</em></summary>
+        <div>The best Edgar Wright movie, probably because the story was not written by him and thematically matches so well with his style. Even more enjoyable if you grew up or just enjoyed computer games made in 80's and 90's.</div>
+    </details>
+</li>
+<li>
+    <details>
+        <summary><em>L'avenir (Things to Come) (<a href="https://www.imdb.com/title/tt4120176/">imdb</a>)</em></summary>
+        <div>A warm and thoughtful drama about dealing with life disappointments.</div>
+    </details>
+</li>
+<li>
+    <details>
+        <summary><em>Mississippi Burning (<a href="https://www.imdb.com/title/tt0095647/">imdb</a>)</em></summary>
+        <div>Aged better than most movies from that period and it is still depressingly relevant today. Super performances from the whole cast.</div>
+    </details>
+</li>
+<li>
+    <details open>
+        <summary><em>Promising Young Woman (<a href="https://www.imdb.com/title/tt9620292/">imdb</a>)</em></summary>
+        <div>I love this movie and it feels undervalued even with mostly positive reviews that often read as searches for a more conventional story. Looking forward to whatever Emerald Fennell creates next. </div>
+    </details>
+</li>
+<li>
+    <details open>
+        <summary><em>Y tu mamá también (<a href="https://www.imdb.com/title/tt0245574/">imdb</a>)</em></summary>
+        <div>I enjoyed this movie when it came out and like it even more now as I notice and appreciate the multiple layers of Cuarón's story. A coming of age story that is more than just that.</div>
+    </details>
+</li>
+<li>
+    <details open>
+        <summary><em>Loin des hommes (Far from Men) (<a href="https://www.imdb.com/title/tt2936180/">imdb</a>)</em></summary>
+        <div>A north-african western with a Viggo Mortenssen paired well with Reda Kateb based on a story by Camus. Wonderful.</div>
+    </details>
+</li>
+<li>
+    <details>
+        <summary><em>Effie Gray (<a href="https://www.imdb.com/title/tt1605798/">imdb</a>)</em></summary>
+        <div>Didn't live up to my expectations and I'm starting to have doubts about Dakota's talents.</div>
+    </details>
+</li>
+<li>
+    <details open>
+        <summary><em>Relatos salvajes (Wild Tales) (<a href="https://www.imdb.com/title/tt3011894/">imdb</a>)</em></summary>
+        <div>Crazy sit-at-the-edge-of-your-chair stories. I especially liked "El más fuerte" and "Hasta que la muerte nos separe"</div>
+    </details>
+</li>
+<li>
+    <details>
+        <summary><em>Colette (<a href="https://www.imdb.com/title/tt11643154/">imdb</a>)</em></summary>
+        <div>90-year-old Colette Marin-Catherine makes her only visit to the German concentration camp Mittelbau-Dora where her brother was killed. Heart-breaking and moving on its own, but what elevates the movie for me even more is the relationship with the young history student.</div>
+    </details>
+</li>
+<li>
+    <details>
+        <summary><em>Tonari no Totoro (My Neighbor Totoro) (<a href="https://www.imdb.com/title/tt0096283/">imdb</a>)</em></summary>
+        <div>Watched it again together with my wife. Warm and kind, and I loved it as much as the first time. She on the other hand didn't. </div>
+    </details>
+</li>
+<li>
+    <details>
+        <summary><em>Ta'm e guilass (Taste of Cherry) (<a href="https://www.imdb.com/title/tt0120265/">imdb</a>)</em></summary>
+        <div>A man searching for a person, who would be willing to bury him after he kills himself. A mediation on if the life is worth living. I liked it, but would not hold it against those who didn't.</div>
+    </details>
+</li>
+<li>
+    <details>
+        <summary><em>Le boucher (The Butcher) (<a href="https://www.imdb.com/title/tt0064106/">imdb</a>)</em></summary>
+        <div>Exquisitely portrayed the creepiness of the infatuated butcher and interesting look at french rural life in 70's.</div>
+    </details>
+</li>
+<li>
+    <details open>
+        <summary><em>O Brother, Where Art Thou?  (<a href="https://www.imdb.com/title/tt0190590/">imdb</a>)</em></summary>
+        <div>If you don't like this movie, then there's something wrong with you or your current circumstances.</div>
+    </details>
+</li>
+<li>
+    <details open>
+        <summary><em>Bin-jip (3-Iron) (<a href="https://www.imdb.com/title/tt0423866/">imdb</a>)</em></summary>
+        <div>Brilliant movie with multiple persuasive interpretations. </div>
+    </details>
+</li>
+<li>
+    <details>
+        <summary><em>The Girl on the Train (<a href="https://www.imdb.com/title/tt3631112/">imdb</a>)</em></summary>
+        <div>Not sure why it was so panned when it was released. It's a perfectly serviceable popcorn movie.</div>
+    </details>
+</li>
+<li>
+    <details>
+        <summary><em>Kicking and Screaming (<a href="https://www.imdb.com/title/tt0113537/">imdb</a>)</em></summary>
+        <div>Noah Baumbach's first movie. Recognisably his and watchable, but not much more.</div>
+    </details>
+</li>
+<li>
+    <details>
+        <summary><em>Two Distant Strangers (<a href="https://www.imdb.com/title/tt13472984/">imdb</a>)</em></summary>
+        <div>An Oscar award winning short movie best summed up by the title of a similar movie: Groundhog Day for a Black Man. I thought it is well done.</div>
+    </details>
+</li>
+<li>
+    <details>
+        <summary><em>白日焰火 (Black Coal, Thin Ice) (<a href="https://www.imdb.com/title/tt3469910/">imdb</a>)</em></summary>
+        <div>Rough around the edges thriller, but not stupid or without atmosphere. Not the worst way to spend a couple of hours.</div>
+    </details>
+</li>
+<li>
+    <details>
+        <summary><em>Wetherby (<a href="https://www.imdb.com/title/tt0090310/">imdb</a>)</em></summary>
+        <div>Inscrutable. Undecided.</div>
+    </details>
+</li>
+<li>
+    <details>
+        <summary><em>Ocean's Eleven (<a href="https://www.imdb.com/title/tt0240772/">imdb</a>)</em></summary>
+        <div>There's no depth, but fun throughout and a safe choice to lighten the mood if you're ever down.</div>
+    </details>
+</li>
+<li>
+    <details>
+        <summary><em>Saint Maud (<a href="https://www.imdb.com/title/tt7557108/">imdb</a>)</em></summary>
+        <div>As I am not a horror fan, I was probably predestined not to be fond of this movie. Ended both intrigued and annoyed.</div>
+    </details>
+</li>
+<li>
+    <details>
+        <summary><em>Metropolitan (<a href="https://www.imdb.com/title/tt0100142/">imdb</a>)</em></summary>
+        <div>Tom is an unlikeable pompous prick, but while movie (intentionally) doesn't really go anywhere, it does have quite a few amusing exchanges. Liked it.</div>
+    </details>
+</li>
+<li>
+    <details>
+        <summary><em>The Squid and the Whale (<a href="https://www.imdb.com/title/tt0367089/">imdb</a>)</em></summary>
+        <div>Another Baumbach movie. It's not bad, but personal reasons (unrelated to my family) make it difficult for me to enjoy watching narcissistic self-absorbed parents.</div>
+    </details>
+</li>
+<li>
+    <details open>
+        <summary><em>Todos lo saben (Everybody knows) (<a href="https://www.imdb.com/title/tt4964788/">imdb</a>)</em></summary>
+        <div>Has metascore of 68 which makes it grossly underrated.</div>
+    </details>
+</li>
+<li>
+    <details open>
+        <summary><em>圖雅的婚事 (Tuya's Marriage) (<a href="https://www.imdb.com/title/tt0949564/">imdb</a>)</em></summary>
+        <div>Tuya is forced to consider divorcing her injured husband to find a new one who could care for borth. Moving, honest without a false note. A must see.</div>
+    </details>
+</li>
+<li>
+    <details>
+        <summary><em>Her (<a href="https://www.imdb.com/title/tt1798709/">imdb</a>)</em></summary>
+        <div>A better movie than I expected from its premise in large part because of excellent casting.</div>
+    </details>
+</li>
+<li>
+    <details>
+        <summary><em>Paper Man (<a href="https://www.imdb.com/title/tt0437405/">imdb</a>)</em></summary>
+        <div>Not as bad as Rotten Tomatoes and Metascore say, but not really clicking either.</div>
+    </details>
+</li>
+<li>
+    <details>
+        <summary><em>Die Stille nach dem Schuss (The Legend of Rita) (<a href="https://www.imdb.com/title/tt0234805/">imdb</a>)</em></summary>
+        <div>Inge Viett inspired story of idealistic left-wing West German terrorists deflecting to East Germany and living through reunification. My only minor quible with this excellent movie would be its ending, which my wife found fine.</div>
+    </details>
+</li>
+<li>
+    <details>
+        <summary><em>Lazzaro felice (Happy as Lazzaro) (<a href="https://www.imdb.com/title/tt6752992/">imdb</a>)</em></summary>
+        <div>The most astonishing part of this story with obvious parallels to Bible is that it was inspired by true events. Exquisite social allegory worth everyone's time.</div>
+    </details>
+</li>
+<li>
+    <details>
+        <summary><em>Master and Commander: The Far Side of the World  (<a href="https://www.imdb.com/title/tt0311113/">imdb</a>)</em></summary>
+        <div>Wish this was a start of a successful franchise. Interesting and thrilling to the end.</div>
+    </details>
+</li>
+<li>
+    <details>
+        <summary><em>Shiva Baby (<a href="https://www.imdb.com/title/tt11317142/">imdb</a>)</em></summary>
+        <div>Hilarious even when cringey. A blast from beginning to end.</div>
+    </details>
+</li>
+<li>
+    <details>
+        <summary><em>Cruella (<a href="https://www.imdb.com/title/tt3228774/">imdb</a>)</em></summary>
+        <div>Fun and funny prequel to a well-known story with amazing visuals that stops at the right moment to not betray unexpectedly found affection for characters. Hard to see where they'll go from here with the already planned sequel.</div>
+    </details>
+</li>
+<li>
+    <details>
+        <summary><em>Le jeu (Nothing to Hide) (<a href="https://www.imdb.com/title/tt7489816/">imdb</a>)</em></summary>
+        <div>A remake of Italian Perfect Strangers which I haven't seen. Better than expected and I enjoyed all of it except the ending.</div>
+    </details>
+</li>
+<li>
+    <details>
+        <summary><em>The Secret Life of Pets (<a href="https://www.imdb.com/title/tt2709768/">imdb</a>)</em></summary>
+        <div>Hilarious and as enjoyable as we expected. Clearly not a view shared by some humourless people.</div>
+    </details>
+</li>
+<li>
+    <details>
+        <summary><em>Il ladro di merendine (Montalbano: The Snack Thief) (<a href="https://www.imdb.com/title/tt0199698/">imdb</a>)</em></summary>
+        <div>First part in now decades long series of movies about Sicilian police commissioner. Writing is generally bad, but often surprises with small human interactions that otherwise better, but more economically minded series miss. Fun enough for when you mainly want to kill time without much thinking.</div>
+    </details>
+</li>
+<li>
+    <details>
+        <summary><em>The Grand Canyon (<a href="https://www.imdb.com/title/tt0101969/">imdb</a>)</em></summary>
+        <div>To riff on somebody's review: "A very much not totally successful movie." Good enough to kill time, but not to seek out.</div>
+    </details>
+</li>
+<li>
+    <details>
+        <summary><em>Undergods (<a href="https://www.imdb.com/title/tt8043434/">imdb</a>)</em></summary>
+        <div>Darkly humorous connected stories in dystopian world. Loved it!</div>
+    </details>
+</li>
+<li>
+    <details>
+        <summary><em>La voce del violino (Montalbano: The Voice of the Violin) (<a href="https://www.imdb.com/title/tt0200264/">imdb</a>)</em></summary>
+        <div>Another Montalabano movie in very much the same vein. You either like none or all.</div>
+    </details>
+</li>
+<li>
+    <details>
+        <summary><em>La forma dell'acqua (Montalbano: The Shape of Water) (<a href="https://www.imdb.com/title/tt0199536/">imdb</a>)</em></summary>
+        <div>See the previous entry.</div>
+    </details>
+</li>
+<li>
+    <details>
+        <summary><em>La gita a Tindari (Montalbano: Excursion to Tindari) (<a href="https://www.imdb.com/title/tt0275373/">imdb</a>)</em></summary>
+        <div>See the entry before previous one.</div>
+    </details>
+</li>
+<li>
+    <details>
+        <summary><em>Tocco d'artista (Montalbano: The Artist Touch) (<a href="https://www.imdb.com/title/tt0286229/">imdb</a>)</em></summary>
+        <div>See the entry…forget it. Same as previous Montalbano movies and I obviously liked it enough to keep watching them.</div>
+    </details>
+</li>
+<li>
+    <details>
+        <summary><em>Il senso del tatto (Montalbano: The Sense of Touch) (<a href="https://www.imdb.com/title/tt0920489/">imdb</a>)</em></summary>
+        <div>See the previous entry.</div>
+    </details>
+</li>
+<li>
+    <details>
+        <summary><em>Two Lovers (<a href="https://www.imdb.com/title/tt1103275/">imdb</a>)</em></summary>
+        <div>A well-acted romantic drama with an ending I didn't expect. I liked it.</div>
+    </details>
+</li>
+<li>
+    <details>
+        <summary><em>Gli arancini di Montalbano (Montalbano: Montalbano's Croquettes) (<a href="https://www.imdb.com/title/tt0338872/">imdb</a>)</em></summary>
+        <div>Guess what? A Montalbano movie that I didn't see during a week-long binge as most of the others. Different story, but basically same.</div>
+    </details>
+</li>
+<li>
+    <details>
+        <summary><em>No Time to Die (<a href="https://www.imdb.com/title/tt2382320/">imdb</a>)</em></summary>
+        <div>I stopped watching Bond's mainly because of sexism, but was lured back by Phoebe Waller-Bridge's involvement. Not sorry that I did as it is, for me, the best Bond movie of this millennia if not ever, succeeding with being a Bond movie that only kept the good parts and created a few new as well. No idea how they go from here though.</div>
+    </details>
+</li>
+<li>
+    <details>
+        <summary><em>Chronicle (<a href="https://www.imdb.com/title/tt1706593/">imdb</a>)</em></summary>
+        <div>Max Landis is a swine that should be in jail, but he wrote a great superhero-based script dealing with awkwardness of growing up, of inhabiting ones own bodies and learning the impact we have on others. Underrated.</div>
+    </details>
+</li>
+<li>
+    <details>
+        <summary><em>Love Streams (<a href="https://www.imdb.com/title/tt0087644/">imdb</a>)</em></summary>
+        <div>One of those highly regarded movies where I read a bunch of reviews to see what I have missed. I'm not any wiser. I don't mind meandering movies with a lot of dialogs, but Love Steams feels contrived throughout.</div>
+    </details>
+</li>
+<li>
+    <details open>
+        <summary><em>Darbareye Elly (About Elly) (<a href="https://www.imdb.com/title/tt1360860/">imdb</a>)</em></summary>
+        <div>A conceptually similar film to Farhadi's later Todos lo saben. A well observed and acted drama of a group of friends and their responses to a seeming accident. Highly recommended.</div>
+    </details>
+</li>
+<li>
+    <details>
+        <summary><em>Reprise (<a href="https://www.imdb.com/title/tt0827517/">imdb</a>)</em></summary>
+        <div>We seeked this one after seeing the trailer for The Worst Person in the World which we couldn't find. Excellent by any standards and especially as the author's first feature length movie.</div>
+    </details>
+</li>
+<li>
+    <details>
+        <summary><em>Oslo, 31. august (<a href="https://www.imdb.com/title/tt1736633/">imdb</a>)</em></summary>
+        <div>A melancholic movie about a day outside of rehab spent by recovering addict, superbly played by Anders Danielsen Lie. Another great movie by Joachim Trier.</div>
+    </details>
+</li>
+<li>
+    <details>
+        <summary><em>Sex, Lies and Videotape (<a href="https://www.imdb.com/title/tt0098724/">imdb</a>)</em></summary>
+        <div>For some reason I remember this movie being heavier than it is. Never boring, delightful and funny.</div>
+    </details>
+</li>
+<li>
+    <details>
+        <summary><em>Enemy (<a href="https://www.imdb.com/title/tt2316411/">imdb</a>)</em></summary>
+        <div>I appreciated it better a day later, once I had time to think it over, but I'm still left being somewhat disappointed, possibly because I don't feel I truly understand its ending scene (or spider theme in general).</div>
+    </details>
+</li>
+<li>
+    <details open>
+        <summary><em>Vozvrashchenie (The Return) (<a href="https://www.imdb.com/title/tt0376968/">imdb</a>)</em></summary>
+        <div>A superb story of two brothers going on a mysterious fishing trip with menacing father who returned after a long unexplained absence. Beautifully filmed and told. A must see movie for every film fan.</div>
+    </details>
+</li>
+<li>
+    <details>
+        <summary><em><del>Brelan d'as</del> (<a href="https://www.imdb.com/title/tt0154255/">imdb</a>)</em></summary>
+        <div>Abandoned during ludicrously bad second story. Netflix should refund our time for this one.</div>
+    </details>
+</li>
+<li>
+    <details>
+        <summary><em><del>Synonymes (Synonyms)</del> (<a href="https://www.imdb.com/title/tt7016254/">imdb</a>)</em></summary>
+        <div>Couldn't connect to this at all. </div>
+    </details>
+</li>
+<li>
+    <details>
+        <summary><em>Zodiac (<a href="https://www.imdb.com/title/tt0371739/">imdb</a>)</em></summary>
+        <div>Fun even in second viewing and when knowing the result of the hunt for the serial killer. Fincher is a masterful filmmaker.</div>
+    </details>
+</li>
+<li>
+    <details>
+        <summary><em>eXistenZ (<a href="https://www.imdb.com/title/tt0120907/">imdb</a>)</em></summary>
+        <div>Even assuming bad acting is there purposefully it is not a great movie. Full of Cronenberg's afectations asks a question of how will games impact our perception of reality in a way that was as unconvincing and contrived when it came out as it is today.</div>
+    </details>
+</li>
+<li>
+    <details open>
+        <summary><em>La dolce vita (<a href="https://www.imdb.com/title/tt0053779/">imdb</a>)</em></summary>
+        <div>Remains timeless classic.</div>
+    </details>
+</li>
+<li>
+    <details open>
+        <summary><em>ドライブ・マイ・カー (Drive My Car) (<a href="https://www.imdb.com/title/tt14039582/">imdb</a>)</em></summary>
+        <div>A masterpiece.</div>
+    </details>
+</li>
+<li>
+    <details>
+        <summary><em>Raising Arizona (<a href="https://www.imdb.com/title/tt0093822/">imdb</a>)</em></summary>
+        <div>This is a Coen house so of course we liked this one too. It has aged well, but I suspect a joke in it might be risky these days.</div>
+    </details>
+</li>
+<li>
+    <details>
+        <summary><em>Big Night (<a href="https://www.imdb.com/title/tt0115678/">imdb</a>)</em></summary>
+        <div>I expected a lighter movie and the ending surprised me (so much about the proverbial Chekhov's gun), but I liked it a lot. Would probably still pick a lighter movie to end the year.</div>
+    </details>
+</li>
+</ol>
+
+<h3>Related</h3>
+<ul>
+<li><a href="../tv-movies-2020.html">TV &amp; Movies 2020</a></li>
+<li><a href="../tv-movies-2019.html">TV &amp; Movies 2019</a></li>
+</ul>
+            </div><!-- /.entry-content -->
+
+            <footer class="post-metadata">
+                <ul>
+                    <li>Published on <time datetime="2022-01-05T20:41:00+01:00">Wed 05 January 2022</time> </li>
+                    <li><a href="../movies-2021.html">Add your comment</a></li>
+                </ul>
+            </footer>
+        </article>
+        <article class="hentry">
+            <h1 class="entry-title storytitle"><a href="../tv-2021.html" rel="bookmark" title="Permalink to TV 2021">TV 2021</a></h1>
+
+            <div class="entry-content post-text">
+                <p>I decided to split TV and films into separate posts this year, because we saw a lot of them, especially films.</p>
+<p>Nothing we watched was bad enough to abandon, although we probably should one or two. As usual I bolded those I think stand above the rest and I think either shouldn’t be missed or are very closed to that grade.</p>
+<ul>
+<li><em><a href="https://www.imdb.com/title/tt2345525/">Donald Glover: Weirdo</a>.</em> Alright.</li>
+<li><em><a href="https://www.imdb.com/title/tt11649104/">The Pembrokshire Murders</a>.</em> A completely decent addition to the true crime genre.</li>
+<li><em><a href="https://www.imdb.com/title/tt10380768/">Love Life</a> (Season 1 and 2).</em> Fun, but the first season would be better if it stuck to its premise and didn't lose nerve in the middle by making the main character's experience less common.</li>
+<li><strong><em><a href="https://www.imdb.com/title/tt9112152/">Efterforskningen (The Investigation)</a>.</em></strong> Danish series about bringing Kim Wall's murder to justice without every showing him or mentioning his name. I wish this was more common approach as it worked so well here.</li>
+<li><em><a href="https://www.imdb.com/name/nm0390903/">Us</a>.</em> Less funny and more moving story than I expected of using family's European vacation to try saving a marriage. Acutely observed and regularly funny.</li>
+<li><em><a href="https://www.imdb.com/title/tt8129450/">Breeders</a> (Season 1 and 2).</em> Trials and tribulations of parenthood. Freeman and Haggard as always reliably funny and scripts hold up well in both seasons.</li>
+<li><em><a href="https://www.imdb.com/title/tt5460226/">Search Party</a> (Season 3 and 4).</em> Not for everyone, but the strong acting of main characters and good enough writing keeps me interested in the journey of, at this point, completely unlikeable people.</li>
+<li><em><a href="https://www.imdb.com/title/tt9698442/">Behind Her Eyes</a>.</em> This show felt like a Showtime production. I was too bothered by the main character and unrealistic portrayals of life in London to enjoy the series and the final twist.</li>
+<li><em><a href="https://www.imdb.com/title/tt9561862/">Love, Death &amp; Robots</a> (Season 1).</em> Anthology with a few great (3 robots) and good pieces (like the Hitler one), but otherwise just feel something imagined by a teenage boy: lots of gore, nudity and sex with women characters reduced to whore or hero. Definitely not watching the next season.</li>
+<li><em><a href="https://www.imdb.com/title/tt4192812/">Unforgotten</a> (Season 4).</em> Mostly still very good and moving show which would be great without the last 10-15 minutes that overwhelm the main story and really spoiled it for me with just bad writing.</li>
+<li><em><a href="https://www.imdb.com/title/tt9569546/">Halston</a>.</em> Underwhelming overall, but I enjoyed learning more about fashion (as it used to be?). I feel McGregor was mis-casted here, but it's difficult to say how much it was him and how much it was script and direction for making me care little about story.</li>
+<li><em><a href="https://www.imdb.com/title/tt10155688/">Mare of Easttown</a>.</em> Not perfect, but still captivating criminal series with Kate Winslet and Jean Smart as standouts.</li>
+<li><strong><em><a href="https://www.imdb.com/title/tt11815682/">Hacks</a> (Season 1).</em></strong> Another great performance by Smart in a comedy series deserving of received praise. Hoping for another season.</li>
+<li><em><a href="https://www.imdb.com/title/tt7016936/">Killing Eve</a> (Season 2 and 3).</em> I enjoyed both seasons, great story and cast but Jodie Comer is simply astonishing.</li>
+<li><em><a href="https://www.imdb.com/title/tt2802850/">Fargo</a> (Season 4).</em> Different from previous seasons, but still Fargo. Still hoping for another season</li>
+<li><em><a href="https://www.imdb.com/title/tt0500140/">Jerry Seinfeld: I'm Telling You for the Last Time</a>.</em> Not without laughs, but another underwhelming (old) show from Seinfeld. At least when judged by his reputation.</li>
+<li><em><a href="https://www.imdb.com/title/tt13406094/">The White Lotus</a> (Season 1).</em> An overrated show about affluent, but with one exception not rich people vacationing in a Hawaii resort. The more I think about the show, the more annoying it gets. I am definitely skipping the rumoured second season.</li>
+<li><strong><em><a href="https://www.imdb.com/title/tt11834150/">The Chair</a> (Season 1).</em></strong> I have enjoyed this comedy set in academia a lot and don't care if academics find it a good portrait of it. It  is funny and entertaining, but I also enjoyed more courageous presentation of modern issues than I usually see in mainstream media.</li>
+<li><em><a href="https://www.imdb.com/title/tt5853176/">The Good Fight</a> (Season 5).</em> I was surprised how little did I miss exit of two leading characters. Still fun for fans and I find the main idea of the season (alternative court) thought provoking.</li>
+<li><em><a href="https://www.imdb.com/title/tt9055008/">Evil</a> (Season 1 and 2).</em> Created by Kings duo (The Good Fight...) which was the main reason we started watching. Great cast and fun.</li>
+<li><em><a href="https://www.imdb.com/title/tt5540990/">On the Verge</a> (Season 1).</em> Watchable, but I expected more. At its most interesting when observing continental European views clash with American progressive culture, but not enough to want to watch another season (if it ever happened).</li>
+<li><em><a href="https://www.imdb.com/title/tt8310612/">The Other Two</a> (Season 1 and 2).</em> The premise of looking at a family where only those not seeking fame and glory suddenly gain it, is interesting and often funny, but main two characters started to irritate me and everyone feel too flat.</li>
+<li><strong><em><a href="https://www.imdb.com/title/tt8430356/">This Way Up</a> (Season 1 and 2).</em></strong> Amazing show dealing with mental health and all the obstacles to own's happiness. Genuinely funny too, which is what I would expect from a show by Aisling Bea.</li>
+<li><em><a href="https://www.imdb.com/title/tt12994356/">The Cleaner</a> (Season 1).</em> I haven't seen the German original, but this version is very good, especially episodes bookending the series.</li>
+<li><em><a href="https://www.imdb.com/title/tt2396135/">Shetland</a> (Season 6).</em> Season written by someone who knew there will be another one. Ending was a bit weak, but otherwise still enjoyable if you weren't too bothered by daily season changes of amazing landscapes. Filming in COVID times far north is challenging.</li>
+<li><strong><em><a href="https://www.imdb.com/title/tt12851524/">Only Murders in the Building</a> (Season 1).</em></strong> Definitely one of the most enjoyable shows of this year. Masterfully done and difficult to think of a way to improve it. Can't wait for the next season.</li>
+<li><strong><em><a href="https://www.imdb.com/title/tt7203552/">The Morning Show</a> (Season 2).</em></strong> Even more underrated in the second season, but morally-complex characters that are not merely a vessels for crystallised messages are an uphill battle for the show's success, especially when connotations do not neatly align with popular ideas and tribes.</li>
+<li><strong><em><a href="https://m.imdb.com/title/tt12313046/">Alan Bennett's Talking Heads</a>.</em></strong> Successful adaption of 10 (+2 new) monologues for TV. Bennett's humour and humanism makes even difficult parts bearable and monologues as whole enjoyable and acting Is impeccable.</li>
+</ul>
+<h3>Related</h3>
+<ul>
+<li><a href="../tv-movies-2020.html">TV &amp; Movies 2020</a></li>
+<li><a href="../tv-movies-2019.html">TV &amp; Movies 2019</a></li>
+</ul>
+            </div><!-- /.entry-content -->
+
+            <footer class="post-metadata">
+                <ul>
+                    <li>Published on <time datetime="2022-01-01T23:20:00+01:00">Sat 01 January 2022</time> </li>
+                    <li><a href="../tv-2021.html">Add your comment</a></li>
+                </ul>
+            </footer>
+        </article>
+        <article class="hentry">
+            <h1 class="entry-title storytitle"><a href="../the-books-i-read-in-2021.html" rel="bookmark" title="Permalink to The books I read in 2021">The books I read in 2021</a></h1>
+
+            <div class="entry-content post-text">
+                <p><a href="../books-i-read-in-2020.html">A year ago</a> I expected to read few books in 2021 and I definitely have “achieved” that for the same reasons as I did the last time. I read exactly as few books as in 2020 and even though I had only two reading goals for 2021, I managed to fail both.</p>
+<p>I read one fiction book and it wasn’t a great match. Enough people I like with more clout recommend Niven’s book that there’s little harm in me not joining. If we are friends, then it’s probably not for you either (but I could be wrong).</p>
+<p>The other three I read for work and I would recommend each of them highly to those interested in their topics. That is especially true for <em>Inclusive Components</em> which would get its own post if I trusted myself to find time writing it. <em>Every</em> web frontend engineer should read and think about it, but I would also recommend it to everyone who works with them or needs to consider web UI.</p>
+<p>The list:</p>
+<ul>
+<li><a href="https://smile.amazon.com/Kill-Your-Friends-John-Niven/dp/0061690619/">Kill Your Friends</a> by John Niven. Rare books can stand the test of time and current personal mood. This is not such book, but I suspect I would enjoy it and its humour more if I read it when it came out. Last two years especially did not cultivate in me an appetite for despicable psychopaths without any redeeming qualities.</li>
+<li><a href="https://smile.amazon.com/Managers-Path-Leaders-Navigating-Growth-dp-1491973897/dp/1491973897/">The Manager's Path</a> by Camille Fournier. A concise introduction to engineering management ladder, from tech lead to CTO with lots of helpful advice for each role. A useful read both for those who want to learn about expectations of each role when considering their career choices as those who already perform them and might need some friendly advice.</li>
+<li><strong><a href="http://book.inclusive-components.design/">Inclusive Components </a> by Heydon Pickering</strong>. I bought a printed version of this book because I expected it to have a lasting value and it does. Some small bits have been obsoleted, there are parts I disagree with and I find the chapter about tables weak compared to others, but it's a fantastic book, a goldmine of insights, techniques and genuinely thought provoking ideas.</li>
+<li><a href="https://smile.amazon.com/High-Output-Management-Andrew-Grove/dp/0679762884">High Output Management</a> by Andrew S. Grove. When reading early chapters I didn't understand why it is so highly regarded, but I changed my mind before half way through. It reads as a textbook from a practitioner, building on concepts and ideas from earlier chapters, focusing on building a mental framework to use instead of tips for specific problems. Still relevant after decades in "print".</li>
+</ul>
+<p>The circumstances and reasons that led to my abysmal reading record of last two years have not really changed, but my outlook has. I feel more thirsty for reading than I’ve felt in a long time and double digit number of books read does not feel unachievable. Of course, aiming for a healthy split between fiction and non-fiction. The list itself is hazy, but I want to read one of the earlier Pratchett’s and god willing, I’ll try not to read any books on management.</p>
+<h3>Related articles</h3>
+<ul>
+<li><a href="../books-i-read-in-2020.html">Books I read in 2020</a></li>
+<li><a href="../books-i-read-in-2019.html">Books I read in 2019</a></li>
+<li><a href="../books-i-read-in-2018.html">Books I read in 2018</a></li>
+<li><a href="../books-i-read-in-2017.html">Books I read in 2017</a></li>
+<li><a href="../books-i-read-in-2016.html">Books I read in 2016</a></li>
+</ul>
+            </div><!-- /.entry-content -->
+
+            <footer class="post-metadata">
+                <ul>
+                    <li>Published on <time datetime="2022-01-01T22:18:00+01:00">Sat 01 January 2022</time> </li>
+                    <li><a href="../the-books-i-read-in-2021.html">Add your comment</a></li>
+                </ul>
+            </footer>
+        </article>
+
+<ul class="paginator">
+		<li class="current">
+    1 / 1
+		</li>
+</ul>
+</section><!-- /#content -->
+
+    <footer>
+        <ul>
+            <li>&copy; 2005-2020 Marko Samastur</li>
+						<li><a href="/articles/privacy-policy.html">Privacy policy</a></li>
+            <li><a href="/articles/feeds/rss.xml" rel="alternate" title="A notch above a monkey Full RSS Feed">Entries feed</a></li>
+        </ul>
+        <a href="/" class="mini-logo">Back to homepage</a>
+    </footer>
+</body>
+</html>

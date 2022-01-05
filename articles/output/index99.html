@@ -85,162 +85,171 @@ body > footer .mini-logo {display: inline-block;width:97px;height:32px;border:0;
     </nav>
 
         <article class="hentry">
-            <h1 class="entry-title storytitle"><a href="./paul-graham-agrees.html" rel="bookmark" title="Permalink to Paul Graham agrees">Paul Graham agrees</a></h1>
+            <h1 class="entry-title storytitle"><a href="./building-faq-from-wiki-pages.html" rel="bookmark" title="Permalink to Building FAQ from wiki pages">Building FAQ from wiki pages</a></h1>
 
             <div class="entry-content post-text">
                 <div>
  <p>
-  Paul Graham has written another
-  <a href="http://www.paulgraham.com/web20.html" title="Link to essay">
-   essay
+  We use
+  <a href="http://moinmoin.wikiwikiweb.de/" title="MoinMoin's homepage">
+   MoinMoin
   </a>
-  on what Web 2.0 actually means. I hate being a “me too”, but we seem to share disgust of terms Web 2.0 and AJAX and agree that Wikipedia is faulty but good enough. Worth a read, but my favorite stays
-  <a href="http://www.paulgraham.com/say.html" title="What you can't say">
-   the same
+  for all our documentation needs, since it simplifies almost all related tasks. It’s nice when everything is available at one place through a familiar and easy to use interface.
+ </p>
+ <p>
+  This is why I also wanted to use it to build a FAQ for our site, which is more needed with each day. There’s an abundance of software for building and managing such documents, but I haven’t found anything that would match our needs. Apart from using wiki pages as the source of wisdom, I also wanted:
+ </p>
+ <ol>
+  <li>
+   A good and fairly easy integration with our site (but not automatic).
+  </li>
+  <li>
+   A very malleable solution, where it would be easy to change FAQ organization as requirements change.
+  </li>
+ </ol>
+ <p>
+  At the end I decided to build our own thing using
+  <a href="http://www.crummy.com/software/BeautifulSoup/index.html">
+   Beautiful Soup
   </a>
-  .
+  , a python package I raved about a while ago. Since we wanted each question to have a permanent link that could be bookmarked, we had to give them an identifier that wouldn’t change even if we rephrased the question or changed the answer. The simplest way was to assign a unique number to each question as it can be seen on a
+  <a href="http://markos.gaivo.net/examples/samplefaq/faq.html">
+   sample FAQ page
+  </a>
+  . This way it’s easy to add and remove questions as long as you can count.
+ </p>
+ <p>
+  MoinMoin produces very sensible HTML that is easy to work with.
+  <a href="http://markos.gaivo.net/examples/samplefaq/faq.py">
+   Here’s
+  </a>
+  a proof of concept module that extracts information from a page like the sample one and packs it in a dictionary with identifiers as keys and a list
+  <em>
+   [ question, answer ]
+  </em>
+  as value.
+ </p>
+ <p>
+  It’s not something very useful on its own, but I think it’s a nice example of what can be done quickly with existing tools like MoinMoin and BeautifulSoup.
+ </p>
+ <p>
+  Notes: In principle there’s no need to use MoinMoin as long as produced HTML fits following assumptions:
+ </p>
+ <ol>
+  <li>
+   FAQ is stored inside a
+   <em>
+    div
+   </em>
+   element with
+   <em>
+    id
+   </em>
+   set to
+   <em>
+    content
+   </em>
+   .
+  </li>
+  <li>
+   Questions are inside a heading element which also acts as a delimiter between them.
+  </li>
+  <li>
+   Identifiers are integers.
+  </li>
+ </ol>
+ <p>
+  If it doesn’t, you’ll need to change code a bit.
  </p>
 </div>
             </div><!-- /.entry-content -->
 
             <footer class="post-metadata">
                 <ul>
-                    <li>Published on <time datetime="2005-11-19T19:19:00+01:00">Sat 19 November 2005</time> </li>
-                    <li><a href="./paul-graham-agrees.html">Add your comment</a></li>
+                    <li>Published on <time datetime="2005-11-22T17:17:00+01:00">Tue 22 November 2005</time> </li>
+                    <li><a href="./building-faq-from-wiki-pages.html">Add your comment</a></li>
                 </ul>
             </footer>
         </article>
         <article class="hentry">
-            <h1 class="entry-title storytitle"><a href="./imbecile-ad-messages.html" rel="bookmark" title="Permalink to Imbecile ad messages">Imbecile ad messages</a></h1>
+            <h1 class="entry-title storytitle"><a href="./the-most-annoying-business-habit.html" rel="bookmark" title="Permalink to The most annoying business habit">The most annoying business habit</a></h1>
 
             <div class="entry-content post-text">
                 <div>
  <p>
-  I spent a good part of last year studying things like marketing, pricing and so on, which are completely untechnical in nature, but very much essential for a success of any company. I’m far from being an expert in any of these fields, but every now and then I come across an example, that leaves me dumbfounded in its amazing stupidity. It seems like incompetence is limitless and some people receive quite a lot of money to show off theirs.
+  To me the most annoying business habit is calling someone when it’s not urgent, even though you have his email address and it should be obvious from your relationship that he prefers email to other means of communication.
  </p>
  <p>
-  Practically every textbook I’ve read taught me that the basic approach to marketing is to have a clear message of what you’re offering and why this is beneficial to people you’re selling to. With enough repetition you might have a chance of making them remember you. I certainly don’t think this is the only way to do it, but it’s probably the most tried and tested method out there.
+  I hated phones since I was a wee lad, but I dislike them even more now, because:
  </p>
+ <ol>
+  <li>
+   They break my concentration; rarely for a good reason.
+  </li>
+  <li>
+   They are invasive and inconsiderate. Just because it suits you to call me now, it doesn’t mean it suits me.
+  </li>
+  <li>
+   Whatever is said on the phone can be denied later and sometimes is.
+  </li>
+ </ol>
  <p>
-  Well, there’s a new fashion in Slovenia. Create ads that don’t tell you anything. I’m not thinking of weird ads that don’t seem to have anything to do with a company or product they’re pushing. No, I mean ads with literally nothing on except a word like
-  <a href="http://www.izimobil.si">
-   IZI
-  </a>
-  (bastardized easy) or
-  <a href="http://www.t-2.net">
-   T-2
-  </a>
-  . I guess it might have been intriguing if it wasn’t so overused.
- </p>
- <p>
-  However, last example with izi really takes the cake. First there were ads showing either just izi or if you were lucky, also a link to
-  <a href="http://www.naizi.si">
-   naizi.si
-  </a>
-  . As already mentioned, they were ads for
-  <a href="http://www.izimobil.si">
-   izimobil
-  </a>
-  . Now, go look at the
-  <a href="http://www.naizi.si">
-   site
-  </a>
-  and find anything that could point a visitor to
-  <a href="http://www.izimobil.si">
-   izimobil.si
-  </a>
-  .
- </p>
- <p>
-  I’ll buy you a beer, if you can do it in next 24 hours. Or any other beverage of your choice.
- </p>
- <p>
-  Back? I couldn’t do it either. It’s hard to imagine there isn’t one, but it’s certainly well hidden. ’cause you know, people really want to dig around the site looking for what you’re about, right?
- </p>
- <p>
-  Their ad campaign has been expanded in last day or so as they came out with jumbo ads promoting izimobil more directly and they’re trying to do so with a slogan:
- </p>
- <p>
-  <strong>
-   “Prvi slovenski virtualni operater mobilne telefonije.”
-  </strong>
- </p>
- <p>
-  Or in English:
-  <strong>
-   “First slovenian virtual mobile operator.”
-  </strong>
- </p>
- <p>
-  Say what?
- </p>
- <p>
-  Was that supposed to persuade me to do something? Does virtual mean they’re not real? Which part should register as something positive with me?
- </p>
- <p>
-  Apart from being almost meaningless, it’s also wrong, if being virtual alludes to using some
-  <a href="http://www.mobitel.si">
-   other company’s
-  </a>
-  mobile network.
-  <a href="http://www.debitel.si/">
-   Debitel
-  </a>
-  did it first, although not as a prepaid operator and I know of no one, who would find that fact alone appealing.
- </p>
- <p>
-  I’m not saying their ad campaign won’t have positive effects. Hell, you can get them by showing dancing bananas and pie fights, as long as you’re willing to spend enough money on it. But somehow I doubt it’s an economical way to market your product.
+  Leave a trail or fuck off.
  </p>
 </div>
             </div><!-- /.entry-content -->
 
             <footer class="post-metadata">
                 <ul>
-                    <li>Published on <time datetime="2005-11-18T23:43:00+01:00">Fri 18 November 2005</time> </li>
-                    <li><a href="./imbecile-ad-messages.html">Add your comment</a></li>
+                    <li>Published on <time datetime="2005-11-22T11:55:00+01:00">Tue 22 November 2005</time> </li>
+                    <li><a href="./the-most-annoying-business-habit.html">Add your comment</a></li>
                 </ul>
             </footer>
         </article>
         <article class="hentry">
-            <h1 class="entry-title storytitle"><a href="./ads-are-gone.html" rel="bookmark" title="Permalink to Ads are gone">Ads are gone</a></h1>
+            <h1 class="entry-title storytitle"><a href="./riffs-logo-hinting.html" rel="bookmark" title="Permalink to Riffs' logo hinting">Riffs' logo hinting</a></h1>
 
             <div class="entry-content post-text">
                 <div>
  <p>
-  After a bit less than a month, but enough traffic to give me an idea what to expect, I decided to remove Google ads. I earned a dollar. Well, almost anyway.
- </p>
- <p>
-  My decision to end it was made easier when I discovered this, where ads were supposed to be:
-  <br/>
-  <a href="http://markos.gaivo.net/images/searchads-small.gif" title="Full size screenshot of search ads">
-   <img alt="Search ads?" height="65" src="http://markos.gaivo.net/images/searchads-small.gif" style="border: thin solid #666; margin: 5px;" width="370"/>
+  I found a link to
+  <a href="http://www.riffs.com">
+   Riffs
   </a>
+  at
+  <a href="http://www.hicksdesign.co.uk/journal/riffs-your-social-recommender" title="Jon's blog">
+   Jon Hick’s
+  </a>
+  blog. I don’t know much about their service, but I really like how logo gives you a direct clue to where you’ll go when you hover over it. It’s little things like this that make good interfaces great.
  </p>
  <p>
-  Wtf?
+  On the other hand I’m not fond of alpha or beta signs on services that are not finished yet. It’s been my experience that most users, especially more inexperienced ones, have no idea what that was supposed to mean.
  </p>
  <p>
-  I tried to follow Google’s advice. I picked the most successful formats (but also experimented with others), put them at premium places and choose colors that blend in. Result was a buck and a revelation that on my site even old-fashion banners would be more profitable.
+  That’s why we went with
+  <strong>
+   “v pripravi”
+  </strong>
+  stamp on
+  <a href="http://www.marela.si">
+   our site
+  </a>
+  , which is a short slovene description that we’re still preparing this yet unfinished site. It’s been very well received even though stamp doesn’t look real and doesn’t fit the rest of design all that well either. I believe the importance of language used can’t be overstated and jargon that you don’t share with your users must simply be completely avoided.
  </p>
  <p>
-  I have no real explanation for disappointing results. Since I’m not fond of ads either, I stayed with number of ad boxes I felt most comfortable with (usually just one) and used only text ads. It’s possible that I’d have more luck with image ads, but it doesn’t really matter, since I dislike them enough that they wouldn’t be acceptable anyway.
- </p>
- <p>
-  It’s also possible and even probable, that the problem was with content of pages. I’ve certainly noticed what often seemed at best a poor match between displayed content and ads.
- </p>
- <p>
-  Sadly there weren’t enough clicks to merit a more involved analysis. Maybe some other time, when I have a new idea worth exploring and get better results.
- </p>
- <p>
-  What has been your experience with AdSense?
+  By the way, for those who’ve seen Marela, the reason why there’s a mismatch between the stamp (together with the first page) and otherwise great design is that former was done by me and later by immensely talented guys at
+  <a href="http://www.clearleft.com/">
+   clear:left
+  </a>
+  . If you ever need a dedicated and passionate bunch of web developers who’ll go beyond their duty for a very reasonable fee, you really should give them a call.
  </p>
 </div>
             </div><!-- /.entry-content -->
 
             <footer class="post-metadata">
                 <ul>
-                    <li>Published on <time datetime="2005-11-17T18:02:00+01:00">Thu 17 November 2005</time> </li>
-                    <li><a href="./ads-are-gone.html">Add your comment</a></li>
+                    <li>Published on <time datetime="2005-11-21T12:55:00+01:00">Mon 21 November 2005</time> </li>
+                    <li><a href="./riffs-logo-hinting.html">Add your comment</a></li>
                 </ul>
             </footer>
         </article>
@@ -250,7 +259,7 @@ body > footer .mini-logo {display: inline-block;width:97px;height:32px;border:0;
         <a href="./index98.html">&laquo; Newer</a>
 		</li>
 		<li class="current">
-    99 / 120
+    99 / 121
 		</li>
 		<li class="older">
         <a href="./index100.html">Older &raquo;</a>

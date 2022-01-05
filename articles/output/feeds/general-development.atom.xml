@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>A notch above a monkey - General development</title><link href="http://markos.gaivo.net/articles/" rel="alternate"></link><link href="/articles/feeds/general-development.atom.xml" rel="self"></link><id>http://markos.gaivo.net/articles/</id><updated>2012-10-02T00:07:00+02:00</updated><entry><title>Subtracting sets to get non-referenced rows in table.</title><link href="http://markos.gaivo.net/articles/subtracting-sets-to-get-non-referenced-rows-in-table.html" rel="alternate"></link><published>2012-10-02T00:07:00+02:00</published><updated>2012-10-02T00:07:00+02:00</updated><author><name>markos</name></author><id>tag:markos.gaivo.net,2012-10-02:/articles/subtracting-sets-to-get-non-referenced-rows-in-table.html</id><summary type="html">&lt;div&gt;
+<feed xmlns="http://www.w3.org/2005/Atom"><title>A notch above a monkey - General development</title><link href="https://markos.gaivo.net/articles/" rel="alternate"></link><link href="/articles/feeds/general-development.atom.xml" rel="self"></link><id>https://markos.gaivo.net/articles/</id><updated>2012-10-02T00:07:00+02:00</updated><entry><title>Subtracting sets to get non-referenced rows in table.</title><link href="https://markos.gaivo.net/articles/subtracting-sets-to-get-non-referenced-rows-in-table.html" rel="alternate"></link><published>2012-10-02T00:07:00+02:00</published><updated>2012-10-02T00:07:00+02:00</updated><author><name>markos</name></author><id>tag:markos.gaivo.net,2012-10-02:/articles/subtracting-sets-to-get-non-referenced-rows-in-table.html</id><summary type="html">&lt;div&gt;
  &lt;p&gt;
   I had a problem today. Given two database tables with first having a foreign key pointing to second, find those rows in second table, which are not pointed to from first. Well, it was slightly more complicated than this, but this was the tricky part.
  &lt;/p&gt;
@@ -56,7 +56,7 @@
   &lt;/em&gt;
   . Problem solved.
  &lt;/p&gt;
-&lt;/div&gt;</content><category term="shell"></category><category term="algorithm"></category><category term="sql"></category></entry><entry><title>Passion</title><link href="http://markos.gaivo.net/articles/passion.html" rel="alternate"></link><published>2012-09-17T23:23:00+02:00</published><updated>2012-09-17T23:23:00+02:00</updated><author><name>markos</name></author><id>tag:markos.gaivo.net,2012-09-17:/articles/passion.html</id><summary type="html">&lt;div&gt;
+&lt;/div&gt;</content><category term="shell"></category><category term="algorithm"></category><category term="sql"></category></entry><entry><title>Passion</title><link href="https://markos.gaivo.net/articles/passion.html" rel="alternate"></link><published>2012-09-17T23:23:00+02:00</published><updated>2012-09-17T23:23:00+02:00</updated><author><name>markos</name></author><id>tag:markos.gaivo.net,2012-09-17:/articles/passion.html</id><summary type="html">&lt;div&gt;
  &lt;p&gt;
   Hearing something often enough can really change my perspective even on things I agreed with completely beforehand. It happened again after reading for umpteenth time that passion for programming/company vision is the quality every new hire should have.
  &lt;/p&gt;
@@ -88,7 +88,7 @@
  &lt;p&gt;
   In more general sense my feeling is obviously a reaction to the end result of a process in which a useful guideline calcifies into dogma. Ideally I could get to this point sooner, but it seems unlikely. If I regularly reconsidered and doubted every piece of my mental framework, then it would mostly be mental and not much of a framework.
  &lt;/p&gt;
-&lt;/div&gt;</content><category term="development"></category><category term="dogma"></category><category term="insight"></category><category term="passion"></category><category term="mental framework"></category></entry><entry><title>Shipping software frequency</title><link href="http://markos.gaivo.net/articles/shipping-software-frequency.html" rel="alternate"></link><published>2008-11-30T20:45:00+01:00</published><updated>2008-11-30T20:45:00+01:00</updated><author><name>markos</name></author><id>tag:markos.gaivo.net,2008-11-30:/articles/shipping-software-frequency.html</id><summary type="html">&lt;div&gt;
+&lt;/div&gt;</content><category term="development"></category><category term="dogma"></category><category term="insight"></category><category term="passion"></category><category term="mental framework"></category></entry><entry><title>Shipping software frequency</title><link href="https://markos.gaivo.net/articles/shipping-software-frequency.html" rel="alternate"></link><published>2008-11-30T20:45:00+01:00</published><updated>2008-11-30T20:45:00+01:00</updated><author><name>markos</name></author><id>tag:markos.gaivo.net,2008-11-30:/articles/shipping-software-frequency.html</id><summary type="html">&lt;div&gt;
  &lt;p&gt;
   I was
   &lt;a href="http://www.paulgraham.com/artistsship.html" title="Paul's article on cost of checks"&gt;
@@ -213,7 +213,7 @@
  &lt;p&gt;
   A lot has changed in last few months, so the next time we address this topic, I suspect my opinion will be different than last time.
  &lt;/p&gt;
-&lt;/div&gt;</content><category term="Programming"></category><category term="shipping"></category><category term="Paul Graham"></category></entry><entry><title>Magic Ink</title><link href="http://markos.gaivo.net/articles/magic-ink.html" rel="alternate"></link><published>2007-04-21T10:56:00+02:00</published><updated>2007-04-21T10:56:00+02:00</updated><author><name>markos</name></author><id>tag:markos.gaivo.net,2007-04-21:/articles/magic-ink.html</id><summary type="html">&lt;div&gt;
+&lt;/div&gt;</content><category term="Programming"></category><category term="shipping"></category><category term="Paul Graham"></category></entry><entry><title>Magic Ink</title><link href="https://markos.gaivo.net/articles/magic-ink.html" rel="alternate"></link><published>2007-04-21T10:56:00+02:00</published><updated>2007-04-21T10:56:00+02:00</updated><author><name>markos</name></author><id>tag:markos.gaivo.net,2007-04-21:/articles/magic-ink.html</id><summary type="html">&lt;div&gt;
  &lt;p&gt;
   Found
   &lt;a href="http://worrydream.com/MagicInk/"&gt;
@@ -247,7 +247,7 @@
  &lt;p&gt;
   It pretty much says it all. Don’t let its length discourage you from reading it.
  &lt;/p&gt;
-&lt;/div&gt;</content></entry><entry><title>Google and OCRopus</title><link href="http://markos.gaivo.net/articles/google-and-ocropus.html" rel="alternate"></link><published>2007-04-10T20:25:00+02:00</published><updated>2007-04-10T20:25:00+02:00</updated><author><name>markos</name></author><id>tag:markos.gaivo.net,2007-04-10:/articles/google-and-ocropus.html</id><summary type="html">&lt;div&gt;
+&lt;/div&gt;</content></entry><entry><title>Google and OCRopus</title><link href="https://markos.gaivo.net/articles/google-and-ocropus.html" rel="alternate"></link><published>2007-04-10T20:25:00+02:00</published><updated>2007-04-10T20:25:00+02:00</updated><author><name>markos</name></author><id>tag:markos.gaivo.net,2007-04-10:/articles/google-and-ocropus.html</id><summary type="html">&lt;div&gt;
  &lt;p&gt;
   If implementation will be as good as intentions are, and there’s little reason to doubt it, then
   &lt;a href="http://google-code-updates.blogspot.com/2007/04/announcing-ocropus-open-source-ocr.html" title="OCRopus announcement"&gt;
@@ -263,7 +263,7 @@
   &lt;/a&gt;
   thing will rock.
  &lt;/p&gt;
-&lt;/div&gt;</content></entry><entry><title>Publish date in TITLE tag (Wordpress)</title><link href="http://markos.gaivo.net/articles/publish-date-in-title-tag-wordpress.html" rel="alternate"></link><published>2006-04-23T20:14:00+02:00</published><updated>2006-04-23T20:14:00+02:00</updated><author><name>markos</name></author><id>tag:markos.gaivo.net,2006-04-23:/articles/publish-date-in-title-tag-wordpress.html</id><summary type="html">&lt;div&gt;
+&lt;/div&gt;</content></entry><entry><title>Publish date in TITLE tag (Wordpress)</title><link href="https://markos.gaivo.net/articles/publish-date-in-title-tag-wordpress.html" rel="alternate"></link><published>2006-04-23T20:14:00+02:00</published><updated>2006-04-23T20:14:00+02:00</updated><author><name>markos</name></author><id>tag:markos.gaivo.net,2006-04-23:/articles/publish-date-in-title-tag-wordpress.html</id><summary type="html">&lt;div&gt;
  &lt;p&gt;
   I think it was Jon Udell who gave the advice to include information about author and date of publication in the title tag of each document. I think it’s a smashing idea, but I have a problem.
  &lt;/p&gt;
@@ -293,7 +293,7 @@
    &lt;br/&gt;
   &lt;/em&gt;
  &lt;/p&gt;
-&lt;/div&gt;</content></entry><entry><title>Mobile phones shopping</title><link href="http://markos.gaivo.net/articles/mobile-phones-shopping.html" rel="alternate"></link><published>2006-04-04T20:38:00+02:00</published><updated>2006-04-04T20:38:00+02:00</updated><author><name>markos</name></author><id>tag:markos.gaivo.net,2006-04-04:/articles/mobile-phones-shopping.html</id><summary type="html">&lt;div&gt;
+&lt;/div&gt;</content></entry><entry><title>Mobile phones shopping</title><link href="https://markos.gaivo.net/articles/mobile-phones-shopping.html" rel="alternate"></link><published>2006-04-04T20:38:00+02:00</published><updated>2006-04-04T20:38:00+02:00</updated><author><name>markos</name></author><id>tag:markos.gaivo.net,2006-04-04:/articles/mobile-phones-shopping.html</id><summary type="html">&lt;div&gt;
  &lt;p&gt;
   I recently noticed a changing behavior in how my family and friends go about buying a new mobile phone. The reason they have a mobile is to receive and make phone calls, but their selection of a model to buy is based mostly on secondary functions like built-in camera.
  &lt;/p&gt;
@@ -314,7 +314,7 @@
  &lt;p&gt;
   I’ve been thinking about it for a couple of days and I can’t think of any other product or service, where buyers would display the same behavior, but I have no doubt that this is only due my lack of imagination.
  &lt;/p&gt;
-&lt;/div&gt;</content></entry><entry><title>Need for originality</title><link href="http://markos.gaivo.net/articles/need-for-originality.html" rel="alternate"></link><published>2005-08-23T16:23:00+02:00</published><updated>2005-08-23T16:23:00+02:00</updated><author><name>markos</name></author><id>tag:markos.gaivo.net,2005-08-23:/articles/need-for-originality.html</id><summary type="html">&lt;div&gt;
+&lt;/div&gt;</content></entry><entry><title>Need for originality</title><link href="https://markos.gaivo.net/articles/need-for-originality.html" rel="alternate"></link><published>2005-08-23T16:23:00+02:00</published><updated>2005-08-23T16:23:00+02:00</updated><author><name>markos</name></author><id>tag:markos.gaivo.net,2005-08-23:/articles/need-for-originality.html</id><summary type="html">&lt;div&gt;
  &lt;p&gt;
   We’ve been working on our project for a very long time and it’s been clear all along, that our site, when it’s finally revealed, will look and act very similar to what is already out there, although in a different language and with many, sometimes subtle, differences …&lt;/p&gt;&lt;/div&gt;</summary><content type="html">&lt;div&gt;
  &lt;p&gt;
@@ -344,7 +344,7 @@
  &lt;p&gt;
   If something works well, I’ll use it. If it doesn’t, look at how I could improve it. But before I actually do anything, is the difference big enough to bother actually creating it?
  &lt;/p&gt;
-&lt;/div&gt;</content></entry><entry><title>Our stuff sucks</title><link href="http://markos.gaivo.net/articles/our-stuff-sucks.html" rel="alternate"></link><published>2005-08-05T20:35:00+02:00</published><updated>2005-08-05T20:35:00+02:00</updated><author><name>markos</name></author><id>tag:markos.gaivo.net,2005-08-05:/articles/our-stuff-sucks.html</id><summary type="html">&lt;div&gt;
+&lt;/div&gt;</content></entry><entry><title>Our stuff sucks</title><link href="https://markos.gaivo.net/articles/our-stuff-sucks.html" rel="alternate"></link><published>2005-08-05T20:35:00+02:00</published><updated>2005-08-05T20:35:00+02:00</updated><author><name>markos</name></author><id>tag:markos.gaivo.net,2005-08-05:/articles/our-stuff-sucks.html</id><summary type="html">&lt;div&gt;
  &lt;p&gt;
   When I started my company with a friend two years ago, I had many plans for it and myself. One of them was to make interesting, innovative stuff. Hard problems others weren’t tackling or we thought we could do better.
  &lt;/p&gt;

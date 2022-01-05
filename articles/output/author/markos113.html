@@ -86,153 +86,126 @@ body > footer .mini-logo {display: inline-block;width:97px;height:32px;border:0;
     </nav>
 
         <article class="hentry">
-            <h1 class="entry-title storytitle"><a href="../dont-take-my-word-for-it.html" rel="bookmark" title="Permalink to Don't take my word for it">Don't take my word for it</a></h1>
+            <h1 class="entry-title storytitle"><a href="../spletne-urice-v-kiberpipi.html" rel="bookmark" title="Permalink to Spletne urice v kiberpipi">Spletne urice v kiberpipi</a></h1>
 
             <div class="entry-content post-text">
                 <div>
  <p>
-  I thought Harold Evans’
-  <a href="http://news.bbc.co.uk/2/hi/uk_news/magazine/4252520.stm" title="Harold Evans talks about English language">
-   last column
+  I apologize in advance to anyone reading this who can’t understand Slovene, but the next announcement is of very local nature and probably of interest only to Slovene speaking people actually living in Slovenia.
+ </p>
+ <p>
+  Z oktobrom se ponovno odpirajo vrata
+  <a href="www.kiberpipa.org">
+   Kiberpipe
   </a>
-  was quite good.
+  in jesen prinaša novost. Spletne urice, serija rednih tedenskih predavanj o spletu in spletnih tehnologijah namenjenih predvsem izkušenim razvijalcem, oblikovalcem in skrbnikom, ki bi radi poglobili svoje znanje, predstavili svoje izkušnje ali pa se preprosto sre??ali in pogovorili z drugimi spletnimi sotrpini.
  </p>
  <p>
-  It’s no shocking revelation that I’m not a native English speaker. In fact, my mother tongue is Slovenian; a fairly difficult language to master even for willing. Although my (mis)use of it leaves much to be desired, I’d like to think I have a better grasp of it than of English.
+  V sredo, 5. oktobra, ob 19.00 bo na sporedu prvo predavanje. Jure Koren bo v predavanju z naslovom PHP v ??asu terorizma predstavil prijeme, s katerimi se izognemo temu, da bi naša PHP aplikacija bila vstopna to??ka za internetne vlomilce.
  </p>
  <p>
-  Still, every now and then I happen to get into trouble because of a misunderstanding that is sometimes caused by as little as a subtly different perception of a word. Usually such problems can be easily spotted and rectified since nuances are much clearer to me in a language I’ve used for more than three decades.
- </p>
- <p>
-  However, I was less lucky when dealing with different cultures using English. One such occasion was using word hate improperly, as you might use it in Slovenian by implying a stronger disliking of something, but not an actual hate. I try not to transplant use of a word or a phrase between languages, but I’m sure I still make mistakes like this.
- </p>
- <p>
-  I also lost international friendships through years. Most of them probably because of my cultural ignorance and sometimes it seems the language we used came between us. I came to believe there’s a risk in knowing language well enough for people to assume you know what you’re talking about and not well enough to actually do.
- </p>
- <p>
-  So, does anybody have any personal language related horror stories to share?
+  Upam, da nas bo tam ??im ve??.
  </p>
 </div>
             </div><!-- /.entry-content -->
 
             <footer class="post-metadata">
                 <ul>
-                    <li>Published on <time datetime="2005-09-19T13:46:00+02:00">Mon 19 September 2005</time> </li>
-                    <li><a href="../dont-take-my-word-for-it.html">Add your comment</a></li>
+                    <li>Published on <time datetime="2005-09-27T09:59:00+02:00">Tue 27 September 2005</time> </li>
+                    <li><a href="../spletne-urice-v-kiberpipi.html">Add your comment</a></li>
                 </ul>
             </footer>
         </article>
         <article class="hentry">
-            <h1 class="entry-title storytitle"><a href="../javascript-timing-conflicts.html" rel="bookmark" title="Permalink to Javascript timing conflicts">Javascript timing conflicts</a></h1>
+            <h1 class="entry-title storytitle"><a href="../fans.html" rel="bookmark" title="Permalink to Fans">Fans</a></h1>
 
             <div class="entry-content post-text">
                 <div>
  <p>
-  Play with fire and you’ll get burned.
+  Why is it that we still celebrate national sport teams as demigods and cheer a bunch of guys (or gals) only because they come from the right part of a planet?
  </p>
  <p>
-  I’ve just spent two days hunting a bug that just didn’t make sense. No matter what I did, there was at least one browser, which didn’t want to behave properly and it was driving me nuts.
+  Slovenia was caught in a basketball euphoria when it looked for a while that it might actually win a medal. Personally, I have no beef with people playing it. I haven’t done it in a while, but I used to enjoy it a lot. I don’t mind people watching basketball or any other sport either. I rarely do, but I do recognize inherent drama and sometimes amazing display of mastery.
  </p>
  <p>
-  Finally I gave up and decided there’s nothing wrong with my code and the fault must be with the browser. And so it was, up to a point. Or not, depending on your point of view.
+  I also don’t mind cheering in general. We’ve all encountered individuals or teams, who exemplified rare qualities we admire and wished them best luck. I do find it a bit repulsive to cheer for a person or a team just because they come from the right town or a country.
  </p>
  <p>
-  The problem was a timing conflict resulting from a use of
-  <a href="framestack-technique-and-accessibility.html" title="Description of technique">
-   framestack technique
-  </a>
-  and the way modern browsers work. Browsers don’t wait for the whole page with its data to load, before they display it to users. They display as reasonable presentation of received data as possible while they are trying to load the rest. For example, onload handler set to body tag is triggered when body of HTML document has loaded, but possibly before images and other external resources have. When they do, page layout might change somewhat and if your script is reading and using layout data in the meantime, it’s quite likely it’ll end up using wrong values.
+  It seems rather primitive to pick a side mainly because of nationality or locality; as if our nationality is itself a quality worthy of admiration and pride. They are our lot, our tribe, and that makes them better?
  </p>
  <p>
-  The easiest (and right) way to fix this is to start javascript with
-  <em>
-   window.onload
-  </em>
-  , which is triggered when everything has loaded. This might be a problem, if you’re using something like framestack to avoid reloading page on subsequent visits, but at least in my case I’ve decided that the cleanest and easiest solution was to use window.onload and just force reload of problematic page on each visit.
+  Is it then a wonder that after all this time and relative progress we still have so much troubles with each other? If intimate human relationships can’t survive feelings of personal superiority, how can it ever happen with nations?
  </p>
  <p>
-  It’s also possible to get in similar timing conflicts by using
-  <em>
-   innerHTML
-  </em>
-  method. If you try to stuck a large piece of HTML inside a page using innerHTML call, you may encounter an unwelcome surprise. Reason for this is that at least some browsers don’t wait to parse and insert data in DOM before they proceed to the next statement. Injection delay is usually barely noticeable, but big enough for statements that manipulate inserted data to fail, if they are in close proximity to innerHTML call.
- </p>
- <p>
-  You can’t necessarily avoid innerHTML problems with window.onload, but you can by using (more cumbersome) DOM methods.
- </p>
- <p>
-  It still annoys me though that I knew all of this and wasted two days just because I didn’t think of it.
+  I’ve always been attached to this place where I grew up and culture that shaped me to who I am today and I can’t imagine giving it up. But long gone are days when I felt the same about my nationality and I’d be ashamed if they came back.
  </p>
 </div>
             </div><!-- /.entry-content -->
 
             <footer class="post-metadata">
                 <ul>
-                    <li>Published on <time datetime="2005-09-17T19:01:00+02:00">Sat 17 September 2005</time> </li>
-                    <li><a href="../javascript-timing-conflicts.html">Add your comment</a></li>
+                    <li>Published on <time datetime="2005-09-24T21:13:00+02:00">Sat 24 September 2005</time> </li>
+                    <li><a href="../fans.html">Add your comment</a></li>
                 </ul>
             </footer>
         </article>
         <article class="hentry">
-            <h1 class="entry-title storytitle"><a href="../latency-bandwidth-and-speed-of-applications-part-ii.html" rel="bookmark" title="Permalink to Latency, bandwidth and speed of applications - part II">Latency, bandwidth and speed of applications - part II</a></h1>
+            <h1 class="entry-title storytitle"><a href="../proper-way-of-email-quoting.html" rel="bookmark" title="Permalink to Proper way of email quoting">Proper way of email quoting</a></h1>
 
             <div class="entry-content post-text">
                 <div>
  <p>
-  This is the second post on this subject. You can find the first part
-  <a href="latency-bandwidth-and-speed-of-applications-part-i.html" title="First par of this article">
-   here
+  I was reading Roger Johansson’s blog and came to a
+  <a href="http://www.456bereastreet.com/archive/200509/sensible_email/">
+   post
   </a>
-  .
+  about message quoting. It reminded me of something I wrote last time I observed a flamewar between
+  <a href="http://en.wikipedia.org/wiki/Top-posting">
+   top-posting
+  </a>
+  and inline-replies proponents. This is a rough translation from Slovene:
  </p>
+ <blockquote>
+  <p>
+   &gt; Because it messes up the flow of reading.
+   <br/>
+   &gt; &gt; Why is replying about quotations annoying?
+  </p>
+  <p>
+   Could you please stop with that? I don’t mean just the author of this message, but the general attitude of forcing people to use one, true way of quoting.
+  </p>
+  <p>
+   Both approaches, a reply under a short quotation or a whole message about the previous one, have their place and choice should be based on current need. So it’s good to be aware of their consequences on resulting dialog.
+  </p>
+  <p>
+   Short quotations followed by replies are meaningful when lost context from clipped text doesn’t hurt understanding too much. This means they are useful mainly for short, fact-oriented answers to concrete questions.
+  </p>
+  <p>
+   They are more or less inappropriate for longer, more involved dialog because they transfer focus from whole text to particular sentences. Lost context just raises probability of misunderstanding.
+  </p>
+  <p>
+   Endless threads, quarreling about insignificant issues, off-topic threads etc. are a normal and expected byproduct of such discussion. Even a cursory glance over
+   <list>
+    archives proves this.
+   </list>
+  </p>
+  <p>
+   It’s much better for a dialog, if reply is placed above the message, but ONLY when it’s self-contained and meaningful even without the original message. Attached original is therefore at most a friendly reminder for forgetful minds.
+  </p>
+  <p>
+   Picking right form is a matter of personal judgment and hence a source of mistakes. But this certainly can’t be a reason to howl down somebody.
+  </p>
+ </blockquote>
  <p>
-  So, how do latency and bandwidth relate to the speed of execution?
- </p>
- <p>
-  As mentioned, latency is time needed for any amount of information to travel a certain distance and bandwidth is the amount of data that can flow through it at the same time.
- </p>
- <p>
-  Let me give you a real-life example. If you imagine people walking down the corridor, then latency is amount of time one person needs to walk from start to its end and bandwidth is number of people who can do this at the same time.
- </p>
- <p>
-  You can measure latency quite easily with ping, a tool available on every major OS, which will give you a round-trip time from client to server (2+5 from our original 7 intervals). The only problem is that it will tell you just your personal latency at that time, which can vary significantly for people on different networks and even for you at different times. There are similar tools for measuring bandwidth and they have more or less the same problems.
- </p>
- <p>
-  However, sometimes you can tell a bit about what you can expect. For example, if you’re building an application aimed at mobile users using GPRS, then it’s quite reasonable to assume that bandwidth will be scarce and latency will be high. On local networks it’s usually the opposite of that.
- </p>
- <p>
-  In general, latency rises with distance between server and client and bandwidth can’t be wider than the narrowest bandwidth on the way and the question is how do we react to our situation?
- </p>
- <p>
-  Basic rules are:
- </p>
- <ul>
-  <li>
-   if latency is high, then we should make as few round-trips to server as possible
-  </li>
-  <li>
-   if bandwidth is wide, then we can transfer more data at each trip
-  </li>
- </ul>
- <p>
-  In practice we should always try for the most balanced approach between this two factors. If latency is fairly high, but bandwidth is not severely limited, then we might transfer also data we don’t need immediately, if it might spare us another request later on. If latency is low and bandwidth is narrow, then it might make more sense to transfer only what’s needed, but make those requests more often.
- </p>
- <p>
-  Another way we can sometimes cut down response time, when bandwidth is not the limiting factor, is to multiplex connections, which is a bit fancy way of saying to simultaneously open multiple connections from client to server. It’s nice to keep in mind that some browsers like Internet Explorer will limit number of simultaneous connections for HTTP protocol to 4 (as specified by its standard), but you are more free to do what you want, if you write your own program. It’s also nice to keep in mind that if order in which responses are coming is important, you’ll have to handle that yourself.
- </p>
- <p>
-  A different approach is to simulate multiplex connections over one connection. In this case client sends multiple commands inside of one network request and receives answers to all of them at once. It’s easier to handle order, since you get all data at the same time, but you give up possibly faster response for some of the data.
- </p>
- <p>
-  There are other factors that can influence our decisions, such as possibly increased load on server from more requests. Or the speed with which we can generate a request and process reply, if we need to pack and unpack more data. But this are issues worth exploring in some other post, if interest justifies it.
+  I still believe this is true. I find myself using inline replies more often than not, but I do use top-posting when occasions calls for it and I don’t think I’m a lesser being for it.
  </p>
 </div>
             </div><!-- /.entry-content -->
 
             <footer class="post-metadata">
                 <ul>
-                    <li>Published on <time datetime="2005-09-16T00:03:00+02:00">Fri 16 September 2005</time> </li>
-                    <li><a href="../latency-bandwidth-and-speed-of-applications-part-ii.html">Add your comment</a></li>
+                    <li>Published on <time datetime="2005-09-23T17:54:00+02:00">Fri 23 September 2005</time> </li>
+                    <li><a href="../proper-way-of-email-quoting.html">Add your comment</a></li>
                 </ul>
             </footer>
         </article>
@@ -242,7 +215,7 @@ body > footer .mini-logo {display: inline-block;width:97px;height:32px;border:0;
         <a href="../author/markos112.html">&laquo; Newer</a>
 		</li>
 		<li class="current">
-    113 / 120
+    113 / 121
 		</li>
 		<li class="older">
         <a href="../author/markos114.html">Older &raquo;</a>

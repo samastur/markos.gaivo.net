@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>A notch above a monkey - Company, Javascript, Web</title><link href="http://markos.gaivo.net/articles/" rel="alternate"></link><link href="/articles/feeds/company-javascript-web.atom.xml" rel="self"></link><id>http://markos.gaivo.net/articles/</id><updated>2006-08-28T21:08:00+02:00</updated><entry><title>Marela widget III</title><link href="http://markos.gaivo.net/articles/marela-widget-iii.html" rel="alternate"></link><published>2006-08-28T21:08:00+02:00</published><updated>2006-08-28T21:08:00+02:00</updated><author><name>markos</name></author><id>tag:markos.gaivo.net,2006-08-28:/articles/marela-widget-iii.html</id><summary type="html">&lt;div&gt;
+<feed xmlns="http://www.w3.org/2005/Atom"><title>A notch above a monkey - Company, Javascript, Web</title><link href="https://markos.gaivo.net/articles/" rel="alternate"></link><link href="/articles/feeds/company-javascript-web.atom.xml" rel="self"></link><id>https://markos.gaivo.net/articles/</id><updated>2006-08-28T21:08:00+02:00</updated><entry><title>Marela widget III</title><link href="https://markos.gaivo.net/articles/marela-widget-iii.html" rel="alternate"></link><published>2006-08-28T21:08:00+02:00</published><updated>2006-08-28T21:08:00+02:00</updated><author><name>markos</name></author><id>tag:markos.gaivo.net,2006-08-28:/articles/marela-widget-iii.html</id><summary type="html">&lt;div&gt;
  &lt;p&gt;
   Summer is closing to the end, so is my
   &lt;a href="marela-widgets-i.html"&gt;
@@ -50,7 +50,7 @@
  &lt;p&gt;
   As always you’re free to copy the script or link to my page to use the latest version.
  &lt;/p&gt;
-&lt;/div&gt;</content></entry><entry><title>Marela widgets II</title><link href="http://markos.gaivo.net/articles/marela-widgets-ii.html" rel="alternate"></link><published>2006-08-10T12:31:00+02:00</published><updated>2006-08-10T12:31:00+02:00</updated><author><name>markos</name></author><id>tag:markos.gaivo.net,2006-08-10:/articles/marela-widgets-ii.html</id><summary type="html">&lt;div&gt;
+&lt;/div&gt;</content></entry><entry><title>Marela widgets II</title><link href="https://markos.gaivo.net/articles/marela-widgets-ii.html" rel="alternate"></link><published>2006-08-10T12:31:00+02:00</published><updated>2006-08-10T12:31:00+02:00</updated><author><name>markos</name></author><id>tag:markos.gaivo.net,2006-08-10:/articles/marela-widgets-ii.html</id><summary type="html">&lt;div&gt;
  &lt;p&gt;
   Heat is gone, work isn’t, but I still found time to have fun while shamelessly copying other people ideas.
  &lt;/p&gt;
@@ -106,7 +106,7 @@
  &lt;p&gt;
   And if you’re reading this post on the front page, you’ve might have noticed that there are no problems in using both widgets on the same page.
  &lt;/p&gt;
-&lt;/div&gt;</content></entry><entry><title>Marela widgets I</title><link href="http://markos.gaivo.net/articles/marela-widgets-i.html" rel="alternate"></link><published>2006-08-03T21:49:00+02:00</published><updated>2006-08-03T21:49:00+02:00</updated><author><name>markos</name></author><id>tag:markos.gaivo.net,2006-08-03:/articles/marela-widgets-i.html</id><summary type="html">&lt;div&gt;
+&lt;/div&gt;</content></entry><entry><title>Marela widgets I</title><link href="https://markos.gaivo.net/articles/marela-widgets-i.html" rel="alternate"></link><published>2006-08-03T21:49:00+02:00</published><updated>2006-08-03T21:49:00+02:00</updated><author><name>markos</name></author><id>tag:markos.gaivo.net,2006-08-03:/articles/marela-widgets-i.html</id><summary type="html">&lt;div&gt;
  &lt;p&gt;
   It’s the beginning of August, heat is temporarily gone and I wish it took work with it. But no, it’s still lying there and there’s enough of it that I have some problems deciding what to do first.
  &lt;/p&gt;

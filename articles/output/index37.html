@@ -85,137 +85,172 @@ body > footer .mini-logo {display: inline-block;width:97px;height:32px;border:0;
     </nav>
 
         <article class="hentry">
-            <h1 class="entry-title storytitle"><a href="./firefox-3-release-party.html" rel="bookmark" title="Permalink to Firefox 3 Release Party">Firefox 3 Release Party</a></h1>
+            <h1 class="entry-title storytitle"><a href="./leaving-app-engine-for-now.html" rel="bookmark" title="Permalink to Leaving App Engine - for now">Leaving App Engine - for now</a></h1>
 
             <div class="entry-content post-text">
                 <div>
  <p>
-  <a class="zem_slink" href="http://www.firefox.com/" rel="homepage" title="Mozilla Firefox">
-   Firefox 3
+  Jonathan
+  <a href="http://spyced.blogspot.com/2008/08/app-engine-conclusions.html#">
+   wrote
   </a>
-  was released last week and tomorrow, a week after its release, we’ll have
-  <a href="http://www.kiberpipa.org/firefox/">
-   a release party
+  his thoughts about
+  <a class="zem_slink" href="http://appengine.google.com" rel="homepage" title="Google App Engine">
+   App Engine
   </a>
-  at Kiberpipa. Everybody is welcome, but you have to register first.
+  . They are well worth a read if you are thinking about using it, but haven’t so far. I used App Engine sporadically for a couple of months on a project of mine, but I finally gave up and ended porting my code to pure
+  <a class="zem_slink" href="http://www.djangoproject.com" rel="homepage" title="Django (web framework)">
+   Django
+  </a>
+  , which admittedly wasn’t too hard to do at this point in time.
  </p>
  <p>
-  Part of the event will be
-  <a href="http://www.kiberpipa.org/firefox/schedule">
-   a series of talks
-  </a>
-  , one of which will be mine, a short talk titled Easy deployment of site-extensions with a
-  <a class="zem_slink" href="http://en.wikipedia.org/wiki/Plugin" rel="wikipedia" title="Plugin">
-   browser plugin
-  </a>
-  .
+  Some of my reasons match Jonathan’s. There were too many rough edges to feel really productive and too much time was wasted on trying to find out if problem lies in poor documentation, incomplete implementation or stupid programmer. I probably will never get answers to questions like how can a simple Django view that doesn’t do anything beside rendering a static template, consume above expected amount of CPU and risk triggering quota blockage, but right now I really don’t care anymore.
  </p>
  <p>
-  I hope to see you there.
+  Integrating
+  <a class="zem_slink" href="http://www.crunchbase.com/company/google" rel="crunchbase" title="Google">
+   Google
+  </a>
+  accounts is indeed easy, but it is also very shallow to the point of being practically useless.  You basically can only rely on fact that reference to a particular user won’t change. Anything else you may think you know (like an email address), can’t be relied upon. You can’t create an account and you can’t even control login form of your service. In essence you don’t have your own users, you can just offer a service to Google’s.
+ </p>
+ <p>
+  For me this was one of two major reasons for my decision. Every person who would need an account to use what I am building would need to agree to Google’s
+  <a class="zem_slink" href="http://en.wikipedia.org/wiki/Terms_of_service" rel="wikipedia" title="Terms of service">
+   TOS
+  </a>
+  agreement which defines many things, among others the highest level of privacy I can offer.
+ </p>
+ <p>
+  The other reason was that current limitations of App Engine really lead you to rely heavily on provided APIs, which may be similar to stuff out there (like Django), but aren’t anywhere close to being a drop-in replacement. This can be — depending on application you’re writing — a heavy investement in a platform you don’t control a bit.
+ </p>
+ <p>
+  Put more profanely, you are a Google’s bitch.
+ </p>
+ <p>
+  Having said all this, I do think App Engine is a very valuable service. If you want to write a mini-app, a web tool like
+  <a href="http://simonwillison.net/" title="Simon's homepage">
+   Simon
+  </a>
+  <a href="http://simonwillison.net/2008/Jul/29/jsonhead/" title="Post about json-head service">
+   does
+  </a>
+  , then App Engine is brilliant. You can do this easily with little deployment and zero administration hassle. In fact I can’t think of any other service better suited to this task.
+ </p>
+ <p>
+  I’m sure this is not the only scenario in which App Engine makes sense and there are others I haven’t named or thought of. Issues, like accounts, can with some effort be solved now. But App Engine also isn’t (yet) what some of us were hoping for and it’s prudent to really think through what you want, what you need and what App Engine actually offers.
  </p>
 </div>
             </div><!-- /.entry-content -->
 
             <footer class="post-metadata">
                 <ul>
-                    <li>Published on <time datetime="2008-06-23T10:35:00+02:00">Mon 23 June 2008</time> </li>
-                    <li><a href="./firefox-3-release-party.html">Add your comment</a></li>
+                    <li>Published on <time datetime="2008-08-30T21:50:00+02:00">Sat 30 August 2008</time> </li>
+                    <li><a href="./leaving-app-engine-for-now.html">Add your comment</a></li>
                 </ul>
             </footer>
         </article>
         <article class="hentry">
-            <h1 class="entry-title storytitle"><a href="./switchedto-firefox-3.html" rel="bookmark" title="Permalink to Switched...to Firefox 3">Switched...to Firefox 3</a></h1>
+            <h1 class="entry-title storytitle"><a href="./hiding-everything-but-editor-on-wordpress-with-greasemonkey.html" rel="bookmark" title="Permalink to Hiding everything but editor on WordPress with Greasemonkey">Hiding everything but editor on WordPress with Greasemonkey</a></h1>
 
             <div class="entry-content post-text">
                 <div>
  <p>
-  Today I switched to
-  <a class="zem_slink" href="http://www.firefox.com/" rel="homepage" title="Mozilla Firefox">
-   Firefox 3
+  Fry
+  <a href="http://friedcellcollective.net/outbreak/2008/08/15/discovering-greasemonkey-again/" title="Link to mentione post">
+   published
   </a>
-  as my main browser. I didn’t want to, because as a policy I try to use most common version as default, but I made a mistake of opening version 3 and since then none of my old add-ons seem to work on previous version anymore.
- </p>
- <p>
-  If I was still a young pup, I would probably dive into config files, search
-  <a class="zem_slink" href="http://en.wikipedia.org/wiki/World_Wide_Web" rel="wikipedia" title="World Wide Web">
-   the web
+  few neat
+  <a href="https://addons.mozilla.org/en-US/firefox/addon/748" title="Greasemonkey home">
+   Greasemonkey
   </a>
-  for answers and try to fix it. But when you get to 34, time becomes too precious to muck about needlessly and you just want to focus on things you need or better yet want to do.
+  scripts recently and since I am also a fan of this Firefox
+  <a class="zem_slink" href="http://en.wikipedia.org/wiki/Add-on_%28Mozilla%29" rel="wikipedia" title="Add-on (Mozilla)">
+   extension
+  </a>
+  , I thought I might share one myself. It’s a script I am using right now, while I am typing this post.
  </p>
  <p>
-  So version three it is. This has got me thinking about something else. It’s remarkable how difficult or simply an annoyance it still is to have two version of a browser installed. Clearly this should be possible and is in interest of everyone involved.
+  Script hides everything but editor on “Create New Post” page in
+  <a class="zem_slink" href="http://wordpress.org/" rel="homepage" title="WordPress">
+   WordPress
+  </a>
+  . It also adds a toggle to the right which you can use to control visibility of hidden parts.
  </p>
  <p>
-  Anyway, enough of ranting. Time to get back to cutting cake…
+  I did this because I don’t want to be distracted when I am writing and close-to-empty page helps me stay focused. If you’re like me, then please
+  <a href="markos.gaivo.net/examples/lovelywp.user.js">
+   download
+  </a>
+  the script.
  </p>
 </div>
             </div><!-- /.entry-content -->
 
             <footer class="post-metadata">
                 <ul>
-                    <li>Published on <time datetime="2008-06-22T15:04:00+02:00">Sun 22 June 2008</time> </li>
-                    <li><a href="./switchedto-firefox-3.html">Add your comment</a></li>
+                    <li>Published on <time datetime="2008-08-23T23:08:00+02:00">Sat 23 August 2008</time> </li>
+                    <li><a href="./hiding-everything-but-editor-on-wordpress-with-greasemonkey.html">Add your comment</a></li>
                 </ul>
             </footer>
         </article>
         <article class="hentry">
-            <h1 class="entry-title storytitle"><a href="./reblog-and-clean-html.html" rel="bookmark" title="Permalink to Reblog and clean HTML">Reblog and clean HTML</a></h1>
+            <h1 class="entry-title storytitle"><a href="./generating-python-exceptions-classes.html" rel="bookmark" title="Permalink to Generating Python Exceptions Classes">Generating Python Exceptions Classes</a></h1>
 
             <div class="entry-content post-text">
                 <div>
  <p>
-  It has been a busy week. We had a new release at
-  <a class="zem_slink" href="http://www.zemanta.com/" rel="homepage" title="Zemanta ltd.">
-   Zemanta
+  It’s been a while since I used
+  <a class="zem_slink" href="http://www.python.org/" rel="homepage" title="Python (programming language)">
+   Python
   </a>
-  , first big one that I was a part of. While things didn’t go as smoothly as we would hope, I think it has been a big success. I would like to thank all involved for their huge contribution and especially to my team, which never stops astonishing me. It’s a pleasure and a privilege to work with you all.
+  for anything larger than scripts few tens lines long, so it feels really great to do it again. I did discover however that I became a bit rusty. Not so much in not being able to achieve what I want as not being sure that I do it in a sensible and pythonic way.
  </p>
  <p>
-  We also made a small blunder with cursor moving while typing your post. Emptying your browser cache should remedy this. Please let me know if it doesn’t. Even though we are still in alpha, we don’t see this as an excuse for poor performance.
- </p>
- <p>
-  It has been a release full of features, but two of them are especially dear to me even though I haven’t contributed much to either.
- </p>
- <p>
-  <strong>
-   clean HTML
-  </strong>
- </p>
- <p>
-  We heard numerous, quite correct complaints that HTML we insert in posts is not valid or nice enough. We did this partly because of honest mistakes on our part (e.g. putting IDs on elements that can appear more than once per page) or because it is really difficult to insert an HTML fragment that will look OK everywhere, no matter the blogging platform or visual template used.
- </p>
- <p>
-  At the end we came to conclusion that it is not feasible for us to do this, so we now offer you a choice. If you do nothing, you will still get the same styled HTML for related articles. But if you chose a clean xHTML option in preferences, which can be find below articles list, you will get a clean, unstyled xHTML which you can style to your liking. We still haven’t settled on final HTML for it, so any
-  <a href="http://getsatisfaction.com/zemanta" title="Zemanta support forum">
-   feedback
+  I’ve been working on a private project where I came to a following problem.
+  <a class="zem_slink" href="http://en.wikipedia.org/wiki/Application_programming_interface" rel="wikipedia" title="Application programming interface">
+   API
   </a>
-  would be more than welcome.
- </p>
- <p>
-  <strong>
-   Reblog
-  </strong>
- </p>
- <p>
-  The other feature I am really fond of is
-  <a href="http://www.zemanta.com/reblog/" title="Reblog's homepage">
-   reblog
+  calls can trigger various responses, somewhat like
+  <a class="zem_slink" href="http://en.wikipedia.org/wiki/Hypertext_Transfer_Protocol" rel="wikipedia" title="Hypertext Transfer Protocol">
+   HTTP
   </a>
-  . Using Zemanta added a little orange image at the end of the post. It was basically a small ad for us, which we really appreciated. This ad has been replaced with new image that offers your visitors an easy way to continue discussion on their blogs by choosing a paragraph from your story to quote and adding their thoughts before publishing it.
+  , containing status codes together with a short description. Every faulty response should trigger its own exception, which led me to my first implementation:
+ </p>
+ <pre><code>
+class Unauthorized(Exception):
+    status = 101
+    value = "Unauthorized."
+</code></pre>
+ <p>
+  I didn’t like it even though it looks and behaves like it should. What I wanted was a better overlook of possible responses in a way where I have to make any possible changes easily and only at one place.
  </p>
  <p>
-  You can see an example on this very post. Just press reblog button at the end. We are continuously discovering and fixing quirks in parsing HTML text out there, but if you find a new one, please let us know.
+  My
+  <a href="http://markos.gaivo.net/examples/pyexceptions/exceptions1.txt" title="Example">
+   second attempt
+  </a>
+  was auto-generating exception classes using type. Since class definition took only a line instead of three, it certainly achieved better transparency, but I still had to make changes at two places.
  </p>
  <p>
-  So these were my favorite features. What were yours?
+  <a href="http://markos.gaivo.net/examples/pyexceptions/exceptions2.txt">
+   Final step
+  </a>
+  was to auto-generate classes in a loop. To do this I attached them to module namespace using globals() dictionary. Actually I used __builtin__ one at first, but it obviously didn’t work that great.
+ </p>
+ <p>
+  So this is what I have now. It works and achieves my goals. I only need to change dictionary to add a new response or change existing one and it could hardly be more readable.
+ </p>
+ <p>
+  But is it pythonic enough? If not, what would be, apart from traditional way described in first step?
  </p>
 </div>
             </div><!-- /.entry-content -->
 
             <footer class="post-metadata">
                 <ul>
-                    <li>Published on <time datetime="2008-06-07T14:09:00+02:00">Sat 07 June 2008</time> </li>
-                    <li><a href="./reblog-and-clean-html.html">Add your comment</a></li>
+                    <li>Published on <time datetime="2008-07-22T09:39:00+02:00">Tue 22 July 2008</time> </li>
+                    <li><a href="./generating-python-exceptions-classes.html">Add your comment</a></li>
                 </ul>
             </footer>
         </article>
@@ -225,7 +260,7 @@ body > footer .mini-logo {display: inline-block;width:97px;height:32px;border:0;
         <a href="./index36.html">&laquo; Newer</a>
 		</li>
 		<li class="current">
-    37 / 120
+    37 / 121
 		</li>
 		<li class="older">
         <a href="./index38.html">Older &raquo;</a>

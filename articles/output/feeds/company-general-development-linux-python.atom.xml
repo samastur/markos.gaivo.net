@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>A notch above a monkey - Company, General development, Linux, Python</title><link href="http://markos.gaivo.net/articles/" rel="alternate"></link><link href="/articles/feeds/company-general-development-linux-python.atom.xml" rel="self"></link><id>http://markos.gaivo.net/articles/</id><updated>2005-11-29T18:08:00+01:00</updated><entry><title>IPRED2 derailed?</title><link href="http://markos.gaivo.net/articles/ipred2-derailed.html" rel="alternate"></link><published>2005-11-29T18:08:00+01:00</published><updated>2005-11-29T18:08:00+01:00</updated><author><name>markos</name></author><id>tag:markos.gaivo.net,2005-11-29:/articles/ipred2-derailed.html</id><summary type="html">&lt;div&gt;
+<feed xmlns="http://www.w3.org/2005/Atom"><title>A notch above a monkey - Company, General development, Linux, Python</title><link href="https://markos.gaivo.net/articles/" rel="alternate"></link><link href="/articles/feeds/company-general-development-linux-python.atom.xml" rel="self"></link><id>https://markos.gaivo.net/articles/</id><updated>2005-11-29T18:08:00+01:00</updated><entry><title>IPRED2 derailed?</title><link href="https://markos.gaivo.net/articles/ipred2-derailed.html" rel="alternate"></link><published>2005-11-29T18:08:00+01:00</published><updated>2005-11-29T18:08:00+01:00</updated><author><name>markos</name></author><id>tag:markos.gaivo.net,2005-11-29:/articles/ipred2-derailed.html</id><summary type="html">&lt;div&gt;
  &lt;p&gt;
   Well, I’ve jumped the gun. It seems IPRED2 has been
   &lt;a href="http://wiki.ffii.org/Ipred2En"&gt;
@@ -21,7 +21,7 @@
  &lt;p&gt;
   Still, better this than being right.
  &lt;/p&gt;
-&lt;/div&gt;</content></entry><entry><title>IPRED2 endangers all software development</title><link href="http://markos.gaivo.net/articles/ipred-2-endangers-all-software-development.html" rel="alternate"></link><published>2005-11-27T19:57:00+01:00</published><updated>2005-11-27T19:57:00+01:00</updated><author><name>markos</name></author><id>tag:markos.gaivo.net,2005-11-27:/articles/ipred-2-endangers-all-software-development.html</id><summary type="html">&lt;div&gt;
+&lt;/div&gt;</content></entry><entry><title>IPRED2 endangers all software development</title><link href="https://markos.gaivo.net/articles/ipred-2-endangers-all-software-development.html" rel="alternate"></link><published>2005-11-27T19:57:00+01:00</published><updated>2005-11-27T19:57:00+01:00</updated><author><name>markos</name></author><id>tag:markos.gaivo.net,2005-11-27:/articles/ipred-2-endangers-all-software-development.html</id><summary type="html">&lt;div&gt;
  &lt;p&gt;
   &lt;a href="http://www.fsfeurope.org"&gt;
    FSF Europe

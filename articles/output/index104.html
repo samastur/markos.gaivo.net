@@ -85,90 +85,148 @@ body > footer .mini-logo {display: inline-block;width:97px;height:32px;border:0;
     </nav>
 
         <article class="hentry">
-            <h1 class="entry-title storytitle"><a href="./adwords-and-google-rank.html" rel="bookmark" title="Permalink to Adsense and Google rank">Adsense and Google rank</a></h1>
+            <h1 class="entry-title storytitle"><a href="./speed-test-of-pyrss2gen-kid-and-atomixlib.html" rel="bookmark" title="Permalink to Speed test of PyRSS2Gen, kid and atomixlib">Speed test of PyRSS2Gen, kid and atomixlib</a></h1>
 
             <div class="entry-content post-text">
                 <div>
  <p>
-  In last couple of weeks I’ve begin to notice that ever larger part of my visitors are coming to my site through search engines, most of them from Google. I seem to be the most unsatisfied WordPress user or at least the loudest of the lot. I find Google’s ranking algorithms highly perplexing and therefore extremely interesting. So far the only thing I learned about them is that I haven’t got a clue.
- </p>
- <p>
-  I’ve added Google ads to this blog a couple of days ago. A move, which unsurprisingly didn’t lead to instant riches and a life of a professional writer and won’t do so anytime soon. But I am learning and when I’ll have enough data for an actually meaningful statistical analysis, I might even write a word or two about it.
- </p>
- <p>
-  Of course lack of data doesn’t stop me from thinking about it and the question that’s been on my mind these last few days is, does showing Google ads influence your page rank in their search engine?
- </p>
- <p>
-  Let me be clear upfront. I don’t think it does and also have absolutely no reason to think otherwise.
- </p>
- <p>
-  But opportunity is there. Obviously it doesn’t make sense for Google to promote websites solely because they show their ads. Bad search results would lead to exodus of their users to other search engines fairly quickly.
- </p>
- <p>
-  However, let us imagine a scenario where we have two websites with the same calculated rank for a given query. One has Google ads and the other doesn’t. There’s obvious benefit of favoring the one with ads, but the risk of doing so is probably quite small. After all, they have the same rank.
- </p>
- <p>
-  I wouldn’t be surprised to learn that Google favors “their” websites in situations like this and truthfully, I don’t think there’s anything wrong with it.
- </p>
-</div>
-            </div><!-- /.entry-content -->
-
-            <footer class="post-metadata">
-                <ul>
-                    <li>Published on <time datetime="2005-10-28T19:46:00+02:00">Fri 28 October 2005</time> </li>
-                    <li><a href="./adwords-and-google-rank.html">Add your comment</a></li>
-                </ul>
-            </footer>
-        </article>
-        <article class="hentry">
-            <h1 class="entry-title storytitle"><a href="./webzensi.html" rel="bookmark" title="Permalink to web.zen.si">web.zen.si</a></h1>
-
-            <div class="entry-content post-text">
-                <div>
- <p>
-  Spletne urice now have a
-  <a href="http://web.zen.si">
-   home
+  I’ve spent this evening building RSS2 and Atom feeds with
+  <a href="http://www.dalkescientific.com/Python/PyRSS2Gen.html">
+   PyRSS2Gen
   </a>
-  . I probably won’t announce new talks here anymore, because frankly, there’s probably little point in doing so.
+  ,
+  <a href="http://kid.lesscode.org/index.html">
+   kid
+  </a>
+  and
+  <a href="http://www.defuze.org/oss/atomixlib/">
+   atomixlib
+  </a>
+  , as
+  <a href="searching-for-atom-feed-generator.html">
+   proposed
+  </a>
+  by helpful people few days ago.
  </p>
  <p>
-  There you’ll also be able to find slides of previous presentations, detailed future schedule and hopefully in time, a more lively debate than you had here.
+  We’d like to add feeds promiscuously to our service (right now we have exactly one). But before we can decide how to tackle this, we need to know how fast we can generate a feed on average.
+ </p>
+ <p>
+  <strong>
+   DISCLAIMER: I tried to generate feeds with same data using what seemed a reasonable python code to do so, but I didn’t try to save every millisecond as I only cared about crude speed approximations. I have no problem believing that someone else might get completely different results. No serious statistical analysis has been made and rigorous scientific approach has been almost completely absent. Better make your own tests, if speed (or anything else really) is important to you. But if dubious numbers delight you, then please continue.
+  </strong>
+ </p>
+ <p>
+  So, here are my results. Time to generate a feed with 10 entries on 1GHz G4 Powerbook:
+ </p>
+ <ul>
+  <li>
+   with PyRSS2Gen somewhere around 70ms
+  </li>
+  <li>
+   with atomixlib around 120-140ms
+  </li>
+  <li>
+   and with kid around 30-35ms
+  </li>
+ </ul>
+ <p>
+  In other words, you can generate between 8 and 30 feeds per second on my notebook and (I guess) 2-3x as many on a modern server. This is more than enough for most cases, but I’m afraid it probably won’t be enough for us. Which means either producing feeds by gluing strings together or having a more intelligent approach than building a new one on every request.
+ </p>
+ <p>
+  As a side note, I found all three packages easy to work with.
+  <br/>
+  <em>
+   <br/>
+   Update: Sylvain has released atomixlib 0.3 which makes it even easier to create atom feeds and brings also significant speed improvements. On my computer it takes now around 60-65ms to build a feed.
+  </em>
+ </p>
+ <p>
+  Another update: I made a couple of quick tests with mixed results on fairly new Opteron server. PyRSS2Gen was actually slower with 80-85ms and I have no idea why. kid was blazing fast with times between 8 and 9ms.  Definitely good enough.
+ </p>
+ <p>
+  But I couldn’t get atomixlib to work, because 4Suite failed to build, so it will have to wait until I can figure out why it chokes on a perfectly legitimate XSLT.
+ </p>
+ <p>
+  Update 3: 4Suite has been promptly fixed (thanks!) and atomixlib 0.3 takes now 18-19ms. I believe this is an excellent time.
  </p>
 </div>
             </div><!-- /.entry-content -->
 
             <footer class="post-metadata">
                 <ul>
-                    <li>Published on <time datetime="2005-10-27T13:40:00+02:00">Thu 27 October 2005</time> </li>
-                    <li><a href="./webzensi.html">Add your comment</a></li>
+                    <li>Published on <time datetime="2005-11-05T02:04:00+01:00">Sat 05 November 2005</time> </li>
+                    <li><a href="./speed-test-of-pyrss2gen-kid-and-atomixlib.html">Add your comment</a></li>
                 </ul>
             </footer>
         </article>
         <article class="hentry">
-            <h1 class="entry-title storytitle"><a href="./blog-ads.html" rel="bookmark" title="Permalink to Blog ads">Blog ads</a></h1>
+            <h1 class="entry-title storytitle"><a href="./community-development.html" rel="bookmark" title="Permalink to Community development">Community development</a></h1>
 
             <div class="entry-content post-text">
                 <div>
  <p>
-  My blog has become one of many showing ads from Google. As many have said it before me, I did this mainly to learn more about them and their effectiveness. Honest. Volume of traffic on this site is simply too low to expect more money than maybe, just maybe enough to buy a CD every few months or so.
+  I’m online again and have been reading news of the last few days.  So I’m kind of late to
+  <a href="http://blog.ianbicking.org/friendship-and-hand-holding.html">
+   discussion
+  </a>
+  about friendliness of communities.
  </p>
  <p>
-  The fact is that we’re thinking about ad based business models (not for this blog, but the service that’s coming up really soon now), but we lack experience with click-through based models and I believe this site might be a good enough test case to learn more about them.
+  My personal experience with Python community has been absolutely wonderful. I’ve written
+  <a href="no-language-feature-is-optional.html">
+   posts
+  </a>
+  that could be seen as inflammatory, but the response I’ve got was just amazing. I haven’t been nailed to the cross for it and have learned a lot from people I admire, who took the time to leave a comment on my blog for which I’m really grateful. A couple of days ago I
+  <a href="searching-for-atom-feed-generator.html">
+   needed help
+  </a>
+  developing atom feeds and got it immediately.
  </p>
  <p>
-  I have a request for you. I’m not looking for sympathy clicks and would really appreciate it, if all clicks were generated because of your personal interest in presented offers. I might earn more otherwise, but I won’t learn what I want.
+  I find Python community very friendly and forthcoming, but I also believe Ian is right that Ruby might feel more friendly simply because a kind of youthful innocence. I wouldn’t really know, since I don’t use the language or follow up their discussions. I have however experienced in other communities the problem of a disconnect between old timers and newer members, who don’t share cultural history just yet. I think this is inevitable, since experience unlike knowledge can’t be easily given.
  </p>
  <p>
-  Thank you.
+  On the other hand, I have a different problem with web related talks we’re organizing. It’s been our goal from the start to use talks as a conduit for slovenian web community building, which hasn’t happened to the extent I was hoping for. Our talks are well attended, but at the end our audience mostly leaves, which kind of saddens me. I’d like to get them more engaged, but I have no idea if the problem lies with us, organizers, or is just a result of slovenian culture.
+ </p>
+ <p>
+  I guess community building is just hard.
  </p>
 </div>
             </div><!-- /.entry-content -->
 
             <footer class="post-metadata">
                 <ul>
-                    <li>Published on <time datetime="2005-10-26T12:29:00+02:00">Wed 26 October 2005</time> </li>
-                    <li><a href="./blog-ads.html">Add your comment</a></li>
+                    <li>Published on <time datetime="2005-11-03T12:13:00+01:00">Thu 03 November 2005</time> </li>
+                    <li><a href="./community-development.html">Add your comment</a></li>
+                </ul>
+            </footer>
+        </article>
+        <article class="hentry">
+            <h1 class="entry-title storytitle"><a href="./searching-for-atom-feed-generator.html" rel="bookmark" title="Permalink to Searching for an Atom feed generator">Searching for an Atom feed generator</a></h1>
+
+            <div class="entry-content post-text">
+                <div>
+ <p>
+  I’m still mostly offline, but luckily UMTS offers a sort of solution. It works alright, but it is fairly expensive and I’m counting my bytes again. Still better than helplessly and hopelessly waiting for local telecom to fix ADSL, which judging by previous experience may happen who knows when.
+ </p>
+ <p>
+  I’ve been looking for an Atom feed generator and I can’t find anything more than a few exploratory hacks. Is there something out there that would at least resemble
+  <a href="http://www.dalkescientific.com/Python/PyRSS2Gen.html" title="Link to PyRSS2Gen's homepage">
+   PyRSS2Gen
+  </a>
+  ?
+ </p>
+ <p>
+  What I’d like is something that returns a proper Atom 1.0 feed and doesn’t choke on non-ascii using languages. I’m sure I’m missing something. Any help would be greatly appreciated.
+ </p>
+</div>
+            </div><!-- /.entry-content -->
+
+            <footer class="post-metadata">
+                <ul>
+                    <li>Published on <time datetime="2005-11-01T02:32:00+01:00">Tue 01 November 2005</time> </li>
+                    <li><a href="./searching-for-atom-feed-generator.html">Add your comment</a></li>
                 </ul>
             </footer>
         </article>
@@ -178,7 +236,7 @@ body > footer .mini-logo {display: inline-block;width:97px;height:32px;border:0;
         <a href="./index103.html">&laquo; Newer</a>
 		</li>
 		<li class="current">
-    104 / 120
+    104 / 121
 		</li>
 		<li class="older">
         <a href="./index105.html">Older &raquo;</a>

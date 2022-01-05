@@ -85,143 +85,92 @@ body > footer .mini-logo {display: inline-block;width:97px;height:32px;border:0;
     </nav>
 
         <article class="hentry">
-            <h1 class="entry-title storytitle"><a href="./back-from-vacation.html" rel="bookmark" title="Permalink to Back from vacation">Back from vacation</a></h1>
+            <h1 class="entry-title storytitle"><a href="./back-to-my-roots.html" rel="bookmark" title="Permalink to Back to my roots!">Back to my roots!</a></h1>
 
             <div class="entry-content post-text">
                 <div>
  <p>
-  Back from Ireland, a place everyone should visit at least once. If you have time, take a few days to explore Dublin and travel to west coast. Those like me, who find abundance of national pride and flags creepy, might skip Northern Ireland.
+  It has dawned on me recently, that I’m not using Linux as much as I used to. True, all my servers are Linux based and all new code is eventually deployed on them, but I haven’t been using it for a while on a desktop.
  </p>
  <p>
-  New development posts might take few days to appear, while I catch up with everything.
+  Probably the main cause for this was my Powerbook, where practically everything I create starts its life. It’s just so much easier to carry all your work with you. Linux cause also wasn’t helped by a fact, that my PC is incredibly loud and makes air in office unbreathable in a matter of minutes.
+ </p>
+ <p>
+  Mac OS X was never a perfect match for me and I always missed some things like true network transparency. But lately I became tired of various software bugs and hardware troubles that plague me and started to think about Linux more. I also miss being part of open source community.
+ </p>
+ <p>
+  So, after this pre-launch mayhem is over, I’ll look for a new Linux machine. It’s time to go home.
  </p>
 </div>
             </div><!-- /.entry-content -->
 
             <footer class="post-metadata">
                 <ul>
-                    <li>Published on <time datetime="2005-07-27T15:39:00+02:00">Wed 27 July 2005</time> </li>
-                    <li><a href="./back-from-vacation.html">Add your comment</a></li>
+                    <li>Published on <time datetime="2005-08-21T19:24:00+02:00">Sun 21 August 2005</time> </li>
+                    <li><a href="./back-to-my-roots.html">Add your comment</a></li>
                 </ul>
             </footer>
         </article>
         <article class="hentry">
-            <h1 class="entry-title storytitle"><a href="./accessibility-after-media.html" rel="bookmark" title="Permalink to Accessibility after @media">Accessibility after @media</a></h1>
+            <h1 class="entry-title storytitle"><a href="./looping-through-getelementsbytagname-list.html" rel="bookmark" title="Permalink to Looping through getElementsByTagName list">Looping through getElementsByTagName list</a></h1>
 
             <div class="entry-content post-text">
                 <div>
  <p>
-  I still haven’t managed to write my promised or planned articles, including framestack technique, but I’m still optimistic to finish them before the end of month. Well, sort of anyway, since time is not on my side.
+  There’s a small quirk that developers hit now and then when they are processing a list of elements returned by getElementsByTagName function.  Usual, but still unexpected behavior is that not all elements of the list have been processed and if you are using javascript console, it might complain that there’s no element in the list at index, where you’re certain it should be.
  </p>
  <p>
-  The thing that probably hit me most at @media was accessibility and issues surrounding it. I’m still one of those evil people, pushing Javascript too far. But hey, I do care and I’m trying to find good, accessible solutions for what I’m building and failing behind schedule as result. Not far enough to worry yet though.
+  The reason for this is that returned list of elements is not really a list. It’s a live view of matching elements. If you delete one of them in document, it will be removed from the list as well. List will become shorter and some elements in it may change their position to fill empty slot formerly occupied by deleted element.
  </p>
  <p>
-  It seems same thing is on other people’s minds as well and they wrote a lot of good stuff about it.
-  <a href="http://www.stuffandnonsense.co.uk/archives/the_role_of_government_in_web_accessibility.html">
-   Andy Clarke
-  </a>
-  would like to see more education and tax breaks for developers for money spent on learning and developing assistive technology. Andy Budd
-  <a href="http://www.andybudd.com/archives/2005/06/accessibility_and_the_law/index.php">
-   thought
-  </a>
-  about why legislation is necessary and
-  <a href="http://veerle.duoh.com/comments.php?id=354_0_2_0_C">
-   Veerle
-  </a>
-  has a good suggestion of actually awarding good behavior. As far as I know such incentives worked quite well for ecological issues.
+  Therefore, if you loop through such a list and its possible that you might remove current element, it’s best to loop from last element to the first. This keeps positions stable and predictable even when you delete.
  </p>
  <p>
-  I’d just like to add a word or two about situation in Slovenia, where to the best of my knowledge we don’t have such legislation and almost nobody cares about it. What I found encouraging in London was the number of people who cared and I believe legislation has played a part in making people notice.
+  It can be a bit trickier to handle if you add matching elements inside such loop. Sadly there’s no easy solution that would work all the time and you have to take in account your situation.
  </p>
 </div>
             </div><!-- /.entry-content -->
 
             <footer class="post-metadata">
                 <ul>
-                    <li>Published on <time datetime="2005-06-20T23:07:00+02:00">Mon 20 June 2005</time> </li>
-                    <li><a href="./accessibility-after-media.html">Add your comment</a></li>
+                    <li>Published on <time datetime="2005-08-20T15:37:00+02:00">Sat 20 August 2005</time> </li>
+                    <li><a href="./looping-through-getelementsbytagname-list.html">Add your comment</a></li>
                 </ul>
             </footer>
         </article>
         <article class="hentry">
-            <h1 class="entry-title storytitle"><a href="./javascript-accessbility-woes-part-1.html" rel="bookmark" title="Permalink to Javascript accessibility woes - part 1">Javascript accessibility woes - part 1</a></h1>
+            <h1 class="entry-title storytitle"><a href="./when-to-release-your-product.html" rel="bookmark" title="Permalink to When to release your product?">When to release your product?</a></h1>
 
             <div class="entry-content post-text">
                 <div>
  <p>
-  It’s been really great talking to
-  <a href="http://www.andybudd.com/">
-   Andy
-  </a>
-  ,
-  <a href="http://www.adactio.com">
-   Jeremy
-  </a>
-  ,
-  <a href="http://www.kryogenix.org/">
-   Stuart
-  </a>
-  and
-  <a href="http://www.boxofchocolates.ca/">
-   Derek
-  </a>
-  at javascript get-together and they certainly convinced me that I could and should do more to make my web applications accessible. However after a few days of thinking, I still have issues that seem to lack a good solution.
+  I’m usually quite fond of weekends. There’s never a good reason for it, since they’ve looked like normal working days for quite some months now. But the feeling of a time off still lingers and I’m usually happy when it’s Friday.
  </p>
  <p>
-  First of them is
-  <em>
-   window.onload
-  </em>
-  .  Ppk already
-  <a href="http://www.quirksmode.org/blog/archives/2005/06/11_june_london.html">
-   explained
-  </a>
-  the problem quite well. There’s also a workaround, which I admit I’m using right now, and that is to have an inline event handler on body tag.  There are only two problems with this approach:
- </p>
- <ol>
-  <li>
-   inline event handlers are even more despised than inline CSS styles
-  </li>
-  <li>
-   we are mixing XHTML/HTML with Javascript, which is a no-no as well
-  </li>
-  <li>
-   it doesn’t really work if you don’t have at least a simple function to check and handle, if external javascript code has been loaded yet
-  </li>
- </ol>
- <p>
-  Personally, I think all points make a lot of sense when not taken to extreme. I sincerely doubt that webpage/application suffers a lot, if this is the only inline event handler in the whole document and inlined code in head is kept to minimum. We often use CSS to add behavior (a:hover), where it just makes sense and I think we should be able to use inline Javascript on occasions as well.
+  I’m also quite happy that there are only few more hours of this hellish weekend, when nothing went right. Among other things, I got so exhausted  that I slept straight for almost 12 hours (personal record) and I got acquainted really well with spinning wheel on my Powerbook. Probable cause: dying disk at time when that’s least needed. One more thing made by Apple (beside iMac and iPod) that I need to take to service when I get around to it.
  </p>
  <p>
-  In my case, I’m living in a country, where majority of users are still on a dial-up and most of them will stay there for a while. Since parts of my application can fetch 20 or more 5-10K sized images on a single page, I don’t want to force users to wait 20 seconds or more before application starts to behave reasonably. I also can’t rely on x/html layer behavior because of framestack javascript technique and their problems, about which I plan to write more in the following few days.
+  So, not much work has been done in last few days and I won’t be able to finish even what I promised to do.  This never fails to annoy me.
  </p>
  <p>
-  The only other alternative I see right now is to hide UI by default and display it using Javascript, which is hardly an improvement. If anything, it’s a step back.
+  I have been thinking, while strolling around lake,  about when to reveal our very buzzword compliant service to the greater public. Is the right time when it’s finally useful, but still obviously inspired by other services found on web or is it better to wait half a year or so,  when it will gain the really interesting parts?
  </p>
  <p>
-  I guess I’m in this mess because I didn’t build an html version first and upgraded it with Javascript. Why this happened and how come I don’t think it was necessarily a bad thing, is a topic for another day. But it certainly left me with a puzzle to solve.
+  I still think the right time is this autumn, even though this will lead to accusations of plagiarism. At this point they won’t be really unfounded even if I believe we are just borrowing ideas from others to build something interesting and different (hopefully somebody will someday return the compliment).
  </p>
  <p>
-  So, any ideas, apart from obvious one of having a working html version with added javascript?
+  However, it would be good  to see how others react to what we build and to fix things now  when this can be done more easily then if we wait longer. I also learned the importance of releasing things to keep developers motivated and at least somewhat happy. Nobody likes to be completely irrelevant.  At last, there’s also the ever present problem of money.
  </p>
  <p>
-  <strong>
-   Update:
-  </strong>
-  Ppk
-  <a href="http://www.quirksmode.org/blog/archives/2005/06/you_shouldve_be_1.html">
-   does
-  </a>
-  .
+  If anybody actually gets around to reading this, I’d love to hear your thoughts on this subject. What do you prefer, big bang revelation or evolution of service?
  </p>
 </div>
             </div><!-- /.entry-content -->
 
             <footer class="post-metadata">
                 <ul>
-                    <li>Published on <time datetime="2005-06-14T19:44:00+02:00">Tue 14 June 2005</time> </li>
-                    <li><a href="./javascript-accessbility-woes-part-1.html">Add your comment</a></li>
+                    <li>Published on <time datetime="2005-08-14T22:21:00+02:00">Sun 14 August 2005</time> </li>
+                    <li><a href="./when-to-release-your-product.html">Add your comment</a></li>
                 </ul>
             </footer>
         </article>
@@ -231,7 +180,7 @@ body > footer .mini-logo {display: inline-block;width:97px;height:32px;border:0;
         <a href="./index118.html">&laquo; Newer</a>
 		</li>
 		<li class="current">
-    119 / 120
+    119 / 121
 		</li>
 		<li class="older">
         <a href="./index120.html">Older &raquo;</a>
