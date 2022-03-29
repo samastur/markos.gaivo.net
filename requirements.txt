@@ -12,7 +12,7 @@ Jinja2==2.10.1
 lxml==4.3.3
 Markdown==2.6.1
 MarkupSafe==0.23
-paramiko==2.0.9
+paramiko==2.10.1
 pdfrw==0.4
 pelican==4.0.1
 pycparser==2.19
