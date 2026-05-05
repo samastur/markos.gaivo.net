@@ -63,3 +63,6 @@ docs/_build/
 
 # Rest
 root/articles
+
+# AI tools
+.claude
