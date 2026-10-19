@@ -1,14 +1,24 @@
-#!/usr/bin/env python
+#!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 
 from datetime import datetime
 from os.path import abspath, dirname, join, exists
-from slugify import slugify
-from subprocess import call, PIPE
+import os
+import shutil
+import subprocess
 import sys
 
 THIS_DIR = abspath(dirname(__file__))
-CONTENT_DIR = join(THIS_DIR, 'articles', 'content')
+ARTICLES_DIR = join(THIS_DIR, 'articles')
+CONTENT_DIR = join(ARTICLES_DIR, 'content')
+
+try:
+    from pelican.settings import DEFAULT_CONFIG
+    from pelican.utils import slugify
+except ImportError:
+    # Not running inside the articles uv env, so re-exec through it.
+    os.execvp('uv', ['uv', 'run', '--project', ARTICLES_DIR,
+                     'python', abspath(__file__)] + sys.argv[1:])
 
 ARTICLE_HEADER = '''\
 Title: {title}
@@ -21,11 +31,12 @@ Tags:
 
 '''
 
-EDITOR = '/usr/local/bin/macdown'
+EDITOR = shutil.which('pulsar') or '/opt/homebrew/bin/pulsar'
 
 
-def create_slug(title, dir):
-    slug = base_slug = slugify(title)
+def create_slug(title):
+    slug = base_slug = slugify(
+        title, regex_subs=DEFAULT_CONFIG['SLUG_REGEX_SUBSTITUTIONS'])
     filename = join(CONTENT_DIR, slug + '.md')
     count = 1
     while exists(filename):
@@ -37,13 +48,12 @@ def create_slug(title, dir):
 
 def create_draft(filename, metadata):
     header = ARTICLE_HEADER.format(**metadata)
-    with open(filename, 'w') as f:
+    with open(filename, 'w', encoding='utf-8') as f:
         f.write(header)
 
 
 def open_editor(filename):
-    cmd = "{0} {1}".format(EDITOR, filename)
-    call(cmd, shell=True, stdout=PIPE)
+    subprocess.run([EDITOR, filename], stdout=subprocess.DEVNULL)
 
 
 def main(title):
@@ -53,15 +63,16 @@ def main(title):
         'title': title,
         'date': date
     }
-    slug, filename = create_slug(title, CONTENT_DIR)
+    slug, filename = create_slug(title)
     metadata['slug'] = slug
     create_draft(filename, metadata)
+    print(filename)
     open_editor(filename)
 
 
 if __name__ == '__main__':
     if len(sys.argv) != 2:
-        print 'You have to pass title of the article as  first parameter'
+        print('You have to pass title of the article as first parameter')
         sys.exit(1)
     title = sys.argv[1]
     main(title)
