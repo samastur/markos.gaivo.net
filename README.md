@@ -71,3 +71,7 @@ uv lock --upgrade        # bump everything to latest compatible
 
 Background and design notes (e.g. the 2026 Pelican upgrade) live in
 [`notes/`](notes/).
+
+## Tool documentation
+
+See [tools documentation](docs/README.md) for descriptions and usage.
