@@ -3,7 +3,7 @@ Date: 2017-01-01 22:38:56
 Author: markos
 Category: Catchall
 Slug: books-i-read-in-2016
-Tags: review, book, Books
+Tags: review, book, books
 
 ...were very few. This year has been a reading disaster. I have never read so few books since I learned to read. My list would be even shorter if it did not contain three items ambitiously described as books by publishers. If I change nothing this year, I will definitely change this.
 

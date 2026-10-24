@@ -2,7 +2,7 @@ Title: Books I read in 2014
 Date: 2014-12-31 19:01
 Author: markos
 Category: Catchall
-Tags: review, book, Books
+Tags: review, book, books
 Slug: books-i-read-in-2014
 Status: published
 Id: 1254

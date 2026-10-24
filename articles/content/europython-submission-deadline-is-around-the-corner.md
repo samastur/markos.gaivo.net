@@ -2,7 +2,7 @@ Title: EuroPython submission deadline is around the corner
 Date: 2010-04-26 20:28
 Author: markos
 Category: Python
-Tags: conference, Python, promotion
+Tags: conference, python, promotion
 Slug: europython-submission-deadline-is-around-the-corner
 Status: published
 Id: 596

@@ -2,7 +2,7 @@ Title: Reblog and clean HTML
 Date: 2008-06-07 14:09
 Author: markos
 Category: Company
-Tags: Zemanta, HTML, Markup Languages
+Tags: zemanta, html, markup languages
 Slug: reblog-and-clean-html
 Status: published
 Id: 261

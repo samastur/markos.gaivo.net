@@ -2,7 +2,7 @@ Title: The books I read in 2012
 Date: 2013-01-07 20:45
 Author: markos
 Category: Catchall
-Tags: review, book, Books
+Tags: review, book, books
 Slug: books-i-read-in-2012
 Status: published
 Id: 1073

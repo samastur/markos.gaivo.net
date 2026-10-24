@@ -2,7 +2,7 @@ Title: Books I read in 2009
 Date: 2010-01-03 20:18
 Author: markos
 Category: Catchall
-Tags: review, Books
+Tags: review, books
 Slug: books-i-read-in-2009
 Status: published
 Id: 540

@@ -2,7 +2,7 @@ Title: Self-referencing page links
 Date: 2008-12-27 18:23
 Author: markos
 Category: Javascript, UI, Web
-Tags: Javascript, HTML, unobtrusive enhancement, bug, pattern
+Tags: javascript, html, unobtrusive enhancement, bug, pattern
 Slug: self-referencing-page-links
 Status: published
 Id: 311

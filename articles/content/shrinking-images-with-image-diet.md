@@ -2,7 +2,7 @@ Title: Shrinking images with image-diet
 Date: 2013-01-20 23:53
 Author: markos
 Category: Django, Python, Web
-Tags: Django, low-bandwidth, images, page size, speed, shrink
+Tags: django, low-bandwidth, images, page size, speed, shrink
 Slug: shrinking-images-with-image-diet
 Status: published
 Id: 1087

@@ -2,7 +2,7 @@ Title: Twitter
 Date: 2008-05-25 11:03
 Author: markos
 Category: Catchall, Web
-Tags: Twitter
+Tags: twitter
 Slug: twitter
 Status: published
 Id: 257

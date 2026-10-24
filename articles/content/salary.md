@@ -2,7 +2,7 @@ Title: Salary and geography
 Date: 2011-09-21 11:43
 Author: markos
 Category: Company, General development
-Tags: Balsamiq, Employment, Compensation, Compensation &amp; Benefits
+Tags: balsamiq, employment, compensation, compensation & benefits
 Slug: salary
 Status: published
 Id: 766

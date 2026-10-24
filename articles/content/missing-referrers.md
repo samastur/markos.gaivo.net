@@ -2,7 +2,7 @@ Title: Missing refer(r)ers
 Date: 2011-09-20 18:29
 Author: markos
 Category: General development, Web
-Tags: Flickr, HTTP referrer, Uniform Resource Identifier, Hypertext Transfer Protocol
+Tags: flickr, http referrer, uniform resource identifier, hypertext transfer protocol
 Slug: missing-referrers
 Status: published
 Id: 754

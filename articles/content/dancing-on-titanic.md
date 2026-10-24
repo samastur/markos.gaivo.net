@@ -2,7 +2,7 @@ Title: Dancing on Titanic
 Date: 2008-12-22 19:55
 Author: markos
 Category: Catchall
-Tags: gloom, Zemanta, end-of-year, World population, Environment, Fishery
+Tags: gloom, zemanta, end-of-year, world population, environment, fishery
 Slug: dancing-on-titanic
 Status: published
 Id: 310

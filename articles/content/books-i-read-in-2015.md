@@ -3,7 +3,7 @@ Date: 2016-01-04 13:56:00
 Author: markos
 Category: Catchall
 Slug: books-i-read-in-2015
-Tags: review, book, Books
+Tags: review, book, books
 
 2015 was a year of completely [missed plans]({filename}/2015-review.md) and that was equally true when it came to reading. I read even fewer books than a year before, but at least I am happy with my picks. There were no complete duds and I liked almost all of them.
 

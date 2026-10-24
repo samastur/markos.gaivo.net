@@ -2,7 +2,7 @@ Title: Adieu mes amis
 Date: 2013-07-09 22:32
 Author: markos
 Category: Catchall
-Tags: Blog, goodbye, reader
+Tags: blog, goodbye, reader
 Slug: adieu-mes-amis
 Status: published
 Id: 1116

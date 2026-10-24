@@ -3,7 +3,7 @@ Date: 2020-01-02 23:48:00
 Author: markos
 Category: Catchall
 Slug: books-i-read-in-2019
-Tags: review, book, Books, 2019
+Tags: review, book, books, 2019
 
 The last catalog post in the series of what occupied me last year, but this one has a lineage. I’ve been writing about the books I read annualy since 2009. I was young back then.
 

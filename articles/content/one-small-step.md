@@ -2,7 +2,7 @@ Title: One small step
 Date: 2009-07-20 22:46
 Author: markos
 Category: Company
-Tags: landing on moon, Zemanta, job, Javascript, ad
+Tags: landing on moon, zemanta, job, javascript, ad
 Slug: one-small-step
 Status: published
 Id: 353

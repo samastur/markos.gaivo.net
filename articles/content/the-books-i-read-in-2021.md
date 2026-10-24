@@ -3,7 +3,7 @@ Date: 2022-01-01 22:18:00
 Author: markos
 Category: Catchall
 Slug: the-books-i-read-in-2021
-Tags: review, book, Books, 2021
+Tags: review, book, books, 2021
 
 [A year ago]({filename}/books-i-read-in-2020.md) I expected to read few books in 2021 and I definitely have “achieved” that for the same reasons as I did the last time. I read exactly as few books as in 2020 and even though I had only two reading goals for 2021, I managed to fail both.
 

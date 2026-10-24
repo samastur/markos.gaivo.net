@@ -3,7 +3,7 @@ Date: 2021-01-02 17:30:00
 Author: markos
 Category: Catchall
 Slug: books-i-read-in-2020
-Tags: review, book, Books, 2020
+Tags: review, book, books, 2020
 
 I started few books in 2020 and finished even fewer. I read obsessively, but once 2020 happened it was dominated by COVID-19 related research and information. Somewhere in late February or early March I also made a conscious decision to effectively ignore books this year and focus my attention on activities with less individual positive mental health effects.
 

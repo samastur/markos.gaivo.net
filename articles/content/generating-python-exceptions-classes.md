@@ -2,7 +2,7 @@ Title: Generating Python Exceptions Classes
 Date: 2008-07-22 09:39
 Author: markos
 Category: General development, Python
-Tags: Exceptions, Languages, Python, Programming, Class
+Tags: exceptions, languages, python, programming, class
 Slug: generating-python-exceptions-classes
 Status: published
 Id: 281

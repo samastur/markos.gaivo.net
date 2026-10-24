@@ -2,7 +2,7 @@ Title: Cookies, localStorage and shared state
 Date: 2011-12-19 17:05
 Author: markos
 Category: General development, Web
-Tags: cookies, Firefox, chrome, shared state, stylesheet, localstorage, html5, http, css, browser
+Tags: cookies, firefox, chrome, shared state, stylesheet, localstorage, html5, http, css, browser
 Slug: cookies-localstorage-and-shared-state
 Status: published
 Id: 898

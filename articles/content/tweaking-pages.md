@@ -2,7 +2,7 @@ Title: Tweaking pages
 Date: 2008-10-28 08:59
 Author: markos
 Category: UI, Web
-Tags: Mozilla, Firefox, Web page, greasemonkey, browser
+Tags: mozilla, firefox, web page, greasemonkey, browser
 Slug: tweaking-pages
 Status: published
 Id: 296

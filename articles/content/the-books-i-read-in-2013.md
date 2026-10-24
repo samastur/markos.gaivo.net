@@ -2,7 +2,7 @@ Title: The books I read in 2013
 Date: 2014-01-03 12:41
 Author: markos
 Category: Catchall
-Tags: review, book, Books
+Tags: review, book, books
 Slug: the-books-i-read-in-2013
 Status: published
 Id: 1189

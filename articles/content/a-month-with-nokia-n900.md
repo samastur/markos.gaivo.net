@@ -2,7 +2,7 @@ Title: A month with Nokia N900
 Date: 2010-02-05 10:36
 Author: markos
 Category: Catchall, General development, Linux, Python, Web
-Tags: IPod Touch, Nokia N900, Nokia, GSM, Linux
+Tags: ipod touch, nokia n900, nokia, gsm, linux
 Slug: a-month-with-nokia-n900
 Status: published
 Id: 563

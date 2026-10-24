@@ -2,7 +2,7 @@ Title: Reading and travels
 Date: 2010-10-06 12:39
 Author: markos
 Category: Catchall
-Tags: IPad, Amazon Kindle, travel, Amazon, book, E-book
+Tags: ipad, amazon kindle, travel, amazon, book, e-book
 Slug: reading-and-travels
 Status: published
 Id: 615

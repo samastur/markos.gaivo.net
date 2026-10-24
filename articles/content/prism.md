@@ -2,7 +2,7 @@ Title: Prism
 Date: 2013-06-09 23:11
 Author: markos
 Category: Catchall, Web
-Tags: fucknsa, Privacy, freedom, prism, internet, Security
+Tags: fucknsa, privacy, freedom, prism, internet, security
 Slug: prism
 Status: published
 Id: 1103

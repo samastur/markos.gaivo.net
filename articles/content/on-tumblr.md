@@ -2,7 +2,7 @@ Title: On Tumblr
 Date: 2012-02-10 13:02
 Author: markos
 Category: Catchall, Web
-Tags: tumblr, WordPress, design, emotions
+Tags: tumblr, wordpress, design, emotions
 Slug: on-tumblr
 Status: published
 Id: 918

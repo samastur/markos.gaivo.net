@@ -2,7 +2,7 @@ Title: 2009 review
 Date: 2009-12-24 14:15
 Author: markos
 Category: Catchall
-Tags: Climate change, new year resolution, COP15, annual review
+Tags: climate change, new year resolution, cop15, annual review
 Slug: 2009-review
 Status: published
 Id: 534

@@ -2,7 +2,7 @@ Title: Dos and Don'ts of Job Interviews
 Date: 2009-09-13 20:16
 Author: markos
 Category: Company
-Tags: Zemanta, Business, resume, Company, Job Search, interview, Employment
+Tags: zemanta, business, resume, company, job search, interview, employment
 Slug: dos-and-donts-of-job-interviews
 Status: published
 Id: 479

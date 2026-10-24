@@ -2,7 +2,7 @@ Title: N900 applications I miss
 Date: 2010-03-09 13:24
 Author: markos
 Category: Catchall, General development, Python, Web
-Tags: Nokia, Wikipedia, N900, application, Maemo, Nokia N900, webplatform
+Tags: nokia, wikipedia, n900, application, maemo, nokia n900, webplatform
 Slug: n900-applications-i-miss
 Status: published
 Id: 579

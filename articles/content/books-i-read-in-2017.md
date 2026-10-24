@@ -3,7 +3,7 @@ Date: 2018-01-01 13:15:00
 Author: markos
 Category: Catchall
 Slug: books-i-read-in-2017
-Tags: review, book, Books
+Tags: review, book, books
 
 Cannot say much good about 2017, but at least I read a bunch of books. More even than I hoped and fewer than I would if I hadn’t slacked off at the end of last year. Not a bad selection either with no duds, but maybe too many work oriented choices and overall intellectually somewhat shallow.
 

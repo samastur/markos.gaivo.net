@@ -2,7 +2,7 @@ Title: Google Doctype
 Date: 2008-05-17 17:05
 Author: markos
 Category: General development, Javascript, Web
-Tags: Google, Tools
+Tags: google, tools
 Slug: google-doctype
 Status: published
 Id: 256

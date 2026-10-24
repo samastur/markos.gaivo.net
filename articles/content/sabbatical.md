@@ -2,7 +2,7 @@ Title: Sabbatical
 Date: 2010-09-14 20:20
 Author: markos
 Category: Catchall
-Tags: Zemanta, Sabbatical
+Tags: zemanta, sabbatical
 Slug: sabbatical
 Status: published
 Id: 608

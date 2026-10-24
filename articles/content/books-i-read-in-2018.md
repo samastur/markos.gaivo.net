@@ -3,7 +3,7 @@ Date: 2019-01-01 22:50:30
 Author: markos
 Category: Catchall
 Slug: books-i-read-in-2018
-Tags: review, book, Books
+Tags: review, book, books
 
 …were too few. Even worse than 2016 from which I lifted this post’s beginning. At least none of them were duds. All of them are worth reading, but I reserved bold for those that are not too niche.
 

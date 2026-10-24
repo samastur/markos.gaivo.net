@@ -2,7 +2,7 @@ Title: Switched...to Firefox 3
 Date: 2008-06-22 15:04
 Author: markos
 Category: General development, Web
-Tags: Mozilla Firefox, Firefox 3, WWW, Firefox, World Wide Web, Browsers
+Tags: mozilla firefox, firefox 3, www, firefox, world wide web, browsers
 Slug: switchedto-firefox-3
 Status: published
 Id: 266

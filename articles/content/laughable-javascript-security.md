@@ -2,7 +2,7 @@ Title: Laughable Javascript security
 Date: 2013-07-11 22:57
 Author: markos
 Category: Django, Javascript, Web
-Tags: cloaking, Web, Security, Javascript
+Tags: cloaking, web, security, javascript
 Slug: laughable-javascript-security
 Status: published
 Id: 1119

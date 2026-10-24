@@ -2,7 +2,7 @@ Title: Comments closed
 Date: 2013-07-20 21:39
 Author: markos
 Category: Catchall
-Tags: Blog, Web, comments, closed, Spam
+Tags: blog, web, comments, closed, spam
 Slug: comments-closed
 Status: published
 Id: 1150

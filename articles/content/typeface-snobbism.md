@@ -2,7 +2,7 @@ Title: Typeface snobbism
 Date: 2011-05-08 10:06
 Author: markos
 Category: Catchall
-Tags: Comic Sans, Typeface, Times Roman, Corsica
+Tags: comic sans, typeface, times roman, corsica
 Slug: typeface-snobbism
 Status: published
 Id: 660

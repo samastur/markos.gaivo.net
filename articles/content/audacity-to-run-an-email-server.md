@@ -4,7 +4,7 @@ Author: markos
 Category: Catchall
 Slug: audacity-to-run-an-email-server
 Status: published
-Tags: Internet, elections, media, news, email, server, freedom
+Tags: internet, elections, media, news, email, server, freedom
 
 I normally don't write about foreign politics on these pages. Those who know me should already know what I think and others would be smart to ignore pontifications of a random Internet stranger.
 
