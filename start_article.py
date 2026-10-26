@@ -2,7 +2,7 @@
 # -*- coding: utf-8 -*-
 
 from datetime import datetime
-from os.path import abspath, dirname, join, exists
+from os.path import abspath, dirname, join, exists, expanduser
 import os
 import shutil
 import subprocess
@@ -31,7 +31,8 @@ Tags:
 
 '''
 
-EDITOR = shutil.which('pulsar') or '/opt/homebrew/bin/pulsar'
+EDITOR = shutil.which('aaron') or expanduser('~/.local/bin/aaron')
+EDITOR_PROFILE = 'Blog'
 
 
 def create_slug(title):
@@ -53,7 +54,8 @@ def create_draft(filename, metadata):
 
 
 def open_editor(filename):
-    subprocess.run([EDITOR, filename], stdout=subprocess.DEVNULL)
+    subprocess.run([EDITOR, '--profile', EDITOR_PROFILE, filename],
+                   stdout=subprocess.DEVNULL, check=True)
 
 
 def main(title):
