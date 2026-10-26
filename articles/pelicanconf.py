@@ -1,3 +1,5 @@
+from datetime import date
+
 AUTHOR = 'Marko Samastur'
 SITENAME = 'A notch above a monkey'
 SITEURL = 'http://markos.gaivo.net/articles'
@@ -5,6 +7,9 @@ SITEURL = 'http://markos.gaivo.net/articles'
 PATH = 'content'
 
 TIMEZONE = 'Europe/Ljubljana'
+
+# Used by the theme's footer copyright notice.
+CURRENT_YEAR = date.today().year
 
 DEFAULT_LANG = 'en'
 # Every article carries explicit Date metadata, so a 'fs' fallback is unnecessary.
