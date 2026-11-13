@@ -51,7 +51,7 @@ class Unauthorized(Exception):
  &lt;p&gt;
   But is it pythonic enough? If not, what would be, apart from traditional way described in first step?
  &lt;/p&gt;
-&lt;/div&gt;</content><category term="General development, Python"/><category term="Exceptions"/><category term="Languages"/><category term="Python"/><category term="Programming"/><category term="Class"/></entry><entry><title>Messing with other people's code</title><link href="https://markos.gaivo.net/articles/messing-with-other-peoples-code.html" rel="alternate"/><published>2006-03-14T22:19:00+01:00</published><updated>2006-03-14T22:19:00+01:00</updated><author><name>markos</name></author><id>tag:markos.gaivo.net,2006-03-14:/articles/messing-with-other-peoples-code.html</id><summary type="html">&lt;div&gt;
+&lt;/div&gt;</content><category term="General development, Python"/><category term="exceptions"/><category term="languages"/><category term="python"/><category term="programming"/><category term="class"/></entry><entry><title>Messing with other people's code</title><link href="https://markos.gaivo.net/articles/messing-with-other-peoples-code.html" rel="alternate"/><published>2006-03-14T22:19:00+01:00</published><updated>2006-03-14T22:19:00+01:00</updated><author><name>markos</name></author><id>tag:markos.gaivo.net,2006-03-14:/articles/messing-with-other-peoples-code.html</id><summary type="html">&lt;div&gt;
  &lt;p&gt;
   Years ago I published my first code and I still remember the anxiety. Will people notice that I’m an incompetent idiot or do they already know?
  &lt;/p&gt;

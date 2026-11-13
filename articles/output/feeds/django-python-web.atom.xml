@@ -49,7 +49,7 @@
  &lt;p&gt;
   I would love to hear any comments and ideas you may have, even more so if you try it.
  &lt;/p&gt;
-&lt;/div&gt;</content><category term="Django, Python, Web"/><category term="Django"/><category term="low-bandwidth"/><category term="images"/><category term="page size"/><category term="speed"/><category term="shrink"/></entry><entry><title>Impostor for Django</title><link href="https://markos.gaivo.net/articles/impostor-for-django.html" rel="alternate"/><published>2011-02-22T20:11:00+01:00</published><updated>2011-02-22T20:11:00+01:00</updated><author><name>markos</name></author><id>tag:markos.gaivo.net,2011-02-22:/articles/impostor-for-django.html</id><summary type="html">&lt;div&gt;
+&lt;/div&gt;</content><category term="Django, Python, Web"/><category term="django"/><category term="low-bandwidth"/><category term="images"/><category term="page size"/><category term="speed"/><category term="shrink"/></entry><entry><title>Impostor for Django</title><link href="https://markos.gaivo.net/articles/impostor-for-django.html" rel="alternate"/><published>2011-02-22T20:11:00+01:00</published><updated>2011-02-22T20:11:00+01:00</updated><author><name>markos</name></author><id>tag:markos.gaivo.net,2011-02-22:/articles/impostor-for-django.html</id><summary type="html">&lt;div&gt;
  &lt;p&gt;
   A class of bugs I really dislike debugging are those that depend on specific data and affect only a very small subset or just one user. Things could sometimes be fixed so much faster if you could just log in as him to see what is happening. Sometimes this is …&lt;/p&gt;&lt;/div&gt;</summary><content type="html">&lt;div&gt;
  &lt;p&gt;
@@ -103,4 +103,4 @@
   &lt;/strong&gt;
   : Thanks Ross for reminding me where idea came from. I updated text accordingly.
  &lt;/p&gt;
-&lt;/div&gt;</content><category term="Django, Python, Web"/><category term="Python"/><category term="Security"/><category term="Impostor"/><category term="Password"/><category term="Django"/></entry></feed>
+&lt;/div&gt;</content><category term="Django, Python, Web"/><category term="python"/><category term="security"/><category term="impostor"/><category term="password"/><category term="django"/></entry></feed>

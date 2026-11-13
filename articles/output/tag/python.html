@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-        <title>A notch above a monkey - Python</title>
+        <title>A notch above a monkey - python</title>
         <meta charset="utf-8" />
 				<meta name="viewport" content="width=device-width, initial-scale=1">
 
@@ -84,6 +84,41 @@ body > footer .mini-logo {display: inline-block;width:97px;height:32px;border:0;
         </ul>
     </nav>
 
+        <article class="hentry">
+            <h1 class="entry-title storytitle"><a href="../hrcek.html" rel="bookmark" title="Permalink to Hrček">Hrček</a></h1>
+
+            <div class="entry-content post-text">
+                <p><a href="https://github.com/Hrcek-app/hrcek">Hrček</a> is a simple self-hosted bookmark manager with support for wish lists. It stores everything in an SQLite database for easy backup, migration and further examination, and comes with published <a href="https://chromewebstore.google.com/detail/mdgabhlpgcmhlfnohpmlnllfppfhkfhb?utm_source=item-share-cb">browser</a> <a href="https://addons.mozilla.org/en-US/firefox/addon/hr%C4%8Dek/">extensions</a> and a so far unpublished <a href="https://github.com/Hrcek-app/hrcek-ios">iOS client</a>. I find it already useful, but not done.</p>
+<p>It is also intended to be a usable experiment, a service which my family would want to use (and they do) as well as a learning project for processes and technologies I'm not well acquainted with. <strong>All of it was written by AI</strong> at my direction, but I intentionally did not write or directly change a single line of code, no matter how much my fingers itched.</p>
+<p>I don't have anything of value to add to voices against generative AI's existence and use. Directionally they are correct. I can imagine how genAI could have been developed ethically, introduced carefully to societal benefit, but none of that happened nor will it, and at least in the short term, I mainly see a lot of societal harm. I also do not feel free to avoid its use and would therefore like to better understand its impact on me.</p>
+<p>Beyond the desire to scratch my own itch and to see how useful and polished I can make a service as very much a side project in about a month of time, I wanted to see how well I would understand the whole at the end when I cannot use my preexisting understanding of the underlying system.</p>
+<p>I expected a better result than what I got, but it's the result I should have expected. I expected the understanding of a diligent notetaker, but "finished" with one of an attentive reader. I'm sure I could do better if I slowed down and thought more about the underlying implementation instead of features and user experience, but that too was intentional as I wanted to see what AI could do with fairly light technical direction.</p>
+<p>Generated code quality has been mixed with some duplication, inconsistent naming and bloviating comments. It is not a complicated application, so it wasn't a surprise that overall I find it fine, mostly following established norms. I did not end up merging anything I wouldn't be fine merging from a co-worker even when I would prefer to do it differently. I wonder if those more disappointed over quality are just better developers than me (many surely are) or whether there's also a different expectation of personal alignment with the end product.</p>
+<p>From the beginning I wanted to make it multilingual and picked Slovenian as its second language. It's a great choice for testing because it has complex rules that stretch i18n tools, especially naive ones, with a small enough corpus that it might give problems to AI models, and it is also one I speak reasonably well as its native speaker.</p>
+<p>I spent more time than I expected guiding the model to a reasonable system for translating (essentially standardising on <code>gettext</code>) and I am almost certainly going to break my rule and fix translations myself at some point. The automatic translations are not good, but I've been pleasantly surprised a few times. To be fair, I am not even sure it is possible to make translations into Slovenian that will work in all contexts.</p>
+<p>I also wanted to generate documentation, which is something I've been experimenting with in my other work as well. AI models clearly have no clue what good documentation is without guidance that I did not provide. Developer documentation was often too detailed and read as a redundant explanation of code. Documentation meant for users of Hrček is functional and better than nothing, but again mainly a detailed descriptive reference instead of a more task-oriented guide. I could write another post just on creating documentation and related issues, and hopefully I will.</p>
+<p>It was difficult for me to maintain mental engagement with numerous and more often than not large pull requests. I did not have the same mental model of the whole as I have with code I am already familiar with, and my self-imposed limitations meant it was difficult to create it. Stacked PRs that GitHub finally introduced helped, but not enough, and I felt like a student who has to keep learning new information on top of ever more leaky foundations, which was the premise of nightmares I used to have.</p>
+<p>Another reason why I insisted on not contributing directly beyond "project managing" or, as some would probably describe it, meat-proxying the development, is that I wanted to generate enough commits and changes that I would get a statistically meaningful dataset. Like many, I have had the impression that commits, PRs or whatever measurement you take have grown even when the code part does not seem overly complicated. However, this will also have to wait for its own post as this one is already tryingly long.</p>
+<p>P.S. Other unordered observations from development that don't fit elsewhere:</p>
+<ul>
+<li>Excessive tests hinder engagement; remedy unclear.  </li>
+<li>Minor changes affect many files, raising questions about scope or prior neglect.  </li>
+<li>I think function comments should rarely exceed code length; unclear how to translate it into an effective rule.  </li>
+<li>Likely duplication in test setup.  </li>
+<li>Documentation placed alongside code is nice.  </li>
+<li>Browser tests are beneficial but conflict with CI speed and stability.  </li>
+<li>Absence of design style guide affects project consistency.  </li>
+<li>Goal explanations differ from implementation understanding.  </li>
+</ul>
+            </div><!-- /.entry-content -->
+
+            <footer class="post-metadata">
+                <ul>
+                    <li>Published on <time datetime="2026-11-13T20:02:00+01:00">Fri 13 November 2026</time> </li>
+                    <li><a href="../hrcek.html">Add your comment</a></li>
+                </ul>
+            </footer>
+        </article>
         <article class="hentry">
             <h1 class="entry-title storytitle"><a href="../exporting-tagged-items-from-google-reader.html" rel="bookmark" title="Permalink to Exporting tagged articles from Google Reader">Exporting tagged articles from Google Reader</a></h1>
 
@@ -189,44 +224,10 @@ body > footer .mini-logo {display: inline-block;width:97px;height:32px;border:0;
                 </ul>
             </footer>
         </article>
-        <article class="hentry">
-            <h1 class="entry-title storytitle"><a href="../europython-submission-deadline-is-around-the-corner.html" rel="bookmark" title="Permalink to EuroPython submission deadline is around the corner">EuroPython submission deadline is around the corner</a></h1>
-
-            <div class="entry-content post-text">
-                <div>
- <p>
-  April is about to end and with it also the deadline to
-  <a href="http://www.europython.eu/talks/cfp/">
-   submit your EuroPython talk
-  </a>
-  . I thought about submitting a proposal, but realized it would be nuts to do so with my current workload.
- </p>
- <p>
-  It would also be nuts not to go and if you are a European (or not) Python developer you owe it to yourself to come.
- </p>
- <p>
-  I go to a few conferences every year and each has its own personality. It is sometimes hard to point at what makes them (feel) different, but they just are. I like many, but only EuroPython, which I regretfully had to miss last year, feels like home.
- </p>
- <p>
-  That’s why I decided to volunteer this year. It’s a way to give a little bit back, like cleaning dishes when you visit mom.
- </p>
- <p>
-  So do submit your talk and come. It won’t be the same without you.
- </p>
-</div>
-            </div><!-- /.entry-content -->
-
-            <footer class="post-metadata">
-                <ul>
-                    <li>Published on <time datetime="2010-04-26T20:28:00+02:00">Mon 26 April 2010</time> </li>
-                    <li><a href="../europython-submission-deadline-is-around-the-corner.html">Add your comment</a></li>
-                </ul>
-            </footer>
-        </article>
 
 <ul class="paginator">
 		<li class="current">
-    1 / 2
+    1 / 3
 		</li>
 		<li class="older">
         <a href="../tag/python2.html">Older &raquo;</a>
@@ -236,7 +237,7 @@ body > footer .mini-logo {display: inline-block;width:97px;height:32px;border:0;
 
     <footer>
         <ul>
-            <li>&copy; 2005-2020 Marko Samastur</li>
+            <li>&copy; 2005-2026 Marko Samastur</li>
 						<li><a href="/articles/privacy-policy.html">Privacy policy</a></li>
             <li><a href="/articles/feeds/rss.xml" rel="alternate" title="A notch above a monkey Full RSS Feed">Entries feed</a></li>
         </ul>

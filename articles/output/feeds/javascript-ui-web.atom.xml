@@ -31,7 +31,7 @@
  &lt;p&gt;
   This way you won’t polute content markup with behavior that should sit on top of it.
  &lt;/p&gt;
-&lt;/div&gt;</content><category term="Javascript, UI, Web"/><category term="Javascript"/><category term="HTML"/><category term="unobtrusive enhancement"/><category term="bug"/><category term="pattern"/></entry><entry><title>Auto-grow TEXTAREA</title><link href="https://markos.gaivo.net/articles/auto-grow-textarea.html" rel="alternate"/><published>2006-07-31T13:58:00+02:00</published><updated>2006-07-31T13:58:00+02:00</updated><author><name>markos</name></author><id>tag:markos.gaivo.net,2006-07-31:/articles/auto-grow-textarea.html</id><summary type="html">&lt;div&gt;
+&lt;/div&gt;</content><category term="Javascript, UI, Web"/><category term="javascript"/><category term="html"/><category term="unobtrusive enhancement"/><category term="bug"/><category term="pattern"/></entry><entry><title>Auto-grow TEXTAREA</title><link href="https://markos.gaivo.net/articles/auto-grow-textarea.html" rel="alternate"/><published>2006-07-31T13:58:00+02:00</published><updated>2006-07-31T13:58:00+02:00</updated><author><name>markos</name></author><id>tag:markos.gaivo.net,2006-07-31:/articles/auto-grow-textarea.html</id><summary type="html">&lt;div&gt;
  &lt;p&gt;
   &lt;em&gt;
    &lt;strong&gt;

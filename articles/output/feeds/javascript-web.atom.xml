@@ -39,7 +39,7 @@
  &lt;p&gt;
   I am sure somebody can optimize it further, but I find it good enough for my use. Image isn’t very blurred after one pass, but one pass over a small image is also a good way to measure how fast a particular computer-browser combination is. On fast combinations I might go for multiple passes over images in view, but fall back to a single pass or no pass on slower systems.
  &lt;/p&gt;
-&lt;/div&gt;</content><category term="Javascript, Web"/><category term="function"/><category term="canvas"/><category term="Firefox"/><category term="algorithm"/><category term="image"/><category term="blur"/></entry><entry><title>Javascript: The Good Parts and string.split problem</title><link href="https://markos.gaivo.net/articles/javascript-the-good-parts-and-stringsplit-problem.html" rel="alternate"/><published>2009-03-29T11:15:00+02:00</published><updated>2009-03-29T11:15:00+02:00</updated><author><name>markos</name></author><id>tag:markos.gaivo.net,2009-03-29:/articles/javascript-the-good-parts-and-stringsplit-problem.html</id><summary type="html">&lt;div&gt;
+&lt;/div&gt;</content><category term="Javascript, Web"/><category term="function"/><category term="canvas"/><category term="firefox"/><category term="algorithm"/><category term="image"/><category term="blur"/></entry><entry><title>Javascript: The Good Parts and string.split problem</title><link href="https://markos.gaivo.net/articles/javascript-the-good-parts-and-stringsplit-problem.html" rel="alternate"/><published>2009-03-29T11:15:00+02:00</published><updated>2009-03-29T11:15:00+02:00</updated><author><name>markos</name></author><id>tag:markos.gaivo.net,2009-03-29:/articles/javascript-the-good-parts-and-stringsplit-problem.html</id><summary type="html">&lt;div&gt;
  &lt;p&gt;
   I just read
   &lt;a class="zem_slink" href="http://crockford.com/" rel="homepage" title="Douglas Crockford"&gt;
@@ -86,7 +86,7 @@
  &lt;p&gt;
   Still, I would find a bug in my code faster this week if I read his book sooner.
  &lt;/p&gt;
-&lt;/div&gt;</content><category term="Javascript, Web"/><category term="Javascript"/><category term="JavaScript: The Good Parts"/><category term="Programming"/><category term="Douglas Crockford"/><category term="Regular expression"/><category term="ie"/><category term="bug"/></entry><entry><title>Triggering a server request on onunload event</title><link href="https://markos.gaivo.net/articles/triggering-a-server-request-on-onunload-event.html" rel="alternate"/><published>2008-03-26T16:32:00+01:00</published><updated>2008-03-26T16:32:00+01:00</updated><author><name>markos</name></author><id>tag:markos.gaivo.net,2008-03-26:/articles/triggering-a-server-request-on-onunload-event.html</id><summary type="html">&lt;div&gt;
+&lt;/div&gt;</content><category term="Javascript, Web"/><category term="javascript"/><category term="javascript: the good parts"/><category term="programming"/><category term="douglas crockford"/><category term="regular expression"/><category term="ie"/><category term="bug"/></entry><entry><title>Triggering a server request on onunload event</title><link href="https://markos.gaivo.net/articles/triggering-a-server-request-on-onunload-event.html" rel="alternate"/><published>2008-03-26T16:32:00+01:00</published><updated>2008-03-26T16:32:00+01:00</updated><author><name>markos</name></author><id>tag:markos.gaivo.net,2008-03-26:/articles/triggering-a-server-request-on-onunload-event.html</id><summary type="html">&lt;div&gt;
  &lt;p&gt;
   A while ago I tried to trigger an AJAX call to server in
   &lt;em&gt;

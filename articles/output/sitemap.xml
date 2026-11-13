@@ -6,7 +6,7 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
 <url>
 <loc>https://markos.gaivo.net/articles/</loc>
-<lastmod>2026-10-23T20:13:01-00:00</lastmod>
+<lastmod>2026-11-13T20:05:20-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
@@ -237,7 +237,7 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
 <url>
 <loc>https://markos.gaivo.net/articles/archives.html</loc>
-<lastmod>2026-10-23T20:13:01-00:00</lastmod>
+<lastmod>2026-11-13T20:05:20-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
@@ -251,7 +251,7 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
 <url>
 <loc>https://markos.gaivo.net/articles/author/markos.html</loc>
-<lastmod>2026-10-23T20:13:01-00:00</lastmod>
+<lastmod>2026-11-13T20:05:20-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
@@ -468,7 +468,7 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
 <url>
 <loc>https://markos.gaivo.net/articles/categories.html</loc>
-<lastmod>2026-10-23T20:13:01-00:00</lastmod>
+<lastmod>2026-11-13T20:05:20-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
@@ -1001,6 +1001,13 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 <url>
 <loc>https://markos.gaivo.net/articles/homeconf.html</loc>
 <lastmod>2015-12-18T18:40:04+01:00</lastmod>
+<changefreq>monthly</changefreq>
+<priority>0.5</priority>
+</url>
+
+<url>
+<loc>https://markos.gaivo.net/articles/hrcek.html</loc>
+<lastmod>2026-11-13T20:02:00+01:00</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.5</priority>
 </url>
@@ -2197,7 +2204,7 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
 <url>
 <loc>https://markos.gaivo.net/articles/tags.html</loc>
-<lastmod>2026-10-23T20:13:01-00:00</lastmod>
+<lastmod>2026-11-13T20:05:20-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>

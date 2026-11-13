@@ -61,7 +61,7 @@
  &lt;p&gt;
   I’m sure this is not the only scenario in which App Engine makes sense and there are others I haven’t named or thought of. Issues, like accounts, can with some effort be solved now. But App Engine also isn’t (yet) what some of us were hoping for and it’s prudent to really think through what you want, what you need and what App Engine actually offers.
  &lt;/p&gt;
-&lt;/div&gt;</content><category term="Python, Web"/><category term="Google"/><category term="Python"/><category term="Google App Engine"/><category term="Django"/><category term="App Engine"/></entry><entry><title>In search of easy templating</title><link href="https://markos.gaivo.net/articles/in-search-of-easy-templating.html" rel="alternate"/><published>2006-02-03T22:07:00+01:00</published><updated>2006-02-03T22:07:00+01:00</updated><author><name>markos</name></author><id>tag:markos.gaivo.net,2006-02-03:/articles/in-search-of-easy-templating.html</id><content type="html">&lt;div&gt;
+&lt;/div&gt;</content><category term="Python, Web"/><category term="google"/><category term="python"/><category term="google app engine"/><category term="django"/><category term="app engine"/></entry><entry><title>In search of easy templating</title><link href="https://markos.gaivo.net/articles/in-search-of-easy-templating.html" rel="alternate"/><published>2006-02-03T22:07:00+01:00</published><updated>2006-02-03T22:07:00+01:00</updated><author><name>markos</name></author><id>tag:markos.gaivo.net,2006-02-03:/articles/in-search-of-easy-templating.html</id><content type="html">&lt;div&gt;
  &lt;p&gt;
   &lt;strong&gt;
    Error:
