@@ -195,7 +195,6 @@ ol.comments {margin:0;padding:0;}
 
 .post-metadata ul {list-style-type:none;overflow:hidden;padding:0;}
 .post-metadata li {float:left;padding:0 3px;}
-.post-metadata li:first-child:after {content:" |";}
 
 nav.pagination ul {list-style-type:none;position:relative;width:64%;height:2em;padding:0;}
 .pagination li {position:absolute;top:0;}

@@ -300,9 +300,6 @@ body > header h1 {
     display: inline-block;
     font-style: italic;
 }
-.post-metadata li:first-child:after {
-    content:" |";
-}
 .posts .paginator {
     margin-top: 2.666666em;
     padding-left: 0;
