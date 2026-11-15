@@ -17,7 +17,7 @@
     </nav>
 
 {% for article in articles_page.object_list %}
-        <article class="hentry">
+        <article class="hentry"{% if article.lang != DEFAULT_LANG %} lang="{{ article.lang }}"{% endif %}>
             <h1 class="entry-title storytitle"><a href="{{ SITEURL }}/{{ article.url }}" rel="bookmark" title="Permalink to {{ article.title|striptags }}">{{ article.title }}</a></h1>
 
             <div class="entry-content post-text">

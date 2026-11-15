@@ -1,0 +1,32 @@
+{#
+  Shared <head> content of every page: the blog (base.html) and the pages
+  built by build_homepage.py (homepage, 404, 500). Expects <meta charset>
+  and <title> to come before it. URLs are absolute because the error pages
+  are served at any path.
+#}
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="color-scheme" content="light dark">
+{# Apply a stored theme override before the first paint (theme.js). #}
+<script>try{var t=localStorage.getItem("theme");if(t=="light"||t=="dark")document.querySelector('meta[name="color-scheme"]').content=t}catch(e){}</script>
+<style>{% filter minify_css %}{% include 'style.css' %}{% endfilter %}</style>
+<link rel="icon" href="/articles/theme/favicon/favicon.ico">
+<link rel="icon" type="image/png" href="/articles/theme/favicon/favicon-196x196.png" sizes="196x196">
+<link rel="icon" type="image/png" href="/articles/theme/favicon/favicon-128.png" sizes="128x128">
+<link rel="icon" type="image/png" href="/articles/theme/favicon/favicon-96x96.png" sizes="96x96">
+<link rel="icon" type="image/png" href="/articles/theme/favicon/favicon-32x32.png" sizes="32x32">
+<link rel="icon" type="image/png" href="/articles/theme/favicon/favicon-16x16.png" sizes="16x16">
+<link rel="apple-touch-icon-precomposed" sizes="152x152" href="/articles/theme/favicon/apple-touch-icon-152x152.png">
+<link rel="apple-touch-icon-precomposed" sizes="144x144" href="/articles/theme/favicon/apple-touch-icon-144x144.png">
+<link rel="apple-touch-icon-precomposed" sizes="120x120" href="/articles/theme/favicon/apple-touch-icon-120x120.png">
+<link rel="apple-touch-icon-precomposed" sizes="114x114" href="/articles/theme/favicon/apple-touch-icon-114x114.png">
+<link rel="apple-touch-icon-precomposed" sizes="76x76" href="/articles/theme/favicon/apple-touch-icon-76x76.png">
+<link rel="apple-touch-icon-precomposed" sizes="72x72" href="/articles/theme/favicon/apple-touch-icon-72x72.png">
+<link rel="apple-touch-icon-precomposed" sizes="60x60" href="/articles/theme/favicon/apple-touch-icon-60x60.png">
+<link rel="apple-touch-icon-precomposed" sizes="57x57" href="/articles/theme/favicon/apple-touch-icon-57x57.png">
+<meta name="application-name" content="Marko Samastur">
+<meta name="msapplication-TileColor" content="#FBF8E9">
+<meta name="msapplication-TileImage" content="/articles/theme/favicon/mstile-144x144.png">
+<meta name="msapplication-square70x70logo" content="/articles/theme/favicon/mstile-70x70.png">
+<meta name="msapplication-square150x150logo" content="/articles/theme/favicon/mstile-150x150.png">
+<meta name="msapplication-wide310x150logo" content="/articles/theme/favicon/mstile-310x150.png">
+<meta name="msapplication-square310x310logo" content="/articles/theme/favicon/mstile-310x310.png">

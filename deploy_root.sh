@@ -1,8 +1,8 @@
 #!/bin/sh
 # Deploy root/ (the homepage and its assets) to markos.gaivo.net.
 #
-# Rebuilds root/index.html from homepage/about.md and root/sitemap.xml from
-# the published posts, then rsyncs root/ to the web root. The blog lives in
+# Rebuilds root/index.html, 404.html and 500.html from homepage/ and
+# root/sitemap.xml from the published posts, then rsyncs root/ to the web root. The blog lives in
 # articles/ on the server and is deployed by articles/Makefile; it is
 # excluded here and never touched.
 #

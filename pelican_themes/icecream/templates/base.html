@@ -1,60 +1,10 @@
 <!DOCTYPE html>
-<html lang="{{ DEFAULT_LANG }}">
+<html lang="{{ article.lang if article is defined else DEFAULT_LANG }}">
 <head>
+        <meta charset="utf-8" />
         {% block head %}
         <title>{% block title %}{{ SITENAME }}{% endblock title %}</title>
-        <meta charset="utf-8" />
-				<meta name="viewport" content="width=device-width, initial-scale=1">
-
-				<link rel="shortcut icon" href="/articles/theme/favicon/favicon.ico" />
-				<link rel="apple-touch-icon-precomposed" sizes="57x57" href="/articles/theme/favicon/apple-touch-icon-57x57.png" />
-				<link rel="apple-touch-icon-precomposed" sizes="114x114" href="/articles/theme/favicon/apple-touch-icon-114x114.png" />
-				<link rel="apple-touch-icon-precomposed" sizes="72x72" href="/articles/theme/favicon/apple-touch-icon-72x72.png" />
-				<link rel="apple-touch-icon-precomposed" sizes="144x144" href="/articles/theme/favicon/apple-touch-icon-144x144.png" />
-				<link rel="apple-touch-icon-precomposed" sizes="60x60" href="/articles/theme/favicon/apple-touch-icon-60x60.png" />
-				<link rel="apple-touch-icon-precomposed" sizes="120x120" href="/articles/theme/favicon/apple-touch-icon-120x120.png" />
-				<link rel="apple-touch-icon-precomposed" sizes="76x76" href="/articles/theme/favicon/apple-touch-icon-76x76.png" />
-				<link rel="apple-touch-icon-precomposed" sizes="152x152" href="/articles/theme/favicon/apple-touch-icon-152x152.png" />
-				<link rel="icon" type="image/png" href="/articles/theme/favicon/favicon-196x196.png" sizes="196x196" />
-				<link rel="icon" type="image/png" href="/articles/theme/favicon/favicon-96x96.png" sizes="96x96" />
-				<link rel="icon" type="image/png" href="/articles/theme/favicon/favicon-32x32.png" sizes="32x32" />
-				<link rel="icon" type="image/png" href="/articles/theme/favicon/favicon-16x16.png" sizes="16x16" />
-				<link rel="icon" type="image/png" href="/articles/theme/favicon/favicon-128.png" sizes="128x128" />
-				<meta name="application-name" content="Marko Samastur"/>
-				<meta name="msapplication-TileColor" content="#FBF8E9" />
-				<meta name="msapplication-TileImage" content="/articles/theme/favicon/mstile-144x144.png" />
-				<meta name="msapplication-square70x70logo" content="/articles/theme/favicon/mstile-70x70.png" />
-				<meta name="msapplication-square150x150logo" content="/articles/theme/favicon/mstile-150x150.png" />
-				<meta name="msapplication-wide310x150logo" content="/articles/theme/favicon/mstile-310x150.png" />
-				<meta name="msapplication-square310x310logo" content="/articles/theme/favicon/mstile-310x310.png" />
-
-        <style>
-{% include 'style.css' %}
-				</style>
-
-				<style type="text/css" title="Light theme">
-body {background-color: #fbf8e9;color: #30303c;}
-body > footer a, body > footer a:visited {color: #ffb665;}
-a, a:visited, a:hover {color: #980000;}
-body > footer {background-color:#30303c;color:#fbf8e9;}
-aside .photo, .error img, .alignleft img, img.alignleft, .alignright img, img.alignright, .aligncenter img, img.aligncenter,
-.zemanta-img img, .imageR img, .imageL img {background-color:#fbf8e9;border:1px solid #30303c;}
-.post header h1, .posts header h1, .posts > header h1 {border-bottom:1px solid #30303c;}
-ol.code {border: 1px solid #30303c;}
-body > footer .mini-logo {display: inline-block;width:97px;height:32px;border:0;background:url(theme/img/markos_dark_small_bg.png);overflow:hidden;text-indent:-400px;}
-				</style>
-
-				<style type="text/css" title="Dark theme">
-body {background-color: #30303c;color: #fbf8e9;}
-body > footer a, body > footer a:visited {color: #980000;}
-a, a:visited, a:hover {color: #ffb665;}
-body > footer {background-color:#fbf8e9;color:#30303c;}
-aside .photo, .error img, .alignleft img, img.alignleft, .alignright img, img.alignright, .aligncenter img, img.aligncenter,
-.zemanta-img img, .imageR img, .imageL img {background-color:#fbf8e9;}
-.post header h1, .posts header h1, .posts > header h1 {border-bottom:1px solid #fbf8e9;}
-ol.code {border: 1px solid #fbf8e9;}
-body > footer .mini-logo {display: inline-block;width:97px;height:32px;border:0;background:url(theme/img/markos_light_small_bg.png);overflow:hidden;text-indent:-400px;}
-				</style>
+        {% include 'head.html' %}
 
         {% if FEED_ALL_ATOM %}
         <link href="{{ FEED_DOMAIN }}/{{ FEED_ALL_ATOM }}" type="application/atom+xml" rel="alternate" title="{{ SITENAME }} Full Atom Feed" />
@@ -87,15 +37,6 @@ body > footer .mini-logo {display: inline-block;width:97px;height:32px;border:0;
     {% block content %}
     {% endblock %}
 
-    <footer>
-        <ul>
-            <li>&copy; 2005-{{ CURRENT_YEAR }} Marko Samastur</li>
-						<li><a href="/articles/privacy-policy.html">Privacy policy</a></li>
-        {% if FEED_ALL_RSS %}
-            <li><a href="{{ FEED_DOMAIN }}/{{ FEED_ALL_RSS }}" rel="alternate" title="{{ SITENAME }} Full RSS Feed">Entries feed</a></li>
-        {% endif %}
-        </ul>
-        <a href="/" class="mini-logo">Back to homepage</a>
-    </footer>
+    {% include 'footer.html' %}
 </body>
 </html>

@@ -1,69 +1,33 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-        <title>A notch above a monkey - html</title>
         <meta charset="utf-8" />
-				<meta name="viewport" content="width=device-width, initial-scale=1">
-
-				<link rel="shortcut icon" href="/articles/theme/favicon/favicon.ico" />
-				<link rel="apple-touch-icon-precomposed" sizes="57x57" href="/articles/theme/favicon/apple-touch-icon-57x57.png" />
-				<link rel="apple-touch-icon-precomposed" sizes="114x114" href="/articles/theme/favicon/apple-touch-icon-114x114.png" />
-				<link rel="apple-touch-icon-precomposed" sizes="72x72" href="/articles/theme/favicon/apple-touch-icon-72x72.png" />
-				<link rel="apple-touch-icon-precomposed" sizes="144x144" href="/articles/theme/favicon/apple-touch-icon-144x144.png" />
-				<link rel="apple-touch-icon-precomposed" sizes="60x60" href="/articles/theme/favicon/apple-touch-icon-60x60.png" />
-				<link rel="apple-touch-icon-precomposed" sizes="120x120" href="/articles/theme/favicon/apple-touch-icon-120x120.png" />
-				<link rel="apple-touch-icon-precomposed" sizes="76x76" href="/articles/theme/favicon/apple-touch-icon-76x76.png" />
-				<link rel="apple-touch-icon-precomposed" sizes="152x152" href="/articles/theme/favicon/apple-touch-icon-152x152.png" />
-				<link rel="icon" type="image/png" href="/articles/theme/favicon/favicon-196x196.png" sizes="196x196" />
-				<link rel="icon" type="image/png" href="/articles/theme/favicon/favicon-96x96.png" sizes="96x96" />
-				<link rel="icon" type="image/png" href="/articles/theme/favicon/favicon-32x32.png" sizes="32x32" />
-				<link rel="icon" type="image/png" href="/articles/theme/favicon/favicon-16x16.png" sizes="16x16" />
-				<link rel="icon" type="image/png" href="/articles/theme/favicon/favicon-128.png" sizes="128x128" />
-				<meta name="application-name" content="Marko Samastur"/>
-				<meta name="msapplication-TileColor" content="#FBF8E9" />
-				<meta name="msapplication-TileImage" content="/articles/theme/favicon/mstile-144x144.png" />
-				<meta name="msapplication-square70x70logo" content="/articles/theme/favicon/mstile-70x70.png" />
-				<meta name="msapplication-square150x150logo" content="/articles/theme/favicon/mstile-150x150.png" />
-				<meta name="msapplication-wide310x150logo" content="/articles/theme/favicon/mstile-310x150.png" />
-				<meta name="msapplication-square310x310logo" content="/articles/theme/favicon/mstile-310x310.png" />
-
-        <style>
-/*
- * Icecream theme by Marko Samastur (markos@gaivo.net)
- *
- *
- * Color palette:
- * - dark blue: #30303c
- * - light yellow: fbf8e9
- * - link red: #980000
- * - link orange: #ffb665
- */
-*{box-sizing:border-box}html,body{padding:0;margin:0;height:100%}body{position:relative;font-family:"Helvetica Neue",Helvetica,Arial,sans-serif;font-weight:300;font-size:18px;line-height:1.333333}section,article,aside,header,footer{display:block}h1,h2,h3,h4,h5,h6{margin:1.5em 0;font-size:1.777777em;font-weight:200;line-height:1.5}a:visited,a{text-decoration:none}a:hover{text-decoration:underline}a img{border:0;margin-top:6px}img{max-width:100%}.envelope{position:relative;max-width:60em;width:calc(100% - 2em);margin:2em auto 0;padding:0 0 8em}body > footer{position:fixed;bottom:0;width:100%;height:6em;margin:0;padding:.5em 1em 0;font-size:.8em;text-align:center}body > footer ul{list-style-type:none;margin:0;padding:0}body > footer li{margin:.25em 0}@media (min-device-width:600px){body > footer{height:3em;text-align:left}body > footer ul{display:inline-block}body > footer li{display:inline-block;margin:.5em 2em 0 0}body > footer .mini-logo{float:right}}.about h1{margin:0}.about h2{margin-bottom:0}.about p{margin:1.333333em 0}aside{margin-bottom:2.666666em}aside .photo{max-width:100%;max-height:11.2em;margin:0 1em 8px 0;padding:3px}aside ul{list-style-type:none;margin:0 0 1.333333em;padding:0;overflow:hidden}aside .vcard li{float:none;margin:0}aside li{float:left;margin:.25em 8px 0 0.1em}aside p{margin:0}aside a.email{padding-left:20px;background:url(../img/email-16x16.png) no-repeat 0 0}aside a.website{padding-left:20px;background:url(../img/website-16x16.png) no-repeat 0 0}.elsewhere-links{padding:0 0 0 .5em;list-style-type:inherit}.elsewhere-links > li{float:none;list-style-type:'- '}@media (min-device-width:600px){aside{float:right;width:30%}.about{width:62%;max-width:60em}}body > header h1{font-size:1em;margin:0;padding:.666666em 1em;line-height:1}.post-text h2,.post-text h3{margin:1em 0;font-size:1.333333em;line-height:1}.post .entry-title{margin:1.3333333em 0 0}.post p{margin:1.333333em 0}.post .post-info ul{margin:0 0 2.666666em;padding-left:0}.post .post-info li{list-style-type:none}.post > footer li{font-variant:small-caps}@media (min-device-width:600px){.post .post-info{float:right;width:30%;margin-top:o}.post .post-info ul{margin-bottom:0}.post .post-text,.post #isso-thread{width:62%;max-width:60em}.post p:first-child{margin-top:0}}.posts h1{margin-bottom:0}.colophon h1{margin-top:0;font-size:1em;font-weight:300;line-height:1.333333;font-variant:small-caps}.colophon ul{list-style-type:none;margin:1.333333em 0;padding:0}.posts .entry-title{margin:2.666666em 0 0;font-size:1.333333em;line-height:1}.posts p{margin:1.333333em 0}.post-metadata ul{margin:1.333333em 0;padding-left:0;opacity:.8}.post-metadata li{list-style-type:none;display:inline-block;font-style:italic}.posts .paginator{margin-top:2.666666em;padding-left:0;text-align:center}.paginator li{list-style-type:none;display:inline-block;margin:0 .5em}@media (min-device-width:600px){.colophon{float:right;width:30%;margin-top:0}.hentry{width:62%;max-width:60em}nav + .hentry .entry-title{margin-top:0}}.error{text-align:left}.error img{max-width:100%;padding:3px}.imageR img{float:right;margin:.7em 0 .7em 1.5em;padding:3px}.imageL img{float:left;margin:.7em 1.5em .7em 0;padding:3px}.zemanta-related-title{font-size:1em;margin:2.8em 0 0}.zemanta-img .wp-caption{margin:0 0 0 1.5em}.zemanta-img img{padding:3px}.zemanta-pixie{display:none}.alignleft{float:left}.alignright{float:right}.aligncenter{text-align:center;max-width:100%}.alignleft img,img.alignleft,.alignright img,img.alignright,.aligncenter img,img.aligncenter{padding:3px}ol.code{font:normal 95%/110% Andale Mono,Courier,monospace;padding:5px;text-align:left}ol.code code{font:normal 98%/110% Andale Mono,Courier,monospace}.code li.tab1{padding-left:1em}.code li.tab2{padding-left:2em}.code li.tab3{padding-left:3em}.code li.tab4{padding-left:4em}.code li.tab5{padding-left:5em}.code li.tab6{padding-left:6em}.code li.download,.code li:nth-last-child(2){list-style-type:none}.highlight pre{overflow:auto}				</style>
-
-				<style type="text/css" title="Light theme">
-body {background-color: #fbf8e9;color: #30303c;}
-body > footer a, body > footer a:visited {color: #ffb665;}
-a, a:visited, a:hover {color: #980000;}
-body > footer {background-color:#30303c;color:#fbf8e9;}
-aside .photo, .error img, .alignleft img, img.alignleft, .alignright img, img.alignright, .aligncenter img, img.aligncenter,
-.zemanta-img img, .imageR img, .imageL img {background-color:#fbf8e9;border:1px solid #30303c;}
-.post header h1, .posts header h1, .posts > header h1 {border-bottom:1px solid #30303c;}
-ol.code {border: 1px solid #30303c;}
-body > footer .mini-logo {display: inline-block;width:97px;height:32px;border:0;background:url(theme/img/markos_dark_small_bg.png);overflow:hidden;text-indent:-400px;}
-				</style>
-
-				<style type="text/css" title="Dark theme">
-body {background-color: #30303c;color: #fbf8e9;}
-body > footer a, body > footer a:visited {color: #980000;}
-a, a:visited, a:hover {color: #ffb665;}
-body > footer {background-color:#fbf8e9;color:#30303c;}
-aside .photo, .error img, .alignleft img, img.alignleft, .alignright img, img.alignright, .aligncenter img, img.aligncenter,
-.zemanta-img img, .imageR img, .imageL img {background-color:#fbf8e9;}
-.post header h1, .posts header h1, .posts > header h1 {border-bottom:1px solid #fbf8e9;}
-ol.code {border: 1px solid #fbf8e9;}
-body > footer .mini-logo {display: inline-block;width:97px;height:32px;border:0;background:url(theme/img/markos_light_small_bg.png);overflow:hidden;text-indent:-400px;}
-				</style>
-
+        <title>A notch above a monkey - html</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="color-scheme" content="light dark">
+<script>try{var t=localStorage.getItem("theme");if(t=="light"||t=="dark")document.querySelector('meta[name="color-scheme"]').content=t}catch(e){}</script>
+<style>:root{--blue:#30303c;--cream:#fbf8e9;--red:#980000;--orange:#ffb665;color-scheme:light;--paper:var(--cream);--ink:var(--blue);--link:var(--red);--footer-link:var(--orange);--when-light:block;--when-dark:none}@media (prefers-color-scheme:dark){:root:not(:has(>head>meta[name="color-scheme"][content="light"])){color-scheme:dark;--paper:var(--blue);--ink:var(--cream);--link:var(--orange);--footer-link:var(--red);--when-light:none;--when-dark:block}}:root:has(>head>meta[name="color-scheme"][content="dark"]){color-scheme:dark;--paper:var(--blue);--ink:var(--cream);--link:var(--orange);--footer-link:var(--red);--when-light:none;--when-dark:block}*{box-sizing:border-box}body{margin:0;background:var(--paper);color:var(--ink);font:300 1.125rem/1.333333 "Helvetica Neue",Helvetica,Arial,sans-serif;overflow-wrap:break-word}h1,h2,h3,h4,h5,h6{margin:1.5em 0;font-size:1.777777em;font-weight:200;line-height:1.5;text-wrap:balance}p,li,dd,blockquote{text-wrap:pretty}a{color:var(--link);text-decoration:none;text-underline-offset:.15em;&:hover{text-decoration:underline}& img{margin-top:6px}}img{max-width:100%}.envelope{position:relative;width:min(60em,100% - 2em);margin:2em auto 0;padding-bottom:8em}aside .photo,.error img,.imageR img,.imageL img,.aligncenter img,img.aligncenter{padding:3px;background:var(--cream);border:1px solid var(--blue)}:is(.post,.posts) header h1{border-bottom:1px solid var(--ink)}body>footer{position:fixed;bottom:0;width:100%;min-height:6em;padding:.5em 1em 0;font-size:.8em;text-align:center;background:var(--ink);color:var(--paper);& a{color:var(--footer-link)}& ul{list-style:none;margin:0;padding:0}& li{margin:.25em 0}}body>footer :is(.mini-logo,.theme-switch){vertical-align:middle}body>footer .mini-logo{display:inline-block;& img{margin:0}& .on-light{display:var(--when-light)}& .on-dark{display:var(--when-dark)}}.theme-switch{display:inline-flex;margin-left:.5em;border:1px solid var(--footer-link);border-radius:13px;&[hidden]{display:none}& button{width:30px;height:24px;padding:0;border:0;border-radius:12px;background:none;color:var(--footer-link);cursor:pointer}& [aria-pressed="true"]{background:var(--footer-link);color:var(--ink);cursor:default}& svg{width:16px;height:16px;vertical-align:middle}}@media (width>=600px){body>footer{min-height:3em;text-align:left;& ul{display:inline-block}& li{display:inline-block;margin:.5em 2em 0 0}}body>footer :is(.mini-logo,.theme-switch){float:right}.theme-switch{margin:3px 1em 0 0}}.about{& h1{margin:0}& h2{margin-bottom:0}& p{margin:1.333333em 0}}aside{margin-bottom:2.666666em;& .photo{max-height:11.2em;margin:0 1em 8px 0}& ul{display:flow-root;list-style:none;margin:0 0 1.333333em;padding:0}& p{margin:0}}.elsewhere-links{padding-left:.5em;&>li{margin:.25em 8px 0 .1em;list-style-type:'- '}}@media (width>=600px){aside{float:right;width:30%}.about{width:62%}}body>header h1{font-size:1em;margin:0;padding:.666666em 1em;line-height:1}.post-text :is(h2,h3){margin:1em 0;font-size:1.333333em;line-height:1}.post{& .entry-title{margin:1.3333333em 0 0}& p{margin:1.333333em 0}}.post-info{& ul{list-style:none;margin:0 0 2.666666em;padding:0}& li{font-variant:small-caps}}@media (width>=600px){.post-info{float:right;width:30%;& ul{margin-bottom:0}}.post .post-text,#isso-thread{width:62%}.post p:first-child{margin-top:0}}.posts h1{margin-bottom:0}.colophon{& h1{margin-top:0;font-size:1em;font-weight:300;line-height:1.333333;font-variant:small-caps}& ul{list-style:none;margin:1.333333em 0;padding:0}}.posts{& .entry-title{margin:2.666666em 0 0;font-size:1.333333em;line-height:1}& p{margin:1.333333em 0}& .paginator{margin-top:2.666666em;padding-left:0;text-align:center}}.post-metadata{& ul{margin:1.333333em 0;padding-left:0;opacity:.8}& li{display:inline-block;font-style:italic}}.paginator li{display:inline-block;margin:0 .5em}@media (width>=600px){.colophon{float:right;width:30%}.hentry{width:62%}nav + .hentry .entry-title{margin-top:0}}.imageR img{float:right;margin:.7em 0 .7em 1.5em}.imageL img{float:left;margin:.7em 1.5em .7em 0}.zemanta-related-title{font-size:1em;margin:2.8em 0 0}.aligncenter{text-align:center;max-width:100%}ol.code{padding:5px;border:1px solid var(--ink);font:95%/110% "Andale Mono",Courier,monospace;text-align:left;& code{font:98%/110% "Andale Mono",Courier,monospace}}.code li{&.tab1{padding-left:1em}&.tab2{padding-left:2em}&.tab3{padding-left:3em}&.download,&:nth-last-child(2){list-style-type:none}}.highlight pre{overflow:auto}</style>
+<link rel="icon" href="/articles/theme/favicon/favicon.ico">
+<link rel="icon" type="image/png" href="/articles/theme/favicon/favicon-196x196.png" sizes="196x196">
+<link rel="icon" type="image/png" href="/articles/theme/favicon/favicon-128.png" sizes="128x128">
+<link rel="icon" type="image/png" href="/articles/theme/favicon/favicon-96x96.png" sizes="96x96">
+<link rel="icon" type="image/png" href="/articles/theme/favicon/favicon-32x32.png" sizes="32x32">
+<link rel="icon" type="image/png" href="/articles/theme/favicon/favicon-16x16.png" sizes="16x16">
+<link rel="apple-touch-icon-precomposed" sizes="152x152" href="/articles/theme/favicon/apple-touch-icon-152x152.png">
+<link rel="apple-touch-icon-precomposed" sizes="144x144" href="/articles/theme/favicon/apple-touch-icon-144x144.png">
+<link rel="apple-touch-icon-precomposed" sizes="120x120" href="/articles/theme/favicon/apple-touch-icon-120x120.png">
+<link rel="apple-touch-icon-precomposed" sizes="114x114" href="/articles/theme/favicon/apple-touch-icon-114x114.png">
+<link rel="apple-touch-icon-precomposed" sizes="76x76" href="/articles/theme/favicon/apple-touch-icon-76x76.png">
+<link rel="apple-touch-icon-precomposed" sizes="72x72" href="/articles/theme/favicon/apple-touch-icon-72x72.png">
+<link rel="apple-touch-icon-precomposed" sizes="60x60" href="/articles/theme/favicon/apple-touch-icon-60x60.png">
+<link rel="apple-touch-icon-precomposed" sizes="57x57" href="/articles/theme/favicon/apple-touch-icon-57x57.png">
+<meta name="application-name" content="Marko Samastur">
+<meta name="msapplication-TileColor" content="#FBF8E9">
+<meta name="msapplication-TileImage" content="/articles/theme/favicon/mstile-144x144.png">
+<meta name="msapplication-square70x70logo" content="/articles/theme/favicon/mstile-70x70.png">
+<meta name="msapplication-square150x150logo" content="/articles/theme/favicon/mstile-150x150.png">
+<meta name="msapplication-wide310x150logo" content="/articles/theme/favicon/mstile-310x150.png">
+<meta name="msapplication-square310x310logo" content="/articles/theme/favicon/mstile-310x310.png">
         <link href="/articles/feeds/atom.xml" type="application/atom+xml" rel="alternate" title="A notch above a monkey Full Atom Feed" />
         <link href="/articles/feeds/rss.xml" type="application/rss+xml" rel="alternate" title="A notch above a monkey Full RSS Feed" />
 </head>
@@ -323,13 +287,69 @@ body > footer .mini-logo {display: inline-block;width:97px;height:32px;border:0;
 </ul>
 </section><!-- /#content -->
 
-    <footer>
-        <ul>
-            <li>&copy; 2005-2026 Marko Samastur</li>
-						<li><a href="/articles/privacy-policy.html">Privacy policy</a></li>
-            <li><a href="/articles/feeds/rss.xml" rel="alternate" title="A notch above a monkey Full RSS Feed">Entries feed</a></li>
-        </ul>
-        <a href="/" class="mini-logo">Back to homepage</a>
-    </footer>
-</body>
+<footer>
+    <ul>
+        <li>&copy; 2005-2026 Marko Samastur</li>
+        <li><a href="../privacy-policy.html">Privacy policy</a></li>
+        <li><a href="/articles/feeds/rss.xml" rel="alternate" title="A notch above a monkey Full RSS Feed">Entries feed</a></li>
+    </ul>
+    <a href="/" class="mini-logo"><img class="on-light" src="../theme/img/markos_dark_small_bg.png" width="97" height="32" alt="Back to homepage"><img class="on-dark" src="../theme/img/markos_light_small_bg.png" width="97" height="32" alt="Back to homepage"></a>
+    <div class="theme-switch" role="group" aria-label="Colour theme" hidden>
+        <button type="button" value="light" aria-label="Light theme" aria-pressed="false"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><circle cx="12" cy="12" r="4"/><path d="M12 2v2m0 16v2M4.9 4.9l1.4 1.4m11.4 11.4 1.4 1.4M2 12h2m16 0h2M4.9 19.1l1.4-1.4M17.7 6.3l1.4-1.4"/></svg></button>
+        <button type="button" value="dark" aria-label="Dark theme" aria-pressed="false"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round" aria-hidden="true"><path d="M20.5 14.1A8.5 8.5 0 1 1 9.9 3.5a6.7 6.7 0 0 0 10.6 10.6z"/></svg></button>
+    </div>
+</footer>
+<script>(function () {
+var meta = document.querySelector('meta[name="color-scheme"]'),
+group = document.querySelector('.theme-switch'),
+buttons = group.querySelectorAll('button'),
+system = matchMedia('(prefers-color-scheme: dark)');
+function valid(theme) {
+return theme === 'light' || theme === 'dark' ? theme : null;
+}
+function systemTheme() {
+return system.matches ? 'dark' : 'light';
+}
+function shownTheme() {
+return valid(meta.content) || systemTheme();
+}
+function update() {
+var shown = shownTheme(), os = systemTheme(), i, button;
+for (i = 0; i < buttons.length; i++) {
+button = buttons[i];
+button.setAttribute('aria-pressed', button.value === shown);
+button.title = button.getAttribute('aria-label') +
+(button.value === os ? ' (system default)' : '');
+}
+}
+function apply(theme) {
+meta.content = valid(theme) || 'light dark';
+update();
+}
+group.addEventListener('click', function (e) {
+var button = e.target.closest('button'),
+to = button && button.value,
+override = to === systemTheme() ? null : to;
+if (!to || to === shownTheme()) {
+return;
+}
+try {
+if (override) {
+localStorage.setItem('theme', override);
+} else {
+localStorage.removeItem('theme');
+}
+} catch (err) {
+}
+apply(override);
+});
+addEventListener('storage', function (e) {
+if (e.key === 'theme' || e.key === null) {
+apply(e.newValue);
+}
+});
+system.addEventListener('change', update);
+update();
+group.hidden = false;
+})();</script></body>
 </html>
