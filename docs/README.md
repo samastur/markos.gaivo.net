@@ -45,6 +45,13 @@ choosing the other theme stores `light` or `dark` in `localStorage.theme` only
 when that differs from the system, and clears it when it matches, so the site
 follows the system again.
 
+Switching animates through a view transition: the footer logo fades out, the
+page cross-fades to the other colours, then the new logo fades in. The logo
+images have the footer colour baked in, which is why they sit the cross-fade
+out. The timing is set by `--logo-fade` and `--theme-fade` in `home.css`.
+Browsers without view transitions, and readers who prefer reduced motion,
+get an instant switch, as do changes coming from the system or another tab.
+
 ## Posts in Slovenian
 
 Mark a post written in Slovenian with `Lang: sl` in its metadata (`sl` is the

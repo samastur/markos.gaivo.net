@@ -186,6 +186,40 @@ body > footer .mini-logo { /* Not just .mini-logo: old posts have one too */
 		vertical-align: middle;
 	}
 }
+/*
+ * Theme change animation (theme.js wraps the switch in a view transition;
+ * browsers without one switch at once). The page cross-fades, but the logo
+ * has the footer colour baked in, so it fades out first and back in after.
+ */
+:root {
+	--logo-fade: 120ms;
+	--theme-fade: 200ms;
+}
+body > footer .mini-logo {
+	view-transition-name: theme-logo;
+}
+::view-transition-old(root),
+::view-transition-new(root) {
+	animation-delay: var(--logo-fade);
+	animation-duration: var(--theme-fade);
+}
+::view-transition-old(theme-logo) {
+	animation: theme-logo-out var(--logo-fade) ease-in both;
+}
+::view-transition-new(theme-logo) {
+	animation: theme-logo-in var(--logo-fade) ease-out calc(var(--logo-fade) + var(--theme-fade)) both;
+}
+@keyframes theme-logo-out {
+	to {
+		opacity: 0;
+	}
+}
+@keyframes theme-logo-in {
+	from {
+		opacity: 0;
+	}
+}
+
 @media (width >= 600px) {
 	body > footer {
 		min-height: 3em;

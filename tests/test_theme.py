@@ -35,6 +35,10 @@ class MinifyCssTests(unittest.TestCase):
             self.minify("@media (width >= 600px) and (x) { li { a: '- ' } }"),
             "@media (width>=600px) and (x){li{a:'- '}}")
 
+    def test_keeps_spaces_around_calc_operators(self):
+        self.assertEqual(self.minify('a { b: calc(var(--x) + 1ms) }'),
+                         'a{b:calc(var(--x) + 1ms)}')
+
     def test_stylesheet_stays_balanced(self):
         css = self.minify(STYLESHEET.read_text())
         self.assertEqual(css.count('{'), css.count('}'))

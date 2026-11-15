@@ -13,7 +13,8 @@
 	var meta = document.querySelector('meta[name="color-scheme"]'),
 		group = document.querySelector('.theme-switch'),
 		buttons = group.querySelectorAll('button'),
-		system = matchMedia('(prefers-color-scheme: dark)');
+		system = matchMedia('(prefers-color-scheme: dark)'),
+		reducedMotion = matchMedia('(prefers-reduced-motion: reduce)');
 
 	function valid(theme) {
 		return theme === 'light' || theme === 'dark' ? theme : null;
@@ -55,7 +56,15 @@
 		} catch (err) {
 			// Storage blocked: switch this page anyway.
 		}
-		apply(override);
+		// Animate the change (timing in home.css) where view transitions
+		// exist and motion is welcome; elsewhere switch at once.
+		if (document.startViewTransition && !reducedMotion.matches) {
+			document.startViewTransition(function () {
+				apply(override);
+			});
+		} else {
+			apply(override);
+		}
 	});
 	// Keep other open tabs in sync, and the highlight in sync with the OS.
 	addEventListener('storage', function (e) {
