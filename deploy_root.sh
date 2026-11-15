@@ -1,9 +1,10 @@
 #!/bin/sh
 # Deploy root/ (the homepage and its assets) to markos.gaivo.net.
 #
-# Rebuilds root/index.html from homepage/about.md, then rsyncs root/ to the
-# web root. The blog lives in articles/ on the server and is deployed by
-# articles/Makefile; it is excluded here and never touched.
+# Rebuilds root/index.html from homepage/about.md and root/sitemap.xml from
+# the published posts, then rsyncs root/ to the web root. The blog lives in
+# articles/ on the server and is deployed by articles/Makefile; it is
+# excluded here and never touched.
 #
 # Nothing is deleted on the server unless you pass --delete, and even then
 # articles/ stays protected.
@@ -24,6 +25,7 @@ SSH_TARGET_DIR=${SSH_TARGET_DIR:-/home/markos/gaivo}
 cd "$(dirname "$0")"
 
 ./build_homepage.py
+./build_sitemap.py
 
 # The repo keeps the Apache config unhidden as htaccess; it goes live as
 # .htaccess. Excluded files (articles/, editor junk) are never deleted remotely.

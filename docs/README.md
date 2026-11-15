@@ -26,3 +26,13 @@ Markdown in Aaron first, `-o -` prints to stdout).
 the server, uploading `htaccess` as `.htaccess`. The blog's `articles/`
 directory is excluded and never touched. Pass `-n` for a dry run; remote files
 are only removed when `--delete` is given.
+
+## Sitemap
+
+`build_sitemap.py` writes `root/sitemap.xml` with the homepage and every
+published blog post. Posts are read with Pelican's own reader and the publish
+settings, so URLs and the default `published` status match the real site.
+A post's `lastmod` is its `Modified` metadata, falling back to `Date`; the
+homepage's is the modification time of `homepage/about.md`. `deploy_root.sh`
+regenerates it on every deploy, so the file itself isn't tracked in git.
+Submit `https://markos.gaivo.net/sitemap.xml` in Google Search Console.
